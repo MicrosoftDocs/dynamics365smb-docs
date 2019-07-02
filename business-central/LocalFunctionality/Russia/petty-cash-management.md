@@ -1,96 +1,98 @@
-# Управление мелкими доходами/расходами
+---
+title: Petty cash management in Russia
+description: Russian enhancements include managing petty cash.
+author: DianaMalina
 
-Функция управления мелкими доходами/расходами позволяет выполнять следующие действия.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Создавать несколько карточек счетов кассы.
-- Создавать документы приходных и расходных кассовых ордеров, при этом:
-  - нумеровать их, используя специальные правила нумерации,
-  - создавать печатные окна документов в требуемом формате,
-  - учитывать документы.
-- Отменять учтенные кассовые документы (чеки).
-- Печатать следующие обязательные страницы:
-  - Прих. Кассовый Ордер КО-1
-  - Расх. Кассовый Ордер КО-2
-- Печатать следующие обязательные отчеты:
-  - Журнал регистрации кассовых документов КО-3
-  - Лист Кассовой Книги
-  - Лист Кассовой Книги (Валюта)
-  - Касса Отчет Кассира КО-4
-  - Реестр Касс. Ордеров (Месяц)
+# Petty Cash Management
 
-## Журнал приходных кассовых ордеров
+The petty cash management feature enables you to:
 
-Чтобы использовать функцию приходных кассовых ордеров, создайте один шаблон финансового журнала с типом "Кассовый ордер". В компании может быть несколько счетов кассы и несколько касс (например, несколько кассиров) для каждого счета кассы. Для каждого счета кассы следует создать счет кассы с помощью функции "Касса Карточка".
+- Create multiple cash account cards.
+- Create ingoing and outgoing cash order documents with the following specifications:
+  - Number them using special numbering rules.
+  - Create printing windows of the documents in the required format.
+  - Post the documents.
+- Void posted cash documents (checks).
+- Print the following required reports:
+  - Cash Order Journal CO-3
+  - Cash Report CO-4.
 
-Для каждой кассы создайте раздел финансового журнала. В поле **Бал. Тип Счета** строки пакета следует выбрать значение "Банковский счет" и ввести соответствующий счет кассы в поле **Номер балансового счета**.
+## Cash Order Journal
 
-Ниже описана процедура доступа к окну **Журнал прих. кассовый ордер**.
+To use the ingoing cash order feature, create one general journal template with the Cash Order Payment type. There can be several cash accounts in the company, and several cash points (for example cashiers) for each cash account. For each cash account, you must create a cash account with the Cash Account Card feature.
 
-- В **Финансовый менеджмент** выберите **Денежные средства**, затем выберите **Журнал приходных кассовых ордеров**.
+For each cash point, create a General Journal batch. The value of the **Balance Account Type** field of the batch line should be chosen as Bank Account, and the appropriate cash account should be entered in the **Balance Account Number** field.
 
-Чтобы создать новый приходный кассовый ордер или работать с существующим неучтенным кассовым ордером, выберите правильный код раздела. Окно **Журнал прих. кассовых ордеров** содержит поля, перечисленные в следующей таблице.
+The following procedure shows how to access the **Cash Order Journal** window.
 
-| Поле                                                         | Описанием                                                    |
+- In **Financial Management**, choose **Cash Management**, and then choose **Cash Order Journal**.
+
+  To create a new  cash order, or to work with an existing unposted cash order, choose the correct batch name (and accordingly the cash point). This field is required and matches the **Batch Name** field in financial journals. The **Cash Order Journal** window contains the fields listed in the following table.
+
+| Field                 | Description                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| **Posting Date**                                             | Enter the **Posting Date** field in general journals.        |
+| **Document Type**                                            | Enter the **Document Type** field in general journals. The options are:   -    -   Payment -   Refund   If the value of the **Account Type** field is Client or Vendor, then the **Document Type** field is not editable, and is automatically filled in depending on the value in the **Account Type** field and the sign of the amount in the **Income** field. |
+| **Prepayment**                                               | In some cases, the financial posting of payments is different in relation to the date of payment, depending on whether if it is before or after the appropriate invoice financial posting. This field should be selected in case of prepayment. |
+| **Document No.**                                             | Enter the **Document Number** field in general journals.   If the value of the **Bank Payment Type** field is Computer Check, then the value of the **Document Number** field is automatically filled in after printing the ingoing cash order. The field is filled in with the next number from the number series that is specified in the **Debit Cash Order Number Series** field in the appropriate cash card. In this case, if you use the Void Check Print function on the card, clear the field.   The document number of the posted ingoing cash order is equal to the document number of the unposted ingoing cash order. |
+| **Account Type**                                             | Enter the **Account Type** field in general journals. This is the type of the object that is the posting source of a cash payment. |
+| **Account Code**                                             | Enter the **Account Code** field in general journals. This is the account code of the object that is the posting source of a cash payment. |
+| **Posting Group**                                            | Enter the **Posting Group** field in general journals. This field is not editable. |
+| **Currency Code**                                            | Enter the **Currency Code** field in general journals.       |
+| **Income**                                                   | Enter the amount of the payment. Enter the **Credit Amount** field in general journals. If it is positive, then it is an income to the cash account. |
+| **Bank Payment Type**                                        | Enter the **Bank Payment Type** field in general journals. If the value is Computer Check, the order cannot be posted before printing. |
+| **From to**                                                  | Enter the **Description** field in general journals. It is used in the printing window of an order as a payment source description. |
+| **Reason**, **Supplement**, **Including**                    | These fields are transferred to Check Ledger entries during posting and used in printing windows of posted and unposted ingoing cash orders. They can be filled in manually or with the Text Codes functionality. |
+| **Debit Account**                                            | This field indicates the general ledger account that is debited as a result of order posting. It is automatically shown according to the posting group's setup of the account (or balance account if the Income field contains a negative value). It is also used in the printing window. This field is not editable. |
+| **Credit Account**                                           | This field indicates the general ledger account that is credited as a result of order posting. It is automatically shown according to the posting group's setup of the balance account (or account if the **Income** field contains a negative value). It is used in printing windows. This field is not editable. |
+| **Reason Code**, **Applies-to Doc. Type**, **Applies-to Doc. No**.,  **Global Dimension 1 Code**, **Global Dimension 2 Code** | Enter these fields in general journals.                      |
+
+Choose **Posting** from the **Posting** button (Hot Key F11) to make posting to ledger entries similar to standard posting from payment journals and cash receipt journals.
+
+## Cash receipt Journal
+
+ The Cash Order Journal window contains the fields listed in the following table.
+
+| Field                                                        | Definition                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Дата учета**                                               | Введите значение в поле **Дата Учета** в финансовых журналах. |
-| **Тип документа**                                            | Введите значение в поле **Тип документа** в финансовых журналах. Возможные значения для этого поля:   -    -   Платеж -   Возмещение   Если значение в поле **Тип Счета** — "Клиент" или "Поставщик", то поле **Тип документа** — нередактируемое и заполняется автоматически в зависимости от значения в поле **Тип Счета** и знака суммы в поле **Приход**. |
-| **Предоплата**                                               | В некоторых случаях финансовый учет платежей будет различным в зависимости от даты оплаты, т.е. от того, выполнена ли оплата до или после финансового учета счета. Этот флажок следует установить в случае предоплаты. |
-| **Номер документа:**                                         | Введите значение в поле **Документ Но.** в финансовых журналах.   Если поле **Тип банк. платежа** имеет значение "Компьютерный", то значение поля **Номер документа** заполняется автоматически после печати приходного кассового ордера. Поле заполняется следующим номером из номерной серии, указанной в поле **Приходный Ордер Серия Номеров** в соответствующей кассовой карточке. В этом случае, если в карточке используется функция "Отменить печать ордера", снимите этот флажок.   Номер документа учтенного приходного кассового ордера равен номеру неучтенного приходного кассового ордера. |
-| **Тип счета**                                                | Введите значение в поле **Тип Счета** в финансовых журналах. Это тип объекта, который является источником учета для оплаты наличными. |
-| **Номер счета**                                              | Введите значение в поле **Номер счета** в финансовых журналах. Это код счета для объекта, который является источником учета для оплаты наличными. |
-| **Код Валюты**                                               | Введите значение в поле **Код Валюты** в финансовых журналах. |
-| **Сумма**                                                    | Введите сумму оплаты. Введите значение в поле **Сумма по кредиту** в финансовых журналах. Если оно положительно, то оно является приходом на счет кассы. |
-| **Источник Платеж. Документа**                               | Введите значение в поле **Тип банк. платежа** в финансовых журналах. Если это значение "Компьютерный ", ордер не может быть учтен до печати. |
-| **Принято от**                                               | Введите значение в поле **Описание** в финансовых журналах. Оно используется в окне печати ордера в качестве описания источника оплаты. |
-| **Дебет счет**                                               | Это поле определяет счет главной книги, который дебетируется в результате учета заказа. Оно отображается автоматически в соответствии с настройкой группы учета для счета (или балансового счета, если поле **сумма** содержит отрицательное значение). Оно также используется в окне печати. |
-| **Кредит счет**                                              | Это поле определяет счет главной книги, который кредитуется в результате учета заказа. Оно отображается автоматически в соответствии с настройкой группы учета для балансового счета (или счета, если поле **сумма** содержит отрицательное значение). Оно используется в окнах печати. |
-| **Код Причины**, **Примен. Тип Документа**, **Примен. Документ Но.**.,  **Код глобального измерения 1**, **Код глобального измерения 2** | Введите значения этих полей в финансовых журналах.           |
+| **Posting Date**                                             | Enter the **Posting Date** field in general journals.        |
+| **Document Type**                                            | Enter the **Document Type** field in general journals. The options are:   -   **Payment** -   **Refund**   If the value of the **Account Type** field is Client or Vendor, then the **Document Type** field is not editable and is automatically filled in depending on the **Account Type** field and the sign of the value in the **Expenses** field. |
+| **Prepayment**                                               | In some cases, the financial posting of payments is different in relation to the date of payment, depending on whether if it is before or after the appropriate invoice financial posting. This field should be selected in case of prepayment. |
+| **Document No.**                                             | Enter the **Document Number** field in general journals. If the value of the **Bank Payment Type** field is Computer Check, then the value of the **Document Number.** field is automatically filled in after printing the outgoing cash order. The field is filled in with the next number from the number series that is specified in the **Credit Cash Order No. Series** field in the appropriate cash card. In this case, if you use the Void Check Print function on the card, the field is cleared.   The document number of a posted outgoing cash order is equal to the document number of the unposted outgoing cash order. |
+| **Account Type**                                             | Enter the **Account Type** field in general journals. This is the type of the object that is the posting source of a cash payment. |
+| **Account Code**                                             | Enter the **Account Code** field in general journals. This is the account code of the object that is the posting source of a cash payment. |
+| **Posting Group**                                            | Enter the **Posting Group** field in general journals. It is automatically filled. This field is not editable. |
+| **Currency Code**                                            | Enter the **Currency Code** field in general journals.       |
+| **Expenses**                                                 | Enter the amount of the payment. Enter the **Debit Amount** field in general journals. If it is positive, then it is an expense from the cash account. |
+| **Bank Payment Type**                                        | Enter the **Bank Payment Type** field in general journals.   |
+| **Given**                                                    | Enter the **Description** field in general journals. It is used in the printing window of an order as a payment recipient description. |
+| **Reason**, **Supplement**, **Per**                          | These fields are transferred to Check Ledger entries during posting and used in printing windows of posted and unposted ingoing cash orders. They can be filled in manually or with the Text Codes. |
+| **Analitic Code**                                            | This field is not editable. This field is equal to the value of the **Account Number** field. |
+| **Debit Account**                                            | This field indicates the general ledger account that is debited as a result of order posting. It is automatically shown according to the posting group's setup of the account (or balance account if the Income field contains a negative value). It is also used in the printing window. This field is not editable. |
+| **Credit Account**                                           | This field indicates the general ledger account that is credited as a result of order posting. It is automatically shown according to the posting group's setup of the balance account (or account if the Income field contains a negative value). It is used in printing windows. This field is not editable. |
+| **Reason Code**, **Applies-to Doc. Type**, **Applies-to Doc. No.**,  **Global Dimension 1 Code**, **Global Dimension 2 Code** | Enter these fields in general journals.                      |
 
-Выберите **Учет** в меню кнопки **Учет** (клавиша F11), чтобы выполнить учет операций книги аналогично стандартному учету из платежных журналов и журналов кассовых поступлений.
+The functions executed from the window are the same as those for the **Cash receipt Journal** window.
 
-## Журнал регистрации кассовых документов
+## Cash Order Journal CO-3 Report
 
-Окно "Журнал регистрации кассовых документов" содержит поля, перечисленные в следующей таблице.
+The **Cash Order Journal CO-3** report shows the register of posted ingoing and outgoing cash orders during some reporting period in the unified standard printing window that is certified by Russian accounting legislation. For more information, see [How to: Print the Cash Order Journal CO-3 Report](How-to-Print-the-Cash-Order-Journal-CO-3-Report.md).
 
-| Поле                                                         | Описание                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Дата учета**                                               | Введите значение в поле **Дата учета** в финансовых журналах. |
-| **Тип документа**                                            | Введите значение в поле **Тип документа** в финансовых журналах. Возможные значения для этого поля:   -   **Оплата** -   **Возмещение**.   Если значение в поле **Тип Счета** — "Клиент" или "Поставщик", то поле **Тип документа** — нередактируемое и заполняется автоматически в зависимости от значения в поле **Тип Счета** и знака значения в поле **Расходы**. |
-| **Предоплата**                                               | В некоторых случаях финансовый учет платежей будет различным в зависимости от даты оплаты, т. е. от того, выполнена ли оплата до или после финансового учета счета. Этот флажок следует установить в случае предоплаты. |
-| **Номер документа:**                                         | Введите значение в поле **Документ Но.** в финансовых журналах. Если поле **Тип банк. платежа** содержит значение "Компьютерный", то значение поля **Документ Но.** автоматически заполняется после печати расходного кассового ордера. Поле заполняется следующим номером из номерной серии, указанной в поле **Серия номеров расходных ордеров** в соответствующей кассовой карточке. В этом случае, если в карточке используется функция "Отменить Печать Ордера", этот флажок снят.   Номер документа учтенного расходного кассового ордера равен номеру неучтенного расходного кассового ордера. |
-| **Тип счета**                                                | Введите значение в поле **Тип счета** в финансовых журналах. Это тип объекта, который является источником учета для оплаты наличными. |
-| **Счет Но.**                                                 | Введите значение в поле **Код счета** в финансовых журналах. Это код счета для объекта, который является источником учета для оплаты наличными. |
-| **Код Валюты**                                               | Введите значение в поле **Код валюты** в финансовых журналах. |
-| **Сумма**                                                    | Введите сумму оплаты. Введите значение в поле **Дебет Сумма** в финансовых журналах. Если оно положительно, то оно является расходом со счета кассы. |
-| **Источник Платеж. Документа**                               | Введите значение в поле **Тип банк. платежа** в финансовых журналах. |
-| **Описание**                                                 | Введите значение в поле **Описание** в финансовых журналах. Оно используется в окне печати ордера в качестве описания получателя оплаты. |
-| **Дебет счет**                                               | Это поле определяет счет главной книги, который дебетируется в результате учета заказа. Оно отображается автоматически в соответствии с настройкой группы учета для счета (или балансового счета, если поле «Приход» содержит отрицательное значение). Оно также используется в окне печати. Данное поле не редактируется. |
-| **Кредит счет**                                              | Это поле определяет счет главной книги, который кредитируется в результате учета заказа. Оно отображается автоматически в соответствии с настройкой группы учета для балансового счета (или счета, если поле "Приход" содержит отрицательное значение). Оно используется в окнах печати. Данное поле не редактируется. |
-| **Код Причины**, **Примен. Тип Документа**, **Примен. Документ Но.**.,  **Код глобального измерения 1**, **Код глобального измерения 2** | Введите значения этих полей в финансовых журналах.           |
+## Cash Report CO-4
 
-В **Журнале регистрации кассовых документов** можно выполнить следующие функции, перечисленные в таблице.
+The **Cash Report CO-4** report shows mandatory daily cash transactions in standard format as required by Russian accounting legislation. For more information, see[How to: Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md).
 
-| Функции                    | Описанием                                                    |
-| :------------------------- | :----------------------------------------------------------- |
-| Копировать документ        | Выполняет отчет, который копирует информацию в текущий ордер из любой операции книги платежных документов (учтенный кассовый ордер). Выберите операцию книги платежных документов, из которой следует выполнить копирование, и новую дату учета. |
-| Аннулировать печать ордера | Эта функция изменяет статус приходного кассового ордера с **Платеж. Документ Напечатан** на **Нет**, и если имеется соответствующая запись в таблице операций платежной книги, то эта функция изменяет значение в поле **Статус Операции** в этой записи с **Напечатано** на **Отменено**. |
+## See Also
 
-## Отчет "Журнал Кассовых Ордеров КО-3"
+[Bank Management](Bank-Management.md)  
+[How to: Create Cash Account Cards](How-to-Create-Cash-Account-Cards.md)  
+[How to: Print the Cash Order Journal CO-3 Report](How-to-Print-the-Cash-Order-Journal-CO-3-Report.md)  
+[How to: Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md)  
 
-Отчет **Журнал кассового ордера KO-3** показывает реестр учтенных приходных и расходных кассовых ордеров за некоторый отчетный период в унифицированном стандартном окне печати, сертифицированным в соответствии с российским законодательством в области бухгалтерского учета. Дополнительные сведения см. в разделе Практическое руководство. Печать отчета "Журнал кассовых ордеров КО-3"
-
-
-
-## Кассовая книга КО-4
-
-Отчет **Кассовая книга КО-4** показывает обязательные ежедневные проводки наличных средств в стандартном формате, установленном российским законодательством в области бухгалтерского учета. Дополнительные сведения см. в разделе Практическое руководство. Печать отчета "Кассовая книга КО-4".
-
-## См. также
-
-[Управление банком](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-management.md)
-
-[Практическое руководство. Создание карточек счетов кассы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards.md)
-
-[Практическое руководство. Печать отчета "Журнал кассовых ордеров КО-3"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report.md)
-
-[Практическое руководство. Печать отчета "Кассовая книга КО-4"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report.md)

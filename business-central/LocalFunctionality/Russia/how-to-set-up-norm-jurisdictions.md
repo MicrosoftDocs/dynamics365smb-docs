@@ -1,53 +1,54 @@
-# Практическое руководство. Настройка юрисдикций нормы
+---
+title: Setting up norm jurisdictions in Russia
+description: Russian enhancements include norm jurisdictions.
+author: DianaMalina
 
-Юрисдикции нормы основаны на российском налоговом законодательстве, в которое определены различные ставки налогов. Юрисдикции номы используются для расчета налогооблагаемых прибылей и убытков в налоговом учете. В окне **Юрисдикции нормы** вы можете настроить и определить юрисдикции нормы, которые будут использоваться при расчете налоговых разниц.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up Norm Jurisdictions
 
-## Настройка юрисдикций нормы 
+Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Юрисдикции нормы налогового регистра**, затем выберите связанную ссылку.
+## To set up norm jurisdictions
 
-2. Введите **Код** и **Описание** юрисдикции нормы, которую необходимо настроить.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Norm Jurisdictions**, and then choose the related link.
 
-3. Выберите действие **Группы**, чтобы открыть окно **Группы норм**.
+2. Enter an identifying **Code** and **Description** for the norm jurisdiction that you want to set up.
 
-4. В окне **Группы норм** введите следующие сведения.
+3. Choose the **Groups** action to open the **Norm Groups** window.
 
-   | Поле                   | Описанием                                                    |
-   | :--------------------- | :----------------------------------------------------------- |
-   | **Код**                | Введите код для идентификации группы норм.                   |
-   | **Описание**           | Введите описание группы норм.                                |
-   | **Есть подробности**   | Указывает, определены ли особенности расчета для группы норм. |
-   | **Поиск Подробно**     | Выберите метод, который можно использовать для поиска юрисдикций норм. Возможные значения: **До даты** и **По состоянию на дату.** |
-   | **Метод Формирования** | Выберите **Расчет**, если юрисдикция нормы рассчитывается по заданной формуле. Оставьте поле пустым, если норма постоянна. |
+4. In the **Norm Groups** window, enter the following information.
 
-5. Выберите действие **Сведения**, чтобы открыть окно **Подробности нормы**. В этом окне определите постоянную ставку налога для нормы.
+   | Field              | Description                                                  |
+   | :----------------- | :----------------------------------------------------------- |
+   | **Code**           | Enter a code to identify the norm group.                     |
+   | **Description**    | Enter a description for the norm group.                      |
+   | **Has Details**    | Specifies if calculation details are defined for the norm group. |
+   | **Search Detail**  | Select the method that you use for norm jurisdiction search. The options include **To Date** and **As of Date.** |
+   | **Storing Method** | Select **Calculation** if the norm jurisdiction is calculated with a specific formula. Leave this field blank if the norm is a constant value. |
 
-6. В окне **Подробности нормы** введите следующие сведения.
+5. Choose the **Details** action to open the **Norm Details** window. In this window, you will define a constant tax rate for the norm.
 
-   | Поле                     | Описанием                                                    |
-   | :----------------------- | :----------------------------------------------------------- |
-   | **Дата Начала Действия** | Введите дату начала срока действия нормы.                    |
-   | **Норма**                | Ввод значения нормы. Это значение используется для расчета налоговых разниц. |
+6. In the **Norm Details** window, enter the following information.
 
-7. Нажмите кнопку **Закрыть**, чтобы закрыть окно **Подробности нормы** и сохранить введенные данные.
+   | Field              | Description                                                  |
+   | :----------------- | :----------------------------------------------------------- |
+   | **Effective Date** | Enter an effective date for the norm.                        |
+   | **Norm**           | Enter a value for the norm. This value is used to calculate tax differences. |
 
- 
+7. Choose the **Close** button to close the **Norm Details** window and save your entries.
 
-Настроенная юрисдикция нормы теперь доступна для расчета налоговых разниц.
+The norm jurisdiction that you set up is now available for use in calculating tax differences.
 
- 
+## See Also
 
-## См. также 
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
-
-[Настройка расчета налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md)
-
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
-
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
+[Tax Differences](Tax-Differences.md)  
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
+[Tax Accounting](Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  

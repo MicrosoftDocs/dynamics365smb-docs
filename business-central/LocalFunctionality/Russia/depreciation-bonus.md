@@ -1,50 +1,50 @@
-# Амортизационная премия
+---
+title: Depreciation bonus in Russia
+description: Russian enhancements include depreciation.
+author: DianaMalina
 
-​					 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-*Амортизационная премия* представляет собой метод ускоренной амортизации, применяемый в налоговом учете в связи с положениями налогового законодательства России. Амортизационная премия позволяет включить затраты на основные средства и капиталовложения в текущий период по ставке, равной 10 или 30 процентам.
+# Depreciation Bonus
 
- 
+Depreciation bonus is an accelerated depreciation method applied in tax accounting because of provisions in the Russian tax laws. A depreciation bonus enables you to include fixed asset and capital investment expenses in the current period at the rate of 10 percent or 30 percent.
 
-## Расчет амортизационной премии 
+## Depreciation Bonus Calculation
 
-Амортизационная премия может рассчитываться и применяться для следующих типов транзакций:
+A depreciation bonus can be calculated and applied for the following types of transactions:
 
-- Затраты на приобретение основных средств.
-- Затраты на приобретение и повышение оценочной стоимости капиталовложений для всех предшествующих периодов, исключая текущий. 
+- Acquisition costs of fixed assets.
+- Acquisition costs and appreciation of capital investments for all previous periods excluding the current period. 
 
-Ставка амортизационной премии составляет 10 или 30 процентов в зависимости от класса основных средств. Ставка установлена для группы амортизации с помощью поля **Процент амортизационной премии** в окне **Группа амортизации**.
+The rate of the depreciation bonus is 10 percent or 30 percent, depending on the class of the fixed asset. The rate is set for a depreciation group using the **Depr. Bonus Percentage** field in the **Depreciation Group** window. 
 
-После того как амортизационная премия рассчитана и учтена для периода, все транзакции очищаются для подготовки к следующему периоду.
+After the depreciation bonus is calculated and posted for a period, all transactions are cleared in preparation for the next period.
 
- 
+## Depreciation Bonus Settings
 
-## Параметры амортизационной премии 
+Before depreciation bonus is calculated, you will have to make sure that the appropriate settings have been applied in the **Tax Register Setup** window. Use the information in the following table to apply depreciation bonus settings.
 
-Перед расчетом амортизационной премии необходимо убедиться в том, были применены соответствующие параметры в окне **Настройка налоговых регистров**. Используйте информацию в следующей таблице для применения параметров амортизационной премии.
+| Field                              | Description                                                  |
+| :--------------------------------- | :----------------------------------------------------------- |
+| **Rel. Act as Depr. Bonus Base**   | Select if you want fixed asset releases to be used to calculate the depreciation bonus base. |
+| **Depr. Bonus TD Code**            | Enter a tax difference code that is used to calculate the depreciation bonus. The selected tax difference code should be identified as a depreciation bonus during tax difference setup. |
+| **Depr. Bonus Recovery from**      | Enter the starting date from which depreciation is recovered if the fixed asset is sold. If the fixed asset is sold before this date and the depreciation bonus has already been applied, the depreciation bonus will not be recovered. |
+| **Depr. Bonus Recov. Per. (Year)** | Enter the period in which the depreciation bonus is recovered if the fixed asset is sold. |
+| **Depr. Bonus Recovery TD Code**   | Enter the tax difference code that is used to calculate the depreciation bonus recovery amount in tax accounting. |
 
- 
+## Selecting and Canceling Depreciation Bonus Transactions 
 
-| Поле                                              | Описанием                                                    |
-| :------------------------------------------------ | :----------------------------------------------------------- |
-| **Вкл. акт ввода в эксп. в расчет аморт. премии** | Выберите, требуется ли использовать прием-передачу ОС для расчета базы амортизационной премии. |
-| **Код нал. разн. по аморт. премии**               | Введите код налоговой разницы, который используется для вычисления амортизационной премии. Выбранный код налоговой разницы должен быть задан как амортизационная премия во время настройки налоговой разницы. |
-| **Восстановление аморт. премии c**                | Введите начальную дату восстановления амортизации в случае продажи ОС. Если основное средство продано до этой даты и уже была применена амортизационная премия, амортизационная премия не будет восстанавливаться. |
-| **Период восстановл. аморт. премии (лет)**        | Введите период, в который производится восстановления амортизационной премии в случае продажи ОС. |
-| **Код нал.разн. для восстановл. аморт.премии**    | Ведите код налоговой разницы, который используется для вычисления суммы восстановления амортизационной премии в налоговом учете. |
+Depreciation bonus transactions should be posted before the monthly depreciation amount is calculated and posted.
 
- 
+To select depreciation bonus transactions for posting for a period, select **Depr. Bonus** in the **Fixed Asset Journal** window and the **Fixed Asset G/L Journal** window. 
 
-## Выбор и отмена транзакций амортизационной премии
+You can cancel depreciation bonus transactions by running the **Cancel FA Ledger Entries** batch job. After posting the depreciation bonus cancellation, all operations that are included in the depreciation bonus base must be manually selected as the depreciation bonus base.
 
-Транзакции амортизационной премии должны учитываться до расчета и учета суммы ежемесячной амортизации.
+## See Also
 
-Для выбора транзакций амортизационной премии публикации для учета за период выберите **Аморт. премия** в окне **Журнал ОС** и окне **Журнал ГК для ОС**.
-
-Можно отменять транзакции амортизационной премии путем использовании функции **Отменить операции** в **Книга операций по ОС**. 
-
- 
-
-## См. также 
-
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
+[Fixed Assets](fixed-assets.md)

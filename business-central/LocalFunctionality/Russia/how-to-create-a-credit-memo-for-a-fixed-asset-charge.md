@@ -1,26 +1,29 @@
-# Практическое руководство. Создание кредит-ноты для издержек ОС
+---
+title: Creating credit memos in Russia
+description: Russian enhancements include credit memos for fixed assets charges.
+author: DianaMalina
 
-Если необходимо исправить ошибку издержек основных средств в счете, можно учесть кредит-ноту для издержек основных средств. Ниже показано, как создать кредит-ноту по издержкам основного средства.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Create a Credit Memo for a Fixed Asset Charge
 
-## Создание кредит-ноты для издержек ОС 
+If you need to fix an error on a fixed asset charge of an invoice, you can post a credit memo for the fixed asset charge. The following procedure shows how to create a credit memo for the fixed asset charge.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Кредит-нота покупки**, а затем выберите связанную ссылку.
-2. Введите данные кредит-ноты для ошибочных издержек основного средства.
-3. Учет кредит-ноты.
+## To create a credit memo for a fixed asset charge
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Credit Memo**, and then choose the related link.
+2. Enter the credit memo information for the erroneous fixed asset charge.
+3. Post the credit memo.
 
-> :speech_balloon:  Примечание
->
-> Можно также создать кредит-ноту для издержек основного средства путем копию исходного счета.
+> [!NOTE]
+> You can also create a credit memo for the fixed asset charge by copying the original invoice.
 
- 
+## See Also
 
-## См. также
-
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
-
- [Функциональность локальной версии для России](https://github.com/AliiaSalikhova/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-local-functionality.md)
-
+[Fixed Assets](../../fa-manage)  
+[Russia Local Functionality](russia-local-functionality.md)  

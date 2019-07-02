@@ -1,38 +1,42 @@
-# Практическое руководство. Регистрация НДС по заказам на покупку
+---
+title: Registering VAT on purchase orders in Russia
+description: Russian enhancements include VAT on purchase orders.
+author: DianaMalina
 
-В России организации должны вести журнал НДС по входящим и исходящим счетам. Business Central позволяет регистрировать НДС по заказам на покупку, чтобы эта информация отслеживалась в журнале счетов НДС.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Register VAT on Purchase Orders
 
-## Регистрация НДС по заказам на покупку 
+In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Заказ на покупку**, затем выберите связанную ссылку. Выберите соответствующий заказ на покупку.
+## To register VAT on a purchase order
 
-2. На экспресс-вкладке **Отгрузка** заполните поля, как описано в следующей таблице.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
 
-   | Поле                         | Описанием                              |
-   | :--------------------------- | :------------------------------------- |
-   | **Поставщик Накладная Но.**  | Введите номер из накладной поставщика. |
-   | **Поставщик Накладная Дата** | Введите дату из накладной поставщика.  |
+2. On the **Shipping** FastTab, fill in the fields as described in the following table.
 
-3. На экспресс-вкладке **НДС** заполните поля, как описано в следующей таблице.
+   | Field                    | Description                                              |
+   | :----------------------- | :------------------------------------------------------- |
+   | **Vendor Receipts No.**  | Enter the identification number from the vendor receipt. |
+   | **Vendor Receipts Date** | Enter the date from the vendor receipt.                  |
 
-   | Поле                                        | Описанием                                       |
-   | :------------------------------------------ | :---------------------------------------------- |
-   | **Счет-Фактура Но.**                        | Введите номер счета из исходной транзакции НДС. |
-   | **Счет-Фактура Дата Выставления**           | Введите дату счета из исходной транзакции НДС.  |
-   | **Дата получения счета-фактуры поставщика** | Введите дату получения покупки.                 |
+3. On the **VAT** FastTab, fill in the fields as described in the following table.
 
- 
+   | Field                            | Description                                                 |
+   | :------------------------------- | :---------------------------------------------------------- |
+   | **Vendor VAT Invoice No.**       | Enter the invoice number from the original VAT transaction. |
+   | **Vendor VAT Invoice Date**      | Enter the invoice date from the original VAT transaction.   |
+   | **Vendor VAT Invoice Rcvd Date** | Enter the date that the purchase was received.              |
 
-Транзакция НДС теперь зарегистрирована и будет отслеживаться в журнале счетов НДС после учета заказа на покупку.
+   The VAT transaction is now registered and will be tracked in the VAT invoices journal after the purchase order is posted.
 
- 
+## See Also
 
-## См. также 
-
-[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
-
-[Практическое руководство. Подготовка операций НДС к учету](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md)
-
-[Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)
+[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+[How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  

@@ -1,62 +1,70 @@
-# Практическое руководство. Создание журналов расходов будущих периодов
+---
+title: Creating future expense journals in Russia
+description: Russian enhancements include future expenses.
+author: DianaMalina
 
-Функция журнала расходов будущих периодов позволяет ежемесячно учитывать расходы на специальном счете. Позднее эти расходы будущих периодов включаются как расходы. Вычет НДС выполняется тогда, когда расходы будущих периодов включаются в текущие расходы.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Необходимо выбрать **Расходы будущих периодов** в поле **Тип** окна **Шаблоны финансового журнала**. Кроме того, установите флажки **Типовой** и **Копировать настройку НДС в строки журнала** в окне **Шаблоны финансового журнала**.
+# How to: Create Future Expense Journals
 
- 
+Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.
 
-## Создание журналов расходов будущих периодов 
+You must select **Future Expenses** in the **Type** field of the **General Journal Templates** window. In addition, be sure you select the **Recurring** and **Copy VAT Setup to Jnl. Lines** check boxes in the **General. Journal Templates** window.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка учета НДС**, а затем выберите связанную ссылку.
+## To create future expense journals
 
-   Создайте НДС учетные группы с помощью окна **Настройка учета НДС**. Дополнительные сведения см. в разделе [Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat).
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Posting Setup**, and then choose the related link.
 
-2. В поле **Шаблон журнала зачета НДС** выберите шаблон.
+   Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat).
 
-3. Выберите раздел в поле **Раздел журнала зачета НДС**. Это определяет раздел, в котором будут обрабатываться расходы будущих периодов и НДС.
+2. On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.
 
-4. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Счета покупки**, а затем выберите связанную ссылку.
+3. Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.
 
-5. Создайте счет покупки для счета ГК РБП (97).
+4. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Invoices**, and then choose the related link.
 
-6. Создайте и учтите оплату, примените счет и оплату.
+5. Create a purchase invoice for the Deferral general ledger account (97).
 
-   В этот момент НДС не вычитается. Это происходит позднее, ежемесячно с помощью журнала расходов будущих периодов.
+6. Create and post the payment and apply the invoice and payment.
 
-7. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы РБП**, а затем выберите связанную ссылку.
+   VAT is not deducted at this time. It is deducted later, on a monthly basis through the Future Expense Journal.
 
-8. Заполните поля в окне **Журнал расходов будущих периодов**, как описано в следующей таблице.
+7. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Future Expense Journals**, and then choose the related link.
 
-   | Поле                                | Описанием                                                    |
-   | :---------------------------------- | :----------------------------------------------------------- |
-   | **Дата Учета ОС**                   | Определяет дату учета основного средства, связанного с журналом расходов будущих периодов. |
-   | **Номер документа:**                | Определяет номер документа, связанного с журналом расходов будущих периодов. |
-   | **Номер ОС**                        | Определяет номер основного средства, связанного с журналом расходов будущих периодов. |
-   | **Код Книги Амортизации**           | Определяет код книги амортизации, связанной с журналом расходов будущих периодов. |
-   | **Тип учета ОС**                    | Определяет тип учета основного средства, связанного с журналом расходов будущих периодов. Возможные типы учета: **Стоимость приобретения**, **Амортизация**, **Понижение**, **Повышение**, **Польз. метод 1**, **Польз. метод 2**, **Реализация**, **Обслуживание**, **Ликвидационная стоимость** и **Перемещение**. |
-   | **Описание**                        | Определяет описание, связанное с журналом расходов будущих периодов. |
-   | **Код Склада**                      | Определяет код склада, связанного с журналом расходов будущих периодов. |
-   | **Сумма**                           | Определяет сумму, связанную с журналом расходов будущих периодов. |
-   | **Сумма Амортиз. без Нормализации** | Определяет сумму амортизации без нормализации, связанную с журналом расходов будущих периодов. |
-   | **Факт. Кол-во**;                   | Определяет фактическое количество, связанное с журналом расходов будущих периодов. |
-   | **Расчет. Кол-во**;                 | Определяет расчетное количество, связанное с журналом расходов будущих периодов. |
-   | **Факт. Сумма**;                    | Определяет фактическую сумму, связанную с журналом расходов будущих периодов. |
-   | **Расчет. Сумма**.                  | Определяет расчетную сумму, связанную с журналом расходов будущих периодов. |
-   | **Фактическая сумма остатка**       | Определяет фактическую сумму остатка, связанную с журналом расходов будущих периодов. |
-   | **Ликвидационная стоимость**        | Определяет ликвидационную стоимость, связанную с журналом расходов будущих периодов. |
-   | **Число дней амортизации**          | Определяет количество дней амортизации, связанной с журналом расходов будущих периодов. |
-   | **Амортизация до даты учета ОС**    | Указывает, будет ли выполняться амортизация до даты учета основного средства, используемой в журнале расходов будущих периодов. |
-   | **Аморт. - стоим. приобретения**    | Указывает, будет ли амортизационная стоимость приобретения использоваться с журналом расходов будущих периодов. |
-   | **Дубл. в книге амортизации**       | Определяет дубликат в книге амортизации, связанной с журналом расходов будущих периодов. |
-   | **Номер ошибочной операции ОС**     | Определяет номер ошибочной операции основного средства, связанного с журналом расходов будущих периодов. |
+8. In the **Future Expense Journal** window, fill in the fields as described in the following table.
 
-9. Выберите действие **Учесть**.
+   | Field                              | Description                                                  |
+   | :--------------------------------- | :----------------------------------------------------------- |
+   | **FA Posting Date**                | Specifies the fixed asset posting date that is associated with the future expense journal. |
+   | **Document No.**                   | Specifies the document number that is associated with the future expense journal. |
+   | **FA No.**                         | Specifies the fixed asset number that is associated with the future expense journal. |
+   | **Depreciation Book Code**         | Specifies the depreciation book code that is associated with the future expense journal. |
+   | **FA Posting Type**                | Specifies the fixed asset posting type that is associated with the future expense journal. Fixed asset posting types include **Acquisition Cost**, **Depreciation**, **Write-Down**, **Appreciation**, **Custom 1**, **Custom 2**, **Disposal**, **Maintenance**, **Salvage Value**, and **Transfer**. |
+   | **Description**                    | Specifies the description that is associated with the future expense journal. |
+   | **Location Code**                  | Specifies the location code that is associated with the future expense journal. |
+   | **Amount**                         | Specifies the amount that is associated with the future expense journal. |
+   | **Depr. Amount w/o Normalization** | Specifies the depreciation amount without normalizations that is associated with the future expense journal. |
+   | **Actual Quantity**                | Specifies the actual quantity that is associated with the future expense journal. |
+   | **Calc. Quantity**                 | Specifies the calculated quantity that is associated with the future expense journal. |
+   | **Actual Amount**                  | Specifies the actual amount that is associated with the future expense journal. |
+   | **Calc. Amount**                   | Specifies the calculated amount that is associated with the future expense journal. |
+   | **Actual Remaining Amount**        | Specifies the actual remaining amount that is associated with the future expense journal. |
+   | **Salvage Amount**                 | Specifies the salvage amount that is associated with the future expense journal. |
+   | **No. of Depreciation Days**       | Specifies the number of depreciation days that is associated with the future expense journal. |
+   | **Depr. Until FA Posting Date**    | Specifies if the depreciation until fixed asset posting date is used with the future expense journal. |
+   | **Depr. Acquisition Cost**         | Specifies if the depreciation acquisition cost is used with the future expense journal. |
+   | **Duplicate in Depreciation Book** | Specifies the duplicate in depreciation book that is associated with the future expense journal. |
+   | **FA Error Entry No.**             | Specifies the fixed asset error entry number that is associated with the future expense journal. |
 
-Сумма, введенная в поле **Сумма**, будет перенесена со счета расходов будущих периодов на счет текущих расходов. НДС рассчитывается в соответствии с настройкой (процентом) НДС согласно учтенной сумме, после чего учитывается вычет НДС (реализованный НДС).
+9. Choose the **Post** action. 
 
- 
+The amount entered in the **Amount** field will be transferred from the Future Expenses account to the Current Expenses account. VAT will be calculated according to VAT setup (percentage) on the basis of the posted amount, and VAT deduction (realized VAT) will be posted.
 
-## См. также
+## See Also
 
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
+[Fixed Assets](fixed-assets.md)  

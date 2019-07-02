@@ -1,32 +1,37 @@
-# Практическое руководство. Создание издержек ОС
+---
+title: Creating fixed asset charges in Russia
+description: Russian enhancements include fixed asset charges.
+author: DianaMalina
 
- Ниже показано, как создать новые издержки основного средства.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Create a Fixed Asset Charge
 
-## Создание издержек ОС
+The following procedure shows how to create a new fixed asset charge. 
 
- 
+## To create a fixed asset charge
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Издержки ОС**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Charge Card**, and then choose the related link.
 
-2. В карточке издержки на экспресс-вкладке **Общее** заполните поля, как описано в следующей таблице.
+2. On the **General** FastTab, fill in the fields as described in the following table.
 
-   | Поле                              | Описанием                                                    |
-   | :-------------------------------- | :----------------------------------------------------------- |
-   | **Номер**                         | Укажите код издержки основного средства.                     |
-   | **Описание**                      | Укажите описание издержки ОС.                                |
-   | **Общая товарная группа**         | Определите общую товарную группу учета по умолчанию, которая будет использоваться для данного кода издержки ОС. |
-   | **НДС товарная группа**           | Определите товарную группу учета НДС по умолчанию, которая будет использоваться для данного кода издержки ОС. |
-   | **Глобал. Измерение 1 Код**       | Укажите код глобального измерения, связанного с издержками основного средства. |
-   | **Глобал. Измерение 2 Код**       | Укажите код глобального измерения, связанного с издержками основного средства. |
-   | **Искл. Себест. для НУ**          | Укажите, нужно ли исключать издержку основного средства из налогового учета. |
-   | **Счет ГК для ОС в эксплуатации** | Определите счет ГК для учета суммы издержек ОС при вводе основного средства в эксплуатацию. |
-   | **Код налоговой разницы для ОС**  | Укажите код налоговой разницы, связанной с издержками основного средства. |
+   | Field                        | Description                                                  |
+   | :--------------------------- | :----------------------------------------------------------- |
+   | **No.**                      | Specify the fixed asset charge code.                         |
+   | **Description**              | Specify the description of the fixed asset charge.           |
+   | **Gen. Prod. Posting Group** | Specify the default general product posting group that will be used for the fixed asset charge code. |
+   | **VAT Prod. Posting Group**  | Specify the default VAT product posting group that will be used for the fixed asset charge code. |
+   | **Global Dimension 1 Code**  | Specify the global dimension code that is associated with the fixed asset charge. |
+   | **Global Dimension 2 Code**  | Specify the global dimension code that is associated with the fixed asset charge. |
+   | **Exclude Cost for TA**      | Select if you want to exclude the fixed asset charge from tax accounting. |
+   | **G/L Acc. For Released FA** | Specify the general ledger account to post the fixed asset charge amount to when the fixed asset is released. |
+   | **Tax Difference Code FA**   | Specify the tax difference code that is associated with the fixed asset charge. |
 
- 
+## See Also
 
-## См. также 
-
-[Настройка основных средств](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-setup)
-
+[Setting Up Fixed Assets](../../fa-setup)  

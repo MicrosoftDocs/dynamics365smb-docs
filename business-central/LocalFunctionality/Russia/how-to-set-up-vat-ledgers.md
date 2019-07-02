@@ -1,61 +1,59 @@
-# Практическое руководство. Настройка книг НДС
+---
+title: Setting up VAT ledgers in Russia
+description: Russian enhancements include VAT ledgers.
+author: DianaMalina
 
-Книги НДС используются для хранения сведений о НДС в транзакциях, связанных с товарами и услугами в России или с товарами, импортированными в Россию. Можно создать и сохранять различные виды книг НДС. Например, можно создавать книги НДС для следующих целей:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up VAT Ledgers
 
-- Продажи различным группам клиентов.
-- Разницы сумма продаж и предоплаты.
-- Покупки у разных групп поставщиков.
+VAT ledgers are used to store details about VAT in transactions that involve goods and services in Russia or goods imported into Russia. You can create and store different kinds of VAT ledgers. For example, you can create VAT ledgers for:  
 
- 
+- Sales to different groups of customers
+- Sales amount differences and prepayments
+- Purchases from different vendor groups
 
-Чтобы использовать книги НДС, необходимо указать соответствующие серии номеров.
+To use VAT ledgers, you must specify the relevant number series.
 
- 
+## To set up VAT ledgers
 
-## Настройка книг НДС 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка ГК**, а затем выберите связанную ссылку.
+2. In the **General Ledger Setup** window, on the **Numbering** FastTab, fill in the fields as described in the following table.
 
-2. В окне **Настройка ГК** на экспресс-вкладке **Нумерация** заполните поля, как описано в следующей таблице.
+   | Field                            | Description                                                  |
+   | :------------------------------- | :----------------------------------------------------------- |
+   | **VAT Purch. Ledger No. Series** | Specifies the number series that you want to use for VAT ledgers for purchase documents. |
+   | **VAT Sales Ledger No. Series**  | Specifies the number series that you want to use for VAT ledgers for sales documents. |
 
-   | Поле                               | Описанием                                                    |
-   | :--------------------------------- | :----------------------------------------------------------- |
-   | **НДС - серия ном. книги покупок** | Определяет серию номеров, которую требуется использовать для книг НДС в документах покупки. |
-   | **НДС - серия ном. книги продаж**  | Определяет серию номеров, которую требуется использовать для книг НДС в документах продажи. |
+   You must ensure that vendor purchase documents cannot be posted without stating the invoice date and number.
 
-   Необходимо обеспечить, чтобы документы покупки у поставщика было невозможно учесть без указания даты и номера счета.
+3. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Vendor Posting Groups**, and then choose the related link.
 
-3. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учетные группы поставщика**, затем выберите связанную ссылку.
+4. In the **Vendor Posting Groups** window, for the relevant posting groups, select the **VAT Invoice Mandatory** field.
 
-4. В окне **Учетные группы поставщика** для соответствующих учетных групп выберите поле **Счет-фактура обязательна**.
+   Next, you must set up VAT posting. For each VAT posting setup you must specify if entries that use the setup must be included in VAT ledgers.
 
-   Затем необходимо настроить учет НДС. Для каждой настройки учета НДС необходимо указать, должны ли операции, которые используют эту настройку, включаться в книги НДС.
+5. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Posting Setup**, and then choose the related link.
 
-5. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка учета НДС**, а затем выберите связанную ссылку.
+6. In the **VAT Posting Setup** window, for each VAT posting setup, fill in the fields as described in the following table.
 
-6. В окне **Настройка учета НДС** для каждой настройки учета НДС заполните поля, как описано в следующей таблице.
+   | Field                           | Description                                                  |
+   | :------------------------------ | :----------------------------------------------------------- |
+   | **Not Include into VAT Ledger** | Specifies if entries that use the setup must be included in VAT ledgers. For more information, see Not Include into VAT Ledger. |
+   | **VAT Exempt**                  | Specifies if entries that use this posting setup are VAT exempt. For more information, see VAT Exempt. |
 
-   | Поле                        | Описанием                                                    |
-   | :-------------------------- | :----------------------------------------------------------- |
-   | **Не Включать в Книгу НДС** | Указывает, должны ли операции, в которых используется настройка, включаться в книги НДС. Дополнительные сведения см. в пункте "Не включать в книгу НДС". |
-   | **Освоб. от НДС**           | Определяет, освобождены ли от НДС операции, использующие эту настройку учета. Дополнительные сведения см. в пункте "Освоб. от НДС". |
+Now, you can create VAT ledgers for purchases and sales.
 
- 
+## See Also
 
-Теперь можно создать книги НДС для покупок и продаж.
-
- 
-
-## См. также
-
-[Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)
-
-[Практическое руководство. Регистрация НДС по заказам на покупку](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-register-vat-on-purchase-orders.md)
-
-[Практическое руководство. Подготовка операций НДС к учету](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md)
-
-[Практическое руководство. Создание книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-vat-ledgers.md)
-
-[Практическое руководство. Создание дополнительных листов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets.md)
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Register VAT on Purchase Orders](How-to-Register-VAT-on-Purchase-Orders.md)  
+[How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+[How to: Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
+[How to: Create Additional Sheets](How-to-Create-Additional-Sheets.md)  

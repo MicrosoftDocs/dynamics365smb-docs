@@ -1,53 +1,55 @@
-# Управление банком						 
+---
+title: Bank management in Russia
+description: Russian enhancements include bank management.
+author: DianaMalina
 
-В Business Central можно создать структуры справочника ЦБ РФ для хранения справочной информации по банку в одном месте, создания бюджетных классификаций, добавления сведений о банковских счетах в определенные счета главной книги и печати и учета соответствующих документов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# Bank Management
 
-## Создание структур справочника ЦБ РФ
-
- 
-
-Структуру справочника ЦБ РФ можно использовать для хранения справочной информации обо всех банках в одном месте. Можно использовать эту информацию для автоматического заполнения соответствующих полей в окнах **Карточка банк. счета**, **Карточка банк. счета поставщика** и **Карточка банк. счета клиента**.
-
- 
-
-## Создание кодов бюджетной классификации
-
- 
-
-Каталог кодов бюджетной классификации можно использовать в банковских платежах в государственный бюджет (например, в налоговых платежах). Эти коды позволяют отслеживать классификацию типов платежей в государственный бюджет.
+In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can create bank directory structures to keep bank reference information in one location, create budget classifications, add bank account details to specific general ledger accounts, and print and post required documents.
 
  
 
-## Создание записей сведений о банковском счете
+## Creating Bank Directory Structures
+
+You can use a bank directory structure to keep reference information about all the banks in one location. This information can be used to automatically fill in the corresponding fields in the **Bank Account Card**, **Vendor Bank Account Card**, and **Customer Bank Account Card** windows.
 
  
 
-Подробные сведения о банковском счете можно использовать, чтобы определять различные измерения и другие коды, относящиеся к платежным поручениям и банковским выпискам. Записи в банковских операциях с типом счета **Счет ГК** содержат подробные сведения, связанные с указанным счетом. Сведения о банковском счете настраиваются в окне **Сведения о банковских счетах**.
+## Creating Budget Classification Codes
+
+You can use a budget classification codes catalog in bank payments that are made to the state budget, such as tax payments. These codes allow you to track the classification of budget payment types in the state budget.
 
  
 
-## Печать и учет необходимых документов
+## Creating Bank Account Details Records
+
+You can use bank account details to define dimensions and other codes that are pertinent to bank payment orders and bank statements. Records in a bank operation that have the account type information set to **G/L Account** can have bank account details attached to the specified account. Bank account details are set up in the **Bank Account Details** window.
 
  
 
-Вы можете готовить документы платежных поручений, документов кассовых ордеров и платежей в журнале оплаты поставщикам путем копирования процедур из учтенных документов банковских поручений и кассовых ордеров. Затем можно создать печатные документы и учесть их в требуемом формате.
+## Printing and Posting Required Documents
+
+You can prepare bank payment order documents, cash order documents, and payments in the payment journal by copying procedures from the posted bank payment order and cash order documents. Then you can create the printed documents and post them in the required format.
 
  
 
-Вы можете напечатать следующие обязательные документы управления банком.
+You can print the following required bank management documents. 
+
+| Report                        | Description                                                  |
+| :---------------------------- | :----------------------------------------------------------- |
+| **Bank Payment Order**        | This report is a copy of the bank payment order.             |
+| **Bank Account G/L Turnover** | This report is a list of general ledger turnover information. |
+| **Bank Account Card**         | This report contains information about bank operations.      |
 
  
 
-| Отчет                              | Описание                                                     |
-| :--------------------------------- | :----------------------------------------------------------- |
-| *Платежное поручение*              | Этот отчет является копией платежного поручения.             |
-| *Банк. счет - оборотная ведомость* | Этот отчет содержит список информации по финансовому обороту. |
-| *Карточка банковского счета*       | Этот отчет содержит информацию о банковских операциях.       |
+## See Also 
 
- 
-
-## См. также
-
- [Практическое руководство. Настройка платежного поручения](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order.md)
+[How to: Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)

@@ -1,21 +1,28 @@
-# Практическое руководство. Настройка счета нематериальных активов
+---
+title: Setting up intangible asset accounts in Russia
+description: Russian enhancements include posting intangible assets to a dedicated account.
+author: DianaMalina
 
-Функция учета нематериальных активов позволяет регистрировать нематериальные активы на специальном счете (счет нематериальных активов). Нематериальные активы — это активы, которые невозможно измерить физически. Кроме того, можно учитывать текущие расходы на основании ежемесячной амортизации.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Процедура учета счета нематериальных активов аналогична процедуре учета счета основных средств.
+# How to: Set Up an Intangible Assets Account
 
- 
+The intangible assets accounting feature allows you to post intangible assets to a special account called the Intangible Assets account. Intangible assets are non-monetary assets that cannot be physically measured. You can also include current expenses by using monthly depreciation.  
 
-## Настройка счета нематериальных активов 
+The procedure for posting an intangible asset account is similar to the procedure used to post a fixed asset account.  
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Основные средства**, а затем выберите связанную ссылку.
-2. Откройте карточку для основного средства.
-3. В окне **Карточка основного средства** выберите **Нематериальный актив** в поле **Тип ОС**.
-4. Приобретите нематериальный актив и введите его в эксплуатацию. Дополнительные сведения см. в разделе [Практическое руководство. Покупка и ввод в эксплуатацию малоценных основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md).
+## To set up an intangible asset account
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
+2. Open the card for a fixed asset.
+3. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.
+4. Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md).
 
-## См. также 
+## See Also
 
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
-
+[Fixed Assets](../../fa-manage)  

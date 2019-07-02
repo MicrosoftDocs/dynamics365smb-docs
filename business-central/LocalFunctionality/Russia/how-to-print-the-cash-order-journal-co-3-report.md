@@ -1,30 +1,36 @@
-# Практическое руководство. Печать отчета "Журнал регистрации кассовых документов КО-3"					 
+---
+title: Printing the cash order journal CO-3 report in Russia
+description: Russian enhancements include support for the cash order journal CO-3 report.
+author: DianaMalina
 
-Отчет **Журнал регистрации кассовых документов КО-3** печатает унифицированную стандартную форму (обычно ежемесячно).
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Этот отчет печатает реестр учтенных приходных и расходных кассовых ордеров за указанный отчетный период.
+# How to: Print the Cash Order Journal CO-3 Report
 
- 
+The **Cash Order Journal CO-3** report shows the unified standard printing form (typically on a monthly basis).  
 
-## Печать отчета "Журнал регистрации кассовых документов КО-3"
+This report shows the register of posted ingoing and outgoing cash orders during a specified reporting period.  
 
- 
+## To print the cash order journal CO-3 report
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журнал регистрации кассовых документов КО-3**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Cash Order Journal CO-3**, and then choose the related link.
 
-2. В окне **Журнал регистрации кассовых документов КО-3** заполните поля.
+2. In the **Cash Order Journal CO-3** window, fill in the fields.
 
-   | Поле                | Описанием                                                    |
-   | :------------------ | :----------------------------------------------------------- |
-   | **Код кассы**       | Выберите номер счета кассы, для которого должен быть напечатан журнал. |
-   | **Дата начала**     | Введите дату начала для кассовых ордеров, включаемых в регистр. |
-   | **Дата окончания**  | Введите дату окончания для кассовых ордеров, включаемых в регистр. Эта дата автоматически устанавливаться равной последнему дню месяца. |
-   | **Код сотрудника ** | Выберите сотрудника, ответственного за отчет. Имя, отчество и фамилия будут напечатаны на титульном листе отчета. |
+   | Field                | Description                                                  |
+   | :------------------- | :----------------------------------------------------------- |
+   | **Cash Account No.** | Select the cash account number for which the journal is to be printed. |
+   | **Starting Date**    | Enter the start date of cash orders to be included in the register. |
+   | **Ending Date**      | Enter the end date of cash orders to be included in the register. This date is set automatically to the last day of the month. |
+   | **Employee No.**     | Select the employee who is responsible for the report. The employee’s name – last, first, and middle – are printed on the title page of the report. |
 
-3. Нажмите кнопку **Печать**, чтобы распечатать отчет, или кнопку **Просмотр**, чтобы отобразить его на экране. Нажмите кнопку **Отмена** для сохранения информации без печати отчета.
+3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
- 
+## See Also
 
-## См. также
-
- [Функциональность локальной версии для России](https://github.com/AliiaSalikhova/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-local-functionality.md)
+[Russia Local Functionality](russia-local-functionality.md)  

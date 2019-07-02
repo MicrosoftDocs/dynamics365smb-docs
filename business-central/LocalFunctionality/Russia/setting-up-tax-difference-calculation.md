@@ -1,33 +1,37 @@
-# Настройка расчета налоговых разниц
+---
+title: Setting up tax difference calculation in Russia
+description: Russian enhancements include calculation of tax differences for fixed assets.
+author: DianaMalina
 
-Расчет налоговых разниц необходимо настроить, если имеется налоговая разница в представлении операций с основными средствами, операций себестоимости товаров или финансовых операций в бухгалтерском и налоговом учете, для которых необходимо зафиксировать расходы, подлежащие списанию. Чтобы настроить налоговую разницу, выберите действие **Настройка**, а затем выберите действие **Налоговые разницы**.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# Setting up Tax Difference Calculation
 
-## Настройка учетных групп 
+Tax difference calculations must be set up if there is a tax difference for the presentation of fixed asset entries, item cost entries, or finance transactions in bookkeeping and tax accounting for which expenses to write off must be fixed. To set tax difference, choose the **Setup** action, and then choose the **Tax Differences** action.
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учетные группы налоговых разниц**. Здесь необходимо указать финансовые счета из настроенного плана счетов, на которых будут учитываться финансовые транзакции с налоговыми разницами.
+## Setting Up Posting Groups
 
-Если имеются строки журнала, которые необходимо нормализовать перед списанием расходов, эти журналы невозможно учесть без запуска периодического задания нормализации.
+In the **Tax Difference Posting Groups** you must determine finance accounts from the set up chart of accounts, where finance transactions with tax differences are accounted for.
 
-В следующей процедуре показан порядок обработки функции нормализации. 
+If there are journal lines that must be normalized before writing off expenses, those journals cannot be posted without running a periodic job of normalizing.
 
-1. В окне **Журнал расходов будущих периодов** выберите **Расчет нормируемой амортизации**.
-2. В окне **Расчет аморт. РБП по норм.** на экспресс-вкладке **Налоговая Разница** установите фильтр для налоговой разницы.
-3. На экспресс-вкладке **Параметры** введите учетный период, для которого выполняется расчет.
-4. Для печати отчета выберите действие **Печать**.
-5. Выполните операцию учета журнала расходов будущих периодов.
+The following procedure shows how to process a normalization function.
 
- 
+1. In the **Future Expenses Journal** window, choose the **Calculate Depreciation by Norm.** action
+2. In the **Calculate FE Depr. With Norm** window, on the **Tax Difference** FastTab, enter the filter for the tax difference.
+3. On the **Options** FastTab, enter the accounting period for which the counting is done.
+4. Choose the **Print** action to print the report.
+5. Post the future expenses journal.
 
-## См. также 
+## See Also
 
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/tax-differences.md)
-
-[Регистры налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-difference-registers.md)
-
-[Практическое руководство. Настройка юрисдикций нормы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-norm-jurisdictions.md)
-
-[Практическое руководство. Учет налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-tax-differences.md)
+[Tax Registers](Tax-Registers.md)  
+[Tax Differences](Tax-Differences.md)  
+[Tax Difference Registers](Tax-Difference-Registers.md)  
+[How to: Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
+[How to: Post Tax Differences](How-to-Post-Tax-Differences.md)  

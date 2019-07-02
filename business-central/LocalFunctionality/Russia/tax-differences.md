@@ -1,36 +1,39 @@
-# Налоговые разницы
+---
+title: Tax differences in Russia
+description: Russian enhancements include managing tax differences.
+author: DianaMalina
 
-Налоговые разницы представляют собой расхождения сумм налога, вызванные различиями в правилах признания доходов и расходов в бухгалтерском и налоговом учете. 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-В Business Central можно настроить регистры налоговых разниц и журналы налоговых разниц для отслеживания и управления разницами между суммами бухгалтерского и налогового учета.
+# Tax Differences
 
- 
+Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting. 
 
-## Подготовка плана счетов
+In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.
 
-Перед настройкой налоговых разниц необходимо убедиться, что план счетов настроен для корректной обработки налогового учета и налоговых разниц. Как минимум план счетов должен содержать счет налоговых разниц для транзакций доходов и расходов.
+## Preparing the Chart of Accounts
 
- 
+Before you set up tax differences, you will have to make sure that your chart of accounts is set up to correctly handle tax accounting and tax differences. At a minimum, your chart of accounts must contain tax difference accounts for income and expense transactions.
 
-## Начало работы с налоговыми разницами 
+## Getting Started with Tax Differences 
 
-Для настройки и просмотра операций налоговые разниц используются следующие таблицы, поддерживающие окна налоговых разниц.
+To set up and view tax difference entries, you will use the following tables, which support tax differences windows.
 
-| Окно                                 | Описанием                                                    |
-| :----------------------------------- | :----------------------------------------------------------- |
-| Учетная группа налоговой разницы     | Определяет учетные группы для транзакций налоговых разниц.   |
-| Шаблон налоговых разниц              | Определяет журналы, используемые для учета операций налоговых разниц. |
-| Операция корресп. налогового расчета | Определяет данные налоговой разницы, необходимые для внешних отчетов и форм. |
-| Строка налоговых разниц              | Определяет учтенные операции журнала налоговых разниц.       |
+| Window                     | Description                                                  |
+| :------------------------- | :----------------------------------------------------------- |
+| Tax Diff. Posting Group    | Specifies posting groups for tax difference transactions.    |
+| Tax Diff. Journal Template | Specifies the journals that are used for posting tax difference entries. |
+| Tax Calc. Corresp. Entry   | Specifies tax difference information that is needed for external reports and forms. |
+| Tax Diff. Journal Line     | Specifies posted tax difference journal entries.             |
 
- 
+## See Also
 
-## См. также
-
-[Настройка расчета налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md)
-
-[Регистры налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-difference-registers.md)
-
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
+[Tax Difference Registers](Tax-Difference-Registers.md)  
+[Tax Accounting](Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  

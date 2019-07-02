@@ -1,27 +1,37 @@
-# Сбор сведений о налоге на прибыль для налоговой декларации
+---
+title: Collecting profit tax information in Russia
+description: Russian enhancements include profit tax information for declaring taxes.
+author: DianaMalina
 
-Чтобы уменьшить трудоемкость заполнения декларации по налогу на прибыль и упростить бухгалтерский учет в компании, документ разделен на приложения в соответствии с источником. Для каждого приложения, заполняемого налогоплательщиком, создается синтетический налоговый регистр в модуле налогового учета, где перечисляются все строки декларации и описываются источники данных и правила создания для каждой строки.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
+
+# Collecting Profit Tax Information for Tax Declaration
+
+To reduce the labor required to complete a profit tax declaration and to simplify the company bookkeeping, the reporting document is split into supplements in accordance with the source. For each supplement, which is filled in by a taxpayer, a synthetic tax register is created in the tax accounting module, where all the declaration lines are stated and data sources and creation rules for each line are described. 
+
+In the tax accounting module, the following synthetic registers of the Profit Tax Declaration Reporting document are realized: 
+
+- Sheet 02 Profit Tax Calculation
+- Supplement 1 to Sheet 02. Sales Income
+- Supplement 2 to Sheet 02. Production and Sales Costs
+- Supplement 3 to Sheet 02. Special Production and Sales Costs
+- Supplement 4 to Sheet 02. Calculation of Loss Amount or Loss Amount Part decreasing the taxation basis
+- Supplement 6 to Sheet 02. Non – Sales Costs
+- Supplement 7 to Sheet 02. Non – Sales Costs and Losses to be understood as non–sale
 
  
 
-В модуле налогового учета реализованы следующие синтетические регистры документа "Отчет о декларации по налогу на прибыль": 
+## See Also 
 
-- Лист 02 Расчет Налога на прибыль;
-- Приложение 1 к Листу 02. Доход с продаж;
-- Приложение 2 к Листу 02. Затраты на производство и продажи;
-- Приложение 3 к Листу 02. Особые затраты на производство и продажи;
-- Приложение 4 к Листу 02. Расчет суммы убытков или части суммы убытков, на которую будет уменьшена налогооблагаемая база;
-- Приложение 6 к Листу 02. Затраты, не связанные с продажами
-- Приложение 7 к Листу 02. Затраты, не связанные с продажами, и убытки, которые рассматриваются как не связанные с продажами
+[Tax Accounting](Tax-Accounting.md)
 
- 
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)
 
-## См. также 
+ [How to: Create Tax Registers](How-to-Create-Tax-Registers.md)
 
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
-
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
+[Tax Differences](Tax-Differences.md)

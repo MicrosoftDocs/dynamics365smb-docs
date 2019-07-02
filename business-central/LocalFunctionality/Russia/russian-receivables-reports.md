@@ -1,159 +1,179 @@
-# Отчеты по расчетам с клиентами (Россия)
+---
+title: Receivables reports in Russia
+description: Russian enhancements include receivables reports.
+author: DianaMalina
 
-Функция отчетов о расчетах с клиентами позволяет создавать оборотную ведомость финансовых операций клиента для финансовых операций финансовых счетов с типом источника Клиент. Предоставляются также следующие отчеты:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Клиенты оборотная ведомость по ГК (отчет 12450)
-- Клиент Бухг. Карточка (отчет 12441)
-- Оборотная ведомость по клиентам (отчет 12439)
-- Оборот по учетной группе клиентов (отчет 12440)
-- Анализ Операций Клиента (отчет 12442)
-- Клиент - Акт Выверки Упрощенный (отчет 14910)
+# Russian Receivables Reports
 
-## Клиенты оборотная ведомость по ГК(отчет 12450)
+The receivables report feature enables you to view the customer general ledger turnover for finance entries of general ledger accounts with the source type Customer. The following reports are also provided:
 
-Отчет **Клиенты оборотная ведомость по ГК** используется для анализа оборотной ведомости, а также для анализа сальдо счета клиента. Отчет обычно печатается ежемесячно, но может быть напечатан за любой выбранный период.
+- Customer General Ledger Turnover (report 12450)
+- Customer Accounting Card (report 12441)
+- Customer Turnover (report 12439)
+- Customer Posting Group Turnover (report 12440)
+- Customer Entries Analysis (report 12442)
+- Customer Reconciliation Act (report 14910)
 
-Экспресс-вкладка **Параметры** содержит поля, приведенные в следующей таблице.
+## Customer General Ledger Turnover Report (Report 12450)
 
-| Поле                                      | Описанием                                                    |
-| ----------------------------------------- | ------------------------------------------------------------ |
-| **Точность округления**                   | Выберите это поле, чтобы выбрать нужную точность округления, например: 0,001; 0,01; 1 или 1000. |
-| **Заменять нулевые значения на пропуски** | Выберите это поле, чтобы заменять нулевые значения пробелами при печати. |
-| **Пропускать нулевые строки**             | Выберите это поле, чтобы исключить строки с нулевыми значениями. |
-| **Печать по договорам**                   | Если выбран, все суммы в отчетах будут рассчитываться и отображаться в разделах по договорам. |
+The **Customer General Ledger Turnover** report is used to analyze the turnover and to analyze customer account balances. It is usually printed monthly, but it can be printed for any given period.
 
-## Клиент Бухг. Карточка (отчет 12441)
+The **Options** FastTab contains the fields listed in the following table.
 
-В отчете **Бухг. карточка клиента** предоставляются следующие сведения обо всех операциях клиента за определенный период:
+| Field                             | Description                                                  |
+| --------------------------------- | ------------------------------------------------------------ |
+| **Rounding Precision**            | Select this field to choose the required rounding precision: 0.001, 0.01, 1, or 1000. |
+| **Replace zero values by blanks** | Select this field to replace zero values with blanks during printing. |
+| **Skip zero lines**               | Select this field to exclude lines with zero values.         |
+| **Print Agreements**              | if it is selected, all amounts in reports will be calculated and shown in the section of agreements. |
 
-- Начальное Сальдо
-- Дата Учета
-- Документ Но.
-- Описанием
-- Оборот Дебет
-- Оборот Кредит
-- Тип документа
-- Конечное Сальдо
+## Customer Accounting Card Report (Report 12441)
 
-Отчет обычно печатается ежемесячно и на дату инвентаризации, но может быть напечатан за любой выбранный период.
+The **Customer Accounting Card** report provides the following information for all of a customer's entries for a specific period:
 
-Следующая процедура показывает, как получить доступ к отчету **Бухг. карточка клиента**.
+- Starting balance
+- Posting date
+- Document number
+- Description
+- Net change debit
+- Net change credit
+- Document type
+- Ending balance
 
-1. Перейдите в **Клиенты оборотная ведомость по ГК**, выберите действие **Отчет**, затем выберите действие **Бухг. карточка клиента**.
+It is printed monthly and on the date of inventory, but can be printed for any given period.
 
-На экспресс-вкладке **Параметры** можно установить флажок **Новая страница для клиента**, чтобы информация по каждому клиенту была напечатана на отдельном листе.
+The following procedure shows how to access the **Customer Accounting Card** report.
 
-## Оборотная ведомость по клиентам (отчет 12439)
+1. Choose the **Financial Management** action, choose the **Receivables** action, and then choose the **Turnover** action.
+2. Choose the **Customer G/L Turnover** action, choose the **Print** action, and then choose the **Customer Accounting Card** action.
 
-Отчет **Оборотная ведомость по клиентам** используется для печати данных об операциях клиента за определенный период. Печатаемые данные включают:
+The **Customer** FastTab of the request page contains the same fields as the **Customer** FastTab of the Customer General Ledger Turnover report. On the **Options** FastTab, you can select the **New page per Customer** field to print the information for each customer on a separate sheet.
 
-- Код
-- Описание
-- Начальное Сальдо (дебет или кредит на начало периода)
-- Оборот (дебет или кредит)
-- Конечное Сальдо (дебет или кредит на конец периода)
+## Customer Turnover Report (Report 12439)
 
-Для доступа к отчету:
+The **Customer Turnover** report is used to print the data about a customer's entries for a specific period. It can also be created for customers separately for agreements. The printed data contains the following information:
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Оборотная ведомость по клиентам**, а затем выберите связанную ссылку.
+- Number
+- Name
+- Starting balance (debit or credit at beginning of the period)
+- Net change (debit or credit)
+- Ending balance (debit or credit at end of the period)
 
-Экспресс-вкладка **Параметры** содержит поля, приведенные в следующей таблице. 
+To access the **Customer Turnover** report
 
-| Поле                                           | Описанием                                                    |
-| :--------------------------------------------- | :----------------------------------------------------------- |
-| **Точность округления**                        | Выберите это поле, чтобы выбрать нужную точность округления, например: 0,001; 0,01; 1 или 1000. |
-| **Заменять нулевые значения на пропуски**      | Выберите это поле, чтобы заменять нулевые значения пробелами при печати. |
-| **Пропускать счета без оборотов**              | Выберите это поле, чтобы исключить строки, не имеющие оборота за указанный период. |
-| **Пропускать счета с нулевым конечным сальдо** | Выберите это поле, чтобы исключить строки с нулевым конечным сальдо на конец периода. |
-| **Пропускать нулевые строки**                  | Выберите это поле, чтобы исключить строки с нулевыми значениями. |
+- Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Turnover** action.
 
-## Оборот по учетной группе клиентов (отчет 12440)
+The **Customer** FastTab of the request page contains the same fields as the **Customer** FastTab of the **Customer General Ledger Turnover** report. 
 
-Отчет **Оборотная ведомость по учетной группе клиента** используется для печати сведений об операциях клиентов, которые собираются для учетных групп клиентов. Печатаемые данные включают:
+The **Options** FastTab contains the fields listed in the following table.
 
-- Код учетной группы клиента
-- Название учетной группы клиента
-- Начальное Сальдо (дебет или кредит)
-- Оборот (дебет или кредит)
-- Конечное Сальдо (дебет или кредит)
+| Field                                      | Description                                                  |
+| ------------------------------------------ | ------------------------------------------------------------ |
+| **Rounding Precision**                     | Select this field to choose the required rounding precision: 0.001, 0.01, 1, or 1000. |
+| **Replace zero values by blanks**          | Select this field to replace zero values with blanks during printing. |
+| **Skip accounts without net changes**      | Select this field to exclude lines without net changes within the period. |
+| **Skip accounts with zero ending balance** | Select this field to exclude lines with zero ending balances at the end of the period. |
+| **Skip zero lines**                        | Select this field to exclude lines with zero values.         |
 
-Для доступа к отчету:
+## Customer Posting Group Turnover Report (Report 12440)
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Оборот по учетной группе клиентов**, а затем выберите связанную ссылку.
+The **Customer Posting Group Turnover** report is used to print information on the customer's entries that are accumulated in the customer posting groups. The printed data contains the following information:
 
-На экспресс-вкладке **Параметры** имеется возможность указать те же параметры форматирования, что и на экспресс-вкладке **Параметры** отчета **Оборотная ведомость по клиентам**.
+- Customer posting group code
+- Customer posting group name
+- Starting balance (debit or credit)
+- Net change (debit or credit)
+- Ending balance (debit or credit)
 
-## Анализ Операций Клиента (отчет 12442)
+To access the **Customer Posting Group Turnover** report
 
-В отчете **Анализ операций клиента** указываются обязательства клиента на начало и конец периода, анализ операции и выплата счета. Печатаемые данные включают:
+- Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Posting Group Turnover** action.
 
-- Дата Учета
-- Документ Но.
-- Документ Название
-- Тип (оплата, счет)
-- Сумма
-- Сумма Закрытия
-- Дата Оплаты
+On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Customer General Ledger Turnover** report.
 
-В этом отчете отображаются все операции клиента за определенный период. Анализ данного отчета позволяет определить взаимозависимость счета и оплаты, а также показывает закрытые операции, счета для оплаты, частично выплаченные счета и суммы предоплаты клиентов.
+## Customer Entries Analysis (Report 12442)
 
-Для доступа к отчету:
+The **Customer Entries Analysis** report shows the customer's liabilities at the beginning and at the end of the period, entry analysis, and invoice discharging. The printed data contains the following information
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Анализ операций клиента**, а затем выберите связанную ссылку.
+- Posting date
+- Document number
+- Document name
+- Type (payment, invoice)
+- Amount
+- Amount closed
+- Payment date
 
-На экспресс-вкладке **Параметры** имеется возможность указать параметры форматирования, приведенные в следующей таблице.
+This report shows all the entries of the customer for a certain period. The analysis of the report enables you to determine the invoice and payment interdependence, shows closed entries, due invoices, partially discharged invoices, and customer prepayment amounts.
 
-| Параметр                       | Описанием                                                    |
-| ------------------------------ | ------------------------------------------------------------ |
-| **Дата начала**                | Введите дату начала периода.                                 |
-| **Дата окончания**             | Введите дату окончания периода.                              |
-| **Валюта Отчета**              | Введите валюту для использования в отчете. Можно выбрать следующие типы:   -   Местная валюта -   Валюта транзакции |
-| **Новая страница для Клиента** | Выберите это поле, чтобы напечатать данные для каждого клиента на отдельной странице. |
+To access the **Customer Entries Analysis** report
 
-## Клиент - Акт Выверки Упрощенный (отчет 14910)
+- Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer Entries Analysis** action.
 
-В отчете **Клиент - акт выверки** указываются платежи и обязательства клиента. Он используется для сверки взаимных оплат контрагентов.
+On the **Customer** FastTab of the request page, define the customer number or a range of numbers, depending on whether you want to print the report for one customer or for a range of customers. On the **Customer Ledger Entry** FastTab, you can enter a filter value for one document or for a range of documents.
 
-Для доступа к отчету:
+On the **Options** FastTab, you can specify the format options listed in the following table.
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Клиент - акт выверки упрощенный**, а затем выберите связанную ссылку.
+| Parameter                 | Description                                                  |
+| ------------------------- | ------------------------------------------------------------ |
+| **Starting Date**         | Enter the start date of the period.                          |
+| **Ending of period**      | Enter the end date of the period                             |
+| **Report Currency**       | Enter currency that you want to use in the report. You can choose:   -   Local currency -   Transaction currency |
+| **New Page For Customer** | Select this field to print the data for each customer on a separate page. |
 
-Возможные уровни подробностей:
+## Customer - Reconciliation Act (Report 14910)
 
-- Полностью
-- Частично
-- Нет
+The **Customer – Reconciliation Act** report shows the payments or liabilities of the customer. It is used for the reconciliation of mutual payments of contractors.
 
-### Все подробности
+To access the **Customer – Reconciliation Act** report
 
-Если выбран уровень Все подробности, отчет печатает следующие данные для каждого документа за текущий и предыдущий периоды:
+- Choose the **Financial Management** action, choose the **Receivables** action, choose the **Reports** action, and then choose the **Customer - Reconciliation Act** action.
 
-- Номер документа и номера связанных с ним документов.
-- Сальдо для каждого документа (дебет или кредит)
-- Дата Документа
-- Описанием
+The following levels of detail are possible:
 
-### Частичные подробности
+- Full
+- Partial
+- None
 
-Если выбран уровень частичных подробностей, отчет отображает сальдо для каждого документа за текущий и предыдущий периоды, но не отображает связи со счетами, кредит-нотами и оплатами.
+### Full Detail
 
-### Нет
+If Full is selected as the detail level, the report prints the following data for each document for the current and previous periods:
 
-Если выбрано значение Нет, отчет отображает для каждого клиента начальное сальдо, оборот за период, а также сальдо на конец периода. Он показывает также сумму обязательств клиента.
+- Document number and numbers of documents connected with it
+- The balance on each document (debit or credit)
+- Document date
+- Description
 
-На экспресс-вкладке **Клиент** страницы запроса определите номер или диапазон номеров клиентов, в зависимости от того, нужно ли печатать отчет для одного или для нескольких клиентов.
+The report prints the following information on the right side of the window (customer's data) in case the **Print Contactor Data** check box is selected on the **Options** FastTab of the request page:
 
-На экспресс-вкладке **Параметры** имеется возможность указать параметры форматирования, приведенные в следующей таблице.
+- Document amount
+- Debit
+- Credit
 
-| Параметр                   | Описанием                                                    |
-| -------------------------- | ------------------------------------------------------------ |
-| **Дата начала**            | Введите дату начала периода.                                 |
-| **Дата Окончания Периода** | Введите дату окончания периода.                              |
-| **Код валюты**             | Введите валюту для использования в отчете. Имеется возможность выбрать любую валюту из списка валют. |
-| **Подробно**               | Выберите один из следующих вариантов:   -   **Все**; -   **Частично**; -   **Нет** |
+### Partial Detail
 
-## См. также
+If Partial Detail is selected as the detail level, the report shows the balance on each document for the current and previous periods, but no connections to the invoices, credit notes, and payments.
 
-[Отчеты по платежам (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-payables-reports.md)
+### None
 
-[Практическое руководство. Настройка договоров с клиентами и поставщиками](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
+If None is selected as the detail level, the report shows, for each customer, the balance at the beginning of the period, net changes for the period, and the balance at the end of the period. It also shows the amount of the customer liabilities.
+
+On the **Options** FastTab, you can specify the format options listed in the following table.
+
+| Parameter                     | Description                                                  |
+| ----------------------------- | ------------------------------------------------------------ |
+| **Starting Date**             | Enter the start date of the period.                          |
+| **Ending Date of the Period** | Enter the end date of the period.                            |
+| **Report Currency**           | Enter the currency that you want to use in the report. You can choose any currency from the glossary of currencies. |
+| **Detailed**                  | Select one of these values:   -   **Full** -   **Partial** -   **None** |
+
+## See Also
+
+[Russian Payables Reports](Russian-Payables-Reports.md)  
+[How to: Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

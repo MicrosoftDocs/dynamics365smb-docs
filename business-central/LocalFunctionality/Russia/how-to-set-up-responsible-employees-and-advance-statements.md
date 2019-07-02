@@ -1,192 +1,204 @@
-# Практическое руководство. Настройка материально-ответственных сотрудников и авансовых отчетов
+---
+title: Setting up responsible employees and advance statements in Russia
+description: Russian enhancements include defining users as responsible employees and advance statements that show payments and other documents by employee.
+author: DianaMalina
 
-**Авансовый отчет** позволяет печатать и просматривать сведения об оплатах, выполненных и полученных материально-ответственными лицами. Кроме того, этот отчет позволяет печатать и просматривать первичные документы по расходам материально-ответственных лиц.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-## Создание карточки подотчетника
+# How to: Set Up Responsible Employees and Advance Statements
 
-Окно **Карточка подотчетного лица** создается для каждого материально-ответственного лица на основе окна **Карточка сотрудника**. Кроме того, ее можно создать отдельно.
+The **Advance Statement** report enables you to print and view information about payments made to and from responsible employees. This report also enables you to print and view primary documents of responsible employee expenses.
 
-В ней содержатся следующие сведения:
+## Creating the Responsible Employee Card
 
-1. Номер карточки подотчетника.
-2. Данные материально-ответственного лица (адрес, почтовый индекс или город, а также телефон).
-3. Контактные данные (телефон, адрес электронной почты, веб-адрес).
-4. Учетные финансовые данные для данного материально-ответственного лица на экспресс-вкладке **Учет** (**Общая Бизнес Группа**, **НДС Бизнес Группа** и **Поставщик Учетная Группа**).
-5. Документы материально-ответственного лица (неучтенные и учтенные авансовые отчеты), которые можно открыть с помощью кнопки **Документы**.
+The **Resp. Employee Card** window is created for each responsible employee on the basis of the **Employee Card** window, but it can also be created independently.
 
-Ниже показано, как открыть окно **Карточка подотчетного лица**.
+It provides the following information:
 
-### Создание карточки материально-ответственного лица
+1. Responsible Employee card number
+2. Data of the responsible employee (address, postal code or city, and telephone)
+3. Contacts (telephone, e-mail address, Internet address)
+4. General ledger entry postings of the responsible employee on the **Posting** FastTab (**Gen. Bus. Posting Group**, **VAT Bus. Posting Group**, and **Vendor Posting Group**)
+5. Documents of the responsible employee (unposted and posted advance statements), which can be opened using the **Documents** button.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Подотчетные лица**, а затем выберите связанную ссылку.
-2. Создайте новую карточку.
-3. Нажмите кнопку **ОК**.
+The following procedure shows how to access the **Resp. Employee Card** window.
 
-### Создание карточки материально-ответственного лица из карточки сотрудника
+### To create a Responsible Employee card
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Сотрудники**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Resp. Employees**, and then choose the related link.
+2. Create a new card.
+3. Choose the **OK** button.
 
-2. Выберите действие **Создать подотчетное лицо**.
+### To create a Responsible Employee Card from an Employee card
 
-3. Окно **Карточка подотчетного лица** содержит следующие сведения, которые вводятся вручную или из соответствующего глоссария и настроек.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Employees**, and then choose the related link.
 
-   | Поле                                               | Описанием                                                    |
-   | -------------------------------------------------- | ------------------------------------------------------------ |
-   | **Номер**                                          | Определяет значение, которое автоматически подставляется из окна **Карточка сотрудника** или вводится вручную. |
-   | **Название**                                       | Определяет значение, которое автоматически подставляется из соответствующих полей окна **Карточка сотрудника** или вводится вручную. |
-   | **Адрес**                                          | Определяет значение, которое автоматически подставляется из соответствующих полей окна **Карточка сотрудника** или вводится вручную. |
-   | **Почтовый индекс**                                | Определяет значение, которое автоматически подставляется из соответствующих полей окна **Карточка сотрудника** или вводится вручную. |
-   | **Код страны или региона**                         | Определяет значение, которое автоматически подставляется из соответствующих полей окна **Карточка сотрудника** или вводится вручную. |
-   | **Телефон**                                        | Определяет значение, которое автоматически подставляется из соответствующих полей окна **Карточка сотрудника** или вводится вручную. |
-   | **Имя поиска**                                     | Указывает, что значение в поле **Имя** берется из открытого окна **Карточка подотчетного лица**. |
-   | **Контактные Данные (адрес эл. почты, веб-адрес)** | Определяет значения, которые автоматически подставляются из соответствующих полей окна **Карточка сотрудника** или вводятся вручную. |
-   | **Код Валюты**                                     | По умолчанию пустое значение.                                |
-   | **Общая бизнес-группа**                            | Определяет значение поля **Общая бизнес-группа авансового отчета** из настройки модуля "Покупки" на экспресс-вкладке **Авансовый Отчет**. |
-   | **НДС бизнес-группа**                              | Определяет значение поля **Бизнес-группа НДС авансового отчета** из настройки модуля "Покупки" на экспресс-вкладке **Авансовый Отчет**. |
-   | **Учетная группа поставщика**                      | Определяет значение поля **Аванс. отчет - учетная группа поставщиков** из настройки модуля "Покупки" на экспресс-вкладке **Авансовый отчет**. |
+2. Choose the **Create Resp. Employee** action.
 
-## Создание авансового отчета
+3. The **Resp. Employee Card** window contains the following information entered manually or from the corresponding glossary and settings.
 
-**Авансовый отчет** создают материально-ответственные лица. В этом отчете содержатся сведения об оплатах, полученных сотрудниками, и о первичных документах, предоставленных для подтверждения расходов.
+   | Field                                 | Description                                                  |
+   | ------------------------------------- | ------------------------------------------------------------ |
+   | **No.**                               | Specifies the value that is filled automatically from the **Employee Card** window, or is entered manually. |
+   | **Name**                              | Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Address**                           | Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Post Code**                         | Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Country/Region Code**               | Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Phone No.**                         | Specifies the value that is filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Search Name**                       | Specifies the value of the **Name** field is entered from the displayed **Resp. Employee Card** window. |
+   | **Communication (E-Mail, Home Page)** | Specifies the values that are filled automatically from similar fields in the **Employee Card** window or is entered manually. |
+   | **Currency Code**                     | Specifies a blank by default.                                |
+   | **Gen. Bus. Posting Group**           | Specifies the value of the **Adv. Stmt. Gen. Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** FastTab. |
+   | **VAT Bus. Posting Group**            | Specifies the value of the **Adv. Stmt. VAT Bus. Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** FastTab. |
+   | **Vendor Posting Group**              | Specifies the value of the **Adv. Stmt. Vendor Posting Gr** field from the Purchases and Payables setup on the **Advance Statement** FastTab. |
 
-**Авансовый отчет** содержит следующие сведения:
+## Creating the Advance Statement
 
-- Номер авансового отчета.
-- Дата учета и дата документа.
-- Данные (код и имя) материально-ответственного лица.
-- Назначение отчета и описание учета.
-- Количество документов и страниц.
-- Документ остатка или перерасхода для регистрации платежного документа для авансового отчета.
-- Код валюты для регистрации расходов в валюте.
-- Строки расходов, которые зарегистрированы в соответствии со значением, выбранным в поле **Тип в Строках Авансового Отчета** — **Счет ГК**, **Товар**, **Основные средства**, **Издержки (товар)** или **Подотчет**.
+The **Advance Statement** is created by the responsible employees. This statement contains information about payments received by the employees and about primary documents that are provided to confirm the expenses.
 
-Следующие строки расходов регистрируются в соответствии со значениями, выбранными в поле **Тип** и **Номер** или **Подотчет Поставщик Но.** в строках авансового отчета:
+The **Advance Statement** contains the following information:
 
-- Чтобы списать расходы:
-  - **Тип** — "Фин. Счет";
-  - **Номер** - Номер счета главной книги
-- Чтобы отчитаться о закупленных товарах или материалах:
-  - **Тип** — "Товар";
-  - **Номер** - Номер карточки товара
-- Чтобы отчитаться за приобретенное основное средство:
-  - **Тип** — "ОС";
-  - **Номер** - Номер карточки основного средства
-- Чтобы отчитаться за дополнительные издержки для приобретенных товаров:
-  - **Тип** — "Издержки (Товар)";
-  - **Номер** - Код издержек товара.
-- Чтобы зарегистрировать первичные документы, полученные от поставщика (если эти документы были получены от поставщика для товаров, основных средств или расходов материально-ответственного лица):
-  - **Тип** — "Подотчет";
-  - **Подотчет Поставщик Но.** — номер поставщика.
+- Advance Statement number
+- Posting date and document date
+- Responsible employee data (code and name)
+- Advance purpose and posting description
+- Number of documents and pages
+- Remainder or overdraft document to register the payment document for the advance statement
+- Currency code to register currency expenses
+- Expense lines, which are registered according to the value selected in the **Type in Advance Statement lines** field – **G/L Account**, **Item**, **Fixed Asset**, **Charge (Item)**, and **Employee Purchase** values
 
-### Чтобы открыть авансовый отчет, необходимо выполнить следующие действия.
+The following expense lines are registered according to the value selected in the **Type** field and **No.** or **Employee Purchase Vendor No.** fields, in the lines of Advance Statement:
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Авансовые отчеты**, а затем выберите связанную ссылку.
+- To write off the expense:
+  - **Type** - G/L Account
+  - **No.** - General ledger account number
+- To account for the purchased items or materials:
+  - **Type** - Item
+  - **No.** - Item cardnumber
+- To account for the purchased fixed asset:
+  - **Type** - Fixed Asset
+  - **No.** - Fixed Asset card number
+- To account for additional charges for purchased items:
+  - **Type** - Charge (Item)
+  - **No**. - Item charge code
+- To register the primary documents received from the vendor (in case primary documents have been received from the vendor for items, fixed assets, or expenses by responsible employee):
+  - **Type** - Empl. Purchase
+  - **Employee Purchase Vendor No.** - Vendor number
 
-   Окно **Авансовый отчет** содержит на экспресс-вкладке **Общие** в заголовке следующие сведения, введенные вручную или полученные из соответствующего глоссария или настроек.
+### To access the Advance Statement
 
-   | Поле                                | Описанием                                                    |
-   | ----------------------------------- | ------------------------------------------------------------ |
-   | **Номер**                           | Определяет номер авансового отчета, который рассчитывается автоматически. Номер зависит от значения поля **Серия номеров авансовых отчетов**, заданного в окне **Настройка модуля "Покупки"** на экспресс-вкладке **Авансовый отчет**. |
-   | **Дата Учета**,  **Дата Документа** | Определяет дату учета и дату документа. По умолчанию в эти поля подставляется значение рабочей даты. Его также можно заполнить вручную. |
-   | **Сотрудник Номер**                 | Определяет номер материально-ответственного сотрудника. Это значение выбирают из списка поставщиков вручную. |
-   | **Сотрудник Имя**                   | Определяет имя материально-ответственного сотрудника. В это поле автоматически заносятся значения из полей **Имя** и **Имя2** окна **Карточка подотчетного лица**. |
-   | **Назначение Аванса**               | Определяет назначение авансового платежа.                    |
-   | **Описание Учета**                  | Задает описание учета документа. В это поле автоматически заносится значение из поля **Счет Но.** Это поле можно отредактировать вручную. |
-   | **Номер счета поставщика**          | Определяет номер внешнего документа. Это поле заполняется автоматически. |
-   |                                     |                                                              |
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Advance Statements**, and then choose the related link.
 
-2. Окно **Авансовый отчет** содержит на экспресс-вкладке **Отчет** в заголовке следующие сведения, введенные вручную или полученные из соответствующего глоссария или настроек.
+   The **Advance Statement** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.
 
-   | Поле                                      | Описанием                                                    |
-   | ----------------------------------------- | ------------------------------------------------------------ |
-   | **Кол-во документов**, **Кол-во страниц** | Определяет количество документов, подтверждающих расходы, и количество страниц в этих документах. Эти поля заполняют вручную, вписывая числовые значения. |
-   | **Остаток или Перерасход Док. Но.**       | Определяет денежный документ, закрывающий сумму остатка или перерасхода для данного авансового отчета. Платежный документ выбирают из операций Книги поставщиков для данного материально-ответственного лица. |
+   | Field                                | Description                                                  |
+   | ------------------------------------ | ------------------------------------------------------------ |
+   | **No.**                              | Specifies the number of the advance statement, which is calculated automatically. The number depends on the value of the **Advance Statement Nos.** field that was specified in the **Purchases & Payables Setup** window on the **Advance Statement** FastTab. |
+   | **Posting Date**,  **Document Date** | Specifies the posting date and document date. By default, these fields are filled in with the value from the work date. It can also be filled in manually. |
+   | **Employee No.**                     | Specifies the number of responsible employee. The value is selected manually from the vendor list. |
+   | **Employee Name**                    | Specifies the name of responsible employee. This field is filled in automatically with the values of the **Name** and **Name2** fields of the **Resp. Employee Card** window. |
+   | **Advance Purpose**                  | Specifies the purpose of advance.                            |
+   | **Posting Description**              | Specifies the posting description of the document. This field is filled in automatically with the value from the **Invoice No.** field. The field can be edited manually. |
+   | **Vendor Invoice No.**               | Specifies the number of an external document. This field is filled in automatically. |
+   |                                      |                                                              |
 
-   Окно **Авансовый отчет** содержит следующие сведения из созданных строк расходов.
+2. The **Advance Statement** window contains the following information in the **Statement** FastTab in the header, entered manually or filled in from the corresponding glossary and settings.
 
-   | Поле                                                   | Описанием                                                    |
-   | ------------------------------------------------------ | ------------------------------------------------------------ |
-   | **Тип**                                                | Выберите тип "Фин. Счет", "Товар", "ОС", "Издержки (Товар)" или "Подотчет", в зависимости от типа расходов. |
-   | **Номер**                                              | Если Тип = **Фин. Счет**:   В поле **Номер** выберите счет ГК из глоссария "Список финансовых счетов".   Если Тип = **Товар**:   В поле **Номер** выберите карточку товара из глоссария "Список товаров".   Если Тип = **Основное средство**:   В поле **Номер** выберите карточку основного средства из глоссария "Список основных средств".   Если Тип = **Издержки (Товар)**:   В поле **Номер** выберите издержки товара из глоссария "Издержки товаров и основных средств". |
-   | **Подотчет - номер поставщика**                        | Если Тип **Подотчет**:   В поле **Подотчет Поставщик Но.** выберите карточку поставщика из глоссария "Список поставщиков". |
-   | **Подотчет Операция Но.**                              | Если Тип **Подотчет**:   В поле **Подотчет Операция Но.** выберите учтенную операцию поставщика из финансовых операций поставщика. **Примечание**. В случае если материально-ответственное лицо получает от поставщика первичные документы (например, счет-фактуру), до регистрации авансового отчета необходимо учесть счет от поставщика. |
-   | **Подотчет Документ Но.,**  **Подотчет Документ Дата** | Эти поля заполняют вручную. В поле **Подотчет Документ Но.** нужно ввести номер документа, подтверждающего расходы в текущей строке.   В поле **Подотчет Документ Дата** укажите дату документа, подтверждающего расходы в текущей строке. |
-   | **Описание**                                           | Описание расходов в текущей строке. По умолчанию в поле **Описание** вносится значение поля **Имя** или **Описание** из выбранной карточки. |
-   | **Количество**  **Прямые Затраты Без НДС**             | Количество и сумма расходов (товары и основные средства). Эти поля заполняют вручную, вписывая числовые значения. |
+   | Field                                  | Description                                                  |
+   | -------------------------------------- | ------------------------------------------------------------ |
+   | **No. of Documents**, **No. of Pages** | Specifies the number of documents that confirm expenses and number of pages of these documents. The fields are filled in manually with numeric values. |
+   | **Remaining or Overdraft Doc. No.**    | Specifies the cash document that closes the remaining or overdraft amount for this advance statement. A payment document is selected from the vendor ledger entries of the responsible employee. |
 
-   В поле **Статус Созданного Документа** приводится статус текущего документа. Чтобы изменить этот статус с **Открыт** на **Выпущен**, необходимо выполнить следующие действия.
+   The **Advance statement** window contains the following information from the expense lines that are created.
 
-3. Выберите действие **Выпустить**. Выпущенный авансовый отчет можно будет напечатать.
+   | Field                                                        | Description                                                  |
+   | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | **Type**                                                     | Select G/L Account, Item, Fixed Asset, Charge (Item), Empl. Purchase depending on the type of expenses. |
+   | **No.**                                                      | If Type = **G/L Account**:   In the **No.** field, select a general ledger account from the General Ledger Account List glossary.   If Type = **Item**:   In the **No.** field, select an Item card from the Item List glossary.   If Type = **Fixed Asset**:   In the **No.** field, select a Fixed Asset card from the Fixed Asset List glossary.   If Type = **Charge (Item)**:   In the **No.** field, select an item charge from the Item Charges and Fixed Asset Charges glossary. |
+   | **Empl. Purchase Vendor No.**                                | If Type = **Empl. Purchase**:   In the **Empl. Purchase Vendor No.** field, select a Vendor card from the Vendor List glossary. |
+   | **Empl. Purchase Entry No**                                  | If Type = **Empl. Purchase**:   In the **Empl. Purchase Entry No.** field, select a posted vendor entry from the vendor ledger entries. **Note:**  You must post an invoice from the vendor before registering in advance statement, in case a responsible employee receives primary documents (invoice-facture for example) from the vendor. |
+   | **Empl.Purchase Document No,**  **Empl. Purchase Document Date** | The fields are filled in manually. In the **Empl.Purchase Document No**. field, enter the number of the document that confirmed expenses in the current line.   In the **Empl. Purchase Document Date** field, enter the date of the document that confirmed expenses in the current line. |
+   | **Description**                                              | Description of expenses in the current line. The **Description** field is filled in with the value of the **Name** or **Description** field from the selected card by default. |
+   | **Quantity**  **Direct Cost Excl. VAT**                      | Quantity and cost of expenses (items and fixed assets). The fields are filled in with numeric values manually. |
 
-## Печать неучтенного авансового отчета
+   The **Created Document Status** field reflects the current document status. To change the current document status from **Open** to **Released**.
 
-Ниже показано, как напечатать неучтенный авансовый отчет.
+3. Choose the **Release** action. The released advance statement will be accessible for printing.
 
-### Печать неучтенного авансового отчета
+## Printing an Unposted Advance Statement
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Авансовые отчеты**, а затем выберите связанную ссылку.
+The following procedure shows how to print an unposted advance statement.
 
-2. В окне **Авансовый отчет** выберите действие **Печать**.
+### To print an unposted Advance Statement
 
-    Примечание
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Advance Statements**, and then choose the related link.
 
-   Отчет обычно печатают после создания документа для подписи и подтверждения.
+2. In the **Advance Statement** window, choose the **Print** action.
 
-3. На экспресс-вкладке **Заголовок покупки** примените следующие фильтры.
+    Note
 
-   | Поле              | Фильтр                                                       |
+   The report is usually printed after creating the document for signing and confirmation.
+
+3. On the **Purchase Header** FastTab, apply the following filters.
+
+   | Field             | Filter                                                       |
    | ----------------- | ------------------------------------------------------------ |
-   | **Номер**         | В этом поле указан номер неучтенного авансового отчета. По умолчанию берется значение из открытого документа. |
-   | **Тип документа** | Это поле заполняется автоматически.                          |
+   | **No.**           | This field contains the unposted advance statement number. By default, a value from the open document is entered. |
+   | **Document Type** | This field is filled in automatically.                       |
 
-4. На экспресс-вкладке **Параметры** укажите сотрудников, обязанных подписать данный документ, как показано в таблице ниже.
+4. On the **Options** FastTab, specify the employees for signing the document as listed in the following table.
 
-   | Параметр             | Описанием                                                    |
+   | Parameter              | Description                                                  |
+   | ---------------------- | ------------------------------------------------------------ |
+   | Accountant   (Cashier) | Select an employee code (cashier) from the Employee List table to fill in the corresponding fields in the statement. |
+   | Accountant             | Select an employee code (accountant) from the Employee List table to fill in the corresponding fields in the statement. |
+
+5. Choose the **Print** button.
+
+## Viewing the Posted Advance Statement
+
+To following procedure demonstrates how to access the posted **Advance Statement**.
+
+### To view the posted advance statement
+
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Advance Statement**, and then choose the related link.
+
+A posted **Advance Statement** reflects all the information entered in the document in the Advance statement.
+
+## Printing the Posted Advance Statement
+
+The following procedure shows how to print the posted **Advance Statement**.
+
+### To print a posted advance statement
+
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Advance Statements** and then choose the related link.
+
+2. Choose the **Print** action. The **Posted Advance Statement** dialog box opens.
+
+    Note
+
+   The report is usually printed as an approved and confirmed document.
+
+3. On the **Purch. Inv. Header** FastTab of the report, apply the following filters.
+
+   | Field   | Filter                                                       |
+   | ------- | ------------------------------------------------------------ |
+   | **No.** | This field contains the number of the posted advance statement. By default, this value is entered from the open document. |
+
+4. On the **Options** FastTab, specify the employees to sign the document as listed in the following table.
+
+   | Parameter            | Description                                                  |
    | -------------------- | ------------------------------------------------------------ |
-   | Бухгалтер   (Кассир) | Выберите код сотрудника (кассира) из таблицы "Список сотрудников", чтобы заполнить соответствующие поля отчета. |
-   | Бухгалтер            | Выберите код сотрудника (бухгалтера) из таблицы "Список сотрудников", чтобы заполнить соответствующие поля отчета. |
+   | Accountant (Cashier) | Select the employee code (cashier) from the Employee List table to fill in the corresponding fields in the report. |
+   | Accountant           | Select the employee code (accountant) from the Employee List table to fill in the corresponding fields in the report. |
 
-5. Нажмите кнопку **Печать**.
+5. Choose the **Print** button.
 
-## Просмотр учтенного авансового отчета
+## See Also
 
-В следующей процедуре показано, как открыть учтенных **Авансовый отчет**.
-
-### Просмотр учтенного авансового отчета
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учтенный авансовый отчет**, а затем выберите связанную ссылку.
-
-В учтенном авансовом отчете указаны все сведения, введенные в документ в форме **Авансовый Отчет**.
-
-## Печать учтенного авансового отчета
-
-Ниже показано, как напечатать учтенный **авансовый отчет**.
-
-### Печать учтенного авансового отчета
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учтенные авансовые отчеты**, а затем выберите связанную ссылку.
-
-2. Выберите действие **Печать**. Откроется диалоговое окно **Учтенный авансовый отчет**.
-
-    Примечание
-
-   Такой отчет обычно печатают как утвержденный и подтвержденный документ.
-
-3. На экспресс-вкладке **Заголовок счета покупки** отчета примените следующие фильтры.
-
-   | Поле      | Фильтр                                                       |
-   | --------- | ------------------------------------------------------------ |
-   | **Номер** | По умолчанию в этом поле указан номер учтенного авансового отчета. По умолчанию это значение берется из открытого документа. |
-
-4. На экспресс-вкладке **Параметры** укажите сотрудников для подписи данного документа, как показано в таблице ниже.
-
-   | Параметр           | Описанием                                                    |
-   | ------------------ | ------------------------------------------------------------ |
-   | Бухгалтер (Кассир) | Выберите код сотрудника (кассира) из таблицы "Список сотрудников", чтобы заполнить соответствующие поля отчета. |
-   | Бухгалтер          | Выберите код сотрудника (бухгалтера) из таблицы "Список сотрудников", чтобы заполнить соответствующие поля отчета. |
-
-5. Нажмите кнопку **Печать**.
-
-## См. также
-
-[Персонал](https://docs.microsoft.com/ru-ru/dynamics365/business-central/hr-manage-human-resources)
+[Human Resources](../../hr-manage-human-resources)  

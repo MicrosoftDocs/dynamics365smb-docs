@@ -1,30 +1,35 @@
-# Практическое руководство. Объединение карточек клиентов и поставщиков
+---
+title: Combining customers and vendors in Russia
+description: Russian enhancements include combining customer and vendor cards.
+author: DianaMalina
 
-Функция объединения операций контрагентов позволяет объединить две карточки клиента или поставщика, принадлежащие одному и тому же клиенту или поставщику.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Ниже показано, как объединить данные двух карточек.
+# How to: Combine Customer or Vendor Cards
 
- 
+The change double links feature enables you to combine two Customer or Vendor cards that belong to one customer or vendor.
 
-## Объединение карточек клиентов и поставщиков
+The following procedure shows how to combine the information of two cards.
 
-1. Откройте карточку клиента или поставщика, которую требуется удалить.
+## To combine information on vendor or customer cards
 
-2. Выберите действие **Объединить клиентов** или **Объединить поставщиков**.
+1. Open the customer or vendor card that you want to delete.
 
-   Откроется окно **Объединение клиентов/поставщиков**. В поле **Код прежнего поставщика/клиента** по умолчанию указывается текущая карточка клиента или поставщика, которую требуется удалить.
+2. Choose the **Combine Customers** or the **Combine Vendors** action.
 
-3. Выберите вторую карточку клиента или поставщика в поле **Код нового клиента** или **Код нового поставщика**.
+   The **Combine Customer/Vendor** window opens. The **Old Vendor/Customer No.** field is filled in by default with the current customer or vendor card information that you want to delete.
 
-4. Нажмите кнопку **ОК**.
+3. Select a second customer or vendor card in the **New Customer No.** or **New Vendor No.** field.
 
- 
+4. Choose the **OK** button.
 
-Старая карточка клиента или поставщика будет удалена, а все документы со старым кодом клиента или поставщика будут перенесены в новую карточку клиента или поставщика.
+The old customer or vendor card is deleted, and all documents with the old customer or vendor code are transferred to the new customer or vendor card.
 
- 
+## See Also
 
-## См. также 
-
-[Функциональность локальной версии для России](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-local-functionality.md)
-
+[Russia Local Functionality](russia-local-functionality.md)  

@@ -1,22 +1,29 @@
-# Практическое руководство. Настройка книги количественного учета
+---
+title: Setting up quantity books in Russia
+description: Russian enhancements include quantity books.
+author: DianaMalina
 
-Создайте книгу амортизации для хранения записей количеств основных средств, для которых во время ввода в эксплуатацию будет списываться сумма, по которой они приобретены.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up a Quantity Book
 
-## Настройка книги количественного учета 
+Create a depreciation book to keep record of the fixed assets quantities that will be repaid at the time of release for the amount at which they were acquired.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Книги амортизации**, а затем выберите связанную ссылку.
-2. В поле **Тип книги учета** выберите **Аналитическая**.
-3. На экспресс-вкладке **Интеграция** проверьте, что никакие параметры не выбраны.
-4. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка ОС**, а затем выберите связанную ссылку.
-5. В поле **Книга аморт. - количеств.** введите код созданной книги амортизации.
-6. Нажмите кнопку **ОК**.
+## To set up a quantity book
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Depreciation Books**, and then choose the related link.
+2. In the **Posting Book Type** field, select **Analytical**.
+3. On the **Integration** FastTab, make sure that no options are selected.
+4. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Setup**, and then choose the related link.
+5. In the **Quantitative Depr. Book** field, enter the code of the depreciation book that you created.
+6. Choose the **OK** button.
 
-## См. также
+## See Also
 
-[Малоценные основные средства](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md)
-
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
+[Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)  
+[Fixed Assets](fixed-assets.md)  

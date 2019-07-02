@@ -1,28 +1,36 @@
-# Практическое руководство. Ввод сведений таможенных деклараций
+---
+title: Entering custom declaration information in Russia
+description: Russian enhancements include custom declarations.
+author: DianaMalina
 
- Воспользуйтесь следующей процедурой для ввода сведений таможенных деклараций.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Enter Custom Declarations Information
 
-## Ввод сведений таможенных деклараций 
+Use the following procedure to enter custom declaration information.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Декларации на товары**, а затем выберите связанную ссылку.
+## To enter custom declarations information
 
-2. В окне карточки **Декларации на товары** заполните поля.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Custom Declarations**, and then choose the related link.
 
-   | Поле                                 | Описанием                                                    |
-   | :----------------------------------- | :----------------------------------------------------------- |
-   | **Номер**                            | Определяет номер декларации на товары.                       |
-   | **Описание**                         | Определяет описание номера таможенной декларации.            |
-   | **Тип источника**                    | Выберите тип источника для таможенной декларации. Возможные типы источника: **Пусто**, **Клиент**, **Поставщик** и **Товар**. |
-   | **Номер источника**                  | Определяет номер источника из одной из следующих таблиц:   -   **«Клиент»** -   **Поставщик** -   **Список товаров** |
-   | **Код страны/региона происхождения** | Определяет страну или регион клиента, если все товары в декларации получены из одной и той же страны или региона. Информация из этого поля копируется в строки таможенной декларации. |
-   | **Дата декларации**                  | Введите дату таможенной декларации.                          |
+2. In the **Custom Declaration** window, fill in the fields.
 
-3. Нажмите кнопку **ОК**.
+   | Field                      | Description                                                  |
+   | :------------------------- | :----------------------------------------------------------- |
+   | **No.**                    | Specifies the custom declaration number.                     |
+   | **Description**            | Specifies the description of the custom declaration number.  |
+   | **Source Type**            | Select the source type for the custom declaration. Source types include **Blank**, **Customer**, **Vendor**, and **Item**. |
+   | **Source No.**             | Specifies the source number from one of the following tables:   -   **Customer** -   **Vendor** -   **Item List** |
+   | **Country of Origin Code** | Specifies the country/region for the customer if all the items in the custom declarations have come from the same country/region. Information from this field is copied to the custom declaration lines. |
+   | **Declaration Date**       | Enter the date of the custom declaration.                    |
 
- 
+3. Choose the **OK** button.
 
-## См. также 
+## See Also
 
-[Практическое руководство. Печать счета-фактуры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-factura-invoice.md)
+[How to: Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  

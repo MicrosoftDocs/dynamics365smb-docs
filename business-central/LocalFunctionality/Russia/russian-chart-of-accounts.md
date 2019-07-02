@@ -1,19 +1,30 @@
-# Российский план счетов
+---
+title: Chart of accounts in Russia
+description: Russian enhancements include the chart of accounts.
+author: DianaMalina
 
- В окне **План счетов** доступны следующие поля: 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- **Тип источника**
-- **Код Валюты**
+# Russian Chart of Accounts
 
-В следующей таблице показаны поле, соответствующая вкладка, описание и использование. 
+In the **Chart of Accounts** window, the following fields are available: 
 
-| Поле              | Вкладка          | Описание                                                     | Использование |
-| :---------------- | :--------------- | :----------------------------------------------------------- | :------------ |
-| **Тип источника** | **Общие**        | Показывает тип источника, который требуется учесть на данный финансовый счет. | Отчетность    |
-| **Код Валюты**    | **Консолидация** | Выбор кода валюты по умолчанию для финансового счета.        |               |
+- **Source Type**
 
- 
+- **Currency Code**
 
-## См. также
+  The following table shows the field, associated tab, description, and the usage.
 
-[Функциональность локальной версии для России](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-local-functionality.md)
+| Field             | Tab               | Description            | Usage    |
+| ----------------- | ----------------- | ---------------------- |--------- |
+| **Source Type**   | **General**       | Specifies the type of source that must be posted to this general ledger account. | Reporting |
+| **Currency Code** | **Consolidation** | Selects a default currency code for the general ledger account. |           |
+
+## See Also
+
+[Russia Local Functionality](russia-local-functionality.md)  

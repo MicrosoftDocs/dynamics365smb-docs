@@ -1,55 +1,57 @@
-# Практическое руководство. Учет себестоимости реализации основного средства 												
+---
+title: Account for the cost to dispose of an fixed asset in Russia
+description: Russian enhancements include accounting for the cost of disposing of fixed assets.
+author: DianaMalina
 
-Функция обслуживания при реализации позволяет отчитываться за сумму, потраченную на реализацию основного средства (ОС), как за расходы. Можно учесть операции, которые относятся к затратам на реализацию основного средства, так чтобы эти операции были отражены в формах актов списания ОС. 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Расходы на реализацию основного средства можно учесть из финансовых журналов, журналов ОС и документов покупки. Ниже показано, как учесть расходы на реализацию основного средства с помощью финансового журнала основных средств.
+# How to: Account for the Cost to Dispose a Fixed Asset
 
-Расходы на реализацию основного средства можно распечатать в отчете по акту списания ОС-4 и в отчете по акту списания ОС-4a.
+The maintenance on disposal feature enables you to account for the amount spent to dispose a fixed asset (FA) as an expense. You can post operations related to spending for the disposal of a fixed asset so that they will be reflected in the FA Write-Off Act forms. 
 
+The expenses of a fixed asset disposal can be posted from general ledger journals, fixed asset journals, and purchase documents. The following procedure shows how to post the expenses for a fixed asset disposal by using the Fixed Asset General Ledger Journal. 
 
+The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA-4 report and the FA Writeoff Act FA-4a report.
 
-## Настройки кодов обслуживания 
+## To set up a maintenance code
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка ОС**, а затем выберите связанную ссылку.
-2. В окне **Настройка модуля ОС** на экспресс-вкладке **Общее** введите код обслуживания в поле **Код обслуживания при реализации**.
-3. Нажмите кнопку **ОК**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Setup**, and then choose the related link.
+2. In the **Fixed Asset Setup** window, on the **General** FastTab, enter a maintenance code in the **On Disposal Maintenance Code** field.
+3. Choose the **OK** button.
 
- 
+## To post expenses on a fixed asset disposal
 
-## Учет расходов на реализацию основного средства 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA G/L Journals**, and then choose the related link.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы ГК ОС**, а затем выберите связанную ссылку.
+2. In the **Fixed Asset G/L Journal** window, fill in the fields as described in the following table.
 
-2. Заполните поля в окне **Журнал ГК основных средств**, как описано в следующей таблице.
-
-   | Поле                 | Описанием                                                    |
+   | Field                | Description                                                  |
    | :------------------- | :----------------------------------------------------------- |
-   | **Тип счета**        | Выберите **Основное средство** в качестве типа счета.        |
-   | **Номер счета**      | Определяет номер основного средства, реализация которого потребовал расходов. |
-   | **Тип учета ОС**     | Выберите **Обслуживание** в качестве типа учета основного средства. |
-   | **Код обслуживания** | Определяет код обслуживания, введенный в поле **Код обслуживания при реализации** в окне **Настройка модуля ОС**. |
+   | **Account Type**     | Select **Fixed Asset** as the account type.                  |
+   | **Account No.**      | Specifies the number of the fixed asset for disposal for which the expenses are made. |
+   | **FA Posting Type**  | Select **Maintenance** as the fixed asset posting type.      |
+   | **Maintenance Code** | Specifies the maintenance code that is entered in the **On Disposal Maintenance Code** field of the **Fixed Asset Setup** window. |
 
-3. Нажмите кнопку **ОК**.
+3. Choose the **OK** button.
 
- 
+## To print a report with expenses on a fixed asset disposal
 
-## Печать отчета с расходами на реализацию основного средства
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Writeoff Act**, and then choose the related link.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акт списания ОС**, а затем выберите связанную ссылку.
+2. In the **FA Writeoff Act** window, enter the expenses that are posted for the fixed asset.
 
-2. В окне **Акт списания ОС** введите расходы, учтенные для данного основного средства.
+3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
-3. Нажмите кнопку **Печать**, чтобы распечатать отчет, или кнопку **Просмотр**, чтобы отобразить его на экране. Нажмите кнопку **Отмена** для сохранения информации без печати отчета.
+    > [!NOTE]
+    > If the expenses on the disposal of the fixed asset are made in advance, they are displayed on the second page of the report.
 
-   > :speech_balloon:  Примечание
-   >
-   > Если расходы на демонтаж основного средства производятся авансом, они будут показаны на второй странице отчета. 
+After the fixed asset write-off report is posted, it becomes the posted fixed asset write-off report.
 
-После того как отчет о списании основного средства учтен, он становится учтенным отчетом о списании основного средства.
+## See Also
 
- 
-
-## См. также
-
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
-
+[Fixed Assets](../../fa-manage)

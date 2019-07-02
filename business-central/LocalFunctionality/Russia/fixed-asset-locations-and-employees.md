@@ -1,55 +1,66 @@
-# ОС: местоположения и ответственные сотрудники
+---
+title: Fixed asset locations and employees in Russia
+description: Russian enhancements include locations and employees for fixed assets.
+author: DianaMalina
 
-Функция местоположений и ответственных сотрудников для основных средств позволяет:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- управлять движением основных средств и хранить историю перемещений ОС между различными местоположениями и подотчетными лицами;
-- указывать местоположение и подотчетное лицо для ОС в документах и журналах для учета основных средств. Эти данные будут отражены в операциях основных средств;
-- создавать отчеты и расчеты, в которых используется история перемещений основных средств. Кроме того, можно связать сотрудников (по умолчанию), местоположения (склад товара) и регионы в официальной классификации (код ОКАТО) с любым местоположением основных средств.
+# Fixed Asset Locations and Employees
+
+The fixed assets locations and the fixed assets employees feature enable you to: 
+
+- Control the movement of fixed assets and to keep the history of the movements of fixed assets between locations and responsible employees.
+- Enter the fixed assets location and responsible employee in documents and journals for fixed asset posting. This information is reflected in fixed assets operations.
+- Create reports and calculations that use the history of the movements of fixed assets. You can also connect employees (by default), locations (item location), and regions in an official classification (OKATO code) to any fixed assets location.
 
  
 
-## Настройка
+## Setup 
 
- Ниже показано, как обеспечить, чтобы поля **Код местонахождения ОС** и **Код сотрудника** были всегда заполнены для основных средств.
+The following procedure shows how to make sure the **FA Location Code** and **Employee No.** fields are always filled in for fixed assets. 
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите *Настройка ОС*, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Setup*, and then choose the related link.
+2. On the **General** FastTab, select the **FA Location Mandatory** check box.
 
-2. На экспресс-вкладке **Общие** установите флажок **Местонахождение ОС обязательно**.
+ 
 
-    
-
-> :speech_balloon: Примечание
+> :speech_balloon: **Note**
 >
-> Если этот флажок установлен, процедуры учета основных средств управляются, пока они генерируют операции ОС с ненулевым значением в поле **Кол-во**.
+> When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.
+
+
+
+1. Select the **Employee No. Mandatory** check box.
 
  
 
-3. Установите флажок **Код сотрудника обязателен**.
-
- 
-
-> :speech_balloon: Примечание
+> :speech_balloon: **Note**
 >
-> Если этот флажок установлен, процедуры учета основных средств управляются, пока они генерируют операции ОС с ненулевым значением в поле **Кол-во**.
+> When this field is selected, fixed asset posting procedures are controlled as long as they generate fixed asset operations with a non-zero value in the **Quantity** field.
 
  
 
-## Добавленные поля 
+## Added Fields 
 
-Поля со ссылками на местоположения и подотчетных лиц для ОС были добавлены к следующим элементам: 
+Fields with references to fixed asset locations and responsible employees have been added to the following: 
 
-- строки документов покупки;
-- журналы основных средств;
-- финансовые журналы основных средств;
-- журналы реклассификации основных средств;
-- акты основных средств. 
+- Lines of purchase documents
+- Fixed asset journals
+- Fixed asset G/L journals
+- Fixed asset reclassification journals
+- Fixed asset acts 
 
-Если установлен флажок **Код сотрудника обязателен** или **Местонахождение ОС обязательно** в окне **Настройка основных средств**, поля со ссылками на соответствующие таблицы должны быть заполнены для операций с основными средствами. Вы вводите значение в поле **Код местоположения ОС** в строке, затем поле **Код сотрудника** и **Код склада** (если оно существует в строке) заполняются соответствующими значениями по умолчанию из таблицы местоположения основных средств. Затем значения этих полей можно изменить вручную. 
+If the **Employee No. Mandatory** or the **FA Location Mandatory** check box is selected in the **Fixed Asset Setup** window, then the fields with references to corresponding tables must be filled in for fixed asset operations. If you enter a value in the **FA Location Code** field in a line, then the **Employee No.** field and **Location Code** field (if it exists in the line) are filled with the corresponding default values from the Fixed Asset Location table. Then the values of the fields can be changed manually.
 
-При учете документов и журналов значения в этих полях переносятся в соответствующие новые операции ОС и в соответствующие поля в карточках основных средств.
+When posting the documents and journals, the values of these fields are transferred to the corresponding new fixed asset operations and to corresponding fields in the Fixed Asset cards.
 
  
 
-## См. также
+## See Also 
 
-[Инвентаризация основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md)
+[Fixed Asset Inventory](Fixed-Asset-Inventory.md)

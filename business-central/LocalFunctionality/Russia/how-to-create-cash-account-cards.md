@@ -1,32 +1,37 @@
-# Практическое руководство. Создание карточек счетов кассы							 
+---
+title: Creating cash account cards in Russia
+description: Russian enhancements include cash accounts.
+author: DianaMalina
 
-Счета кассы похожи на банковские счета и создаются так же. Можно создать любое необходимое количество карточек счетов кассы.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Create Cash Account Cards
 
-## Создание карточек счетов кассы
+Cash accounts are similar to bank accounts and are created identically. You can create as many cash account cards as needed.
 
- 
+## To create a cash account card
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Кассы**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Cash Accounts**, and then choose the related link.
 
-2. В окне **Карточка кассы** на экспресс-вкладке **Учет** заполните поля, как описано в следующей таблице.
+2. In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.
 
-   | Поле                                          | Описанием                                                    |
-   | :-------------------------------------------- | :----------------------------------------------------------- |
-   | **Код Валюты**                                | Определяет код валюты, связанный со счетом кассы.            |
-   | **Серия номеров приходных ордеров**           | Определяет серийные номера приходных кассовых ордеров.       |
-   | **Серия номеров расходных ордеров**           | Определяет серийные номера расходных кассовых ордеров.       |
-   | **Номер последней страницы кассового отчета** | Определяет номер последней страницы отчета связанный с банковским счетом. |
-   | **Банк. счет - учетная группа**               | Определяет учетную группу банковского счета, связанную со счетом кассы. |
-   | **Ставка НДС для Документов**                 | Определяет процент НДС для расчета НДС в документах банка или кассы. Эта ставка НДС не используется в расчетах при учете НДС. |
+   | Field                            | Description                                                  |
+   | :------------------------------- | :----------------------------------------------------------- |
+   | **Currency Code**                | Specifies the currency code that is associated with the cash account. |
+   | **Debit Cash Order No. Series**  | Specifies the serial numbers for outgoing cash orders.       |
+   | **Credit Cash Order No. Series** | Specifies the serial numbers for ingoing cash orders.        |
+   | **Last Cash Report Page No.**    | Specifies the last printed cash additional sheet report page number. |
+   | **Bank Acc. Posting Group**      | Specifies the bank account posting group that is associated with the cash account. |
+   | **VAT % for Document**           | Specifies the VAT percentage for calculating VAT in cash or bank documents. This VAT percentage is not used in VAT posting calculations. |
 
-3. Нажмите кнопку **ОК**.
+3. Choose the **OK** button.
 
- 
+## See Also
 
-## См. также
-
-[Управление мелкими доходами/расходами](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/petty-cash-management.md)
-
-[Управление банками и кассами](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-and-cash-management.md)
+[Petty Cash Management](Petty-Cash-Management.md)  
+[Bank and Cash Management](bank-and-cash-management.md)  

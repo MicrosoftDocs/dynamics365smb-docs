@@ -1,78 +1,79 @@
-# Практическое руководство. Учет коррекций "красный сторно"
+---
+title: Posting Red Storno corrections in Russia
+description: Russian enhancements include support for Red Storno corrections.
+author: DianaMalina
 
-Можно настраивать склад на использование одного столбца для первоначального и корректирующего учета. Эта функция часто называется *красный сторно*. Можно использовать учет "красный сторно" для учета следующих операций склада:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Корректирующие операции в журнале товаров.
-- Сторнирование товарных документов, таких как акты оприходования и акты списания товаров.
-- Учет журналов переоценки или реклассификации товаров.
-- Периодические корректировки себестоимости товара.
+# How to: Post Red Storno Corrections
 
- 
+You can set up inventory to use the same column for original and corrective postings. This is often referred to as *red storno*. You can use red storno posting to post the following inventory entries:
 
-> :speech_balloon:  **Примечание**
->
-> Следует включить функцию "красный сторно в окне **Настройка модуля "Запасы"**, прежде чем можно будет учитывать корректирующие операции. Дополнительные сведения см. в разделе [Настройка модуля "Запасы"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory-setup.md).
+- Corrective entries in the item journal.
+- Reversal of item documents such as item receipts and item shipments.
+- Posting item revaluation or item reclassification journals.
+- Periodic adjustments of item costs.
 
- 
+> [!NOTE]
+> You must enable red storno in the **Inventory Setup** window before you can post corrective entries. For more information, see [Inventory Setup](Inventory-Setup.md).  
 
-## Учет корректирующих операций в журнале товаров 
+## To post corrective entries in the item journal
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журнал товаров**, затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report]() icon, enter **Item Journal**, and then choose the related link.
 
-2. Введите значения в поля, как описано в следующей таблице.
+2. Fill in the fields as described in the following table.
 
-   | Поле               | Описанием                                                    |
-   | :----------------- | :----------------------------------------------------------- |
-   | **Тип операции**   | Выберите тот же тип операции, что и для первоначального учета. |
-   | **Количество**     | Введите количество со знаком, противоположным первоначальному учету, например **-4**. |
-   | **Красное сторно** | Выберите для учета в качестве корректирующего учета.         |
+   | Field          | Description                                                  |
+   | :------------- | :----------------------------------------------------------- |
+   | **Entry Type** | Select the same entry type as the original posting.          |
+   | **Quantity**   | Enter the quantity with the opposite sign of the original posting, such as **-4**. |
+   | **Red Storno** | Select to post as a corrective posting.                      |
 
-   Также необходимо выбрать соответствующие операции в полях **Примен. к операции** или **Примен. из операции**.
+   You must also select the appropriate entries in the **Applies-to Entry** or **Applies-from Entry** fields.
 
-3. Выполните учет журнала. 
+3. Post the journal.
 
-Коррекция учитывается, и учитывается все корреспонденция счета главной книги, которая была настроена.
+The correction is posted, and any general ledger account correspondence that you have set up will be considered.
 
- 
+## To reverse item documents
 
-## Сторнирование товарных документов 
+1. To reverse an item receipt, Choose the ![Search for Page or Report]() icon, enter **Item Receipt**, and then choose the related link.
 
-1. Для сторнирования акта оприходования товаров выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акты оприходования товаров**, а затем выберите связанную ссылку.
+   To reverse an item shipment, Choose the ![Search for Page or Report]() icon, enter **Item Shipment**, and then choose the related link.
 
-   Для сторнирования акта списания товара выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учт. акты списания товаров**, затем выберите связанную ссылку.
+2. On the **General** FastTab, select the **Correction** check box.
 
-2. На экспресс-вкладке **Общее** установите флажок **Корректировка**.
+3. Choose the **Copy Document** action.
 
-3. Выберите действие **Копировать документ**.
+4. In the **Copy Document** window, set the appropriate filters, and then choose the **OK** button.
 
-4. В окне **Копировать документ** установите соответствующие фильтры, затем выберите кнопку **ОК**.
+5. Make the needed changes to quantity and amounts.
 
-5. Внесите необходимые изменения в количество и суммы.
+   You must also select the appropriate entries in the **Applies-to Entry** or **Applies-from Entry** fields. These fields identify the incorrectly posted document.
 
-   Также необходимо выбрать соответствующие операции в полях **Примен. к операции** или **Примен. из операции**. Эти поля определяют неправильно учтенный документ.
+6. Post the document.
 
-6. Выполните учет журнала.
+## To post item revaluation or item reclassification journals 
 
- 
+1. To post an item revaluation, Choose the ![Search for Page or Report]() icon, enter **Revaluation Journal**, and then choose the related link.
 
-## Учет журналов переоценки или реклассификации товаров
+   To post an item reclassification, Choose the ![Search for Page or Report]() icon, enter **Item Reclass Journal**, and then choose the related link.
 
-1. Для учета переоценки товара выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы переоценки товаров**, а затем выберите связанную ссылку.
+2. Fill in the fields as described in the following table.
 
-   Для учета реклассификации товара выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы реклассификации товаров**, затем выберите связанную ссылку.
+   | Field                  | Description                                                  |
+   | :--------------------- | :----------------------------------------------------------- |
+   | **Applies-to Entry**   | Specifies the item entry that you want to revalue or reclassify. |
+   | **Applies-from Entry** | Specifies the item entry that you want to revalue or reclassify. |
+   | **Red Storno**         | Select to post as a corrective posting.                      |
 
-2. Введите значения в поля, как описано в следующей таблице.
+3. Post the document.
 
-   | Поле                          | Описанием                                                    |
-   | :---------------------------- | :----------------------------------------------------------- |
-   | **Примен. к номеру операции** | Указывает товарную операцию, для которой требуется выполнить переоценку или реклассификацию. |
-   | **Примен. из операции**       | Указывает товарную операцию, для которой требуется выполнить переоценку или реклассификацию. |
-   | **Красное сторно**            | Выберите для учета в качестве корректирующего учета.         |
+## See Also
 
-3. Выполните учет журнала.
-
- 
-
-## См. также
-
-[Настройка запасов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory-setup.md)
+[Setting Up Inventory](Inventory-Setup.md)  

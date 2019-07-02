@@ -1,22 +1,29 @@
-# Управление банками и кассами
+---
+title: Bank and cash management in Russia
+description: Russian enhancements include bank and chash management.
+author: DianaMalina
 
-​						 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Функциональная возможность для России для управления банками и кассами описывается в нескольких разделах.
+# Bank and Cash Management
 
- 
+Russian functionality for bank and cash management in described in several topics.
 
-## В этом разделе
+## In This Section 
 
-[Управление банком](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-management.md)
+[Bank Management](Bank-Management.md)
 
-[Управление мелкими доходами/расходами](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/petty-cash-management.md)
+[Petty Cash Management](Petty-Cash-Management.md)
 
-[Практическое руководство. Настройка платежного поручения](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-a-bank-payment-order.md)
+[How to: Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)
 
-[Практическое руководство. Создание карточек счетов кассы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-cash-account-cards.md)
+[How to: Create Cash Account Cards](How-to-Create-Cash-Account-Cards.md)
 
-[Практическое руководство. Печать отчета Кассовая книга КО-4](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-cash-report-co-4-report.md)
+[How to: Print the Cash Report CO-4 Report](How-to-Print-the-Cash-Report-CO-4-Report.md)
 
-[Практическое руководство. Печать отчета "Журнал кассовых ордеров КО-3"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-print-the-cash-order-journal-co-3-report.md)
-
+[How to: Print the Cash Order Journal CO-3 Report](How-to-Print-the-Cash-Order-Journal-CO-3-Report.md)

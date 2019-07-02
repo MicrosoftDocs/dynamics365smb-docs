@@ -1,41 +1,48 @@
-# Практическое руководство. Создание товарного отчета ТОРГ-29
+---
+title: Creating the TORG-29 goods report in Russia
+description: Russian enhancements include support forthe TORG-29 goods report.
+author: DianaMalina
 
-В отчете ТОРГ-29 показываются товарные документы, которые можно использовать для отправки приходных и расходных накладных для склада. 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-После формирования этого отчета для склада поля **Номер последнего отчета по товарам** и **Номер последнего отчета по товарам** в окне **Карточка склада** обновляются для обеспечения согласованной отчетности.
+# How to: Create the TORG-29 Goods Report
 
- 
+The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
 
-## Создание отчета ТОРГ-29 
+When you run the report for a location, the **Last Goods Report No.** and **Last Goods Report Date** fields in the **Location Card** window are updated to ensure consistent reporting.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Товарный отчет ТОРГ-29**, а затем выберите связанную ссылку.
+## To create the TORG-29 report
 
-2. На экспресс-вкладке **Параметры** заполните поля, как описано в следующей таблице.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Report TORG-29**, and then choose the related link.
 
-   | Поле                                           | Описанием                                                    |
-   | :--------------------------------------------- | :----------------------------------------------------------- |
-   | **Код Склада**                                 | Определяет склад, для которого предназначен отчет.           |
-   | **Номер отчета**                               | Определяет количество раз, которое отчет был напечатан, на основе значения поля **Номер последнего отчета по товарам** в окне **Карточка склада**. |
-   | **Материально-ответственное лицо**             | Определяет сотрудника, ответственного за правильность данных в отчете. |
-   | **Приемщик отчета**                            | Определяет сотрудника, ответственного за приему отчета.      |
-   | **Дата отчета**                                | Определяет дату отчета.                                      |
-   | **Дата Начала**                                | Определяет дату начала для отчета.                           |
-   | **Дата Конца**                                 | Определяет дату начала для отчета.                           |
-   | **Тип операции**                               | Определяет тип операции (необязательно). Эта информация будет включена в отчет. |
-   | **Номера приложений**                          | Определяет количество приложений к отчету.                   |
-   | **Детализация приемки**                        | Определяет, на каких подробных сведениях основана каждая операция.   Если выбрано значение **Документ**, значения суммируются по каждому документу. Если выбрано значение **Товар**, сумма и количество суммируются по каждому товару. Если выбрано значение **Операция**, то сумма и количество включаются в отдельную транзакцию. |
-   | **Детализация отгрузки**                       | Определяет, на каких подробных сведениях основана каждая операция.   Если выбрано значение **Общая сумма**, то все суммы в отчете объединяются в одну строку. Если выбрано значение **Документ**, значения суммируются по каждому документу. Если выбрано значение **Товар**, сумма и количество суммируются по каждому товару. Если выбрано значение **Операция**, то сумма и количество включаются в отдельную транзакцию. |
-   | **Тип Суммы**                                  | Определяет, на чем основаны суммы — на стоимости или цене продажи.   Если в этом поле выбрано значение **Цена продажи**, становятся доступными поля **Тип продажи**, **Показать сумму себест. для прих. накладных**, и **Показать сумму себест. для расх. накладных**. |
-   | **Тип продажи**                                | Определяет тип прайс-листа.   Если выбрано значение **Прайс-лист клиента** или **Кампания**, прайс-лист можно выбрать в поле **Код продажи**. Если выбрано значение **Все клиенты**, используется единый прайс-лист. |
-   | **Код продажи**                                | Определяет прайс-лист. В зависимости от значения в поле **Тип продажи** можно определить номер кампании или ценовую группу клиентов. |
-   | **Показать сумму себест. для прих. накладных** | Определяет, должна ли каждая приходная накладная делиться на две строки. Если выбрано, первая строка приходной накладной представляет стоимость товара, а вторая — прибыль от продаж. |
-   | **Показать сумму себест. для расх. накладных** | Определяет, должна ли каждая расходная накладная делиться на две строки. Если выбрано, первая строка приходной накладной представляет стоимость товара, а вторая — прибыль от продаж. |
+2. On the **Options** FastTab, fill in the fields as described in the following table.
 
-3. Нажмите кнопку **Печать**.
+   | Field                              | Description                                                  |
+   | :--------------------------------- | :----------------------------------------------------------- |
+   | **Location Code**                  | Specifies the location that the report is for.               |
+   | **Report No.**                     | Specifies the number of times that the report has printed based on the value of the **Last Goods Report No.** field in the **Location Card** window. |
+   | **Responsible Employee**           | Specifies the employee who is responsible for the validity of the data in the report. |
+   | **Report Acceptor**                | Specifies the employee who is responsible for accepting the report. |
+   | **Report Date**                    | Specifies the date of the report.                            |
+   | **Start Date**                     | Specifies the start date for the report.                     |
+   | **End Date**                       | Specifies the start date for the report.                     |
+   | **Operation Type**                 | Optionally, specifies the type of operation. This information will be included in the report. |
+   | **Attaches No.**                   | Specifies the number of attachments to the report.           |
+   | **Receipt Detailing**              | Specifies what the detailed information for each entry is based on.   If you select **Document**, amounts are totaled for each document. If you select **Item**, the amount and quantity are totaled for each item. If you select **Operation**, the amount and quantity are included in a single transaction. |
+   | **Shipment Detailing**             | Specifies what the detailed information for each entry is based on.   If you select **Total Amount**, the report summarizes amounts in a single line. If you select **Document**, amounts are totaled for each document. If you select **Item**, the amount and quantity are totaled for each item. If you select **Operation**, the amount and quantity are included in a single transaction. |
+   | **Amount Type**                    | Specifies what the amounts are based on, cost or sales price.   If you set this field to **Sales Price**, the **Sales Type**, **Show Cost Amount for Receipts**, and **Show Cost Amounts for Shipment** fields become available. |
+   | **Sales Type**                     | Specifies the type of price list.   If you select **Customer Price List**  or **Campaign**, you can select the price list in the **Sales Code** field. If you select **All Customers**, a unified price list is used. |
+   | **Sales Code**                     | Specifies the price list. Depending on the selection in the **Sales Type** field, you can specify either a customer price group or a campaign number. |
+   | **Show Cost Amount for Receipts**  | Specifies if each receipt line must be divided into two lines. If selected, the first line for a receipt represents item cost, and the second line represents the sales margin. |
+   | **Show Cost Amounts for Shipment** | Specifies if each shipment line must be divided into two lines. If selected, the first line for a receipt represents the item cost, and the second line represents the sales margin. |
 
- 
+3. Choose the **Print** button.
 
-## См. также 
+## See Also
 
-[Настройка запасов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/inventory-setup-inventory)
-
+[Setting Up Inventory](../../inventory-setup-inventory)  

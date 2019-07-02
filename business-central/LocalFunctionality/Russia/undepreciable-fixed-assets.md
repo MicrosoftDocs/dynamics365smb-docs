@@ -1,44 +1,42 @@
-# Малоценные основные средства
+---
+title: Undepreciable fixed assets in Russia
+description: Russian enhancements include managing fixed assets that cannot be depreciated.
+author: DianaMalina
 
-Функция малоценных основных средств позволяет списывать для основных средств всю сумму, за которую они были приобретены, в момент ввода в эксплуатацию. Кроме того, автоматически создаются записи количеств для этих основных средств, чтобы хранить записи о существовании и движении этих ОС в терминах количества.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Создайте книгу амортизации для хранения записей количеств основных средств, для которых во время ввода в эксплуатацию будет списываться сумма, по которой они приобретены. Дополнительные сведения см. в разделе [Практическое руководство. Настройка книги количественного учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-a-quantity-book.md).
+# Undepreciable Fixed Assets
 
+The undepreciable fixed assets feature enables you to repay fixed assets with the whole amount of their acquisition at the time of their release. It also automatically creates quantity records for these fixed assets in order to keep records of their existence and movements in quantitative terms.  
 
+Create a depreciation book to keep records of the quantities of fixed assets that will be repaid at the time of release for the amount that they were acquired for. For more information, see [How to: Set Up a Quantity Book](How-to-Set-Up-a-Quantity-Book.md).  
 
-## Настройка малоценного основного средства
+## To set up an undepreciable fixed asset
 
-Создайте или выберите карточку для основного средства, стоимость которого требуется списать. 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Основные средства**, а затем выберите связанную ссылку.
+2. In the **Fixed Asset Card** window, on the **Depreciation** FastTab, select the **Undepreciable FA** field.
 
-2. В окне **Карточка основного средства** на экспресс-вкладке **Амортизация** выберите поле **Неамортизируемое ОС**.
+3. Choose the **OK** button.
 
-3. Нажмите кнопку **ОК**.
+## To create a purchase order for an undepreciable fixed asset
 
-   
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Order**, and then choose the related link.
+2. Choose the **Post** action.
+3. Choose the **OK** button.
 
-## Создание заказа на покупку для малоценного основного средства
+## To create a release order for an undepreciable fixed asset
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Releases**, and then choose the related link.
+2. Open a release.
+3. In the **FA Release Act** window, choose the **Post** action.
+4. Choose the **OK** button.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Заказ на покупку**, затем выберите связанную ссылку.
-2. Выберите действие **Учесть**.
-3. Нажмите кнопку **ОК**.
+## See Also
 
- 
-
-## Создание заказа на ввод в эксплуатацию для малоценного основного средства
-
- 
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акты ввода в эксплуатацию ОС**, а затем выберите связанную ссылку.
-2. Откройте выпуск.
-3. В окне **Акт ввода в эксплуатацию ОС** выберите действие **Учесть**.
-4. Нажмите кнопку **ОК**.
-
- 
-
-## См. также 
-
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
+[Fixed Assets](../../fa-manage.md)  

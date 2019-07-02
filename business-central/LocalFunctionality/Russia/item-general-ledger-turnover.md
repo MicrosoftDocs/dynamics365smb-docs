@@ -1,74 +1,101 @@
-# Финансовый оборот для товара
+---
+title: Item general ledger turnover in Russia
+description: Russian enhancements include creating turnover sheets for goods and materials.
+author: DianaMalina
 
-Указанные ниже страницы и отчеты позволяют создавать оборотную ведомость для товаров и материалов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Товары оборотная ведомость по ГК — страница 12449
-- Товар Оборот (Кол-во) - отчет 12469
+# Item General Ledger Turnover
 
-## Товары оборотная ведомость по ГК (12449)
+The following pages and reports enable the creation of turnover sheet for goods and materials.
 
-Окно **Товары оборотная ведомость по ГК** показывает оборот для товаров в количествах и затратах, сальдо на начало месяца, приход и расход, а также сальдо на конец месяца.
+- Item General Ledger Turnover - Page 12449
+- Item Turnover (Qty.) - Report 12469
 
-Окно **Товары оборотная ведомость по ГК** обычно создается ежемесячно, а также может быть создана на дату инвентаризации. Данные в окне **Товары оборотная ведомость по ГК** сверяются с данными складского учета. Данные по затратам сверяются с чистыми изменениями и сальдо:
+## Item General Ledger Turnover Page (12449)
 
-- счета 41, Товары
-- счета 10, Материалы
+The **Item General Ledger Turnover** window shows the turnover for items in quantities and costs, the balance at the beginning of the month, positive and negative adjustment, and the balance at the end of the month.
 
-Чтобы открыть окно **Товары оборотная ведомость по ГК**
+The **Item General Ledger Turnover** window is usually created monthly, and can also be created for the date of inventory. The data in the **Item General Ledger Turnover** window is checked with the warehouse accounting data. The cost data is checked with the net changes and balances of:
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Товары - оборотная ведомость по ГК**, а затем выберите связанную ссылку.
+- Account 41, Items
+- Account 10, Materials
 
-Окно содержит поля со сведениями, перечисленными в следующей таблице. Значения в этих полях изменить нельзя.
+To access the **Item General Ledger Turnover** window
 
-| Поле                                                         | Описание                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Номер**                                                    | В этом поле отображается номер товара.                       |
-| **Описание**                                                 | В этом поле отображается описание товара.                    |
-| **Баз. Единица Измерения**                                   | В этом поле отображается базовая единица измерения товара. Единица измерения указывается в карточке товара как базовая. |
-| **Количество на Начало**  **Количество на Конец**  **Расход Кол-во**  **Кредит Количество** | В этих полях содержатся сведения о количестве товара — количество товара на начало и на конец периода, а также приход и расход товара. Количество указывается в базовых единицах измерения. |
-| **Себестоимость на Начало**  **Затраты на Конец**  **Дебет Затраты**  **Кредит Затраты** | В этих полях содержатся сведения о себестоимости товара на начало и на конец периода, а также приход и расход в финансовых суммах. Значения в этих полях вычисляются на основе сумм себестоимости, учтенных в операции ГК. |
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item G/L Turnover**, and then choose the related link.
+2. On the **Options** FastTab, you can specify the format options listed in the following table.
 
-Чтобы напечатать отчеты **Товар Оборот (Кол-во)**.
+| Field                         | Description                                                  |
+| ----------------------------- | ------------------------------------------------------------ |
+| **Date Filter**               | Enter the period the data is analyzed for. You can use the buttons in the lower left of the window, or you can specify the period manually. |
+| **Location Filter**           | Enter the location code that the information must be filtered for. You can enter a maximum of 10 characters, both numbers and letters. |
+| **Global Dimension 1 Filter** | Enter the filter value for the analysis on the Global Dimension 1 filter. |
+| **Global Dimension 2 Filter** | Enter the filter value for the analysis on the Global Dimension 2 filter. |
 
-- Выберите действие **Печать**, выберите действие **Оборотная ведомость (кол-во)** или **Оборот Памятка**.
+The window contains fields with the information listed in the following table. You cannot edit the fields.
 
-## Отчет "Товар Оборот (Кол-во)" (12469)
+| Field                      | Definition                                                   |
+| ---------------------------| ------------------------------------------------------------ |
+| **No.**                    | This field displays the item number.                        |
+| **Description**            | This field displays the description of the item.             |
+| **Base Unit of Measure**   | This field displays the base unit of measure of the item. The unit of measure is specified in the Item card as the Base. |
+| **Starting Quantity**,  **Ending Quantity**,  **Debit Quantity**,  **Credit Quantity** | These fields provide information about the quantity of the item—item quantity at the beginning and at the end of the period, and positive and negative correction in quantities of the item. Quantities are specified in base units of measure. |
+| **Starting Cost**,  **Ending Cost**,  **Debit Cost**,  **Credit Cost** | These fields provide information about the cost of the item, at the beginning and at the end of the period, and the item positive and negative adjustments in financial amounts. These field values are calculated on the basis of the cost amounts posted in the general ledger entry. |
 
-Для анализа чистых изменений и сальдо товаров и материалов можно напечатать отчет "Товар Оборот (Кол-во)" и экспортировать его в Microsoft Office Excel. В этом отчете печатаются следующие данные из окна "Финансовый оборот для товара":
+To display the selected item card
 
-- Номер и описание товара
+- Choose the **Item** button and then **Card** (Shift+F5 Hot Key).
 
-- Сальдо в начале указанного периода (количество и себестоимость)
+To print the **Item Turnover (Qty.)** or **Item Turnover Checklist** reports.
 
-- Приход (количество и себестоимость)
+- Choose the **Print** action, and then choose the **Turnover Sheet** or the **Turnover Checklist** action.
 
-- Расход (количество и себестоимость)
+## Item Turnover (Qty.) Report (12469)
 
-- Сальдо в конце указанного периода (количество и себестоимость)
+To analyze net changes and balances of items and materials, you can print the Item Turnover (Qty.) report and export it to Microsoft Office Excel. The report prints the following data from the Item General Ledger Turnover window:
 
-- Единица измерения
+- Item number and description
+- Balance at the beginning of the specified period (quantity and cost)
+- Positive adjustment (quantity and cost)
+- Negative adjustment (quantity and cost)
+- Balance at the end of the specified period (quantity and cost )
+- Unit of measure
 
-  
+The following procedure shows how to access the turnover sheet.
 
-  Чтобы открыть отчет:
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item General Ledger Turnover**, and then choose the related link.
+2. Choose the **Print** action, and then choose the **Turnover Sheet** action.
 
-1. В окне **Товары оборотная ведомость по ГК** выберите действие **Отчет**, а затем выберите действие **Оборотная ведомость (кол-во)**.
+The turnover sheet is printed monthly and on the date of inventory, but it can be printed for any given period.
 
-На экспресс-вкладке **Параметры** имеется возможность указать параметры форматирования, приведенные в следующей таблице.
+The **Item** FastTab of the request page contains fields with the information listed in the following table.
 
-| Параметр                                       | Описанием                                                    |
-| ---------------------------------------------- | ------------------------------------------------------------ |
-| **Точность округления**                        | Выберите необходимую точность округления:   0,001, 0,01, 1 или 1000. |
-| **Заменять нулевые значения на пропуски**      | Установите этот флажок, если необходимо заменять нулевые значения на пустые места. |
-| **Пропускать счета без оборотов**              | Установите этот флажок, чтобы исключить из отчета счета с нулевым товарооборотом за данный период. |
-| **Пропускать счета с нулевым конечным сальдо** | Установите этот флажок, чтобы исключить из отчета счета с нулевым конечным сальдо в конце периода. |
-| **Пропускать нулевые строки**                  | Установите этот флажок, чтобы исключить из отчета строки с нулевым значением. |
-| **Единица Измерения**                          | Выберите единицу измерения для расчета количеств в отчете:   -   **Базовая**: в базовых единицах измерения -   **Продажа**: в единицах измерения для продаж -   **Покупка**: в единицах измерения для покупок |
-| **Печатать Кол-во**                            | Установите этот флажок, чтобы печатать количество, которое указано в отчете. |
-| **Печать себестоимости**                       | Установите этот флажок, чтобы печатать затраты, которые указаны в отчете. |
+| Field               | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| **No.**             | Enter an item number or a range of item numbers to print an item general ledger turnover for one item or for a group of items. |
+| **Location Filter** | Enter the location code that the information must be filtered for, to print the Item General Ledger Turnover window for one or several locations.   You can enter a maximum of 10 characters, both numbers and letters. The field value is entered automatically in the **Location Filter** field |
+| **Date Filter**     | Enter the period that the report is printed for.             |
 
-## 
+On the **Options** FastTab, you can specify the format options listed in the following table.
 
-## См. также
+| Parameter                                  | Description       |
+| ------------------------------------------ | ----------------- |
+| **Rounding Precision**                     | Choose the required rounding precision:   0.001, 0.01, 1, or 1000. |
+| **Replace zero values by blanks**          | Select this field if you want to replace zero values with blanks. |
+| **Skip accounts without net changes**      | Select this field to exclude from the report the accounts with zero turnovers for the given period. |
+| **Skip accounts with zero ending balance** | Select this field to exclude from the report the accounts with zero ending balance at the end of the period. |
+| **Skip zero lines**                        | Select this field to exclude from the report the lines with zero values. |
+| **Unit of Measure**                        | Choose a unit of measure for calculating report quantities:   -   **Base** – In base units of measure -   **Sale** – In units of measure for sales -   **Purchase** – In units of measure for purchases |
+| **Print Quantity**                         | Select this field to print the quantity that is mentioned in the report. |
+| **Print Cost**                             | Select this field to print the costs that are mentioned in the report. |
+| **Export to Excel**                        | Select this field to export the report to Microsoft Office Excel. |
 
-[Акты обязательств по товару](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-obligatory-acts.md)
+## See Also
+
+[Item Obligatory Acts](Item-Obligatory-Acts.md)  

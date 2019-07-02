@@ -1,47 +1,54 @@
-# Налоговый Учет
+---
+title: Tax accounting in Russia
+description: Russian enhancements include tax accounting.
+author: DianaMalina
 
-В Business central можно настроить и вести налоговые регистры для отслеживания подлежащих налогообложению прибылей и убытков. Это основано на следующих методах налогового учета: 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Финансовая база данных используется для налогового учета.
-- План счетов используется для отслеживания налогооблагаемых прибылей и убытков.
-- Доходы и расходы записываются с использованием отдельных субсчетов и измерений.
-- Транзакции и расходы основных средств для будущих периодов отслеживаются с использованием книги амортизации для налогового учета.
-- Налоговые регистры группируются и суммируются ежемесячно. В каждом регистре содержится 12 значений для налогового периода 12 месяцев.
+# Tax Accounting
 
-Поскольку Business Central сохраняет историю всех транзакций, подробная информация из транзакций, которая изменяет налогооблагаемую прибыль, автоматически отслеживается. Собранные сведения отображаются в налоговых регистрах в соответствии с принципами достоверности и законности налога.
+In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
 
- 
+- The financial database is used for tax accounting.
+- The chart of accounts is used to track taxable profits and losses.
+- Income and expenses are recorded using separate subaccounts and dimensions.
+- Fixed asset transactions and expenses for future periods are tracked using the depreciation book for tax accounting.
+- Tax registers are grouped and totaled monthly. Each register has 12 values for a 12 month tax period. 
 
-## Налоговые регистры
+Because [!INCLUDE[prodshort](../../includes/prodshort.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.
 
-Для отслеживания налогооблагаемых прибылей и убытков используются налоговые регистры двух типов. 
+## Tax Registers
 
-| Тип налогового регистра         | Описанием                                                    |
-| :------------------------------ | :----------------------------------------------------------- |
-| Аналитический налоговый регистр | Аналитический регистр основан на операциях книги для налогооблагаемых транзакций. Информация обеспечивает непрерывное отображение в хронологической последовательности бизнес-операций, что позволяет отслеживать налогооблагаемые прибыли и убытки на основе налоговых кодов. |
-| Синтетический налоговый регистр | Синтетический регистр основан на суммарной и расчетной информации из аналитического регистра или другого синтетического регистра. |
+There are two types of tax registers that are used for tracking taxable profits and losses. 
 
-Транзакции обрабатываются с помощью определенных методов налогового учета, которые применяются к следующим типам налоговых регистров.
-
-| Налоговый регистр      | Описанием                                                    |
+| Tax Register Type      | Description                                                  |
 | :--------------------- | :----------------------------------------------------------- |
-| Операция главной книги | Аналитический регистр основан на операциях транзакций главной книги. |
-| Операция по КП         | Группа аналитических регистров основана на информации, связанной с обязательствами дебиторов и кредиторов. |
-| Операция ОС            | Группа аналитических регистров основана на налоговых данных для основных средств. Эта группа создается с использованием книги ОС и книги амортизации для налогового учета, которая не интегрирована с книгой финансового учета. |
-| Операция товара        | Аналитический регистр основан на учтенных товарных операциях. |
-| Операция РБП           | Группа аналитических регистров основана на налоговых данных для расходов будущих периодов. Эта группа создается с использованием книги ОС и книги амортизации для налогового учета, которая не интегрирована с книгой финансового учета. |
-| Накопление             | Синтетический регистр основан на расчетных алгоритмах, определенных при настройке налогового регистра. |
+| Analytic Tax Register  | An analytic register is based on ledger entries for taxable transactions. The information provides a continuous chronological reflection of business operations, which tracks taxable profits and losses based on tax codes. |
+| Synthetic Tax Register | A synthetic register is based on summarized and calculated information from an analytic register or another synthetic register. |
 
- 
+Transactions are processed using specific tax accounting principles that are applied to the following types of tax registers. 
 
-## См. также
+| Tax Register         | Description                                                  |
+| :------------------- | :----------------------------------------------------------- |
+| General Ledger Entry | An analytic register based on general ledger transaction entries. |
+| CV Entry             | A group of analytic registers based on information associated with debtor or creditor liabilities. |
+| Fixed Asset Entry    | A group of analytic registers based on tax data for fixed assets. This group is created by using a fixed asset ledger and a tax depreciation book that is not integrated with the financial accounting ledger. |
+| Item Entry           | An analytic register based on posted item transactions.      |
+| Future Expense Entry | A group of analytic registers based on tax data for future expenses. This group is created by using a fixed asset ledger and a tax depreciation book that is not integrated with the financial accounting ledger. |
+| Accumulation         | A synthetic register based on calculated algorithms defined during tax register set up. |
 
-[Практическое руководство. Настройка налогового учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md)
 
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
+## See Also
 
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
-[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
+[How to: Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Tax Differences](Tax-Differences.md)  
+[Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md)  
+[Upload KLADR](Upload-KLADR.md)  

@@ -1,45 +1,47 @@
-# Регламентные отчеты
+---
+title: Statutory reports in Russia
+description: Russian enhancements include support for statutory reports.
+author: DianaMalina
 
-Business Central позволяет настроить регламентные отчеты, чтобы можно было импортировать и экспортировать данные для электронной налоговой отчетности и других требуемых документов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-После настройки отчета и указания необходимой информации вы можете экспортировать отчет в Microsoft Excel или печатать его.
+# Statutory Reports
 
- 
+[!INCLUDE[prodshort](../../includes/prodshort.md)] lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.
 
-## Приступая к работе с регламентными отчетами
+After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.
 
-Используйте окна на основе следующих ключевых таблиц для настройки и создания регламентных отчетов.
+## Getting Started with Statutory Reports
 
-| Таблицы                                 | Описанием                                                    |
-| :-------------------------------------- | :----------------------------------------------------------- |
-| Настройка регламентного отчета          | Указывает сведения, которые используются для настройки регламентных отчетов, включая шаблоны, форматы, серии номеров и назначение экспорта. |
-| Версия формата                          | Указывает информацию о настройке по различным форматам отчета. Включает сведения о том, когда какой отчет использовать, используемую схему XML и необходимый формат данных. |
-| Регламентный отчет                      | Определяет список регламентных отчетов с подробной информацией, такой как тип, версия формата и является ли регламентный отчет в данный момент активным. Из этого окна можно определить таблицы регламентного отчета, группы реквизитов, строки элементов XML; кроме того, можно экспортировать данные. |
-| Таблица регламентного отчета            | Указывает сведения, требующиеся для настройки таблицы для отчетности, включая пределы масштабируемости, шаблоны и стандартный текст.   Из этого окна можно определить строки и столбцы таблицы, индивидуальные показатели и сопоставление источников данных. |
-| Строка таблицы регламентного отчета     | Позволяет определить форматы строк и функции для таблиц регламентного отчета. |
-| Столбец таблицы регламентного отчета    | Позволяет определить форматы столбцов для таблиц регламентного отчета. |
-| Группа показателей регламентного отчета | Определяет условия, используемые для форматирования регламентных отчетов, включая тип экспорта, сопоставление Microsoft Excel и количество в ячейке. |
+Use the windows based on the following key tables to set up and create statutory reports. 
 
- 
+| Tables                        | Description                                                  |
+| :---------------------------- | :----------------------------------------------------------- |
+| Statutory Report Setup        | Specifies information that is used to set up statutory reports including templates, formats, number series, and export destinations. |
+| Format Version                | Specifies setup information about the different report formats. This includes when to use which report, the XML schema to use, and the required data format. |
+| Statutory Report              | Specifies a list of statutory reports with detailed information, such as type, format version, and if the statutory report is currently active. From this window, you can define statutory report tables, requisites groups, the XML element lines, and you can export data. |
+| Statutory Report Table        | Specifies information that is required to set up reporting tables including scalability limits, templates, and standard text.   From this window, you can define table rows, columns, individual requisites, and data source mapping. |
+| Stat. Report Table Row        | Allows you to define row formats and functions for your statutory report tables. |
+| Stat. Report Table Column     | Allows you to define column formats for your statutory report tables. |
+| Stat. Report Requisites Group | Specifies the conditions used to format and process statutory reports including export type, Microsoft Excel mapping, and cell quantity. |
 
-## Данные для регламентных отчетов 
+## Data for Statutory Reports
 
-Регламентные отчеты основаны на финансовых отчетах и налоговых регистрах. Для каждого регламентного отчета, настраиваемого в окне **Регламентные отчеты**, требуется указать, как сопоставляются данные с полями таблиц в Dynamics NAV, создав сопоставления таблиц. В окне **Таблицы регламентного отчета** в поле **Тип внутр. источника** укажите область, из которой поступают данные, как описано в следующей таблице.
+The statutory reports are based on account schedules and tax registers. For each statutory report that you set up in the **Statutory Reports** window, you define how the data maps to fields on tables in Dynamics NAV by creating table mappings. In the **Statutory Report Tables** window, in the **Int. Source Type** field, you specify the area that the data comes from as described in the following table.
 
- 
+| Option                      | Description                                                  |
+| :-------------------------- | :----------------------------------------------------------- |
+| **Acc. Schedule**           | The data is based on an account schedule.                    |
+| **Tax Register**            | The data is based on a tax register. For more information, see [Tax Registers](tax-registers.md). |
+| **Tax Difference**          | The data is based on a tax difference. For more information, see [Tax Differences](tax-differences.md). |
+| **Payroll Analysis Report** | The data is based on payroll analysis.                       |
 
-| Параметр                            | Описанием                                                    |
-| :---------------------------------- | :----------------------------------------------------------- |
-| **Финансовый отчет**                | Данные основаны на финансовом отчете.                        |
-| **Налоговый регистр**               | Данные основаны на налоговом регистре. Дополнительные сведения см. в разделе [Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md). |
-| **Налоговая разница**               | Данные основаны на налоговой разнице. Дополнительные сведения см. в разделе [Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md). |
-| **Аналитический отчет по зарплате** | Данные основаны на анализе заработной платы.                 |
+## See Also
 
- 
-
-## См. также 
-
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
-
+[Tax Accounting](Tax-Differences.md)  
+[Tax Differences](Tax-Accounting.md)  

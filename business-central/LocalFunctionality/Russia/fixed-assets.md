@@ -1,28 +1,46 @@
-# Основные средства					 
+---
+title: Fixed assets in Russia
+description: Russian enhancements include fixed assets.
+author: DianaMalina
 
-В России имеются особые функции Business Central для отслеживания и управления основными средствами. С помощью функций основных средств можно управлять амортизацией и стоимость обслуживания, отслеживать перемещения основных средств, управлять их продажей и реализацией, а также формировать различные отчеты и статистику.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
+
+# Fixed Assets
+
+In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
 
  
 
-## Начало работы с основными средствами
+## Getting Started with Fixed Assets
 
-Воспользуйтесь следующей таблицей, чтобы больше узнать о функциях основных средств, доступных для России. 
+ 
 
-| Тема                                                         | Описанием                                                    |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Практическое руководство. Расчет налога на имущество](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-calculate-assessed-tax.md)     | Позволяет рассчитывать налог на имущество для основных средств. |
-| [Амортизационная премия](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/depreciation-bonus.md)                                   | Позволяет включить расходы на основное средство и капитальные вложения в текущий период. |
-| [Настройка амортизации основных средств](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-how-setup-depreciation) | Позволяет понять и использовать методы амортизации, которые используются только в России. |
-| [Издержки ОС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-charges.md)                                              | Позволяет включать дополнительные издержки на покупку основных средств в стоимость приобретения ОС. |
-| [Инвентаризация основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md)                          | Позволяет создавать, обрабатывать, фильтровать и печатать инвентарные списки основных средств для аудита в целях соблюдения требований законодательства. |
-| [ОС: местоположения и ответственные сотрудники](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md)            | Позволяет управлять перемещением и историей основных средств. |
-| [Оборот основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-turnover.md)                                  | Позволяет управлять оборотом основных средств.               |
-| [Практическое руководство. Создание журналов расходов будущих периодов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-future-expense-journals.md) | Позволяет учитывать расходы на особом счете, чтобы позже включать их в расходы. |
-| [Практическое руководство. Создание издержек ОС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-a-fixed-asset-charge.md)           | Определяет порядок создания издержек ОС.                     |
-| [Практическое руководство. Создание кредит-ноты для издержек ОС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-a-credit-memo-for-a-fixed-asset-charge.md) | Определяет порядок исправления ошибки в издержках основного средства в счете с помощью кредит-ноты. |
-| [Практическое руководство. Ввод, отслеживание и списание основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-release-track-and-write-off-fixed-assets.md) | Определяет порядок ввода, отслеживания и списания основных средств организации. |
-| [Практическое руководство. Просмотр учтенных операций по издержкам основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-view-posted-entries-on-a-fixed-asset-charge%23to-view-a-posted-entry-on-a-fixed-asset-charge.md) | Определяет порядок просмотра всех учтенных операций основных средств для каждого кода издержек ОС. |
-| [Практическое руководство. Настройка счета нематериальных активов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-an-intangible-assets-account.md) | Позволяет учитывать транзакции с нематериальными активами на специальном счете. |
-| [Практическое руководство. Учет себестоимости реализации основного средства](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-account-for-the-cost-to-dispose-a-fixed-asset.md) | Позволяет учитывать себестоимость реализации основного средства как расходы. |
-| [Малоценные основные средства](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/undepreciable-fixed-assets.md)                             | Позволяет признавать окончательную себестоимость основного средства в момент приобретения. |
+Use the following table to learn more about the fixed asset features that are available for Russia.
 
+ 
+
+| Topic                                                     | Description                                                  |
+| :-------------------------------------------------------- | :----------------------------------------------------------- |
+| [How to: Calculate Assessed Tax](How-to-Calculate-Assessed-Tax.md)                        | Enables you to calculate the assessed tax for fixed assets.  |
+| [Depreciation Bonus](Depreciation-Bonus.md)                                    | Enables you to include fixed asset and capital investment expenses in the current period. |
+| [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation)               | Enables you to understand and use depreciation methods that are unique to Russia. |
+| [Fixed Asset Charges](Fixed-Asset-Charges.md)                                   | Enables you to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. |
+|[Gratuitous receipt of fixed assets](Gratuitous-receipt-of-fixed-assets.md)| Specifies how to post gratuitous receipt of fixed assets|
+| [Fixed Asset Inventory](Fixed-Asset-Inventory.md)                                 | Enables you to generate, process, filter, and print fixed asset inventory lists for auditing in compliance with legal requirements. |
+| [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)                   | Enables you to manage the movement and history of fixed assets. |
+| [Fixed Asset Turnover](Fixed-Asset-Turnover.md)                                  | Enables you to manage the turnover of fixed assets.          |
+| [How to: Create Future Expense Journals](How-to-Create-Future-Expense-Journals.md)                | Enables you to post expenses to a special account that are later included as expenses. |
+| [How to: Allocate and Post Fixed Asset Charges]()         | Specifies how to allocate and post fixed asset charges.      |
+| [How to: Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)                   | Specifies how to create a new fixed asset charge.            |
+| [How to: Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md) | Specifies how to fix an error on a fixed asset charge of an invoice using a credit memo. |
+|[Sale of fixed assets](Sale-of-fixed-assets.md)|Specifies how to sale fixed asset|
+| [How to: Release, Track, and Write-Off Fixed Assets](How-to-Release%2C-Track%2C-and-Write-Off-Fixed-Assets.md)    | Specifies how to release, track, and write-off the fixed assets of your organization. |
+| [How to: View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)   | Specifies how to view all posted fixed asset entries for each fixed asset charge code. |
+| [How to: Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md)           | Enables you to post intangible asset transactions to a special intangible assets account. |
+| [How to: Account for the Cost to Dispose a Fixed Asset](How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) | Enables you to account for the cost to dispose a fixed asset as an expense. |
+| [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)                            | Enables you to recognize the complete cost of a fixed asset at the time of acquisition. |

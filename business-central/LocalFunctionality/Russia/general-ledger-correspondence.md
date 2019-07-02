@@ -1,50 +1,77 @@
-# Фин. корреспонденция
+---
+title: General ledger correspondence in Russia
+description: Russian enhancements include G/L correspondence.
+author: DianaMalina
 
-Функция корреспонденции финансовых операций позволяет: 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
+# General Ledger Correspondence
 
-- Периодически создавать транзакцию корреспонденции.
-- Учитывать операции корреспонденции при учете финансовых транзакций.
-- Анализировать ряд отчетов для корреспонденции.
+The general ledger correspondence feature enables you to: 
 
- 
-
-## Создание операции финансовой корреспонденции 
-
-Ниже приводится процедура периодического создания операций финансовой корреспонденции.
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Создание корреспонденции счетов**, а затем выберите связанную ссылку.
-2. Введите в поле **Номер транзакции** номер транзакции, если финансовая корреспонденция должна быть создана только для выбранной транзакции. В противном случае, оставьте поле пустым.
-
- 
-
-Чтобы настроить автоматическую финансовую корреспонденцию 
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка ГК**, а затем выберите связанную ссылку.
-2. Установите флажок **Авт. корреспонденция**.
+- Create a correspondence transaction periodically.
+- Post correspondence operations when you post general ledger transactions.
+- Analyze a number of reports for correspondence.
 
  
 
-## Отчеты 
-
-Следующие отчеты были добавлены для анализа данных из транзакций корреспонденции: 
-
-- ГК - корреспонденция (страница 12403; отчет 12431)
-- Операции корреспонденции (страница 12401)
-- Корреспонденция - журнал-ордер (отчет 12432)
-- Анализ операций корреспонденции (отчет 12435)
+## Creating a General Ledger Correspondence Entry
 
  
 
-### Окно "ГК - корреспонденция" 
+The following procedure shows how to periodically create general ledger correspondence entries.
 
-Окно **ГК - корреспонденция** отображает обороты по корреспонденции счетов за выбранный период. 
+ 
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Корреспонденция**, а затем выберите связанную ссылку.
-2. Выберите **ГК - корреспонденция**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Create G/L Correspondence**, and then choose the related link.
+2. Enter the **Transaction No.** field with the transaction number if general ledger correspondence is to be created only for the selected transaction. Otherwise, leave it blank.
 
+ 
 
+To set up automatic general ledger correspondence
 
-Заголовок **ГК - корреспонденция** имеет следующие фильтры:
+ 
+
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+2. Select the **Automatic G/L Correspondence** check box.
+
+ 
+
+## Reports
+
+ 
+
+The following reports have been added for the analysis of data from correspondence transactions:
+
+ 
+
+- General Ledger - Correspondence (page 12403; report 12431)
+- G/L Correspondence Entries (page 12401)
+- G/L Corresp. Journal Order (report 12432)
+- G/L Corresp Entries Analysis (report 12435)
+
+ 
+
+### General Ledger - Correspondence Window
+
+ 
+
+The **General Ledger - Correspondence** window shows turnovers in the chosen period in correspondence.
+
+ 
+
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+2. Choose the **General Ledger - Correspondence** action.
+
+ 
+
+The header of the **General Ledger - Correspondence** window contains the following filters:
+
+ 
 
 - Date Filter
 - Business unit Filter
@@ -53,28 +80,40 @@
 
  
 
-В субформе  отчет отображает обороты по счету в корреспонденции с другими счетами:
+In the subform, the report shows the turnover in correspondence with other accounts:
 
 ![General-Ledger-Correspondence](General-Ledger-Correspondence.png)
 
+ 
 
-### Отчет Анализ операций корреспонденции
-
-Отчет **Анализ операций корреспонденции** отображает записи корреспонденции для каждого счета. Отчет может использоваться для обзора операций по счету главной книги с корреспонденцией и итоговыми суммами.
-
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Анализ операций корреспонденции**, а затем выберите связанную ссылку.
-
-2. На вкладке **Параметры** формы запроса имеется возможность задать параметры, заполнив поля сведениями, описанными в следующей таблице.
-
-| Поле                                                         | Описанием                                                    |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| **Начало периода**                                           | Введите дату начала периода для операций, которые нужно включить в отчет. |
-| **Окончание периода**                                        | Введите дату окончания периода для операций, которые нужно включить в отчет. |
-| **Другие параметры**:<br />**Без нулевых оборотов**, **Без нулевых строк**, **Дебет и кредит раздельно**, **Новая страница для счета ГК** | Указание представления отчета, например, нужно ли выводить сведения для каждого счета без нулевых строк или нулевых оборотов. |
+### G/L Corresp Entries Analysis Report
 
  
 
-## См. также 
+The **G/L Corresp Entries Analysis** report shows the correspondence entries for each account. The report can be used to get an overview of general ledger account entries with correspondence and totals.
 
-[Функциональность локальной версии для России](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-local-functionality.md)
+ 
+
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+2. Choose the **G/L Corresp Entries Analysis** action.
+
+ 
+
+On the **Options** tab of the request form, you can set parameters by filling in the fields with the information listed in the following table.
+
+ 
+
+| Field                                                        | Description                                                  |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| **Period Beginning**                                         | Enter the starting date of the period, for the entries that you want to include in the report. |
+| **Ending of Period**                                         | Enter the ending date of the period, for the entries that you want to include in the report. |
+| **Other parameters**:<br />**Without Zero Net Changes**, **Without Zero Lines**, **Debit Credit Separately**, **New Page for GL Acc** | Specify the view of the report, such as whether the information for each account should be written without zero lines or net changes. |
+
+ 
+
+## See Also
+
+ 
+
+[Russia Local Functionality](russia-local-functionality.md)
 

@@ -1,24 +1,30 @@
-# Практическое руководство. Настройка платежного поручения 							 
+---
+title: Setting up a bank payment order in Russia
+description: Russian enhancements include bank payment orders.
+author: DianaMalina
 
-Платежные поручения используются для банковских платежей в государственный бюджет. Чтобы использовать платежное поручение, необходимо создать шаблон финансового журнала, как описано в следующей процедуре.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up a Bank Payment Order
 
-## Настройка платежного поручения
+Bank payment orders must be used if a bank payment is for the official state budget. To use a bank payment order, a general journal template must be created as described in the following procedure.
 
- 
+## To set up a bank payment order
 
-1. Выберите значок ![](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png) , введите **Шаблоны финансовых журналов**, а затем выберите связанную ссылку.
-2. Создайте раздел финансового журнала для каждой операции.
-3. В поле **Тип баланс. счета** выберите тип банковского счета.
-4. В поле **Номер баланс. счета** введите номер банковского счета.
-5. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Коды источников**, а затем выберите связанную ссылку.
-6. Создайте запись кода источника.
-7. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка кодов источников**, а затем выберите связанную ссылку.
-8. На экспресс-вкладке **Общее** в поле **Банковские платежи** выберите код источника, который был введен в окне **Коды источников**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Journal Templates**, and then choose the related link.
+2. Create a general journal batch for every bank operation.
+3. In the **Bal. Account Type** field, select the bank account type.
+4. In the **Bal. Account No.** field, enter the bank account.
+5. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Source Codes**, and then choose the related link.
+6. Create a source code record.
+7. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Source Code Setup**, and then choose the related link.
+8. On the **General** FastTab, in the **Bank Payments** field, select the source code that you entered in the **Source Codes** window.
 
- 
+## See Also
 
-## См. также
-
-[Управление банком](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/bank-management.md)
+ [Bank Management](Bank-Management.md)  

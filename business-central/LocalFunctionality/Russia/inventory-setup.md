@@ -1,50 +1,46 @@
-# Настройка модуля "Запасы"
+---
+title: Inventory setup in Russia
+description: Russian enhancements include inventory.
+author: DianaMalina
 
-Как часть управление запасами, можно настроить запасы, чтобы:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Назначать товарные издержки при покупках из зарубежных стран или регионов на основе веса или объема.
-- Использовать один и тот же столбец для первоначального учета и корректировок.
+# Inventory Setup
 
- 
+As part of inventory management, you can set up inventory to: 
 
-## Назначение товарных издержек в документах покупки
+- Assign item charges on purchases from foreign countries/regions based on weight or volume
+- Use the same column for original and corrective postings
 
-В России Dynamics NAV может назначать товарные издержки при покупках из зарубежных стран или регионов на основе веса или объема. Для каждого товара в окне **Карточка товара** на экспресс-вкладке **Внешняя торговля** если установлены флажки **Вес брутто обязателен** и **Объем единицы обязателен**, необходимо заполнить поля **Вес брутто** и **Объем единицы**. Когда вы предлагаете назначение товарных издержек по заказу на покупку, необходимо указать, что принцип распределения, вес и объем добавляются в параметры для выбора. Дополнительные сведения см. в разделе [Практическое руководство. Использование товарных издержек для учета дополнительных торговых расходов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/payables-how-assign-item-charges).
+## Item Charge Assignment in Purchase Documents
 
- 
+In Russia, [!INCLUDE[prodshort](../../includes/prodshort.md)] can assign item charges on purchases from foreign countries/regions based on weight or volume. For each item, in the **Item Card** window, on the **Foreign Trade** FastTab, if the **Gross Weight Mandatory** and **Unit Volume Mandatory** check boxes are selected, you must fill in the **Gross Weight** and **Unit Volume** fields. When you suggest an item charge assignment on a purchase order, you must specify that the distribution principle, weight, and volume are added to the options to choose from. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges).
 
-## Корректировки товара 
+## Item Corrections
 
-Можно настраивать склад на использование одного столбца для первоначального и корректирующего учета. Эта функция часто называется *красный сторно*. 
+You can set up inventory to use the same column for original and corrective postings. This is often referred to as *red storno*.
 
-Можно использовать учет "красный сторно" для учета корректировок следующих операций склада:
+You can use red storno posting to post corrections for the following inventory entries:
 
-- Корректирующие операции в журнале товаров.
-- Сторнирование товарных документов, таких как акты оприходования и акты списания товаров.
-- Учет журналов переоценки или реклассификации товаров.
-- Периодические корректировки себестоимости товара.
+- Corrective entries in the item journal
+- Reversal of item documents such as item receipts and item shipments
+- Posting item revaluation or item reclassification journals
+- Periodic adjustments of item costs
 
- 
+For more information, see [How to: Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md).
 
-Дополнительные сведения см. в разделе [Практическое руководство. Учет корректировок "красный сторно"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md).
+### Adjusting Item Cost
 
- 
+If you select the Enable Red Storno field in the **Inventory Setup** window, then negative deviations are posted according to red storno when you run the **Adjust Cost - Item Entries** batch job.
 
-### Корректировка себестоимость товаров
+## See Also
 
-Если выбрано поле "Применять красное сторно" в окне **Настройка модуля "Запасы"**, то отрицательные отклонения учитываются в соответствии с "красным сторно" при исполнении пакетного задания **Коррекция себест. запасов**.
-
- 
-
-## См. также
-
- 
-
-[Акты Оприходования](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-documents.md)
-
-[Акты обязательств по товару](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-obligatory-acts.md)
-
-[Практическое руководство. Учет коррекций "красный сторно"](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-post-red-storno-corrections.md)
-
-[Практическое руководство. Использование товарных издержек для учета дополнительных торговых расходов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/payables-how-assign-item-charges)
-
+[Item Documents](Item-Documents.md)  
+[Item Obligatory Acts](Item-Obligatory-Acts.md)  
+[How to: Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md)  
+[How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges)  

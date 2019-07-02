@@ -1,79 +1,87 @@
-# Практическое руководство. Настройка секций налогового регистра
+---
+title: Setting up tax register sections in Russia
+description: Russian enhancements include tax register sections.
+author: DianaMalina
 
-Можно создать новую секцию налогового регистра или выбрать секцию налогового регистра, которая будет использоваться в организации в текущем налоговом периоде. Можно выбрать секцию налогового регистра, действовавшую в одном из предыдущих налоговых периодов и просмотреть налоговую информацию за любой из периодов. Имеется возможность копирования налоговых регистров из одной секции налоговых регистров в другую. Это позволяет настраивать налоговые регистры и отлаживать алгоритм сбора информации в налоговые регистры.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Ниже приводится процедура настройки секций налогового регистра.
+# How to: Set Up Tax Register Sections
 
-## Настройка налогового регистра
+You can either create a new tax register section or select a tax register section to be used in a company during the current taxation period. You can select a tax register section that was valid during previous taxation periods and view tax information for any of the periods. You can copy tax registers from one tax register section into another. You can also set up tax registers and adjust the algorithm of information collection into tax registers.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Налоговые регистры**, а затем выберите связанную ссылку.
+The following procedure shows how to set up tax register sections.
 
-2. В окне **Секции налоговые регистров**, выберите действие **Создать**.
+## To set up a tax register
 
-3. На экспресс-вкладке **Общее** введите значения в поля, описанные в следующей таблице.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Tax Registers**, and choose the related link.
 
-   | Поле               | Описанием                                                    |
+2. In the **Tax Registers Sections** window, choose the **New** action.
+
+3. On the **General** FastTab, enter the fields described in the following table.
+
+   | Field             | Description                                                  |
+   | ----------------- | ------------------------------------------------------------ |
+   | **Code**          | The code of the existing tax register version for a certain taxation period is displayed.   Create the code for a new tax register section, if necessary. |
+   | **Description**   | Enter a description for the tax register section.            |
+   | **Status**        | This field can have any one of the following values:   -   **Blocked** -   **Open** -   **Reporting** -   **Closed**   The **Blocked** status is set by default when you create a new section. This shows that a new tax register section is created and that the register does not contain any data.   Change the status to **Open manually** to continue further set up. Using this status, during tax register calculation and recalculation, you cannot check the availability of data for the previous and following taxation periods. The continuity of creating tax registers in the current period is not controlled. This status target allows you to enable debugging of the tax register calculation accuracy.   If the Status has the value **Reporting**, the continuity of tax data creation is controlled. This is the production working mode with the Tax Accounting module. In this status, only the end date must be changed.   The status value **Closed** indicates a closed taxation period. It can be set after all tax registers for the taxation period are built. |
+   | **Starting Date** | Enter the start date of the tax register section.            |
+   | **Ending Date**   | Enter the end date of the tax register section.              |
+
+4. On the **Dimensions** FastTab, enter the dimension codes to filter the information selected for tax registers. Dimension codes can be changed only when the **Status** field of the tax register version has the value **Open**.
+
+5. On the **Balance** FastTab, enter the deadlines for debtor and creditor liabilities applied in accordance with the current taxation period. For example, Debit Balance Point 1 = - 45D, Debit Balance Point 2 = - 90D.
+
+6. On the **System** FastTab, select the actual norm code for the current tax register version in the **Norm Jurisdiction Code** field. Select the form number **17209** in the **Form ID** field.
+
+   Choose the **OK** button.
+
+7. In the **Tax Registers** window, choose the **Registers** action.
+
+8. In the **Tax Register Names**window, you can add new registers to the list. To create a new tax register, do one of the following:
+
+   1. Place the cursor in an empty line at the end of the register list and enter the information on the new register.
+   2. Place the cursor on the register you want to create the new one after. Then press F3 and enter the information on the new register.
+
+9. Enter the fields described in the following table.
+
+   | Field              | Description                                                  |
    | ------------------ | ------------------------------------------------------------ |
-   | **Код**            | Отображается код имеющейся версии налогового регистра для определенного налогового периода.   Создайте код для новой секции налогового регистра, если необходимо. |
-   | **Описание**       | Введите описание секции налогового регистра.                 |
-   | **Статус**         | Это поле может содержать одно из следующих значений:   -   **Заблокировано** -   **Открытые** -   **Отчеты** -   **Закрыто**   Статус **Блокировка** устанавливается по умолчанию при создании новой секции. Он указывает, что новая секция налогового регистра создана и что регистр не содержит данных.   Чтобы продолжить настройку, измените статус на **Открыт вручную**. При использовании этого статуса во время расчета и перерасчета налогового регистра нельзя проверить доступность данных предыдущего и следующего налоговых периодов. Непрерывность создания налоговых регистров в текущем периоде не контролируется. Этот статус позволяет включить отладку точности расчета налогового регистра.   При статусе **Отчеты** непрерывность создания налоговых данных контролируется. Это рабочий режим модуля Налоговый учет. При использовании этого статуса должна изменяться только конечная дата.   Статус **Закрыто** указывает, что налоговый период закрыт. Этот статус может быть установлен после того, как будут созданы все налоговые регистры для налогового периода. |
-   | **Дата начала**    | Введите дату начала для секции налогового регистра.          |
-   | **Дата окончания** | Введите дату окончания для секции налогового регистра.       |
+   | **No.**            | Enter the number of the tax register.                        |
+   | **Description**    | Enter the name of the tax register.                          |
+   | **Storing Method** | Select the tax register type.   You can choose one of the following options:   -   Calculation (accumulating) -   Build entry (creation on the basis of posted ledgers entries) |
+   | **Table ID**       | Select 17208 for the tax register with storing method calculation.   For the tax register with storing method build entry depending on the source entry of the register, select one of following: **17209**, **17210**, **17211**, **17212**, **17213**, **17214**. |
 
-4. На экспрес-вкладке **Измерения** введите коды измерений для фильтрации информации, выбранной для налоговых регистров. Коды измерений могут быть изменены только в том случае, если в поле **Статус** установлено значение **Открыто**.
+Mapping of the source entries of the register and Table IDs are listed in the following table.
 
-5. На экспресс-вкладке **Сальдо** введите сроки для обязательств дебиторов и кредиторов, используемые в соответствии с текущим налоговым периодом. Например, Дебетовое сальдо - точка 1 = 45Д, Дебетовое сальдо - точка 2 = -90Д.
-
-6. На экспресс-вкладке **Система** выберите код действующей нормы для текущей версии налогового регистра в поле **Код нормы юрисдикции**. Выберите номер формы **17209** в поле **Форма ID**.
-
-   Нажмите кнопку **ОК**.
-
-7. В окне **Секции налоговые регистров**, выберите действие **Регистры**.
-
-8. В окне **Налог. регистр названия** можно добавить в список новые регистры. Для создания нового налогового регистра выполните одно из следующих действий:
-
-   1. Установите курсор в пустую строку в конце списка регистров и введите данные нового регистра.
-   2. Установите курсор на регистр, после которого должен быть создан новый регистр. Нажмите клавишу F3 и введите данные нового регистра.
-
-9. Введите значения в поля, описанные в следующей таблице.
-
-   | Поле                   | Описанием                                                    |
-   | ---------------------- | ------------------------------------------------------------ |
-   | **Номер**              | Введите номер налогового регистра.                           |
-   | **Описание**           | Введите наименование налогового регистра.                    |
-   | **Метод Формирования** | Выберите тип налогового регистра.   Можно выбрать один из следующих вариантов:   -   Расчет (накопление) -   Операции (создание на основе учтенных финансовых операций) |
-   | **Таблица ID**         | Выберите 17208 для налогового регистра с методом формирования "Расчет".   Для налогового регистра с методом формирования "Операции" в зависимости от исходной операции регистра выберите одно из следующих значений: **17209**, **17210**, **17211**, **17212**, **17213**, **17214**. |
-
-Сопоставление исходных операций регистра и кодов таблицы приводится в следующей таблице.
-
-| Значение  | Описанием                                                    |
+| Value     | Description                                                  |
 | --------- | ------------------------------------------------------------ |
-| **17209** | Для регистров, созданных на основе операций Главной книги    |
-| **17210** | Для регистров, созданных на основе операций клиента и поставщика |
-| **17211** | Для регистров, созданных на основе операций с основными средствами и нематериальными активами |
-| **17212** | Для регистров, созданных на основе операций товара           |
-| **17213** | Для регистров, созданных на основе расходов будущих периодов |
-| **17214** | Для регистров, созданных на основе книги операций по зарплате |
+| **17209** | For registers created based on general ledger entries        |
+| **17210** | For registers created based on customer and vendor entries   |
+| **17211** | For registers created based on fixed assets and immaterial assets entries |
+| **17212** | For register created based on item entries                   |
+| **17213** | For registers created based on expenses of future periods    |
+| **17214** | For registers created based on the payroll entry ledger      |
 
-Если создается новая версия налогового регистра, окно со списком регистров будет пустым. В этом окне можно вручную ввести все налоговые регистры, которые должны использоваться, или выбрать действие **Копирование секции** в окне **Секция расчета налогового регистра**, и скопировать список регистров с настройками из любой секции налоговых регистров.
+If a new version of the tax register is created, the window with the register list will be empty. In this window, you can manually enter all the tax registers to be used, or you can select the **Copy Section** action in the **Tax Register Section** window and copy the register list with its settings from any of the existing tax register sections.
 
-В окне **Копирование секции налоговых регистров** введите секцию, из которой требуется скопировать регистр.
+In the **Copy Tax Register Section** window, enter the section from which you want to copy the register.
 
-Ниже приводится процедура удаления налогового регистра из списка регистров.
+The following procedure shows how to remove a tax register from the register list.
 
-## Удаление налогового регистра из списка регистров.
+## To remove a tax register from the register list
 
-1. Выберите действие **Регистры**, затем выберите **Изменить**, чтобы выбрать карточку регистра.
-2. Нажмите кнопку **ОК**.
-3. Выберите действие **Удалить**, чтобы удалить регистр из списка регистров.
+1. Choose the **Registers** action, and then choose the **Edit** action to select the register card.
+2. Choose the **OK** button.
+3. Choose the **Delete** action to remove the register from the register list.
 
-## См. также
+## See Also
 
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
-
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
-[Сбор сведений о налоге на прибыль для налоговой декларации](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/collecting-profit-tax-information-for-tax-declaration.md)
-
+[Tax Accounting](Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  

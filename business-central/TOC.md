@@ -1116,7 +1116,19 @@
 #### [Set Up KID Numbers on Sales Documents](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Set Up Document Printing](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-## [Russia](LocalFunctionality/RussiaLF_EN/russia-local-functionality.md)
+## [Russia](LocalFunctionality/Russia/russia-local-functionality.md)
+### [Account Schedules Overview](LocalFunctionality/Russia/account-schedules-overview.md)
+### [Bank and Cash Management](LocalFunctionality/Russia/bank-and-cash-management.md)
+### [Fixed Assets](LocalFunctionality/Russia/fixed-assets.md)
+### [General Ledger Correspondence](LocalFunctionality/Russia/general-ledger-correspondence.md)
+### [How to: Set Up Responsible Employees and Advance Statements](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
+### [Inventory](LocalFunctionality/Russia/Inventory.md)
+### [Payables and Receivables](LocalFunctionality/Russia/Payables-and-Receivables.md)
+### [Statutory Reports](LocalFunctionality/Russia/Statutory-Reports.md)
+### [Tax Accounting](LocalFunctionality/Russia/Tax-Accounting.md)
+### [VAT](LocalFunctionality/Russia/VAT.md)
+### [Сurrency](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
+### [Human Resources](LocalFunctionality/Russia/Human-Resources.md)
 
 ## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
 ### VAT & Tax

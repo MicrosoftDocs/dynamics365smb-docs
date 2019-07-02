@@ -1,33 +1,39 @@
-# Практическое руководство. Печать отчета "Кассовая книга КО-4"							 
+---
+title: Printing the cash report CO-4 report in Russia
+description: Russian enhancements include support for teh cash report CO-4 report.
+author: DianaMalina
 
-Отчет **Кассовая книга КО-4** содержит унифицированную стандартную форму для кассиров с отчетом об одном дне работы счета кассы. Он обязателен и может печататься только для каждого дня.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Этот отчет содержит открывающее сальдо всех учтенных приходных и расходных кассовых ордеров и закрывающее сальдо операционного дня для счета кассы. 
+# How to: Print the Cash Report CO-4 Report
 
- 
+The **Cash Report CO-4** report shows the unified standard printing form for cashiers reporting for one operational day of the cash account. It is required and can only be printed per day. 
 
-## Печать отчета "Кассовая книга КО-4"
+This report shows the opening balance of all the posted ingoing and outgoing cash orders, and the closing balance of an operational day for one cash account.  
 
- 
+## To print the cash report CO-4
 
-1. Выберите значок ![Поиск страницы или отчета](C:\Users\DianaMalina\Desktop\Рабочая\Инструкции\Российская локализация BC\1.png), введите **Кассовая книга КО-4**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Cash Report CO-4**, and then choose the related link.
 
-2. В окне **Кассовая книга КО-4** заполните поля.
+2. In the **Cash Report CO-4** window, fill in the fields.
 
-   | Поле                         | Описанием                                                    |
-   | :--------------------------- | :----------------------------------------------------------- |
-   | **Код кассы**                | Выберите номер кассового счета.                              |
-   | **Тип отчета**               | Выберите тип отчета **Кассовая книга КО-4**.                 |
-   | **Дата**                     | Введите дату, за которую необходимо сформировать отчет о кассовых операциях. |
-   | **Кассир**                   | Выберите сотрудника, которые является контактом для этого счета кассы. Этот сотрудник должен поставить свою подпись в конце отчета. |
-   | **Печать титульного листа**  | Выберите, чтобы напечатать титульный лист.                   |
-   | **Печать последнего листа**  | Выберите, чтобы напечатать последний лист.                   |
-   | **Предварительный просмотр** | Установите флажок для предварительного просмотра отчета.     |
+   | Field                 | Description                                                  |
+   | :-------------------- | :----------------------------------------------------------- |
+   | **Cash Account No.**  | Select a cash account number.                                |
+   | **Report Type**       | Select the type of report to run. Reports include **Cash Report CO-4** and **Cash Additional Sheet**. |
+   | **Date**              | Enter the operational date of the cash account transactions to be reported. |
+   | **Cashier**           | Select the employee who is the contact for this cash account. This employee must sign the end of the report. |
+   | **Print Title Sheet** | Select to print a title sheet.                               |
+   | **Print Last Sheet**  | Select to print a last sheet.                                |
+   | **Preview**           | Select the check box to see a preview of the report.         |
 
-3. Нажмите кнопку **Печать**, чтобы распечатать отчет, или кнопку **Просмотр**, чтобы отобразить его на экране. Нажмите кнопку **Отмена** для сохранения информации без печати отчета.
+3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
- 
+## See Also
 
-## См. также
-
- [Настройка запасов](https://docs.microsoft.com/ru-ru/dynamics365/business-central/inventory-setup-inventory)
+[Setting Up Inventory](../../inventory-setup-inventory)  

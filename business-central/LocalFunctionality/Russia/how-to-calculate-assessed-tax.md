@@ -1,70 +1,89 @@
-# Практическое руководство. Расчет налога на имущество					 
+---
+title: Calculate assessed tax in Russia
+description: Russian enhancements include calculating assessed tax.
+author: DianaMalina
 
-Функция налога на имущество позволяет рассчитывать налог на имущество для основных средств. Налог на имущество рассчитывается на основе данных окна **Настройка модуля ОС**. Также имеется возможность экспортировать результаты расчета налога в виде шаблона Microsoft Office Excel.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-## Расчет налога на имущество
+# How to: Calculate Assessed Tax
 
- 
+The assessed tax feature enables you to calculate the assessed tax for fixed assets. The assessed tax is based on the information provided in the **Fixed Asset Setup** window. You can also export the results of the calculated tax as a Microsoft Office Excel template.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Льготы по налогу на имущество**, а затем выберите связанную ссылку.
+To work with the functionality of calculating assessed tax, you must specify a  settings:
 
-2. Заполните поля в окне **Льготы по налогу на имущество**, как описано в следующей таблице.
+\- parameters in the **Fixed Asset Setup** page
 
-   | Поле         | Описанием                                                    |
-   | :----------- | :----------------------------------------------------------- |
-   | **Код**      | Определяет код налога на имущество, связанного с основным средством. |
-   | **Название** | Определяет имя кода налога на имущество.                     |
+\- create and fill **Tax authorities** page
 
-3. Нажмите кнопку **ОК**.
+\- fill in information about the organization
 
-4. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Коды налога на имущество**, а затем выберите связанную ссылку.
+\- create current directories
 
-5. Заполните поля в окне **Коды налога на имущество**, как описано в следующей таблице.
+\- fill in the parameters in the fixed asset cards
 
-   | Поле                                        | Описанием                                                    |
-   | :------------------------------------------ | :----------------------------------------------------------- |
-   | **Код**                                     | Определяет код льготы по налогу на имущество.                |
-   | **Описание**                                | Определяет описание кода налога на имущество.                |
-   | **Код Региона**                             | Определяет код региона из 2 символов, который используется вместе с полем "Код налог. органа" для определения кода ОКАТО. |
-   | **Ставка (%)**                              | Определяет ставку налога на имущество. Если имеются льготы, уменьшающие ставку налога, они должны быть включены в процентах ставки. |
-   | **Код льготы для уменьшения ставки налога** | Определяет код для кода льготы по налогу на имущество, которая сокращает вычисленную сумму налога на имущество согласно каталогу налогов на имущество. Этот код определяется в таблице **Льготы налога на имущество**. |
-   | **Код льготы для уменьшения суммы налога**  | Определяет сумму льготы по налогу на имущество.              |
-   | **Сумма уменьшения**                        | Определяет значение, которое будет использоваться при расчете налога на имущество при наличии льготы по налогу, сокращающей налоги на имущество. |
-   | **Код освобождения от налога**              | Определяет код освобождения от налога на имущество. Этот код определяется в таблице **Льготы налога на имущество**. |
-   | **Тип суммы уменьшения**                    | Определяет, является ли значение суммы уменьшения процентом или суммой. |
+## To calculate assessed tax
 
-6. Нажмите кнопку **Закрыть**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Assessed Tax Allowances**, and then choose the related link.
 
-7. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Коды ОКАТО**, затем выберите связанную ссылку.
+2. In the **Assessed Tax Allowances** window, fill in the fields as described in the following table.
 
-8. В окне **Коды ОКАТО** заполните поля **Код региона** и **Код налог. органа** и нажмите кнопку **ОК**.
+   | Field    | Description                                                  |
+   | :------- | :----------------------------------------------------------- |
+   | **Code** | Specifies the code for the assessed tax that is associated with the fixed asset. |
+   | **Name** | Specifies the name of the assessed tax code.                 |
 
-9. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Основные средства**, а затем выберите связанную ссылку.
+3. Choose the **OK** button.
 
-10. В карточке основного средства на экспресс-вкладке **Налог на имущество** заполните поля, как описано в следующей таблице.
+4. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Assessed Tax Codes**, and then choose the related link.
 
-    | Поле                                    | Описанием                                                    |
-    | :-------------------------------------- | :----------------------------------------------------------- |
-    | **Код налога на имущество**             | Определяет код налога на имущество, связанный с основным средством. |
-    | **Вид имущества**                       | Определяет тип собственности основного средства. Возможные типы собственности: **Недвижимое имущество ЕСГС**, **Недвижимое распределенное имущество**, **Прочее имущество** и **Имущество особой экономической зоны**. |
-    | **Доля балансовой стоимости**           | Определяет балансовую стоимость ОС на акцию.                 |
-    | **Код ОКАТО**                           | Определяет регион, в котором находится текущее основное средство. |
-    | **Сумма налога, уплаченная за рубежом** | Определяет сумму налога, который был оплачен за границей за основное средство. |
+5. In the **Assessed Tax Codes** window, fill in the fields as described in the following table.
 
-11. Нажмите кнопку **ОК**.
+   | Field                              | Description                                                  |
+   | :--------------------------------- | :----------------------------------------------------------- |
+   | **Code**                           | Specifies a code for an assessed tax allowance.              |
+   | **Description**                    | Specifies a description for the assessed tax code.           |
+   | **Region Code**                    | Specifies a two-character region code that is used together with the Tax Authority No. field to determine the OKATO code. |
+   | **Rate %**                         | Specifies the tax rate for the assessed tax. If there are any tax allowances that reduce the tax rate, they must be included in the rate percentage. |
+   | **Dec. Rate Tax Allowance Code**   | Specifies a code for the assessed tax allowance code that reduces the calculated assessed tax amount according to the tax allowances directory. This code is defined in the **Assessed Tax Allowance** table. |
+   | **Dec. Amount Tax Allowance Code** | Specifies the amount of an assessed tax allowance.           |
+   | **Decreasing Amount**              | Specifies the value to be used in the assessed tax calculation if there is a tax allowance that reduces assessed taxes. |
+   | **Exemption Tax Allowance**        | Specifies a code for an assessed tax allowance exemption. This code is defined in the **Assessed Tax Allowance** table. |
+   | **Decreasing Amount Type**         | Specifies whether the decreasing amount value is a percentage or an amount. |
 
-12. Чтобы напечатать декларацию по налогу на имущество, следует сначала импортировать шаблон декларации. В окне **Настройка модуля ОС** выберите шаблон на экспресс-вкладке **Налог на имущество**.
+6. Choose the **Close** button.
 
-13. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Расчет налога на имущество**, а затем выберите связанную ссылку.
+7. Choose the ![Search for Page or Report](search-icon.png) icon, enter **OKATO Codes**, and then choose the related link.
 
-14. В окне **Расчет налога на имущество** заполните поля **Код налог. органа**, **Год** и **Отчетный период**.
+8. In the **OKATO Codes** window, fill in the **Region Code** and the **Tax Authority No.** fields, and then choose the **OK** button.
 
-15. Нажмите кнопку **ОК**.
+9. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Fixed Assets**, and then choose the related link.
 
- 
+10. On the **Assessed Tax** FastTab, fill in the fields as described in the following table.
 
-## См. также
+    | Field                      | Description                                                  |
+    | :------------------------- | :----------------------------------------------------------- |
+    | **Assessed Tax Code**      | Specifies the assessed tax code that is associated with the fixed asset. |
+    | **Property Type**          | Specifies the property type of the fixed the fixed asset. Property types include: **Immovable UGSS Property**, **Immovable Distributed Property**, **Other Property**, and **Special Economic Zone Property**. |
+    | **Book Value per Share**   | Specifies the book value of the fixed asset, per share.      |
+    | **OKATO Code**             | Specifies the region where the current fixed asset is situated. |
+    | **Tax Amount Paid Abroad** | Specifies the amount of tax that was paid abroad for the fixed asset. |
 
-[Основные Средства](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-manage)
+11. Choose the **OK** button.
 
-[Настройка основных средств](https://docs.microsoft.com/ru-ru/dynamics365/business-central/fa-setup)
+12. To print the assessed tax declaration, you have to first import the declaration template. In the **Fixed Asset Setup** window, select the template name from the **Templates** FastTab.
+
+13. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Calculate Assessed Tax**, and then choose the related link.
+
+14. In the **Calculate Assessed Tax** window, fill in the **Tax Authority No.**, **Year**, and the **Reporting Period** fields.
+
+15. Choose the **OK** button.
+
+## See Also
+
+[Fixed Assets](../../fa-manage)  
+[Setting Up Fixed Assets](../../fa-setup)  

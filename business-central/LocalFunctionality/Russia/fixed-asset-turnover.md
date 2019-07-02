@@ -1,55 +1,70 @@
-# Оборот основных средств
+---
+title: Fixed asset turnoverin Russia
+description: Russian enhancements include fixed asset turnover.
+author: DianaMalina
 
- Функция оборота основных средств позволяет: 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Контролировать оборот основных средств или определенных групп основных средств.
-- Просматривать полезную информацию об оборотных средствах в одном месте.
-- Сравнивать учет одного и того же основного средства в различных книгах амортизации основных средств.
-- Учитывать финансовые результаты мониторинга основных средств. 
+# Fixed Asset Turnover
 
-Следующие отчеты и окна являются частью основных средств: 
+The fixed asset turnover feature enables you to: 
 
-- Отчет **Оборотная ведомость ОС**
-- Отчет **Сравнение операций книги аморт.**
-- Окно **Ведомость ОС**
-- Окно **Оборотная ведомость ОС**
-- Отчет **ОС - оборотная ведомость**
+- Control the turnover of fixed assets or certain groups of fixed assets.
+- View useful information about fixed assets in one place.
+- Compare the posting of one fixed asset in different fixed asset depreciation books.
+- Post fixed assets financial results monitoring. 
 
- 
+The following reports and windows are part of fixed assets: 
 
-## Отчет по обороту основных средств
-
-В отчете **Оборотная ведомость ОС** отражается оборот основных средств. Используйте этот отчет, чтобы просматривать такую информацию, как название основного средства, количество, статус, даты амортизации и суммы. Этот отчет можно использовать как документ для исправления количества или в целях аудита.
-
- 
-
-## Отчет по сравнению записей книг амортизации 
-
-В отчете **Сравнение операций книги аморт.** отражаются суммы операций главных типов с основными средствами в двух выбранных книгах амортизации. Можно просматривать суммы затрат на приобретение, суммы списания, повышения балансовой стоимости и амортизации. Этот отчет можно использовать для аудита учета операций с основными средствами.
-
- 
-
-## Окно ведомости основных средств
-
-Окно **Ведомость основных средств** отображает информацию, аналогичную отчету **Оборотная ведомость ОС** , но в окне. Некоторые различия заключаются в наборе параметров, в дополнительных функциях фильтрации и в полях макета. Это окно отражает оборот основных средств. Она заполняется на основе книг амортизации основных средств.
-
-## Окно "Оборотная ведомость ОС"
-
-В окне Оборотная ведомость ОС отражается финансовый оборот как результат учета основных средств. Операции Главной книги являются основанием для сумм, показанных в данном окне. Информацию, отображаемую в окне, можно определить путем настройки фильтров.
-
-## Отчет "Оборот основных средств в главной книге"
-
-Отчет ОС - оборотная ведомость аналогичен окну Оборотная ведомость ОС, но представляет собой макет для печати, а также отличается по составу параметров и наличию информационных полей, которые доступны для отображения в макете отчета. С помощью фильтров можно определить, какие именно данные должны быть включены в отчет. 
-
-## См. также
+- **FA Turnover** report
+- **Comparing Depr. Book Entries** report
+- **FA Sheet** window
+- **FA G/L Turnover** window
+- **Fixed Asset G/L Turnover** report
 
  
 
-[ОС: местоположения и ответственные сотрудники](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md)
+## Fixed Asset Turnover Report 
 
-[Издержки ОС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-charges.md)
+The **FA Turnover** report shows the fixed asset turnover. Use the report to view information such as the fixed asset name, quantity, status, depreciation dates, and amounts. The report can be used as documentation for the correction of quantities or for auditing.
 
-[Основные Средства](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-assets.md)
+ 
 
-[Инвентаризация основных средств](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-inventory.md)
+## Comparing Depreciation Book Entries Report 
 
+The **Comparing Depr. Book Entries** report shows the amounts of fixed asset operations of the main types in two selected depreciation books for all selected fixed assets. You can view the amounts of the acquisition cost, write-down, appreciation, and depreciation. The report can be used for auditing the posting of fixed asset operations.
+
+ 
+
+## Fixed Asset Sheet Window
+
+The **FA Sheet** window shows information similar to the **FA Turnover** report, but in a window. It has some differences in the options set, in extra filtering functionality, and in fields in the layout. The window shows fixed asset turnover. It runs on the basis of fixed asset depreciation books.
+
+ 
+
+## Fixed Asset General Ledger Turnover Window 
+
+The **FA G/L Turnover** window shows financial turnover as a result of fixed asset posting. General ledger entries are the basis for amounts shown in the window. You can define what is shown in the window by setting filters.
+
+ 
+
+## Fixed Asset General Ledger Turnover Report
+
+The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** window, but it is in a printing layout, and has differences in the options and in the information and fields that can be shown in the layout. You can define what is included in the report by setting filters.
+
+ 
+
+## See Also 
+
+[Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
+
+[Fixed Asset Charges](Fixed-Asset-Charges.md)
+
+[Fixed Assets](fixed-assets.md)
+
+[Fixed Asset Inventory](Fixed-Asset-Inventory.md)

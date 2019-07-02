@@ -1,80 +1,84 @@
-# Инвентаризация основных средств
+---
+title: Fixed asset inventory in Russia
+description: Russian enhancements include fixed asset inventory.
+author: DianaMalina
 
-​				 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Функция инвентаризации основных средств позволяет: 
+# Fixed Asset Inventory
 
-- выполнять инвентаризацию основных средств в соответствии с требованиями законодательства;
-- создавать электронные инвентарные списки основных средств, подлежащих инвентаризации, с учетом расчетных количеств и сумм;
-- разделять инвентарные списки по физическому местоположению основных средств (по коду местоположения основного средства);
-- фильтровать инвентарные списки по другим аналитикам (например, по подотчетнику);
-- печатать формы с инвентарными списками, в которых показаны все основные средства, прошедшие инвентаризацию, а также со списками, в которых перечислены основные средства с разницей только в количестве или сумме;
-- печатать стандартные формы основных средств.
+The fixed assets inventory feature enables you to: 
+
+- Process inventory auditing of fixed assets in accordance with legal requirements.
+- Generate electronic inventory lists of fixed assets that are to be inventoried with calculated quantities and amounts.
+- Divide the inventory lists by the physical locations of fixed assets (by Fixed Asset Location code).
+- Filter the inventory lists by other analytics (such as responsible employee).
+- Print the forms with inventory lists that show all inventoried fixed assets, as well as lists that show the fixed assets with differences only in quantities or amounts.
+- Print unified fixed asset forms.
 
  
 
-## Инвентарные списки основных средств
+## Inventory Lists of Fixed Assets 
 
-Для проведения инвентаризации необходимо создать инвентарные списки основных средств с расчетными количествами и суммами. Такие списки разделены по аналитике: например, по физическому местоположению или сотруднику, ответственному за определенные основные средства.
+You must create inventory lists of fixed assets with calculated quantities and amounts for inventory auditing. The lists are divided by analytics such as physical locations and employees responsible for certain fixed assets.
 
-Можно создать специальные шаблоны в окне **Журнал учета основных средств**. 
+You can create special templates in the **Fixed Asset Journal** window. 
 
-Ниже показано, как создать список основных средств, подлежащих инвентаризации.
+The following procedure shows how to generate a list of fixed assets that are to be inventoried. 
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы основных средств**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Journals**, and then choose the related link.
 
-2. Выберите действие **Расчет ОС**. Откроется форма запроса отчета для создания инвентарных списков основных средств.
+2. Choose the **Calculate FA** action. The request form of a report that makes fixed asset inventory lists is displayed.
 
-3. На экспресс-вкладке **Основные средства** отфильтруйте основные средства.
+3. On the **Fixed Asset** FastTab, filter the fixed assets.
 
-   
-
-   > :speech_balloon: Примечание
+   > :speech_balloon: **Note**
    >
-   > Фильтрацию можно выполнять по любому параметру из карточки основного средства, например по местоположению основного средства или по подотчетнику.
+   > They can be filtered by any parameter from the Fixed Asset card, such fixed asset location or responsible employee. 
 
- 
+The parameters listed in the following table are on the **Options** FastTab.
 
-Параметры, перечисленные в таблице ниже, можно найти на экспресс-вкладке **Параметры**.
+| Parameter                                | Description                                                  |
+| :--------------------------------------- | :----------------------------------------------------------- |
+| **Fixed Asset Journal Template**         | Select the fixed asset journal template to work with the fixed assets list during the inventory auditing process. It is filled by default with the fixed asset journal template. |
+| **Depreciation Book Code**               | Select the depreciation book with the records, which will be calculated by quantities and amounts. |
+| **Starting Document No.**                | Specify the document number used to make lines in the fixed asset journal. |
+| **Document Date**                        | Specify the document date.                                   |
+| **Posting Date**                         | Specify the posting date. The quantities and amounts are calculated on this date. The **Posting Date** field is also filled with this value. |
+| **Show Fixed Asset with Book Value = 0** | Select this field to create fixed asset journal lines for fixed assets which have a book value of zero. |
 
- 
+The report creates one batch in the fixed asset journal template for every fixed asset location that is filtered in the request form. For every fixed asset that is filtered, one journal line is created in the batch according to its location. A journal batch is created for fixed assets in each fixed asset location. 
 
-| Параметр                                          | Описанием                                                    |
-| :------------------------------------------------ | :----------------------------------------------------------- |
-| **Шаблон журнала ОС**                             | Выберите шаблон журнала основных средств, который будет использоваться для работы со списком основных средств в ходе инвентаризации. По умолчанию указывается шаблон журнала основных средств. |
-| **Код Книги Амортизации**                         | Выберите книгу амортизации с записями, для которых будет выполнен расчет по количеству и сумме. |
-| **Номер начального документа**                    | Укажите номер документа, применявшийся при создании строк в журнале основных средств. |
-| **Дата Документа**                                | Укажите дату документа.                                      |
-| **Дата учета**                                    | Укажите дату учета. Количества и суммы рассчитываются на эту дату. В поле **Дата Учета** тоже заносится это значение. |
-| **Показывать ОС с нулевой остаточной стоимостью** | Установите этот флажок, чтобы создать в журнале основных средств строки для ОС с нулевой остаточной стоимостью. |
+The following procedure shows how to begin inventory auditing by fixed asset locations. 
 
-Отчет создает один раздел в шаблоне журнала основных средств для каждого местоположения основных средств, отфильтрованного в форме запроса. Для каждого отфильтрованного основного средства создается одна строка журнала в разделе, соответствующем местоположению этого ОС. Раздел журнала создается для основных средств в каждом местоположении ОС. 
+1. Select the batch according to the fixed asset location, and choose **ОК**.
 
-Ниже показано, как начать инвентаризацию по местоположению основных средств. 
-
-1. Выберите раздел, соответствующий местоположению основных средств, а затем выберите **ОК**.
-
-   > :speech_balloon: Примечание
+   > :speech_balloon: **Note**
    >
-   > Можно просмотреть строки основных средств, отфильтрованные в отчете, и строки для данного местоположения ОС.
+   > You can view the fixed assets lines that are filtered in the report and the lines that are in this fixed asset location.
 
-2. Расположите столбцы журнала основных средств таким образом, чтобы можно было просматривать расчетные и фактические количества и суммы. Они указаны в следующих полях:
+2. Place the columns of the fixed asset journal so that you can view calculated and actual quantities and amounts. They are reflected in the following fields:
 
-   - **Факт. Кол-во**;
-   - **Расчет. Кол-во**;
-   - **Факт. Сумма**;
-   - **Расчет. Сумма**.
+   - **Actual Quantity**
+   - **Calc. Quantity**
+   - **Actual Amount**
+   - **Calc. Amount**
 
  
 
-> :speech_balloon: Примечание
+> :speech_balloon: **Note**
 >
-> Значение суммы — это остаточная стоимость основного средства.
+> The amount value is the book value of the fixed asset.
+
+
 
  
 
- 
+## See Also
 
-## См. также
-
-[ОС: местоположения и ответственные сотрудники](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/fixed-asset-locations-and-employees.md)
+[Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)

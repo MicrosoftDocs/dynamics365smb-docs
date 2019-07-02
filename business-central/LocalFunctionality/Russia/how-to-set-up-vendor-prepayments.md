@@ -1,43 +1,47 @@
-# Практическое руководство. Настройка предоплат поставщикам
+---
+title: Setting up vendor prepayments in Russia
+description: Russian enhancements include prepayments to vendors.
+author: DianaMalina
 
-Предоплаты — это авансовые платежи для заказов на покупку, которые оплачиваются до формирования окончательного счета. Например, может потребоваться оплатить поставщику 20 процентов суммы счета за производимый товар. Предоплаты позволяют отслеживать и регистрировать авансовые платежи по счетам покупки.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up Vendor Prepayments
 
-## Настройка предоплат поставщикам
+Prepayments are advance payments on purchase orders that are paid before the final invoice is issued. For example, you may be required by a vendor to prepay 20 percent of the invoice amount on a manufactured item. Prepayments allow you track and record advance payments on purchase invoices.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка модуля "Покупки"**, а затем выберите связанную ссылку.
+## To set up vendor prepayments
 
-2. На экспресс-вкладке **Нумерация** убедитесь, что серия номеров **Серия номеров учт. счетов предопл.** совпадает с **Серия номеров учт. счетов**. Убедитесь также, что серия номеров для **Серия номеров учт. кр.-нот предопл.** совпадает с серией для **Серия номеров учт. кредит-нот**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
 
-3. На экспресс-вкладке **Предоплата** введите следующие сведения.
+2. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
 
-   | Поле                                                | Описанием                                                    |
-   | :-------------------------------------------------- | :----------------------------------------------------------- |
-   | **Испол. Аванс Счет Но.**                           | Выберите это поле, чтобы учесть предоплаты поставщикам, используя специальный субсчет, указанный в поле **Счет ГК предоплаты** в окне **Учетные группы поставщика**. |
-   | **Учт. разн. по предопл. - серия ном. док.**        | Введите код серии номеров, который требуется использовать для документов предоплаты. |
-   | **Разн. по предопл. - тип серии номеров док.**      | Укажите, требуется ли использовать серию номеров или символ для идентификации документов предоплаты. |
-   | **Символ для док. разн. по предопл.**               | Введите символ, который будет печататься на документах предоплаты. |
-   | **Разн. по предопл.: прибыль - знач. изм. условия** | Введите код для измерения, которое используется для создания условной прибыли от предоплаты. |
-   | **Разн. по предопл.: убытки - знач. изм. условия**  | Введите код для измерения, которое используется для создания условного убытка от предоплаты. |
-   | **Разн. по предопл.: прибыль - знач. изм. вида**    | Введите код для измерения, которое используется для создания платежа с точки зрения прибыли от предоплаты. |
-   | **Разн. по предопл.: убытки - знач. изм. вида**     | Введите код для измерения, которое используется для создания платежа с точки зрения убытка от предоплаты. |
+3. On the **Prepayment** FastTab, enter the following information.
 
-4. Откройте окно **Учетные группы поставщика**.
+   | Field                             | Description                                                  |
+   | :-------------------------------- | :----------------------------------------------------------- |
+   | **Use Prepayment Account**        | Select to post prepayments using the special subaccount specified in the **Prepayment Account** field in the **Vendor Posting Groups** window. |
+   | **Posted PD Doc. Nos.**           | Enter the code of the number series that you want to use for prepayment documents. |
+   | **PD Doc. Nos. Type**             | Select if you want to use a number series or symbol to identify prepayment documents. |
+   | **Symbol for PD Doc.**            | Enter a symbol to be printed on prepayment documents.        |
+   | **PD Gains Condition Dim Value**  | Enter the code for the dimension that is used to generate conditional prepayment gains. |
+   | **PD Losses Condition Dim Value** | Enter the code for the dimension that is used to generate conditional prepayment losses. |
+   | **PD Gains Kind Dim Value**       | Enter the code for the dimension that is used to generate payment in kind prepayment gains. |
+   | **PD Losses Kind Dim Value**      | Enter the code for the dimension that is used to generate payment in kind prepayment losses. |
 
-5. В поле **Счет предоплаты** укажите счет главной книги, который должен использоваться для учета предоплаты поставщикам.
+4. Open the **Vendor Posting Groups** window.
 
-6. Нажмите **Закрыть**, чтобы закрыть окно и сохранить введенные данные.
+5. In the **Prepayment Account** field, specify the general ledger accounts that you want to use for posting vendor prepayments.
 
- 
+6. Choose **Close** to close the window and save your entries.
 
-Теперь вы можете отслеживать и регистрировать авансовые платежи по счетам покупки.
+You can now track and record advance payments on purchase invoices.
 
- 
+## See Also
 
-## См. также
-
-[Выставление счетов на предоплату](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-invoice-prepayments)
-
-[Пошаговое руководство. Настройка и выставление счетов на продажу](https://docs.microsoft.com/ru-ru/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments)
-
+[Invoicing Prepayments](../../finance-invoice-prepayments)  
+[Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments)  

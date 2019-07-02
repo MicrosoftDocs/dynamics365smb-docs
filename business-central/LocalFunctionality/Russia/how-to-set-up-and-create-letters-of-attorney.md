@@ -1,50 +1,56 @@
-# Практическое руководство. Создание и настройка доверенности
+---
+title: Setting up and creating letters of attorney in Russia
+description: Russian enhancements include creating and printing letters of attorney.
+author: DianaMalina
 
-Функция доверенности позволяет создавать и печатать доверенности, а также печатать журнал доверенностей. 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Настройте нумерацию для открытых и выпущенных доверенностей. Номера для открытых документов генерируются после создания нового документа. Номера для выпущенных документов генерируются после печати документа. Этот номер заносится в форму печати документа и в журнал доверенностей. 
+# How to: Set Up and Create Letters of Attorney
 
-Ниже показано, как настроить нумерацию для доверенностей.
+The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
 
- 
+Set up numbering for open and released Letters of Attorney. Numbers for open documents are generated after a new document is created. Numbers for released documents are generated after a document is printed. This number is documented in the printing form of the document and in the Letter of Attorney journal.  
 
-## Настройка доверенности 
+The following procedure shows how to set up the numbering for Letters of Attorney.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка модуля "Покупки"**, а затем выберите связанную ссылку.
-2. На экспресс-вкладке **Фоновая разноска** заполните поля **Серия номеров доверенностей** и **Вып. Довер. Серия Номеров**.
-3. Нажмите кнопку **ОК**.
+## To set up a letter of attorney 
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
+2. On the **Background Posting** FastTab, fill in the **Letter of Attorney Nos.** and **Released Letter of Attorney Nos.** fields.
+3. Choose the **OK** button.
 
-## Создание доверенности 
+The following procedure shows how to create a Letter of Attorney.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Доверенности**, а затем выберите связанную ссылку.
+## To create a letter of attorney 
 
-2. Создайте новый документ и заполните поля в следующей таблице.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Letters of Attorney** and then choose the related link.
 
-   | Поле                          | Описанием                                                    |
-   | :---------------------------- | :----------------------------------------------------------- |
-   | **Номер доверенности**        | Введите номер напечатанного документа. Этот номер заносится в форму печати документа и в журнал доверенностей. Это поле заполняется автоматически из серии номеров. |
-   | **Код сотрудника**            | Введите номер сотрудника.                                    |
-   | **ФИО сотрудника**            | Определяет имя сотрудника. Это поле заполняется автоматически из **карточки сотрудника**. |
-   | **Должность сотрудника**      | Определяет должность сотрудника. Это поле заполняется автоматически из **карточки сотрудника**. |
-   | **Тип исходного документа**   | Введите тип документа-основания. Доверенность (заголовок и строки) можно создать на основе существующего еще неучтенного документа покупки. |
-   | **Номер исходного документа** | Введите номер документа-основания.                           |
-   | **Код поставщика**            | Определяет номер поставщика. Оно заполняется автоматически в соответствии с документом покупки, когда выбран документ-основание. Выбрать поставщика можно вручную. |
-   | **Название поставщика**       | Определяет имя поставщика. Это поле заполняется автоматически из **карточки поставщика**. |
-   | **Описание документа**        | Определяет сведения о документе-источнике. Это поле заполняется автоматически, но можно ввести описание документа и вручную. |
-   | **Отметка о выполнении**      | Определяет документ, который выполнен.                       |
-   | **Дата Документа**            | Введите дату доверенности. По умолчанию в этом поле указана рабочая дата. При необходимости введите дату документа вручную. |
-   | **Срок действия**             | Введите дату окончания срока действия для документа. По умолчанию в этом поле указана дата на 15 дней позже даты документа. При необходимости введите дату окончания срока действия вручную. |
-   | **Статус**                    | Определяет статус документа.                                 |
-   | **Номер**                     | Введите номер открытого документа. Это поле заполняется автоматически из серии номеров. |
+2. Create a new document and fill in the fields in the following table.
 
-3. Нажмите кнопку **ОК**.
+   | Field                      | Description                                                  |
+   | :------------------------- | :----------------------------------------------------------- |
+   | **Letter of Attorney No.** | Enter the number of the printed document. This number is documented in the printing form of the document and in the Letter of Attorney journal. This field is filled in automatically from the numbering series. |
+   | **Employee No.**           | Enter the employee number.                                   |
+   | **Employee Full Name**     | Specifies the name of the employee. The field is filled in automatically from the **Employee Card**. |
+   | **Employee Job Title**     | Specifies the job title of the employee. The field is filled in automatically from the **Employee Card**. |
+   | **Source Document Type**   | Enter the type of source document. You can create a Letter of Attorney (header and lines) on the basis of an existing purchase document that is not yet posted. |
+   | **Source Document No.**    | Enter the source document number.                            |
+   | **Buy-from Vendor No.**    | Specifies the vendor number. The field is filled in automatically from the purchase document when a source document is chosen. You can manually choose the vendor. |
+   | **Buy-from Vendor Name**   | Specifies the name of the vendor. The field is filled in automatically from the **Vendor Card**. |
+   | **Document Description**   | Specifies information about the source document. The field is filled in automatically, but you can also manually enter the document description. |
+   | **Realization Check**      | Specifies the document that is realized.                     |
+   | **Document Date**          | Enter the date of the Letter of Attorney. This field is filled in with the work date by default. Manually enter the date of the document, if needed. |
+   | **Validity Date**          | Enter the validity date of the document. This field is filled in by default, with the date that occurs 15 days after the document date. Manually enter the validity date, if needed. |
+   | **Status**                 | Specifies the status of the document.                        |
+   | **No.**                    | Enter the number of the open document. This field is filled in automatically from the numbering series. |
 
- 
+3. Choose the **OK** button.
 
-## См. также
+## See Also
 
- 
-
-[Практическое руководство. Настройка материально-ответственных сотрудников и авансовых отчетов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-responsible-employees-and-advance-statements.md)
+[How to: Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  

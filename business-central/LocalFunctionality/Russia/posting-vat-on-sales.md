@@ -1,47 +1,53 @@
-# Учет НДС в продажах
+---
+title: Posting VAT on sales in Russia
+description: Russian enhancements include VAT on sales documents.
+author: DianaMalina
 
-В окно **Настройка учета НДС** (код 472) были добавлены следующие поля:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-| Поле                            | Описанием                                                    |
-| :------------------------------ | :----------------------------------------------------------- |
-| **Тип Транз. НДС**              | Используется для определения правила извлечения НДС.         |
-| **Транз. НДС Фин. Счет Но.**    | Используется для указания счета регистрации суммы НДС от реализации и предоплат клиента, которая должна выплачиваться в федеральный бюджет. |
-| **Тип Суммы для Счета Фактуры** | Используется для выбора значения НДС. В зависимости от значения в этом поле введенные суммы НДС используются в разных столбцах книг НДС покупок или продаж. |
+# Posting VAT on Sales
 
-Указанные действия выполняются для каждой комбинации в учетной группе НДС продаж продукта и НДС продаж.
+The following fields have been added to the **VAT Posting Setup** window (ID 472):
 
-Для поля **Тип Транз. НДС** возможны следующие значения:
+| Field                       | Description                                                  |
+| :-------------------------- | :----------------------------------------------------------- |
+| **Trans. VAT Type**         | Used to define the rule for extracting VAT.                  |
+| **Trans. VAT Account**      | Used to specify an account to register the VAT amount from the gain and from the customer's prepayments to be paid to the federal budget. |
+| **Tax Invoice Amount Type** | Used to select the value of VAT. Depending on the value in this field, VAT entry amounts are used in different columns of the VAT purchase or sales ledgers. |
 
-- **Сумма + налог**
-- **Сумма и налог**
+The above actions are taken for each combination of the Sales VAT Product posting group and Sales VAT posting group. 
 
- 
+In the **Trans. VAT Type** field, the following options are available:
 
-Для учета НДС выберите действие **Сумма + налог**.
+- **Amount + Tax**
+- **Amount & Tax**
 
-Ниже приводится процедура создания бухгалтерских проводок. 
+To account for VAT, choose the **Amount + Tax** action.
 
-1. Введите в поле **Транз. НДС Фин. Счет Но.** значение "Субсчет 90-3, Налог на добавленную стоимость".
-2. В поле **Счет НДС продаж** введите "Субсчет 68, Расчеты по налогам и сборам".
+The following procedure shows how the accounting entries are created.
 
- 
+1. In the **Trans. VAT Account No.** field, enter Subaccount 90-3, Gain VAT.
+2. In the **Sales VAT Account** field, enter Subaccount 68, VAT to Federal Budget.
 
-Следующие бухгалтерские проводки создают различные настройки.
-
-| Бухгалтерские проводки | Параметры                                                    |
-| :--------------------- | :----------------------------------------------------------- |
-| **Сумма + налог**      | Дебет 62 Поступления и платежи - Кредит 90-1 выручка от продажи   Дебет 90-3 Налог на добавленную стоимость   Кредит 68 Расчеты по налогам и сборам   Сумма НДС продаж |
-| **Сумма и налог**      | Дебет 62 Поступления и платежи   Кредит 90-1 Прибыль   Сумма Без НДС   Дебет 62 Поступления и платежи   Кредит 90-3 Налог на добавленную стоимость   Сумма НДС продаж   Дебет 90-3 Налог на добавленную стоимость   Кредит 68 Расчеты по налогам и сборам   Сумма НДС продаж |
-|                        | Дебет 62 Поступления и платежи   Кредит 90-1 Прибыль   Сумма Без НДС   Дебет 62 Поступления и платежи   Кредит 68 Расчеты по налогам и сборам   Сумма НДС продаж |
-
- 
-
-## Поле "Транз. НДС Фин. Счет Но." 
-
-В поле **НДС транз. счет ГК** введите субсчет 90-3, "Налог на добавленную стоимость", или субсчет 62, "НДС по предоплате". Если это поле пустое, для учета будет использоваться счет из учетных групп клиентов из поля **Счет дебиторской задолженности**.
+The following accounting entries create the different settings.
 
  
 
-## См. также
+| Accounting Entries | Settings                                                     |
+| :----------------- | :----------------------------------------------------------- |
+| **Amount + Tax**   | Debit 62 Payables and Receivables - Credit 90-1 Gain and Sales Amount Including VAT   Debit 90-3 Gain VAT   Credit 68 VAT to Federal Budget   Sales VAT Amount |
+| **Amount & Tax**   | Debit 62 Payables and Receivables   Credit 90-1 Gain   Amount Excluding VAT   Debit 62 Payables and Receivables   Credit 90-3 Gain VAT   Sales VAT Amount   Debit 90-3 Gain VAT   Credit 68 VAT to Budget   Sales VAT amount |
+|                    | Debit 62 Payables and Receivables   Credit 90-1 Gain   Amount Excluding VAT   Debit 62 Payables and Receivables   Credit 68 VAT to Budget   Sales VAT Amount |
 
-[Книги НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat-ledgers.md)
+## Trans. VAT Account Field
+
+In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccount 62 Prepayment VAT. If this field is blank, the postings use the account from the Customer posting groups from the **Receivables Account** field.
+
+## See Also
+
+[VAT Ledgers](VAT-Ledgers.md)  

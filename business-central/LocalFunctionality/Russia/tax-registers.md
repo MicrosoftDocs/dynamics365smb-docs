@@ -1,26 +1,31 @@
-# Налоговые регистры
+---
+title: Tax registers in Russia
+description: Russian enhancements include tax registers.
+author: DianaMalina
 
-В Business central можно настроить налоговые регистры для отслеживания и управления налогооблагаемыми прибылями и убытками в соответствии с российскими принципами налогового учета. Налоговые регистры позволяют группировать налогооблагаемые транзакции в логические категории и применять правила налогового учета для признания доходов и расходов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# Tax Registers
 
-## Типы налоговых регистров 
+In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
 
-Для отслеживания налогооблагаемых прибылей и убытков используются налоговые регистры двух типов.
+## Types of Tax Registers
 
-| Тип налогового регистра       | Описанием                                                    |
-| :---------------------------- | :----------------------------------------------------------- |
-| Настройка налоговых регистров | Определяет сведения налогового регистра, которые можно настроить, чтобы управлять налогооблагаемыми прибылями и убытками. |
-| Расчет налоговых регистров    | Создает налоговые регистры, которые определяются с помощью окна **Настройка налоговых регистров**. |
+There are two types of tax registers that are used for tracking taxable profits and losses. 
 
- 
+| Tax Register Type    | Description                                                  |
+| :------------------- | :----------------------------------------------------------- |
+| Tax Register Setup   | Specifies tax register details where you can set up and manage taxable profits and losses. |
+| Create Tax Registers | Creates the tax registers that you define using the **Tax Register Setup** window. |
 
-## См. также
+## See Also
 
-[Практическое руководство. Настройка налогового учета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-accounting.md)
-
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
-[Практическое руководство. Настройка секций налогового регистра](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-tax-register-sections.md)
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-differences.md)
+[How to: Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Tax Differences](Tax-Differences.md)  

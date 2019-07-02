@@ -1,65 +1,66 @@
-# Практическое руководство. Учет налоговых разниц
+---
+title: Posting tax differences in Russia
+description: Russian enhancements include tax differences.
+author: DianaMalina
 
-**Журнал налоговых разниц** используется для создания и учета транзакций для налоговых разниц. Налоговые разницы представляют собой расхождения сумм налога, вызванные различиями в правилах признания доходов и расходов в бухгалтерском и налоговом учете.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Post Tax Differences
 
-С помощью окна **Журнал налоговых разниц** можно вручную создавать операции налоговых разниц и изменять имеющиеся операции, созданные периодическими процедурами расчета налоговых разниц. При учете окна **Журнал налоговых разниц** соответствующие операции учитываются в выбранных учетных группах.
+The **Tax Difference Journal** is used to create and post tax difference transactions. Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.
 
- 
+You can use the **Tax Difference Journal** window to manually create tax difference journal entries or you can modify existing entries created by periodic tax difference calculation activities. When you post the **Tax Difference Journal** window, tax differences entries are posted to the selected posting groups.
 
-## Учет налоговых разниц
+## To post tax differences
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Журналы налоговых разниц**, а затем выберите связанную ссылку.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Tax Difference Journals**, and then choose the related link.
 
-2. Введите значения в поля, как описано в следующей таблице.
+2. Fill in the fields as described in the following table.
 
-   | Поле                           | Описанием                                                    |
-   | :----------------------------- | :----------------------------------------------------------- |
-   | **Дата учета**                 | Введите дату транзакции.                                     |
-   | **Номер документа:**           | Введите номер документа из исходной транзакции.              |
-   | **Описание**                   | Введите описание транзакции.                                 |
-   | **Тип налог. разницы**         | Укажите, является налоговая разница **постоянной** или **временной**. |
-   | **Код налог. разницы**         | Выберите идентификационный код дохода или расхода, определяющий источник налоговой разницы. |
-   | **Тип источника**              | Выберите источник налоговой разницы. Возможные варианты: **Расходы будущих периодов**, **Основное средство** и **Нематериальный актив**. |
-   | **Номер источника**            | Если поле **Тип источника** имеет значение **Расходы будущих периодов**, введите код расходов будущих периодов.  В противном случае это поле следует оставить пустым. |
-   | **Код Юрисдикции**             | Выберите код юрисдикции, который используется для расчета налогооблагаемых прибыли и убытков для налоговых разниц. |
-   | **Код Нормы**                  | Выберите код юрисдикции нормы, который используется для расчета налогооблагаемых прибыли и убытков для налоговых разниц. |
-   | **Ставка Налога**              | Введите ставку налога на прибыль, которая используется для расчета налоговых разниц. |
-   | **Сумма (БУ)**                 | Введите сумму расходов на основании данных бухгалтерского учета. Эта информация используется, если настроен расчет налоговых разниц для периода времени. |
-   | **Сумма (НУ)**                 | Введите сумму расходов на основании транзакций налогового учета. Эта информация используется, если настроен расчет налоговых разниц для периода времени. |
-   | **Разница**                    | Введите значение разницы между транзакциями бухгалтерского и налогового учета. |
-   | **Сумма на Конец НП (БУ)**     | Введите значение расходов и доходов по данным бухгалтерского учета с начала года. |
-   | **Сумма на Конец НП (НУ)**     | Введите значение расходов и доходов по данным налогового учета с начала года. |
-   | **Разница на Конец НП**        | Введите значение разницы между транзакциями бухгалтерского и налогового учета с начала года. |
-   | **Реж. расч. налог. разницы**  | Определяет разницу режима подсчета. Если выбрано значение **Баланс**, разница будет рассчитываться нарастающим итогом с начала года. Если это поле не выбрано, разница будет создана для текущего периода. |
-   | **Сумма Налога**               | Определяет результат подсчета. Значение этого поля корректирует налог на прибыль в транзакциях бухгалтерского учета. |
-   | **Сумма Налог. Актива**        | Определяет рассчитанную сумму налогового актива.             |
-   | **Сумма Налог. Обязательства** | Определяет рассчитанную сумму налогового обязательства.      |
-   | **Сумма Списания ОНО/ОНА**     | Определяет сумму налога, которая списывается при реализации товара. |
-   | **ОНА Начальное Сальдо**       | Определяет начальную сумму реализации ОНО/ОНА перед расчетом. |
-   | **ОНО Начальное Сальдо**       | Определяет обязательства по начальной сумме реализации ОНО/ОНА перед расчетом. |
-   | **ОНА Конечное Сальдо**        | Определяет сумму реализации ОНО/ОНА после расчета.           |
-   | **ОНО Конечное Сальдо**        | Определяет обязательства по сумме реализации ОНО/ОНА после расчета. |
-   | **Режим Выбытия**              | Выберите, требуется ли записать налоговую разницу или преобразовать ее в постоянную разницу. |
-   | **Дата Выбытия**               | Введите дату реализации товара.                              |
-   | **Частичное Выбытие**          | Выберите, если требуется реализовать товар, который приводит к расхождениям в коде расходов или доходов. Если данное поле не выбрано, налоговые разницы списываются. |
+   | Field                    | Description                                                  |
+   | :----------------------- | :----------------------------------------------------------- |
+   | **Posting Date**         | Enter the transaction date.                                  |
+   | **Document No.**         | Enter the document number from the source transaction.       |
+   | **Description**          | Enter a description for the transaction.                     |
+   | **Tax Diff. Type**       | Select if the tax difference is **Constant** or **Temporary**. |
+   | **Tax Diff. Code**       | Select an identifying income or expense code that defines the source of the tax difference. |
+   | **Source Type**          | Select the source of tax difference. The options include **Future Expense**, **Fixed Asset**, and **Intangible Asset**. |
+   | **Source No.**           | If the **Source Type** is **Future Expense**, enter an identifying code for the future period expenses.  Otherwise, leave this field blank. |
+   | **Jurisdiction Code**    | Select the identifying code for the jurisdiction that is used to calculate taxable profits and losses for tax differences. |
+   | **Norm Code**            | Select the identifying code for the norm jurisdiction that is used to calculate taxable profits and losses for the tax differences. |
+   | **Tax Factor**           | Enter the profit tax rate that is used to calculate tax differences. |
+   | **Amount (Base)**        | Enter an expense amount based on book accounting transactions. This information is used if the tax difference calculation is for a set period of time. |
+   | **Amount (Tax)**         | Enter an expense amount based on tax accounting transactions. This information is used if the tax difference calculation is for a set period of time. |
+   | **Difference**           | Enter the value of the difference between the book accounting and tax accounting transactions. |
+   | **YTD Amount (Base)**    | Enter the year-to-date value of the expense or income amount based on the book accounting data. |
+   | **YTD Amount (Tax)**     | Enter the year-to-date value of the expense or income amount based on the tax accounting data. |
+   | **YTD Difference**       | Enter the year-to-date value of the difference between the book accounting and tax accounting transactions. |
+   | **Tax Diff. Calc. Mode** | Specifies the difference of the counting mode. If **Balance** is selected, the difference will be calculated by a creating total starting from the start of the year. If not selected, the difference will be created for the current period. |
+   | **Tax Amount**           | Specifies the counting result. The value of this field will correct the profit tax in the book accounting transactions. |
+   | **Asset Tax Amount**     | Specifies the calculated asset tax amount.                   |
+   | **Liability Tax Amount** | Specifies the calculated liability tax amount.               |
+   | **Disposal Tax Amount**  | Specifies the tax amount that is written off at disposal of an item. |
+   | **DTA Starting Balance** | Specifies the starting disposal tax amount before counting.  |
+   | **DTL Starting Balance** | Specifies the starting disposal tax liability amount before counting. |
+   | **DTA Ending Balance**   | Specifies the disposal tax amount after counting.            |
+   | **DTL Ending Balance**   | Specifies the disposal tax liability amount after counting.  |
+   | **Disposal Mode**        | Select if you want to write down the tax difference or transform it into a constant difference. |
+   | **Disposal Date**        | Enter the date of the item’s disposal.                       |
+   | **Partial Disposal**     | Select if you want to dispose of an item that causes differences in the expense or income code. If this field is not selected, the tax differences are written off. |
 
-3. Выберите действие **Учесть**. Транзакции журнала налоговых разниц будут учтены.
+3. Choose the **Post** action. The tax difference journal transaction is posted.
 
-4. Выберите действие **Книга операций**, чтобы открыть окно **Книга операций по налоговым разницам** и проверить учтенные операции.
+4. Choose the **Ledger Entries** action to open the **Tax Diff. Ledger Entry** window and review the posted entries.
 
- 
+## See Also
 
-## См. также 
-
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/tax-differences.md)
-
-[Настройка расчета налоговых разниц]()
-
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
-
-[Практическое руководство. Создание налоговых регистров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-tax-registers.md)
-
+[Tax Differences](Tax-Differences.md)  
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
+[Tax Accounting](Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  
+[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  

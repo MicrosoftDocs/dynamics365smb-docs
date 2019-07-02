@@ -1,45 +1,49 @@
-# Практическое руководство. Настройка предоплат клиентов
+---
+title: Setting up customer prepayments in Russia
+description: Russian enhancements include prepayments from customers.
+author: DianaMalina
 
-Предоплата — это авансовые платежи по заказам на продажу, которые получены, для которых создан счет и которые учтены, но до окончательного выставления счетов. Например, вам может потребоваться задаток, чтобы произвести товар и отгрузить его клиенту. Предоплаты позволяют создавать счета и собирать авансовые платежи от клиентов и учитывать платежи для правильных счетов.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Set Up Customer Prepayments
 
-## Настройка предоплат клиентов
+Prepayments are advance payments on sales orders that are received, invoiced, and posted before the final invoice is issued. For example, you may require a deposit before you manufacture and ship an item to a customer. Prepayments let you invoice and collect advance payments from customers and post the payments against the correct invoices and accounts.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка модуля "Продажи"**, затем выберите связанную ссылку.
+## To set up customer prepayments
 
-2. На экспресс-вкладке **Нумерация** убедитесь, что серия номеров **Серия номеров учт. счетов предопл.** совпадает с **Серия номеров учт. счетов**. Убедитесь также, что серия номеров для **Серия номеров учт. кр.-нот предопл.** совпадает с серией для **Серия номеров учт. кредит-нот**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
-3. На экспресс-вкладке **Предоплата** введите следующие сведения.
+2. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for the **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
 
-   | Поле                                                | Описанием                                                    |
-   | :-------------------------------------------------- | :----------------------------------------------------------- |
-   | **Испол. Аванс Счет Но.**                           | Выберите это поле, чтобы учесть предоплаты поставщикам, используя субсчет, указанный в поле **Счет предоплаты** в окне **Учетные группы клиента**. |
-   | **Создание Авансового Счета**                       | Выберите, чтобы создать счет на предоплату. Если это поле не выбрано, счет на предоплату создан не будет. |
-   | **Учт. Аванс Серия Номеров**                        | Введите код серии номеров, который требуется использовать для счетов на предоплату. |
-   | **Учт. разн. по предопл. - серия ном. док.**        | Введите код серии номеров, который требуется использовать для документов предоплаты. |
-   | **Разн. по предопл. - тип серии номеров док.**      | Укажите, требуется ли использовать серию номеров или символ для идентификации документов предоплаты. |
-   | **Символ для док. разн. по предопл.**               | Введите символ, который будет печататься на документах предоплаты. |
-   | **Разн. по предопл.: прибыль - знач. изм. условия** | Введите код для измерения, которое используется для создания условной прибыли от предоплаты. |
-   | **Разн. по предопл.: убытки - знач. изм. условия**  | Введите код для измерения, которое используется для создания условного убытка от предоплаты. |
-   | **Разн. по предопл.: прибыль - знач. изм. вида**    | Введите код для измерения, которое используется для создания платежа с точки зрения прибыли от предоплаты. |
-   | **Разн. по предопл.: убытки - знач. изм. вида**     | Введите код для измерения, которое используется для создания платежа с точки зрения прибыли от предоплаты. |
+3. On the **Prepayment** FastTab, enter the following information.
 
-4. Откройте окно **Учетные группы клиента**.
+   | Field                             | Description                                                  |
+   | :-------------------------------- | :----------------------------------------------------------- |
+   | **Use Prepayment Account**        | Select to post prepayments using the subaccount specified in the **Prepayment Account** field in the **Customer Posting Groups** window. |
+   | **Create Prepayment Invoice**     | Select to create an invoice for the prepayment. If this field is not selected, an invoice for the prepayment will not be created. |
+   | **Posted Prepayment Nos.**        | Enter the code of the number series that you want to use for prepayment invoices. |
+   | **Posted PD Doc. Nos.**           | Enter the code of the number series that you want to use for prepayment documents. |
+   | **PD Doc. Nos. Type**             | Select if you want to use a number series or symbol to identify prepayment documents. |
+   | **Symbol for PD Doc.**            | Enter a symbol to be printed on prepayment documents.        |
+   | **PD Gains Condition Dim Value**  | Enter the code for the dimension that is used to generate conditional prepayment gains. |
+   | **PD Losses Condition Dim Value** | Enter the code for the dimension that is used to generate conditional prepayment losses. |
+   | **PD Gains Kind Dim Value**       | Enter the code for the dimension that is used to generate payment in kind prepayment gains. |
+   | **PD Losses Kind Dim Value**      | Enter the code for the dimension that is used to generate payment in kind prepayment gains. |
 
-5. В поле **Счет предоплаты** укажите счет главной книги, который должен использоваться для учета предоплаты клиентов.
+4. Open the **Customer Posting Groups** window.
 
-6. Нажмите кнопку **Закрыть**, чтобы закрыть окно и сохранить введенные данные.
+5. In the **Prepayment Account** field, specify the general ledger accounts that you want to use for posting customer prepayments.
 
- 
+6. Choose the **Close** button to close the window and save your entries.
 
-Теперь вы можете создавать счета и собирать авансовые платежи от клиентов и учитывать платежи для правильных счетов.
+You can now invoice and collect advance payments from customers and post the payments to the correct invoices and accounts.
 
- 
+## See Also
 
-## См. также
-
-[Выставление счетов на предоплату](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-invoice-prepayments)
-
-[Пошаговое руководство. Настройка и выставление счетов на продажу](https://docs.microsoft.com/ru-ru/dynamics365/business-central/walkthrough-setting-up-and-invoicing-sales-prepayments)
-
+[Invoicing Prepayments](../../finance-invoice-prepayments)  
+[Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments)  

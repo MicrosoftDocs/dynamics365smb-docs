@@ -1,164 +1,176 @@
-# Товарные документы
+---
+title: Item documents in Russia
+description: Russian enhancements include item documents.
+author: DianaMalina
 
-Business Central включает несколько документов, которые можно использовать для управления складом, например, отчеты, которые необходимо предоставлять официальным органам, такие как ТОРГ-29, акт приемки товаров ТОРГ-1 и расхождение при приемке ТОРГ-2.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-Следующие типы документов полезны при управлении складом:
+# Item Documents
 
-- Акт приемки товаров без счета поставщика — применяется для учета прихода товаров на основе качества, количества и стоимости.
-- Акт списания товаров — применяется для регистрации повреждений по таким причинам, как утрата качества товаров, которые не подлежат дальнейшей продаже.
-- Перемещение товара — применяется при приеме и поставке отгрузок для перемещения товаров в рамках организации.
+[!INCLUDE[prodshort](../../includes/prodshort.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
 
-## Настройка нумерации складских документов
+The following types of documents are useful for managing your warehouse:
 
-В следующей процедуре показан порядок нумерации складских документов.
+- Item receipt act without the vendor invoice - This is applied to the account receipt of items based on the quality, quantity, and cost.
+- Item writing-off act – This is applied to register damage for reasons such as the loss of quality of items that will no longer be sold.
+- Item transfer – This is applied to receipt and delivery shipments for transfer of items within the organization.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка модуля "Запасы"**, а затем выберите связанную ссылку.
-2. На экспресс-вкладке **Нумерация** укажите в следующих полях серии номеров документов.
-   - **Акт Оприход. Товаров Номера**
-   - **Учт. Акты Оприходования Номера**
-   - **Акт Списания Номера**
-   - **Учт. Акт Списания Номера**
+## Setting Up Warehouse Document Numbering
 
-## Создание акта оприходования товаров без поставщика
+The following procedure shows how to set up warehouse document numbering.
 
-В следующей процедуре показан порядок создания акта оприходования товаров без поставщика.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Inventory Setup**, and then choose the related link.
+2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
+   - **Item Receipt Nos**
+   - **Posted Item receipt Nos**
+   - **Item Shipment Nos**
+   - **Posted Item Shipment Nos**
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акты оприходования товаров**, а затем выберите связанную ссылку.
+## Creating an Item Receipt Act Without a Vendor
 
-2. В заголовке окна **Акт Оприходования Товаров** введите поля, описанные в следующей таблице.
+The following procedure shows how to create an item receipt act without a vendor.
 
-   | Поле                               | Описанием                                                    |
-   | ---------------------------------- | ------------------------------------------------------------ |
-   | **Номер**                          | Определяет номер заголовка складского документа.             |
-   | **Описание Учета**                 | Определяет описание учета.                                   |
-   | **Код Склада**                     | Указывает значение кода, которое заполняется из списка складов. |
-   | **Общая бизнес-группа**            | Определяет код общей бизнес-группы.                          |
-   | **Дата учета**  **Дата Документа** | Указывает рабочую дату, которая заполняется по умолчанию.    |
-   | **Номер внешнего документа**       | Введите номер первичного документа.                          |
-   | **Код менеджера**                  | Указывает значение кода, которое выбирается из списка продавцов или менеджеров. |
-   | **Корректировка**                  | Определяет операцию как исправление.                         |
-   | **Статус**                         | Указывает состояние документа: "Открыт" или "Выпущен".       |
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Receipts**, and then choose the related link.
 
-3. В строках документа окна **Акт Оприходования Товаров** заполните поля, описанные в следующей таблице.
+2. In the header of the **Item Receipt** window, enter the fields described in the following table.
 
-   | Поле                          | Описанием                                                    |
-   | ----------------------------- | ------------------------------------------------------------ |
-   | **Код товара**                | Указывает номер товара из таблицы "Товар Список".            |
-   | **Описание**                  | Определяет описание товара.                                  |
-   | **Количество**                | Определяет количество единиц товара.                         |
-   | **Зарезерв. входящее кол-во** | Указывает количество товара, зарезервированное на складе получателя. |
-   | **Цена Единицы**              | Определяет цену единицы товара.                              |
-   | **Косв. себест. %**           | Определяет процент косвенных затрат.                         |
-   | **Себестоимость единицы**     | Определяет себестоимость единицы товара в строке прихода отгрузки. |
-   | **Сумма**                     | Определяет сумму транзакции.                                 |
-   | **Код единицы измерения**     | Определяет код единицы измерения полученных товаров.         |
+   | Field                               | Description                                                  |
+   | ----------------------------------- | ------------------------------------------------------------ |
+   | **No.**                             | Specifies the warehouse document header number.              |
+   | **Posting Description**             | Specifies the posting description.                           |
+   | **Location Code**                   | Specifies the value code that is filled in from the Location list. |
+   | **Gen. Bus. Posting Group**         | Specifies the code of the general business posting group.    |
+   | **Posting Date**  **Document Date** | Specifies the working date that is filled in by default.     |
+   | **External Document No.**           | Enter the primary document number.                           |
+   | **Purchaser Code**                  | Specifies the value code that is selected from salespeople or purchasers. |
+   | **Correction**                      | Specifies if the entry is a correction.                      |
+   | **Status**                          | Specifies if the document is Open or Released.               |
 
-4. В окне **Акт оприходования товаров** выберите действие **Подписи сотрудников**, чтобы указать подпись ответственного лица.
+3. In the document lines of the **Item Receipt** window, enter the fields described in the following table.
 
-5. Введите значения в поля, описанные в следующей таблице.
+   | Field                      | Description                                                  |
+   | -------------------------- | ------------------------------------------------------------ |
+   | **Item No.**               | Specifies the item number from the Item List table.          |
+   | **Description**            | Specifies the item description.                              |
+   | **Quantity**               | Specifies the number of item units.                          |
+   | **Reserve Quantity Inbnd** | Specifies the item quantity reserved at the warehouse of the receiver. |
+   | **Unit Amount**            | Specifies the price of a unit item.                          |
+   | **Indirect Cost %**        | Specifies the indirect cost percent.                         |
+   | **Unit Cost**              | Specifies the item unit cost of the receipt shipment line.   |
+   | **Amount**                 | Specifies the transaction amount.                            |
+   | **Unit of Measure Code**   | Specifies the unit of measure code for the received items.   |
 
-   | Поле                | Описанием                                                    |
-   | ------------------- | ------------------------------------------------------------ |
-   | **Сотрудник Тип**   | Определяет тип сотрудника.                                   |
-   | **Сотрудник Номер** | Задает номер сотрудника, который должен поставить свою подпись. |
-   | **Сотрудник Имя**   | Задает значения, которые извлекаются из стандартных полей выбранной карточки **Карточка сотрудника**. |
+4. In the **Item Receipt** window, choose the **Employee Signatures** action to specify the signature of the person in charge.
 
-6. Следующие функции доступны в окне **Акт оприходования товара**.
+5. Enter the fields described in the following table.
 
-| Функция                        | Описанием                                                    |
-| ------------------------------ | ------------------------------------------------------------ |
-| Изменение статуса документа    | Документы можно открыть или выпустить для следующего этапа обработки. Выберите действие **Выпустить** или **Открыть повторно**. |
-| Резервирование строк документа | Товары можно зарезервировать из строки документа. Выберите действие **Резервировать**. |
-| Расчет коррекции склада        | Относится только к коррекции количества товаров в складских ячейках. Эта функция доступна только тогда, когда на складке используется расширенная комплектация и размещение. |
-| Учет документа                 | Выберите действие **Учесть**, чтобы выполнить следующее:   -   **Учет** Учет акта оприходования товара. Создается учтенный акт оприходования товара. -   **Учет и печать** Учет акта оприходования и печать тестового отчета. |
+   | Field             | Description                                                  |
+   | ----------------- | ------------------------------------------------------------ |
+   | **Employee Type** | Specifies the type of the employee.                          |
+   | **Employee No.**  | Specifies the employee number of the employee who must sign. |
+   | **Employee Name** | Specifies the values that are retrieved from the standard fields of the selected **Employee Card**. |
 
-## Анализ учтенного документа оприходования товара без поставщика
+6. To print an **Item Receipt** report from the **Item Receipt** window, choose the **Item Document** action.
 
-В следующей процедуре показан порядок анализа учтенного документа оприходования товаров без поставщика.
+7. Choose the **Print** button.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учт. акты оприходования товаров**, затем выберите связанную ссылку.
+The following functions are available in the **Item Receipt** window.
 
-    Примечание
+| Function                         | Description                 |
+| -------------------------------- | ----------------------------|
+| Changing document status         | Documents can be open or released for the next processing stage. Choose the **Release** or the **Reopen** action. |
+| Reservation of document lines    | Items can be reserved from the document line. Choose the **Reserve** action. |
+| Warehouse adjustment calculation | Refers only to item quantity corrections in the warehouse bins. This is accessible only if advanced picking and placing is used in the warehouse. |
+| Document posting                 | Choose the **Post** action to perform the following:   -   **Post** Post the item receipt. The posted item receipt is created. -   **Post and Print** Post the receipt and print the test report. |
 
-   В учтенном акте оприходования товаров отображается вся информация из приходной накладной.
+## Analysis of a Posted Document Item Receipt Without a Vendor
 
-2. Выберите действие **Сортировка**, чтобы отсортировать список выбранных для печати документов по возрастанию или по убыванию.
+The following procedure shows how to analyze a posted document item receipt without a vendor.
 
-3. Нажмите кнопку **Печать**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Item Receipts**, and then choose the related link.
 
-## Создание акта списания товаров
+   > :speech_balloon: Note
+   > The posted item receipt displays all the information from the item receipt.
 
-В следующей процедуре показан порядок создания акта списания товаров.
+2. Choose the **Sort** action to sort the list of documents selected for printing in ascending or descending order.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акты списания товаров**, а затем выберите связанную ссылку.
+3. Choose the **Print** button.
 
-2. В заголовке окна **Акт Списания Товаров** заполните поля. Эти поля идентичны полям окна **Акт Оприходования Товаров**.
+## Creating an Item Writing-Off Act
 
-3. В строках документа окна **Акт Списания Товаров** заполните поля. Эти поля идентичны полям окна **Акт Оприходования Товаров**, за исключением следующего.
+The following procedure shows how to create an item writing-off act.
 
-   - Поле **Косвен. Себест.** доступно только в окне **Акт Оприходования Товаров**.
-   - Поля, описанные в следующей таблице, доступны только в окне **Акт Списания Товаров**.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Shipments**, and then choose the related link.
 
-   | Поле                      | Описанием                                                    |
-   | ------------------------- | ------------------------------------------------------------ |
-   | **ОС Номер**              | Указывает основное средство для списания товаров и материалов. |
-   | **Код Книги Амортизации** | Указывает книгу амортизации основных средств, в которую будет добавлена дополнительная себестоимость. |
+2. On the header of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** window.
 
-4. В окне **Акт списания товаров** выберите действие **Подписи сотрудников**, чтобы указать подпись ответственного лица.
+3. In the document lines of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** window except for the following:
 
-5. Введите значения в поля, описанные в следующей таблице.
+    - The **Indirect Cost** field is available only in the **Item Receipt** window.
+    - The fields in the following table are available only in the **Item Shipment** window.
 
-   | Поле                | Описанием                                                    |
-   | ------------------- | ------------------------------------------------------------ |
-   | **Сотрудник Тип**   | Определяет тип сотрудника.                                   |
-   | **Сотрудник Номер** | Задает номер сотрудника, который должен поставить свою подпись. |
-   | **Сотрудник Имя**   | Задает значения, которые извлекаются из стандартных полей выбранной карточки **Карточка сотрудника**. |
+    | Field                      | Description                                                  |
+    | -------------------------- | ------------------------------------------------------------ |
+    | **FA No.**                 | Specifies the fixed asset to write off items and materials.  |
+    | **Depreciation Book Code** | Specifies the fixed asset depreciation book to which the additional cost will be added. |
 
-6. Выберите действие **Печать**.
+4. In the **Item Shipment** window, choose the **Employee Signatures** actionm to specify the signature of the person in charge.
 
-Функции, доступные в окне **Акт списания товаров**, совпадают с функциями, доступными в окне **Акт оприходования товаров**.
+5. Enter the fields described in the following table.
 
-## Анализ учтенного документа списания товара
+    | Field             | Description                                                  |
+    | ----------------- | ------------------------------------------------------------ |
+    | **Employee Type** | Specifies the type of the employee.                          |
+    | **Employee No.**  | Specifies the employee number of the employee who must sign. |
+    | **Employee Name** | Specifies the values that are retrieved from the standard fields of the selected **Employee Card**. |
 
-В следующей процедуре показан порядок анализа учтенного акта списания товаров.
+6. Choose the **Print** action.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учт. акты списания товаров**, затем выберите связанную ссылку.
+The functions available in the **Item Shipment** window are same as those in the **Item Receipt** window.
 
-    Примечание
+## Analysis of a Posted Document Item Writing-Off Act
 
-   В учтенном акте списания товаров отображается вся информация из расходной накладной.
+The following procedure shows how to analyze a posted document item writing-off act.
 
-2. Выберите действие **Сортировка**, чтобы отсортировать список выбранных для печати документов по возрастанию или по убыванию.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Item Shipments**, and then choose the related link.
 
-3. Выберите действие **Печать**.
+  > [!NOTE]
+  > The posted item shipment displays all the information from the item shipment.
 
-## Отчет по заказу на перемещение ТОРГ-13 на основании неучтенного документа перемещения
+2. Choose the **Sort** action to sort the list of documents selected for printing in ascending or descending order.
 
-В следующей процедуре описывается порядок создания отчета по заказу на перемещение ТОРГ-13 на основании документов на перемещение, которые не были учтены.
+3. Choose the **Print** action.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Заказы на перемещение**, а затем выберите связанную ссылку.
+## Report Transfer Order TORG-13 Based on an Unposted Transfer Document
 
-   Выберите действие **Печать**.
+The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that are not posted.
 
-## Отчет по заказу на перемещение ТОРГ-13 на основании учтенного документа перемещения - "Перемещение Прих. Накл."
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Transfer Orders**, and then choose the related link.
 
-В следующей процедуре описан порядок создания отчета на основе учтенного документа перемещения, называемого приходной накладной перемещения.
+   Choose the **Print** action.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учт. прих. накладная на перемещение**, затем выберите связанную ссылку.
-2. Выберите действие **Печать**.
+## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Receipt
 
-## Отчет по заказу на перемещение ТОРГ-13 на основании учтенного документа перемещения - "Перемещение Расх. Накл."
+The following procedure shows how to create a report based on a posted transfer document called a transfer receipt.
 
-В следующей процедуре описан порядок создания отчета на основе учтенного документа перемещения, называемого расходной накладной перемещения.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Transfer Receipt**, and then choose the related link.
+2. Choose the **Print** action.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Учтенные расходные накладные на перемещение**, затем выберите связанную ссылку.
+## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Shipment
 
-   Выберите действие **Печать**.
+The following procedure shows how to create a report based on a posted transfer document called a transfer shipment.
 
-## См. также
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Transfer Shipments**, and then choose the related link.
 
-[Настройка товаров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory-setup.md)
+   Choose the **Print** action.
 
-[Акты обязательств по товару](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-obligatory-acts.md)
+## See Also
 
-[Финансовый оборот для товара](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-general-ledger-turnover.md)
+[Inventory Setup](Inventory-Setup.md)  
+[Item Obligatory Acts](Item-Obligatory-Acts.md)  
+[Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  

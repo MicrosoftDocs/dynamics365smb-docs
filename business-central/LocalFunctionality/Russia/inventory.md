@@ -1,22 +1,29 @@
-# Запасы
+---
+title: Inventory in Russia
+description: Russian enhancements include additional functionality for inventory.
+author: DianaMalina
 
- Функция запасов для России описывается в нескольких разделах.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# Inventory
 
-## В этом разделе
+Russian inventory functionality is described in several topics.
 
- 
+## In This Section
 
-[Настройка товаров](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory-setup.md)
+[Inventory Setup](Inventory-Setup.md)
 
-[Акты Оприходования](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-documents.md)
+[Item Documents](Item-Documents.md)
 
-[Акты обязательств по товару](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-obligatory-acts.md)
+[Item Obligatory Acts](Item-Obligatory-Acts.md)
 
-[Акт инвентаризации расчетов с клиентами и платежей ИНВ-17](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/inventory-act-of-receivables-and-payables-inv-17.md)
+[Inventory Act of Receivables And Payables INV-17](Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 
-[Финансовый оборот для товара](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/item-general-ledger-turnover.md)
+[Item General Ledger Turnover](Item-General-Ledger-Turnover.md)
 
-[Практическое руководство. Создание товарного отчета ТОРГ-29](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-the-torg-29-goods-report.md)
-
+[How to: Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md)

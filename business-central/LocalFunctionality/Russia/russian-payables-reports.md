@@ -1,176 +1,200 @@
-# Отчеты по платежам (Россия)
+---
+title: Payables reports in Russia
+description: Russian enhancements include payables reports.
+author: DianaMalina
 
-Функция отчетов о платежах для России позволяет просматривать на экране и в печатном виде оборотную ведомость по финансовым операциям поставщика для финансовых счетов с операциями финансовой книги, имеющими тип источника Поставщик. Предоставляются также следующие отчеты:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- Поставщики Оборотная ведомость по ГК (стр. 12407)
-- Поставщики оборотная ведомость по ГК (отчет 12451)
-- Поставщик Бухг. Карточка (отчет 12445)
-- Постав. Оборот. Ведомость (отчет 12444)
-- Оборот по учетной группе поставщиков (отчет 12443)
-- Анализ Операций Поставщика (отчет 12446)
-- Поставщик - Акт Выверки (отчет 14911)
+# Russian Payables Reports
 
-## Поставщики Оборотная ведомость по ГК (стр. 12407)
+The payables report feature enables you to view the vendor general ledger turnover for general ledger accounts for finance entries with the source type Vendor on the screen and in the form of a printed report. The following reports are also provided:
 
-Страница **Поставщики Оборотная ведомость по ГК** является электронным окном, показывающим оборотную ведомость поставщика для финансовых счетов в контексте поставщиков.
+- Vendor General Ledger Turnover (page 12407)
+- Vendor General Ledger Turnover (report 12451)
+- Vendor Accounting Card (report 12445)
+- Vendor Turnover (report 12444)
+- Vendor Posting Group Turnover (report 12443)
+- Vendor Entries Analysis (report 12446)
+- Vendor Reconciliation Act (report 14911)
 
-Данное окно содержит все сведения об операциях поставщика, например операциях главной книги с типом источника «Поставщик» и суммами в локальной валюте (руб.).
+## Vendor General Ledger Turnover (Page 12407)
 
-Строки окна содержат сведения, приведенные в следующей таблице.
+The **Vendor General Ledger Turnover** page is an electronic window that shows the vendor turnover for general ledger accounts in the context of vendors.
 
-| Столбец                                                      | Описанием                                                    |
+To access this window, choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action. This window contains all the information about a vendor's entries such as the general ledger entries with the source type Vendor with the amounts in local currency (LCY).
+
+The lines of the window contain the information listed in the following table.
+
+| Column                                                       | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Код                                                          | Выберите данный столбец, чтобы ввести номер поставщика. Изменение значений в столбце не допускается. |
-| Название                                                     | Выберите данный столбец, чтобы ввести название поставщика. Изменение значений в столбце не допускается. |
-| Учетная группа поставщика                                    | Выберите данный столбец, чтобы ввести учетную группу поставщика. Изменение значений в столбце не допускается. |
-| Начальное Сальдо (РУБ)   Дебет Сумма (РУБ)   Сумма по кредиту (руб.)   Конечное Сальдо (Руб)   Оборот (Руб) | Выберите данный столбец, чтобы ввести начальное и конечное сальдо, сумму по дебету, сумму по кредиту и оборот за данный период. Все суммы показываются в рублях.   Значения в данных столбцах рассчитываются для всех операций Главной книги, которые имеют тип источника «Поставщик».   Изменение значений в столбцах не допускается. |
+| No.                                                          | Select this column to enter the vendor number. This column is not editable. |
+| Name                                                         | Select this column to enter the vendor name. This column is not editable. |
+| Vendor Posting Group                                         | Select this column to enter the vendor posting group. This column is not editable. |
+| Starting Balance LCY,   Debit Amount (LCY),   Credit Amount (LCY),   Ending Balance LCY,   Net Change (LCY). | Select this column to enter the balance at the beginning and the end of the period, debit amount, credit amount, and net change for the period. All amounts are shown in the local currency.   The values of these columns are calculated for all the general ledger entries with the source type Vendor.   These columns are not editable. |
 
-Следующая процедура описывает, как получить доступ к окну с помощью действия **Поставщик**.
+The following procedure shows how to access the window with the option for the **Vendor** action.
 
-- Выберите  **Поставщик** через действие **Навигатор**, затем выберите действие **Карточка** (сочетание клавиш SHIFT+F5), чтобы просмотреть карточку поставщика для выбранной строки.
+- Choose the **Vendor** action, choose the **Vendor G/L Turnover** action, and then choose the **Card** action (SHIFT+F5 Hot Key) to view the vendor card for the selected line.
 
-## Отчет "Поставщики оборотная ведомость по ГК" (отчет 12451)
+## Vendor General Ledger Turnover Report (Report 12451)
 
-Отчет **Поставщики оборотная ведомость по ГК** используется для анализа оборотной ведомости, а также для анализа сальдо счета поставщика. Отчет обычно печатается ежемесячно, но может быть напечатан за любой выбранный период.
+The **Vendor General Ledger Turnover** report is used to analyze turnover as well as for analysis of the vendor account balances. It is usually printed monthly, but can be printed for any given period.
 
-Следующая процедура показывает, как получить доступ к отчету **Постав. Фин. Операции Оборот. Ведомость**.
+The following procedure shows how to access the **Vendor General Ledger Turnover** report.
 
-1. Выберите действие **Отчет**, в окне **Поставщики оборотная ведомость по ГК**, затем выберите действие **Оборотная ведомость**
-2. Экспресс-вкладка **Параметры** содержит поля, приведенные в следующей таблице.
+1. Choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action.
+2. Choose the **Vendor G/L Turnover** action, choose the **Print** action, and then choose the **G/L Turnover** action.
 
-| Поле                                     | Описанием                                                    |
-| ---------------------------------------- | ------------------------------------------------------------ |
-| **Точность округления**                  | Выберите это поле, чтобы выбрать нужную точность округления, например: 0,0юю |
-| **Пропускать нулевые строки**            | Выберите это поле, чтобы исключить строки с нулевыми значениями. |
-| **Заменять нулевые значения на пустые** | Выберите это поле, чтобы заменить все нулевые значения на пустые. |
+The **Options** FastTab contains the fields listed in the following table.
 
-## Поставщик Бухг. Карточка (отчет 12445)
-
-Отчет **Бухг. карточка поставщика** предоставляет следующие сведения обо всех операциях поставщика за определенный период:
-
-- Начальное Сальдо
-- Дата Учета
-- Документ Но.
-- Описанием
-- Оборот Дебет
-- Оборот Кредит
-- Тип документа
-- Конечное Сальдо
-
-Отчет обычно печатается ежемесячно и на дату инвентаризации, но может быть напечатан за любой выбранный период.
-
-Следующая процедура показывает, как получить доступ к отчету **Бухг. карточка поставщика**.
-
-1. Выберите действие **Отчет**, в окне **Поставщики оборотная ведомость по ГК**, затем выберите действие **Бухг. карточка**.
-
-На экспресс-вкладке **Параметры** можно установить флажок **Новая страница для поставщика**, чтобы информация по каждому поставщику была напечатана на отдельной странице.
-
-## Постав. Оборот. Ведомость (отчет 12444)
-
-Отчет **Поставщик - оборотная ведомость** используется для печати данных об операциях поставщика за конкретный период  Автоматически заполняются следующие сведения о поставщике:
-
-- Начальное Сальдо (дебет или кредит на начало периода)
-- Оборот (дебет или кредит)
-- Конечное Сальдо (дебет или кредит на конец периода)
-
-Для доступа к отчету Постав. Оборот. Ведомость:
-
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Поставщик - оборотная ведомость**, а затем выберите связанную ссылку.
-
-Экспресс-вкладка **Параметры** содержит поля, приведенные в следующей таблице.
-
-| Поле                                           | Описанием                                                    |
-| :--------------------------------------------- | :----------------------------------------------------------- |
-| **Точность округления**                        | Выберите это поле, чтобы выбрать нужную точность округления, например: 0,001; 0,01; 1 или 1000. |
-| **Заменять нулевые значения на пропуски**      | Выберите это поле, чтобы заменять нулевые значения пробелами при печати. |
-| **Пропускать счета без оборотов**              | Выберите это поле, чтобы исключить строки, не имеющие оборота за указанный период. |
-| **Пропускать счета с нулевым конечным сальдо** | Выберите это поле, чтобы исключить строки с нулевым конечным сальдо на конец периода. |
-| **Пропускать нулевые строки**                  | Выберите это поле, чтобы исключить строки с нулевыми значениями. |
-
-## Оборот по учетной группе поставщиков (отчет 12443)
-
-Отчет **Оборот по учетной группе поставщиков** используется для печати сведений об операциях поставщиков, которые собираются в учетных группах поставщиков. Печатаемые данные включают:
-
-- Код учетной группы поставщика
-- Название учетной группы поставщика
-- Начальное Сальдо (дебет или кредит)
-- Оборот (дебет или кредит)
-- Конечное Сальдо (дебет или кредит)
-
-Для доступа к отчету:
-
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Оборот по учетной группе поставщиков**, а затем выберите связанную ссылку.
-
-На экспресс-вкладке **Параметры** имеется возможность указать те же параметры форматирования, что и на экспресс-вкладке **Параметры** отчета **Поставщик - оборотная ведомость**.
-
-## Анализ Операций Поставщика (отчет 12446)
-
-В отчете **Анализ операций поставщика** приводятся обязательства поставщика на начало и конец периода, анализ операции и выплата счета. Печатаемые данные включают:
-
-- Дата Учета
-- Документ Но.
-- Документ Название
-- Тип (оплата, счет)
-- Сумма
-- Сумма Закрытия
-- Дата Оплаты
-
-Данный отчет позволяет определить взаимозависимость счета и оплаты, а также показывает закрытые операции, счета для оплаты, частично выплаченные счета и суммы предоплаты поставщиков.
-
-Для доступа к отчету:
-
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Анализ операций поставщика**, а затем выберите связанную ссылку.
-
-На экспресс-вкладке **Поставщик** страницы запроса имеется возможность определить номер или диапазон номеров поставщиков, в зависимости от того, нужно ли печатать отчет для одного поставщика или для нескольких поставщиков. На экспресс-вкладке **Параметры** имеется возможность указать параметры форматирования, приведенные в следующей таблице.
-
-| Параметр                          | Описанием                                                    |
+| Field                             | Description                                                  |
 | --------------------------------- | ------------------------------------------------------------ |
-| **Дата начала**                   | Выберите эту опцию, чтобы указать дату начала периода.       |
-| **окончание периода**             | Выберите эту опцию, чтобы указать дату окончания периода.    |
-| **Валюта Отчета**                 | Выберите эту опцию, чтобы указать валюту для использования в отчете. Можно выбрать следующие типы:   -   **Местная валюта** -   **Валюта транзакции** |
-| **Новая страница для Поставщика** | Выберите эту опцию, чтобы напечатать данные для каждого поставщика на отдельной странице. |
+| **Rounding Precision**            | Select this field to choose the required rounding precision such as 0.001, 0.01, 1, or 1000. |
+| **Replace zero values by blanks** | Select this field to replace zero values with blanks during printing. |
+| **Skip zero lines**               | Select this field to exclude lines with zero values.         |
 
-## Поставщик - Акт Выверки (отчет 14911)
+## Vendor Accounting Card Report (Report 12445)
 
-Отчет **Поставщик - акт выверки** показывает оплаты и обязательства поставщика. Он используется для сверки взаимных оплат контрагентов.
+The **Vendor Accounting Card** report provides the following information for all of a vendor's entries for a specific period:
 
-Для доступа к отчету:
+- Starting balance
+- Posting date
+- Document number
+- Description
+- Net change debit
+- Net change credit
+- Document type
+- Ending balance
 
-Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Поставщик - акт выверки** а затем выберите связанную ссылку.
+This report is usually printed monthly and on the date of inventory, but can be printed for any given period.
 
-Возможные уровни подробностей:
+The following procedure shows how to access the **Vendor Accounting Card** report.
 
-- Все 
-- Частично
-- Нет
+1. Choose the **Financial Management** action, choose the **Payables** action, and then choose the **Turnover** action.
+2. Choose the **Vendor G/L Turnover** action, choose the **Print** action, and then choose the **Vendor Accounting Card** action.
 
-### Все подробности
+The **Vendor** FastTab of the request page contains the same fields as the **Vendor** FastTab of the **Vendor General Ledger Turnover** report. On the **Options** FastTab, you can select the **New page for Vendor** check box to print the information for each vendor on a separate page.
 
-Если выбран уровень Все подробности, отчет печатает следующие данные для каждого документа за текущий и предыдущий периоды:
+## Vendor Turnover Report (Report 12444)
 
-- Номер документа и номера связанных с ним документов.
-- Сальдо для каждого документа (дебет или кредит)
-- Дата Документа
-- Описанием
+The **Vendor Turnover** report is used to print the data about a vendor's entries for a specific period in the context of separate contracts (agreements).  The system fills in the following information about the vendor:
 
-### Частичные подробности
+- Starting balance (debit or credit at the start of the period)
+- Net change (debit or credit)
+- Ending balance (debit or credit at the end of the period)
 
-Если выбран уровень частичных подробностей, отчет отображает сальдо для каждого документа за текущий и предыдущий периоды, но не отображает связи со счетами, кредит-нотами и оплатами.
+To access the Vendor Turnover report
 
-### Нет
+Choose the ![Search for Page or Report](search-icon.png) icon, enter **Vendor Turnover**, and then choose the related link.
 
-Если выбран уровень подробностей Нет, отчет показывает следующие сведения для каждого поставщика:
+The **Vendor** FastTab of the request page contains the same fields as the **Vendor** FastTab of the **Vendor General Ledger Turnover** report. On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Vendor General Ledger** report.
 
-- Сальдо на начало периода
-- Обороты за период
-- Сальдо на конец периода
-- Сумма обязательств поставщика
-- Подписи руководителей
+The **Options** FastTab contains the fields listed in the following table.
 
-На экспресс-вкладке **Поставщик** страницы запроса имеется возможность определить номер или диапазон номеров поставщиков, в зависимости от того, нужно ли печатать отчет для одного поставщика или для нескольких поставщиков.
+| Field                                      | Description                                                  |
+| ------------------------------------------ | ------------------------------------------------------------ |
+| **Rounding Precision**                     | Select this field to choose the required rounding precision such as 0.001, 0.01, 1, or 1000. |
+| **Replace zero values by blanks**          | Select this field to replace zero values with blanks during printing. |
+| **Skip accounts without net changes**      | Select this field to exclude lines without net changes within the period. |
+| **Skip accounts with zero ending balance** | Select this field to exclude lines with zero ending balances at the end of the period. |
+| **Skip zero lines**                        | Select this field to exclude lines with zero values.         |
 
-## См. также
+## Vendor Posting Group Turnover Report (Report 12443)
 
-[Отчеты по расчетам с клиентами (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-receivables-reports.md)
+The **Vendor Posting Group Turnover** report is used to print information on the vendor's entries that are accumulated in the vendor posting groups. The printed data contains the following information:
 
-[Практическое руководство. Настройка договоров с клиентами и поставщиками](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
+- Vendor posting group code
+- Vendor posting group name
+- Starting balance (debit or credit)
+- Net change (debit or credit)
+- Ending balance (debit or credit)
+
+To access the **Vendor Posting Group Turnover** report
+
+- Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Posting Group Turnover** action.
+
+On the **Vendor Posting Group** FastTab of the request page, you can specify the vendor posting group code or a range of vendor posting group codes, depending on whether you want to print the report for one vendor posting group, or for a range of vendor posting groups.
+
+On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Vendor General Ledger Turnover** report.
+
+## Vendor Entries Analysis Report (Report 12446)
+
+The **Vendor Entries Analysis** report shows the vendor's liabilities at the beginning and at the end of the period, entry analysis, and invoice discharging. The printed data contains the following information:
+
+- Posting date
+- Document number
+- Document name
+- Type (payment, invoice)
+- Amount
+- Amount closed
+- Payment date
+
+This report enables you to determine the invoice and payment interdependence, and it also shows closed entries, due invoices, partially discharged invoices, and vendor prepayment amounts.
+
+To access the **Vendor Entries Analysis** report.
+
+- Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Entries Analysis** action.
+
+On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print the report for one vendor or for a number of vendors. On the **Options** FastTab, you can specify the format options listed in the following table.
+
+| Parameter               | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| **Starting Date**       | Select this option to specify the start date of the period.  |
+| **Ending of period**    | Select this option to specify the end date of the period.    |
+| **Report Currency**     | Select this option to specify the currency you want to use in the report. You can choose:   -   **Local currency** -   **Transaction currency** |
+| **New Page For Vendor** | Select this option to print the data for each vendor on a separate page. |
+
+## Vendor Reconciliation Act Report (Report 14911)
+
+The **Vendor Reconciliation Act** report shows the payments or liabilities of the vendor. It is used for the reconciliation of mutual payments of contractors.
+
+To access the **Vendor Reconciliation Act** report
+
+- Choose the **Financial Management** action, choose the **Payables** action, choose the **Reports** action, and then choose the **Vendor Reconciliation Act** action.
+
+The following levels of details are possible:
+
+- Full Detail
+- Partial Detail
+- None
+
+### Full Detail
+
+If Full Detail is selected as the detail level, the report prints the following data for each document for the current and previous periods:
+
+- Document number and the numbers of the documents connected with it.
+- The balance on each document (debit or credit)
+- Document date
+- Description
+
+The report prints the following on the right side of the window (vendor's data) if **Print Contactor Data** is active on the **Options** FastTab of the request page:
+
+- Document amount
+- Debit
+- Credit
+
+### Partial Detail
+
+If Partial Detail is selected as the detail level, the report displays the balance on each document for the current and previous periods, but does not display the connections to the invoices, credit notes, and payments.
+
+### None
+
+If None is selected as the detail level, the report shows the following information for each vendor:
+
+- The balance at the beginning of the period
+- Net changes for the period
+- The balance at the end of the period
+- Amount of the vendor liabilities
+- General managers' signatures
+
+On the **Vendor** FastTab of the request page, you can define the vendor number or a range of numbers, depending on whether you want to print a report for one vendor or for a number of vendors.
+
+## See Also
+
+[Russian Receivables Reports](Russian-Receivables-Reports.md)  
+[How to: Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

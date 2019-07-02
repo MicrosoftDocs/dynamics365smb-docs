@@ -1,45 +1,50 @@
-# Практическое руководство. Создание книг НДС
+---
+title: Creating VAT ledgers in Russia
+description: Russian enhancements include VAT ledgers.
+author: DianaMalina
 
- Можно создать любое количество книг НДС. Например, можно создать следующие: 
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- книги продаж для различных групп клиентов;
-- дополнительные книги продаж для разниц суммы и предоплат;
-- объединенные книги продаж для компании в целом.
+# How to: Create VAT Ledgers
 
- 
+You can create and store any number of VAT ledgers. For example, you can create the following: 
 
-## Создание книги НДС
+- Sales ledgers for different groups of customers
+- Additional sales ledgers for amount differences and prepayments
+- Joint sales ledgers for the whole company
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **НДС-книги продаж** или **НДС-книги покупок**, а затем выберите связанную ссылку.
+## To create a VAT ledger
 
-2. Заполните поля в окне, как описано в следующей таблице.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Ledger List**, and then choose the related link.
 
-   | Поле               | Описанием                                                    |
-   | :----------------- | :----------------------------------------------------------- |
-   | **Код**            | Введите код серии номеров, который используется для книги НДС. Доступные коды можно просмотреть в окне **Серии номеров**. |
-   | **Описание**       | Введите описание книги НДС.                                  |
-   | **Учетный период** | Введите учетный период книги НДС. Доступные учетные периоды можно посмотреть в окне **Учетные периоды**. |
-   | **Дата Начала**    | Определяет дату начала учетного периода книги НДС.           |
-   | **Дата Окончания** | Определяет дату окончания учетного периода книги НДС.        |
+2. In the **VAT Ledger List** window, fill in the fields as described in the following table.
 
-3. Для добавления строк в книгу НДС выберите действие **Создать книгу**.
+   | Field                 | Description                                                  |
+   | :-------------------- | :----------------------------------------------------------- |
+   | **Type**              | Select the type of VAT ledger.                               |
+   | **Code**              | Enter the code of the number series that is used for the VAT ledger. You can view the available codes in the **No. Series** window. |
+   | **Description**       | Enter a description for the VAT ledger.                      |
+   | **Accounting Period** | Enter the accounting period of the VAT ledger. You can view the available accounting periods in the **Accounting Periods** window. |
+   | **Start Date**        | Specifies the start date of the accounting period of the VAT ledger. |
+   | **End Date**          | Specifies the end date of the accounting period of the VAT ledger. |
 
-4. В окне **Создание книги покупок** или **Создание книги продаж** заполните поля, затем выберите кнопку **ОК**.
+3. To add lines to the VAT ledger, choose the **Create** action.
 
-   Книга НДС теперь создана и доступна для использования.
+4. In the **Create VAT Purchase Ledger** or the **Create VAT Sales Ledger** window, fill in the fields, and then choose the **OK** button.
 
-5. Чтобы просмотреть книгу НДС выберите действие **Карточка**.
+   The VAT ledger is now created and available for use.
 
- 
+5. To view the VAT ledger, choose the **Card** action.
 
-Теперь, можно напечатать книгу НДС как книгу НДС или как дополнительный лист.
+Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 
- 
+## See Also
 
-## См. также
-
-[Книги НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat-ledgers.md)
-
-[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
-
-[Практическое руководство. Создание дополнительных листов](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-create-additional-sheets.md)
+[VAT Ledgers](VAT-Ledgers.md)  
+[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+[How to: Create Additional Sheets](How-to-Create-Additional-Sheets.md)  

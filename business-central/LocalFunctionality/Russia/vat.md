@@ -1,33 +1,42 @@
-# НДС
+---
+title: VAT in Russia
+description: Russian enhancements include support for VAT.
+author: DianaMalina
 
-НДС применяется к транзакциям по товарами и услугам, продаваемым в России или импортируемым в Россию.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# VAT
 
-## Расчёт НДС
+VAT is charged on transactions that involve goods and services in Russia or goods imported into Russia.
 
-Ставки НДС в России делятся на три уровня. Каждый из этих уровней можно применить к отдельным товарам или услугам, например: 
+## VAT Calculation
 
-- Самая высокая ставка НДС применяется к транзакциям с участием большинства типов товаров и услуг.
-- Средняя ставка НДС применяется к транзакциям с участием определенных групп продуктов питания, детских и медицинских товаров.
-- Самая низка ставка НДС представляет собой льготу для экспортируемых товаров. 
+VAT rates in Russia are tiered into three rate levels. Each of these levels can be applied to specific types of goods and services, for example: 
 
-В России есть несколько видов деятельности, освобожденных от уплаты НДС. Например, страховые, банковские и медицинские услуги не подлежат НДС. 
+- The highest VAT rate is applied to transactions that involve most types of goods and services.
+- The mid-level VAT rate is applied to transactions that involve a select group of food products, children’s products, and medical goods.
+- The lowest VAT rate is a tax incentive that is applied to exported goods. 
 
-Обязательства организации по уплате НДС рассчитываются как разница между НДС продаж и НДС покупок продаваемых товаров и услуг. НДС рассчитывается для транзакции в соответствии с правилами и ставками, действующими на день транзакции.
+There are several business activities that are exempt from VAT in Russia. For example, insurance, banking, and medical transactions are not subject to VAT. 
 
- 
+An organization’s VAT liability is calculated as the difference between the VAT due on sales and the VAT from the cost of the goods or services sold. VAT is calculated for a transaction according to the rates and rules that are in effect on the day of the transaction.
 
-## Уплата НДС 
+## VAT Payments 
 
-Для большинства организаций платежи по НДС необходимо проводить не позднее 20 числа месяца. Ответственность за своевременную уплату НДС лежит на налогоплательщике.
+For most organizations, VAT payments are required to be submitted no later than the 20th day of the month. The timely submission of VAT payments is the responsibility of the taxpayer.
 
- 
+## See Also
 
-## См. также 
-
-[Практическое руководство. Подача отчета об НДС в налоговые органы](https://docs.microsoft.com/ru-ru/dynamics365/business-central/finance-how-report-vat)
-
-[Практическое руководство. Настройка книг НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-set-up-vat-ledgers.md)
-
-[Практическое руководство. Подготовка операций НДС к учету](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/how-to-prepare-vat-entries-for-posting.md)
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+[How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+[Settlement VAT](Settlement-VAT.md)  
+[Unload books of purchased and sales in XML. VAT Declaration](Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md)  
+[VAT by customer prepayments](VAT-by-Customer-prepayments.md)  
+[VAT reinstatement](VAT-reinstatement.md)  
+[Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md)  

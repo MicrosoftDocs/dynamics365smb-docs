@@ -1,93 +1,103 @@
-# Практическое руководство. Создание дополнительных листов
+---
+title: Creating additional sheets in Russia
+description: Russian enhancements include additional sheets for VAT purchase ledgers and sales ledgers.
+author: DianaMalina
 
-В Business Central можно создавать дополнительные листы на основе книг НДС покупок и книг НДС продаж.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
+# How to: Create Additional Sheets
 
-### Создание операций для дополнительного листа книги НДС покупок или продаж
+In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
-1. Выберите строку НДС покупки или продажи в окне **НДС-книги покупок** или **НДС-книги продаж**  с требуемым учетным периодом.
-2. На вкладке **Действия** выберите **Функции**, а затем выберите **Создать дополнительный лист**.
+### To create entries for an additional sheet for a VAT purchase or sales ledger
 
-Параметры создания дополнительного листа книги НДС покупок и книги НДС продаж совпадают с параметрами создания формы "НДС Книга Покупок" и формы "НДС Книга Продаж".
+1. Select the VAT purchase or sales line in the **VAT Ledger List** window with the required accounting period.
 
-### Печать дополнительных листов отчета книги НДС 
+2. On the **Actions** tab, choose **Functions**, and then choose **Create Additional Sheet**.
 
-1. В **НДС-книги продаж** или **НДС-книги покупок** выберите **Печать**, а затем выберите **Дополнительный лист**.
+3. Fill in the batch job according to the guidelines at Create VAT Sales Led. Ad. Sh..
 
-2. В окне **НДС книги покупок (Дополнительный лист)** откройте вкладку **Параметры**.
+   The parameters for creating a VAT purchase ledger additional sheet and VAT sales ledger additional sheet are the same as the parameters for creating the VAT Purchase Ledger and the VAT Sales Ledger.
 
-3. В поле **Тип периода** выберите один из вариантов:
+### To print additional sheets on a VAT Ledger 
 
-   - **День**
-   - **Месяц**
-   - **Квартал**
-   
+1. In the **VAT Purch. Ledger** or **VAT Sales Ledger**, on the **Actions** tab, choose **Options** tab.
 
-   > :speech_balloon:  Примечание
+2. Choose **Additional sheet**.
+
+3. In the **Period Type** field, select one of the following options:
+
+   - **Day**
+   - **Month**
+   - **Quarter**
+
+   > :speech_balloon: Note
    >
-   > На вкладке **НДС Книга** автоматически создаются поля **Тип** и **Код**.
+   > In the **VAT Ledger** tab, the **Type** field and the **Code** field are automatically created.
 
-4. Выберите **Просмотр** или **Печать**.
+4. Choose **Preview** or choose **Print**.
 
-## Создание корректирующих документов для включения в дополнительные листы
+## Creating Corrective Documents to Include in Additional Sheets
 
-Изменения информации, указанной в счете-фактуре, который был зарегистрирован в предыдущей книге покупки, необходимо отразить в дополнительном листе предыдущей книги (исправленная книга). Этот дополнительный лист является частью книги покупок.
+The information changed in the tax invoice after the invoice is registered in the previous purchase book must be reflected in the additional sheet of the previous book (corrected book). The additional sheet is part of the purchase book.
 
-В первой строке содержатся итоговые значения книги покупок для конца периода, в котором был зарегистрирован этот счет-фактура. Следующие строки являются аннулированными счетами-фактурами. Аннулированные счета-фактуры имеют отрицательный знак, если исправленная сумма счета-фактуры меньше первоначальной суммы, и положительный знак, если исправленная сумма счета-фактуры больше первоначальной суммы. Последняя строка вычисляется как итоговая сумма первой итоговой строки и аннулированных счетов-фактур.
+The first line contains the totals of the purchase book at the end of the period when the tax invoice is registered. The next lines are the annulled tax invoices. The annulled tax invoices have a negative sign if the corrected invoice amount is lesser than the initial amount, and a positive sign if the corrected invoice amount is greater than the initial amount. The last line is calculated as the sum of the amounts of the first total line and the annulled tax invoices.
 
-Изменения информации, указанной в счете-фактуре, который был зарегистрирован в предыдущей книге продажи, необходимо отразить в дополнительном листе предыдущей книги (исправленная книга). Этот дополнительный лист является частью книги продаж.
+The information changed in the tax invoice after the invoice is registered in the previous sales book must be reflected in the additional sheet of the previous book (corrected book). The additional sheet is part of the sales book.
 
-В первой строке содержатся итоговые значения книги продаж для конца периода, в котором был зарегистрирован этот счет-фактура. Следующие строки являются аннулированными счетами-фактурами с отрицательными суммами. Исправленные счета с положительными суммами относятся к предыдущему периоду. Последняя строка вычисляется как итоговая сумма первой итоговой строки, аннулированных счетов-фактур и исправленных счетов.
+The first line contains totals of the sales book at the end of the period when the tax invoice is registered. The next lines are the annulled tax invoices with a negative sign. The corrected invoices with positive amounts belong to the previous period. The last line is calculated as the sum of the amounts of the first total line, annulled tax invoices, and the corrected invoices.
 
-Обработка корректирующих документов для книги продаж аналогична обработке корректирующих документов для книги покупок. Единственное различие заключается в том, что в дополнительных листах необходимо отражать номер и дату исходного счета-фактуры.
+Processing of corrective documents for sales book is similar to processing for purchases book with one difference. In additional sheets, the number and the date of initial factura must be reflected.
 
-#### Создание корректирующей операции для учтенных кредит-нот покупки
+#### To create a correction entry for posted purchase credit memos
 
-1. Создайте и учтите кредит-ноту покупки.
-2. Выберите вкладку **НДС**.
-3. Выберите поле **Дополнительный лист книги НДС**.
-4. Заполните следующие поля.
-   - **Дата Корректируемого Документа**
-   - **Счет-Фактура Дата Выставления**
-   - **Дата получения счета-фактуры поставщика**
-   - **Счет-Фактура Но.**
+1. Create and post a purchase credit memo.
+2. Choose the **VAT** tab.
+3. Select the **Additional VAT Ledger Sheet** field.
+4. Enter information in the following fields:
+   - **Corrected Document Date**
+   - **Vendor VAT Invoice Date**
+   - **Vendor VAT Invoice Rcvd Date**
+   - **Vendor VAT Invoice No.**
 
-#### Создание корректирующей операции для учтенного счета покупки
+#### To create a correction entry for a posted purchase invoice
 
-1. Создайте и учтите счет покупки.
+1. Create and post a purchase invoice.
 
-2. Выберите вкладку **НДС**.
+2. Choose the **VAT** tab.
 
-3. Выберите поле **Дата Корректируемого Документа**.
+3. Select the **Corrected Document Date** field.
 
-4. Заполните следующие поля.
+4. Enter information in the following fields:
 
-   - **Счет-Фактура Дата Выставления**
-   - **Дата получения счета-фактуры поставщика**
-   - **Счет-Фактура Но.**
-   
+   - **Vendor VAT Invoice Date**
+   - **Vendor VAT Invoice Rcvd. Date**
+   - **Vendor VAT Invoice No.**
 
-   > :speech_balloon:  Примечание
+   > :speech_balloon: Note
    >
-   > Также можно создать корректирующие документы в финансовом журнале. Строки финансового журнала содержат все перечисленные выше поля.
+   > You can also create corrective documents in the general journal. General journal lines contain all the fields mentioned above.
 
-#### Учет дополнительного НДС
+#### To post additional VAT
 
-1. В окне **Счет продажи** или **Кредит-нота** откройте вкладку **НДС**.
+1. In the **Sales Invoice** window or the **Credit Memo** window, choose the **VAT** tab.
 
-2. Заполните поле **Учетный Но.**. .
+2. Enter the **Posting No.** field.
 
-
-   > :speech_balloon: ​ Примечание
+   > :speech_balloon: Note
    >
-   > Нельзя учесть счет с тем же номером, что и у исходного счета. Необходимо добавить к исходному номеру еще один дополнительный символ.
+   > You cannot post an invoice with the same number as the initial invoice. You must use an extra symbol in addition to the initial number.
 
-3. Выберите поле **Дополнительный лист книги НДС**.
+3. Select the **Additional VAT Ledger Sheet** field.
 
-4. Заполните поле **Дата Корректируемого Документа**.
+4. Enter information in the **Corrected Document Date** field.
 
-5. В дополнительном листе поле **Дата Счета-Фактуры** отражает дату корректируемого документа.
+5. In the additional sheet, the **Date of Facture** field reflects the corrected document date.
 
-## См. также
+## See Also
 
-[Книги НДС](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/vat-ledgers.md)
-
+[VAT Ledgers](VAT-Ledgers.md)

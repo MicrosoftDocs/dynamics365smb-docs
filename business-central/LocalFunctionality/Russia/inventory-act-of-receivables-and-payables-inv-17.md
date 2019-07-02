@@ -1,114 +1,106 @@
-# Акт инвентаризации расчетов с клиентами и платежей ИНВ-17
+---
+title: Inventory act of receivables and payables INV-17 in Russia
+description: Russian enhancements include support for the INV-17 report and INV-17 supplement report.
+author: DianaMalina
 
-Функция "Акт инвентаризации расчетов с клиентами и платежей" позволяет выполнить инвентаризацию долгов и обязательств и напечатать отчеты в следующих форматах:
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-- ИНВ-17
-- Приложение к ИНВ-17
+# Inventory Act of Receivables And Payables INV-17
 
- 
+The inventory act of receivables and payables feature enables you to prepare an inventory of debts and liabilities, and print reports in the following formats: 
 
-## Настройка серии номеров для актов инвентаризации
+- INV-17
+- Supplement to INV-17
 
- Ниже приводится процедура настройки серии номеров для актов инвентаризации. 
+## Setting Up a Number Series for Inventory Acts
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Настройка ГК**, а затем выберите связанную ссылку.
-2. В окне **Настройка ГК** заполните поле **Серия ном. актов инв. расч. с контрагентами**.
+The following procedure shows how to set up a number series for inventory acts. 
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+2. In the **General Ledger Setup** window, fill in the **Contractor Invent. Act Nos.** field.
 
-## Обработка актов инвентаризации
+## Inventory Act Processing
 
-Можно создать и обработать акты инвентаризации счетов контрагентов. Также эти акты можно напечатать.
+You can create and process inventory acts of contractors' accounts. You can print inventory acts.
 
- 
+### Creating an Inventory Act Card
 
-### Создание карточки акта инвентаризации
+The following procedure shows how to create an inventory act card. 
 
-Ниже приводится процедура создания карточки акта инвентаризации. 
+1. Choose the **General Ledger** action, choose the **Analysis & Reporting** action, and then choose the **Contractor Invent. Act.** action.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Акты инвентаризации контрагентов**, а затем выберите связанную ссылку
+2. In the **Inventory Account Card** window, enter information in the following fields:
 
-2. В окне **Карточка акта инвентаризации** введите сведения в следующие поля:
+   | Field                    | Description                                                  |
+   | :----------------------- | :----------------------------------------------------------- |
+   | **No.**                  | This field displays the number of the act, and is filled in automatically from the number series. |
+   | **Act Date**             | This field displays the act date, and is filled in with the work date. |
+   | **Inventory Date**       | This field displays the date of inventory, and is filled with the work date. Debts and liabilities will be calculated on this date. |
+   | **Reason Document Type** | Select the type of reason document from the following:   -   **Order** -   **Resolution** -   **Regulation** |
 
-   | Поле                        | Описанием                                                    |
-   | :-------------------------- | :----------------------------------------------------------- |
-   | **Номер**                   | В этом поле отображается номер акта, и оно заполняется автоматически из серии номеров. |
-   | **Дата акта**               | В этом поле отображается дата акта, и оно заполняется рабочей датой. |
-   | **Дата инвентаризации**     | В этом поле отображается дата инвентаризации, и оно заполняется рабочей датой. Долги и обязательства будут рассчитываться на эту дату. |
-   | **Тип документа-основания** | Выберите тип основания документа из следующих:   -   **Заказ** -   **Постановление**; -   **Распоряжение**. |
+3. Choose the **Add Lines** action.
 
-3. Выберите действие **Добавить строки**.
+   > [!NOTE]
+   > You must not set filters.
 
-   > :speech_balloon: **Примечание**
-   >
-   > Нельзя задавать фильтры. 
+   Debts and liabilities for vendors and customers are calculated, and lines are created. For each customer and vendor, the total debt and the total liability amount (taking posting groups into account) on the inventory date are calculated, and shown in a separate line. The line fields are listed in the following table.
 
-Создаются долги и обязательства для поставщиков и клиентов, а также строки. Для каждого клиента и поставщика рассчитываются и отображаются в отдельной строке общая сумма долгов и обязательств на дату инвентаризации (учитывая группы учета). Поля строк описаны в следующей таблице.
+| Field                              | Description          |
+| ---------------------------------- | -------------------- |
+| **Contractor Type**                | This field displays the contractor type (Customer, Vendor).  |
+| **Contractor No.**                 | This field displays the number corresponding to the contractor. |
+| **Contractor Name**                | This field displays the name of the contractor.    |
+| **Posting Group, G/L Account No.** | This field displays the posting group and the receivables or payables account for which the debt or liability amount is calculated. |
+| **Category**                       | This field displays the amount category (Debts, Liabilities). |
+| **Total Amount**                   | This field displays the total amount of debts or liabilities. |
+| **Confirmed Amount**               | This field displays the total amount of debts or liabilities by default. |
 
-| Поле                               | Описанием                                                    |
-| :--------------------------------- | :----------------------------------------------------------- |
-| **Тип Контрагента**                | В этом поле отображается тип контрагента (клиент, поставщик). |
-| **Код Контрагента**                | В этом поле отображается номер, соответствующий контрагенту. |
-| **Название контрагента**           | В этом поле показано имя контрагента.                        |
-| **Учетная Группа, Номер счета ГК** | В данном поле отображается группа учета и фин. счет расчетов с клиентами или поставщиками, для которого рассчитывается сумма долгов или обязательств. |
-| **Категория**                      | В этом поле отображается сумма категории (долги, обязательства). |
-| **Общая сумма**                    | В этом поле отображается общая сумма долгов и обязательств.  |
-| **Подтвержденная сумма**           | В этом поле отображается общая сумма долгов и обязательств по умолчанию. |
+### Changing Separate Lines in an Inventory Act
 
- 
+The following procedure shows how to change individual lines in an inventory act in the **Inventory Account Card** window. 
 
-### Изменение отдельных строк акта инвентаризации
+1. Specify whether the amount (or part of the amount) is one of the following:
 
-Ниже приводится процедура изменения отдельных строк акта инвентаризации в окне **Карточка акта инвентаризации**
+    - Confirmed by contractor
+    - Not confirmed
+    - Overdue
 
-1. Укажите, один из следующих вариантов для суммы (или части суммы):
+2. If the amount is not confirmed, enter the amount that is not confirmed in the **Not Confirmed Amount** field.
 
-- Подтверждена контрагентом
-- Не подтверждена
-- Просрочено
+3. If the amount is overdue, enter the overdue amount in the **Overdue Amount** field.
 
-2. Если сумма не подтверждена, введите неподтвержденную сумму в поле **Неподтвержденная сумма**.
+4. To correct a line that has an incorrect amount (for instance, if some documents are not posted, or not applied), choose the **Add Lines** action.
 
-3. Если сумма просрочена, введите сумму в поле **С истекшим сроком исковой давности**.
+5. Select the vendor or customer code, and then choose the **OK** button. 
 
-4. Чтобы исправить строку с неправильной суммой (например, если некоторые документы не учтены или не применены), выберите действие **Добавить строки**.
+The debts and liabilities amount for the selected vendor or customer is recalculated and the lines are inserted in the document.
 
-5. Выберите код поставщика или клиента, затем выберите кнопку **ОК**. 
+## Printing the INV-17 form and the Supplement to INV-17 form
 
-Сумма долгов и обязательств для выбранного поставщика или клиента пересчитывается, и строки вставляются в документ.
+The following procedure shows how to print the INV-17 form and the Supplement to INV-17 form.
 
- 
+1. In the **Inventory Account Card** window, choose the **Release** action.
+2. Choose the **Act** action, and then choose the **Signatures** action.
+3. Select the following fields:
 
-## Печать формы ИНВ-17 и формы Приложение в ИНВ-17 
+    - **Chairman**
+    - **Member1**
+    - **Member2**
+    - **Member3**
+    - **Accountant**
 
-Ниже приводится процедура печати формы ИНВ-17 и формы Приложение к ИНВ-17. 
+    > [!NOTE]
+    > All selected signatures will be reflected in the appropriate fields.
 
-1. В окне **Карточка акта инвентаризации** выберите действие **Выпустить**.
-2. Выберите действие **Акт**, затем выберите действие **Подписи**.
-3. Выберите следующие поля: 
+4. Choose the **Print** action, and then choose the **Invent. Act INV-17** action to print the inventory act.
+5. Choose the **Print** action, and then choose the **Supplement to Invent. Act INV-17** action to print the supplement to the inventory act.
 
-- **Председатель**
+## See Also
 
-- **Член комиссии 1**
-
-- **Член комиссии 2**
-
-- **Член комиссии 3**
-
-- **Бухгалтер**
-
-  > :speech_balloon: **Примечание**
-  >
-  > Все выбранные подписи будут отображены в соответствующих полях.
-
-4. Выберите действие **Печать**, затем выберите действие **Акт инвентаризации ИНВ-17** для печати акта инвентаризации.
-
-5. Выберите действие **Печать**, затем выберите действие **Приложение к Акту инвентаризации ИНВ-17** для печати приложения к акту инвентаризации.
-
- 
-
-## См. также 
-
-[Отчеты по платежам (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-payables-reports.md)
-
-[Отчеты по расчетам с клиентами (Россия)](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/russian-receivables-reports.md)
+[Russian Payables Reports](Russian-Payables-Reports.md)  
+[Russian Receivables Reports](Russian-Receivables-Reports.md)  

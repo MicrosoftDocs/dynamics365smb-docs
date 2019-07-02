@@ -1,25 +1,31 @@
-# Практическое руководство. Печать счета-фактуры
+---
+title: Printing the Factura-Invoice document in Russia
+description: Russian enhancements include the Factura-Invoice document.
+author: DianaMalina
 
- Документ счета-фактуры необходимо печатать как часть таможенной декларации.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
- 
+# How to: Print the Factura-Invoice
 
-## Печать учтенного счета-фактуры 
+You must print the Factura-Invoice document as part of customs declaration.
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png), введите **Учтенный счет продажи**, а затем выберите связанную ссылку.
-2. Выберите действие **Печать**, а затем выберите действие **Учтенный счет-фактура**.
-3. Нажмите кнопку **Печать**, чтобы распечатать отчет, или кнопку **Просмотр**, чтобы отобразить его на экране. Нажмите кнопку **Отмена** для сохранения информации без печати отчета.
+## To print the posted factura-invoice
 
- 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Sales Invoice**, and then choose the related link.
+2. Choose the **Print** action, and then choose the **Posted Factura-Invoice** action.
+3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
-## Печать счета-фактуры заказа 
+## To print the order factura-invoice
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/Pre-RussiaLF_EN/business-central/LocalFunctionality/RussiaLF_EN/search-icon.png), введите **Заказ на продажу**, а затем выберите связанную ссылку.
-2. Выберите действие **Печать**, а затем выберите действие **Счет-фактура заказа**.
-3. Нажмите кнопку **Печать**, чтобы распечатать отчет, или кнопку **Просмотр**, чтобы отобразить его на экране. Нажмите кнопку **Отмена** для сохранения информации без печати отчета.
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Sales Order**, and then choose the related link.
+2. Choose the **Print** action, and then choose the **Order Factura-Invoice** action.
+3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. Choose the **Cancel** button to save the information without printing the report.
 
- 
+## See Also
 
-## См. также
-
-[Практическое руководство. Ввод сведений таможенных деклараций](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
+[How to: Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md)  

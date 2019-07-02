@@ -1,20 +1,26 @@
-# Регистры налоговых разниц
+---
+title: Tax difference registers in Russia
+description: Russian enhancements include tax difference registers.
+author: DianaMalina
 
-Вы можете просматривать учтенные транзакции налоговых разниц со всеми кодами доходов или расходов в регистрах налоговых разниц.
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 07/02/2019
+ms.reviewer: edupont
+---
 
-1. Выберите значок ![Поиск страницы или отчета](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/1.png), введите **Регистры налоговых разниц**, а затем выберите связанную ссылку.
-2. Наведите указатель мыши на нужный регистр, выберите действие **Регистр налоговых разниц**, а затем выберите действие **Книги операций** для просмотра транзакций, создавших налоговые разницы.
-3. В открывшейся форме выберите транзакцию, а затем выберите действие **Навигация** чтобы получить подробные сведения о создании данной транзакции.
+# Tax Difference Registers
 
- 
+You can view posted tax difference transactions with all the income or expense codes in the tax difference registers.
 
-## См. также 
+1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Tax Difference Registers**, and then choose the related link.
+2. Place the pointer on the necessary register, choose the **Register Tax Diff.** action, and then choose the **Ledger Entries** action to view transactions that have created tax differences.
+3. In the opened form, select a transaction, and then choose the **Navigate** action to get details about the creation of the transaction.
 
-[Налоговые разницы](https://github.com/DianaMalina/dynamics365smb-docs/edit/live/business-central/LocalFunctionality/Russia/tax-differences.md)
+## See Also
 
-[Настройка расчета налоговых разниц](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/setting-up-tax-difference-calculation.md)
-
-[Налоговый учет](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-accounting.md)
-
-[Налоговые регистры](https://github.com/DianaMalina/dynamics365smb-docs/blob/live/business-central/LocalFunctionality/Russia/tax-registers.md)
-
+[Tax Differences](Tax-Differences.md)  
+[Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
+[Tax Accounting](Tax-Accounting.md)  
+[Tax Registers](Tax-Registers.md)  

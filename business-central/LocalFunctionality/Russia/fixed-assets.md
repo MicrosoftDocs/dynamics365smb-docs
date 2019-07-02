@@ -28,7 +28,7 @@ Use the following table to learn more about the fixed asset features that are av
 | :-------------------------------------------------------- | :----------------------------------------------------------- |
 | [How to: Calculate Assessed Tax](How-to-Calculate-Assessed-Tax.md)                        | Enables you to calculate the assessed tax for fixed assets.  |
 | [Depreciation Bonus](Depreciation-Bonus.md)                                    | Enables you to include fixed asset and capital investment expenses in the current period. |
-| [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation)               | Enables you to understand and use depreciation methods that are unique to Russia. |
+| [How to: Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)               | Enables you to understand and use depreciation methods that are unique to Russia. |
 | [Fixed Asset Charges](Fixed-Asset-Charges.md)                                   | Enables you to include additional charges on the purchase of fixed assets in the fixed asset acquisition cost. |
 |[Gratuitous receipt of fixed assets](Gratuitous-receipt-of-fixed-assets.md)| Specifies how to post gratuitous receipt of fixed assets|
 | [Fixed Asset Inventory](Fixed-Asset-Inventory.md)                                 | Enables you to generate, process, filter, and print fixed asset inventory lists for auditing in compliance with legal requirements. |

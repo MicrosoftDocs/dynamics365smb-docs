@@ -1215,21 +1215,9 @@
 #### [Set Up KID Numbers on Sales Documents](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Set Up Document Printing](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-## [Russia](LocalFunctionality/Russia/russia-local-functionality.md)
-### [Account Schedules Overview](LocalFunctionality/Russia/account-schedules-overview.md)
-### [Bank and Cash Management](LocalFunctionality/Russia/bank-and-cash-management.md)
-### [Fixed Assets](LocalFunctionality/Russia/fixed-assets.md)
-### [General Ledger Correspondence](LocalFunctionality/Russia/general-ledger-correspondence.md)
-### [How to: Set Up Responsible Employees and Advance Statements](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
-### [Inventory](LocalFunctionality/Russia/Inventory.md)
-### [Payables and Receivables](LocalFunctionality/Russia/Payables-and-Receivables.md)
-### [Statutory Reports](LocalFunctionality/Russia/Statutory-Reports.md)
-### [Tax Accounting](LocalFunctionality/Russia/Tax-Accounting.md)
-### [VAT](LocalFunctionality/Russia/VAT.md)
-### [Сurrency](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
-### [Human Resources](LocalFunctionality/Russia/Human-Resources.md)
-
-### Finance
+## Russia
+### [Overview](LocalFunctionality/Russia/russia-local-functionality.md)
+### Core Finance
 #### [Account Schedules Overview](LocalFunctionality/Russia/account-schedules-overview.md)
 #### [How to: Import and Export Account Schedules](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
 #### [How to: Define an Account Schedule Extension](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
@@ -1294,8 +1282,6 @@
 #### [Forming and changing Staff List Order, Staff Arrangement](FLocalFunctionality/Russia/orming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 #### [Vacation planning](LocalFunctionality/Russia/Vacation-planning.md)
 
-## [Spain](LocalFunctionality/Spain/spain-local-functionality.md)
-### VAT & Tax
 ## Spain
 ### [Overview](LocalFunctionality/Spain/spain-local-functionality.md)
 ### VAT

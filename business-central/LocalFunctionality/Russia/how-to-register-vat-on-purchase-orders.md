@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Register VAT on Purchase Orders

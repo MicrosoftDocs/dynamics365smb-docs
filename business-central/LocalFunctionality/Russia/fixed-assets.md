@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Fixed Assets
@@ -30,7 +31,6 @@ Use the following table to learn more about the fixed asset features that are av
 | [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)                   | Enables you to manage the movement and history of fixed assets. |
 | [Fixed Asset Turnover](Fixed-Asset-Turnover.md)                                  | Enables you to manage the turnover of fixed assets.          |
 | [How to: Create Future Expense Journals](How-to-Create-Future-Expense-Journals.md)                | Enables you to post expenses to a special account that are later included as expenses. |
-| [How to: Allocate and Post Fixed Asset Charges]()         | Specifies how to allocate and post fixed asset charges.      |
 | [How to: Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)                   | Specifies how to create a new fixed asset charge.            |
 | [How to: Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md) | Specifies how to fix an error on a fixed asset charge of an invoice using a credit memo. |
 |[Sale of fixed assets](Sale-of-fixed-assets.md)|Specifies how to sale fixed asset|

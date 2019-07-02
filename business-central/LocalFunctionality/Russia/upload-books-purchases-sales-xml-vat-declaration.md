@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Upload Books of Purchases and Sales and the VAT Declaration in XML Format

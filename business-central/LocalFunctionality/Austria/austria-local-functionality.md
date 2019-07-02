@@ -20,7 +20,7 @@ The following topics describe local functionality that is unique to the Austrian
 
 ## Feature Availability
 
-* VAT & Tax
+* VAT
     * [Create a VAT Statement](how-to-create-a-vat-statement.md) **Available Now**
     * [VAT Reporting](vat-reporting.md) **Available Now**
 

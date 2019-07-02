@@ -1,1 +1,0 @@
-The Isabel features are available only for on-premises deployments.

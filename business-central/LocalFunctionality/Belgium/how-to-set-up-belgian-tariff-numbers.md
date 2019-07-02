@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Belgian Tariff Numbers
-    description: The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.
+    description: The Belgian customs and tax authorities have established an eight-digit item code for various tariff items.
 
     services: project-madeira 
     documentationcenter: ''
@@ -17,7 +17,7 @@
 
 ---
 # Set Up Belgian Tariff Numbers
-The Belgian customs and tax authorities have established an 8-digit item code for various tariff items.  
+The Belgian customs and tax authorities have established an eight-digit item code for various tariff items.  
 
 ### To set up tariff numbers  
 

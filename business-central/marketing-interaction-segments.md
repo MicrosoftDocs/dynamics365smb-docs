@@ -15,7 +15,7 @@ ms.date: 04/01/2019
 ms.author: jswymer
 
 ---
-# Managing Interactions for Segments
+# Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:
 
 * Create segments.

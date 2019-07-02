@@ -6,7 +6,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
 ---
 
@@ -16,13 +16,13 @@ This article answers common questions you might have about searching and filteri
 ## Is there a difference between searching and filtering?
 Yes.
 - Search is simple and broad: it matches records that contain the search text across any visible fields on the page, and is case insensitive.
-- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens and formulas. For more information on how to use these features, see [Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md).
+- Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens, and formulas. For more information on how to use these features, see [Sorting, Searching, and Filtering in Lists](ui-enter-criteria-filters.md).
 
 ## Is there a keyboard experience for search and filter?
 Search and filter have been highly optimized for users who prefer mouse-free interaction to work efficiently with their data. There are a variety of shortcut keys that can be used in sequence to work at high speed. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## Is the filter pane available on all lists?
-The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for embedded lists, such as sales lines on sales orders, or for lists with dynamic columns (often referred to as matrix pages).
+The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for lists that are displayed as parts, such as FactBoxes or Role Center parts. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).
 
 ## How can I save my filters?
 
@@ -38,7 +38,7 @@ See also [Is the filter pane available for filtering reports?](#is-the-filter-pa
 On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases.
 
 ## Is the filter pane available for filtering reports?
-No. The report filter dialog, commonly referred to as the request page, currently use a different experience that provides some, but not all, of the capabilities of the filter pane.
+No. The report filter dialog, commonly referred to as the request page, currently uses a different experience that provides some, but not all, of the capabilities of the filter pane.
 
 ## Will Microsoft extend the filter pane experience?
 At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors, more types of lists and reports, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
@@ -52,4 +52,4 @@ As an on-premises administrator, you increase the time-limit on searches by chan
 ## See also
 
 [Getting Started](product-get-started.md)  
-[Sorting, Searching and Filtering in Lists](ui-enter-criteria-filters.md)  
+[Sorting, Searching, and Filtering in Lists](ui-enter-criteria-filters.md)  

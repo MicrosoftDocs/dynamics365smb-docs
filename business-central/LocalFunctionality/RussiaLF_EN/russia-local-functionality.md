@@ -1,7 +1,7 @@
 ---
 title: Russia Local Functionality
 description: The following topics describe the local functionality in the Russian version of Business Central.
-author: AliiaSalikhova
+author: AliiaSalikhova, DianaMalina
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -31,9 +31,12 @@ Use the following table to learn more about local functionality that is availabl
 | [Statutory Reports](Statutory-Reports.md)                                        | Enables you to import and export data for electronic tax reporting and other documents required by law. |
 | [Tax Accounting](Tax-Accounting.md)                                           | Enables you to follow tax accounting principles by setting up tax registers and calculating tax differences. |
 | [VAT](VAT.md)                                                      | Enables you to set up, calculate, and pay VAT amounts based on Russian VAT rates and regulations. |
+| [Сurrency](Currency-information-Import-currency-rates.md)| Enables you to import and adjust exchange rates.|
+|[Human Resources](Human-Resources.md)|Enables you to calculate wages, to register absence, to form a staff list.|
 
 ## See Also
 
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
+[Special codes for Company information, Customers, Vendors](Special-codes-for-Company-information-Customers-Vendors.md)

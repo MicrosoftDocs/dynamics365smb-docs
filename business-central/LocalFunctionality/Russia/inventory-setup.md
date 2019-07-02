@@ -19,7 +19,7 @@ As part of inventory management, you can set up inventory to:
 
 ## Item Charge Assignment in Purchase Documents
 
-In Russia, [!INCLUDE[prodshort](../../includes/prodshort.md)] can assign item charges on purchases from foreign countries/regions based on weight or volume. For each item, in the **Item Card** window, on the **Foreign Trade** FastTab, if the **Gross Weight Mandatory** and **Unit Volume Mandatory** check boxes are selected, you must fill in the **Gross Weight** and **Unit Volume** fields. When you suggest an item charge assignment on a purchase order, you must specify that the distribution principle, weight, and volume are added to the options to choose from. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges).
+In Russia, [!INCLUDE[prodshort](../../includes/prodshort.md)] can assign item charges on purchases from foreign countries/regions based on weight or volume. For each item, in the **Item Card** window, on the **Foreign Trade** FastTab, if the **Gross Weight Mandatory** and **Unit Volume Mandatory** check boxes are selected, you must fill in the **Gross Weight** and **Unit Volume** fields. When you suggest an item charge assignment on a purchase order, you must specify that the distribution principle, weight, and volume are added to the options to choose from. For more information, see [How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges.md).
 
 ## Item Corrections
 
@@ -43,4 +43,4 @@ If you select the Enable Red Storno field in the **Inventory Setup** window, the
 [Item Documents](Item-Documents.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
 [How to: Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md)  
-[How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges)  
+[How to: Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges.md)  

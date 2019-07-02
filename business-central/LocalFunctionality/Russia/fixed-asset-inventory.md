@@ -31,7 +31,7 @@ You can create special templates in the **Fixed Asset Journal** window.
 
 The following procedure shows how to generate a list of fixed assets that are to be inventoried. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.
 
 2. Choose the **Calculate FA** action. The request form of a report that makes fixed asset inventory lists is displayed.
 

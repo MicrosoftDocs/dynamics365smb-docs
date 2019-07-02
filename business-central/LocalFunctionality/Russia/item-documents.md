@@ -24,7 +24,7 @@ The following types of documents are useful for managing your warehouse:
 
 The following procedure shows how to set up warehouse document numbering.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
    - **Item Receipt Nos**
    - **Posted Item receipt Nos**
@@ -35,7 +35,7 @@ The following procedure shows how to set up warehouse document numbering.
 
 The following procedure shows how to create an item receipt act without a vendor.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Receipts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Receipts**, and then choose the related link.
 
 2. In the header of the **Item Receipt** window, enter the fields described in the following table.
 
@@ -92,7 +92,7 @@ The following functions are available in the **Item Receipt** window.
 
 The following procedure shows how to analyze a posted document item receipt without a vendor.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Item Receipts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Item Receipts**, and then choose the related link.
 
    > :speech_balloon: Note
    > The posted item receipt displays all the information from the item receipt.
@@ -105,7 +105,7 @@ The following procedure shows how to analyze a posted document item receipt with
 
 The following procedure shows how to create an item writing-off act.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Shipments**, and then choose the related link.
 
 2. On the header of the **Item Shipment** window, enter the fields. These fields are the same as those on the **Item Receipt** window.
 
@@ -137,7 +137,7 @@ The functions available in the **Item Shipment** window are same as those in the
 
 The following procedure shows how to analyze a posted document item writing-off act.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Item Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Item Shipments**, and then choose the related link.
 
   > [!NOTE]
   > The posted item shipment displays all the information from the item shipment.
@@ -150,7 +150,7 @@ The following procedure shows how to analyze a posted document item writing-off 
 
 The following procedure shows how to create a Transfer Order TORG-13 report based on transfer documents that are not posted.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Transfer Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Orders**, and then choose the related link.
 
    Choose the **Print** action.
 
@@ -158,14 +158,14 @@ The following procedure shows how to create a Transfer Order TORG-13 report base
 
 The following procedure shows how to create a report based on a posted transfer document called a transfer receipt.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Transfer Receipt**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Transfer Receipt**, and then choose the related link.
 2. Choose the **Print** action.
 
 ## Report Transfer Order TORG-13 Based on a Posted Transfer Document - Transfer Shipment
 
 The following procedure shows how to create a report based on a posted transfer document called a transfer shipment.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Transfer Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Transfer Shipments**, and then choose the related link.
 
    Choose the **Print** action.
 

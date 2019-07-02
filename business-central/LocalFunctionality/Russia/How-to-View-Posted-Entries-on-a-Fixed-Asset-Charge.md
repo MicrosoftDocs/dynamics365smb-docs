@@ -16,7 +16,7 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 
 ## To view a posted entry on a fixed asset charge
 
-- Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Ledger Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.
 
 ## See Also
 

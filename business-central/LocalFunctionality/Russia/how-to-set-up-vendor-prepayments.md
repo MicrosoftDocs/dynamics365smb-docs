@@ -16,7 +16,7 @@ Prepayments are advance payments on purchase orders that are paid before the fin
 
 ## To set up vendor prepayments
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchases & Payables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.
 
 2. On the **Numbering** FastTab, verify that the number series for the **Posted Prepmt. Inv. Nos.** is the same as the **Posted Invoice Nos.**. Also verify that the number series for **Posted Prepmt. Cr. Memo Nos.** is the same as the **Posted Credit Memo Nos.**.
 
@@ -43,5 +43,5 @@ You can now track and record advance payments on purchase invoices.
 
 ## See Also
 
-[Invoicing Prepayments](../../finance-invoice-prepayments)  
-[Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments)  
+[Invoicing Prepayments](../../finance-invoice-prepayments.md)  
+[Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

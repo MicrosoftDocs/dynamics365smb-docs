@@ -1224,7 +1224,7 @@
 #### [How to: Define an Account Schedule Constant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
 #### [How to: Work with Account Schedules](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 #### [General Ledger Correspondence](LocalFunctionality/Russia/general-ledger-correspondence.md)
-#### [Сurrency](CLocalFunctionality/Russia/urrency-information-Import-currency-rates.md)
+#### [Сurrency](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 #### [How to: Set Up Responsible Employees and Advance Statements](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
 #### [Payables and Receivables](LocalFunctionality/Russia/Payables-and-Receivables.md)
 ### Fixed assets
@@ -1235,7 +1235,7 @@
 #### [Gratuitous receipt of fixed assets](LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md)
 #### [Fixed Asset Inventory](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
 #### [Fixed Asset Locations and Employees](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
-#### [Fixed Asset Turnover](Fixed-Asset-Turnover.md)
+#### [Fixed Asset Turnover](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
 #### [How to: Create Future Expense Journals](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
 #### [How to: Create a Fixed Asset Charge](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md)
 #### [How to: Create a Credit Memo for a Fixed Asset Charge](LocalFunctionality/Russia/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
@@ -1246,16 +1246,16 @@
 #### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
 #### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### VAT
-#### [VAT](VAT.md)
+#### [Overview](LocalFunctionality/Russia/VAT.md)
 #### [How to: Set Up VAT Ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 #### [How to: Prepare VAT Entries for Posting](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
 #### [Settlement VAT](LocalFunctionality/Russia/Settlement-VAT.md)  
-#### [Unload books of purchased and sales in XML. VAT Declaration](LocalFunctionality/Russia/Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md)  
+#### [Upload Books of Purchases and Sales and the VAT Declaration in XML Format](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
 #### [VAT by customer prepayments](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 #### [VAT reinstatement](LocalFunctionality/Russia/VAT-reinstatement.md)  
 #### [Vendor Tax Agent scheme](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
-### Tax
-#### [Tax Accounting](LocalFunctionality/Russia/Tax-Accounting.md)
+### Tax Accounting
+#### [Overview](LocalFunctionality/Russia/Tax-Accounting.md)
 #### [How to: Set Up Tax Accounting](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
 #### [Tax Registers](LocalFunctionality/Russia/Tax-Registers.md)  
 #### [How to: Create Tax Registers](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
@@ -1279,7 +1279,7 @@
 #### [Establishment of charges and deductions to the employee](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
 #### [Absence registration](LocalFunctionality/Russia/Absence-registration.md)
 #### [Dismissal](LocalFunctionality/Russia/Dismissal.md)
-#### [Forming and changing Staff List Order, Staff Arrangement](FLocalFunctionality/Russia/orming-and-changing-Staff-List-Order-Staff-Arrangement.md)
+#### [Forming and changing Staff List Order, Staff Arrangement](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 #### [Vacation planning](LocalFunctionality/Russia/Vacation-planning.md)
 
 ## Spain

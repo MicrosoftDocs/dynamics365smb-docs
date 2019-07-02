@@ -22,7 +22,7 @@ The following procedure shows how to set up an agreement for a customer, but the
 
 ## To set up an agreement
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
 2. To set up agreement, on the **Dimensions** FastTab and **Numbering** FastTabs, enter information in the fields listed in the following table.
 
@@ -34,7 +34,7 @@ The following procedure shows how to set up an agreement for a customer, but the
 
 ## To create a customer or vendor agreement 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 
 2. Select a customer from the list, and then choose the **Edit** action.
 

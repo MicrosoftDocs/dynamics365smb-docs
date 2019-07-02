@@ -1,5 +1,5 @@
 ---
-title: Unload books of purchases and sales in Russia
+title: Upload books of purchases and sales in Russia
 description: Russian enhancements include books of purchases and sales VAT in XML format.
 author: DianaMalina
 

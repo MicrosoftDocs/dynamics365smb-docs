@@ -16,7 +16,7 @@ Use the following procedure to enter custom declaration information.
 
 ## To enter custom declarations information
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Custom Declarations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Custom Declarations**, and then choose the related link.
 
 2. In the **Custom Declaration** window, fill in the fields.
 

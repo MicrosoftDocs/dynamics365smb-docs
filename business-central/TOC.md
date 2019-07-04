@@ -1,4 +1,4 @@
-# [Welcome to Business Central](index.md)
+﻿# [Welcome to Business Central](index.md)
 # Getting Started
 ## [Overview](product-get-started.md)
 ## [What's New](product-news.md)

@@ -1,6 +1,6 @@
 ---
 title: Russia Local Functionality
-description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md) **Available Now**].
+description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].
 author: AliiaSalikhova
 
 ms.service: dynamics365-business-central

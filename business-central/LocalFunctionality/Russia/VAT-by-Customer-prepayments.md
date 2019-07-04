@@ -8,9 +8,10 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
-# VAT by Customer prepayments
+# VAT by Customer Prepayment
 
 When a company receives a prepayment from a Customer, you must create a VAT invoice and a VAT record for the amount of VAT. 
 

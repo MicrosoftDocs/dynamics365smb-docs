@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Work with Account Schedules
@@ -16,7 +17,7 @@ Use account schedules to get insight into the financial data stored in your char
 
 [!INCLUDE[prodshort](../../includes/prodshort.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.
 
-Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [How to: Create Budgets](../../finance-how-create-budgets).
+Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [How to: Create Budgets](../../finance-how-create-budgets.md).
 
 ## Account Categories and Account Schedules
 
@@ -26,7 +27,7 @@ You can use account categories to change the layout of your financial statements
 
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 
 2. In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.
 
@@ -49,7 +50,7 @@ You use account schedules to analyze figures in general ledger accounts or to co
 
 Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. In the **Account Schedule Names** window, select an account schedule.
 3. Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.
 4. Insert a line immediately above the first row for which you want to display a percentage.
@@ -62,7 +63,7 @@ Sometimes you may want to include a column in an account schedule to calculate p
 
 You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 
 2. In the **Account Schedule Names** window, select an account schedule.
 

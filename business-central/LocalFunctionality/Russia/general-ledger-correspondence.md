@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 # General Ledger Correspondence
 
@@ -27,7 +28,7 @@ The following procedure shows how to periodically create general ledger correspo
 
  
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Create G/L Correspondence**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create G/L Correspondence**, and then choose the related link.
 2. Enter the **Transaction No.** field with the transaction number if general ledger correspondence is to be created only for the selected transaction. Otherwise, leave it blank.
 
  
@@ -36,7 +37,7 @@ To set up automatic general ledger correspondence
 
  
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
 2. Select the **Automatic G/L Correspondence** check box.
 
  
@@ -64,7 +65,7 @@ The **General Ledger - Correspondence** window shows turnovers in the chosen per
 
  
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Correspondence**, and then choose the related link.
 2. Choose the **General Ledger - Correspondence** action.
 
  
@@ -94,7 +95,7 @@ The **G/L Corresp Entries Analysis** report shows the correspondence entries for
 
  
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Correspondence**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Correspondence**, and then choose the related link.
 2. Choose the **G/L Corresp Entries Analysis** action.
 
  

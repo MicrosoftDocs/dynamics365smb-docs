@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Set Up VAT Ledgers
@@ -22,7 +23,7 @@ To use VAT ledgers, you must specify the relevant number series.
 
 ## To set up VAT ledgers
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
 
 2. In the **General Ledger Setup** window, on the **Numbering** FastTab, fill in the fields as described in the following table.
 
@@ -33,13 +34,13 @@ To use VAT ledgers, you must specify the relevant number series.
 
    You must ensure that vendor purchase documents cannot be posted without stating the invoice date and number.
 
-3. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Vendor Posting Groups**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Posting Groups**, and then choose the related link.
 
 4. In the **Vendor Posting Groups** window, for the relevant posting groups, select the **VAT Invoice Mandatory** field.
 
    Next, you must set up VAT posting. For each VAT posting setup you must specify if entries that use the setup must be included in VAT ledgers.
 
-5. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Posting Setup**, and then choose the related link.
+5. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
 
 6. In the **VAT Posting Setup** window, for each VAT posting setup, fill in the fields as described in the following table.
 
@@ -52,7 +53,7 @@ Now, you can create VAT ledgers for purchases and sales.
 
 ## See Also
 
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [How to: Register VAT on Purchase Orders](How-to-Register-VAT-on-Purchase-Orders.md)  
 [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [How to: Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  

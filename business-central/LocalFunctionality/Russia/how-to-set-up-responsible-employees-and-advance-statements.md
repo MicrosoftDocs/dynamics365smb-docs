@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Set Up Responsible Employees and Advance Statements
@@ -30,13 +31,13 @@ The following procedure shows how to access the **Resp. Employee Card** window.
 
 ### To create a Responsible Employee card
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Resp. Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resp. Employees**, and then choose the related link.
 2. Create a new card.
 3. Choose the **OK** button.
 
 ### To create a Responsible Employee Card from an Employee card
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Employees**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 
 2. Choose the **Create Resp. Employee** action.
 
@@ -92,7 +93,7 @@ The following expense lines are registered according to the value selected in th
 
 ### To access the Advance Statement
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Advance Statements**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Advance Statements**, and then choose the related link.
 
    The **Advance Statement** window contains the following information in the **General** FastTab, in the header, entered manually or filled in from the corresponding glossary and settings.
 
@@ -136,7 +137,7 @@ The following procedure shows how to print an unposted advance statement.
 
 ### To print an unposted Advance Statement
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Advance Statements**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Advance Statements**, and then choose the related link.
 
 2. In the **Advance Statement** window, choose the **Print** action.
 
@@ -166,7 +167,7 @@ To following procedure demonstrates how to access the posted **Advance Statement
 
 ### To view the posted advance statement
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Advance Statement**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Advance Statement**, and then choose the related link.
 
 A posted **Advance Statement** reflects all the information entered in the document in the Advance statement.
 
@@ -176,7 +177,7 @@ The following procedure shows how to print the posted **Advance Statement**.
 
 ### To print a posted advance statement
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Posted Advance Statements** and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Advance Statements** and then choose the related link.
 
 2. Choose the **Print** action. The **Posted Advance Statement** dialog box opens.
 
@@ -201,4 +202,4 @@ The following procedure shows how to print the posted **Advance Statement**.
 
 ## See Also
 
-[Human Resources](../../hr-manage-human-resources)  
+[Human Resources](../../hr-manage-human-resources.md)  

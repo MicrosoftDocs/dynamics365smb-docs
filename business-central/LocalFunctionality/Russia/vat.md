@@ -8,9 +8,10 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
-# VAT
+# VAT Overview in the Russian Version
 
 VAT is charged on transactions that involve goods and services in Russia or goods imported into Russia.
 
@@ -26,17 +27,17 @@ There are several business activities that are exempt from VAT in Russia. For ex
 
 An organization’s VAT liability is calculated as the difference between the VAT due on sales and the VAT from the cost of the goods or services sold. VAT is calculated for a transaction according to the rates and rules that are in effect on the day of the transaction.
 
-## VAT Payments 
+## VAT Payments
 
 For most organizations, VAT payments are required to be submitted no later than the 20th day of the month. The timely submission of VAT payments is the responsibility of the taxpayer.
 
 ## See Also
 
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [Settlement VAT](Settlement-VAT.md)  
-[Unload books of purchased and sales in XML. VAT Declaration](Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md)  
+[Unload books of purchased and sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md)  
 [VAT by customer prepayments](VAT-by-Customer-prepayments.md)  
 [VAT reinstatement](VAT-reinstatement.md)  
 [Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md)  

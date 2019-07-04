@@ -1,7 +1,7 @@
 ---
 title: Russia Local Functionality
-description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md) **Available Now**].
-author: AliiaSalikhova, DianaMalina
+description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].
+author: AliiaSalikhova
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -52,7 +52,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md) **Available Now**  
     * [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md) **Available Now**  
     * [Settlement VAT](Settlement-VAT.md) **Available Now**  
-    * [Unload books of purchased and sales in XML. VAT Declaration](Unload-books-of-purchases-and-sales-in-XML-VAT-Declaration.md) **Available Now**  
+    * [Unload books of purchased and sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md) **Available Now**  
     * [VAT by customer prepayments](VAT-by-Customer-prepayments.md) **Available Now**  
     * [VAT reinstatement](VAT-reinstatement.md) **Available Now**  
     * [Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
@@ -91,4 +91,4 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
-[Special codes for Company information, Customers, Vendors](Special-codes-for-Company-information-Customers-Vendors.md)  
+[Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  

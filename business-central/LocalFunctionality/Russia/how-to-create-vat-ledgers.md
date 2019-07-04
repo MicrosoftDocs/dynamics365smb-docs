@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Create VAT Ledgers
@@ -20,7 +21,7 @@ You can create and store any number of VAT ledgers. For example, you can create 
 
 ## To create a VAT ledger
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Ledger List**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Ledger List**, and then choose the related link.
 
 2. In the **VAT Ledger List** window, fill in the fields as described in the following table.
 

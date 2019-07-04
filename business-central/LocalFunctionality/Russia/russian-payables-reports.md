@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Russian Payables Reports
@@ -90,7 +91,7 @@ The **Vendor Turnover** report is used to print the data about a vendor's entrie
 
 To access the Vendor Turnover report
 
-Choose the ![Search for Page or Report](search-icon.png) icon, enter **Vendor Turnover**, and then choose the related link.
+Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Turnover**, and then choose the related link.
 
 The **Vendor** FastTab of the request page contains the same fields as the **Vendor** FastTab of the **Vendor General Ledger Turnover** report. On the **Options** FastTab, you can specify the same format options as on the **Options** FastTab of the **Vendor General Ledger** report.
 

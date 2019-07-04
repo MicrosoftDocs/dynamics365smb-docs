@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Fixed Asset Locations and Employees
@@ -24,7 +25,7 @@ The fixed assets locations and the fixed assets employees feature enable you to:
 
 The following procedure shows how to make sure the **FA Location Code** and **Employee No.** fields are always filled in for fixed assets. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Setup*, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setup*, and then choose the related link.
 2. On the **General** FastTab, select the **FA Location Mandatory** check box.
 
  

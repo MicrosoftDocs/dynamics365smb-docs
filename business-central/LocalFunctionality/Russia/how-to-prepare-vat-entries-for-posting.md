@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Prepare VAT Entries for Posting
@@ -16,7 +17,7 @@ You may want to periodically remit the net VAT from sales and purchase transacti
 
 ## To prepare VAT entries for posting
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Settlement Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Settlement Worksheet**, and then choose the related link.
 
 2. Select the filters that define the VAT related transactions that you want to include in the VAT settlement.
 
@@ -36,4 +37,4 @@ The entries are copied to the appropriate VAT settlement journals. You can now r
 
 ## See Also
 
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

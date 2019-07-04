@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Register VAT on Purchase Orders
@@ -16,7 +17,7 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 ## To register VAT on a purchase order
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
 
 2. On the **Shipping** FastTab, fill in the fields as described in the following table.
 
@@ -39,4 +40,4 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 [How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat)  
+[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

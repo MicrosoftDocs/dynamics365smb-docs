@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Set Up Norm Jurisdictions
@@ -16,7 +17,7 @@ Norm jurisdictions are based on Russian tax laws that define a variety of tax ra
 
 ## To set up norm jurisdictions
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Norm Jurisdictions**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Norm Jurisdictions**, and then choose the related link.
 
 2. Enter an identifying **Code** and **Description** for the norm jurisdiction that you want to set up.
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Create Cash Account Cards
@@ -16,7 +17,7 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 ## To create a cash account card
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Cash Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Accounts**, and then choose the related link.
 
 2. In the **Cash Account Card** window, fill in the fields on the **Posting** FastTab as described in the following table.
 

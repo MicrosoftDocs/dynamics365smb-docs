@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Import and Export Account Schedules
@@ -16,7 +17,7 @@ You can import and export account schedules into other companies and databases.
 
 ## To import and export account schedules
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter ** **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter ** **Account Schedules**, and then choose the related link.
 2. Choose the **Import Settings** or the **Export Settings** action. An extensible markup language (XML) file will be created for the import or export.
 
 > [!NOTE]

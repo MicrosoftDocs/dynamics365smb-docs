@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # How to: Create Future Expense Journals
@@ -18,15 +19,15 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 
 ## To create future expense journals
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **VAT Posting Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
 
-   Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat).
+   Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
 2. On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.
 
 3. Select a batch in the **VAT Settlement Batch** field. This determines the batch where future expenses and VAT will be produced.
 
-4. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Purchase Invoices**, and then choose the related link.
+4. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 
 5. Create a purchase invoice for the Deferral general ledger account (97).
 
@@ -34,7 +35,7 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 
    VAT is not deducted at this time. It is deducted later, on a monthly basis through the Future Expense Journal.
 
-7. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Future Expense Journals**, and then choose the related link.
+7. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Future Expense Journals**, and then choose the related link.
 
 8. In the **Future Expense Journal** window, fill in the fields as described in the following table.
 

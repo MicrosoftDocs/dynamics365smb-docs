@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Inventory Act of Receivables And Payables INV-17
@@ -21,7 +22,7 @@ The inventory act of receivables and payables feature enables you to prepare an 
 
 The following procedure shows how to set up a number series for inventory acts. 
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
 2. In the **General Ledger Setup** window, fill in the **Contractor Invent. Act Nos.** field.
 
 ## Inventory Act Processing

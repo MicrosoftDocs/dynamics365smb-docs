@@ -8,6 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 07/02/2019
 ms.reviewer: edupont
+ms.author: soalex
 ---
 
 # Item General Ledger Turnover
@@ -28,7 +29,7 @@ The **Item General Ledger Turnover** window is usually created monthly, and can 
 
 To access the **Item General Ledger Turnover** window
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item G/L Turnover**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item G/L Turnover**, and then choose the related link.
 2. On the **Options** FastTab, you can specify the format options listed in the following table.
 
 | Field                         | Description                                                  |
@@ -69,7 +70,7 @@ To analyze net changes and balances of items and materials, you can print the It
 
 The following procedure shows how to access the turnover sheet.
 
-1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **Item General Ledger Turnover**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item General Ledger Turnover**, and then choose the related link.
 2. Choose the **Print** action, and then choose the **Turnover Sheet** action.
 
 The turnover sheet is printed monthly and on the date of inventory, but it can be printed for any given period.

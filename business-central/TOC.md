@@ -183,7 +183,6 @@
 
 ## Setting Up a Company With RapidStart Services
 ### [Overview](admin-set-up-a-company-with-rapidstart.md)
-### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 ### Setting Up Company Configuration
 #### [Overview](admin-set-up-company-configuration.md)
 #### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)

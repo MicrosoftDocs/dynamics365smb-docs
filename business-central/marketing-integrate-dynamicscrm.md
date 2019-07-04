@@ -70,6 +70,8 @@ If the description of the item on the original sales order is long, an additiona
 
 Updates to sales order header fields, such as Last Shipment Date or Requested Delivery Date, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## Handling Sales Quotes Data
 Sales quotes that are activated in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Process Quotes** check box on the **Microsoft Dynamics 365 Connection Setup** page.
 Alternatively, you can manually convert activated sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Process in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action on the **Sales Quotes - Dynamics 365 for Sales** page.

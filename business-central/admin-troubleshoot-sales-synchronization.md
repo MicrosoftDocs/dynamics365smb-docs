@@ -20,6 +20,8 @@ There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includ
 
 Errors often occur either because of something that a user has done to coupled records or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting a record in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+
 Errors that are related to how the integration is set up typically require an administrator's attention. You can view these errors on the **Integration Synchronization Errors** page. Examples of some typical issues include:  
   
 * The permissions and roles assigned to users are not correct.  

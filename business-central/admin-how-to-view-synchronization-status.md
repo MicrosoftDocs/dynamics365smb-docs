@@ -23,7 +23,9 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 > [!Note]
 > The **Coupled Data Synchronization Errors** page shows information about jobs related to coupled records. If you resolve all of the errors but records are still not synchronizing, it might have something to do with a setting for the integration. Typically, your administrator will need to resolve those types of errors.   
 
-### To view and resolve synchronization errors for coupled records
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+## To view and resolve synchronization errors for coupled records
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Coupled Data Synchronization Errors**, and then choose the related link.
 2. The **Coupled Data Synchronization Errors** page shows issues that occurred when you synchronized coupled records. The following table includes actions that you can use to resolve issues one by one:
 
@@ -34,7 +36,7 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 |**Synchronize**|The app will try to resolve a conflict where a record was changed in both business apps. You can choose the version of the record to use in both apps.|
 |**Restore Records** and **Delete Records**|These are useful when a record was deleted in one of the apps. Delete Records deletes the record in the app where it still exists. Restore recreates the record in the app where it was deleted.|
 
-### To view the synchronization log for a specific (manually synchronized) record
+## To view the synchronization log for a specific (manually synchronized) record
 1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
 

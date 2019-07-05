@@ -26,7 +26,7 @@ There are plenty of benefits of using [!INCLUDE[d365fin](includes/d365fin_md.md)
 * Enhance business value and increase deal size with existing and new customers
 * Achieve more with a platform that delivers a modern experience and offers scale  
 * Get actionable insights on the performance of your listings via the Cloud Partner Portal or the Office app publishing process
-* Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Azure AI, and many more  
+* Bundle with intelligent business apps such as PowerApps, Flow, Power BI, Cortana Intelligence, and many more  
 
 Bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] services to Microsoft AppSource as:
 

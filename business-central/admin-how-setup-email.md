@@ -29,6 +29,15 @@ You can either set email up manually or you can get help by using the **Email Se
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the page.
 
+## Sending Email Messages from a Send As Email Address
+You can let one or more users send email messages from an email address that you own, but is different than their normal address. For example, if you are running a sales campaign, you might want people to send messages from the same address, such as sales@yourcompanyname.com. To set that up, you must specify the address to send as in two places:
+
+* In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **SMTP Email Setup** page, specify the address in the **Send As** field.   
+* In the **Exchange admin center** for your Office 365 account, specify the address in the **Send As** field for each user that can send messages from the address. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+ > [!Note] 
+ > After you specify the account to send messages as, the address will display for each user in the Office 365 admin center, but that is only for informational purposes. You can only change or remove the account in the Exchange admin center.
+
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

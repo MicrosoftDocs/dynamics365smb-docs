@@ -54,7 +54,7 @@ In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not avail
 
 ## Using Other Email Accounts
 
-The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[d365fin](includes/d365fin_md.md)]?](across-faq.md#what-email-address-can-i-use-with-included365finincludesd365fin_mdmd) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## See Also
 

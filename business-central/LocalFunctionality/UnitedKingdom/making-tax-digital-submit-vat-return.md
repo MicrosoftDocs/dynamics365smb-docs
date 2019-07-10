@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 06/28/2019
+ms.date: 07/10/2019
 ms.author: soalex
 
 ---
@@ -76,7 +76,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 * Remind you about VAT returns that are due or overdue.
 * Automatically enter start and end dates when you create VAT returns.
 
-### To retrieve the VAT return periods from the HMRC:
+### To retrieve the VAT return periods from HMRC:
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
@@ -84,7 +84,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 The VAT obligations are now retrieved from HMRC and you can view them on the **VAT Return Periods** page. A confirmation page shows how many obligations were retrieved.
 
   > [!NOTE]  
-    >  Do not create VAT Return Periods manually when submitting VAT Returns to HMRC. VAT Return Periods must be retrieved from HMRC using the steps above. Creating them manually will result in inability to submit VAT Returns.  
+  >  Do not create VAT return periods manually when submitting VAT Returns to HMRC. VAT return periods must be retrieved from HMRC using the steps above. Creating them manually will result in inability to submit VAT Returns.  
 
 
 ## VAT Returns
@@ -134,8 +134,8 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] please check your firewall settings that may be blocking the communication to and from HMRC.
 
 ## Testing the integration to HMRC in a Sandbox
- > [!NOTE]  
-    >  Due to a limitation at HMRC it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT Returns. In other online documentation at HMRC the term **Sandbox** is described. This refers to software developers like Microsoft and other's ability to test features their features during development and is not intended for customer testing.
+
+Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox*. This refers to and environment for software developers such as Microsoft and others for testing their features during development. this environment is not intended for customer testing and is unrelated to [!INCLUDE[prodshort](../../includes/prodshort.md)] sandboxes.
 
 ## See Also
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

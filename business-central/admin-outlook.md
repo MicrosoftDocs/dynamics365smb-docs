@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 ms.author: edupont
 
 ---
@@ -46,11 +46,15 @@ In the Document Links add-in, you can modify and take actions with the document,
 ## Adding the Add-ins Manually
 In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  
 
-First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, and then add `/owa/#path=/options/manageapps` to the URL in the address bar. This opens the **Manage add-ins** page, where you can enable [!INCLUDE[d365fin](includes/d365fin_md.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] should be available.  
+First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, got to **Settings**, and then choose **Manage add-ins**. This opens the **Manage add-ins** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
 
 Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Manage Add-ins** page.  
 
 In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
+
+## Using Other Email Accounts
+
+The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## See Also
 
@@ -60,3 +64,5 @@ In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not avail
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
+[Minimum Requirements for Outlook](product-requirements.md#outlook)  
+[Using add-ins in Outlook on the web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

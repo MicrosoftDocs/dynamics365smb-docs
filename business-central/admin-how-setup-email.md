@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.author: edupont
 
 ---
@@ -29,14 +29,34 @@ You can either set email up manually or you can get help by using the **Email Se
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the page.
 
-## Sending Email Messages from a Send As Email Address
-You can let one or more users send email messages from an email address that you own, but is different than their normal address. For example, if you are running a sales campaign, you might want people to send messages from the same address, such as sales@yourcompanyname.com. To set that up, you must specify the address to send as in two places:
+## Using a Substitute Sender Address on Outbound Email Messages
+All outgoing email messages from [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default address for the account that you specified on the SMTP Email Setup page, as described above. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or append it with "on behalf of." 
 
-* In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **SMTP Email Setup** page, specify the address in the **Send As** field.   
-* In the **Exchange admin center** for your Office 365 account, specify the address in the **Send As** field for each user that can send messages from the address. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[d365fin](includes/d365fin_md.md)].:
 
- > [!Note] 
- > After you specify the account to send messages as, the address will display for each user in the Office 365 admin center, but that is only for informational purposes. You can only change or remove the account in the Exchange admin center.
+ * When you send documents such as purchase or sales orders to vendors and customers, you might want them to appear to come from a noreply@yourcompanyname.com address. 
+ * When your workflow sends an approval request by email using the email address of the requestor.
+
+> [!Note]
+> You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.
+
+### To set up the substitute sender address for all outbound email messages
+1. In the **Exchange admin center** for your Office 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox. 
+2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+3. In the **Send As** field, enter the substitute address.
+4. Copy or make a note of the address in the **User ID** field.
+5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+### To use the substitute address in approval workflows
+1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+2. Copy or make a note of the address in the **User ID** field.
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
+4. In the **Exchange admin center**, find the mailboxes for each user listed in the **Approval User Setup** page, and in the **Send As** field enter the address from the **User ID** field of the **SMTP Email Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Manage permissions for recipients](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+6. To enable substitution, turn on the **Allow Sender Substitution** toggle.
+
+> [!Note]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] will determine which address to display in the following order: <br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page.
 
 ## See Also  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

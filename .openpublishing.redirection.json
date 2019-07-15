@@ -67,13 +67,11 @@
      },
      {
       "source_path": "business-central/LocalFunctionality/Belgium/isabel-6.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
-      "redirect_document_id": true
+      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"      
      },
      {
       "source_path": "business-central/LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
-      "redirect_document_id": true
+      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"
      }
     ]
 

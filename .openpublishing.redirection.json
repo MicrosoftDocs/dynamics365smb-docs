@@ -46,6 +46,11 @@
       "redirect_document_id": true
      },
     {
+      "source_path": "business-central/across-how-to-connect-powerbi-dynamics-365-content-packs-help.md",
+      "redirect_url": "/dynamics365/business-central/admin-powerbi",
+      "redirect_document_id": true
+     },
+    {
       "source_path": "business-central/upload-data.md",
       "redirect_url": "/dynamics365/business-central/across-import-data-configuration-packages",
       "redirect_document_id": true

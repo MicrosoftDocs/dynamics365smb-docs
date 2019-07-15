@@ -32,7 +32,6 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Apply CODA Statements](how-to-apply-coda-statements.md) **Available Now**
     * [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md) **Available Now**
     * [CODA Bank Statements](coda-bank-statements.md) **Available Now**
-    * [Download CODA Files from an Isabel Server](how-to-download-coda-files-from-an-isabel-server.md) **Available Now**
     * [Belgian Electronic Banking](belgian-electronic-banking.md) **Available Now**
     * [Set Up Electronic Banking](how-to-set-up-electronic-banking.md) **Available Now**
     * [Set Up Export Protocols](how-to-set-up-export-protocols.md) **Available Now**
@@ -42,8 +41,6 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md) **Available Now**
     * [Test Electronic Payments](how-to-test-electronic-payments.md) **Available Now**
     * [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
-    * [Isabel 6](isabel-6.md) **Available Now**
-    * [Upload Payment Files to an Isabel Server](how-to-upload-payment-files-to-an-isabel-server.md) **Available Now**
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
@@ -59,8 +56,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md) **Available Now**
     * [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
-    * [Archive IBS Log Entries](how-to-archive-ibs-log-entries.md) **Available Now**
-
+    
 * Core Finance
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**

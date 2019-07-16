@@ -17,20 +17,7 @@
 
 ---
 # Set Up Electronic Banking
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
-With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.  
-
-Your company subscribes to an eBanking contract with the bank to maintain a certain bank account or several bank accounts. The company also subscribes to Interbanks Standards Association Belgium (Isabel) to send payment files to and receive bank statement files from the bank electronically. Therefore, the company receives smart cards linked to the eBanking contract. The smart cards are secured by PIN codes.  
-
-You will receive one of these smart cards to connect to IBS so that you are connected to the eBanking contract of the company.
-
-When uploading to or downloading files from the IBS platform, you will insert the smart card in the card reader and use a PIN code to make a connection to IBS. When the IBS session is established, the eBanking contract and eBanking user are known by the system. The eBanking contract and user linked bank account numbers are also known.  
-
-<In last sentence, paragraph above, change "user linked bank account numbers" to "the user's linked bank account numbers"   -->
-
-Before you can use electronic banking, you must set up the following information:  
+With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers. Before you can use electronic banking, you must set up the following information:  
 
 - Electronic banking setup.  
 - IBLC/BLWI codes - For more information, see [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md).  
@@ -44,34 +31,8 @@ Before you can use electronic banking, you must set up the following information
     |---------------------------------|---------------------------------------|  
     |**Summarize Gen. Jnl. Lines**|Select to indicate if you want to group the payment journal lines for each vendor.|  
     |**Cut off Payment Message Texts**|Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments.|  
-    |**IBS Version**|Specify the version of Isabel that is currently used for electronic banking in your organization.|  
-    |**Notification E-mail address**|Specify the notification email address that you want to use for electronic banking balance and transaction messages. This is the default address that is used to contact the Isabel server.|  
-    |**Language**|Specify the language that you want to use for electronic bank balance and transaction messages.|  
-    |**IBS Service Version**|Specify the service version that is used to communicate with the Isabel server.|  
-
-3.  Fill in the fields as described in the following table.   
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Upload integration Mode**|Specify the mode that you want to use to upload content to the Isabel server. The integration mode options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when payment files are generated. If the integration mode is set to **Manual**, you must log on to the Isabel server manually and no log entries will be created.|  
-    |**Upload Path**|Specify the path to the folder where the files will be saved during the upload process.|  
-
-4.  Fill in the fields as described in the following table.   
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Download integration Mode**|Specify the mode that you want to use to download content to the Isabel server. The options include **Attended** and **Manual**. If the integration mode is set to **Attended**, you must set the **IBS Version** field to **6**. The entries in the **IBS Log** table will be created when the download is performed. If the integration mode is set to **Manual**, you must log on to the Isabel server manually, and no log entries will be created.|  
-    |**Download Path**|Specify the path to the folder where the files will be saved during the download process.|  
-
-5.  Fill in the fields as described in the following table.   
-
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**IBS Log Upload Nos.**|Specify the number series that is used for Isabel log entries created during the file upload process.|  
-    |**IBS Log Download Nos.**|Specify the number series that is used for Isabel log entries created during the file download process.|  
-    |**IBS Request ID**|Specify a number sequence used for automatic and unique numbering of the requests.|  
-
-6.  Choose the **OK** button.  
+ 
+3.  Choose the **OK** button.  
 
 ## See Also  
  [Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323)   

@@ -17,9 +17,6 @@
 
 ---
 # Export and Post Domiciliations
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.  
 
 Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  

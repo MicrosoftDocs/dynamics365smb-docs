@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2019
+ms.date: 07/16/2019
 ms.author: sgroespe
 
 ---
@@ -29,7 +29,9 @@ ms.author: sgroespe
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
+[Compliance](compliance/compliance-overview.md)  
 [Dynamics 365 documentation](/dynamics365/)  
+
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

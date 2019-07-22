@@ -13,11 +13,11 @@ ms.date: 06/26/2019
 ms.author: sgroespe
 
 ---
-# Manage Saved Settings in Reports, Batch jobs, and XMLports
-When running reports, users are typically presented with a page that lets them select options and and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+# Manage Saved Settings for Reports and Batch jobs
+When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
-> This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
+> This topic refers mainly to "report", but similar information applies to batch jobs.
 
 If you have the proper permissions, you can view, create, and modify the saved settings for all reports for all users in a company. You can assign saved settings for a report to individual users or to all users in the company.
 

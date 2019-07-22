@@ -38,7 +38,7 @@
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
 ### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
-### [Manage Saved Settings on Reports, Batch Jobs, and XMLports](reports-saving-reusing-settings.md)
+### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing how Documents Look
@@ -1236,7 +1236,7 @@
 #### [How to: Release, Track, and Write-Off Fixed Assets](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [How to: View Posted Entries on a Fixed Asset Charge](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [How to: Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### VAT
 #### [Overview](LocalFunctionality/Russia/VAT.md)

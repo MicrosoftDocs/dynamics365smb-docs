@@ -38,7 +38,7 @@ The request page can include the **Saved Settings** section that contains one or
 Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
 
 >[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings on Reports, Batch Jobs, and XMLports](reports-saving-reusing-settings.md).
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
 
 ## Previewing a Report
 Choose the **Preview** button to view the report in the. Use the menu bar on the report preview to:

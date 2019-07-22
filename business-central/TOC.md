@@ -1,4 +1,4 @@
-# [Welcome to Business Central](index.md)
+﻿# [Welcome to Business Central](index.md)
 # Getting Started
 ## [Overview](product-get-started.md)
 ## [What's New](product-news.md)
@@ -184,7 +184,6 @@
 
 ## Setting Up a Company With RapidStart Services
 ### [Overview](admin-set-up-a-company-with-rapidstart.md)
-### [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
 ### Setting Up Company Configuration
 #### [Overview](admin-set-up-company-configuration.md)
 #### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
@@ -857,7 +856,6 @@
 #### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [Download CODA Files from an Isabel Server](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgian Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Set Up Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -867,8 +865,6 @@
 #### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Generate Payment Suggestions](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Upload Payment Files to an Isabel Server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [Import CODA Statements](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Manage Electronic Payment Lines](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [Manually Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -884,7 +880,6 @@
 #### [Export and Post Domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Generate Domiciliation Suggestions](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Summarizing Payment Lines and General Journal Lines](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [Archive IBS Log Entries](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Core Finance
 #### [Apply and Unapply General Ledger Entries](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Create Financial Journals](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1212,6 +1207,73 @@
 #### [Import Payroll Transactions](LocalFunctionality/Norway/how-to-import-payroll-transactions.md)
 #### [Set Up KID Numbers on Sales Documents](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Set Up Document Printing](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
+
+## Russia
+### [Overview](LocalFunctionality/Russia/russia-local-functionality.md)
+### Core Finance
+#### [Account Schedules Overview](LocalFunctionality/Russia/account-schedules-overview.md)
+#### [How to: Import and Export Account Schedules](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+#### [How to: Define an Account Schedule Extension](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+#### [How to: Define an Account Schedule Constant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+#### [How to: Work with Account Schedules](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+#### [General Ledger Correspondence](LocalFunctionality/Russia/general-ledger-correspondence.md)
+#### [Сurrency](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
+#### [How to: Set Up Responsible Employees and Advance Statements](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
+#### [Payables and Receivables](LocalFunctionality/Russia/Payables-and-Receivables.md)
+### Fixed assets
+#### [Fixed Assets](LocalFunctionality/Russia/fixed-assets.md)
+#### [How to: Calculate Assessed Tax](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
+#### [Depreciation Bonus](LocalFunctionality/Russia/Depreciation-Bonus.md)
+#### [Fixed Asset Charges](LocalFunctionality/Russia/Fixed-Asset-Charges.md)
+#### [Gratuitous receipt of fixed assets](LocalFunctionality/Russia/Gratuitous-receipt-of-fixed-assets.md)
+#### [Fixed Asset Inventory](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
+#### [Fixed Asset Locations and Employees](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
+#### [Fixed Asset Turnover](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
+#### [How to: Create Future Expense Journals](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
+#### [How to: Create a Fixed Asset Charge](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md)
+#### [How to: Create a Credit Memo for a Fixed Asset Charge](LocalFunctionality/Russia/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
+#### [Sale of fixed assets](LocalFunctionality/Russia/Sale-of-fixed-assets.md)
+#### [How to: Release, Track, and Write-Off Fixed Assets](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
+#### [How to: View Posted Entries on a Fixed Asset Charge](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
+#### [How to: Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
+#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
+### VAT
+#### [Overview](LocalFunctionality/Russia/VAT.md)
+#### [How to: Set Up VAT Ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
+#### [How to: Prepare VAT Entries for Posting](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
+#### [Settlement VAT](LocalFunctionality/Russia/Settlement-VAT.md)  
+#### [Upload Books of Purchases and Sales and the VAT Declaration in XML Format](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
+#### [VAT by customer prepayments](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
+#### [VAT reinstatement](LocalFunctionality/Russia/VAT-reinstatement.md)  
+#### [Vendor Tax Agent scheme](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
+### Tax Accounting
+#### [Overview](LocalFunctionality/Russia/Tax-Accounting.md)
+#### [How to: Set Up Tax Accounting](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
+#### [Tax Registers](LocalFunctionality/Russia/Tax-Registers.md)  
+#### [How to: Create Tax Registers](LocalFunctionality/Russia/How-to-Create-Tax-Registers.md)  
+#### [How to: Set Up Tax Register Sections](LocalFunctionality/Russia/How-to-Set-Up-Tax-Register-Sections.md) #### [Tax Differences](LocalFunctionality/Russia/Tax-Differences.md)  
+#### [Accounting for personal income tax payments](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
+#### [Upload KLADR](LocalFunctionality/Russia/Upload-KLADR.md)  
+#### [Statutory Reports](LocalFunctionality/Russia/Statutory-Reports.md)
+#### Bank management
+#### [Bank Management](LocalFunctionality/Russia/bank-management.md)
+### Inventory
+#### [Inventory](LocalFunctionality/Russia/Inventory.md)
+#### [Inventory Setup](LocalFunctionality/Russia/Inventory-Setup.md)
+#### [Item Documents](LocalFunctionality/Russia/Item-Documents.md)
+#### [Item Obligatory Acts](LocalFunctionality/Russia/Item-Obligatory-Acts.md)
+#### [Inventory Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
+#### [Item General Ledger Turnover](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
+#### [How to: Create the TORG-29 Goods Report](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+### Human resources
+#### [Human Resources](LocalFunctionality/Russia/Human-Resources.md)
+#### [Payroll](LocalFunctionality/Russia/Payroll.md)
+#### [Establishment of charges and deductions to the employee](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
+#### [Absence registration](LocalFunctionality/Russia/Absence-registration.md)
+#### [Dismissal](LocalFunctionality/Russia/Dismissal.md)
+#### [Forming and changing Staff List Order, Staff Arrangement](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
+#### [Vacation planning](LocalFunctionality/Russia/Vacation-planning.md)
 
 ## Spain
 ### [Overview](LocalFunctionality/Spain/spain-local-functionality.md)

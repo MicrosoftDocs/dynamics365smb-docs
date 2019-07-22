@@ -120,10 +120,15 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
->  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.  
+>  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+
+The following sections describe how to use the different operators.
+
+> [!NOTE]
+> If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
 ### (..) Interval
 
@@ -137,7 +142,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 
-### (&#124;) Either/or  
+### (&#124;) Either/or 
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  

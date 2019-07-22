@@ -1,8 +1,6 @@
 ---
     title: How to Use the RapidStart Services Role Implementer Center | Microsoft Docs
     description: When you use RapidStart Services, we recommend that you track your work and use the RapidStart Services Implementer Role Center as it provides the correct context for your configuration work.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,6 +11,8 @@
     ms.search.keywords:
     ms.date: 04/01/2019
     ms.author: sgroespe
+    redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+    ROBOTS: NOINDEX
 
 ---
 # Use the RapidStart Services Implementer Role Center

@@ -1,12 +1,12 @@
 ---
 title: "Help and Support"
-description: Find resources for product Help, guidance, and assistance, and learn how to get technical support for Business Central.
+description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 04/01/2019
+ms.date: 07/17/2019
 ---
 
 # Resources for Help and Support
@@ -38,11 +38,11 @@ If you are using a trial version of [!INCLUDE [prodshort](includes/prodshort.md)
 
 ### Blog
 
-The [Business Central blog](https://community.dynamics.com/business/b/financials) is where you can learn more about new [!INCLUDE[prodshort](includes/prodshort.md)] capabilities, new app releases, tips and tricks, as well as updates about new country releases.  
+We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), including when they are made available, and if there are special considerations.  
 
 ### Capabilities Coming Soon
 
-[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
 

@@ -31,7 +31,7 @@ You can do that in the Settings for [!INCLUDE[d365inv](includes/d365inv.md)]. By
 The number is generated when you send the invoice. Until then, it does not have a number. You can see the expected next number in the **Settings** page.  
 
 ## Can I change the design of my invoice?
-Not yet. We're working on this feature and will update our content as soon as it's available.  
+No, you cannot change the layout or color of invoices but you can add an image, such as your company logo. For more information, see [Set up your business information](set-up-business-profile.md). 
 
 ## How can I delete an invoice?
 If you've sent an invoice to a customer, you can cancel the invoice, but you can't delete it. When you delete an invoice, you customer gets a cancellation email and your accountant will be able to see that the invoice was cancelled. To cancel an invoice, follow these steps:

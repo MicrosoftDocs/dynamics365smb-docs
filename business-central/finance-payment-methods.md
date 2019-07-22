@@ -30,7 +30,7 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 
 ## To assign a payment method to a customer or vendor
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
-2. In the **Payment Method** field, choose the method to use by default for the customer or vendor.
+2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
 ## See Also
 [Register New Customers](sales-how-register-new-customers.md)  

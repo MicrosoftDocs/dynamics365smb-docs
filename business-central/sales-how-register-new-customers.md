@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: sgroespe
 
 ---
@@ -50,6 +50,7 @@ If you want to use this customer card as a template when you create new customer
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
 ## See Also
+[Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)    

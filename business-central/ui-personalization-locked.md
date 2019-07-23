@@ -46,7 +46,9 @@ Before you unlock the page, be aware of the following:
 
 If there is a ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") icon in the Personalizing banner, this means that you are blocked from doing any personalization to the page.
 
-The reason for this is that the Role Center or profile that is currently associated with your user account modifies this page specifically for your role. Please contact your administrator for assistance or, if it makes sense, try switching to a Role Center that does include role-tailoring for this page.
+![Personalize blocked](media/personalization-blocked.png "Personalize lock")
+
+The reason for this is that the Role Center or role that is currently associated with your user account modifies this page specifically for your role. Contact your administrator for assistance or, if it makes sense, try switching to a Role Center (from  [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central")) that does include role-tailoring for this page.
 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-user.md)  

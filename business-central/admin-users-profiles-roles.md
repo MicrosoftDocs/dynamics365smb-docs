@@ -6,15 +6,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
 
 ---
-# Understanding Users, Profiles, and Role Centers
+# Understanding Users, Profiles (Roles), and Role Centers
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], users are added by an administrator who also gives users access to the areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that they need in their work.  
 
-Access to functionality is managed through *user groups* and *profiles*. As an administrator, you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription, and you can assign users permissions through user groups.  
+Access to functionality is managed through *user groups* and *profiles (roles)*. As an administrator, you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription, and you can assign users permissions through user groups.  
 
 ## Adding Users
 
@@ -31,20 +31,20 @@ The most powerful permissions that a user can have is the SUPER permission set. 
 
 For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance. For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## Profiles
+## Profiles (Roles)
 
-The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a *profile* that gives them access to a *Role Center*.
+The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a *profile (role)* that gives them access to a *Role Center*.
 
 Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same Role Center. A Role Center is the entry point and home page for [!INCLUDE[d365fin](includes/d365fin_md.md)] that gives you quick access to your most important tasks and displays various insights and key performance indicators (KPIs) about your work.  
 
 > [!NOTE]  
 >  In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot add, edit, or delete profiles.  
 
-### <a name="CreateProfile"></a>Create a profile
+### <a name="CreateProfile"></a>To create a profile
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profile List**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
 
-2.  On the **Profile List** page, choose the **New** action to open the **New Profile Card** page.  
+2.  On the **Profiles** page, choose the **New** action to open the **New Profile Card** page.  
 
 3.  In the **Profile ID** field, enter a name that describes the intended role of the users.  
 
@@ -52,7 +52,7 @@ Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users wh
 
 5.  Set the **Role Center ID** field to the Role Center that you want to assign to the profile.  
 
-The procedure for modifying an existing profile is the same, except you select an existing profile on the **Profile List** page instead of choosing the **New** action.  
+The procedure for modifying an existing profile is the same, except you select an existing profile on the **Profiles** page instead of choosing the **New** action.  
 
 
 ### Copy a profile
@@ -74,7 +74,7 @@ You can export and import profiles as XML files to and from the a [!INCLUDE[d365
 
 -   To export a profile, you can either choose the **Export Profiles** action from the **Profile List** or **Profile Card** page or you can search for and open the **Export Profiles** page. Save the XML file to a location on your computer or network.
 
--   To import a profile, you can either choose the **Import Profile** action from the **Profile List** page, or you can search for and open the **Import Profiles** page. 
+-   To import a profile, you can either choose the **Import Profile** action from the **Profile List** page, or you can search for and open the **Import Profiles** page.
 
     > [!NOTE]  
     >  You cannot import a profile that already exists in the database, even though the XML file is named differently or has different content. You must delete the existing profile before you can import the new profile.

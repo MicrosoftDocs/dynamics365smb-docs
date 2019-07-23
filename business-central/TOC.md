@@ -303,7 +303,7 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
+## [Understanding Users, Profiles (Roles), and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)

@@ -60,7 +60,7 @@ The most commonly used work date is today's date. You may have to temporarily ch
 >  After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
 
 ### Work Date Indication
-Whenever the work date is not set to today's date, then two types of indicators will appear on pages that can be edited and where the work date is therefore critical.:
+Whenever the work date is not set to today's date, then two types of indicators will appear on pages that can be edited and where the work date is therefore critical:
 
 - A reminder appears at the top of the page telling you what the work date is. The reminder provides actions to change the work date and to turn the reminder off.
 

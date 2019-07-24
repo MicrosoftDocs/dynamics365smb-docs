@@ -39,6 +39,8 @@ You can either post, or post and print. If you choose to post and print, a repor
 
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
+You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
+
 ## See Also
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

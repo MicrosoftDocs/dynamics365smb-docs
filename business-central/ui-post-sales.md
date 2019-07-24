@@ -1,17 +1,16 @@
 ---
-title: Understanding How To Post Sales Documents | Microsoft Docs
-description: Learn about the different posting functions to post sales documents.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Posting Sales Documents | Microsoft Docs
+description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
+ms.reviewer: edupont
+ms.date: 07/24/2019
+ms.author: sgroespe
 
 ---
 # Posting Sales
@@ -36,10 +35,14 @@ For each sales order line, an item ledger entry will be created in the **Item Le
 > [!IMPORTANT]  
 >   When you post an order, you can create both a shipment and an invoice. These can be done at the same time or independently. You can also create a partial shipment and a partial invoice by completing the **Qty. to Ship** and **Qty. to Invoice** fields on the individual sales order lines before you post. Note that you cannot create an invoice for something that is not shipped. That is, before you can invoice, you must have recorded a shipment, or you must choose to ship and invoice at the same time.
 
-When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.
+When the posting is completed, the posted sales lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Cust. Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Posted Sales Shipments**, and **Posted Sales Invoices** pages.  
+
+You can edit certain fields on posted sales documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
 
 ## See Also
 [Sales](sales-manage-sales.md)  
+[Edit Posted Documents](across-edit-posted-document.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
+[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
+[Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

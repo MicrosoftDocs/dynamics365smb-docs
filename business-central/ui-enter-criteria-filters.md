@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2019
+ms.date: 07/25/2019
 ms.author: sgroespe
 
 ---
@@ -120,7 +120,7 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols that can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
@@ -142,7 +142,7 @@ The following sections describe how to use the different operators.
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 
-### (&#124;) Either/or 
+### (&#124;) Either/or
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -203,9 +203,6 @@ The following sections describe how to use the different operators.
 |`*Co*`|Text that contains "Co" and is case sensitive.|  
 |`*Co`|Text that ends with "Co" and is case sensitive.|  
 |`Co*`|Text that begins with "Co" and is case sensitive.|  
-
-> [!NOTE]  
->   You cannot use `*` when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values `0`, `1`, `2`, and `3` to filter for these options.
 
 ### (?) One unknown character  
 

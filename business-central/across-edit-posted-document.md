@@ -31,7 +31,7 @@ The following additional documents can be edited in selected country versions:
 - IT: Posted Transfer Shipment, Posted Service Shipment
 
 ## To edit a posted sales shipment
-The following explains how to edit a posted sales shipment. The steps are similar for the three other types of posted document.
+The following explains how to edit a posted sales shipment. The steps are similar for the other supported documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
 2. Select the document that you want to edit, and then choose the **Update Document** action. Alternatively, open the document and then choose the action.

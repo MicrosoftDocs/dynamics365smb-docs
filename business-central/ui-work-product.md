@@ -2,7 +2,7 @@
 title: Working with the General Functionality in Business Central  | Microsoft Docs
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 documentationcenter: ''
-author: sgroespe
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/25/2019
-ms.author: SorenGP
+ms.author: sgroespe
 
 ---
 # Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]

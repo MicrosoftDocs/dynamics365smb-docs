@@ -72,9 +72,14 @@ Filtering provides a more advanced and versatile way of controlling which record
 | **Applicable Fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
 | **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
-Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report or XMLport. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report, batch job, or XMLport. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports and XMLports, the filters are visible directly on the request page.
+For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
+
+### Limitation for Option Fields
+For "ordinary" fields that hold data, setup date or business data, you can set filters both by selecting data and by typing filter values, and you can filter on multiple filter values at the same time. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
+
+For options fields, however, you can only add a filter by selecting one option at a time. An example of an option field is the **Status** field on the **Sales Orders** page.
 
 ### Setting Filters on Lists
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.

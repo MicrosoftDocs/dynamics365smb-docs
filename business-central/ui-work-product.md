@@ -2,15 +2,15 @@
 title: Working with the General Functionality in Business Central  | Microsoft Docs
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: sgroespe
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
+ms.date: 07/25/2019
+ms.author: SorenGP
 
 ---
 # Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -34,6 +34,7 @@ The following table lists some of the general functionality with links to topics
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
 |Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
+|Attach files, add links, or write notes on cards and documents.|[Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)|
 | Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
 | Change which and where UI elements are shown to fit your preferences.|[Personalizing Your Workspace](ui-personalization-user.md) |
 |Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)|

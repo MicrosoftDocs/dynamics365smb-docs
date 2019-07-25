@@ -1,5 +1,5 @@
 ---
-    title: How to Link from Records to External Information or Programs | Microsoft Docs
+    title: Add Attachments, Links, and Notes on Records| Microsoft Docs
     description: Attach a hyperlink to a document or website to a specific record, such as a customer or document.
     author: SorenGP
 
@@ -12,13 +12,28 @@
     ms.date: 07/25/2019
     ms.author: sgroespe
 ---
-# Add Links to Websites, Documents, or Programs on Records
-On a specific record, such as a customer, document, or sales order, you can add a link to an external document, website, or program. Or, you may want a link that opens a new empty email to a specific recipient when you select it. The card page for some records, such as customer and vendor cards, include a **Home Page** field where you can enter an Internet address (URL). To include other links, you can use the method described in this article.  
+# Manage Attachments, Links, and Notes on Cards and Documents
+In the FactBox on most cards and documents, you can attach files, add links, and write notes. For links and notes, you can also do this on the list page by first selecting the related line.
 
-Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
+To view or change any of these attached information types, you must first open the **Attachments** tab in the FactBox. The number behind the tab title indicates how many attached files, links, or notes exist for the card or document.
+
+## To attach a file to a sales order
+You can attach any type of file, image, video, or text, to a card or document. The file stays attached as the card or document is processed into other states, such as from an ongoing sales order to a posted sales invoice. Note, however, that attachments are not output from the system, for example, when printing and saving to file.
+
+> [!NOTE]
+> In general, the maximum file size for attachments is 150 MB. However, the limit can be lower for some features.
+
+The following procedure is based on a sales order. The steps are similar for all other supported documents and cards.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+2. Open the sales order that you want to attach a file to.
+3. In the FactBox, open the **Attachments** tab.
+4. Choose the value behind the **Documents** field, such as "0".
+5. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.
+5. Select a file from any location, and then choose the **Open** button.
 
 ## To add a link on a record   
-
+Another example could be when you receive printed invoices from vendors. You can scan them and store them as .pdf files on a SharePoint site. Then you can make a link from a purchase invoice in [!INCLUDE[d365fin_md](includes/d365fin_md.md)] to the corresponding invoice on  SharePoint. Or, you can make a link from an item card to the corresponding page in your vendor's online catalog.
 1.  Open the record that you want to attach the link to, such as a customer card or sales order. If you want to attach the link to a specific line, such as a journal line, select the line.  
 
 2.  Choose the **Links** action to open the **Links** pages that shows all the current links that are added to the record.

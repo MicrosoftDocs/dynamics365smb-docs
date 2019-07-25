@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 07/25/2019
 ms.author: sgroespe
 
 ---
@@ -33,11 +33,10 @@ The following table lists these general business areas with links to topics that
 |Archive sales and purchase orders, quotes, return orders, and blanket orders, and you use the archived document to recreate the document that it was archived from.|[Archive Documents](across-how-to-archive-documents.md)|
 | Set up standard text codes so you can extend standard text by adding extra lines, and set up conditions for use of the extra lines. |[Add Extended Item Text](ui-how-define-ext-text.md) |
 |Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.|[Define User Tasks](across-user-tasks.md)|
-|Attach pictures, documents, and other types of files to all cards, such as the item card and job card, and attach files to all types of sales and purchase documents.|[Attach Files to Cards and Documents](across-attach-document-master-data.md)|
 |Work with your Business Central data in Excel.|[Exporting Your Business Data to Excel](about-export-data.md)|
 |Understand what happens when you choose the **Post** action.|[Posting Documents and Journals](ui-post-documents-journals.md)|
 |Review the result of posting before you post.|[Preview Posting Results](ui-how-preview-post-results.md)|
-|Edit selected fields on posted sales or purchase documents.|[Edit Posted Documents](across-edit-posted-document.md)| 
+|Edit selected fields on posted sales or purchase documents.|[Edit Posted Documents](across-edit-posted-document.md)|
 |Learn how to work with general journals, which are used to post to general ledger accounts and other accounts such as bank, customer, vendor, and fixed assets accounts. |[Working with General Journals](ui-work-general-journals.md) |
 | Schedule a report to run at a specific date and time. |[Scheduling a Report to Run](ui-work-report.md#ScheduleReport) |
 |Let the system help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself.|[Letting Business Central Suggest Values](ui-let-system-suggest-values.md)|

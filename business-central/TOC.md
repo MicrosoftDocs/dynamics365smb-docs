@@ -29,6 +29,7 @@
 ## [Changing Language and Locale](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
 ## [Managing Notifications](ui-smart-notifications.md)
+## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Changing Basic Settings](ui-change-basic-settings.md)
 ## Personalizing Business Central
 ### [Personalizing Your Workspace](ui-personalization-user.md)
@@ -229,8 +230,6 @@
 ## [Archive Documents](across-how-to-archive-documents.md)
 ## [Add Extended Item Text](ui-how-define-ext-text.md)
 ## [Define User Tasks](across-user-tasks.md)
-## [Add Links to Websites, Documents, or Programs on Records](ui-how-add-link-to-record.md)
-## [Attaching Files to Cards and Documents](across-attach-document-master-data.md)
 ## [Exporting Your Business Data to Excel](about-export-data.md)
 ## [Posting Documents and Journals](ui-post-documents-journals.md)
 ## [Preview Posting Results](ui-how-preview-post-results.md)

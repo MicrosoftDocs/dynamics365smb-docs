@@ -102,7 +102,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
-### Setting Filters in Reports and XMLports
+### Setting Filters in Reports, Batch Jobs, and XMLports
 For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.

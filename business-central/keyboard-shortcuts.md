@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 07/24/2019
+ms.date: 07/29/2019
 ms.author: sgroespe
 ---
 
@@ -64,8 +64,9 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
-|Shift+F10 |Open a menu of options that are available for selected row.|Not applicable.|
-|Alt+N |Open a page for creating a new record; the same way as selecting the **New** action. |Same.|
+|Shift+F10 |Open a menu of options that are available for the selected row.|Not applicable.|
+|Alt+N |Open a page to create a new record; the same way as selecting the **New** action. |Same.|
+|Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |Same.|
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
@@ -123,8 +124,8 @@ The following shortcuts are available on card pages (like **Customer**) and docu
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
 |Alt+F6|Collapse and expand the current FastTab.|
-|Alt+N |Open a page for creating a new record; the same way as choosing the **New** action. |
-|Alt+Shift+N |Close the current card page and creates a new entity; the same as selecting the back arrow and then the **New** action.|
+|Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
+|Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
 |Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Other parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|

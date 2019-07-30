@@ -14,7 +14,8 @@ ms.author: sgroespe
 
 # Keyboard Shortcuts (PC only)
 
-[!INCLUDE[vnext_preview](includes/vnext_preview.md)]
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
 
 ||||  
 |----------------|-----------|----------------|

@@ -8,11 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 07/29/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 ---
 
 # Keyboard Shortcuts
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
+
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]

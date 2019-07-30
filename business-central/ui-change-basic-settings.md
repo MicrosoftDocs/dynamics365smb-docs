@@ -9,11 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 07/23/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
 # Changing Basic Settings
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
+
 On the **My Settings** page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
 
 ## <a name="role-center"></a> Role Center

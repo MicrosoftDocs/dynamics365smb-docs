@@ -9,11 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 07/23/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
 # Why a Page is Locked from Personalization
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
 
 There are two conditions that prevent you from personalizing a page. Either the page is locked (as indicated by the ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock")) icon or it is blocked (as indicated by the ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") icon).
 

@@ -9,11 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 06/25/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
 # Personalizing Your Workspace
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
 
 You can personalize your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 

@@ -9,11 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 06/26/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
 # Working with Reports, Batch Jobs, and XMLports
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
+
 A report gathers information based on a specified set of criteria, and organizes and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information relative to the context of the page you are on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 
 Batch jobs and XMLports do more or less the same as reports, but for the purpose of performing a process or exporting data. For example, the **Create Reminders** batch job creates reminder documents for customers with overdue payments.  

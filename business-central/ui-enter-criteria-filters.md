@@ -8,11 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/25/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering
+
+> [!NOTE]
+> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
+
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
 For reports and XMLports, you can set filters as on lists to delimit which data to include in the report or XMLport, but you cannot sort and search.

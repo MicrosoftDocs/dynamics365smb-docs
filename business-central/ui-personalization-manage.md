@@ -105,5 +105,5 @@ The **User Personalization Card** page enables you to clear the personalization 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/25/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
@@ -33,9 +33,9 @@ The following table lists some of the general functionality with links to topics
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
-|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Managing Notifications](ui-smart-notifications.md)|
 |Attach files, add links, or write notes on cards and documents.|[Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)|
-| Change basic settings such as company, work date, and Role Center. |[Changing Basic Settings](ui-change-basic-settings.md) |
+| Change basic settings such as company, work date, and Role Center. |[Change Basic Settings](ui-change-basic-settings.md) |
+|Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Manage Notifications](ui-smart-notifications.md)|
 | Change which and where UI elements are shown to fit your preferences.|[Personalizing Your Workspace](ui-personalization-user.md) |
 |Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |

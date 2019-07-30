@@ -130,7 +130,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields). You can enter dates with or without separators.
 
 > [!NOTE]  
-> How you enter dates and times depends on your **Region** settings. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+> How you enter dates and times depends on your **Region** settings. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 ### Entering Dates
 
@@ -152,7 +152,7 @@ Instead of entering a specific date, you can enter one of these codes.
 |--------------|----------------|  
 |t|This specifies today's date (the system date for the computer).|  
 |p|This specifies an accounting period´, where `p`means the first accounting period, `p2` means the second accountin period, and so on. |
-|w|This specifies the work date that is setup in the application. To change the work date, see [Changing Basic Settings](ui-change-basic-settings.md). You may want to use a work date if you have many transactions with a date other than today's date.|
+|w|This specifies the work date that is setup in the application. To change the work date, see [Change Basic Settings](ui-change-basic-settings.md). You may want to use a work date if you have many transactions with a date other than today's date.|
 |c|This specifies that the date after `c`is a closing date, for example `C123101`.|  
 
 ## Entering Times

@@ -61,7 +61,7 @@ All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d
 ## See also
 [Creating New Companies](about-new-company.md)  
 [Managing Users and Permissions](ui-how-users-permissions.md)    
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)

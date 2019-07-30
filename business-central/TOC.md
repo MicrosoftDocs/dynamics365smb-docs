@@ -28,9 +28,9 @@
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Locale](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)  
-## [Managing Notifications](ui-smart-notifications.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
-## [Changing Basic Settings](ui-change-basic-settings.md)
+## [Change Basic Settings](ui-change-basic-settings.md)
+## [Manage Notifications](ui-smart-notifications.md)
 ## Personalizing Business Central
 ### [Personalizing Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)

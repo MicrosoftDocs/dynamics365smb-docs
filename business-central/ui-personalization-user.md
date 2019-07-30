@@ -122,5 +122,5 @@ At some point, you might want to undo some or all of the personalization changes
 
 [Managing Personalization as an Administrator](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

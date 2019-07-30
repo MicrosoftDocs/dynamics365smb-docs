@@ -13,7 +13,7 @@ ms.date: 07/30/2019
 ms.author: sgroespe
 
 ---
-# Changing Basic Settings
+# Change Basic Settings
 
 > [!NOTE]
 > [!INCLUDE[vnext_preview](includes/vnext_preview.md)]

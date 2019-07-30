@@ -13,7 +13,7 @@
   <Node Name="" DisplayName="Tips and Tricks" Page="ui-work-product.html">
     <Node Name="" DisplayName="Working with Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Using Search for Page or Report" Page="ui-search.html"/>
-    <Node Name="" DisplayName="Changing Basic Settings" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Change Basic Settings" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="How to: Change the Role Center" Page="change-role.html"/>
     <Node Name="" DisplayName="Customizing Business Central" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Letting Business Central Suggest Values" Page="ui-let-system-suggest-values.html"/>

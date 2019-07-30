@@ -41,7 +41,7 @@ From some pages in [!INCLUDE [prodshort](includes/prodshort.md)], you can view a
 The information is displayed in the **Activity Log** page, according to the context that it is opened from. You can open the window from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages, for example. You can empty the list of log entries, or just clear the list of entries older than 7 days.  
 
 ## See Also
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Sorting](ui-sorting.md)  
 [Using Tell Me to Find Features and Information](ui-search.md)  
 [Managing Users and Permissions](ui-how-users-permissions.md)    

@@ -95,7 +95,7 @@ Sure. If you do, you might need an app password in order to send email messages.
 [Getting Started](product-get-started.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
 [Managing Users and Permissions](ui-how-users-permissions.md)  

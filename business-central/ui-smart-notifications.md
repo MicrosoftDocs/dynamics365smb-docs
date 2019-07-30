@@ -10,11 +10,11 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: bholtorf
 
 ---
-# Managing Notifications
+# Manage Notifications
 [!INCLUDE[d365fin](includes/d365fin_md.md)] can help you work smarter by notifying you about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell, for example. These notifications are shown as discreet tips in the context of the task you are doing, and you can choose to ignore the notification or to see details about the issue.  
 
 If you choose to see details for a notification, you can take action to resolve the issue, such as contacting the customer, buying more inventory, and so on. It's your choice what to do, and [!INCLUDE[d365fin](includes/d365fin_md.md)] gives you advice and recommendations.  

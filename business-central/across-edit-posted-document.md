@@ -29,7 +29,7 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
 2. Select the document that you want to edit, and then choose the **Update Document** action.
-3. On the **Posted Sales Shipment - Update** page, edit the **Package Tracking No.** field, for example.
+3. On the **Posted Sales Shipment - Update** page, edit the **Package Tracking No.**.
 4. Close the page.
 
 The posted sales shipment is updated.

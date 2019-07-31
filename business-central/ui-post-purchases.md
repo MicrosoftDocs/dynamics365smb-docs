@@ -39,10 +39,6 @@ You can either post, or post and print. If you choose to post and print, a repor
 
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
-## Edit Posted Documents
-
-Sometimes you have to update a posted document because information that is relevant to the document has changed. Depending on the document type, this can be the shipping agent's package tracking number, for example. The posted document has an action, **Update Document**, that opens a page that shows the fields that you can update. So when you have to update a posted document, simply go to the relevant document and then choose **Update Document**.  
-
 ## See Also
 
 [Purchasing](purchasing-manage-purchasing.md)  
@@ -50,4 +46,3 @@ Sometimes you have to update a posted document because information that is relev
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

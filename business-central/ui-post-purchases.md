@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/24/2019
+ms.date: 07/17/2019
 ms.author: sgroespe
 
 ---
@@ -39,12 +39,10 @@ You can either post, or post and print. If you choose to post and print, a repor
 
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
-You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
-
 ## See Also
-[Edit Posted Documents](across-edit-posted-document.md)  
+
 [Purchasing](purchasing-manage-purchasing.md)  
-[Posting Documents and Journals](ui-post-documents-journals.md)  
+[Post Documents and Journals](ui-post-documents-journals.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Using Tell Me to Find Features and Information](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

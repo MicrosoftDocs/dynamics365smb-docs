@@ -28,5 +28,6 @@ When you are ready to post a document, such as an order, invoice, or a credit me
 All parts of the purchase invoice are tested, and the result is presented in a report. If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.
 
 ## See Also
-[Posting Documents and Journals](ui-post-documents-journals.md)  
+[Post Documents and Journals](ui-post-documents-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

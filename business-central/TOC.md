@@ -302,7 +302,7 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Understanding Profiles, and Role Centers](admin-users-profiles-roles.md)
+## [Understanding Users, Profiles (Roles), and Role Centers](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
@@ -1238,7 +1238,7 @@
 #### [How to: Release, Track, and Write-Off Fixed Assets](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [How to: View Posted Entries on a Fixed Asset Charge](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [How to: Set Up an Intangible Assets Account](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [How to: Account for the Cost to Dispose a Fixed Asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Undepreciable Fixed Assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### VAT
 #### [Overview](LocalFunctionality/Russia/VAT.md)

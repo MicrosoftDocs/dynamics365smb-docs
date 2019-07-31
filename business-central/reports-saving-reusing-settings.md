@@ -9,15 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 07/30/2019
+ms.date: 06/26/2019
 ms.author: sgroespe
 
 ---
 # Manage Saved Settings for Reports and Batch jobs
-
-> [!NOTE]
-> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
-
 When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 > [!NOTE]

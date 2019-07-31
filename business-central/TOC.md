@@ -317,11 +317,11 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
-## Integrating with Dynamics 365 for Sales
+## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Set Up a Dynamics 365 for Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
+### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
@@ -592,8 +592,8 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
 ## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Engaging with Customers through Dynamics 365 for Sales
-### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+## Engaging with Customers through Dynamics 365 Sales
+### [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
 

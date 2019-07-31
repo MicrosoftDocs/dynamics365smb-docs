@@ -1,6 +1,6 @@
 ---
 title: Synchronization and Data Integration | Microsoft Docs
-description: The synchronization copies data between Dynamics 365 for Sales entries and Business Central records, and keeps the data in both systems up-to-date.
+description: The synchronization copies data between Dynamics 365 Sales entries and Business Central records, and keeps the data in both systems up-to-date.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -14,8 +14,8 @@ ms.author: bholtorf
 
 ---
 
-# Synchronizing Data in Business Central and Dynamics 365 for Sales
-When you integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronize data from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# Synchronizing Data in Business Central and Dynamics 365 Sales
+When you integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (such as accounts, contacts, and users). Depending on the type of record, you can synchronize data from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synchronization uses the following elements:
 
@@ -74,11 +74,11 @@ The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.m
 The following table describes rules that control the synchronization between the apps.
 
 > [!NOTE]  
-> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Table|Rule|
 |-----|----|
-|Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you run the CUSTOMERS - Dynamics 365 for Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />The CUSTOMERS - Dynamics 365 for Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
+|Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you run the CUSTOMERS - Dynamics 365 Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />The CUSTOMERS - Dynamics 365 Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
 |Contacts|Only contacts in [!INCLUDE[crm_md](includes/crm_md.md)] that are associated with an account will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Currencies|Currencies are coupled to transaction currencies in [!INCLUDE[crm_md](includes/crm_md.md)] based on ISO codes. Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.|
 |Units of Measure|Units of measure are synchronized with unit groups in [!INCLUDE[crm_md](includes/crm_md.md)]. There can only be one unit of measure defined in the unit group.|
@@ -94,4 +94,4 @@ The following table describes rules that control the synchronization between the
 ## See Also  
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

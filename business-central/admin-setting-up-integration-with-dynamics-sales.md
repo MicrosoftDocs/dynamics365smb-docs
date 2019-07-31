@@ -1,5 +1,5 @@
 ---
-    title: Setting Up User Accounts for Integrating with Dynamics 365 for Sales | Microsoft Docs
+    title: Setting Up User Accounts for Integrating with Dynamics 365 Sales | Microsoft Docs
     description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
     services: project-madeira
     documentationcenter: ''
@@ -15,7 +15,7 @@
     ms.author: bholtorf
 
 ---
-# Setting Up User Accounts for Integrating with Dynamics 365 for Sales
+# Setting Up User Accounts for Integrating with Dynamics 365 Sales
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
@@ -32,12 +32,12 @@ You must create a dedicated user account in your Office 365 subscription that bo
 > Do not use the administrator account for [!INCLUDE[crm_md](includes/crm_md.md)] for synchronization. Doing so will break the synchronization.
 > Also, to avoid constant synchronization, changes to data that are made by the integration user account are not synchronized. <!--What changes would this account make?--> After the connection is made, we recommend setting the access mode for the user account for integration to non-interactive mode in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Create a non-interactive user account](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## Setting Up Accounts for Sales People
+## Setting Up Accounts Sales People
 You must create user accounts in [!INCLUDE[crm_md](includes/crm_md.md)] for the salespeople from [!INCLUDE[d365fin](includes/d365fin_md.md)]. To make that easier, the Microsoft 365 admin center offers an Excel template that you can use. On the **Active users** page, choose **More**, and then **Import multiple users**. Choose **Download a CSV file with headers only**, and then enter the information for the salespersons. To see an example, choose **Download a CSV file with headers and sample user information**. After you enter the information about the users, the next step in the import process is to assign the users licenses to the Dynamics 365 Customer Engagement Plan.  
 
 After you import the users, and assign them licenses for Dynamics 365 Customer Engagement, you must assign the users to the **Salesperson** role in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Coupling sales people to users in Dynamics 365 for Sales](media/couple-salespeople.png "Visualization of coupling of sales people to users in Dynamics 365 for Sales")
+![Coupling sales people to users in Dynamics 365 Sales](media/couple-salespeople.png "Visualization of coupling of sales people to users in Dynamics 365 Sales")
 
 ## Minimum Permissions for User Accounts in [!INCLUDE[crm_md](includes/crm_md.md)]
 When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -131,4 +131,4 @@ You can allow sales people to view inventory levels for the items they sell by g
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
 ## See Also  
-[Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -1,6 +1,6 @@
 ---
 title: Manual Synchronization of Table Mappings | Microsoft Docs
-description: The synchronization copies data between Dynamics 365 for Sales entries and Business Central to keep both systems up-to-date.
+description: The synchronization copies data between Dynamics 365 Sales entries and Business Central to keep both systems up-to-date.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -36,13 +36,13 @@ Whether and where a record gets created depends on the synchronization direction
 
 The jobs are run in the following order to avoid coupling dependencies between entities.  
 
-1.  CURRENCY - Dynamics 365 for Sales synchronization job  
-2.  SALEPEOPLE - Dynamics 365 for Sales synchronization job  
-3.  UNITOFMEASURE - Dynamics 365 for Sales synchronization job  
-4.  CUSTOMER - Dynamics 365 for Sales synchronization job  
-5.  CONTACTS - Dynamics 365 for Sales synchronization job  
-6.  RESOURCE-PRODUCT - Dynamics 365 for Sales synchronization job  
-7.  ITEM-PRODUCT - Dynamics 365 for Sales synchronization job  
+1.  CURRENCY - Dynamics 365 Sales synchronization job  
+2.  SALEPEOPLE - Dynamics 365 Sales synchronization job  
+3.  UNITOFMEASURE - Dynamics 365 Sales synchronization job  
+4.  CUSTOMER - Dynamics 365 Sales synchronization job  
+5.  CONTACTS - Dynamics 365 Sales synchronization job  
+6.  RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  
+7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
 
 > [!IMPORTANT]  
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[crm_md](includes/crm_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -51,7 +51,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### To run a full synchronization  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
 2.  Choose the **Run Full Synchronization** action, and then choose the **Yes** button.  
 3.  When the full synchronization is completed, you can specify whether to allow scheduled synchronization jobs to create new records.  
 
@@ -62,15 +62,15 @@ The jobs are run in the following order to avoid coupling dependencies between e
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
 ## Synchronizing All Modified Records
-You can use the **Microsoft Dynamics 365 for Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[crm_md](includes/crm_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
+You can use the **Microsoft Dynamics 365 Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[crm_md](includes/crm_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
 
-1.  CURRENCY - Dynamics 365 for Sales synchronization job  
-2.  SALEPEOPLE - Dynamics 365 for Sales synchronization job  
-3.  UNITOFMEASURE - Dynamics 365 for Sales synchronization job  
-4.  CUSTOMER - Dynamics 365 for Sales synchronization job  
-5.  CONTACTS - Dynamics 365 for Sales synchronization job  
-6.  RESOURCE-PRODUCT \- Dynamics 365 for Sales synchronization job  
-7.  ITEM-PRODUCT - Dynamics 365 for Sales synchronization job  
+1.  CURRENCY - Dynamics 365 Sales synchronization job  
+2.  SALEPEOPLE - Dynamics 365 Sales synchronization job  
+3.  UNITOFMEASURE - Dynamics 365 Sales synchronization job  
+4.  CUSTOMER - Dynamics 365 Sales synchronization job  
+5.  CONTACTS - Dynamics 365 Sales synchronization job  
+6.  RESOURCE-PRODUCT \- Dynamics 365 Sales synchronization job  
+7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
 
 You can view the results of the synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
@@ -78,7 +78,7 @@ You can view the results of the synchronization on the **Integration Synchroniza
 >  By modifying the integration table mapping in advance, you can configure the synchronization with filters to control which records are synchronized, or configure it to create new records in the destination solution for uncoupled records in the source. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### To synchronize records for all tables  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
 2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
 
 ## Synchronize Individual Table Mappings
@@ -91,5 +91,5 @@ By modifying the integration table mapping in advance, you can configure the syn
 2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
 
 ## See Also  
-[Synchronizing Business Central and Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

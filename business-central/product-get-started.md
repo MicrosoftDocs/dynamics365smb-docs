@@ -61,7 +61,7 @@ On the **Assisted Setup** page, you will find the following with the **Essential
 | Set Up Reporting |Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Set Up an Item Approval Workflow |Sets up the ability to send a notification to an approver when a user changes or creates an item. |
 | Set Up a Payment Approval Workflow |Sets up the ability to send a notification to an approver when a user sends payment journal lines for approval. |
-| Set Up the Business Central Connector |Sets up a connection to Dynamics 365 for Sales, which allows you to synchronize data such as contacts and sales order information. |
+| Set Up the Business Central Connector |Sets up a connection to Dynamics 365 Sales, which allows you to synchronize data such as contacts and sales order information. |
 | Set Up Sales Tax |Gets you started with default tax groups and assigning tax area codes that you can assign to customers and vendors in order to automatically calculate sales tax in sales or purchase documents. |
 
 ## Trying things out in your own company

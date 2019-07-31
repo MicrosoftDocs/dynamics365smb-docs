@@ -68,7 +68,7 @@ It is possible to enable and try the advanced (full) functionality of [!INCLUDE[
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-After you’ve enabled the advanced functionality in a sandbox tenant, you get access to all the standard Profiles and Role Centers. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product.
+After you have enabled the advanced functionality in a sandbox tenant, you get access to all the standard profiles (roles) and Role Centers. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

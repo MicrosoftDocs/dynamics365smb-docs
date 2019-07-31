@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 07/23/2019
     ms.author: sgroespe
 
 ---
@@ -42,7 +42,7 @@ The following procedure describes how to archive a sales order. The steps are si
 2.  Open a sales order that you want to archive.  
 3.  Choose the **Archive Document** action.
 
-The sales order is archived. You can view it on the **Archived Sales orders** page.
+The sales order is archived. You can view it on the **Archived Sales Orders** page.
 
 ## To restore a non-posted sales order from the archive
 The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.

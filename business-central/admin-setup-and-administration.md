@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
 
 ---
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Add users, manage permissions and access to data, assign roles.|[Understanding Profiles and Role Centers](admin-users-profiles-roles.md)|  
+|Add users, manage permissions and access to data, assign roles.|[Understanding Profiles (Roles) and Role Centers](admin-users-profiles-roles.md)|  
 |Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|

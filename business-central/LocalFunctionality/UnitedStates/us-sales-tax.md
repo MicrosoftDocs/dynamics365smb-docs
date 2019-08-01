@@ -9,12 +9,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: local
-    ms.date: 04/01/2019
+    ms.date: 08/01/2019
     ms.author: edupont
 
 ---
 # Reporting Sales Tax in the US
-When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. This is explained [in our blog post](https://community.dynamics.com/business/b/financials/archive/2016/05/09/sales-tax-setup-made-easy).
+When you first start using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. Just search for the **Set Up Sales Tax** assisted setup guide, and then follow the steps in the guide. This includes specifying the accounts that you want to use for sales tax for sales and purchases.  
+
+We recommend that you choose to apply the new tax area to your own company information. If you also choose to apply it to customers or vendors, you'll be asked if you want to set a filter for which customers or vendors you want to apply the information to. For example, you can choose to apply the tax area to those customers that are in your own city or county, or to all customers.
+
+Who you assign the tax area codes to will determine the taxes that are calculated on your sales and purchasing transactions.
+
 If you move to the empty My Company, we recommend that you start by using each of the assisted setup guides, including the one for sales tax. If you prefer to set up sales tax yourself, this article explains what you have to take into consideration.  
 
 ## Tax Groups, Tax Areas, and Tax Jurisdictions

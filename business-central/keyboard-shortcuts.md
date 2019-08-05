@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 07/29/2019
+ms.date: 08/05/2019
 ms.author: sgroespe
 ---
 
@@ -72,8 +72,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |-----------------|-------|-------|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus remains in the same column.|Move to the first tile in first row. |
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus remains in the same column.|Move to the last tile in last row.|
+|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus remains in the same column.|Move to the first tile in the first row. |
+|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus remains in the same column.|Move to the last tile in the last row.|
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.|
 |End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.|
 |Enter|Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record.|Opens the record.<br /><br />Only relevant if a card page is associated with the record.|
@@ -156,7 +156,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 |Press these keys<br />(in macOS)|To do this|
 |-----------------|-------|
-|Ctrl+Home|Open the calendar if closed.|
+|Ctrl+Home|Open the calendar if closed. **Note**: This does not work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
 |Ctrl+Right Arrow<br />(Cmd+Right Arrow)|Move to the next day.|

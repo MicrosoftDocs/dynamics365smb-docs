@@ -8,7 +8,6 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 08/02/2019
 ms.author: edupont
-
 ---
 # Understanding Users, Roles, and Profiles
 

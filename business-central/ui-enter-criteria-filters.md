@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/25/2019
+ms.date: 08/06/2019
 ms.author: sgroespe
 
 ---
@@ -79,7 +79,7 @@ For lists, the filters are displayed on a filter pane that appears to the left o
 ### Limitation for Option Fields
 For "ordinary" fields that hold data, setup date or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-For options fields, however, you can only add a filter by selecting one option at a time. An example of an option field is the **Status** field on the **Sales Orders** page.
+For options fields, however, you can only set a filter by selecting one or more options from a drop-down of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
 
 ### Setting Filters on Lists
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.

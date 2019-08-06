@@ -14,8 +14,6 @@ ms.author: sgroespe
 
 # Keyboard Shortcuts (PC only)
 
-[!INCLUDE[vnext_preview](includes/vnext_preview.md)]
-
 ||||  
 |----------------|-----------|----------------|
 |**General**|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+Q<br />Alt+Up<br />Alt+Down Arrow<br />Alt+Right Arrow<br />Alt+T<br />Ctrl+Alt+Shift+C<br />Ctrl+Alt+F1<br />Ctrl+F1<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Show and hide the FactBox pane<br />Create a new record<br />Close the record and create a new record<br />Open **Tell me**<br />Open tooltip or validation error<br />Open a drop-down or look up<br />See the transactions for calculated value<br />Open the **My Settings** page<br />Display information in the company badge<br />Inspect the page<br />Open help for the page<br />Refresh/reload page<br />Move focus to the next/previous element|

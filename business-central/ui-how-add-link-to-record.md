@@ -9,13 +9,10 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/30/2019
+    ms.date: 08/06/2019
     ms.author: sgroespe
 ---
 # Manage Attachments, Links, and Notes on Cards and Documents
-
-> [!NOTE]
-> [!INCLUDE[vnext_preview](includes/vnext_preview.md)]
 
 In the FactBox on most cards and documents, you can attach files, add links, and write notes. For links and notes, you can also do this on the list page by first selecting the related line.
 

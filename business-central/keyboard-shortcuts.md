@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/05/2019
+ms.date: 08/06/2019
 ms.author: sgroespe
 ---
 
@@ -64,7 +64,7 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
-|Shift+F10 |Open a menu of options that are available for the selected row.|Not applicable.|
+|Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
 |Alt+N |Open a page to create a new record; the same way as selecting the **New** action. |Same.|
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |Same.|
 

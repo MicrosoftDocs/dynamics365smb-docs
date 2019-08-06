@@ -81,6 +81,9 @@ For "ordinary" fields that hold data, setup date or business data, you can set f
 
 For options fields, however, you can only set a filter by selecting one or more options from a drop-down of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
 
+> [!NOTE]
+> When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
+
 ### Setting Filters on Lists
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
 

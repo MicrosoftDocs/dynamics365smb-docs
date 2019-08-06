@@ -21,7 +21,7 @@ This article provides an overview of some of the shortcut key combinations that 
 >[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## Overview
-The keyboard shortcuts aide accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
+The keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
 
 The keyboard shortcuts are supported by most web browsers; however, the behavior may vary slightly.
 
@@ -30,7 +30,7 @@ The keyboard shortcuts described here refer to the U.S. keyboard layout. The lay
 Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of feature-specific shortcuts are available. For example, **F7** opens the **Statistics** page for a number of cards and documents, such as the **Customer Card** page. The keyboard shortcut is displayed behind the tooltip for the action in question, for example, the tooltip for the **Statistics** action on the **Customer Card** page.
+> In addition to the global keyboard shortcuts described in this topic, a number of feature-specific shortcuts are available. For example, **F9** posts a document and **Ctrl+F7** shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.

@@ -1,1 +1,1 @@
-Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)
+Get [training!](/dynamics365/get-started/training/)

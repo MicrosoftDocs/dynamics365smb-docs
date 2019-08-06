@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting Started | Microsoft Docs
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
 author: edupont04
@@ -83,7 +83,7 @@ If you have additional questions, we recommend that you ask the community or con
 Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## Other Dynamics 365 apps
-Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](https://docs.microsoft.com/dynamics365) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](/dynamics365/) link in the blue banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -95,7 +95,7 @@ If you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Dynamics 365 Documentation](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dynamics 365 Documentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

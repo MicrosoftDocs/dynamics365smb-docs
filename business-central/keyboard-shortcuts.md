@@ -48,7 +48,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Enter|Enable or access the element or control that is in focus.|
-|Esc|Close the current page or drop-down.|
+|Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
 

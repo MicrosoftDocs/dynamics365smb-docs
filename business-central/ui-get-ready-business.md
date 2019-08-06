@@ -16,7 +16,7 @@ ms.author: solsen
 # Getting Ready for Doing Business
 Congratulations, you have just initiated your first company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-To help you get ready for doing business, you can visit the **Business Assistance** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. You access the page from the chart on the **Business Manager** Role Center by choosing the **Business Assistance** drop-down, and then choosing the **Show Setup and Help Resources** action. When you refresh the page, the chart is replaced with the setup and help resources.
+To help you get ready for doing business, you can visit the **Business Assistance** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. You access the page from the chart on the **Business Manager** Role Center by choosing the **Business Assistance** drop-down arrow, and then choosing the **Show Setup and Help Resources** action. When you refresh the page, the chart is replaced with the setup and help resources.
 
 Alternatively, to open the list of assisted setup guides, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 

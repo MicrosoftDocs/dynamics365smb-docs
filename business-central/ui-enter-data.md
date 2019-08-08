@@ -103,9 +103,9 @@ When working on multiple tasks at a time and when managing interruptions to the 
 
 You can open the new window either from a list of cards or documents and from the card or document itself.
 
-To open a card or document in a new window from a card or document, choose ![Open New Window](media/enter-new-window.png "Focus mode icon") or press Alt+Shift+W.
+To open a card or document in a new window, from a card or document, choose ![Open New Window](media/enter-new-window.png "Open new window icon") or press Alt+Shift+W.
 
-To open a card or document from a list, select the line item, and then choose ![Open New Window](media/enter-new-window.png "Focus mode icon") or press **** .  
+To open a card or document from a list, select the line item, and then choose ![Open New Window](media/enter-new-window.png "Open new window icon") or press **** .  
 
 ## Entering Quantities by Calculation
 

@@ -1,7 +1,7 @@
 ---
-title: How to Enter Data in Fields| Microsoft Docs
+title: How to Enter Data in Business Central| Microsoft Docs
 description: Learn about general features that help you enter data in fields.
-author: jswymer
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/03/2019
-ms.author: jswymer
+ms.date: 08/08/2019
+ms.author: sgroespe
 ---
 
 # Entering Data
@@ -35,9 +35,9 @@ You might already be familiar with using the Tab key to navigate from one field 
 
 Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Keyboard Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
-#### Tips and tricks
+#### Tips and Tricks
 The following provides some useful information about using Quick Entry.
 
 - It is available for any editable fields.
@@ -47,11 +47,11 @@ The following provides some useful information about using Quick Entry.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
-### How to Change Quick Entry Fields
+### To change Quick Entry fields
 
 To change which fields are included in or excluded from Quick Entry on a page, you use personalization.
 
-1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then the **Personalize** action.
 2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
 For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
@@ -78,23 +78,32 @@ You can copy one or more rows from a list or a single field on a page, and then 
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).
+For more information, see [Copying and Pasting](ui-copy-paste.md).
 
 ## <a name="Focus"></a>Focusing on Line Items
 
-When working on documents that include a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
+When working on documents that include a line items part, such as a sales order or invoice page, you can switch your view to focus only on the line items. The line items part then expands so that it occupies pretty much the entire workspace, hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them.
 
-Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
+This is particularly beneficial when working with large line item lists and when fast data entry is desired. Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
 ### Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
-### Filtering the Line Items
+### Multitasking Across Multiple Pages
+When working on multiple tasks at a time and when managing interruptions to the current task, such as when a call comes in, you can open a card or document page in another window. This allows you to, for example, keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+You can open the new window either from a list of cards or documents and from the card or document itself.
+
+To open a card or document in a new window from a card or document, choose *** ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Alt+Shift+W.
+
+To open a card or document from a list, select the line item, and then choose *** ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press **** .  
+
+### Filtering Line Items
+
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
 
 Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 

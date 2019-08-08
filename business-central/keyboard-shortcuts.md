@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/06/2019
+ms.date: 08/07/2019
 ms.author: sgroespe
 ---
 
@@ -30,7 +30,7 @@ The keyboard shortcuts described here refer to the U.S. keyboard layout. The lay
 Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of feature-specific shortcuts are available. For example, **F9** posts a document and **Ctrl+F7** shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, **F9** posts a document and **Ctrl+F7** shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.

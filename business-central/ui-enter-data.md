@@ -80,6 +80,12 @@ In a list, to copy the field in the same column of the row above, and paste it i
 
 For more information, see [Copying and Pasting](ui-copy-paste.md).
 
+## Filtering Line Items
+
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+
+Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
+
 ## <a name="Focus"></a>Focusing on Line Items
 
 When working on documents that include a line items part, such as a sales order or invoice page, you can switch your view to focus only on the line items. The line items part then expands so that it occupies pretty much the entire workspace, hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them.
@@ -92,20 +98,14 @@ To focus on lines items, select anywhere in the line item part, and then choose 
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
-### Multitasking Across Multiple Pages
+## Multitasking Across Multiple Pages
 When working on multiple tasks at a time and when managing interruptions to the current task, such as when a call comes in, you can open a card or document page in another window. This allows you to, for example, keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
 You can open the new window either from a list of cards or documents and from the card or document itself.
 
-To open a card or document in a new window from a card or document, choose *** ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Alt+Shift+W.
+To open a card or document in a new window from a card or document, choose ![Open New Window](media/enter-new-window.png "Focus mode icon") or press Alt+Shift+W.
 
-To open a card or document from a list, select the line item, and then choose *** ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press **** .  
-
-### Filtering Line Items
-
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
-
-Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
+To open a card or document from a list, select the line item, and then choose ![Open New Window](media/enter-new-window.png "Focus mode icon") or press **** .  
 
 ## Entering Quantities by Calculation
 

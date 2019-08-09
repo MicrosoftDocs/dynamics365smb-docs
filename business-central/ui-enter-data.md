@@ -99,12 +99,12 @@ To focus on lines items, select anywhere in the line item part, and then choose 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ## Multitasking Across Multiple Pages
-When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in another window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
 To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in new window, those pages will open in new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon"). 
+> When you open other pages from a card or document that is opened in new window, those pages will open in new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
 
 ## Entering Quantities by Calculation
 

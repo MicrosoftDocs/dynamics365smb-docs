@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/07/2019
+ms.date: 08/09/2019
 ms.author: sgroespe
 ---
 
@@ -30,7 +30,7 @@ The keyboard shortcuts described here refer to the U.S. keyboard layout. The lay
 Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, **F9** posts a document and **Ctrl+F7** shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, F9 posts a document and Ctrl+F7 shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -131,8 +131,8 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
-|Ctrl+Shift+F12 |Maximize the line items part in a document page, like a sales order or invoice. Other parts of the page are hidden, and the line items part expands to entire workspace. Press the keys again to return to the normal display.<br /><br />For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
-|Alt+Shift+W |Open the current card or document in a new window.<br /><br />For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Shift+F12 |Maximize the line items part on a document page. Press the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
+|Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |F6|Move to next FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 

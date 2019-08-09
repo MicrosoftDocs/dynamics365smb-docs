@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 08/08/2019
+ms.date: 08/09/2019
 ms.author: sgroespe
 ---
 
@@ -99,13 +99,12 @@ To focus on lines items, select anywhere in the line item part, and then choose 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
 ## Multitasking Across Multiple Pages
-When working on multiple tasks at a time and when managing interruptions to the current task, such as when a call comes in, you can open a card or document page in another window. This allows you to, for example, keep a window open for an ongoing task while you start or complete another task in one or more other windows.
-
-You can open the new window either from a list of cards or documents or from the card or document itself.
-
-To open a card or document in a new window from a list, select the relevant line, and then choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press **** .  
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in another window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
 To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+
+> [!NOTE]
+> When you open other pages from a card or document that is opened in new window, those pages will open in a new window even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon"). 
 
 ## Entering Quantities by Calculation
 

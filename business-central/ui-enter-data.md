@@ -104,7 +104,7 @@ When working on multiple tasks at a time or when managing interruptions to the c
 To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in new window, those pages will open in a new window even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon"). 
+> When you open other pages from a card or document that is opened in new window, those pages will open in new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon"). 
 
 ## Entering Quantities by Calculation
 

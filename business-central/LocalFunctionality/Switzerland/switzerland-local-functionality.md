@@ -60,7 +60,6 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 * Inventory
     * [Swiss Inventory Management](swiss-inventory-management.md) **Available Now**
-    * [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md)
     * [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md) **Available Now**
 
 * General    

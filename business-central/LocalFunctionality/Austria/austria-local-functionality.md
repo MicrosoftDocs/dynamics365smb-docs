@@ -38,7 +38,6 @@ The following topics describe local functionality that is unique to the Austrian
     * [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**
 
 * General
-    * [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md) **Available Now**
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
     * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
 

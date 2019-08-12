@@ -61,8 +61,7 @@ The following topics describe local functionality that is unique to the German v
     * [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Available Now**
     * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
-    * [Copy Existing Items to New Items](how-to-copy-existing-items-to-new-items.md) **Available Now**
-
+    
 ## See Also
 [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

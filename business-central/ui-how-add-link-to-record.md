@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/06/2019
+    ms.date: 08/15/2019
     ms.author: sgroespe
 ---
 # Manage Attachments, Links, and Notes on Cards and Documents
@@ -49,10 +49,10 @@ The following procedure is based on an item card. The steps are similar for all 
 
     - To link to a file on your computer or network, enter the full path and file name, such as **C:\My Documents\invoice1.doc**.
     - To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    - To link to a program, enter a specific string to open the program. For example, to open OneNote with a specific page, enter **onenote:///C:\My Documents/test.one**. Or, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
+    - To link to a program, enter a specific string to open the program. For example, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
 
-5.  In the **Description** field, enter any information about the link.  
-6.  Choose the **OK** button.
+5. In the **Description** field, enter any information about the link.  
+6. Choose the **OK** button.
 
 The link is now attached to the item card.  
 

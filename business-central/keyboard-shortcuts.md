@@ -53,7 +53,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the   button. This is used when the drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 
 ## Keyboard Shortcuts in Lists
 

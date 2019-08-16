@@ -13,7 +13,7 @@ ms.date: 08/16/2019
 ms.author: sgroespe
 
 ---
-# Finding and Navigating Pages with the Roles Explorer
+# Finding and Navigating Pages with the Role Explorer
 The Role Explorer gives you an overview of pages for your role and for other roles. You can also use it to navigate to pages.
 
 ## See Also

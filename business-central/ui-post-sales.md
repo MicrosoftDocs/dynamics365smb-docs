@@ -42,5 +42,5 @@ When the posting is completed, the posted sales lines are removed from the order
 [Sales](sales-manage-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
-[Using Tell Me to Find Features and Information](ui-search.md)  
+[Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

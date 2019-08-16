@@ -44,5 +44,5 @@ When the posting is completed, the posted purchase lines are removed from the or
 [Purchasing](purchasing-manage-purchasing.md)  
 [Post Documents and Journals](ui-post-documents-journals.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Using Tell Me to Find Features and Information](ui-search.md)  
+[Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

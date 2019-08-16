@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/30/2019
+ms.date: 08/16/2019
 ms.author: sgroespe
 
 ---
@@ -25,7 +25,8 @@ The following table lists some of the general functionality with links to topics
 
 | To | See |
 | --- | --- |
-| Find a specific page, report, action, help topic, or partner extension. |[Using Tell Me to Find Features and Information](ui-search.md) |
+|Find a specific page, report, action, help topic, or partner extension. |[Finding Pages and Information with Tell Me](ui-search.md) |
+|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding and Navigating Pages with Role Explorer](ui-role-explorer.md)|
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
 | View or process data in specific date ranges. |[Working with Calendar Dates and Times](ui-enter-date-ranges.md) |

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/09/2019
+ms.date: 08/16/2019
 ms.author: sgroespe
 ---
 
@@ -38,7 +38,6 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
-|Alt+Right Arrow|See the transactions that resulted in a calculated value in a field.|  
 |Alt+F2|Show and hide the FactBox pane.|
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open the **My Settings** page.|
@@ -54,6 +53,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the   button. This is used when the drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 
 ## Keyboard Shortcuts in Lists
 

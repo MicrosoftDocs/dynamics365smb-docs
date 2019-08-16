@@ -38,22 +38,22 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
+|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press Alt+Up Arrow to show the validation error. Press Esc or Alt+Up Arrow to close the tooltip.|
 |Alt+F2|Show and hide the FactBox pane.|
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open the **My Settings** page.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
-|Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press "Alt+Up Arrow" to show the validation error. Press "Esc" or "Alt+Up Arrow" to close the tooltip.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
 |Ctrl+F1|Open the Business Central help for the page.|
+|Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
-|Ctrl+F12|Switch between wide and narrow layout view.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 
 ## Keyboard Shortcuts in Lists
 

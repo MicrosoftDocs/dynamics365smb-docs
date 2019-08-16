@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2019
+ms.date: 08/15/2019
 ms.author: jswymer
 ---
 
@@ -20,10 +20,10 @@ There are several other keyboard shortcuts for copying and pasting that help you
 This article answers common questions you might have about copying and pasting.  
 
 ## What can I copy and paste?
--   Copy one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the same list, or to any list with identical columns.
--   Copy one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste into Excel or other applications.
--   Copy one or more rows in Excel and paste into a [!INCLUDE[d365fin](includes/d365fin_md.md)] list.
--   Copy the value of an individual field in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste it anywhere.
+- Copy one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the same list, or to any list with identical columns.
+- Copy one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste into Excel or other applications.
+- Copy one or more rows in Excel and paste into a [!INCLUDE[d365fin](includes/d365fin_md.md)] list.
+- Copy the value of an individual field in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste it anywhere.
 
 ## Does copy and paste work with tiles?
 Yes, but only for a single selected tile.
@@ -32,15 +32,15 @@ Yes, but only for a single selected tile.
 To copy a single record, select it, and press Ctrl+C.
 
 If you want to copy more records, you can:
--   Press Ctrl+Click on another record or press Shift+Click to select the record and all records in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting records.
--   Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a record, choose **Select More**, select the check box next to each record that you want to copy, and then press Ctrl+C.
+- Press Ctrl+Click on another record or press Shift+Click to select the record and all records in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting records.
+- Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column of a record, choose **Select More**, select the check box next to each record that you want to copy, and then press Ctrl+C.
 
 ## How do I paste records?
 Select an empty row, and press Crtl+V. If you want to replace existing records, select the records and press Crtl+V. In this case, you can only paste the same number of records that you selected.
 
 <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
 
-## Can I paste records into an Outlook email or OneNote?
+## Can I paste records into an Outlook email?
 Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## In which lists can I copy and paste records?

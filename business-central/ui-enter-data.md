@@ -72,13 +72,13 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
-## Copying and Pasting Fields and Lines
+## Copying and Pasting FAQ Fields and Lines
 
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting](ui-copy-paste.md).
+For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
 
 ## Filtering Line Items
 

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/19/2019
+ms.date: 08/20/2019
 ms.author: sgroespe
 
 ---

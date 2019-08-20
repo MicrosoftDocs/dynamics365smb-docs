@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Item Application | Microsoft Docs
-    description: This topic describes how item application happens when you post an inventory transaction.
+    title: Design Details - Item Tracking and Planning | Microsoft Docs
+    description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -10,235 +10,47 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords: design, item, item ledger, costing
-    ms.date: 04/01/2019
+    ms.search.keywords:
+    ms.date: 08/20/2019
     ms.author: sgroespe
 
 ---
-# Design Details: Item Application
-When you post an inventory transaction, the quantity posting is recorded in the item ledger entries, the value posting in the value entries. For more information, see [Design Details: Inventory Posting](design-details-inventory-posting.md).  
-  
-In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).  
-  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] makes two types of item application.  
-  
-|Application type|Description|  
-|----------------------|---------------------------------------|  
-|Quantity application|Created for all inventory transactions|  
-|Cost application|Created for inbound entries together with a quantity application as a result of user interaction in special processes.|  
-  
-Item applications can be made in the following ways.  
-  
-|Method|Description|Application type|  
-|------------|---------------------------------------|----------------------|  
-|Automatic|Occurs as general cost forwarding according to the costing method|Quantity application|  
-|Fixed|Made by the user when:<br /><br /> -   Processing returns<br />-   Posting corrections<br />-   Undoing quantity postings<br />-   Creating drop shipments **Note:**  The fixed application can be  made either manually by entering an entry number in the **Appl.-from Item Entry** field or by using a function, such as the **Get Posted Document Lines to Reverse**.|Quantity application<br /><br /> Cost application **Note:**  Cost application only occurs in inbound transactions where the **Appl.-from Item Entry** field is filled to create a fixed application. See the next table.|  
-  
-Whether quantity applications or cost applications are made depends on the direction of the inventory transaction and whether the item application is made automatically or fixed, in connection with special processes.  
-  
-The following table shows, based on the central application fields on inventory transaction lines, how costs flow depending on the transaction direction. It also indicates when and why the item application is of type quantity or cost.  
-  
-||Appl.-to Item Entry field|Appl.-from Item Entry field|  
-|-|--------------------------------|----------------------------------|  
-|Application for outbound entry|The outbound entry pulls the cost from the open inbound entry.<br /><br /> **Quantity application**|Not supported|  
-|Application for inbound entry|The inbound entry pushes the cost onto the open outbound entry.<br /><br /> The inbound entry is the cost source.<br /><br /> **Quantity application**|The inbound entry pulls the cost from the outbound entry. **Note:**  When making this fixed application, the inbound transaction is treated as a sales return. Therefore, the applied outbound entry remains open. <br /><br /> The inbound entry is NOT the cost source.<br /><br /> **Cost application**|  
-  
-> [!IMPORTANT]  
->  A sales return is NOT considered a cost source when fixed applied.  
->   
->  The sales entry remains open until the real source is posted.  
-  
-An item application entry records the following information.  
-  
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**Item Ledger Entry No.**|The number of the item ledger entry for the transaction that this application entry is created for.|  
-|**Inbound Item Entry No.**|The item ledger entry number of the inventory increase to which the transaction should be linked, if applicable.|  
-|**Outbound Item Entry No.**|The item ledger entry number of the inventory decrease to which the transaction should be linked, if applicable.|  
-|**Quantity**|The quantity being applied.|  
-|**Posting Date**|The posting date of the transaction.|  
-  
-## Inventory Increase  
-When you post an inventory increase, then a simple item application entry is recorded without an application to an outbound entry.  
-  
-### Example  
-The following table shows the item application entry that is created when you post a purchase receipt of 10 units.  
-  
-|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
-|------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
-  
-## Inventory Decrease  
-When you post an inventory decrease, an item application entry is created that links the inventory decrease to an inventory increase. This link is created by using the item’s costing method as a guideline. For items using FIFO, Standard, and Average costing methods, the linking is based on the first-in-first-out principle. The inventory decrease is applied to the inventory increase with the earliest posting date. For items using the LIFO costing method, the linking is based on the last-in-first-out principle. The inventory decrease is applied to the inventory increase with the most recent posting date.  
-  
-In the  **Item Ledger Entry** table, the **Remaining Quantity** field shows the quantity that has not yet been applied. If the remaining quantity is more than 0, then the **Open** check box is selected.  
-  
-### Example  
-The following example shows the item application entry that is created when you post a sales shipment of 5 units of the items that were received in the previous example. The first item application entry is the purchase receipt. The second application entry is the sales shipment.  
-  
-The following table shows the two item application entries that result from the inventory increase and the inventory decrease, respectively.  
-  
-|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
-|------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|1|0|10|1|  
-|01-03-20|1|2|-5|2|  
-  
-## Fixed Application  
-You make a fixed application when you specify that the cost of an inventory increase should apply to a specific inventory decrease, or vice versa. The fixed application affects the remaining quantities of the entries, but the fixed application also reverses the exact cost of the original entry that you are applying to, or from.  
-  
-To make a fixed application, you use the **Appl.-to Item Entry** field or the **Appl.-from Item Entry** field in the document lines to specify the item ledger entry that you want the transaction line to apply to, or from. For example, you might make a fixed application when you want to create a cost application that specifies that a sales return should apply to a specific sales shipment to reverse the cost of the sales shipment. In this case, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignores the costing method and applies the inventory decrease, or increase, for a sales return, to the item ledger entry that you specify. The advantage of making a fixed application is that the cost of the original transaction is passed to the new transaction.  
-  
-### Example – Fixed Application in Purchase Return  
-The following example, which illustrates the effect of fixed application of a purchase return of an item using the FIFO costing method, is based on the following scenario:  
-  
-1. In entry number 1, the user posts a purchase at a cost of LCY 10.00.  
-2. In entry number 2, the user posts a purchase at a cost of LCY 20.00.  
-3. In entry number 3, the user posts a purchase return. The user makes a fixed application to the second purchase by entering the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line.  
-  
-The following table shows item ledger entries resulting from the scenario.  
-  
-|**Posting Date**|**Item Ledger Entry Type**|**Quantity**|**Cost Amount (Actual)**|**Item Ledger Entry No.**|  
-|----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Purchase|10|10.00|1|  
-|01-05-20|Purchase|10|20.00|2|  
-|01-06-20|Purchase (Return)|-10|-20.00|3|  
-  
-Because a fixed application is made from the purchase return to the second purchase entry, the items are returned at the correct cost. If the user had not performed the fixed application, then the returned item would be incorrectly valued at LCY 10.00 because the return would have been applied to the first purchase entry according to the FIFO principle.  
-  
-The following table shows the item application entry that results from the fixed application.  
-  
-|Posting Date|Inbound Item Entry No.|Outbound Item Entry No.|Quantity|Item Ledger Entry No.|  
-|------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
-  
-The cost of the second purchase, LCY 20.00, is passed correctly to the purchase return.  
-  
-### Example – Fixed Application with Average Cost  
-The following example, which illustrates the effect of fixed application, is based on the following scenario for an item that uses the Average costing method:  
-  
-1. In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
-2. In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
-3. In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00  
-4. In entry number 5, the user posts a sales invoice.  
-5. The inventory quantity is 0, and the inventory value is also 0.00  
-  
-The following table shows the result of the scenario on the item’s value entries.  
-  
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
-|-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|200.00||No|1|1|  
-|01-01-20|Purchase|1|1000.00||No|2|2|  
-|01-01-20|Purchase|-1|-1000|2|No|3|3|  
-|01-01-20|Purchase|1|100.00||No|4|4|  
-|01-01-20|Sale|-2|-300.00||Yes|5|5|  
-  
-If the user had not made the fixed application between the purchase credit memo and the purchase with the incorrect direct unit cost (step 2 in the previous scenario), then the cost would have been adjusted differently.  
-  
-The following table shows the result on the item’s value entries if step 2 in the previous scenario is performed without a fixed application.  
-  
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
-|-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|200.00||No|1|1|  
-|01-01-20|Purchase|1|1000.00||No|2|2|  
-|01-01-20|Purchase|-1|433,33||Yes|3|3|  
-|01-01-20|Purchase|1|100.00||No|4|4|  
-|01-01-20|Sale|-2|866,67||Yes|5|5|  
-  
-In entry number 3, the value in the **Cost Amount (Actual)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes -433,33, which is an inflated cost amount. The calculation is 1300 / 3 = .-433,33.  
-  
-In entry number 5, the value of the **Cost Amount (Actual)** field for this entry is also inaccurate for the same reason.  
-  
-> [!NOTE]  
->  If you create a fixed application for an inventory decrease for an item that uses the Average costing method, then the decrease will not receive the average cost for the item as usual, but will instead receive the cost of the inventory increase that you specified. That inventory decrease is then no longer part of the average cost calculation.  
-  
-### Example – Fixed Application in Sales Return  
-Fixed applications are also a very good means of reversing cost exactly, such as with sales returns.  
-  
-The following example, which illustrates how a fixed application ensures exact cost reversal, is based on the following scenario:  
-  
-1. The user posts a purchase invoice.  
-2. The user posts a sales invoice.  
-3. The user posts a sales credit memo for the returned item, which applies to the sales entry, to reverse the cost correctly.  
-4. A freight cost, related to the purchase order that was posted earlier, arrives. The user posts it as an item charge.  
-  
-The following table shows the result of scenario steps 1 through 3 on the item’s value entries.  
-  
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
-|-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|1000.00||1|1|  
-|02-01-20|Sale|-1|1000.00||2|2|  
-|03-01-20|Sale (Credit Memo)|1|1000|2|3|3|  
-  
-The following table shows the value entry resulting from scenario step 4, posting the item charge.  
-  
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
-|-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Item Charge)|1|100.00||1|4|  
-  
-The following table shows the effect of the exact cost reversal on the item’s value entries.  
-  
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-from Item Entry|Item Ledger Entry No.|Entry No.|  
-|-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|1000.00||1|1|  
-|02-01-20|Sale|-1|1100.00||2|2|  
-|03-01-20|Sale (Credit Memo)|1|1100.00|2|3|3|  
-|04-01-20|(Item Charge)|1|100.00||1|4|  
-  
-When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
-  
-> [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
-  
-> [!NOTE]  
->  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  
-  
-## Transfer Application  
-When an item is transferred from one location to another, inside the company inventory, then an application is created between the two transfer entries. Valuing a transfer entry depends on the costing method. For items using the Average costing method, valuation is made using the average cost in the average cost period in which the valuation date of the transfer occurs. For items using other costing methods, valuation is made by tracing back to the cost of the original inventory increase.  
-  
-### Example – Average Costing Method  
-The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Average costing method and an average cost period of Day.  
-  
-1. The user purchases the item at a cost of LCY 10.00.  
-2. The user purchases the item again at a cost of LCY 20.00.  
-3. The user transfers the item from BLUE to RED location.  
-  
-The following table shows the effect of the transfer on the item’s value entries.  
-  
-|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
-|-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|01-01-20|Purchase|BLUE|1|20.00|2|  
-|02-01-20|Transfer|BLUE|-1|15.00|3|  
-|02-01-20|Transfer|RED|1|15.00|4|  
-  
-### Example – Standard Costing Method  
-The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Standard costing method and an average cost period of Day.  
-  
-1. The user purchases the item at a standard cost of LCY 10.00.  
-2. The user transfers the item from BLUE to RED location at a standard cost of LCY 12.00.  
-  
-The following table shows the effect of the transfer on the item’s value entries.  
-  
-|Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
-|-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|02-01-20|Transfer|BLUE|-1|10.00|2|  
-|02-01-20|Transfer|RED|1|10.00|3|  
-  
-Since the value of the original inventory increase is LCY 10.00, the transfer is valued at that cost, not at LCY 12.00.  
-  
-## Reapplication  
-Because of the way an item’s unit cost is calculated, an incorrect item application could lead to a skewed average cost and unit cost. The following scenarios may cause incorrect item applications, which require that you undo item applications and reapply item ledger entries:  
-  
-* You have forgotten to make a fixed application.  
-* You have made an incorrect fixed application.  
-* You want to overrule the application created automatically when posting, according to the item’s costing method.  
-* You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.  
-  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] offers a feature for analyzing and correcting item applications. This work is performed on the **Application Worksheet** page.  
-  
+# Design Details: Item Tracking and Planning
+Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records. This means that items with order tracking records can be assigned item tracking numbers. Conversely, items that have item tracking numbers can become order tracking records. For more information, see [Design Details: Item Tracking Design](design-details-item-tracking-design.md).
+
+For more information about the integrated systems, see [Design Details: Reservations, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).
+
+Because order tracking is only concerned with specific item application, the coordination with item tracking numbers only applies to items that are set up to use specific item tracking. This is set by the **SN Specific Tracking** and **Lot Specific Tracking** fields on the item card, which specify the following:
+
+- The item must carry a serial number or lot number when it is posted.
+- The item must apply to the same serial number or lot number when it is posted outbound.
+
+In alignment with standard supply/demand balancing principles, the planning system and the related order tracking feature only match supply and demand carrying item tracking numbers if the item in question uses specific item tracking. In all other cases, the planning and order tracking systems ignore item tracking numbers when they apply supply to meet demand or apply demand to supply. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).
+
+For example, when order tracking exists for a given item, it implies that records for the item are already in the **Reservation Entry** table, which is the core of the reservation system, before the item tracking numbers are defined. Therefore, the following coupling restrictions apply to the item tracking numbers to be order tracked:
+
+- Demand with a serial number or lot number can only cover supply with the same serial number or lot number.
+- Demand without a serial or lot number can cover any supply, with or without a serial or lot number.
+
+Apart from their consequences on dynamic order tracking, the item tracking coupling restrictions do not affect the planning system significantly.
+
+On the supply side, a serial or lot number is typically not entered until immediately before the order is posted, such as a purchase receipt into the warehouse. When entering a serial or lot number on the demand side, such as on a sales order, that serial or lot number is already in inventory. Accordingly, item tracking numbers are typically not an issue in supply planning.
+
+For items that use specific item tracking, all demand carrying serial or lot numbers must be matched by corresponding supply. In most cases, it does not make sense to reorder a specific serial or lot number, so the planning of purchase or production supplies is probably not affected. However, when transferring items from one location to another, it is likely that the transfer is for a specific lot, so planning transfer supplies might be affected by the specific coupling restriction.
+
+For more information, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).
+
+## Balancing Demand and Supply
+If an item requires specific item tracking, then an order tracking link is made from all the item’s item tracking demand to any corresponding item tracking supply, with the sole limitation that supply should come before demand. If, under those circumstances, no item tracking supply can be found that corresponds to the item tracking-specific demand, then a new item tracking supply is created immediately and without considering order sizing, planning parameters, or rescheduling of existing supply of the same serial or lot number.
+
+If item tracking numbers are assigned on the demand side or on the supply side without requiring specific item tracking, then an order track link is made from the demand to that supply, based on the most suitable timing and quantity, as in the usual balancing procedure. The specified item tracking number goes into the order tracking record in the same way that any specified item tracking quantity defines one end of the order tracking link. This means that the item tracking number that is entered is preserved while it is also part of the order tracking record.
+
+If item tracking numbers are assigned on the supply side without requiring specific item tracking, then this supply is regarded as fixed by the planning system. No resizing or rescheduling is suggested for this supply, but the supply is taken into consideration when the planning system tries to meet the gross requirements.
+
+For more information, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
+
 ## See Also  
-[Design Details: Inventory Costing](design-details-inventory-costing.md)  
-[Design Details: Costing Methods](design-details-costing-methods.md)  
-[Design Details: Average Cost](design-details-average-cost.md)  
-[Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
+[Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
+[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
+[Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   
+[Design Details: Supply Planning](design-details-supply-planning.md)  

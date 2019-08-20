@@ -25,7 +25,7 @@ Because order tracking is only concerned with specific item application, the coo
 - The item must carry a serial number or lot number when it is posted.
 - The item must apply to the same serial number or lot number when it is posted outbound.
 
-In alignment with standard supply/demand balancing principles, the planning system and the related order tracking feature only match supply and demand carrying item tracking numbers if the item in question uses specific item tracking. In all other cases, the planning and order tracking systems ignore item tracking numbers when they apply supply to meet demand or apply demand to supply. For more information, see “Design Details: Reservation, Order Tracking, and Action Messaging” in “Design Details: Supply Planning”.
+In alignment with standard supply/demand balancing principles, the planning system and the related order tracking feature only match supply and demand carrying item tracking numbers if the item in question uses specific item tracking. In all other cases, the planning and order tracking systems ignore item tracking numbers when they apply supply to meet demand or apply demand to supply. For more information, see [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md).
 
 For example, when order tracking exists for a given item, it implies that records for the item are already in the **Reservation Entry** table, which is the core of the reservation system, before the item tracking numbers are defined. Therefore, the following coupling restrictions apply to the item tracking numbers to be order tracked:
 
@@ -50,6 +50,7 @@ If item tracking numbers are assigned on the supply side without requiring speci
 For more information, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
 ## See Also  
+[Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)   
+[Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)  

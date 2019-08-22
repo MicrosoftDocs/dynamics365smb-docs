@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 06/25/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
 
 ---
@@ -17,17 +17,11 @@ ms.author: sgroespe
 
 You can personalize your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 
-Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns, and actions, moving and hiding entire parts, and more. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.  
-<!--
--   Add, move, and remove fields.
--   Add, move, and remove columns in a list.
--   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
--   Move and remove Cues (tiles).
--   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
+Depending on the type of page and what it includes, you can do various things, like moving or hiding fields, columns, and actions, moving and hiding entire parts, and more. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.
 
--->
 > [!NOTE]
-> In addition to what users can personalize, administrators and super users can override users' personalization and define which features are accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
+> Administrators can perform the same layout changes as users can by customizing the workspace for a role that multiple users are assigned. For more information, see [Customizing the Workspace for Roles](ui-personalization-manage.md)<br /><br />
+Administrators can also override or disable users' personalization, and they can define which features are even available for users to see accessible in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
 ## To change the width of a column
 You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.
@@ -117,7 +111,7 @@ At some point, you might want to undo some or all of the personalization changes
 
 ## See Also
 
-[Managing Personalization as an Administrator](ui-personalization-manage.md)  
+[Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

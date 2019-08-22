@@ -52,6 +52,6 @@ The reason for this is that the Role Center or role that is currently associated
 
 ## See Also
 [Personalizing Your Workspace](ui-personalization-user.md)  
-[Managing Personalization as an Administrator](ui-personalization-manage.md)  
+[Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Changing Which Features are Displayed](ui-experiences.md)  

@@ -330,6 +330,7 @@
 ### [Overview](ui-customizing-overview.md)
 ### Customizing Using Extensions
 #### [Overview](ui-extensions.md)
+#### [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)
 #### [Customizing Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
@@ -354,7 +355,7 @@
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ### [Changing Which Features are Displayed](ui-experiences.md)
-### [Managing Personalization as an Administrator](ui-personalization-manage.md)
+### [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)
 ### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 
 # Finance

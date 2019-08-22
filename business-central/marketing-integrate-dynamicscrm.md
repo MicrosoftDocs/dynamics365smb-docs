@@ -60,8 +60,8 @@ To check the progress of individual jobs in a full synchronization, on the **Dyn
 From the **Microsoft Dynamics 365 Connection Setup** page, you can get details about full synchronization at any time. From here, you can also open the **Integration Table Mappings** page to see details about the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Sales that must be synchronized.
 
 ## Handling Sales Order Data
-Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
-Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 Sales** page.
+Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will be automatically transferred to [!INCLUDE[d365fin](includes/d365fin_md.md)] if you select the **Automatically Create Sales Orders** check box on the **Microsoft Dynamics 365 Connection Setup** page.
+Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.
@@ -69,6 +69,9 @@ This can also work if the original sales order contains write-in products, meani
 If the description of the item on the original sales order is long, an additional sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Updates to sales order header fields, such as Last Shipment Date or Requested Delivery Date, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Periodical synchronization based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Conned to Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

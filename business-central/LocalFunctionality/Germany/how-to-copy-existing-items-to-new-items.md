@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 04/01/2019
     ms.author: sgroespe
+    redirect_url: ../../inventory-how-copy-items
 
 ---
 # Copy Existing Items to New Items

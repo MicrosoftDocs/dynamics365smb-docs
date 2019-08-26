@@ -33,17 +33,18 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 6. Define a name and choose the trigger you want to use for your Flow.
 7. From the list of available triggers, select one of the [!INCLUDE[d365fin](includes/d365fin_md.md)] triggers available:  
     
-    *When a vendor approval is requested*,  
-    *When a general journal line approval is requested*,
-    *When a record is deleted*,
-    *When a record is changed*,
-    *When a record is created*,
-    *When a record is modified*,
-    *When a general journal batch approval is requested*,
-    *When a customer approval is requested*,
-    *When an item approval is requested*,
-    *When a purchase document approval is requested*, or  
-    *When a sales document approval is requested*.
+    *When a vendor approval is requested*,    
+    *When a general journal line approval is requested*,    
+    *When a record is deleted*,    
+    *When a record is changed*,    
+    *When a record is created*,    
+    *When a record is modified*,    
+    *When a general journal batch approval is requested*,   
+    *When a customer approval is requested*,   
+    *When an item approval is requested*,    
+    *When a purchase document approval is requested*, or     
+     *When a sales document approval is requested*.
+     
 8. Flow will prompt you to select an environment and company within your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant, as well as any conditions in your data that you want to listen for.
 
 > [!NOTE]  

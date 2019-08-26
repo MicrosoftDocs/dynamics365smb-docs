@@ -590,10 +590,11 @@
 ### [Overview](marketing-manage-sales-opportunities.md)
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
-### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-## [Managing Marketing Campaigns](marketing-campaigns.md)
-## Engaging with Customers through Dynamics 365 for Sales
-### [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+
+### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
+### [Set Up Email Logging](marketing-set-up-email-logging.md)
+## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
+## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)
 

@@ -590,6 +590,7 @@
 ### [Overview](marketing-manage-sales-opportunities.md)
 ### [Set Up Opportunity Sales Cycles and Cycle Stages](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Create Opportunities](marketing-how-create-opportunities.md)
+### [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md)
 
 ### [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)
 ### [Set Up Email Logging](marketing-set-up-email-logging.md)

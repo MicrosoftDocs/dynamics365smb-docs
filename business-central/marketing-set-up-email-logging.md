@@ -33,7 +33,7 @@ Get started with email logging in two easy steps:
 [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry on the **Interaction Log** page each time a salesperson and a contact exchange an email message. To view the interaction log, open the **Contact** or **Salesperson*Purchaser** card for the person, and then choose **Navigate**, **History**, and then choose **Interaction Log Entries**. There are a few things we can do with each entry in the log, for example:
 
 * View the content of the email message that was exchanged by clicking the **Show Attachments** action.
-* Turn an email exchange into a sales opportunity - If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To do that, choose the entry, and then choose the **Create Opportunity** action. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities).
+* Turn an email exchange into a sales opportunity - If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To do that, choose the entry, and then choose the **Create Opportunity** action. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities.md).
 
 ## See Also
 [Managing Relationships](marketing-relationship-management.md)

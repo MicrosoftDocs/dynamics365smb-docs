@@ -31,10 +31,10 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
 4. To create from blank, on the **My Flows** page, choose the **Start from blank** and **Automated flow** options.
 5. Search for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** connector.
 6. Define a name and choose the trigger you want to use for your Flow.
-6. From the list of available triggers, select one of the [!INCLUDE[d365fin](includes/d365fin_md.md)] triggers available:  
+7. From the list of available triggers, select one of the [!INCLUDE[d365fin](includes/d365fin_md.md)] triggers available:  
     
     *When a vendor approval is requested*,  
-    *When a general journal line approval is requested*, 
+    *When a general journal line approval is requested*,
     *When a record is deleted*,
     *When a record is changed*,
     *When a record is created*,
@@ -44,16 +44,17 @@ You can use your [!INCLUDE[d365fin](includes/d365fin_md.md)] data as part of a w
     *When an item approval is requested*,
     *When a purchase document approval is requested*, or  
     *When a sales document approval is requested*.
-7. Flow will prompt you to select an environment and company within your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant, as well as any conditions in your data that you want to listen for.
+8. Flow will prompt you to select an environment and company within your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant, as well as any conditions in your data that you want to listen for.
 
 > [!NOTE]  
->   The [!INCLUDE[d365fin](includes/d365fin_md.md)]connector for Microsfot Flow supports multile production and sandbox environments. If you have not created multiple production or sandbox environments, **Production** will be the only available option to select. 
+>   The [!INCLUDE[d365fin](includes/d365fin_md.md)] connector for Microsoft Flow supports multiple production and sandbox environments. If you have not created multiple production or sandbox environments, **Production** is the only available option that you can choose. 
 
 At this point, you have successfully connected to your Business Central data and are ready to begin building your flow.
 
-8. To create from a template, choose the **Start from template** option.
-9. Search for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** templates.
-10. From the list of available templates, select one of the templates, and then choose **Create**.  
+9. To create from a template, choose the **Start from template** option.
+10. Search for **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** templates.
+11. From the list of available templates, select one of the templates, and then choose **Create**.  
+
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales order*,  
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales quote*,  
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sales invoice*,  
@@ -66,12 +67,10 @@ At this point, you have successfully connected to your Business Central data and
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] vendor*,  
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal batch*,  
     *Request Approval for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] general journal lines*.  
-11. Flow will display a list of services used in the Flow temmplate and will attempt to connect automatically to those services. If you have not previously connected to a service, you will be prompted to sign in to each of the services you need to connect to. A green checkmark will appear next to each service once a connection has been successfully made. Select **Continue**.
-12. Flow will prompt you to select an environment and company within your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the environment and company multiple times when using a [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template.
+12. Flow will display a list of services used in the Flow template and will attempt to connect automatically to those services. If you have not previously connected to a service, you will be prompted to sign in to each of the services you need to connect to. A green checkmark will appear next to each service once a connection has been successfully made. Select **Continue**.
+13. Flow will prompt you to select an environment and company within your [!INCLUDE[d365fin_md](includes/d365fin_md.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the environment and company multiple times when using a [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow template.
 
-For more information, see the [Flow Documentation](https://docs.microsoft.com/en-us/flow/getting-started).
-
-For troubleshooting your Microsoft Flow, see [Troubleshooting Integration with Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
+For more information, see the [Flow Documentation](/flow/getting-started).
 
 ## See Also
 [Getting Started](product-get-started.md)  

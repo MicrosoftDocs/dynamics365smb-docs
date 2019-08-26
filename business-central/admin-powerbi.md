@@ -23,7 +23,7 @@ You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] 
 > [!IMPORTANT]
 > The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. To install a Power BI App, you must also have a Power BI Pro license.  Once the Power BI App is installed, it may be shared with users with any license type.
 
-Microsoft has published the following apps for Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] has published the following apps for Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
@@ -60,7 +60,7 @@ The apps are designed to work with data from any company that you have in your [
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Select **Apps** from the **Apps for Power BI** tab, choose the **Microsoft Dynamics 365 Business Central** app that you want to use, and then select **Get it now**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. When prompted, enter the name of the company in your [!INCLUDE[prodshort](includes/prodshort.md)] that you want to connect to. This is not the display name. You can find the company name in the **Companies** page in your [!INCLUDE[prodshort](includes/prodshort.md)]instance.  
+5. When prompted, enter the name of the environment and company in your [!INCLUDE[prodshort](includes/prodshort.md)] app that you want to connect to. If you have not created multiple environments, enter **Production**. For the company parameter, ensure you are entering the name and not the the display name. You can find the company name in the **Companies** page in your [!INCLUDE[prodshort](includes/prodshort.md)]instance.  
 
     > [!NOTE]
     > If you connect to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, you must specify the *Web Service URL* parameter. Find this in the **Web Services** page in [!INCLUDE [prodshort](includes/prodshort.md)]. Your [!INCLUDE [server](includes/server.md)] instance must be configured for Basic authentication, and you must specify a user and the Web Access Key of that user as their password. In the following example, replace *myserver:7048* with your [!INCLUDE [server](includes/server.md)] name and *CRONUS%20US* with your company name.  
@@ -166,6 +166,7 @@ Power BI apps can only be installed by users that have a Power BI Pro license. O
 
 This error indicates that the one more of the parameters are not valid.
 
+- The specified environment parameter does not match any existing [!INCLUDE [prodshort](includes/prodshort.md)] production or sandbox environment. 
 - The specified company parameter does not match any existing [!INCLUDE [prodshort](includes/prodshort.md)] companies. Verify the company name in the **Companies** page in [!INCLUDE [prodshort](includes/prodshort.md)].
 - If connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. you have entered a URL that is not valid. You can verify the URL in the **Web Services** page in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - A port is not open to allow the request to go through your firewall.

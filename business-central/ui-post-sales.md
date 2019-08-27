@@ -19,9 +19,10 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post**
 * **Post and New**
 * **Post and Send**
-* **Test Report**
 * **Preview Posting**
+* **Draft Invoice**
 * **Pro Forma Invoice**
+* **Test Report**
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 

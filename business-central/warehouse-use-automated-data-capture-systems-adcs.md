@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
 
 ---
@@ -17,7 +17,7 @@ ms.author: sgroespe
 > [!NOTE]
 > In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using PowerApps or similar.
 
-You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.  
+You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves barcode scanning. 
 
 To use ADCS, you must give each item stored in the warehouse an item identifier. You must also set up miniforms, handheld functions, data exchanges, and specify settings for fields that control ADCS. You specify whether to use ADCS on the location card of a warehouse.
 

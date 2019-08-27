@@ -51,6 +51,11 @@
       "redirect_document_id": true
      },
     {
+      "source_path": "business-central/across-troubleshooting-how-use-financials-data-source-flow.md",
+      "redirect_url": "/dynamics365/business-central/index",
+      "redirect_document_id": true
+     },
+    {
       "source_path": "business-central/upload-data.md",
       "redirect_url": "/dynamics365/business-central/across-import-data-configuration-packages",
       "redirect_document_id": true

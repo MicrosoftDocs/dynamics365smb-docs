@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/30/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
 
 ---
 # Posting Sales
-In the **Posting group** on a sales document, you can choose between the following posting functions:
+Under the **Posting** menu in a sales document, you can choose between the following posting functions:
 
 * **Post**
-* **Test Report**
+* **Post and New**
 * **Post and Send**
-* **Post and Print**
-* **Post and Email**
-* **Post Batch**
+* **Test Report**
 * **Preview Posting**
+* **Pro Forma Invoice**
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 

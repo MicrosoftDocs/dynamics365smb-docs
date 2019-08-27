@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/30/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ In the **Posting group** on a purchase document, you can choose between the foll
 * **Preview Posting**
 * **Post and Print**
 * **Test Report**
-* **Post Batch**
+* **Batch Post**
 
 When you have completed all the lines and entered all the information on the purchase order, you can post it, that is, create a receipt and an invoice.
 

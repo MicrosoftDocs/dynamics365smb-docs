@@ -20,7 +20,7 @@ In the **Posting group** on a purchase document, you can choose between the foll
 * **Preview Posting**
 * **Post and Print**
 * **Test Report**
-* **Batch Post**
+* **Post Batch**
 
 When you have completed all the lines and entered all the information on the purchase order, you can post it, that is, create a receipt and an invoice.
 

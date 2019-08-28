@@ -40,6 +40,7 @@ When the posting is completed, the posted sales lines are removed from the order
 You can edit certain fields on posted sales documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
 
 ## See Also
+
 [Sales](sales-manage-sales.md)  
 [Edit Posted Documents](across-edit-posted-document.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

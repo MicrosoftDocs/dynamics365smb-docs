@@ -233,6 +233,7 @@
 ## [Define User Tasks](across-user-tasks.md)
 ## [Exporting Your Business Data to Excel](about-export-data.md)
 ## [Posting Documents and Journals](ui-post-documents-journals.md)
+## [Post Multiple Documents at the Same Time](ui-batch-posting.md)
 ## [Preview Posting Results](ui-how-preview-post-results.md)
 ## [Edit Posted Documents](across-edit-posted-document.md)
 ## [Working with General Journals](ui-work-general-journals.md)

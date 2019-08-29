@@ -13,6 +13,7 @@
     ms.search.keywords:
     ms.date: 04/01/2019
     ms.author: sgroespe
+    redirect_url: ../../ui-batch-posting
 
 ---
 # Print Sales and Purchase Orders During Batch Posting

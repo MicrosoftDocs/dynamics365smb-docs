@@ -32,7 +32,7 @@ The following procedure explains how to batch post purchase invoices. The steps 
 > [!NOTE]
 > To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.
 
-The purchase invoices will not be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+The purchase invoices will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  

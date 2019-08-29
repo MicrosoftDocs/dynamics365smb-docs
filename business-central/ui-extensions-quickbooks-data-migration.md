@@ -19,7 +19,7 @@ For more information, see [Importing Business Data from Other Finance Systems](a
 
 ## Data from QuickBooks Desktop
  
-You can import the following data from QuickBooks Online to Business Central:
+You can import the following data from QuickBooks to Business Central:
 
 - Customers  
 - Vendors  

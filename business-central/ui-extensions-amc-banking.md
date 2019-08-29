@@ -59,4 +59,6 @@ Using this extension is just a matter of exporting data on the **Payment Journal
    > For each line, remember to choose **Electronic Payment** in the **Bank Payment Type** field.
 3. Choose the **Export** action.
 
-
+## See Also
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Getting Started](product-get-started.md)

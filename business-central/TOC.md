@@ -840,7 +840,6 @@
 #### [Print Test Reports for Delivery Reminders](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### General
 #### [Print General Ledger Setup Information](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgium
 ### [Overview](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1023,7 +1022,6 @@
 #### [Currency Exchange Rates](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [EU Sales List in Germany](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Include Company Registration Numbers on Sales Reports and Purchase Reports](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Print General Ledger Setup Information](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1378,7 +1376,6 @@
 ### General    
 #### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Print Sales and Purchase Orders During Batch Posting](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## United Kingdom
 ### [Overview](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

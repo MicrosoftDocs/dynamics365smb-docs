@@ -15,31 +15,21 @@ ms.author: bholtorf
 ---
 
 # Using the AMC Banking 365 Fundamentals Extension
-The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[d365fin](includes/d365fin_md.md)] with the AMC Banking 365 Business for Microsoft Dynamics 365 Business Central service. 
-
-AMC Banking 365 Business for Microsoft Dynamics 365 Business Central is a banking and cash management service that can convert bank data from [!INCLUDE[d365fin](includes/d365fin_md.md)] into formats that are required by over 600 banks around the world. For example, formatting your data makes it easier to transfer payments and credits to vendors by entering the payments in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then uploading them to your bank. The formats that the services provide can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[d365fin](includes/d365fin_md.md)] with the AMC Banking 365 Business for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[d365fin](includes/d365fin_md.md)] into formats that are required by over 600 banks around the world. For example, formatting your data makes it easier to transfer payments and credits to vendors by entering the payments in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then uploading them to your bank. The formats that the services provide can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
 > AMC Banking has built additional extensions that work with [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic describes only the Fundamental extension.
 
-<!--The first time you use the extension you must run the assisted setup guide. They must specify the user name, password, and the service URL
+## Using Our Demonstration Account
+[!INCLUDE[d365fin](includes/d365fin_md.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, turning on the extension, and specifying the bank accounts to get data from in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the **Bank Name**, **Credit Transfer Msg. Nos.**, **Bank Statement Import Format**, and **Payment Export Format** fields on bank account cards.
 
-Running the guide will download the data exchange definitions assigned to the Bank statement export/import setups. There are some specified, but they will not be found in the list until after you download them. IT will specify the number series to use for credit transfer messages, which are in the Credit Transfer Msg. NOs. field.
-
-in the guide, you can choose whether to update accounts with dataexchangedef and credit msg no.
-
-The Bank Name list is filtered to the country/region code specified for the bank account. -->
-
-## About the Demonstration Account
-[!INCLUDE[d365fin](includes/d365fin_md.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, turning on the extension, and specifying the bank accounts to get data from. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the Bank Name, Credit Transfer Msg. Nos., Bank Statement Import Format, and Payment Export Format fields.
-
-To apply the default settings and turn on the extension, you must run the assisted setup guide. To run the guide, on the **AMC Banking Setup** page, choose the **Assisted Setup** action.
+We provide the settings, but to try out the extension you must run the assisted setup guide to apply them. To run the guide, on the **AMC Banking Setup** page, choose the **Assisted Setup** action.
 
 > [!Note]
 > There are some limitations on the demo account. For example, when you convert payments, the amount in the converted file will not match the actual amount. Instead, the amount will always be five units of the currency that you use for payments.  
 
 ## Setting Up the Extension
-Getting started with the extension involves just a few easy steps, and an assisted setup guide will make the connection and turn on the extension. Running the guide will install the data exchange definitions for bank statement export/import setups and initiate the number series used for credit transfer messages.  
+Getting started with the extension involves just a few easy steps, and an assisted setup guide will make the connection and turn on the extension. The guide will do things like install the data exchange definitions for bank statement export/import setups and initiate the number series used for credit transfer messages.  
 
 ### To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to AMC Banking
 1. Get a module and a service plan for AMC Banking. To do that, visit the [AMC License](https://license.amcbanking.com/register) page.
@@ -50,12 +40,23 @@ Getting started with the extension involves just a few easy steps, and an assist
 ### To connect bank accounts to the extension
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for the bank account that you want to connect to the service. 
-3. In the **Bank Name** field, choose the format that your bank requires.
-4. In the **Credit Transfer Msg. Nos.**, choose the number series to use.
-5. 
+3. In the **Bank Name** field, choose the format that your bank requires.  
+  
+   The formats are filtered to show only those that are relevant for the country/region that is specified for the bank account.
+4. In the **Credit Transfer Msg. Nos.** field, choose the number series to use for messages that accompany payments.
+5. In the **Bank Statement Import Format** and **Payment Export Format** fields, choose the data exchange definitions that your bank requires.
 
 ## To use the extension
-Using this extension is just a matter of exporting data in the 
+Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service.
 
 > [!Note]
-> You must fill in the **SWIFT Code** and **IBAN** fields must be filled in for the bank account. 
+> You must fill in the **SWIFT Code** and **IBAN** fields for each bank account. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+2. Create the journal lines that you want to export.  
+  
+   > [!Note]
+   > For each line, remember to choose **Electronic Payment** in the **Bank Payment Type** field.
+3. Choose the **Export** action.
+
+

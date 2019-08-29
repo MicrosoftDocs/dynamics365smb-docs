@@ -234,6 +234,7 @@
 ## [Exporting Your Business Data to Excel](about-export-data.md)
 ## [Posting Documents and Journals](ui-post-documents-journals.md)
 ## [Preview Posting Results](ui-how-preview-post-results.md)
+## [Edit Posted Documents](across-edit-posted-document.md)
 ## [Working with General Journals](ui-work-general-journals.md)
 ## [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Letting Business Central Suggest Values](ui-let-system-suggest-values.md)

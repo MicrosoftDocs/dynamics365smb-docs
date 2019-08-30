@@ -160,7 +160,7 @@ A Power BI account has not been set up. In order to have a valid Power BI accoun
 
 ### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message will appear if the default reported failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings** and manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page. 
+This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page. 
 
 ### You need a Power BI Pro license to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 

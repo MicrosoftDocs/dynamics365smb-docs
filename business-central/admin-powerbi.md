@@ -158,6 +158,10 @@ The Power BI dashboard relies on the published web services that are listed abov
 
 A Power BI account has not been set up. In order to have a valid Power BI account, you must have a license, and you must have previously signed into Power BI, in order for your Power BI workspace to have been created.  
 
+### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
+
+This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page. 
+
 ### You need a Power BI Pro license to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 
 Power BI apps can only be installed by users that have a Power BI Pro license. Once the Power BI app is installed, you can share it with users that do not have a Power BI Pro license.  

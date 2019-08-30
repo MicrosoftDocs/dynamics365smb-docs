@@ -193,4 +193,3 @@ GetSalesHeader;
 ## See Also  
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
-[Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)

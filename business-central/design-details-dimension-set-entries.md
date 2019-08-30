@@ -22,5 +22,3 @@ This documentation provides detailed technical insight into the concepts and pri
 [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
 [Design Details: Table Structure](design-details-table-structure.md)  
-[Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)  
-[Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 08/30/2019
     ms.author: soalex
 
 ---
@@ -28,7 +28,7 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [VAT Rates for Switzerland](vat-rates-for-switzerland.md) **Available Now**
 
 * Banking & Payments
-    * QR Code on Swiss Payment Slips **Planned for 2019 Q3**
+    * QR Code on Swiss Payment Slips **Planned for 2020 Q1/Q2**
     * [Close an LSV Collection](how-to-close-an-lsv-collection.md) **Available Now**
     * [Export Payments Using LSV](how-to-export-payments-using-lsv.md) **Available Now**
     * [Import ESR Payments](how-to-import-esr-payments.md) **Available Now**

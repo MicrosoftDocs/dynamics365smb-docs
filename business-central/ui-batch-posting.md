@@ -14,25 +14,28 @@ ms.author: sgroespe
 
 ---
 # Post Multiple Documents at the Same Time
-Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting, either for immediate posting or scheduled to, for example, the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
+Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting according to a schedule, for example, at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
 > [!NOTE]
-> To batch post documents, you must set up a job queue entry for the immediate or scheduled task in question. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+> Batch posted documents, are always posted in the background. If you want to post a smaller set of documents in the foreground, use the **Post Selected** action. 
 
-## To post multiple purchase invoices
-The following procedure explains how to batch post purchase invoices. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
+## To post multiple purchase orders
+The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
-2. On the **Purchase Invoices** page, proceed to select all invoices to be posted:
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+2. On the **Purchase Orders** page, proceed to select all invoices to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing purchase invoices that you want to post at the same time.
-5. Choose the **posting** action, and then choose the **Post Batch** action.
-6. On the **Batch Post Purchase Invoices** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Choose the **Posting** action, and then choose the **Post Batch** action.
+6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.
+> To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.<br /><br /> Note also that direct printing to a selected printer is only possible in on-premises installations.
 
-The purchase invoices will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+  If you selected **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center. 
+
+  The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+8. To view potential issues that occured during batch posting of documents, open the **Error Message Register** page. 
 
 ## See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/29/2019
+ms.date: 08/30/2019
 ms.author: sgroespe
 
 ---
@@ -17,7 +17,7 @@ ms.author: sgroespe
 Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting according to a schedule, for example, at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
 > [!NOTE]
-> Batch posted documents, are always posted in the background. If you want to post a smaller set of documents in the foreground, use the **Post Selected** action. 
+> Batch posted documents, are always posted in the background. If you want to post a smaller set of documents in the foreground, use the **Post Selected** action.
 
 ## To post multiple purchase orders
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
@@ -29,13 +29,15 @@ The following procedure explains how to batch post purchase orders. The steps ar
 5. Choose the **Posting** action, and then choose the **Post Batch** action.
 6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]
-> To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.<br /><br /> Note also that direct printing to a selected printer is only possible in on-premises installations.
+    > [!NOTE]
+    > To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.<br /><br /> Note also that direct printing to a selected printer is only possible in on-premises installations.
 
-  If you selected **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center. 
+7. Choose the **OK** button.
+8. To view potential issues that occurred during batch posting of documents, open the **Error Message Register** page.
 
-  The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
-8. To view potential issues that occured during batch posting of documents, open the **Error Message Register** page. 
+The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+
+If you select **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center.
 
 ## See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  

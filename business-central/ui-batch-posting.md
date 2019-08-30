@@ -14,10 +14,10 @@ ms.author: sgroespe
 
 ---
 # Post Multiple Documents at the Same Time
-Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting, for  scheduled posting to, for example, the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
+Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting according to a schedule, for example, at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
 > [!NOTE]
-> Batch posted documents, are always posted in background. If you want to post a smaller set of documents in foreground use **Post Selected** action. 
+> Batch posted documents, are always posted in the background. If you want to post a smaller set of documents in the foreground, use the **Post Selected** action. 
 
 ## To post multiple purchase orders
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
@@ -26,16 +26,16 @@ The following procedure explains how to batch post purchase orders. The steps ar
 2. On the **Purchase Orders** page, proceed to select all invoices to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
 4. Select the check box for all the lines representing purchase invoices that you want to post at the same time.
-5. Choose the **posting** action, and then choose the **Post Batch** action.
+5. Choose the **Posting** action, and then choose the **Post Batch** action.
 6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF. Please note that direct printing to selected is available only in on-premise version of Business Central.
+> To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.<br /><br /> In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.<br /><br /> Note also that direct printing to a selected printer is only possible in on-premises installations.
 
-7. If you selected PDF output in **Report Output Type**, successfully posted purchase orders will be available in Report Inbox part on your role center. 
-8. To view potential issues that occured during posting of batch purchase orders or documents, open **Error Message Register** page. 
+  If you selected **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center. 
 
-The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+  The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+8. To view potential issues that occured during batch posting of documents, open the **Error Message Register** page. 
 
 ## See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  

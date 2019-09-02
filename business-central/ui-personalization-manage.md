@@ -20,19 +20,13 @@ Users can personalize pages that make up their workspace to suit their own prefe
 
 Administrators can customize the workspace for a role so that all users that are assigned the related profile will see the customized pages. The administrator customizes the role's workspace using the same functionality as the user, namely the **Personalizing** banner.
 
-In addition to customizing roles, administrators can control and manage users' personalization by:
-
--   Enabling or disabling the personalization feature for the entire application (on-premises installation only).
--   Enabling or disabling the personalization feature for users of a specific profile (role).
--   Clearing any page personalization that users have made.
-
-Both customization and management of personalizations begin on the **Profiles (Roles)** page.
+In addition to customizing roles and controlling if users can personalize the role further, administrators can clear any page personalization that users have made. For more information, see [To clear users' personalization](ui-personalization-manage.md#to-clear-users'-personalization).
 
 ## To customize pages for a role
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
-2. Select the line for the role that you want to customize a page for, and then choose the **Edit** action.
+2. Select the line for the profile (role) that you want to customize pages for, and then choose the **Edit** action.
 
-    On the **Profile (Role)** page, you can make various settings for the profile, such as the name of the role as users see it, which Role Center it uses, and whether users can personalize their own pages further. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    On the **Profile (Role)** page, you can make various settings for the profile, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 3. Choose the **Customize pages** action.
 
@@ -40,20 +34,18 @@ Both customization and management of personalizations begin on the **Profiles (R
 
 4. Customize pages according to the needs of the role in question in exactly the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
-> [!NOTE]
-> To navigate to other pages that you want to customize, use Ctrl + Click on the action in question. If you only click on the action, the customization options appear, **Move**, **Hide**, etc.
+    > [!NOTE]
+    > To navigate to other pages that you want to customize, use Ctrl + Click on the action in question. If you only click on the action, the customization options appear, **Move**, **Hide**, etc.
 
-## To disable personalization for a profile
-You can prevent all users that belong to a specific profile from being able to personalize their pages.
+5. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Customizing** banner.
+6. Close the browser tab.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
-2. Select the profile in the list that you want to modify.
-3. Select the **Disable personalization** check box, and then choose the **OK** button.
+    The customization of pages is now recorded for the profile (role) that you selected in step 2. This can be seen on the **Profile (Role)** page from the fact that the **Clear customized pages** action is active.
 
-> [!NOTE]  
-> In Business Central online, you can only disable personalization for a tenant profile, not for system profiles.
+7. To enable the customized pages for users when they are assigned the role, select the **Enabled** check box.
+8. To cancel all customizations made for the role, choose the **Clear customized pages** action.  
 
-## To clear user personalizations
+## To clear users' personalization
 Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
 
 ### To clear user personalizations by using the Delete User Personalization page
@@ -61,7 +53,7 @@ The **Delete User Personalization** page enables you to clear personalizations o
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
 
-    The page lists all the pages that have been personalized and the user it belongs to.
+    The page lists all the pages that have been personalized and the user that they belong to.
 
     >[!NOTE]
     > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).

@@ -20,7 +20,7 @@ Users can personalize pages that make up their workspace to suit their own prefe
 
 Administrators can customize the workspace for a role so that all users that are assigned the related profile will see the customized pages. The administrator customizes the role's workspace using the same functionality as the user, namely the **Personalizing** banner.
 
-In addition to customizing roles and controlling if users can personalize the role further, administrators can clear any page personalization that users have made. For more information, see [To clear personalizations](ui-personalization-manage.md#to-clear-users'-personalization).
+In addition to customizing roles and controlling if users can personalize the role further, administrators can clear any page personalization that users have made. For more information, see [To clear personalizations](ui-personalization-manage.md#to-clear-personalizations).
 
 ## To customize pages for a role
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
@@ -46,10 +46,10 @@ In addition to customizing roles and controlling if users can personalize the ro
 8. To cancel all customizations made for the role, choose the **Clear customized pages** action.  
 
 ## To see all customized pages
-As an administrator, you can quickly 
+As an administrator, you can quickly
 
 ## To clear personalizations
-Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
+Administrators can remove all personalization made by individual users, for example if an employee has changed role and no longer needs the personalizations. Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
 
 ### To clear user personalizations by using the Delete User Personalization page
 The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.

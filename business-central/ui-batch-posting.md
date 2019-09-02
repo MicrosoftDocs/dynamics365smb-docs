@@ -9,15 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/30/2019
+ms.date: 09/02/2019
 ms.author: sgroespe
 
 ---
 # Post Multiple Documents at the Same Time
-Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting according to a schedule, for example, at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
+Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting, either immediately or according to a schedule, such as at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
 
 > [!NOTE]
-> Batch posted documents, are always posted in the background. If you want to post a smaller set of documents in the foreground, use the **Post Selected** action.
+> Batch posting of documents happens in the background as defined by a job queue entry, which must first be set up. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 ## To post multiple purchase orders
 The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.

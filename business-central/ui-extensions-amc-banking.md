@@ -53,13 +53,18 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 > You must fill in the **SWIFT Code** and **IBAN** fields for each bank account. 
 
 ### To export data and submit it to your bank
-
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
   
    > [!Note]
    > For each line, remember to choose **Electronic Payment** in the **Bank Payment Type** field.
 3. Choose the **Export** action.
+
+### To import and apply the converted file
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journal**, and then choose the related link.
+2. Choose the **Import Bank Transaction** action, and then choose the converted file.  
+  
+   [!INCLUDE[d365fin](includes/d365fin_md.md)] will create a new payment reconciliation journal that contains the data in the file. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  

@@ -77,6 +77,10 @@
      {
       "source_path": "business-central/LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md",
       "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"
+     },
+     {
+      "source_path": "business-central/LocalFunctionality/Russia/how-to-combine-customer-or-vendor-cards.md",
+      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality"
      }
     ]
 

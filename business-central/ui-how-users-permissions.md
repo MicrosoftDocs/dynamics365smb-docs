@@ -26,7 +26,7 @@ From the **User Card** page, you can open the **Effective Permissions** page to 
 
 Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
-Another system that defines what users can access is the Experience setting. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+Another system that defines what users can access is the Experience setting. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 ## To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -178,7 +178,7 @@ As an administrator, you can remove a user's access to the system by setting the
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)

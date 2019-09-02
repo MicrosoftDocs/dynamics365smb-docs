@@ -14,21 +14,34 @@ ms.date: 08/22/2019
 ms.author: sgroespe
 
 ---
-# Customizing the Workspace for Profiles (Roles)
+# Customize the Workspace for Profiles (Roles)
 
-Users can personalize their workspace to suit their own preferences. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
+Users can personalize pages that make up their workspace to suit their own preferences. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
-Administrators can customize the workspace for a role so that all users that are assigned the related profile will see the customized workspace. The administrator customizes the role's workspace using the same functionality as the user, namely the **Personalizing** banner.
+Administrators can customize the workspace for a role so that all users that are assigned the related profile will see the customized pages. The administrator customizes the role's workspace using the same functionality as the user, namely the **Personalizing** banner.
 
-
-
-As an administrator, you control and manage personalization by:
+In addition to customizing roles, administrators can control and manage users' personalization by:
 
 -   Enabling or disabling the personalization feature for the entire application (on-premises installation only).
--   Enabling or disabling the personalization feature for users of a specific profile.
--   Clearing any page personalizations that users have made.
+-   Enabling or disabling the personalization feature for users of a specific profile (role).
+-   Clearing any page personalization that users have made.
+
+Both customization and management of personalizations begin on the **Profiles (Roles)** page.
 
 ## To customize pages for a role
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+2. Select the line for the role that you want to customize a page for, and then choose the **Edit** action.
+
+    On the **Profile (Role)** page, you can make various settings for the profile, such as the name of the role as users see it, which Role Center it uses, and whether users can personalize their own pages further. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+3. Choose the **Customize pages** action.
+
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] opens on a new browser tab for the selected profile (role) with the **Customizing** banner activated. The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.
+
+4. Customize pages according to the needs of the role in question in exactly the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+
+> [!NOTE]
+> To navigate to other pages that you want to customize, use Ctrl + Click on the action in question. If you only click on the action, the customization options appear, **Move**, **Hide**, etc.
 
 ## To disable personalization for a profile
 You can prevent all users that belong to a specific profile from being able to personalize their pages.
@@ -71,7 +84,7 @@ The **User Personalization Card** page enables you to clear the personalization 
     The user will see the changes the next time they sign-in.
 
 ## See Also
-[Personalizing Your Workspace](ui-personalization-user.md)  
+[Personalize Your Workspace](ui-personalization-user.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

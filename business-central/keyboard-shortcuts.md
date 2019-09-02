@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/16/2019
+ms.date: 09/02/2019
 ms.author: sgroespe
 ---
 
@@ -49,6 +49,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
+|Ctrl+Click|Navigate in **Personalizing** and **Customizing** mode. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|

@@ -82,4 +82,4 @@ Choose this link to view or change the notifications that you get about certain 
 ## See Also
 [Creating New Companies](about-new-company.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  

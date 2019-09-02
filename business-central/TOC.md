@@ -33,7 +33,7 @@
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## Personalizing Business Central
-### [Personalizing Your Workspace](ui-personalization-user.md)
+### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
@@ -43,7 +43,7 @@
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
-## Changing how Documents Look
+## Changing how Externally-Facing Documents and Reports Look
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
 ### [Updating Report or Document Layouts](ui-update-report-layouts.md)
 ### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
@@ -330,10 +330,12 @@
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
-### Customizing Using Extensions
+### [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)
+### [Change Which Features are Displayed](ui-experiences.md)
+### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
+### Customize Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)
-#### [Customizing Using Extensions](ui-extensions.md)
+#### [Customize Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -356,9 +358,6 @@
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
-### [Changing Which Features are Displayed](ui-experiences.md)
-### [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)
-### [Setting Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 
 # Finance
 ## [Overview](finance.md)

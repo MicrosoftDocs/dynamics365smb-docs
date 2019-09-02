@@ -29,5 +29,5 @@ If you want to include warehouse handling time in the order promising calculatio
 [Design Details: Costing Methods](design-details-costing-methods.md)    
 [Manage Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

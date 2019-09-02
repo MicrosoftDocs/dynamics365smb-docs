@@ -30,7 +30,7 @@ The most powerful permissions that a user can have is the SUPER permission set. 
 ### User Settings
 On the **My Settings** page, users can define basic behavior of their account, such as the Role Center, the language, and which notifications they get. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
-The administrator can customize user settings for a profile so that all users of the related role have the same settings. For more information, see [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md).  
+The administrator can customize user settings for a profile so that all users of the related role have the same settings. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md).  
 
 ### Users in On-Premises Deployments
 
@@ -91,11 +91,11 @@ The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] i
 
 -   Personalization, performed by users  
 
-The administrator customize the user interface for multiple users by changing the user interface for a profile that corresponds to the role that users are assigned. For more information, see [Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)
+The administrator customize the user interface for multiple users by changing the user interface for a profile that corresponds to the role that users are assigned. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)
 
-Users personalize the user interface of their personal version by changing the user interface under their own user logon. This personalization can be overwritten by the administrator. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).  
+Users personalize the user interface of their personal version by changing the user interface under their own user logon. This personalization can be overwritten by the administrator. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
 
 ## See Also  
 [Managing Users and Permissions](ui-how-users-permissions.md)  
-[Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
-[Personalizing Your Workspace](ui-personalization-user.md)  
+[Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
+[Personalize Your Workspace](ui-personalization-user.md)  

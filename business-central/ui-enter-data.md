@@ -54,7 +54,7 @@ To change which fields are included in or excluded from Quick Entry on a page, y
 1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then the **Personalize** action.
 2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
-For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
+For more information about personalization, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Mandatory Fields
 

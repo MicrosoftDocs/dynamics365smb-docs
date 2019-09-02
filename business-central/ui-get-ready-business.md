@@ -26,7 +26,7 @@ If an area is not covered by an assisted setup, choose the **Manual Setup** acti
 
 > [!NOTE]  
 > The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.<br /><br />
-> The first time you sign in, you use the **Essential** experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+> The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots, and then choose the **Start Setup** action.
 

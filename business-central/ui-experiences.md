@@ -2,7 +2,7 @@
 title: Choosing the User Experience to Show or Hide Advanced Features | Microsoft Docs
 description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
+ms.date: 09/02/2019
+ms.author: sgroespe
 
 ---
-# Changing Which Features are Displayed
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by adding extensions from AppSource or by changing the Experience setting for your company. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md), or [Choosing a User Experience to Show or Hide Features](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# Change Which Features are Displayed
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to help you run your business, regardless which line of business you are in. At the core of [!INCLUDE[d365fin](includes/d365fin_md.md)], you find financial reporting and sales and purchasing processes. You add experiences to that according to your business needs by changing the **Experience** setting for your company, as described below, or by adding extensions from AppSource. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 ## Choosing a User Experience to Show or Hide Features
 The user experience determines how much of the core functionality is available when you and your colleagues use [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can choose the user experience for your company on the **Company Information** page, in the **Experience** field.
 
 > [!NOTE]  
-> This setting applies to all users in your company. Users can customize their own experience even further by changing page layouts and content. For more information, see [Personalizing Your Workspace and Pages](ui-personalization-user.md).  
+> This setting applies to all users in your company. Users can customize their own experience even further by changing page layouts and content. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
 
 The following table lists the experiences that are currently available.
 
@@ -59,10 +59,11 @@ You can now proceed to select the new experience.
 All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d365fin_md.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. A text note is inserted in high-level help topics for the Manufacturing and Service Managements feature areas stating that they require the **Premium** experience.
 
 ## See also
+[Personalize Your Workspace](ui-personalization-user.md)  
+[Customizing Business Central](ui-customizing-overview.md)
 [Creating New Companies](about-new-company.md)  
 [Managing Users and Permissions](ui-how-users-permissions.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

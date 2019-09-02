@@ -51,7 +51,7 @@ If there is a ![Personalization blocked](media/personalization-blocked-icon.png 
 The reason for this is that the Role Center or role that is currently associated with your user account modifies this page specifically for your role. Contact your administrator for assistance. Alternatively, try switching to a Role Center that does include role-tailoring for this page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
 ## See Also
-[Personalizing Your Workspace](ui-personalization-user.md)  
-[Customizing the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
+[Personalize Your Workspace](ui-personalization-user.md)  
+[Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  

@@ -10,7 +10,7 @@ ms.date: 09/04/2019
 ms.author: sgroespe
 
 ---
-# [Managing Profiles (Roles)]
+# Managing Profiles (Roles)
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], users are added by an administrator who also gives users access to the areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that they need in their work.  
 
 Access to functionality is managed through user groups and profiles. As an administrator, you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription, and you can assign users permissions through user groups.  
@@ -30,14 +30,14 @@ The employees in your company who have access to [!INCLUDE[d365fin](includes/d36
 
 The technical representation of a role is a profile. Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same role. A Role Center is the entry point, or home page, for [!INCLUDE[d365fin](includes/d365fin_md.md)] that gives the user quick access to their daily tasks and displays various insights and key performance indicators about their work.
 
-On the **Profiles (Roles)** page, you create and manage profiles. Each profile has a card where you make various settings, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages. You also initiate page customizations for the profile.
+On the **Profiles (Roles)** page, you create and manage profiles. Each profile has a card where you make various settings, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages. Here, you also initiate page customizations for the profile.
 
 ### To create a profile
 
 ### To copy a profiles
 
 ### To customize pages for a profile
-You customize the workspace for a profile (role) so that all users that are assigned the related role will see the customized pages. As an administrator, you customize the role's workspace by using the same functionality as users when they personalize. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md).
+You customize the workspace for a profile so that all users that are assigned the related role will see the customized pages. As an administrator, you customize the role's workspace by using the same functionality as users do when they personalize. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md).
 
 ## To clear users' personalizations
 Administrators can remove all personalization made by individual users, for example if an employee has changed role and no longer needs the personalizations. Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.

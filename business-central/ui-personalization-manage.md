@@ -14,15 +14,13 @@ ms.date: 09/04/2019
 ms.author: sgroespe
 
 ---
-# Customize Pages for Profiles (Roles)
+# Customize the Workspace for Profiles (Roles)
 
 Users can personalize pages that make up their workspace to suit their own preferences. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 Administrators can customize the workspace for a profile (role) so that all users that are assigned the related role will see the customized pages. The administrator customizes the role's workspace by using the same functionality as users when they personalize.
 
 Page customization starts from the **Profiles (Roles)** page, the administrators starting point for managing users' profiles on individual profile cards. In addition to customizing roles and administrating customized pages, you control various other settings for profiles on the Profile (Role) card for each profile. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md).
-
-In on-premises installations, administrators can enable or disable personalization for all users in the application. For more information, see [To enable or disable personalization (On-Premises Only)](ui-personalization-manage.md#EnablePersonalization).
 
 ## To customize pages for a role
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
@@ -45,11 +43,8 @@ In on-premises installations, administrators can enable or disable personalizati
 7. To enable the customized pages for users when they are assigned the role, select the **Enabled** check box.
 8. To cancel all customizations made for the role, choose the **Clear customized pages** action.  
 
-## To see all customized pages
+## To view all customized pages
 You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.
-
-
-
 
 
 ## See Also

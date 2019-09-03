@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/22/2019
+ms.date: 09/04/2019
 ms.author: sgroespe
 
 ---
@@ -21,6 +21,8 @@ Users can personalize pages that make up their workspace to suit their own prefe
 Administrators can customize the workspace for a role so that all users that are assigned the related profile will see the customized pages. The administrator customizes the role's workspace using the same functionality as the user, namely the **Personalizing** banner.
 
 In addition to customizing roles and controlling if users can personalize the role further, administrators can clear any page personalization that users have made. For more information, see [To clear personalizations](ui-personalization-manage.md#to-clear-personalizations).
+
+In on-premises installations, administrators can enable or disable personalization. For more information, see [To enable or disable personalization (On-Premises Only)](ui-personalization-manage.md#EnablePersonalization).
 
 ## To customize pages for a role
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
@@ -77,6 +79,43 @@ The **User Personalization Card** page enables you to clear the personalization 
 3. On the **Actions** tab, choose **Clear Personalized Pages**.
 
     The user will see the changes the next time they sign-in.
+
+## <a name="EnablePersonalization"></a>To enable or disable personalization (On-Premises Only)
+
+By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.
+
+1. To enable personalization, add the following line in the navsettings.json file:
+
+    ```
+    "PersonalizationEnabled": "true"
+    ```
+
+    To disable personalization, remove this line or change it to:
+
+    ```
+    "PersonalizationEnabled": "false"
+    ```
+
+    For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+
+2. Generate and download the application symbols.
+
+    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized.
+
+    1. First, you generate the symbols by running finsql.exe with `generatesymbolreference` command. The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE). To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
+        ```
+    For example:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
+        ```
+
+    For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+
+    2. Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  

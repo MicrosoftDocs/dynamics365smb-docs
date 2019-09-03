@@ -305,8 +305,8 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Understanding Users, Roles, and Profiles](admin-users-profiles-roles.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
+## [Managing Profiles (Roles)](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)

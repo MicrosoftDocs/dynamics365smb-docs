@@ -6,18 +6,16 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 08/22/2019
+ms.date: 09/04/2019
 ms.author: sgroespe
 
 ---
-# Understanding Users, Roles, and Profiles
-
+# [Managing Profiles (Roles)]
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], users are added by an administrator who also gives users access to the areas of [!INCLUDE[d365fin](includes/d365fin_md.md)] that they need in their work.  
 
 Access to functionality is managed through user groups and profiles. As an administrator, you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription, and you can assign users permissions through user groups.  
 
-## Adding Users
-
+## Add Users
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Then, the administrator can assign permissions to each user and groups of users. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
@@ -26,6 +24,88 @@ The most powerful permissions that a user can have is the SUPER permission set. 
 
 > [!TIP]
 > It's a best practice to make sure that the Office 365 administrator also has the SUPER permission set in [!INCLUDE[prodshort](includes/prodshort.md)] because that makes many administrative tasks easier, including setting up integration with other apps.
+
+## Manage Profiles (Roles)
+The employees in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a role that gives them access to a Role Center.
+
+The technical representation of a role is a profile. Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same role. A Role Center is the entry point, or home page, for [!INCLUDE[d365fin](includes/d365fin_md.md)] that gives the user quick access to their daily tasks and displays various insights and key performance indicators about their work.
+
+On the **Profiles (Roles)** page, you create and manage profiles. Each profile has a card where you make various settings, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages. You also initiate page customizations for the profile.
+
+### To create a profile
+
+### To copy a profiles
+
+### To customize pages for a profile
+You customize the workspace for a profile (role) so that all users that are assigned the related role will see the customized pages. As an administrator, you customize the role's workspace by using the same functionality as users when they personalize. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md).
+
+## To clear users' personalizations
+Administrators can remove all personalization made by individual users, for example if an employee has changed role and no longer needs the personalizations. Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
+
+### To clear user personalizations by using the Delete User Personalization page
+The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
+
+    The page lists all the pages that have been personalized and the user that they belong to.
+
+    >[!NOTE]
+    > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
+
+2. Select the entry that you want to delete, and then choose the **Delete** action.
+
+    The user will see the changes the next time they sign-in.
+
+### To clear user personalizations by using the User Personalization Card page
+The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.
+
+    The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
+
+2. Select the user from the list, and then choose the **Edit** action.
+
+3. On the **Actions** tab, choose **Clear Personalized Pages**.
+
+    The user will see the changes the next time they sign-in.
+
+## <a name="EnablePersonalization"></a>To enable or disable personalization (On-Premises Only)
+
+By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.
+
+1. To enable personalization, add the following line in the navsettings.json file:
+
+    ```
+    "PersonalizationEnabled": "true"
+    ```
+
+    To disable personalization, remove this line or change it to:
+
+    ```
+    "PersonalizationEnabled": "false"
+    ```
+
+    For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+
+2. Generate and download the application symbols.
+
+    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized.
+
+    1. First, you generate the symbols by running finsql.exe with `generatesymbolreference` command. The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE). To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
+        ```
+    For example:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
+        ```
+
+    For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+
+    2. Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+
 
 ### User Settings
 On the **My Settings** page, users can define basic behavior of their account, such as the Role Center, the language, and which notifications they get. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
@@ -38,9 +118,7 @@ For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the 
 
 ## Profiles (Roles)
 
-The people in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a role that gives them access to a Role Center.
 
-Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same role. A Role Center is the entry point, or home page, for [!INCLUDE[d365fin](includes/d365fin_md.md)] that gives you quick access to your most important tasks and displays various insights and key performance indicators about your work.  
 
 > [!NOTE]  
 >  In the current version of [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot add, edit, or delete profiles.  

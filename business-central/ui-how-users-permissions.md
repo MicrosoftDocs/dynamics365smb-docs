@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 09/04/2019
 ms.author: sgroespe
 
 ---
@@ -26,7 +26,8 @@ From the **User Card** page, you can open the **Effective Permissions** page to 
 
 Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
-Another system that defines what users can access is the Experience setting. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+## Profiles (Roles)
+After users are created, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this though profiles that reflect roles, which are assigned to users. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -176,7 +177,8 @@ As an administrator, you can remove a user's access to the system by setting the
 
 ## See Also
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Understanding Users, Profiles, and Role Centers](admin-users-profiles-roles.md)  
+[Managing Profiles (Roles)](admin-users-profiles-roles.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  

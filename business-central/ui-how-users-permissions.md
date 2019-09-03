@@ -24,7 +24,8 @@ A permission set is a collection of permissions for specific objects in the data
 
 From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
+## Users in On-Premises Deployments
+For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance. For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Profiles (Roles)
 After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this though profiles that reflect roles, which are assigned to users. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).

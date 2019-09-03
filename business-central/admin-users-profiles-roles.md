@@ -15,29 +15,25 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], users are added by an administra
 
 Access to functionality is managed through user groups and profiles. As an administrator, you can add and remove users as part of your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription, and you can assign users permissions through user groups.  
 
-## Add Users
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
-
-Then, the administrator can assign permissions to each user and groups of users. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).  
-
-The most powerful permissions that a user can have is the SUPER permission set. Each company must have at least one user with this permission set, but it is a best practice to give each user permissions that match their work needs in [!INCLUDE[prodshort](includes/prodshort.md)] and not more than that. This helps ensure that users only have access to data that is relevant to their work, for example.  
-
-> [!TIP]
-> It's a best practice to make sure that the Office 365 administrator also has the SUPER permission set in [!INCLUDE[prodshort](includes/prodshort.md)] because that makes many administrative tasks easier, including setting up integration with other apps.
-
-## Manage Profiles (Roles)
 The employees in your company who have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] are all assigned a role that gives them access to a Role Center.
 
 The technical representation of a role is a profile. Profiles are collections of [!INCLUDE[d365fin](includes/d365fin_md.md)] users who share the same role. A Role Center is the entry point, or home page, for [!INCLUDE[d365fin](includes/d365fin_md.md)] that gives the user quick access to their daily tasks and displays various insights and key performance indicators about their work.
 
 On the **Profiles (Roles)** page, you create and manage profiles. Each profile has a card where you make various settings, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages. Here, you also initiate page customizations for the profile.
 
-### To create a profile
+## Users and Permissions
+Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Center. Then, you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 
-### To copy a profiles
+## To create a profile
 
-### To customize pages for a profile
+## To copy a profile
+
+## To define user settings for a profile
+
+## To customize pages for a profile
 You customize the workspace for a profile so that all users that are assigned the related role will see the customized pages. As an administrator, you customize the role's workspace by using the same functionality as users do when they personalize. For more information, see [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md).
+
+## To export user-created profiles
 
 ## To clear users' personalizations
 Administrators can remove all personalization made by individual users, for example if an employee has changed role and no longer needs the personalizations. Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.

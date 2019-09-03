@@ -27,7 +27,7 @@ From the **User Card** page, you can open the **Effective Permissions** page to 
 Administrators can use the **User Setup** page to define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on.
 
 ## Profiles (Roles)
-After users are created, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this though profiles that reflect roles, which are assigned to users. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this though profiles that reflect roles, which are assigned to users. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.

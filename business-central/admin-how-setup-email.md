@@ -2,7 +2,7 @@
 title: Set up email in Business Central | Microsoft Docs
 description: Describes how to use the company's SMTP server to send and receive email messages within Business Central, or alternatively how to use the email server settings created with the Office 365 subscription.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 07/12/2019
-ms.author: edupont
+ms.author: sgroespe
 
 ---
 # Set Up Email Manually or Using the Assisted Setup
@@ -30,18 +30,18 @@ You can either set email up manually or you can get help by using the **Email Se
 5. When the test succeeds, close the page.
 
 ## Using a Substitute Sender Address on Outbound Email Messages
-All outgoing email messages from [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default address for the account that you specified on the SMTP Email Setup page, as described above. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or amend it with "on behalf of." 
+All outgoing email messages from [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default address for the account that you specified on the SMTP Email Setup page, as described above. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or amend it with "on behalf of."
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[d365fin](includes/d365fin_md.md)].:
 
- * When you send documents such as purchase or sales orders to vendors and customers, you might want them to appear to come from a _noreply@yourcompanyname.com_ address. 
+ * When you send documents such as purchase or sales orders to vendors and customers, you might want them to appear to come from a _noreply@yourcompanyname.com_ address.
  * When your workflow sends an approval request by email using the email address of the requestor.
 
 > [!Note]
 > You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.
 
 ### To set up the substitute sender address for all outbound email messages
-1. In the **Exchange admin center** for your Office 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox. 
+1. In the **Exchange admin center** for your Office 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox.
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.

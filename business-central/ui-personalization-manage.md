@@ -20,7 +20,7 @@ Users can personalize pages that make up their workspace to suit their own prefe
 
 Administrators can customize the workspace for a profile (role) so that all users that are assigned the related role will see the customized pages. The administrator customizes the role's workspace by using the same functionality as users when they personalize.
 
-Page customization starts from the **Profiles (Roles)** page, the administrators starting point for managing users' profiles on individual profile cards. In addition to customizing roles and administrating customized pages, you control various other settings for profiles on the Profile (Role) card for each profile. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md).
+Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing roles and administrating customized pages, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Managing Profiles (Roles)](admin-users-profiles-roles.md).
 
 ## To customize pages for a role
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.

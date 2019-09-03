@@ -25,7 +25,7 @@ If you cannot copy an existing profile, you can create a new one manually.
 
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To activate a profile
 When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.

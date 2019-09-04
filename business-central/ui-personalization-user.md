@@ -115,7 +115,7 @@ To help you better understand personalization, here are some pointers.
 - You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
 
 ## See Also
-[Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)  
+[Customize Pages for Profiles](ui-personalization-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

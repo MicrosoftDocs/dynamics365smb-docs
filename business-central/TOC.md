@@ -306,7 +306,7 @@
 # Administration
 ## [Overview](admin-setup-and-administration.md)
 ## [Managing Users and Permissions](ui-how-users-permissions.md)
-## [Managing Profiles (Roles)](admin-users-profiles-roles.md)
+## [Managing Profiles](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)
@@ -330,7 +330,7 @@
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
-### [Customize the Workspace for Profiles (Roles)](ui-personalization-manage.md)
+### [Customize Pages for Profiles](ui-personalization-manage.md)
 ### [Change Which Features are Displayed](ui-experiences.md)
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions

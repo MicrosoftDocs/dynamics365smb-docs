@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/04/2019
+ms.date: 09/05/2019
 ms.author: sgroespe
 ---
 
@@ -45,6 +45,8 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
+|Ctrl+Insert |Insert a new line, in documents, journals, and worksheets.|
+|Ctrl+Delete |Delete a line, in documents, journals, and worksheets.|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
@@ -72,10 +74,8 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
-|Alt+N |**1)** Open a page to create a new record; the same as choosing the **+** action. **2)** Insert a new line in an editable list.|Same.|
+|Alt+N |**1)** Open a page to create a new record. (The same as choosing the **New** and **+** actions.)<br/>**2)** Insert a new line in an editable list.|Same.|
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. |Same.|
-|Ctrl+Insert |Add a new line in a **Lines** grid, such as a sales order line.|
-
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
@@ -151,14 +151,6 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 |Enter|Confirm the value in the current field and go to the next Quick Entry field.||
 |Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.<br /><br />This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
-
-## Keyboard Shortcuts in Worksheets
-
-The following shortcuts are only available on worksheets, such as the **Item Journal** page.
-
-|Press these keys<br />(in macOS)|To do this|  
-|----------------|-----------|  
-|Ctrl+Delete| Delete a line item.|
 
 ## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
 

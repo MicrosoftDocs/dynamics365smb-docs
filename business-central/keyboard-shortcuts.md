@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2019
+ms.date: 09/04/2019
 ms.author: sgroespe
 ---
 
@@ -40,6 +40,8 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press Alt+Up Arrow to show the validation error. Press Esc or Alt+Up Arrow to close the tooltip.|
 |Alt+F2|Show and hide the FactBox pane.|
+|Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
+|Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
@@ -50,6 +52,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
 |Ctrl+Click|Navigate in **Personalizing** and **Customizing** mode. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
+|Shift+F12|Open the Role Explorer. For more information, see [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md).|
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
@@ -58,7 +61,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 ## Keyboard Shortcuts in Lists
 
-The following table describes the keyboard shortcuts that you can use in a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
+The following table describes the keyboard shortcuts that you can use on a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
@@ -69,8 +72,10 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
-|Alt+N |Open a page to create a new record; the same way as selecting the **New** action. |Same.|
-|Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |Same.|
+|Alt+N |**1)** Open a page to create a new record; the same as choosing the **+** action. **2)** Insert a new line in an editable list.|Same.|
+|Alt+Shift+N |Close a newly created page and open a new one to create a new record. |Same.|
+|Ctrl+Insert |Add a new line in a **Lines** grid, such as a sales order line.|
+
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
@@ -130,11 +135,11 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Alt+F6|Collapse and expand the current FastTab.|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
+|Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
 |Ctrl+Shift+F12 |Maximize the line items part on a document page. Press the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
-|Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
-|F6|Move to next FastTab or part (sub-page).|
+|F6|Move to next the FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 
 ## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
@@ -149,7 +154,7 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 
 ## Keyboard Shortcuts in Worksheets
 
-The following shortcuts are only available on Worksheet pages, like **Item Journals**.
+The following shortcuts are only available on worksheets, such as the **Item Journal** page.
 
 |Press these keys<br />(in macOS)|To do this|  
 |----------------|-----------|  

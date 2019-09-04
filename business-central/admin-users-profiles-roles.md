@@ -32,7 +32,7 @@ Users can assign themselves to a role by choosing the **Role** field on the **My
 
 1. On the **Profiles (Roles)** page, select the profile that you want to assign, and then choose the **User Personalization List** action.
 2. On the **User Personalizations** page, select the user that you want to assign the profile to, and then choose the **Edit** action.
-3. In the **Profile ID** field, select the relevant profile. 
+3. In the **Profile ID** field, select the relevant profile.
 
 ## To activate a profile
 When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.
@@ -40,7 +40,7 @@ When a profile is created, you can select different check boxes that define if, 
 1. On the **Profile (Role)** page, select the following check boxes:
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
-    - **Disable personalization** to specify if users of the related role can personalize their workspace. Note that this applies to users of the profile only. In on-premises installations, you can make such as setting for all users in the system. For more information, see [To enable or disable personalization (on-premises only)](admin-users-profiles-roles.md#EnablePersonalization).
+    - **Disable personalization** to specify if users of the related role can personalize their workspace. 
     - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed on the **My Business Central** page. For more information, see [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To copy a profile

@@ -107,7 +107,7 @@ To open the current card or document in a new window, choose ![Open New Window](
 > When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
-> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify this URL as an allowed website: https://businesscentral.dynamics.com. For information see, [How to block pop-ups in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [How to block pop-ups in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## Entering Quantities by Calculation
 

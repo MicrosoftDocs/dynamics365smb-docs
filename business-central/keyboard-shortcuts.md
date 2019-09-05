@@ -72,7 +72,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
-|Alt+N|Insert a new line in an editable list.|Same.|
+|Alt+N|Insert a new line in an editable list, such as the **G/L Budgets** page.|Same.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns

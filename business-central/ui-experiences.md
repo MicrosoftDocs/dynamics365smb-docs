@@ -39,7 +39,7 @@ The following table lists the experiences that are currently available.
 ## Enabling Premium Features after Upgrading a Plan
 Users are assigned to plans in Office 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-You can then define which specific functions and pages within the experience those users are allowed to access by assigning permission sets. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+You can then define which specific functions and pages within the experience those users are allowed to access by assigning permission sets. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
 
 ### To update plan changes in users groups
 When you have made a change to users plans in Office 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -62,7 +62,7 @@ All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customizing Business Central](ui-customizing-overview.md)
 [Creating New Companies](about-new-company.md)  
-[Managing Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)

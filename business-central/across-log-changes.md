@@ -44,5 +44,5 @@ The information is displayed in the **Activity Log** page, according to the cont
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Sorting](ui-sorting.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Managing Users and Permissions](ui-how-users-permissions.md)    
+[Manage Users and Permissions](ui-how-users-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

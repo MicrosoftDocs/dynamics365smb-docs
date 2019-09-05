@@ -100,6 +100,6 @@ Sure. If you do, you might need an app password in order to send email messages.
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
-[Managing Users and Permissions](ui-how-users-permissions.md)  
+[Manage Users and Permissions](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

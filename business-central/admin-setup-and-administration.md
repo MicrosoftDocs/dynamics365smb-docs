@@ -29,8 +29,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
-|Add users, manage permissions and access to data, assign roles.|[Managing Profiles](admin-users-profiles-roles.md)|
+|Assign permissions to users, modify permission sets, and group users per permissions.|[Manage Users and Permissions](ui-how-users-permissions.md)|
+|Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|
 |Set up a new business unit using templates|[Creating New Companies](about-new-company.md)|

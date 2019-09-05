@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 09/04/2019
+ms.date: 09/05/2019
 ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ Administrators can customize pages for a profile, according to the related busin
 > [!NOTE]
 > The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
 
-Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Managing Profiles](admin-users-profiles-roles.md).
+Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## To customize pages for a profile
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
@@ -63,7 +63,7 @@ The layout on the selected pages is reset to the default page layout for the pro
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  
-[Managing Profiles](admin-users-profiles-roles.md)  
+[Manage Profiles](admin-users-profiles-roles.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

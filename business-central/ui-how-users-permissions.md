@@ -13,7 +13,7 @@ ms.date: 09/05/2019
 ms.author: sgroespe
 
 ---
-# Managing Users and Permissions
+# Manage Users and Permissions
 To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Once users are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Users are assigned permission sets depending on the plan assigned to the user in Office 365. For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
@@ -28,7 +28,7 @@ From the **User Card** page, you can open the **Effective Permissions** page to 
 For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance. For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Profiles
-After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles, reflecting roles or departments, which you assign to different types of users. For more information, see [Managing Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles, reflecting roles or departments, which you assign to different types of users. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -178,7 +178,7 @@ As an administrator, you can remove a user's access to the system by setting the
 
 ## See Also
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Managing Profiles](admin-users-profiles-roles.md)  
+[Manage Profiles](admin-users-profiles-roles.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

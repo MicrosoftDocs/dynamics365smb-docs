@@ -16,10 +16,12 @@ ms.author: sgroespe
 # Personalize Your Workspace
 You can personalize your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 
-Depending on the type of page and what it includes, you can make various changes, such as move or hide fields, columns, actions, and entire parts, and adding new fields. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.
+You can personalize all types of pages, including the Role Center page. For more information about Role Centers, see [Role Center](ui-change-basic-settings.md#role-center).
+
+Depending on the type of page and what it includes, you can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalization must be done by first activating the **Personalizing** banner, but very simple adjustments, such as column width can be performed immediately on any list.
 
 > [!NOTE]
-> Administrators can perform the same layout changes as users can by customizing the workspace for a role that multiple users are assigned. For more information, see [Customize the Workspace for Roles](ui-personalization-manage.md)<br /><br />
+> Administrators can perform the same layout changes as users can by customizing the workspace for a profile that multiple users are assigned. For more information, see [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
 ## To change the width of a column
@@ -30,20 +32,19 @@ You can easily resize columns on any list by dragging the boundary between two c
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
 ## To personalize a page through the **Personalizing** banner
-1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
+1. Open any page that you want to personalize.
+2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
-2. Begin to personalize your Role Center or go to another page that you want to personalize by holding down the Ctrl key while choosing the action in question.
-
     > [!NOTE]
-    > To navigate while in personalizing mode, use Ctrl + Click on the action in question. If you only choose (click on) the action, the personalization options appear, **Move**, **Hide**, etc.
+    > To navigate during personalization, use Ctrl + Click on an action if it is highlighted by the arrowhead.
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you cannot personalize the page. For more details, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
 3. To add a field, choose the **+ Field** action.
 4. From the **Add Field to Page** pane, drag and drop a field into the desired position on the page.
-5. To change a UI element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with a red arrowhead or border.
+5. To change a UI element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border.
 6. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element. For more information, see [What You Can Personalize](#What).
 7. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
 
@@ -61,12 +62,9 @@ the arrowhead, choose <b>Hide</b>.|The element is grayed when you are in persona
 |Change the freeze pane in a list to another column. |Choose the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed position, choose the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
 |Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
 
-> [!NOTE]
-> When you are in personalizing mode and the arrowhead appears for an action, you must use Ctrl + Click to perform the normal action.
-
 ## <a name="Actions"></a>Personalizing Actions
 
-Personalization lets you decide which actions to show on the action bar and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the red arrowheads guide you.
+Personalization lets you decide which actions to show on the action bar and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 

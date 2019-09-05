@@ -12,7 +12,7 @@ ms.date: 09/05/2019
 ms.author: sgroespe
 ---
 
-# Keyboard Shortcuts (PC only)
+# Keyboard Quick Reference - PC Only
 
 ||||  
 |----------------|-----------|----------------|

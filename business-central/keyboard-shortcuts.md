@@ -26,7 +26,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 > [!NOTE]
 > The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These are indicated in parentheses in the tables in the following sections.
+Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These are indicated with brackets in the following sections.
 
 > [!NOTE]
 > In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
@@ -185,7 +185,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
 
 ## See also
-
+[Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

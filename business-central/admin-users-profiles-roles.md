@@ -11,9 +11,12 @@ ms.author: sgroespe
 
 ---
 # Managing Profiles
-All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a role that reflects their job description and thereby defines their activities in the user interface. The technical representation of a role is a profile and is, therefore, named *profile (role)* in the UI.
+All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a role that reflects their job description and thereby defines their activities in the user interface.
 
-As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings, such as the name of the role as users see it, which Role Center it uses, and whether users assigned the role can personalize their pages.
+> [!NOTE]
+> The business representation of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
+
+As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings, such as the name of the role as users see it, whether users assigned the role can personalize their pages, and which Role Center the profile uses. For more information about Role Centers, see [Role Center](ui-change-basic-settings.md#role-center).
 
 Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Center. Then, you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
 
@@ -40,7 +43,7 @@ When a profile is created, you can select different check boxes that define if, 
 1. On the **Profile (Role)** page, select the following check boxes:
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
-    - **Disable personalization** to specify if users of the related role can personalize their workspace. 
+    - **Disable personalization** to specify if users of the related role can personalize their workspace.
     - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed on the **My Business Central** page. For more information, see [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To copy a profile
@@ -70,6 +73,8 @@ A zip file is exported containg .al files for profiles where the **Source** fiel
 ## To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 
+You so also delete all page customizations for a profile. For more information, see [To delete all customizations for a profile]()
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalizations**, and then choose the related link.
 
     The **User Personalizations** page lists all users who have made personalizations.
@@ -81,6 +86,8 @@ The user will see the changes the next time they sign in.
 
 ## To delete personalizations for specific pages
 You can delete personalizations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalization must no longer be used by users. Deleting users' personalizations changes the page layout back to what is defined by the profile.
+
+You so also delete individual page customizations for a profile. For more information, see [To delete customization for specific pages for a profile]()
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalizations**, and then choose the related link.
 

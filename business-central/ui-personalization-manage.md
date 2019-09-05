@@ -20,7 +20,7 @@ Users can personalize pages that make up their workspace to suit their own prefe
 Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout. The administrator customizes pages by using the same functionality as users do when they personalize pages.
 
 > [!NOTE]
-> The business representation of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
+> The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
 
 Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Managing Profiles](admin-users-profiles-roles.md).
 
@@ -63,6 +63,7 @@ The layout on the selected pages is reset to the default page layout for the pro
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  
+[Managing Profiles](admin-users-profiles-roles.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

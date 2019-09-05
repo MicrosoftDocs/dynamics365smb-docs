@@ -319,15 +319,6 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
-## Integrating with Dynamics 365 Sales
-### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
-### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)
@@ -358,6 +349,15 @@
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
+## Integrating with Dynamics 365 Sales
+### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
+### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 
 # Finance
 ## [Overview](finance.md)

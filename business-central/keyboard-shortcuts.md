@@ -21,16 +21,15 @@ This article provides an overview of some of the shortcut key combinations that 
 >[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## Overview
-The keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page.
-
-The keyboard shortcuts are supported by most web browsers; however, the behavior may vary slightly.
-
-The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
-
-Most of the shortcuts are the same no matter whether the operating system is Windows or macOS; however, there are some shortcuts that differ for macOS. These are indicated in parentheses in the tables in the sections that follow.
+Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, F9 posts a document and Ctrl+F7 shows the financial entries for a record. The keyboard shortcut is displayed in the tooltip for the action in question, such as the **Post** action on the **Sales Order** page.
+> The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
+
+Most of the shortcuts are the same no matter whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These are indicated in parentheses in the tables in the following sections.
+
+> [!NOTE]
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page, such as actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
@@ -43,18 +42,18 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
 |Alt+Q<br />(Ctrl+Alt+Q)|Open **Tell me what you want to do** box that can help you find a page, a report, an action on the current page, or an article in the documentation.|
+|Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)
+|Alt+Shift+N |Close a newly created page and open a new one to create a new record.
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
-|Ctrl+Insert |Insert a new line, in documents, journals, and worksheets.|
-|Ctrl+Delete |Delete a line, in documents, journals, and worksheets.|
+|Shift+F12|Open the Role Explorer. For more information, see [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|
 |Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
+|Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
-|Ctrl+Click|Navigate in **Personalizing** and **Customizing** mode. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
-|Shift+F12|Open the Role Explorer. For more information, see [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md).|
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
@@ -73,9 +72,8 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
 |-----------------|-------|-------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
+|Alt+N|Insert a new line in an editable list.|Same.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
-|Alt+N |**1)** Open a page to create a new record. (The same as choosing the **New** and **+** actions.)<br/>**2)** Insert a new line in an editable list.|Same.|
-|Alt+Shift+N |Close a newly created page and open a new one to create a new record. |Same.|
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
@@ -106,12 +104,12 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Ctrl+Down Arrow<br />(Ctrl+Cmd+Down Arrow)|Move focus to the row below and keep the current row selected.|Not applicable.|
 |Ctrl+Space Bar<br />(Ctrl+Cmd+Space )|Extend the selection of rows to include the focused row.<br /><br />You can use this after using Ctrl+Up Arrow or Ctrl+Down Arrow to expand your selection.|Not applicable.|
 |Ctrl+A|Select all rows.|Not applicable.|
+|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Yes, but only for a single selected tile.|
+|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email. You can only do this in editable lists.|Not applicable.|
 |Shift+Up Arrow|Extend the selection of rows to include the row above.|Not applicable.|
 |Shift+Down Arrow|Extend the selection of rows to include the row below.|Not applicable.|
 |Shift+Page Up<br />(Shift+Fn+Up Arrow)|Extend the selection of rows to include all visible rows above the current selection of rows.|Not applicable.|
 |Shift+Page Down<br />(Shift+Fn+Down Arrow)|Extend the selection of rows to include all visible rows below the current selection of rows.|Not applicable.|
-|Ctrl+C<br />(Cmd+C)|Copy the selected rows to the Clipboard.|Yes, but only for a single selected tile.|
-|Ctrl+V<br />(Cmd+V)|Paste the selected rows from the Clipboard into the current page or external document, like Microsoft Excel or Outlook email. You can only do this in editable lists.|Not applicable.|
 |F8|Copy the field in the same column of the row above, and paste it into the current row. You can only do this in editable lists. Using this shortcut followed by a Tab lets you quickly fill out fields in line items that you want to have the same value as the row above.|Not applicable.|
 
 ### <a name="KeyboardFilter"></a>Searching and Filtering Lists
@@ -132,14 +130,16 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
-|Alt+F6|Collapse and expand the current FastTab.|
+|Alt+F6|Toggle collapse/expand for the current FastTab.|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Down Arrow|Open the next record for an entity.|
 |Ctrl+Up Arrow |Open the previous record for an entity.|
+|Ctrl+Insert |Insert a new line in documents.|
+|Ctrl+Delete |Delete the line, in documents, journals, and worksheets.|
 |Ctrl+Shift+F12 |Maximize the line items part on a document page. Press the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
-|F6|Move to next the FastTab or part (sub-page).|
+|F6|Move to the next FastTab or part (sub-page).|
 |Shift+F6|Move to previous FastTab or part (sub-page).|
 
 ## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields

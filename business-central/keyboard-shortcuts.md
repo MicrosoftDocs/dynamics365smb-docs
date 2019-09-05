@@ -53,7 +53,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
-|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application.<br/><br />This is similar to selecting refresh/reload in the browser.|
+|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application. (Similar to selecting refresh/reload in the browser.)|
 |F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 08/09/2019
+ms.date: 09/04/2019
 ms.author: sgroespe
 ---
 
@@ -104,7 +104,10 @@ When working on multiple tasks at a time or when managing interruptions to the c
 To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
-> When you open other pages from a card or document that is opened in new window, those pages will open in new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+
+> [!NOTE]
+> If you work on the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify this URL as an allowed website: https://businesscentral.dynamics.com. For information see, [Safari: Enable/Disable Pop-up Blocker](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## Entering Quantities by Calculation
 

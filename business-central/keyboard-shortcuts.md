@@ -41,7 +41,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+F2|Show and hide the FactBox pane.|
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
-|Alt+Q<br />(Option+Alt+Q)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
+|Alt+Q<br />(Ctrl+Option+Q)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
 |Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record.
 |Alt+T|Open the **My Settings** page.|

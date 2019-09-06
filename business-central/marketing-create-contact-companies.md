@@ -11,17 +11,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
 
 ---
 # Create Contacts
 You regularly meet persons from other companies that may develop into business relationships, such as a customer relation. When such a new contact is made, as much information as possible must be recorded on a contact card so that communication can continue.
 
+You can create the contact as type **Company**, for example, if the relation not an individual person but an entity, such as a contractor or a bank. You an also create the contact as type **Person**. Functionality is more or less the same for both types and both can be changed as the relationship evolves.
+
+When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronized going forward is you link them.
+
 ## Person or Company
 You can decide to set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. You do this when you fill in the **Type** field on the **Contact Card** page. You can also maintain contact cards for both a company and one or more persons working in the company. This happens automatically when you fill in the **Company Name** field on a contact card of type **Person**.
 
-Functionality is the same for both types, except that the options for additional information changes depending on the type. For example, you can only assign job responsibilities to a person and industry group to a company. This is indicated in the UI by garying out the fields and actions that do not apply. You can change the value of the **Type** field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the person's related company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
+Functionality is the same for both types, except that the options for additional information changes depending on the type. For example, you can only assign job responsibilities to a person and industry group to a company. This is indicated in the UI by graying out the fields and actions that do not apply. You can change the value of the **Type** field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the person's related company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
 
 ## To create a contact manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
@@ -35,7 +39,7 @@ Functionality is the same for both types, except that the options for additional
 If you have customers, vendors, and bank accounts that you want to create contact cards for, you can use the **Create Contacts from** batch jobs to create contacts on the basis of the existing data. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 > [!NOTE]  
-> Before you can create contacts based on existing data, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. For more information, see [Setting up Contacts](marketing-setup-contacts.md).
+> Before you can create contacts based on existing data, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. For more information, see [Set up Contacts](marketing-setup-contacts.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter one of the following, depending what you want to create contacts from, and then choose the related link.
    * **Create Contacts from Customers**
@@ -48,6 +52,19 @@ The next contact numbers in the number series are assigned to the new contacts. 
 
 > [!TIP]  
 > You can also do this the other way around, namely by creating a customer, vendor, or bank account from a contact. For more information, see [To create a contact as a customer, vendor, or bank account](marketing-create-contact-companies.md#to-create-a-contact-as-a-customer-vendor-or-bank-account).
+
+## To create a customer, vendor, or bank account from a contact
+If you have a customer, vendor, or bank account for the company that you want to create a contact for, you can use the **Create as** function. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+
+> [!NOTE]  
+> Before you can create customers, vendors, or bank accounts from contacts, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. For more information, see [Setting up Contacts](marketing-setup-contacts.md).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
+2. Select the contact you want to create as a customer, vendor, or bank account.
+3. Choose the **Create As** action, and then choose either **Customer**, **Vendor**, or **Bank**.
+4. Choose the **OK** button.
+
+The contact information is transferred from the contact card to a new customer, vendor, or bank account card. You may want to add specific information to each of the cards, such as invoicing and payment details. For more information, see, for example, [Register New Customers](sales-how-register-new-customers.md).
 
 ## Synchronizing Contacts with Customers, Vendors, and Bank Accounts
 If some of your contacts are also customers, vendors, or bank accounts, you can synchronize the contact information with the related customer, vendor, or bank account.
@@ -79,18 +96,11 @@ If you have a contact and either a customer, vendor, or bank account for the sam
 4. In the **Current Master Fields** field, specify whose fields to prioritize in case of conflicting information in fields common to the contact and customer, vendor, or account. For example, if the salesperson code is different on the contact card than on the customer card, you can choose to keep the one on the contact card by selecting **Contact**.
 5. Choose the **OK** button.
 
-## To create a contact as a customer, vendor, or bank account
-If you have a customer, vendor, or bank account for thee company that you want to create a contact for, you can use the **Create as** function. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
-
-> [!NOTE]  
-> Before you can create customers, vendors, or bank accounts from contacts, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. For more information, see [Setting up Contacts](marketing-setup-contacts.md).
-
+## To view which customer, vendor, or bank account a contact is related to
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
-2. Select the contact you want to create as a customer, vendor, or bank account.
-3. Choose the **Create As** action, and then choose either **Customer**, **Vendor**, or **Bank**.
-4. Choose the **OK** button.
+2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Acc** action.
 
-The contact information is transferred from the contact card to a new customer, vendor, or bank account card. You may want to add specific information to each of the cards, such as invoicing and payment details. For more information, see, for example, [Register New Customers](sales-how-register-new-customers.md).
+The page for the related card opens.
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

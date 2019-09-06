@@ -175,7 +175,7 @@ Finance charges can be calculated using either the average daily balance method 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.  
+2. Fill in the fields as necessary.
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
     For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Finance Charge Terms** page.

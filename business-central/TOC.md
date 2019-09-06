@@ -471,7 +471,7 @@
 ## [Working with Dimensions](finance-dimensions.md)
 ## [Create G/L Budgets](finance-how-create-budgets.md)
 ## [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
-## [Reverse Postings](finance-how-reverse-journal-posting.md)
+## [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ## [Allocate Costs and Income](year-allocate-costs-income.md)
 ## [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ## [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)

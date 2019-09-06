@@ -55,7 +55,7 @@ General journals are used to post to general ledger, bank, customer, vendor, and
  [Set Up Multiple Journal Batches](../FullExperience/how-to-set-up-multiple-journal-batches.md)   
  [Set Up Default Balancing Accounts](../FullExperience/how-to-set-up-default-balancing-accounts.md)   
  [Reconcile Liquid Accounts](../FullExperience/how-to-reconcile-liquid-accounts.md)   
- [Reverse Postings](../FullExperience/how-to-reverse-journal-postings.md)   
+ [Reverse Journal Postings and Undo Receipts/Shipments](../FullExperience/how-to-reverse-journal-postings.md)   
  [Import Bank Statements](../FullExperience/how-to-import-bank-statements.md)   
  [Reconcile Payments Using Automatic Application](../FullExperience/how-to-reconcile-payments-using-automatic-application.md)   
  Applies-to ID   

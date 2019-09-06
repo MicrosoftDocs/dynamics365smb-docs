@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Working with Dimensions" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="How to: Create Budgets" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="How to: Post Transactions Directly to the General Ledger" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="How to: Reverse Postings" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="How to: Reverse Journal Postings and Undo Receipts/Shipments" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="How to: Allocate Costs and Income" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="How to: Use Item Charges to Account for Additional Trade Costs" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="How to: Record and Reimburse Employees' Expenses" Page="finance-how-record-reimburse-employee-expenses.html"/>

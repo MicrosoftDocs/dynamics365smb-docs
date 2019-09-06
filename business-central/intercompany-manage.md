@@ -25,7 +25,7 @@ There are four main benefits to the Intercompany functionality:
 - Complete audit trail and full visibility into business activities and transaction histories  
 - Efficient, cost-effective transactions with affiliate and subsidiary companies  
 
-You are in full control of all transaction documents. For example, you can reject a document sent to you and, in this way, reverse postings that were incorrect. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company has not shipped any goods.  
+You are in full control of all transaction documents. For example, you can reject a document sent to you and, in this way, Reverse Journal Postings and Undo Receipts/Shipments that were incorrect. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company has not shipped any goods.  
 
 When you enter a transaction, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. The Intercompany functionality creates general journal lines that result in the balancing of the books of both companies involved in a transaction. In receivables and payables, you assign an intercompany partner code to any customer or vendor. From that moment on, all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.  
 

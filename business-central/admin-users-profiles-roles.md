@@ -11,7 +11,7 @@ ms.author: sgroespe
 
 ---
 # Manage Profiles
-All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allows administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
+All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
 > [!NOTE]
 > The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
@@ -75,7 +75,7 @@ As an administrator, you can define these setting for a profile and thereby appl
 4. On the **User Personalization Card** page, edit the fields as necessary.
 
 ## To export user-created profiles
-You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions.
+You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see **LINK to JOHN's TOPIC**.
 
 * On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
 

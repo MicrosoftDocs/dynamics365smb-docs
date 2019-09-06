@@ -133,7 +133,7 @@ Before you can process customer payments electronically by exporting direct debi
  You can now proceed to post receipts of payment for the involved sales or service invoices. You can do this as you typically post payment receipts, such as on the **Payment Registration** page, or you can post the related payment receipts directly from the **Direct Debit Collect. Entries** page. For more information, see [Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
 
 ## Posting SEPA Direct Debit Payment Receipts
- When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales or service invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
+ When a direct debit collection is successfully processed by your bank, you can proceed to post receipt of the payment for the involved sales or service invoices. For more information, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
  You can post the payment receipt directly from the **Direct Debit Collections** page or the **Direct Debit Collect. Entries** page. Alternatively, you can relay the work to another user by preparing the related journal lines.  
 

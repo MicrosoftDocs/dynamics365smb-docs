@@ -20,11 +20,11 @@ To undo an erroneous journal posting, you select the entry and create a reverse 
 
 You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
 
-To undo a receipt or shipment posting, before they are posted as invoiced, you can use the **Undo** function on the posted document. You can undo quantities of type **Item**, **Resource**, and **Charge (Item)**.
+To undo a receipt or shipment posting, before they are posted as invoiced, you can use the **Undo** function on the posted document. You can undo quantities of type **Item**.
 
-If you have made an incorrect negative quantity posting, such as a purchase order with the wrong number of items, resources, or item charges, and posted it as received but not invoiced, then you can undo the posting.
+If you have made an incorrect negative quantity posting, such as a purchase order with the wrong number of items, and posted it as received but not invoiced, then you can undo the posting.
 
-If you have made an incorrect positive quantity posting, such as a shipment, or a purchase return order with the wrong number of items, resources, or item charges, and posted it as shipped but not invoiced, then you can undo the posting.   
+If you have made an incorrect positive quantity posting, such as a sales shipment or a purchase return shipment with the wrong number of items, and posted it as shipped but not invoiced, then you can undo the posting.   
 
 ## To reverse the journal posting of a general ledger entry
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.

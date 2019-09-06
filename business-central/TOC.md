@@ -217,9 +217,9 @@
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 ## [Using the same Office 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-## [Setting Up Email](admin-how-setup-email.md)
-## [Creating Number Series](ui-create-number-series.md)
-## [Setting Up Base Calendars](across-how-to-assign-base-calendars.md)
+## [Set Up Email](admin-how-setup-email.md)
+## [Create Number Series](ui-create-number-series.md)
+## [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 
 # General Business Functionality
 ## [Overview](ui-across-business-areas.md)

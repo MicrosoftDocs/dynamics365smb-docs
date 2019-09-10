@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 09/05/2019
+ms.date: 09/10/2019
 ms.author: sgroespe
 
 ---
@@ -39,7 +39,7 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 5. When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.
 6. Close the browser tab.
 
-    The customization of pages is now recorded for the profile, indicated by the fact that the value in the **Source** field is changed to **User-created**.
+The customization of pages is now recorded for the profile.
 
 ## To view all customized pages for a profile
 You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.
@@ -59,7 +59,7 @@ You can delete individual page customizations that you have made for a profile. 
 1. On the **Profile (Role)** page, choose the **Customized Pages** action.
 2. On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.
 
-The layout on the selected pages is reset to the default page layout for the profile.
+The layout on the selected pages is adjusted to the changes you made.
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  

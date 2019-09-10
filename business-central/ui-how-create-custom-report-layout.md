@@ -65,7 +65,7 @@ To modify a report layout, you must first export the report layout as a file to 
 5. In the **Import** dialog box, select **Choose** to find and select the report layout document, and then choose **Open**.
 
 ##  <a name="MakeChangesToLayout"></a> Making changes to a Word report layout  
-To can make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
 If you are designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 

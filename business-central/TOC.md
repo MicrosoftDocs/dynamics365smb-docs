@@ -19,7 +19,7 @@
 # Working with Business Central
 ## [Overview](ui-work-product.md)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
-## [Finding and Navigating Pages with the Role Explorer](ui-role-explorer.md)
+## [Finding Pages and Navigating from a Feature Overview](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)

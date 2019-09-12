@@ -25,16 +25,16 @@ A physical inventory recoding consists of a physical inventory recording header 
 
 This lines contain the items, locations, bins and the recorded quantities.  
 
-You can create lines manually or you can have the program to create new physical inventory recordings automatically. You can print physical inventory recording lists.  
+You can create lines manually or you can have application to create new physical inventory recordings automatically. You can print physical inventory recording lists.  
 
-By setting the Status to finished, you tell the program, that the current physical inventory recording has been finished.  
+By setting the Status to finished, you tell application, that the current physical inventory recording has been finished.  
 
 > [!NOTE]  
->  When you finish the current physical inventory recording, the program assigns every physical inventory recording line to one line of the related physical inventory order. The program assigns this physical inventory order lines with the same values in the 4 fields Item No., Variant Code, Location Code and Bin Code like in the physical inventory recording line.  
+>  When you finish the current physical inventory recording, application assigns every physical inventory recording line to one line of the related physical inventory order. The application assigns this physical inventory order lines with the same values in the 4 fields Item No., Variant Code, Location Code and Bin Code like in the physical inventory recording line.  
 >   
->  If there is no such physical inventory order line the program will automatically insert a new line when finishing the physical inventory recording. The program will note this by placing a check mark in the field Recorded without Order on the physical inventory order line.  
+>  If there is no such physical inventory order line application will automatically insert a new line when finishing the physical inventory recording. The application will note this by placing a check mark in the field Recorded without Order on the physical inventory order line.  
 >   
->  If there are more than one such physical inventory order lines, an error message appears. You can have the program to show you the duplicate lines.  
+>  If there are more than one such physical inventory order lines, an error message appears. You can have application to show you the duplicate lines.  
 
 ## See Also  
  [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md)   

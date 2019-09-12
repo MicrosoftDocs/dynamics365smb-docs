@@ -108,7 +108,7 @@ The lines on the **Intercompany Dimensions** page and the **Intercompany Dimensi
 ### To map intercompany dimensions to your company's dimensions
 When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.
 
-If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have the program automatically map the dimensions, then you can map the accounts automatically.
+If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
 2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.

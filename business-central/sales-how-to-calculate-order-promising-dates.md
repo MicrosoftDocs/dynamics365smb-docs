@@ -131,7 +131,7 @@ Before an item can be included in the order promising calculation, it must be ma
 
 ## To calculate an order promising date  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
-2.  Open the relevant sales order and select the sales order lines that you want the program to calculate.  
+2.  Open the relevant sales order and select the sales order lines that you want application to calculate.  
 3.  Choose the **Order Promising** action, and then choose the **Order Promising Lines** action.  
 4.  Select a line, and then select one of the following options:  
 

@@ -105,7 +105,7 @@ There are two reasons for this:
 
 Over time, dynamic order tracking links become out of balance since the entire order tracking network is not rearranged until a demand or supply event is actually closed.  
 
-Before balancing supply by demand, the program deletes all existing order tracking links. Then during the balancing procedure, when a demand or supply event is closed, it establishes new order tracking links between the demand and supply.  
+Before balancing supply by demand, application deletes all existing order tracking links. Then during the balancing procedure, when a demand or supply event is closed, it establishes new order tracking links between the demand and supply.  
 
 > [!NOTE]  
 >  Even if the item is not set up for dynamic order tracking, the planned system will create balanced order tracking links as explained above.  

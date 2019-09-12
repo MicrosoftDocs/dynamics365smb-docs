@@ -29,7 +29,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 6.  Create a production order header using the item set up with the manufacturing batch unit of measure. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 7.  Choose the **Refresh** action, and then choose  the **OK** button.  
 
-On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The program calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measure.  
+On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The application calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measure.  
 
 ## To calculate a manufacturing batch unit of measure on a production order  
 1.  Create a production order header using the item set up with the manufacturing batch unit of measure.  

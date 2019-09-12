@@ -19,7 +19,7 @@
 # Enter Physical Inventory Orders
 A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. You can fill in the header manually. You can create a physical inventory order and relate it to one or more physical inventory recordings.  
 
-The physical inventory order lines contain the information about the items and their locations. You can create the physical inventory order lines manually, or you can let the program automatically create physical inventory order lines for you. You can do this by using batch jobs.  
+The physical inventory order lines contain the information about the items and their locations. You can create the physical inventory order lines manually, or you can let application automatically create physical inventory order lines for you. You can do this by using batch jobs.  
 
 Before you can create physical inventory orders you have to set up properties for physical inventory. For more information, see [Set Up Physical Inventory Documents](how-to-set-up-physical-inventory-documents.md).  
 
@@ -70,7 +70,7 @@ Both batch jobs will check if there is already a line with the same values in th
 
 3.  When the batch job completes, choose the **OK** button.  
 
-You can run the batch job more than once. If there are already existing lines for the physical inventory order, the program will append the new lines at the end.  
+You can run the batch job more than once. If there are already existing lines for the physical inventory order, application will append the new lines at the end.  
 
 For each physical inventory order, you can create one or more physical inventory recordings. There you can document the physical count. For more information, see [Create a Physical Inventory Recording](how-to-create-a-physical-inventory-recording.md).  
 

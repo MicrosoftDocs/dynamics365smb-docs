@@ -24,7 +24,7 @@ You can create a service contract either manually or from a service contract quo
 3. Fill in the **No.** field. A dialog box opens, asking whether you want to fill it with the common data from a contract template. If you want to create such a service contract or service contract quote, choose the **Yes** button. The **Service Contract Template List** page opens.  
 4. Select the appropriate template, and then choose **OK** to use it to create the service contract or service contract quote.  
 5. In the **Customer No.** field, choose the customer.  
-6. If you do not want an annual amount difference to be distributed automatically, choose the **Allow Unbalanced Amounts** check box. The values in the **Annual Amount** and **Calcd. Annual Amount** fields are not automatically equalized. If you want the program to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the **Allow Unbalanced Amounts** check box clear.  
+6. If you do not want an annual amount difference to be distributed automatically, choose the **Allow Unbalanced Amounts** check box. The values in the **Annual Amount** and **Calcd. Annual Amount** fields are not automatically equalized. If you want application to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the **Allow Unbalanced Amounts** check box clear.  
 7. Add contract lines to the service contract or service contract quote.  
 8. Fill in the rest of the fields as necessary.  
 

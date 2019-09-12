@@ -1,6 +1,6 @@
 ---
     title: Status Bar | Microsoft Docs
-    description: The status bar at the bottom of the program window shows the following information:
+    description: The status bar at the bottom of application window shows the following information:
     services: project-madeira
     documentationcenter: ''
     author: SorenGP
@@ -16,7 +16,7 @@
 
 ---
 # Status Bar
-The status bar at the bottom of the program window shows the following information:  
+The status bar at the bottom of application window shows the following information:  
   
 -   The name of the active company  
   

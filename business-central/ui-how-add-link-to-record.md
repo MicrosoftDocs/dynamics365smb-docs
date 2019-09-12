@@ -32,7 +32,7 @@ Another example could be when you receive printed invoices from vendors. You can
 
     -   To link to a file on your computer or network, enter the full path and file name, such as  **C:\My Documents\invoice1.doc**.
     -   To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    -   To link to a program, enter a specific string to open the program. For example, to open OneNote with a specific page, enter **onenote:///C:\My Documents/test.one**. Or, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
+    -   To link to a program, enter a specific string to open application. For example, to open OneNote with a specific page, enter **onenote:///C:\My Documents/test.one**. Or, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
 
 5.  Fill in the **Description** field with information about the link.  
 

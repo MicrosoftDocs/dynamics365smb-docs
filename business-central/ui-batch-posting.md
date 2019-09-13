@@ -9,23 +9,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 09/02/2019
+ms.date: 09/13/2019
 ms.author: sgroespe
 
 ---
 # Post Multiple Documents at the Same Time
-Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting, either immediately or according to a schedule, such as at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
+Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate posting or for batch posting according to a schedule, such as at the end of the day. This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.
+
+## To post multiple purchase orders immediately
+The following procedure explains how to post multiple purchase orders immediately. The steps are similar for all purchase and sales documents.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+2. On the **Purchase Orders** page, proceed to select all orders to be posted:
+3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
+4. Select the check box for all the lines representing orders that you want to post at the same time.
+5. Choose the **Posting** action, and then choose the **Post** action.
+6. Choose the **Yes** button on the confirmation message.
+
+## To batch post multiple purchase orders
+The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
 
 > [!NOTE]
 > Batch posting of documents happens in the background as defined by a job queue entry, which must first be set up. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## To post multiple purchase orders
-The following procedure explains how to batch post purchase orders. The steps are similar for all purchase and sales documents where the **Batch Post** action is available.
-
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
-2. On the **Purchase Orders** page, proceed to select all invoices to be posted:
+2. On the **Purchase Orders** page, proceed to select all orders to be posted:
 3. In the **No.** field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.
-4. Select the check box for all the lines representing purchase invoices that you want to post at the same time.
+4. Select the check box for all the lines representing orders that you want to post at the same time.
 5. Choose the **Posting** action, and then choose the **Post Batch** action.
 6. On the **Batch Post Purchase Order** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

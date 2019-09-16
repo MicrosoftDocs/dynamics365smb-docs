@@ -57,7 +57,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  Phyllis sets up the system to handle prepayments for customers.  
 
 -   Phyllis decides to have the same number series for prepayments as the one used for sales invoicing.  
--   Phyllis sets the program to check if prepayments are required before final invoicing on an order.  
+-   Phyllis sets application to check if prepayments are required before final invoicing on an order.  
 -   Phyllis sets up default values for a required prepayment percentage for particular items and customers.  
 
 The following procedures describe how to complete Phyllis' tasks:  

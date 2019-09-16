@@ -150,7 +150,7 @@ Then fill on the **Profile Question Details** page as follows:
 </tbody>
 </table>
 
-When you assign the profile questionnaire containing this question to a contact, the program automatically enters the relevant answer for this contact on the profile lines of the contact card.
+When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
 ## See Also
 [Creating Contacts](marketing-create-contact-companies.md)  

@@ -109,7 +109,7 @@ When you have created journal lines which you know you are likely to create agai
     If you have already created one or more standard item journals and you want to replace one of these with the new set of item journal lines, in the Code field, select the code you want.
 6. Choose the **OK** button to verify that you want to overwrite the existing standard item journal and replace all its content.
 7. Select the **Save Unit Amount** field if you want to save the values in the **Unit Amount** field of the standard item journal.
-8. Select the **Save Quantity** field if you want the program to save the values in the **Quantity** field.
+8. Select the **Save Quantity** field if you want application to save the values in the **Quantity** field.
 9. Choose the **OK** button to save the standard item journal.
 
 When you have finished saving the standard item journal, the Item Journal page is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.

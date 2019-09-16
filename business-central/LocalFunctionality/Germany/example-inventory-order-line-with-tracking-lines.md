@@ -51,7 +51,7 @@ There had been recorded the following physical inventory recording lines for the
 |CH1003|20|  
 |**Total**|**112**|  
 
-When finishing the physical inventory order the program will calculate for the item 80216-V at the location BLUE a negative adjustment of 8 pieces and will create the following entries:  
+When finishing the physical inventory order application will calculate for the item 80216-V at the location BLUE a negative adjustment of 8 pieces and will create the following entries:  
 
 ## Item Tracking lines to post:  
 

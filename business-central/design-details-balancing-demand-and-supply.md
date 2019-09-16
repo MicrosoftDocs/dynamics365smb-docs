@@ -24,7 +24,7 @@ To understand how the planning system works, it is necessary to understand the p
  Generally, these goals are achieved by balancing supply with demand.  
 
 ## Demand and Supply
- Demand is the common term used for any kind of gross demand, such as a sales order and component need from a production order. In addition, the program allows more technical types of demand, such as negative inventory and purchase returns.  
+ Demand is the common term used for any kind of gross demand, such as a sales order and component need from a production order. In addition, application allows more technical types of demand, such as negative inventory and purchase returns.  
 
   Supply is the common term used for any kind of positive or inbound quantity, such as inventory, purchases, assembly, production, or inbound transfers. In addition, a sales return may also represent supply.  
 
@@ -80,10 +80,10 @@ Apart from loading demand and supply types, certain types are loaded with attent
 ### Item Dimensions are Separated  
 The supply plan must be calculated per combination of the item dimensions, such as variant and location. However, there is no reason to calculate any theoretical combination. Only those combinations that carry a demand and/or supply need to be calculated.  
 
-The planning system controls this by running through the inventory profile. When a new combination is found, the program creates an internal control record that holds the actual combination information. The program inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and the program can proceed to the inner loop.  
+The planning system controls this by running through the inventory profile. When a new combination is found, application creates an internal control record that holds the actual combination information. The application inserts the SKU as the control record, or outer loop. As a result, the proper planning parameters according to a combination of variant and location are set, and application can proceed to the inner loop.  
 
 > [!NOTE]  
->  The program does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, the program creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
+>  The application does not require the user to enter a SKU record when entering demand and/or supply for a particular combination of variant and location. Therefore, if a SKU does not exist for a given combination, application creates its own temporary SKU record based on the item card data. If Location Mandatory is set to Yes in the Inventory Setup page, then either a SKU must be created or Components at Location must be set to Yes. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
 
 ### Serial/Lot Numbers are Loaded by Specification Level  
 Attributes in the form of serial/lot numbers are loaded into the inventory profiles along with the demand and supply that they are assigned to.  
@@ -261,7 +261,7 @@ There are two reasons for this:
 
 Over time, dynamic order tracking links become out of balance since the entire order tracking network is not rearranged until a demand or supply event is actually closed.  
 
-Before balancing supply by demand, the program deletes all existing order tracking links. Then during the balancing procedure, when a demand or supply event is closed, it establishes new order tracking links between the demand and supply.  
+Before balancing supply by demand, application deletes all existing order tracking links. Then during the balancing procedure, when a demand or supply event is closed, it establishes new order tracking links between the demand and supply.  
 
 > [!NOTE]  
 >  Even if the item is not set up for dynamic order tracking, the planned system will create balanced order tracking links as explained above.

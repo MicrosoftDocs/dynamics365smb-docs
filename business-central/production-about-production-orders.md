@@ -20,7 +20,7 @@ Production orders are used to manage the conversion of purchased materials into 
 
 Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items.
 
-Production orders are the central components of the program's manufacturing functionality and they contain the following information:  
+Production orders are the central components of application's manufacturing functionality and they contain the following information:  
 
 -   Products planned for manufacturing  
 -   Materials required for the planned production orders  
@@ -59,7 +59,7 @@ For more information, see [Track Relations Between Demand and Supply](production
 Production orders created through other means are not automatically reserved and tracked.   
 
 ## Production Order Status  
-The production order status controls how the production order behaves within the program. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
+The production order status controls how the production order behaves within application. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
 
 ### Simulated Production Order  
 The Simulated Production Order is unique based on the following characteristics:  
@@ -111,9 +111,9 @@ Once a production order has been created and scheduled, it has to be released to
 This information can be recorded manually or through automatic reporting, according to the items setup in the Flushing Method field.  
 
 ### Material Consumption  
-The program offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
+The application offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
 
-Consumption of materials may be processed through the consumption journal, but also may be recorded automatically by the program, known as automatic reporting. The reporting methods are:  
+Consumption of materials may be processed through the consumption journal, but also may be recorded automatically by application, known as automatic reporting. The reporting methods are:  
 
 -   Manual  
 -   Forward  
@@ -139,7 +139,7 @@ The advantage of automatic flushing is that it greatly reduces data entry. With 
 - Back Flushing the Entire Order  
 
 #### Automatic Reporting - Forward Flush the Entire Order  
-If you forward flush the production order at the start of the job, the behavior of the program is very similar to a manual consumption. The major difference is that consumption happens automatically.  
+If you forward flush the production order at the start of the job, the behavior of application is very similar to a manual consumption. The major difference is that consumption happens automatically.  
 
 - The entire contents of the production BOM are consumed and deducted from inventory at the time the released production order is refreshed.  
 - The consumption quantity is the quantity per assembly stated on the production BOM, multiplied by the number of parent items you are building.  
@@ -181,9 +181,9 @@ No components are picked until the released production order status is changed t
 Backward flushing the entire production order requires the same setup as for forward flushing: The reporting method must be set to backward on each item card for all items within the parent BOM to be reported. In addition, all routing link codes must be removed from the production BOM.  
 
 ### Production Output  
-The program provides you with the capability to track how much time is spent working on a production order, in addition to recording the quantity produced. This information can help you more accurately determine the costs of production. Also, manufacturers using a standard costing system may want to record actual information in order to help them develop better standards.  
+The application provides you with the capability to track how much time is spent working on a production order, in addition to recording the quantity produced. This information can help you more accurately determine the costs of production. Also, manufacturers using a standard costing system may want to record actual information in order to help them develop better standards.  
 
-Output may be processed through the output journal, but also may be recorded automatically by the program. The program copies the flushing method from the machine center or work center card to the production order routing when refreshing. As with material consumption, there are three reporting methods for output:  
+Output may be processed through the output journal, but also may be recorded automatically by application. The application copies the flushing method from the machine center or work center card to the production order routing when refreshing. As with material consumption, there are three reporting methods for output:  
 
 - Manual  
 - Forward  

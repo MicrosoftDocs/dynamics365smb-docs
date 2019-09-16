@@ -55,7 +55,7 @@ The **Difference** column represents the difference between the value in the **G
 
 In the top of the **Inventory - G/L Reconciliation** page, you can enter filters to limit, for example, the period of time for which you want information.
 
-If you select the **Show Warning** check box and if there are any discrepancies between the inventory totals and G/L totals, the program shows messages in the **Warning** field of the grid that explain the discrepancy. If you choose the Warning field, the program gives you more information on what the warning means.
+If you select the **Show Warning** check box and if there are any discrepancies between the inventory totals and G/L totals, application shows messages in the **Warning** field of the grid that explain the discrepancy. If you choose the Warning field, application gives you more information on what the warning means.
 
 When you have entered all relevant filters, choose the **Show Matrix** action. The data is calculated and the matrix page appears.
 

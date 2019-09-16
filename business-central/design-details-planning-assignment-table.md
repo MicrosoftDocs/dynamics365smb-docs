@@ -20,7 +20,7 @@ All items should be planned for, however, there is no reason to calculate a plan
 
 If the user has entered a new sales order or changed an existing one, there is reason to recalculate the plan. Other reasons include a change in forecast or the desired safety stock quantity. Changing a bill of material by adding or removing a component would most likely indicate a change, but for the component item only.  
 
-For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, the program will assign the item at that specific location for planning.  
+For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, application will assign the item at that specific location for planning.  
 
 The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
 

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/03/2019
+    ms.date: 09/16/2019
     ms.author: sgroespe
 
 ---
@@ -158,7 +158,7 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Variance](design-details-variance.md)   
  [Design Details: Average Cost](design-details-average-cost.md)   
- [Design Details: Item Application](design-details-item-application.md)
+ [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

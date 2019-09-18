@@ -43,8 +43,7 @@ Assign one or more standard sales lines to a customer so that they are available
 |-|-|
 |**Manual**|You must manually look up and insert a recurring sales line that exists for the customer.|
 |**Automatic**|If multiple recurring sales lines exist for the customer, you will get a notification from where you can pick which one to insert. If only one recurring sales line exists, it will be inserted automatically.<br /><br />
-> [!NOTE]
-> This only works if the new document was created from a document list, for example by choosing the **New** action on the **Sales Orders** page. It does not work if the document was created from the customer card, for example.|
+Note that this only works if the new document was created from a document list, for example by choosing the **New** action on the **Sales Orders** page. It does not work if the document was created from a customer card, for example.|
 |**Always Ask**|A notification appears and all existing recurring sales lines are shown so that you can select one.
 
 ## To insert recurring sales lines on a sales invoice

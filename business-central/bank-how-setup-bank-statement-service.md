@@ -18,6 +18,9 @@ ms.author: sgroespe
 # Set Up the Envestnet Yodlee Bank Feeds Service
 You can import electronic bank statements from your bank to quickly fill on the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> Due to the new Payment Services Directive in Europe (PSD2), automatically importing bank statements from banks in the United Kingdom into Dynamics 365 Business Central will no longer be possible from September 14th 2019. We are looking into the possibility of offering this feature again in the future.
+
 > [!NOTE]
 > The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
 > The Envestnet Yodlee Bank Feeds service is only supported in the US, Canada, and UK.

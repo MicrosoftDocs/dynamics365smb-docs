@@ -21,6 +21,9 @@ To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee B
 > [!NOTE]
 > This functionality is only supported in the online version of Business Central. To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.
 
+> [!IMPORTANT]
+> Due to the new Payment Services Directive in Europe (PSD2), automatically importing bank statements from banks in the United Kingdom into Dynamics 365 Business Central will no longer be possible from September 14th 2019. We are looking into the possibility of offering this feature again in the future.
+
 The Envestnet Yodlee Bank Feeds service provides the following benefits:
 
 * Removes the need for manual entry.

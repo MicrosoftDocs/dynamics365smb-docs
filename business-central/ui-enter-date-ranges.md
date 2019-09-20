@@ -19,8 +19,7 @@ ms.author: sgroespe
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.
 
 ## Check your region and language settings
-
-The [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page specifies the **Region** and **Language** that you are using in the application. These settings influence how you enter dates and times.
+The **My Settings** page specifies the **Region** and **Language** that you are using in the application. These settings influence how you enter dates and times.
 
 -   The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
@@ -81,7 +80,7 @@ The accounting periods are defined on the **Accounting Periods** page. To view o
 
 The work date feature allows you to record transactions using a date that is different from the current date.
 
-The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the [**My Settings**](https://businesscentral.dynamics.com?page=9176 "Go directly to your user settings page in Business Central") page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
+The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the **My Settings** page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 

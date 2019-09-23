@@ -1168,6 +1168,7 @@
 ## Norway
 ### [Overview](LocalFunctionality/Norway/norway-local-functionality.md)
 ### VAT
+#### [Norwegian Standard Audit File - Tax (SAF-T) Management](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norwegian VAT Reporting](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norwegian VAT Codes](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [How to Use One VAT Code in Journals](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)

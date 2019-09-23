@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 09/23/2019
 ms.author: sgroespe
 
 ---
@@ -33,6 +33,12 @@ Another system that defines what users can access is the Experience setting. For
 2. Choose the **Get Users from Office 365** action.
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
+
+## To edit or delete a user
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+2. Select the user that you want to edit, and then choose the **Edit** action.
+3. On the **User Card** page, change the information as necessary.    
+4. To delete a user, select the user that you want to delete, and then choose the **delete** action.
 
 ## To group users in user groups
 You can set up users groups to help you manage permission sets for groups of users in your company.
@@ -106,7 +112,7 @@ For example, a user can have permission to run codeunit 80, Sales-Post. The Sale
 
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
-### To limit a user's access to specific records in a table
+## To limit a user's access to specific records in a table
 For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
 
 

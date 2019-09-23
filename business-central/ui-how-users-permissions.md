@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 09/23/2019
 ms.author: sgroespe
 
 ---
@@ -33,6 +33,12 @@ Another system that defines what users can access is the Experience setting. For
 2. Choose the **Get Users from Office 365** action.
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
+
+## To edit or delete a user
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+2. Select the user that you want to edit, and then choose the **Edit** action.
+3. On the **User Card** page, change the information as necessary.    
+4. To delete a user, select the user that you want to delete, and then choose the **delete** action.
 
 ## To group users in user groups
 You can set up users groups to help you manage permission sets for groups of users in your company.

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 07/17/2019
+ms.date: 09/24/2019
 ---
 
 # Resources for Help and Support
@@ -38,7 +38,7 @@ If you are using a trial version of [!INCLUDE [prodshort](includes/prodshort.md)
 
 ### Blog
 
-We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), including when they are made available, and if there are special considerations.  
+We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including when they are made available, and if there are special considerations.  
 
 ### Capabilities Coming Soon
 

@@ -45,7 +45,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

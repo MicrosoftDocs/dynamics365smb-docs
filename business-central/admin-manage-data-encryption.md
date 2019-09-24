@@ -20,5 +20,8 @@ You can encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server b
 
 For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Developer and IT-Pro help.
 
+> [!Note]
+> You can turn on or turn off encryption only if you are using an on-premises versions of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Encryption is always turned on for online versions, and you cannot turn it off.
+
 ## See Also  
 [Administration](admin-setup-and-administration.md)

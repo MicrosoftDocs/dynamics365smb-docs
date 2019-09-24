@@ -9,15 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.author: edupont
+redirect_url: ui-how-add-link-to-record
 
 ---
 # Attaching Files to Cards and Documents
 You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.
 
 > [!Note]
-> In general, the maximum file size for attachments is 150 MB. However, the limit can be lower for some features. 
+> In general, the maximum file size for attachments is 150 MB. However, the limit can be lower for some features.
 
 ## To attach a file to a sales order
 The following procedure is based on a sales order. The steps are similar for all other sales and purchase documents and for all cards.

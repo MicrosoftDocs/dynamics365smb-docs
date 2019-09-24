@@ -65,7 +65,6 @@ The following topics describe local functionality that is unique to the Swiss ve
 * General    
     * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**
-    * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

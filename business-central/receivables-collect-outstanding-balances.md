@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 09/12/2019
 ms.author: sgroespe
 
 ---
@@ -157,6 +157,11 @@ In addition, issuing the reminder may result in VAT entries.
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
 
+### To cancel an issued reminder
+If reminders were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Reminders** page, select one or more lines for issued reminders that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Reminders** page, fill in the fields as necessary, and then choose the **OK** button.
+
 ## To set up finance charge terms
 You must set up a code representing each finance charge calculation. Then you can enter this code in the **Fin. Charge Terms Code** field on customer or vendor cards.
 
@@ -239,6 +244,11 @@ In addition, issuing the finance charge memo may result in VAT entries.
 4. Choose the **OK** button
 
 The finance charge memo is either printed for sent to an specified email as a PDF attachment.
+
+### To cancel an issued finance charge memo
+If finance charge memos were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Finance Charge Memos** page, select one or more lines for issued finance charge memos that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Fin. Charge Memos** page, fill in the fields as necessary, and then choose the **OK** button.
 
 ## To view reminder and finance charge entries  
 When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    

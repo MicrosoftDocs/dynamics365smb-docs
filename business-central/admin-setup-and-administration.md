@@ -1,7 +1,7 @@
 ---
 title: Administrative tasks in Business Central | Microsoft Docs
 description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
-author: edupont04
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/22/2019
-ms.author: edupont
+ms.date: 09/04/2019
+ms.author: sgroespe
 
 ---
 # Administration
@@ -29,8 +29,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Add users, manage permissions and access to data, assign roles.|[Understanding Profiles (Roles) and Role Centers](admin-users-profiles-roles.md)|  
-|Assign permissions to users, modify permission sets, and group users per permissions.|[Managing Users and Permissions](ui-how-users-permissions.md)|
+|Assign permissions to users, modify permission sets, and group users per permissions.|[Manage Users and Permissions](ui-how-users-permissions.md)|
+|Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|
 |Set up a new business unit using templates|[Creating New Companies](about-new-company.md)|
@@ -40,7 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Expose pages, codeunits, and queries as web services.|[Publishing a Web Service](across-how-publish-web-service.md)|
 |As a part of creating Connect apps between [!INCLUDE[d365fin](includes/d365fin_md.md)] and 3rd-party solutions through REST APIs, define templates that are used to populate empty properties on an entity when you create a POST action through an API.|[Configuring API Templates](admin-configuring-api-template.md)|
 |Encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the server.|[Managing Data Encryption](admin-manage-data-encryption.md)|
-|Connect Dynamics 365 for Sales with [!INCLUDE[d365fin](includes/d365fin_md.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Connect Dynamics 365 Sales with [!INCLUDE[d365fin](includes/d365fin_md.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## See Also

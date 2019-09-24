@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 08/29/2019
     ms.author: soalex
 
 ---
@@ -39,7 +39,6 @@ The following topics describe local functionality that is unique to the Austrian
 
 * General
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
-    * [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

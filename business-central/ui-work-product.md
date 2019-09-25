@@ -26,7 +26,7 @@ The following table lists some of the general functionality with links to topics
 | To | See |
 | --- | --- |
 |Find a specific page, report, action, help topic, or partner extension. |[Finding Pages and Information with Tell Me](ui-search.md) |
-|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages and Navigating from a Feature Overview](ui-role-explorer.md)|
+|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages from a Feature Overview](ui-role-explorer.md)|
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
 |Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](ui-copy-paste.md)|

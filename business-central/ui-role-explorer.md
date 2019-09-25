@@ -13,7 +13,7 @@ ms.date: 09/13/2019
 ms.author: sgroespe
 
 ---
-# Finding Pages on a Feature Overview
+# Finding Pages from a Feature Overview
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. Each element on the overview is an action that opens a page. Accordingly, you can also use the feature overview as a means to navigate in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 You can open the feature overview from the Role Center and all list pages and from the **Tell Me** window.

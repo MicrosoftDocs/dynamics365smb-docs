@@ -25,7 +25,7 @@ When you start typing characters, [!INCLUDE[d365fin](includes/d365fin_md.md)] im
 
 The column to the right indicates the general category of the result. For example, whether it will open a list page or is an administrative task .  
 
-At the bottom of the **Tell Me** window is an action called **exploring**, which opens a feature overview that shows you all available features for your role or for all roles. For more information, see [Finding Pages and Navigating from a Feature Overview](ui-role-explorer.md).
+At the bottom of the **Tell Me** window is an action called **exploring**, which opens a feature overview that shows you all available features for your role or for all roles. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
 
 > [!NOTE]  
 >   If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you press the Enter key on your keyboard without choosing a result, [!INCLUDE[d365fin](includes/d365fin_md.md)] opens the result that is listed first.

@@ -13,7 +13,7 @@ ms.date: 09/02/2019
 ms.author: sgroespe
 
 ---
-# Add a page action to your Role Center
+# Add a Page Action to Your Role Center
 Using the new bookmark icon, you can add an action link to any page from the navigation menu of your Role Center. You add the bookmark from the target page, meaning the page that you want the action on the Role Center to open.
 
 The bookmark icon is shown in the top right corner of all pages and also in the **Tell Me** window where you can efficiently bookmark multiple pages.
@@ -24,9 +24,11 @@ The bookmark icon is shown in the top right corner of all pages and also in the 
 
 An action names after the page is now added to the navigation menu on your Role Center.
 
-## To add a Role Center action from the **Tell Me** window
+## To add a Role Center action from the Tell Me window
 1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
 2. Hower over the search result for the **Sales Orders** page, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+
+If a bookmark already exists for the page, then the icon is dark, and the tooltip says "Bookmarked".
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  

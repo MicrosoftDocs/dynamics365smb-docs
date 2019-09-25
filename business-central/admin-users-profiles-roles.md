@@ -79,7 +79,7 @@ As an administrator, you can define these setting for a profile and thereby appl
 4. On the **User Personalization Card** page, edit the fields as necessary.
 
 ## To export user-created profiles
-You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using Client to Create Profiles](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-clients).
+You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
 

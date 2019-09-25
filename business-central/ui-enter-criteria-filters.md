@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 08/06/2019
+ms.date: 09/25/2019
 ms.author: sgroespe
 
 ---
@@ -95,7 +95,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 - **Views**
 
-  Some lists will include the **Views** section. Views are variations of the list that have been preconfigured with filters. To switch to a different view of your list, simply select another link. You can temporarily change the filters on a view, but the changes will not be permanently saved.
+  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you only the next time you open the list. For more information, see [Save and Personalize Views](ui-views.md).
 
 - **Filter list by**
 
@@ -266,4 +266,5 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 ## See Also
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
+[Save and Personalize Views](ui-views.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

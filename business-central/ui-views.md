@@ -13,7 +13,7 @@ ms.date: 09/02/2019
 ms.author: sgroespe
 
 ---
-# Save and Personalize Views
+# Save and Personalize List Views
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
 If views exist, the **Views** group appears at the top of the filter pane. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you only the next time you open the list, from any device or browser.

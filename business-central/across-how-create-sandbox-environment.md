@@ -40,7 +40,7 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 
     > [!NOTE]
     > A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /><br />
-    > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
+    > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
 
 6. At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
     > [!NOTE]  

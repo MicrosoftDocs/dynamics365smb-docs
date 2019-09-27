@@ -85,8 +85,8 @@ Yes. When the expiration date for your trial period is approaching we will displ
 > [!NOTE]
 > It may take up to two business days to complete the trial extension process.  
 
-## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
+## Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
 
 ## Can I cancel my subscription?
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  

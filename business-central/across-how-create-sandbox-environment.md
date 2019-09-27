@@ -9,12 +9,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 09/27/2019
 ms.author: solsen
 
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # Creating a Sandbox Environment
 A sandbox environment (Preview) is a non-production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.
 
@@ -42,7 +40,7 @@ You must have a subscription to [!INCLUDE[d365fin](includes/d365fin_md.md)] to b
 
     > [!NOTE]
     > A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /><br />
-    > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
+    > You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Create a new sandbox environment](/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) in the Developer and IT-Pro help.
 
 6. At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
     > [!NOTE]  

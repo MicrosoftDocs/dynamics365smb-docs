@@ -70,11 +70,11 @@ Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner is expected 
 > [!NOTE]
 > This section is only available if you have paid for a [!INCLUDE [prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
-### Support email address
+### Support contacts
 
-The email address that is shown in the **Report a problem** section can be for a person or a team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up this email address in the **Support Contact Info Card** page. For more information, see [Configuring Technical Support](/dynamics365/business-central/dev-itpro/technical-support) in the developer and ITpro content for [!INCLUDE [prodshort](includes/prodshort.md)].  
+The **Report a problem** section displays an email address or hyperlink for you to get in contact with customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [TConfiguring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the ITpro content for [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-To alert your partner to a problem, choose the link. This opens a new email in your default email editor, and you can then add the technical information about your Azure Active Directory tenant and any other information that you find relevant.  
+To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant and any other information that you find relevant.  
 
 ## See Also
 

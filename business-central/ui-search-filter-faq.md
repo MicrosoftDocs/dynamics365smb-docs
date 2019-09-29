@@ -25,9 +25,9 @@ Search and filter have been highly optimized for users who prefer mouse-free int
 The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for lists that are displayed as parts, such as FactBoxes or Role Center parts. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).
 
 ## How can I save my filters?
-Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. It is currently only possible to permanently save filters when entered on a request page. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the Save As icon in the filter pane. For more information, see [Working with List Views](ui-list-views.md). Note that unlike filters, search text is not remembered when you navigate away from a page, and is not saved when you save a view.
 
-Note that unlike filters, search text is not remembered when you navigate away from a page.
+On report request pages, you can also save filters or use predefined filters. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 ## Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasses the functionality provided in Dynamics NAV.  

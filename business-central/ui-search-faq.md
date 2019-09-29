@@ -9,12 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 09/30/2019
 ms.author: bholtorf
 
 ---
 # Tell Me FAQ
-This topic answers questions that our advanced users often ask about the new Tell Me feature, which has replaced the previous Page Search feature known as **Find Pages and Reports**.
+This topic answers questions that our advanced users often ask about the Tell Me feature.
 
 ### Are all actions from my current page discoverable in Tell Me?
 No. Actions in parts, such as the Sales Lines part or FactBoxes, are not displayed in Tell Me.
@@ -37,5 +37,13 @@ Tell Me is only available in the Web Client or Windows desktop app.
 ### Are the documentation results available in any language?
 The help articles display in the language you have specified in **My Settings**, if help is available in that language.
 
+### Why don't I see a bookmark icon for my search results?
+The bookmark icon is not displayed in the Tell Me window when personalization is disabled for a user role.
+
+### Is the bookmark icon available for reports?
+No. You can only bookmark a link to a page or any search results that are displayed in the **Pages and Tasks** section of the Tell Me window.
+
+
 ## See Also  
-[Finding Features and Information](ui-search.md)
+[Save and Personalize List Views](ui-views.md)
+

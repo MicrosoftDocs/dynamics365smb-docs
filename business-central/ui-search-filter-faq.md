@@ -25,6 +25,8 @@ Search and filter have been highly optimized for users who prefer mouse-free int
 The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for lists that are displayed as parts, such as FactBoxes or Role Center parts. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).
 
 ## How can I save my filters?
+You can save the filters that you define for lists as *Views*. For more information, see [Save and Personalize List Views](ui-views.md).
+
 Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. It is currently only possible to permanently save filters when entered on a request page. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 Note that unlike filters, search text is not remembered when you navigate away from a page.

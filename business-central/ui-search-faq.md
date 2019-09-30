@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 # Tell Me FAQ
-This topic answers questions that our advanced users often ask about the new Tell Me feature, which has replaced the previous Page Search feature known as **Find Pages and Reports**.
+This topic answers questions that our advanced users often ask about the Tell Me feature.
 
 ### Are all actions from my current page discoverable in Tell Me?
 No. Actions in parts, such as the Sales Lines part or FactBoxes, are not displayed in Tell Me.
@@ -29,7 +29,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
 ### I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
-You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource. Users connecting to [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Dynamics NAV client continue to use Page Search.
+You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.
@@ -37,5 +37,13 @@ Tell Me is only available in the Web Client or Windows desktop app.
 ### Are the documentation results available in any language?
 The help articles display in the language you have specified in **My Settings**, if help is available in that language.
 
+### Why don't I see a bookmark icon for my search results?
+The bookmark icon is not displayed in the Tell Me window when personalization is disabled for a user role.
+
+### Is the bookmark icon available for reports?
+No. You can only bookmark a link to a page or any search results that are displayed in the **Pages and Tasks** section of the Tell Me window.
+
+
 ## See Also  
-[Finding Features and Information](ui-search.md)
+[Save and Personalize List Views](ui-views.md)
+

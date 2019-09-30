@@ -16,7 +16,7 @@ ms.author: sgroespe
 # Save and Personalize List Views
 When you have set a filter on a list and you want to keep the filter for later, you can save it as a view. For more information about filtering lists, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-If views exist, the **Views** group appears at the top of the filter pane. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you only the next time you open the list, from any device or browser.
+If views exist, the **Views** group appears at the top of the filter pane. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you the next time you open the list, from any device or browser.
 
 ## To save a view
 1. Open any list page.
@@ -25,18 +25,20 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 4. When you have set the filters, choose the ![Save View](media/save_view_icon.png "Save View") icon.
 
     If you set a filter for a list view that that is already saved as a view, the existing view will be updated when you save.
-5. If you are saving a new view, enter a name for the view in the **All (Copy)** box, such as "Items I own".
+5. If you are saving a new view, enter a name for the view in the **All (Copy)** box, such as "Items I own". Press the Enter key or click outside the text box to accept the name.
 
 If you do not give it a name, it will be named **All (Copy)**.
 
 ## To rename or remove a view
-1. For the view that currently displays the list page, choose the **Show more options** icon (three vertical dots).
+1. For the view that currently displays the list, choose the ![Show more options](media/show-more-options-icon.png "Show more options") icon to see which options are available.
 2. Choose either the **Rename** or the **Remove** action.
 
-## To personalize views
-With the **Personalizing** banner, you can hide unwanted system views, such as the **All** view, and you can reorder your views to get the perfect sequence. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+## Advanced management of views
+When the number of views on a page grows, you may need an additional control over how views are presented in the filter pane.
+After choosing to **Personalize**, you can hide unwanted views, or you can reorder your views to get the perfect sequence. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## See Also
+[List Views FAQ](ui-views-faq.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

@@ -95,7 +95,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 
 - **Views**
 
-  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you only the next time you open the list. For more information, see [Save and Personalize List Views](ui-views.md).
+  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you on any device you sign into. For more information, see [Save and Personalize List Views](ui-views.md).
 
 - **Filter list by**
 

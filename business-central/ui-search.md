@@ -37,7 +37,7 @@ The **On Current Page** section lets you find and perform actions on the page yo
 >   The list includes only actions that are available in the navigation bar at the top of the page. Actions on FastTabs are not included.  
 
 ### Finding a Page or a Task
-The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Home screen. 
+The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. For more information, see [Add a Page Action to Your Role Center](ui-bookmarks.md).
 
 The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).
 
@@ -60,4 +60,5 @@ The **Tell me what you want to do** function does not search for data, such as c
 We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you are interested, see [Tell Me FAQ](ui-search-faq.md).
 
 ## See Also
-[Working with Business Central](ui-work-product.md)
+[Working with Business Central](ui-work-product.md)  
+[Add a Page Action to Your Role Center](ui-bookmarks.md)

@@ -25,7 +25,7 @@ Search and filter have been highly optimized for users who prefer mouse-free int
 The filter pane is available on pages where the list is the primary content on the page, such as worksheets and list pages, including lists reachable from the navigation bar. The filter pane is not yet available for lists that are displayed as parts, such as FactBoxes or Role Center parts. When a list is embedded on a page, such as sales lines on a sales order, the filter pane is available when focusing on that list using the focus mode button. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).
 
 ## How can I save my filters?
-Your filters and adjustments to predefined filters are remembered throughout the session (while you remain logged in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. For more information, see [List Views FAQ](ui-views-faq.md). Note that unlike filters, search text is not remembered when you navigate away from a page, and is not saved when you save a view.
+Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. For more information, see [List Views FAQ](ui-views-faq.md). Note that, unlike filters, search text is not remembered when you navigate away from a page and is not saved when you save a view.
 
 On report request pages, you can also save filters or use predefined filters. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
@@ -46,4 +46,6 @@ As an on-premises administrator, you increase the time-limit on searches by chan
 
 ## See also
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
+[Finding Pages and Information with Tell Me](ui-search.md)  
+[Finding Pages from a Feature Overview](ui-role-explorer.md)  
 [Getting Started](product-get-started.md)  

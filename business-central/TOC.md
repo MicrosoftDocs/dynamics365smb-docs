@@ -24,7 +24,7 @@
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
-## [Copying and Pasting FAQ](ui-copy-paste.md)
+## [Copy and Paste FAQ](ui-copy-paste.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Locale](about-locale-language.md)

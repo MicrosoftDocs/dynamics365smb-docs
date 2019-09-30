@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 09/23/2019
+ms.date: 10/01/2019
 ms.author: soalex
 
 ---

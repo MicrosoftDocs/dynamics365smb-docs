@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 ---
 

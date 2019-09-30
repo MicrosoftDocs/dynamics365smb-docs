@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords:
-ms.date: 09/24/2019
+ms.date: 10/01/2019
 ms.author: soalex
 
 ---

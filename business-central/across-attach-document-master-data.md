@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 07/25/2019
+ms.date: 10/01/2019
 ms.author: edupont
 redirect_url: ui-how-add-link-to-record
 

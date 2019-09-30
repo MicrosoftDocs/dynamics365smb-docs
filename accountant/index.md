@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 11/05/2018
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 09/10/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -33,6 +33,19 @@ If you cannot copy an existing profile, you can create a new one manually.
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+## To copy a profile
+To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
+
+1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
+2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
+3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
+
+## To edit a profile
+You can edit a profile by changing the fields on the **Profile (Role)** page.
+
+> [!NOTE]
+> You cannot edit a profile when users assigned the profile are signed in.
+
 ## To assign a profile to a user
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.
 
@@ -42,31 +55,6 @@ Users can assign themselves a role (representing a profile) by choosing the **Ro
 
 > [!NOTE]
 > If you assign another profile to a user, any personalizations made by the user with the previous profile are preserved.
-
-## To activate a profile
-When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.
-
-1. On the **Profile (Role)** page, select the following check boxes:
-    - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
-    - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
-    - **Disable personalization** to specify if users of the related role can personalize their workspace.
-    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
-
-## To copy a profile
-To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
-
-1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
-2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
-3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
-
-## To edit or delete a profile
-You can edit a profile at any time by changing the fields on the **Profile (Role)** page, but beware that no users assigned the profile are logged in.
-
-You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page, however, the following limitations apply:
-
-- You cannot delete profiles that originate from extensions. The extension must first be uninstalled.
-- The profile must be disabled. This also ensures that no users assigned the profile are logged in when you delete.
-- You can only delete one profile at a time.  
 
 ## To define user settings for a profile
 On the **My Settings** page, users can define basic behavior of their account, such as the Role Center, the language, and which notifications they get. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
@@ -78,12 +66,28 @@ As an administrator, you can define these setting for a profile and thereby appl
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
 
-## To export user-created profiles
-You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## To activate a profile
+When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.
 
-* On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+1. On the **Profile (Role)** page, select the following check boxes:
+    - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
+    - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
+    - **Disable personalization** to specify if users of the related role can personalize their workspace.
+    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
 
-A zip file with the .al files for profiles that were newly added or modified is exported.
+    ## To export user-created profiles
+    You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+
+    * On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+
+    A zip file with the .al files for profiles that were newly added or modified is exported.
+
+## To delete a profile
+You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:
+
+- You cannot delete profiles that originate from extensions. The extension must first be uninstalled.
+- The profile must be disabled. This also ensures that no users assigned the profile are signed in when you delete.
+- You can only delete one profile at a time.  
 
 ## To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.

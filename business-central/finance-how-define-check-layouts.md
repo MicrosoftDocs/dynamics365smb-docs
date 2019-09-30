@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 06/24/2019
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---

@@ -201,10 +201,10 @@ The Power BI app will only display data from the [!INCLUDE [prodshort](includes/
 
 ## See Also
 
-[Get started with Power BI](/power-bi/service-get-started)  
-[Power BI - Basic Concepts](/power-bi/service-basic-concepts)  
-[Apps in Power BI](/power-bi/consumer/end-user-app)  
+[Power BI for consumers](/power-bi/consumer/end-user-consumer)  
+[The 'new look' of the Power BI service](/power-bi/service-new-look)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Power BI documentation](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

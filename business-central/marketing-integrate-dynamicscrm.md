@@ -93,6 +93,6 @@ When the customer payment is received for the sales invoice in [!INCLUDE[d365fin
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)    
-[Onboard your organization and users to Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
+[Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

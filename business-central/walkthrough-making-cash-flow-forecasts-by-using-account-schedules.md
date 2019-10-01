@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -64,7 +64,7 @@ After an account schedule name is set up, Ken defines each line that appears in 
     >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
 
     |Row No.|Description|Totaling Type|Totaling|Row Type|Amount Type|Show|  
-    |-------|-----------|-------------|--------|--------|---  ------|----|
+    |-------|-----------|-------------|--------|--------|-----------|----|
     |C10|Amount|Net Change|Entries|Net Amount|Always|  
     |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
     |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|  

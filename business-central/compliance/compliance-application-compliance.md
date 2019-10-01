@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: soalex
 
 ---
@@ -42,19 +42,22 @@ Business Central delivers real-time, integrated operational and financial inform
 ## Gain control of critical information, processes, and reports
 
 ### Manage compliance to the standards that matter
+
 Deliver integrated information, aligned processes, and easy-to-use tools to help your people meet the financial management expectations and standards that matter to your specific business.
 
 ### Tailor account schedules to your needs
+
 - Define the structure of your company’s chart of accounts based on business requirements and applicable regulatory standards
 - Create accounts and handle complex processes related to a spectrum of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs.
-- Control the level	of detail for each recorded	transaction	and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
-- Tailor schedule calculations	and	display	for	financial reporting, or export the information to Microsoft® Office Excel® for further analysis.
+- Control the level of detail for each recorded transaction	and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
+- Tailor schedule calculations and display for financial reporting, or export the information to Microsoft Excel for further analysis.
 
 ### Improve information validity
-- Configure	data fields	to	accept only	information	in the correct format, such as the correct number of decimal places or alphanumeric patterns.
+
+- Configure data fields to accept only information in the correct format, such as the correct number of decimal places or alphanumeric patterns.
 - Help ensure information is complete with application controls such as requiring a vendor invoice number to be entered before a purchase order can be posted.
-- Reduce the risk of inaccurate	information	or tampering and help protect sensitive information with access to information based on job role.
-- Prohibit access, provide read-only access, or	enable full-access users to add, edit, or delete information.
+- Reduce the risk of inaccurate information	or tampering and help protect sensitive information with access to information based on job role.
+- Prohibit access, provide read-only access, or enable full-access users to add, edit, or delete information.
 - Easily identify and resolve discrepancies	with a	reconciliation feature that retrieves current bank account and transaction information and compares it to general ledger posts.
 - Schedule manual or automatic backups to help protect information from electronic failures
 
@@ -65,10 +68,11 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 - Speed	transmission of	financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### Help ensure clear audit trails
-- Trace	documents and information both forward and backward through the system, from the original source to final financial statements and back.
-- Identify how,	when, and by whom information was entered or edited, and to what account financial entries have been posted.
-- Look up database changes,	including previous and revised	data, in the solution’s	Change	Log.
-- Increase	audit trail	transparency and usability,	and	speed information access for third-party auditors with drill-down, look-up, filtering, register, and navigation
+
+- Trace documents and information both forward and backward through the system, from the original source to final financial statements and back.
+- Identify how, when, and by whom information was entered or edited, and to what account financial entries have been posted.
+- Look up database changes, including previous and revised data, in the solution’s [Change Log](../across-log-changes.md).
+- Increase audit trail transparency and usability, and speed information access for third-party auditors with drill-down, look-up, filtering, register, and navigation
 
 ## Compliance and local functionality
 Microsoft is building localized versions of Business Central for some countries. These localizations primarily focus on regulatory features in the tax and financial area but can sometimes involve other parts of the application. If you want to see what is built in localized country versions of Business Central, see **Local Functionality** in the menu and choose a country to learn about country specific functionality.
@@ -85,7 +89,8 @@ Microsoft is building localized versions of Business Central for some countries.
 > **Basel II: Implications for Reporting and Analysis**  
 > Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and does not target small and mid-sized businesses, Basel II may have some implications for these organizations in reporting  and analysis.
 
-## See Also  
+## See Also
+
 [Compliance](compliance-overview.md)  
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  

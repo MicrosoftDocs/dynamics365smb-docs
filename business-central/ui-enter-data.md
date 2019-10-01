@@ -1,5 +1,5 @@
 ---
-title: How to Enter Data in Fields| Microsoft Docs
+title: How to Enter Data in Business Central| Microsoft Docs
 description: Learn about general features that help you enter data in fields.
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 ---
 
@@ -35,9 +35,9 @@ You might already be familiar with using the Tab key to navigate from one field 
 
 Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Keyboard Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
-#### Tips and tricks
+#### Tips and Tricks
 The following provides some useful information about using Quick Entry.
 
 - It is available for any editable fields.
@@ -47,14 +47,14 @@ The following provides some useful information about using Quick Entry.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
-### How to Change Quick Entry Fields
+### To change Quick Entry fields
 
 To change which fields are included in or excluded from Quick Entry on a page, you use personalization.
 
-1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then the **Personalize** action.
 2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
-For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
+For more information about personalization, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Mandatory Fields
 
@@ -72,31 +72,42 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
-## Copying and Pasting Fields and Lines
+## Copying and Pasting FAQ Fields and Lines
 
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).
+For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
+
+## Filtering Line Items
+
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+
+Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 
 ## <a name="Focus"></a>Focusing on Line Items
 
-When working on documents that include a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
+When working on documents that include a line items part, such as a sales order or invoice page, you can switch your view to focus only on the line items. The line items part then expands so that it occupies pretty much the entire workspace, hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them.
 
-Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
+This is particularly beneficial when working with large line item lists and when fast data entry is desired. Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
 ### Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
-### Filtering the Line Items
+## Multitasking Across Multiple Pages
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
-Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
+> [!NOTE]
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+
+> [!NOTE]
+> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## Entering Quantities by Calculation
 
@@ -130,7 +141,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields). You can enter dates with or without separators.
 
 > [!NOTE]  
-> How you enter dates and times depends on your **Region** settings. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+> How you enter dates and times depends on your **Region** settings. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 ### Entering Dates
 

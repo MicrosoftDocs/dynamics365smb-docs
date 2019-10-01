@@ -8,38 +8,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Sorting, Searching, and Filtering Lists
-There are a few things that you can do that will help you scan, find, and limit records in a list. These include sorting, searching and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+# Sorting, Searching, and Filtering
+There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+
+For reports and XMLports, you can set filters as on lists to delimit which data to include in the report or XMLport, but you cannot sort and search.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to show as a list.
+> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
 
 <!--
-When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
+When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
 ## Sorting
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
 
-To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the small down arrow in the column heading, and then choose **Ascending** or **Descending**.  
+To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the drop-down arrow in the column heading, and then choose the **Ascending** or **Descending** action.  
 
 > [!NOTE]  
 >   Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## Searching
 <!--## Searching by using the Quick Filter -->
-At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** icon that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
+At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
-To search, simply select the search icon, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
+To search, simply choose the **Search** action, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
 ### Fine-tuning the Search
-In general, search will attempt to match text across all fields; it does not distinguish between uppercase and lowercase characters (in other words, case insensitive), and will match text placed anywhere in the field (at the beginning, end, or in the middle).
+In general, search will attempt to match text across all fields. It does not distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
-However, you can make a more exact search by using the following special characters:
+However, you can make a more exact search by using special characters.
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
 
@@ -60,70 +62,73 @@ The following table provides some examples to explain how you can use the search
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
 > [!TIP]
-> You can press F3 to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="Filtering"> </a>Filtering
-Filtering provides a more advanced and versatile way of controlling which records display in a list. There are two major differences between searching and filtering, as described in the table below.
+Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
 |--|----------|------------|
-| **Applicable fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
+| **Applicable Fields** | Searches across all fields that are visible on the page. | Filters one or more fields individually, selecting from any field on the table, including fields that are not visible on the page. |
 | **Matching** | Displays records with fields that match the search text, irrespective of casing or placement of that text. | Displays records where the field matches the filter exactly and is case sensitive, unless special filter symbols are entered.
 
-Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
+Filtering enables you to display records for specific accounts or customers, dates, amounts, and other information by specifying filter criteria. Only records that match the criteria are displayed on the list or included in the report, batch job, or XMLport. If you specify criteria for multiple fields, then only records that match all criteria will be displayed.
 
-### Working in the Filter Pane
+For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
 
-To display the filter pane, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3**. For lists within the Role Center, you can also choose the down arrow near the page title in the navigation bar above the list, and then choose **Show filter pane** as shown here:
+### Filtering with Option Fields
+For "ordinary" fields that hold data, setup date or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-![Show filter pane](media/open-filter-pane.png "Show filter pane")
+For fields of type **Option**, however, you can only set a filter by selecting one or more options from a drop-down list of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
 
-The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields. The following figure shows an example filter pane for a Sales Quotes list.
+> [!NOTE]
+> When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
 
-![Filter pane overview ](media/filter-pane-overview.png "Filter icon")
+### Setting Filters on Lists
+On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
 
-A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
+To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
+
+The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
+
+ A filter pane is divided in three sections: **Views**, **Filter list by**, and **Filter totals by**:
 
 - **Views**
 
-  Some lists will include the **Views** section. Views are variations of the list that have been preconfigured with filters. To switch to a different view of your list, simply select another link. You can temporarily change the filters on a view, but the changes will not be permanently saved.
+  Some lists include the **Views** section. Views are variations of the list that have been preconfigured with filters. You can define and save as many views as you want per list, and the views will be available to you on any device you sign into. For more information, see [Save and Personalize List Views](ui-views.md).
 
 - **Filter list by**
 
-  The **Filter list by** section is where you add filters on specific fields to reduce the number of displayed records. To add a filter, select **+ Filter**, select the field that you want to filter from any field in the table, and then enter filter criteria in the box.
+  This is where you add filters on specific fields to reduce the number of displayed records. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter the list by, or pick a field from the drop-down list.
 
 - **Filter totals by**
 
-  Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. For example, you can quickly analyze your chart of accounts by filtering amounts to a specific period, or you can view the totals for sales orders only from a specific warehouse.
-
-  To add a filter, select **+ Filter**, select one of the predefined dimensions, and then add the filter criteria in the box.
+  Some lists that display calculated fields, such as amounts and quantities, will include the **Filter totals by** section where you can adjust various dimensions that influence calculations. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter the list by, or pick a field from the drop-down list.
 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
+You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
-### Entering Filter Criteria in the Filter Pane
-To select a field to filter, do one of the following:
-  - In the filter pane, choose **+ Field**. Type the name of the field you wish to filter, or pick a field from the menu that displays all fields in the table.
+### Setting Filters in Reports, Batch Jobs, and XMLports
+For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
-  - In a column heading, choose the down arrow, and then choose **Filter...**. This will open the filter pane and add the column to the filter pane.
+The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-You can now type or select your filter criteria in the box. The type of field you filter determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
+In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
-Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") in the column heading. To remove a filter, select the column heading, then choose **Clear Filter**.
+## Entering Filter Criteria
+Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
+The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
-### Entering Filter Criteria Without Using the Filter Pane
-You can specify simple filters directly within the list without having to use the filter pane.
-With any field selected on a row, use the **Alt+F3** keyboard shortcut to display only the records having that same value. You can then select another field and use the same shortcut again to continue refining your filters. If the selected field is already filtered, using **Alt+F3** will clear that filter.
+Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
-> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value.
-For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-
-## <a name="FilterCriteria"> </a>Filter Criteria and Symbols
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols which can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+### <a name="FilterCriteria"> </a>Filter Criteria and Symbols
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols that can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
 >  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
@@ -133,7 +138,7 @@ The following sections describe how to use the different operators.
 > [!NOTE]
 > If there are more than 200 operators in a single filter, the system will automatically group some expressions in parentheses `()` for the purpose of processing. This has no effect on the filter or the results.  
 
-### (..) Interval
+#### (..) Interval
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -145,61 +150,61 @@ The following sections describe how to use the different operators.
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 
-### (&#124;) Either/or 
+#### (&#124;) Either/or
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numbers with 1200 or 1300|  
 
-### (<>) Not equal to  
+#### (<>) Not equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<>0`|All numbers except 0<br /><br /> The SQL Server Option allows you to combine this symbol with a wild card expression. For example, <>A* meaning not equal to any text that starts with A.|  
 
-### (>) Greater than  
+#### (>) Greater than  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>1200`|Numbers greater than 1200|  
 
-### (>=) Greater than or equal to  
+#### (>=) Greater than or equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numbers greater than or equal to 1200|  
 
-### (<) Less than  
+#### (<) Less than  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<1200`|Numbers less than 1200|  
 
-### (<=) Less than or equal to  
+#### (<=) Less than or equal to  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numbers less than or equal to 1200|  
 
-### (&) And  
+#### (&) And  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Numbers greater than 200 and less than 1200|  
 
-### ('') An exact character match  
+#### ('') An exact character match  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches man exactly and is case sensitive.|  
 
-### (@) Case insensitive  
+#### (@) Case insensitive  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`@man*`|Text that starts with man and is case insensitive.|  
 
-### (*) An indefinite number of unknown characters
+#### (*) An indefinite number of unknown characters
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -207,16 +212,13 @@ The following sections describe how to use the different operators.
 |`*Co`|Text that ends with "Co" and is case sensitive.|  
 |`Co*`|Text that begins with "Co" and is case sensitive.|  
 
-> [!NOTE]  
->   You cannot use `*` when filtering on option (enumeration) fields, such as the **Status** field on sales orders. To enter a filter for this type of field, you can enter the numeric value as a filtering parameter. For example, in the **Status** field on a sales order that has the values **Open**, **Released**, **Pending Approval**, and **Pending Prepayment**, use the values `0`, `1`, `2`, and `3` to filter for these options.
-
-### (?) One unknown character  
+#### (?) One unknown character  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as Hansen or Hanson|  
 
-### Combined Format Expressions  
+#### Combined Format Expressions  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -224,15 +226,13 @@ The following sections describe how to use the different operators.
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-
-## <a name="FilterTokens"> </a>Filter Tokens
+### <a name="FilterTokens"> </a>Filter Tokens
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]
 > Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-
-### (%me or %userid) Records Assigned to You
+#### (%me or %userid) Records Assigned to You
 
 Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
@@ -240,7 +240,7 @@ Use `%me` or `%userid` when filtering fields that contain the user ID, such as *
 |-----------------------|-----------------------|  
 |`%me`<br />or<br />`%userid`|Records that are assigned to your user account. |  
 
-### (%mycustomers) Customers in My Customers
+#### (%mycustomers) Customers in My Customers
 
 Use `%mycustomers` in the customer **No** field to display all records for customers that are included in the **My Customers** list on your Role Center.
 
@@ -248,7 +248,7 @@ Use `%mycustomers` in the customer **No** field to display all records for custo
 |-----------------------|-----------------------|  
 |`%mycustomers`|Customers in the **My Customers** on your Role Center. |  
 
-### (%myitems) Items in My Items
+#### (%myitems) Items in My Items
 
 Use `%myitems` in the item **No** field to display all records for items that are included in the **My Items** list on your Role Center.
 
@@ -256,7 +256,7 @@ Use `%myitems` in the item **No** field to display all records for items that ar
 |-----------------------|-----------------------|  
 |`%myitems`|Items in the **My Items** on your Role Center. |  
 
-### (%myvendors) Vendors in My Vendors
+#### (%myvendors) Vendors in My Vendors
 
 Use `%myvendors` in the vendor **No** field to display all records for vendors that are included in the **My Vendors** list on your Role Center.
 
@@ -264,7 +264,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |-----------------------|-----------------------|  
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
-
 ## See Also
+[Searching and Filtering FAQ](ui-search-filter-faq.md)  
+[Save and Personalize List Views](ui-views.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Common questions about Searching and Filtering](ui-search-filter-faq.md)

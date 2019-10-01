@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ In addition, you can apply specific setup data to your company after you initial
 Example configuration packages, including country/region-specific files, are included with the CRONUS demonstration company. Use the following procedures to use the example configuration package with a new company.  
 
 ## To use the sample BASICCONFIG configuration package  
-1. Open the CRONUS International Ltd. company. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
+1. Open the CRONUS International Ltd. company. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 3. Choose the BASICCONFIG package from the list, and then choose the **Export Package** action.  
 

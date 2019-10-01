@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 
 ---
@@ -26,18 +26,21 @@ To create a custom layout, you can either make a copy of an existing custom layo
 ## To create a custom layout
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
 
-    The **Report Layout Selection** page lists all the reports that are available in the company that is specified in the **Company** field at the top of the page.
+    The **Report Layout Selection** page lists all the reports that are available in the company that is specified in the **Company Name** field at the top of the page.
 2. Set the **Company** field to the company in which you want to create the report layout.
 3. Select the row for the report that you want to create the layout for, and then choose the **Custom Layouts** action.  
+
    The **Custom Report Layouts** page appears and lists all the custom layouts that are available for the selected report.
 4. If you want to create a copy of an existing custom layout, select the existing custom layout in the list, and then choose the **Copy** action.  
+
    The copy of the custom layout appears on the **Custom Report Layouts** page and has the words *Copy of* in the **Description** field.
 5. If you want to add a new custom layout that is based on a built-in layout, do the following:  
    1. Choose the **New** action. The **Insert Built-in Layout for a Report** page appears. The **ID** and **Name** fields are automatically filled in.
-   2. To add a custom Word report layout type, then select the **Insert Word Layout** check box.
-   3. To add a custom RDLC report layout type, then select the **Insert RDLC Layout** check box.
+   2. To add a custom Word report layout type, select the **Insert Word Layout** check box.
+   3. To add a custom RDLC report layout type, select the **Insert RDLC Layout** check box.
    4. Choose the **OK** button.  
-      The new custom layouts appear on the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.
+
+    The new custom layout now appear on the **Custom Report Layouts** page. If a new layout is based on a built-in layout, then it has the words **Copy of a Built-in Layout** in the **Description** field. If there was no built-in layout for the report, then the new layout has the words **New Layout** in the **Description** field, which indicates that custom layout is blank.
 6. By default, the **Company Name** field is blank, which means that the custom layout will be available for the report in all companies. To make the custom layout available in a specific company only, choose **Edit**, and then set the **Company Name** field to the company that you want.
 
 The custom layout has been created. You can now modify the custom layout as needed.
@@ -96,7 +99,7 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Change Which Layout is Currently Used on a Report](ui-how-change-layout-currently-used-report.md)  
+[Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
-[Working with Reports and Batch Jobs](ui-work-report.md)  
+[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

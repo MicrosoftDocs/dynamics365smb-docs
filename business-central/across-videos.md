@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 
 ---
@@ -38,7 +38,7 @@ Just to mention a few examples, the videos we are updating will show how to:
 
 * Migrate business data from another finance app into [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Set up dimensions so you can track and analyze various documents and entities
-* Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Dynamics 365 for Sales
+* Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Dynamics 365 Sales
 * Set up approval workflows  
 * Use Power BI with [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Set up email and send documents directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: jswymer
 
 ---
@@ -62,4 +62,4 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
- [Working with Reports and Batch Jobs](ui-work-report.md)  
+ [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

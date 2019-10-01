@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -60,7 +60,6 @@ The following topics describe local functionality that is unique to the Italian 
     * [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
-    * [Report Trade with Customers and Vendors in Blacklist Countries and Regions](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

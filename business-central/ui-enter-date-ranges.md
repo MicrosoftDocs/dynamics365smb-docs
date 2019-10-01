@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 ---
 
@@ -46,7 +46,7 @@ Any field displaying a calendar icon can be set using the calendar date picker. 
 
 ![Date fields](media/ui-date-field.png "Example of a date field")
 
-See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts)
+See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts).
 
 ### Day\-week\-year pattern
 
@@ -84,7 +84,7 @@ The word for 'workdate', in the language set by **Language** setting, will set t
 
 If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
-See also [Changing Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
+See also [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### Closing Date
 
@@ -124,8 +124,8 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 |**Meaning**|**Sample expression (Date)**|**Data included in the filter**|
 |-----------|---------------------|--------------------|
 |Interval|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />p1..p4|Records with dates between and including 12 15 00 and 01 15 01.<br /><br />Records with dates of 12 15 00 or earlier.<br /><br />Date range that includes the second, third, and fourth accounting periods, such as 01/01/20..04/30/20.|
-|Either/or|12 15 00|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they will all be displayed.|
-|Combination|12 15 00|12 01 00..12 10 00  \n..12 14 00|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  \Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
+|Either/or|12 15 00\|12 16 00|Records with dates of either 12 15 00 or 12 16 00. If there are records with dates on both days, they will all be displayed.|
+|Combination|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Records with dates of 12 15 00 or on dates between and including 12 01 00 and 12 10 00.  <br /><br />Records with dates of 12 14 00 or earlier, or dates of 12 30 00 or later, that is, all records except those with dates between and including 12 15 00 and 12 29 00.|
 
 You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 

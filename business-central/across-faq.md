@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
@@ -36,15 +36,17 @@ From the community home page, you can also find links to our blogs where you can
 Finally, you can contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] reselling partner. For more information, see the [How do I get technical support?](across-faq.md#how-do-i-get-technical-support-for-) section.  
 
 ## Why can't I find that capability in my [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. If the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
+Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[d365fin](includes/d365fin_md.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[d365fin](includes/d365fin_md.md)] is based on in the [Help and Support](product-help-and-support.md) page.  
+
+Also, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
 
 ## Are there any differences between an on-premises deployment and the cloud version of Business Central?
 Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Yes, you can. But currently, you have to ask your reselling partner. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
+Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/browse/?products=dynamics-business-central). You can also ask your reselling partner for additional training. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
-If you have access to Microsoft CustomerSource, you can get access to the Imagine Academy site with  eLearning material. For more information on how to get access, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
+For more information about training that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
 ## How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -53,7 +55,7 @@ If you have access to Microsoft CustomerSource, you can get access to the Imagin
 For more information, see [Help and Support](product-help-and-support.md).  
 
 ## Why does Help describe functionality that I cannot access?
-If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 ## Where is the save button?
 
@@ -70,7 +72,7 @@ If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, t
 ## Do I have to buy Office 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Office 365, you can sign up for a 1-month free trial of Office 365 [here](https://products.office.com/try).  
 
-If the account you sign up with is a non-Office 365 work account (such as *joe@mysolution.com*), and you have an Office 365 subscription, then you can associate your domain (*mysolution.com*) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+If the account you sign up with is a non-Office 365 work account (such as joe@mysolution.com), and you have an Office 365 subscription, then you can associate your domain (*mysolution.com*) with the Office 365 subscription. For more information, see [Get help with Office 365 domains](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 If you do not have an Office 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
 
@@ -83,8 +85,8 @@ Yes. When the expiration date for your trial period is approaching we will displ
 > [!NOTE]
 > It may take up to two business days to complete the trial extension process.  
 
-## Our administrator has moved me to another plan to give me another role, but I still see the same Role Center in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-This is a bit complicated, but it looks like your administrator didn't change your Role Center and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions and your default Role Center page. You can change your Role Center manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home because your permissions were not changed.  
+## Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
 
 ## Can I cancel my subscription?
 Yes, but depending on how you signed up to [!INCLUDE[d365fin](includes/d365fin_md.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
@@ -97,9 +99,9 @@ Sure. If you do, you might need an app password in order to send email messages.
 [Getting Started](product-get-started.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
-[Managing Users and Permissions](ui-how-users-permissions.md)  
+[Manage Users and Permissions](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

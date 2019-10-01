@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
@@ -89,7 +89,7 @@ Data that is generated when a job queue is run is stored in the database, so tha
 2. Review the error message and fix the problem.
 
 ## The My Job Queue Part
-The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
 
@@ -111,4 +111,4 @@ The job queue entry record has many fields whose purpose is to carry parameters 
 ## See Also  
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@
 
 The first step is to create a configuration package that includes the setup tables for those journals. The following procedure assumes that this step is completed. For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md). This procedure describes the subsequent steps, which include applying the package that is provided by a partner.  
 
-Before you start, make sure that you are on the RapidStart Services Implementer Role Center page as it provides the correct context for your configuration work. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).
+Before you start, make sure that you are on the RapidStart Services Implementer Role Center page as it provides the correct context for your configuration work. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
 
 ## To apply the entries in a journal to a new company  
 1. Configure a new company and apply a configuration package to it. For more information, see [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  

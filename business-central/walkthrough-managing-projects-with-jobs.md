@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/10/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -92,9 +92,9 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Gen. Prod. Posting Group**: **Services**  
     -   **VAT Prod. Posting Group**: **VAT 25**  
 
-6.  Choose the **OK**  button to save the changes.  
+6. Close the page.
 
- In the next procedure, you create a job journal batch for Tricia in order to post her usage.  
+In the next procedure, you create a job journal batch for Tricia in order to post her usage.  
 
 ### To create a Job Journal batch  
 
@@ -106,7 +106,7 @@ This walkthrough focuses on CRONUS International Ltd., a design and consultancy 
     -   **Description**: **Tricia**  
     -   **No. Series**: **JJNL-GEN**  
 
-4.  Close all pages.  
+4.  Choose the **OK**  button to save the changes.
 
 ## Setting Up a Job  
  In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
@@ -302,7 +302,7 @@ The lines are now posted.
 8.  In the **Schedule (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
 9. Close the pages.  
 
- After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
+After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
 
 ### To enter hours in the Job Journal  
 
@@ -333,9 +333,11 @@ The lines are now posted.
     -   **Job No.**: **Guildford**  
     -   **Job Task No.**: **1120**  
 
-     Choose the **OK** button to run the calculation. There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work has already been scheduled.  
+7. Choose the **OK** button to run the calculation.
 
-7.  In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
+    There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work has already been scheduled.  
+
+8.  In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
 
     -   **Line Type**: **Schedule**  
     -   **Job No.**: **Guildford**  
@@ -346,17 +348,17 @@ The lines are now posted.
 
      By using the **Schedule** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
 
-8.  Choose the **Post** action. Choose the **OK** button to close the page.  
-9. Open the **Jobs** list.  
-10. Select the GUILDFORD job, and then choose the **Job Task Lines** action.  
-11. Select line 1120 and in the **Schedule (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
+9.  Choose the **Post** action. Choose the **OK** button to close the page.  
+10. Open the **Jobs** list.  
+11. Select the GUILDFORD job, and then choose the **Job Task Lines** action.  
+12. Select line 1120 and in the **Schedule (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
-12. Choose the **Close** button to close the page.  
-13. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
+13. Choose the **Close** button to close the page.  
+14. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
 
-     In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
+In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
 
 ## Copying Jobs  
  Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
@@ -381,9 +383,9 @@ The lines are now posted.
     -   **To Job No.**: **GuildfordSetting up 10 Conference Rooms**  
     -   Select the **Copy Dimensions** and **Copy Quantity** fields.  
 
-5.  Choose the **OK** button to copy the job and then choose the **OK** button to close the confirmation page.  
+5.  Choose the **OK** button to copy the job, and then choose the **OK** button to close the confirmation page.  
 
-     By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
+By comparing prices, job task lines, and job planning lines for the two jobs, you can see that the information was successfully copied.  
 
 ## Making Payments by Installments  
  CRONUS has just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  

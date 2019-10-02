@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/01/2019
+ms.date: 10/02/2019
 ms.author: sgroespe
 
 ---
@@ -41,10 +41,10 @@ To save time, you can create a new profile by copying an existing one. Copy one 
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
 ## To edit a profile
-You can edit a profile by changing the fields on the **Profile (Role)** page.
+You can edit a profile by changing the fields on the **Profile (Role)** page. However, tThe changes will not be visible to user assigned the profile until they sign out and back in.
 
-> [!NOTE]
-> You cannot edit a profile when users assigned the profile are signed in.
+> [!Caution]
+> Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes.
 
 ## To assign a profile to a user
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.

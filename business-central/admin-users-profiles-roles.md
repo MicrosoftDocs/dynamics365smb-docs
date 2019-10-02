@@ -85,10 +85,11 @@ When a profile is created, you can select different check boxes that define if, 
 ## To delete a profile
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:
 
+- You cannot delete a profile that is assigned to a user or a user group.
 - You cannot delete profiles that originate from extensions. The extension must first be uninstalled.
 - The profile must be disabled. This also ensures that no users assigned the profile are signed in when you delete.
-- You can only delete one profile at a time.  
-
+- You can only delete one profile at a time.
+ 
 ## To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 

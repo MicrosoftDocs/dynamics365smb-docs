@@ -46,10 +46,10 @@ Transactions are processed using specific tax accounting principles that are app
 
 ## See Also
 
-[How to: Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
+[Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
-[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Tax Differences](Tax-Differences.md)  
 [Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md)  
 [Upload KLADR](Upload-KLADR.md)  

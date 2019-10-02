@@ -31,4 +31,4 @@ You can add VAT setup information to journal lines if needed. If you enter items
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
-[How To: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)

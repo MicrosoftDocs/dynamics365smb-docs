@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Print the Factura-Invoice
+# Print the Factura-Invoice
 
 You must print the Factura-Invoice document as part of customs declaration.
 
@@ -29,4 +29,4 @@ You must print the Factura-Invoice document as part of customs declaration.
 
 ## See Also
 
-[How to: Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md)  
+[Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md)  

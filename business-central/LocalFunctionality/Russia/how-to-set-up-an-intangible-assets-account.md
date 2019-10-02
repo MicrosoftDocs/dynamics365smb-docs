@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up an Intangible Assets Account
+# Set Up an Intangible Assets Account
 
 The intangible assets accounting feature allows you to post intangible assets to a special account called the Intangible Assets account. Intangible assets are non-monetary assets that cannot be physically measured. You can also include current expenses by using monthly depreciation.  
 
@@ -22,7 +22,7 @@ The procedure for posting an intangible asset account is similar to the procedur
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Open the card for a fixed asset.
 3. In the **Fixed Asset Card** window, select **Intangible Asset** in the **FA Type** field.
-4. Purchase and release the intangible asset. For more information, see [How to: Purchase and Release Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md).
+4. Purchase and release the intangible asset. For more information, see [Purchase and Release Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md).
 
 ## See Also
 

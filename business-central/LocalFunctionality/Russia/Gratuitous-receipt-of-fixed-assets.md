@@ -10,7 +10,7 @@ ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
-# Gratuitous receipt of fixed assets.
+# Gratuitous Receipt of Fixed Assets.
 
 Posting gratuitous receipt of fixed assets operation is registered in one of the sections of the Ledger journal for fixed assets:
 
@@ -35,7 +35,7 @@ Posting gratuitous receipt of fixed assets operation is registered in one of the
 
 3. Post the line.
 
-> :speech_balloon: **Note** 
+> :speech_balloon: **Note**
 >
 > Since the fixed asset was not acquired by the organization, it does not have the right to apply a depreciation bonus for such an asset. Therefore, if the company enjoys the right of application of the depreciation bonus should exclude the cost of acquisition of the asset from the calculation base for the depreciation bonus.
 

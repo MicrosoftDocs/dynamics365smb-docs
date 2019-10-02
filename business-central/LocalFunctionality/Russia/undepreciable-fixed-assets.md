@@ -15,7 +15,7 @@ ms.author: soalex
 
 The undepreciable fixed assets feature enables you to repay fixed assets with the whole amount of their acquisition at the time of their release. It also automatically creates quantity records for these fixed assets in order to keep records of their existence and movements in quantitative terms.  
 
-Create a depreciation book to keep records of the quantities of fixed assets that will be repaid at the time of release for the amount that they were acquired for. For more information, see [How to: Set Up a Quantity Book](How-to-Set-Up-a-Quantity-Book.md).  
+Create a depreciation book to keep records of the quantities of fixed assets that will be repaid at the time of release for the amount that they were acquired for. For more information, see [Set Up a Quantity Book](How-to-Set-Up-a-Quantity-Book.md).  
 
 ## To set up an undepreciable fixed asset
 

@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Enter Custom Declarations Information
+# Enter Custom Declarations Information
 
 Use the following procedure to enter custom declaration information.
 
@@ -34,4 +34,4 @@ Use the following procedure to enter custom declaration information.
 
 ## See Also
 
-[How to: Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  
+[Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  

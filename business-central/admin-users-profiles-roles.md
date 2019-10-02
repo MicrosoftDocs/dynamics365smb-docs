@@ -26,9 +26,6 @@ You can customize page layouts for a profile so that all users assigned the prof
 ## To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
 
-> [!NOTE]
-> All profiles can be copied, but the profiles page customizations can only be copied if they are user-created.
-
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,12 +33,15 @@ If you cannot copy an existing profile, you can create a new one manually.
 ## To copy a profile
 To save time, you can create a new profile by copying an existing one. Copy one that has similar settings to the one you want to create.
 
+> [!NOTE]
+> When you copy a profile, all the involved page customizations are copied as well, both the user-created and those derived from extensions.
+
 1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
 2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
 ## To edit a profile
-You can edit a profile by changing the fields on the **Profile (Role)** page. However, tThe changes will not be visible to user assigned the profile until they sign out and back in.
+You can edit a profile by changing the fields on the **Profile (Role)** page. However, the changes will not be visible to user assigned the profile until they sign out and back in.
 
 > [!Caution]
 > Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes and must be restarted.
@@ -87,9 +87,8 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 
 - You cannot delete a profile that is assigned to a user or a user group.
 - You cannot delete profiles that originate from extensions. The extension must first be uninstalled.
-- The profile must be disabled. This also ensures that no users assigned the profile are signed in when you delete.
 - You can only delete one profile at a time.
- 
+
 ## To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 

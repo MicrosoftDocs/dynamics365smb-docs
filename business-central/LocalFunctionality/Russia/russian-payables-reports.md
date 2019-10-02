@@ -198,4 +198,4 @@ On the **Vendor** FastTab of the request page, you can define the vendor number 
 ## See Also
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
-[How to: Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+[Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

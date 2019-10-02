@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Define an Account Schedule Constant
+# Define an Account Schedule Constant
 
 [!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
@@ -26,6 +26,6 @@ ms.author: soalex
 
 ## See Also
 
-[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+[Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
 [Account Schedules Overview](account-schedules-overview.md)  
-[How to: Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+[Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  

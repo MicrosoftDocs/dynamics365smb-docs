@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Print the Cash Order Journal CO-3 Report
+# Print the Cash Order Journal CO-3 Report
 
 The **Cash Order Journal CO-3** report shows the unified standard printing form (typically on a monthly basis).  
 

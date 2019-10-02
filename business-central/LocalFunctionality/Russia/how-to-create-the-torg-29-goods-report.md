@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create the TORG-29 Goods Report
+# Create the TORG-29 Goods Report
 
 The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
 

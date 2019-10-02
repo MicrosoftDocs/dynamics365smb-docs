@@ -18,7 +18,7 @@ ms.author: bholtorf
 # Visit Our Video Library
 We know that some people prefer to watch content rather than read it. To that end, we're producing short, easily digestible videos that either stand alone, or supplement our user assistance.   
 
-If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch the videos from the welcome page that displays. If you're already working in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centers by choosing the **Product Videos** tile. 
+If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch the introduction videos from the welcome page that displays. If you're already working in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centers by choosing the **Product Videos** tile. 
 
 You can also view our "how to" videos, plus a lot of other content, on the YouTube channel we created for [!INCLUDE[d365fin](includes/d365fin_md.md)]. To visit the channel now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).
 

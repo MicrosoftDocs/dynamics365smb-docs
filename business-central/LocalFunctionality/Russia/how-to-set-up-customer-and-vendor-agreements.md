@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up Customer and Vendor Agreements
+# Set Up Customer and Vendor Agreements
 
 The customer and vendor agreements feature provides the following:
 

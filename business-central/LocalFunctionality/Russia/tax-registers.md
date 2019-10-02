@@ -26,7 +26,7 @@ There are two types of tax registers that are used for tracking taxable profits 
 
 ## See Also
 
-[How to: Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
-[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Tax Differences](Tax-Differences.md)  

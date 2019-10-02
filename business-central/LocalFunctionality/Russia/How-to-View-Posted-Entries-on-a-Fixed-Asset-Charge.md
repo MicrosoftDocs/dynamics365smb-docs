@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: View Posted Entries on a Fixed Asset Charge
+# View Posted Entries on a Fixed Asset Charge
 
 You can view all posted fixed asset entries for each fixed asset charge code. The following procedure shows how to view the posted entries.
 
@@ -21,4 +21,4 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 
 ## See Also
 
-[How to: Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  
+[Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  

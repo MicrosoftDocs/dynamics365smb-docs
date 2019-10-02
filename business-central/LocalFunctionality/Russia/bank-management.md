@@ -53,4 +53,4 @@ You can print the following required bank management documents.
 
 ## See Also 
 
-[How to: Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)
+[Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)

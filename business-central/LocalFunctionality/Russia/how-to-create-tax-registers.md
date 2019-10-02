@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create Tax Registers
+# Create Tax Registers
 
 The following procedure shows how to create tax registers. 
 
@@ -60,5 +60,5 @@ The following procedure shows how to create tax registers.
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  

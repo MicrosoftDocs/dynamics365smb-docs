@@ -177,4 +177,4 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
 ## See Also  
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   
-[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)   
+[Report VAT to a Tax Authority](finance-how-report-vat.md)   

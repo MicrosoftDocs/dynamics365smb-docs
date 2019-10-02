@@ -44,7 +44,7 @@ To save time, you can create a new profile by copying an existing one. Copy one 
 You can edit a profile by changing the fields on the **Profile (Role)** page. However, tThe changes will not be visible to user assigned the profile until they sign out and back in.
 
 > [!Caution]
-> Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes.
+> Do not rename a profile while users assigned the profile are signed in as users may experience that the product freezes and must be restarted.
 
 ## To assign a profile to a user
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.

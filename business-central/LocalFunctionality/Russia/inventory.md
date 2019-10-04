@@ -27,4 +27,4 @@ Russian inventory functionality is described in several topics.
 
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)
 
-[How to: Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md)
+[Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md)

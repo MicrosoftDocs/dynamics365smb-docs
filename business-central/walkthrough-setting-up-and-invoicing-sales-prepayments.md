@@ -165,7 +165,7 @@ The following day, the customer calls Susan and makes changes to the order. The 
 2.  On the line for item **1100**, in the **Quantity** field, enter **2**.  
 
     Scroll to see the prepayment fields. The **Prepayment Line Amount Excl. VAT** field now contains **630**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **315**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
-3.  To post an invoice for the additional prepayment amount, on the **Actions** tab, in the **Posting** group, choose **Prepayment**, and then choose **Post Prepayment Invoice**.  
+3.  To post an invoice for the additional prepayment amount, choose the **Post Prepayment Invoice** action.  
 
 ## Applying the Prepayments  
 The customer pays the prepayments amount and Arnie, who works in the accounts department, registers the payment and applies it to the prepayment invoices.  

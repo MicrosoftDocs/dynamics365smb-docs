@@ -57,7 +57,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 
 ### To create the subcontract purchase order  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
-2.  On the **Actions** tab, in the **Process** group, choose **Carry Out Action Message**.  
+2.  Choose the **Carry Out Action Message** action.  
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
 4.  Choose the **OK** button.  
 

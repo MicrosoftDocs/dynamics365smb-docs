@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create Cash Account Cards
+# Create Cash Account Cards
 
 Cash accounts are similar to bank accounts and are created identically. You can create as many cash account cards as needed.
 

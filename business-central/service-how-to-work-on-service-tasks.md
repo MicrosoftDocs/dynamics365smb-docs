@@ -27,7 +27,7 @@ To track changes and get a graphical view of your service business, use [!INCLUD
 2. If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and press Enter.  
 3. If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the **Response Date Filter** field and press Enter.  
 4. If you want a list of service tasks with a certain allocation status or repair status, fill in the **Allocation Status Filter** or **Repair Status Code Filter** field and press Enter.  
-5. Select the service task you want to work on. On the **Navigate** tab, in the **Service Tasks** group, choose **Item Worksheet**. The **Service Item Worksheet** page opens.  
+5. Select the service task you want to work on. Choose the **Item Worksheet** action. The **Service Item Worksheet** page opens.  
 6. Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the **Type** field:  <Blank>, **Item**, **Resource**, and **Cost**.  
 7. In the **Repair Status** field, select the appropriate status.  
 
@@ -39,7 +39,7 @@ When performing a service on a service order, you can register the details speci
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Orders**, and then choose the related link.  
 2. Open the service order to register the service for, and choose the item line.  
-3. Choose **Actions**, choose **Line**, and then choose **Service Item Worksheet.**  
+3. Choose the **Service Item Worksheet** action  
 4. On the lines, specify the items used, costs incurred, and the time spent on the service.  
 
    > [!NOTE]  

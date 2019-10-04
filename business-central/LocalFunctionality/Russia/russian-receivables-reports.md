@@ -177,4 +177,4 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 ## See Also
 
 [Russian Payables Reports](Russian-Payables-Reports.md)  
-[How to: Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+[Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  

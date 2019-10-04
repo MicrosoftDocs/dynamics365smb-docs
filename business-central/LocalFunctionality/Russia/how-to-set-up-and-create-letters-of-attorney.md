@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up and Create Letters of Attorney
+# Set Up and Create Letters of Attorney
 
 The letter of attorney feature enables you to create and print a Letter of Attorney, and to also print a journal of Letters of Attorney.  
 
@@ -54,4 +54,4 @@ The following procedure shows how to create a Letter of Attorney.
 
 ## See Also
 
-[How to: Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
+[Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  

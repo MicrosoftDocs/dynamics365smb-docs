@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Selling fixed assets
+# Selling Fixed Assets
 
 A sale or transfer of a fixed asset consists of two stages.
 

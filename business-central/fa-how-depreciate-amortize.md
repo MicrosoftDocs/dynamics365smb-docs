@@ -47,7 +47,7 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 2. Create an initial journal line and fill in the fields as necessary.  
 3. In the **FA Posting Type** field, select **Depreciation**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. On the **Home** tab, choose **Post** to post the journal.  
+5. Choose the **Post** action to post the journal.  
 
 If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. For more information, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).  
 
@@ -58,7 +58,7 @@ If a fixed asset is used by several departments, periodic depreciation can be au
 2. Create an initial line and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Allocation**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for allocation posting.  
-5. On the **Home** tab, choose **Post** to post the journal.  
+5. Choose the **Post** action to post the journal.  
 
 ## Use duplication lists to prepare to post to multiple depreciation books
 When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. For more information, see To [post entries to different depreciation books](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

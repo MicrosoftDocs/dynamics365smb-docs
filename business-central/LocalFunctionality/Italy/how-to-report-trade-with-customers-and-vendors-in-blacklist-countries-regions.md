@@ -117,7 +117,7 @@ The printed report includes all transactions that meet threshold requirements. I
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Blacklist Communication**, and then choose the related link.  
 2.  In the **Name** field, select the relevant VAT statement name.  
 3.  Fill in the lines with the relevant information. See the procedure for setting up the Blacklist template.  
-4.  On the **Navigate** tab, choose the **Preview** action. You can review the information to make sure that your mappings have provided you with the information that you expected.
+4.  Choose the **Preview** action. You can review the information to make sure that your mappings have provided you with the information that you expected.
 5. Choose the **OK** button to close the page  
 6.  Choose the **Export** action.  
 7.  Optionally, on the **VAT Statement Line** FastTab, set the relevant filters.  

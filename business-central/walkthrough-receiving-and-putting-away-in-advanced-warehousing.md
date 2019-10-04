@@ -132,7 +132,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
 ### To put the items away  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
-2.  Select the only warehouse put-away document in the list, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
+2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.
 

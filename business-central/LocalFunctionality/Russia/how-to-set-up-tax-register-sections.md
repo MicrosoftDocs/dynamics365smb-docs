@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up Tax Register Sections
+# Set Up Tax Register Sections
 
 You can either create a new tax register section or select a tax register section to be used in a company during the current taxation period. You can select a tax register section that was valid during previous taxation periods and view tax information for any of the periods. You can copy tax registers from one tax register section into another. You can also set up tax registers and adjust the algorithm of information collection into tax registers.
 
@@ -84,5 +84,5 @@ The following procedure shows how to remove a tax register from the register lis
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  

@@ -169,7 +169,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
     |1020|Development|Posting|  
     |1090|Consulting Total|End-Total|  
 
-3.  To show that some tasks are subcategories of other tasks, on the **Actions** tab, in the **Functions** group, choose **Indent Job Tasks**.  
+3.  To show that some tasks are subcategories of other tasks, choose the **Indent Job Tasks** action.  
 
  A planning line can be one of the following types:  
 
@@ -257,7 +257,7 @@ The lines are now posted.
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
 5.  Choose the **OK** button to create the invoice and choose the **OK** button on the confirmation page.  
 
- After Tricia creates the invoice, she can access it from **Sales & Marketing** under **Order Processing** and do additional processing.  
+ After Tricia creates the invoice, she can access it from the **Sales Order Processor** Role Center, for example. 
 
 ### To post a new sales invoice  
 

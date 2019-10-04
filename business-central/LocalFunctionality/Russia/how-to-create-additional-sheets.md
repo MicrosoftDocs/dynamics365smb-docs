@@ -10,37 +10,33 @@ ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
-# How to: Create Additional Sheets
+# Create Additional Sheets
 
 In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
-### To create entries for an additional sheet for a VAT purchase or sales ledger
+## To create entries for an additional sheet for a VAT purchase or sales ledger
 
 1. Select the VAT purchase or sales line in the **VAT Ledger List** window with the required accounting period.
 
-2. On the **Actions** tab, choose **Functions**, and then choose **Create Additional Sheet**.
+2. Choose the **Create Additional Sheet** action.
 
 3. Fill in the batch job according to the guidelines at Create VAT Sales Led. Ad. Sh..
 
    The parameters for creating a VAT purchase ledger additional sheet and VAT sales ledger additional sheet are the same as the parameters for creating the VAT Purchase Ledger and the VAT Sales Ledger.
 
-### To print additional sheets on a VAT Ledger 
+## To print additional sheets on a VAT Ledger
 
-1. In the **VAT Purch. Ledger** or **VAT Sales Ledger**, on the **Actions** tab, choose **Options** tab.
-
-2. Choose **Additional sheet**.
-
-3. In the **Period Type** field, select one of the following options:
+1. On the **VAT Purch. Ledger** or **VAT Sales Ledger** page, choose the **Additional Sheet** action.
+2. In the **Period Type** field, select one of the following options:
 
    - **Day**
    - **Month**
    - **Quarter**
 
-   > :speech_balloon: Note
-   >
+   > [!NOTE]
    > In the **VAT Ledger** tab, the **Type** field and the **Code** field are automatically created.
 
-4. Choose **Preview** or choose **Print**.
+4. Choose the **Preview** or **Print** action.
 
 ## Creating Corrective Documents to Include in Additional Sheets
 
@@ -54,43 +50,36 @@ The first line contains totals of the sales book at the end of the period when t
 
 Processing of corrective documents for sales book is similar to processing for purchases book with one difference. In additional sheets, the number and the date of initial factura must be reflected.
 
-#### To create a correction entry for posted purchase credit memos
+### To create a correction entry for posted purchase credit memos
 
 1. Create and post a purchase credit memo.
-2. Choose the **VAT** tab.
-3. Select the **Additional VAT Ledger Sheet** field.
-4. Enter information in the following fields:
+2. Choose **Additional VAT Ledger Sheet** field.
+3. Enter information in the following fields:
    - **Corrected Document Date**
    - **Vendor VAT Invoice Date**
    - **Vendor VAT Invoice Rcvd Date**
    - **Vendor VAT Invoice No.**
 
-#### To create a correction entry for a posted purchase invoice
+### To create a correction entry for a posted purchase invoice
 
 1. Create and post a purchase invoice.
-
-2. Choose the **VAT** tab.
-
-3. Select the **Corrected Document Date** field.
-
-4. Enter information in the following fields:
+2. Choose the **Corrected Document Date** field.
+3. Enter information in the following fields:
 
    - **Vendor VAT Invoice Date**
    - **Vendor VAT Invoice Rcvd. Date**
    - **Vendor VAT Invoice No.**
 
-   > :speech_balloon: Note
-   >
+   > [!NOTE]
    > You can also create corrective documents in the general journal. General journal lines contain all the fields mentioned above.
 
-#### To post additional VAT
+### To post additional VAT
 
 1. In the **Sales Invoice** window or the **Credit Memo** window, choose the **VAT** tab.
 
 2. Enter the **Posting No.** field.
 
-   > :speech_balloon: Note
-   >
+   > [!NOTE]
    > You cannot post an invoice with the same number as the initial invoice. You must use an extra symbol in addition to the initial number.
 
 3. Select the **Additional VAT Ledger Sheet** field.

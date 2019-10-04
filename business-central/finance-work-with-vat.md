@@ -92,7 +92,7 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-4. Select the import VAT general ledger account, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
+4. Select the import VAT general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **VAT Prod. Posting Group** field.  
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
@@ -177,4 +177,4 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
 ## See Also  
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   
-[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)   
+[Report VAT to a Tax Authority](finance-how-report-vat.md)   

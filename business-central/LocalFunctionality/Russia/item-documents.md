@@ -95,7 +95,7 @@ The following procedure shows how to analyze a posted document item receipt with
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Item Receipts**, and then choose the related link.
 
-   > :speech_balloon: Note
+   > [!NOTE]
    > The posted item receipt displays all the information from the item receipt.
 
 2. Choose the **Sort** action to sort the list of documents selected for printing in ascending or descending order.

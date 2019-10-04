@@ -122,7 +122,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
 4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
 
-    Alternatively, on the **Actions** tab, in the **Functions** group, choose **Get Source Document**, and then select the purchase order.  
+    Alternatively, choose the **Get Source Document** action, and then select the purchase order.  
 
 5.  Choose the **Autofill Qty. to Handle** action.  
 

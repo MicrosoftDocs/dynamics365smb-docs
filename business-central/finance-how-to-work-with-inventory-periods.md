@@ -18,7 +18,7 @@
 # Work with Inventory Periods
 Inventory periods define a period of time in which you can post changes to inventory. An inventory period is defined by the date on which it ends, or the ending date. When you close an inventory period, you cannot post any changes to inventory, either expected or invoiced, before this ending date. You cannot post any new values to inventory before the ending date. If you have open item entries in the closed period, meaning positive quantities that have not yet been applied to outbound transactions, you can still apply outbound quantities to these entries, even if the period is closed.  
 
-The following sections describe how to: 
+The following sections describe how to:
 
 * Create inventory periods.  
 * Close inventory periods.  
@@ -41,7 +41,7 @@ You can close any inventory period, provided that the following is true:
 This means that all outbound transaction quantities, such as those from sales orders, outbound transfers, sales invoices, purchase returns, or purchase credit memos, must be applied to existing quantity in inventory.  
 
 ### To close an inventory period  
-1. Before closing an inventory period, run the **Adjust Cost – Item Entries** batch job to ensure that all cost adjustments are posted. On the **Actions** tab, in the **Functions** group, choose **Adjust Cost – Item Entries**.  
+1. Before closing an inventory period, choose the **Adjust Cost – Item Entries** action to ensure that all cost adjustments are posted.
 
      Run the **Close Inventory Period – Test** report to determine if there are any open outbound item entries within the inventory period or any items whose cost has not yet been adjusted.  
 2. Choose the **Close Inventory Period – Test** action.  

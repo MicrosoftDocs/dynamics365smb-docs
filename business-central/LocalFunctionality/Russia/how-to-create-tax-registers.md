@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Create Tax Registers
 
-The following procedure shows how to create tax registers. 
+The following procedure shows how to create tax registers.
 
 1. Choose **Financial Management**, choose **Tax Accounting**, choose **Setup**, choose **Tax Register**s, and then choose **Sections**.
 
@@ -40,8 +40,7 @@ The following procedure shows how to create tax registers.
 
 6. Choose **OK** to create the tax register.
 
-    > :speech_balloon: Note
-    >
+    > [!NOTE]
     > If the creation of registers for an already counted period is selected, a warning is displayed. At this stage of the tax register     > creation, it is possible either to continue counting and delete all existing data, or stop.
 
 7. To view the calculated information in the **Tax Register Accumulation** window, choose **Financial Management**, choose **Tax Accounting**, choose **Reporting,** and then choose **Profit Tax**.

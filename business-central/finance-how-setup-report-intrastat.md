@@ -43,7 +43,7 @@ You can export the entries to a file that you can send to your Intrastat authori
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use.  
-3. To create batches, choose the **Navigate** tab, and then choose **Batches**.  
+3. To create batches, choose the **Batches** action.  
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use..  
 
 > [!Note]
@@ -94,7 +94,7 @@ To get the information that is required on the Intrastat form from the statistic
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. On the **Intrastat Journal** page, choose the relevant journal batch in the **Batch Name** field.  
-3. If you have not already done this, fill in the journal manually or choose **Suggest Lines**.  
+3. If you have not already done this, fill in the journal manually or choose **Suggest Lines** action.  
 4. Choose the **Prints Intrastat Journal** action.  
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
 6. Choose **Send to** to print the report.  
@@ -104,9 +104,9 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
 2. On the **Intrastat Journal** page, select the relevant journal batch in the **Batch Name** field.  
-3. If you have not already done this, fill in the journal manually or by choosing **Suggest Lines**.  
+3. If you have not already done this, fill in the journal manually or by choosing the **Suggest Lines** action.  
 4. Choose the **Create File** action.  
-5. In the batch job page, choose **OK**.  
+5. On the batch job page, choose the **OK** button.  
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
@@ -115,7 +115,7 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. To view the options, choose the **Batch Name** field.  
-3. Choose the journal batches to deleted, and then choose **Delete**.  
+3. Choose the journal batches to deleted, and then choose the **Delete** button.  
 
 ## See Also
 [Financial Management](finance.md)

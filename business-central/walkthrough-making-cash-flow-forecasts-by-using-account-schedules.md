@@ -57,7 +57,7 @@ After an account schedule name is set up, Ken defines each line that appears in 
 
 ### To set up account schedule lines  
 
-1.  On the **Account Schedule Names** page, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
+1.  On the **Account Schedule Names** page, select the new **Forecast** account schedule name that you have created, and then choose the **Edit Account Schedule** action.  
 2.  On the **Account Schedule** page, enter each line exactly as shown in the following table.  
 
     > [!NOTE]  

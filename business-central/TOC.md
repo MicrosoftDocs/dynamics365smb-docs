@@ -1234,7 +1234,7 @@
 #### [Posting Vendor and Customer Prepayments](LocalFunctionality/Russia/prepayments-vendor-and-customers.md)
 #### [Prepayment Differences](LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md)
 #### [Set Up Customer and Vendor Agreements](LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
-### Fixed assets
+### Fixed Assets
 #### [Overview](LocalFunctionality/Russia/fixed-assets.md)
 #### [Calculate Assessed Tax](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
 #### [Depreciation Bonus](LocalFunctionality/Russia/Depreciation-Bonus.md)
@@ -1287,7 +1287,7 @@
 #### [Establishing Charges and Deductions to the Employee](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
 #### [Absence registration](LocalFunctionality/Russia/Absence-registration.md)
 #### [Dismissal](LocalFunctionality/Russia/Dismissal.md)
-#### [Forming and changing Staff List Order, Staff Arrangement](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
+#### [Forming and Changing the Staff List Order](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 #### [Vacation Planning](LocalFunctionality/Russia/Vacation-planning.md)
 
 ## Spain

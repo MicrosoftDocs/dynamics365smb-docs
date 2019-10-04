@@ -10,7 +10,7 @@ ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
-# Forming and Changing Staff List Order, Staff Arrangement
+# Forming and Changing the Staff List Order
 
 ### Changing of Staff List
 

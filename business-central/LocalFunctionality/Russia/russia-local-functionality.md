@@ -8,7 +8,7 @@ ms.topic: article
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 10/04/2019
 ms.author: soalex
 
 ---
@@ -27,7 +27,19 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [General Ledger Correspondence](general-ledger-correspondence.md) **Available Now**
     * [Сurrency](Currency-information-Import-currency-rates.md) **Available Now**
     * [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md) **Available Now**
+
+* Payables and Receivables
     * [Payables and Receivables](Payables-and-Receivables.md) **Available Now**
+    * [Enter Custom Declarations Information](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
+    * [Set Up and Create Letters of Attorney](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
+    * [Russian Payables Reports](LocalFunctionality/Russia/russian-payables-reports.md)
+    * [Russian Receivables Reports](LocalFunctionality/Russia/russian-receivables-reports.md)
+    * [Set Up Customer Prepayments](LocalFunctionality/Russia/how-to-set-up-customer-prepayments.md)
+    * [Set Up Vendor Prepayments](LocalFunctionality/Russia/how-to-set-up-vendor-prepayments.md)
+    * [Posting Vendor and Customer Prepayments](LocalFunctionality/Russia/prepayments-vendor-and-customers.md)
+    * [Prepayment Differences](LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md)
+    * [Set Up Customer and Vendor Agreements](LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
+
 * Fixed Assets
     * [Fixed Assets](fixed-assets.md) **Available Now**
     * [Calculate Assessed Tax](How-to-Calculate-Assessed-Tax.md) **Available Now**
@@ -56,6 +68,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [VAT by customer prepayments](VAT-by-Customer-prepayments.md) **Available Now**  
     * [VAT reinstatement](VAT-reinstatement.md) **Available Now**  
     * [Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
+
 * Tax Accounting
     * [Tax Accounting](Tax-Accounting.md) **Available Now**
     * [Set Up Tax Accounting](How-to-Set-Up-Tax-Accounting.md) **Available Now**  
@@ -66,8 +79,10 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md) **Available Now**  
     * [Upload KLADR](Upload-KLADR.md) **Available Now**  
     * [Statutory Reports](Statutory-Reports.md) **Available Now**
+
 * Banking
     * [Bank Management](bank-management.md) **Available Now**
+
 * Inventory
     * [Inventory](Inventory.md) **Available Now**
     * [Inventory Setup](Inventory-Setup.md) **Available Now**
@@ -83,7 +98,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [Establishment of charges and deductions to the employee](Establishment-of-charges-and-deductions-to-the-employee.md) **Available Now**
     * [Absence registration](Absence-registration.md) **Available Now**
     * [Dismissal](Dismissal.md) **Available Now**
-    * [Forming and changing Staff List Order, Staff Arrangement](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md) **Available Now**
+    * [Forming and Changing Staff List Order](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md) **Available Now**
     * [Vacation planning](Vacation-planning.md) **Available Now**
 
 ## See Also

@@ -30,15 +30,15 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
 
 * Payables and Receivables
     * [Payables and Receivables](Payables-and-Receivables.md) **Available Now**
-    * [Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md)
-    * [Set Up and Create Letters of Attorney](how-to-set-up-and-create-letters-of-attorney.md)
-    * [Russian Payables Reports](russian-payables-reports.md)
-    * [Russian Receivables Reports](russian-receivables-reports.md)
-    * [Set Up Customer Prepayments](how-to-set-up-customer-prepayments.md)
-    * [Set Up Vendor Prepayments](how-to-set-up-vendor-prepayments.md)
-    * [Posting Vendor and Customer Prepayments](prepayments-vendor-and-customers.md)
-    * [Prepayment Differences](prepayment-differences-invoices-prepayment-differences.md)
-    * [Set Up Customer and Vendor Agreements]how-to-set-up-customer-and-vendor-agreements.md)
+    * [Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md) **Available Now**
+    * [Set Up and Create Letters of Attorney](how-to-set-up-and-create-letters-of-attorney.md) **Available Now**
+    * [Russian Payables Reports](russian-payables-reports.md) **Available Now**
+    * [Russian Receivables Reports](russian-receivables-reports.md) **Available Now**
+    * [Set Up Customer Prepayments](how-to-set-up-customer-prepayments.md) **Available Now**
+    * [Set Up Vendor Prepayments](how-to-set-up-vendor-prepayments.md) **Available Now**
+    * [Posting Vendor and Customer Prepayments](prepayments-vendor-and-customers.md) **Available Now**
+    * [Prepayment Differences](prepayment-differences-invoices-prepayment-differences.md) **Available Now**
+    * [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md) **Available Now**
 
 * Fixed Assets
     * [Fixed Assets](fixed-assets.md) **Available Now**

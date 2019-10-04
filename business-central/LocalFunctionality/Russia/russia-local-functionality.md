@@ -40,7 +40,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
     * [Create Future Expense Journals](How-to-Create-Future-Expense-Journals.md) **Available Now**
     * [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md) **Available Now**
     * [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md) **Available Now**
-    * [Sale of fixed assets](Sale-of-fixed-assets.md) **Available Now**
+    * [Selling Fixed Assets](Sale-of-fixed-assets.md) **Available Now**
     * [Release, Track, and Write-Off Fixed Assets](How-to-Release-Track-Write-Off-Fixed-Assets.md) **Available Now**
     * [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md) **Available Now**
     * [Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md) **Available Now**

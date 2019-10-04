@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Fixed Assets
+# Overview - Fixed Assets
 
 In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
 
@@ -33,7 +33,7 @@ Use the following table to learn more about the fixed asset features that are av
 | [Create Future Expense Journals](How-to-Create-Future-Expense-Journals.md)                | Enables you to post expenses to a special account that are later included as expenses. |
 | [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)                   | Specifies how to create a new fixed asset charge.            |
 | [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md) | Specifies how to fix an error on a fixed asset charge of an invoice using a credit memo. |
-|[Sale of fixed assets](Sale-of-fixed-assets.md)|Specifies how to sale fixed asset|
+|[Selling Fixed Assets](Sale-of-fixed-assets.md)|Specifies how to sale fixed asset|
 | [Release, Track, and Write-Off Fixed Assets](How-to-Release-Track-Write-Off-Fixed-Assets.md)    | Specifies how to release, track, and write-off the fixed assets of your organization. |
 | [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)   | Specifies how to view all posted fixed asset entries for each fixed asset charge code. |
 | [Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md)           | Enables you to post intangible asset transactions to a special intangible assets account. |

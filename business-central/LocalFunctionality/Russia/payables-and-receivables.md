@@ -17,7 +17,7 @@ In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)]
 
 ## Getting Started with Payables and Receivables
 
-Use the following table to learn more about the payables and receivables features that are available for Russia. 
+Use the following table to learn more about the payables and receivables features that are available for Russia.
 
 | Topic                                            | Description            |
 | ------------------------------------------------ | ---------------------- |
@@ -27,10 +27,9 @@ Use the following table to learn more about the payables and receivables feature
 | [Russian Receivables Reports](Russian-Receivables-Reports.md)  | Enables you to view and print general ledger turnover and finance reports that originate from customer sales transactions. |
 | [Set Up Customer Prepayments](How-to-Set-Up-Customer-Prepayments.md)    | Enables you to set up advance payments on sales orders that are received before a final invoice is issued. |
 | [Set Up Vendor Prepayments](How-to-Set-Up-Vendor-Prepayments.md)  | Enables you to set up advance payments on purchase orders that are paid before a final invoice is issued. |
-|[Prepayments Vendor and Customers](Prepayments-Vendor-and-Customers.md)|Enables you to post and apply prepayment.|
-|[Prepayment differences, Invoices for Prepayment differences](prepayment-differences-invoices-prepayment-differences.md)|Enables you to post prepayment differences.|
+|[Posting Vendor and Customer Prepayments](Prepayments-Vendor-and-Customers.md)|Enables you to post and apply prepayment.|
+|[Prepayment differences](prepayment-differences-invoices-prepayment-differences.md)|Enables you to post prepayment differences.|
 | [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md) | Enables you to set up agreements with customers and vendors. |
-| [Combine Customer or Vendor Cards](How-to-Combine-Customer-or-Vendor-Cards.md)      | Enables you to combine two customer or vendor cards that belong to one customer or vendor. |
 
 ## See Also
 

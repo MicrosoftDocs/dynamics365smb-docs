@@ -11,28 +11,24 @@ ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Prepayments Vendor and Customers
+# Posting Vendor and Customer Prepayments
 
-In the Russian version, prepayments work in a different way compared to the standard version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. When we receive a prepayment, it is necessary by accounting rules to post prepayment on separate account, that way Vendor and Customer Posting groups have field - Prepayment Account
+In the Russian version, prepayments work in a different way compared to the standard version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. When we receive a prepayment, it is necessary by accounting rules to post the prepayment on a separate account. Therefore, the vendor and customer posting groups have the **Prepayment Account** field.
 
 [!INCLUDE[prodshort](../../includes/prodshort.md)] uses this accounts for prepayment entries- Payment with Prepayment check mark.
 
-## Posting a prepayment
+## To post a prepayment
 
-In the **General Journal** page, choose Document type - Payment and Prepayment - yes.
+1. On the **General Journal** page, select the **Document Type - Payment and Prepayment** check box.
+2. Specify the account type and account number, the balance account type, and the balance account number.
+3. Post the general journal.
 
-Specify the account type and account number, the balance account type, and the balance account number.
+## To apply prepayments
 
-Post the general journal.
-
-## Applying prepayments
-
-1. Go to the **vendor ledger entries** or **customer ledger entries**.
-2. Select a line with a posted prepayment.
-3. On the **Home** tab, click apply operations.
-4. Select the line with the invoice to which you want to apply the prepayment.
-5. Press **Set applies-to ID**.
-6. Press **Post Application**.
+1. Go to the **Vendor Ledger Entries** or **Customer Ledger Entries** page.
+2. Select a line with a posted prepayment, and then choose the **Apply** action.
+4. Select the line with the invoice to which you want to apply the prepayment, and then choose the **Set applies-to ID** action.
+6. Choose the **Post Application** action.
 
 ## See Also
 

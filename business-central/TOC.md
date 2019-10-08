@@ -529,6 +529,7 @@
 ## [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
+## [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
 
 # Inventory
 ## [Overview](inventory-manage-inventory.md)

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/02/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ To save time, you can create a new profile by copying an existing one. Copy one 
 > [!NOTE]
 > When you copy a profile, all the involved page customizations are copied as well, both the user-created and those derived from extensions.
 
-1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
+1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy Profile** action.
 2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
@@ -69,18 +69,18 @@ As an administrator, you can define these setting for a profile and thereby appl
 ## To activate a profile
 When a profile is created, you can select different check boxes that define if, where, and how the profile and its information is made available to users.
 
-1. On the **Profile (Role)** page, select the following check boxes:
+* On the **Profile (Role)** page, select the following check boxes:
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
     - **Disable personalization** to specify if users of the related role can personalize their workspace.
     - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
 
-    ## To export user-created profiles
-    You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## To export user-created profiles
+You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-    * On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+* On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
 
-    A zip file with the .al files for profiles that were newly added or modified is exported.
+A zip file with the .al files for profiles that were newly added or modified is exported.
 
 ## To delete a profile
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:

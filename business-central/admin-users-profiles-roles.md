@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/02/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
 
 ---
@@ -36,7 +36,7 @@ To save time, you can create a new profile by copying an existing one. Copy one 
 > [!NOTE]
 > When you copy a profile, all the involved page customizations are copied as well, both the user-created and those derived from extensions.
 
-1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy profile** action.
+1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy Profile** action.
 2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 

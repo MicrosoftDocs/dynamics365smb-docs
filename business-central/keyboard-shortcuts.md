@@ -18,7 +18,7 @@ This article provides an overview of some of the shortcut key combinations that 
 > [!TIP]
 > For a quick, print-friendly overview of the most popular shortcuts for PC users, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md). For a graphical representation, choose the following image:
 >
->[ ![To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [!Image [To download for printing, right-click and select Save Picture As](media/bckeyboardmap-inline.png)]
 
 ## Overview
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.

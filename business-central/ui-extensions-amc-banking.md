@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2019
+ms.date: 10/14/2019
 ms.author: bholtorf
 
 ---
@@ -34,14 +34,14 @@ Getting started with the extension involves just a few easy steps, and an assist
 ### To connect the extension to AMC Banking
 1. Get a module and a service plan for AMC Banking. To do that, visit the [AMC License](https://license.amcbanking.com/register) page.
 2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **AMC Banking Setup**, and then choose the related link.  
-3. On the **AMC Banking Setup** page, choose the **Assisted Setup** action. 
+3. On the **AMC Banking Setup** page, choose the **Assisted Setup** action.
 4. Complete the steps in the assisted setup guide.
 
 ### To connect bank accounts to the extension
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Open the card for the bank account that you want to connect to the service. 
+2. Open the card for the bank account that you want to connect to the service.
 3. In the **Bank Name** field, choose the format that your bank requires.  
-  
+
    The formats are filtered to show only those that are relevant for the country/region that is specified for the bank account.
 4. In the **Credit Transfer Msg. Nos.** field, choose the number series to use for messages that accompany payments.
 5. In the **Bank Statement Import Format** and **Payment Export Format** fields, choose the data exchange definitions that your bank requires.
@@ -50,12 +50,12 @@ Getting started with the extension involves just a few easy steps, and an assist
 Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service.
 
 > [!Note]
-> You must fill in the **SWIFT Code** and **IBAN** fields for each bank account. 
+> You must fill in the **SWIFT Code** and **IBAN** fields for each bank account.
 
 ### To export data and submit it to your bank
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
-  
+
    > [!Note]
    > For each line, remember to choose **Electronic Payment** in the **Bank Payment Type** field.
 3. Choose the **Export** action.
@@ -63,7 +63,7 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 ### To import and apply the converted file
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Reconciliation Journal**, and then choose the related link.
 2. Choose the **Import Bank Transaction** action, and then choose the converted file.  
-  
+
    [!INCLUDE[d365fin](includes/d365fin_md.md)] will create a new payment reconciliation journal that contains the data in the file. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## See Also

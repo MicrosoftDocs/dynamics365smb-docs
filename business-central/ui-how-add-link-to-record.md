@@ -47,8 +47,7 @@ The following procedure is based on an item card. The steps are similar for all 
 3. In the **Links**, choose the **+** icon.
 4. In the **Link Address** field, enter the link.
 
-    - To link to website, enter the Internet address (URL), such as **www.microsoft.com**.
-    - To link to a program, enter a specific string to open the program. For example, to open Outlook with a new empty email to a specific alias, enter **mailto:testalias**.  
+    The link must be a valid internet or intranet URL.
 
 5. In the **Description** field, enter any information about the link.  
 6. Choose the **OK** button.

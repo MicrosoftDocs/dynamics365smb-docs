@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
 
 ---
@@ -36,6 +36,10 @@ You can change the locale in the browser tab that you are using to work in [!INC
 
 To change the locale, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
+## Application Version
+
+In the **Help and Support** page, you can see the version of [!INCLUDE [prodshort](includes/prodshort.md)] that your company is based on. If you want to base a company on a different version, your administrator can create a new production environment. For more information, see [Create a new production environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) in the developer- and IT Pro content.  
+
 ## Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.
 
@@ -45,6 +49,8 @@ It's simple - scroll to the bottom of the browser page and choose the globe symb
 > [!NOTE]  
 > The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of countries/regions, but the Help content is made available in more languages. However, the Help content is not available in all languages that the Microsoft Docs site supports.
 
-## See Also  
+## See Also
+
+[Resources for Help and Support](product-help-and-support.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  

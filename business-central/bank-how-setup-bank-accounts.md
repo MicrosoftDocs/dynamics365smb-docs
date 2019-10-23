@@ -16,7 +16,9 @@ ms.author: sgroespe
 
 ---
 # Set Up Bank Accounts
-You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.
+You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.<br><br>  
+
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
 
 ## To set up bank accounts
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.

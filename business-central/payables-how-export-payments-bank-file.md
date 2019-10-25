@@ -1,0 +1,82 @@
+---
+title: Export Payments to an Electronic Payment File| Microsoft Docs
+description: This topic describes how to export payments to a file that you can share with your bank.
+author: SorenGP
+
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
+ms.date: 10/01/2019
+ms.author: sgroespe
+redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+
+---
+# Export Payments to a Bank File
+When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines on the **Payment Journal** page. You can then upload the file to your bank to process the related money transfers.
+
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], a global provider of services to convert bank data to any file format that your bank requires is available. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).    
+
+> [!NOTE]  
+>   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the AMC Banking 365 Fundamentals extension. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+
+> [!CAUTION]  
+>  When you export data by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158). 
+
+You use the **Credit Transfer Registers** page to view the payment files that have been exported from the payment journal. From this page, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this page and cannot be re-exported.  
+
+## To export payments to a bank file
+The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
+
+> [!NOTE]  
+>   If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values in the **Bank Account Card** and **Vendor Bank Account Card** pages. You will be informed about wrong or missing setup values as you try to export the file.
+
+3. When you have completed all payment journal lines, choose the **Export** action.
+4. On the **Export Electronic Payments** page, fill in the fields as necessary.
+
+    Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
+
+    > [!TIP]  
+    >   When you use the AMC Banking 365 Fundamentals extension, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
+
+5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
+
+    > [!NOTE]  
+    >   If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** page from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
+6. On the **Payment Journal** page, choose the **Generate EFT File** action.
+
+    On the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
+7. Choose the **Generate EFT File** action to export one file for all the EFT payments.
+8. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
+
+The bank payment file is exported to the location that you specify, and you can proceed to upload it to your electronic bank account and make the actual payments. Then you can post the exported payment journal lines.
+
+## To plan when to post exported payments
+If you do not want to post a payment journal line for an exported payment, for example because you are waiting for confirmation that the transaction has been processed by the bank, you can just delete the journal line. When you later create a payment journal line to pay the remaining amount on the invoice, the **Total Exported Amount** field shows how much of the payment amount has already been exported. Also, you can find detailed information about the exported total by choosing the **Credit Transfer Reg. Entries** button to see details about exported payment files.
+
+If you follow a process where you do not post payments until you have confirmation that they have been processed in the bank, you can control this in two ways.
+
+* In a payment journal with suggested payment lines, you can sort on either the **Exported to Payment File** column or the **Total Exported Amount** and then delete payment suggestions for open invoices for which payments have already been made and you do not want to make payments for.
+* On the **Suggest Vendor Payments** page, where you specify which payments to insert in the payment journal, you can select the **Skip Exported Payments** check box if you do not want to insert journal lines for payments that have already been exported.
+
+To see information about exported payments, choose the **Payment Export History** action.
+
+## To re-export payments to a bank file
+You can re-export payment files from the **Credit Transfer Registers** page. Before you delete or post payment journal lines, you can also re-export the payment file from the **Payment Journal** page by simply exporting it again. If you have deleted or posted the payment journal lines after exporting them, you can re-export the same payment file from the **Credit Transfer Registers** page. Select the line for the batch of credit transfers that you want to re-export, and then use the **Reexport Payments to File** action.
+
+> [!NOTE]  
+>   Exported EFT files are not shown on the **Credit Transfer Registers** page and cannot be re-exported.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Credit Transfer Registers**, and then choose the related link.
+2. Select a payment export that you want to re-export, and then choose the **Reexport Payment to File** action.
+
+## See Also
+[Making Payments](payables-make-payments.md)  
+[Payables](payables-manage-payables.md)  
+[Setting Up Purchasing](purchasing-setup-purchasing.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

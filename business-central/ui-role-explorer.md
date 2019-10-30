@@ -29,7 +29,7 @@ To get an overview of business feature that are available for all other roles, i
 ## To expand/collapse nodes on the role explorer
 The actions that open pages are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
- 1. To expand/collapse a node, choose the node. The arrow behind the nodes indicates its state.
+ 1. To expand/collapse a node, choose the node. The arrow behind the node indicates its state.
  2. To expand/collapse all nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner of the page.  
 
 ## See Also

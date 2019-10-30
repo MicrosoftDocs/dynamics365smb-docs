@@ -29,8 +29,11 @@ To get an overview of business feature that are available for all other roles, i
 ## To expand/collapse nodes on the role explorer
 The actions that open pages are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
- 1. To expand/collapse a node, choose the node. The arrow behind the node indicates its state.
- 2. To expand/collapse all nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner of the page.  
+Some nodes contain sub nodes. To expand/collapse all nodes in one go, you can use the Ctrl+Shift+choose combination.
+
+- To expand/collapse a node, choose the node. This applies to top-level nodes and sub nodes.
+- To expand/collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner.
+- To expand/collapse a top-level node and all sub nodes under it, press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
 
 ## See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  

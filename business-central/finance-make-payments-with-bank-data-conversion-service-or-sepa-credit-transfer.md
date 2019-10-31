@@ -1,7 +1,7 @@
 ---
-    title: Make Payments with Bank Data Conversion Service or SEPA Credit Transfer | Microsoft Docs
+    title: Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer | Microsoft Docs
     description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,10 +10,10 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.author: bholtorf
 
 ---
-# Making Payments with Bank Data Conversion Service or SEPA Credit Transfer
+# Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
 On the **Payment Journal** page, you can process payments to your vendors by exporting a file together with the payment information from the journal lines. You can then upload the file to your electronic bank where the related money transfers are processed. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.
 
 In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
@@ -23,8 +23,8 @@ In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], a global 
 > [!NOTE]  
 >  When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
 
-## Setting Up the Bank Data Conversion Service.
-Activate the Bank Data Conversion Service feature to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires. For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-statement-service.md).
+## Setting Up the AMC Banking 365 Fundamentals Extension
+Activate the AMC Banking 365 Fundamentals extension to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).
 
 ## Setting Up SEPA Credit Transfer
 From the **Payment Journal** page, you can export payments to a file for upload to your electronic bank for processing of the related money transfers. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA Credit Transfer format, but in your country/region, other formats for electronic payments may be available.  
@@ -76,10 +76,10 @@ Fill the payment journal with lines for due payments to vendors, with the option
 ## Exporting Payments to a Bank File
 When you are ready to make payments to your vendors, or reimbursements to your employees, you can export a file with the payment information on the lines on the **Payment Journal** page. You can then upload the file to your bank to process the related money transfers.
 
-In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the Bank Data Conversion service is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+In the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the AMC Banking 365 Fundamentals extension is available. In North American versions, the same extension can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
->   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the bank data conversion service. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+>   Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the AMC Banking 365 Fundamentals extension. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 
 You use the **Credit Transfer Registers** page to view the payment files that have been exported from the payment journal. From this page, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this page and cannot be re-exported.  
 
@@ -98,7 +98,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
     Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
 
     > [!TIP]  
-    >   When you use the bank data conversion service, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
+    >   When you use the AMC Banking 365 Fundamentals extension, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
 5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
@@ -135,7 +135,7 @@ You can re-export payment files from the **Credit Transfer Registers** page. Bef
 When the electronic payment is successfully processed by the bank, post the payments. For more information, see [Making Payments](payables-make-payments.md).
 
 ## See Also  
-[Set Up the Bank Data Conversion Service](bank-how-setup-bank-statement-service.md)  
+[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Managing Payables](payables-manage-payables.md)   
 [Working with General Journals](ui-work-general-journals.md)  

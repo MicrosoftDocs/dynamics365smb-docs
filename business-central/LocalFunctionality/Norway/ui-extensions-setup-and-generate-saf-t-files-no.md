@@ -18,9 +18,6 @@ ms.author: soalex
 
 # Standard Audit Files - Tax
 
-> [!Note]
-> This feature is currently available only for on-premises versions of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. We are planning to release it for the online version in the future.
-
 Starting in January, 2020, companies in Norway must report financial data and provide a set of Standard Audit Files - Tax (SAF-T) to the Norwegian authorities upon request. This extension makes it easy to set up, generate, and export Standard Audit Files - Tax in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The exported SAF-T files will automatically be compressed as a .zip file ready to be uploaded by the user on the website of Skatteetaten, the Norwegian tax authorities.  
 
 ## What does this extensions handle?

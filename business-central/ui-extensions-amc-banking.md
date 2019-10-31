@@ -15,7 +15,7 @@ ms.author: bholtorf
 ---
 
 # Using the AMC Banking 365 Fundamentals Extension
-The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[d365fin](includes/d365fin_md.md)] with the AMC Banking 365 Business for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[d365fin](includes/d365fin_md.md)] into formats that are required by over 600 banks around the world. For example, this makes it easier to transfer payments and credits to vendors by entering the payments in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then uploading them to your bank. The formats can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, to send data to your banks. The extension connects [!INCLUDE[d365fin](includes/d365fin_md.md)] with the AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central service, which can convert bank data from [!INCLUDE[d365fin](includes/d365fin_md.md)] into formats that are required by over 600 banks around the world. For example, this makes it easier to transfer payments and credits to vendors by entering the payments in [!INCLUDE[d365fin](includes/d365fin_md.md)], and then uploading them to your bank. The formats can also smooth out bank reconciliation processes. For more information, see [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
 > AMC Banking has built additional extensions that work with [!INCLUDE[d365fin](includes/d365fin_md.md)]. This topic describes only the Fundamental extension.
@@ -30,6 +30,18 @@ We provide the settings, but to try out the extension you must run the assisted 
 
 ## Setting Up the Extension
 Getting started with the extension involves just a few easy steps, and an assisted setup guide will make the connection and turn on the extension. The guide will do things like install the data exchange definitions for bank statement export/import setups and initiate the number series used for credit transfer messages.  
+
+### To set up the required permission sets
+Before people can use this extension, your administrator must copy the following permission sets, edit them, and then assign the new permission sets to users instead of original: 
+
+* **D365 Basic**
+* **D365 Team Member**
+* **D365 Read**
+* **IntelligentCloudBC**
+
+For more information, see [To copy a permission set](ui-how-users-permissions.md#to-copy-a-permission-set).
+
+For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 ### To connect the extension to AMC Banking
 1. Get a module and a service plan for AMC Banking. To do that, visit the [AMC License](https://license.amcbanking.com/register) page.
@@ -47,12 +59,15 @@ Getting started with the extension involves just a few easy steps, and an assist
 5. In the **Bank Statement Import Format** and **Payment Export Format** fields, choose the data exchange definitions that your bank requires.
 
 ## Using the Extension
-Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service.
+Using this extension is just a matter of exporting data on the **Payment Journals** page, and then uploading it to your bank's web service. For more information, see [Making Payments with Bank Data Conversion or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]
 > You must fill in the **SWIFT Code** and **IBAN** fields for each bank account.
 
 ### To export data and submit it to your bank
+> [!CAUTION]  
+>  When you export data by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158). 
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Create the journal lines that you want to export.  
 

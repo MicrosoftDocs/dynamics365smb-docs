@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create Future Expense Journals
+# Create Future Expense Journals
 
 Future expense journals are used to post expenses to a special account on a monthly basis. These future expenses are later included as expenses. VAT is deducted when future expenses are included in current expenses.
 
@@ -21,7 +21,7 @@ You must select **Future Expenses** in the **Type** field of the **General Journ
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
 
-   Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md).
+   Use the **VAT Posting Setup** window to create VAT posting groups. For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
 2. On the **Settlement** FastTab, in the **VAT Settlement Template** field, select a template.
 

@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Selling fixed assets
+# Selling Fixed Assets
 
 A sale or transfer of a fixed asset consists of two stages.
 

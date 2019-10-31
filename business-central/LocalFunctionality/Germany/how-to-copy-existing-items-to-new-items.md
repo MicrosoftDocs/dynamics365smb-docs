@@ -11,8 +11,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
+    redirect_url: ../../inventory-how-copy-items
 
 ---
 # Copy Existing Items to New Items

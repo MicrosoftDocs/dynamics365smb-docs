@@ -6,14 +6,14 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create Tax Registers
+# Create Tax Registers
 
-The following procedure shows how to create tax registers. 
+The following procedure shows how to create tax registers.
 
 1. Choose **Financial Management**, choose **Tax Accounting**, choose **Setup**, choose **Tax Register**s, and then choose **Sections**.
 
@@ -40,8 +40,7 @@ The following procedure shows how to create tax registers.
 
 6. Choose **OK** to create the tax register.
 
-    > :speech_balloon: Note
-    >
+    > [!NOTE]
     > If the creation of registers for an already counted period is selected, a warning is displayed. At this stage of the tax register     > creation, it is possible either to continue counting and delete all existing data, or stop.
 
 7. To view the calculated information in the **Tax Register Accumulation** window, choose **Financial Management**, choose **Tax Accounting**, choose **Reporting,** and then choose **Profit Tax**.
@@ -60,5 +59,5 @@ The following procedure shows how to create tax registers.
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
+[Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  

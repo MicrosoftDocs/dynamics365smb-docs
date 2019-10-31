@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
 
 ---
@@ -28,6 +28,5 @@ When you are ready to post a document, such as an order, invoice, or a credit me
 All parts of the purchase invoice are tested, and the result is presented in a report. If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.
 
 ## See Also
-[Post Documents and Journals](ui-post-documents-journals.md)  
+[Posting Documents and Journals](ui-post-documents-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

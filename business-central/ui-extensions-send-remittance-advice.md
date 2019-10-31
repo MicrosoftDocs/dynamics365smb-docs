@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 06/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---

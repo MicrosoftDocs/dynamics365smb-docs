@@ -6,14 +6,14 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
 # Fixed Asset Inventory
 
-The fixed assets inventory feature enables you to: 
+The fixed assets inventory feature enables you to:
 
 - Process inventory auditing of fixed assets in accordance with legal requirements.
 - Generate electronic inventory lists of fixed assets that are to be inventoried with calculated quantities and amounts.
@@ -22,15 +22,15 @@ The fixed assets inventory feature enables you to:
 - Print the forms with inventory lists that show all inventoried fixed assets, as well as lists that show the fixed assets with differences only in quantities or amounts.
 - Print unified fixed asset forms.
 
- 
 
-## Inventory Lists of Fixed Assets 
+
+## Inventory Lists of Fixed Assets
 
 You must create inventory lists of fixed assets with calculated quantities and amounts for inventory auditing. The lists are divided by analytics such as physical locations and employees responsible for certain fixed assets.
 
-You can create special templates in the **Fixed Asset Journal** window. 
+You can create special templates in the **Fixed Asset Journal** window.
 
-The following procedure shows how to generate a list of fixed assets that are to be inventoried. 
+The following procedure shows how to generate a list of fixed assets that are to be inventoried.
 
 <<<<<<< HEAD
 1. Choose the ![Search for Page or Report](search-icon.png) icon, enter **FA Journals**, and then choose the related link.
@@ -42,9 +42,8 @@ The following procedure shows how to generate a list of fixed assets that are to
 
 3. On the **Fixed Asset** FastTab, filter the fixed assets.
 
-   > :speech_balloon: **Note**
-   >
-   > They can be filtered by any parameter from the Fixed Asset card, such fixed asset location or responsible employee. 
+   > [!NOTE]
+   > They can be filtered by any parameter from the Fixed Asset card, such fixed asset location or responsible employee.
 
 The parameters listed in the following table are on the **Options** FastTab.
 
@@ -57,14 +56,13 @@ The parameters listed in the following table are on the **Options** FastTab.
 | **Posting Date**                         | Specify the posting date. The quantities and amounts are calculated on this date. The **Posting Date** field is also filled with this value. |
 | **Show Fixed Asset with Book Value = 0** | Select this field to create fixed asset journal lines for fixed assets which have a book value of zero. |
 
-The report creates one batch in the fixed asset journal template for every fixed asset location that is filtered in the request form. For every fixed asset that is filtered, one journal line is created in the batch according to its location. A journal batch is created for fixed assets in each fixed asset location. 
+The report creates one batch in the fixed asset journal template for every fixed asset location that is filtered in the request form. For every fixed asset that is filtered, one journal line is created in the batch according to its location. A journal batch is created for fixed assets in each fixed asset location.
 
-The following procedure shows how to begin inventory auditing by fixed asset locations. 
+The following procedure shows how to begin inventory auditing by fixed asset locations.
 
 1. Select the batch according to the fixed asset location, and choose **ОК**.
 
-   > :speech_balloon: **Note**
-   >
+   > [!NOTE]
    > You can view the fixed assets lines that are filtered in the report and the lines that are in this fixed asset location.
 
 2. Place the columns of the fixed asset journal so that you can view calculated and actual quantities and amounts. They are reflected in the following fields:
@@ -74,15 +72,14 @@ The following procedure shows how to begin inventory auditing by fixed asset loc
    - **Actual Amount**
    - **Calc. Amount**
 
- 
 
-> :speech_balloon: **Note**
->
+
+> [!NOTE]
 > The amount value is the book value of the fixed asset.
 
 
 
- 
+
 
 ## See Also
 

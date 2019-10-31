@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -32,7 +32,7 @@ Account schedules are set up in the **Account Schedules** window.
 > **G/L Account Entries Analysis** report
 
 ## See Also
-[How to: Import and Export Account Schedules](How-to-Import-and-Export-Account-Schedules.md)  
-[How to: Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
-[How to: Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
-[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+[Import and Export Account Schedules](How-to-Import-and-Export-Account-Schedules.md)  
+[Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+[Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
+[Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  

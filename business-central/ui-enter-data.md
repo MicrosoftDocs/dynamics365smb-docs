@@ -1,7 +1,7 @@
 ---
-title: How to Enter Data in Fields| Microsoft Docs
+title: How to Enter Data in Business Central| Microsoft Docs
 description: Learn about general features that help you enter data in fields.
-author: jswymer
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,15 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/03/2019
-ms.author: jswymer
+ms.date: 10/01/2019
+ms.author: sgroespe
 ---
 
 # Entering Data
 
 There are many general features that help you enter data easier, faster, and more accurate. The general features for entering data are described in this article.  
 
-<!-- The examples in this article use the demonstration data.-->
+The examples in this article use the demonstration data.
 
 ## Keyboard Shortcuts
 
@@ -35,9 +35,9 @@ You might already be familiar with using the Tab key to navigate from one field 
 
 Every field can be marked as either being *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry, will be included in the path when you press Enter; fields that are excluded from Quick Entry, will not.
 
-When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Keyboard Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
+When you are finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
-#### Tips and tricks
+#### Tips and Tricks
 The following provides some useful information about using Quick Entry.
 
 - It is available for any editable fields.
@@ -47,14 +47,14 @@ The following provides some useful information about using Quick Entry.
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
-### How to Change Quick Entry Fields
+### To change Quick Entry fields
 
 To change which fields are included in or excluded from Quick Entry on a page, you use personalization.
 
-1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+1. Start personalization by selecting the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then the **Personalize** action.
 2. Select a field that you want change, or in lists, select the corresponding column heading, and then choose either **Include in Quick Entry** or **Exclude from Quick Entry**.
 
-For more information about personalization, see [Personalizing Your Workspace](ui-personalization-user.md).
+For more information about personalization, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Mandatory Fields
 
@@ -72,31 +72,42 @@ Even though the field contains a red asterisk, you are not forced to fill the fi
 
 -   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
-## Copying and Pasting Fields and Lines
+## Copying and Pasting FAQ Fields and Lines
 
 You can copy one or more rows from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS).
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting in Business Central](ui-copy-paste.md).
+For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
+
+## Filtering Line Items
+
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+
+Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 
 ## <a name="Focus"></a>Focusing on Line Items
 
-When working on documents that include a line items part, like a sales order or invoice page, you can switch your view to focus only on the line items, essentially expanding the line items part so that it occupies pretty much the entire workspace - hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them. This is particularly beneficial when working with large line item lists and fast data entry is desired.
+When working on documents that include a line items part, such as a sales order or invoice page, you can switch your view to focus only on the line items. The line items part then expands so that it occupies pretty much the entire workspace, hiding other parts of the page except the actions area at the top. This gives you a better overview of the lines items, and provides more room to work on them.
 
-Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
+This is particularly beneficial when working with large line item lists and when fast data entry is desired. Another advantage is that it also provides advanced filtering capability, like on other lists, so browsing and searching through line items becomes even easier.
 
 ### Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
 
 To switch back to the normal view, choose ![Focus Mode icon](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
 
-### Filtering the Line Items
+## Multitasking Across Multiple Pages
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press **Shift+F3** to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+To open the current card or document in a new window, choose ![Open New Window](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
-Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
+> [!NOTE]
+> When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
+
+> [!NOTE]
+> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## Entering Quantities by Calculation
 
@@ -130,7 +141,7 @@ You can enter negative numbers in two ways. The number -20.5 can be entered as:
 You can enter dates and times in all the fields that are specifically assigned to dates (date fields). You can enter dates with or without separators.
 
 > [!NOTE]  
-> How you enter dates and times depends on your **Region** settings. For more information, see [Changing Basic Settings](ui-change-basic-settings.md).  
+> How you enter dates and times depends on your **Region** settings. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 ### Entering Dates
 
@@ -151,9 +162,9 @@ Instead of entering a specific date, you can enter one of these codes.
 |Code|Result|  
 |--------------|----------------|  
 |t|This specifies today's date (the system date for the computer).|  
-|p|This specifies an accounting period´, where `p`means the first accounting period, `p2` means the second accountin period, and so on. |
+|p|This specifies an accounting period, where p means the first accounting period, p2 means the second accounting period, and so on. |
 |w|This specifies the work date that is setup in the application. To change the work date, see [Changing Basic Settings](ui-change-basic-settings.md). You may want to use a work date if you have many transactions with a date other than today's date.|
-|c|This specifies that the date after `c`is a closing date, for example `C123101`.|  
+|c|This specifies that the date after c is a closing date, for example C123101.|  
 
 ## Entering Times
 
@@ -181,7 +192,7 @@ The following table lists the various ways in which you can enter datetimes and 
 
 |Entry|Interpretation|  
 |---------------|------------------------|  
-|131202 132455|13-12-02 13:24:55|  
+|`131202` 132455|13-12-02 13:24:55|  
 |1-12-02 10|01-12-02 10:00:00|  
 |1.12.02 5|01-12-02 05:00:00|  
 |1.12.02|01-12-02 00:00:00|  
@@ -203,7 +214,6 @@ The following table lists the various ways in which you can enter datetimes and 
 |tu 3:3:3|Tuesday of the current week 03:03:03|  
 
 ## Entering Duration
-
 You enter a duration as a number followed by its unit of measure.  
 
 Here are some examples.  
@@ -222,86 +232,6 @@ Here are some examples.
  To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.  
 
  The number 5 is converted to 5 hrs, if the unit of measure is hours.  
-
-<!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
-
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------------|---------------------------|--------------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
-
- You can also combine the various format types.  
-
-|**Sample expression**|**Entries included**|  
-|---------------------------|--------------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
-
-## Using Date Formulas
-
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
-
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
-
- Here are some examples of how date formulas can be used:  
-
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
-
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
-
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
-
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
-
-|||  
-|-|-|  
-|C|Current|  
-|D|Day(s)|  
-|W|Week(s)|  
-|M|Month(s)|  
-|Q|Quarter(s)|  
-|Y|Year(s)|  
-
- You can construct a date formula in three ways.  
-
- The following example shows how current plus a time unit.  
-
-|||  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
-
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
-
-|||  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
-
- The following example shows how a time unit and a number.  
-
-|||  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week (Thursday)|  
-
- The following example shows how you can combine these three forms as needed.  
-
-|||  
-|-|-|  
-|CM+10D|Current month + 10 days|  
-
- The following example shows how you can use a minus sign to indicate a date in the past.  
-
-|||  
-|-|-|  
-|-1Y|1 year ago from today|
-
-[!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
 
 ## See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  

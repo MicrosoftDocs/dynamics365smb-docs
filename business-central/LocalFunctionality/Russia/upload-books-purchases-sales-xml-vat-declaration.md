@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -23,7 +23,7 @@ The VAT Declaration file is formed on the basis of the generated data on VAT Pur
 
 For the correct formation of the VAT Declaration is necessary:
 
-1. Generate VAT Purchase Ledgers or VAT Sales Ledgers, additional sheets for the required period (see [How to: Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)).
+1. Generate VAT Purchase Ledgers or VAT Sales Ledgers, additional sheets for the required period (see [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)).
 
 2. Correct the data of VAT Purchase Ledgers or VAT Sales Ledgers, if necessary.
 

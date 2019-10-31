@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -57,7 +57,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  Phyllis sets up the system to handle prepayments for customers.  
 
 -   Phyllis decides to have the same number series for prepayments as the one used for sales invoicing.  
--   Phyllis sets the program to check if prepayments are required before final invoicing on an order.  
+-   Phyllis sets application to check if prepayments are required before final invoicing on an order.  
 -   Phyllis sets up default values for a required prepayment percentage for particular items and customers.  
 
 The following procedures describe how to complete Phyllis' tasks:  
@@ -165,7 +165,7 @@ The following day, the customer calls Susan and makes changes to the order. The 
 2.  On the line for item **1100**, in the **Quantity** field, enter **2**.  
 
     Scroll to see the prepayment fields. The **Prepayment Line Amount Excl. VAT** field now contains **630**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **315**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
-3.  To post an invoice for the additional prepayment amount, on the **Actions** tab, in the **Posting** group, choose **Prepayment**, and then choose **Post Prepayment Invoice**.  
+3.  To post an invoice for the additional prepayment amount, choose the **Post Prepayment Invoice** action.  
 
 ## Applying the Prepayments  
 The customer pays the prepayments amount and Arnie, who works in the accounts department, registers the payment and applies it to the prepayment invoices.  

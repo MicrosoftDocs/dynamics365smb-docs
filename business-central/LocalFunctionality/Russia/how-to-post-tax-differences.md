@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Post Tax Differences
+# Post Tax Differences
 
 The **Tax Difference Journal** is used to create and post tax difference transactions. Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting.
 
@@ -64,4 +64,4 @@ You can use the **Tax Difference Journal** window to manually create tax differe
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  

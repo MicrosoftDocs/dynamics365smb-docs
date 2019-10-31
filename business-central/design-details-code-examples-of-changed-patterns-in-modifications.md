@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
     redirect_url: design-details-dimension-set-entries
 
@@ -193,4 +193,3 @@ GetSalesHeader;
 ## See Also  
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
-[Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)

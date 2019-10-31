@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up Tax Accounting
+# Set Up Tax Accounting
 
 Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[prodshort](../../includes/prodshort.md)] by setting up tax registers.
 
@@ -40,11 +40,11 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 6. Choose the **Close** button to close the window and save your entries.
 
-For more information about how to set up and customize tax registers, see [How to: Create Tax Registers](How-to-Create-Tax-Registers.md).
+For more information about how to set up and customize tax registers, see [Create Tax Registers](How-to-Create-Tax-Registers.md).
 
 ## See Also
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Tax Differences](Tax-Differences.md)  

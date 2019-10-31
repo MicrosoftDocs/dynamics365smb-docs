@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -45,10 +45,10 @@ Before you can create workflows that involve approval steps, you must set up the
     |**Unlimited Request Approval**|Specify that the user in the **User ID** field can approve all purchase quotes regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Request Amount Approval Limit** field.|  
     |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** is not available. **Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).|  
     |**Email**|Specify the email address of the user in the **User ID** field.|  
-    |**Approval Administrator**|Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|  
+    |**Approval Administrator**|Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|
 
-    > [!NOTE]  
-    >  The behavior of **Approver Limit Type** field only applies to application areas where limits can be defined, namely sales and purchase approvals. Any other type of approval where limits do not apply will always behave as described for the **Direct Approver** option.  
+    > [!Note]
+    > Only one person can be the approval administrator.|  
 
 3. To test the approval user setup, choose the **Approval User Setup Test** action.  
 4. Repeat steps 2 and 3 for every user who you want to set up as an approval user.  

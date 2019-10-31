@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
     redirect_url: admin-how-to-create-custom-company-configuration-packages
 
@@ -26,7 +26,7 @@ As you create a configuration package for a solution, you can view and customize
     > [!NOTE]  
     >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you have to provide the ID.  
 
-2.  On the **Actions** tab, in the **Show** group, choose **Database Data**.  
+2.  Choose the **Database Data** action.  
 
      The [!INCLUDE[d365fin](includes/d365fin_md.md)] page for the page opens.  
 

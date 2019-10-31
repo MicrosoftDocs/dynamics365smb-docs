@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
 
 ---
@@ -17,16 +17,20 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 ## To submit a regulatory alert in LCS
 
-1. Go to https://lcs.dynamics.com and log in
+1. Go to https://lcs.dynamics.com and log in  
+
     You will be presented with the projects you have access to
 
 2. Select the **Regulatory Alerts - Worldwide** project
+
     This will open the project and show a variety of things related to this project
 
 3. Select the **Alert service** on the right side in the **More tools** section
+
     You will see a list of alerts with the headline **Dynamics Regulatory Alert Submission**
 
 4. You can add a new alert by clicking the plus sign **(+)** sign at the top of the list
+
     This will present you with a 4-step guide to create the alert. The guide has the following steps:
     - Search for existing items
 
@@ -44,7 +48,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
         |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
-        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country can be found in the [Localization portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) on the CustomerSource site. |
         |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
         |Government announcement date  | Specify the date when the authority announced the change.|
         |Latest filing date  | Select the deadline for the first submission of the new or changed report.|
@@ -66,7 +70,9 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 ## See Also
 
-[Welcome to Business Central](index.md)  
+[Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Changing Language and Locale](about-locale-language.md)  
 [Getting Started](product-get-started.md)  
+[Welcome to Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

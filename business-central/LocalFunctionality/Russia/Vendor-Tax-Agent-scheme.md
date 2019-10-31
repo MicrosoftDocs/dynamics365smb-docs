@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 <<<<<<< HEAD
 =======
@@ -14,21 +14,21 @@ ms.author: soalex
 >>>>>>> repo_sync_working_branch
 ---
 
-# Vendor Tax Agent scheme
+# Vendor Tax Agent Scheme
 
 ## VAT from Internal Funds
 
-Fill the fields in Vendor Card.
+Fill in the fields on the vendor card.
 
-1. On Agreement tab: 
+1. **Agreement** FastTab:
 
     - Agreement posting - mandatory.
 
-    - Agreement Nos is required.
+    - Agreement numbers required.
 
-2. In Agreement card:
+2. On the agreement card:
 
-    - VAT Bus. Posting Group 
+    - VAT Bus. Posting Group
     - VAT Agent Prod. Posting Group
     - VAT Payment Source Type - Internal Funds
 
@@ -65,14 +65,14 @@ Agreement No. (with settings for Vendor with VAT Payment from internal funds) sh
 
 Fill the fields in Vendor Card.
 
-1. On Agreement tab: 
+1. On Agreement tab:
 
     - Agreement posting - mandatory.
     - Agreement Nos is required.
 
 2. In Agreement card:
 
-    - VAT Bus. Posting Group 
+    - VAT Bus. Posting Group
     - VAT Agent Prod. Posting Group
     - VAT Payment Source Type - Vendor Funds
 
@@ -106,7 +106,7 @@ Fill the fields in Vendor Card.
         - Agreement No.
         - Bal. Account Type -  G/L Account
         - Bal. Account - “ ”
-        - Currency Code 
+        - Currency Code
         - Amount - in USD/EUR
 
 3. Post the lines of Journal.
@@ -150,7 +150,7 @@ Fill the fields in Vendor Card.
         - Agreement No.
         - Bal. Account Type -  G/L Account
         - Bal. Account - “ ”
-        - Currency Code 
+        - Currency Code
         - Amount - in USD/EUR
 
 ## See Also

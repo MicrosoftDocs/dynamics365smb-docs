@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Enter Custom Declarations Information
+# Enter Custom Declarations Information
 
 Use the following procedure to enter custom declaration information.
 
@@ -34,4 +34,4 @@ Use the following procedure to enter custom declaration information.
 
 ## See Also
 
-[How to: Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  
+[Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  

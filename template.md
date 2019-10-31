@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
 audience: end user
-ms.date: 06/09/2018
+ms.date: 10/01/2019
 ms.author: MyMSFTAlias
 
 ---

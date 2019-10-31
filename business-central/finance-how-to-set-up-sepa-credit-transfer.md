@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: sepa, credit, transfer, payment,
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
     redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 
@@ -48,7 +48,7 @@ Before you can process payment electronically by exporting payment files in the 
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
 2. Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.  
 3. In the **Batch Name** field, choose the drop\-down button.  
-4. On the **General Journal Batches** page, on the **Home** tab, in the **Manage** group, choose **Edit List**.  
+4. On the **General Journal Batches** page, choose the **Edit List** action.  
 5. On the line for the payment journal that you will use to export payments, select the **Allow Payment Export** check box.  
 
 ### To connect the data exchange definition for one or more payment types with the relevant payment method or methods  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -31,4 +31,4 @@ You can add VAT setup information to journal lines if needed. If you enter items
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
-[How To: Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)

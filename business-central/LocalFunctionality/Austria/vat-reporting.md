@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -26,5 +26,5 @@ You can print the following local VAT reports.
 |**VAT-VIES Declaration XML Report**|Shows the VAT-VIES declaration for sales in other countries/regions of the EU. This data is written to an XML file, which you can submit to the Austrian tax authorities by uploading it to the Finanz Online Portal. The report is based on information in the VAT Entry table.|  
 
 ## See Also  
-[How To: Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
+[Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)

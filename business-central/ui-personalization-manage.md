@@ -1,107 +1,69 @@
 ---
-title: Managing Personalization as an Administrator in Business Central | Microsoft Docs
-description: Learn how to customize the user interface to suit your way of working.
+title: Customizing Pages for Roles | Microsoft Docs
+description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
+ms.date: 10/01/2019
+ms.author: sgroespe
 
 ---
-# Managing Personalization as an Administrator
+# Customize Pages for Profiles
+Users can personalize pages that make up their workspace to suit their own preferences. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
-Users can personalize their workspace to suit their own preferences. As an administrator, you control and manage personalization by:
+Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout. The administrator customizes pages by using the same functionality as users do when they personalize pages.
 
--   Enabling or disabling the personalization feature for the entire the application (on-premises installation only).
--   Enabling or disabling the personalization feature for users of a specific profile.
--   Clearing any page personalizations that users have made.
+> [!NOTE]
+> The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
 
-## <a name="EnablePersonalization"></a>To enable or disable personalization (On-Premises Only)
+Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
-By default, personalization is not enabled in the client. You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.
+## To customize pages for a profile
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
+3. Choose the **Customize pages** action.
 
-1. To enable personalization, add the following line in the navsettings.json file:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] opens on a new browser tab for the selected profile with the **Customizing** banner activated. The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
-    To disable personalization, remove this line or change it to:
+    > [!NOTE]
+    > To navigate during personalization, use Ctrl + Click on an action if it is highlighted by the arrowhead.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.
+6. Close the browser tab.
 
-    For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+The customization of pages is now recorded for the profile.
 
-2. Generate and download the application symbols.
+## To view all customized pages for a profile
+You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.
 
-    This step is optional, and not required to enable personalization. However, it ensures that new pages that are created by developers can be personalized.
+- On the **Profile (Role)** page, choose the **Customized Pages** action.
 
-    1. First, you generate the symbols by running finsql.exe with `generatesymbolreference` command. The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE). To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:
+## To delete all customizations for a profile
+You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    For example:
+- On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+The layout on pages for the profile is reset to the default layout.  
 
-    For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## To delete customization for specific pages for a profile
+You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup). For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. On the **Profile (Role)** page, choose the **Customized Pages** action.
+2. On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.
 
-## To disable personalization for a profile
-
-You can prevent all users that belong to a specific profile from being able to personalize their pages.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.
-2. Select the profile in the list that you want to modify.
-3. Select the **Disable personalization** check box, and then choose the **OK** button.
-
-## To clear user personalizations
-
-Clearing page personalization changes the page back to its original layout before any personalization was made. There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.
-
-### To clear user personalizations by using the Delete User Personalization page
-
-The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.
-
-    The page lists all the pages that have been personalized and the user it belongs to.
-
-    >[!NOTE]
-    > A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).
-
-2. Select the entry that you want to delete, and then choose the **Delete** action.
-
-    The user will see the changes the next time they sign-in.
-
-### To clear user personalizations by using the User Personalization Card page
-
-The **User Personalization Card** page enables you to clear the personalization on all pages for specific user. This requires write permission to Table 2000000072 **Profile**.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.
-
-    The **User Personalization** page lists all users who potentially have personalized pages. If you cannot find a user in the list, this means that they do not have any personalized pages.
-
-2. Select the user from the list, and then choose the **Edit** action.
-
-3. On the **Actions** tab, choose **Clear Personalized Pages**.
-
-    The user will see the changes the next time they sign-in.
+The layout on the selected pages is adjusted to the changes you made.
 
 ## See Also
-[Personalizing Your Workspace](ui-personalization-user.md)  
+[Personalize Your Workspace](ui-personalization-user.md)  
+[Manage Profiles](admin-users-profiles-roles.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  

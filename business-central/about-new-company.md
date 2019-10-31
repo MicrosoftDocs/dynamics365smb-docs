@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
@@ -48,5 +48,5 @@ Once you have the basics in place, you can set up remaining core areas. Then, yo
 [Customizing Business Central](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Changing Basic Settings](ui-change-basic-settings.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  

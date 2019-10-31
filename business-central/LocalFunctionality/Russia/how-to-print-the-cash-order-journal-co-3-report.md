@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Print the Cash Order Journal CO-3 Report
+# Print the Cash Order Journal CO-3 Report
 
 The **Cash Order Journal CO-3** report shows the unified standard printing form (typically on a monthly basis).  
 

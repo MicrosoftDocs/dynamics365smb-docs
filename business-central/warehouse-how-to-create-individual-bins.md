@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -56,15 +56,15 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
     > [!NOTE]  
     >  The number of characters that you have entered in the three categories for either field, for example, the characters you have entered in the three **From No.** fields, plus the field separators, if any, must be 20 or less.  
 
-     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10**. The program is not set up to generate codes with letter sequences, for example, from A01 to F05.  
+     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10**. The application is not set up to generate codes with letter sequences, for example, from A01 to F05.  
 
 6.  If you want a character, such as a hyphen, to separate the category fields you have defined as part of the bin code, fill in the **Field Separator** field with this character.  
-7.  If you want the program not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  
+7.  If you want application not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  
 8. When you have finished filling in the fields, choose the **OK** Button.
 
-    The program creates a line for each bin in the worksheet. You can now delete some of the bins, for example, if you have a rack with a passageway through the first two levels of a couple of sections.  
+    The application creates a line for each bin in the worksheet. You can now delete some of the bins, for example, if you have a rack with a passageway through the first two levels of a couple of sections.  
 
-9. When you have deleted all unnecessary bins, choose the **Create Bins** action, and the program will create bins for each line in the worksheet.  
+9. When you have deleted all unnecessary bins, choose the **Create Bins** action, and application will create bins for each line in the worksheet.  
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 

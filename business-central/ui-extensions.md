@@ -10,12 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/13/2019
+ms.date: 10/14/2019
 ms.author: edupont
 
 ---
 # Customizing Business Central Using Extensions
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
+
+> [!NOTE]
+> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the D365 EXTENSION MGMT user group or you must have the D365 EXTENSION MGMT permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.<br /><br />
+To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
+
 When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
 
 For example, Microsoft provides an extension that provides integration with PayPal Payments Standard. This extension is installed by default.
@@ -38,7 +43,7 @@ If you choose an extension, you can read about what the extension does, and you 
 When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.
 Other extensions simply add fields to an existing page, or they add a new page, for example.   
 
-If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.  
+If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available. There are some extensions that are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
 
 Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md). All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.  
 
@@ -60,6 +65,7 @@ Microsoft provides the following extensions:
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 * [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)

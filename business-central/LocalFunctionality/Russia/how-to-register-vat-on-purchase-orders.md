@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Register VAT on Purchase Orders
+# Register VAT on Purchase Orders
 
 In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
 
@@ -38,6 +38,6 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 ## See Also
 
-[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
-[How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+[Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+[Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  

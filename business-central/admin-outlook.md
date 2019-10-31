@@ -4,12 +4,12 @@ description: This service has deep integration with Office 365 enabling you to m
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 10/17/2019
 ms.author: edupont
 
 ---
@@ -23,6 +23,8 @@ Then, when you open Outlook, you will see an email message from *Dynamics 365 Bu
 
 > [!TIP]
 > If you use the new Outlook in a browser, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**.
+
+If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook.
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
@@ -49,9 +51,9 @@ In the Document Links add-in, you can modify and take actions with the document,
 ## Adding the Add-ins Manually
 In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  
 
-First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, got to **Settings**, and then choose **Manage add-ins**. This opens the **Manage add-ins** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
+First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, open a message, select **More actions** (...) at the top of the message, and then, at the bottom of the list, choose **Get Add-ins**. This opens the **Add-ins for Outlook** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
 
-Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Manage Add-ins** page.  
+Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Get Add-ins** page.  
 
 In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
 

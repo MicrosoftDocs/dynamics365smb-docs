@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -33,9 +33,9 @@ For most organizations, VAT payments are required to be submitted no later than 
 
 ## See Also
 
-[How to: Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
-[How to: Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
-[How to: Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+[Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
+[Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [Settlement VAT](Settlement-VAT.md)  
 [Unload books of purchased and sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md)  
 [VAT by customer prepayments](VAT-by-Customer-prepayments.md)  

@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     redirect_url: how-to-set-up-and-export-sales-vat-advance-notifications.md
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
 
 ## Process Overview  
 
-1.  Within the program all relevant data is collected and written into an XML document which follows a schema as prescribed by the Oberfinanzdirektion (OFD). This document contains tax information as well as information about the company and person who submits this tax information.  
+1.  Within application all relevant data is collected and written into an XML document which follows a schema as prescribed by the Oberfinanzdirektion (OFD). This document contains tax information as well as information about the company and person who submits this tax information.  
 2.  After this document has been created successfully it is extended with configuration information (proxy server, certificates, and so forth) which is needed by Microsoft.Dynamics.ElsterTransferHandler.  
 3.  The complete document is handed over to Microsoft.Dynamics.ElsterTransferHandler. The assembly further processes the data (encryption, compression, signature) and sends it to one of the servers of the OFD.  
 
@@ -32,12 +32,12 @@ When a user submits a sales VAT advance notification from [!INCLUDE[d365fin](../
 5.  The response document is received, decrypted, and decompressed by Microsoft.Dynamics.ElsterTransferHandler and returned as an XML document to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. You can then view the responses on the **VAT Transmission Log Entries** page.  
 
 ## Process Details  
-The Microsoft.Dynamics.ElsterTransferHandler assembly is responsible for preparation before the transmission to the OFD and the processing of the response document before it is returned to the program.  
+The Microsoft.Dynamics.ElsterTransferHandler assembly is responsible for preparation before the transmission to the OFD and the processing of the response document before it is returned to application.  
 
 ## Compression  
 The used method for compression is GZIP. A compression method which assures data integrity using a redundancy check. For more information, see [System.IO.Compression.GZipStream](https://go.microsoft.com/fwlink/?LinkId=200710) on the MSDN Library. Certain parts of the documents are compressed with the GZIP method.  
 
-The response document is also compressed using this method. The Handler has to decompress the data before it is returned to the program.  
+The response document is also compressed using this method. The Handler has to decompress the data before it is returned to application.  
 
 ## Encryption  
 The standard which is used for encryption is PKCS#7v1.5. For more information, see [System.Security.Cryptography.Pkcs.EnvelopedCms](https://go.microsoft.com/fwlink/?LinkId=200708) on the MSDN Library. This method not only encrypts the data but also encrypts a recipient information in terms of a certificate from the OFD. This encryption is based upon an asymmetric method which ensures that the data can only be decrypted by the recipient. The data is encrypted with a part of the certificate which is publicly accessible (PublicKey) and can be decrypted exclusively with the non public part of the certificate (PrivateKey). Additionally, the recipient information from the encryption has to match the recipient certificate. This ensures that the data only can be decrypted by the OFD.  

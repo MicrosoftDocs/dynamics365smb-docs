@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -55,7 +55,7 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 2. Create a reclassification journal where the **FA No.** field contains the fixed asset to be moved/combined, and the **New FA No.** field contains the fixed asset that it will be combined with.
 3. Leave the **Reclassify Acq. Cost %** field empty to move/combine the entire acquisition cost.    
 4. Select the **Reclassify Acquisition Cost** and **Reclassify Depreciation** check boxes.
-5. On the **Actions** tab, choose **Reclassify**.
+5. Choose the **Reclassify** action.
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: VAT, sales, purchases,
-    ms.date: 07/24/2019
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---
@@ -31,17 +31,17 @@ If you are selling to retail consumers, you may want prices on sales documents t
 ### Including or Excluding VAT on Prices
 If the **Prices Including VAT** check box is chosen on a sales document, the **Unit Price** and **Line Amount** fields include VAT, and the field names will also reflect this. By default, VAT is not included in these fields.  
 
-If the field is not selected, the program will fill in the **Unit Price** and **Line Amount** field excluding VAT and the field names will reflect this.  
+If the field is not selected, application will fill in the **Unit Price** and **Line Amount** field excluding VAT and the field names will reflect this.  
 
-You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Normally, item prices contained in the Item Card will be the price excluding VAT. The program uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
+You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Normally, item prices contained in the Item Card will be the price excluding VAT. The application uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
 
-The following table provides an overview of how the program calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
+The following table provides an overview of how application calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
 |**Price Includes VAT field on Item Card**|**Prices Including VAT field in Sales Header**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. VAT** field on the sales lines.|  
-|No check mark|Check mark|The program calculates the VAT amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. VAT field** on the sales lines.|  
-|Check mark|No check mark|The program calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines.|  
+|No check mark|Check mark|The application calculates the VAT amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. VAT field** on the sales lines.|  
+|Check mark|No check mark|The application calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines.|  
 |Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|
 
 ## Correcting VAT Amounts Manually in Sales and Purchase Documents  
@@ -54,7 +54,7 @@ If a payment discount has been calculated on the basis of an invoice amount that
 ### To set the system up for manual VAT entry in sales documents
 The following describes how to enable manual VAT changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.
 
-1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by application and the manual amount.  
 2. On the **Sales & Receivables Setup** page, place a check mark in the **Allow Vat Difference** field.  
 
 ### To adjust VAT for a sales document  
@@ -64,7 +64,7 @@ The following describes how to enable manual VAT changes on sales documents. The
 4. Edit the **VAT Amount** field.   
 
 > [!NOTE]  
-> The total VAT amount for the invoice, grouped by VAT identifier, is displayed in the lines. You can manually adjust the amount in the **VAT Amount** field on the lines for each VAT identifier. When you modify the **VAT Amount** field, the program checks to ensure that you have not changed the VAT by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. VAT Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **VAT Amount** that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, the VAT will be divided proportionally among the document lines that have the same VAT identifier.  
+> The total VAT amount for the invoice, grouped by VAT identifier, is displayed in the lines. You can manually adjust the amount in the **VAT Amount** field on the lines for each VAT identifier. When you modify the **VAT Amount** field, application checks to ensure that you have not changed the VAT by more than the amount you have specified as the maximum difference allowed. If the amount is outside the range of the **Max. VAT Difference Allowed**, a warning will be displayed stating the maximum allowed difference. You will be unable to proceed until the amount is adjusted to within the acceptable parameters. Click **OK** and enter another **VAT Amount** that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, the VAT will be divided proportionally among the document lines that have the same VAT identifier.  
 
 ## Calculating VAT Manually Using Journals  
 You can also adjust VAT amounts in general, sales, and purchase journals. For example, you might need to do this when you enter a vendor invoice in your journal and there is a difference between the VAT amount that [!INCLUDE[d365fin](includes/d365fin_md.md)] calculated and the VAT amount on the vendor's invoice.  
@@ -72,7 +72,7 @@ You can also adjust VAT amounts in general, sales, and purchase journals. For ex
 ### To set the system up for manual VAT entry in a general journals
 You must perform the following steps before you manually enter VAT in a general journal.  
 
-1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by the program and the manual amount.  
+1. On the **General Ledger Setup** page, specify a **Max. VAT Difference Allowed** between the amount calculated by application and the manual amount.  
 2. On the **General Journal Templates** page, choose the **Allow VAT Difference** check box for the relevant journal.  
 
 ### To set the system up for manual VAT entry in a sales and purchase journals
@@ -92,7 +92,7 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-4. Select the import VAT general ledger account, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
+4. Select the import VAT general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **VAT Prod. Posting Group** field.  
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
@@ -177,4 +177,4 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
 ## See Also  
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   
-[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)   
+[Report VAT to a Tax Authority](finance-how-report-vat.md)   

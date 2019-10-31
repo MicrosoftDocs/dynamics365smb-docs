@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ Before fiscal closing is allowed the following must be done:
 ## To fiscally close years  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
-2.  On the **Navigate** tab, in the **Fiscal Closing** group, choose the **Fiscally Close Year** check box.  
+2.  Choose the **Fiscally Close Year** check box.  
 
     If more than one fiscal year is not fiscally closed, the earliest one should be fiscally closed. A message appears that identifies the year that should be closed and explains the consequences of closing it.  
 

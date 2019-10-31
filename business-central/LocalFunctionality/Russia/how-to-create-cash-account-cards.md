@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create Cash Account Cards
+# Create Cash Account Cards
 
 Cash accounts are similar to bank accounts and are created identically. You can create as many cash account cards as needed.
 

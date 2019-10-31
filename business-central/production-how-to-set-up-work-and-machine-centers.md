@@ -11,12 +11,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Set Up Work Centers and Machine Centers
-The program distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
+The application distinguishes between three types of capacities. These are arranged hierarchically. Each level contains the subordinate levels.  
 
 The top level is the work center group. Work centers are assigned to the work center groups. Every work center can only belong to one work center group.
 

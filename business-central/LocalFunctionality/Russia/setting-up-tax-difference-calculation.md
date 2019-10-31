@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -34,5 +34,5 @@ The following procedure shows how to process a normalization function.
 [Tax Registers](Tax-Registers.md)  
 [Tax Differences](Tax-Differences.md)  
 [Tax Difference Registers](Tax-Difference-Registers.md)  
-[How to: Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
-[How to: Post Tax Differences](How-to-Post-Tax-Differences.md)  
+[Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
+[Post Tax Differences](How-to-Post-Tax-Differences.md)  

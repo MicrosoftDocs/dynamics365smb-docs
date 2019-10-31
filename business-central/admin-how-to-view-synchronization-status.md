@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: sales, crm, integration, sync, synchronize
-    ms.date: 06/13/2019
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---
@@ -41,5 +41,5 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
 
 ## See Also  
-[Setting Up User Accounts for Integrating with Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)

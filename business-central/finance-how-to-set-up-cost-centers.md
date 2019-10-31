@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
     redirect_url: finance-set-up-cost-accounting
 
@@ -25,7 +25,7 @@ Cost centers are departments that are responsible for costs and income. The char
 ## To transfer dimension values in the general ledger to the chart of cost centers  
 1.  Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
-3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
+3.  Choose the **Get Cost Centers from Dimension** action to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
     > [!NOTE]  
     >  You can set up the **Align Cost Center Dimension**  field to define a one-way synchronization of dimension values from the general ledger to the chart of cost centers. You cannot define a synchronization of the chart of cost centers to dimension values from the general ledger.  

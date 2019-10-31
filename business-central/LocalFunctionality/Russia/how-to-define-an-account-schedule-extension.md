@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Define an Account Schedule Extension
+# Define an Account Schedule Extension
 
 [!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define an extension for an account schedule line. Extensions are useful if you want to filter the data of your general ledger accounts.
 
@@ -27,6 +27,6 @@ Based on your selections, the account schedule information is filtered from the 
 
 ## See Also
 
-[How to: Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+[Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
 [Account Schedules Overview](account-schedules-overview.md)  
-[How to: Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
+[Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  

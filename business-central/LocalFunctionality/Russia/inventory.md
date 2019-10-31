@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -27,4 +27,4 @@ Russian inventory functionality is described in several topics.
 
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)
 
-[How to: Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md)
+[Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md)

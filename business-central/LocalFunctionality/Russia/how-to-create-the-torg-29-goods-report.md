@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Create the TORG-29 Goods Report
+# Create the TORG-29 Goods Report
 
 The TORG-29 report shows the item documents that you can use to submit for receipts and shipments for a location.  
 

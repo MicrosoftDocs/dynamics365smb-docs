@@ -2,7 +2,7 @@
     title: How to Print Sales and Purchase Orders During Batch Posting
     description: After sales orders and purchase orders are batch posted, you can print the corresponding posted documents.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -12,8 +12,9 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
+    redirect_url: ../../ui-batch-posting
 
 ---
 # Print Sales and Purchase Orders During Batch Posting

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 08/14/2019
+ms.date: 10/17/2019
 ms.author: edupont
 
 ---
@@ -23,6 +23,8 @@ Then, when you open Outlook, you will see an email message from *Dynamics 365 Bu
 
 > [!TIP]
 > If you use the new Outlook in a browser, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**.
+
+If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook.
 
 Some companies using Office 365 restrict users’ permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 

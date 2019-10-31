@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -53,4 +53,4 @@ You can print the following required bank management documents.
 
 ## See Also 
 
-[How to: Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)
+[Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)

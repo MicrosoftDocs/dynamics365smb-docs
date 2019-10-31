@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
     redirect_url: ../../inventory-how-count-inventory-with-documents
 
@@ -35,7 +35,7 @@ When posting the physical inventory orders also physical inventory recording hea
 
 The posted inventory documents offer you the possibility to get a complete overview about the whole process of physical inventory. You cannot change the data of posted physical inventory order headers and posted physical inventory order lines because the documents have been already posted.  
 
-If you have used also item tracking lines to register serial nos. and lot nos. the program will save the expected item tracking lines, the recorded item tracking lines and the posted item tracking ledger entries.  
+If you have used also item tracking lines to register serial nos. and lot nos. application will save the expected item tracking lines, the recorded item tracking lines and the posted item tracking ledger entries.  
 
 It is possible to use the posted physical inventory order to create new physical inventory orders using the copy function.  
 

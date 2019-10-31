@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ The planning functions are contained in a batch job that first selects the relev
 
 The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system. The planning system assists the user by performing the extensive but rather straightforward calculations of a plan. The user can then concentrate on solving the more difficult problems, such as when things differ from normal.  
 
-The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders. Running the planning calculation will result in the program suggesting specific actions for the user to take concerning possible supply from vendors, assembly or production departments, or transfers from other warehouses. These suggested actions could be to create new supply orders, such as purchase or production orders. If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, such as forecast and sales orders. Running the planning calculation will result in application suggesting specific actions for the user to take concerning possible supply from vendors, assembly or production departments, or transfers from other warehouses. These suggested actions could be to create new supply orders, such as purchase or production orders. If supply orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 Another goal of the planning system is to ensure that the inventory does not grow unnecessarily. If demand decreases, the planning system will suggest that the user postpone, decrease in quantity, or cancel existing supply orders.  
 
@@ -62,7 +62,7 @@ In companies with a low item flow and less advanced product structures, it may b
 ### Dynamic Order Tracking versus the Planning System  
 At a quick glance, it may be difficult to differentiate between the planning system and Dynamic Order Tracking. Both features display output in the planning worksheet by suggesting actions that the planner should take. However, the way this output is produced differs.  
 
-The planning system deals with the entire supply-demand pattern of an item through all levels of the BOM hierarchy along the time line, whereas Dynamic Order Tracking only addresses the situation of the order that activated it. When balancing demand and supply, the planning system creates links in a user-activated batch mode, whereas Dynamic Order Tracking creates the links automatically and on the fly, whenever the user enters a demand or a supply in the program, such as a sales order or purchase order.  
+The planning system deals with the entire supply-demand pattern of an item through all levels of the BOM hierarchy along the time line, whereas Dynamic Order Tracking only addresses the situation of the order that activated it. When balancing demand and supply, the planning system creates links in a user-activated batch mode, whereas Dynamic Order Tracking creates the links automatically and on the fly, whenever the user enters a demand or a supply in application, such as a sales order or purchase order.  
 
 Dynamic Order Tracking establishes links between demand and supply when data is entered, on a first-come/first-served basis. This may lead to some disorder in priorities. For example, a sales order entered first, with a due date next month, may be linked to the supply in inventory, while the next sales order due tomorrow may cause an action message to create a new purchase order to cover it, as illustrated below.  
 
@@ -93,9 +93,9 @@ For more information about manufacturing considerations, see [Design Details: Lo
 ### Locations / Transfer-Level Priority  
 Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  
 
-This is supported with the use of SKUs, where individual planning parameters can be specified at the SKU level. An SKU can be regarded as an item at a specific location. If the user has not defined a SKU for that location, the program will default to the parameters that have been set on the item card. The program calculates a plan for active locations only, which is where there is existing demand or supply for the given item.  
+This is supported with the use of SKUs, where individual planning parameters can be specified at the SKU level. An SKU can be regarded as an item at a specific location. If the user has not defined a SKU for that location, application will default to the parameters that have been set on the item card. The application calculates a plan for active locations only, which is where there is existing demand or supply for the given item.  
 
-In principle, any item can be handled at any location, but the program’s approach to the location concept is quite strict. For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location. The quantity on stock must first be transferred to the location specified on the sales order.  
+In principle, any item can be handled at any location, but application’s approach to the location concept is quite strict. For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location. The quantity on stock must first be transferred to the location specified on the sales order.  
 
 ![Planning for stockkeeping units](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning for stockkeeping units")  
 
@@ -120,7 +120,7 @@ If the user has entered a new sales order or changed an existing one, there is r
 
 The planning system monitors such events and assigns the appropriate items for planning.  
 
-For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, the program will assign the item at that specific location for planning.  
+For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, application will assign the item at that specific location for planning.  
 
 The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
 
@@ -142,7 +142,7 @@ Demand and supply can carry variant codes and location codes that must be respec
 
 The system treats variant and location codes as item dimensions on a sales order line, inventory ledger entry, and so on. Accordingly, it calculates a plan for each combination of variant and location as if the combination were a separate item number.  
 
-Instead of calculating any theoretical combination of variant and location, the program calculates only those combinations that actually exist in the database.  
+Instead of calculating any theoretical combination of variant and location, application calculates only those combinations that actually exist in the database.  
 
 For more information on how the planning system deals with location codes on demand, see [Design Details: Demand at Blank Location](design-details-balancing-demand-and-supply.md).  
 
@@ -248,7 +248,7 @@ The attention warning is displayed in three situations:
 ## Error Logs  
 In the Calculate Plan request page, the user can select the **Stop and Show First Error** field to have the planning run stop when it encounters the first error. At the same time, a message is displayed with information about the error. If an error exists, only the successful planning lines that were made before the error was encountered will be presented in the planning worksheet.  
 
-If the field is not selected, the Calculate Plan batch job will continue until it has completed. Errors will not interrupt the batch job. If one or more errors exist, the program will display a message after completion saying how many items are affected by errors. The **Planning Error Log** page then opens to provide more details about the error and to provide links to the affected documents or setup cards.  
+If the field is not selected, the Calculate Plan batch job will continue until it has completed. Errors will not interrupt the batch job. If one or more errors exist, application will display a message after completion saying how many items are affected by errors. The **Planning Error Log** page then opens to provide more details about the error and to provide links to the affected documents or setup cards.  
 
 ![Error messages in the planning worksheet](media/NAV_APP_supply_planning_1_error_log.png "Error messages in the planning worksheet")  
 

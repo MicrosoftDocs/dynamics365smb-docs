@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -55,7 +55,7 @@ The starting date indicates the start of the period in which this version is val
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
 2.  Select the production BOM to be copied, and then choose the **Versions** action.  
-3.  On the **Home** tab, in the **New** group, choose **New**.  
+3.  Choose the **New** action.  
 4. Fill in the fields as necessary.
 5. In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 

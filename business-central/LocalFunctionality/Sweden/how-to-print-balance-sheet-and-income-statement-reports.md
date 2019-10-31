@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2019
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -34,5 +34,5 @@ You can print balance sheet reports and income statement reports to submit to ba
 4.  Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.  
 
 ## See Also  
- [Working with Reports and Batch Jobs](../../ui-work-report.md)   
+ [Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)   
  [Sweden Local Functionality](sweden-local-functionality.md)

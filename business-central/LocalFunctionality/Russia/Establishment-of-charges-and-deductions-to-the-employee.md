@@ -6,35 +6,32 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Establishment of charges and deductions to the employee
+# Establishing Charges and Deductions to the Employee
 
-The Employee Journal is the primary means of changes in the list of charges/deductions established for the employee. The employee journal can also be used to record non-financial personnel orders. 
+The Employee Journal is the primary means of changes in the list of charges/deductions established for the employee. The employee journal can also be used to record non-financial personnel orders.
 
-The most often through journal recorded: 
+The most often through journal recorded:
 
 - orders on the bonuses of the employee;
 
 
-- orders on administrative fine; 
+- orders on administrative fine;
 
-- orders on allocation to the employee of the benefits/social payments defined by law; 
+- orders on allocation to the employee of the benefits/social payments defined by law;
 
-- statements on the employee deductions specified in law; 
+- statements on the employee deductions specified in law;
 
-- orders on allocation to the employee of financial assistance, a gift. 
+- orders on allocation to the employee of financial assistance, a gift.
 
-  
+> [!NOTE
+> The employee journal has no restrictions on the registration of certain types of charges and deductions, but the essential working conditions should be changed by supplementing the employment contract. This ensures the possibility of forming the necessary printed forms of documents for the employee.
 
-> :speech_balloon: **note**
->
-> The employee journal has no restrictions on the registration of certain types of charges and deductions, but the essential working conditions should be changed by supplementing the employment contract. This ensures the possibility of forming the necessary printed forms of documents for the employee. 
-
-The list of fields that must be filled on the employee journal line is determined by the payroll element code. 
+The list of fields that must be filled on the employee journal line is determined by the payroll element code.
 
 ### Fill in the journal lines, which is used to register charges/deductions with a predetermined amount.
 
@@ -57,9 +54,9 @@ The list of fields that must be filled on the employee journal line is determine
 
 The journal line must be posted for the charges/deductions to take effect.
 
-All charges and deductions are recorded in the employee Ledger entries. The list of charges and deductions of each employee is available in the employee card. 
+All charges and deductions are recorded in the employee Ledger entries. The list of charges and deductions of each employee is available in the employee card.
 
-The generated accrual will be automatically included in the payroll calculation for the period defined by the start date and end date fields. 
+The generated accrual will be automatically included in the payroll calculation for the period defined by the start date and end date fields.
 
 ### Update charges
 

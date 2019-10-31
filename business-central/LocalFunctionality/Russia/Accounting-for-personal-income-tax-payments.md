@@ -6,27 +6,27 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Accounting for personal income tax payments
+# Accounting for Personal Income Tax Payments
 
 The Fund for the calculation and payment of personal income tax must be registered in the system as a supplier-tax authority.
 
-Personal income tax calculations can be divided into three parts: 
+Personal income tax calculations can be divided into three parts:
 
-- Accrual of tax; 
-- Payment of taxes; 
-- Formation of mandatory reporting. 
+- Accrual of tax;
+- Payment of taxes;
+- Formation of mandatory reporting.
 
-Calculation of the amount of personal income tax is carried out automatically at the time of the main payroll for each employee. 
+Calculation of the amount of personal income tax is carried out automatically at the time of the main payroll for each employee.
 
-At the time of accounting of the salary document, the formation of operations of debt on personal income tax for each employee in correspondence with the specified code of the supplier of the tax authority and the corresponding operations in the Ledger is carried out. 
+At the time of accounting of the salary document, the formation of operations of debt on personal income tax for each employee in correspondence with the specified code of the supplier of the tax authority and the corresponding operations in the Ledger is carried out.
 
 Personal income tax is paid by forming a payment order to the tax authority.
 
-## See Also 
+## See Also
 
 [Tax Accounting](Tax-Accounting.md)

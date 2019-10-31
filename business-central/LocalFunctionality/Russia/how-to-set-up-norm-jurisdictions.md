@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 07/02/2019
+ms.date: 10/01/2019
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# How to: Set Up Norm Jurisdictions
+# Set Up Norm Jurisdictions
 
 Norm jurisdictions are based on Russian tax laws that define a variety of tax rates. Norm jurisdictions are used to calculate taxable profits and losses in tax accounting. You can use the **Norm Jurisdictions** window to set up and define norm jurisdictions that can be used when you calculate tax differences.
 
@@ -52,4 +52,4 @@ The norm jurisdiction that you set up is now available for use in calculating ta
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
-[How to: Create Tax Registers](How-to-Create-Tax-Registers.md)  
+[Create Tax Registers](How-to-Create-Tax-Registers.md)  

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
@@ -20,11 +20,11 @@ You can also run the questionnaire to answer some of the questions based on cont
 
 ## To add a profile questionnaire
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
-2.  On the **Home** tab, in the **New** group, choose **New**.  
+2.  Choose the **New** Action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To add questions to a profile questionnaire
-1.  Choose the relevant profile questionnaire, and then on the **Home** tab, in the **Process** group, choose **Edit Questionnaire Setup**.  
+1.  Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.  
 2.  On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
 3.  On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.  
 4.  In the **Priority** field, select the priority. In the **From Value** and **To Value** fields, define a point range. Contacts that receive points within the defined range will get the answer.  
@@ -150,7 +150,7 @@ Then fill on the **Profile Question Details** page as follows:
 </tbody>
 </table>
 
-When you assign the profile questionnaire containing this question to a contact, the program automatically enters the relevant answer for this contact on the profile lines of the contact card.
+When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.
 
 ## See Also
 [Creating Contacts](marketing-create-contact-companies.md)  

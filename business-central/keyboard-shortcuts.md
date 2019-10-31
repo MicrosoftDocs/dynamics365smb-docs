@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 10/23/2019
 ms.author: sgroespe
 ---
 
@@ -42,8 +42,8 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
 |Alt+Q<br />(Ctrl+Option+Q)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
-|Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)
-|Alt+Shift+N |Close a newly created page and open a new one to create a new record.
+|Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
+|Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Shift+F12|Open the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).|

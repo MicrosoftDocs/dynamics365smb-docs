@@ -19,7 +19,7 @@
 # Working with Business Central
 ## [Overview](ui-work-product.md)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
-## [Finding Pages from a Feature Overview](ui-role-explorer.md)
+## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
@@ -83,7 +83,7 @@
 ### [Overview](bank-setup-banking.md)
 ### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
-### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 ### [Select a Check Layout](finance-how-define-check-layouts.md)
 
 ## Setting Up Sales
@@ -287,7 +287,7 @@
 #### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
 #### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+#### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 #### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 #### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 #### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)

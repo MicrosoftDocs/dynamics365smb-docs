@@ -21,7 +21,9 @@ To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee B
 The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
 
 > [!NOTE]
-> This functionality is only supported in the online version of Business Central. To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
+> The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
+> The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
+> Only banks residing in these countries are supported, even though banks from other countries may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Due to the new Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are looking into the possibility of offering this feature again in the future.

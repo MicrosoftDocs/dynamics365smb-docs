@@ -41,8 +41,7 @@ During your 30 day trial, you can create any number of new companies, but they w
 On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful, for example, when you want to test a company without disrupting production data.
 
 > [!Important]
-> This function cannot be used to take a backup of a company.<br /><br />
-> Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
+> This function cannot be used to take a backup of a company. Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
 
 ## Company Setup
 When you sign in to a new company, the **Company Setup** wizard runs automatically and helps you get started. You will be asked for information about your business, such as the address, bank details, and inventory costing method. We ask for this information because it is used as a basis for many areas in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you will then not have to set up manually later.  

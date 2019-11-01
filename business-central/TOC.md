@@ -5,6 +5,7 @@
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
+## [Find Training](/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
 ## [Trying Out a Preview Version](across-preview.md)

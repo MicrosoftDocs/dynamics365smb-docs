@@ -21,7 +21,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a quick, print-friendly overview of the most common UI functions, choose the following two image:
 >
-> [ ![To download for printing, right-click and select Save image as](media/megacheatsheet_1_inline.png) ](media/megacheatsheet_1_inline.png#lightbox) [ ![To download for printing, right-click and select Save image as](media/megacheatsheet_2_inline.png) ](media/megacheatsheet_2_inline.png#lightbox)
+> [ ![To download for printing, right-click and select Save image as](media/megacheatsheet_1_inline.png) ](media/megacheatsheet_1.png#lightbox) [ ![To download for printing, right-click and select Save image as](media/megacheatsheet_2_inline.png) ](media/megacheatsheet_2.png#lightbox)
 
 > [!NOTE]
 > In addition to the general UI functions described in this section, you can use other general functions that are more business-related. For more information, see [General Business Functionality](ui-across-business-areas.md).

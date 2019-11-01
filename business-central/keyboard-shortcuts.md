@@ -46,7 +46,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
-|Shift+F12|Open the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).|
+|Shift+F12|Open the feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you have not selected any text in the field, this will copy the entire value. If you have selected any text in the field, then it will copy the selected text only.|

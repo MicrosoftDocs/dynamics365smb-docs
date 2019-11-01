@@ -47,5 +47,5 @@ As an on-premises administrator, you increase the time-limit on searches by chan
 ## See also
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Finding Pages from a Feature Overview](ui-role-explorer.md)  
+[Finding Pages with the Role Explorer](ui-role-explorer.md)  
 [Getting Started](product-get-started.md)  

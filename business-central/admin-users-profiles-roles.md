@@ -73,7 +73,7 @@ When a profile is created, you can select different check boxes that define if, 
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
     - **Disable personalization** to specify if users of the related role can personalize their workspace.
-    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
+    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To export user-created profiles
 You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).

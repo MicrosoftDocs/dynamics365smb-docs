@@ -19,7 +19,7 @@ The following topics describe local functionality that is unique to the Norwegia
 ## Feature Availability
 
 * VAT
-    * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Estimated October 2019**
+    * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now**
     * [Norwegian VAT Reporting](norwegian-vat-reporting.md) **Available Now**
     * [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
     * [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**

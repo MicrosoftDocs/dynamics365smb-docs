@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
 
 ---
@@ -19,6 +19,9 @@ To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Offi
 Once users are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Users are assigned permission sets depending on the plan assigned to the user in Office 365. For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
 You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
+
+> [!NOTE]
+> An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -164,7 +167,7 @@ The following procedure explains how to assign permission sets to a user on the 
 
     The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
 
-    For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.   
+    For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
@@ -182,11 +185,11 @@ The following procedure explains how to assign permission sets to a user on the 
 As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
 
 ## See Also
-[Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Manage Profiles](admin-users-profiles-roles.md)  
+[Change Which Features are Displayed](ui-experiences.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Change Which Features are Displayed](ui-experiences.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)
+[Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)  
+[Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help

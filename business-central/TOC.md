@@ -19,7 +19,7 @@
 # Working with Business Central
 ## [Overview](ui-work-product.md)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
-## [Finding Pages from a Feature Overview](ui-role-explorer.md)
+## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
@@ -83,7 +83,7 @@
 ### [Overview](bank-setup-banking.md)
 ### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
-### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 ### [Select a Check Layout](finance-how-define-check-layouts.md)
 
 ## Setting Up Sales
@@ -287,7 +287,7 @@
 #### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
 #### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)
+#### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 #### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 #### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 #### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -344,6 +344,7 @@
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+#### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -529,6 +530,7 @@
 ## [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ## [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
+## [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
 
 # Inventory
 ## [Overview](inventory-manage-inventory.md)

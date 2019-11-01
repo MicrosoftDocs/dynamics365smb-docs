@@ -22,6 +22,8 @@ Before you can register new customers, you must set up various sales codes that 
 
 > [!NOTE]  
 >   If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
+<br><br>
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
 
 ## To create a new customer card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  

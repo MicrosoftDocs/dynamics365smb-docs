@@ -9,15 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
 
 ---
 # Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy - just got to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[d365fin](includes/d365fin_md.md)], depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], the containers for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[d365fin](includes/d365fin_md.md)] depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## Create New Company
-If you decide to add a company to your [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field in **My Settings**.  
+## Creating a New Company
+If you decide to add a company to your [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
 The setup wizard offers three templates:
 
@@ -36,6 +36,12 @@ If you want to get started easily with a new company, choose **Production - Setu
 >   When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The setup status on the **Companies** page shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
 
 During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
+
+## Copying a company
+On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful, for example, when you want to test a company without disrupting production data.
+
+> [!Important]
+> This function cannot be used to take a backup of a company. Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
 
 ## Company Setup
 When you sign in to a new company, the **Company Setup** wizard runs automatically and helps you get started. You will be asked for information about your business, such as the address, bank details, and inventory costing method. We ask for this information because it is used as a basis for many areas in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you will then not have to set up manually later.  

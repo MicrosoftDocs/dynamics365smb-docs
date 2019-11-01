@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.author: edupont
 
 ---
@@ -65,6 +65,7 @@ Microsoft provides the following extensions:
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 * [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: edupont
 
 ---
@@ -47,6 +47,8 @@ Yes. Some Cloud-based features may run on premises in certain cases and others a
 Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/browse/?products=dynamics-business-central). You can also ask your reselling partner for additional training. If you don't know who that is, find a Business Central partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page.  
 
 For more information about training that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
+
+Additional content is provided by the [!INCLUDE [prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
 
 ## How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 

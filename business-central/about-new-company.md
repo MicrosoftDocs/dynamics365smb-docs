@@ -38,7 +38,7 @@ If you want to get started easily with a new company, choose **Production - Setu
 During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 ## Copying a company
-On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful for testing a company without disrupting production data.
+On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful, for example, when you want to test a company without disrupting production data.
 
 > [!Important]
 > This function cannot be used to take a backup of a company.<br /><br />

@@ -38,19 +38,10 @@ If you want to get started easily with a new company, choose **Production - Setu
 During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 ## Copying a company
-<<<<<<< HEAD
-On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company.
+On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful, for example, when you want to test a company without disrupting production data.
 
 > [!Important]
-> This function can only be used to create extra companies for testing. It cannot be used as a way to back up a company.<br /><br />
-> Taking a company backup is done by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
-=======
-On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful for testing a company without disrupting production data.
-
-> [!Important]
-> This function cannot be used to take a backup of a company.<br /><br />
-> Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
->>>>>>> refs/remotes/origin/master
+> This function cannot be used to take a backup of a company. Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the Developer and ITPro help.
 
 ## Company Setup
 When you sign in to a new company, the **Company Setup** wizard runs automatically and helps you get started. You will be asked for information about your business, such as the address, bank details, and inventory costing method. We ask for this information because it is used as a basis for many areas in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you will then not have to set up manually later.  

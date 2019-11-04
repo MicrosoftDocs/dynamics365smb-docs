@@ -5,7 +5,7 @@
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
-## [Find Training]
+## Find Training
 ### [Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog?toc=/dynamics365/business-central/toc.json)
 ### [Business Decision Maker Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-decision-makers?toc=/dynamics365/business-central/toc.json)
 ### [Business User Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-users?toc=/dynamics365/business-central/toc.json)

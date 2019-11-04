@@ -10,7 +10,7 @@
 ### [Business Decision Maker Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-decision-makers?toc=/dynamics365/business-central/toc.json)
 ### [Business User Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-users?toc=/dynamics365/business-central/toc.json)
 ### [Developer Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-developers?toc=/dynamics365/business-central/toc.json)
-### [Functional Consultant Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog-functional-consultants?toc=/dynamics365/business-central/toc.json)
+### [Functional Consultant Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-functional-consultants?toc=/dynamics365/business-central/toc.json)
 ### [Pre-sales Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-presales?toc=/dynamics365/business-central/toc.json)
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)

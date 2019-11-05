@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/08/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
@@ -27,8 +27,9 @@ A permission set is a collection of permissions for specific objects in the data
 
 From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Users in On-Premises Deployments
-For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance. For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!NOTE]
+> For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance.<br /><br />
+> For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Profiles
 After users are added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles, reflecting roles or departments, which you assign to different types of users. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
@@ -38,6 +39,8 @@ After users are added, you can define what they see in the user interface and ho
 2. Choose the **Get Users from Office 365** action.
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
+
+To make it easier to manage users in [!INCLUDE[d365fin](includes/d365fin_md.md)], including to assign permissions to them, you can organize them in user groups. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
 
 ## To edit or delete a user
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -158,16 +161,26 @@ The following procedure explains how to assign permission sets to a user on the 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
 
-## User groups as way to manage permissions
+## To manage permissions through user groups
+You can set up user groups to help you manage permission sets for groups of users in your company.
 
-You can set up user groups to help you manage permission sets for groups of users in your company. User groups is an alternative way to assign permission sets to user. 
-You start by defining user group. When user groups are created, you must assign permission sets to each to define which object a user can access.
-Once you add user to the user group the permissions set from the user group will be added to the user. These permission sets stay in sync and once changed in user group the change will be propagated to the user. If you remove user from user group, the permissions will be automatically revoked.
+You start by creating a user group. Then you assign permission sets to the group to define which object users of the group can access. When you add user to the group, the permission sets defined for the group will apply to the user.
+
+Permission sets assigned to a user through a user group stay synchronized so that a change to the user group permissions are automatically propagated to the user. If you remove a user from a user group, the involved permissions are automatically revoked.
+
+### To group users in user groups
+The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](ui-how-users-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+2. Alternatively, on the **Users** page, choose the **User Groups** action.
+3. On the **User Group** page, choose the **User Group Members** action.
+4. On the **User Group Members** page, choose the **Add Users** action.
 
 ### To copy a user group and all its permission sets
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
-The user group members are not copied to the new user group. You must add them manually afterwards.
+> [!NOTE]
+> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-how-users-permissions.md#to-group-users-in-user-groups).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
@@ -190,14 +203,7 @@ The following procedure explains how to assign permission sets to a user group o
 3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** check box to assign the permission set to all user groups.
 
-### To group users in user groups
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Alternatively, on the **Users** page, choose the **User Groups** action.
-3. On the **User Group** page, choose the **User Group Members** action.
-4. On the **User Group Members** page, choose the **Add Users** action.
-
 ## To remove a user's access to the system
-
 As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
 
 ## See Also

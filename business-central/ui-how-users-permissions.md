@@ -13,114 +13,81 @@ ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
-# Manage Users and Permissions
-To add users in [!INCLUDE[d365fin](includes/d365fin_md.md)], your company's Office 365 administrator must first create the users in the Office 365 Admin Center. For more information, see [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users).
+# Manage Users and Licenses - Define who can sign in to Business Central
+The process of managing licenses and users depends on deployment option. 
 
-Once users are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Users are assigned permission sets depending on the plan assigned to the user in Office 365. For detailed information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+## Users and license in online deployments
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] online number of users is defined in subscription added by partner to your tenant in Microsoft Partner Center. For more information, see [add a customer](https://docs.microsoft.com/en-us/partner-center/add-a-new-customer) and create [new subscriptions](https://docs.microsoft.com/en-us/partner-center/create-a-new-subscription)
 
-You can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. You can add users to user groups. This makes it easier to assign the same permission sets to multiple users.
+To define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] the product licenses should be assigned to users accordingly to roles they should perform in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+- Your company's Office 365 administrator can do it in [Microsoft 365 Admin center](https://admin.microsoft.com). For more information, see [Add Users to Office 365](https://aka.ms/CreateOffice365Users).  
+- Partner can assign licenses in Microsoft 365 Admin center or in Microsoft Partner Center. For more information, see [assign licenses to users](https://docs.microsoft.com/en-us/partner-center/assign-licenses-to-users).
+For more information, see: [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-> [!NOTE]
-> An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+Once users with [!INCLUDE[d365fin](includes/d365fin_md.md)] license are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Get Users from Office 365** action. 
 
-A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-From the **User Card** page, you can open the **Effective Permissions** page to see which permissions the user has and through which permission sets they are granted. Here you can also change permission details for permission sets of type **User-Defined**. For more information, see [To get an overview of a user's permissions](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
-
-> [!NOTE]
-> For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance.<br /><br />
-> For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-When users have been added, you can define what they see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
-
-## To add a user in Business Central
+### To add a user in Business Central
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Choose the **Get Users from Office 365** action.
 
-Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
+Any new user that has been created for your Office 365 subscription will be added on the **Users** page. Users are assigned permission sets depending on the license assigned to the user in Office 365. You can then proceed to assign granular permissions to users and to organize them in user groups. For more information, see [To assign permission sets to users](ui-how-users-permissions.md#to-assign-permission-sets-to-users).
+ 
+### To remove a user's access to the system
+As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
 
-> [!NOTE]
-> To make it easier to manage users in [!INCLUDE[d365fin](includes/d365fin_md.md)], including to assign permissions to them, you can organize them in user groups. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
+You can remove, or unassign, licenses from users in Office 365 Admin Center. Users without license can no longer sign in to the system, see [Unassign licenses from users](https://docs.microsoft.com/en-us/office365/admin/manage/remove-licenses-from-users).
 
-## To edit or delete a user
+### Changing assigned license for user
+Sometimes you may need to change license assigned to users. For example, you decided to use Service Management module and therefore you upgrade all Essential licenses to Premium. Another case is when user’s responsibility has changed and you need to replace Team Member license with Essential.
+1. Change license in Office 365 Admin Center. For more information, see [Add Users to Office 365](https://aka.ms/CreateOffice365Users).
+2. Sign is as an administrator in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+4. On the **Users** page, choose the **Refresh all User Groups** action.
+The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
+
+> [!NOTE] 
+> All regular users in a solution must be assigned the same license, Essential or Premium.
+> For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+
+## Users and license in on-premises deployments
+For on-premises deployments number of licensed users is specified in license file (*.flf). Once administrator or partner uploads the licensing file, administrator can specify users who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator creates, edits, deletes users directly from **Users** page. 
+
+### To edit or delete a user On-Premises
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Select the user that you want to edit, and then choose the **Edit** action.
 3. On the **User Card** page, change the information as necessary.    
 4. To delete a user, select the user that you want to delete, and then choose the **delete** action.
 
-## To set up user time constraints
-Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
+> [!NOTE]
+> For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance.<br /><br />
+> For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
-2. On the **User Setup** page opens, choose the **New** action.
-3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
-4. Fill in the fields as necessary.
+Once users created you can then proceed to assign granular permissions to users and to organize them in user groups. For more information, see [To assign permission sets to users](ui-how-users-permissions.md#to-assign-permission-sets-to-users).
 
-## To create or modify a permission set
-Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. When you have created a permission set, you must add the actual permissions. For more information, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
+# Define Granular Permissions
 
-> [!NOTE]  
-> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
-Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
+The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects or tables a user can access within each database or environment. You can specify the type of access that each user has to these objects and tables, whether they are able to read, modify, or enter data. You can learn more about [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
-2. To create a new permission set, choose the **New** action.
-3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two levels of permissions for the application objects:
+- Permissions that describe which objects a user is entitled to use according to the license they purchased 
+- Permissions that describe which objects an administrator or a partner gave the user access to inside [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
-### To copy a permission set
-When you create new permission sets, you can use a copy function to quickly carry all the permissions of another permission set to a new permission set.
+Once users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can then proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies. To make it easier to manage users in [!INCLUDE[d365fin](includes/d365fin_md.md)], including to assign permissions to them, you can organize them in user groups. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
 
-> [!NOTE]  
-> If a System permission set that you have copied is changed, you will be notified (depending on your selection), so that you can consider if the changes are relevant to copy or write into your user-defined permission set.
+> [!NOTE]
+> An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-1. On the **Permission Sets** page, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
-2. On the **Copy Permission Set** page, specify the name of the new permission set, and then choose the **OK** button.
-3. Select the **Notify on Changed Permission Set** check box if you want to maintain a link between the original and the copied permission sets. The link is then used to notify you if the name or content of the original permission set changes in a future version that the solution is upgraded to later.
-
-The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Note that the lines are sorted alphabetically within each type.
-
-## To create or modify permissions manually
-This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
-
-1. On the **Permission Sets** page, select the line for a permission set, and then choose the **Permissions** action.
-2. On the **Permissions** page, create a new line or edit the fields on an existing line.
-
-In each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission**, you can select one of the following three permission options:
-
-|Option|Description|Ranking|
-|------|-----------|
-|**Yes**|The user can perform the action on the object in question.|Highest|
-|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
-|**Blank**|The user cannot perform the action on the object in question.|Lowest|
-
-### Example - Indirect Permission
-You can assign an indirect permission to use an object only through another object.
-For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
-
-However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
-
-## Security Filters - To limit a user's access to specific records in a table
-For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
-
-## To create or modify permission sets by recording your actions
-1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
-2.	Alternatively, on the **Users** page, choose the **Permission Sets** action.
-3.	On the **Permission Sets** page, choose the **New** Action.
-4.	On a new line, fill in the fields as necessary.
-5.	Choose the **Permissions** action.
-6.	On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
-
-    This starts a recording process that captures all your action in the user interface.
-7.	Go to the various pages and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
-8.	When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
-9.	Choose the **Yes** button to add the recorded permissions to the new permission set.
-10.	For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
-
-> [!NOTE]  
-> When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
+> You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To assign permission sets to users
-You can assign permissions to users in two ways:
+A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your software provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
+
+>[!NOTE] If you as administrator don’t want to restrict user access more than it is already defined in license you can assign to user special permission set, called SUPER. That permission set ensures user can access all objects specified in the license. 
+>The user with Essential license and SUPER permission set has access to more functionality than user with Team member license and SUPER permission set.
+
+You can assign permissions sets to users in two ways:
 - Define permission sets on a user's user card.
 - Select the check box for a user, on a column, for a related permission set, on a row, on the **Permission Set by User** page.
 
@@ -132,8 +99,6 @@ Any permission sets that are already assigned to the user are displayed in the *
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### To assign a permission set on the **Permission Set by User** page  
-The following procedure explains how to assign permission sets to a user on the **Permission Set by User** page.
-
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User** action.
 3. On the **Permission Set by User** page, select the **[user name]** check box on a line for the relevant permission set to assign the set to the user.
@@ -160,6 +125,71 @@ The following procedure explains how to assign permission sets to a user on the 
 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
+
+## To create or modify a permission set
+Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record. 
+
+> [!NOTE]  
+> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions. <br /><br />
+Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
+
+### To create new permission set from scratch
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+2. To create a new permission set, choose the **New** action.
+3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. When you have created a permission set, you must add the actual permissions. For more information, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
+
+### To copy a permission set
+You can also use a copy function to quickly carry all the permissions of another permission set to a new permission set.
+
+> [!NOTE]  
+> If a System permission set that you have copied is changed, you will be notified (depending on your selection), so that you can consider if the changes are relevant to copy or write into your user-defined permission set.
+
+1. On the **Permission Sets** page, select the line for a permission set that you want to copy, and then choose the **Copy Permission Set** action.
+2. On the **Copy Permission Set** page, specify the name of the new permission set, and then choose the **OK** button.
+3. Select the **Notify on Changed Permission Set** check box if you want to maintain a link between the original and the copied permission sets. The link is then used to notify you if the name or content of the original permission set changes in a future version that the solution is upgraded to later.
+
+The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type. 
+
+## To create or modify permissions manually
+This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+
+1. On the **Permission Sets** page, select the line for a permission set, and then choose the **Permissions** action.
+2. On the **Permissions** page, create a new line or edit the fields on an existing line.
+
+In each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, and **Execute Permission**, you can select one of the following three permission options:
+
+|Option|Description|Ranking|
+|------|-----------|
+|**Yes**|The user can perform the action on the object in question.|Highest|
+|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to.|Second highest|
+|**Blank**|The user cannot perform the action on the object in question.|Lowest|
+
+### Example - Indirect Permission
+You can assign an indirect permission to use an object only through another object.
+For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
+
+However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
+
+## To create or modify permission sets by recording your actions
+1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+2.	Alternatively, on the **Users** page, choose the **Permission Sets** action.
+3.	On the **Permission Sets** page, choose the **New** Action.
+4.	On a new line, fill in the fields as necessary.
+5.	Choose the **Permissions** action.
+6.	On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
+
+    This starts a recording process that captures all your action in the user interface.
+7.	Go to the various pages and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
+8.	When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
+9.	Choose the **Yes** button to add the recorded permissions to the new permission set.
+10.	For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
+
+> [!NOTE]  
+> When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
+
+## Security Filters - To limit a user's access to specific records in a table
+For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
 
 ## To manage permissions through user groups
 You can set up user groups to help you manage permission sets for groups of users in your company.
@@ -203,8 +233,13 @@ The following procedure explains how to assign permission sets to a user group o
 3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** check box to assign the permission set to all user groups.
 
-## To remove a user's access to the system
-As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
+## To set up user time constraints
+Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.
+2. On the **User Setup** page opens, choose the **New** action.
+3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
+4. Fill in the fields as necessary.
 
 ## See Also
 [Manage Profiles](admin-users-profiles-roles.md)  

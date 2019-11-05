@@ -18,6 +18,7 @@
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
+## [Print-Friendly Cheat Sheet](ui-work-product.md)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)

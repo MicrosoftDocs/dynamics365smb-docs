@@ -17,11 +17,11 @@ ms.author: sgroespe
 The process of managing licenses and users depends on deployment option. 
 
 ## Users and license in online deployments
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] online number of users is defined in subscription added by partner to your tenant in Microsoft Partner Center. For more information, see [add a customer](https://docs.microsoft.com/en-us/partner-center/add-a-new-customer) and create [new subscriptions](https://docs.microsoft.com/en-us/partner-center/create-a-new-subscription)
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] online number of users is defined in subscription added by partner to your tenant in Microsoft Partner Center. For more information, see [add a customer](https://docs.microsoft.com/partner-center/add-a-new-customer) and create [new subscriptions](https://docs.microsoft.com/partner-center/create-a-new-subscription)
 
 To define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] the product licenses should be assigned to users accordingly to roles they should perform in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 - Your company's Office 365 administrator can do it in [Microsoft 365 Admin center](https://admin.microsoft.com). For more information, see [Add Users to Office 365](https://aka.ms/CreateOffice365Users).  
-- Partner can assign licenses in Microsoft 365 Admin center or in Microsoft Partner Center. For more information, see [assign licenses to users](https://docs.microsoft.com/en-us/partner-center/assign-licenses-to-users).
+- Partner can assign licenses in Microsoft 365 Admin center or in Microsoft Partner Center. For more information, see [assign licenses to users](https://docs.microsoft.com/partner-center/assign-licenses-to-users).
 For more information, see: [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Once users with [!INCLUDE[d365fin](includes/d365fin_md.md)] license are created in Office 365, they can be imported into the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Get Users from Office 365** action. 
@@ -35,7 +35,7 @@ Any new user that has been created for your Office 365 subscription will be adde
 ### To remove a user's access to the system
 As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
 
-You can remove, or unassign, licenses from users in Office 365 Admin Center. Users without license can no longer sign in to the system, see [Unassign licenses from users](https://docs.microsoft.com/en-us/office365/admin/manage/remove-licenses-from-users).
+You can remove, or unassign, licenses from users in Office 365 Admin Center. Users without license can no longer sign in to the system, see [Unassign licenses from users](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### Changing assigned license for user
 Sometimes you may need to change license assigned to users. For example, you decided to use Service Management module and therefore you upgrade all Essential licenses to Premium. Another case is when user’s responsibility has changed and you need to replace Team Member license with Essential.

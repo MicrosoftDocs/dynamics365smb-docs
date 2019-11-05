@@ -39,7 +39,8 @@ When users have been added, you can define what they see in the user interface a
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page.
 
-To make it easier to manage users in [!INCLUDE[d365fin](includes/d365fin_md.md)], including to assign permissions to them, you can organize them in user groups. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
+> [!NOTE]
+> To make it easier to manage users in [!INCLUDE[d365fin](includes/d365fin_md.md)], including to assign permissions to them, you can organize them in user groups. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
 
 ## To edit or delete a user
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.

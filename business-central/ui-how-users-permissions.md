@@ -137,7 +137,7 @@ Permission sets that users create, from new or as copies, are of type **User-Def
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2. To create a new permission set, choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. When you have created a permission set, you must add the actual permissions. For more information, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
+When you have created a permission set, you must add the actual permissions. For more information, see [To create or modify permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 ### To copy a permission set
 You can also use a copy function to quickly carry all the permissions of another permission set to a new permission set.
@@ -152,7 +152,10 @@ You can also use a copy function to quickly carry all the permissions of another
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type. 
 
 ## To create or modify permissions manually
-This procedure explains how to add or edit permissions manually. You can also have a permission sets generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+
+> [!NOTE]
+> When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
 
 1. On the **Permission Sets** page, select the line for a permission set, and then choose the **Permissions** action.
 2. On the **Permissions** page, create a new line or edit the fields on an existing line.
@@ -184,9 +187,6 @@ However, the user does not need to have full access to the Sales Line table to r
 8.	When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
 9.	Choose the **Yes** button to add the recorded permissions to the new permission set.
 10.	For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
-
-> [!NOTE]  
-> When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
 
 ## Security Filters - To limit a user's access to specific records in a table
 For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.

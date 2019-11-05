@@ -84,7 +84,8 @@ Once users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can t
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
 A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your software provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
->[!NOTE] If you as administrator don’t want to restrict user access more than it is already defined in license you can assign to user special permission set, called SUPER. That permission set ensures user can access all objects specified in the license. 
+>[!NOTE] 
+If you as administrator don’t want to restrict user access more than it is already defined in license you can assign to user special permission set, called SUPER. That permission set ensures user can access all objects specified in the license. 
 >The user with Essential license and SUPER permission set has access to more functionality than user with Team member license and SUPER permission set.
 
 You can assign permissions sets to users in two ways:

@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
@@ -32,6 +32,7 @@ ms.author: sgroespe
 [Compliance](compliance/compliance-overview.md)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 

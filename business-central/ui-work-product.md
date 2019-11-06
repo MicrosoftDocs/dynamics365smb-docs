@@ -20,6 +20,7 @@ For example, you can adjust the size and position of any page, expand the width 
 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image.
+>
 > [ ![](media/megacheatsheet_1_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]

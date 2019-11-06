@@ -13,14 +13,14 @@ ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
-# Manage Users' Permissions to Define What They Can Do
-The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects and table data a user can access within each database or environment. You can specify the type of access that each user has to these objects and table data, whether they are able to read, modify, or enter data. For detailed information about [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
+# Assign Permissions to Users and Groups
+The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify the type of access that each user has to these database objects, whether they are able to read, modify, or enter data. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the subscription license. For more information, see [Manage Users and Licenses to Define Who Can Sign in](ui-how-users-permissions.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] there are two levels of permissions for the application objects:
-- Permissions that describe which objects a user is entitled to use according to the license they purchased.
-- Permissions that describe which objects an administrator or a partner gave the user access to inside [!INCLUDE[d365fin](includes/d365fin_md.md)].
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] there are two levels of permissions to database objects:
+- Permissions according to the license, also referred to as *entitlement*.
+- Permissions as assigned from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
 
@@ -32,7 +32,7 @@ To make it easier to manage permissions for multiple users you can organize them
 > You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To assign permission sets to users
-A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 

@@ -17,6 +17,7 @@ This article provides an overview of some of the shortcut key combinations that 
 
 > [!TIP]
 > For a quick, print-friendly overview of the most popular shortcuts for PC users, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md). For a graphical representation, choose the following image.
+>
 > [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview

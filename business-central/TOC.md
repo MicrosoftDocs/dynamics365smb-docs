@@ -6,12 +6,12 @@
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
 ## Find Training
-### [Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog?toc=/dynamics365/business-central/toc.json)
-### [Business Decision Maker Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-decision-makers?toc=/dynamics365/business-central/toc.json)
-### [Business User Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-bus-users?toc=/dynamics365/business-central/toc.json)
-### [Developer Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-developers?toc=/dynamics365/business-central/toc.json)
-### [Functional Consultant Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-functional-consultants?toc=/dynamics365/business-central/toc.json)
-### [Pre-sales Learning Catalog](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-presales?toc=/dynamics365/business-central/toc.json)
+### [Learning Catalog](readiness/readiness-learning-catalog)
+### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers)
+### [Business User Learning Catalog](readiness/readiness-learning-bus-users)
+### [Developer Learning Catalog](readiness/readiness-learning-developers)
+### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants)
+### [Pre-sales Learning Catalog](readiness/readiness-learning-presales)
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)

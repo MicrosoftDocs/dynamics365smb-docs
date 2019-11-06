@@ -19,7 +19,8 @@ When performing business tasks, you interact with data in different ways, such a
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
 
 > [!TIP]
-> For a print-friendly overview of the most used functions, choose this image: [ ![](media/megacheatsheet_1_inline.png) ](media/cheat_sheet.pdf)
+> For a print-friendly overview of the most used functions, choose the following image.
+> [ ![](media/megacheatsheet_1_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > In addition to the general UI functions described in this section, you can use other general functions that are more business-related. For more information, see [General Business Functionality](ui-across-business-areas.md).

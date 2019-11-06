@@ -16,8 +16,8 @@ ms.author: sgroespe
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> For a quick, print-friendly overview of the most popular shortcuts for PC users, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).<br /><br />  
-> For a graphical representation, choose this image: [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
+> For a quick, print-friendly overview of the most popular shortcuts for PC users, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md). For a graphical representation, choose the following image.
+> [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.

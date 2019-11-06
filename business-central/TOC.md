@@ -6,12 +6,12 @@
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
 ## Find Training
-### [Learning Catalog](readiness/readiness-learning-catalog)
-### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers)
-### [Business User Learning Catalog](readiness/readiness-learning-bus-users)
-### [Developer Learning Catalog](readiness/readiness-learning-developers)
-### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants)
-### [Pre-sales Learning Catalog](readiness/readiness-learning-presales)
+### [Learning Catalog](readiness/readiness-learning-catalog.md)
+### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers.md)
+### [Business User Learning Catalog](readiness/readiness-learning-bus-users.md)
+### [Developer Learning Catalog](readiness/readiness-learning-developers.md)
+### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
+### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)

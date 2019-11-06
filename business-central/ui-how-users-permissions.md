@@ -13,13 +13,17 @@ ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
-# Manage Users and Licenses - Define who can sign in to Business Central
-The process of managing licenses and users is different from online and on-premises deployments. The following  
+# Manage Users and Licenses to Define Who Can Sign in
+The following describes how you as an administrator create users and define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], and which fundamental rights different user types have according to the license.
 
-## Users and license in online deployments
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] online number of users is defined in subscription added by partner to your tenant in Microsoft Partner Center. For more information, see [add a customer](https://docs.microsoft.com/partner-center/add-a-new-customer) and create [new subscriptions](https://docs.microsoft.com/partner-center/create-a-new-subscription)
+When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign specific permissions to users through permission sets and to organize users in user groups for easy permission management. For more information, see [Manage Users' Permissions to Define What They Can Do](ui-define-granular-permissions.md).  
 
-To define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] the product licenses should be assigned to users accordingly to roles they should perform in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+The process of managing users and licenses varies depending on whether your solution is deployed online or on-premises.
+
+## Users and licenses in online deployments
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, the number of users is defined by the subscription and added to your tenant in Microsoft Partner Center by a Microsoft partner. For more information, see [Add a new customer](https://docs.microsoft.com/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](https://docs.microsoft.com/partner-center/create-a-new-subscription) in the Microsoft Partner Center help.
+
+To define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], the product licenses must be assigned to users according to the roles that they will perform in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This can be done in the following ways:
 - Your company's Office 365 administrator can do it in [Microsoft 365 Admin center](https://admin.microsoft.com). For more information, see [Add Users to Office 365](https://aka.ms/CreateOffice365Users).  
 - Partner can assign licenses in Microsoft 365 Admin center or in Microsoft Partner Center. For more information, see [assign licenses to users](https://docs.microsoft.com/partner-center/assign-licenses-to-users).
 For more information, see: [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -62,8 +66,6 @@ For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the 
 > [!NOTE]
 > For on-premises deployments of [!INCLUDE[d365fin](includes/d365fin_md.md)], the administrator can choose between different credential authorization mechanisms for users. Then, when you create a user, you provide different information depending on the credential type that you are using in the specific [!INCLUDE[server](includes/server.md)] instance.<br /><br />
 > For more information, see the [Authentication and Credential Types](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in the Administration section of the developer and ITPro content for [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can then proceed to assign specific permissions to users through permission sets and to organize users in user groups for easy permission management. For more information, see [Define Granular Permissions](ui-define-granular-permissions.md).
 
 ## See Also
 [Manage Profiles](admin-users-profiles-roles.md)  

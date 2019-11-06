@@ -13,10 +13,10 @@ ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
-# Manage Users' Permissions and Groups
+# Manage Users' Permissions to Define What They Can Do
 The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects and table data a user can access within each database or environment. You can specify the type of access that each user has to these objects and table data, whether they are able to read, modify, or enter data. For detailed information about [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the purchased subscription plan, also referred to as the license. For more information, see [Manage Users and Licenses - Define who can sign in to Business Central](ui-how-users-permissions.md). 
+Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the subscription license. For more information, see [Manage Users and Licenses to Define Who Can Sign in](ui-how-users-permissions.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] there are two levels of permissions for the application objects:
 - Permissions that describe which objects a user is entitled to use according to the license they purchased.
@@ -70,7 +70,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
-    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
+    > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 

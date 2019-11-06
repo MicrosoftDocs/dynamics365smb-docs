@@ -15,8 +15,10 @@ ms.author: sgroespe
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
+For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> For an overview of the most popular shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md). For a graphical, print-friendly version, choose the following image.
+> For a graphical, print-friendly overview of the most used keyboard shortcuts, choose the following image.
 >
 > [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
 

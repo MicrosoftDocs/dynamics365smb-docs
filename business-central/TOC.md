@@ -5,6 +5,15 @@
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
+## Find Training
+### [Learning Catalog](readiness/readiness-learning-catalog.md)
+### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers.md)
+### [Business User Learning Catalog](readiness/readiness-learning-bus-users.md)
+### [Developer Learning Catalog](readiness/readiness-learning-developers.md)
+### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
+### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
+### [Sales Learning Catalog](readiness/readiness-learning-sales.md)
+
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
 ## [Trying Out a Preview Version](across-preview.md)
@@ -308,7 +317,8 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Manage Users and Permissions](ui-how-users-permissions.md)
+## [Manage Users and Licenses to Define Who Can Sign in](ui-how-users-permissions.md)
+## [Manage Users' Permissions to Define What They Can Do](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)

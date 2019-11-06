@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ---
 
 # Resources for Help and Support
@@ -78,6 +78,7 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## See Also
 
+[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  

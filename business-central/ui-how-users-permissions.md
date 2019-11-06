@@ -30,7 +30,7 @@ Once users with [!INCLUDE[d365fin](includes/d365fin_md.md)] license are created 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Choose the **Get Users from Office 365** action.
 
-Any new user that has been created for your Office 365 subscription will be added on the **Users** page. Users are assigned permission sets depending on the license assigned to the user in Office 365. You can then proceed to assign granular permissions to users and to organize them in user groups. For more information, see [To assign permission sets to users](ui-how-users-permissions.md#to-assign-permission-sets-to-users).
+Any new user that has been created for your Office 365 subscription will be added on the **Users** page. Users are assigned permission sets depending on the license assigned to the user in Office 365. You can then proceed to assign granular permissions to users and to organize them in user groups. For more information, see [To assign permission sets to users](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
 
 ### To remove a user's access to the system
 As an administrator, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system, and active sessions for the user will be terminated. To give the user access again, set the **State** field to **Enabled**.
@@ -43,7 +43,7 @@ Sometimes you may need to change license assigned to users. For example, you dec
 2. Sign is as an administrator in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 4. On the **Users** page, choose the **Refresh all User Groups** action.
-The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
+The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > All regular users in a solution must be assigned the same license, Essential or Premium.

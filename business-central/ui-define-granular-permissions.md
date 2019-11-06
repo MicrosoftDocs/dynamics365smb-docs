@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] there are two levels of permissio
 
 When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
 
-To make it easier to manage permissions for multiple users you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-how-users-permissions.md#to-manage-permissions-through-user-groups).
+To make it easier to manage permissions for multiple users you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
@@ -34,7 +34,7 @@ To make it easier to manage permissions for multiple users you can organize them
 ## To assign permission sets to users
 A permission set is a collection of permissions for specific objects in the database. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
+A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 >[!NOTE]
 If you do not want to restrict user access more than already defined by the license you can assign to user special permission set, called SUPER. That permission set ensures user can access all objects specified in the license.
@@ -49,7 +49,7 @@ You can assign permissions sets to users in two ways:
 2. Select the user that you want to assign permission to.
 Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 3. Choose the **Edit** action to open the **User Card** page.
-4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
+4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 ### To assign a permission set on the **Permission Set by User** page  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -70,11 +70,11 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
-    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+    > Rows of source Entitlement originate from the subscription plan. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 
-5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page. Follow the steps described in [To create or edit permissions](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
+5. To edit individual permissions within the permission set, choose the value in the **Permission Set** field to open the **Permissions** page. Follow the steps described in [To create or edit permissions](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > When you edit a permission set, the changes will also apply to other users that have the permission set assigned.
@@ -90,7 +90,7 @@ Permission sets that users create, from new or as copies, are of type **User-Def
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2. To create a new permission set, choose the **New** action.
 3. On the new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-When you have created a permission set, you must add the actual permissions. For more information, see [To create or modify permissions manually](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
+When you have created a permission set, you must add the actual permissions. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### To copy a permission set
 You can also use a copy function to quickly carry all the permissions of another permission set to a new permission set.
@@ -105,7 +105,7 @@ You can also use a copy function to quickly carry all the permissions of another
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type.
 
 ## To create or modify permissions manually
-This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-define-granular-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 > [!NOTE]
 > When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.
@@ -152,7 +152,7 @@ You start by creating a user group. Then you assign permission sets to the group
 Permission sets assigned to a user through a user group stay synchronized so that a change to the user group permissions are automatically propagated to the user. If you remove a user from a user group, the involved permissions are automatically revoked.
 
 ### To group users in user groups
-The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](ui-how-users-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
+The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Alternatively, on the **Users** page, choose the **User Groups** action.
@@ -163,13 +163,13 @@ The following procedure explains how to create user groups manually. To create u
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
 > [!NOTE]
-> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-how-users-permissions.md#to-group-users-in-user-groups).
+> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-how-users-permissions.md#to-group-users-in-user-groups).  
+The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
 
 ### To assign permission sets to user groups
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.

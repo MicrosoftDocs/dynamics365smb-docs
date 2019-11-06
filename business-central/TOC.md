@@ -309,7 +309,7 @@
 # Administration
 ## [Overview](admin-setup-and-administration.md)
 ## [Manage Users and Licenses - Define who can sign in to Business Central](ui-how-users-permissions.md)
-## [Manage Users' Permissions and Groups](ui-how-define-user-permissions)
+## [Manage Users' Permissions and Groups](ui-define-granular-permissions)
 ## [Manage Profiles](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)

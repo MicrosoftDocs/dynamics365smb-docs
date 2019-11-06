@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ Each element on the role explorer is an action that opens a page. Accordingly, y
 
 You can open the role explorer from the Role Center and all list pages and from the **Tell Me** window.
 
-- On your Role Center or any list page, choose the ![Menu button](media/ui_menu_button.png "Menu button") button to the right of the navigation bar.
+- On your Role Center or any list page, choose the ![Menu button](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
 - In the **Tell Me** window, choose the **exploring** action at the bottom.
 
 To get an overview of business feature that are available for all other roles, in addition to your own, choose the **Explore all** action on the page that presents the role explorer.

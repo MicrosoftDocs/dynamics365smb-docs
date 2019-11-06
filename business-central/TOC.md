@@ -12,6 +12,7 @@
 ### [Developer Learning Catalog](readiness/readiness-learning-developers.md)
 ### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
+### [Sales Learning Catalog](readiness/readiness-learning-sales.md)
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)

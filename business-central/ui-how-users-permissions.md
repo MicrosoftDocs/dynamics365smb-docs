@@ -13,10 +13,10 @@ ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
-# Manage Users and Licenses to Define Who Can Sign in
+# Create Users According to the License
 The following describes how you as an administrator create users and define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], and which fundamental rights different user types have according to the license.
 
-When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign specific permissions to users through permission sets and to organize users in user groups for easy permission management. For more information, see [Manage Users' Permissions to Define What They Can Do](ui-define-granular-permissions.md).  
+When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign specific permissions to users through permission sets and to organize users in user groups for easy permission management. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 The process of managing users and licenses varies depending on whether your solution is deployed online or on-premises.
 

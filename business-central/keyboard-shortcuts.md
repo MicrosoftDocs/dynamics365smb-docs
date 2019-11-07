@@ -18,7 +18,7 @@ This article provides an overview of some of the shortcut key combinations that 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.
+> For a graphical view of the most used shortcuts, choose the following image and download the PDF file. (PDF Viewer required)
 >
 > [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 

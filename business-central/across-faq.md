@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/01/2019
+ms.date: 11/06/2019
 ms.author: edupont
 
 ---
@@ -42,9 +42,9 @@ Also, if the capability is published as an extension in AppSource, then there is
 Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/browse/?products=dynamics-business-central). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
+Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/browse/?products=dynamics-business-central). For more information, see [Business Central Learning Catalog](readiness/readiness-learning-catalog.md). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
 
-For more information about training that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
+For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
 Additional content is provided by the [!INCLUDE [prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
 
@@ -119,6 +119,7 @@ Your reselling partner will also handle technical support for you. For more info
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
 [Resources for Help and Support](product-help-and-support.md)  
+[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Manage Users and Permissions](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -26,7 +26,7 @@ You can open the role explorer from the Role Center and all list pages and from 
 To get an overview of business feature that are available for all other roles, in addition to your own, choose the **Explore all** action on the page that presents the role explorer.
 
 > [!NOTE]
-> Only roles where the **Show in Role Explorer** check box is selected for the related profile will appear on the feature overview for all roles. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
+> Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore all** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## To expand/collapse nodes on the role explorer
 The actions that open pages are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.

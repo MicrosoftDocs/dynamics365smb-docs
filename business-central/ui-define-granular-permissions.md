@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/06/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 
 ---
@@ -26,7 +26,7 @@ To make it easier to manage permissions for multiple users, you can organize the
 
 > [!NOTE]
 > An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
-
+>
 > You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## To assign permission sets to users

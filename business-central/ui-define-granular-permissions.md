@@ -104,7 +104,7 @@ You can also use a copy function to quickly carry all the permissions of another
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type.
 
 ## To create or modify permissions manually
-This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permission sets by recording your actions](ui-define-granular-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
+This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permissions by recording your actions](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
 > [!NOTE]
 > When you edit a permission and thereby the related permission set, the changes will also apply to other users that have the permission set assigned.

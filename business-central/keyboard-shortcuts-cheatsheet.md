@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 11/06/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 ---
 
@@ -24,6 +24,6 @@ ms.author: sgroespe
 |**Report preview**|Ctrl+Home/End|Go to the first/last page|
 
 > [!TIP]
-> For a graphical, print-friendly version, choose the following image.
+> For a graphical, print-friendly version, choose the following image and download the PDF file. (PDF Viewer required).
 >
 > [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)

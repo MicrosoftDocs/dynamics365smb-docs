@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/06/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 ---
 
@@ -18,7 +18,7 @@ This article provides an overview of some of the shortcut key combinations that 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> For a graphical, print-friendly overview of the most used keyboard shortcuts, choose the following image.
+> For a graphical, print-friendly view of the most used shortcuts, choose the following image and download the PDF file. (PDF Viewer required).
 >
 > [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
 

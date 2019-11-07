@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/06/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 
 ---
@@ -19,7 +19,7 @@ When performing business tasks, you interact with data in different ways, such a
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
 
 > [!TIP]
-> For a print-friendly overview of the most used functions, choose the following image.
+> For a print-friendly overview of the most used functions, choose the following image and download the PDF file. (PDF Viewer required)
 >
 > [ ![](media/megacheatsheet_1_inline.png) ](media/cheat_sheet.pdf)
 

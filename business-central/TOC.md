@@ -317,7 +317,7 @@
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
-## [Create Users According to the License](ui-how-users-permissions.md)
+## [Create Users According to Licenses](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)

@@ -24,6 +24,6 @@ ms.author: sgroespe
 |**Report preview**|Ctrl+Home/End|Go to the first/last page|
 
 > [!TIP]
-> For a graphical, print-friendly version, choose the following image and download the PDF file. (PDF Viewer required).
+> For a graphical, print-friendly version, choose the following image and download the PDF file. (PDF Viewer required)
 >
 > [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)

@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 ---
 
 # Keyboard Shortcuts
 This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
+For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> For a quick, print-friendly overview of the most popular shortcuts for PC users, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md). For a graphical representation, choose the following image:
+> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.
 >
-> [ ![To download for printing, right-click and select Save image as.](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.

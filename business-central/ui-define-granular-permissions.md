@@ -14,17 +14,15 @@ ms.author: sgroespe
 
 ---
 # Assign Permissions to Users and Groups
-The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify the type of access that each user has to these database objects, whether they are able to read, modify, or enter data. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the subscription license. For more information, see [Manage Users and Licenses to Define Who Can Sign in](ui-how-users-permissions.md).
+Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the license as defined in the Office 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] there are two levels of permissions to database objects:
-- Permissions according to the license, also referred to as *entitlement*.
-- Permissions as assigned from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two levels of permissions to database objects:
+- Overall permissions according to the license, also referred to as the entitlement.
+- More detailed permissions as assigned from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-When users are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can proceed to assign permission sets to the users to define which database objects, and thereby which UI elements, they have access to, and in which companies.
-
-To make it easier to manage permissions for multiple users you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+To make it easier to manage permissions for multiple users, you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
@@ -37,12 +35,12 @@ A permission set is a collection of permissions for specific database objects. A
 A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 >[!NOTE]
-If you do not want to restrict user access more than already defined by the license you can assign to user special permission set, called SUPER. That permission set ensures user can access all objects specified in the license.
->The user with Essential license and SUPER permission set has access to more functionality than user with Team member license and SUPER permission set.
+If you do not want to restrict a user's access more than already defined by the license, you can assign a special permission set called SUPER to the user. This permission set ensures that the user can access all objects specified in the license.<br /><br />
+>A user with the Essential license and the SUPER permission set has access to more functionality than users with the Team Member license and the SUPER permission set.
 
 You can assign permissions sets to users in two ways:
-- Define permission sets on a user's user card.
-- Select the check box for a user, on a column, for a related permission set, on a row, on the **Permission Set by User** page.
+- From the **User Card** page by selecting permission sets to assign to the user.
+- From the **Permission Set by User** page by selecting users that a permission set is assigned to.
 
 ### To assign a permission set on a user card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -70,7 +68,8 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     > [!NOTE]  
     > Only permission sets of type **User-Defined** can be edited.<br /><br />
-    > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement. For an explanation of ranking, see [To create or edit permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
+    > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement.<br /><br />
+    > For an explanation of ranking, see [To create or edit permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 
@@ -127,7 +126,7 @@ For example, a user can have permission to run codeunit 80, Sales-Post. The Sale
 
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
-## To create or modify permission sets by recording your actions
+## To create or modify permissions by recording your actions
 1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2.	Alternatively, on the **Users** page, choose the **Permission Sets** action.
 3.	On the **Permission Sets** page, choose the **New** Action.
@@ -178,7 +177,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
 4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
 
-### To assign a permission set on the Permission Set by User Group page  
+### To assign a permission set on the **Permission Set by User Group** page  
 The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
@@ -195,6 +194,7 @@ Administrators can define periods of time during which specified users are able 
 4. Fill in the fields as necessary.
 
 ## See Also
+[Create Users According to Licenses](ui-how-users-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  

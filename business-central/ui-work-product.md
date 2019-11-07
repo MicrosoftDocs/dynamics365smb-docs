@@ -21,7 +21,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file. (PDF Viewer required)
 >
-> [ ![](media/megacheatsheet_1_inline.png) ](media/cheat_sheet.pdf)
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > In addition to the general UI functions described in this section, you can use other general functions that are more business-related. For more information, see [General Business Functionality](ui-across-business-areas.md).

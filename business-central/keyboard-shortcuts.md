@@ -18,9 +18,9 @@ This article provides an overview of some of the shortcut key combinations that 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> For a graphical, print-friendly view of the most used shortcuts, choose the following image and download the PDF file. (PDF Viewer required).
+> For a graphical view of the most used shortcuts, choose the following image and download the PDF file. (PDF Viewer required).
 >
-> [ ![](media/bckeyboardmap-inline.png) ](media/keyboard_shortcuts.pdf)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.

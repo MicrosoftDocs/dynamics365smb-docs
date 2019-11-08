@@ -14,6 +14,9 @@ ms.author: bholtorf
 ---
 
 # Connect to Intuit QuickBooks
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 You're using Microsoft Invoicing to create and send estimates and invoices to your customers, but you might want to use another system to handle your purchases, inventory, or bookkeeping. If you're using Intuit QuickBooks, you can connect to Invoicing. QuickBooks becomes the backend system for Invoicing, and your customers and inventory items are synchronized seamlessly between the two apps. Your invoices are synchronized from Invoicing to QuickBooks but not the other way around.
 
 ## Import Contacts from QuickBooks

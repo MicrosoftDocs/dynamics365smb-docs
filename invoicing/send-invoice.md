@@ -13,6 +13,9 @@ ms.author: edupont
 
 ---
 # Send an invoice to a new customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 You create an invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms. You can easily create a new invoice for a customer that you haven’t registered yet by tapping New Invoice from the Invoicing tab.  
 
 ## To create a new invoice

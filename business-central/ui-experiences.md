@@ -31,7 +31,7 @@ The experiences that can be selected in [!INCLUDE[d365fin](includes/d365fin_md.m
 > [!IMPORTANT]  
 > All regular users in a solution must be assigned the same plan, Essential or Premium, before that experience can be selected for the company. Accordingly, one user cannot access Premium features if one or more other users can only access Essential features. This is not the case for non-regular users of type Team Member, Internal Admin, External Accountant, and Delegated Admin, who can each be assigned a different plan than other users in the solution.<br /><br /> Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.
 
-Prior to defining a company's experience setting, you define users' access to specific functions and pages by assigning permission sets. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
+Prior to defining a company's experience setting, you define users' access to specific functions and pages by assigning permission sets. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 The **Experience** setting applies to all users in a company, but each user can personalize their own experience further by changing page layouts and content. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
@@ -58,7 +58,7 @@ All feature descriptions in user documentation for [!INCLUDE[d365fin](includes/d
 ## See also
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Customizing Business Central](ui-customizing-overview.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Creating New Companies](about-new-company.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

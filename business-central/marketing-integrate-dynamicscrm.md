@@ -92,7 +92,7 @@ When the customer payment is received for the sales invoice in [!INCLUDE[d365fin
 [Relationship Management](marketing-relationship-management.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)    
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

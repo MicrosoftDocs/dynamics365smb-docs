@@ -8,6 +8,7 @@
 ### [Define the default email message](customize-email.md)
 ### [Notify your accountant](notify-accountant.md)
 ### [Export data](export-data.md)
+### [Responding to requests about personal data](personal-data.md)
 ### [Troubleshooting](about-troubleshooting.md)
 ## Send invoices and estimates to your customers
 ### [Send an invoice to a new customer](send-invoice.md)

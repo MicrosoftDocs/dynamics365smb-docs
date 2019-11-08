@@ -13,6 +13,9 @@ ms.author: edupont
 
 ---
 # Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 Read this section for tips and troubleshooting info on [!INCLUDE[d365inv](includes/d365inv.md)].
 
 ## How do I save my changes?

@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Give a discount using in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 When you add products to an invoice or an estimate, you can grant a discount at two different levels:  
 

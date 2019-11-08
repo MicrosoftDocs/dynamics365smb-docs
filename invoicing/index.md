@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Welcome to [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 [!INCLUDE[d365inv](includes/d365inv.md)] is an easy to use online and mobile app that can help send invoices, manage your expenses, and monitor your cash flow. With [!INCLUDE[d365inv](includes/d365inv.md)], you can get paid faster by seamlessly creating, editing, sending invoices, and accepting payments. It's easy to add new customers, mark invoices as paid when you receive payment, and view monthly and yearly sales.
 

@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Let your accountant know you sent an invoice with [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 To keep your accountant updated when you send invoices to your customers by email, you can add the accountant as a recipient for all the invoicing emails.  
 

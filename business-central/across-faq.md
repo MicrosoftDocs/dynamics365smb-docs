@@ -120,6 +120,6 @@ Your reselling partner will also handle technical support for you. For more info
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[Manage Users and Permissions](ui-how-users-permissions.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

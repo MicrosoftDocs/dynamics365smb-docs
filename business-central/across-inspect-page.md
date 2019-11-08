@@ -33,7 +33,7 @@ If you do not see the details that you expect to see in the **Page Inspection** 
 
 ## Controlling Access to Page Inspection Details
 
-As an administrator, you can control access to the full details that are shown in the **Page Inspection** pane by configuring the permissions that users have. To grant a user permission to the full details, give users **Execute** permission on the **System** object **5330**. You can grant this permission by using a permission set (such as **D365 Troubleshoot**) or a user group (such as **D365 Troubleshoot**). For more information about permissions, see [Manage Users and Permissions](ui-how-users-permissions.md).
+As an administrator, you can control access to the full details that are shown in the **Page Inspection** pane by configuring the permissions that users have. To grant a user permission to the full details, give users **Execute** permission on the **System** object **5330**. You can grant this permission by using a permission set (such as **D365 Troubleshoot**) or a user group (such as **D365 Troubleshoot**). For more information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 Users who are not granted permissions on **System object 5330** can still access the **Page Inspection** pane, but they will only see the **Page** and **Table** fields, which display basic details that they can pass on to their support team.
 

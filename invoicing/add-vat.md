@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Add value added tax (VAT) to your invoices in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 If you or your customers are in a country that uses valued added tax (VAT), such as the United Kingdom, [!INCLUDE[d365inv](includes/d365inv.md)] calculates the VAT for you, and applies the amount to your invoices.  
 

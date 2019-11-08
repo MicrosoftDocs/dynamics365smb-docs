@@ -14,6 +14,9 @@ ms.author: edupont
 ---
 
 # US tax rates in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 You can add tax rates on the fly when you create estimates and invoices. You can see the tax rates that you've already added in the settings for Microsoft Invoicing, and you can add new tax rates there as well.  
 
 You can also manage the tax rates that you need in the **Settings** page. This is also where you set up your own tax information. The default tax rate is the one that you specify for your business address.  

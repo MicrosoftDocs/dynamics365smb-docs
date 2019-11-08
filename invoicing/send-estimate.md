@@ -13,6 +13,9 @@ ms.author: edupont
 
 ---
 # Send an estimate to a customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 You can send an estimate (the same as a quote or an offer) to existing customers or prospects – it works almost the same way as sending an invoice, but with the estimate you’re sending a draft that the customer can accept or not.  
 
 ## To send an estimate

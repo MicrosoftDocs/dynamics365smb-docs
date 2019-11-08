@@ -41,7 +41,7 @@ Sean is a super user at CRONUS. He creates two approval users. One is Alicia who
 To test the approval workflow, Sean first logs into [!INCLUDE[d365fin](includes/d365fin_md.md)] as Alicia, and then requests approval of a purchase order. Sean then logs in as himself, sees the note on his Role Center, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## Setting Up Sample Data
-Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
+Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ### Setting Up Approval Users  
 When logged in as yourself, set Alicia up as an approval user whose approver is yourself. Set up your approval rights and specify how and when you are notified of approval requests.  

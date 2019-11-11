@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)|
+| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Set Up Value-Added Tax (VAT)](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|

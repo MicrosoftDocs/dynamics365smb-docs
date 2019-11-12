@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ You regularly meet persons from other companies that may develop into business r
 
 You can create the contact as type **Company**, for example, if the relation not an individual person but an entity, such as a contractor or a bank. You an also create the contact as type **Person**. Functionality is more or less the same for both types and both can be changed as the relationship evolves.
 
-When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronized going forward is you link them.
+When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronized going forward if you link them.
 
 ## Person or Company
 You can decide to set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. You do this when you fill in the **Type** field on the **Contact Card** page. You can also maintain contact cards for both a company and one or more persons working in the company. This happens automatically when you fill in the **Company Name** field on a contact card of type **Person**.

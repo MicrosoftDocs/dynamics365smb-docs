@@ -11,7 +11,9 @@ ms.author: edupont
 
 ---
 # Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system. To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/solution-providers/search).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.  
+
+To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 When you sign up for [!INCLUDE [prodshort](includes/prodshort.md)], you get access to a demonstration company. The demonstration company contains sample data, but you can create new sales documents, for example, or set up a bank account. However, if you want to use [!INCLUDE [prodshort](includes/prodshort.md)] to help run your business, you must contact a [!INCLUDE [prodshort](includes/prodshort.md)] reselling partner and buy a subscription. For more information about trials and subscriptions, see [Trials and Subscriptions](across-preview.md).  
 
@@ -81,6 +83,7 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[How do I find a reselling partner?](across-faq.md#findpartner)
 [Dynamics 365 Documentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

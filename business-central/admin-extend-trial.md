@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/01/2019
+    ms.date: 11/12/2019
     ms.author: bholtorf
 
 ---
@@ -28,6 +28,7 @@ If your first 30-day trial period is expired, you can extend it yourself and thi
 2. In the notification at the top of the workspace, choose **Extend Trial**.
 
 ## See Also
+
 [Creating New Companies](about-new-company.md)  
-[Access to a Preview](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  

@@ -20,7 +20,7 @@ A report can be set up with more than one report layout, which you can then swit
 
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).
 
-When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts). 
+When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md). 
 
 > [!TIP]  
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.

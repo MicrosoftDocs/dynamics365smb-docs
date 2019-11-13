@@ -58,7 +58,7 @@ For information on how to change which layout to use, see [Change the Current Re
 [Update Report or Document Layouts](ui-update-report-layouts.md)  
 [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
-[Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts)  
+[Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

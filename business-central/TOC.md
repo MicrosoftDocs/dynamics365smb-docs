@@ -62,6 +62,7 @@
 ### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
 ### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
+### [Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)

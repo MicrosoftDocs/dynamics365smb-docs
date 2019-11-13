@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
 
 ---
@@ -55,9 +55,10 @@ The process for setting up Word report layouts and RDLC report layouts on report
 For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 ## See Also
-[Updating Report or Document Layouts](ui-update-report-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Update Report or Document Layouts](ui-update-report-layouts.md)  
 [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

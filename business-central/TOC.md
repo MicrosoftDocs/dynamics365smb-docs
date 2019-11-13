@@ -57,8 +57,8 @@
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing how Externally-Facing Documents and Reports Look
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Updating Report or Document Layouts](ui-update-report-layouts.md)
-### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
+### [Update Report or Document Layouts](ui-update-report-layouts.md)
+### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
 ### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
 ### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)

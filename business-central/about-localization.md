@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: edupont
 
 ---
 # Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
 
-For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck.  
+For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## Local Functionality
 To learn about the local functionality for each country, choose the related link:
@@ -52,5 +52,6 @@ To learn about the local functionality for each country, choose the related link
 ## See Also
 [Getting Started](product-get-started.md)  
 [Compliance](compliance/compliance-overview.md)  
-[International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

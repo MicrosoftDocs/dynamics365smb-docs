@@ -73,12 +73,12 @@ The administrator of your [!INCLUDE [prodshort](includes/prodshort.md)] and your
 <!-- As a partner, you can provide customers with trials based on already existing functionality, customizations, and previews of future capabilities. With previews like this, you can try and provide feedback about upcoming capabilities.  -->
 
 <!--To get started with a preview, go to [this page](https://go.microsoft.com/fwlink/?linkid=866045) and provide your work email address. To learn more about [!INCLUDE[d365fin](includes/d365fin_md.md)] and the capabilities it offers, refer to the documentation here on this site.-->
-
+<!--
 ### Building New Solutions and Intellectual Property
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] offers a set of development tools and a modern platform to build on so you can create your own add-on apps and embed solutions to connect or extend [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).
+For example, you can use an API to build a connected app to exchange data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and your payroll app. Connect apps can also make use of extensions to create pages to be used for setup, configuration, or to support app-specific features. For more information, see [Build Your Business on Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-welcome).-->
 
 ## See Also
 

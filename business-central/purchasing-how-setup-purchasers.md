@@ -15,7 +15,7 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 ---
 # Set Up Purchasers
-If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.
+If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 

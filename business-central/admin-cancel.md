@@ -21,7 +21,7 @@ If you want to stop using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can c
 
 If you signed up for the free trial and do not want to continue with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account at any time. We recommend that you export any data before you close your account.  
 
-To close your account, currently you must contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md)].  
+To close your account, currently you must contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
 

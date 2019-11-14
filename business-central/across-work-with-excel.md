@@ -44,6 +44,8 @@ This was enhanced in 2019 release wave 2. For more information, see [Enhancement
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, this feature is only available for the Web client.
 
 ### See the differences between the options 
+<br><br>  
+
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
 ## See Also

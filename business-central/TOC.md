@@ -16,14 +16,14 @@
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
-## [Trying Out a Preview Version](across-preview.md)
-## [Unsubscribe, Remove, or Reset Business Central](admin-cancel.md)
-## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+## [Trials and Subscriptions](across-preview.md)
+### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
 ## [Visit Our Video Library](across-videos.md)
-## [Become a Reseller](product-sell.md)
-## [Extending Business Central](about-develop-extensions.md)
-## [Business Central Extensions by Other Providers](ui-extensions-other.md)
+## Resellers and Partners
+### [Become a Reseller](product-sell.md)
+### [Extending Business Central](about-develop-extensions.md)
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Locale](about-locale-language.md)
-## [Viewing and Editing in Excel](across-work-with-excel.md)  
+## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: solsen
 ---
 # Getting Ready for Doing Business
@@ -55,6 +55,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 ## See Also
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

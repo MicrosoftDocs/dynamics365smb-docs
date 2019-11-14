@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
 
 ---
@@ -61,7 +61,7 @@ The users will be moved to a proper user group and the permission sets will be u
 > All regular users in a solution must be assigned the same license, Essential or Premium.
 > For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
-## Managing Users and Licenses in Online Deployments
+## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 For on-premises deployments, the administrator creates, edits, and deletes users directly from the **Users** page.

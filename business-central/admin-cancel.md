@@ -9,36 +9,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 11/13/2019
+ms.date: 11/14/2019
 ms.author: edupont
 
 ---
-# Unsubscribe, Remove, or Reset [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Unsubscribe or Remove [!INCLUDE[prodshort](includes/prodshort.md)]
 
-If you want to stop using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account or get the license removed from your account. The steps to take are different if you are currently using the free trial, or if you have a monthly subscription.  
+If you want to stop using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account or get the license removed from your account. The steps to take are different if you are currently using the free trial, or if you have a subscription.  
 
 ## Closing your free trial of [!INCLUDE[prodshort](includes/prodshort.md)]
 
 If you signed up for the free trial and do not want to continue with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account at any time. We recommend that you export any data before you close your account.  
 
-To close your account, currently you must contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
+To close your account, currently you must contact the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [!INCLUDE [product-help-and-support](product-help-and-support.md)].  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
 
-If your company subscribes to [!INCLUDE [prodshort](includes/prodshort.md)] but you as a user no longer wants access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continue the subscription, they will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+If your company subscribes to [!INCLUDE [prodshort](includes/prodshort.md)] but you as a user no longer wants access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continues the subscription, your coworkers will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
 
-If your company wants to unsubscribe from [!INCLUDE[d365fin](includes/d365fin_md.md)], the Dynamics 365 reselling partner can remove the subscription from the company's account.  
+If your company wants to unsubscribe from [!INCLUDE[d365fin](includes/d365fin_md.md)], the Dynamics 365 reselling partner can remove the subscription from the company's account. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the developer and IT-pro content.  
 
 User accounts and licenses are managed in the [Office Portal](https://portal.office.com). Only administrators can remove [!INCLUDE[d365fin](includes/d365fin_md.md)] licenses from user accounts or remove the subscription from your company's account.  
 
 ## Unsubscribing from [!INCLUDE[d365fin](includes/d365fin_md.md)] without Office 365
 If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Office 365 business account, you do not have an Office 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. The easiest way to do that is to copy the URL from your [!INCLUDE[d365fin](includes/d365fin_md.md)] home page.  
-
-## Resetting your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience
-If you have added data to your [!INCLUDE[d365fin](includes/d365fin_md.md)] free trial, and you want to start over with a fresh experience, you can create a new company and then reset the first company. If you open the **Companies** page, you can create a copy of your current company, sign out and then sign into your new company, and then reset the original company.  
-
-> [!IMPORTANT]
-> When you reset a company that you are sharing with other people from your organization, you must make sure other people are not logged in when you reset the company.  
 
 ## Removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher
 If you want to hide [!INCLUDE[d365fin](includes/d365fin_md.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  

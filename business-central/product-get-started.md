@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 11/12/2019
+ms.date: 11/14/2019
 ms.author: edupont
 
 ---
@@ -42,7 +42,7 @@ Before you can begin to use functionality, certain setup must be made. For more 
 For an overview of current capabilities and what is coming, take a look at our release plan at [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## The Role Centers
-The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Check out the various Role Center by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner,  choosing **My Settings**, and then the Role Center to explore. You are automatically signed out and in again to apply the change. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
+The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Find out what your current role gives access to with the role explorer. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md). Check out the various Role Centers by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner, choosing **My Settings**, and then the Role Center to explore. You are automatically signed out and in again to apply the change. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -54,7 +54,7 @@ Thinking about subscribing? You can easily change from the demonstration company
 
 To create a company to try things out, go to the **My Settings** menu in the top right corner, and change the company to **My Company**. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)] and then sign in again to apply the change. An assisted setup guide will help you provide basic information about your company. When that's done, explore the Role Center and find the **Assisted Setup** action.  
 
-If you do not already have a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner, you can find one [here](https://www.microsoft.com/en-us/solution-providers/search).  
+You can also contact a Dynamics 365 reselling partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 ## Getting answers to questions
 
@@ -66,7 +66,7 @@ If you have additional questions, we recommend that you ask the community or con
 
 ## Ready to subscribe?
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [here](https://www.microsoft.com/en-us/solution-providers/search). For more information, see [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, you must contact a Dynamics 365 reselling partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner) and [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md).  
 
 ## Other Dynamics 365 apps
 Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](/dynamics365/) link in the black banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/en-us/business-central/overview/).  

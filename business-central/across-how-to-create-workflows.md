@@ -54,9 +54,9 @@ If your business scenario requires workflow events or responses that are not sup
 
         |Field|Description|  
         |----------------------------------|---------------------------------------|  
-        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the c heck box, then the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for <Sender>**. If the check box is not selected, the name of the workflow response is **Create Notification for <User>**.
+        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the c heck box, then the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &gt;Sender&#10097;**. If the check box is not selected, the name of the workflow response is **Create Notification for &gt;User&#10097;**.
         |**Recipient User ID**|Specify the user who the notification must be sent to. Note: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.|  
-        |**Notification Entry Type**|Specifies if the workflow notification is triggered by a record change, an approval request, or a passed due data.| 
+        |**Notification Entry Type**|Specifies if the workflow notification is triggered by a record change, an approval request, or a passed due data.|
         |**Link Target Page**|Specify another page in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the link in the notification opens instead of the default page.|  
         |**Custom Link**|Specify the URL of a link that is added to the notification in addition to the link to page in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.  

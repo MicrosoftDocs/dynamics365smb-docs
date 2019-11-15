@@ -17,6 +17,7 @@ ms.author: edupont
 The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts. 
 <br><br>  
+
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
 
 

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 11/15/2019
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
 If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code.  
-  
+
 > [!NOTE]  
 >  All notifications about workflow steps are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
@@ -54,7 +54,9 @@ If your business scenario requires workflow events or responses that are not sup
 
         |Field|Description|  
         |----------------------------------|---------------------------------------|  
+        |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the check box, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the check box is not selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.
         |**Recipient User ID**|Specify the user who the notification must be sent to. Note: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.|  
+        |**Notification Entry Type**|Specifies if the workflow notification is triggered by a record change, an approval request, or a passed due data.|
         |**Link Target Page**|Specify another page in [!INCLUDE[d365fin](includes/d365fin_md.md)] that the link in the notification opens instead of the default page.|  
         |**Custom Link**|Specify the URL of a link that is added to the notification in addition to the link to page in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.  
@@ -99,4 +101,3 @@ If your business scenario requires workflow events or responses that are not sup
 [Setting Up Workflows](across-set-up-workflows.md)   
 [Using Workflows](across-use-workflows.md)   
 [Workflow](across-workflow.md)      
-

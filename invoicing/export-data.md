@@ -22,6 +22,9 @@ If you are an administrator, [!INCLUDE[d365inv](includes/d365inv.md)] provides a
 * When you sign in, a notification displays. Start the guide by choosing **Export**.
 * On your Role Center, under **Important News**, choose **Next steps**.    
 
+> [!Note]
+> Only system administrators can export data from [!INCLUDE[d365inv](includes/d365inv.md)].
+
 ## Export invoices only
 If you just want to export invoices, on the **Invoices** list page, choose **Manage** and then **Export invoices**. Enter start and end dates for the period to export invoices for, and make sure that the correct email address is entered. Invoicing will export the documents to Excel, and then send the workbook to the email address.
 

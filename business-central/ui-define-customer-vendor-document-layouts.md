@@ -26,7 +26,7 @@ Before you can define which document layout to use for which processes, and whic
 
 The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a vendor card.
 
-## To enable all available sales reports (documents) for a customer
+## To enable all available sales documents for a customer
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer for whom you want to define document layouts per business process.
 3. On the **Customer Card** page, choose the **Document Layouts** page.
@@ -36,7 +36,7 @@ The **Document Layouts** page for the customer in question is filled with all th
 
 You can now proceed to adjust the list with any custom report layouts or email addresses for the contacts that the documents must be sent to.
 
-## To select a custom report layout to use for the sales report layout
+## To select a custom report layout to use for the sales document layout
 If one or more of the report layouts that are defined in the **Document Layouts** page for the customer do not have a custom report layout defined, then you can quickly do that.
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to use a custom layout for, choose the **Custom Layout Description** field. The field is either filled if customer layout is already selected or blank.

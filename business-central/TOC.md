@@ -55,12 +55,12 @@
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
-## Changing how Externally-Facing Documents and Reports Look
+## Changing the Look of Externally-Facing Documents
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
+### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
 ### [Update Custom Report Layouts](ui-update-report-layouts.md)
-### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ## Using Keyboard Shortcuts

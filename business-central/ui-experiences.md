@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
 
 ---
@@ -36,10 +36,10 @@ Prior to defining a company's experience setting, you define users' access to sp
 The **Experience** setting applies to all users in a company, but each user can personalize their own experience further by changing page layouts and content. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Enabling Premium Features after Upgrading a Plan
-Users are assigned to plans in Office 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add Users to Office 365 for business](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Users are assigned to plans in Microsoft 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add users individually or in bulk to Office 365](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### To update plan changes in users groups
-When you have made a change to users plans in Office 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+When you have made a change to users plans in Microsoft 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Sign is as an administrator.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.

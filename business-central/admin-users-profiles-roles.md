@@ -18,7 +18,7 @@ All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile 
 
 As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings for the related role, such as the role name, the user settings, and which Role Center the profile uses. For more information about user settings and Role Centers, see [Change Basic Settings](ui-change-basic-settings.md).
 
-Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Center. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+Before you can administrate users' profiles, the users must be created and added, through the Microsoft 365 Admin Center. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## Page Customization
 You can customize page layouts for a profile so that all users assigned the profile will see the customized pages. As an administrator, you customize pages by using the same functionality as users do when they personalize. For more information, see [Customize Pages for Profiles](ui-personalization-manage.md).

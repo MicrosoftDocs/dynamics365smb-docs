@@ -16,7 +16,7 @@ This section contains answers to frequently asked questions about signing up for
 
 ## Is [!INCLUDE[d365fin](includes/d365fin_md.md)] available in my country?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Countries and Translations Supported](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
 
 ## How do I get [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -121,5 +121,6 @@ Your reselling partner will also handle technical support for you. For more info
 [Resources for Help and Support](product-help-and-support.md)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
+[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

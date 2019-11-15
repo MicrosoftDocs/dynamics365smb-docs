@@ -16,14 +16,14 @@
 
 ## [Getting Ready for Doing Business](ui-get-ready-business.md)
 ## [Overview of Business Functionality](across-business-functionality.md)
-## [Trying Out a Preview Version](across-preview.md)
-## [Unsubscribe, Remove, or Reset Business Central](admin-cancel.md)
-## [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+## [Trials and Subscriptions](across-preview.md)
+### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
 ## [Visit Our Video Library](across-videos.md)
-## [Become a Reseller](product-sell.md)
-## [Extending Business Central](about-develop-extensions.md)
-## [Business Central Extensions by Other Providers](ui-extensions-other.md)
+## Resellers and Partners
+### [Become a Reseller](product-sell.md)
+### [Extending Business Central](about-develop-extensions.md)
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Locale](about-locale-language.md)
-## [Viewing and Editing in Excel](across-work-with-excel.md)  
+## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
-## Changing how Externally-Facing Documents and Reports Look
+## Changing the Look of Externally-Facing Documents
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Updating Report or Document Layouts](ui-update-report-layouts.md)
-### [Making Changes to a Word Report Layout](ui-how-create-custom-report-layout.md)
-### [Import and Export a Report or Document Layout](ui-how-import-and-export-report-layout.md)
 ### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
+### [Update Custom Report Layouts](ui-update-report-layouts.md)
+### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
@@ -271,7 +272,7 @@
 #### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
 #### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
 #### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)
+#### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 #### [Set up Email](admin-how-setup-email.md)
 #### [Create Workflows](across-how-to-create-workflows.md)
 #### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)

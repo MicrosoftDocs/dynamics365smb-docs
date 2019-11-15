@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating users on the Office 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)| 
+|Define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating users on the Micro 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)| 
 |Assign permissions to users, modify permission sets, and group users for easy permission management.|[Assign Permissions to Users and Groups](ui-how-users-permissions.md)|
 |Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/13/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
 
 ---
@@ -20,7 +20,7 @@ A report can be set up with more than one report layout, which you can then swit
 
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).
 
-When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md). 
+When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
 > [!TIP]  
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.
@@ -40,7 +40,7 @@ When custom report layouts are defined, you can select them from customer and ve
 If you selected a built-in RDLC or Word report layout, then no further action is required, and the layout will be used the next time the report is run.
 
 ## To change the custom layout to use for a report layout
-You may also want to change the currently used custom layout. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
+You may also want to change the currently used custom layout. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
 All custom report layouts that exist for report layouts in a company are listed on the **Custom Report Layouts** page. On the **Report Layout Selection** page, you can see which custom layouts are available for each report in the **Custom Layouts** FactBox.
 
@@ -49,7 +49,7 @@ All custom report layouts that exist for report layouts in a company are listed 
 
 The name of the selected custom layout is now shown in the **Custom Layout Description** field and will be used the next time the report or document is previewed, printed, or sent.
 
-
+You can now go to your customer and vendor cards to specify which of the layouts to use for different documents that you crate for the customer or vendor in question, such as order confirmations or payment reminders. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  

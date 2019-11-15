@@ -55,8 +55,8 @@ The process for setting up Word report layouts and RDLC report layouts on report
 For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 ## See Also
-[Update Report or Document Layouts](ui-update-report-layouts.md)  
-[Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)  
+[Update Custom Report Layouts](ui-update-report-layouts.md)  
+[Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Define Special Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

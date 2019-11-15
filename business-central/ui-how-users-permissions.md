@@ -46,12 +46,12 @@ In online deployments, you can remove a user's access to the system by setting t
 2. Open the **User Card** page for the relevant user, and then, in the **State** field, select **Disabled**.
 3. To give the user access again, set the **State** field to **Enabled**.
 
-In addition to disabling a user, you can unassign the license from a user in the Office 365 Admin Center. The user is then unable to sign in. For more information, see [Unassign licenses from users](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+In addition to disabling a user, you can unassign the license from a user in the Micro 365 Admin Center. The user is then unable to sign in. For more information, see [Unassign licenses from users](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### To change the assigned license for a user
 Sometimes you may need to change the license that is assigned to a user. For example, if you decide to use the Service Management module and therefore need to upgrade all Essential licenses to Premium. Or if a user’s responsibility has changed and you need to replace a Team Member license to Essential.
 
-1. Change the license in the Office 365 Admin Center. For more information, see [Add users individually or in bulk to Office 365](https://aka.ms/CreateOffice365Users).
+1. Change the license in the Micro 365 Admin Center. For more information, see [Add users individually or in bulk to Office 365](https://aka.ms/CreateOffice365Users).
 2. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as an administrator.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 4. On the **Users** page, choose the **Refresh all User Groups** action.

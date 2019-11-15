@@ -16,7 +16,7 @@ ms.author: sgroespe
 # Assign Permissions to Users and Groups
 The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the license as defined in the Office 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the license as defined in the Micro 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two levels of permissions to database objects:
 - Overall permissions according to the license, also referred to as the entitlement.

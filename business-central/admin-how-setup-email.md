@@ -26,7 +26,7 @@ You can either set email up manually, as described below, or you can get help by
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > If you are using an account that requires two-factor authentication, then the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**.
+    > If you are using an account that requires two-factor authentication, then the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 3. Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the page.

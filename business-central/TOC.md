@@ -1092,7 +1092,7 @@
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Tax
-#### [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md)
+#### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)

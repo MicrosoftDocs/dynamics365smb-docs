@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
 
 ---
@@ -17,6 +17,11 @@ ms.author: sgroespe
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
+
+> [!TIP]
+> For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > In addition to the general UI functions described in this section, you can use other general functions that are more business-related. For more information, see [General Business Functionality](ui-across-business-areas.md).
@@ -26,7 +31,7 @@ The following table lists some of the general functionality with links to topics
 | To | See |
 | --- | --- |
 |Find a specific page, report, action, help topic, or partner extension. |[Finding Pages and Information with Tell Me](ui-search.md) |
-|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages from a Feature Overview](ui-role-explorer.md)|
+|Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages with the Role Explorer](ui-role-explorer.md)|
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
 |Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](ui-copy-paste.md)|

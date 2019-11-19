@@ -13,6 +13,9 @@ ms.author: edupont
 
 ---
 # Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
+
 Read this section for tips and troubleshooting info on [!INCLUDE[d365inv](includes/d365inv.md)].
 
 ## How do I save my changes?
@@ -47,7 +50,7 @@ To get access to [!INCLUDE[d365inv](includes/d365inv.md)] you must sign up for a
 
 However, small businesses often deal with sensitive customer information like credit card numbers, social security numbers, or health records. In the tech world, this is called personally identifiable information, or PII for short. It’s the job of the business owner to protect this information. One way to help protect PII is to control which of your employees has access. The business owner and the global administrator, if they aren't the same person, can work together to control access to information by selecting or deselecting apps. For example, if you choose not to give access to [!INCLUDE[d365inv](includes/d365inv.md)] to one or more employees, you can deselect the license for them and they won't be able to access the app.   
 
-To turn licenses on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Office 365 admin center. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licenses**. Now select or deselect the licenses for the products for the user.  
+To turn licenses on or off for users, from your Microsoft Office Home page, choose the **Admin** tile to open the Microsoft 365 Admin Center. Then choose **Active users**, choose one or more users, and then choose **Edit** next to **Product licenses**. Now select or deselect the licenses for the products for the user.  
 
 ## Can I cancel my subscription?
 Yes, you can remove [!INCLUDE[d365inv](includes/d365inv.md)] from your Office 365 subscription. But you can also choose to simply not use [!INCLUDE[d365inv](includes/d365inv.md)].  

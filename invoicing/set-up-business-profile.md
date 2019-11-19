@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Set up your business information in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 For the invoices to include your business address and other important information, you can define this in the **Settings** page. Here, you can upload your logo, specify your tax details, add links to your social network accounts, and make other general customizations.  
 

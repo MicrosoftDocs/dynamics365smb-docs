@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 10/08/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
 
 ---
@@ -18,7 +18,7 @@ All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile 
 
 As an administrator, you create and manage profiles on the **Profiles (Roles)** page. Each profile has a card where you manage various settings for the related role, such as the role name, the user settings, and which Role Center the profile uses. For more information about user settings and Role Centers, see [Change Basic Settings](ui-change-basic-settings.md).
 
-Before you can administrate users' profiles, the users must be created and added, through the Office 365 Admin Center. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Manage Users and Permissions](ui-how-users-permissions.md).
+Before you can administrate users' profiles, the users must be created and added, through the Microsoft 365 Admin Center. Then you can assign permissions to each user or user group to define which features they are allowed to view and/or edit. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## Page Customization
 You can customize page layouts for a profile so that all users assigned the profile will see the customized pages. As an administrator, you customize pages by using the same functionality as users do when they personalize. For more information, see [Customize Pages for Profiles](ui-personalization-manage.md).
@@ -73,7 +73,7 @@ When a profile is created, you can select different check boxes that define if, 
     - **Enabled** to specify if the related role is visible in the **Available Roles** page for users to choose from.  
     - **Use as default profile** to specify the profile that applies to users who are not assigned a specific role.
     - **Disable personalization** to specify if users of the related role can personalize their workspace.
-    - **Show in Role Explorer** to specify if menu items to business features included in the profile are displayed in the feature overview. For more information, see [Finding Pages from a Feature Overview](ui-role-explorer.md).
+    - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To export user-created profiles
 You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
@@ -120,6 +120,6 @@ The user will see the changes the next time they sign-in.
 You can also delete individual page customizations for a profile. For more information, see [To delete customization for specific pages for a profile](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
 ## See Also  
-[Manage Users and Permissions](ui-how-users-permissions.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  

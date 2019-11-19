@@ -13,6 +13,8 @@ ms.author: edupont
 
 ---
 # Define the default email message in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 When you first start using [!INCLUDE[d365inv](includes/d365inv.md)], your invoices are sent with a standard email text, but you can change that to suit your business.  
 

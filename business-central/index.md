@@ -8,14 +8,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: sgroespe
 
 ---
 # Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In this section, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company. And if you are a partner or customer looking at extending the functionality, you will find relevant links under Development and Administration.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company. Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Developer and IT-pro content** section.  
 
 |||  
 |-|-|  
@@ -32,6 +32,7 @@ ms.author: sgroespe
 [Compliance](compliance/compliance-overview.md)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 

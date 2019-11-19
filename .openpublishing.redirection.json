@@ -1,87 +1,566 @@
 {
-  "redirections": [
-    {
-      "source_path": "financials/financials-requirements.md",
-      "redirect_url": "/dynamics365/business-central/product-requirements",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-business-functionality.md",
-      "redirect_url": "/dynamics365/business-central/across-business-functionality",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-cancel.md",
-      "redirect_url": "/dynamics365/business-central/admin-cancel",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-how-setup-email.md",
-      "redirect_url": "/dynamics365/business-central/admin-how-setup-email",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-news.md",
-      "redirect_url": "/dynamics365/business-central/product-news",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-no-outlook.md",
-      "redirect_url": "/dynamics365/business-central/admin-no-outlook",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-outlook.md",
-      "redirect_url": "/dynamics365/business-central/admin-outlook",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-powerbi.md",
-      "redirect_url": "/dynamics365/business-central/admin-powerbi",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "financials/madeira-sell.md",
-      "redirect_url": "/dynamics365/business-central/product-sell",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "business-central/across-how-to-connect-powerbi-dynamics-365-content-packs-help.md",
-      "redirect_url": "/dynamics365/business-central/admin-powerbi",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "business-central/across-troubleshooting-how-use-financials-data-source-flow.md",
-      "redirect_url": "/dynamics365/business-central/index",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "business-central/upload-data.md",
-      "redirect_url": "/dynamics365/business-central/across-import-data-configuration-packages",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "business-central/LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
-      "redirect_document_id": true
-     },
-    {
-      "source_path": "business-central/LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files",
-      "redirect_document_id": true
-     },
-     {
-      "source_path": "business-central/LocalFunctionality/Belgium/isabel-6.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"      
-     },
-     {
-      "source_path": "business-central/LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"
-     },
-     {
-      "source_path": "business-central/LocalFunctionality/Russia/how-to-combine-customer-or-vendor-cards.md",
-      "redirect_url": "/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality"
-     }
+    "redirections": [
+        {
+            "source_path": "financials/financials-requirements.md",
+            "redirect_url": "/dynamics365/business-central/product-requirements",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-business-functionality.md",
+            "redirect_url": "/dynamics365/business-central/across-business-functionality",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-cancel.md",
+            "redirect_url": "/dynamics365/business-central/admin-cancel",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-how-setup-email.md",
+            "redirect_url": "/dynamics365/business-central/admin-how-setup-email",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-news.md",
+            "redirect_url": "/dynamics365/business-central/product-news",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-no-outlook.md",
+            "redirect_url": "/dynamics365/business-central/admin-no-outlook",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-outlook.md",
+            "redirect_url": "/dynamics365/business-central/admin-outlook",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-powerbi.md",
+            "redirect_url": "/dynamics365/business-central/admin-powerbi",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "financials/madeira-sell.md",
+            "redirect_url": "/dynamics365/business-central/product-sell",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/across-how-to-connect-powerbi-dynamics-365-content-packs-help.md",
+            "redirect_url": "/dynamics365/business-central/admin-powerbi",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/across-troubleshooting-how-use-financials-data-source-flow.md",
+            "redirect_url": "/dynamics365/business-central/index",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/upload-data.md",
+            "redirect_url": "/dynamics365/business-central/across-import-data-configuration-packages",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md",
+            "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md",
+            "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/isabel-6.md",
+            "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md",
+            "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality"
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Russia/how-to-combine-customer-or-vendor-cards.md",
+            "redirect_url": "/dynamics365/business-central/LocalFunctionality/Russia/russia-local-functionality"
+        },
+        {
+            "source_path": "invoicing/sales-manage-sales.md",
+            "redirect_url": "send-invoice",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/across-attach-document-master-data.md",
+            "redirect_url": "ui-how-add-link-to-record",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/across-how-to-manage-notification-templates.md",
+            "redirect_url": "across-how-to-specify-when-and-how-to-receive-notifications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-review-and-customize-existing-database-data.md",
+            "redirect_url": "admin-how-to-create-custom-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md",
+            "redirect_url": "/dynamics365/business-central/admin-set-up-company-configuration",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-balancing-supply-with-demand.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-closing-demand-and-supply.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-code-examples-of-changed-patterns-in-modifications.md",
+            "redirect_url": "design-details-dimension-set-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-codeunit-408-dimension-management.md",
+            "redirect_url": "design-details-dimension-set-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-dealing-with-orders-before-the-planning-starting-date.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-demand-and-supply.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-fixed-reorder-qty.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-handling-projected-negative-inventory.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-loading-the-inventory-profiles.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-lot-for-lot.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-maximum-qty.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-monitoring-the-projected-inventory-level-and-the-reorder-point.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-order.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-prioritizing-orders.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-reordering-policies.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-staying-under-the-overflow-level.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-the-concept-of-balancing-in-brief.md",
+            "redirect_url": "design-details-balancing-demand-and-supply",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-the-role-of-the-reorder-point.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-the-role-of-the-time-bucket.md",
+            "redirect_url": "design-details-handling-reordering-policies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-automatic-transfer-combined-entries.md",
+            "redirect_url": "finance-transfer-and-post-cost-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-balances-between-cost-type-cost-center-and-cost-object.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md",
+            "redirect_url": "finance-transfer-and-post-cost-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md",
+            "redirect_url": "finance-transfer-and-post-cost-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md",
+            "redirect_url": "finance-collect-payments-with-sepa-direct-debit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-open-new-fiscal-year.md",
+            "redirect_url": "finance-accounting-periods-and-fiscal-years",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file.md",
+            "redirect_url": "finance-collect-payments-with-sepa-direct-debit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-post-sepa-direct-debit-payment-receipts.md",
+            "redirect_url": "finance-collect-payments-with-sepa-direct-debit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-allocation-source-and-targets.md",
+            "redirect_url": "finance-define-and-allocate-costs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-cost-centers.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-cost-objects.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-cost-types.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-sepa-credit-transfer.md",
+            "redirect_url": "finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-set-up-sepa-direct-debit.md",
+            "redirect_url": "finance-collect-payments-with-sepa-direct-debit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-how-to-transfer-general-ledger-entries-to-cost-entries.md",
+            "redirect_url": "finance-transfer-and-post-cost-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-invite-external-accountant.md",
+            "redirect_url": "finance-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-manage-payables.md",
+            "redirect_url": "finance-set-up-cost-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-results-of-the-transfer.md",
+            "redirect_url": "finance-transfer-and-post-cost-entries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md",
+            "redirect_url": "finance-define-and-allocate-costs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md",
+            "redirect_url": "finance-define-and-allocate-costs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-setting-filters-for-dynamic-allocation-bases.md",
+            "redirect_url": "finance-define-and-allocate-costs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-business-relations.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-create-contact-persons.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-how-assign-alternate-address.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-how-create-contact-companies.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-how-create-contact-persons.md",
+            "redirect_url": "marketing-create-contact-persons",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-how-create-contacts-new-customers-vendors-bank-accounts.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-how-link-contact.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-industry-groups.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-job-responsibilities.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-mailing-groups.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-organizational-levels.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-synchronize-contacts-customers-vendors-bank-accounts.md",
+            "redirect_url": "marketing-create-contact-companies",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/marketing-web-sources.md",
+            "redirect_url": "marketing-setup-contacts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/payables-how-export-payments-bank-file.md",
+            "redirect_url": "finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-how-setup-colored-indicator-cues.md",
+            "redirect_url": "admin-how-set-up-colored-indicator-on-cues",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-sorting.md",
+            "redirect_url": "ui-enter-criteria-filters",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/submit-regulatory-alerts.md",
+            "redirect_url": "/dynamics365/business-central/submit-regulatory-alerts/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md",
+            "redirect_url": "../../inventory-how-copy-items",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md",
+            "redirect_url": "../../ui-batch-posting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Canada/how-to-manage-customer-credit-information.md",
+            "redirect_url": "../../receivables-how-block-customers",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md",
+            "redirect_url": "how-to-set-up-and-export-sales-vat-advance-notifications.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/elster-transmission-overview.md",
+            "redirect_url": "how-to-set-up-and-export-sales-vat-advance-notifications.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md",
+            "redirect_url": "how-to-set-up-and-export-sales-vat-advance-notifications.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/example-inventory-order-line-with-tracking-lines.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-analyze-physical-inventory-differences.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-calculate-quantity-on-hand-for-a-physical-inventory-order.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md",
+            "redirect_url": "../../inventory-how-copy-items",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-create-a-physical-inventory-recording.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md",
+            "redirect_url": "how-to-set-up-and-export-sales-vat-advance-notifications.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-enter-dimensions-for-physical-inventory-orders.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-enter-physical-inventory-orders.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-finish-a-physical-inventory-order.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-finish-a-physical-inventory-recording.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-post-physical-inventory-orders.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md",
+            "redirect_url": "../../ui-batch-posting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-set-up-physical-inventory-documents.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-set-up-sales-vat-advance-notifications-for-elster.md",
+            "redirect_url": "how-to-set-up-and-export-sales-vat-advance-notifications.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-view-duplicate-physical-inventory-order-lines.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/physical-inventory-documents.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/physical-inventory-order-lines-with-item-tracking-lines.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/physical-inventory-recording-counting-physical-inventory.md",
+            "redirect_url": "../../inventory-how-count-inventory-with-documents",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md",
+            "redirect_url": "https://www.microsoft.com",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md",
+            "redirect_url": "italy-local-functionality",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Mexico/how-to-manage-customer-credit-information.md",
+            "redirect_url": "../../receivables-how-block-customers",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Netherlands/how-to-set-up-standard-sales-or-purchase-lines.md",
+            "redirect_url": "netherlands-local-functionality",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/NewZealand/tax.md",
+            "redirect_url": "new-zealand-local-functionality",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Norway/norwegian-sales-documents.md",
+            "redirect_url": "norway-local-functionality",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md",
+            "redirect_url": "../../inventory-how-copy-items",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md",
+            "redirect_url": "../../ui-batch-posting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md",
+            "redirect_url": "../../receivables-how-block-customers",
+            "redirect_document_id": false
+        }
     ]
-
 }

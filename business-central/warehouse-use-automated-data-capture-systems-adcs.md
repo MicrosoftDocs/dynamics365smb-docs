@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
 
 ---
 # Use Automated Data Capture Systems (ADCS)
 
 > [!NOTE]
-> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using PowerApps or similar.
+> In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS only works in on-premise deployments. However, a Microsoft partner can make it work in online deployments by using Power Apps or similar.
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
 

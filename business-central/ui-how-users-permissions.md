@@ -62,10 +62,13 @@ The users will be moved to a proper user group and the permission sets will be u
 > All regular users in a solution must be assigned the same license, Essential or Premium.
 > For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
-### Overview of Scope and Effect of Actions on the **Users** page
-When a user first signs in to [!INCLUDE[d365fin](includes/d365fin_md.md)], a number of settings are made automatically. These are listed in the second column in the table below.
+### Synchronization with Office 365
+When a license is assigned to a user in Office 365, there are two ways to create the user in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The system will do it automatically when the user signs in for the first time, or the administrator can add the user by choosing the **Get Users from Office 365** action on the **Users** page.
 
-When the administrator uses the actions on the **Users** page, the same or other settings are made. These are listed in the last four columns in the table below.
+In both cases, a number of additional settings are made automatically. These are listed in the second and third columns
+in the table below.
+
+If you change the user in Office 365 afterwards, and you need to synchronize the changes to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use different actions on the **Users** page depending on what exactly you want to synchronize. These are listed in the last three columns in the table below.
 
 |What happens when:|First sign-in|Get Users from Office 365|Update Users from Office 365|Restore User Default User Groups|Refresh User Groups|
 |-|-|-|-|-|-|

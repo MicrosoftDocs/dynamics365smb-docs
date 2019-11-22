@@ -58,6 +58,10 @@ Sometimes you may need to change the license that is assigned to a user. For exa
 
 The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
+> [!NOTE]
+> All regular users in a solution must be assigned the same license, Essential or Premium.
+> For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+
 ### Overview of Scope and Effect of Actions on the **Users** page
 
 |What happens when:|The user signs in for the first time.|**Get Users from Office 365** action|**Update users from Office 365** action|**Restore User Default User Groups** action|**Refresh User Groups** action|
@@ -67,12 +71,6 @@ The users will be moved to a proper user group and the permission sets will be u
 |Update the user record based on actual information in Office 365: State, Full Name, Contact Email, Authentication Email.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synchronize user plans (licenses) with licenses and roles assigned in Office 365 (AAD).<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from administrators.)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|
-
-> [!NOTE]
-> All regular users in a solution must be assigned the same license, Essential or Premium.
-> For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
-
-###
 
 ## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].

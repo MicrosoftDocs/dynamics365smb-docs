@@ -63,8 +63,11 @@ The users will be moved to a proper user group and the permission sets will be u
 > For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
 ### Overview of Scope and Effect of Actions on the **Users** page
+When a user first signs in to [!INCLUDE[d365fin](includes/d365fin_md.md)], a number of settings are made automatically. These are listed in the second column in the table below.
 
-|What happens when:|The user signs in for the first time.|**Get Users from Office 365** action|**Update users from Office 365** action|**Restore User Default User Groups** action|**Refresh User Groups** action|
+When the administrator uses the actions on the **Users** page, the same or other settings are made. These are listed in the last four columns in the table below.
+
+|What happens when:|First sign-in|Get Users from Office 365|Update Users from Office 365|Restore User Default User Groups|Refresh User Groups|
 |-|-|-|-|-|-|
 |Scope:|Current user|New users in Office 365 (AAD)|Multiple selected users|Single selected user (except current)|Multiple selected users|
 |Create the new user and assign SUPER permission set.<br /><br />Platform|**X**|**X**| | | |

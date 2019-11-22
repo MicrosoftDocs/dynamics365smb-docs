@@ -69,11 +69,11 @@ When the administrator uses the actions on the **Users** page, the same or other
 
 |What happens when:|First sign-in|Get Users from Office 365|Update Users from Office 365|Restore User Default User Groups|Refresh User Groups|
 |-|-|-|-|-|-|
-|Scope:|Current user|New users in Office 365 (AAD)|Multiple selected users|Single selected user (except current)|Multiple selected users|
+|Scope:|Current user|New users in Office 365|Multiple selected users|Single selected user (except current)|Multiple selected users|
 |Create the new user and assign SUPER permission set.<br /><br />Platform|**X**|**X**| | | |
 |Update the user record based on actual information in Office 365: State, Full Name, Contact Email, Authentication Email.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
-|Synchronize user plans (licenses) with licenses and roles assigned in Office 365 (AAD).<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
-|Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from administrators.)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|
+|Synchronize user plans (licenses) with licenses and roles assigned in Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from administrators.)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|
 
 ## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].

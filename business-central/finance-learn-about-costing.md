@@ -35,9 +35,6 @@ Managing inventory costs is concerned with recording and reporting business oper
 |Learn how item charges, such as freight and insurance, can assign additional cost components to an item's unit cost.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|  
 |Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
 |Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
-  
-<br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4b0SB]
 
 ## See Also
 [Managing Inventory Costs](finance-manage-inventory-costs.md)    

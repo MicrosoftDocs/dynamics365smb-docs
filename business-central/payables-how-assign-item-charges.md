@@ -33,6 +33,12 @@ For both purchase and sales documents, you can assign an item charge in two ways
 > [!NOTE]  
 >   You can assign item charges to orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
 
+## Example
+This video shows how to handle an additional shipping cost as part of cost accounting.
+  
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4b0SB]
+
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
 

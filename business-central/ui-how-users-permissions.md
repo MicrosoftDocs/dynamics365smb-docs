@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/11/2019
+ms.date: 11/22/2019
 ms.author: sgroespe
 
 ---
@@ -55,11 +55,28 @@ Sometimes you may need to change the license that is assigned to a user. For exa
 2. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as an administrator.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 4. On the **Users** page, choose the **Refresh all User Groups** action.
+
 The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > All regular users in a solution must be assigned the same license, Essential or Premium.
 > For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+
+### Synchronization with Office 365
+When a license is assigned to a user in Office 365, there are two ways to create the user in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The system will do it automatically when the user signs in for the first time, or the administrator can add the user by choosing the **Get Users from Office 365** action on the **Users** page.
+
+In both cases, a number of additional settings are made automatically. These are listed in the second and third columns
+in the table below.
+
+If you change the user in Office 365 afterwards, and you need to synchronize the changes to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use different actions on the **Users** page depending on what exactly you want to synchronize. These are listed in the last three columns in the table below.
+
+|What happens when:|First sign-in|Get Users from Office 365|Update Users from Office 365|Restore User Default User Groups|Refresh User Groups|
+|-|-|-|-|-|-|
+|Scope:|Current user|New users in Office 365|Multiple selected users|Single selected user (except current)|Multiple selected users|
+|Create the new user and assign SUPER permission set.<br /><br />Platform|**X**|**X**| | | |
+|Update the user record based on actual information in Office 365: State, Full Name, Contact Email, Authentication Email.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Synchronize user plans (licenses) with licenses and roles assigned in Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from administrators.)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|
 
 ## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].

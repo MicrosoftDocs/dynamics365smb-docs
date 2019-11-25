@@ -223,10 +223,10 @@
 ### [Enabling Your Business Data for Power BI](admin-powerbi.md)
 ### [Viewing List Data in Power BI Reports in Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
-## Using Flow with Business Central
+## Using Power Automate with Business Central
 ### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
-### [Troubleshooting Integration with Microsoft Flow - Request URL Too Long](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Connecting to Your Business Central Data to Build a Business App Using PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Using Power Apps with Business Central
+### [Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 ## [Getting Business Central on Your Mobile Device](install-mobile-app.md)
 ## [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)

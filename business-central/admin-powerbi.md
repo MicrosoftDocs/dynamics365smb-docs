@@ -18,7 +18,7 @@ ms.author: bmeier
 
 Getting insights into your [!INCLUDE[prodshort](includes/prodshort.md)] data is easy with the [!INCLUDE[prodshort](includes/prodshort.md)] apps for Power BI. Power BI retrieves your data and then builds an out-of-the-box dashboard and reports based on that data.  
 
-You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 > [!IMPORTANT]
 > The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. To install a Power BI App, you must also have a Power BI Pro license.  Once the Power BI App is installed, it may be shared with users with any license type.

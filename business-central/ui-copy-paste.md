@@ -51,7 +51,7 @@ Yes. This is pasted as a nicely-formatted table that preserves indentation, nume
 ## In which lists can I copy and paste rows?
 You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
 
-On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the [Editable property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
+On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the [Editable property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) on the page or [PasteIsValid property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) on the source table.
 
 ## On which clients is copy and paste available?
 Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.

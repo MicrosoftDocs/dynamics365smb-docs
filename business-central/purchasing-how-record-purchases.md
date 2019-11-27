@@ -32,7 +32,7 @@ The item card can be of type **Inventory**, **Service**, and **Non-Inventory** t
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4b3tt]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## To create a purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  

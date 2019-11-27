@@ -16,7 +16,7 @@ ms.author: edupont
 
 You can make your [!INCLUDE[prodlong](includes/prodlong.md)] data available as a data source in Power BI and build powerful reports of the state of your business.  
 
-You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
+You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).  
 
 ## To add [!INCLUDE[prodshort](includes/prodshort.md)] as a data source in Power BI Desktop
 

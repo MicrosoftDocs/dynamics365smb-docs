@@ -35,7 +35,7 @@ Bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] services to Microsoft App
 
 The new development tools enable to you to build extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
+Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
 
 To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[prodshort](includes/prodshort.md)], Power BI, and Power Apps to AppSource. Learn more about the [Consulting Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
@@ -59,9 +59,9 @@ Since every business is unique, with [Customizing Tenants](/dynamics365/business
 ## Where Do I Learn more?
 To learn more about the Microsoft AppSource consulting services offerings, see the following links:
 
-[AppSource Consulting Offerings](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[AppSource Consulting Offerings](https://appsource.microsoft.com/marketplace/consulting-services)  
 [Partner Eligibility](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
-[Partner Nomination Form](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
+[Partner Nomination Form](https://appsource.microsoft.com/partners/list-consulting-service)  
 
 ## The Ready to Go Program
 The Ready to Go program is designed to support you in bringing your [!INCLUDE[d365fin](includes/d365fin_md.md)] offering into Microsoft AppSource. The program includes:
@@ -78,6 +78,6 @@ The standard version of the product includes an increasing number of extensions 
 ## See Also
 [Getting Started](product-get-started.md)  
 
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

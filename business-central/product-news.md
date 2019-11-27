@@ -33,7 +33,7 @@ For the partner community, we publish information on [Microsoft Dynamics 365 Bus
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Business Central pricing](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
+[Business Central pricing](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central Community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

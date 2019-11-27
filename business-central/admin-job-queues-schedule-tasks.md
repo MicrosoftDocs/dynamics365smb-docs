@@ -108,6 +108,9 @@ When a job queue is activated manually, it is run with the credentials of the us
 ## Using Job Queues Effectively  
 The job queue entry record has many fields whose purpose is to carry parameters into a codeunit that you have specified to be run with a job queue. This also means that codeunits that are to be run via the job queue must be specified with the Job Queue Entry record as a parameter in the **OnRun** trigger. This helps provide an extra level of security, as this prevents users from running random codeunits via the job queue. If the user must pass parameters to a report, the only way to do this is by wrapping the report execution into a codeunit, which then parses the input parameters and enters them into the report before executing it.  
 
+## Scheduling Synchronization Between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]
+If you have integrated [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[crm_md](includes/crm_md.md)], you can use the the job queue to schedule when you want to synchronize data for the records that you have coupled in the two business apps. Depending on direction and rules that you have defined for the integration, the synchronization jobs can also create new records in the destination app to match those in the source. For example, if a salesperson creates a new contact in [!INCLUDE[crm_md](includes/crm_md.md)], the synchronization job can create that contact for the coupled salesperson in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more informtaion, see [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+
 ## See Also  
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

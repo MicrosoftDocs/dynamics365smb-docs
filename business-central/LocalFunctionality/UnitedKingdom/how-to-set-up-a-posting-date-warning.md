@@ -1,8 +1,6 @@
 ---
     title: How to Set Up a Posting Date Warning | Microsoft Docs
     description: A warning message will be displayed when you post or batch post sales and purchase documents with a posting date not same as the work date. You must set up for this on the Sales Receivables Setup and Purchases Payables Setup pages.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

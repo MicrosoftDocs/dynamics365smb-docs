@@ -2,8 +2,6 @@
     title: How to Prepare for VAT Transactions Reports
     description: You must submit periodic reports to the tax authorities to list all transactions that include VAT.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

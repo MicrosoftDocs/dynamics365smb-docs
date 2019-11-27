@@ -1,8 +1,6 @@
 ---
     title: Specify Colored Indicators to Customize Visual Signals About a Cue's Activity for the Company or Individual Users | Microsoft Docs
     description: As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
-    services: project-madeira
-    documentationcenter: ''
     author: jswymer
 
     ms.service: dynamics365-business-central

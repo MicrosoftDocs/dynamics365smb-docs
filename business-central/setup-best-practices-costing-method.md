@@ -1,8 +1,6 @@
 ---
     title: Setup Best Practices - Costing Method | Microsoft Docs
     description: The Costing Method on the item card defines item’s cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

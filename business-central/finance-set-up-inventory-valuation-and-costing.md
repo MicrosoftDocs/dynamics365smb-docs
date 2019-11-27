@@ -1,8 +1,6 @@
 ---
     title: Set Up Inventory Valuation and Costing | Microsoft Docs
     description: The following table describes a sequence of tasks, with links to the topics that describe them.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

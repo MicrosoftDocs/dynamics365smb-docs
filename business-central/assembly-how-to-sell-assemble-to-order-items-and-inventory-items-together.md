@@ -1,8 +1,6 @@
 ---
     title: Sell Assemble-to-Order Items and Inventory Items Together | Microsoft Docs
     description: If an assembly item is set up for assemble-to-stock, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. But if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity on the fly.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

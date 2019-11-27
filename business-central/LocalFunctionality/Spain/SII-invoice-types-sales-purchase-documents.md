@@ -2,8 +2,6 @@
     title: Overview of SII Invoice Types in Sales and Purchase Documents
     description: Shows the output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Connect to Dynamics 365 Sales | Microsoft Docs
     description: You can integrate with Dynamics 365 Sales.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central

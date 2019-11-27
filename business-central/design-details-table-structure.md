@@ -1,8 +1,6 @@
 ---
     title: Design Details - Table Structure | Microsoft Docs
     description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

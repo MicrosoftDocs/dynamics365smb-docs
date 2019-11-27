@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Delivery Reminder Terms, Levels, and Text
     description: To create delivery reminders, you must perform certain setup tasks.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

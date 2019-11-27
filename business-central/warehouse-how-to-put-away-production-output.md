@@ -1,8 +1,6 @@
 ---
     title: How to Put Away Production Output | Microsoft Docs
     description: How you put away your output from production depends on how your warehouse is set up as a location.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

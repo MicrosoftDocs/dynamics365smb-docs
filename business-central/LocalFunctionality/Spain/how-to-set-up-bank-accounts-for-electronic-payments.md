@@ -2,8 +2,6 @@
     title: How to Set Up Bank Accounts for Electronic Payments
     description: In Business Central, you can set up bank accounts to make electronic payments.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

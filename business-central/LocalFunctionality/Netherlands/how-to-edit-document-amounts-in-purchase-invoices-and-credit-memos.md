@@ -2,8 +2,6 @@
     title: How to Edit Document Amounts in Purchase Invoices and Credit Memos
     description: You can easily edit document amounts in purchase invoices and credit memos.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

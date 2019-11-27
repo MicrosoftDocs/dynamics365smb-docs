@@ -1,8 +1,6 @@
 ---
     title: Design Details - Costing Methods | Microsoft Docs
     description: The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

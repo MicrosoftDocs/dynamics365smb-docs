@@ -1,8 +1,6 @@
 ---
     title: Design Details - Dimension Set Entries | Microsoft Docs
     description: This documentation provides detailed technical insight into the concepts and principles that are used to redesign the dimension entry storing and posting feature.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

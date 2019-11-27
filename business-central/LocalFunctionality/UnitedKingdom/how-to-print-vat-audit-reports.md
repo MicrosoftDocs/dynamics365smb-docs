@@ -1,8 +1,6 @@
 ---
     title: How to Print VAT Audit Reports | Microsoft Docs
     description: All vendors must export the data required for auditing in a Content Separated Value (CSV) file format.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

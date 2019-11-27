@@ -1,8 +1,6 @@
 ---
     title: Telebanking
     description: Based on both sales and purchase transactions, telebanking enables you to generate your payments and collections and interchange them with your bank electronically.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

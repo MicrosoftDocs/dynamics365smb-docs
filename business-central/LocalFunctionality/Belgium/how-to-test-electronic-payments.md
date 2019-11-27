@@ -2,8 +2,6 @@
     title: How to Test Electronic Payments
     description: After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

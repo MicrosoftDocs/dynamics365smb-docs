@@ -1,8 +1,6 @@
 ---
     title: Set Up Service Contracts | Microsoft Docs
     description: Learn how to set up service contracts.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

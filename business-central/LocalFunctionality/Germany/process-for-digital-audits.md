@@ -2,8 +2,6 @@
     title: Digital Audits (GoBD/GDPdU)
     description: You can export data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

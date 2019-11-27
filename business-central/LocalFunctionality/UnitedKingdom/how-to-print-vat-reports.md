@@ -1,8 +1,6 @@
 ---
     title: How to Print VAT Reports | Microsoft Docs
     description: Learn about the reports that you can use to report VAT information.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

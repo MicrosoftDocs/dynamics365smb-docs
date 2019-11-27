@@ -2,8 +2,6 @@
     title: How to Limit the Posting Period
     description: You can limit the period by which posting is permitted on three different levels, by company, by user, and by template.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

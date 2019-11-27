@@ -2,8 +2,6 @@
     title: How to Print Balance Sheet and Income Statement Reports
     description: You can print balance sheet reports and income statement reports to submit to banks and other authorities.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

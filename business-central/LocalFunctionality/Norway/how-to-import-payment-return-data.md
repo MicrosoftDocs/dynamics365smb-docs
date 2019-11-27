@@ -2,8 +2,6 @@
     title: How to Import Payment Return Data
     description: To import receipt and settlement returns, use the Rem. payment order – import page.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

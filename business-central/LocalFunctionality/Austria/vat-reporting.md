@@ -1,8 +1,6 @@
 ---
     title: VAT Reporting
     description: You can report VAT electronically to the tax authorities.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

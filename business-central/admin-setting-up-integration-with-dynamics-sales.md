@@ -1,8 +1,6 @@
 ---
     title: Setting Up User Accounts for Integrating with Dynamics 365 Sales | Microsoft Docs
     description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central

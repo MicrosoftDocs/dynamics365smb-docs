@@ -86,7 +86,7 @@ To cancel ledger entries for multiple fixed assets at a time, use the **Cancel F
 ## To post the salvage value together with the acquisition cost
 You can post the salvage value together with the acquisition cost from a fixed asset G/L journal.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 2. On the **Fixed Asset G/L Journal** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
 

@@ -18,7 +18,7 @@ The chart of accounts shows the ledger accounts that store your financial data. 
 However, you can change the default accounts, and you can add new accounts. 
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43KO9]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
 
 
 ## Adding or Changing Accounts

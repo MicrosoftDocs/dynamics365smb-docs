@@ -1,8 +1,6 @@
 ---
     title: Design Details - Item Tracking in the Warehouse | Microsoft Docs
     description: Serial number and lot number handling is primarily a warehouse task and therefore all inbound and outbound warehouse documents have standard functionality for assigning and selecting item tracking numbers. However, because the reservation system is based on item ledger entries, warehouse activity documents that register only warehouse entries are not fully supported.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

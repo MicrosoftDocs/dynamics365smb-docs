@@ -2,8 +2,6 @@
     title: How to Set Up KID Numbers on Sales Documents
     description: Kunde ID (KID) is a customer identification number that provides a payment reference to the vendor and ensures that the vendor is posting the payment correctly.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

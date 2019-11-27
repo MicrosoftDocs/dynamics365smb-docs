@@ -1,8 +1,6 @@
 ---
     title: How to Create Check Installments
     description: Describes how to create check installments for post-dated checks.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article

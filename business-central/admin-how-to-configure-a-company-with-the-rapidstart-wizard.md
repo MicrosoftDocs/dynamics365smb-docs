@@ -1,8 +1,6 @@
 ---
     title: How to Configure a Company with the RapidStart Wizard | Microsoft Docs
     description: You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Transferring and Posting Cost Entries | Microsoft Docs
     description: Before you define cost allocations, you must understand where cost entries come from.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

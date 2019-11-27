@@ -1,8 +1,6 @@
 ---
     title: About Cost Accounting | Microsoft Docs
     description: Cost accounting can help you understand the costs of running a business.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

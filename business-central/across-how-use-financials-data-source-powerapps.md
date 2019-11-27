@@ -22,7 +22,7 @@ You can make your [!INCLUDE[prodshort](includes/prodshort.md)] data available as
 
 ## To add [!INCLUDE[prodshort](includes/prodshort.md)] as a data source in Power Apps
 
-1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/), and then sign in.
+1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
 2. On the Home page, choose the **Apps**, **Create an app** and **Canvas** to create a new canvas app. This app will be designed for use on a mobile device, but you can also choose to use another template.
 
     The next step to create a Power App is to select your data. Choose the Arrow icon then choose the **New connection** option in the upper left side of the page.

@@ -1,8 +1,6 @@
 ---
     title: Setting Up Service Management | Microsoft Docs
     description: Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -53,7 +53,7 @@ Some system views can have unique layouts of the columns in the list. For exampl
 ### What does the Show System Filters link do?
 On some list pages, the filter pane will display **Show system filters** at the bottom of the filter pane when the page includes filters specified by the system. These special filters are typically used to display records based on the current context, such as when a list of orders has to be filtered for a specific customer.
 
-System filters are set by developers using filter group 0. For technical details about system filters, see [Filtergroup Function](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+System filters are set by developers using filter group 0. For technical details about system filters, see [Filtergroup Method](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### I see multiple views on my page, but I did not create them. Where did they come from?
 The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.

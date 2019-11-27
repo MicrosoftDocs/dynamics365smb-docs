@@ -1,8 +1,6 @@
 ---
-    title: Design Details - Demand at Blank Location | Microsoft Docs
-    description: When a user creates a demand event, such as a sales order line, the program allows the user to sometimes specify a location code and other times not, that is, use blank location.
-    services: project-madeira
-    documentationcenter: ''
+    title: Design Details - Demand and Supply | Microsoft Docs
+    description: This topic introduces the concept of demand, which is the common term used for any kind of gross demand, such as a sales order and component need from a production order.
     author: SorenGP
 
     ms.service: dynamics365-business-central

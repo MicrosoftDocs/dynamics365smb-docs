@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Shipping Methods | Microsoft Docs
     description: You can set up a code for each of your offered shipment methods, such as  and enter information about them.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

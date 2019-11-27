@@ -2,8 +2,6 @@
     title: How to Set Up and Export Sales VAT Advance Notifications
     description: In Business Central, to create valid sales VAT advance notifications, you must perform certain setup.
 
-    services: project-madeira
-    documentationcenter: ''
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central

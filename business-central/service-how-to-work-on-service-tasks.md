@@ -1,8 +1,6 @@
 ---
     title: How to Work on Service Tasks | Microsoft Docs
     description: After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

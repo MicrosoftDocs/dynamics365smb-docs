@@ -1,8 +1,6 @@
 ---
     title: Business Process Walkthroughs | Microsoft Docs
     description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

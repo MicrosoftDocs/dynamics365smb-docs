@@ -2,8 +2,6 @@
     title: How to Indent and Validate Chart of Accounts
     description: You can indent and validate the chart of accounts on the G/L Account Card page. You can enter a maximum of 20 numbers. Accounts are sorted in string order.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

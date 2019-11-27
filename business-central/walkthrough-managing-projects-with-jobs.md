@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Managing Projects with Jobs | Microsoft Docs
     description: This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

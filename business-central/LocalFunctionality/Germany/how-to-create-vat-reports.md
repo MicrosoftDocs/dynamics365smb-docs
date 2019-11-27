@@ -1,8 +1,6 @@
 ---
     title: How to Create VAT Reports
     description: You can configure different types of VAT reports based on requirements. Then, when you have to submit a VAT report, you can create it on the VAT Report page and then export it in electronic format that conforms to the ELMA5 format requirements.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

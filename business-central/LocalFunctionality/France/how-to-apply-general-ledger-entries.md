@@ -2,8 +2,6 @@
     title: How to Apply General Ledger Entries
     description: You apply general ledger entries to justify ledger balances on asset and liability accounts.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

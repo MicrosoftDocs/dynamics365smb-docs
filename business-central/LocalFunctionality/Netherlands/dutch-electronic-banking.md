@@ -1,8 +1,6 @@
 ---
     title: Dutch Electronic Banking
     description: Electronic banking functionality allows you to create electronic payment files and direct debit files, and to import electronic bank statements from supported bank software.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Tips and Tricks - RapidStart Services | Microsoft Docs
     description: When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

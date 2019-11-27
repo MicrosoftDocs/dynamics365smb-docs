@@ -1,8 +1,6 @@
 ---
     title: How to Post Capacities | Microsoft Docs
     description: In the capacity journal, you post consumed capacities that are not assigned to the production order. For example, maintenance work must be assigned to capacity, but not to a production order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

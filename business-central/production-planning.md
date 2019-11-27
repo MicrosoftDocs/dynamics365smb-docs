@@ -1,8 +1,6 @@
 ---
     title: Supply Planning | Microsoft Docs
     description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

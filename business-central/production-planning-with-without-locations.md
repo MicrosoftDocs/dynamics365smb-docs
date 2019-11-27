@@ -1,8 +1,6 @@
 ---
     title: Planning With or Without Locations | Microsoft Docs
     description: Planning with or without location codes on demand lines is important to understand.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

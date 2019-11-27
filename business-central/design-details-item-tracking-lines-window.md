@@ -1,8 +1,6 @@
 ---
     title: Design Details - Item Tracking Lines Page | Microsoft Docs
     description: Read about how to managethe flow of serial and lot numbers in your inventory.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

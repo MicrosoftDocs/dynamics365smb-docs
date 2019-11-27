@@ -1,8 +1,6 @@
 ---
     title: Design Details - Expected Cost Posting | Microsoft Docs
     description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

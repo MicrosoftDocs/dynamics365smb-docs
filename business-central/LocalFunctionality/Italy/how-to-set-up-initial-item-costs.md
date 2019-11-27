@@ -2,8 +2,6 @@
     title: How to Set Up Initial Item Costs
     description: When you set up Business Central in your organization.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

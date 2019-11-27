@@ -22,7 +22,7 @@ The same payment methods are used for sales and purchase documents. For example,
 
 Credit memos for returns, however, are exceptions because money is flowing in the opposite directions, from you to your customer and from your vendor to you. Therefore, a default payment method is not assigned to credit memos. There is, however, a workaround if you have specified terms of payment for the customer or vendor. Though the **Calc. Pmt. Disc. on Cr. Memos** field is not intended for this, if you choose the check box on the **Payment Terms** page a default payment method will be added when you create a credit memo. <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE476Ys]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys]
 
 ## To set up a payment method
 [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few payment methods that businesses often use. You can, however, add as many as you need.

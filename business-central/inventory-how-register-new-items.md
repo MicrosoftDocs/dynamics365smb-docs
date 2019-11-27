@@ -32,7 +32,7 @@ Items that you offer to your customers but you do not want manage in your system
 
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## To create a new item card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  

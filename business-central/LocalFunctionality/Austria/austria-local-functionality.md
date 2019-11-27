@@ -1,8 +1,6 @@
 ---
     title: Austria Local Functionality
     description: The following topics describe the local functionality in the Austrian version of Business Central.
-    services: project-madeira
-    documentationcenter: ''
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central

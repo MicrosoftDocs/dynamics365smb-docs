@@ -25,11 +25,11 @@ If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions
 The "Ready to Go" program is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your coyntrye or region. For more information about the resources available to you through the "Ready to Go" program", see [aka.ms/readytogo](https://aka.ms/readytogo). Learn more about becoming a reseller at [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
 
 Sign up for a trial at [https://dynamics.microsoft.com/business-central/overview/
-](https://dynamics.microsoft.com/en-us/business-central/overview/
+](https://dynamics.microsoft.com/business-central/overview/
 ), and send feedback at [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
 
 ## See Also
 
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  

@@ -89,8 +89,6 @@ You can post the salvage value together with the acquisition cost from a fixed a
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 2. On the **Fixed Asset G/L Journal** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
-
-  If the field is not visible, right-click the header and add it with the **Show/Hide Column** function.
 4. Choose the **Post** action.
 
 > [!NOTE]

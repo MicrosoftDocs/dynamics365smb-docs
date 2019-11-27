@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
 
 ---
@@ -92,7 +92,10 @@ You can post the salvage value together with the acquisition cost from a fixed a
 4. Choose the **Post** action.
 
 > [!NOTE]  
->   The **Salvage Value** posting type is an option on the **Fixed Asset Journal** page only. It is not available on the **Fixed Asset G/L Journal** page because salvage value is never posted to the general ledger.
+> The **Salvage Value** posting type is an option on the **Fixed Asset Journal** page only. It is not available on the **Fixed Asset G/L Journal** page because salvage value is never posted to the general ledger.
+
+> [!NOTE]
+> If a salvage value exists for a fixed asset, then it will override the value in the **Ending Book Value** field on the **FA Depreciation Books** page. For more information, see [To manage the ending book value](fa-how-depreciate-amortize.md#To-manage-the-ending-book-value). 
 
 ## See Also
 [Fixed Assets](fa-manage.md)  

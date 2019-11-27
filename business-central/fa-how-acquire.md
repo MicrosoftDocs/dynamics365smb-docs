@@ -84,7 +84,7 @@ For example, if you post an acquisition with the wrong date, you must correct it
 To cancel ledger entries for multiple fixed assets at a time, use the **Cancel FA Ledger Entries** batch job.
 
 ## To post the salvage value together with the acquisition cost
-You can post the salvage value together with the acquisition cost from a fixed asset journal or a fixed asset G/L journal. The following describes how to do it on the **Fixed Asset Journals** page.
+You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.
 2. On the **Fixed Asset Journals** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).

@@ -28,7 +28,7 @@ Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365f
 
 We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
 > [!Note]  
-> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email).   
+> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).   
 
 ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
 
@@ -39,7 +39,7 @@ We have made it easy for you to invite your external accountant. Simply open the
 [!INCLUDE[d365fin](includes/d365fin_md.md)] includes at no charge, three External Accountant licenses for customers who have external accountants whom they want to give access to their [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information about licensing, see [Microsoft Dynamics 365 Busincess Central Licencing Guide] 
 Ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner to add external account license to your subscription. 
 When external accountant license is available, your administrator or partner can add external user via Azure Portal and assign this user the External Accountant license. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
-The assisted setup allows you to perform these steps right from [!INCLUDE[d365fin](includes/d365fin_md.md)]. As this task requires access to managing users and licenses in Azure AD, the user that performs this task must have assigned the Global admin role or User admin role in the Office 365 admin center. For more information, see [About admin roles](https://docs.microsoft.com/en-us/office365/admin/add-users/about-admin-roles) in the Office 365 admin content. 
+The assisted setup allows you to perform these steps right from [!INCLUDE[d365fin](includes/d365fin_md.md)]. As this task requires access to managing users and licenses in Azure AD, the user that performs this task must have assigned the Global admin role or User admin role in the Office 365 admin center. For more information, see [About admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) in the Office 365 admin content. 
 
 ## Accountant Hub
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

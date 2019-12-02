@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.author: edupont
 
 ---
@@ -36,10 +36,11 @@ We have made it easy for you to invite your external accountant. Simply open the
 > The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.  
 
 ### Behind the scenes
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes at no charge, three External Accountant licenses for customers who have external accountants whom they want to give access to their [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information about licensing, see [Microsoft Dynamics 365 Busincess Central Licencing Guide] 
-Ask your [!INCLUDE[d365fin](includes/d365fin_md.md)] partner to add external account license to your subscription. 
-When external accountant license is available, your administrator or partner can add external user via Azure Portal and assign this user the External Accountant license. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
-The assisted setup allows you to perform these steps right from [!INCLUDE[d365fin](includes/d365fin_md.md)]. As this task requires access to managing users and licenses in Azure AD, the user that performs this task must have assigned the Global admin role or User admin role in the Office 365 admin center. For more information, see [About admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) in the Office 365 admin content. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. If your company use an external accountant, you can give access to your [!INCLUDE[d365fin](includes/d365fin_md.md)] by assigning them such a license. For more information about licensing, see the [Microsoft Dynamics 365 Busincess Central Licencing Guide](https://go.microsoft.com/fwlink/?LinkId=871590). 
+
+If your subscription still has an available license, your administrator or reselling partner can add external user via Azure Portal and assign this user the External Accountant license. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](/azure/active-directory/b2b/add-users-administrator).
+
+You can then invite the accountant from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Invite External Accountant** assisted setup guide. However, because this task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin center. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content. 
 
 ## Accountant Hub
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

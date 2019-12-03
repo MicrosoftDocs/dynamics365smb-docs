@@ -1,8 +1,6 @@
 ---
     title: How to Configure New Companies | Microsoft Docs
     description: You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

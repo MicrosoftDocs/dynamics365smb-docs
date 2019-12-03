@@ -1,8 +1,6 @@
 ---
     title: Creating Cost Budgets | Microsoft Docs
     description: This topic provides an overview of where to create and analyze cost budgets.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Design Details - Item Tracking | Microsoft Docs
     description: This topic provides an overview of design details for item tracking.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Set Up Fault Reporting in Service Management | Microsoft Docs
     description: Learn how to set up fault reporting processes.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

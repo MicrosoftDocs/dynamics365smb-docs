@@ -2,8 +2,6 @@
     title: Vendor Payments and Customer Bills Overview
     description: In Business Central, you can manage automatic bills to customers and from vendors.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

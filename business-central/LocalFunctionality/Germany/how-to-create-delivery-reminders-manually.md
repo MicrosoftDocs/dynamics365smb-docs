@@ -1,8 +1,6 @@
 ---
     title: How to Create Delivery Reminders Manually
     description: Remind customers of late delivery.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

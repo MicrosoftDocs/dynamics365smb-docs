@@ -1,8 +1,6 @@
 ---
     title: How to Create a Demand Forecast | Microsoft Docs
     description: You can create sales and production forecasts with the **Demand Forecast** page.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -2,8 +2,6 @@
     title: How to Print General Ledger Setup Information
     description: Before you use Business Central in the daily business, you can run the G/L Setup Information report to display the master data that you have set up.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

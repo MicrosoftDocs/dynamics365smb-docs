@@ -1,8 +1,6 @@
 ---
     title: How to Create Blanket Assembly Orders | Microsoft Docs
     description: Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

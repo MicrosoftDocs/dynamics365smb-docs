@@ -2,8 +2,6 @@
     title: How to Pay Vendors Using Electronic Payments
     description: In Business Central, you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

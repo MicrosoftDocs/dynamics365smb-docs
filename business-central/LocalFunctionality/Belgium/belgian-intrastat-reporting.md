@@ -2,8 +2,6 @@
     title: Belgian Intrastat Reporting
     description: Companies in the European Union (EU) are required to report trade with other countries in the EU. This reporting process is through Intrastat reporting or VIES (VAT Information Exchange System).
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

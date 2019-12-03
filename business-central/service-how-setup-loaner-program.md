@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Loaners | Microsoft Docs
     description: You can set up loaners that you can lend to customers to replace service items while they are in service.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: How to Batch Post Production Output and Run Times| Microsoft Docs
     description: The output quantity represents the work progress in the form of the finished quantity.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
     description: With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

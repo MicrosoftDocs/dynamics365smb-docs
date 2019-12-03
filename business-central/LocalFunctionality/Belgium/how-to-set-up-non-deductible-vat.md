@@ -2,8 +2,6 @@
     title: How to Set Up Non-Deductible VAT
     description: You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

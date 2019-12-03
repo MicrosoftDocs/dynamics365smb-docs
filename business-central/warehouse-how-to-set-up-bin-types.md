@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Bin Types | Microsoft Docs
     description: You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -2,8 +2,6 @@
     title: How to Process an LSV Collection
     description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

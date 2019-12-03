@@ -1,8 +1,6 @@
 ---
     title: How to Reserve Items | Microsoft Docs
     description: You can reserve items for sales orders, purchase orders, and production orders. You can reserve items on inventory or inbound on open document lines.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -76,7 +76,7 @@ If you are designing a Word report layout from scratch or adding new data fields
 
 ### Embedding Fonts in Word Layouts for Consistency
 
-To ensure that reports always display and print with the intended fonts, regardless of where users open or print the reports, you can embed the fonts in the Word document. However, be aware that embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, regardless of where users open or print the reports, you can embed the fonts in the Word document. However, be aware that embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  

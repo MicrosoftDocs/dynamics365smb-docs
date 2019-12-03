@@ -1,8 +1,6 @@
 ---
     title: How to Create Custom Company Configuration Packages | Microsoft Docs
     description: As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Standard Tasks for Operations | Microsoft Docs
     description: You can enter descriptions of standard tasks.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

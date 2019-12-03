@@ -2,8 +2,6 @@
     title: Fiscal Inventory Valuation
     description: You must submit an annual report that shows the monetary value of inventory items for the fiscal year.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

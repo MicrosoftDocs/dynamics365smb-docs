@@ -1,8 +1,6 @@
 ---
     title: Dutch Post Codes
     description: In the Netherlands, a company called Cendris delivers post code and post code updates for your business. These updates are important for marketing and relationship management activities.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
 
 ---
@@ -36,14 +36,14 @@ Because sales prices and sales line discounts are based on a combination of item
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Prices** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Prices** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 ## To set up a sales line discount for a customer
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Line Discounts** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 ## To set up an invoice discount for a customer

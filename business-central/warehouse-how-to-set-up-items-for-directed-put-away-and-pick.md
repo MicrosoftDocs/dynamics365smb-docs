@@ -1,8 +1,6 @@
 ---
     title: Set Up Directed Put-away and Pick | Microsoft Docs
     description: When you set up a warehouse location for directed put-away and pick, you have new functionality available to you to help run the warehouse in the most efficient way possible.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

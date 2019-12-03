@@ -2,8 +2,6 @@
     title: How to Set Up Declaration Types
     description: In Business Central, there are two types of declaration.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

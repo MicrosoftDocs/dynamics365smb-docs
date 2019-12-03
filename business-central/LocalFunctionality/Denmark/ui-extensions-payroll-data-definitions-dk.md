@@ -1,8 +1,6 @@
 ---
     title: Payroll Data Definitions (DK) | Microsoft Docs
     description: This extension makes it easy to exchange data with payroll service providers in Denmark.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central

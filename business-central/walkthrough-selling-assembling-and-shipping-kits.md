@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Selling, Assembling, and Shipping Kits | Microsoft Docs
     description: To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: Design Details - Posting Engine Structure | Microsoft Docs
     description: Posting interface and some other functions in codeunit 12 use posting engine functions to prepare and insert general ledger entry and VAT entry records. The posting engine is also responsible for general ledger register creation.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,8 +1,6 @@
 ---
     title: How to Create Journal Opening Balances | Microsoft Docs
     description: Business Central includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

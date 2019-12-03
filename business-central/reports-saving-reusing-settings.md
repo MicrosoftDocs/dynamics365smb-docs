@@ -48,7 +48,7 @@ From the **Report Settings** page, you can:
 > Consider the name that you give a saved settings entry. If you create a saved settings entry for all users, and you give it the same name as an existing saved settings entry that is assigned to a specific user only, then that user will not be able to use the saved settings entry that is assigned to everyone.  In the **Saved Settings** section on the request page, the user will see two saved settings entries with the same name. However, no matter which option they choose, the user-specific saved settings entry will be used.
 
 > [!NOTE]
-> The Saved Settings feature is available only on reports where the [SaveValues property](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
+> The Saved Settings feature is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
 
 ## See Also
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

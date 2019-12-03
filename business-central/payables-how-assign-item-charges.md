@@ -36,7 +36,7 @@ For both purchase and sales documents, you can assign an item charge in two ways
 ## Example
 This video shows how to handle an additional shipping cost as part of inventory costing.
 <br><br>  
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.

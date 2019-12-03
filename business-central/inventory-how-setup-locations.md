@@ -21,7 +21,7 @@ If you buy, store, or sell items at more than one place or warehouse, you must s
 You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. For more information, see [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4aQvq]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
 
 ## To create a location card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.

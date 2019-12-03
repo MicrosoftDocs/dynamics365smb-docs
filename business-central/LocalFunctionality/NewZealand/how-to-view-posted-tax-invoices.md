@@ -1,8 +1,6 @@
 ---
     title: How to View Posted Tax Invoices
     description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article

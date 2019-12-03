@@ -26,7 +26,7 @@ Vendor cards hold the information that is required to buy products from the vend
 >   If vendor templates exist for different vendor types, then a page appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
 
 ## To create a new vendor card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  

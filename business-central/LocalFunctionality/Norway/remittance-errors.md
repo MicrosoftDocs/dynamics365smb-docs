@@ -2,8 +2,6 @@
     title: Remittance Errors
     description: Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported on the Return Error page.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -2,8 +2,6 @@
     title: How to Void Electronic Payments
     description: In Business Central, you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

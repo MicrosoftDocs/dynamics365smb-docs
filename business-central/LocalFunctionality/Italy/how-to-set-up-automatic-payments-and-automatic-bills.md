@@ -2,8 +2,6 @@
     title: How to Set Up Automatic Payments and Automatic Bills
     description: In Business Central, you can manage automatic payments and bills.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

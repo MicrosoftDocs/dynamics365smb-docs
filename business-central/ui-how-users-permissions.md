@@ -39,6 +39,9 @@ To add users from the Microsoft 365 Admin Center to [!INCLUDE[d365fin](includes/
 
 Any new user that has been created for your Office 365 subscription will be added on the **Users** page. Users are assigned permission sets according to the license assigned to the user in Office 365. You can then proceed to assign more detailed permissions to users and to organize them in user groups for easy permission management. For more information, see [To assign permission sets to users](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
 
+> [!NOTE]
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting#inviting-your-external-accountant-to-your-)
+
 ### To remove a user's access to the system
 In online deployments, you can remove a user's access to the system by setting the **State** field to **Disabled**. All references to the user will be retained, but the user can no longer sign in to the system and active sessions for the user will be terminated.
 

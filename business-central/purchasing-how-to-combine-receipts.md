@@ -1,8 +1,6 @@
 ---
     title: How to Allow Receipts of More Items than Ordered| Microsoft Docs
     description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

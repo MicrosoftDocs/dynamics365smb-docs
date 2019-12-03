@@ -1,8 +1,6 @@
 ---
     title: How to Assign Delivery Reminder Codes to Vendors
     description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

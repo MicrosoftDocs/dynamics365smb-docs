@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Business Units for Business Activity Statements
     description: Describes how to consolidate the financial statements of various companies into one financial statement.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article

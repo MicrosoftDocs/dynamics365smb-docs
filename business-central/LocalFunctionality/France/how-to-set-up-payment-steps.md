@@ -2,8 +2,6 @@
     title: How to Set Up Payment Steps
     description: To use payment management, you must set up steps for payment documents and define payment steps for each payment status.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

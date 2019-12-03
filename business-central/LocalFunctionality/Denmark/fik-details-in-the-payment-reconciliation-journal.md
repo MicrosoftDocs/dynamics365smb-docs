@@ -1,8 +1,6 @@
 ---
     title: FIK Details in the Payment Reconciliation Journal | Microsoft Docs
     description: The Transaction Text field on the Payment Reconciliation Journal page shows information about the automatic application of payments using the Danish FIK standard.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

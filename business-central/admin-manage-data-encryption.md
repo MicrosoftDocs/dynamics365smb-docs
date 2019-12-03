@@ -1,8 +1,6 @@
 ---
     title: Manage Data Encryption | Microsoft Docs
     description: You can encrypt data on the Business Central server by generating new or importing existing encryption keys that you enable on the server.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

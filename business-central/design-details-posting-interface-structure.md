@@ -1,8 +1,6 @@
 ---
     title: Design Details - Posting Interface Structure | Microsoft Docs
     description: This topic provides an overview of the global procedures in the posting interface structure.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

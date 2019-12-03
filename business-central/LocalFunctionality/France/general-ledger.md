@@ -3,8 +3,6 @@
     description: Special general ledger functionality exists for the French version of Business Central.
 
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

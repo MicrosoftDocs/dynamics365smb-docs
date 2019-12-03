@@ -2,8 +2,6 @@
     title: How to Set Up Document Printing
     description: In Business Central, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

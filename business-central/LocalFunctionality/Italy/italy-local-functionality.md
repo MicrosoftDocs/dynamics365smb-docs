@@ -2,8 +2,6 @@
     title: Italy Local Functionality
     description: The following topics describe the local functionality in the Italian version of Business Central.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

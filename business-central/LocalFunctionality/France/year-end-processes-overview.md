@@ -2,8 +2,6 @@
     title: Year End Processes Overview
     description: Year end closing in Business Central involves three steps.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

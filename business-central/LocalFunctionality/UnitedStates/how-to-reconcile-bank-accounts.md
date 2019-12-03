@@ -1,8 +1,6 @@
 ---
     title: Reconciling Bank Accounts | Microsoft Docs
     description: This topic describes how to reconcile bank account ledger entries with bank statements.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article

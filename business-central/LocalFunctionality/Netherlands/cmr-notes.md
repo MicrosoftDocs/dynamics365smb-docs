@@ -1,8 +1,6 @@
 ---
     title: CMR Notes
     description: A CMR note is a bill of lading or an international consignment note defined under the 1956 United Nations Convention for the Contract of the International Carriage of Goods by Road. This is also known as the CMR Convention.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

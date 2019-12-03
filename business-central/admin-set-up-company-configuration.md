@@ -1,8 +1,6 @@
 ---
     title: Set Up Company Configuration | Microsoft Docs
     description: The implementation process begins with the Business Central solution will require. You bundle all of this information into configuration packages.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

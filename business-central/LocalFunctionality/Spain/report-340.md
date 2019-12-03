@@ -2,8 +2,6 @@
     title: Report 340
     description: Report 340 contains information about invoices and taxes that were issued or received by your company in a given period. The report is generated in a format that is approved by the tax authorities.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

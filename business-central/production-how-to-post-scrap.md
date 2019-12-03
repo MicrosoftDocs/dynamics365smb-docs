@@ -1,8 +1,6 @@
 ---
     title: How to Post Scrap Manually | Microsoft Docs
     description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

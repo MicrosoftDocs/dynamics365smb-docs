@@ -1,8 +1,6 @@
 ---
     title: Set Up Data Exports for a Digital Audit
     description: You must set up data export record sources to be able to export data for a digital audit.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -47,7 +47,7 @@ To learn about the local functionality for each country, choose the related link
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### Other Countries
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## See Also
 [Getting Started](product-get-started.md)  

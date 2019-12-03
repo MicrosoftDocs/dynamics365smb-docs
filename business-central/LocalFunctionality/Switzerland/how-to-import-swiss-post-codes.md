@@ -2,8 +2,6 @@
     title: How to Import Swiss Post Codes
     description: You can import the latest post code file and use it to update the Post Code table. The post code file can be downloaded from the Swiss Post website. After importing the latest post code, you can define post codes for customers or vendors.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

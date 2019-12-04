@@ -23,7 +23,7 @@ Our customers must feel comfortable that the tools they use are fit for new hard
 Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the legacy Dynamics NAV Windows client is discontinued.  
 
 ## When will this take effect?
-**In October 2019**, with [!INCLUDE[prodshort](includes/prodshort.md)] in the 2019 release wave 2, we have now delivered on that promise, especially aimed at partners managing the on-premises upgrade process.
+**In October 2019**, with [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, we have now delivered on that promise, especially aimed at partners managing the on-premises upgrade process.
 
 This was first announced last year at various conferences and then with a detailed timeline earlier in 2019. For more information, see [Business Central April 2019 Update and the road ahead](https://community.dynamics.com/business/b/businesscentraldevitpro/posts/business-central-april-2019-release).
 
@@ -41,7 +41,7 @@ Dynamics NAV Client connected to [!INCLUDE[prodshort](includes/prodshort.md)] (a
 This means that you can safely continue to use the Windows client on-premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer version at some point.
 
 ## What if I really want to have an installable component or at least an icon on my desktop?
-You can always add a **browser shortcut** on your desktop or pin the web page with [!INCLUDE[prodshort](includes/prodshort.md)] to your Windows task bar. Alternatively, the Business Central **Windows 10 desktop app**, which is available from Microsoft Store, is a great way to access [!INCLUDE[prodshort](includes/prodshort.md)] both on premises and in the cloud. To get the app, go to [Microsoft Dynamics 365 Business Central](https://www.microsoft.com/en-gb/p/microsoft-dynamics-365-business-central/9nblggh4ql79?rtc=1&activetab=pivot:overviewtab).
+You can always add a **browser shortcut** on your desktop or pin the web page with [!INCLUDE[prodshort](includes/prodshort.md)] to your Windows task bar. Alternatively, the Business Central **Windows 10 desktop app**, which is available from Microsoft Store, is a great way to access [!INCLUDE[prodshort](includes/prodshort.md)] both on premises and in the cloud. To get the app, go to [Microsoft Dynamics 365 Business Central](https://www.microsoft.com/en-gb/p/microsoft-dynamics-365-business-central/9nblggh4ql79?rtc=1&activetab=pivot:overviewtab) in the store.
 
 ## How does this impact mobile?
 There is **no impact** on mobile apps for [!INCLUDE[prodshort](includes/prodshort.md)] as they are already part of the modern-client family. For more information about the mobile apps, see [Getting Business Central on Your Mobile Device](install-mobile-app.md).  

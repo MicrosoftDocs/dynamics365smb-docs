@@ -5,12 +5,12 @@ author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: Frequently asked questions, Windows client 
+ms.search.keywords: Frequently asked questions, Windows client
 ms.date: 12/04/2019
 ms.author: sgroespe
 
 ---
-# FAQ About Why the Windows Client is Discontinued for Business Central
+# FAQ about Windows Client and Business Central
 
 ## I have heard "modern clients only". What is this about?  
 Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 (also known as Version 15) released October 2019, users should switch to the **modern experience** in the browser, the Android/iOS mobile apps, or the Windows 10 desktop app (available through the respective stores).

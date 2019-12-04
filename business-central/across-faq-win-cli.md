@@ -1,0 +1,76 @@
+---
+title: FAQ About Why the Windows Client is Discontinued| Microsoft Docs
+description:
+author: SorenGP
+
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 12/04/2019
+ms.author: sgroespe
+
+---
+# FAQ About why the Windows Client is Discontinued for Business Central
+
+## I have heard "modern clients only". What is this about?  
+Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] in 2019 Release Wave 2 (released October 2019, also known as version 15), users should switch to the **modern experience** in the browser, the Android/iOS mobile apps, or the Windows 10 desktop app (available through the respective stores). Connecting the Dynamics NAV client (aka the Windows client or RTC) to [!INCLUDE[prodshort](includes/prodshort.md)] is **not included** from this release onwards.
+
+## Why is Microsoft discontinuing the Windows client?
+Our customers need to be comfortable that the tools they use are fit for new hardware, operating systems, and changing environments. We have accelerated our investment in speed and productivity features for the modern browser client, thereby achieving a major milestone in its transformation into a world-class desktop experience for new and expert users alike. Customers can now access Business Central through **a range of modern clients**, which now support so many productivity features that the legacy Dynamics NAV Windows client is discontinued.  
+
+## When will this take effect?
+It was first announced last year at various conferences and then with a detailed timeline earlier in 2019. For more information, see [Business Central April 2019 Update and the road ahead](https://community.dynamics.com/business/b/businesscentraldevitpro/posts/business-central-april-2019-release).
+
+**In October 2019**, with [!INCLUDE[prodshort](includes/prodshort.md)] in the 2019 release wave 2, we have now delivered on that promise, especially for partners managing the on-premises upgrade process.
+
+## Does this impact me if I am on the cloud (SaaS) version of Business Central?
+No, this change **only impacts on-premises** installations because the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)] was already looking forward only and was never enabled to allow connections from the legacy clients. For cloud-based customers, the modern client continues to be their day-to-day toolset without any change, except for multiple productivity improvements. For more information, see [Overview of Dynamics 365 Business Central 2019 release wave 2](s/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
+
+## Does this impact me if I am on the on-premises version of Business Central?
+Yes. When you **choose to upgrade** to version 15 of Business Central, you must switch to access [!INCLUDE[prodshort](includes/prodshort.md)] using one of the modern clients. The most popular choice on desktop computers would be the web browser client where your browser is pointing to an on-premises web server using a URL, such as this example: https://myserver.mydomain.com/BC150   
+
+## Will the Windows client still be supported in older versions of NAV and Business Central?
+Dynamics NAV Client connected to [!INCLUDE[prodshort](includes/prodshort.md)] (also known as the Windows client) is **not included** in the current release of [!INCLUDE[prodshort](includes/prodshort.md)], **but remains supported** for the April 2019 release and all earlier versions of [!INCLUDE[prodshort](includes/prodshort.md)] (on premises) and Dynamics NAV, in accordance with the support lifecycle process. This means that you can safely continue to use the Windows client on-premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer version at some point.
+
+## What if I really want to have a installable component or at least an icon on my desktop?
+You can always add a **browser shortcut** on your desktop or pin the web page with [!INCLUDE[prodshort](includes/prodshort.md)] to your Windows task bar. Alternatively, the Business Central **Windows 10 app**, which is available from Microsoft Store, is a great way to access [!INCLUDE[prodshort](includes/prodshort.md)] both on premises and in the cloud. To get the Windows 10 app, go to [Apps for Business Central](https://www.microsoft.com/en-gb/p/microsoft-dynamics-365-business-central/9nblggh4ql79?rtc=1&activetab=pivot:overviewtab).
+
+## How does this impact mobile?
+There is **no impact** on mobile apps for [!INCLUDE[prodshort](includes/prodshort.md)] as they are already part of the modern-client family. For more information about the mobile apps, see [Getting Business Central on Your Mobile Device](install-mobile-app.md).  
+
+## Can I connect to Excel? What happened to the old Excel add-in?
+Yes. There are actually multiple ways to work with [!INCLUDE[prodshort](includes/prodshort.md)] and Excel, including:
+- 1. The **Open in Excel** feature that downloads any list as an Excel file for your processing or reporting.
+- 2. The **Edit in Excel** feature (by default available only in the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)]) that allows you to edit almost any list-based data in Excel and publish it back to [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Viewing and Editing in Excel From Business Central](/across-work-with-excel.md). For instruction on how to configure it for on-premises, see [Setting up the Excel Add-In for Editing Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).  
+
+Note that the legacy, COM-based Excel plugin that used to be included on the installation media is no longer supported.
+
+## Can we still use the same Outlook add-in?
+Yes, this change **does not impact the modern Outlook add-in**. In fact, it enforces its position as one of the modern-client experiences as it is based on the same familiar web experience. It is the only Outlook add-in supported right now for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Using Business Central as your Business Inbox in Outlook](admin-outlook.md).
+
+## What happened to C/SIDE, the Development Environment?
+In line with the retirement of the Windows client, [!INCLUDE[prodshort](includes/prodshort.md)] in the 2019 release wave 2 marks a milestone as the first version without the classic development environment (also known as C/SIDE). The modern developer experience, which is based on Visual Studio Code and the new AL language, supports developing large apps, such as the base application from Microsoft. Therefore, C/SIDE is discontinued for [!INCLUDE[prodshort](includes/prodshort.md)] going forward. Partners enjoy tremendous productivity and performance gains after moving to thes newest tools. For more information, see [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).
+
+## Which features are available in the web experience, and where will I find more information about the roadmap?
+[!INCLUDE[prodshort](includes/prodshort.md)] is a modern business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. It is highly adaptable and rich with features already and is being enhanced and enriched on a constant basis.
+
+The Business Central roadmap is best represented by Release Plans, which are updated every six months. For more linformation, see [Overview of Dynamics 365 Business Central 2019 release wave 2](s/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
+
+## See Also
+[Frequently Asked Questions](across-faq.md)  
+[Getting Started](product-get-started.md)  
+[Tell Me FAQ](ui-search-faq.md)  
+[Searching and Filtering FAQ](ui-search-filter-faq.md)  
+[List Views FAQ](ui-views-faq.md)  
+[Changing Language and Locale](about-locale-language.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
+[Resources for Help and Support](product-help-and-support.md)  
+[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
+[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -9,12 +9,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 12/04/2019
     ms.author: sgroespe
 
 ---
 # Migrate Customer Data
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
+
+> [!NOTE]
+> Fields of type Blob cannot be exported/imported using Excel.
 
 The **Migration Overview** and **Config. Worksheet** pages provide access to the functions and views to perform all the tasks that relate to data migration. We recommend that you migrate one table at a time, to handle dependencies in your data. In migration, you will also touch the master data tables, which contain information about customers, vendors, items, contacts, and the general ledger.  
 

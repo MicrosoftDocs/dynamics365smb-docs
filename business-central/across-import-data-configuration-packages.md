@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: edupont
 
 ---
@@ -40,6 +40,9 @@ When you export the default configuration package to Excel, the generated workbo
 
 > [!IMPORTANT]  
 >  Do not change the columns in the worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!NOTE]
+> Fields of type Blob cannot be exported/imported using Excel.
 
 ## Tables in the Default Configuration Package
 The default configuration package supports the following tables:

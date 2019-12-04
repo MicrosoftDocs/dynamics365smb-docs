@@ -39,10 +39,11 @@ Set up the DIOT extension through Assisted Setup, which provides an easy, step-b
 
 ## Optional setup for reporting Witholding Tax with the DIOT extension
 The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of Witholding Tax is currently not supported in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To work around this some users create workarounds such as posting extra lines to a predefined General Ledger Account. The DIOT extension supports reporting Witholding Tax data in the following way:
-The **VAT Posting Setup** table has a new field, **DIOT WHT %**d. By setting this field to a value other than zero you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
+The **VAT Posting Setup** table has a new field, **DIOT WHT %**. By setting this field to a value other than zero you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
 
-For example, if you have transactions that are supposed to be 10% VAT and 5% Witholding Tax, use a posting setup where VAT % is 10 and **DIOT WHT %** is 5.
-This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you will need to continue the existing workaround you may have for calculating Witholding Tax, regardless of setting up the DIOT Report extension.
+For example, if you have transactions that are supposed to be 10% VAT and 5% Witholding Tax, use a posting setup where **VAT %** is *10* and **DIOT WHT %** is *5*.  
+
+This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you will need to continue the existing workaround you may have for calculating witholding tax, regardless of setting up the DIOT Report extension.
 
 ### To create an export of DIOT report files  
 1. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose **Create DIOT Report**.  

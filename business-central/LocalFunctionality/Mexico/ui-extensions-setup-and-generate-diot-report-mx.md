@@ -1,8 +1,6 @@
 ---
-title: Setup and generate DIOT reports | Microsoft Docs
+title: Set up and generate DIOT reports | Microsoft Docs
 description: Use this extension to setup and generate DIOT declarations in Business Central for the Mexican authorities.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
@@ -16,9 +14,9 @@ ms.author: soalex
 
 ---
 
-# DIOT report - ((Declaración Informativa de Operaciones con Terceros).)
+# Set Up and Generate DIOT reports
 
-As a company in Mexico you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by generating a file that can be uploaded to SAT. This page describes how to set up this feature and generate the report. The DIOT report functionality is created as an extension (app) for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and is preinstalled in the cloud version but must be installed manually in the on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+As a company in Mexico you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by generating a file that can be uploaded to SAT. This page describes how to set up this feature and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## What does this extensions handle?
 This extension provides the following capabilities:

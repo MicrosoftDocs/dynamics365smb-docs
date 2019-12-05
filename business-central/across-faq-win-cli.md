@@ -6,23 +6,28 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Frequently asked questions, Windows client
-ms.date: 12/04/2019
+ms.date: 12/05/2019
 ms.author: sgroespe
 
 ---
-# FAQ about the Legacy Dynamics NAV Windows Client and Business Central
+# FAQ About the Windows Client and Business Central
 
-The first versions of [!INCLUDE[prodshort](includes/prodshort.md)] on-premises included an installed client derrived from Dynamics NAV. Starting with 2019 release wave 2, this component is no longer available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
+The first versions of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
 
 ## I have heard "modern clients only". What is this about?  
 Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 (also known as Version 15) released October 2019, users switch to the **modern experience** in the browser, the Android or iOS mobile apps, or the Windows 10 desktop app, which are available through the respective stores.
 
-Connecting the legacy Dynamics NAV client to [!INCLUDE[prodshort](includes/prodshort.md)] is **not supported** from this release onwards.
+Connecting the Windows client to [!INCLUDE[prodshort](includes/prodshort.md)] is **not supported** from this release onwards.
 
 ## Why is Microsoft discontinuing the Windows client?
 Our customers must feel comfortable that the tools they use are fit for new hardware, operating systems, and changing environments. We have accelerated our investment in speed and productivity features for the modern browser client, thereby achieving a major milestone in its transformation into a world-class desktop experience for both new and expert users.
 
-Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the legacy Dynamics NAV Windows client is discontinued.  
+Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the Windows client is discontinued.  
+
+## Will the Windows client still be supported in older versions of Business Central and Dynamics NAV?
+Yes. You can safely continue to use the Windows client on premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer version at some point.
+
+The Windows client **remains supported** for the Business Central April 2019 release and all earlier versions of [!INCLUDE[prodshort](includes/prodshort.md)] on premises and Dynamics NAV, in accordance with the support lifecycle process.
 
 ## When will this take effect?
 **In October 2019**, with [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, we have now delivered on that promise, especially aimed at partners managing the on-premises upgrade process.
@@ -30,17 +35,12 @@ Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **
 This was first announced last year at various conferences and then with a detailed timeline earlier in 2019. For more information, see [Business Central April 2019 Update and the road ahead](https://community.dynamics.com/business/b/businesscentraldevitpro/posts/business-central-april-2019-release).
 
 ## Does this impact me if I use Business Central online?
-No, this change **only impacts on-premises** installations because the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)] was already looking forward only and was never enabled to allow connections from the legacy clients. For online customers, the modern client continues to be their day-to-day toolset without any change, except for multiple productivity improvements.
+No, this change **only impacts on-premises** installations because the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)] was already looking forward only and was never enabled to allow connections from the Windows client. For online customers, the modern client continues to be their day-to-day toolset without any change, except for multiple productivity improvements.
 
 For more information, see [Overview of Dynamics 365 Business Central 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
 
 ## Does this impact me if I use Business Central on-premises?
 Yes. When you **choose to upgrade** to version 15 of Business Central, you must switch to access [!INCLUDE[prodshort](includes/prodshort.md)] using one of the modern clients. The most popular choice on desktop computers is the web-browser client where your browser is pointing to an on-premises web server using a URL, such as this example (not active): https://myserver.mydomain.com/BC150   
-
-## Will the Windows client still be supported in older versions of Dynamics NAV and Business Central?
-Dynamics NAV Client connected to [!INCLUDE[prodshort](includes/prodshort.md)] (also known as the Windows client) is not supported in the current release of [!INCLUDE[prodshort](includes/prodshort.md)], **but remains supported** for the April 2019 release and all earlier versions of [!INCLUDE[prodshort](includes/prodshort.md)] (on premises) and Dynamics NAV, in accordance with the support lifecycle process.
-
-This means that you can safely continue to use the Windows client on-premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer version at some point.
 
 ## What if I really want to have an installable component or at least an icon on my desktop?
 You can always add a **browser shortcut** on your desktop or pin the web page with [!INCLUDE[prodshort](includes/prodshort.md)] to your Windows task bar. Alternatively, the Business Central **Windows 10 desktop app**, which is available from Microsoft Store, is a great way to access [!INCLUDE[prodshort](includes/prodshort.md)] both on premises and in the cloud. To get the app, go to [Microsoft Dynamics 365 Business Central](https://www.microsoft.com/en-gb/p/microsoft-dynamics-365-business-central/9nblggh4ql79?rtc=1&activetab=pivot:overviewtab) in the store.

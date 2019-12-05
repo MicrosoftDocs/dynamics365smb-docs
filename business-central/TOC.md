@@ -4,7 +4,7 @@
 ## [What's New](product-news.md)
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
-## [FAQ about Windows Client and Business Central](across-faq-win-cli.md)
+## [FAQ About Windows Client and Business Central](across-faq-win-cli.md)
 ## [Resources for Help and Support](product-help-and-support.md)
 ## Find Training
 ### [Learning Catalog](readiness/readiness-learning-catalog.md)

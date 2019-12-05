@@ -35,7 +35,7 @@ The Windows client **remains supported** for the Business Central April 2019 rel
 This was first announced last year at various conferences and then with a detailed timeline earlier in 2019. For more information, see [Business Central April 2019 Update and the road ahead](https://community.dynamics.com/business/b/businesscentraldevitpro/posts/business-central-april-2019-release).
 
 ## Does this impact me if I use Business Central online?
-No, this change **only impacts on-premises** installations because the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)] was already looking forward only and was never enabled to allow connections from the Windows client. For online customers, the modern client continues to be their day-to-day toolset without any change, except for multiple productivity improvements.
+No. This change **only impacts on-premises** installations because the cloud version of [!INCLUDE[prodshort](includes/prodshort.md)] was already looking forward only and was never enabled to allow connections from the Windows client. For online customers, the modern client continues to be their day-to-day toolset without any change, except for multiple productivity improvements.
 
 For more information, see [Overview of Dynamics 365 Business Central 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
 
@@ -59,7 +59,7 @@ For more information, see [Viewing and Editing in Excel From Business Central](a
 Note that the legacy, COM-based Excel plugin that used to be included on the installation media is no longer supported.
 
 ## Can we still use the same Outlook add-in?
-Yes, this change **does not impact the modern Outlook add-in**. In fact, it enforces its position as one of the modern-client experiences as it is based on the same familiar web experience. It is the only Outlook add-in supported right now for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Using Business Central as your Business Inbox in Outlook](admin-outlook.md).
+Yes. This change **does not impact the modern Outlook add-in**. In fact, it enforces its position as one of the modern-client experiences as it is based on the same familiar web experience. It is the only Outlook add-in supported right now for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Using Business Central as your Business Inbox in Outlook](admin-outlook.md).
 
 ## What happened to C/SIDE, the legacy development environment?
 In line with the retirement of the Windows client, [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 marks a milestone as the first release without the classic development environment (also known as C/SIDE). The modern developer experience, which is based on Visual Studio Code and the new AL language, supports developing large apps, such as the base application from Microsoft.

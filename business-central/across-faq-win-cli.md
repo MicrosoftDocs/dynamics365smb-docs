@@ -12,7 +12,7 @@ ms.author: sgroespe
 ---
 # FAQ About the Windows Client and Business Central
 
-The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
+The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
 
 ## I have heard "modern clients only". What is this about?  
 Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, released October 2019, users switch to the **modern experience** in the browser, the Android or iOS mobile apps, or the Windows 10 desktop app, which are available through the respective stores.
@@ -22,7 +22,7 @@ Connecting the Windows client to [!INCLUDE[prodshort](includes/prodshort.md)] is
 ## Why is Microsoft discontinuing the Windows client?
 Our customers must feel comfortable that the tools they use are fit for new hardware, operating systems, and changing environments. We have accelerated our investment in speed and productivity features for the modern browser client, thereby achieving a major milestone in its transformation into a world-class desktop experience for both new and expert users.
 
-Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the Windows client is discontinued.  
+Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the Windows client is discontinued from [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2.  
 
 ## Will the Windows client still be supported in older releases of Business Central and Dynamics NAV?
 Yes. You can safely continue to use the Windows client on premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer release at some point.

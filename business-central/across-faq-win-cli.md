@@ -12,22 +12,22 @@ ms.author: sgroespe
 ---
 # FAQ About the Windows Client and Business Central
 
-The first versions of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
+The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
 
 ## I have heard "modern clients only". What is this about?  
-Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 (also known as Version 15) released October 2019, users switch to the **modern experience** in the browser, the Android or iOS mobile apps, or the Windows 10 desktop app, which are available through the respective stores.
+Businesses and users want to be reassured that only the newest, most advanced, and up-to-date tools are being used to access their data. With [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, released October 2019, users switch to the **modern experience** in the browser, the Android or iOS mobile apps, or the Windows 10 desktop app, which are available through the respective stores.
 
-Connecting the Windows client to [!INCLUDE[prodshort](includes/prodshort.md)] is **not supported** from this release onwards.
+Connecting the Windows client to [!INCLUDE[prodshort](includes/prodshort.md)] is **not supported** in [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 and onwards.
 
 ## Why is Microsoft discontinuing the Windows client?
 Our customers must feel comfortable that the tools they use are fit for new hardware, operating systems, and changing environments. We have accelerated our investment in speed and productivity features for the modern browser client, thereby achieving a major milestone in its transformation into a world-class desktop experience for both new and expert users.
 
 Customers can now access [!INCLUDE[prodshort](includes/prodshort.md)] through **a range of modern clients** that support so many productivity features that the Windows client is discontinued.  
 
-## Will the Windows client still be supported in older versions of Business Central and Dynamics NAV?
-Yes. You can safely continue to use the Windows client on premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer version at some point.
+## Will the Windows client still be supported in older releases of Business Central and Dynamics NAV?
+Yes. You can safely continue to use the Windows client on premises and be supported as long as you are covered by the maintenance plan. Please work with you partner to understand the timelines and define the roadmap to move to a newer release at some point.
 
-The Windows client **remains supported** for the Business Central April 2019 release and all earlier versions of [!INCLUDE[prodshort](includes/prodshort.md)] on premises and Dynamics NAV, in accordance with the support lifecycle process.
+The Windows client **remains supported** for the Business Central April 2019 release and all earlier releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises and Dynamics NAV, in accordance with the support lifecycle process.
 
 ## When will this take effect?
 **In October 2019**, with [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, we have now delivered on that promise, especially aimed at partners managing the on-premises upgrade process.
@@ -40,7 +40,7 @@ No, this change **only impacts on-premises** installations because the cloud ver
 For more information, see [Overview of Dynamics 365 Business Central 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
 
 ## Does this impact me if I use Business Central on-premises?
-Yes. When you **choose to upgrade** to version 15 of Business Central, you must switch to access [!INCLUDE[prodshort](includes/prodshort.md)] using one of the modern clients. The most popular choice on desktop computers is the web-browser client where your browser is pointing to an on-premises web server using a URL, such as this example (not active): https://myserver.mydomain.com/BC150   
+Yes. When you **choose to upgrade** to [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2, you must switch to access [!INCLUDE[prodshort](includes/prodshort.md)] using one of the modern clients. The most popular choice on desktop computers is the web-browser client where your browser is pointing to an on-premises web server using a URL, such as this example (not active): https://myserver.mydomain.com/BC150   
 
 ## What if I really want to have an installable component or at least an icon on my desktop?
 You can always add a **browser shortcut** on your desktop or pin the web page with [!INCLUDE[prodshort](includes/prodshort.md)] to your Windows task bar. Alternatively, the Business Central **Windows 10 desktop app**, which is available from Microsoft Store, is a great way to access [!INCLUDE[prodshort](includes/prodshort.md)] both on premises and in the cloud. To get the app, go to [Microsoft Dynamics 365 Business Central](https://www.microsoft.com/en-gb/p/microsoft-dynamics-365-business-central/9nblggh4ql79?rtc=1&activetab=pivot:overviewtab) in the store.
@@ -62,12 +62,14 @@ Note that the legacy, COM-based Excel plugin that used to be included on the ins
 Yes, this change **does not impact the modern Outlook add-in**. In fact, it enforces its position as one of the modern-client experiences as it is based on the same familiar web experience. It is the only Outlook add-in supported right now for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Using Business Central as your Business Inbox in Outlook](admin-outlook.md).
 
 ## What happened to C/SIDE, the legacy development environment?
-In line with the retirement of the Windows client, [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 marks a milestone as the first version without the classic development environment (also known as C/SIDE). The modern developer experience, which is based on Visual Studio Code and the new AL language, supports developing large apps, such as the base application from Microsoft.
+In line with the retirement of the Windows client, [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 marks a milestone as the first release without the classic development environment (also known as C/SIDE). The modern developer experience, which is based on Visual Studio Code and the new AL language, supports developing large apps, such as the base application from Microsoft.
 
 Therefore, C/SIDE is discontinued for [!INCLUDE[prodshort](includes/prodshort.md)] going forward. Partners enjoy tremendous productivity and performance gains after moving to thes newest tools. For more information, see [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).
 
-## Which features are available in the web experience, and where will I find more information about the roadmap?
+## Which features are available in the cloud version, and where will I find more information about the roadmap?
 [!INCLUDE[prodshort](includes/prodshort.md)] is a modern business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. It is highly adaptable and rich with features already and is being enhanced and enriched on a constant basis.
+
+Note that some features are only available in the cloud version. For more information, see [Features not implemented in on-premises deployments of [!INCLUDE[prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 The Business Central roadmap is best represented by Release Plans, which are updated every six months. For more linformation, see [Overview of Dynamics 365 Business Central 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
 

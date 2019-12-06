@@ -104,10 +104,12 @@ When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can
 
 If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).  
+Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).
+
+## Is the Windows client supported?
+The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [FAQ About Windows Client and Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## See Also
-[FAQ About Windows Client and Business Central](across-faq-win-cli.md)  
 [Getting Started](product-get-started.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
@@ -122,6 +124,6 @@ Your reselling partner will also handle technical support for you. For more info
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
-[FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq) 
+[FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

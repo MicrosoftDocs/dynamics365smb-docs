@@ -71,19 +71,10 @@ Therefore, C/SIDE is discontinued for [!INCLUDE[prodshort](includes/prodshort.md
 
 ## See Also
 [Frequently Asked Questions](across-faq.md)  
+[FAQ for Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)  
 [Getting Started](product-get-started.md)  
-[Tell Me FAQ](ui-search-faq.md)  
-[Searching and Filtering FAQ](ui-search-filter-faq.md)  
-[List Views FAQ](ui-views-faq.md)  
-[Changing Language and Locale](about-locale-language.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] without Outlook](admin-no-outlook.md)  
-[Change Basic Settings](ui-change-basic-settings.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
-[Resources for Help and Support](product-help-and-support.md)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

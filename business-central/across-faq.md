@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/05/2019
+ms.date: 12/07/2019
 ms.author: edupont
 
 ---
@@ -107,7 +107,8 @@ If you want guidance from Microsoft, contact the [Microsoft Sales team](https://
 Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## See Also
-[FAQ About why the Windows Client is Discontinued for Business Central](across-faq-win-cli.md)  
+[FAQ About Windows Client and Business Central](across-faq-win-cli.md)  
+[FAQ for Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)  
 [Getting Started](product-get-started.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  

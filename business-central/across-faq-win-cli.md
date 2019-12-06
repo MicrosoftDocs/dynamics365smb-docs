@@ -67,7 +67,7 @@ Therefore, C/SIDE is discontinued for [!INCLUDE[prodshort](includes/prodshort.md
 ## Which features are available in the cloud version, and where will I find more information about the roadmap?
 [!INCLUDE[prodshort](includes/prodshort.md)] is a modern business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. It is highly adaptable and rich with features already and is being enhanced and enriched on a constant basis.
 
-[!INCLUDE[prodshort](includes/prodshort.md)] is a highly adaptable modern business management solution. It is rich in features and options, and it is continuously being enhanced and enriched. The roadmap is best represented by the release plans, which is updated every six months. For more information, see [Overview of Dynamics 365 [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
+[!INCLUDE[prodshort](includes/prodshort.md)] is a highly adaptable modern business management solution. It is rich in features and options, and it is continuously being enhanced and enriched. The roadmap is best represented by the release plans, which are updated every six months. For more information, see [Overview of Dynamics 365 [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/).
 
 ## See Also
 [Frequently Asked Questions](across-faq.md)  

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/07/2019
+ms.date: 12/06/2019
 ms.author: edupont
 
 ---
@@ -108,7 +108,6 @@ Your reselling partner will also handle technical support for you. For more info
 
 ## See Also
 [FAQ About Windows Client and Business Central](across-faq-win-cli.md)  
-[FAQ for Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)  
 [Getting Started](product-get-started.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
@@ -123,5 +122,6 @@ Your reselling partner will also handle technical support for you. For more info
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq) 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

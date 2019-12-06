@@ -6,11 +6,11 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Frequently asked questions, Windows client
-ms.date: 12/07/2019
+ms.date: 12/06/2019
 ms.author: sgroespe
 
 ---
-# FAQ About the Windows Client and Business Central
+# FAQ About Windows Client and Business Central
 
 The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will **no longer** be available for [!INCLUDE[prodshort](includes/prodshort.md)]. Find answers for some of the most common questions here.
 
@@ -71,7 +71,7 @@ Therefore, C/SIDE is discontinued for [!INCLUDE[prodshort](includes/prodshort.md
 
 ## See Also
 [Frequently Asked Questions](across-faq.md)  
-[FAQ for Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)  
+[FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  

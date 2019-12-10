@@ -426,7 +426,7 @@
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
 
-## Managing Bank Accounts
+## Reconciling Bank Accounts
 ### [Overview](bank-manage-bank-accounts.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  

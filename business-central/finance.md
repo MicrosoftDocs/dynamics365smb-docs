@@ -27,7 +27,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
 |Make your customers submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
-| Reconcile bank accounts and transfer funds between bank accounts. |[Managing Bank Accounts](bank-manage-bank-accounts.md) |
+| Reconcile bank accounts and transfer funds between bank accounts. |[Reconciling Bank Accounts](bank-manage-bank-accounts.md) |
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 |Analyze the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centers.|[Accounting for Costs](finance-manage-cost-accounting.md)|
 |Manage inventory and manufacturing costs, report costs, and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|

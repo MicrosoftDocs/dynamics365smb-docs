@@ -93,6 +93,6 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
 ## See Also
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

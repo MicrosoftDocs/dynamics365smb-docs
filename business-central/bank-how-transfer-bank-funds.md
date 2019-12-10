@@ -50,7 +50,7 @@ To transfer funds between bank accounts that use different currencies, you must 
 13. Post the journal.
 
 ## See Also
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ If you encounter difficulties, the [Frequently Asked Questions](across-faq.md) p
 
 ### Try Out Your Own Company
 
-If you want to try out [!INCLUDE [prodshort](includes/prodshort.md)] with your own data, you can switch to a free 30 day trial with an empty company so that you can import your own data.  
+If you want to try out [!INCLUDE [prodshort](includes/prodshort.md)] with your own data, you can switch to a free 30 day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE [prodshort](includes/prodshort.md)] with your own data.  
 
 If 30 days are not enough for you to decide, you can extend your trial. For more information, see [Need More Time to Decide Whether to Subscribe?](admin-extend-trial.md).  
 
@@ -68,11 +68,11 @@ You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team
 
 ## Getting Started with Sandboxes
 
-Sandbox environments can be a way for you to practice with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sandbox environments can be a way for you to practice with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/browse/?products=dynamics-business-central), your administrator can create a sandbox environment so that you and your colleagues can practice there rather than in your production environment.  
 
-A sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production environment. For example, if you want to take the free online training from [Microsoft Learn](/learn/browse/?products=dynamics-business-central), you can create a sandbox environment and practice there rather than in your production environment.  
+If you are a developer, a sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production environment.  
 
-Right now, all customers can use a sandbox. For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).  
+Right now, all customers can use a sandbox, including organizations who have signed up for a trial. For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandboxes created this way contain demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.  

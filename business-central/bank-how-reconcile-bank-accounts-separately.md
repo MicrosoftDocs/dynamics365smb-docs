@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts
-You perform bank reconciliation to make sure that your various business transactions and expenses are reflected correctly in the company books. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors. 
+You perform bank reconciliation to make sure that your various business transactions and expenses are reflected correctly in the company books. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors.
 
 The following describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page.
 
@@ -40,7 +40,7 @@ Any lines that cannot be matched, indicated by a value in the **Difference** fie
 |Difference|Reason|Resolution|
 |-|-|
 |A transaction in the internal bank account is not on the bank statement.|The bank transaction did not occur although a posting was made in [!INCLUDE[d365fin](includes/d365fin_md.md)].|Make the missing money transaction (or prompt a debitor to make it), and then reimport the bank statement file or enter the transaction manually.|
-|A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[d365fin](includes/d365fin_md.md).|A bank transaction was made without a corresponding posting in [!INCLUDE[d365fin](includes/d365fin_md.md)]], for example a journal line posting for an expense.|Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-transactions-with).|
+|A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[d365fin](includes/d365fin_md.md)].|A bank transaction was made without a corresponding posting in [!INCLUDE[d365fin](includes/d365fin_md.md)], for example a journal line posting for an expense.|Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](/bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
 |A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match.|Information, such as the amount or the customer name, was entered differently in connection with the bank transaction or the internal posting.|Review the information, and then manually match. Optionally, correct the information mismatch.||
 
 You must resolve the differences, for example by creating missing entries and correcting non-matching information, or by making missing money transactions, until the bank account reconciliation is completed and posted.
@@ -48,7 +48,7 @@ You must resolve the differences, for example by creating missing entries and co
 You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page in the following ways:
 
 * Automatically, by using the **Import Bank Statement** function to fill in the **Bank Statement Lines** pane with bank transactions according to an imported file or stream provided by the bank.
-* Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]] that have outstanding payments.
+* Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.
 
 ## To fill bank reconciliation lines by importing a bank statement
 The **Bank Statement Lines** pane will be filled with bank transactions according to an imported file or stream provided by the bank.
@@ -64,7 +64,7 @@ To enable import of bank statements as bank feeds, you must first set up and ena
 7. Locate the file, and then choose the **Open** button to import the bank transactions into the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page.
 
 ## To fill bank reconciliation lines with the Suggest Lines function
-The **Bank Statement Lines** pane will be filled according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]] that have outstanding payments.  
+The **Bank Statement Lines** pane will be filled according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.  
 1. On the **Bank Acc. Reconciliation** page, choose the **Suggest Lines** action.
 2. In the **Starting Date** field, enter the earliest posting date for the ledger entries to be reconciled.
 3. In the **Ending Date** field, enter the latest posting date for the ledger entries to be reconciled.

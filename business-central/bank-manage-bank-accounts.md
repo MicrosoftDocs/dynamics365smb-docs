@@ -16,7 +16,7 @@ ms.author: sgroespe
 
 ---
 # Reconciling Bank Accounts
-At regular intervals, you should reconcile your bank ledger entries in [!INCLUDE[d365fin](includes/d365fin_md.md)] with the related bank transactions in bank accounts at your bank, and then post the balance to your bank account.
+A bank reconciliation should be completed at regular intervals for all your bank accounts to ensure that the company's cash records are correct. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors. 
 
 You can perform the task on the **Bank Acc. Reconciliation** page where you match (reconcile) bank statement lines in the left-hand pane with your internal bank account ledger entries in the right-hand pane. Alternatively, you can perform this task on the **Payment Reconciliation Journal** page as part of processing the payments that are represented on a bank statement. On both pages, you can fill in the bank statement information by importing a file or feed and you can use automatic matching suggestions.
 
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Reconcile bank accounts, including check ledger entries, as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
+| Reconcile bank accounts as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
 | Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 ## See Also

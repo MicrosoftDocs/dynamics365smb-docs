@@ -16,7 +16,9 @@ ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts
-You perform bank reconciliation to make sure that your various business transactions and expenses are reflected in your company books. You can use the **Bank Acc. Reconciliation** page to reconcile your internal bank accounts with statements received from the bank.
+You perform bank reconciliation to make sure that your various business transactions and expenses are reflected correctly in the company books. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors. 
+
+The following describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page.
 
 > [!TIP]
 > You can also reconcile bank accounts on the **Payment Reconciliation Journal** page in connection with payment processing. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).

@@ -20,6 +20,15 @@ The following procedures assume that you have created and saved a configuration 
 
 The following procedures assume that you have initialized and opened your new company and that you are using the RapidStart Services Implementer Role Center.
 
+<!--
+## Before You Import a Configuration Package
+There are a couple of things to consider before you import a configuration package. 
+
+* To prevent loss of data, you cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries. To add entries to these tables you must use the journals to manually post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
+* Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the table, the **Licensed Table** check box is chosen. You must have Write permissions to all of the tables that you are updating.  
+
+-->
+
 ## To import a configuration package  
 1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then select the related link.  

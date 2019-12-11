@@ -30,7 +30,7 @@ The import bank statement is supported by the following protocols:
 3.  To reconcile the bank statements automatically when importing, on the **Options** FastTab, select the **Automatic Reconciliation** check box.  
 
     > [!NOTE]  
-    >  This function does not work for bank statement files of type SEPA CAMT. Instead, use the **Match Automatically** action on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md).  
+    >  This function does not work for bank statement files of type SEPA CAMT. Instead, use the **Match Automatically** action on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md).  
 
 4.  Choose the **OK** button.  
 5.  To import the file that contains the electronic bank statement, specify the file name and path, and then choose the **Open** button.  

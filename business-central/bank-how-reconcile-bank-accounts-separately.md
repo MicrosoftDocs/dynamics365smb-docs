@@ -1,5 +1,5 @@
 ---
-title: Reconcile Bank Accounts Separately| Microsoft Docs
+title: Reconcile Bank Accounts| Microsoft Docs
 description: Describes how your inventory value is reconciled with the general ledger.
 services: project-madeira
 documentationcenter: ''
@@ -15,7 +15,7 @@ ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Reconcile Bank Accounts Separately
+# Reconcile Bank Accounts
 To reconcile bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] with statements received from the bank, you begin by filling in the left-hand pane on the **Bank Acc. Reconciliation** page with bank statement information that you then match (reconcile) with bank account ledger entries in the right-hand pane. A smart way to fill in bank statement lines is by importing a bank statement file or feed.
 
 > [!NOTE]  

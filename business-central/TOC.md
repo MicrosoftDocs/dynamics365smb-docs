@@ -428,9 +428,8 @@
 
 ## Reconciling Bank Accounts
 ### [Overview](bank-manage-bank-accounts.md)
+### [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
-### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 
 ## Managing Intercompany Transactions
 ### [Overview](intercompany-manage.md)
@@ -499,6 +498,7 @@
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
+## [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ## [Accountant Experiences in Business Central](finance-accounting.md)
 
 # Business Intelligence

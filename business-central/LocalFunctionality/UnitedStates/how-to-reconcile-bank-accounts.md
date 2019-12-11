@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 12/11/2019
     ms.author: bholtorf
 
 ---
@@ -79,7 +79,7 @@ You can print the following bank reconciliation reports:
     |---------------------------------|---------------------------------------|  
     |**Print details**|Include reconciliation details in the report. If you select this check box, all of the other print check boxes are automatically selected. You can clear a check box if you do not want to include its details in the report.|  
     |**Print checks**|Print check details in the report.|  
-    |**Print deposits**Print deposit details in the report.|  
+    |**Print deposits**|Print deposit details in the report.|  
     |**Print adjustments**|Print adjustment details in the report.|  
     |**Print outstanding checks**|Print outstanding check details in the report.|  
     |**Print outstanding deposits**|Print outstanding deposit details in the report.|  

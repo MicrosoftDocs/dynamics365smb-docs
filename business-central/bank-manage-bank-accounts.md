@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 12/13/2019
+ms.date: 12/11/2019
 ms.author: sgroespe
 
 ---
@@ -29,8 +29,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Reconcile bank accounts, including check ledger entries, as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
+| Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

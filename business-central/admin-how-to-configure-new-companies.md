@@ -22,10 +22,10 @@ The following procedures assume that you have initialized and opened your new co
 
 <!--
 ## Before You Import a Configuration Package
-There are a couple of things to consider before you import a configuration package. 
+Before you import a configuration package it is a good idea to verify that the following statements are true. If either or both are false, you or your customer will not be able to import the configuration package.
 
-* To prevent loss of data, you cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries. To add entries to these tables you must use the journals to manually post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
-* Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the table, the **Licensed Table** check box is chosen. You must have Write permissions to all of the tables that you are updating.  
+* Your license includes the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the tables, the **Licensed Table** check box is chosen. 
+* The user who imports the configuration package has Insert and Modify effective permissions to all of the tables that the package will update. For more information, see [](https://docs.microsoft.com/en-us/dynamics365/business-central/ui-define-granular-permissions#to-get-an-overview-of-a-users-permissions) 
 
 -->
 

@@ -18,7 +18,12 @@ When you configure a new company, table relations are recognized and processed. 
 
 To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables where a customer may require additional guidance about how to select an appropriate setting. For more information, see [Gather Customer Setup Values](admin-gather-customer-setup-values.md).
 
-Make sure that you are on the RapidStart Services Implementer Role Center. For more information, see [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## Before You Create a Configuration Package
+There are some things to consider before you create a configuration package because they will impact you or your customer's ability to import it. 
+
+* To prevent loss of data, you cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries. To add entries to these tables you must use the journals to manually post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
+* Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the table, the **Licensed Table** check box is chosen. 
+* The user who will import the data must have Insert and Modify permissions to all of the tables that you are updating.  
 
 > [!IMPORTANT]  
 >  When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  

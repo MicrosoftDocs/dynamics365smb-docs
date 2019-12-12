@@ -24,7 +24,7 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the fastest ways to regis
 
 Other pages exist where you can either apply payments or reconcile bank accounts:
 
-* The **Bank Account Reconciliations** page, where you reconcile bank accounts by matching imported bank statement lines with your system bank account ledger entries. Here, you can also reconcile check payments. For more information, see [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md). Here, you cannot apply payments.
+* The **Bank Account Reconciliations** page, where you reconcile bank accounts by matching imported bank statement lines with your system bank account ledger entries. Here, you can also reconcile check payments. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Here, you cannot apply payments.
 * The **Payment Registration** page, where you can manually apply payments received as cash, check, or bank transaction against a generated list of unpaid sales documents. Note that this functionality is available only for sales documents. Here, you cannot apply outgoing payments, and you cannot reconcile bank accounts.
 * The **Cash Receipt Journal** page, where you manually post receipts to the relevant general ledger, customer, or other account by entering a payment line. You can either apply the receipt or refund to one or more open entries before you post the cash receipt journal, or from the customer ledger entries. Here, you cannot reconcile bank accounts.  
 

@@ -33,6 +33,8 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 3. On the **Reverse Transaction Entries** page, select the relevant entry, and then choose the **Reverse** action.
 4. Choose the **Yes** button on the confirmation message.
 
+Note: You cannot reverse entries which have been posted with information from a job or do have realized gains and losses within the same transaction.
+
 ## To post a negative entry  
 You can use the **Correction** field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account. To meet legal requirements, this field is visible by default in all journals. The **Debit Amount** and **Credit Amount** fields include both the original entry, and the corrected entry. These fields have no effect on the account balance.  
 

@@ -314,7 +314,7 @@
 #### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Field Mapping When Exporting Payment Files Using Bank Data Conversion Service](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administration
 ## [Overview](admin-setup-and-administration.md)
@@ -426,11 +426,10 @@
 ### [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)
 ### [Correct Prepayments](finance-how-to-correct-prepayments.md)
 
-## Managing Bank Accounts
+## Reconciling Bank Accounts
 ### [Overview](bank-manage-bank-accounts.md)
+### [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)
 ### [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Reconcile Bank Accounts Separately](bank-how-reconcile-bank-accounts-separately.md)  
-### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 
 ## Managing Intercompany Transactions
 ### [Overview](intercompany-manage.md)
@@ -499,6 +498,7 @@
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
+## [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ## [Accountant Experiences in Business Central](finance-accounting.md)
 
 # Business Intelligence

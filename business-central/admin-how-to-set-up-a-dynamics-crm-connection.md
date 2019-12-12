@@ -15,14 +15,15 @@
 
 ---
 # Set Up a Connection to Dynamics 365 Sales
-To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
+This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## Before You Start
-Before you start to connect the apps, there are a few pieces of informtion that will be useful to have ready:  
+Before you create the connection, there are a few pieces of information to have ready:  
 
-* A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)] and copy the URL, and then paste it in the **Dynamics 365 Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
+* A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)], copy the URL, and then paste it in the **Dynamics 365 Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
 * A user name and password of a user account that is used only for the integration.  
 * The user name and password of the account that has administrator permissions.  
 

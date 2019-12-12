@@ -107,7 +107,7 @@ If you want guidance from Microsoft, contact the [Microsoft Sales team](https://
 Your reselling partner will also handle technical support for you. For more information, see [Resources for Help and Support](product-help-and-support.md).
 
 ## Is the Windows client supported?
-The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [FAQ About the Windows Client and Business Central](dynamics365/business-central/dev-itpro/across-faq-win-cli).
+The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## See Also
 [Getting Started](product-get-started.md)  

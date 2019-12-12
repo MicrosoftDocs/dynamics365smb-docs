@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 12/11/2019
     ms.author: bholtorf
 
 ---
@@ -16,7 +16,7 @@
 Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries with bank statements.
 
 > [!NOTE]  
-> This topic describes the North American bank reconciliation functionality. You can also use the standard functionality. For more information, see [Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md).
+> This topic describes the North American bank reconciliation functionality. You can also use the standard functionality. For more information, see [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md).
 
 ## To reconcile bank accounts with bank statements  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Reconciliations**, and then choose the related link.
@@ -79,7 +79,7 @@ You can print the following bank reconciliation reports:
     |---------------------------------|---------------------------------------|  
     |**Print details**|Include reconciliation details in the report. If you select this check box, all of the other print check boxes are automatically selected. You can clear a check box if you do not want to include its details in the report.|  
     |**Print checks**|Print check details in the report.|  
-    |**Print deposits**Print deposit details in the report.|  
+    |**Print deposits**|Print deposit details in the report.|  
     |**Print adjustments**|Print adjustment details in the report.|  
     |**Print outstanding checks**|Print outstanding check details in the report.|  
     |**Print outstanding deposits**|Print outstanding deposit details in the report.|  
@@ -98,4 +98,4 @@ You can print the following bank reconciliation reports:
 [United States Local Functionality](united-states-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
-[Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md)  
+[Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)  

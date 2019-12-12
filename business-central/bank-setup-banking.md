@@ -27,7 +27,7 @@ To use electronic banking services to import bank statements and  export payment
 | Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation. |[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) |
 
 ## See Also
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

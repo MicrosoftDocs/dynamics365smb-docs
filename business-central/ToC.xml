@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="How to: Create Prepayment Invoices" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="How to: Correct Prepayments" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Managing Bank Accounts" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Reconciling Bank Accounts" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Applying Payments Automatically and Reconcile Bank Accounts" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="How to: Reconcile Bank Accounts Separately" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="How to: Reconcile Bank Accounts" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="How to: Transfer Bank Funds" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Managing Intercompany Transactions" Page="intercompany-manage.html">

@@ -37,7 +37,7 @@ To change one of these default check layouts, use either the Word or the RDLC in
 ## See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)   
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
 [Working with [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)

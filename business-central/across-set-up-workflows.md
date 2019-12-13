@@ -40,6 +40,7 @@ You can set up and use workflows that connect business-process tasks performed b
 
 ## Example of an Approval Workflow
 This video shows how to set up an workflow that will require someone to request someone else's approval before they can change information about an existing customer, or create a new customer.
+<br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
 

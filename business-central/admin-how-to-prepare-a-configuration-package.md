@@ -22,7 +22,7 @@ To help your customer use the configuration package, you may want to add a quest
 There are some things to consider before you create a configuration package because they will impact you or your customer's ability to import it. 
 
 ### Tables That Contain Posted Entries
-You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
+You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
 
 ### License and Permissions
 Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your license includes the table, the **Licensed Table** check box is chosen. Additionally, it is important to think about permissions that are assigned to objects. A configuration package will include the permissions that are assigned to the objects when the package is created. The person who will import the package must have Insert and Modify effective permissions to all of the tables that the package will update. 

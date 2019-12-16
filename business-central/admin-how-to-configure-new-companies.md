@@ -24,7 +24,7 @@ The following procedures assume that you have initialized and opened your new co
 Before you import a configuration package it is a good idea to verify that the following statements are true. Otherwise, you or your customer will not be able to import the configuration package.
 
 * Your license includes the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the tables, the **Licensed Table** check box is chosen.  
-* The user who imports the configuration package has Insert and Modify effective permissions to all of the tables that the package will update. For more information, see [Assign Permissions to Users and Groups](business-central/ui-define-granular-permissions#to-get-an-overview-of-a-users-permissions.md) 
+* The user who imports the configuration package has Insert and Modify effective permissions to all of the tables that the package will update. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions#to-get-an-overview-of-a-users-permissions.md) 
 
 ## To import a configuration package  
 1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  

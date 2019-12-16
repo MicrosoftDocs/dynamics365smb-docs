@@ -17,10 +17,16 @@ ms.author: edupont
 Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
 ## Browsers
+
+### Recommended browsers
+
 **Chrome for Windows and Firefox for Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of these desktop browsers.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Safari on OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Microsoft Edge.
+
+### Other supported browsers
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. 
 
 ## Mobile devices
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  

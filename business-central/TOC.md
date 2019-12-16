@@ -5,6 +5,14 @@
 ## [Minimum Requirements](product-requirements.md)
 ## [Frequently Asked Questions](across-faq.md)
 ## [Resources for Help and Support](product-help-and-support.md)
+## [Getting Ready for Doing Business](ui-get-ready-business.md)
+## [Overview of Business Functionality](across-business-functionality.md)
+## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
+## [Visit Our Video Library](across-videos.md)
+## Trials and Subscriptions
+### [Overview](across-preview.md)
+### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Find Training
 ### [Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +21,6 @@
 ### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
 ### [Sales Learning Catalog](readiness/readiness-learning-sales.md)
-
-## [Getting Ready for Doing Business](ui-get-ready-business.md)
-## [Overview of Business Functionality](across-business-functionality.md)
-## [Trials and Subscriptions](across-preview.md)
-### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-### [Unsubscribe or Remove Business Central](admin-cancel.md)
-## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-## [Visit Our Video Library](across-videos.md)
 ## Resellers and Partners
 ### [Become a Reseller](product-sell.md)
 ### [Extending Business Central](about-develop-extensions.md)

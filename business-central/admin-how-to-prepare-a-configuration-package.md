@@ -21,14 +21,16 @@ To help your customer use the configuration package, you may want to add a quest
 ## Before You Create a Configuration Package
 There are some things to consider before you create a configuration package because they will impact you or your customer's ability to import it. 
 
-* To prevent loss of data, you cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries. To add entries to these tables you must use the journals to manually post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
-* Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** can help. If your license includes the table, the **Licensed Table** check box is chosen. 
-* The user who will import the data must have Insert and Modify permissions to all of the tables that you are updating.  
+### Tables That Contain Posted Entries
+You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](business-central/ui-post-documents-journals).
 
-> [!IMPORTANT]  
->  When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
->   
->  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
+### License and Permissions
+Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your license includes the table, the **Licensed Table** check box is chosen. Additionally, it is important to think about permissions that are assigned to objects. A configuration package will include the permissions that are assigned to the objects when the package is created. The person who will import the package must have Insert and Modify effective permissions to all of the tables that the package will update. 
+
+### Database Schema
+When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
+
+You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
 
 ## To create a configuration package  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  

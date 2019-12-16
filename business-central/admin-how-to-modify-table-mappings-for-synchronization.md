@@ -17,7 +17,7 @@ ms.author: bholtorf
 An integration table mapping links a table in [!INCLUDE[d365fin](includes/d365fin_md.md)] to an integration table for the [!INCLUDE[crm_md](includes/crm_md.md)] entity. For each entity in [!INCLUDE[crm_md](includes/crm_md.md)] that you want to synchronize with corresponding data in [!INCLUDE[d365fin](includes/d365fin_md.md)]], there must be a corresponding integration table mapping. An integration table mapping includes several settings that enable you to control how records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and a [!INCLUDE[crm_md](includes/crm_md.md)] entity are synchronized by the corresponding integration synchronization jobs.  
 
 ## Filtering Records  
- If you do not want to synchronize all records for a specific entity in [!INCLUDE[crm_md](includes/crm_md.md)] or table in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up filters to limit the records that are synchronized. You set up filters on the **Integration Table Mappings** page.  
+If you do not want to synchronize all records for a specific entity in [!INCLUDE[crm_md](includes/crm_md.md)] or table in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up filters to limit the records that are synchronized. You set up filters on the **Integration Table Mappings** page.  
 
 #### To filter records for synchronization  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.

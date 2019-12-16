@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 12/11/2019
+ms.date: 12/15/2019
 ms.author: sgroespe
 
 ---
@@ -106,6 +106,8 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
     When the entry is posted, proceed to match the bank statement line to it.
 5. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
+
+## [Get Training!](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/) 
 
 ## See Also
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

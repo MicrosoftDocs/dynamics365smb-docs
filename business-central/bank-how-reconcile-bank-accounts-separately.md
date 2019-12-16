@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 12/11/2019
+ms.date: 12/15/2019
 ms.author: sgroespe
 
 ---
@@ -108,6 +108,7 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
 ## See Also
+[Get Training](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  

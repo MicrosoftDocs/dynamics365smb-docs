@@ -24,8 +24,14 @@ There are some things to consider before you create a configuration package beca
 ### Tables That Contain Posted Entries
 You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
 
-### License and Permissions
-Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your license includes the table, the **Licensed Table** check box is chosen. Additionally, it is important to think about permissions that are assigned to objects. A configuration package will include the permissions that are assigned to the objects when the package is created. The person who will import the package must have Insert and Modify effective permissions to all of the tables that the package will update. 
+### Licensing
+Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your license includes the table, the **Licensed Table** check box is chosen.  
+
+### Permissions
+The process of creating and importing a configuration package involves the following effective permissions for all tables in the package: 
+
+* The user who exports data for the configuration package must have **Read** effective permissions.
+* The user who imports the configuration package must have **Insert** and **Modify** effective permissions.
 
 ### Database Schema
 When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  

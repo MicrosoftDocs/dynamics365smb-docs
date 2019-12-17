@@ -74,27 +74,29 @@ The accountant will receive an email that notifies them that they have been give
 
 1. Open the [!INCLUDE [prodshort](includes/prodshort.md)] company that you want to give the accountant access to at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then chose the related link.  
-3. In the **Users** list page, choose **Process**, and then choose **Get New Users From Office**.
+3. Choose the **Get New Users from Office 365** action.
 
 This imports the user account that you created in the Azure portal to the company. For more information, see [To add a user in Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
 
-If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE [prodshort](includes/prodshort.md)], such as assigning them the *D365 Bus Premium user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE [prodshort](includes/prodshort.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ### Behind the scenes
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. If your company use an external accountant, you can give access to your [!INCLUDE[d365fin](includes/d365fin_md.md)] by assigning them such a license as described above. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licencing Guide](https://go.microsoft.com/fwlink/?LinkId=871590). 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. If your company use an external accountant, you can give access to your [!INCLUDE[d365fin](includes/d365fin_md.md)] by assigning them such a license as described above. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licencing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
 
-If your subscription still has an available license, your administrator or reselling partner can add external user via Azure Portal and assign this user the External Accountant license. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](/azure/active-directory/b2b/add-users-administrator).
+If your subscription still has an available license, your administrator or reselling partner can add external user via Azure Portal and assign this user the External Accountant license as described above. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](/azure/active-directory/b2b/add-users-administrator).
 
 You can then invite the accountant from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] as described above. However, because this task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin center. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
 
 ## Accountant Hub
+
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
 > [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.
 
 ## See Also
+
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

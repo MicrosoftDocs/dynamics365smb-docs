@@ -373,6 +373,8 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
+## Common Data Service
+### [Overview](admin-common-data-service.md)
 
 # Finance
 ## [Overview](finance.md)

@@ -384,6 +384,7 @@
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)
 ### [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)

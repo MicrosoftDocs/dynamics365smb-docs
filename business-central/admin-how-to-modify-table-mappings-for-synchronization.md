@@ -1,6 +1,6 @@
 ---
-title: Modify Table Mappings for Synchronization | Microsoft Docs
-description: Learn how to change the table mappings that are used when synchronizing data between Business Central and Dynamics 365 Sales.
+title: Mapping the Tables and Fields to Synchronize | Microsoft Docs
+description: Learn how to map tables and fields for synchronizing data between Business Central and Dynamics 365 Sales.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,14 +9,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
 
 ---
-# Modify Table Mappings for Synchronization
-An integration table mapping links a table in [!INCLUDE[d365fin](includes/d365fin_md.md)] to an integration table for the [!INCLUDE[crm_md](includes/crm_md.md)] entity, such as an account. For each entity in [!INCLUDE[crm_md](includes/crm_md.md)] that you want to synchronize with corresponding data in [!INCLUDE[d365fin](includes/d365fin_md.md)]], there must be a integration table mapping. An integration table mapping includes settings that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an entity in [!INCLUDE[crm_md](includes/crm_md.md)].  
+# Mapping the Tables and Fields to Synchronize
+The basis of synchronizing data in [!INCLUDE[d365fin](includes/d365fin_md.md)] with data in [!INCLUDE[crm_md](includes/crm_md.md)] is mapping the tables and fields that contain the data to each other. Mapping happens through integration tables. 
 
-<!--
+## Mapping Integration Tables
+An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an entity, such as an account, in [!INCLUDE[crm_md](includes/crm_md.md)]. Integration tables include fields that correspond to the fields in the table for the [!INCLUDE[crm_md](includes/crm_md.md)] entity. For example, the Account integration table connects to the Accounts entity in [!INCLUDE[crm_md](includes/crm_md.md)]. There must be a integration table mapping for each entity in [!INCLUDE[crm_md](includes/crm_md.md)] that you want to synchronize with data in [!INCLUDE[d365fin](includes/d365fin_md.md)]].
+
+When you create the connection between the apps, [!INCLUDE[d365fin](includes/d365fin_md.md)] sets up some default table and field mappings. You can change the table mappings if you want. For more information, see [Standard Sales Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization)
+
+> [!Note]
+> If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the integration table mappings are stored in table 5335 Integration Table Mappings, and can be viewed and modified from page 5335 Integration Table Mappings. Complex mappings and synchronization rules are defined in codeunit 5341. 
+
+### Synchronization Rules
+An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## Mapping Integration Fields
+Mapping tables is only the first step. You must also map the fields on the tables. Integration field mappings link fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables with corresponding fields in [!INCLUDE[crm_md](includes/crm_md.md)], and determine whether to synchronize data in each table. The standard table mapping that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides includes field mappings, but you can change those if you want. For more information, see [Viewing Entity Mappings](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Integration field mappings are defined in table 5336 Integration Field Mapping.
 
 ## Coupling Records
 Coupling links records in [!INCLUDE[crm_md](includes/crm_md.md)] to records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, accounts in [!INCLUDE[crm_md](includes/crm_md.md)] are typically coupled with customers in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Coupling records offers the following benefits:
@@ -24,18 +39,7 @@ Coupling links records in [!INCLUDE[crm_md](includes/crm_md.md)] to records in [
 * It makes synchronization possible.
 * Users can open records in one business app from the other. This requires that the [d365fin](includes/d365fin_md.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Couplings can be set up automatically by using the synchronization jobs, or manually by editing the record in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Synchronizing Data in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]](business-central/admin-synchronizing-business-central-and-sales.md) and [Couple and Synchronize Records Manually](business-central/admin-how-to-couple-and-synchronize-records-manually.md).
-
-## Integration Tables and Table Mappings
-An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an entity, such as an account, in [!INCLUDE[crm_md](includes/crm_md.md)]. Integration tables include fields that correspond to the fields that the entity has in [!INCLUDE[crm_md](includes/crm_md.md)], and connects the [!INCLUDE[d365fin](includes/d365fin_md.md)] table to the [!INCLUDE[crm_md](includes/crm_md.md)] entity. For example, the Account integration table connects to the Accounts entity in [!INCLUDE[crm_md](includes/crm_md.md)].
-
-> [!Note]
-> If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the integration table mappings are stored in table 5335 Integration Table Mappings, and can be viewed and modified from page 5335 Integration Table Mappings. Complex mappings and synchronization rules are defined in codeunit 5341. 
-
-## Integration Field Mappings
-A field mapping associates a field in a [!INCLUDE[crm_md](includes/crm_md.md)] entity record with a field in a [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The mapping is used to determine which data to synchronize between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] records. The field mappings define which field in [!INCLUDE[d365fin](includes/d365fin_md.md)] corresponds to which field in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, a [!INCLUDE[d365fin](includes/d365fin_md.md)] customer includes some fields that are either not supported in [!INCLUDE[crm_md](includes/crm_md.md)] accounts, or you just do not want the data to be synchronized. Integration field mappings are defined in table 5336 Integration Field Mapping.
-
--->
+Couplings can be set up automatically by using the synchronization jobs, or manually by editing the record in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Synchronizing Data in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) and [Couple and Synchronize Records Manually](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## Filtering Records  
  If you do not want to synchronize all records for a specific entity in [!INCLUDE[crm_md](includes/crm_md.md)] or table in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up filters to limit the records that are synchronized. You set up filters on the **Integration Table Mappings** page.  

@@ -32,14 +32,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | Reconcile bank accounts as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
 | Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## [See Training on Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
 [Transfer Bank Funds](bank-how-transfer-bank-funds.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[General Business Functionality](ui-across-business-areas.md)  
+[General Business Functionality](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## Related [Training](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)

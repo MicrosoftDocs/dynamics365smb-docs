@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
 
 ---
@@ -22,11 +22,7 @@ If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions
 
 ## Get started
 
-The "Ready to Go" program is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your coyntrye or region. For more information about the resources available to you through the "Ready to Go" program", see [aka.ms/readytogo](https://aka.ms/readytogo). Learn more about becoming a reseller at [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Sign up for a trial at [https://dynamics.microsoft.com/business-central/overview/
-](https://dynamics.microsoft.com/business-central/overview/
-), and send feedback at [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+The "Ready to Go" program is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" program", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## See Also
 

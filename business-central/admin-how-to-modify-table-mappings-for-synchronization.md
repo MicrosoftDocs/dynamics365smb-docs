@@ -33,7 +33,7 @@ Mapping tables is only the first step. You must also map the fields on the table
 > [!Note]
 > If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Integration field mappings are defined in table 5336 Integration Field Mapping.
 
-## Transformation Rules
+### Transformation Rules
 Sometimes the values in the fields that you want to map are different. For example, in [!INCLUDE[crm_md](includes/crm_md.md)] the language code for the United States is "U.S.,"
 but in [!INCLUDE[d365fin](includes/d365fin_md.md)] it's "US." That means you must transform the value when you synchronize data. This happens through transformation rules that you define for the fields. 
 

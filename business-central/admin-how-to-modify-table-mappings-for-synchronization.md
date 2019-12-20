@@ -46,7 +46,7 @@ You define transformation rules on the **Integration Table Mappings** page by ch
 |Title Case|Capitalize the first letter of each word.|
 |Trim|Remove empty spaces before and after the value.|
 |Substring|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
-|Replace|Find and value and replace it with another. This is useful for replacing simple values, such as a particular word.|
+|Replace|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
 |Regular Expression - Replace|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
 |Remove Non-Alphanumeric Characters|Delete characters that are not letters or numbers, such as symbols or special characters.|
 |Date Formatting|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|

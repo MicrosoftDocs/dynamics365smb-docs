@@ -1,6 +1,6 @@
 ---
 title: Czech Local Functionality | Microsoft Docs
-description: This section describes local functionality in the Czech Republic.
+description: The following topics describe the local functionality in the Czech version of Business Central.
 author: v-pejano
 
 ms-service: dynamics365-business-central

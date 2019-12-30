@@ -95,7 +95,8 @@ Your company's Office 365 administrator or Microsoft partner should create the d
 4.	On the **Basics** page, type *Dynamics 365 Business Central Device Users* as the name of the group. Select **Close**.
     The name of this group must be spelled exactly as here to work. This also goes for non-English setup. 
 
-> [!NOTE]: you can also create group of type Office 365. For more information, see [Compare Groups](https://docs.microsoft.com/office365/admin/create-groups/compare-groups) 
+> [!NOTE]
+> You can also create group of type Office 365. For more information, see [Compare Groups](https://docs.microsoft.com/office365/admin/create-groups/compare-groups) 
 
 ### Add members to the group
 1.	In the [Microsoft 365 Admin Center](https://admin.microsoft.com/), refresh the **Groups** page so your new group appears, select the *Dynamics 365 Business Central Device Users* group.
@@ -105,7 +106,9 @@ Your company's Office 365 administrator or Microsoft partner should create the d
 5.	Select **Close** three times.
 
 You can add as many users to the *Dynamics 365 Business Central Device Users* group as you need. The number of device users that can log in simultaneously is defined by number of purchased device licenses. 
-> [!NOTE]: You don’t need to assign Business Central license to users that are members of Dynamics 365 Business Central Device Users group.
+
+> [!NOTE]
+> You don’t need to assign Business Central license to users that are members of Dynamics 365 Business Central Device Users group.
 
 ### Restricted access to [!INCLUDE[d365fin](includes/d365fin_md.md)] as Device user
 The following tasks are not available to the device:

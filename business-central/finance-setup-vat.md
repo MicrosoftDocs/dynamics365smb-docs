@@ -34,6 +34,7 @@ We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!
 To start the assisted setup guide, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
 2. Choose **Set up VAT**.
+3. After following the **Assisted Setup** make sure to visit the **Vat Posting Setup** page afterwards and check if you have to fill in additional fields according to your local country version. [Local functionality in Business Central](about-localization.md)  
 
 ## To set up VAT registration numbers for your country or region
 To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[d365fin](includes/d365fin_md.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
@@ -268,4 +269,5 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+[Local functionality in Business Central](about-localization.md) 

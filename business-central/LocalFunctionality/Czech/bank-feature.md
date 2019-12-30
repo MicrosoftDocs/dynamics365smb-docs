@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Bank feature| Microsoft Docs
 description: This section describes Czech local functionality - Bank feature
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

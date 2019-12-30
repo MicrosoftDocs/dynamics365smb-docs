@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - CashDesk management | Microsoft Docs
 description: This section describes Czech local functionality - CashDesk management
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

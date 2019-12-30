@@ -1,12 +1,12 @@
 ---
 title: Czech Local Functionality - Small Regulatory Features and Best Practices | Microsoft Docs
 description: This section describes local functionality - Small Regulatory Features and Best Practices
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
-ms.date: 15/05/2019
+ms.date: 05/15/2019
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

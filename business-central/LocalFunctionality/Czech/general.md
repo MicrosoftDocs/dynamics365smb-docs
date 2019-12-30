@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - General Function | Microsoft Docs
 description: This section describes Czech local functionality - General Function
-author: ac-kunes
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

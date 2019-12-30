@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Exchange rate update | Microsoft Docs
 description: This section describes local functionality - Exchange rate update
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

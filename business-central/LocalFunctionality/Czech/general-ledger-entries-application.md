@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - General ledger entries application | Microsoft Docs
 description: This section describes local functionality - General ledger entries application
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

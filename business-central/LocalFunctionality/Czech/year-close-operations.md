@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Year closing operations| Microsoft Docs
 description: This section describes local functionality Year closing operations
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

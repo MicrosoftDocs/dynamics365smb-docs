@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Fixed Assets | Microsoft Docs
 description: This section describes Czech local functionality - Fixed Assets
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual

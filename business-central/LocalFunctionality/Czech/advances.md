@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Advance payments and invoices | Microsoft Docs
 description: This section describes Czech local functionality - Advance payments and invoices
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

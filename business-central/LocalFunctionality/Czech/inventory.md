@@ -1,12 +1,11 @@
 ---
 title: Czech Local Functionality - Inventory | Microsoft Docs
 description: This section describes local functionality - Inventory
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
-ms.date: 15/05/2019
 ms.date: 12/30/2019
 ms.reviewer: v-pejano
 ms.author: v-makune

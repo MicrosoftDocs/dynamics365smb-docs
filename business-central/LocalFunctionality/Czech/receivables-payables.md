@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Payables and Receivables | Microsoft Docs
 description: This section describes local functionality - Payables and Receivables
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

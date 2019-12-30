@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality - Intrastat | Microsoft Docs
 description: This section describes local functionality - Intrastat
-author: v-makune
+author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article

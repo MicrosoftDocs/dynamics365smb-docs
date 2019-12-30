@@ -1,7 +1,7 @@
 ---
 title: VAT - Czech Local Functionality | Microsoft Docs
 description: This section describes Czech local functionality for VAT.
-author: v-makune
+author: ACMartinKunes
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual

@@ -12,6 +12,7 @@
 ## Trials and Subscriptions
 ### [Overview](across-preview.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Find Training
 ### [Learning Catalog](readiness/readiness-learning-catalog.md)

@@ -10,7 +10,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.reviewer: edupont
+    ms.date: 10/01/2019
     ms.author: soalex
 
 ---
@@ -21,12 +22,18 @@ Business Central is a cloud service with a global reach and scale running on one
 
 Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).
 
-If you are interested in the complete list of compliance offerings from Microsoft, see [this page](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## See Also  
+## Service Terms
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] online is governed under the [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). The service level agreement terms are described in the document that you can download from the **Service Level Agreements for Microsoft Online Services** section on the [Licensing terms](https://www.microsoft.com/licensing/product-licensing/products) page.  
+
+Furthermore, you can monitor your tenant's health and specify upgrade windows in the [Tenant Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## See Also
+
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

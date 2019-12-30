@@ -2,8 +2,6 @@
     title: How to Upgrade a .DTD Definition File
     description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Business Central.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

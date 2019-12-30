@@ -1,8 +1,6 @@
 ---
     title: Set Up Service Management Processes | Microsoft Docs
     description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---

@@ -1,8 +1,6 @@
 ---
     title: How to Cross-Dock Items | Microsoft Docs
     description: Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -30,7 +28,7 @@ If you have selected the **Use Put-away Worksheet** field on the location card a
 
 If you post the warehouse receipt and you do not have the **Use Put-away Worksheet** field selected, the items to be cross-docked appear as separate lines on the put-away instruction. The **Cross-Dock Information** field on each put-away line shows whether the line contains cross-dock items, items from the same receipt that all need to be stored, or items that need to be stored originating from a receipt line where some of the items are to be cross-docked. With this field, employees can easily see why the full receipt quantity is not being placed in storage.  
 
-The program does not keep separate records about items that have been cross-docked, but registers them as ordinary put-away instructions.  
+The application does not keep separate records about items that have been cross-docked, but registers them as ordinary put-away instructions.  
 
 ## To set up the warehouse for cross-docking  
 1.  Set up at least one cross-dock bin, if you are using bins. Set up a cross-dock zone, if you are using directed put-away and pick.  
@@ -92,7 +90,7 @@ If you are using bins, you can see, each time you open a shipment or the pick wo
 
 You have to look for items in the cross-dock area first when you pick items for shipment. If you have noted during the receipt process the source documents that were the basis for cross-docking, you have a better idea of whether the item can be found in the cross-dock area or not.  
 
-When a production order has been released, the lines are available in the pick worksheet, and you can see in the **Qty. on Cross-Dock Bin** field whether the items you are waiting for have arrived and been placed in the cross-dock bins. When you create a pick instruction, the program suggests that you first pick the cross-docked items and will only later search for the item in storage bins.  
+When a production order has been released, the lines are available in the pick worksheet, and you can see in the **Qty. on Cross-Dock Bin** field whether the items you are waiting for have arrived and been placed in the cross-dock bins. When you create a pick instruction, application suggests that you first pick the cross-docked items and will only later search for the item in storage bins.  
 
 If you are not using bins, you must remember to check the cross-dock area from time to time, or rely on notifications from receipts that items for production have arrived.  
 

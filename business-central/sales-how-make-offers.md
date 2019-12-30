@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -49,7 +49,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.
 
     > [!NOTE]  
-    >   If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    >  If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -65,7 +65,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field on the **Sales & Receivables** page. 
+    > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field on the **Sales & Receivables** page.
 
 15. When the sales quote lines are completed, choose the **Send by Email** action.
 16. On the **Send Email** page, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).

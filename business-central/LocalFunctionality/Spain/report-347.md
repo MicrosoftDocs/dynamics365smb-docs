@@ -2,8 +2,6 @@
     title: Report 347
     description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. This report also includes entries such as payment in cash that was received in the period.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

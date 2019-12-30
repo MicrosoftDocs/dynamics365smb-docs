@@ -1,8 +1,6 @@
 ---
     title: Tips and Tricks - RapidStart Services | Microsoft Docs
     description: When you configure companies using RapidStart Services, there are some tips and tricks that you can take advantage of to help your implementation go smoothly.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -28,10 +26,10 @@ To aid the process of filling out a configuration questionnaire, consider defini
 We recommend that you use the data migration tools provided to migrate journal entries. Otherwise, if you use a batch job to create journal lines, that has a limited scope and only generates pre-default fields into a journal. The rest of the journal then has to be completed manually.  
 
 ## Migrating transactions  
-We recommend that you migrate opening balances in the following order.  
+We recommend that you migrate opening balances in the following order. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Migrate general ledger opening balances without using the general ledger account subledgers. Use specific opening balance offsetting accounts, one set up for each subledger. Set up the offsetting accounts to enable direct postings.  
-2.  Migrate open customer ledger entries.  
+2.  Migrate open customer ledger entries.  <!--work on these-->
 3.  Migrate open item ledger entries.  
 4.  Migrate open fixed asset entries.  
 

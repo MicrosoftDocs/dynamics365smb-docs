@@ -1,8 +1,6 @@
 ---
     title: Execute Production | Microsoft Docs
     description: When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the production order routing.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/15/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Manufacturing
 > [!NOTE]
-> Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Changing Which Features are Displayed](ui-experiences.md).
+> Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 When demand is planned for and the materials have been issued according to production BOMs, then the actual production operations can start and be executed in the sequence defined by the production order routing.  
 

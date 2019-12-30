@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
-# Reconcile Customer Payments Manually From a List of Unpaid Sales Documents
+# Reconcile Customer Payments from a List of Unpaid Sales Documents
 When your customers have made payments to your electronic bank account, you must apply each amount paid to the related sales document and then post the payment to update the customer, general ledger, and bank ledger entries. Depending on your business needs, you can get paid and register that payment in different ways: manually, automatically, and through payment services.  
 
 > [!NOTE]  
 >   You can perform the same tasks, including vendor payments, on the **Payment Reconciliation Journal** page using functions for bank statement import, automatic application, and bank account reconciliation. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
-The **Register Customer Payments** page is designed to support you in tasks involved in balancing internal accounts by using actual cash figures to make sure that payments are collected efficiently from customers. This payment processing tool enables you to quickly verify and post individual or lump payments, process discounted payments, and find specific unpaid documents for which payment is made.
+The **Register Customer Payments** page is designed to support you in tasks involved in balancing internal accounts by using actual cash figures to make sure that payments are collected efficiently from customers. This payment processing tool enables you to quickly verify and post individual or lump-sum payments, process discounted payments, and find specific unpaid documents for which payment is made.
 
-Payments for different customers that have different payment dates must be posted as individual payments. Payments for the same customer that have the same payment date can be posted as a lump payment. This is useful, for example, when a customer has made a single payment that covers multiple sales invoices.
+Payments for different customers that have different payment dates must be posted as individual payments. Payments for the same customer that have the same payment date can be posted as a lump-sum payment. This is useful, for example, when a customer has made a single payment that covers multiple sales invoices.
 
 ## To set up the payment registration journal
 Because you can post different payment types to different balancing accounts, you must select a balancing account on the **Payment Registration Setup** page before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Register Customer Payments** page.  
@@ -50,30 +50,30 @@ The payment information is posted for documents represented by lines where the *
 
 Payments entries are posted to general ledger, bank, and customer accounts. Each payment is applied to the related posted sales document.  
 
-## To reconcile lump payments
+## To reconcile lump-sum payments
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
-2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump payment has been made.  
+2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump-sum payment has been made.  
 
     > [!NOTE]  
-    >   The customer in the **Name** field must be the same on all lines that will be posted as a lump payment.  
+    >   The customer in the **Name** field must be the same on all lines that will be posted as a lump-sum payment.  
 
     If the **Auto Fill Date Received** check box is selected on the **Payment Registration Setup** page, then the work date is filled in the **Date Received** field.  
 3. In the **Date Received** field, enter the date when the payment was made. This date may be different from the work date.  
 
     > [!NOTE]  
-    >   This date must be the same on all lines that will be posted as a lump payment.  
+    >   This date must be the same on all lines that will be posted as a lump-som payment.  
 4. In the **Amount Received** field, enter amounts on multiple lines that sum up to the lump payment amount.  
 
     > [!TIP]  
-    >   Try to post as many full payments as possible with the lump amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
-5. Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump payment has been made.  
+    > Try to post as many full payments as possible with the lump-sum amount. Enter amounts that are the same as the amount in the **Remaining Amount** field on as many lines as possible.  
+5. Repeat steps 2-4 for other lines that represent posted documents for the same customer for which a lump-sum payment has been made.  
 6. Choose the **Post As Lump Payment** action. The entered payment information is posted for documents represented by lines where the **Payment Made** check box is selected.  
 
 Payment entries are posted to general ledger, bank, and customer accounts. Each payment is applied to the related posted sales document.  
 
-If a payment in the bank is not represented by line on the **Payment Registration** page, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see the "To find a specific sales document that is not fully invoiced" section.  
+If a payment in the bank is not represented by line on the **Payment Registration** page, it may be because the related document has not yet been posted. In that case, you can use a search function to quickly find the document and post it to process the payment. For more information, see [To find a specific sales document that is not fully invoiced](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see the "To record or post a payment without a related document" section.  
+If a payment in the bank is not represented by any document in [!INCLUDE[d365fin](includes/d365fin_md.md)], then you can open a prefilled general journal from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been resolved. For more information, see [To record or post a payment without a related document](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## To process customer payments with discounts manually
 If you have agreed on a payment discount with your customer, then the payment amounts can be lower than the invoice amounts if payment occurs before the agreed discount date.  

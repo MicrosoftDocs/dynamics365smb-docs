@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -27,7 +27,7 @@ Before you can start to use the electronic banking functionality for CODA statem
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Choose the **Edit** action.  
-3.  On the **Posting** FastTab, fill in the fields as described in the following table.  
+3.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

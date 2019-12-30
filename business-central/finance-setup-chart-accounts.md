@@ -9,13 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 12/10/2018
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
 # Setting Up or Changing the Chart of Accounts
 The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard chart of accounts that is ready to support your business.
-However, you can change the default accounts, and you can add new accounts.  
+However, you can change the default accounts, and you can add new accounts. 
+<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
+
 
 ## Adding or Changing Accounts
 From the chart of accounts, you can open each G/L account and add or change settings.
@@ -31,9 +35,9 @@ From the chart of accounts, you can open each G/L account and add or change sett
 
 ## See Also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
-[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

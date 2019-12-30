@@ -1,8 +1,6 @@
 ---
     title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
     description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---
@@ -24,7 +22,7 @@ You can create a service contract either manually or from a service contract quo
 3. Fill in the **No.** field. A dialog box opens, asking whether you want to fill it with the common data from a contract template. If you want to create such a service contract or service contract quote, choose the **Yes** button. The **Service Contract Template List** page opens.  
 4. Select the appropriate template, and then choose **OK** to use it to create the service contract or service contract quote.  
 5. In the **Customer No.** field, choose the customer.  
-6. If you do not want an annual amount difference to be distributed automatically, choose the **Allow Unbalanced Amounts** check box. The values in the **Annual Amount** and **Calcd. Annual Amount** fields are not automatically equalized. If you want the program to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the **Allow Unbalanced Amounts** check box clear.  
+6. If you do not want an annual amount difference to be distributed automatically, choose the **Allow Unbalanced Amounts** check box. The values in the **Annual Amount** and **Calcd. Annual Amount** fields are not automatically equalized. If you want application to do automatically distribute any annual amount difference that might occur from a change in the service contract, leave the **Allow Unbalanced Amounts** check box clear.  
 7. Add contract lines to the service contract or service contract quote.  
 8. Fill in the rest of the fields as necessary.  
 
@@ -69,7 +67,7 @@ You can use a contract service credit memo when a customer cancels a prepaid ser
 
  To automatically create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Invoice Details** FastTab, select the **Automatic Credit Memos** check box.  
 
- To manually create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, on the **Actions** tab, in the **Functions** group, choose **Credit Memo**.  
+ To manually create a credit memo when contract lines are removed from a service contract, on the **Service Contract** page, choose the **Credit Memo** action.  
 
 ## Updating and evaluating contracts
 Sometimes you have to change the terms of a contract after it has been created. In most cases, you open the relevant contract on the **Service Contract** page, and change it as necessary.  
@@ -95,12 +93,12 @@ You may need to remove contract lines from the service contract as you remove co
 4. Choose the contract line you want to remove. Fill in the **Contract Expiration Date** field with the date as of which you want to remove the line. For example, you could enter the date when the service item broke down.  
 5. Choose the **Remove Contract Lines** action. The **Remove Lines from Contract** page opens.  
 6. Fill in the default filters: **Contract No.**, **Service Item No.**, and **Contract Type**. If needed, you can apply more filters or change the existing ones.  
-7. Fill in the fields on the **Options** FastTab. In the **Action** field, select **Delete Lines**.  
+7. Fill in the fields on the **Options** FastTab, and then choose the **Delete Lines** action.  
 
 > [!NOTE]  
 >  If the contract is not detailed, you must update the value in the **Annual Amount** field on the **Invoice Details** FastTab on the **Service Contract** page, reflecting the loss of the service item from the contract.  
 >   
->  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. On the **Actions** tab, in the **Functions** group, choose **Create Credit Memo**. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.
+>  If the contract is detailed and prepaid, and you have posted invoices for the contract, you can create a credit memo for the contract. Choose the **Create Credit Memo** action. This is unnecessary if the check box in the **Automatic Credit Memos** field on the **Invoice Details** FastTab is selected. In that case, a credit memo is created automatically when you remove a contract line.
 
 ## Service Line Cost and Value
 On a service contract lines, the amounts in the **Line Cost** and **Line Value** are calculated as described in the following tables.
@@ -146,7 +144,7 @@ You may need to change the owner of a service contract. If a service item in a s
 4. In the **Contract No.** and **Service Item No**. fields you can see the numbers of the contract and service item owned by the selected customer. If the customer owns more than one contract with more than one service item included, then the value of these fields will be **Multiple**. To see the list of related contracts or service items, select these field values.  
 5. In the **New Customer No.** field, choose the new customer.  
 6. In the **New Ship-to Code** field, choose the address.  
-7. Choose **OK** to change the customer and ship-to code of the service contracts.  
+7. Choose the **OK** button to change the customer and ship-to code of the service contracts.  
 8. Choose the **Lock Contract** action to lock the contract and to make sure that the changes will be part of the contracts.  
 
 ## To update a service contract price  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 11/15/2018
+ms.date: 10/08/2019
 ms.author: sgroespe
 
 ---
@@ -33,11 +33,14 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a purchase invoice to record your agreement with a vendor to purchase products on certain delivery and payment terms. |[Record Purchases](purchasing-how-record-purchases.md) |
 |Create a purchase quote to reflect a request for quote from your vendor, which you can later convert to a purchase order.|[Request Quotes](purchasing-how-request-quotes.md)|
 | Create a purchase invoice for all or selected lines on a sales invoice. |[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md) |
+|Understand what happens when you post purchase documents.|[Posting Purchases](ui-post-purchases.md)|
 | Perform an action on an unpaid posted purchase invoice to automatically create a credit memo and either cancel the purchase invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Create a purchase credit memo to revert a specific posted purchase invoice to reflect which products you are returning to the vendor and which payment amount you will collect. |[Process Purchase Returns or Cancellations](purchasing-how-register-new-vendors.md) |
 |Prepare to invoice multiple receipts from the same vendor once by combining the receipts on one invoice.|[Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)|
 |Convert, for example, electronic invoices from your vendors to purchase invoices inside Business Central.|[Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
+|Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
+|Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

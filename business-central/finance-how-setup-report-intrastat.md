@@ -11,16 +11,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: bholtorf
 
 ---
-# How To: Set Up and Report Intrastat
+# Set Up and Report Intrastat
 All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.  
 
 ## Required and Optional Setups
 Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:  
 
+* **Intrastat Setup**: Intrastat Setup page is used to enable intrastat reporting and set defaults for it. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals) or both depending on thresholds set by your local regulations. You can also set default transaction types for regular and return documents, used for nature of transaction reporting.
 * **Intrastat journal templates**: You must set up the Intrastat journal templates and batches you will use. Because Intrastat is reported monthly, you must create 12 Intrastat journal batches based on the same template.  
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You specify these codes on items.
 * **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on sales and purchase documents, and when you process returns.  
@@ -42,7 +43,7 @@ You can export the entries to a file that you can send to your Intrastat authori
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use.  
-3. To create batches, choose the **Navigate** tab, and then choose **Batches**.  
+3. To create batches, choose the **Batches** action.  
 4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use..  
 
 > [!Note]
@@ -71,7 +72,7 @@ In some countries, such as Spain and UK, the authorities require that Intrastat 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Setup**, and then choose the related link.
 2. Chooes the **Intrastat Checklist Setup** action.
-3. On the **Intrastat Checklist Setup** page, click in the **Field Name** to pick Intrastat report field you want to make mandatory. 
+3. On the **Intrastat Checklist Setup** page, click in the **Field Name** to pick Intrastat report field you want to make mandatory.
 
 ## To Report Intrastat
 After you fill in the Intrastat journal, you can run the **Checklist report** action to make sure that that all information in the journal is correct. Mandatory fields you have set in **Intrastat Checklist Setup** page that are missing values, will be shown in Errors and warning factbox on **Intrastat Journal** page. Afterward, you can print an Intrastat report as a form, or create a file to submit to the tax authority in your country/region.  
@@ -93,7 +94,7 @@ To get the information that is required on the Intrastat form from the statistic
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. On the **Intrastat Journal** page, choose the relevant journal batch in the **Batch Name** field.  
-3. If you have not already done this, fill in the journal manually or choose **Suggest Lines**.  
+3. If you have not already done this, fill in the journal manually or choose **Suggest Lines** action.  
 4. Choose the **Prints Intrastat Journal** action.  
 5. On the **Intrastat Jnl. Line** FastTab, add a **Type** filter and then specify whether this is a **Receipt** or a **Shipment**.  
 6. Choose **Send to** to print the report.  
@@ -103,9 +104,9 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal**, and then choose the related link.  
 2. On the **Intrastat Journal** page, select the relevant journal batch in the **Batch Name** field.  
-3. If you have not already done this, fill in the journal manually or by choosing **Suggest Lines**.  
+3. If you have not already done this, fill in the journal manually or by choosing the **Suggest Lines** action.  
 4. Choose the **Create File** action.  
-5. In the batch job page, choose **OK**.  
+5. On the batch job page, choose the **OK** button.  
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
@@ -114,7 +115,7 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. To view the options, choose the **Batch Name** field.  
-3. Choose the journal batches to deleted, and then choose **Delete**.  
+3. Choose the journal batches to deleted, and then choose the **Delete** button.  
 
 ## See Also
 [Financial Management](finance.md)

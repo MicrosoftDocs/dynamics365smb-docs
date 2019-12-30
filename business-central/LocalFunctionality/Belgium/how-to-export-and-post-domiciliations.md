@@ -12,14 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Export and Post Domiciliations
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 You can submit domiciliations to your bank by exporting the data to a file. When you export to a file, you can choose to automatically post the lines to the general ledger.  
 
 Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank Account Card** page, the **File Domiciliations** action opens either of these request pages:  
@@ -31,7 +28,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch, and then choose the **File Domiciliations** action.  
-3.  On the **Create Gen. Jnl. Lines** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
+3.  On the **Create Gen. Jnl. Lines** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -52,7 +49,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank 
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch, and then choose the **File Domiciliations** action.  
-3.  On the **File Domiciliations** page, select the **Options** FastTab, and then fill in the fields as described in the following table.  
+3.  On the **File Domiciliations** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

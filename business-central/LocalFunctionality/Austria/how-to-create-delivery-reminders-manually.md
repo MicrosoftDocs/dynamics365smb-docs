@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery re
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
 2.  Choose the **New** action.  
-3.  On the **Delivery Reminder** page, on the **General** FastTab, fill in the fields as described in the following table.  
+3.  On the **Delivery Reminder** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -35,9 +35,9 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery re
     |**Reminder Terms Code**|Specify the delivery reminder terms code that is set up for the vendor.|  
     |**Due Date**|The due date for the delivery reminder.|  
 
-4.  Choose the **Suggest Reminder Lines** action  
+4.  Choose the **Suggest Reminder Lines** action.  
 
-    If there are overdue deliveries from the specified vendor, these are added to the deliver reminder.  
+    If there are overdue deliveries from the specified vendor, these are added to the delivery reminder.  
 
 5.  Choose the **OK** button.  
 

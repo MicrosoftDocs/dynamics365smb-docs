@@ -1,1 +1,1 @@
-Get [training!](https://docs.microsoft.com/en-us/dynamics365/get-started/training/)
+Get [training!](/learn/browse/?products=dynamics-business-central)

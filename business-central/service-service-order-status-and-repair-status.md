@@ -1,8 +1,6 @@
 ---
     title: Service Order Status and Repair Status | Microsoft Docs
     description: The Status field in the Service Order page and the service item repair status, which is represented by the Repair Status Code field in the Service Order page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

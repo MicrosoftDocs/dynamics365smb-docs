@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -63,8 +63,8 @@ The following procedure describes how to set up product posting groups for WHT, 
     |**Bal. Payable Account No.**|Specifies the account number or bank name for purchase WHT transactions. This is based on the type selected in the **Bal. Payable Account Type** field.|  
     |**WHT Report Line No. Series**|Specifies the number series for the WHT report line.|  
     |**Revenue Type**|Specifies the revenue type. For more information, see [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md).|  
-    |**Purch. WHT Adj. Account No.**|Specifies the account number which to post purchase credit memo adjustments.|  
-    |**Sales WHT Adj. Account No.**|Specifies the account number to post sales credit memo adjustments.|  
+    |**Purch. WHT Adj. Account No.**|Specifies the account number on which to post purchase credit memo adjustments.|  
+    |**Sales WHT Adj. Account No.**|Specifies the account number on which to post sales credit memo adjustments.|  
     |**Sequence**|Specifies the sequence in which the withholding tax posting setup information must be displayed in reports.|  
 
 3.  Choose the **OK** button.  

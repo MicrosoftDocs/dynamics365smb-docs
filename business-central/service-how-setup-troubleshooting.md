@@ -1,8 +1,6 @@
 ---
     title: Set Up Troubleshooting Processes | Microsoft Docs
     description: Learn how to set up processes that help service representatives identify and resolve issues with service items.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

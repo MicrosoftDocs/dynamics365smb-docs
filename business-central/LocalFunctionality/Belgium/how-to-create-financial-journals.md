@@ -1,6 +1,6 @@
 ---
     title: How to Create Financial Journals
-    description: Financial journals are used to register bank account transactions. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.
+    description: Financial journals are used to register bank account transactions. A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,12 +12,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Create Financial Journals
-Financial journals are used to register bank account transactions. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.  
+Financial journals are used to register bank account transactions. A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.  
 
 ## To create a financial journal  
 

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -38,6 +38,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create a sales quote where you offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
 | Create a sales invoice to record your agreement with a customer to sell products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
 | Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
+|Understand what happens when you post sales documents.|[Posting Sales](ui-post-sales.md)|
 |Set up standard sales or purchase lines that you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
 | Link a sales order to a purchase order to sell a drop-shipment item that will be delivered directly from your vendor to your customer. |[Make Drop Shipments](sales-how-drop-shipment.md) |
 |Have a catalog item shipped from a vendor to your warehouse so that you can ship the item on to your customer.|[Create Special Orders](sales-how-to-create-special-orders.md)|
@@ -47,6 +48,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Sell assembly items that are not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
+|Register your estimates for future sales, specified by item and by period, to function mainly as input to production planning.|[Create a Forecast](production-how-to-create-a-forecast.md)|
+|Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  

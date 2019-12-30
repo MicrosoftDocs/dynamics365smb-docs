@@ -2,8 +2,6 @@
     title: How to Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
     description: In Business Central, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

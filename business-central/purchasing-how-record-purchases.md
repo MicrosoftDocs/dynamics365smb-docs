@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -30,6 +30,9 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## To create a purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
@@ -59,6 +62,12 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
     The price and line amount are shown with or without sales tax depending on what you selected in the **Prices Including Tax** field on the vendor card.
+
+    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
+
+    > [!NOTE]
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+
 12. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
 
     > [!NOTE]  

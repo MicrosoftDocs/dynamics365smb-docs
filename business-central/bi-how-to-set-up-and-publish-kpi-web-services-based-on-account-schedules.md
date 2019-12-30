@@ -1,8 +1,6 @@
 ---
     title: Set Up and Publish KPI Web Services for Account Schedules | Microsoft Docs
     description: This topic describes how to show the account-schedule KPI data based on specific account schedules.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---

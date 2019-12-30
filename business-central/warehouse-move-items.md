@@ -1,8 +1,6 @@
 ---
     title: Move Items | Microsoft Docs
     description: While in inventory, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a production order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimization or as ad-hoc movements to and from operations.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -20,9 +18,11 @@ The warehouse activity of moving items within the warehouse is performed in diff
 
 While in one warehouse location, items may need to be moved between bins to support the daily warehouse activities involved in keeping items flowing through the warehouse. Some movements happen in direct relation to internal operations, such as a production order that needs components delivered or end items put away. Other movements happen as mere warehouse space optimization or as ad-hoc movements to and from operations.
 
+Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.
+
 Moving items to other locations affects the item ledger entries and must therefore be done by transfer order. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).  
 
-Additional movement tasks are to periodically replenish picking bins or shop floor bins and to modify bin content information.  
+The inventory-related tasks of counting, adjusting, and reclassifying items may involve warehouse tasks that must be performed on warehouse entries before they can be synchronized with the related item ledger entries. For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md)  
 
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 

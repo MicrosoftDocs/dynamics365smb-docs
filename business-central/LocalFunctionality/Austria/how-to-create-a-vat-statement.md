@@ -1,8 +1,6 @@
 ---
     title: How to Create a VAT Statement
-    description: You can submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.
-    services: project-madeira
-    documentationcenter: ''
+    description: You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,12 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Create a VAT Statement
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as a FDF file that corresponds with an editable PDF file from the tax authorities.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  
 
 > [!IMPORTANT]  
 >  You must fill in detailed information about your company address in the Company Information page before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
@@ -24,7 +22,7 @@
 ## To create a VAT statement  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement AT**, and then choose the related link.  
-2.  On the **Options** FastTab, fill in the fields as described in the following table.  
+2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

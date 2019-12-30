@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/17/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -65,7 +65,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 11. In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.  
 
     > [!NOTE]  
-    >   If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.  
+    > If the item is of type **Service**, or the **Type** field contains **Resource**, then the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
 
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
@@ -75,7 +75,10 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Repeat steps 9 through 12 for every product or charge that you want to invoice the customer for.  
 
-    The totals under the lines are automatically calculated as you create or modify lines.  
+    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
+
+    > [!NOTE]
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
 14. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
@@ -91,7 +94,7 @@ Depending on your business needs, you can get paid and register that payment in 
 
 You can process the payments straight from the customer card. Use the **Register Customer Payments** action to get an overview of unpaid invoices for that customer. Then, mark the invoice as paid partially or in full. This payment reconciliation processes your customer payments by matching amounts received on your bank account with the related unpaid sales invoices, and then posts the payments. For more information, see [To reconcile payments individually](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
-In business environments where the customer pays some time after delivery, according to the payment term, a posted sales invoice remains open (unpaid) until the Accounts Receivable department verifies that payment is received and applies the payment to the posted sales invoice. This can be done manually or automatically. For more information, see [Reconcile Customer Payments Manually](receivables-how-apply-sales-transactions-manually.md) and [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
+In business environments where the customer pays some time after delivery, according to the payment term, a posted sales invoice remains open (unpaid) until the Accounts Receivable department verifies that payment is received and applies the payment to the posted sales invoice. This can be done manually or automatically. For more information, see [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md) and [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
 
 In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales invoice, that is, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. See under step 8. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).  
 

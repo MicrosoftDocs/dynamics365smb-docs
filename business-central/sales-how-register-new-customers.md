@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -21,7 +21,11 @@ Customers are the source of your income. You must register each customer you sel
 Before you can register new customers, you must set up various sales codes that you can select from when you fill in customer cards. For more information, see [Setting Up Sales](sales-setup-sales.md).
 
 > [!NOTE]  
->   If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.
+>   If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  
+<br><br>  
+<br><br>  
+  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## To create a new customer card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
@@ -50,6 +54,8 @@ If you want to use this customer card as a template when you create new customer
 The customer template is added to the list of customer templates, so that you can use it to create new customer cards.
 
 ## See Also
+[Defining Payment Methods](finance-payment-methods.md)  
+[Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)    

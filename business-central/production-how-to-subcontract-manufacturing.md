@@ -9,18 +9,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Subcontract Manufacturing
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
-The program provides several tools for managing subcontract work:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] provides several tools for managing subcontract work:  
 
 - Work Centers with assigned vendor: This feature enables you to set up a work center that is associated with a vendor (subcontractor). This is called a subcontract work center. You can specify a subcontract work center on a routing operation, which allows you to easily process the subcontracted activity. In addition, the cost of the operation can be designated at the routing or the work center level.  
-- Work Center cost based on units or time: This feature enables you to specify whether costs associated with the work center are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the program can handle both options (production time and flat charge per unit).  
-- Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. Then the program automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
+- Work Center cost based on units or time: This feature enables you to specify whether costs associated with the work center are based on the production time or a flat charge per unit. Although subcontractors commonly use a flat charge per unit to charge for their services, the application can handle both options (production time and flat charge per unit).  
+- Subcontracting Worksheet: This feature allows you to find the production orders with material ready to send to a subcontractor and to automatically create purchase orders for subcontract operations from production order routings. The application automatically posts the purchase order charges to the production order during the posting of the purchase order. Only production orders with a status of released can be accessed and used from a subcontracting worksheet.  
 
 ## Subcontract Work Centers  
 Subcontract Work Centers are set up the same as regular work centers with additional information. They are assigned to routings in the same manner as other work centers.  
@@ -57,7 +57,7 @@ The **Subcontracting Worksheet** page functions like the **Planning Worksheet** 
 
 ### To create the subcontract purchase order  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Subcontracting Worksheet**, and then choose the related link.  
-2.  On the **Actions** tab, in the **Process** group, choose **Carry Out Action Message**.  
+2.  Choose the **Carry Out Action Message** action.  
 3.  Select the **Print Orders** field to print the purchase order as it is created.  
 4.  Choose the **OK** button.  
 

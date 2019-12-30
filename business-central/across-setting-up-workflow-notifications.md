@@ -1,8 +1,6 @@
 ---
     title: Setting Up Workflow Notifications | Microsoft Docs
     description: Many workflow responses are about notifying a user that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record, and the response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record, and the response is that a notification is sent to User 3 to start a related processing of the approved record. For workflow steps that are about approval, each notification is tied to an approval entry.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/08/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -28,7 +26,7 @@ You set up different aspects of workflow notifications in the following places:
 
 1.  For approval workflows, you set up the recipients of workflow notifications by filling a line on the **Approval User Setup** page for each user that takes part in the workflow. For example, if User 2 is specified in the **Approver ID** field on the line for User 1, then the approval request notification is sent to User 1. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 2.  You set up when and how users receive workflow notifications by filling the **Notification Schedule** page for each workflow user. For more information, see [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  If you want, you can customize the content of the email notification by modifying report 1320, Notification Email. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).  
+3.  If you want, you can customize the content of the email notification by modifying report 1320, Notification Email. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).  
 4.  You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options on the **Workflow Response Options** page for the workflow response that represents the notification. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  
 
 ## See Also  
@@ -36,7 +34,7 @@ You set up different aspects of workflow notifications in the following places:
  [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
  [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Create Workflows](across-how-to-create-workflows.md)   
- [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)   
+ [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)   
  [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)   
  [Set up Email](admin-how-setup-email.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

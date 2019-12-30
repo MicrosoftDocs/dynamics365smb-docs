@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 11/27/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -46,11 +46,11 @@ You reimburse employees by posting payments to their bank account on the **Payme
 5. Choose the **Post** action to register the reimbursement.  
 
 ## To reconcile reimbursements with employee ledger entries
-You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).  
+You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example on the **Payment Reconciliation Journal** page, based on the related bank statement entries. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md). Alternatively, you can apply manually on the **Employee Ledger Entries** page. For more information, see the related [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md).  
 
 ## See Also
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

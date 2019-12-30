@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Selling, Assembling, and Shipping Kits | Microsoft Docs
     description: To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,16 +9,19 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Selling, Assembling, and Shipping Kits
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.  
 
 Special functionality exists to govern the shipping of assemble-to-order quantities, both in basic and in advanced warehouse configurations. When workers in charge of assembly finish assembling parts or all of the assemble-to-order quantity, they record it in the **Qty. to Ship** field on the warehouse shipment line, in advanced configurations, and then choose **Post Shipment**. The result is that the corresponding assembly output is posted, including the related component consumption, and a sales shipment for the quantity is posted for the linked sales order. This walkthrough illustrates the advanced warehouse process.  
 
-In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in Inventory Pick.  
+In basic warehouse configurations, when an assemble-to-order quantity is ready to be shipped, the warehouse worker in charge posts an inventory pick for the sales order lines. This creates an inventory movement for the components, posts the assembly output, and the sales order shipment. For more information, see [Handling Assemble-to-Order Items in Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## About This Walkthrough  
 This walkthrough demonstrates the following tasks:  
@@ -99,7 +100,7 @@ Remove the default lead time for internal processes by following these steps:
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
 2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
-Create inventory for assembly components by following the "Prepare Sample Data" section in this walkthrough.  
+Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## Story  
 On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
@@ -128,7 +129,7 @@ Sammy packs the ten ATS units with the five ATO units that Linda assembled earli
 
 When the sales order is later posted as fully invoiced, the sales order and the linked assembly orders are removed.  
 
-## Setting Up the Sample Data  
+## Prepare Sample Data  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Item Journals**, and then choose the related link.  
 2.  Choose the **Batch Name** field, and then select the default journal.  
@@ -143,19 +144,19 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     |80203|PICK|W-01-0001|20|  
     |80209|PICK|W-01-0001|20|  
 
-4.  On the **Home** tab, in the **Registering** group, choose **Register**, and then choose the **Yes** button.  
+4.  Choose the **Register** action, and then choose the **Yes** button.  
 
     Next, synchronize the new warehouse entries with inventory.  
 
 5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link. The **Item Journal** page opens.  
-6.  On the **Actions** tab, in the **Functions** group, choose **Calculate Whse. Adjustment**.  
+6.  Choose the **Calculate Whse. Adjustment** action.  
 7.  On the **Calculate Whse. Adjustment** page, choose the **OK** button.  
-8.  On the **Item Journal** page, on the **Actions** tab, in the **Functions** group, choose **Post**, and then choose the **Yes** button.  
+8.  On the **Item Journal** page, choose the **Post** action, and then choose the **Yes** button.  
 
 ### Creating the Assembly Items  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2.  On the **Home** tab, in the **Manage** group, choose **New**.  
+2.  Choose the **New** action.  
 3.  Create the first assembly item based on the following information.  
 
     |Field|Value|  
@@ -170,7 +171,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     > [!NOTE]  
     >  Kit A is typically supplied by assembly to stock and therefore has a reordering policy to make it part of general supply planning.  
 
-4.  On the **Navigate** tab, in the **Assembly/Production** group, choose **Assembly**, and then choose **Assembly BOM**.  
+4.  Choose the **Assembly** action, and then choose **Assembly BOM**.  
 5.  Define an assembly BOM for Kit A with the following information.  
 
     |**Type**|**No.**|**Quantity per**|  
@@ -193,7 +194,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     > [!NOTE]  
     >  Kit B is usually supplied by assembly to order and therefore does not have a reordering policy, because it should not be part of general supply planning.  
 
-7.  On the **Navigate** tab, in the **Assembly/Production** group, choose **Assembly**, and then choose **Assembly BOM**.  
+7.  Choose the **Assembly** action, and then choose **Assembly BOM**.  
 8.  Define an assembly BOM for Kit B with the following information.  
 
     |**Type**|**No.**|**Quantity per**|  
@@ -206,7 +207,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 ### Selling the Assembly Items  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-2.  On the **Home** tab, in the **Manage** group, choose **New**.  
+2.  Choose the **New** action.  
 3.  Create two sales order lines for customer 62000, The Device Shop, on the work date with the following information.  
 
     |**Type**|**Description**|**Quantity**|Qty. to Assemble to Order|Shipment Date|  
@@ -252,14 +253,14 @@ When the sales order is later posted as fully invoiced, the sales order and the 
      Next, change the shipment date of the second sales order line according to the assembly schedule.  
 
 15. On the sales order line for 15 units of Kit A, enter **01-27-2014** in the **Shipment Date** field.  
-16. On the **Actions** tab, in the **Release** group, choose **Release**.  
-17. On the **Actions** tab, in the **Warehouse** group, choose **Create Whse. Shipment**.  
+16. Choose the **Release** action.  
+17. Choose the **Create Whse. Shipment** action.  
 18. Close the sales order.  
 
 ### Planning for the Unavailable ATS Items  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
-2.  On the **Action** tab, in the **Functions** group, choose **Calculate Regenerative Plan**.  
+2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan** page, set the following filters.  
 
     |Starting Date|Ending Date|No.|  
@@ -270,7 +271,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     A new planning line is created for the needed assembly order of ten units, due on January 27. It needs no changes, so now you can create the order.  
 
-5.  On the **Actions** tab, in the **Functions** group, choose **Carry Out Action Message**.  
+5.  Choose the **Carry Out Action Message** action.  
 6.  On the **Carry Out Action Msg.** page, choose the **Assembly Order** field, and then select **Make Assembly Orders**.  
 7.  Choose the **OK** button.  
 
@@ -291,7 +292,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, create a pick document for all the ATO assembly components that are needed on the warehouse shipment.  
 
-3.  On the **Actions** tab, in the **Functions** group, choose **Create Pick**, and then choose the **OK** button.  
+3.  Choose the **Create Pick** action, and then choose the **OK** button.  
 
     Next, perform the picker’s task.  
 
@@ -302,8 +303,8 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next.register the pick without changing the default information.  
 
-6.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
-7.  On the **Home** tab, in the **Registering** group, choose **Register Pick**.  
+6.  Choose the **Autofill Qty. to Handle** action.  
+7.  Choose the **Register Pick** action.  
 
     Return to performing the shipping tasks.  
 
@@ -328,7 +329,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
 12. Close the **Assembly Order** page to return to the **Warehouse Shipment** page.  
 13. On the shipment line for three units of Kit B, in the **Qty. to Ship** field, enter **3**.  
-14. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and then select **Ship**.  
+14. Choose the **Post Shipment** action, and then select the **Ship** button.  
 
     Along with this warehouse shipment posting, the full consumption and output quantities of the related assembly order are posted, and the **Remaining Quantity** field is empty. The sales order line for Kit B is updated to show that the three units are shipped.  
 
@@ -351,7 +352,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, record that the assembly order is completed.  
 
-3.  On the **Navigate** tab, in the **Warehouse** group, choose **Asm.-to-Order Whse. Shpt. Line**.  
+3.  Choose the **Asm.-to-Order Whse. Shpt. Line** action.  
 4.  On the **Asm.-to-Order Whse. Shpt. Line** page, in the **Qty. to Ship** field, enter **5**, and then close the page.  
 
     Notice on the **Assembly Order** page that the **Quantity to Assemble** and the **Quantity to Consume** fields are now filled with the output and consumption quantities that will be posted with the shipment.  
@@ -367,8 +368,8 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, create a pick document to retrieve the needed components.  
 
-3.  On the **Actions** tab, in the **Release** group, choose **Release**.  
-4.  On the **Actions** tab, in the **Warehouse** group, choose **Create Whse. Pick**, and choose the **OK** button.  
+3.  Choose the **Release** action.  
+4.  Choose the **Create Whse. Pick** action, and choose the **OK** button.  
 
     Next, perform the picker’s task.  
 
@@ -377,12 +378,12 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
      Proceed to register the pick without changing the default information.  
 
-7.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
-8.  On the **Home** tab, in the **Registering** group, choose **Register Pick**.  
+7.  Choose the **Autofill Qty. to Handle** action.  
+8.  Choose the **Register Pick** action.  
 
     Return to the assembly order to perform the last assembly task.  
 
-9. In the **Assembly Order**, on the **Actions** tab, in the **Posting** group, choose **Post**, and then choose the **Yes** button.  
+9. In the **Assembly Order**, choose the **Post** action, and then choose the **Yes** button.  
 
     Notice that the assembly order is removed from the list of open orders.  
 
@@ -395,7 +396,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, pick any remaining items.  
 
-3.  On the **Actions** tab, in the **Functions** group, choose **Create Pick**, and then choose the **OK** button.  
+3.  Choose the **Create Pick** action, and then choose the **OK** button.  
 
     Next, perform the picker’s last task for this warehouse shipment.  
 
@@ -406,8 +407,8 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Next, register the pick without changing the default information.  
 
-6.  On the **Actions** tab, in the **Functions** group, choose **Autofill Qty. to Handle**.  
-7.  On the **Home** tab, in the **Registering** group, choose **Register Pick**, and then choose the **Yes** button.  
+6.  Choose the **Autofill Qty. to Handle** action.  
+7.  Choose the **Register Pick** action, and then choose the **Yes** button.  
 
     Return to the warehouse shipment to perform the last task.  
 
@@ -415,7 +416,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     On the **Warehouse Shipment** page, on the line for ten units of Kit A, notice that the **Qty. to Ship** and **Qty. Picked** fields now contain **10**.  
 
-9. On the **Actions** tab, in the **Posting** group, choose **Post Shipment**, and the choose **Ship**.  
+9. Choose the **Post Shipment** action, and the choose **Ship**.  
 
     The warehouse shipment document is removed, which indicates that the involved warehouse activities are completed. Next, verify that the sales order has been processed.  
 
@@ -424,7 +425,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     Notice that the **Quantity Shipped** field contains the full quantity on both lines.  
 
-    When the The Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
+    When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
 ## See Also  
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   

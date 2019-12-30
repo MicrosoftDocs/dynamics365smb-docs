@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Planning Supplies Automatically | Microsoft Docs
     description: Phrases like “run planning” and “run MRP” refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Planning Supplies Automatically
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 Phrases like “run planning” and “run MRP” refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.  
 
 -   MPS is the calculation of a master production schedule based on actual demand and the demand forecast. The MPS calculation is used for end items that have a forecast or a sales order line. These items are called "MPS items" and are identified dynamically when the calculation starts.  

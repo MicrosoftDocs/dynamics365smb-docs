@@ -1,8 +1,6 @@
 ---
     title: How to Import Post Code Updates
-    description: Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.
-    services: project-madeira
-    documentationcenter: ''
+    description: Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the Post Code Range table.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

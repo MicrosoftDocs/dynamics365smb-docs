@@ -2,8 +2,6 @@
     title: How to Block Items from Sales or Purchasing
     description: In Business Central, an item can be marked as blocked for sales, blocked for purchase, or blocked for all purposes.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 12/04/2019
     ms.author: sgroespe
 
 ---
@@ -25,7 +23,12 @@ The following table illustrates what occurs when items are blocked.
 |--------------------|------------|  
 |**Sales Blocked**|You cannot enter the item in a sales document or in a sales item journal.|  
 |**Purchasing Blocked**|You cannot enter the item in a purchase document, in a purchase item journal, or in purchase planning processes.|  
-|**Blocked**|You cannot use the item for any item transaction. For more information about blocking an item for all purposes, see Item Card.|  
+|**Blocked**|You cannot use the item for any item transaction.|  
+
+> [!NOTE]
+> Blocked items can be returned. This means that none of the above settings apply when the item is used on return orders and credit memos.
+
+When you use the **Copy Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
 ## To block an item from being entered on sales lines  
 

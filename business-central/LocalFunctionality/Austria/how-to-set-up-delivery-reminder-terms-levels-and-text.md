@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Delivery Reminder Terms, Levels, and Text
-    description: To create delivery reminders, you must perform certain setup.
-    services: project-madeira
-    documentationcenter: ''
+    description: To create delivery reminders, you must perform certain setup tasks.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -49,7 +47,7 @@ For more information, see [Delivery Reminders](delivery-reminders.md).
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**No.**|The delivery reminder level number. This field is filled in automatically.|  
-    |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9999, and date codes (D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  
+    |**Due Date Calculation**|The formula for the due date calculation for the delivery reminder. You can enter a combination of numbers from 0 to 9,999, and date codes (D for day, WD for weekday, W for week, M for month, Q for quarter, or Y for year). The date codes denote the calculation for the delivery reminder due date. You can enter a maximum of 20 characters for the due date calculation formula.|  
 
 4.  Choose the **OK** button.  
 

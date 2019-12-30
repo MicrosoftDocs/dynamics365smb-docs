@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
-# Accessibility and Keyboard Shortcuts in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Accessibility and Keyboard Shortcuts
 This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following accessibility features:  
 
 -   Keyboard shortcuts

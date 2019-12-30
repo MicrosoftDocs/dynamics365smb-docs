@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ You can set up the general ledger to use the work date as the posting date for c
 ## To set the work date as the posting date  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
-2.  On the **Application** FastTab, select the **Use Workdate for Appl./Unappl.** field.  
+2.  Select the **Use Workdate for Appl./Unappl.** field.  
 3.  Choose the **OK** button.  
 
 ## See Also  

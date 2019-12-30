@@ -1,8 +1,6 @@
 ---
     title: How to Work with Responsibility Centers | Microsoft Docs
     description: Responsibility centers providing the ability to handle administrative centers. A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -39,7 +37,7 @@ This code will be used on all purchase, sales, or service documents, if the user
 >  When you enter a responsibility center code on a document, it affects the address, dimensions, and prices on the document.  
 
 ## To assign responsibility centers to users  
-You can set up users so that in their daily routines the program retrieves only the documents relevant for their particular work areas. Users are usually associated with one responsibility center and work only with documents related to specific application areas at that particular center.  
+You can set up users so that in their daily routines application retrieves only the documents relevant for their particular work areas. Users are usually associated with one responsibility center and work only with documents related to specific application areas at that particular center.  
 
 To set this up, you assign responsibility centers to users in three functional areas: Purchases, Sales, and Service Management.  
 

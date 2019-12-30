@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---
@@ -24,4 +24,4 @@ The **Bank Account Reconciliation** report displays open bank ledger entries as 
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
-[Reconcile Bank Accounts Separately](../../bank-how-reconcile-bank-accounts-separately.md)
+[Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)

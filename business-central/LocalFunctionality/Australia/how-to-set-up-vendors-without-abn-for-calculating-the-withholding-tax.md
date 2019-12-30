@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -23,7 +23,7 @@ Withholding Tax (WHT) is calculated for local vendors who do not have an Austral
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
 2.  Choose the required vendor, and then choose the **Edit** action.  
-3.  On the **Vendor Card** page, on the **Registration** FastTab, make sure the **ABN** field and the **Foreign Vend** field must be empty.  
+3.  On the **Vendor Card** page, make sure the **ABN** field and the **Foreign Vend** field are empty.  
 4.  Choose the **OK** button.  
 
     > [!NOTE]  

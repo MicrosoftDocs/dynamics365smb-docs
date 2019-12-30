@@ -9,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. You may require a deposit before you manufacture items to order, or you may require payment before you ship items to a customer. You use the prepayments functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] to invoice and collect deposits that are required from customers or remit deposits to vendors. Thus, you can make sure that all payments are posted against an invoice.  
 
  Prepayment requirements can be defined for a customer or vendor for all items or selected items. After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount. You can change the default amounts on the invoice as needed. For example, you can send additional prepayment invoices if additional items are added to the order.  
@@ -54,7 +57,7 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
  Phyllis sets up the system to handle prepayments for customers.  
 
 -   Phyllis decides to have the same number series for prepayments as the one used for sales invoicing.  
--   Phyllis sets the program to check if prepayments are required before final invoicing on an order.  
+-   Phyllis sets application to check if prepayments are required before final invoicing on an order.  
 -   Phyllis sets up default values for a required prepayment percentage for particular items and customers.  
 
 The following procedures describe how to complete Phyllis' tasks:  
@@ -162,7 +165,7 @@ The following day, the customer calls Susan and makes changes to the order. The 
 2.  On the line for item **1100**, in the **Quantity** field, enter **2**.  
 
     Scroll to see the prepayment fields. The **Prepayment Line Amount Excl. VAT** field now contains **630**, and the **Prepmt. Amt. Inv. Excl. VAT** field contains **315**. This shows that there is an additional prepayment amount that has not been invoiced yet.  
-3.  To post an invoice for the additional prepayment amount, on the **Actions** tab, in the **Posting** group, choose **Prepayment**, and then choose **Post Prepayment Invoice**.  
+3.  To post an invoice for the additional prepayment amount, choose the **Post Prepayment Invoice** action.  
 
 ## Applying the Prepayments  
 The customer pays the prepayments amount and Arnie, who works in the accounts department, registers the payment and applies it to the prepayment invoices.  

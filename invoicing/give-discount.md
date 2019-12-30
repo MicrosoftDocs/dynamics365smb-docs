@@ -8,11 +8,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/20/2018
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
 # Give a discount using in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
+> [!Note]
+> [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
 When you add products to an invoice or an estimate, you can grant a discount at two different levels:  
 

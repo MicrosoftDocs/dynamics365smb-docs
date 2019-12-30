@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
@@ -347,7 +347,7 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
  In the request form of the Post Inventory Cost to G/L there is a Posting Date to be entered by the user. The batch job runs through all value entries within the filter, if any, and creates General Ledger Entries with Posting Date entered in the request form.  
 
 ### Version 3.70.B..4.0  
- In the request form of the Post Inventory Cost to G/L the Closed Period Entry Posting Date field is available. The program uses the date you enter in this field as the posting date for the general ledger entries it creates for value entries whose posting dates are in closed accounting periods. Otherwise, the general ledger entries will have the same posting date as the original value entries. A date is considered to be in a closed period when it is earlier than the date in the Allow Posting From field in the General Ledger Setup. If posting to G\/L Per Posting Group, the general ledger entries will have the posting date that is specified in the Posting Date field in the request form.  
+ In the request form of the Post Inventory Cost to G/L the Closed Period Entry Posting Date field is available. The application uses the date you enter in this field as the posting date for the general ledger entries it creates for value entries whose posting dates are in closed accounting periods. Otherwise, the general ledger entries will have the same posting date as the original value entries. A date is considered to be in a closed period when it is earlier than the date in the Allow Posting From field in the General Ledger Setup. If posting to G\/L Per Posting Group, the general ledger entries will have the posting date that is specified in the Posting Date field in the request form.  
 
  In version 3 and 4 the batch job scans all value entries to detect if there are any value entries where Cost Amount (Actual) differs from Cost Posted to G/L. If there is a difference detected the differing amount will be posted in a G/L entry. If expected cost posting is used corresponding fields are processed in the same way.  
 

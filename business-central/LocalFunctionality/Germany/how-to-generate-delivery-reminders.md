@@ -2,8 +2,6 @@
     title: How to Generate Delivery Reminders
     description: In Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

@@ -9,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
@@ -129,7 +132,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
 ### To put the items away  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
-2.  Select the only warehouse put-away document in the list, and then on the **Home** tab, in the **Manage** group, choose **Edit**.  
+2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.
 

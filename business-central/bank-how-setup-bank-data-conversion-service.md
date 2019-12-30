@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 10/02/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -25,7 +25,7 @@ As an alternative to importing bank statements with the bank data conversion ser
 To import or export bank files, you must set up your own bank account and your vendors' bank accounts. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
->   The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.
+> The bank data conversion service may impose a limit on the number of lines that can be exported in one file. You will receive an error message if the limit is exceeded. It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.
 
 ## To sign your company up for the bank data conversion service
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.  
@@ -49,7 +49,7 @@ To import or export bank files, you must set up your own bank account and your v
 2. On the **Bank Data Conv. Service Setup** page, choose the **Bank Name - Data Conversion List** action to open the list of bank names representing bank data formats that are supported by the conversion service.
 3. On the **Bank Name - Data Conversion List** page, choose the **Update Bank Name List** action.
 
-The list of bank data formats that are supported by the bank data conversion service is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field on the **Bank Account Card** page.
+The list of bank data formats that are supported by the AMC Banking 365 Fundamentals extension is now updated. This is the list of bank names, filtered by the country/region, that you can select from in the **Bank Name - Data Conversion** field on the **Bank Account Card** page.
 
 > [!NOTE]  
 >   The update of supported bank data formats also occurs when you select or enter a value in the **Bank Name - Data Conversion** field on the bank account.
@@ -58,5 +58,5 @@ You have now signed up for the bank data conversion service. Proceed to reflect 
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

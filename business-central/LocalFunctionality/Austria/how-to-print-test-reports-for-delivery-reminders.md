@@ -1,8 +1,6 @@
 ---
     title: How to Print Test Reports for Delivery Reminders
     description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -25,7 +23,7 @@ A test report is a document that lets you review and modify a delivery reminder 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
 2.  On the **Delivery Reminder List** page, choose the **Delivery Reminder - Test** action.  
 3.  On the **Delivery Reminder - Test** page, set a filter if you want to print only selected delivery reminders.  
-4.  Choose the **Print** to print the report or choose the **Preview** button to view it on the screen.  
+4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   

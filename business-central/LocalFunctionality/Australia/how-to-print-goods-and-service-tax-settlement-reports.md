@@ -10,16 +10,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---
 # Print Goods and Service Tax Settlement Reports
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 
+
 ### To print a goods and service tax settlement  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate GST Statement**, and then choose the related link.  
-2. On the **Options** FastTab, fill in the fields as described in the following table.  
+2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -30,9 +31,9 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
     |**Document No.**|The document number of the settlement entries.|  
     |**Description**|The settlement description.|  
     |**Post**|Select to post the withholding tax settlement entries.|  
-    |**Inter Company**|Select if the posting is inter company.|  
+    |**Inter Company**|Select if the posting is intercompany.|  
 
-3. On the **BAS Calculation Sheet** FastTab, select the appropriate filters.  
+3. Select the appropriate filters.  
 4. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  

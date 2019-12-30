@@ -1,8 +1,6 @@
 ---
     title: How to Modify Planning Suggestions in a Graphical View | Microsoft Docs
     description: A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function. An alternative to doing this in the planning worksheet is to use a graphical view.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -38,7 +36,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
     The **Item Availability by Timeline** page opens with the item number, location, and variant of the item on the selected planning line prefilled in the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory, including planning suggestions.  
 
 2.  Make sure that the **Include Planning Suggestions** field is selected.  
-3.  Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see the "Symbols and Icons on the Timeline FastTab" section.  
+3.  Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see [Symbols and Icons on the Timeline FastTab](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Place the pointer over the green circle until it enlarges and the pointer changes to Move shape (four arrows).  
 5.  Press and hold the mouse button while you drag the pointer up or down to modify the quantity. Press and hold the mouse button while you drag the pointer left or right to modify the due date.  
 6.  In addition to moving elements by drag and drop, you can modify planning suggestions by using a number of drop-down menu functions. Access the drop-down menu for the green circle of a suggested supply element and select one the following functions  

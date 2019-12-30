@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -98,7 +98,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe USD 1.200,50 due on 02-02-2014.**.
 
 > [!NOTE]
-> The due date is calculated according to the date formula that you enter. For more information, see the "Using Date Formulas" section in [Entering Date Ranges](ui-enter-date-ranges.md).
+> The due date is calculated according to the date formula that you enter. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 
@@ -157,6 +157,11 @@ In addition, issuing the reminder may result in VAT entries.
 
 The reminder is either printed for sent to an specified email as a PDF attachment.
 
+### To cancel an issued reminder
+If reminders were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Reminders** page, select one or more lines for issued reminders that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Reminders** page, fill in the fields as necessary, and then choose the **OK** button.
+
 ## To set up finance charge terms
 You must set up a code representing each finance charge calculation. Then you can enter this code in the **Fin. Charge Terms Code** field on customer or vendor cards.
 
@@ -175,7 +180,7 @@ Finance charges can be calculated using either the average daily balance method 
 In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.  
+2. Fill in the fields as necessary.
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
     For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Finance Charge Terms** page.
@@ -239,6 +244,11 @@ In addition, issuing the finance charge memo may result in VAT entries.
 4. Choose the **OK** button
 
 The finance charge memo is either printed for sent to an specified email as a PDF attachment.
+
+### To cancel an issued finance charge memo
+If finance charge memos were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+1. On the **Issued Finance Charge Memos** page, select one or more lines for issued finance charge memos that you want to cancel, and then choose the **Cancel** action.
+2. On the **Cancel Issued Fin. Charge Memos** page, fill in the fields as necessary, and then choose the **OK** button.
 
 ## To view reminder and finance charge entries  
 When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    

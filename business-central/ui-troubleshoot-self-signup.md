@@ -1,14 +1,14 @@
 ﻿---
 title: Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs
-description: Learn about the most common reasons why you may not be able to complete the signup to Business Central , and ways to work around them.
-author: SusanneWindfeldPedersen
+description: Learn about the most common reasons why you may not be able to complete the signup to Business Central, and ways to work around them.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 11/12/2019
 ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ If you try to sign up with a personal email address, you will get a message indi
 In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can be achieved by following the sign-up process. However, there are several reasons why you may not be able to complete self-service signup. The table below summarizes some of the most common reasons you may not be able to complete signup and ways you can workaround these issues.
 
 | Symptom/Error Message | Cause and Workaround |
-| --- | --- |
+| --------------------- | -------------------- |
 | For Office 365 email addresses that are not registered in a supported country, you receive a message like the following during signup:<br /><br />**That didn't work, we don't support your country or region yet.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] currently only supports Office 365 email accounts that are registered in a limited number of markets. For more information, see [Regional Availability](#regional-availability). |
 | Personal email addresses such as nancy@gmail.com are not supported. You receive a message like the following during signup:<br /><br />**You entered a personal email address: Please enter your work email address so we can securely store your company's data.**<br> or <br> **That looks like a personal email address. Enter your work address so we can connect you with others in your company. And don’t worry. We won’t share your address with anyone.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support email addresses provided by consumer email services or telecommunications providers. To complete signup, try again using an email address assigned by your work or school. If you still cannot sign up and are willing to complete a more advanced setup process, you can register for a new Office 365 trial subscription and use that email address to sign up. |
 | .gov or .mil email addresses You receive a message like the following during signup:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] unavailable: [!INCLUDE[d365fin](includes/d365fin_md.md)] is not available for users with .gov or .mil email addresses at this time. Use another work email address or check back later.** <br>or <br>**We can't finish signing you up. It looks like [!INCLUDE[d365fin](includes/d365fin_md.md)] isn't currently available for your work or school.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] does not support .gov or .mil addresses at this time. |
@@ -33,29 +33,15 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 | If your Office 365 account is registered to a supported country, and you are signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)] while in a different country, you receive a message like the following during signup:<br /><br />**That didn't work, we don't support your country or region yet.**| Your organization's Office 365 subscription is registered to a specific country in the Office 365 administration portal. The signup experience for [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the language and locale that your current browser uses, and as a result, you can get the error message even though you are in a supported country. Ask your IT administrator to verify the country that is specified in the organization profile in the [Office 365 administration portal](https://portal.office.com/adminportal/home#/companyprofile). You may have to use a different account for [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## Regional Availability
-For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck and the [Local Functionality](about-localization.md) landing page.
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] is available in a number of countries or regions with localization provided either by Microsoft or an approved localization partner. For a complete list of supported countries and regions, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+For an overview of currently supported markets across Dynamics 365, see the [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability) deck. For an overview of local functionality in [!INCLUDE [prodshort](includes/prodshort.md)], see the [Local Functionality](about-localization.md) landing page.  
 
 ## See Also
+
 [Welcome to [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Local Functionality](about-localization.md)  
+[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  

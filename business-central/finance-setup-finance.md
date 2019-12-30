@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 12/19/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
-| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)|
+| Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Set Up Value-Added Tax (VAT)](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Define one or more additional currencies so that amounts are automatically reported in both LCY and an additional reporting currency on each G/L entry and on other entries.|[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)|
@@ -40,12 +40,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up business intelligence (BI) charts to analyze cash flow. |[Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md) |
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
-|Prepare the Consolidated Trial Balance report on the Accountant Role Center to get a financial overview across multiple companies.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 |Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
 
 ## See Also
 [Finance](finance.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  

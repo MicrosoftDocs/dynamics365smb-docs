@@ -1,8 +1,6 @@
 ---
     title: Payment Scenario 3 - Foreign Payment (LCY  to FCY)
     description: You can use telebanking for trade with domestic and foreign customers and vendors.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -82,7 +80,7 @@ We process our proposal concerning the payment to the vendor ORTIZ and open the 
 Open the **Payment History Overview** page, browse to the relevant payment history and then choose the **Export** action. The export batch job will appear for the export protocol that is linked to this payment. For this export the system already has entered appropriate filters. Check, if wanted, any of the fields on the **Options** FastTab, and choose the **OK** button to export the payment. The system will generate a text file using a filename as defined in the **Default File Names Field** field of the export protocol, which now is ready to be sent to our bank.  
 
 ### Example  
-As the transaction mode associated with our payment is *ABN**, the **BBV** or **PAYMUL** batch job will appear.  
+As the transaction mode associated with our payment is **ABN**, the **BBV** or **PAYMUL** batch job will appear.  
 
 ## Import Bank Statement  
 After receiving electronic bank statements from our bank we can import them by running the appropriate import protocol from the **Import Protocol List** page.  

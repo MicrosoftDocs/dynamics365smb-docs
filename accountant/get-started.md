@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/23/2018
+ms.date: 10/01/2019
 ms.author: edupont
 ---
 # Get started with [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]

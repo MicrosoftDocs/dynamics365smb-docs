@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Goods and Service Tax Posting
+    title: How to Set Up Goods and Services Tax Posting
     description: Describes the steps to start applying goods and services tax (GST) to goods and services.
     services: project-madeira 
     documentationcenter: ''
@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
-# Set Up Goods and Service Tax Posting
+# Set Up Goods and Services Tax Posting
 Goods and services tax (GST) is the tax that is applied on most goods and services. The GST that is paid and received during a period is reported in the Business Activity Statement (BAS) that has to be submitted to the Australian Taxation Office (ATO).  
 
-To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination business posting groups and product posting groups.  
+To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination of business posting groups and product posting groups.  
 
 You must set up GST posting before you generate the BAS report.  
 

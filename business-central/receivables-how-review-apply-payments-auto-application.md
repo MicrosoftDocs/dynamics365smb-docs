@@ -1,8 +1,7 @@
 ---
 title: Verify Automatically Applied Payments, and Reapply Payments Manually | Microsoft Docs
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
-services: project-madeira
-documentationcenter: ''
+
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---

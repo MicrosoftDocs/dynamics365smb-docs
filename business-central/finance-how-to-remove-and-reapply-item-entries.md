@@ -1,8 +1,6 @@
 ---
     title: How to Remove and Reapply Item Entries | Microsoft Docs
     description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/27/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -57,7 +55,7 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 ## To reapply an item application by using the Application Worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
-3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply. On the **Actions** tab, in the **Functions** group, choose **Reapply**.  
+3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply, and then choose the **Reapply** action.  
 
     > [!NOTE]  
     >  This reapplication to the original balance also occurs automatically when you close the **Application Worksheet** page.  

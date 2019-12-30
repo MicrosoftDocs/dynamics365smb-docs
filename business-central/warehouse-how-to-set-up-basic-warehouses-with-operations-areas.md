@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Basic Warehouses with Operations Areas | Microsoft Docs
     description: If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you use three basic warehouse documents to record your warehouse activities for internal operation areas.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -31,7 +29,7 @@ To use these pages with internal operations, such as to pick and move components
 - Define default bin structures for components and end items flowing to and from operation resources.  
 - Make to- and from- bins that are dedicated to specific operation resources to prevent the items from being picked for outbound documents.
 
-Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Additional functionality exists to make sure that when items are placed in a certain bin, they cannot be moved or picked to other activities. For more information, see the "To create dedicated component bins" section.
+Bin codes that are set up on location cards define a default warehouse flow for certain activities, such as components in an assembly department. Additional functionality exists to make sure that when items are placed in a certain bin, they cannot be moved or picked to other activities. For more information, see [To create dedicated component bins](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 The following procedures are based on setting up basic warehouse activities around a production area. The steps are similar for other operation areas, such as assembly, service management, and jobs.  
 

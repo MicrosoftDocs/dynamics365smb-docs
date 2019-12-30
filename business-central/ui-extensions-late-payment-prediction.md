@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: bholtorf
 
 ---
@@ -37,7 +37,7 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
 
 * **Late Payment** - Indicates whether the payment for the invoice is predicted to be late.
 * **Prediction Confidence** - Indicates how reliable you should consider the prediction to be. **High** means that the prediction is at least 90% sure, **Medium** is between 80 and 90%, and **Low** is below 80%.
-* **Prediction Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is not displayed, but you can add it if you want. For more information, see [Personalizing Your Workspace](ui-personalization-user.md).
+* **Prediction Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is not displayed, but you can add it if you want. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 > [!Tip]
 > The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also let's you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
@@ -51,7 +51,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## Building Your Own Predictive Model
 Interested in building your own predictive model? You can use Azure Machine Learning Studio to build your own predictive model and use it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To use your own model, you must subscribe to Azure Machine Learning. For more information, see [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-We do, however, offer an easier way for you to create and use your own predictive model. You can share data from your invoices with our predictive experiment in Azure Machine Learning, and let our experiment create and train a predictive model based on your data. To share your data, on the **Late Payment Prediction Setup** page, choose the **Create My Model** action. Afterward, predictions will be based on your model and your data, not ours.  
+We do, however, offer an easier way for you to create and use your own predictive model. You can share data from your invoices with our [Prediction Experiment for Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) in Azure Machine Learning, and let our experiment create and train a predictive model based on your data. To share your data, on the **Late Payment Prediction Setup** page, choose the **Create My Model** action. Afterward, predictions will be based on your model and your data, not ours.  
 
 > [!Note]
 >   The quality of the model is important. When our predictive experiment uses your data to train a model it determines a quality value for the model as a percentage. The model quality indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, these factors might be that there was not enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality. Models with a quality value below the threshold will not produce predictions.  

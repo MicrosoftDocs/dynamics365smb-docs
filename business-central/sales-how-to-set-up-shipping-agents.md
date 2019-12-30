@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Shipping Agents | Microsoft Docs
     description: You can set up a code for each of your shipping agents and enter information about them.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -35,6 +33,7 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 >  If you delete the shipping agent on the order line, the shipping agent service code is also deleted. The contents of fields that were based in part on the shipping agent service are recalculated.  
 
 ## See Also
+[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

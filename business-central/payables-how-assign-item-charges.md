@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -32,6 +32,11 @@ For both purchase and sales documents, you can assign an item charge in two ways
 
 > [!NOTE]  
 >   You can assign item charges to orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
+
+## Example
+This video shows how to handle an additional shipping cost as part of inventory costing.
+<br><br>  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
@@ -65,7 +70,7 @@ The item charge is now assigned to the purchase invoice. When you post the recei
 
 ## To assign an item charge from a separate invoice to the purchase invoice for the item
 If you received an invoice for the item charge after you posted the original purchase receipt, follow this procedure.
-1. Repeat steps 1 through 8 in the "To assign an item charge directly to the purchase invoice for the item" section.
+1. Repeat steps 1 through 8 in [To assign an item charge directly to the purchase invoice for the item](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. On the **Item Charge Assignment** page, choose the **Get Receipt Lines** action.
 3. On the **Purch. Receipt Lines** page, select the posted purchase receipt for the item that you want to assign the item charge to, and then choose the **OK** button.
 4. Choose the **Suggest Item Charge Assignment** action.

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -38,7 +38,7 @@ When you have set up time sheets, you can create time sheets for resources, assi
 
 ## To assign a time sheet administrator
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Managing Users and Permissions](ui-how-users-permissions.md).
+2. Add a new user if the user list does not include the person who you want to be the time sheet administrator. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 3. Select a user to be a time sheet administrator, and then select the **Time Sheet Admin.** check box.  
 
 > [!TIP]  

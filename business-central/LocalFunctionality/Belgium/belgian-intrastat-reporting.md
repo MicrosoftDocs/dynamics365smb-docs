@@ -2,8 +2,6 @@
     title: Belgian Intrastat Reporting
     description: Companies in the European Union (EU) are required to report trade with other countries in the EU. This reporting process is through Intrastat reporting or VIES (VAT Information Exchange System).
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -22,7 +20,7 @@ Companies in the European Union (EU) are required to report trade with other cou
 - Simplified declaration  
 - Extended declaration  
 
-To determine the type of declaration that you should use, visit the [National Bank of Belgium](https://aka.ms/BelgianNationalBank) web site.  
+To determine the type of declaration that you should use, visit the [National Bank of Belgium](https://aka.ms/BelgianNationalBank) website.  
 
 ## Submitting the Intrastat Report  
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export the Intrastat declarations to a file that you can then submit to the OneGate portal. For more information, see [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md).  

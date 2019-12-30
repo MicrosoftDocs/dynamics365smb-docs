@@ -1,9 +1,7 @@
 ---
     title: How to Import Swiss Post Codes
-    description: You can import the latest post code file and use it to update the **Post Code** table. The post code file can be downloaded from the Swiss Post website. After importing the latest post code, you can define post codes for customers or vendors.
+    description: You can import the latest post code file and use it to update the Post Code table. The post code file can be downloaded from the Swiss Post website. After importing the latest post code, you can define post codes for customers or vendors.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -44,5 +42,4 @@ The following procedure describes how to define post codes for customers, but th
 ## See Also   
  [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)   
  [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Register New Vendors](../../purchasing-how-register-new-vendors.md)  

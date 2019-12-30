@@ -1,8 +1,6 @@
 ---
     title: Design Details - Transfers in Planning | Microsoft Docs
     description: This topic describes how to use transfer orders as a source of supply when planning inventory levels.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, transfer, sku, locations, warehouse
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -25,7 +23,7 @@ When comparing the situation where a supply order is directly facing a demand or
 ![Example of supply/demand balance in transfers](media/nav_app_supply_planning_7_transfers2.png "Example of supply/demand balance in transfers")  
 
 ## Why is Transfer a Special Case?  
-A transfer order looks much like any other order in the program. However, behind the scene it is very different.  
+A transfer order looks much like any other order in application. However, behind the scene it is very different.  
 
 One fundamental aspect that makes transfers in planning different from purchase and production orders is that a transfer line represents demand and supply at the same time. The outbound part, which is shipped from the old location, is demand. The inbound part, which is to be received at the new location, is supply at that location.  
 

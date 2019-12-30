@@ -1,8 +1,6 @@
 ---
     title: Register Consumption and Output for One Production Order | Microsoft Docs
     description: This execution task is performed on the **Production Journal** page. The journal combines the functions of the separate consumption journal and output journals into one journal. The combined journal is accessed directly from a released production order. Its main purpose is to manually post the consumption of components, the quantity of end items produced, and the time spent in operations.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

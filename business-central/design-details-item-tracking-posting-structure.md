@@ -1,8 +1,6 @@
 ---
     title: Design Details - Item Tracking Posting Structure | Microsoft Docs
     description: Learn how to use item ledger entries as the primary carrier of item tracking numbers.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, item tracking, posting, inventory
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

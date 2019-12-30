@@ -1,8 +1,6 @@
 ---
     title: Electronic Funds Transfer (EFT)
     description: You can pay vendors using the electronic funds transfer (EFT) system in New Zealand.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---

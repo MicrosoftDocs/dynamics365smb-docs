@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: dimension
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -34,14 +34,15 @@ Dimension sets are stored in the **Dimension Set Entry** table as dimension set 
 
 When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 
-When you edit and close the **Edit Dimension Set Entries** page, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.  
+When you edit and close the **Edit Dimension Set Entries** page, a check is performed to see whether the combination of dimension values exists as a dimension set in the table. If the combination occurs in the table, then the corresponding dimension set ID is assigned to the journal line, document header, or document line. Otherwise, a new dimension set is added to the table, and the new dimension set ID is assigned to the journal line, document header, or document line.
+
+## Codeunit 408 Dimension Management
+Codeunit 408, Dimension Management, is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another.
 
 ## Performance Improvement  
-By storing dimension sets once in the database, database space is preserved, and overall performance is improved.  
+By storing dimension sets once in the database, database space is preserved and overall performance is improved.  
 
 ## See Also  
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
-[Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
-[Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   

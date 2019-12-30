@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 11/28/2018
+ms.date: 11/27/2019
 ms.author: sgroespe
 
 ---
 # Record Special Sales Prices and Discounts
 The different price and discount agreements that apply when selling to different customers must be defined so that the agreed rules and values are applied to sales documents that you create for the customers.
 
-When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see "Best Price Calculation" section.
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -36,14 +36,14 @@ Because sales prices and sales line discounts are based on a combination of item
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Prices** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Prices** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 ## To set up a sales line discount for a customer
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
-    The **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Line Discounts** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 ## To set up an invoice discount for a customer
@@ -71,7 +71,7 @@ When you use invoice discounts, the size of the invoice amount determines the si
 
 On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
-Before you can use invoice discounts with sales, you must enter certain information in the program. You must decide:  
+Before you can use invoice discounts with sales, you must enter certain information in application. You must decide:  
 
 - which customers will be granted this type of discount.  
 - which discount percentages you will use.  
@@ -85,7 +85,7 @@ You link discount percentages to specific invoice amounts in **Cust. Invoice Dis
 In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
->  Before you start entering this information in the program, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.  
+>  Before you start entering this information in application, it is a good idea to prepare an outline of the discount structure you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.  
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

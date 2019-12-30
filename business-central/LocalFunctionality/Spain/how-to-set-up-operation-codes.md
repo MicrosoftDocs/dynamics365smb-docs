@@ -2,8 +2,6 @@
     title: How to Set Up Operation Codes
     description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

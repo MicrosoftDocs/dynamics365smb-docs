@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/07/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ Using an additional reporting currency can assist the reporting process for a co
 Several financial reports are based on G/L entries. To display report data in the additional reporting currency, you simply place a check mark in the **Show Amounts in Add. Reporting Currency** field on the **Options** FastTab for the relevant G/L report.
 
 ## Adjusting Exchange Rates
-Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into the program must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, vendor and bank account entries. It can also update additional reporting currency amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
+Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered. The **Adjust Exchange Rates** batch job is used to adjust the exchange rates of posted customer, vendor and bank account entries. It can also update additional reporting currency amounts on G/L entries. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).
 
 ## Setting Up an Additional Reporting Currency
 To set up an additional reporting currency, you must follow these steps:

@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Planning Supplies Manually | Microsoft Docs
     description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Planning Supplies Manually
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** page, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
 
 ## About This Walkthrough  
@@ -53,15 +54,12 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 
 ## Using the Order Planning Page  
 
-<!-- 
-The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
-
--->  
+-   In addition, you can open this page for a specific production order by choosing the **Planning** action.
 
 ### To use the Order Planning page  
 

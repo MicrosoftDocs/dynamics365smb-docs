@@ -1,8 +1,6 @@
 ---
     title: Warehouse Activities | Microsoft Docs
     description: After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse and to organize and maintain company inventories.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -23,6 +21,8 @@ Typical warehouse activities include putting items away, moving items inside or 
 In large warehouses, these different handling tasks can be separated by departments and the integration managed by a directed workflow. In simpler installations, the flow is less formalized and the warehouse activities are performed with so-called inventory put-aways and inventory picks. For more information about basic versus advanced warehouse configurations, see [Design Details: Warehouse Overview](design-details-warehouse-overview.md).
 
 Before you can perform warehouse activities, you must set the system up for the relevant complexity of warehouse processing. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+
+The inventory-related tasks of counting, adjusting, and reclassifying items may involve warehouse tasks that must be performed on warehouse entries before they can be synchronized with the related item ledger entries. For more information, see [Count, Adjust, and Reclassify Inventory](inventory-how-count-adjust-reclassify.md).
 
  The following table describes a sequence of tasks, with links to the topics that describe them.   
 
@@ -43,4 +43,3 @@ Before you can perform warehouse activities, you must set the system up for the 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

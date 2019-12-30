@@ -1,8 +1,6 @@
 ---
     title: How to Undo Assembly Posting | Microsoft Docs
     description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -35,7 +33,7 @@ In addition, existing assembly orders can only be restored if the number of line
 > [!TIP]  
 >  To solve conflicts due to line changes, you can manually revert the changes on the lines in question before undoing the related posted assembly order. Alternatively, you can post the assembly order fully and then select to recreate it when undoing the posting.  
 
-The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [Reverse Postings](finance-how-reverse-journal-posting.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
+The following procedure describes how to undo posted assembly orders where the items were assembled to stock. If you want to undo posted assembly orders where the items were assembled to a sales order, then you must use the **Undo Shipment** function on the posted shipment that relates to the posted assembly order. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md). The undoing of the posted assembly order then happens automatically in the same way as described in this topic.  
 
 ## To undo posting of an assembly order  
 1.  To undo a fully or partially posted assembly order, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Assembly Orders**, and choose the related link.  
@@ -53,7 +51,7 @@ The **Reversed** field on the assembly order header changes to **Yes**. The asse
 
 ## See Also  
 [Assembly Management](assembly-assemble-items.md)  
-[Reverse Postings](finance-how-reverse-journal-posting.md)  
+[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)    
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

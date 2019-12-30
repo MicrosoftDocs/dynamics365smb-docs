@@ -11,17 +11,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
 # Set Up the Envestnet Yodlee Bank Feeds Service
 You can import electronic bank statements from your bank to quickly fill on the **Payment Reconciliation Journal** page so you can apply payments and reconcile the bank account. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
+> [!IMPORTANT]
+> Due to the new Payment Services Directive in Europe (PSD2), after September 14, 2019, you will no longer be able to automatically import bank statements from banks in the United Kingdom into [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are looking into the possibility of offering this feature again in the future.
 
 > [!NOTE]
-> The Envestnet Yodlee Bank Feeds service is only supported in the US, Canada, and UK.
+> The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet Yodlee.<br /><br />
+> The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
+> Only banks residing in these countries are supported, even though banks from other countries may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!IMPORTANT]
+> For technical assistance with the Envestnet Yodlee functionality, contact Microsoft Support. Do not contact Envestnet Yodlee. For more information, see [Configuring Technical Support for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
+
+The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] online and is ready to be enabled in the supported countries. For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).
 
 After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from. You link bank accounts to online bank accounts in the following different scenarios:
 
@@ -33,7 +41,7 @@ After you enable the bank feed service, you must link a bank account to the onli
 When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hour. Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported. For more information, see the “To enable automatic import of bank statements” section.
 
 > [!NOTE]  
-> If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
+> If you use the Set Up Company assisted setup guide, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Started](product-get-started.md).
 
 ## To enable the bank feed service
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -41,6 +49,9 @@ When the bank feed service is enabled, you can set a bank account up to automati
 3. On the **Bank Account** page, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
 
 The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
+
+> [!NOTE]
+> If you use the **Company Setup** assisted setup guide, then you enable the service by selecting the **Use a bank feed service** check box. For more information, see [Creating New Companies in Business Central](about-new-company.md).
 
 ## To create a new linked bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -59,9 +70,9 @@ The bank feed service will be enabled when you link a bank account to its relate
     After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab. The number in brackets indicates how many online bank accounts were linked.  
 7. Choose the **OK** button.
 
-    If you're only linking one online bank account, the **Bank Account Card** page opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
+    If you are only linking one online bank account, the **Bank Account Card** page opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
-    If you're linking more than one online bank accounts, the **Bank Account Linking** page opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In that case, follow the next step.  
+    If you are linking more than one online bank accounts, the **Bank Account Linking** page opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)]. In that case, follow the next step.  
 8. On the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  
 
     The **Bank Account Card** page for a new bank account opens and displays the name of the online bank account.
@@ -112,7 +123,7 @@ Every hour, the **Payment Reconciliation Journal** page will display new payment
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  
-[Managing Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

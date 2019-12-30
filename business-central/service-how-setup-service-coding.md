@@ -1,8 +1,6 @@
 ---
     title: Set Up Codes for Standard Services | Microsoft Docs
     description: Learn how to set up codes for service activities that you often perform.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, service item, service order, repairs, maintenance
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

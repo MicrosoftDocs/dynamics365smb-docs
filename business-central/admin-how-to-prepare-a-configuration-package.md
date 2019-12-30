@@ -1,8 +1,6 @@
 ---
     title: How to Prepare a Configuration Package | Microsoft Docs
     description: When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,21 +9,34 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Prepare a Configuration Package
-When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package.  
+When you configure a new company, table relations are recognized and processed. Data is imported and applied in the correct order. Dimension tables are also imported if they are included in the configuration package. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data). 
 
 To help your customer use the configuration package, you may want to add a questionnaire or a set of questionnaires to the package. The questionnaire can help the customer in understanding the various setup options. Typically, questionnaires are created for the major setup tables where a customer may require additional guidance about how to select an appropriate setting. For more information, see [Gather Customer Setup Values](admin-gather-customer-setup-values.md).
 
-Make sure that you are on the RapidStart Services Implementer Role Center. For more information, see [Use the RapidStart Services Implementer Role Center](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## Before You Create a Configuration Package
+There are some things to consider before you create a configuration package because they will impact you or your customer's ability to import it. 
 
-> [!IMPORTANT]  
->  When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
->   
->  You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
+### Tables That Contain Posted Entries
+You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
+
+### Licensing
+Your license must include the tables you are updating. If you are unsure, the **Configuration Worksheet** page can help. If your license includes the table, the **Licensed Table** check box is chosen.  
+
+### Permissions
+The process of creating and importing a configuration package involves the following effective permissions for all tables in the package: 
+
+* The user who exports data for the configuration package must have **Read** effective permissions.
+* The user who imports the configuration package must have **Insert** and **Modify** effective permissions.
+
+### Database Schema
+When exporting and importing configuration packages between two company databases, the databases should have the same schema to ensure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
+
+You can import a configuration package that has been exported from a database that has a different schema than that target database. However, any tables or fields in the configuration package that are missing in the target database will not be imported. Tables with different primary keys and fields with different data types will also not successfully import. For example, if the configuration pack includes table **50000, Customer** that has primary key **Code20** and the database to which you import the pack includes table **50000, Customer Bank Account** that has the primary key **Code20 + Code 20**, then data will not be imported.  
 
 ## To create a configuration package  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
@@ -89,7 +100,7 @@ Use the configuration worksheet to gather and categorize the information that yo
 3.  In the **Line Type** field, choose **Group**. In the **Name** field, enter a descriptive name.  
 4.  In the **Line Type** field, choose **Table**. In the **Table ID** field, select the table you want to include in the worksheet.  
 
-You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see the "To assign a table to a configuration package" section.
+You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## To work with promoted tables  
 1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
@@ -99,7 +110,7 @@ You can now assign the tables to specific configuration packages that you have c
 After you have defined the tables that you want to treat as part of your configuration, you can easily assign the tables to configuration packages. You can assign a table to one package only. In the following procedure, you assign the package from within configuration worksheet.  
 
 > [!NOTE]  
->  You can also create a package directly, and add tables to it. For more information, see the "To create a configuration package" section.
+>  You can also create a package directly, and add tables to it. For more information, see [To create a configuration package](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.
 2. In the configuration worksheet, select a line or group of lines that you want to assign to a configuration package, and then choose the **Assign Package** action.  

@@ -1,9 +1,7 @@
 ---
     title: How to Delete Remittance Payment Orders
-    description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.
+    description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the Waiting Journal page have a status of Sent or Approved.
 
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

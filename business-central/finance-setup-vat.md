@@ -8,12 +8,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2018
+ms.date: 11/11/2019
 ms.author: bholtorf
 
 ---
 
-# Setting Up Calculations and Posting Methods for Value-Added Tax
+# Set Up Value-Added Tax
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
 
 * Who you sell to  
@@ -89,7 +89,7 @@ If you want to apply the same VAT posting groups to multiple entities, you can s
 
 The VAT business or product posting group is assigned when you choose a business or product posting group for a customer, vendor, item, or resource.
 
-## To assign VAT posting groups to individual accounts, customers, vendors, items, and resources
+## Assigning VAT Posting Groups to Accounts, Customers, Vendors, Items, and Resources
 The following sections describe how to assign VAT posting groups to individual entities.
 
 ### To assign VAT posting groups to individual general ledger accounts
@@ -111,13 +111,11 @@ The following sections describe how to assign VAT posting groups to individual e
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.  
 
-## Setting up VAT statement templates and VAT statement names
-Tax authorities can, and do, change their requirements for posting VAT. **VAT statement templates** and **VAT statement names** can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to define the fields to include in your VAT statement, which in turn define the calculations, and you can create a new VAT statement template when requirements change. For example, one template might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Templates are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
+## Setting up VAT Statement Templates and VAT Statement Names
+Tax authorities can, and do, change their requirements for posting VAT. VAT Statement templates and VAT statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to define the fields to include in your VAT statement, which in turn define the calculations, and you can create a new VAT statement template when requirements change. For example, one template might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Templates are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
 
-## How to define and preview VAT statements
-VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter. After you define a VAT statement, you can preview it to make sure it meets your needs.
-
-To define a VAT statement, follow these steps:
+## To define a VAT statements
+VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
@@ -127,27 +125,32 @@ To define a VAT statement, follow these steps:
 > You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
 **VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
 
-To preview the VAT statement, follow these steps:
+## To preview the VAT statement
+After you define a VAT statement, you can preview it to make sure it meets your needs.
 
 1. Choose **Preview**.
 2. Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
 3. You can select various options to specify the type of VAT entries to include in the statement.
 4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.   
 
-## To set up clauses to explain the use of non-standard VAT rates
+## Setting Up Clauses to Explain VAT Exemption or Non-Standard VAT Rates
 You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group.
 
-If needed, you can also specify how to translate VAT clauses to other languages. Then, when you create and print a sales document that contains a VAT identifier, the document will include the translated VAT clause. The language code specified on the Customer card determines the language.
+If needed, you can also specify how to translate VAT clauses to other languages. Then, when you create and print a sales document that contains a VAT identifier, the document will include the translated VAT clause. The language code specified on the customer card determines the language.
 
-You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)]does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
+When non-standard VAT rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (VAT clause) stating why a reduced VAT or zero VAT rate has been calculated. You can define different VAT clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **VAT Clauses by Doc. Type** page.
+
+You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### To set up VAT clauses
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
 2. On the **VAT Clauses** page, create a new line.  
 3. In the **Code** field, enter an identifier for the clause. You use this code to assign the clause to VAT posting groups.  
-4. In the **Description** field, enter the text that you want to display on documents that can include VAT. In the **Description 2** field, enter additional text, if needed. The text displays on new lines.  
-5. Optional: To assign the VAT clause to a VAT posting setup right away, choose **Setup**, and then choosing the clause. If you want to wait, you can assign the clause later on the VAT Posting Setup page.  
-6. Optional: To specify how to translate the VAT clause, choose the **Translations** action.
+4. In the **Description** field, enter the VAT exemption text that you want to display on documents that can include VAT. In the **Description 2** field, enter additional text, if needed. The text will be displayed on new document lines.
+5. Choose the **Description by Document Type** action.
+6. On the **VAT Clauses by Doc. Type** page, fill in the fields to set up which VAT exemption text to display for which document type.  
+7. Optional: To assign the VAT clause to a VAT posting setup right away, choose **Setup**, and then choose the clause. If you want to wait, you can assign the clause later on the **VAT Posting Setup** page.  
+8. Optional: To specify how to translate the VAT clause, choose the **Translations** action.
 
 ### To assign a VAT clause to a VAT posting setup
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
@@ -198,7 +201,7 @@ Some companies must use reverse charge VAT when trading with other companies. Fo
 > [!TIP]  
 > You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
-### Sales to EU countries or regions
+### Sales to EU Countries or Regions
 VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.  
 
 To correctly calculate VAT on sales to EU countries/regions, you should:  
@@ -208,7 +211,7 @@ To correctly calculate VAT on sales to EU countries/regions, you should:
 
 When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
 
-## Understanding VAT rounding for documents
+## Understanding VAT Rounding for Documents
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT is calculated based on the sum of all lines with the same VAT identifier in the document.
 
 ## Understanding the VAT Rate Conversion Process  
@@ -236,7 +239,7 @@ Before you set up the VAT rate change tool, you must make the following preparat
 
 ### To set up product posting group conversion  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. On the **VAT Rate Change Setup** page, on the **Home** tab, in the **Process** group, choose either **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.**.  
+2. On the **VAT Rate Change Setup** page, choose either the **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.** action.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
 
@@ -257,12 +260,12 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
     >  Clear the **VAT Rate Change Tool Completed** check box. The check box is automatically selected when the VAT rate change conversion is completed.  
 
 4. Choose the **Convert** action.  
-5. After the conversion is complete, on the **Home** tab, in the **Process** group, choose **VAT Rate Change Log Entries** to view the results of the conversion.  
+5. After the conversion is complete, choose the **VAT Rate Change Log Entries** action to view the results of the conversion.  
 
 > [!IMPORTANT]  
 >  After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
 
 ## See Also  
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
-[How To: Report VAT to a Tax Authority](finance-how-report-vat.md)  
+[Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  

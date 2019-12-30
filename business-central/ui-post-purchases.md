@@ -1,17 +1,16 @@
 ---
 title: Understanding How To Post Purchase Documents | Microsoft Docs
-description: Learn about the different posting functions to post purchase documents.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Learn about the different posting functions to post purchase documents, and how you can update posted documents.
+author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.reviewer: edupont
+ms.date: 10/01/2019
+ms.author: sgroespe
 
 ---
 # Posting Purchases
@@ -36,12 +35,17 @@ Before you start to post, you can print a test report that contains all the info
 > [!IMPORTANT]  
 >   When you post an order, you can create both a receipt and an invoice. These can be done simultaneously or independently. You can also create a partial receipt and a partial invoice by completing the **Qty. to Receive** and **Qty. to Invoice** fields on the individual purchase order lines before you post. Note that you cannot create an invoice for something that has not been received. That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.
 
-You can either post, or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** function, which lets you post several orders at the same time.
+You can either post, or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
 
 When the posting is completed, the posted purchase lines are removed from the order. A message tells you when the posting is completed. After this, you will be able to see the posted entries in the various pages that contain posted entries, such as the **Vendor Ledger Entries**, **G/L Entries**, **Item Ledger Entries**, **Purchase Receipts**, and **Posted Purchase Invoices** pages.
 
-## See Also
-[Purchasing](purchasing-manage-purchasing.md)  
-[Post Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md).
 
+## See Also
+[Edit Posted Documents](across-edit-posted-document.md)  
+[Post Multiple Documents at the Same Time](ui-batch-posting.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Posting Documents and Journals](ui-post-documents-journals.md)  
+[Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Finding Pages and Information with Tell Me](ui-search.md)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 12/06/2018
+ms.date: 11/13/2019
 ms.author: edupont
 
 ---
 # Local Functionality in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
 
-For a list of currently supported markets, see the [International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) deck.  
+For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## Local Functionality
 To learn about the local functionality for each country, choose the related link:
@@ -25,7 +25,7 @@ To learn about the local functionality for each country, choose the related link
 | --- | --- |--- |
 | Europe |  | |
 |        | Austria | [Austria Local Functionality](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgium |  [Australia Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgium |  [Belgium Local Functionality](localfunctionality/belgium/belgium-local-functionality.md) |
 |        | Denmark | [Denmark Local Functionality](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Germany | [Germany Local Functionality](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finland | [Finland Local Functionality](localfunctionality/finland/finland-local-functionality.md) |
@@ -47,10 +47,11 @@ To learn about the local functionality for each country, choose the related link
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### Other Countries
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## See Also
 [Getting Started](product-get-started.md)  
 [Compliance](compliance/compliance-overview.md)  
-[International availability of Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Development of a Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

@@ -1,8 +1,6 @@
 ---
     title: How to Create Production BOMs | Microsoft Docs
     description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,14 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Create Production BOMs
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see the "Assembly BOMs or Production BOMs" section in [Work with Bills of Material](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -40,7 +38,7 @@ Before you can set up a routing, the following must be in place:
     > [!NOTE]  
     >  This scrap percentage represents components that are scrapped during production when picking from inventory, whereas the scrap percentage on routing lines represents scrapped output before putting on inventory.  
 
-9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see the "To create routing links" section in [Create Routings](production-how-to-create-routings.md).
+9.  In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. To copy lines from an existing production BOM, choose the **Copy BOM** action to select existing lines.  
 11.  Certify the production BOM.  
 12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
@@ -55,7 +53,7 @@ The starting date indicates the start of the period in which this version is val
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Production BOM**, and then choose the related link.  
 2.  Select the production BOM to be copied, and then choose the **Versions** action.  
-3.  On the **Home** tab, in the **New** group, choose **New**.  
+3.  Choose the **New** action.  
 4. Fill in the fields as necessary.
 5. In the **Version Code** field, enter the unique identification of the version. Any combination of numbers and letters is permitted.  
 

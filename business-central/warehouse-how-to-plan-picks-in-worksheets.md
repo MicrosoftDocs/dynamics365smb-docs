@@ -1,8 +1,6 @@
 ---
     title: How to Plan Picks in Worksheets | Microsoft Docs
     description: If your warehouse is set up to require both pick and shipment processing, the warehouse can choose to operate so that the lines on shipment documents are not automatically transformed into pick instructions, but are made available instead to the pick worksheet.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -21,7 +19,7 @@ If your warehouse is set up to require both pick and shipment processing, the wa
 > [!NOTE]  
 >  If warehouse pick instructions have already been created, and you would like to combine them into one efficient pick instruction, then you must delete the individual warehouse picks. The lines to be picked can now be listed in the worksheet.  
 
-In the pick worksheet, you can set up pick lists for employees that minimize the time the employee has to move about the warehouse picking items. There are fields that contain information about the quantities of items available in the cross-dock bins. This is useful in cross docking situations to plan your work assignments, because the program will always propose a pick from a cross-dock bin before any other bin, regardless of the unit of measure. The lines in the worksheet can come from a number of source documents and be sorted by item, shelf number, source document, due date, or ship-to address.  
+In the pick worksheet, you can set up pick lists for employees that minimize the time the employee has to move about the warehouse picking items. There are fields that contain information about the quantities of items available in the cross-dock bins. This is useful in cross docking situations to plan your work assignments, because application will always propose a pick from a cross-dock bin before any other bin, regardless of the unit of measure. The lines in the worksheet can come from a number of source documents and be sorted by item, shelf number, source document, due date, or ship-to address.  
 
 If you sort by due date, you can choose to delete from the worksheet all lines except those that need immediate attention. The less urgent lines are not deleted as such, but just sent back to the **Pick Selection** worksheet. When you create the pick, the lines have already been sorted by due date, and you can choose to assign the pick to a particular employee.  
 

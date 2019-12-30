@@ -1,8 +1,6 @@
 ---
     title: How to Create Bins | Microsoft Docs
     description: The most effective way to create the bins of your warehouse is to generate groups of similar bins in the bin creation worksheet, but you can also create your bins individually.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -22,7 +20,17 @@ The most effective way to create the bins of your warehouse is to generate group
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and choose the related link.  
 2.  Select the location that you want to create a bin from, and then choose the **Bins** action.  
 3. Choose the **New** action.
-4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### The Dedicated field
+The **dedicated** field on the **Bins** page specifies that quantities in the bin are protected from being picked for other demands. However, quantities in dedicated bins can still be reserved. Accordingly, the quantities in dedicated bins are included in the **Total Available Quantity** field on the **Reservation** page.
+
+Making a bin dedicated results in similar functionality in basic warehousing to using bin types, which is only available in advanced warehousing. For more information, see [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).
+
+**Example:** A work center is set up with a bin code in the **To-Production Bin Code** field. Production order component lines with that bin code require that forward-flushed components are placed there. However, until the components are consumed from that bin, other component demands may pick or consume from that bin because they are still considered available bin contents. To make sure that bin content is only available to component demand that uses that to-production bin, you must select the **Dedicated** field on the line for that bin code.
+
+> [!Caution]
+> Items in dedicated bins are not protected when they are picked and consumed as production or assembly components with the **Inventory Pick** page. For more information, see [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).
 
 ## To create bins individually in the bin creation worksheet  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bin Creation Worksheet**, and choose the related link.  
@@ -46,15 +54,15 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
     > [!NOTE]  
     >  The number of characters that you have entered in the three categories for either field, for example, the characters you have entered in the three **From No.** fields, plus the field separators, if any, must be 20 or less.  
 
-     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10**. The program is not set up to generate codes with letter sequences, for example, from A01 to F05.  
+     You can use letters in the code as an identifying combination, but the letter you use must be the same in the **From No.** and **To No.** fields. For example, you might define the Rack part of the code as **From No. A01** and **To No. A10**. The application is not set up to generate codes with letter sequences, for example, from A01 to F05.  
 
 6.  If you want a character, such as a hyphen, to separate the category fields you have defined as part of the bin code, fill in the **Field Separator** field with this character.  
-7.  If you want the program not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  
+7.  If you want application not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  
 8. When you have finished filling in the fields, choose the **OK** Button.
 
-    The program creates a line for each bin in the worksheet. You can now delete some of the bins, for example, if you have a rack with a passageway through the first two levels of a couple of sections.  
+    The application creates a line for each bin in the worksheet. You can now delete some of the bins, for example, if you have a rack with a passageway through the first two levels of a couple of sections.  
 
-9. When you have deleted all unnecessary bins, choose the **Create Bins** action, and the program will create bins for each line in the worksheet.  
+9. When you have deleted all unnecessary bins, choose the **Create Bins** action, and application will create bins for each line in the worksheet.  
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 

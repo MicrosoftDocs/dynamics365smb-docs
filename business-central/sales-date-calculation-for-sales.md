@@ -1,8 +1,6 @@
 ---
     title: Date Calculation for Sales | Microsoft Docs
-    description: The program automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
-    services: project-madeira
-    documentationcenter: ''
+    description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -23,14 +21,15 @@ If the customer has requested a specific delivery date, then the date on which t
 If the customer does not request a specific delivery date, then the date on which the items can be delivered is calculated, starting from the date on which the items are available for picking.
 
 ## Calculating a Requested Delivery Date
-If you specify a requested delivery date on the sales order line, then that date is used as the starting point for the following calculations.
+If you specify a requested delivery date on the sales order line, that date becomes the starting point for the following calculations.
 
 - requested delivery date - shipping time = planned shipment date
 - planned shipment date - outbound whse. handling time = shipment date
 
-If the items are available to pick on the shipment date, then the sales process can continue.
+If the items are available to pick on the shipment date, then the sales process can continue. Otherwise, a stock-out warning is displayed.
 
-If the items are not available to be picked on the shipment date, then a stock-out warning is displayed.
+> [!Note]
+> If your process is based on backward calculation, for example, if you use the requested delivery date to get the planned shipment date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## Calculating the Earliest Possible Delivery Date
 If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the Shipment Date field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.

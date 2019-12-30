@@ -1,8 +1,6 @@
 ---
     title: How to Create and Export Payment History
     description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. Proposals can be created manually or automatically from a vendor or customer ledger entry.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

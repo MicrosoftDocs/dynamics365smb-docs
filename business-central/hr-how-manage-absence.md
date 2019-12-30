@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: SorenGP
 
 ---
@@ -68,4 +68,4 @@ You can register employee absences on a daily basis or at some other interval th
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
 [Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Changing Which Features are Displayed](ui-experiences.md)
+[Change Which Features are Displayed](ui-experiences.md)

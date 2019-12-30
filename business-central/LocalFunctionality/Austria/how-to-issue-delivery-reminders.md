@@ -1,8 +1,6 @@
 ---
     title: How to Issue Delivery Reminders
     description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -25,7 +23,7 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delivery Reminder**, and then choose the related link.  
 2.  On the **Delivery Reminder** page, select the delivery reminder that you want to issue, and then choose the **Edit** action.  
 3.  Choose the **Issue** action.  
-4.  On the **Issue Delivery Reminder** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+4.  On the **Issue Delivery Reminder** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -48,7 +46,7 @@ You can view the issued reminders on the **Issued Delivery Reminder** page. Opti
 2.  Select the purchase order for which you want to view the reminder status, and then choose the **Edit** action.  
 3.  Choose the **Deliv. Reminder Ledger Entries** action.  
 
-In the Deliv. Reminder Ledger Entries page, you can view the delivery reminder ledger entries for the selected purchase order.  
+On the **Deliv. Reminder Ledger Entries** page, you can view the delivery reminder ledger entries for the selected purchase order.  
 
 ## See Also  
  [Delivery Reminders](delivery-reminders.md)   

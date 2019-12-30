@@ -1,8 +1,6 @@
 ---
     title: Walkthrough - Making Cash Flow Forecasts by Using Account Schedules | Microsoft Docs
     description: This walkthrough describes how you can use account schedules to make cash flow forecasts. Account schedules perform calculations that cannot be done directly in the chart of cash flow accounts. In the account schedules, you can set up subtotals for cash flow receipts and disbursements. These subtotals can be included in new totals that can then be used in making cash flow forecasts.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -57,14 +55,14 @@ After an account schedule name is set up, Ken defines each line that appears in 
 
 ### To set up account schedule lines  
 
-1.  On the **Account Schedule Names** page, select the new **Forecast** account schedule name that you have created. On the **Home** tab, in the **Process** group, choose **Edit Account Schedule**.  
+1.  On the **Account Schedule Names** page, select the new **Forecast** account schedule name that you have created, and then choose the **Edit Account Schedule** action.  
 2.  On the **Account Schedule** page, enter each line exactly as shown in the following table.  
 
     > [!NOTE]  
     >  Using the **Insert CF Accounts** function, you can quickly mark the cash flow accounts from the chart of cash flow accounts and copy them to account schedule lines.  
 
     |Row No.|Description|Totaling Type|Totaling|Row Type|Amount Type|Show|  
-    |-------|-----------|-------------|--------|--------|---  ------|----|
+    |-------|-----------|-------------|--------|--------|-----------|----|
     |C10|Amount|Net Change|Entries|Net Amount|Always|  
     |C20|Amount until Date|Balance at Date|Entries|Net Amount|Always|  
     |C30|Entire Fiscal Year|Entire Fiscal Year|Entries|Net Amount|Always|  

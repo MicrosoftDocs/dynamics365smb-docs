@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 01/07/2019
+ms.date: 10/01/2019
 ms.author: edupont
 
 ---
@@ -38,4 +38,4 @@ The support for invoicing appointments from Bookings is simpler than the fuller 
 [Finance](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

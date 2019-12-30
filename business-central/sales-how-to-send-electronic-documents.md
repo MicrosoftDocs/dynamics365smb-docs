@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -26,7 +26,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
 
 2.  Create a new sales invoice.  
 
-3.  When the sales invoice is ready to be invoiced, on the **Actions** tab, in the **Posting** group, choose **Post and Send**.  
+3.  When the sales invoice is ready to be invoiced, choose the **Post and Send** action.  
 
      If the customer’s default sending profile is **Electronic Document**, then it will be shown in the **Post and Send Confirmation** dialog box and you just have to choose the **Yes** button to post and send the invoice electronically in the selected format.  
 
@@ -43,7 +43,7 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
      The sales invoice is posted and sent to the customer as an electronic document in the PEPPOL format.  
 
     > [!NOTE]  
-    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, on the **Actions** tab, in the **General** group, choose **Activity Log** to view the status of the electronic document. For more information, see **Activity Log**.  
+    >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document. For more information, see **Activity Log**.  
 
 ## See Also  
 [Invoice Sales](sales-how-invoice-sales.md)  

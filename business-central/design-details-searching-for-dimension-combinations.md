@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -56,7 +56,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename a dimension and dimension value, table 348 **Dimension Value** is extended with an integer field of **Dimension Value ID**. This table converts the field pair **Dimension** and **Dimension Value** to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
+However, to preserve the ability of [!INCLUDE[d365fin](includes/d365fin_md.md)] to rename both a dimension and a dimension value, table 349, **Dimension Value**, is extended with an integer field, **Dimension Value ID**. This table converts the field pair, **Dimension** and **Dimension Value**, to an integer value. When you rename the dimension and dimension value, the integer value is not changed.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -73,5 +73,4 @@ EXIT(DimSet.ID);
  [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Table Structure](design-details-table-structure.md)   
- [Design Details: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)   
- [Design Details: Code Examples of Changed Patterns in Modifications](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

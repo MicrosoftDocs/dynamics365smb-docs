@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -28,15 +28,15 @@ If the transaction coding of the statement line is not found, [!INCLUDE[d365fin]
 
 If the transaction coding of the statement line is found, the statement lines will be matched to the following account types and corresponding account numbers:  
 
-- General ledger - If the account type is general ledger account, the statement line is posted on the corresponding general ledger account.  
+- General ledger - If the account type is a general ledger account, the statement line is posted on the corresponding general ledger account.  
 
 - Customer or vendor - If the account type is customer or vendor, a matching customer or vendor ledger entry is found based on the following criteria:  
 
-    - If a ledger entry is found using the standard format, the ledger entry will be matched to the statement line and the application status will be set to **Applied**. If the ledger entry does not use the standard format, the bank account number of the customer or vendor is used to find the customer or vendor.  
+    - If a ledger entry is found using the standard format, the ledger entry will be matched to the statement line, and the application status will be set to **Applied**. If the ledger entry does not use the standard format, the bank account number of the customer or vendor is used to find the customer or vendor.  
 
-    - If no ledger entry with a matching remaining amount is found, the customer or vendor account is used and the application status will be set to **Partly Applied**.  
+    - If no ledger entry with a matching remaining amount is found, the customer or vendor account is used, and the application status will be set to **Partly Applied**.  
 
-    - If the bank account number is used to find the customer or vendor, a matching ledger entry is found based on the amount of the statement line. If the amount is found, the statement line is matched to the corresponding ledger entry and the application status will be set to **Applied**.  
+    - If the bank account number is used to find the customer or vendor, a matching ledger entry is found based on the amount of the statement line. If the amount is found, the statement line is matched to the corresponding ledger entry, and the application status will be set to **Applied**.  
 
     - If the bank account number cannot be used to find the customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will either stop processing the current line or use the line as a default posting, before continuing with the next statement line.  
 

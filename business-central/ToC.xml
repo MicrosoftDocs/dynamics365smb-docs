@@ -13,7 +13,7 @@
   <Node Name="" DisplayName="Tips and Tricks" Page="ui-work-product.html">
     <Node Name="" DisplayName="Working with Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Using Search for Page or Report" Page="ui-search.html"/>
-    <Node Name="" DisplayName="Changing Basic Settings" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Change Basic Settings" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="How to: Change the Role Center" Page="change-role.html"/>
     <Node Name="" DisplayName="Customizing Business Central" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Letting Business Central Suggest Values" Page="ui-let-system-suggest-values.html"/>
@@ -153,9 +153,9 @@
       <Node Name="" DisplayName="How to: Create Prepayment Invoices" Page="finance-how-to-create-prepayment-invoices.html"/>
       <Node Name="" DisplayName="How to: Correct Prepayments" Page="finance-how-to-correct-prepayments.html"/>
     </Node>
-    <Node Name="" DisplayName="Managing Bank Accounts" Page="bank-manage-bank-accounts.html">
+    <Node Name="" DisplayName="Reconciling Bank Accounts" Page="bank-manage-bank-accounts.html">
       <Node Name="" DisplayName="Applying Payments Automatically and Reconcile Bank Accounts" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
-      <Node Name="" DisplayName="How to: Reconcile Bank Accounts Separately" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="How to: Reconcile Bank Accounts" Page="bank-how-reconcile-bank-accounts-separately.html"/>
       <Node Name="" DisplayName="How to: Transfer Bank Funds" Page="bank-how-transfer-bank-funds.html"/>
     </Node>
     <Node Name="" DisplayName="Managing Intercompany Transactions" Page="intercompany-manage.html">
@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Working with Dimensions" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="How to: Create Budgets" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="How to: Post Transactions Directly to the General Ledger" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="How to: Reverse Postings" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="How to: Reverse Journal Postings and Undo Receipts/Shipments" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="How to: Allocate Costs and Income" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="How to: Use Item Charges to Account for Additional Trade Costs" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="How to: Record and Reimburse Employees' Expenses" Page="finance-how-record-reimburse-employee-expenses.html"/>

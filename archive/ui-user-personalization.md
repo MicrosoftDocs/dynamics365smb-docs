@@ -29,7 +29,7 @@ On lists and document lines, not all available column information is displayed b
 3. In the **Choose Columns** window, select or clear the **Visible** check box for the columns that you want to add or remove.
 4. Choose the **OK** button.
 -->
-# Personalizing Your Workspace
+# Personalize Your Workspace
 <!--NAV in the Web client-->
 You can customize, or *personalize*, your workspace to suit your work and preferences by changing pages so that they display only the information you need, where you need it. The personalization changes that you make will only affect what you see, not what other users see.
 
@@ -94,4 +94,4 @@ At some point, you might want to undo all the personalization changes that you h
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Changing Basic Settings](ui-change-basic-settings.md)  
-[Changing Which Features are Displayed](ui-experiences.md)  
+[Change Which Features are Displayed](ui-experiences.md)  

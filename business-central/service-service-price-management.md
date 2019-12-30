@@ -1,8 +1,6 @@
 ---
     title: Service Price Management | Microsoft Docs
     description: This topic describes how to apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---

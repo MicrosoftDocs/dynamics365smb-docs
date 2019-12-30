@@ -1,8 +1,6 @@
 ---
     title: Create Invoices or Credit Memos for Services | Microsoft Docs
     description: Learn how to create invoices, so you can get paid for your service.
-    services: project-madeira
-    documentationcenter: ''
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: bholtorf
 
 ---

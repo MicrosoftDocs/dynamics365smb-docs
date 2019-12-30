@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2018
+ms.date: 11/27/2019
 ms.author: sgroespe
 
 ---
@@ -36,20 +36,30 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Choose the **OK** button.  
 
-    The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.  
+    The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
+
 4. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.  
 
-    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.  
+    On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
 ## To post depreciation manually from the fixed asset G/L journal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.  
 3. In the **FA Posting Type** field, select **Depreciation**.  
-4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).  
-5. On the **Home** tab, choose **Post** to post the journal.  
+4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for depreciation posting. For more information, see [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+5. Choose the **Post** action to post the journal.  
+
+The **Book Value** field on the **Fixed Asset Card** page is updated accordingly.
 
 If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting. For more information, see [Set Up General Fixed Assets Information](fa-how-setup-general.md).  
+
+## To manage the ending book value
+In the **Ending Book Value** field on the **FA Depreciation Books** page, you can specify the book value that you want your fixed asset to have in the current depreciation book after it has been fully depreciated. You can do this manually or you can fill in the **Default Ending Book Value** field on the related **Depreciation Book** page, which will then be used to automatically fill the field.
+
+> [!NOTE]
+> If the last depreciation means that the **Book Value** field on the **Fixed Asset Card** page is zero, the last depreciation is automatically reduced by this amount.<br /><br />
+> If the value in the **Book Value** field is greater than zero after the last depreciation,  for example because of a rounding problem or because a salvage value exists, the value in the **Ending Book Value** field on the **FA Depreciation Books** page is ignored. For more information, see [To post the salvage value together with the acquisition cost](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## To calculate allocations in the fixed asset G/L journal
 If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
@@ -58,10 +68,10 @@ If a fixed asset is used by several departments, periodic depreciation can be au
 2. Create an initial line and fill in the fields as necessary.
 3. In the **FA Posting Type** field, select **Allocation**.  
 4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for allocation posting.  
-5. On the **Home** tab, choose **Post** to post the journal.  
+5. Choose the **Post** action to post the journal.  
 
 ## Use duplication lists to prepare to post to multiple depreciation books
-When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. For more information, see the "To post entries to different depreciation books" section.
+When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book. For more information, see To [post entries to different depreciation books](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Open the depreciation book, and then select the **Part of Duplication List** check box.  

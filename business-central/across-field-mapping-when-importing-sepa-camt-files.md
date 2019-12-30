@@ -9,12 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Field Mapping When Importing SEPA CAMT Files
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
  The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Posting Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -57,6 +57,6 @@
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
-[Set Up the Bank Data Conversion Service](bank-how-setup-bank-data-conversion-service.md)   
+[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  

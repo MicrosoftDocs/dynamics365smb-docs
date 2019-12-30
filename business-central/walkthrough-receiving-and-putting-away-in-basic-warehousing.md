@@ -9,11 +9,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
+
+**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
@@ -119,7 +122,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
 4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  
 
-    Alternatively, on the **Actions** tab, in the **Functions** group, choose **Get Source Document**, and then select the purchase order.  
+    Alternatively, choose the **Get Source Document** action, and then select the purchase order.  
 
 5.  Choose the **Autofill Qty. to Handle** action.  
 

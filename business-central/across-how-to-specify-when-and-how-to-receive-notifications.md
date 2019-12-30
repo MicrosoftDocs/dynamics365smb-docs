@@ -1,8 +1,6 @@
 ---
     title: How to Specify When and How to Receive Notifications | Microsoft Docs
     description: When you set up users in approval workflows, you must specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the Change Notification Settings button on any notification.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,15 +9,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/08/2018
+    ms.date: 12/04/2019
     ms.author: sgroespe
 ---
 # Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  
 
+> [!NOTE]
+> Notifications are delivered according to notification settings for the receiver, not the sender. That's an important distinction because it means that when someone requests an approval as part of a workflow their request is not necessarily sent immediately. Instead, it will be delivered according to the approvers's notification settings. 
+
  Before you can set up an approval user’s notification preferences, you must set the user up as an approval user. For more information, [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
- You can define the layout of email notifications by customizing Report 1320, Notification Email. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).  
+ You can define the layout of email notifications by customizing Report 1320, Notification Email. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).  
 
  Many approval workflow steps are about notifying users that an event has occurred that they must act on. For example, on one workflow step, the event can be that User 1 requests approval of a new record. The related response is that a notification is sent to User 2, the approver. On the next workflow step, the event can be that User 2 approves the record. The related response is that a notification is sent to User 3 to start a process with the approved record. For workflow steps that are about approval, each notification is tied to an approval entry. For more information, see [Workflow](across-workflow.md).  
 
@@ -34,7 +35,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
     |**Notification Type**|Specify what type of event the notification is about.<br /><br /> Select one of the following options:<br /><br /> -   **New Record** specifies that the notification is about a new record, such as a document, that the user must act on.<br />-   **Approval** specifies that the notification is about one or more approval requests.<br />-   **Overdue** specifies that the notification is to remind users that they are late in acting on an event.|  
     |**Notification Method**|Specify if the notification is an email or an internal note.|
 
-    You can define the layout of email notifications by customizing Report 1320, Notification Email. For more information, see [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
+    You can define the layout of email notifications by customizing Report 1320, Notification Email. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
     You have now specified how the user receives notifications. Proceed to specify when the user receives notifications.  
 
@@ -56,7 +57,7 @@ When you set up users in approval workflows, you must specify in the **Notificat
 
 ## See Also  
  [Set Up Approval Users](across-how-to-set-up-approval-users.md)   
- [Create and Modify a Custom Report or Document Layout](ui-how-create-custom-report-layout.md)   
+ [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)   
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)

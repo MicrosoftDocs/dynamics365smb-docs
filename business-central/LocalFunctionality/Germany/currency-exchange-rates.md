@@ -1,8 +1,6 @@
 ---
     title: Currency Exchange Rates
     description: At the end of the fiscal year, you must adjust currency exchange rates for payables and receivables so that they are valued correctly in the annual balance. The **Adjust Exchange Rates** batch job supports different valuation methods in order to meet legal requirements in Germany.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 12/19/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

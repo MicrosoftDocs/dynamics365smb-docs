@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
@@ -33,6 +33,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 | Specify for individual customers or for all customers how sales documents are sent by default when you choose the **Post and Send** action. |[Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md) |
 | Set your email up to contain a summary of information in the sales document that is being sent. |[Send Documents by Email](ui-how-send-documents-email.md). |
 |Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
+|Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 
 ## See Also

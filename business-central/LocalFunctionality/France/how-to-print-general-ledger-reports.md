@@ -2,8 +2,6 @@
     title: How to Print General Ledger Reports
     description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, customer entries, vendor entries, and bank entries.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

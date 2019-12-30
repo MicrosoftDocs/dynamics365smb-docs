@@ -1,8 +1,6 @@
 ---
     title: How to Assemble Items | Microsoft Docs
     description: If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 12/17/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

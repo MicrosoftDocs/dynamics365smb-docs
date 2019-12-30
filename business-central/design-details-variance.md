@@ -1,8 +1,6 @@
 ---
     title: Design Details - Variance | Microsoft Docs
     description: Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

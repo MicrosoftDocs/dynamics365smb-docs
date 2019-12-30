@@ -1,8 +1,6 @@
 ---
     title: How to Use the Manufacturing Batch Unit of Measure | Microsoft Docs
     description: If an item is stocked in one unit of measure but produced in another, then the production order must be use a manufacturing batch unit of measure to calculate the correct quantity of components. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -29,7 +27,7 @@ If an item is stocked in one unit of measure but produced in another, a producti
 6.  Create a production order header using the item set up with the manufacturing batch unit of measure. For more information, see [Create Production Orders](production-how-to-create-production-orders.md).  
 7.  Choose the **Refresh** action, and then choose  the **OK** button.  
 
-On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The program calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measure.  
+On the **Lines** FastTab, choose the **Line** action, and then choose the **Components** action to view the result. The application calculates the correct quantity of the components needed to satisfy the production BOM based on the manufacturing batch unit of measure.  
 
 ## To calculate a manufacturing batch unit of measure on a production order  
 1.  Create a production order header using the item set up with the manufacturing batch unit of measure.  

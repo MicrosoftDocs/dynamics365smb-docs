@@ -1,8 +1,6 @@
 ---
     title: How to Set Up Delivery Reminders
     description: In Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -21,15 +19,15 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase deliv
 ## To set up delivery reminders  
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
-2.  On the **General** FastTab, in the **Default Del. Rem. Date Field** field, specify one of the following options as described in the following table.  
+2.  In the **Default Del. Rem. Date Field** field, specify one of the options described in the following table.  
 
     |Option|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Requested Receipt Date**|To specify that the date value in the **Requested Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
-    |**Promised Receipt Date**|To specify that the date value in the **Promised Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
-    |**Expected Receipt Date**|To specify that the date value in the **Expected Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
+    |**Requested Receipt Date**|Specifies that the date value in the **Requested Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
+    |**Promised Receipt Date**|Specifies that the date value in the **Promised Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
+    |**Expected Receipt Date**|Specifies that the date value in the **Expected Receipt Date** field on the purchase order line will be used as the default date for creating delivery reminders.|  
 
-3.  On the **Numbering** FastTab, fill in the fields as described in the following table.  
+3.   Fill in additional fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

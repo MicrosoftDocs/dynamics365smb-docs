@@ -1,8 +1,6 @@
 ---
     title: Swiss Purchase Documents and Sales Documents
     description: Swiss enhancements include special purchase and sales document features.    
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -42,5 +40,4 @@ On the **Sales & Receivables Setup** page, the **Shipment on Ship and Invoice** 
 ## See Also  
  [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
- [Print Sales and Purchase Orders During Batch Posting](how-to-print-sales-and-purchase-orders-during-batch-posting.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)

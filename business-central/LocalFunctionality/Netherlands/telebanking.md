@@ -1,8 +1,6 @@
 ---
     title: Telebanking
     description: Based on both sales and purchase transactions, telebanking enables you to generate your payments and collections and interchange them with your bank electronically.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -44,9 +42,10 @@ A payment history is nothing more than a proposal except for the fact that data 
 ## Exchange Protocols  
  For both exporting and importing, a number of protocols have been defined. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the following protocols:  
 
-- BTL91 (export)  
+- BTL91 (export). This cross-border protocol is no longer accepted in the Netherlands as of May 1st 2019. This protocol is replaced by the Generic Payment File protocol.
 - BBV (export)  
 - PAYMUL (export)  
+- Generic Payment File (export). Can be used for cross-border Non-EUR transfers.
 - Rabobank mut.asc (import)  
 - Rabobank vvmut.asc (import)  
 - Rabobank ASCII (import)  

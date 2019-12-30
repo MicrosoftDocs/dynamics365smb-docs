@@ -1,8 +1,6 @@
 ---
     title: How to Ship Items | Microsoft Docs
     description: Depending on your warehouse configuration, you can either record shipment on the related outbound business document, such as a sales order,  directly, or you can use warehouse shipment documents that respect a workflow and integrate to various warehouse activities.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -21,7 +19,7 @@ When you ship items from a warehouse that is not set up for warehouse shipment p
 When you ship items from a warehouse that is set up warehouse shipment processing, you can ship items only on the basis of source documents that other company units have released to the warehouse for action.
 
 > [!NOTE]
-> If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The program calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+> If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The application calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## To ship items with a sales order
 The following describes how to receive items with a purchase order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  

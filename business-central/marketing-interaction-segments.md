@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: jswymer
 
 ---
-# Managing Interactions for Segments
+# Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:
 
 * Create segments.

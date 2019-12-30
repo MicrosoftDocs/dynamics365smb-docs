@@ -2,8 +2,6 @@
     title: How to Set Up Reports for VAT and Intrastat
     description: In Business Central, you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

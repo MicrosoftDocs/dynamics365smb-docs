@@ -10,7 +10,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.reviewer: edupont
+    ms.date: 10/01/2019
     ms.author: soalex
 
 ---
@@ -26,6 +27,6 @@ In this section you can read more about our approach to compliance from and appl
 |Learn about compliance from an application perspective, like GDPR and International Accounting Standards and more.|[Application Compliance](compliance-application-compliance.md)|  
 |Learn about compliance at the service level and the approaches made at the platform to ensure Business Central a best-in-class service compliance.|[Service Compliance](compliance-service-compliance.md)|  
 |See information about different certifications related to Business Central. Here you will find information about general certifications and country specific certifications.|[Certifications](compliance-certifications.md)|  
+|Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

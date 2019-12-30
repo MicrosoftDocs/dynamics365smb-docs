@@ -1,8 +1,6 @@
 ---
     title: How to Declare VAT-VIES Tax
     description: The VAT-VIES declaration report allows you to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

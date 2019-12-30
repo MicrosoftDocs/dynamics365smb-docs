@@ -1,8 +1,6 @@
 ---
     title: Design Details - Handling Reordering Policies | Microsoft Docs
     description: Overview of tasks for defining a reorder policy in supply planning.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/14/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -263,7 +261,7 @@ If the scheduled date is a non-working day, the planning system moves the order 
 ### Order
 In a make-to-order environment, an item is purchased or produced to exclusively cover a specific demand. Typically it relates to A-items, and the motivation for choosing the order reordering policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.  
 
-The program creates an order-to-order link, which acts as a preliminary connection between the supply, a supply order or inventory, and the demand that it is going to fulfill.  
+The application creates an order-to-order link, which acts as a preliminary connection between the supply, a supply order or inventory, and the demand that it is going to fulfill.  
 
 Apart from using the Order policy, the order-to-order link can be applied during planning in the following ways:  
 

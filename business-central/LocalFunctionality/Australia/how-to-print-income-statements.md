@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
@@ -21,14 +21,14 @@ This is a legal report that is required for auditing accounts. This report displ
 
 ## To print the income statement report  
 1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Income Statement**, and then choose the relevant link.  
-2. On the **Income Statement** page, on the **Options** FastTab, fill in the fields as described in the following table.  
+2. On the **Income Statement** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Amounts in whole**|Specifies the nearest unit to which the amount must be rounded.|  
     |**Show Amounts in Add. Reporting Currency**|Specifies if the amounts will be displayed in the additional reporting currency.|  
 
-3. Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## See Also  
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)  

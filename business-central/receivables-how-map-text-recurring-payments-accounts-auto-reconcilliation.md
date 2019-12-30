@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 10/01/2018
+ms.date: 10/01/2019
 ms.author: sgroespe
 
 ---
 # Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 On the **Text-to-Account Mapping** page, which you open from the **Payment Reconciliation Journal** page, you can set up mappings between text on payments and specific debit, credit, and balancing accounts so that such payments are posted to the specified accounts when you post the payment reconciliation journal.
 
-Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis. For more information, see [Reconcile Payments That Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md).
+Similar functionality exists to reconcile excess amounts on payment reconciliation journal lines on an ad-hoc basis. For more information, see [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Payments posted based on text-to-account mapping are not applied to open entries, but are merely posted to the specified accounts in addition to creating bank account ledger entries. Accordingly, text-to-account mapping is suited for recurring cash receipts or expenses, such as frequent purchases of car fuel or bank fees and interest, that regularly occur on the bank statement and do not need a related business document. For more information, see the “Example - Text-to-Account Mapping for Fuel Expense” section in this topic.
 
@@ -50,9 +50,6 @@ To always post fuel expenses incurred at Shell gas stations to the general ledge
 | Mapping Text | Debit Acc. No. | Credit Acc. No. | Bal. Source Type | Bal. Source No. |
 | --- | --- | --- | --- | --- |
 | Shell |BLANK |8510 |G/L Account |BLANK |
-
-> [!TIP]  
->   For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). For more information about how to find specific pages, see [Search](ui-search.md).
 
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  

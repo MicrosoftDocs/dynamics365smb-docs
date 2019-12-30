@@ -2,8 +2,6 @@
     title: How to Print Swiss VAT Statements (older version)
     description: The Swiss VAT Statement is the standard calculation report for realizing VAT. You can print this report, and use it for quarterly tax reporting.
 
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---

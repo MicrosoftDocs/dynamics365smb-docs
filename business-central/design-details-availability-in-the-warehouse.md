@@ -1,8 +1,6 @@
 ---
     title: Design Details - Availability in the Warehouse | Microsoft Docs
     description: The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.
-    services: project-madeira
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -11,14 +9,19 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2018
+    ms.date: 10/01/2019
     ms.author: sgroespe
 
 ---
 # Design Details: Availability in the Warehouse
 The system must keep a constant control of item availability in the warehouse, so that outbound orders can flow efficiently and provide optimal deliveries.  
 
- Availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows.  
+Availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows.
+
+If one or more conditions are not met, different error messages can be shown, including the generic "Nothing to handle." message. The "Nothing to handle." message can occur for many different reasons, both in outbound and inbound flows, where a directly or indirectly involved document line contains the **Qty. to Handle** field.
+
+> [!NOTE]
+> Information will soon be published here about possible reasons and solutions for the "Nothing to handle." message.
 
 ## Bin Content and Reservations  
  In any installation of warehouse management, item quantities exist both as warehouse entries, in the Warehouse application area, and as item ledger entries, in the Inventory application area. These two entry types contain different information about where items exist and whether they are available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents.  
@@ -68,4 +71,5 @@ The system must keep a constant control of item availability in the warehouse, s
  ![Avaliable to reserve per warehouse allocation](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
 ## See Also  
- [Design Details: Warehouse Management](design-details-warehouse-management.md)
+ [Design Details: Warehouse Management](design-details-warehouse-management.md)  
+ [View the Availability of Items](inventory-how-availability-overview.md)

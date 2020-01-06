@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/17/2019
+ms.date: 01/06/2020
 ms.author: edupont
 
 ---
@@ -27,6 +27,7 @@ If you use an external accountant to manage your books and financial reporting, 
 Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant pages for their work.  
 
 We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+
 > [!Note]  
 > This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).   
 
@@ -37,8 +38,9 @@ We have made it easy for you to invite your external accountant. Simply open the
 > 
 > This task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin center. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
 
-### Adding your accountant to your Office 365 via Azure Portal
-If your administrator or reselling partner don't want to use **Invite External Accountant** they can add external user via Azure Portal and assign this user the External Accountant license. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+### Adding your accountant to your Office 365 via Azure Portal'
+
+If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure Portal and assign this user the External Accountant license. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### To add your accountant as a guest user
 

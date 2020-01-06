@@ -19,6 +19,6 @@ These have been improved by the ability to automatically update currency exchang
 The user can define the http service address and other exchange rate update parameters in the exchange rate service settings.
 
 ## See Also
-[Update Currency Exchange Rates](../../to-set-up-a-currency-exchange-rate-service.md)  
+[Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  

@@ -57,18 +57,18 @@ The ability to bookmark a link to a page or report is one of many user personali
 Not all pages and reports can be bookmarked. When a page or report is run within some special context governed by the business application, the bookmark icon is not displayed. For example, pages that cannot be found in the **Tell Me** window but are launched from elsewhere will not display a bookmark icon. Similarly, report request pages that are only used to collect filters without running the report will not display a bookmark icon.  
 See technical details about [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) and [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
-- **When i clear my personalization, will my bookmarks also be removed?**  
-Yes. Bookmarks reside in the navigation menu. If you clear changes to the navigation menu from any page, or clear all personalization on the Role Center, all bookmarks will be permanently lost.
+- **When clearing my personalization, will my bookmarks also be cleared?**  
+Yes. Bookmarks reside in the navigation menu. If you clear changes to the navigation menu from any page, or clear all personalization on the Role Center, all bookmarks will be permanently removed.
 
 - **Why does the bookmark icon continue to indicate it is still not bookmarked?**  
 When you add a bookmark, the link is added to the navigation menu on the Role Center and subsequent visits to the page or report show a dark bookmark icon. If you personalize your Role Center and reorganize your bookmarks by moving them into groups, the bookmark icon will no longer be dark and you can add another bookmark to that same page or report. This allows you add multiple links to the same page or report and categorize them into different groups.
 
 - **Why does my link to a report display a different report?**  
 Some reports may be substituted by other reports after applying an extension to Business Central. When substitution occurs, the text of the bookmarked link is not updated and will continue to display the name of the original report, but navigate to the newer report. To correct the text of the bookmarked link, you can remove the bookmark and add it again.
-<!-- For more information on report substitution, see this link UNAVAILABLE -->
+<!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
-- **Is bookmarking available for XMLPorts?**  
-No. At this time, adding links to XMLPorts is not possible from the user interface.
+- **Is bookmarking available for XMLports?**  
+No. At this time, adding links to XMLports is not possible from the user interface.
 
 - **Will my bookmarks be translated when i change my language in Business Central?**  
 When a bookmark is added, any translated text that was available at the time is bookmarked as well. If new translated text is added later, then the bookmarked link will not include the newer translations.

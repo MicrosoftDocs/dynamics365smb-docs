@@ -24,6 +24,9 @@ If you want some help to decide what to do with your cash, have a look at the ch
 * **Cash Flow Forecasts**  
 
 This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## The Cash Cycle and Income & Expense charts
 The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:  

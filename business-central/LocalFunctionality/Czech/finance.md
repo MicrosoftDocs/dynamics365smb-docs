@@ -6,58 +6,59 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 05/15/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 # Finance
 
-In the Czech Republic, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your Finance.
+In the Czech Republic, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your finances.
 
 ## Corrections Posting (Red Storno)
 
-According to legal requirements, costs and revenues are usually posted only to either the debit or the credit side of a G/L Account. Companies in Eastern Europe usually enforce accounting policy to post certain inventory and GL transactions as corrections. The reason for this is that auditors and revenue authorities conduct accounting controls against this rule.  
+According to legal requirements, costs and revenues are usually posted only to either the debit or the credit side of a G/L account. Companies in Eastern Europe usually enforce accounting policies to post certain inventory and GL transactions as corrections. The reason for this is that auditors and revenue authorities conduct accounting controls against this rule.  
 
 The purpose of the feature is:  
-- To allow the Accounting Manager to enforce corrective posting on desired G/L Accounts  
-- To allow the Accounting Manager to enforce corrective posting in Inventory Postings (negative transfer entries, expected costs posting)  
-- To allow the Accounting Manager to enforce corrective posting of cancelling in Fixed Assets  
-- To allow the user to enforce corrective posting with just one click (G/L, Inventory and Jobs Postings)  
+- To allow the accounting manager to enforce corrective posting on desired G/L accounts  
+- To allow the accounting manager to enforce corrective posting in inventory postings (negative transfer entries, expected costs posting)  
+- To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
+- To allow the user to enforce corrective posting with one click (in G/L, inventory, and job postings)  
 
 ## Statutory Company Information
 
-In the current times, many documents are circulating within and outside company structures. Minimum necessary requirements of such documents are set by local legislations. It is possible to divide such requirements approximately into 3 groups:
-- Company officials names need to be present on some internal and external documents
-- Document footers – majority of external documents have to contain basic company information in document footers, usually in company’s partner language
-- Registration numbers have to be visible in internal and external document
+Many documents are circulating within and outside company structures. The minimum necessary requirements of such documents are set by local legislations. It is possible to divide such requirements roughly into three groups:
+- Company officials' names must be present on some internal and external documents.
+- Document footers – The majority of external documents must contain basic company information in document footers, usually in the company’s partner language.
+- Registration numbers must be visible in internal and external documents.
 
-This feature allows users to define company officials and designate them as General Manager, Accounting and Finance Managers for usage in internal and external documents.
+This feature allows users to define company officials and designate them as General Manager, Accounting, and Finance Managers for usage in internal and external documents.
+
 Users can define document footers in different languages. Such footers can be used in different reports and documents.
 
-Additional company registration numbers and other registration information can be stored in Company Information and used in documents.
+Additional company registration numbers and other registration information can be stored on the **Company Information** page and used in documents.
 
 ## Internal Financial Documents
 
-Users perform General Ledger operations and must have the possibility to print documents for these operations with layout in compliance with the legal requirements.
-Users also want to print a document for posted General Ledger operations.
+Users perform general ledger operations and must have the possibility to print documents for these operations with layout in compliance with the legal requirements. Users also want to print a document for posted general ledger operations.
+
 For the reasons above, this feature provides the following reports:
-- General Journal – Test Report is used to print documents from G/L Journals
-- General Ledger Document Report is used to print posted General Ledger operations
+- General Journal – Test Report - used to print documents from G/L journals
+- General Ledger Document Report - used to print posted general ledger operations
 
 ## Accounting Output Documents  
 
-In order to comply with the legislation, reporting features and local reporting practices of Czech companies, this feature provides the following reports:
+In order to comply with the legislation, reporting features, and local reporting practices of Czech companies, this feature provides the following reports:
 - General Journal
 - General Ledger
 - Accounting Sheets
 - Turnover report by Global Dimension
-- Open G/L Entries to date 
+- Open G/L Entries to date
 - Inventory Account to date
 - Joining Bank Account Adjustment
 - Joining G/L Account Adjustment
 - G/L VAT Reconciliation
-- All payments on hold 
+- All payments on hold
 - Open Customer Entries at date
 - Open Vendor Entries at date
 - Fiscal Year Balance – standard report adjusted
@@ -65,46 +66,48 @@ In order to comply with the legislation, reporting features and local reporting 
 
 ## Account Schedule Feature
 
-As one of the most extensively used areas of application for analysis and reporting, Eastern European countries often ask for following improvements of standard Account Schedules feature:
-- Common list of expressions – common list of expressions contains named lines which can be used in formulas of all Account Schedules. This is done by defining one of the Account Schedules as a common list of expressions called Shared Account Schedule.
-- Saving results (current state) of analysis – this improvement allows user to store results of analysis done by using Account Schedules, modification of results and retrieval of results later on.
-- Formulas Drill Down – this improvement allows user to drill down the results of formulas. Drill-down is now accessible for Totalling Type – Formula. Drilling down the result of the formula shows the user a new form containing the list of elements used to calculate results and their description.
-- Additional Data Sources – apart from being able to perform analysis on GL Entries, the user can perform analysis on VAT, Customer, Vendor and Value entries.
+As one of the most extensively used features for analysis and reporting, Eastern European countries often ask for the following improvements of the standard Account Schedules feature:
+
+- Common list of expressions – A common list of expressions contains named lines that can be used in formulas of all account schedules. This is done by defining one of the account schedules as a common list of expressions called a Shared Account Schedule.
+- Saving results (current state) of analysis – This improvement allows users to store results of analysis done by using account schedules, modification of results, and retrieval of results later on.
+- Formulas drill-down – This improvement allows users to drill down on the results of formulas. Drill-down is now accessible for Totalling type formulas. Drilling down on the result of the formula shows the user a new page containing the list of elements used to calculate the results and their description.
+- Additional data sources – Apart from being able to perform analysis on GL entries, the user can perform analysis on VAT, customer, vendor, and value entries.
 
 ## Statutory Statements
 
-Companies have to create Financial Statements according to the Accounting Law 563/1991. They have to create the Balance Sheet and the Profit and Loss Statement. 
+Companies must create financial statements according to the Accounting Law 563/1991. They must create the balance sheet and the profit and loss statement.
 This feature provides the following reports:
 
-- Balance Sheet 
+- Balance Sheet
 - Income Statement
 
-These reports use the Account Schedule with the statement structure defined.
+These reports use the Account Schedule feature with the statement structure defined.
 
-The Acc. Schedule Name contains new fields in the Czech version:
-- Acc. Schedule Type – Balance Sheet or Income Statement
+The **Acc. Schedule Name** table contains this new field in the Czech version:
+- **Acc. Schedule Type** – Balance Sheet or Income Statement option
 
-The Acc. Schedule Line contains new fields in the Czech version:
-- Row Correction – link to other line for Balance Sheet setup
-- Assets/Liabilities Type – Assets or Liabilities for Balance Sheet setup
-- Calc – Always, Never, When positive, When Negative
+The **Acc. Schedule Line** table contains these new fields in the Czech version:
+- **Row Correction** – links to another line for balance sheet setup
+- **Assets/Liabilities Type** – Assets or Liabilities for Balance Sheet setup
+- **Calc** – Always, Never, When positive, When Negative options
 
-Balance Sheet and the Profit and Loss Statements are often prepared in Excel file templates with the necessary design for statement printout. Users want to map defined Account Schedules to prepared Excel templates.
+The balance sheet and the profit and loss statements are often prepared in Excel file templates with the necessary design for statement printout. Users want to map defined account schedules to prepared Excel templates.
 
-For the reasons above, this feature provides the new setup of Excel Templates and Statement File Mapping. Based on this setup users can export Account Schedule data to Excel file.
+For the reasons above, this feature provides the new setup of Excel templates and statement file mapping. Based on this setup, users can export account schedule data to Excel files.
 
 ## WIP Extended Posting
 
-The Czech legal Work in Progress (WIP) posting scheme includes the following new General Ledger Accounts:
+The Czech legal Work in Progress (WIP) posting scheme includes the following new general ledger accounts:
 - Consumption Account
 - Change in Inventory of WIP Account
 - Change in Inventory of Product Account  
 
-This feature allows you to correctly perform Czech WIP and Production extended posting. It is therefore possible to set up combination Location and Inventory posting group for the account of Consumption, Work in Progress, Change of Semi-finished Product, Change of Product.
+This feature allows you to correctly perform Czech WIP and production posting. It is therefore possible to set up a combination of location and inventory posting group for the accounts Consumption, Work in Progress, Change of Semi-finished Product, Change of Product.
+
 This new posting scheme is used in the following transactions:
-- Consumption Posting in the Posting Journal
-- Posting the Costs on Capacities in the Output Journal
-- Finishing Orders and Auto Reporting
+- Consumption posting in the consumption journal
+- Posting the costs of capacities in the output journal
+- Finishing orders and automatic production reporting
 
 ## Additional Finance Features
 

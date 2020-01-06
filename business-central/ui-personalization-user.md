@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 06/01/2020
 ms.author: sgroespe
 
 ---
@@ -60,7 +60,8 @@ As for other personalization, the changes you make to column width are stored on
 |Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
 |Change the freeze pane in a list to another column. |Choose the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed position, choose the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
 |Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
-|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalize List Views](ui-views.md)|
+|Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalize List Views](ui-views.md)|  
+|Add a link to a page or report on your Role Center.|From the target page, report request page or Tell Me window, choose the bookmark icon.|See [Add a Link to a Page or Report on Your Role Center](ui-bookmarks.md)|
 
 ## <a name="Actions"></a>Personalizing Actions
 
@@ -100,6 +101,7 @@ At some point, you might want to undo some or all of the personalization changes
 
 |Option|What it does|
 |------|------------
+|**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. This includes any bookmarks that were added, and any changes to links and groups in the menu.|  
 |**Only Actions**|Clears any personalization changes that you have ever made on the action bar on the page.|
 |**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|

@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
-ms.date: 12/30/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---

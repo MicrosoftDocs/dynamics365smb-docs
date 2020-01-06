@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 12/30/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
@@ -29,7 +29,7 @@ The cash desk card contains basic cash register information, such as number, cur
 
 Cash documents are receipt or withdrawal, and can be in different currencies according to the cash register. The documents also enable the releasing, posting and printing of exit documents.  
 
-You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for offsetting backup invoices.  
+You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for off-setting backup invoices.  
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  

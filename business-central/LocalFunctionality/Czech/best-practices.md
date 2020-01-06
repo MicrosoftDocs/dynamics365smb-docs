@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
-ms.date: 05/15/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
-ms.date: 12/30/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
@@ -63,5 +63,5 @@ This allows you to create payment orders and bank statements. An unlimited numbe
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
-[Reconcile Payments Using Automatic Application](../receivables-how-reconcile-payments-auto-application.md)  
+[Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)  
 [Finance](finance.md)

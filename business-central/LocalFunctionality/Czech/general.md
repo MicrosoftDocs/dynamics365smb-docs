@@ -11,9 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# General function
-
-## Extended user control
+# Extended User Control
 
 The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 

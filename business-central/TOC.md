@@ -947,7 +947,7 @@
 ### Inventory
 #### [Inventory](LocalFunctionality/Czech/inventory.md)
 ### General
-#### [General](LocalFunctionality/Czech/general.md)
+#### [Extended User Control](LocalFunctionality/Czech/general.md)
 #### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 
 ## Denmark

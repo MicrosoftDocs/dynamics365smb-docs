@@ -44,7 +44,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [Inventory](inventory.md) **Available Now**
 
 * General
-  * [General](general.md) **Available Now**
+  * [Extended User Control](general.md) **Available Now**
   * [Best Practices](best-practices.md) **Available Now**
 
 ## See Also

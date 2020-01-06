@@ -1,6 +1,6 @@
 ---
-title: Add a bookmark link from a page to your Role Center | Microsoft Docs
-description: Learn how to add a link from a page to your Role Center.
+title: Bookmark a link to a page or report on your Role Center | Microsoft Docs
+description: Learn how to add a link to your Role Center.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,29 +9,70 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/20/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
 ---
 
-# Add a Page Action to Your Role Center
-Using the new bookmark icon, you can add an action link to any page from the navigation menu of your Role Center. You add the bookmark from the target page, meaning the page that you want the action on the Role Center to open.
+# Add a Link to a Page or Report on Your Role Center
+Using the bookmark icon, you can add a link to a page or report from the navigation menu of your Role Center. This allows you to quickly reach your favorite content or business tasks. You add the bookmark from the target page or report, meaning the screen that you want the link on the Role Center to open.
 
-The bookmark icon is shown in the top right corner of all pages and also in the **Tell Me** window where you can efficiently bookmark multiple pages.
+The bookmark icon is shown in the top right corner of a page and also in the **Tell Me** window where you can efficiently bookmark multiple pages or reports. If a bookmark already exists for the page, then the icon is dark, and the tooltip says "Bookmarked".
 
-## To add a Role Center action from the target page
-1. Open any page that you want an action for on your Role Center.
+## To add a link from the target page
+1. Open any page that you want a link for on your Role Center.
 2. Choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
 
-An action names after the page is now added to the navigation menu on your Role Center.
+A link named after the page is now added to the navigation menu on your Role Center.
 
-## To add a Role Center action from the Tell Me window
+## To add a link from the target report
+1. Open any report request page that you want a link for on your Role Center.
+2. Choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+
+A link named after the report is now added to the navigation menu on your Role Center.
+
+## To add a link from the Tell Me window
 1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
-2. Hower over the search result for the **Sales Orders** page, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
 
-If a bookmark already exists for the page, then the icon is dark, and the tooltip says "Bookmarked".
+A link named after the page or report is now added to the navigation menu on your Role Center.
 
-> [!NOTE]  
-> When a bookmark is added, any translated text that was available at the time is bookmarked as well. If new translated text is added later, then the bookmarked link is not updated.
+
+## Frequently Asked Questions  
+
+- **Can I reorganize my bookmarks?**  
+Yes. You can personalize your Role Center and move bookmarks into a more optimal sequence or move them into existing groups or subgroups.  
+Learn how to [Personalize Your Workspace](ui-personalization-user.md).
+
+- **How do I remove a bookmark?**  
+On the target page or report, choose the bookmark icon again to remove the bookmarked link from your Role Center. You can also personalize your Role Center and temporarily hide bookmarks without fully removing them.
+
+- **Where do I find my bookmarks?**  
+When adding a bookmark to a page or report, the link is added to the top navigation menu on your current home screen (Role Center). If you happen to have many links, you may need to activate the **More** link to display all of them because the bookmark is always appended at the end of those links.
+<!-- Should we add a screenshot here? -->
+
+- **I don't have a bookmark icon. Is something wrong?**  
+The ability to bookmark a link to a page or report is one of many user personalization features in Business Central. If the bookmark icon is not displayed, it is likely that your administrator has disabled personalization.
+
+- **Why can't I bookmark certain pages or reports?**  
+Not all pages and reports can be bookmarked. When a page or report is run within some special context governed by the business application, the bookmark icon is not displayed. For example, pages that cannot be found in the **Tell Me** window but are launched from elsewhere will not display a bookmark icon. Similarly, report request pages that are only used to collect filters without running the report will not display a bookmark icon.  
+See technical details about [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) and [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+
+- **When i clear my personalization, will my bookmarks also be removed?**  
+Yes. Bookmarks reside in the navigation menu. If you clear changes to the navigation menu from any page, or clear all personalization on the Role Center, all bookmarks will be permanently lost.
+
+- **Why does the bookmark icon continue to indicate it is still not bookmarked?**  
+When you add a bookmark, the link is added to the navigation menu on the Role Center and subsequent visits to the page or report show a dark bookmark icon. If you personalize your Role Center and reorganize your bookmarks by moving them into groups, the bookmark icon will no longer be dark and you can add another bookmark to that same page or report. This allows you add multiple links to the same page or report and categorize them into different groups.
+
+- **Why does my link to a report display a different report?**  
+Some reports may be substituted by other reports after applying an extension to Business Central. When substitution occurs, the text of the bookmarked link is not updated and will continue to display the name of the original report, but navigate to the newer report. To correct the text of the bookmarked link, you can remove the bookmark and add it again.
+<!-- For more information on report substitution, see this link UNAVAILABLE -->
+
+- **Is bookmarking available for XMLPorts?**  
+No. At this time, adding links to XMLPorts is not possible from the user interface.
+
+- **Will my bookmarks be translated when i change my language in Business Central?**  
+When a bookmark is added, any translated text that was available at the time is bookmarked as well. If new translated text is added later, then the bookmarked link will not include the newer translations.
+
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  

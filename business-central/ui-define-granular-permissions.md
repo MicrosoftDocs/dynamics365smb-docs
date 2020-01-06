@@ -117,7 +117,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |Option|Description|Ranking|
 |------|-----------|
 |**Yes**|The user can perform the action on the object in question.|Highest|
-|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to. For more information about Indirect permissions, see [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Developer and IT-pro Help|Second highest|
+|**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to. For more information about indirect permissions, see [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Developer and IT-Pro Help|Second highest|
 |**Blank**|The user cannot perform the action on the object in question.|Lowest|
 
 ### Example - Indirect Permission

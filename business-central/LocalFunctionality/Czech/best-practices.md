@@ -12,19 +12,20 @@ ms.author: v-pejano
 ---
 
 # Small Regulatory Features and Best Practices
-Smaller regulatory features and local practices of Czech companies apply:
-- G/L Account Group – Multi-circuit Accounting 
-- Check of Posting Group changing – Customer, Vendor, item, bank account
+
+Smaller regulatory features and local practices of Czech companies include the following features:
+- G/L account groups – for multi-circuit accounting
+- Check on posting group change – for customer, vendor, item, and bank account
 - Check of output in inventory – time sequence
-- Templates for inventory Operations – Whse. Net Change Templates
-- Mandatory returning of exact costs in Manufacturing
+- Whse. Net Change Templates - templates for inventory operations –
+- Mandatory return of exact costs in Manufacturing
 - Default Business Posting Group in Manufacturing
-- Check Balance in G/L Journal – additional feature for disabling balance check by document type
-- Default Business Posting Group in Assembly Orders
-- Automatic creation and update of Dimensions
+- Check balance in G/L journal – additional feature for disabling balance check by document type
+- Default Business Posting Group in Assembly management
+- Automatic creation and update of dimensions
 - Marking the latest version of the sales and purchase archive
-- Additional fields in Item Ledger Entry and Value Entry
-- Gen. Prod. Posting Group from SKU and Skip Update SKU on Posting
+- Additional fields on item ledger entries and value entries
+- Gen. Prod. Posting Group from SKU and Skip Update SKU on posting
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  

@@ -13,19 +13,20 @@ ms.author: v-makune
 
 # Advance Payments and Invoices  
 
-The Advance Invoices and Payments feature is used to generate invoices and to make payments before goods or services have been delivered or before the production has begun. The Advance Invoices and Payments feature includes Advance Invoices, Advance Payments, Advance Payments subject to VAT, and tax documents. The document types and document requirements for this feature are listed below:
+The Advance Invoices and Payments feature is used to generate invoices and to make payments before goods or services have been delivered or before the production has begun. The Advance Invoices and Payments feature includes advance invoices, advance payments, advance payments subject to VAT, and tax documents. The document types and document requirements for this feature are listed below:
 
 ## Advance Invoices
 
 - Used to request money in advance.
 - The document is not accounted and does not have a tax voucher.
-- Documents are created in advance of invoices templates (document groups) with predefined accounting and number series of related documents. Advance Invoices templates define whether or not you are obliged to post VAT.
-- Advance Invoices can be created from purchase orders, invoices, or as a separate document with no links to any documents.
+- Documents are created in advance of invoices templates (document groups) with predefined accounting and number series of related documents.
+- Advance invoice templates define whether or not you are obliged to post VAT.
+- Advance invoices can be created from purchase orders, invoices, or as a separate document with no links to any documents.
 - Free advances can be additionally linked with documents before posting the final invoice.
 
-## Life cycle of Advance invoice
+## Life Cycle of Advance invoice
 
-Advance invoice has its own life cycle, which is defined by states:
+An advance invoice has its own life cycle, which is defined by states:
 - **Open** - an advance invoice can be edited.
 - **Prepayment** - payment of advance invoice is expected.
 - **Invoice preparation** - a tax receipt for the received/issued payment is expected.
@@ -34,25 +35,25 @@ Advance invoice has its own life cycle, which is defined by states:
 
 ## Advance Payments
 
-- The payment made against an Advance Invoice.
+- The payment made against an advance invoice.
 - Proportional advance payments with regard to posting and billing, in journals and banknotes.
 - Received advance payments are not receivables, they are liabilities.
 - Issued advance payments are not payables (liabilities), they are receivables.
-- Advance payments may be subject to VAT. Czech legislation lays down rules for the advanced payments whether or not they are subject to VAT.
+- Advance payments may be subject to VAT. Czech legislation lays down rules for whether the advance payments are subject to VAT.
 - Received advance payments are classified based on the date of receipt.
 - Issued advance payments are classified based on the date of tax documents receipt.
 - Any unspent part of advance payments can be returned.
 - Posting payment for a payment can be made on the basis of an advance invoice.
 - Posted invoice with a link to advance invoice can be disconnected.
-- The Advance Invoice can be paid by multiple payments.
-- Received advanced invoices are posted as liabilities.
+- The advance invoice can be paid by multiple payments.
+- Received advance invoices are posted as liabilities.
 - Advance payments in foreign currency based on agreed data.
 
 ## Tax Documents (Tax Credit Memo)
 
 - Documents specifying the paid VAT from received advance payments.
 - It is not possible to claim VAT from advance payments without receiving tax documents issued for advance payments.
-- VAT Calculation improvements comply with the legislation of the Czech Republic.
+- VAT calculation improvements comply with the legislation of the Czech Republic.
 - Documents are declaring the VAT paid on the advance payments received/issued.
 - Tax documents/tax credits are created in relation to the advance invoice to which the payment was made.
 - The module includes functions for automatically generating tax documents when posting an advance payment.
@@ -64,7 +65,7 @@ Advance invoice has its own life cycle, which is defined by states:
 
 ## Deduction of Advance
 
-- Deduction of Advance payments and already paid or claimed VAT from final invoices.
+- Deduction of advance payments and already paid or claimed VAT from final invoices.
 - Deduction is done when posting final invoice proportionally.
 - The module offers a tool for linking advance invoices with the final document.
 - It is possible to change/supplement/cancel the linking of the advance invoice with the final document before it is posted.
@@ -82,7 +83,7 @@ The tool provides a choice of different ways to link the lines of the final docu
 - Linking by amounts remaining or billing the final document.
 - Linking based on VAT rates.
 
-## Factboxes - Customer/Vendor Statistics
+## FactBoxes - Customer/Vendor Statistics
 
 The customer and vendor card statistical information windows were supplemented with information about advances:
 - Invoiced Amount of Advance
@@ -93,7 +94,7 @@ The customer and vendor card statistical information windows were supplemented w
 
 ## Internal and Output Documents Printout
 
-There was created set of documents that takes into account Czech legislation and practices.
+A set of documents are created that take into account Czech legislation and practices.
 
 Output Documents:
 - Advance Invoice
@@ -109,4 +110,4 @@ Internal Documents:
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)
+[Finance](../finance.md)

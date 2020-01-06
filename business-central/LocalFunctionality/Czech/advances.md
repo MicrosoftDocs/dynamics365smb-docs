@@ -110,4 +110,4 @@ Internal Documents:
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../finance.md)
+[Finance](finance.md)

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 01/06/2020
 ms.author: bholtorf
 
 ---
@@ -39,9 +39,6 @@ The help articles display in the language you have specified in **My Settings**,
 
 ### Why don't I see a bookmark icon for my search results?
 The bookmark icon is not displayed in the Tell Me window when personalization is disabled for a user role.
-
-### Is the bookmark icon available for reports?
-No. You can only bookmark a link to a page or any search results that are displayed in the **Pages and Tasks** section of the Tell Me window.
 
 
 ## See Also  

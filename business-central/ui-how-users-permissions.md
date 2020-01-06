@@ -81,6 +81,40 @@ If you change the user in Office 365 afterwards, and you need to synchronize the
 |Synchronize user plans (licenses) with licenses and roles assigned in Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from [administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|
 
+## The device license 
+With the Dynamics 365 Business Central Device license, multiple users can use a device that is licensed with a Dynamics 365 Business Central Device license to operate a point of sale device, shop floor device, or warehouse device. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+
+That is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called *Dynamics 365 Business Central Device Users* can log in concurrently. 
+
+Your company's Office 365 administrator or Microsoft partner should create the designated device group and add device users as members of that group. They can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com/) or in [Azure Portal](https://portal.azure.com/). 
+
+### Create a *Dynamics 365 Business Central Device Users* group 
+1.	In the [Microsoft 365 Admin Center](https://admin.microsoft.com/), go to the **Groups > Groups** page.
+2.	Select **Add a group**.
+3.	On the **Choose a group type** page, select *Security*, and select **Add**.
+4.	On the **Basics** page, type *Dynamics 365 Business Central Device Users* as the name of the group. Select **Close**.
+    The name of this group must be spelled exactly as here to work. This also goes for non-English setup. 
+
+> [!NOTE]
+> You can also create group of type Office 365. For more information, see [Compare Groups](https://docs.microsoft.com/office365/admin/create-groups/compare-groups) 
+
+### Add members to the group
+1.	In the [Microsoft 365 Admin Center](https://admin.microsoft.com/), refresh the **Groups** page so your new group appears, select the *Dynamics 365 Business Central Device Users* group.
+2.	On the **Members** tab, select **View all and manage members**.
+3.	Select **Add members**.
+4.	Select the users you want to add, and then select **Save**.
+5.	Select **Close** three times.
+
+You can add as many users to the *Dynamics 365 Business Central Device Users* group as you need. The number of device users that can log in simultaneously is defined by number of purchased device licenses. 
+
+> [!NOTE]
+> You don’t need to assign Business Central license to users that are members of Dynamics 365 Business Central Device Users group.
+
+### Restricted access to [!INCLUDE[d365fin](includes/d365fin_md.md)] as Device user
+The following tasks are not available to the device:
+-	Set up jobs to run as scheduled tasks in the job queue. Device users cannot schedule tasks because they are concurrent users and, therefore, we cannot ensure that the user is present in the system when the task executes, which is a must.
+-	A device user cannot be the first user to log in. [Administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration), Full User, or External Accountant must be the first to log in so they can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up.
+
 ## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

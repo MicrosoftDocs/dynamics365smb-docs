@@ -92,6 +92,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## See Also
 
 [Getting Started](product-get-started.md)  
+[Extending Your Trial Version](admin-extend-trial.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  

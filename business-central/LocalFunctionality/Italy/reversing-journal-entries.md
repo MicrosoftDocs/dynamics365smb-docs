@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 12/16/2019
     ms.author: sgroespe
 
 ---
@@ -23,4 +23,5 @@ Controls have been added to the **Reverse Transaction Entries** page to comply w
 - You cannot reverse sales, purchase, or service headers for reserved documents.  
 
 ## See Also  
-  [Italy Local Functionality](italy-local-functionality.md)
+  [Italy Local Functionality](italy-local-functionality.md)  
+  [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)

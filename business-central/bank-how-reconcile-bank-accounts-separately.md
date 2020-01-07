@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 12/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
 
 ---
@@ -28,7 +28,7 @@ The following describes how to perform bank reconciliation with the **Bank Acc. 
 
 The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the internal bank account.
 
-The activity of reconciling bank transactions with internal bank entries is referred to as *matching*. You can choose to perform matching automatically by using the **Match Automatically** function. Alternatively, you can manually select lines in both panes to link each bank statement line to one or more related bank account ledger entries, and then use the **Match Manually** function. The **Applied** checkbox is selected on lines where entries match.
+The activity of reconciling bank transactions with internal bank entries is referred to as *matching*. You can choose to perform matching automatically by using the **Match Automatically** function. Alternatively, you can manually select lines in both panes to link each bank statement line to one or more related bank account ledger entries, and then use the **Match Manually** function. The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md).
 
 > [!NOTE]  
 > If bank statement lines relate to check ledger entries, you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant check ledger entry to match the bank statement line with.
@@ -107,10 +107,9 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 5. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
-## [Get Training!](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/) 
-
 ## See Also
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
+[Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,12 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 12/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
 
 ---
 # Set Up Rules for Automatic Application of Payments
-On the **Payment Application Rules** page, you set up rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page.
+On the **Payment Application Rules** page, you set up rules to govern how payment text (on a bank transaction) is automatically matched with text on open entries in the following two processes:
+- Automatically apply payments to their related open (unpaid) invoices, credit memos, or other entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+
+- Automatically match bank transactions with their related, internal bank account ledger entries when you choose the **Match Automatically** action on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 You set up new payment application rules by choosing which types of data on a payment reconciliation journal line must match with data on one or more open entries before the related payment is automatically applied to the open entries. The quality of each automatic application is shown as a value of **Low** to **High** in the **Match Confidence** field on the **Payment Reconciliation Journal** page according to the payment application rule that was used.
 

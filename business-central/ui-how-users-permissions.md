@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
 
 ---
@@ -80,6 +80,45 @@ If you change the user in Office 365 afterwards, and you need to synchronize the
 |Update the user record based on actual information in Office 365: State, Full Name, Contact Email, Authentication Email.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synchronize user plans (licenses) with licenses and roles assigned in Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Add the user to user groups according to the current user plans. Revoke SUPER permission set. (At least one SUPER is needed. Do not revoke from [administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overwrite: Remove the user from other groups. Remove manually assigned permission sets.|**X**<br /><br />Additive: Keep the current membership in  the user group and assigned permission sets intact. Only add user to groups if needed.|
+
+## The Device License
+With the Dynamics 365 Business Central Device license, multiple users can use a device that is licensed with the Device license to operate a point of sale device, shop floor device, or warehouse device. For more information, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+
+The Device license is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called Dynamics 365 Business Central Device Users* can log in concurrently.
+
+Your company's Office 365 administrator or Microsoft partner should create the designated device group and add device users as members of that group. They can do this in the [Microsoft 365 Admin Center](https://admin.microsoft.com/) or on the [Azure Portal](https://portal.azure.com/).
+
+### Device User Limitations
+Users with the Device license cannot perform the following tasks in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-	Set up jobs to run as scheduled tasks in the job queue. Device users are concurrent users and, therefore, we cannot ensure that the involved user is present in the system when a task is executed, which is required.
+
+-	A device user cannot be the first user to log in. A user of type Administrator, Full User, or External Accountant must be the first to log in so they can set [!INCLUDE[d365fin](includes/d365fin_md.md)] up. For more information, see [Administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+### To create a Dynamics 365 Business Central Device Users group
+1.	In the Microsoft 365 Admin Center, go to the **Groups** page.
+2.	Choose the **Add a group** action.
+3.	On the **Choose a group type** page, choose the **Security** action, and then choose the **Add** action.
+4.	On the **Basics** page, type *Dynamics 365 Business Central Device Users* as the name of the group.
+
+    > [!Note]
+    > The name of the group must be spelled exactly as above, also in a non-English setup.
+5. Choose the **Close** button.
+
+> [!NOTE]
+> You can also create a group of type Office 365. For more information, see [Compare Groups](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+
+### To add members to the group
+1.	In the Microsoft 365 Admin Center, refresh the **Groups** page so your new group appears.
+2.  Select the **Dynamics 365 Business Central Device Users** group, and then choose the **View all and manage members** action.
+3.	Choose the **Add members** action.
+4.	Select the users that you want to add, and then choose the **Save** button.
+5.	Choose the **Close** button three times.
+
+You can add as many users to the Dynamics 365 Business Central Device Users group as you need. The number of devices that users can log in to simultaneously is defined by the number of purchased device licenses.
+
+> [!NOTE]
+> You do not need to assign a [!INCLUDE[d365fin](includes/d365fin_md.md)] license to users that are members of the Dynamics 365 Business Central Device Users group.
 
 ## Managing Users and Licenses in On-premises Deployments
 For on-premises deployments, a number of licensed users is specified in the license file (.flf). When the administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].

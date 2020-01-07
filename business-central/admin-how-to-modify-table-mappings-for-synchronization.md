@@ -33,45 +33,9 @@ Mapping tables is only the first step. You must also map the fields on the table
 > [!Note]
 > If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], Integration field mappings are defined in table 5336 Integration Field Mapping.
 
-### Transformation Rules
+### Handling Differences in Field Values
 Sometimes the values in the fields that you want to map are different. For example, in [!INCLUDE[crm_md](includes/crm_md.md)] the language code for the United States is "U.S.,"
-but in [!INCLUDE[d365fin](includes/d365fin_md.md)] it's "US." That means you must transform the value when you synchronize data. This happens through transformation rules that you define for the fields. 
-
-You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
-
-|Option|Description|
-|---------|---------|
-|Uppercase|Capitalize all letters.|
-|Lowercase|Make all letters lowercase.|
-|Title Case|Capitalize the first letter of each word.|
-|Trim|Remove empty spaces before and after the value.|
-|Substring|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
-|Replace|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
-|Regular Expression - Replace|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
-|Remove Non-Alphanumeric Characters|Delete characters that are not letters or numbers, such as symbols or special characters.|
-|Date Formatting|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|
-|Decimal Formatting|Define rules for decimal placement and rounding precision.|
-|Regular Expression - Match|Use a regular expression to find one or more values. This is similar to the **Substring** and **Regular Expression - Replace** options.|
-|Custom|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](admin-how-to-modify-table-mappings-for-synchronization.md#example-of-the-custom-option) below.|
-|Date and Time Formatting|Define how to display the current date as well as the time of day.|
-
-#### Example of the Custom Option
-The following example shows how to implement your own transformation code.
-
-```
-codeunit 60100 "Hello World"
-{
-    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
-    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
-    begin
-        if TransformationCode = 'CUST' then
-            OutputText := InputText + ' testing';
-    end;
-}
-```
-After you define your rules you can test them. In the **Test** section, enter an example of a value that you want to transform, and then check the results. 
-
-<!--the help mapping looks broken on the Transformaiton Rule Card. Need to fix the tooltips too-->
+but in [!INCLUDE[d365fin](includes/d365fin_md.md)] it's "US." That means you must transform the value when you synchronize data. This happens through transformation rules that you define for the fields. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions#transformation-rules).
 
 ## Coupling Records
 Coupling links records in [!INCLUDE[crm_md](includes/crm_md.md)] to records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, accounts in [!INCLUDE[crm_md](includes/crm_md.md)] are typically coupled with customers in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Coupling records offers the following benefits:

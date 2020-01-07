@@ -139,7 +139,7 @@ but in the other it's "US." That means you must transform the value when you exc
 The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### Transformation Rules
-If the values in the fields you are mapping differ, you must use transformation rules to make them the same. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
+If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
 |Option|Description|
 |---------|---------|

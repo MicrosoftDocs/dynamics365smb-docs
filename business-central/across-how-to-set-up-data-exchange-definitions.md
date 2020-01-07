@@ -139,23 +139,23 @@ but in the other it's "US." That means you must transform the value when you exc
 The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### Transformation Rules
-You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
+If the values in the fields you are mapping differ, you must use transformation rules to make them the same. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
 |Option|Description|
 |---------|---------|
-|Uppercase|Capitalize all letters.|
-|Lowercase|Make all letters lowercase.|
-|Title Case|Capitalize the first letter of each word.|
-|Trim|Remove empty spaces before and after the value.|
-|Substring|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
-|Replace|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
-|Regular Expression - Replace|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
-|Remove Non-Alphanumeric Characters|Delete characters that are not letters or numbers, such as symbols or special characters.|
-|Date Formatting|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|
-|Decimal Formatting|Define rules for decimal placement and rounding precision.|
-|Regular Expression - Match|Use a regular expression to find one or more values. This is similar to the **Substring** and **Regular Expression - Replace** options.|
-|Custom|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](admin-how-to-modify-table-mappings-for-synchronization.md#example-of-the-custom-option) below.|
-|Date and Time Formatting|Define how to display the current date as well as the time of day.|
+|**Uppercase**|Capitalize all letters.|
+|**Lowercase**|Make all letters lowercase.|
+|**Title Case**|Capitalize the first letter of each word.|
+|**Trim**|Remove empty spaces before and after the value.|
+|**Substring**|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
+|**Replace**|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
+|**Regular Expression - Replace**|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
+|**Remove Non-Alphanumeric Characters**|Delete characters that are not letters or numbers, such as symbols or special characters.|
+|**Date Formatting**|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|
+|**Decimal Formatting**|Define rules for decimal placement and rounding precision.|
+|**Regular Expression - Match**|Use a regular expression to find one or more values. This is similar to the **Substring** and **Regular Expression - Replace** options.|
+|**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](across-how-to-set-up-data-exchange-definitions.md#example-of-the-custom-option) below.|
+|**Date and Time Formatting**|Define how to display the current date as well as the time of day.|
 
 #### Example of the Custom Option
 The following example shows how to implement your own transformation code.

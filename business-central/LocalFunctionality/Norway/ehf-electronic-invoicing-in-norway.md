@@ -53,7 +53,7 @@ VAT percentages and the type of transaction determine the VAT Type that is expor
 |K|VAT exempt for EEA intra-community supply of goods and services|
 
 ## VAT Scheme
-Make sure you set up the correct value in the **VAT Scheme** field on the Countries/Regions page.
+Make sure you set up the correct value in the **VAT Scheme** field on the **Countries/Regions** page.
 
 ## See Also  
 [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)

@@ -16,6 +16,7 @@ The following topics describe local functionality that is unique to the Mexican 
 ## Feature Availability  
 
 * Tax
+    * [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
     * [Mexico Sales Tax](mexico-sales-tax.md) **Available Now**
     * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**
     * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**

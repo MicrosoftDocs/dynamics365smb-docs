@@ -101,7 +101,7 @@ At some point, you might want to undo some or all of the personalization changes
 
 |Option|What it does|
 |------|------------
-|**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. This includes any bookmarks that were added, and any changes to links and groups in the menu.|  
+|**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. This includes any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
 |**Only Actions**|Clears any personalization changes that you have ever made on the action bar on the page.|
 |**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|

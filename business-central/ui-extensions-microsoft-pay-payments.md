@@ -22,9 +22,9 @@ ms.author: sgroespe
 > From the 8th of January, we will display a notification in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The notification will contain a link to the settings that you need to change and to more information. After the February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
 >
 > The changes impact the following versions of Business Central:
-- Microsoft Dynamics 365 Business Central October 2018
-- Microsoft Dynamics 365 Business Central April 2019
-- Microsoft Dynamics 365 Business Central 2019 Release Wave 2
+> - Microsoft Dynamics 365 Business Central October 2018
+> - Microsoft Dynamics 365 Business Central April 2019
+> - Microsoft Dynamics 365 Business Central 2019 Release Wave 2
 
 Customers continuously require higher customer service, both in terms of the quality of product but also in terms of delivery and payment services. The Microsoft Pay service helps you increase your customer service.
 

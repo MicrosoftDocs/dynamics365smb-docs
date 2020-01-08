@@ -45,4 +45,4 @@ The bookmark icon is not displayed in the Tell Me window when personalization is
 [Save and Personalize List Views](ui-views.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
-[Add links to pages or reports on the Role Center](ui-bookmarks.md)
+[Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)

@@ -17,9 +17,9 @@ ms.author: sgroespe
 # The Microsoft Pay Extension
 
 > [!IMPORTANT]
-> Effective on February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
+> Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
 >
-> From the 8th of January, we will display a notification in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The notification will contain a link to the settings that you need to change and to more information. After the February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> From the 8th of January, we will display a notification in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The notification will contain a link to the settings that you need to change and to more information. After February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
 >
 > The changes impact the following versions of Business Central:
 > - Microsoft Dynamics 365 Business Central October 2018

@@ -12,6 +12,7 @@
 ## Trials and Subscriptions
 ### [Overview](across-preview.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Find Training
 ### [Learning Catalog](readiness/readiness-learning-catalog.md)
@@ -369,7 +370,7 @@
 ### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
@@ -925,10 +926,29 @@
 
 ## Czech Republic
 ### [Overview](LocalFunctionality/Czech/czech-local-functionality.md)
+### Core Finance  
+#### [Finance](LocalFunctionality/Czech/finance.md)
+#### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
+#### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ### VAT
+#### [Finance - VAT](LocalFunctionality/Czech/finance-vat.md)
 #### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
-### Banking & Payments
+### Fixed Assets
+#### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
+### Banking and Payments
+#### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
+#### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### [Advances](LocalFunctionality/Czech/advances.md)
+### Payables and Receivables
+#### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Inventory
+#### [Inventory](LocalFunctionality/Czech/inventory.md)
+### General
+#### [Extended User Control](LocalFunctionality/Czech/general.md)
+#### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 
 ## Denmark
 ### [Overview](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1093,6 +1113,7 @@
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Tax
+#### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)

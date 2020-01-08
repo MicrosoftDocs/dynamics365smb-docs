@@ -26,5 +26,8 @@ Apps often use data from more than one source. By combining data in a common sto
 ## Standard and Custom Entities
 You can use the standard entities that Common Data Service provides, or build your own, or both. The standard entities are designed to cover typical business concepts and scenarios based on best practices.
 
+## See Also
+[Walkthrough: Customizing an Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md)
+
 
 

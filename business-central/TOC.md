@@ -367,15 +367,16 @@
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Set Up a Dynamics 365 Sales Connection](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
-### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Common Data Service
 ### [Overview](admin-common-data-service.md)
+### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up a Connection to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)
+### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
+### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md)
 
 # Finance
 ## [Overview](finance.md)

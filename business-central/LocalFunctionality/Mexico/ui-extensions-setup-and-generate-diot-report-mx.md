@@ -9,47 +9,63 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 10/29/2019
+ms.date: 01/08/2020
 ms.author: soalex
 
 ---
 
-# Set Up and Generate DIOT reports
+# Set Up and Generate DIOT Reports
 
-As a company in Mexico you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by generating a file that can be uploaded to SAT. This page describes how to set up this feature and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by generating a file that can be uploaded to SAT. This topic describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-## What does this extensions handle?
-This extension provides the following capabilities:
-* Setup of the DIOT related information
+## What Does this Extensions Handle?
+The extension provides the following capabilities:
+* Setup of the DIOT-related information
 * Vendor settings
-* Export the DIOT report ready to upload to authorities 
+* Export the DIOT report so it can be uploaded to the authorities
 
-## Setup of the Mexican DIOT extension
-Set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. If needed, you can run the guide several times until you finish the setup.
+## Setup of the Mexican DIOT Extension
+You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. If needed, you can run the guide several times until the setup is completed.
 
-1. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Assisted Setup**.  
-2. Choose **Set up DIOT**.
-3. The first page in the setup guide explains what you are about to set up. Choose **Next**.
-4. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation you want to be set on vendors in the system. It is required to have a **Type of Operation** assigned to every entry in the report. There are 3 valid types: **Prof. Services**, **Lease and Rent** and **Others**. You are not allowed to report the  **Lease and Rent** type of operation for a vendor which is not local. All vendors will be updated with the setting chosen here. Choose a **Type of Operation** and then choose **Next**
-5. Now you select **Open Vendor List** to select another **Type of Operation** individually for vendors if you want the setting to be different form what you chose on the previous step. When finished, choose **Next**. If you choose **Open Vendor List** to edit the **Type of Operation** for the individual vendors you will see a special page designed for this, which includes the field **DIOT Type of Operation**. 
-6. On this step you must set up DIOT Concepts, which is a sort of setup of how VAT Entries are collected for the report. Choose **Open DIOT Concepts**.
-7. You will see a list of predefined DIOT concepts that looks like VAT setup. These DIOT Concepts must be linked to VAT Product Posting Groups and VAT Business Posting Groups. It is possible that you do not need to link all of the DIOT Concepts. Investigate each DIOT Concept and decide how these map to your VAT Posting Setup.
-8. Adding a link to a DIOT Concept is done by clicking the number in the **VAT Link Count** field. Note, that not all DIOT Concepts must be linked. DIOT Concepts with **Column Type** "None" exist for legacy reasons and cannot be linked. For records where the **VAT Link Count** you should investigate if you have VAT entries that fall under this DIOT Concept and add the corresponding link. DIOT records where the **VAT Link Count** indicates that links are already created or does not have to be created. When done, chosse **Next**.
-9. The setup of DIOT is now finished. Choose **Finish**.
+1. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+2. Choose the **Set Up DIOT** action.
+3. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
+4. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
 
-## Optional setup for reporting Witholding Tax with the DIOT extension
-The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of Witholding Tax is currently not supported in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To work around this some users create workarounds such as posting extra lines to a predefined General Ledger Account. The DIOT extension supports reporting Witholding Tax data in the following way:
-The **VAT Posting Setup** table has a new field, **DIOT WHT %**. By setting this field to a value other than zero you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
+    Every entry in the report must be assigned a **Type of Operation** value. There are three valid types: **Prof. Services**, **Lease and Rent**, and **Others**. You are not allowed to report the **Lease and Rent** type of operation for a vendor that is not local. All vendors will be updated with the setting chosen here.
 
-For example, if you have transactions that are supposed to be 10% VAT and 5% Witholding Tax, use a posting setup where **VAT %** is *10* and **DIOT WHT %** is *5*.  
+5. Choose a value in the **Type of Operation** field, and then choose the **Next** button.
+6. Choose the **Open Vendor List** action to select another **Type of Operation** value individually for vendors if you want the setting to be different from what you chose in the previous step.
 
-This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you will need to continue the existing workaround you may have for calculating witholding tax, regardless of setting up the DIOT Report extension.
+    A special page opens, which includes the **DIOT Type of Operation** field. Here you must set up DIOT concepts, which is a sort of setup of how VAT entries are collected for the report.
+7. Choose the **Open DIOT Concepts** action.
+
+    You will see a list of predefined DIOT concepts that look like VAT setup. These DIOT concepts must be linked to VAT product posting groups and VAT business posting groups. You may not have to link all of the DIOT concepts. Investigate each DIOT concept and decide how these map to your VAT posting setup.
+
+    Adding a link to a DIOT concept is done by clicking the number in the **VAT Link Count** field. Note, that not all DIOT concepts must be linked. DIOT concepts with **None** in the **Column Type** field exist for legacy reasons and cannot be linked. For records where the **VAT Link Count** field is not filled in, you should investigate if you have VAT entries that fall under this DIOT concept and add the corresponding link. DIOT records where the **VAT Link Count** field is filled in indicate that links are already created or do not have to be created.
+
+8. Choose the **Next** button.
+
+    The setup of DIOT is now finished.
+9. Choose the **Finish** button.
+
+## Optional Setup for Reporting Witholding Tax with the DIOT Extension
+The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
+
+The **VAT Posting Setup** table has a new field, **DIOT WHT %**. By setting this field to a value other than zero, you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
+
+For example, if you have transactions that are supposed to be 10% VAT and 5% witholding tax, use a posting setup where the **VAT %** field contains *10* and the **DIOT WHT %** field contains *5*.  
+
+This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you must continue the existing workaround that you may have for calculating witholding tax, regardless of setting up the DIOT Report extension.
 
 ### To create an export of DIOT report files  
-1. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose **Create DIOT Report**.  
-2. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields representing the period for which you wish to report.
-3. Choose **OK**. You may get an error regarding **RFC No.** which needs to be set up on local vendors. To set this up fill the **RFC No.** field found on the **Payments** tab on the **Vendor** card.
-4. ONce the report runs without errors you will be prompted to save the file **Diot.txt**, which you can then send to authorities.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
+2. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields to represent the period for which you wish to report.
+3. Choose the **OK** button.
+
+    You may get an error regarding the **RFC No.** field, which needs to be set up on local vendors. To set this up, fill in the **RFC No.** field on the **Payments** tab on the **Vendor Card** page.
+
+When the report runs without errors, you will be prompted to save the file **Diot.txt**, which you can then send to authorities.
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  

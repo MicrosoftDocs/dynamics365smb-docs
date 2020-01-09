@@ -41,6 +41,7 @@ The following topics describe local functionality that is unique to the United K
     * [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md) **Available Now**
 
 ## See Also
+[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

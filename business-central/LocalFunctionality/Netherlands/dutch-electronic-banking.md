@@ -41,9 +41,6 @@ Electronic bank statement files are supported for the following banks:
 - Rabobank \(MUT.ASC, VVMUT.ASC, BBV and ASCII\)  
 - Postbank \(SWIFT MT940\)  
 
-### Bank Account Number Validation  
-Bank account numbers are validated by ensuring that they are either 9 or 10 digits long and they pass the “eleven test” algorithm. For giro accounts, the account number must be less than eight digits.  
-
 ## See Also  
 [Telebanking](telebanking.md)   
 [Enter and Post Cash and Bank/Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)     

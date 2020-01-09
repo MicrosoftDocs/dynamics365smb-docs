@@ -107,6 +107,10 @@ This is described in the following procedures.
 >  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.,"
+but in the other it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
 2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.  
 
@@ -134,9 +138,44 @@ This is described in the following procedures.
 
 The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md), [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md), and [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that can be used to quickly enable import of the data file in question. This is described in the following procedure.  
+### Transformation Rules
+If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
-### To export a data exchange definition as an XML file for use by others  
+|Option|Description|
+|---------|---------|
+|**Uppercase**|Capitalize all letters.|
+|**Lowercase**|Make all letters lowercase.|
+|**Title Case**|Capitalize the first letter of each word.|
+|**Trim**|Remove empty spaces before and after the value.|
+|**Substring**|Transform a specific portion of a value. To specify where to start the transformation, choose either a **Start Position** or **Starting Text**. The starting position is a number that represents the first character to transform. The starting text is the letter immediately before the letter to replace. If you want to start with the first letter in the value, use a starting position instead. To specify where to stop the transformation you choose either **Length**, which is the number of characters to replace, or the **Ending Text**, which is the character that is immediately after the last character to transform.|
+|**Replace**|Find a value and replace it with another. This is useful for replacing simple values, such as a particular word.|
+|**Regular Expression - Replace**|Use a regular expression as part of a find and replace operation. This is useful for replacing multiple, or perhaps more complex, values.|
+|**Remove Non-Alphanumeric Characters**|Delete characters that are not letters or numbers, such as symbols or special characters.|
+|**Date Formatting**|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|
+|**Decimal Formatting**|Define rules for decimal placement and rounding precision.|
+|**Regular Expression - Match**|Use a regular expression to find one or more values. This is similar to the **Substring** and **Regular Expression - Replace** options.|
+|**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](across-how-to-set-up-data-exchange-definitions.md#example-of-the-custom-option) below.|
+|**Date and Time Formatting**|Define how to display the current date as well as the time of day.|
+
+#### Tip for Developers: Example of the Custom Option
+The following example shows how to implement your own transformation code.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+After you define your rules you can test them. In the **Test** section, enter an example of a value that you want to transform, and then check the results. 
+
+### To export a data exchange definition as an XML file for use by others
+When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that you can import. This is described in the following procedure.  
+
 1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
 2. Select the data exchange definition that you want to export.  
 3. Choose the **Export Data Exchange Definition** action.  

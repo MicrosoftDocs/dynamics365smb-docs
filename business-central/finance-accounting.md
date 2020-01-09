@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/17/2019
+ms.date: 01/06/2020
 ms.author: edupont
 
 ---
@@ -22,22 +22,25 @@ The Role Center is a dashboard with activity tiles that show you real-time key f
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Center. You can also launch a **Getting Started** tour that points out key areas.  
 
 ## <a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
-If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data.
+If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licencing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant pages for their work.  
 
-<!--We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
+
 > [!Note]  
 > This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).   
 
-![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)
+<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.  -->
+> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent. 
+> 
+> This task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin center. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
 
-### Adding your accountant to your Office 365
+### Adding your accountant to your Office 365 via Azure Portal'
 
-To invite your accountant, you must be an administrator of your Office 365 tenant so that you can access the Azure portal. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure Portal and assign this user the External Accountant license. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### To add your accountant as a guest user
 
@@ -56,7 +59,7 @@ Next, you must assign the new guest user a license to [!INCLUDE [prodshort](incl
 
 #### To give your accountant access to your [!INCLUDE [prodshort](includes/prodshort.md)]
 
-1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**-
+1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**
 2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
 3. Choose **Licenses**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** license.  
@@ -79,14 +82,6 @@ The accountant will receive an email that notifies them that they have been give
 This imports the user account that you created in the Azure portal to the company. For more information, see [To add a user in Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
 
 If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE [prodshort](includes/prodshort.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
-
-### Behind the scenes
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. If your company use an external accountant, you can give access to your [!INCLUDE[d365fin](includes/d365fin_md.md)] by assigning them such a license as described above. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licencing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
-
-If your subscription still has an available license, your administrator or reselling partner can add external user via Azure Portal and assign this user the External Accountant license as described above. For more information, see [Add Azure Active Directory B2B collaboration users in the Azure portal](/azure/active-directory/b2b/add-users-administrator).
-
-You can then invite the accountant from inside [!INCLUDE[d365fin](includes/d365fin_md.md)] as described above. However, because this task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Office 365 admin center. For more information, see [About admin roles](/office365/admin/add-users/about-admin-roles) in the Office 365 admin content.  
 
 ## Accountant Hub
 

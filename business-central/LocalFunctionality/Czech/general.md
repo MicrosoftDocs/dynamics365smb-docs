@@ -6,33 +6,31 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
-ms.date: 12/30/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# General function
+# Extended User Control
 
-## Extended user control
+The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 
-The majority of companies in the Czech Republic request the following improvements to be imple-mented in User Setup and Control. 
-
-This feature in User Setup in combination with new User Setup Lines table allows to set and provide the following control:
-- Assigning user to Employee No.
-- Set Cash Resp. Ctr. Filter for Cash desk operations
-- Check Document Date at posting against work date or system date
-- Check Posting Date at posting against work date or system date
-- Check access to Payment Orders – checks allowed Bank Accounts for payment orders (set in lines)
-- Check access to Bank Statements – checks allowed Bank Accounts for bank statements (set in lines)
-- Check Bank Accounts allowed for posting (set in lines)
-- Check access to Journal Templates – check allowed Journal Templates for all Journal types (set in lines)
-- Check Dimension Values allowed for posting (set in lines)
-- Check Location Code allowed for posting separately for quantity increase and quantity decrease (set in lines)
-- Check Location Code allowed for document release separately for quantity increase and quantity decrease (set in lines)
-- Check usage of Whse. Net Change Templates at posting in Item Journals
-- Allow Posting to Closed Period
-- Allow Complete Job
-- Allow Item Unapply functionality
+New functionality on the **User Setup** page in combination with the new **User Setup Lines** table allows you to set and provide the following control:
+- Assign a user to an employee number.
+- Set the Cash Resp. Ctr. filter for cash desk operations
+- Check document date at posting against work date or system date
+- Check posting date at posting against work date or system date
+- Check access to payment orders – checks allowed bank accounts for payment orders (on lines)
+- Check access to bank statements – checks allowed bank accounts for bank statements (on lines)
+- Check bank accounts allowed for posting (on lines)
+- Check access to journal templates – check allowed journal templates for all journal types (on lines)
+- Check dimension values allowed for posting (on lines)
+- Check location code allowed for posting separately for quantity increase and quantity decrease (on lines)
+- Check location code allowed for document release separately for quantity increase and quantity decrease (on lines)
+- Check usage of warehouse net change templates at posting in item journals
+- Allow posting to closed periods
+- Allow complete job
+- Allow item unapply functionality
 
 
 ## See Also

@@ -6,19 +6,20 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, finance, CZ, closing operations
-ms.date: 05/15/2019
+ms.date: 01/08/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Year closing operations
+# Year Closing Operations
 
 To comply with accounting legislation (Accounting Law 563/1991 §17) at the end of the fiscal year, the following account books must be closed or opened:
+
 - Close Profit and Loss Accounts (Close Income Statement)
 - Close Balance Sheet Accounts (new Close Balance Sheet report)
 - Open Balance Sheet Accounts (new Open Balance Sheet report)
 
-## This feature provides the following changes  
+## Changes Included  
 
 - Close Income Statement – Standard report Close Income Statement improved.
 - Close Balance Sheet – Report Close Balance Sheet added. This report creates lines in General Journal. These lines contain posting to the Closing Balance Sheet account.

@@ -107,7 +107,7 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 5. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
-## See [Related Training] at Microsoft Learn(/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## See Related Training at [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## See Also
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

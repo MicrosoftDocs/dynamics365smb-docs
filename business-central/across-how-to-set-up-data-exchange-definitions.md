@@ -157,7 +157,7 @@ If the values in the fields you are mapping differ, you must use transformation 
 |**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](across-how-to-set-up-data-exchange-definitions.md#example-of-the-custom-option) below.|
 |**Date and Time Formatting**|Define how to display the current date as well as the time of day.|
 
-#### Example of the Custom Option
+#### Tip for Developers: Example of the Custom Option
 The following example shows how to implement your own transformation code.
 
 ```

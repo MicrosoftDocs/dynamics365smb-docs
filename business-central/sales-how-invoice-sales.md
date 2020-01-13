@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -99,6 +99,8 @@ In business environments where the customer pays some time after delivery, accor
 In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales invoice, that is, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. See under step 8. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).  
 
 You can even create directly-paid invoices for non-registered customers by first setting up a "cash customer" card, which you point to on the sales invoice. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).  
+
+## See Related Training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ The item card can be of type **Inventory**, **Service**, and **Non-Inventory** t
 
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 <br><br>  
-  
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## To create a purchase invoice
@@ -75,6 +75,8 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 13. When you receive the purchased items or services, choose **Post**.
 
 The purchase is now reflected in inventory and financial records, and the vendor payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.
+
+## See Related Training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

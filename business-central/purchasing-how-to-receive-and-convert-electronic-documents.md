@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -52,6 +52,8 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports rece
      A purchase invoice will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the information in the electronic document.  
 
      Any validation errors, typically related to wrong or missing master data in [!INCLUDE[d365fin](includes/d365fin_md.md)] will be shown on the **Error Messages** FastTab.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## See Also  
 [Managing Payables](payables-manage-payables.md)  

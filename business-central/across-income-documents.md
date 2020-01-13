@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -39,6 +39,8 @@ The incoming document process can consist of the following main activities:
 | --- | --- |
 | Set up the Incoming Documents feature and set up the OCR service. |[Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Create incoming document records, attach files, use OCR to turn PDF files into electronic documents, convert electronic documents to document records, audit incoming document records from posted sales and purchase documents. |[Processing Incoming Documents](across-process-income-documents.md) |
+
+## See Related Training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

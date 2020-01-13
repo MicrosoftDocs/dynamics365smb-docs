@@ -9,12 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
 
 ---
 
-# Report VAT to a Tax Authority
+# Report VAT to Tax Authorities
 This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region.
 
 You can use the following reports :
@@ -107,6 +107,8 @@ The following table describes the codeunits that you must create for your report
 
 > [!Note]
 > When create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2017** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.
+
+## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## See also
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  

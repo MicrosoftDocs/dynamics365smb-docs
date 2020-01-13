@@ -474,7 +474,7 @@
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Report VAT to the Tax Authorities](finance-how-report-vat.md)
+### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)

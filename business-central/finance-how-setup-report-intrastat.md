@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
 
 ---
@@ -116,6 +116,8 @@ Because you must submit an Intrastat report every month, and you create a new jo
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2. To view the options, choose the **Batch Name** field.  
 3. Choose the journal batches to deleted, and then choose the **Delete** button.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## See Also
 [Financial Management](finance.md)

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
 
 ---
@@ -68,6 +68,8 @@ Verify that the page you want displayed is the first page in your report.
 **Report appears with unwanted gray boarders, is too small or too large**
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

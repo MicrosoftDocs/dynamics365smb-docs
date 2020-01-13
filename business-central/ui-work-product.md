@@ -9,7 +9,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -52,10 +52,11 @@ Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
+## See Related Training at [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+
 ## See Also
 [Getting Started](product-get-started.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

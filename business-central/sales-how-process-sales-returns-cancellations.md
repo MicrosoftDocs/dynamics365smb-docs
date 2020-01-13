@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -210,6 +210,8 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 3.  Choose the **OK** button.  
 
 Alternatively, delete individual sales return orders manually.   
+
+## See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
 ---
 
@@ -24,6 +24,8 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
 You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.
+
+## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## See Also
 [Getting Started](product-get-started.md)  

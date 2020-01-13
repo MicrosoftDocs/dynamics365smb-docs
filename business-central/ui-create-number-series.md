@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -77,6 +77,8 @@ If you have set up more than one number series code for the same kind of basic i
 5. Close the page.
 
 Now when you set up something that requires a number, you can use the relationships you created to select among the related number series.
+
+## See Related Training at [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## See Also
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

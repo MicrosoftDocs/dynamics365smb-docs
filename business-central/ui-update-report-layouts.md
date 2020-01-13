@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/15/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -56,7 +56,9 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
  For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
- After you modify the layout, try to update the layout again.  
+After you modify the layout, try to update the layout again.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  

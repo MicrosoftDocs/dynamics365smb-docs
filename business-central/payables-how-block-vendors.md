@@ -21,8 +21,8 @@ The following table describes the options for blocking vendors.
 
 |Option|Description|  
 |--------------------|------------|  
-|**Blank**|Transactions are allowed for this customer.|
-|**Payment**|New payments cannot be created for this customer.|  
+|**Blank**|Transactions are allowed for this vendor.|
+|**Payment**|New payments cannot be created for this vendor.|  
 |**All**|No transactions are allowed for this vendor.|  
 
 ## To block a vendor  

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -100,6 +100,8 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 5.  Select the relevant linkbase or press Ctrl+N for a new line, select the type of linkbase, and then insert a description.  
 6.  To import the linkbase, choose the **Import** action.  
 7.  Choose the **Yes** button to apply the linkbase to the schema.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## See Also
 [Finance](finance.md)    

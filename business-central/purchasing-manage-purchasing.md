@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/08/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -41,6 +41,8 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn how [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates when you must order an item to receive it on a certain date.|[Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)|
 |Resolve confusion when two or more records exist for the same vendor.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 |Manage your commitment to a vendor to purchase large quantities delivered in several shipments over time.|[Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)|
+
+## See Related Training at [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

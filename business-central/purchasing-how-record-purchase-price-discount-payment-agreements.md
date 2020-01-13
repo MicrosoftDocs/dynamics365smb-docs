@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -116,6 +116,8 @@ The best price is the lowest permissible price with the highest permissible line
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in LCY.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
+
+## See Related Training at [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

@@ -1445,7 +1445,6 @@
 #### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## United States
 ### [Overview](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

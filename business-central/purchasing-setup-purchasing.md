@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -30,6 +30,8 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
+
+## See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

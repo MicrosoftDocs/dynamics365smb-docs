@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -70,6 +70,8 @@ If you are not using warehouse put-away but you are using bins, the put-away of 
 >  If you use the **Post and Print** function, you both post the receipt and print a put-away instruction that shows you where to place the items in storage.  
 >   
 >  If your location uses directed put-away and pick, then the put-away templates are used to calculate the best place to put the items away. This is then printed on the put-away instruction.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

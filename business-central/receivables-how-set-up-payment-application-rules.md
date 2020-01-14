@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 12/17/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -77,6 +77,8 @@ The following table shows which payment application rules are set up in the gene
 | Low              | 3        | Partially             | No                             | No Matches                     |
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
+
+## See Related Training at [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## See Also
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  

@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -153,6 +153,8 @@ The following procedure is based on the **General Journal** page, but applies to
 2. When you are ready to post the journal, choose the **Renumber Document Numbers** action.
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can proceed to post the journal.
+
+## See Related Training at [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## See Also
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  

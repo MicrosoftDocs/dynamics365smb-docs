@@ -38,7 +38,6 @@ The following topics describe local functionality that is unique to the United K
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
     * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
-    * [Print Direct Sales and Purchase Details Reports](how-to-print-direct-sales-and-purchase-details-reports.md) **Available Now**
 
 ## See Also
 [Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)<br>

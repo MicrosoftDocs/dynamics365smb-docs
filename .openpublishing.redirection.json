@@ -561,6 +561,12 @@
             "source_path": "business-central/LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md",
             "redirect_url": "../../receivables-how-block-customers",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/unitedkingdom/how-to-print-direct-sales-and-purchase-details-reports.md",
+            "redirect_url": "united-kingdom-local-functionality",
+            "redirect_document_id": false
         }
+
     ]
 }

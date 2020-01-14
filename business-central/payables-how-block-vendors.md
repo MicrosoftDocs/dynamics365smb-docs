@@ -1,5 +1,5 @@
 ---
-    title: How to Block Sales to Vendors
+    title: How to Block Purchases from to Vendors
     description: You can block vendors from being included in any transactions, or just block new payments to them.
 
     author: bholtorf
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/13/2020
+    ms.date: 01/14/2020
     ms.author: bholtorf
 
 ---

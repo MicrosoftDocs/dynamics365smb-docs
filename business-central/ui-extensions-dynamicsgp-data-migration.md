@@ -1,6 +1,7 @@
 ---
 title: Migrate Data from Dynamics GP with the Data Migration Extension | Microsoft Docs
-description: Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to Business Central .
+description: Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to Business Central. This extension will be avaible until 15.3 releases and then customers wanting to migrate from Dynamics GP will want to use the Cloud Migration wizard instead.  The Cloud Migration extension has more robust functionality and brings more data into Business Central from Dynamics GP.
+
 documentationcenter: ''
 author: edupont04
 

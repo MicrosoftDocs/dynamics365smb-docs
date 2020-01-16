@@ -1,6 +1,6 @@
 ---
 title: Migrate Data from Dynamics GP with the Data Migration Extension | Microsoft Docs
-description: Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to Business Central. This extension will be avaible until 15.3 releases and then customers wanting to migrate from Dynamics GP will want to use the Cloud Migration wizard instead.  The Cloud Migration extension has more robust functionality and brings more data into Business Central from Dynamics GP.
+description: Use the Dynamics GP Data Migration extension to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to Business Central.
 
 documentationcenter: ''
 author: edupont04
@@ -16,7 +16,10 @@ ms.author: edupont
 
 ---
 # The Dynamics GP Data Migration Extension 
-This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. The migration extension works for all supported versions of Microsoft Dyanmics GP. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
+This extension makes it easy to migrate customers, vendors, inventory items, general ledger accounts, open payables and open receivables transactions from Dynamics GP to [!INCLUDE[prodshort](includes/prodshort.md)]. If your business uses Dynamics GP today, you can export the relevant records and then open an assisted setup guide to add the data to [!INCLUDE[prodshort](includes/prodshort.md)]. The migration extension works for all supported versions of Microsoft Dynamics GP. For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  This extension will be deprecated in the 15.3 update. We recommend that users who want to migrate from Dynamics GP start using the **Cloud Migration** wizard instead. The **Cloud Migration** extension has more robust functionality and brings more data into Business Central from Dynamics GP.
 
 ## Exporting Data from Dynamics GP
 You must have exported some or all of your existing customers, vendors, inventory items, and general ledger accounts using data export functionality within Dynamics GP. When selecting the data to export the following types can be selected:

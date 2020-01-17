@@ -22,7 +22,7 @@ ms.author: sgroespe
 ##### Navigate & Select Rows
 |||
 |--|--|
-| Home/End<br />Ctrl+Home/End <br />Ctrl+Up/Down<br />Ctrl+A <br />Ctrl+Space<br />Ctrl/Shift+Click<br />Shift+Up/Down<br />Shift+Page Up/Down<br />Ctrl+Enter| Go to first/last field<br />Go to first/last row<br />Navigate without losing selection<br />Select all<br />Toggle row selection<br /> Add the row/rows to the selection<br />Add row above/below to selection<br />Select visible rows above/below <br />Focus out of the list|
+|Home/End<br />Ctrl+Home/End <br />Ctrl+Up/Down<br />Ctrl+A <br />Ctrl+Space<br />Ctrl/Shift+Click<br />Shift+Up/Down<br />Shift+Page Up/Down<br />Ctrl+Enter|Go to first/last field<br />Go to first/last row<br />Navigate without losing selection<br />Select all<br />Toggle row selection<br /> Add the row/rows to the selection<br />Add row above/below to selection<br />Select visible rows above/below <br />Focus out of the list|
 
 ##### Copy & Paste
 |||
@@ -37,7 +37,7 @@ ms.author: sgroespe
 ##### Quick Entry
 |||
 |--|--|
-|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Go to next Quick Entry field outside a list<br />Go to next/previous Quick Entry field|
+|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Go to next **Quick Entry** field outside a list<br />Go to next/previous Quick Entry field|
 
 
 ##### Report Preview

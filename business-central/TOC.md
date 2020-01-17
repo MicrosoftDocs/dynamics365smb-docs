@@ -370,6 +370,7 @@
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ## Common Data Service
 ### [Overview](admin-common-data-service.md)
+### [Company Concept in Common Data Service](admin-cds-company-concept.md)
 ### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Connection to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)

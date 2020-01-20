@@ -59,7 +59,7 @@ This walkthrough requires the following:
 To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort.md)], you must create a table object in [!INCLUDE[prodshort](includes/prodshort.md)] that is based on the CDS entity, and then import the new table into the [!INCLUDE[prodshort](includes/prodshort.md)] database. For this walkthrough we will create a table object that describes the schema for the **Worker** entity in CDS in the [!INCLUDE[prodshort](includes/prodshort.md)] database. 
 
 > [!NOTE]
-> The table can contain some or all of the fields from the CDS entity. If you intend to write back to CDS, however, you must include all fields in the table. <!--by "write back" do you mean a bi-directional sync?-->  
+> The table can contain some or all of the fields from the CDS entity. However, if you want to set up bi-directional synchronization you must include all fields in the table. <!--by "write back" do you mean a bi-directional sync? I assumed so and changed it.-->  
 
 ### To create the integration table for the worker entity in CDS 
 1.  Create a new AL extension. <!--Link to more information?-->
@@ -77,7 +77,7 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
     -baseid:50001  
     ```
 
-     This starts thee process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. These tables <!--table, or tables?--> are set to the type <!--type of what?--> **CDS**.
+     This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. These tables <!--table, or tables?--> are set to the type <!--type of what?--> **CDS**.
 
 ## Create a Page for Displaying CDS Data  
 For scenarios where we want to view CDS data for a specific entity, we can create a page object that uses the integration table for the CDS entity as its <!--data--> source. For example, we might want to have a list page that displays the current records in a CDS entity <!--such as all workers, maybe?-->. In this walkthrough we will create a list page that uses table 50001 CDS Worker as its <!--data--> source.  

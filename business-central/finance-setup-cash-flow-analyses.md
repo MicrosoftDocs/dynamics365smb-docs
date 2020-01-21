@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
 
 ---
@@ -25,7 +25,7 @@ If you want some help to decide what to do with your cash, have a look at the ch
 
 This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
 <br><br>  
-  
+
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## The Cash Cycle and Income & Expense charts
@@ -89,6 +89,8 @@ You can also create your own predictive web service based on a public model name
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
 6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## See Also
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  

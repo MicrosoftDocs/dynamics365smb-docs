@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -41,6 +41,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Undo a posted assembly order, for example because the order was posted with mistakes that must be corrected.|[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
 |Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
+
+## See Related Training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## See Also  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  

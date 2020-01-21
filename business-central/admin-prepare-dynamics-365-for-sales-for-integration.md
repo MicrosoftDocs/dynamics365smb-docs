@@ -40,6 +40,9 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[crm_
 
 5. Synchronize data between the apps. For more information, see [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md).  
 
+<!--
+The integration solution is no longer installed, correct?
+
 ## About the Business Central Integration Solution
 The solution lets people view information in [!INCLUDE[d365fin](includes/d365fin_md.md)] while they are working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, it can provide insights into customer statistics, allows users to couple and view records in [!INCLUDE[d365fin](includes/d365fin_md.md)] from [!INCLUDE[crm_md](includes/crm_md.md)], and allows people to see whether products are available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -60,10 +63,10 @@ In addition to customizing [!INCLUDE[crm_md](includes/crm_md.md)], the [!INCLUDE
 
 For details about each role, such as the permissions and access levels, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
-At the end of the setup guide, [!INCLUDE[d365fin](includes/d365fin_md.md)] prompts you to couple sales people to users in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in [!INCLUDE[crm_md](includes/crm_md.md)] usually have an owner (user) assigned to them, and if coupling between the user in [!INCLUDE[crm_md](includes/crm_md.md)] and the sales person in [!INCLUDE[d365fin](includes/d365fin_md.md)] does not exist, synchronization will fail. You can also do this later by using the **Couple Salespersons** action on the **Microsoft Dynamics 365 Connection Setup** page.
+At the end of the setup guide, [!INCLUDE[d365fin](includes/d365fin_md.md)] prompts you to couple sales people to users in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in [!INCLUDE[crm_md](includes/crm_md.md)] usually have an owner (user) assigned to them, and if coupling between the user in [!INCLUDE[crm_md](includes/crm_md.md)] and the sales person in [!INCLUDE[d365fin](includes/d365fin_md.md)] does not exist, synchronization will fail. You can also do this later by using the **Couple Salespersons** action on the **Microsoft Dynamics 365 Connection Setup** page. -->
 
 ## See Also  
-[Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Set Up a Connection to Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)  
-[Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
+[Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  
+[Set Up a Connection to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)  
 [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)

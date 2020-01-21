@@ -12,58 +12,45 @@ ms.date: 01/08/2020
 ---
 
 # Walkthrough: Customizing an Integration with Common Data Service
-This walkthrough describes how to customize an integration between [!INCLUDE[prodshort](includes/prodshort.md)] and Common Data Service (CDS). The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[prodshort](includes/prodshort.md)] and campaigns in CDS.  
+This walkthrough describes how to customize an integration between [!INCLUDE[prodshort](includes/prodshort.md)] and Common Data Service (CDS). The walkthrough will guide you through setting up integration of an employee in [!INCLUDE[prodshort](includes/prodshort.md)] and worker in CDS. 
 
 ## About This Walkthrough
-This walkthrough describes <!--how to integrate new and existing extensions with CDS. At a high-level, those process involve--> the following tasks:  
+This walkthrough describes how to integrate new and existing extensions with CDS. At a high-level, those process involve the following tasks:  
 
-- Develop an extension to integrate entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. <!--Should this be listed as a requirement? We don't explain how to develop an extension.-->
+- Develop an AL extension to integrate entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. <!--Add a link to a topic about developing AL extensions. [About Developing Extensions in AL]().-->
 
-    -   Create an integration table object in [!INCLUDE[prodshort](includes/prodshort.md)] for mapping a CDS entity to a [!INCLUDE[prodshort](includes/prodshort.md)] record type \(table\).  <!--is this a record type or a table object?-->
-
-    -   Use a CDS integration table as a <!--data--> source for a page in [!INCLUDE[prodshort](includes/prodshort.md)] that displays <!--data--> from CDS entity records.  
-
+    -   Create an integration table object in [!INCLUDE[prodshort](includes/prodshort.md)] for mapping a CDS entity to a [!INCLUDE[prodshort](includes/prodshort.md)] record type.  
+    -   Use a CDS integration table as a data source for a page in [!INCLUDE[prodshort](includes/prodshort.md)] that displays data from CDS entity records.  
     -   Extend a page in [!INCLUDE[prodshort](includes/prodshort.md)] for coupling and sychronizing entity records in CDS with table records in [!INCLUDE[prodshort](includes/prodshort.md)].  
-
     -   Use events to create an integration table and a field mapping between a table in [!INCLUDE[prodshort](includes/prodshort.md)] table and an integration table for CDS.  
-
 -   Develop an extension to extend an existing integration between entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. 
-
     -   Create a table extension for an existing integration table object.
-      
     -   Use events to add custom integration field mappings for existing integration table mappings.
 
 > [!NOTE]
-> The customization in this walkthrough is done entirely in <!--the online version of--> [!INCLUDE[prodshort](includes/prodshort.md)], and does not describe how to modify your CDS solution, such as adding or modify entities and forms.  
+> The customization in this walkthrough is done entirely in the online version of [!INCLUDE[prodshort](includes/prodshort.md)], and does not describe how to modify your CDS solution, such as adding or modify entities and forms.  
 
 ## Requirements  
 This walkthrough requires the following:  
 
 -   CDS, including the following:  
-
-    -   <!--At least one? And is it just an entity, or do you also need an entity record?-->Worker entity.  
-
-    -   The URL of your CDS Server.  <!--is this called the "CDS Server," or is it "service?"-->
-
-    -   The user name and password of a user account that has full permissions to add and modify entities <!--in CDS? in the note above we said that we don't change anything in CDS.-->.  
-
+    -   A worker entity.  
+    -   The URL of your CDS environment.
+    -   The user name and password of a user account that has full permissions to add and modify entities.  
 -   [!INCLUDE[prodshort](includes/prodshort.md)], including the following:  
-
-    -  Demo data.  <!--Is this just the standard demo data? Should we tell them where to get it, and should we recommend that they use a certain type of company, or maybe a sandbox? -->
-
+    -  The CRONUS International Ltd. demonstration data.  <!--need to tell them where they can get the data -->
     -   CDS integration is enabled, including the default synchronization setup and a working connection between [!INCLUDE[prodshort](includes/prodshort.md)] and CDS. <!--For more information, see []()....  -->
-
     -   Visual Studio Code with the AL Language extension installed. For more information, see [AL Language Extension Configuration](devenv-al-extension-configuration.md). The AL Language extension for Visual Studio is free, and you can download it [here](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).
 
 ## Create an Integration Table in [!INCLUDE[prodshort](includes/prodshort.md)] for the CDS Entity  
 To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort.md)], you must create a table object in [!INCLUDE[prodshort](includes/prodshort.md)] that is based on the CDS entity, and then import the new table into the [!INCLUDE[prodshort](includes/prodshort.md)] database. For this walkthrough we will create a table object that describes the schema for the **Worker** entity in CDS in the [!INCLUDE[prodshort](includes/prodshort.md)] database. 
 
 > [!NOTE]
-> The table can contain some or all of the fields from the CDS entity. However, if you want to set up bi-directional synchronization you must include all fields in the table. <!--by "write back" do you mean a bi-directional sync? I assumed so and changed it.-->  
+> The table can contain some or all of the fields from the CDS entity. However, if you want to set up bi-directional synchronization you must include all fields in the table.  
 
 ### To create the integration table for the worker entity in CDS 
-1.  Create a new AL extension. <!--Link to more information?-->
-2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Is this a new thing?-->
+1.  Create a new AL extension. <!--For more information, see [About Developing Extensions in AL]()-->
+2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Talk to Susanne about this new thing?-->
 
 3.  In PowerShell, run the tool with the following arguments:
 
@@ -77,33 +64,31 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
     -baseid:50001  
     ```
 
-     This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. These tables <!--table, or tables?--> are set to the type <!--type of what?--> **CDS**.
+     This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. This table is set to the table type **CDS**.
 
 ## Create a Page for Displaying CDS Data  
-For scenarios where we want to view CDS data for a specific entity, we can create a page object that uses the integration table for the CDS entity as its <!--data--> source. For example, we might want to have a list page that displays the current records in a CDS entity <!--such as all workers, maybe?-->. In this walkthrough we will create a list page that uses table 50001 CDS Worker as its <!--data--> source.  
+For scenarios where we want to view CDS data for a specific entity, we can create a page object that uses the integration table for the CDS entity as its data source. For example, we might want to have a list page that displays the current records in a CDS entity, such as all workers. In this walkthrough we will create a list page that uses table 50001 CDS Worker as its data source.  
 
 ### To create a list page to display CDS workers  
 1. Create a new page. For more information, see [Pages Overview](devenv-pages-overview.md). 
-2. Specify the **50001 CDS Worker** integration table as the source table. 
-
-<!--this is in the metadata, right? maybe we can show an example? Something like
-
-page <XXXXX> PageName
+2. Name the page **CDS Worker List**, and specify **50001** as the page ID.  
+3. Specify the **50001 CDS Worker** integration table as the source table. For example:
+```
+page 50001 "CDS Worker List"
 {
     PageType = List;
-    SourceTable = TableName;
+    SourceTable = "CDS Worker";
     Editable = true;
     ContextSensitiveHelpPage = 'feature-overview';
     ...
 }
+``` 
 
---> 
+4. Add the fields from the integration table to display on the page. 
 
-3. Add the fields from the integration table to display on the page. <!--how do they do this step?--> 
-4. Name the page **CDS Worker List**, and specify **50001** as the page ID.  <!--should this step be earlier?-->
 
 ## Enable Coupling and Synchorinization between Campaigns in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]
-To connect a [!INCLUDE[prodshort](includes/prodshort.md)] table record with a CDS entity record, you create a coupling. A coupling consists of the primary ID, which is typically a GUID, from a CDS record and the Integration <!--table?--> ID, also often a GUID, from [!INCLUDE[prodshort](includes/prodshort.md)].  
+To connect a [!INCLUDE[prodshort](includes/prodshort.md)] table record with a CDS entity record, you create a coupling. A coupling consists of the primary ID, which is typically a GUID, from a CDS record and the Integration ID, also often a GUID, from [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 1. In codeunit **7204 "CDS Setup Defaults"**, subscribe to the **OnGetCDSTableNo** event, as follows:
 
@@ -261,7 +246,7 @@ To create an integration field mapping, follow these steps:
     > [!TIP]  
     >  If a field in one of the tables does not have a corresponding field in the other table, we can use a constant value.
 
-3. After we publish the extension, we can update the mappings by opening the **CDS Connection Setup** page in [!INCLUDE[prodshort](includes/prodshort.md)] and choosing **Use Default Synchronization Setup**.  <!--It's probably just me, but this sounds a bit suspicious. The default setup won't know about their table and field mappings. Won't it overwrite them?-->
+3. After we publish the extension, we can update the default mappings to include our new integration table mapping by opening the **CDS Connection Setup** page in [!INCLUDE[prodshort](includes/prodshort.md)] and choosing **Use Default Synchronization Setup**.  
 
 Users can now manually synchronize employee records in [!INCLUDE[prodshort](includes/prodshort.md)] with Worker entity records in CDS from the [!INCLUDE[prodshort](includes/prodshort.md)] client.  
 
@@ -278,7 +263,7 @@ Users can now manually synchronize employee records in [!INCLUDE[prodshort](incl
 |Event|Description|  
 |-----------|-----------------|  
 |OnFindUnCoupledDestinationRecord|Occurs when the process tries to synchronize an uncoupled record (new record). Use this event to implement custom resolution algorithms for automatic mapping between records. For example, use this event to automatically map records by fields. For an example, see codeunit **5341 CRM Int. Table. Subscriber**, which includes the event subscriber function **CRMTransactionCurrencyFindUncoupledDestinationRecord**. The event resolves [!INCLUDE[prodshort](includes/prodshort.md)] currency codes with ISO currency codes in CDS.|  
-|OnBeforeApplyRecordTemplate|Occurs before applying configuration templates to new records, and can be used to implement algorithms for determining which configuration template to use.|  <!--What's a configuration template? Is that like templates for items?-->
+|OnBeforeApplyRecordTemplate|Occurs before applying configuration templates to new records, and can be used to implement algorithms for determining which configuration template to use.<!--point to section about templates.-->|  
 |OnAfterApplyRecordTemplate|Occurs after configuration templates are applied to new records, and can be used to change data after configuration templates have been applied.|  
 |OnBeforeTransferRecordFields|Occurs before transferring data in modified fields (which are defined in the Integration Field Mapping table) from the source table to the destination table. It can be used to validate the source or destination before the data is moved.|  
 |OnAfterTransferRecordFields|Occurs after transferring modified field data (which are defined in the Integration Field Mapping table) from the source table to the destination table. It can be used to transfer additional data, validate lookups, and so on. Setting the **AdditionalFieldsWereModified** parameter will cause a destination record modification even though no fields were modified.|  
@@ -286,7 +271,7 @@ Users can now manually synchronize employee records in [!INCLUDE[prodshort](incl
 |OnAfterInsertRecord|Occurs after a new destination record is inserted, and can be used to perform post-insert operations such as updating related data.|  
 |OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate or change data before modification.|  
 |OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post-modify operations such as updating related data.|  
-|OnTransferFieldData|Occurs before an existing destination field value is transferred to a source field, and can be used to perform specific transformations of data when the <!--data--> types of the source and the destination field are different but can be mapped.|  
+|OnTransferFieldData|Occurs before an existing destination field value is transferred to a source field, and can be used to perform specific transformations of data when the data types of the source and the destination field are different but can be mapped.|  
 
 For more information about how to subscribe to events, see [Subscribing to Events](Subscribing-to-Events.md).
 
@@ -309,7 +294,7 @@ Let's explore another scenario. Let's say that we have added a **Shoe Size** fie
     -baseid:60001  
     ```
 
-     The process for creating the table starts. The AL Table Proxy Generator tool finds that an integration table for the **Contact** entity already exists, so it creates a table extension with only new fields, in this case **Shoe Size**. When the process is completed, the output path contains the Worker.al file <!--so this is a new .al file, or an update to the earlier one?--> with the description of the integration table **50001 CDS Worker**. These tables are set to the type **CDS**.
+     <!--New para needed. The process for creating the table starts. The AL Table Proxy Generator tool finds that an integration table for the **Contact** entity already exists, so it creates a table extension with only new fields, in this case **Shoe Size**. When the process is completed, the output path contains the Worker.al file <!--so this is a new .al file, or an update to the earlier one? with the description of the integration table **50001 CDS Worker**. These tables are set to the type **CDS**.-->
 
 ## Extend the Contact Table and Page with the Shoe Size Field
 To synchronize the **Shoe Size** field we need to add the field in [!INCLUDE[prodshort](includes/prodshort.md)]. The following code example extends **table 5050 "Contact"** and **page 5050 "Contact Card"** with new the field.

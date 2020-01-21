@@ -368,6 +368,7 @@
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
+### Integration with Sales or Common Data Service, or Both
 ## Common Data Service
 ### [Overview](admin-common-data-service.md)
 ### [Company Concept in Common Data Service](admin-cds-company-concept.md)

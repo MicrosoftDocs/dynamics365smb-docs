@@ -15,7 +15,7 @@
 ---
 
 # View the Status of Synchronization Jobs
-Use the **Coupled Data Synchronization Errors** page to view the status of synchronization jobs that have been run for coupled records in a [!INCLUDE[crm_md](includes/crm_md.md)] integration. This includes jobs that were run from the job queue and manual synchronization jobs that ran on records from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, viewing their status is helpful when troubleshooting because it gives you access to details about errors related to coupled records. Typically, these types of errors are caused by user actions, for example, when:  
+Use the **Coupled Data Synchronization Errors** page to view the status of synchronization jobs that have been run for coupled records in a Common Data Service integration. This includes jobs that were run from the job queue and manual synchronization jobs that ran on records from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, viewing their status is helpful when troubleshooting because it gives you access to details about errors related to coupled records. Typically, these types of errors are caused by user actions, for example, when:  
 
 * Two people made a change to the same record in both business apps.
 * Someone deleted a record in one of the apps, but not both.
@@ -37,7 +37,7 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 |**Restore Records** and **Delete Records**|These are useful when a record was deleted in one of the apps. Delete Records deletes the record in the app where it still exists. Restore recreates the record in the app where it was deleted.|
 
 ## To view the synchronization log for a specific (manually synchronized) record
-1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service.
 2. Choose the **Synchronization Log** action to view the synchronization log for a selected record. For example, a specific customer you synchronized manually.
 
 ## See Also  

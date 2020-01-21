@@ -14,8 +14,8 @@
 
 
 ---
-# Set Up a Connection to Dynamics 365 Sales
-This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)].
+# Set Up a Connection to Common Data Service
+This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service.
 <br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
@@ -23,28 +23,29 @@ This topic describes how to set up a connection between [!INCLUDE[d365fin](inclu
 ## Before You Start
 Before you create the connection, there are a few pieces of information to have ready:  
 
-* A URL for your [!INCLUDE[crm_md](includes/crm_md.md)] app. A fast way to get the URL is to open [!INCLUDE[crm_md](includes/crm_md.md)], copy the URL, and then paste it in the **Dynamics 365 Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
+* A URL for your Common Data Service environment. A fast way to get the URL is to open Common Data Service, copy the URL, and then paste it in the **Dynamics 365 Sales URL** field in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] will correct the formatting for you.  
 * A user name and password of a user account that is used only for the integration.  
 * The user name and password of the account that has administrator permissions.  
 
 > [!Note]
 > These steps describe the procedure for the online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## Set Up, Test, and Enable a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]  
+## Set Up, Test, and Enable a Connection to Common Data Service  
 For all authentication types other than Office 365 authentication, you set up your connection to Dynamics 365 Sales on the **Microsoft Dynamics 365 Sales Connection Setup** page. For Office 365 authentication, you can also use the **Set Up Dynamics 365 Sales Connection** assisted setup guide, which will help you provide the required information.
 
-### To use an assisted setup guide
+<!-- Need to point this procedure to the new guide, and copy this to the content for Sale-->
+### To use an assisted setup guide 
 The **Set Up Dynamics 365 Sales Connection** assisted setup guide can help you set up the connection and specify whether to enable advanced features, such as coupling between records.
 
 1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.
 2. Choose **Set Up Dynamics 365 Sales Connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
-4. Optionally, there are advanced settings that can enhance security and enable [!INCLUDE[crm_md](includes/crm_md.md)] additional capabilities, such as sales order processing and viewing inventory levels. The following table describes the advanced settings.  
+4. Optionally, there are advanced settings that can enhance security and enable Common Data Service additional capabilities, such as sales order processing and viewing inventory levels. The following table describes the advanced settings.  
 
 |Field|Description|
 |-----|-----|
-|**Import Dynamics 365 Sales Solution**|Enable this to install and configure the integration solution in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
-|**Publish Item Availability Web Service**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This requires that the [!INCLUDE[d365fin](includes/d365fin_md.md)] user account with a web services access key. Assigning the key is a two-step process. On the user account in [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose the **Change Web Service Key** action. In the Set Up Dynamics 365 Sales Connection assisted setup guide, you must specify the Dynamics 365 Business Central OData web service URL, and provide [!INCLUDE[d365fin](includes/d365fin_md.md)] user credentials for accessing the service. For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
+|**Import Dynamics 365 Sales Solution**|Enable this to install and configure the integration solution in Common Data Service. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
+|**Publish Item Availability Web Service**|Enable people who are using Common Data Service to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This requires that the [!INCLUDE[d365fin](includes/d365fin_md.md)] user account with a web services access key. Assigning the key is a two-step process. On the user account in [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose the **Change Web Service Key** action. In the Set Up Dynamics 365 Sales Connection assisted setup guide, you must specify the Dynamics 365 Business Central OData web service URL, and provide [!INCLUDE[d365fin](includes/d365fin_md.md)] user credentials for accessing the service. For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you.|
 |**Dynamics 365 Business Central OData Web Service Username**|The name of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to retrieve information about item availability in [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web Service.|
 |**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web Service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
@@ -53,7 +54,7 @@ The **Set Up Dynamics 365 Sales Connection** assisted setup guide can help you s
 |**Dynamics 365 SDK Version**|This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
-> **Set Up Dynamics 365 Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the user account used for integration.
+> **Set Up Dynamics 365 Sales Connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the user account used for integration.-->
 
 ### To create or maintain the connection manually
 The following procedure describes how to fill in the fields on the **Microsoft Dynamics 365 Sales Connection Setup** page manually. This is also the page where you manage settings for the integration.

@@ -35,12 +35,12 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which repo
 
 ### To set up reports for Intrastat  
 > [!NOTE]
-> Intrastat reports can use either the XML or ASCII formats. Depending on the format you use, enter the material number in one of the following fields on the **Company Information** page. 
-
-|Format|Fields|
-|---------|---------|
-|XML|Company No.|
-|ASCII|Sales Material No., Purchase Material No.|
+> Intrastat reports can use either the XML or ASCII formats. Depending on the format you use, enter the material number in one of the following fields on the **Company  Information** page.  
+> 
+> |Format|Fields|
+> |---------|---------|
+> |XML|Company No.|
+> |ASCII|Sales Material No., Purchase Material No.|
 
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Selection**, and then choose the related link.  
 

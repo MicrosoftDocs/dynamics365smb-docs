@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
 
 ---
@@ -212,7 +212,10 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
-4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.  
+4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.
+
+    > [!NOTE]
+    > Although they are listed, selecting **Payment** and **Credit Memo** as **Document Type** filters will not have any effect because the **Suggest Finance Charge Memo Lines** function only handles positive amounts.
 5.  Choose the **OK** button to start the batch job.  
 
 ## To update finance charge memo texts  

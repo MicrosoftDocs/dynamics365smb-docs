@@ -71,7 +71,7 @@ If the description of the item on the original sales order is long, an additiona
 Updates to sales order header fields, such as Last Shipment Date or Requested Delivery Date, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodical synchronization based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Conned to Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodical synchronization based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Connect to Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

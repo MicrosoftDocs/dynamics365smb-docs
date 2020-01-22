@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
 
 ---
@@ -28,6 +28,9 @@ In addition to the original posted sales invoice, you can apply the sales credit
 You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.
 
 The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.
+
+> [!NOTE]
+> The bookkeeping aspects of sales returns, such as the payments to customers as reimbursement, is considered bookkeeping work and not described here. For more information, see [Managing Payables](payables-manage-payables.md).
 
 ## Inventory Costing
 To preserve correct inventory valuation, you typically want to put returned items back in inventory at the unit cost that they were sold at, not at their current unit cost. This is referred to as exact cost reversing.
@@ -216,5 +219,6 @@ Alternatively, delete individual sales return orders manually.
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
+[Managing Payables](payables-manage-payables.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

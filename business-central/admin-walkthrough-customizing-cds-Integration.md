@@ -50,7 +50,8 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
 
 ### To create the integration table for the worker entity in CDS 
 1.  Create a new AL extension. <!--For more information, see [About Developing Extensions in AL]()-->
-2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Talk to Susanne about this new thing?-->
+2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Talk to Susanne about this new thing? 
+From bugbash: Not described how you get to this file. Turns our you need to unpack AL Language Extension (VSIX file) and exteract bin folder from there and file is there-->
 
 3.  In PowerShell, run the tool with the following arguments:
 
@@ -64,6 +65,8 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
     -baseid:50001  
     ```
 
+<!--Sample would be nice-->
+
      This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. This table is set to the table type **CDS**.
 
 ## Create a Page for Displaying CDS Data  
@@ -74,11 +77,11 @@ For scenarios where we want to view CDS data for a specific entity, we can creat
 2. Name the page **CDS Worker List**, and specify **50001** as the page ID.  
 3. Specify the **50001 CDS Worker** integration table as the source table. For example:
 ```
-page 50001 "CDS Worker List"
+page 50001 "Workers - CDS"
 {
     PageType = List;
     SourceTable = "CDS Worker";
-    Editable = true;
+    Editable = false;
     ContextSensitiveHelpPage = 'feature-overview';
     ...
 }
@@ -87,10 +90,15 @@ page 50001 "CDS Worker List"
 4. Add the fields from the integration table to display on the page. 
 
 
-## Enable Coupling and Synchorinization between Campaigns in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]
+## Enable Coupling and Synchorinization between Worker in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]
 To connect a [!INCLUDE[prodshort](includes/prodshort.md)] table record with a CDS entity record, you create a coupling. A coupling consists of the primary ID, which is typically a GUID, from a CDS record and the Integration ID, also often a GUID, from [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-1. In codeunit **7204 "CDS Setup Defaults"**, subscribe to the **OnGetCDSTableNo** event, as follows:
+<!-- Shouldn't step 0 be: Create a codeunit to manage this?-->
+
+1. Create a codeunit.
+2. In codeunit **7204 "CDS Setup Defaults"**, subscribe to the **OnGetCDSTableNo** event, as follows:
+
+<!-- CDS Setup Defaults does not publish OnGetCDSTableNo - CRM Setup Defaults does-->
 
 ```
 [EventSubscriber(ObjectType::Codeunit, Codeunit::"CDS Setup Defaults", 'OnGetCDSTableNo', '', true, true)]
@@ -116,19 +124,24 @@ end;
 To enable users to create couplings between records in the two systems, we'll extend **page 5200 "Employee Card"** with actions for creating and deleting couplings, and for synchronizing. The following code example adds those actions to **page 5200 "Employee Card"**.
 
 ```
-pageextension 50001 "Employee Synch Extension" extends "Employee Card"
+pageextension 50101 "Employee Synch Extension" extends "Employee Card"
 {
     actions
     {
-        addlast(Navigation)
+        addlast(navigation)
         {
             group(ActionGroupCDS)
             {
                 Caption = 'CDS';
+                Visible = true;
 
                 action(CRMSynchronizeNow)
                 {
                     Caption = 'Synchronize';
+                    ApplicationArea = All;
+                    Visible = true;
+                    Image = Refresh;
+                    ToolTip = 'Send or get updated data to or from CDS.';
 
                     trigger OnAction()
                     var
@@ -140,6 +153,10 @@ pageextension 50001 "Employee Synch Extension" extends "Employee Card"
                 action(ShowLog)
                 {
                     Caption = 'Synchronization Log';
+                    ApplicationArea = All;
+                    Visible = true;
+                    Image = Log;
+                    ToolTip = 'View integration synchronization jobs for the customer table.';
 
                     trigger OnAction()
                     var
@@ -148,27 +165,42 @@ pageextension 50001 "Employee Synch Extension" extends "Employee Card"
                         CRMIntegrationManagement.ShowLog(RecordId);
                     end;
                 }
-                action(ManageCRMCoupling)
+                group(Coupling)
                 {
-                    Caption = 'Set Up Coupling';
+                    Caption = 'Coupling';
+                    Image = LinkAccount;
+                    ToolTip = 'Create, change, or delete a coupling between the Business Central record and a CDS record.';
 
-                    trigger OnAction()
-                    var
-                        CRMIntegrationManagement: Codeunit "CRM Integration Management";
-                    begin
-                        CRMIntegrationManagement.DefineCoupling(RecordId);
-                    end;
-                }
-                action(DeleteCRMCoupling)
-                {
-                    Caption = 'Delete Coupling';
+                    action(ManageCRMCoupling)
+                    {
+                        Caption = 'Set Up Coupling';
+                        ApplicationArea = All;
+                        Visible = true;
+                        Image = LinkAccount;
+                        ToolTip = 'Create or modify the coupling to a CDS Worker.';
 
-                    trigger OnAction()
-                    var
-                        CRMCouplingManagement: Codeunit "CRM Coupling Management";
-                    begin
-                        CRMCouplingManagement.RemoveCoupling(RecordId);
-                    end;
+                        trigger OnAction()
+                        var
+                            CRMIntegrationManagement: Codeunit "CRM Integration Management";
+                        begin
+                            CRMIntegrationManagement.DefineCoupling(RecordId);
+                        end;
+                    }
+                    action(DeleteCRMCoupling)
+                    {
+                        Caption = 'Delete Coupling';
+                        ApplicationArea = All;
+                        Visible = true;
+                        Image = UnLinkAccount;
+                        ToolTip = 'Delete the coupling to a CDS Worker.';
+
+                        trigger OnAction()
+                        var
+                            CRMCouplingManagement: Codeunit "CRM Coupling Management";
+                        begin
+                            CRMCouplingManagement.RemoveCoupling(RecordId);
+                        end;
+                    }
                 }
             }
         }
@@ -176,7 +208,7 @@ pageextension 50001 "Employee Synch Extension" extends "Employee Card"
 }
 ```
 
-## Create Integration Table Mappings and Field Mappings  
+## Create Integration Table Mappings and Field Mappings  <!-- Maybe a better title would be Create Default integraion table mappings and Field mappings-->
 For synchronization to work, mappings must exist to associate the table ID and fields of the integration table (in this case, **table 50001 CDS Worker**) with the table in [!INCLUDE[prodshort](includes/prodshort.md)] (in this case table **5200 Employee**). There are two types of mapping:  
 
 - **Integration table mapping** - Integration table mapping links the [!INCLUDE[prodshort](includes/prodshort.md)] table to the integration table for the CDS entity.  
@@ -223,7 +255,7 @@ We can create the integration table mapping by subscribing to the **OnAfterReset
 ### To create integration fields mappings  
 To create an integration field mapping, follow these steps:  
 
-1. In codeunit **7204 "CDS Setup Defaults"**, add a local procedure called **InsertIntegrationFieldMapping**, as follows:
+1. Add a local procedure called **InsertIntegrationFieldMapping**, in created codeunit (step 1 in previous process) as follows:
 
     ```
     procedure InsertIntegrationFieldMapping(IntegrationTableMappingName: Code[20]; TableFieldNo: Integer; IntegrationTableFieldNo: Integer; SynchDirection: Option; ConstValue: Text; ValidateField: Boolean; ValidateIntegrationTableField: Boolean)

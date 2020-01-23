@@ -112,28 +112,6 @@ The following sections describe how to assign VAT posting groups to individual e
 * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.  
 
-## Setting up VAT Statement Templates and VAT Statement Names
-Tax authorities can, and do, change their requirements for posting VAT. VAT Statement templates and VAT statement names can help you prepare for upcoming changes and make a smooth transition to the new requirements. You can use VAT statement templates to define the fields to include in your VAT statement, which in turn define the calculations, and you can create a new VAT statement template when requirements change. For example, one template might calculate VAT for this year based on the current requirements, and another might calculate VAT based on requirements for next year. Templates are also a way to keep a history of VAT statement formats, for example, so that you can look back to see how you calculated VAT in previous years.
-
-## To define a VAT statements
-VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
-2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
-3. Fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> You can filter the information that the statement will include, depending on what you choose in the **Type** field. **Account Totaling** is useful when you want the VAT from a specific account.
-**VAT Entry Totaling** gets VAT from the accounts assigned to the selections in the **Gen. Posting Type**, **VAT Bus. Posting Group**, and/or the **VAT Prod. Posting Group** fields. **Row Totaling** lets you enter a value or quick filter criteria in the **Row Totaling** field. For more information, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md). **Description** is often used to add a note to the statement. For example, you could use it as a heading when you've used row totaling.
-
-## To preview the VAT statement
-After you define a VAT statement, you can preview it to make sure it meets your needs.
-
-1. Choose **Preview**.
-2. Enter a date filter to limit the statement to a specific period. For more information about how to customize the page to show the date filter, see [Searching, filtering, and Sorting Data](ui-enter-criteria-filters.md).
-3. You can select various options to specify the type of VAT entries to include in the statement.
-4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.   
-
 ## Setting Up Clauses to Explain VAT Exemption or Non-Standard VAT Rates
 You set up a VAT clause to describe information about the type of VAT that is being applied. The information may be required by government regulation. After you set up a VAT clause, and associate it with a VAT posting setup, the VAT clause is displayed on printed sales documents that use the VAT posting setup group.
 
@@ -174,24 +152,6 @@ To set up codes for import VAT, follow these steps:
 5. In the **VAT Calculation Type** field, choose **Full VAT**.  
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  
 
-## To verify VAT registration numbers
-It is important that the VAT registration numbers you have for customers, vendors, and contacts are valid. For example, companies sometimes change their tax liability status, and in some countries tax authorities might ask you to provide reports, such as the EC Sales List report, that list the VAT registration numbers you use when you do business.
-
-The European Commission provides the VIES VAT Number Validation service on its website, which is public and free. [!INCLUDE[d365fin](includes/d365fin_md.md)] can save you a step and let you use the VIES service to validate and track VAT numbers for customers, vendors, and contacts straight from the customer, vendor, and contact cards. The service in [!INCLUDE[d365fin](includes/d365fin_md.md)] is named **EU VAT Reg. No. Validation Service**. The service is available on the **Service Connections** page, and you can start using it right away. The service connection is free, and signup is not required.
-
-> [!Note]
-> To enable the EU VAT Reg. No. Validation Service, you must have administrator permissions.
-
-When you use our service connection, we record a history of VAT numbers and verifications for each customer, vendor, or contact, in the **VAT Registration Log**, so you can easily track them. The log is specific to each customer. For example, the log is useful for proving that you have verified that the current VAT number is correct. When you verify a VAT number, the **Request Identifier** column in the log will reflect that you have taken action.
-
-You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
-
-Our service can also save you time when you create a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we will fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we fill in the address too.  
-
-There are a couple of things to note about the VIES VAT Number Validation service:
-
-* The service uses the http protocol, which means that data transferred through the service is not encrypted.  
-* You may experience downtime for this service for which Microsoft is not responsible. The service is part of a broad EU network of national VAT registers.
 
 ## Using Reverse Charge VAT for Trade between EU Countries or Regions
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
@@ -215,59 +175,13 @@ When you post a sale to a customer in another EU country/region, the VAT amount 
 ## Understanding VAT Rounding for Documents
 Amounts in documents that are not yet posted are rounded and displayed to correspond with the final rounding of amounts that are actually posted. VAT is calculated for a complete document, which means that VAT is calculated based on the sum of all lines with the same VAT identifier in the document.
 
-## Understanding the VAT Rate Conversion Process  
-The VAT rate change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
 
-There are, however, a few things that the tool does not convert:
 
-* Sales or purchase orders and invoices where shipments have been posted. These documents are posted using the current VAT rate.  
-* Documents that have posted prepayment invoices. For example, you have made or received prepayments on invoices that have not been completed before you use the VAT rate change tool. In this case, there will be a difference between the VAT that is due and the VAT that has been paid in the prepayments when the invoice is completed. The VAT rate change tool will skip these documents and you will have to manually update them.  
-* Drop shipments or special orders.  
-* Sales or purchase orders with warehouse integration if they are partially shipped or received.  
-* Service contracts.  
-
-### To prepare VAT rate change conversions  
-Before you set up the VAT rate change tool, you must make the following preparations.
-
-* If you have transactions that use different rates, then they must be separated into different groups either by creating new general ledger accounts for each rate or by using data filters to group transactions according to rate.  
-* If you create new general ledger accounts, then you must create new general posting groups.  
-* To reduce the number of documents that get converted, post as many documents as possible and reduce unposted documents to a minimum.  
-* Back up data.
-
-### To set up the VAT rate change tool  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields.  
-
-### To set up product posting group conversion  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. On the **VAT Rate Change Setup** page, choose either the **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.** action.  
-3. In the **From Code** field, enter the current posting group.  
-4. In the **To Code** field, enter the new posting group.  
-
-### To perform VAT rate change conversion  
-You use the VAT rate change tool to manage changes in the standard rate of VAT. You perform VAT and general posting group conversions to change VAT rates and maintain accurate VAT reporting. Depending on your setup, the following changes are made:  
-
-* VAT and general posting groups are converted.  
-* Changes are implemented in general ledger accounts, customers, vendors, open documents, journal lines, and so on.  
-
-> [!IMPORTANT]  
->  Before you perform VAT rate change conversion, you can test the conversion. To do so, follow the steps below, but make sure to clear the **Perform Conversion** and **VAT Rate Change Tool Completed** check boxes. During test conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is cleared and the **Converted Date** field in the **VAT Rate Change Log Entry** table is blank. After the conversion is complete, choose **VAT Rate Change Log Entries** to view the results of the test conversion. Verify each entry before you perform the conversion. In particular, verify transactions that use an old VAT rate.     
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
-2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
-3. Choose the **Perform Conversion** check box.  
-
-    > [!IMPORTANT]  
-    >  Clear the **VAT Rate Change Tool Completed** check box. The check box is automatically selected when the VAT rate change conversion is completed.  
-
-4. Choose the **Convert** action.  
-5. After the conversion is complete, choose the **VAT Rate Change Log Entries** action to view the results of the conversion.  
-
-> [!IMPORTANT]  
->  After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
-
-## See Also  
+## See Also
+[Setting up VAT Statement Templates and VAT Statement Names](finance-how-use-vat-rate-change-tool.md)
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)      
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+[Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)
+[Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)
 [Local functionality in Business Central](about-localization.md) 

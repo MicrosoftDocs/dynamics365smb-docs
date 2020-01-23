@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.author: sgroespe
 ---
 
@@ -107,7 +107,8 @@ To open the current card or document in a new window, choose ![Open New Window](
 > When you open other pages from a card or document that is opened in a new window, those pages will open in a new windows even though you do not choose ![Open New Window](media/open-new-window-icon.png "Open new window icon").
 
 > [!NOTE]
-> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## Entering Quantities by Calculation
 

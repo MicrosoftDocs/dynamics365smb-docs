@@ -18,7 +18,7 @@ ms.author: andregu
 ## Understanding the VAT Rate Conversion Process  
 The VAT rate change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
 
-There are, however, a few things that the tool does not convert:
+There are a few things that the tool does not convert:
 
 * Sales or purchase orders and invoices where shipments have been posted. These documents are posted using the current VAT rate.  
 * Documents that have posted prepayment invoices. For example, you have made or received prepayments on invoices that have not been completed before you use the VAT rate change tool. In this case, there will be a difference between the VAT that is due and the VAT that has been paid in the prepayments when the invoice is completed. The VAT rate change tool will skip these documents and you will have to manually update them.  
@@ -36,7 +36,7 @@ Before you set up the VAT rate change tool, you must make the following preparat
 
 ### To set up the VAT rate change tool  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
-2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields.  
+2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose to either do not convert, do convert VAT product posting groups or general product posting groups or both values if those are available in the master data item. For some areas you can also set a filter to restrict the conversion to only a subset of for example G/L accounts. 
 
 ### To set up product posting group conversion  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  

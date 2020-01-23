@@ -92,7 +92,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
 
 > [!NOTE]  
 > If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values on the **Bank Account Card** and **Vendor Bank Account Card** pages. You will be informed about wrong or missing setup values as you try to export the file.<br /><br />
-> The EFT feature can only be used for bank accounts in the local currency. It cannot be used with a foreign currency, indicated by a value in the **Currency Code** field (Blank means local currency.).
+> The EFT feature can only be used for bank accounts in the local currency. It cannot be used with a foreign currency, indicated by a value in the **Currency Code** field. (Blank field value means local currency.)
 
 3. When you have completed all payment journal lines, choose the **Export** action.
 4. On the **Export Electronic Payments** page, fill in the fields as necessary.

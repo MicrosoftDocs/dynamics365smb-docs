@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating users on the Microsoft 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)| 
+|Define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating users on the Microsoft 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)|
 |Assign permissions to users, modify permission sets, and group users for easy permission management.|[Assign Permissions to Users and Groups](ui-how-users-permissions.md)|
 |Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
@@ -43,6 +43,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Encrypt data on the [!INCLUDE[d365fin](includes/d365fin_md.md)] server by generating new or importing existing encryption keys that you enable on the server.|[Managing Data Encryption](admin-manage-data-encryption.md)|
 |Connect Dynamics 365 Sales with [!INCLUDE[d365fin](includes/d365fin_md.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+
+## See Related Training at [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## See Also
 [Business Functionality](across-business-functionality.md)  

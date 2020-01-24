@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 11/14/2019
+ms.date: 01/13/2020
 ms.author: edupont
 
 ---
@@ -73,6 +73,8 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
+## See Related Training at [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+
 ## See Also
 
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -89,4 +91,3 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  

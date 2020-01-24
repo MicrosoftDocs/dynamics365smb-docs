@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
 
 ---
@@ -177,6 +177,7 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 
 
 
+
 ## See Also
 [Setting up VAT Statement Templates and VAT Statement Names](finance-how-use-vat-rate-change-tool.md)
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)      
@@ -185,3 +186,5 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 [Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)
 [Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)
 [Local functionality in Business Central](about-localization.md) 
+
+## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)

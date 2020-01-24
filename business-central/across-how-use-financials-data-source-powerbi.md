@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
 
 ---
@@ -36,6 +36,8 @@ Once the data is loaded it will appear in the right navigation on the page. At t
 Before building your report, we recommend that you import the [!INCLUDE [prodshort](includes/prodshort.md)] theme file.  The theme file will create a color palette so that you can build reports with the same color styling as the [!INCLUDE [prodshort](includes/prodshort.md)] apps without requiring you to define custom colors for each visual.
 
 For more information, see the [Power BI documentation](/power-bi/consumer/power-bi-consumer-landing/).
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

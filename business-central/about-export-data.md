@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
 
 ---
@@ -61,6 +61,8 @@ We recommend that you also consider exporting data from the following pages:
 
 > [!NOTE]  
 >   If you have set up more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must export the relevant data from each company.
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  

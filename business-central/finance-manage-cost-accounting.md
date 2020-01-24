@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -24,8 +24,9 @@ Cost accounting is used to help you understand the costs of running a business. 
 |Transfer general ledger entries to cost entries.|[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)|  
 |Allocate costs.|[Defining and Allocating Costs](finance-define-and-allocate-costs.md)|  
 |Learn the processes in creating cost budgets.|[Creating Cost Budgets](finance-create-cost-budgets.md)|
-|Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)| 
+|Cancel cost budget entries from the cost budget register.|[Deleting Cost Budget Entries](finance-how-to-delete-cost-budget-entries.md)|
 
+## See Related Training at [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## See Also  
 [Finance](finance.md)  

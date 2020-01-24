@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -44,6 +44,8 @@ The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports send
 
     > [!NOTE]  
     >  You can also send a posted sales invoice as an electronic document. The procedure is the same as described in this topic for non-posted sales documents. On the **Posted Sales Invoice** page, choose the **Activity Log** action to view the status of the electronic document. For more information, see **Activity Log**.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## See Also  
 [Invoice Sales](sales-how-invoice-sales.md)  

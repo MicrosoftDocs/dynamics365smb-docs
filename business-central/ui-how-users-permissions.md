@@ -84,7 +84,7 @@ If you change the user in Office 365 afterwards, and you need to synchronize the
 ## The Device License
 With the Dynamics 365 Business Central Device license, multiple users can use a device that is licensed with the Device license to operate a point of sale device, shop floor device, or warehouse device. For more information, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
-The Device license is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called Dynamics 365 Business Central Device Users* can log in concurrently.
+The Device license is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called Dynamics 365 Business Central Device Users can log in concurrently.
 
 Your company's Office 365 administrator or Microsoft partner should create the designated device group and add device users as members of that group. They can do this in the [Microsoft 365 Admin Center](https://admin.microsoft.com/) or on the [Azure Portal](https://portal.azure.com/).
 

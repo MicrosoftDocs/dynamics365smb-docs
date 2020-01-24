@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
 
 ---
@@ -20,9 +20,9 @@ With pages that display a list of records in rows and columns, like a list of cu
 
 - With this action, Excel respects any filters on the page that limit the records shown. This means that the Excel workbook will contain the same rows and columns that appear on the page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer. 
+- You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prodshort](includes/prodshort.md)]. You can only save the changes to Excel file on your computer.
 
-- This action works on both on Windows and macOS. 
+- This action works on both on Windows and macOS.
 
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE [prodshort](includes/prodshort.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
@@ -43,10 +43,12 @@ This was enhanced in 2019 release wave 2. For more information, see [Enhancement
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, this feature is only available for the Web client.
 
-### See the differences between the options 
+### See the differences between the options
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 [Working with Business Central](ui-work-product.md)  

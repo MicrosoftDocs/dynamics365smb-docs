@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -25,6 +25,8 @@ Prepayments are payments that are invoiced and posted to a sales or purchase pre
 |Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, vendors, and items.|[Set Up Prepayments](finance-set-up-prepayments.md)|
 |Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
 |Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
+
+## See Related Training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## See Also  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

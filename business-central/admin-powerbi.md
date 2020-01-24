@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
 
 ---
@@ -160,7 +160,7 @@ A Power BI account has not been set up. In order to have a valid Power BI accoun
 
 ### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page. 
+This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page.
 
 ### You need a Power BI Pro license to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 
@@ -170,7 +170,7 @@ Power BI apps can only be installed by users that have a Power BI Pro license. O
 
 This error indicates that the one more of the parameters are not valid.
 
-- The specified environment parameter does not match any existing [!INCLUDE [prodshort](includes/prodshort.md)] production or sandbox environment. 
+- The specified environment parameter does not match any existing [!INCLUDE [prodshort](includes/prodshort.md)] production or sandbox environment.
 - The specified company parameter does not match any existing [!INCLUDE [prodshort](includes/prodshort.md)] companies. Verify the company name in the **Companies** page in [!INCLUDE [prodshort](includes/prodshort.md)].
 - If connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. you have entered a URL that is not valid. You can verify the URL in the **Web Services** page in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - A port is not open to allow the request to go through your firewall.
@@ -198,6 +198,8 @@ Once the Power BI app is installed and your data shows up in Power BI, you may n
 ### I only see data for a single company
 
 The Power BI app will only display data from the [!INCLUDE [prodshort](includes/prodshort.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

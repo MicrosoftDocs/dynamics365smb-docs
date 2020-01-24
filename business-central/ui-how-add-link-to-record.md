@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/21/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 ---
 # Manage Attachments, Links, and Notes on Cards and Documents
@@ -18,7 +18,10 @@ In the FactBox on most cards and documents, you can attach files, add links, and
 
 To view or change any of these attached information types, you must first open the **Attachments** tab in the FactBox. The number behind the tab title indicates how many attached files, links, or notes exist for the card or document.
 
-Attachments, links, and notes stay attached as the card or document is processed into other states, such as from an ongoing sales order to a posted sales invoice. Note, however, that none of the attachment types are output from the system, for example, when printing or when saving to a file.
+Attachments, links, and notes stay attached as the card or document is processed into other states, such as from an ongoing sales order to a posted sales invoice. However, none of the attachment types are output from the system, for example, when printing or when saving to a file.
+
+> [!NOTE]
+> When you partially ship and invoice a sales order or purchase order, the attachment will only be attached to the final invoice of that order. Likewise, when you invoice using the Deferrals feature, the attachment is only attached to the G/L entries for the document but not for the deferral entries.
 
 ## To attach a file to a purchase invoice
 You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)].

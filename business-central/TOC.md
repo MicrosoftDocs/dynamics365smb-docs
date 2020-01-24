@@ -417,7 +417,7 @@
 ### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-### [Block Customers](receivables-how-block-customers.md)
+### [Block Vendors](payables-how-block-vendors.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
@@ -474,7 +474,7 @@
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Report VAT to the Tax Authorities](finance-how-report-vat.md)
+### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
@@ -1445,7 +1445,6 @@
 #### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## United States
 ### [Overview](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

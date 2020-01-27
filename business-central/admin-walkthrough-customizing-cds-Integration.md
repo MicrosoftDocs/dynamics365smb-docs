@@ -27,7 +27,7 @@ This walkthrough describes how to integrate new and existing extensions with CDS
     -   Create a table extension for an existing integration table object.
     -   Use events to add custom integration field mappings for existing integration table mappings.
 
-> [!NOTE]
+> [!NOTE]  
 > The customization in this walkthrough is done entirely in the online version of [!INCLUDE[prodshort](includes/prodshort.md)], and does not describe how to modify your CDS solution, such as adding or modify entities and forms.  
 
 ## Requirements  
@@ -45,13 +45,13 @@ This walkthrough requires the following:
 ## Create an Integration Table in [!INCLUDE[prodshort](includes/prodshort.md)] for the CDS Entity  
 To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort.md)], you must create a table object in [!INCLUDE[prodshort](includes/prodshort.md)] that is based on the CDS entity, and then import the new table into the [!INCLUDE[prodshort](includes/prodshort.md)] database. For this walkthrough we will create a table object that describes the schema for the **Worker** entity in CDS in the [!INCLUDE[prodshort](includes/prodshort.md)] database. 
 
-> [!NOTE]
+> [!NOTE]  
 > The table can contain some or all of the fields from the CDS entity. However, if you want to set up bi-directional synchronization you must include all fields in the table.  
 
 ### To create the integration table for the worker entity in CDS 
 1.  Create a new AL extension. <!--For more information, see [Developing Extensions in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)-->
-2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Talk to Susanne about this new thing? 
-From bugbash: Not described how you get to this file. Turns our you need to unpack AL Language Extension (VSIX file) and exteract bin folder from there and file is there-->
+2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. 
+<!--Talk to Susanne about this new thing? From bugbash: Not described how you get to this file. Turns our you need to unpack AL Language Extension (VSIX file) and exteract bin folder from there and file is there - when you have installed .vsix file, go to the equivalent of this folder: C:\Users\solsen\.vscode\extensions\microsoft.al-4.0.209721\bin and find the altpgen.exe file. Run as commandline tool. Tool will have separate topic in dev docs -->
 
 3.  In PowerShell, run the tool with the following arguments:
 
@@ -90,7 +90,7 @@ page 50001 "Workers - CDS"
 4. Add the fields from the integration table to display on the page. 
 
 
-## Enable Coupling and Synchorinization between Worker in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]
+## Enable Coupling and Synchronization between Worker in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]
 To connect a [!INCLUDE[prodshort](includes/prodshort.md)] table record with a CDS entity record, you create a coupling. A coupling consists of the primary ID, which is typically a GUID, from a CDS record and the Integration ID, also often a GUID, from [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!-- Shouldn't step 0 be: Create a codeunit to manage this?-->
@@ -312,7 +312,7 @@ Let's explore another scenario. Let's say that we have added a **Shoe Size** fie
 
 ### To create the integration table extension for table 5342 "CRM Contact"
 1.  Create a new AL extension.
-2.  Export AL Table Proxy Generator **altpgen.exe** from the VS Code AL extension.  
+2.  Export AL Table Proxy Generator **altpgen.exe** from the VS Code AL extension.  <!-- these steps are already described, maybe just shorten down by pointing to that section? >
 
 3.  In PowerShell, run the tool with the following arguments:
 

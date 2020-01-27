@@ -42,6 +42,9 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 
 An XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page. You can now submit the document to the customer.  
 
+Note:
+With Web Client and the Online-Version of Business Central the XML file is automatically created in download folder.
+
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
  [Set Up OIOUBL](how-to-set-up-oioubl.md)   

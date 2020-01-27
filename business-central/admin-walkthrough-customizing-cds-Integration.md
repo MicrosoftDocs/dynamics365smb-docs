@@ -17,7 +17,7 @@ This walkthrough describes how to customize an integration between [!INCLUDE[pro
 ## About This Walkthrough
 This walkthrough describes how to integrate new and existing extensions with CDS. At a high-level, those process involve the following tasks:  
 
-- Develop an AL extension to integrate entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. <!--Add a link to a topic about developing AL extensions. [About Developing Extensions in AL]().-->
+- Develop an AL extension to integrate entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. <!--Add a link to a topic about developing AL extensions. [Developing Extensions in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).-->
 
     -   Create an integration table object in [!INCLUDE[prodshort](includes/prodshort.md)] for mapping a CDS entity to a [!INCLUDE[prodshort](includes/prodshort.md)] record type.  
     -   Use a CDS integration table as a data source for a page in [!INCLUDE[prodshort](includes/prodshort.md)] that displays data from CDS entity records.  
@@ -49,7 +49,7 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
 > The table can contain some or all of the fields from the CDS entity. However, if you want to set up bi-directional synchronization you must include all fields in the table.  
 
 ### To create the integration table for the worker entity in CDS 
-1.  Create a new AL extension. <!--For more information, see [About Developing Extensions in AL]()-->
+1.  Create a new AL extension. <!--For more information, see [Developing Extensions in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)-->
 2.  Export the **altpgen.exe** AL Table Proxy Generator from the VS Code AL extension. This executable tool allows you to create integration tables. <!--Talk to Susanne about this new thing? 
 From bugbash: Not described how you get to this file. Turns our you need to unpack AL Language Extension (VSIX file) and exteract bin folder from there and file is there-->
 

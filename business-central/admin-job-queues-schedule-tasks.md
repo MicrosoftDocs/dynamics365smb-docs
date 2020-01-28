@@ -27,6 +27,11 @@ You can achieve this by setting the job queue up to run various batch-posting re
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports background posting for all sales, purchasing, and service documents.
 
+> [!NOTE]
+> Some jobs change the same data and should not run at the same time because that can cause conflicts. For example, background jobs for sales documents will try to modify the same data at the same time. Job queue categories help prevent these kinds of conflicts by ensuring that when one job is running, another job that belongs to the same job queue category will not run until it finishes. For example, a job that belongs to a Sales job queue category will wait until all other sales related jobs are done. You specify a job queue category on the **Background Posting** FastTab on the **Sales & Receivables Setup** page. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] provides job queue categories for sales, purchase, and general ledger posting. We recommend that one of these, or one that you create, is always specified. If you experience failures due to locks, consider setting up a category for all sales, purchase, and general ledger background posting.
+
 The following procedure explains how to set up background posting of sales orders. The steps are similar for purchasing and service.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.

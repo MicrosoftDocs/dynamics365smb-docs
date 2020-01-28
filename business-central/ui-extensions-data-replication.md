@@ -1,6 +1,6 @@
 ---
-title: Business Central Intelligent Cloud Extensions | Microsoft Docs
-description: Use this data replication extension to create a cloud copy of your data so you are connected to the intelligent cloud.
+title: Business Central Intelligent Cloud Extensions for Cloud Migration | Microsoft Docs
+description: Use the cloud migration extensions to migrate your on-premises data to your Business Central cloud tenant.  These extensions allow you to move your on-premises data to the cloud so you can use Business Central in the cloud.
 author: edupont04
 manager: edupont
 
@@ -17,18 +17,18 @@ ms.author: edupont
 
 # Intelligent Cloud Extensions
 
-This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent insights.  
+This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.  
 
-If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension. Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.  
+If you are using one of the supported on-premises products, you can configure your cloud environment based on a product-specific extension. Once your cloud environment is configured, you will be able to migrate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.  
 
 ## Business Central on-premises
-If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.  
+If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension and then run the **Cloud Migration Setup** assisted setup guide.  
 
 ## Dynamics GP
-If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.  
+If you are using Dynamics GP,  get the **Intelligent Cloud Base Extension** extension and the **Dynamics GP Intelligent Cloud** extension and then run the **Cloud Migration Setup** assisted setup guide.  
 
-## Dynamics NAV
-If you are using Dynamics NAV, get the **Intelligent Cloud Base Extension** extension and the **Dynamics NAV Intelligent Cloud** extension, and then run the **Intelligent Cloud Setup** assisted setup guide.  
+## Dynamics SL
+If you are using Dynamics SL, get the **Intelligent Cloud Base Extension** extension, the **Microsoft Dynamics SL Intelligent Cloud** extension and the **Microsoft Dynamics SL History Smartlists** extension and then run the **Cloud Migration Setup** assisted setup guide.  
 
 ## See Also
 

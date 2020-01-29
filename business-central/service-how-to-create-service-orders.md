@@ -23,11 +23,11 @@ When creating a service order, you only have to fill in a few fields. Some field
 2. Create a new service order.  
 3. In the **No.** field, enter a number for the service order.  
 
-     Alternatively, if you have set up number series for service orders on the **Service Mgt. Setup** page, you can press Enter to select the next available service order number.  
+     Alternatively, if you have set up number series for service orders on the **Service Management Setup** page, you can press Enter to select the next available service order number.  
 
 4. In the **Customer No.** field, select the relevant customer from the list. The customer-relevant fields are filled in with information from the **Customer** table.  
 
-5. Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
+5. Depending on the settings on the **Mandatory Fields** FastTab on the **Service Management Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.  
 6. Optionally, fill in the rest of the fields.  
 7. Register the service item lines.  
 
@@ -39,9 +39,11 @@ You can automatically create service orders for the maintenance of service items
 3. On the **Options** FastTab, fill in the **Starting Date** and **Ending Date** fields with the starting date and ending date for the period that you want to create contract service orders for. The batch job creates service orders that include service items in service contracts with next planned service dates within this period.  
 
     > [!NOTE]  
-    >  There is a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field on the **Service Mgt. Setup** page.  
+    >  There is a limit to the number of days you can use as the date range each time you use this batch job. You set this limit in the **Contract Serv. Ord. Max. Days** field on the **Service Management Setup** page.  
 
 4. In the **Action** field, choose **Create Service Order**.  
+    > [!NOTE]  
+    >  You will not be able to create order with multiple service item, if you set **One Service Item Line/Order** field on the **Service Management Setup** page. 
 
 ## To convert a service quote to a service order
 When a customer has accepted a service quote, you convert it to a service order. The quote is deleted and a new service order is set up with the same description as the service quote. The response date and time are recalculated for the service order and the status is set to **Pending**. The repair status of the service items in the order are changed to **Initial**.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
 
 ---
@@ -50,6 +50,9 @@ When you correct or cancel a posted sales invoice, the corrective sales credit m
 
     A sales credit memo is automatically created and posted to void the initial posted sales invoice. The **Canceled** field on the initial posted sales invoice is changed to **Yes**.
 4. Choose **Show Corrective Credit Memo** to view the posted sales credit memo that voids the initial posted sales invoice.
+
+### Partial Invoice Posting also Supported
+If the cancellation is related to a partial invoice posting, then the originating sales order line is updated to reflect the canceled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related sales order line are reset to the values before the partial posting.
 
 ## See Also
 [Sales](sales-manage-sales.md)  

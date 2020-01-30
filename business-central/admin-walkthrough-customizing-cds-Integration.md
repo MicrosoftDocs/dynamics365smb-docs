@@ -23,7 +23,7 @@ This walkthrough describes how to integrate new and existing extensions with CDS
     -   Use a CDS integration table as a data source for a page in [!INCLUDE[prodshort](includes/prodshort.md)] that displays data from CDS entity records.  
     -   Extend a page in [!INCLUDE[prodshort](includes/prodshort.md)] for coupling and sychronizing entity records in CDS with table records in [!INCLUDE[prodshort](includes/prodshort.md)].  
     -   Use events to create an integration table and a field mapping between a table in [!INCLUDE[prodshort](includes/prodshort.md)] table and an integration table for CDS.  
--   Develop an extension to extend an existing integration between entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. 
+-   Develop another AL extension to extend an existing integration between entities in CDS and [!INCLUDE[prodshort](includes/prodshort.md)]. 
     -   Create a table extension for an existing integration table object.
     -   Use events to add custom integration field mappings for existing integration table mappings.
 
@@ -34,13 +34,18 @@ This walkthrough describes how to integrate new and existing extensions with CDS
 This walkthrough requires the following:  
 
 -   CDS, including the following:  
-    -   A worker entity.  
+    -   Worker entity.
+    > [!NOTE]  
+    > Worker entity is part of Talent Core HR solution and it needs to be installed. (https://docs.microsoft.com/en-us/dynamics365/talent/corehrentities#worker-entities).
     -   The URL of your CDS environment.
     -   The user name and password of a user account that has full permissions to add and modify entities.  
 -   [!INCLUDE[prodshort](includes/prodshort.md)], including the following:  
     -  The CRONUS International Ltd. demonstration data.  <!--need to tell them where they can get the data -->
     -   CDS integration is enabled, including the default synchronization setup and a working connection between [!INCLUDE[prodshort](includes/prodshort.md)] and CDS. <!--For more information, see []()....  -->
     -   Visual Studio Code with the AL Language extension installed. For more information, see [AL Language Extension Configuration](devenv-al-extension-configuration.md). The AL Language extension for Visual Studio is free, and you can download it [here](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).
+
+> [!NOTE]  
+> Make sure your integration user has permissions to Worker entity.
 
 ## Create an Integration Table in [!INCLUDE[prodshort](includes/prodshort.md)] for the CDS Entity  
 To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort.md)], you must create a table object in [!INCLUDE[prodshort](includes/prodshort.md)] that is based on the CDS entity, and then import the new table into the [!INCLUDE[prodshort](includes/prodshort.md)] database. For this walkthrough we will create a table object that describes the schema for the **Worker** entity in CDS in the [!INCLUDE[prodshort](includes/prodshort.md)] database. 
@@ -62,12 +67,13 @@ To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort
     -username:<Admin username for CDS>
     -password:<Password>
     -entities:cdm_worker
-    -baseid:50001  
+    -baseid:50000
+    -tabletype:CRM  
     ```
 
 <!--Sample would be nice-->
 
-     This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. This table is set to the table type **CDS**.
+     This starts the process for creating the table. When completed, the output path contains the **Worker.al** file that contains the description of the **50001 CDS Worker** integration table. This table is set to the table type **CRM**.
 
 ## Create a Page for Displaying CDS Data  
 For scenarios where we want to view CDS data for a specific entity, we can create a page object that uses the integration table for the CDS entity as its data source. For example, we might want to have a list page that displays the current records in a CDS entity, such as all workers. In this walkthrough we will create a list page that uses table 50001 CDS Worker as its data source.  
@@ -77,13 +83,43 @@ For scenarios where we want to view CDS data for a specific entity, we can creat
 2. Name the page **CDS Worker List**, and specify **50001** as the page ID.  
 3. Specify the **50001 CDS Worker** integration table as the source table. For example:
 ```
-page 50001 "Workers - CDS"
+page 50001 "CDS Worker List"
 {
     PageType = List;
     SourceTable = "CDS Worker";
     Editable = false;
     ContextSensitiveHelpPage = 'feature-overview';
     ...
+
+
+    actions
+    {
+        area(processing)
+        {
+            action(CreateFromCDS)
+            {
+                ApplicationArea = All;
+                Caption = 'Create in Business Central';
+                Promoted = true;
+                PromotedCategory = Process;
+                ToolTip = 'Generate the entity from the coupled CDS worker.';
+
+                trigger OnAction()
+                var
+                    CDSWorker: Record "CDS Worker";
+                    CRMIntegrationManagement: Codeunit "CRM Integration Management";
+                begin
+                    CurrPage.SetSelectionFilter(CDSWorker);
+                    CRMIntegrationManagement.CreateNewRecordsFromCRM(CDSWorker);
+                end;
+            }
+        }
+    }
+
+    trigger OnInit()
+    begin
+        CODEUNIT.Run(CODEUNIT::"CRM Integration Management");
+    end;
 }
 ``` 
 
@@ -96,16 +132,16 @@ To connect a [!INCLUDE[prodshort](includes/prodshort.md)] table record with a CD
 <!-- Shouldn't step 0 be: Create a codeunit to manage this?-->
 
 1. Create a codeunit.
-2. In codeunit **7204 "CDS Setup Defaults"**, subscribe to the **OnGetCDSTableNo** event, as follows:
-
-<!-- CDS Setup Defaults does not publish OnGetCDSTableNo - CRM Setup Defaults does-->
+2. In codeunit **5334 "CRM Setup Defaults"**, subscribe to the **OnGetCDSTableNo** event, as follows:
 
 ```
-[EventSubscriber(ObjectType::Codeunit, Codeunit::"CDS Setup Defaults", 'OnGetCDSTableNo', '', true, true)]
-local procedure HandleOnGetCDSTableNo(BCTableNo: Integer; var CDSTableNo: Integer)
+[EventSubscriber(ObjectType::Codeunit, Codeunit::"CRM Setup Defaults", 'OnGetCDSTableNo', '', false, false)]
+local procedure HandleOnGetCDSTableNo(BCTableNo: Integer; var CDSTableNo: Integer; var handled: Boolean)
 begin
-    if BCTableNo = DATABASE::Employee then
+    if BCTableNo = DATABASE::Employee then begin
         CDSTableNo := DATABASE::"CDS Worker";
+        handled := true;
+    end;
 end;
 ```
 
@@ -133,9 +169,9 @@ pageextension 50101 "Employee Synch Extension" extends "Employee Card"
             group(ActionGroupCDS)
             {
                 Caption = 'CDS';
-                Visible = true;
+                Visible = CDSIntegrationEnabled;
 
-                action(CRMSynchronizeNow)
+                action(CDSSynchronizeNow)
                 {
                     Caption = 'Synchronize';
                     ApplicationArea = All;
@@ -171,7 +207,7 @@ pageextension 50101 "Employee Synch Extension" extends "Employee Card"
                     Image = LinkAccount;
                     ToolTip = 'Create, change, or delete a coupling between the Business Central record and a CDS record.';
 
-                    action(ManageCRMCoupling)
+                    action(ManageCDSCoupling)
                     {
                         Caption = 'Set Up Coupling';
                         ApplicationArea = All;
@@ -186,12 +222,13 @@ pageextension 50101 "Employee Synch Extension" extends "Employee Card"
                             CRMIntegrationManagement.DefineCoupling(RecordId);
                         end;
                     }
-                    action(DeleteCRMCoupling)
+                    action(DeleteCDSCoupling)
                     {
                         Caption = 'Delete Coupling';
                         ApplicationArea = All;
                         Visible = true;
                         Image = UnLinkAccount;
+                        Enabled = CDSIsCoupledToRecord;
                         ToolTip = 'Delete the coupling to a CDS Worker.';
 
                         trigger OnAction()
@@ -205,6 +242,26 @@ pageextension 50101 "Employee Synch Extension" extends "Employee Card"
             }
         }
     }
+
+    trigger OnOpenPage()
+    begin
+        CDSIntegrationEnabled := CRMIntegrationManagement.IsCDSIntegrationEnabled();
+    end;
+
+    trigger OnAfterGetCurrRecord()
+    var
+
+    begin
+        if CDSIntegrationEnabled then
+            CDSIsCoupledToRecord := CRMCouplingManagement.IsRecordCoupledToCRM(RecordId);
+    end;
+
+    var
+        CRMIntegrationManagement: Codeunit "CRM Integration Management";
+        CRMCouplingManagement: Codeunit "CRM Coupling Management";
+        CDSIntegrationEnabled: Boolean;
+        CDSIsCoupledToRecord: Boolean;
+
 }
 ```
 
@@ -216,7 +273,7 @@ For synchronization to work, mappings must exist to associate the table ID and f
 
 In this scenario, we will create integration table and field mappings so that we can synchronize data for a worker in CDS with an employee in [!INCLUDE[prodshort](includes/prodshort.md)]. 
 
-### To create an integration table mappings  
+### To create an integration table mapping  
 We can create the integration table mapping by subscribing to the **OnAfterResetConfiguration** event in codeunit **7204 "CDS Setup Defaults"**.
 
 1. Create a codeunit.  
@@ -250,7 +307,7 @@ We can create the integration table mapping by subscribing to the **OnAfterReset
     end;
     ``` 
 
-   For each integration table mapping entry, there must be integration field mapping entries to map the fields of the records in the table and the integration table. The next step is to add integration field mappings for each field in the Campaign table in [!INCLUDE[prodshort](includes/prodshort.md)] that we want to map to the Campaign entity in CDS.  
+   For each integration table mapping entry, there must be integration field mapping entries to map the fields of the records in the table and the integration table. The next step is to add integration field mappings for each field in the Employee table in [!INCLUDE[prodshort](includes/prodshort.md)] that we want to map to the Worker entity in CDS.  
 
 ### To create integration fields mappings  
 To create an integration field mapping, follow these steps:  
@@ -308,7 +365,7 @@ Users can now manually synchronize employee records in [!INCLUDE[prodshort](incl
 For more information about how to subscribe to events, see [Subscribing to Events](Subscribing-to-Events.md).
 
 ## Create a Table Extension for an Integration Table in [!INCLUDE[prodshort](includes/prodshort.md)]
-Let's explore another scenario. Let's say that we have added a **Shoe Size** field to the **Contact** entity in our CDS solution, and now we want to include the field in our integration with CDS.
+Let's explore another scenario. Let's say that we have added an **Industry** field to the **Contact** entity in our CDS solution, and now we want to include the field in our integration with CDS.
 
 ### To create the integration table extension for table 5342 "CRM Contact"
 1.  Create a new AL extension.
@@ -323,20 +380,21 @@ Let's explore another scenario. Let's say that we have added a **Shoe Size** fie
     -username:<Admin username for CDS>
     -password:<Password>
     -entities:contact
-    -baseid:60001  
+    -baseid:60000
+    -tabletype:CRM  
     ```
 
-     <!--New para needed. The process for creating the table starts. The AL Table Proxy Generator tool finds that an integration table for the **Contact** entity already exists, so it creates a table extension with only new fields, in this case **Shoe Size**. When the process is completed, the output path contains the Worker.al file <!--so this is a new .al file, or an update to the earlier one? with the description of the integration table **50001 CDS Worker**. These tables are set to the type **CDS**.-->
+    The process for creating the table starts. The AL Table Proxy Generator tool finds that an integration table for the **Contact** entity already exists, so it creates a table extension with only new fields, in this case **Industry**. When the process is completed, the output path contains the WorkerExt.al file.
 
-## Extend the Contact Table and Page with the Shoe Size Field
-To synchronize the **Shoe Size** field we need to add the field in [!INCLUDE[prodshort](includes/prodshort.md)]. The following code example extends **table 5050 "Contact"** and **page 5050 "Contact Card"** with new the field.
+## Extend the Contact Table and Page with the Industry Field
+To synchronize the **Industry** field we need to add the field in [!INCLUDE[prodshort](includes/prodshort.md)]. The following code example extends **table 5050 "Contact"** and **page 5050 "Contact Card"** with new the field.
 
 ```
 tableextension 60001 ContactExtension extends Contact
 {
     fields
     {
-        field(70116; "Shoe Size"; Integer)
+        field(70116; "Industry"; Text[100])
         {
         }
     }
@@ -348,17 +406,17 @@ pageextension 60001 ContactCardExtension extends "Contact Card"
     {
         addlast(General)
         {
-            field("Shoe Size"; "Shoe Size")
+            field("Industry"; "Industry")
             {
                 ApplicationArea = All;
-                Caption = 'Shoe Size';
+                Caption = 'Industry';
             }
         }
     }
 }
 ```
 
-## Add New Integration Field Mapping for Shoe Size
+## Add New Integration Field Mapping for Industry
 Now that we have the field in both [!INCLUDE[prodshort](includes/prodshort.md)] and CDS, we can add a new integration field mapping for it. To do that we will subscribe to the **OnAfterResetContactContactMapping** event in codeunit **7204 "CDS Setup Defaults"**, as follows:
 
 ```
@@ -371,8 +429,8 @@ var
 begin
     InsertIntegrationFieldMapping(
         IntegrationTableMappingName,
-        Contact.FieldNo("Shoe Size"),
-        CDSContact.FieldNo(cr07b_ShoeSize),
+        Contact.FieldNo("Industry"),
+        CDSContact.FieldNo(cr07b_Industry),
         IntegrationFieldMapping.Direction::Bidirectional,
         '', true, false);
 end;

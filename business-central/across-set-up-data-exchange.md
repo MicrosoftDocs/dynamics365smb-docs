@@ -36,6 +36,5 @@ Before you can send and receive electronic documents or import and export bank f
 
 ## See Also  
 [Exchanging Data Electronically](across-data-exchange.md)  
-[Exchanging Data](across-exchange-data.md)   
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  

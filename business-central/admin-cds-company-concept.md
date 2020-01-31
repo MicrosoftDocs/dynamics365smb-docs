@@ -14,20 +14,20 @@ ms.author: bholtorf
 
 ---
 
-# Company Concept in Common Data Service
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], a company is a legal and business entity that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that Common Data Service comes to this concept is the business unit entity, which does not have legal or business implications.
+# Company and Business Unit Relationships
+In [!INCLUDE[d365fin](includes/d365fin_md.md)], a company is a legal and business entity that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[d365fin](includes/cds_long_md.md)] comes to this concept is the business unit entity, which does not have legal or business implications.
 
-Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To enable synchronization, Microsoft has introduced an entity in Common Data Service that is named cdm_Company <!--what do we call this?-->. This entity is equivalent to the Company entity in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To help ensure that records are synchronized in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service we recommend the following setup for data in Common Data Service:
+Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To enable synchronization, Microsoft has introduced an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] that is named cdm_Company <!--what do we call this?-->. This entity is equivalent to the Company entity in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To help ensure that records are synchronized in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we recommend the following setup for data in [!INCLUDE[d365fin](includes/cds_long_md.md)]:
 
 * For each [!INCLUDE[d365fin](includes/d365fin_md.md)] Company record that is enabled for synchronization, an associated cdm_Company <!--Name?--> record is created.
 * When a cdm_Company <!--Name?--> record is created and synchronization is enabled, a default business unit is created that has the same name. Although a default team is automatically created for that business unit, the business unit isn't used. <!--Is the company used instead?-->
 * A separate owner team is created that has the same name <!--as what, but BU of Co?-->. It's also associated with the business unit.<!--to do what?-->
-* By default, the owner of any record that is created and synchronized <!--I have replaced instances of "dual-write" (and derivations) with "synchronized." Hope that was correct...--> to Common Data Service is set to the "DW Owner" <!--Name?--> team that is linked to the associated business unit.
-* The following image shows an example of this data setup in Common Data Service.
+* By default, the owner of any record that is created and synchronized <!--I have replaced instances of "dual-write" (and derivations) with "synchronized." Hope that was correct...--> to [!INCLUDE[d365fin](includes/cds_long_md.md)] is set to the "DW Owner" <!--Name?--> team that is linked to the associated business unit.
+* The following image shows an example of this data setup in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-<!--Image placeholder for Data setup in Common Data Service-->
+<!--Image placeholder for Data setup in [!INCLUDE[d365fin](includes/cds_long_md.md)]-->
 
-In this configuration, records that are related to the USMF <!--Name of the company in the diagram. Replace with ours.--> company will be owned by a team that is linked to the USMF <!--Name?--> business unit in Common Data Service. Users who can access that business unit through a security role that is set to business unit–level visibility <!--where is this set? on the BU or the security role?--> can now see those records. The following example shows how to use teams to provide access to those records.
+In this configuration, records that are related to the USMF <!--Name of the company in the diagram. Replace with ours.--> company will be owned by a team that is linked to the USMF <!--Name?--> business unit in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Users who can access that business unit through a security role that is set to business unit–level visibility <!--where is this set? on the BU or the security role?--> can now see those records. The following example shows how to use teams to provide access to those records.
 
 * The "Sales Manager" role is assigned to members of the "USMF Sales" <!--Name?--> team.
 * Users who have the "Sales Manager" role can access any account records that are members of the same business unit that they are members of <!--should this be "as the users."-->.
@@ -37,19 +37,19 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 <!--Image placeholder for How teams can be used-->
 
-In this example, a new "Europe" <!--Name?--> business unit is manually created in Common Data Service as the parent for both DEMF <!--Name?--> and ESMF <!--Name?-->. This new root business unit is not related to synchronization. However, it can give members of the "EUR Sales" <!--Name?--> team access to account data in both DEMF <!--Name?--> and ESMF <!--Name?--> by setting the data visibility to **Parent/Child BU** on the associated security role.
+In this example, a new "Europe" <!--Name?--> business unit is manually created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both DEMF <!--Name?--> and ESMF <!--Name?-->. This new root business unit is not related to synchronization. However, it can give members of the "EUR Sales" <!--Name?--> team access to account data in both DEMF <!--Name?--> and ESMF <!--Name?--> by setting the data visibility to **Parent/Child BU** on the associated security role.
 
 Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the cdm_Company <!--Name?--> record. When a cdm_Company <!--Name?--> record is enabled for synchronization, a plug-in automatically creates the associated business unit and owner team (if it doesn't already exist), and sets the **Default owning team** field. When synchronization is enabled for an entity, admins can change the owning team but cannot clear the field.
 
 <!--Image placeholder for Default owning team field-->
 
 ## Company striping and bootstrapping
-Common Data Service integration brings company parity by using a company identifier to stripe data. In the following image, all company-specific entities are extended to have a many-to-one (N:1) relationship with the cdm_Company <!--Name?--> entity.
+[!INCLUDE[d365fin](includes/cds_long_md.md)] integration brings company parity by using a company identifier to stripe data. In the following image, all company-specific entities are extended to have a many-to-one (N:1) relationship with the cdm_Company <!--Name?--> entity.
 
 <!-- Image placeholder for N:1 relationship between a company-specific entity and the cdm_Company entity-->
 
 Record values become read-only after a company is added and saved, so make sure that the correct company is chosen.
-Only records that have company data are eligible for synchronization between the application and Common Data Service. <!--Not sure what this means-->
+Only records that have company data are eligible for synchronization between the application and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--Not sure what this means-->
 
 ## See Also
-[About Common Data Service](admin-common-data-service.md)
+[About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

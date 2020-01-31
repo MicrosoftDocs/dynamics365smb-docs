@@ -15,24 +15,24 @@ ms.author: bholtorf
 ---
 
 # Manually Synchronize Table Mappings
-An integration table mapping associates a [!INCLUDE[d365fin](includes/d365fin_md.md)] table (record type), such as customer, with a Common Data Service entity, such as an account. Synchronizing an integration table mapping enables you to synchronize data in all records of the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity that are coupled. Additionally, depending on the configuration of the table mapping, synchronization can create and couple new records in the destination solution for uncoupled records in the source.  
+An integration table mapping associates a [!INCLUDE[d365fin](includes/d365fin_md.md)] table (record type), such as customer, with a [!INCLUDE[d365fin](includes/cds_long_md.md)] entity, such as an account. Synchronizing an integration table mapping enables you to synchronize data in all records of the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity that are coupled. Additionally, depending on the configuration of the table mapping, synchronization can create and couple new records in the destination solution for uncoupled records in the source.  
 
 Manually synchronizing integration table mappings can be useful during the initial set up of an integration, and when diagnosing synchronization errors.  
 
 This article describes three methods for manually synchronizing integration table mappings. Each method provides a different level of synchronization.
 
 ## Run a Full Synchronization
-A full synchronization runs all the default integration synchronization jobs for synchronizing [!INCLUDE[d365fin](includes/d365fin_md.md)] records and Common Data Service entities, as defined on the **Integration Table Mappings** page. 
+A full synchronization runs all the default integration synchronization jobs for synchronizing [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities, as defined on the **Integration Table Mappings** page. 
 
-A full synchronization performs the following operations For [!INCLUDE[d365fin](includes/d365fin_md.md)] or Common Data Service records that are:
+A full synchronization performs the following operations For [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)] records that are:
 
 * Not coupled, a new matching record will be created and coupled in the opposing solution.
-Whether and where a record gets created depends on the synchronization direction. For example, when synchronizing data from [!INCLUDE[d365fin](includes/d365fin_md.md)] customers to Common Data Service accounts, if there is a customer that is not coupled to an account, then a new account will be automatically added in Common Data Service and coupled to the customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The opposite holds true when the synchronization direction is from Common Data Service to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For each account that is not already coupled to a customer, a new matching customer will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] and coupled to the account in Common Data Service.  
+Whether and where a record gets created depends on the synchronization direction. For example, when synchronizing data from [!INCLUDE[d365fin](includes/d365fin_md.md)] customers to [!INCLUDE[d365fin](includes/cds_long_md.md)] accounts, if there is a customer that is not coupled to an account, then a new account will be automatically added in [!INCLUDE[d365fin](includes/cds_long_md.md)] and coupled to the customer in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The opposite holds true when the synchronization direction is from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For each account that is not already coupled to a customer, a new matching customer will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)] and coupled to the account in [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
      > [!NOTE]  
      >  To achieve this, the full synchronization operation temporarily clears the **Synch. Only Coupled Records** option on the integration table mapping that is used by the synchronization job. At the end of the full synchronization process, you will be prompted whether you want to keep this option cleared for all jobs.  
 
-* Coupled, the synchronization direction (for example, from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service or from Common Data Serviceto [!INCLUDE[d365fin](includes/d365fin_md.md)]) is predetermined by the integration table mappings. For more information, see [Standard Sales Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
+* Coupled, the synchronization direction (for example, from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[d365fin](includes/cds_long_md.md)] or from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]) is predetermined by the integration table mappings. For more information, see [Standard Sales Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
 
 The jobs are run in the following order to avoid coupling dependencies between entities.  
 
@@ -45,7 +45,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
 
 > [!IMPORTANT]  
->  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in Common Data Service for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or Common Data Service.  
+>  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[d365fin](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 ### See the process for a full synchronization
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
@@ -62,7 +62,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
 ## Synchronizing All Modified Records
-You can use the **Microsoft Dynamics 365 Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and Common Data Service entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
+You can use the **Microsoft Dynamics 365 Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
 
 1.  CURRENCY - Dynamics 365 Sales synchronization job  
 2.  SALEPEOPLE - Dynamics 365 Sales synchronization job  
@@ -82,7 +82,7 @@ You can view the results of the synchronization on the **Integration Synchroniza
 2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
 
 ## Synchronize Individual Table Mappings
-You can use the **Integration Table Mappings** page to run a synchronization job specific table mappings. This will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity that are defined by the table mapping. By default, only records that have been modified since the last time they were synchronized will be synchronized.  
+You can use the **Integration Table Mappings** page to run a synchronization job specific table mappings. This will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity that are defined by the table mapping. By default, only records that have been modified since the last time they were synchronized will be synchronized.  
 
 By modifying the integration table mapping in advance, you can configure the synchronization job to create new records in the destination solution for uncoupled records in the source.
 

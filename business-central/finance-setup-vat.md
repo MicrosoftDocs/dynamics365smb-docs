@@ -179,12 +179,12 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 
 
 ## See Also
-[Setting up VAT Statement Templates and VAT Statement Names](finance-how-use-vat-rate-change-tool.md)
+[Setting up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)   
 [Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)      
-[Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)
-[Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)
-[Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)
-[Local functionality in Business Central](about-localization.md) 
+[Report VAT to a Tax Authority](finance-how-report-vat.md)      
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)    
+[Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)    
+[Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)  
+[Local functionality in Business Central](about-localization.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)

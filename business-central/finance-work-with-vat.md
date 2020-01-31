@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: VAT, sales, purchases,
-    ms.date: 10/01/2019
+    ms.date: 01/13/2020
     ms.author: bholtorf
 
 ---
@@ -172,6 +172,8 @@ To view a group of certificates, you start from the **Certificates of Supply** p
     >   
     > * To manually create a certificate of supply certificate  
     > * To print a certificate of supply.
+
+## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## See Also  
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   

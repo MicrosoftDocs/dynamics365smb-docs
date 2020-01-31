@@ -417,7 +417,7 @@
 ### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-### [Block Customers](receivables-how-block-customers.md)
+### [Block Vendors](payables-how-block-vendors.md)
 ### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
@@ -474,7 +474,7 @@
 ### [Closing Periods](year-how-complete-period-end-processes.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Report VAT to the Tax Authorities](finance-how-report-vat.md)
+### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Preparing Pre-Closing Reports](year-prepare-preclose-reports.md)
 ### [Closing Books](year-close-books.md)
 ### [Preparing Closing Statements](year-prepare-close-statement.md)
@@ -926,10 +926,29 @@
 
 ## Czech Republic
 ### [Overview](LocalFunctionality/Czech/czech-local-functionality.md)
+### Core Finance  
+#### [Finance](LocalFunctionality/Czech/finance.md)
+#### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
+#### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
 ### VAT
+#### [Finance - VAT](LocalFunctionality/Czech/finance-vat.md)
 #### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
-### Banking & Payments
+### Fixed Assets
+#### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
+### Banking and Payments
+#### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
+#### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+#### [Advances](LocalFunctionality/Czech/advances.md)
+### Payables and Receivables
+#### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Inventory
+#### [Inventory](LocalFunctionality/Czech/inventory.md)
+### General
+#### [Extended User Control](LocalFunctionality/Czech/general.md)
+#### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 
 ## Denmark
 ### [Overview](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1094,6 +1113,7 @@
 ## Mexico
 ### [Overview](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Tax
+#### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1425,7 +1445,6 @@
 #### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Print Direct Sales and Purchase Details Reports](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## United States
 ### [Overview](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

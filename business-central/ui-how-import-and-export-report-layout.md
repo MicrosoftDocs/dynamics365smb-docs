@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/15/2019
+    ms.date: 01/13/2020
     ms.author: sgroespe
 
 ---
@@ -44,6 +44,8 @@ You can import and export an existing custom report layout as a file to and from
 5.  In the **Import** dialog box, select the document that defines the report layout, and then choose the **Open** button.  
 
  The original custom report layout is replaced with the imported report layout.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also  
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   

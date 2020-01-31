@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -111,6 +111,8 @@ To help you better understand personalization, here are some pointers.
 - Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change on the **Customers** page when the Role Center is set to Sales Order Processor.
 - Changes to a page in a pane will take effect on the page where ever it is shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You cannot create new ones.
+
+## See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## See Also
 [Customize Pages for Profiles](ui-personalization-manage.md)  

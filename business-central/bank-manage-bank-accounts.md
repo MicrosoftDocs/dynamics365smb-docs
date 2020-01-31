@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 12/17/2019
+ms.date: 01/10/2020
 ms.author: sgroespe
 
 ---
@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Reconcile bank accounts as a separate task on the **Bank Acc. Reconciliation** page. |[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md) |
 | Reconcile bank accounts in connection with payment processing on the **Payment Reconciliation Journal** page. |[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## [Related Training](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## See Related Training at [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## See Also
 [Setting Up Banking](bank-setup-banking.md)  

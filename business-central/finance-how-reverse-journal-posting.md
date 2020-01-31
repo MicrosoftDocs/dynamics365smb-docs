@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 12/16/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
 
 ---
@@ -30,7 +30,7 @@ If you have made an incorrect positive quantity posting, such as a sales shipmen
 You can reverse entries from all **Ledger Entries** pages. The following procedure is based on the **General Ledger Entries** page.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action. Note that is must originate from a journal posting.
-3. On the **Reverse Transaction Entries** page, select the relevant entry, and then choose the **Reverse** action.
+3. On the **Reverse Transaction Entries** page, choose the **Reverse** action.
 4. Choose the **Yes** button on the confirmation message.
 
 > [!NOTE]

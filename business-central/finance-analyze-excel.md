@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
 
 ---
@@ -36,6 +36,8 @@ In Excel, you see a tab where the data is laid out for you on the first workshee
 Your [!INCLUDE[d365fin](includes/d365fin_md.md)] experience includes an add-in for Excel. Depending on your subscription, you are logged in automatically, or you must specify the same login details that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 With the add-in, you can get fresh data from [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can push changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)]. However, the ability to push data back to the database is disabled for the financial Excel reports in the list above.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 [Finance](finance.md)  

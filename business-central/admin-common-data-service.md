@@ -12,12 +12,12 @@ ms.date: 10/01/2019
 ---
 
 # About Common Data Service
-Common Data Service lets you securely store and manage data that's used by business applications. Data is stored in a set of entities, which are sets of records similar to how a table stores data within a database. Common Data Service includes a base set of standard entities that cover typical scenarios, but you can also create custom entities specific to your organization. For more information, see [Standard and Custom Entities](admin-common-data-service.md#standard-and-custom-entities).
+Business apps often use data from more than one source. [!INCLUDE[d365fin](includes/cds_long_md.md)] combines data into a single set of logic, which makes it easier to connect other Dynamics 365 applications, such as Dynamics 365 Sales, Dynamics 365 Customer Service or Dynamics 365 Talent, or even your own application, to [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. 
 
-In addition to [!INCLUDE[d365fin_md](includes/d365fin_md.md)], other Dynamics 365 applications, such as Dynamics 365 Sales, Dynamics 365 Customer Service or Dynamics 365 Talent,also use Common Data Service. That means that you can build your apps and use Common Data Service directly against your core business data without the need for integration.
+[!INCLUDE[d365fin](includes/cds_long_md.md)] lets you securely store and manage data that's used by business applications. Data is stored in a set of entities, which are sets of records similar to how a table stores data within a database. [!INCLUDE[d365fin](includes/cds_long_md.md)] includes a base set of standard entities that cover typical scenarios, but you can also create custom entities specific to your organization. For more information, see [Standard and Custom Entities](admin-common-data-service.md#standard-and-custom-entities).
 
 ## Integrating Data into the Common Data Service
-Apps often use data from more than one source. By combining data in a common store, Common Data Service makes it easier to develop apps, and provides a single set of logic to maintain and operate over data from other Dynamics 365 applications.  
+Business apps often use data from more than one source. By combining data in a common store, Common Data Service makes it easier to develop apps, and provides a single set of logic to maintain and use data from other Dynamics 365 applications.  
 
 * **Scheduled integration with other systems** – Regularly synchronize data from other applications.  
 * **Transform and import data** – Transform data when importing to the Common Data Service can be done through from many online data sources.  

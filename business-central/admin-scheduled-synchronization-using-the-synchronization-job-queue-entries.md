@@ -41,23 +41,7 @@ To synchronize data, Common Data Service entity records must be coupled to [!INC
 
 -   With bidirectional synchronization, the job synchronizes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service, and then from Common Data Service to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## Default Synchronization Job Queue Entries  
-<!--Probably need to update these for CDS, and perhaps move this to the Sales content-->
-The following table describes the default synchronization jobs.  
-
-|Job Queue Entry|Description|Direction|Integration Table Mapping|Default Synchronization Frequency (mins)|Default inactivity sleep time (mins)|  
-|---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|CONTACT - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service contacts with [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.|Bidirectional|CONTACT|30|720 <br>(12 hours)| 
-|CURRENCY - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service transaction currencies with [!INCLUDE[d365fin](includes/d365fin_md.md)] currencies.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|CURRENCY|30|720 <br> (12 hrs)| 
-|CUSTOMER - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|CUSTOMER|30|720<br> (12 hrs)|
-|CUSTPRCGRP-PRICE - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service sales price lists with [!INCLUDE[d365fin](includes/d365fin_md.md)] customer price groups.| |CUSTOMER PRICE GROUPS-SALES PRICE LISTS|30|1440<br> (24 hrs)|
-|ITEM - PRODUCT - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service products with [!INCLUDE[d365fin](includes/d365fin_md.md)] items.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|ITEM-PRODUCT|30|1440<br> (24 hrs)|
-|POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service invoices with [!INCLUDE[d365fin](includes/d365fin_md.md)] posted sales invoices.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
-|RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service products with [!INCLUDE[d365fin](includes/d365fin_md.md)] resources.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|RESOURCE-PRODUCT|30|720<br> (12 hrs)|  
-|SALESPEOPLE - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with Common Data Service users.|From Common Data Service to [!INCLUDE[d365fin](includes/d365fin_md.md)]|SALESPEOPLE|30|1440<br> (24 hrs)|
-|SALESPRC-PRODUCTPRICE - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service product prices with [!INCLUDE[d365fin](includes/d365fin_md.md)] sales prices.||PRODUCT PRICE-SALES PRICE|30|1440<br> (24 hrs)|
-|UNITOFMEASURE - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service unit groups with [!INCLUDE[d365fin](includes/d365fin_md.md)] units of measure.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|UNIT OF MEASURE|30|720<br> (12 hrs)|  
-|Customer Statistics - Dynamics 365 Sales synchronization|Updates Common Data Service accounts with the latest [!INCLUDE[d365fin](includes/d365fin_md.md)] customer data. In Common Data Service, this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution is installed in Common Data Service. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Not applicable|Not applicable|30|Not applicable|   
+  
 
 ## About Inactivity Timeouts
 Some job queue entries, such as those that schedule synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service, use the **Inactivity Timeout** field on the Job Queue Entry card to prevent the job queue entry from running unnecessarily.  

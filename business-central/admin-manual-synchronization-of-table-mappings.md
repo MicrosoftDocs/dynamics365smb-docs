@@ -34,16 +34,6 @@ Whether and where a record gets created depends on the synchronization direction
 
 * Coupled, the synchronization direction (for example, from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[d365fin](includes/cds_long_md.md)] or from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]) is predetermined by the integration table mappings. For more information, see [Standard Sales Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
 
-The jobs are run in the following order to avoid coupling dependencies between entities.  
-
-1.  CURRENCY - Dynamics 365 Sales synchronization job  
-2.  SALEPEOPLE - Dynamics 365 Sales synchronization job  
-3.  UNITOFMEASURE - Dynamics 365 Sales synchronization job  
-4.  CUSTOMER - Dynamics 365 Sales synchronization job  
-5.  CONTACTS - Dynamics 365 Sales synchronization job  
-6.  RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  
-7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
-
 > [!IMPORTANT]  
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[d365fin](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
@@ -61,6 +51,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
+<!--ask Ivan about this. we should consider removing this-->
 ## Synchronizing All Modified Records
 You can use the **Microsoft Dynamics 365 Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
 

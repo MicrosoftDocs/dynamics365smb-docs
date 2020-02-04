@@ -25,7 +25,7 @@ When you create the connection between the apps, [!INCLUDE[d365fin](includes/d36
 > If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the integration table mappings are stored in table 5335 Integration Table Mappings, and can be viewed and modified from page 5335 Integration Table Mappings. Complex mappings and synchronization rules are defined in codeunit 5341. 
 
 ### Synchronization Rules
-An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
 
 ## Mapping Integration Fields
 Mapping tables is only the first step. You must also map the fields on the tables. Integration field mappings link fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables with corresponding fields in [!INCLUDE[d365fin](includes/cds_long_md.md)], and determine whether to synchronize data in each table. The standard table mapping that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides includes field mappings, but you can change those if you want. For more information, see [Viewing Entity Mappings](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
@@ -44,7 +44,7 @@ but in [!INCLUDE[d365fin](includes/d365fin_md.md)] it's "US." That means you mus
 Coupling links records in [!INCLUDE[d365fin](includes/cds_long_md.md)] to records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)] are typically coupled with customers in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Coupling records offers the following benefits:
 
 * It makes synchronization possible.
-* Users can open records in one business app from the other. This requires that the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution is installed in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+* Users can open records in one business app from the other. This requires that the apps are already integrated.
 
 Couplings can be set up automatically by using the synchronization jobs, or manually by editing the record in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Synchronizing Data in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) and [Couple and Synchronize Records Manually](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
@@ -68,6 +68,7 @@ For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the t
 
 2.  In the table mapping entry in the list, clear the **Synch. Only Coupled Records** field.  
 
+<!--ask Ivan about this-->
 ## Using Configuration Templates on Table Mappings
 <!--Need to rewrite this for CDS and move this content to Sales-->
 You can assign configuration templates to table mappings to use for new records that are created in [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)]. For each table mapping, you can specify a configuration template to use for new [!INCLUDE[d365fin](includes/d365fin_md.md)] records and another template to use new [!INCLUDE[d365fin](includes/cds_long_md.md)] records.  

@@ -34,12 +34,14 @@ When synchronization is set up you can couple [!INCLUDE[d365fin](includes/d365fi
 ||Full synchronization of all data for all table mappings.<br /><br /> You can synchronize all of the data in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities that are mapped, and create new records in the destination solution for uncoupled records in the source solution.<br /><br /> Full synchronization synchronizes all data and ignores coupling. Typically, you do a full synchronization when you set up the integration and only one of solutions contains data. A full synchronization can also be useful in a demonstration environment.|[Run a Full Synchronization](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Scheduled synchronization|Synchronize all changes to data for all table mappings.<br /><br /> You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[d365fin](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue.|[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
-## Standard Sales Entity Mapping for Synchronization
+## Standard Entity Mapping for Synchronization
 
 <!--Need to rewrite this for CDS and move this content to Sales-->
 Entities in [!INCLUDE[d365fin](includes/cds_long_md.md)], such as accounts, are integrated with equivalent types of entities in [!INCLUDE[d365fin](includes/d365fin_md.md)],such as customers. To work with [!INCLUDE[d365fin](includes/cds_long_md.md)] data you set up links, called couplings, between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 The following table lists the standard mapping between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides.
+
+<!--need to remove the sales specific mappings. have already ported the whole table to the sales content-->
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synchronization Direction|Default Filter|
 |-------------------------------------------|-----|-------------------------|--------------|
@@ -63,7 +65,7 @@ You can view the mapping between the entities in [!INCLUDE[d365fin](includes/cds
 
 ### Tip for Developers: Mapping Fields in Business Central to the Option Sets in Common Data
 <!--Need to move this content to Sales.-->
-If you are a developer and you want to add options to the option sets in [!INCLUDE[crm_md](includes/crm_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[crm_md](includes/crm_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[crm_md](includes/crm_md.md)].
+If you are a developer and you want to add options to the option sets in [!INCLUDE[d365fin](includes/cds_long_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[crm_md](includes/crm_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.md)] tables for the **Option** field in the **Account** entity in [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -72,28 +74,6 @@ The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.m
 |Payment Terms|Payment Terms|
 |Shipment Method|Address 1: Freight Terms|
 |Shipping Agent|Address 1: Shipping Method|
-
-### Synchronization Rules
-<!--Need to rewrite this for CDS and move this content to Sales-->
-The following table describes rules that control the synchronization between the apps.
-
-> [!NOTE]  
-> Changes to data in [!INCLUDE[crm_md](includes/crm_md.md)] that were made by the [!INCLUDE[crm_md](includes/crm_md.md)] connection user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
-
-|Table|Rule|
-|-----|----|
-|Customers|Before a customer can be synchronized to an account, the salesperson that is assigned to the customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you run the CUSTOMERS - Dynamics 365 Sales synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />The CUSTOMERS - Dynamics 365 Sales synchronization job only synchronizes Sales accounts that have the relationship type Customer.|
-|Contacts|Only contacts in [!INCLUDE[crm_md](includes/crm_md.md)] that are associated with an account will be created in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Currencies|Currencies are coupled to transaction currencies in [!INCLUDE[crm_md](includes/crm_md.md)] based on ISO codes. Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.|
-|Units of Measure|Units of measure are synchronized with unit groups in [!INCLUDE[crm_md](includes/crm_md.md)]. There can only be one unit of measure defined in the unit group.|
-|Items|When synchronizing items with [!INCLUDE[crm_md](includes/crm_md.md)] products, [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a price list in [!INCLUDE[crm_md](includes/crm_md.md)]. To avoid synchronization errors, you should not modify this price list manually.|
-|Salespersons|Salespersons are coupled to system users in [!INCLUDE[crm_md](includes/crm_md.md)]. The user must be enabled and licensed and must not be the Integration user. Note, that this is the first table that must be synchronized because it is used in customers, contacts, opportunities, and sales invoices.|
-|Resources|Resources are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] products that have product type Service.|
-|Customer Price Groups|Customer price groups are synchronized with Sales price lists.|
-|Sales Prices|Sales prices that have sales type Customer Price Group and have a sales code defined are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] price list lines|
-|Opportunities|Opportunities are synchronized with [!INCLUDE[crm_md](includes/crm_md.md)] opportunities. The Salesperson Code value defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.|
-|Sales Orders|When sales order integration is enabled, sales orders in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized with sales orders in INCLUDE SALES when they are released. Before you synchronize orders, we recommend that you first synchronize all entities that the are involved with the order, such as sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## See Also  
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   

@@ -14,7 +14,13 @@ ms.author: bholtorf
 
 ---
 
-# Company and Business Unit Relationships
+# Ownership Models
+[!INCLUDE[d365fin](includes/cds_long_md.md)] provides two ownership models for records that are synchronized:
+
+* Person
+* Team
+
+## Mapping Teams
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], a company is a legal and business entity that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[d365fin](includes/cds_long_md.md)] comes to this concept is the business unit entity, which does not have legal or business implications.
 
 Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To enable synchronization, we create an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] that is named BCI_Company. This entity is equivalent to the Company entity in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To help ensure that records are synchronized in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we recommend the following setup for data in [!INCLUDE[d365fin](includes/cds_long_md.md)]:
@@ -37,7 +43,7 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 ![The security role controls data visibility.](media/cds_bu_team_company_2.png)
 
-In this example, a new Europe root business unit is created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both DEMF and ESMF. The Europe business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both DEMF and ESMF by setting the data visibility to **Parent/Child BU** on the associated security role.
+In this example, a new Europe root business unit is created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both DEMF and ESMF. The Europe business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both DEMF and ESMF by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI_Company record. When a BCI_Company record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for an entity, administrators can change the owning team but cannot clear the field.
 
@@ -45,6 +51,9 @@ Synchronization determines which team should own records. This is controlled by 
 
 Record values become read-only after a company is added and saved, so be sure to choose the correct company.
 Only records that have company data are eligible for synchronization between the application and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--Not sure what this means-->
+
+## Person Model
+You can couple individual salespeople,...
 
 ## See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

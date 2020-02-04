@@ -18,7 +18,9 @@ Business apps often use data from more than one source. [!INCLUDE[d365fin](inclu
 Depending on your business needs, you can set up the integration to synchronize data either to or from [!INCLUDE[d365fin](includes/cds_long_md.md)], or in both directions in near-real time. For example, if you are using [!INCLUDE[d365fin](includes/cds_long_md.md)] to exchange data with Dynamics 365 Sales, when a person updates information about an account the corresponding customer is updated in [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. for 
 
 ## Standard and Custom Entities
-[!INCLUDE[d365fin](includes/cds_long_md.md)] securely stores data in a set of entities, which are sets of records similar to how a table stores data within a database. [!INCLUDE[d365fin](includes/cds_long_md.md)] includes a base set of standard entities that cover typical scenarios, but you can also create custom entities specific to your organization.
+[!INCLUDE[d365fin](includes/cds_long_md.md)] securely stores data in a set of entities, which are sets of records similar to how a table stores data within a database. [!INCLUDE[d365fin](includes/cds_long_md.md)] includes a base set of standard entities that cover typical scenarios, but you can also create custom entities specific to your organization. 
+
+You can view standard, and custom entities if you have them on the Table Integration Mappings page.
 
 ## See Also
 [Company and Business Unit Relationships](admin-cds-company-concept.md)  

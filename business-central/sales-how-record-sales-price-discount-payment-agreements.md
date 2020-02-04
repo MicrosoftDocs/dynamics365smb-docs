@@ -46,9 +46,9 @@ Because sales prices and sales line discounts are based on a combination of item
     On the **Sales Line Discounts** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
-> [!Caution]
+> [!Note]
 > When you open the **Sales Prices** and **Sales Line Discounts** windows from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and cannot be changed or removed, indicated by the grayed value in the **Sales Code Filter** field.<br /><br />
-> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the windows from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet" feature. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the windows from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
@@ -116,7 +116,7 @@ The best price is the lowest permissible price with the highest permissible line
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## To copy sales prices  
-If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job. You can an action for the batch job on the **Sales Price Worksheet** page.    
+If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job, which you launch from the **Sales Price Worksheet** page.    
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2.  Choose the **Suggest Sales Price on Wksh.** action.  

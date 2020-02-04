@@ -62,7 +62,10 @@ For details about each role, such as the permissions and access levels, see [Set
 
 At the end of the setup guide, [!INCLUDE[d365fin](includes/d365fin_md.md)] prompts you to couple sales people to users in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in [!INCLUDE[crm_md](includes/crm_md.md)] usually have an owner (user) assigned to them, and if coupling between the user in [!INCLUDE[crm_md](includes/crm_md.md)] and the sales person in [!INCLUDE[d365fin](includes/d365fin_md.md)] does not exist, synchronization will fail. You can also do this later by using the **Couple Salespersons** action on the **Microsoft Dynamics 365 Connection Setup** page.
 
-## Set Up a Connection 
+## Integration Settings that are Specific to a [!INCLUDE[crm_md](includes/crm_md.md)] Integration
+Integration with [!INCLUDE[d365fin](includes/d365fin_md.md)] happens through [!INCLUDE[d365fin](includes/cds_long_md.md)], and there are a lot of standard settings and entities that are provided by the integration. In addition to the standard settings, there are some that are specific to [!INCLUDE[crm_md](includes/crm_md.md)]. The following sections list those.
+
+### Connection Settings in the Setup Guide
 The **Sales Connection Setup** assisted setup guide can help you set up the connection and specify advanced features, such as coupling between records.
 
 1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.
@@ -81,12 +84,9 @@ The **Sales Connection Setup** assisted setup guide can help you set up the conn
 |**Enable CDS Connection**|Enable the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)].|
 <!-- Is this relevant? |**Dynamics 365 SDK Version**|This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|-->
 
-## Setting Up User Accounts
-Integrate with Business Central through Common Data Service requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-
-## Connection Settings
-Enter the following information for the connection from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+### Connection Settings on the Sales Connection Setup Page 
+<!--verify the name of the page in the heading-->
+Enter the following information for the connection from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Field|Description|
 |-----|-----|
@@ -96,7 +96,7 @@ Enter the following information for the connection from [!INCLUDE[d365fin](inclu
 |**Dynamics 365 Business Central OData Web Service Username**|The name of the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service.|
 |**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
 
-4. Enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
+In addition to the settings above, enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Field|Description|
 |-----|-----|
@@ -104,8 +104,10 @@ Enter the following information for the connection from [!INCLUDE[d365fin](inclu
 |**Automatically Create Sales Orders**|Create a sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)] when a user creates and submits one in [!INCLUDE[d365fin](includes/cds_long_md.md)].|
 |**Automatically Process Sales Quotes**|Process a sales quote in [!INCLUDE[d365fin](includes/d365fin_md.md)] when a user creates and activates one in [!INCLUDE[d365fin](includes/cds_long_md.md)].|
 
-## Standard Sales Entity Mapping for Synchronization
+### User Account Settings
+Integrate with Business Central through Common Data Service requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
+### Standard Sales Entity Mapping for Synchronization
 <!--Need to rewrite this for CDS and move this content to Sales-->
 Entities in [!INCLUDE[d365fin](includes/cds_long_md.md)], such as accounts, are integrated with equivalent types of entities in [!INCLUDE[d365fin](includes/d365fin_md.md)],such as customers. To work with [!INCLUDE[d365fin](includes/cds_long_md.md)] data you set up links, called couplings, between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -127,7 +129,6 @@ The following table lists the standard mapping between entities in [!INCLUDE[d36
 |Sales Invoice Line|Invoice Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Sales Order Header|Sales Order|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales Header filter: **Document Type** is Order, **Status** is Released|
 |Sales Order Notes|Sales Order Notes|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
-
 
 ### Synchronization Rules
 <!--Need to rewrite this for CDS and move this content to Sales-->
@@ -151,7 +152,7 @@ The following table describes rules that control the synchronization between the
 |Posted Sales Invoices|Posted sales invoices are synchronized with sales invoices. Before an invoice can be synchronized, it is better to synchronize all other entities that can participate in the invoice, from salespersons to price lists. The Salesperson Code value in the invoice header defines the owner of the coupled entity in Sales.|
 |Sales Orders|When sales order integration is enabled, sales orders in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized with sales orders in INCLUDE SALES when they are released. Before you synchronize orders, we recommend that you first synchronize all entities that the are involved with the order, such as sales persons and price lists. The Salesperson Code field in the order header defines the owner of the coupled entity in [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-## Synchronization Jobe for a Sales Integration
+### Synchronization Jobs for a Sales Integration
 The jobs are run in the following order to avoid coupling dependencies between entities.  
 
 1.  CURRENCY - Dynamics 365 Sales synchronization job  
@@ -162,7 +163,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 6.  RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  
 7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
 
-## Default Synchronization Job Queue Entries  
+### Default Synchronization Job Queue Entries  
 <!--Probably need to update these for CDS, and perhaps move this to the Sales content-->
 The following table describes the default synchronization jobs.  
 

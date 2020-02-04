@@ -44,8 +44,8 @@ After you publish a web service, it is available to external parties. You can ve
 ### To verify the availability of a web service  
 
 1. In your browser, enter the relevant URL. The following table illustrates the types of URLs that you can enter for different web service types.  
-[!div class="mx-tdBreakAll"]
 
+    > [!div class="mx-tdBreakAll"]
     > |Type|Syntax|Example|
     > |----------------|------|-------|
     > |SOAP|https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|

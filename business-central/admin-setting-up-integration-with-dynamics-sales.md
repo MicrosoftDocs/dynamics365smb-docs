@@ -30,9 +30,8 @@ You must create a dedicated user account in your Office 365 subscription that bo
 > Do not use the administrator account for [!INCLUDE[d365fin](includes/cds_long_md.md)] for synchronization. Doing so will break the synchronization.
 > Also, to avoid constant synchronization, changes to data that are made by the integration user account are not synchronized. <!--What changes would this account make?--> 
 
-<!--Not sure we need this section
-## Minimum Permissions for User Accounts in [!INCLUDE[crm_md](includes/crm_md.md)]
-When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)]. -->
+## Minimum Permissions for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
+When you install the Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -71,7 +70,6 @@ The following table displays the minimum permissions on each tab for each securi
 |Post|Global|||Create, Read, Append To|
 |User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-<!--Need to move this to the Sales info
 ##### Sales
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
@@ -82,7 +80,6 @@ The following table displays the minimum permissions on each tab for each securi
 |Property Association|Global|Read|Read|Read|
 |Property Option Set Item|Global|Read|Read|Read|
 |Quote|Global|Read|Read|Read|
--->
 
 ##### Service
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|

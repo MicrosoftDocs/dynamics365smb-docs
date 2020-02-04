@@ -34,7 +34,7 @@ You must manually resolve the errors, but there are a few ways in which the page
 * The **Source** and **Destination** fields may contain links to the record where the error was found. Click the link to open the record and investigate the error.  
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions will clean up the list. Typically, you use these actions after you have resolved the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
 
-Sometimes the timestamps on records can cause conflicts. The "CRM Integration Record" table keeps the timestamps "Last Synch. Modified On" and "Last Synch. CRM Modified On" for the last integration done in both directions for a record. These timestamps are compared to timestamps on Business Central and Sales records. In Business Central, the timestamp is in the Integration Record table.
+Sometimes the timestamps on records can cause conflicts. The "CDS Integration Record" table keeps the timestamps "Last Synch. Modified On" and "Last Synch. CDS Modified On" for the last integration done in both directions for a record. These timestamps are compared to timestamps on Business Central and Sales records. In Business Central, the timestamp is in the Integration Record table.
 
 You can filter on records that are to be synched by comparing record timestamps in the table "Integration Table Mapping" fields "Synch. Modified On Filter" and “Synch. Int. Tbl. Mod. On Fltr.”.
 

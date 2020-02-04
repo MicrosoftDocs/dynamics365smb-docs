@@ -367,8 +367,6 @@
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-### Integration with Sales or Common Data Service, or Both
 ## Integrating with Common Data Service
 ### [Overview](admin-common-data-service.md)
 ### [Company and Business Unit Relationships](admin-cds-company-concept.md)
@@ -378,6 +376,7 @@
 ### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md)
 
 # Finance

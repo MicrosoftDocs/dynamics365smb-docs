@@ -51,17 +51,14 @@ Whether and where a record gets created depends on the synchronization direction
 
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
-<!--ask Ivan about this. we should consider removing this-->
 ## Synchronizing All Modified Records
-You can use the **Microsoft Dynamics 365 Sales Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. The table mappings are synchronized in the following order to avoid coupling dependencies between the entities:  
+You can use the **CDS Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] entities that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. Synchronization jobs synchronize table mappings in the following order to avoid coupling dependencies between the entities:  
 
-1.  CURRENCY - Dynamics 365 Sales synchronization job  
-2.  SALEPEOPLE - Dynamics 365 Sales synchronization job  
-3.  UNITOFMEASURE - Dynamics 365 Sales synchronization job  
-4.  CUSTOMER - Dynamics 365 Sales synchronization job  
-5.  CONTACTS - Dynamics 365 Sales synchronization job  
-6.  RESOURCE-PRODUCT \- Dynamics 365 Sales synchronization job  
-7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
+1.  CURRENCY  
+2.  SALESPEOPLE  
+3.  Vendor  
+4.  CUSTOMER  
+5.  CONTACTS  
 
 You can view the results of the synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 

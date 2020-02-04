@@ -38,7 +38,7 @@ Sometimes the values in the fields that you want to map are different. For examp
 but in [!INCLUDE[d365fin](includes/d365fin_md.md)] it's "US." That means you must transform the value when you synchronize data. This happens through transformation rules that you define for the fields. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions#transformation-rules).
 
 ### Handling Missing Option Values in Mapping
-[!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CRM Option Mapping** <!--CDS?--> system table to handled manually later. For example, by adding the missing options in either product and then updating the mapping. For more information, see [Handling Missing Option Values](admin-cds-missing-option-values.md).
+[!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CDS Option Mapping** system table to handled manually later. For example, by adding the missing options in either product and then updating the mapping. For more information, see [Handling Missing Option Values](admin-cds-missing-option-values.md).
 
 ## Coupling Records
 Coupling links records in [!INCLUDE[d365fin](includes/cds_long_md.md)] to records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)] are typically coupled with customers in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Coupling records offers the following benefits:
@@ -68,18 +68,16 @@ For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the t
 
 2.  In the table mapping entry in the list, clear the **Synch. Only Coupled Records** field.  
 
-<!--ask Ivan about this-->
 ## Using Configuration Templates on Table Mappings
-<!--Need to rewrite this for CDS and move this content to Sales-->
 You can assign configuration templates to table mappings to use for new records that are created in [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)]. For each table mapping, you can specify a configuration template to use for new [!INCLUDE[d365fin](includes/d365fin_md.md)] records and another template to use new [!INCLUDE[d365fin](includes/cds_long_md.md)] records.  
 
-If you install the default synchronization setup, most of the time, two configuration templates will be automatically created and used on the table mapping for [!INCLUDE[d365fin](includes/d365fin_md.md)] customers and [!INCLUDE[crm_md](includes/crm_md.md)] accounts: **CRMCUST** and **CRMACCOUNT**.  
+If you install the default synchronization setup, most of the time, two configuration templates will be automatically created and used on the table mapping for [!INCLUDE[d365fin](includes/d365fin_md.md)] customers and [!INCLUDE[crm_md](includes/crm_md.md)] accounts: **CDSCUST** and **CDSACCOUNT**.  
 
--   **CRMCUST** is used to create and synchronize new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on an account in [!INCLUDE[crm_md](includes/crm_md.md)].  
+-   **CDSCUST** is used to create and synchronize new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on an account in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This template is created by copying an existing configuration template for customers in the application. The **CRMCUST** is created only if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, the value will be used instead of the value in the mapped field for the [!INCLUDE[crm_md](includes/crm_md.md)] account. For example, if the **Country/Region** field in an account in [!INCLUDE[crm_md](includes/crm_md.md)] contains *U.S.* and the **Country/Region** field in the configuration template is *GB*, then *GB* is used as the **Country/Region** for the customer in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+     This template is created by copying an existing configuration template for customers in the application. The **CDSCUST** is created only if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, the value will be used instead of the value in the mapped field for the [!INCLUDE[d365fin](includes/cds_long_md.md)] account. For example, if the **Country/Region** field in an account in [!INCLUDE[d365fin](includes/cds_long_md.md)] contains *U.S.* and the **Country/Region** field in the configuration template is *GB*, then *GB* is used as the **Country/Region** for the customer in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
--   **CRMACCOUNT** creates and synchronizes new accounts in [!INCLUDE[crm_md](includes/crm_md.md)] based on an account in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   **CDSACCOUNT** creates and synchronizes new accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)] based on an account in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### To specify configuration templates on a table mapping  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
@@ -89,6 +87,6 @@ If you install the default synchronization setup, most of the time, two configur
 3.  Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 ## See Also  
-[About Integrating Dynamics 365 Business Central with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[About Integrating Dynamics 365 Business Central with [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synchronizing Business Central and [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)   
 [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

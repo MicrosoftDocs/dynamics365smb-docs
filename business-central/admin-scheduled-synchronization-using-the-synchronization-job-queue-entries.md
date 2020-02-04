@@ -16,9 +16,6 @@ ms.author: bholtorf
 
 # Scheduling a Synchronization between Business Central and Common Data Service
 You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with Common Data Service on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and Common Data Service records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. There are several synchronization jobs that are available out-of-the-box. You can view them on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
-<!--
-> [!Note]
-> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.-->
 
 ## Synchronization Process  
 Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity to synchronize.  

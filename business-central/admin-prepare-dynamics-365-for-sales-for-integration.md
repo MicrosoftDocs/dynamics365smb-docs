@@ -96,6 +96,9 @@ Enter the following information for the connection from [!INCLUDE[crm_md](includ
 |**Dynamics 365 Business Central OData Web Service Username**|The name of the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service.|
 |**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[d365fin](includes/d365fin_md.md)] through OData Web service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
 
+|**Dynamics 365 SDK Version**|If you are integrating with an on-premesis version of [!INCLUDE[crm_md](includes/crm_md.md)], this is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. This version equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|-->
+
+
 In addition to the settings above, enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Field|Description|
@@ -115,10 +118,6 @@ The following table lists the standard mapping between entities in [!INCLUDE[d36
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synchronization Direction|Default Filter|
 |-------------------------------------------|-----|-------------------------|--------------|
-|Salesperson/Purchaser|User|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
-|Customer|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Customer** and **Status** is **Active**.|
-|Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: The contact is assigned to a company and the parent customer type is **Account**|
-|Currency|Transaction Currency|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Unit of Measure|Unit Group|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Item|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Sales Inventory**|
 |Resource|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Services**|
@@ -131,7 +130,7 @@ The following table lists the standard mapping between entities in [!INCLUDE[d36
 |Sales Order Notes|Sales Order Notes|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### Synchronization Rules
-<!--Need to rewrite this for CDS and move this content to Sales-->
+<!--Need to rewrite this for CDS and move this content to Sales. Use the entities listed above and remove the other rules because we're in the context of sales.-->
 The following table describes rules that control the synchronization between the apps.
 
 > [!NOTE]  
@@ -163,6 +162,7 @@ The jobs are run in the following order to avoid coupling dependencies between e
 6.  RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  
 7.  ITEM-PRODUCT - Dynamics 365 Sales synchronization job  
 
+###
 ### Default Synchronization Job Queue Entries  
 <!--Probably need to update these for CDS, and perhaps move this to the Sales content-->
 The following table describes the default synchronization jobs.  
@@ -180,6 +180,12 @@ The following table describes the default synchronization jobs.
 |SALESPRC-PRODUCTPRICE - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service product prices with [!INCLUDE[d365fin](includes/d365fin_md.md)] sales prices.||PRODUCT PRICE-SALES PRICE|30|1440<br> (24 hrs)|
 |UNITOFMEASURE - Dynamics 365 Sales synchronization job|Synchronizes Common Data Service unit groups with [!INCLUDE[d365fin](includes/d365fin_md.md)] units of measure.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to Common Data Service|UNIT OF MEASURE|30|720<br> (12 hrs)|  
 |Customer Statistics - Dynamics 365 Sales synchronization|Updates Common Data Service accounts with the latest [!INCLUDE[d365fin](includes/d365fin_md.md)] customer data. In Common Data Service, this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution is installed in Common Data Service. For more information, see [About the Business Central Integration Solution](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Not applicable|Not applicable|30|Not applicable| 
+
+### on prem note
+> [!Note]
+> If you are connecting an on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] and you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). This step is not required when connecting an online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+
 
 ## See Also  
 [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  

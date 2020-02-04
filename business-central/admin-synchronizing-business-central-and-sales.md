@@ -35,39 +35,26 @@ When synchronization is set up you can couple [!INCLUDE[d365fin](includes/d365fi
 |Scheduled synchronization|Synchronize all changes to data for all table mappings.<br /><br /> You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[d365fin](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue.|[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 ## Standard Entity Mapping for Synchronization
-
-<!--Need to rewrite this for CDS and move this content to Sales-->
 Entities in [!INCLUDE[d365fin](includes/cds_long_md.md)], such as accounts, are integrated with equivalent types of entities in [!INCLUDE[d365fin](includes/d365fin_md.md)],such as customers. To work with [!INCLUDE[d365fin](includes/cds_long_md.md)] data you set up links, called couplings, between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 The following table lists the standard mapping between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides.
-
-<!--need to remove the sales specific mappings. have already ported the whole table to the sales content-->
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synchronization Direction|Default Filter|
 |-------------------------------------------|-----|-------------------------|--------------|
 |Salesperson/Purchaser|User|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No**|
 |Customer|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Customer** and **Status** is **Active**.|
+|Vendor|Account|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales account filter: **Relationship Type** is **Vendor** and **Status** is **Active**.|
 |Contact|Contact|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Type** is **Person** and the contact is assigned to a company. Sales contact filter: The contact is assigned to a company and the parent customer type is **Account**|
 |Currency|Transaction Currency|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Unit of Measure|Unit Group|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Item|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Sales Inventory**|
-|Resource|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Services**|
-|Customer Price Group|Price List|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Price|Product Price List|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group**|
-|Opportunity|Opportunity|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
-|Sales Invoice Header|Invoice|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Invoice Line|Invoice Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sales Order Header|Sales Order|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales Header filter: **Document Type** is Order, **Status** is Released|
-|Sales Order Notes|Sales Order Notes|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
+
 
 ### Tip for Admins: Viewing Entity Mappings
 You can view the mapping between the entities in [!INCLUDE[d365fin](includes/cds_long_md.md)] and the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and the fields in [!INCLUDE[d365fin](includes/cds_long_md.md)] entities on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronization.
 
 ### Tip for Developers: Mapping Fields in Business Central to the Option Sets in Common Data
-<!--Need to move this content to Sales.-->
-If you are a developer and you want to add options to the option sets in [!INCLUDE[d365fin](includes/cds_long_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[crm_md](includes/crm_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+If you are a developer and you want to add options to the option sets in [!INCLUDE[d365fin](includes/cds_long_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[d365fin](includes/cds_long_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.md)] tables for the **Option** field in the **Account** entity in [!INCLUDE[crm_md](includes/crm_md.md)].
+The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.md)] tables for the **Option** field in the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 |Table|Option Field in the Account Entity|
 |----------------------|-------------------------------------------|

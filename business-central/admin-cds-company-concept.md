@@ -37,7 +37,7 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 ![The security role controls data visibility.](media/cds_bu_team_company_2.png)
 
-In this example, a new "Europe" root business unit is manually created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both DEMF and ESMF. The Europe business unit is not related to synchronization. However, it can give members of the "EUR Sales" team access to account data in both DEMF and ESMF by setting the data visibility to **Parent/Child BU** on the associated security role.
+In this example, a new Europe root business unit is created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both DEMF and ESMF. The Europe business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both DEMF and ESMF by setting the data visibility to **Parent/Child BU** on the associated security role.
 
 Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI_Company record. When a BCI_Company record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for an entity, administrators can change the owning team but cannot clear the field.
 

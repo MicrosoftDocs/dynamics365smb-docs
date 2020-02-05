@@ -15,14 +15,14 @@ ms.author: bholtorf
 ---
 
 # Data Ownership Models
-[!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for that data you store. For more information, see [Entity ownership](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/types-of-entities#entity-ownership).
+[!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for that data you store. For more information, see [Entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership).
 
 When you set up integration between [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose one of two ownership models for records that are synchronized:
 
 * Team 
 * Person (user)
 
-Actions that can be performed on these records can be controlled on a user level. For more information, see [User and team entities](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/user-team-entities). We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.
+Actions that can be performed on these records can be controlled on a user level. For more information, see [User and team entities](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-entities). We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.
 
 ## Team Ownership
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], a company is a legal and business entity that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[d365fin](includes/cds_long_md.md)] comes to this concept is the business unit entity, which does not have legal or business implications.

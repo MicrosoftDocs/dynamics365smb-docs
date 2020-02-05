@@ -33,19 +33,19 @@ This walkthrough describes how to integrate new and existing extensions with [!I
 This walkthrough requires the following:  
 
 - [!INCLUDE[d365fin](includes/cds_long_md.md)], including the following:  
-- Worker entity.
+    - Worker entity.
 
-> [!NOTE]  
-> The worker entity is part of Talent Core HR solution and it must be installed. (https://docs.microsoft.com/en-us/dynamics365/talent/corehrentities#worker-entities).
-- The URL of your CDS environment.
-- The user name and password of a user account that has full permissions to add and modify entities.  
+    > [!NOTE]  
+    > The worker entity is part of Talent Core HR solution and it must be installed. (https://docs.microsoft.com/en-us/dynamics365/talent/corehrentities#worker-entities).
+    - The URL of your CDS environment.
+    - The user name and password of a user account that has full permissions to add and modify entities.  
 - [!INCLUDE[prodshort](includes/prodshort.md)], including the following:  
-- The CRONUS International Ltd. demonstration data.  <!--need to tell them where they can get the data -->
-- Integration with [!INCLUDE[d365fin](includes/cds_long_md.md)] is enabled, including the default synchronization setup and a working connection between [!INCLUDE[prodshort](includes/prodshort.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For more information, see []()....  -->
-- Visual Studio Code with the AL Language extension installed. For more information, see [AL Language Extension Configuration](devenv-al-extension-configuration.md). The AL Language extension for Visual Studio is free, and you can download it [here](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).
+    - The CRONUS International Ltd. demonstration data.  <!--need to tell them where they can get the data -->
+    - Integration with [!INCLUDE[d365fin](includes/cds_long_md.md)] is enabled, including the default synchronization setup and a working connection between [!INCLUDE[prodshort](includes/prodshort.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For more information, see []()....  -->
+    - Visual Studio Code with the AL Language extension installed. For more information, see [AL Language Extension Configuration](devenv-al-extension-configuration.md). The AL Language extension for Visual Studio is free, and you can download it [here](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.al).
 
-> [!NOTE]  
-> Make sure your integration user has permission to access the Worker entity.
+    > [!NOTE]  
+    > Make sure your integration user has permission to access the Worker entity.
 
 ## Create an Integration Table in [!INCLUDE[prodshort](includes/prodshort.md)] for the [!INCLUDE[d365fin](includes/cds_long_md.md)] Entity  
 To integrate data from a CDS entity into [!INCLUDE[prodshort](includes/prodshort.md)], you must create a table object in [!INCLUDE[prodshort](includes/prodshort.md)] that is based on the [!INCLUDE[d365fin](includes/cds_long_md.md)] entity, and then import the new table into the [!INCLUDE[prodshort](includes/prodshort.md)] database. For this walkthrough we will create a table object that describes the schema for the **Worker** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] in the [!INCLUDE[prodshort](includes/prodshort.md)] database. 

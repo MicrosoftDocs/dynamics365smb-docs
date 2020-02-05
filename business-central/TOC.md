@@ -369,7 +369,7 @@
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrating with Common Data Service
 ### [Overview](admin-common-data-service.md)
-### [Company and Business Unit Relationships](admin-cds-company-concept.md)
+### [Data Ownership Models](admin-cds-company-concept.md)
 ### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Set Up a Connection to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)

@@ -14,21 +14,25 @@ ms.author: bholtorf
 
 ---
 
-# Ownership Models
-[!INCLUDE[d365fin](includes/cds_long_md.md)] provides two ownership models for records that are synchronized:
+# Data Ownership Models
+[!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for that data you store. For more information, see [Entity ownership](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/types-of-entities#entity-ownership).
 
-* Person
-* Team
+When you set up integration between [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose one of two ownership models for records that are synchronized:
 
-## Mapping Teams
+* Team 
+* Person (user)
+
+Actions that can be performed on these records can be controlled on a user level. For more information, see [User and team entities](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/user-team-entities). We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.
+
+## Team Ownership
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], a company is a legal and business entity that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[d365fin](includes/cds_long_md.md)] comes to this concept is the business unit entity, which does not have legal or business implications.
 
 Because business units lack legal and business implications, you cannot force a one-to-one (1:1) mapping to synchronize data between a company and a business unit, either one-way or bi-directional. To enable synchronization, we create an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] that is named BCI_Company. This entity is equivalent to the Company entity in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To help ensure that records are synchronized in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we recommend the following setup for data in [!INCLUDE[d365fin](includes/cds_long_md.md)]:
 
 * For each [!INCLUDE[d365fin](includes/d365fin_md.md)] company record that is enabled for synchronization, an associated BCI_Company record is created.
-* When a BCI_Company record is created and synchronization is enabled, a default business unit is created that has the same name. Although a default team is automatically created for that business unit, the business unit is not used. <!--Is the company used instead?-->
-* A separate owner team is created with the same name <!--as the business unit and company?--> and associated with the business unit.<!--to do what?-->
-* By default, the owner of any record that is created and synchronized <!--I have replaced instances of "dual-write" (and derivations) with "synchronized." Hope that was correct...--> to [!INCLUDE[d365fin](includes/cds_long_md.md)] is set to the "DW Owner" team that is linked to the associated business unit.
+* When new company is created and synchronization is enabled, a default business unit is created that has the same name as the company, prefixed with "BCI." Although a default team is automatically created for that business unit, the business unit is not used. <!--Is the company used instead?-->
+* A separate owner team is created with the same name as the company and associated with the business unit. The name of the team is also prefixed with "BCI." <!--to do what?-->
+* By default, the owner of any record that is created and synchronized to [!INCLUDE[d365fin](includes/cds_long_md.md)] is set to the "DW Owner" team that is linked to the associated business unit.
 * The following image shows an example of this data setup in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 ![The root business unit is on top, the teams are in the center, and then the companies are at the bottom.](media/cds_bu_team_company.png)
@@ -52,8 +56,8 @@ Synchronization determines which team should own records. This is controlled by 
 Record values become read-only after a company is added and saved, so be sure to choose the correct company.
 Only records that have company data are eligible for synchronization between the application and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--Not sure what this means-->
 
-## Person Model
-You can couple individual salespeople,...
+## Person Ownership
+If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team described in the previous section are created.  
 
 ## See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

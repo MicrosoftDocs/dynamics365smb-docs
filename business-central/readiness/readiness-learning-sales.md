@@ -1,16 +1,15 @@
 ---
-title: "Sales learning catalog"
-description: "Sales learning catalog"
+title: Partner sales and marketing learning catalog
+description: Find all the available learning for Business Central.
 author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+ms.date: 01/05/2020
 ms.topic: article
-ms.service: "dynamics365-business-central"
-ms.reviewer: margoc
 ms.author: solsen
 ---
 
-# Sales Learning Catalog
+# Partner Sales and Marketing Learning Catalog
+
+Are you responsible for helping your customers buy the right solution?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 

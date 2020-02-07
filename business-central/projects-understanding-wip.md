@@ -11,11 +11,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
 
 ---
 # Understanding WIP Methods
+As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job. Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing. In many cases, you might post expenses for a job before invoicing a job. When only expenses have been posted, your financial statement will be inaccurate.
+
+To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md).
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
 
 | WIP Method | Calculation Formula | Calculation Description |

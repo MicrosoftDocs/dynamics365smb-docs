@@ -14,6 +14,9 @@ ms.date: 10/01/2019
 # About Common Data Service
 Business apps often use data from more than one source. [!INCLUDE[d365fin](includes/cds_long_md.md)] combines data into a single set of logic, which makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[d365fin](includes/cds_long_md.md)], or even your own application built on top of [!INCLUDE[d365fin](includes/cds_long_md.md)], to [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information about [!INCLUDE[d365fin](includes/cds_long_md.md)], see [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
+## Getting Started with [!INCLUDE[d365fin](includes/cds_long_md.md)]
+[!INCLUDE[d365fin](includes/cds_long_md.md)] is 
+
 ## Bi-Directional or Uni-directional Data Synchronization
 Depending on your business needs, you can set up the integration to synchronize data either to or from [!INCLUDE[d365fin](includes/cds_long_md.md)], or in both directions in near-real time. For example, a salesperson can create a sales order in [!INCLUDE[d365fin](includes/cds_long_md.md)], and the order will be synchronized to [!INCLUDE[d365fin](includes/cds_long_md.md)]. Conversely, from [!INCLUDE[d365fin](includes/cds_long_md.md)], the salesperson can view information from [!INCLUDE[d365fin](includes/cds_long_md.md)] about the availability of the item on the order. 
 

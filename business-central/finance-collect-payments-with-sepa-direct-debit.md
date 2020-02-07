@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/27/2020
+    ms.date: 02/04/2020
     ms.author: sgroespe
 
 ---
@@ -111,7 +111,7 @@ Before you can process customer payments electronically by exporting direct debi
 
  4. Choose the **OK** button.  
 
-      A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
+A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
 
 ### To export a direct-debit collection entry to a bank file  
  1. On the **Direct Debit Collections** page, choose the **Direct Debit Collect. Entries** action.  

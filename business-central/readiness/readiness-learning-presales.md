@@ -1,10 +1,10 @@
 ---
 title: Partner pre-sales learning catalog
 description: Find all the available learning for Business Central.
-author: SusanneWindfeldPedersen
-ms.date: 01/05/2020
+author: loreleishannonmsft
+ms.date: 01/09/2020
 ms.topic: article
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Partner Pre-Sales Learning Catalog
@@ -48,10 +48,10 @@ The following catalog is organized from core knowledge to specific domains, and 
 | Content                                                                                                                                                           | Description                                                                                                                                                                                                                                                     | Format                           | Length                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
 | [The Sales Demo Playbook (Part 1 of 2)](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx)	| Twenty pre-configured, scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|	Download	| |	
-| [The Sales Demo Playbook (Part 2 of 2)](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/)|	Twenty pre-configured scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|	Download | |
-| [Demo: The Sales Representative- Summer 2019](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Representative works and behaves in Business Central. | YouTube video | 5 minutes 45 seconds |
-| [Demo: The Sales Manager - Summer 2019](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Manager works and behaves in Business Central. | YouTube video | 6 minutes 44 seconds |
-| [Demo: The Project Manager - Summer 2019](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role Project Manager works and behaves in Business Central. | YouTube video | 5 minutes 25 seconds |
+| [The Sales Demo Playbook (Part 2 of 2)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)|	Twenty pre-configured scripted demo scenes built around Business Central. Choose between full click-through assistance (download 1) and non-click-through assistance (download 2).|	Download | |
+| [Demo: The Sales Representative- Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Representative works and behaves in Business Central. | YouTube video | 5 minutes 45 seconds |
+| [Demo: The Sales Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role of the Sales Manager works and behaves in Business Central. | YouTube video | 6 minutes 44 seconds |
+| [Demo: The Project Manager - Summer 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/) | Join Craig as he shows you how the role Project Manager works and behaves in Business Central. | YouTube video | 5 minutes 25 seconds |
 | [Demo: The Owner - Summer 2019](https://mbspartner.microsoft.com/secure/coursematerials/D365/Standalone/Dynamics_365_Business_Central_-_PARTNER_SALES_PLAYBOOK_Fall_2018_-_w_CLICK_ASSISTANCE.pptx) | Join Craig as he shows you how the role Owner works and behaves in Business Central. | YouTube video | 10 minutes 32 seconds |
 | [Demo: The Marketing Manager - Summer 2019](https://youtu.be/iEtUbitWz4o) | Join Craig as he shows you how the role of the Marketing Manager works and behaves in Business Central. | YouTube video | 7 minutes 40 seconds |
 | [Demo: The External Accountant - Summer 2019](https://youtu.be/qegEAAEiQ0M) | Join Craig as he shows you how the role of the External Accountant works and behaves in Business Central. | YouTube video | 2 minutes 46 seconds |

@@ -179,9 +179,6 @@ end;
 
 When changes occur in the **table 5200 Employee**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling Business Central records with Common Data Service records.
 
-> [!NOTE]  
-> If you want to couple and synchronize records created prior to this customization, make sure to navigate to **Common Data Service Connection Setup** page and click on the action **Generate Integration IDs**.
-
 4. In codeunit **5332 "Lookup CRM Tables"**, subscribe to the **OnLookupCRMTables** event, as follows:
 ```
 [EventSubscriber(ObjectType::Codeunit, Codeunit::"Lookup CRM Tables", 'OnLookupCRMTables', '', true, true)]

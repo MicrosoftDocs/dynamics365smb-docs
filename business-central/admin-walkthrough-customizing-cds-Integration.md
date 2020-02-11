@@ -154,7 +154,7 @@ begin
 end;
 ```
 
-3. Now we must enable integration records for the table in [!INCLUDE[prodshort](includes/prodshort.md)] that will be used for integration with [!INCLUDE[d365fin](includes/cds_long_md.md)]. In this case, that's **table 5200 Employee**. The following code example is a subscriber to the **OnIsIntegrationRecord** event in **codeunit 5150 "Integration Management"** that we can use to enable integration records for **table 5200 Employee**.
+3. Now we must enable integration records for the table in [!INCLUDE[prodshort](includes/prodshort.md)] that will be used for integration with [!INCLUDE[d365fin](includes/cds_long_md.md)]. In this case, that's **table 5200 Employee**. The following code examples are two subscribers to the **OnIsIntegrationRecord** and **OnAfterAddToIntegrationPageList** events in **codeunit 5150 "Integration Management"** that we can use to enable integration records for **table 5200 Employee**.
 
 ```
 [EventSubscriber(ObjectType::Codeunit, Codeunit::"Integration Management", 'OnIsIntegrationRecord', '', true, true)]
@@ -164,6 +164,23 @@ begin
         isIntegrationRecord := true;
 end;
 ```
+```
+[EventSubscriber(ObjectType::Codeunit, Codeunit::"Integration Management", 'OnAfterAddToIntegrationPageList', '', true, true)]
+    local procedure HandleOnAfterAddToIntegrationPageList(var TempNameValueBuffer: Record "Name/Value Buffer"; var NextId: Integer)
+    begin
+        TempNameValueBuffer.Init();
+        TempNameValueBuffer.ID := NextId;
+        NextId := NextId + 1;
+        TempNameValueBuffer.Name := Format(Page::"Employee Card");
+        TempNameValueBuffer.Value := Format(Database::"Employee");
+        TempNameValueBuffer.Insert();
+    end;
+```
+
+When changes occur in the **table 5200 Employee**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling Business Central records with Common Data Service records.
+
+> [!NOTE]  
+> If you want to couple and synchronize records created prior to this customization, make sure to navigate to **Common Data Service Connection Setup** page and click on the action **Generate Integration IDs**.
 
 4. In codeunit **5332 "Lookup CRM Tables"**, subscribe to the **OnLookupCRMTables** event, as follows:
 ```
@@ -237,7 +254,6 @@ pageextension 50101 "Employee Synch Extension" extends "Employee Card"
                     ApplicationArea = All;
                     Visible = true;
                     Image = Log;
-                    Enabled = CDSIsCoupledToRecord;
                     ToolTip = 'View integration synchronization jobs for the customer table.';
 
                     trigger OnAction()

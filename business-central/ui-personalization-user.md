@@ -90,8 +90,8 @@ When you want to show or hide an action, the options under the arrowhead define 
 ### To move actions and action groups
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
 
-    - You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
-    - You cannot move an action group into a promoted category.
+- You can move individual actions into the promoted categories, but you cannot rearrange the order of the actions in the category.
+- You cannot move an action group into a promoted category.
 
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.

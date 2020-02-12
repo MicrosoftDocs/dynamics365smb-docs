@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/07/2020
+    ms.date: 02/11/2020
     ms.author: sgroespe
 
 ---
@@ -154,7 +154,7 @@ If the values in the fields you are mapping differ, you must use transformation 
 |**Date Formatting**|Specify how to display dates. For example, you can transform DD-MM-YYYY to YYYY-MM-DD.|
 |**Decimal Formatting**|Define rules for decimal placement and rounding precision.|
 |**Regular Expression - Match**|Use a regular expression to find one or more values. This is similar to the **Substring** and **Regular Expression - Replace** options.|
-|**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the [example](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) below.|
+|**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the "Tip for Developers: Example of the Custom Option" section below.|
 |**Date and Time Formatting**|Define how to display the current date as well as the time of day.|
 
 #### Tip for Developers: Example of the Custom Option

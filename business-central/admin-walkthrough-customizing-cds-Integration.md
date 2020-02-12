@@ -166,15 +166,15 @@ end;
 ```
 ```
 [EventSubscriber(ObjectType::Codeunit, Codeunit::"Integration Management", 'OnAfterAddToIntegrationPageList', '', true, true)]
-    local procedure HandleOnAfterAddToIntegrationPageList(var TempNameValueBuffer: Record "Name/Value Buffer"; var NextId: Integer)
-    begin
-        TempNameValueBuffer.Init();
-        TempNameValueBuffer.ID := NextId;
-        NextId := NextId + 1;
-        TempNameValueBuffer.Name := Format(Page::"Employee Card");
-        TempNameValueBuffer.Value := Format(Database::"Employee");
-        TempNameValueBuffer.Insert();
-    end;
+local procedure HandleOnAfterAddToIntegrationPageList(var TempNameValueBuffer: Record "Name/Value Buffer"; var NextId: Integer)
+begin
+    TempNameValueBuffer.Init();
+    TempNameValueBuffer.ID := NextId;
+    NextId := NextId + 1;
+    TempNameValueBuffer.Name := Format(Page::"Employee Card");
+    TempNameValueBuffer.Value := Format(Database::"Employee");
+    TempNameValueBuffer.Insert();
+end;
 ```
 
 When changes occur in the **table 5200 Employee**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling Business Central records with Common Data Service records.

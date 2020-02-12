@@ -73,6 +73,9 @@ An *action group* is an element that expands to display other actions or groups.
 
 A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
 
+> [!NOTE]
+> You cannot personalize the action bar that appears in parts on the page (for example, the sales lines part on the **Sales Order** page).
+
 ### To remove, hide, and show actions and action groups
 When you want to show or hide an action, the options under the arrowhead define what can do depending on the action's state.
 1. Choose the arrowhead for an action or action group.

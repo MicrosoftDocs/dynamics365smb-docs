@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 02/04/2020
     ms.author: sgroespe
 
 ---
@@ -28,7 +28,10 @@ With your customer’s consent, you can collect payments directly from the custo
 >  To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
 
 ## Setting Up SEPA Direct Debit
-From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format, but in your country/region,other formats for electronic payments may be available.  
+From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer’s bank account to your bank account according to the SEPA Direct Debit format.
+
+> [!NOTE]
+> The global version of [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the SEPA direct debit format only. Your country/region version may support other formats for electronic payment. See under **Local Functionality** in the table of contents.  
 
 To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[d365fin](includes/d365fin_md.md)] , you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -108,7 +111,7 @@ Before you can process customer payments electronically by exporting direct debi
 
  4. Choose the **OK** button.  
 
-      A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
+A direct-debit collection is added to the **Direct Debit Collections** page, and one or more direct-debit collection entries are created.  
 
 ### To export a direct-debit collection entry to a bank file  
  1. On the **Direct Debit Collections** page, choose the **Direct Debit Collect. Entries** action.  

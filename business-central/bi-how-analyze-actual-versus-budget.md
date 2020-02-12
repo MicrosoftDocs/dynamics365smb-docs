@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -59,6 +59,8 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 2. On the **Chart of Accounts** page, select the relevant general ledger account, and then choose the **G/L Account Balance/Budget** action.  
 3. At the top of the page, fill in the fields as necessary to define what is shown.   
 4. To see a specification of an amount shown, choose the field.  
+
+## See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## See Also
 [Business Intelligence](bi.md)  

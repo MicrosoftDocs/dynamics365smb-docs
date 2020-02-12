@@ -57,7 +57,7 @@ Sometimes you may need to change the license that is assigned to a user. For exa
 1. Change the license in the Microsoft 365 Admin Center. For more information, see [Add users individually or in bulk to Office 365](https://aka.ms/CreateOffice365Users).
 2. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as an administrator.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-4. On the **Users** page, choose the **Refresh all User Groups** action.
+4. On the **Users** page, choose the **Restore User Default User Groups** action.
 
 The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -84,7 +84,7 @@ If you change the user in Office 365 afterwards, and you need to synchronize the
 ## The Device License
 With the Dynamics 365 Business Central Device license, multiple users can use a device that is licensed with the Device license to operate a point of sale device, shop floor device, or warehouse device. For more information, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
 
-The Device license is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called Dynamics 365 Business Central Device Users* can log in concurrently.
+The Device license is implemented as a concurrent-user model. When you have purchased X number of device licenses, up to X number of users from the designated group called Dynamics 365 Business Central Device Users can log in concurrently.
 
 Your company's Office 365 administrator or Microsoft partner should create the designated device group and add device users as members of that group. They can do this in the [Microsoft 365 Admin Center](https://admin.microsoft.com/) or on the [Azure Portal](https://portal.azure.com/).
 

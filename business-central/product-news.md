@@ -37,4 +37,3 @@ For the partner community, we publish information on [Microsoft Dynamics 365 Bus
 [Dynamics 365 Business Central Community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  

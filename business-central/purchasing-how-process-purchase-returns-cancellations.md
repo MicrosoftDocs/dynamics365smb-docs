@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
 
 ---
@@ -176,6 +176,8 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
 2.  Fill in the fields as necessary, and then choose the **OK** button.  
 3.  Alternatively, delete the individual purchase return orders manually.
+
+## See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

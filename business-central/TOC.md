@@ -298,7 +298,7 @@
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 #### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 #### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)

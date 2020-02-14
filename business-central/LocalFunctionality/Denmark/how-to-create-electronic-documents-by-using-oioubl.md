@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 02/14/2020
     ms.author: bholtorf
 
 ---
@@ -42,8 +42,8 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 
 An XML file is created and stored at the default downlaod location on your system.
 
-    > [!Note]  
-    > For on-premises versions of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] an XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page.  
+> [!NOTE]  
+> For on-premises versions of [!INCLUDE[prodshort](../../includes/prodshort.md)] an XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page.  
 
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  

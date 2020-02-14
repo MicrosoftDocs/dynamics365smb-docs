@@ -40,7 +40,7 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 3.  Choose the **Create Electronic <*document type*>** action.  
 4.  Optionally, in the **Create Electronic <*document type*>** page, set additional filters, and then choose the **OK** button.  
 
-An XML file is created and stored at the default downlaod location on your system.
+This generates an XML file that is stored at the default download location on your device.
 
 > [!NOTE]  
 > For on-premises versions of [!INCLUDE[prodshort](../../includes/prodshort.md)] an XML file is created and stored at the location that was defined on the **Sales & Receivables Setup** page.  

@@ -37,10 +37,17 @@ This topic describes how to couple one or more records in [!INCLUDE[d365fin](inc
 2.  Choose the **Synchronize Now** action.  
 3.  If a record can be synchronized in one direction, select the option that specifies the direction of data update, and then choose **OK**.  
 
+## To synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)]  
+1.  In [!INCLUDE[crm_md](includes/crm_md.md)], open the form for the record you want to couple. For example, the Account card or Contact card form.  
+2.  Choose the **[!INCLUDE[d365fin](includes/d365fin_md.md)]** action in the ribbon to open and couple record automatically.
+
+> [!Note]
+> You can synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)] automatically only when **Sync. Only Coupled Records** is disabled and the synchronization direction is set to Bidirectional or From Integration Table on the **Integration Table Mapping** page for the record. For more information, see [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
 ## To synchronize multiple records  
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the list page for the record, such as the Customers or Contacts list pages.  
 2.  Select the records that you want to synchronize, and then choose the **Synchronize Now** action.  
-3.  If records can be synchronized in one direction, select the option that specifies the direction of data update, and then choose **OK**.  
+3.  If records can be synchronized in one direction, select the option that specifies the direction, and then choose **OK**.  
 
 ## See Also  
 [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)

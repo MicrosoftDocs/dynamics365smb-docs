@@ -1,10 +1,10 @@
 ---
 title: Partner sales and marketing learning catalog
 description: Find all the available learning for Business Central.
-author: SusanneWindfeldPedersen
-ms.date: 01/05/2020
+author: loreleishannonmsft
+ms.date: 02/18/2020
 ms.topic: article
-ms.author: solsen
+ms.author: v-lshannon
 ---
 
 # Partner Sales and Marketing Learning Catalog

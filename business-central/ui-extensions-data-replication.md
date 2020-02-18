@@ -15,7 +15,7 @@ ms.author: jenolson
 
 ---
 
-# Intelligent Cloud Extensions
+# Intelligent Cloud Extensions for Cloud Migration
 
 This extension will connect your data from [!INCLUDE [prodshort](includes/prodshort.md)] on-premises with [!INCLUDE [prodshort](includes/prodshort.md)] online for purposes of migrating your solution to the cloud.  
 

@@ -29,7 +29,7 @@ The payment journal is a general journal that is optimized for making payments. 
 
 - Print checks and submit payments electronically to your bank
 
-    In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. For more information, see [Make Check Payments](payables-how-work-checks.md) and [Make Electronic Payments](payables-how-export-payments-bank-file.md).  
+    In addition to recording that the payment is made, you can also use the **Payment Journal** page to output the payment for further processing by your bank. For more information, see [Make Check Payments](payables-how-work-checks.md) and [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## To make payments in the payment journal
 
@@ -46,7 +46,7 @@ The payment journal is a general journal that is optimized for making payments. 
 
 ## See Also
 [Make Check Payments](payables-how-work-checks.md)  
-[Make Electronic Payments](payables-how-export-payments-bank-file.md)  
+[Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Export a Positive Pay file](finance-how-positive-pay.md)  

@@ -42,11 +42,26 @@ Magnetic Ink Character Recognition (MICR) fonts are installed and available to u
 > [!NOTE]
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
 
-### MICR E-13B Specifications 
+### MICR E-13B Specifications
+The full specification of MICR E-13B fonts can be found in the vendor's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
-According to the font vendor documentation (https://www.idautomation.com/micr-fonts/e13b/), these are specifications about MICR E-13B fonts that might be useful in calibration of fonts used in check layouts with specific MICR printers.
+The following image shows selected specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
+![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
+### MICR CMC-7 Specifications
+The full specification of MICR CMC-7 fonts can be found in the vendor's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
+
+The following image shows selected specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
+
+![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+
+### Secure Font Specifications
+The full specification of check security fonts can be found in the vendor's documentation here: (https://www.idautomation.com/security-fonts/).
+
+The following image shows selected specifications for check security fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
+
+![Check Security Font Specifications](media/font_check-security-font_Specifications.png "Check Security Font Specifications")
 
 Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Fonts in Business Central](ui-fonts.md)
 

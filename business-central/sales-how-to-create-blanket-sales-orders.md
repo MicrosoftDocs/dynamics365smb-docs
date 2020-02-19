@@ -35,7 +35,7 @@ An example of when a blanket sales order could be used is if a customer calls an
 ## To create a sales order from a blanket sales order  
 
 1.  To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
-2.  When you are ready to create orders, choose the **Make Order**m action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
+2.  When you are ready to create orders, choose the **Make Order** action, and then choose the **Yes** button. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
 3.  Choose the **OK** button.  
 4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
 5.  On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  

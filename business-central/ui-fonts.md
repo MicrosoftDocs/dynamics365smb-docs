@@ -15,7 +15,7 @@ ms.date: 02/19/2020
 ms.author: sgroespe
 
 ---
-# Fonts in Business Central
+# Fonts in Business Central Online
 The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating report generation. The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.
 
 > [!NOTE]

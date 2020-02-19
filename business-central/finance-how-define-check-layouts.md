@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2019
+ms.date: 02/19/2020
 ms.author: edupont
 
 ---
@@ -34,8 +34,25 @@ When you have set up check layouts, you can print checks from the **Payment Jour
 
 To change one of these default check layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
+## Using MICR and Security Fonts
+The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when defining check layouts. The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.
+
+Magnetic Ink Character Recognition (MICR) fonts are installed and available to use. Both the E-13B and the CMC-7 standards are supported. In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.
+
+> [!NOTE]
+> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
+
+### MICR E-13B Specifications 
+
+According to the font vendor documentation (https://www.idautomation.com/micr-fonts/e13b/), these are specifications about MICR E-13B fonts that might be useful in calibration of fonts used in check layouts with specific MICR printers.
+
+
+
+Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Fonts in Business Central](ui-fonts.md)
+
 ## See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
+[Fonts in Business Central](ui-fonts.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  

@@ -125,6 +125,6 @@ To enable import/export of data in XML files through the data exchange framework
 
 ## See Also  
 [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)   
-[Export Payments to a Bank File](payables-how-export-payments-bank-file.md)   
+[Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)

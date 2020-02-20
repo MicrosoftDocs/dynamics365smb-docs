@@ -9,12 +9,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 02/19/2020
     ms.author: sgroespe
 
 ---
 # Set Up Unrealized Sales Tax and Sales Payment Discounts
 You can use the **General Ledger Setup** page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
+
+> [!NOTE]
+> If you work with excise tax, the system does not allow you to change the **Tax Amount** field on the **Statistics** page for an invoice, for example to adjust for rounding. Therefore, if you have set up an excise tax with more than two decimals and you experience a rounding difference compared to your vendor's invoices, then you must handle the rounding difference by posting an extra G/L entry so that the total matches the document amount. This posting could be made to an expense account dedicated to amount rounding.
 
 ## To set up unrealized sales tax  
 1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  

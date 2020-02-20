@@ -67,4 +67,4 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
-[Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

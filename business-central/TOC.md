@@ -47,7 +47,7 @@
 ### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
 ### [Save and Personalize List Views](ui-views.md)
-### [Add a page action to your Role Center](ui-bookmarks.md)
+### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Update Custom Report Layouts](ui-update-report-layouts.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
+### [Available Fonts](ui-fonts.md)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Set Up Incoming Documents](across-how-setup-income-documents.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Set Up SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 #### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 #### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
 #### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
-#### [Export Payments to a Bank File](payables-how-export-payments-bank-file.md)
-#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Making Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Collecting Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Record Payments and Refunds](payables-how-post-payments-refunds.md)
 #### [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)
 #### [Make Check Payments](payables-how-work-checks.md)
-#### [Making Payments with Bank Data Conversion Service or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Making Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Export a Positive Pay file](finance-how-positive-pay.md)
 ### Applying Payments Automatically and Reconciling Bank Accounts
@@ -918,7 +918,6 @@
 #### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banking & Payments
 #### [Create Deposits](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Manage Customer Credit Information](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### General
 #### [Print Troubleshooting Reports](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Iceland
 ### [Overview](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### VAT
-#### [Icelandic Tax Regulations for Conditional Discounts](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Print VAT Summary Information on Documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Special Data Output and Reports for the Tax Authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Electronic Invoicing
@@ -1459,7 +1457,6 @@
 #### [Reconcile Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### General
-#### [How to Manage Customer Credit Information](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 # Compliance

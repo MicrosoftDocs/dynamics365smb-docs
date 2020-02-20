@@ -39,10 +39,6 @@ The following table provides best practices for selecting between the four polic
 
 ## See Also  
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
- [Design Details: Reordering Policies](design-details-reordering-policies.md)   
- [Design Details: Order](design-details-order.md)   
- [Design Details: Lot-for-Lot](design-details-lot-for-lot.md)   
- [Design Details: Fixed Reorder Qty.](design-details-fixed-reorder-qty.md)   
- [Design Details: Maximum Qty.](design-details-maximum-qty.md)   
+ [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
  [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

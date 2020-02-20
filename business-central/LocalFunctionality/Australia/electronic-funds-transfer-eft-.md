@@ -27,5 +27,5 @@ When you have set up bank accounts and vendors, you can create EFT files that ar
 > Electronic Funds Transfer (EFT) uses posted and nonposted payments as the basis to calculate withholding tax amounts for applied invoices. Payments that are not applied to an invoice can only be exported to an EFT file if the **Skip WHT** check box is selected. During export of the EFT file, the payment journal lines are not deleted and cannot be deleted as long as they have a reference to an EFT register. To remove the link between the EFT register and payment journal lines, choose the **Cancel Export** action either on the **EFT Register** page or the **Payment Journal** page.       
 
 ## See Also  
-[Export Payments to a Bank File](../../payables-how-export-payments-bank-file.md)  
+[Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Australia Local Functionality](australia-local-functionality.md)

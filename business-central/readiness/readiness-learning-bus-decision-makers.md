@@ -1,10 +1,10 @@
 ---
 title: "Business decision maker learning catalog"
 description: "Business decision maker learning catalog"
-author: SusanneWindfeldPedersen
-ms.date: 01/04/2020
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Business Decision Makers Learning Catalog

@@ -2,7 +2,7 @@
 title: Partner pre-sales learning catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 01/09/2020
+ms.date: 02/19/2020
 ms.topic: article
 ms.author: v-lshann
 ---

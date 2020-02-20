@@ -2,10 +2,9 @@
 title: Business users learning catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.custom: na
-ms.date: 01/04/2020
+ms.date: 02/19/2020
 ms.topic: article
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Business Users Learning Catalog

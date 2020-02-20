@@ -2,9 +2,9 @@
 title: Functional consultants learning catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 01/05/2020
+ms.date: 02/19/2020
 ms.topic: article
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Functional Consultant Learning Catalog

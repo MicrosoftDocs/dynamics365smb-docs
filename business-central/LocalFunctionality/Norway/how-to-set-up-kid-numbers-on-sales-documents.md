@@ -33,5 +33,4 @@ Kunde ID (KID) is a customer identification number that provides a payment refer
 3.  Choose the **OK** button.  
 
 ## See Also  
- [Electronic Banking in Norway](electronic-banking-in-norway.md)   
- [Norwegian Sales Documents](norwegian-sales-documents.md)
+ [Electronic Banking in Norway](electronic-banking-in-norway.md) 

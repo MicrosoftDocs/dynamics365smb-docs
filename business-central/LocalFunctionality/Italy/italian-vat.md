@@ -2,7 +2,7 @@
     title: Italian VAT
     description: Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -97,5 +97,4 @@ When you post credit memos, you must update the **Refers to Period** field to sp
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
  [Submit VAT Statements](how-to-submit-vat-statements.md)   
  [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
- [Report Trade with Customers and Vendors in Blacklist Countries-Regions](how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)   
  [Italy Local Functionality](italy-local-functionality.md)

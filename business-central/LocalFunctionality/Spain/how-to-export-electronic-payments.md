@@ -88,7 +88,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     >  You can only post the payment order after you have successfully exported the electronic payments.  
 
     > [!NOTE]  
-    >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** page is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** page is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## To export electronic payments from the Cartera module  
 
@@ -110,4 +110,4 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 ## See Also  
 [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
-[Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

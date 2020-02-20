@@ -24,5 +24,5 @@ You can pay vendors using the electronic funds transfer (EFT) system in New Zeal
 When you have set up bank accounts and vendors, you can create EFT file that are based on entries in the payment journal. When you create an EFT file, an entry is made in the **EFT Register** table. On the EFT Register page you can drill down to see the vendor ledger entries for the EFT file. On the Payment Journal page,you can also import existing EFT register entries to the payment journal by using the **Transfer EFT Register** batch job.
 
 ## See Also  
-[Export Payments to a Bank File](../../payables-how-export-payments-bank-file.md)  
+[Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)

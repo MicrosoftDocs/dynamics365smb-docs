@@ -62,7 +62,7 @@ If the initial available inventory is below zero, the planning system suggests a
 ## Loading the Inventory Profiles
 To sort out the many sources of demand and supply, the planning system organizes them on two timelines called inventory profiles.  
 
-The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Design Details: Prioritizing Orders](design-details-prioritizing-orders.md).  
+The normal types of demand and supply with due dates on or after the planning starting date are loaded into each inventory profile. When loaded, the different demand and supply types are sorted according to overall priorities, such as due date, low-level codes, location, and variant. In addition, order priorities are applied to the different types to ensure that the most important demand is fulfilled first. For more information, see [Prioritizing Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 As previously mentioned, demand could also be negative. This means that it should be treated as supply; however, unlike the normal types of supply, negative demand is considered fixed supply. The planning system can take it into account, but will not suggest any changes to it.  
 

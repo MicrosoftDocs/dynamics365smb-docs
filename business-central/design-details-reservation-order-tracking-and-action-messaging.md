@@ -76,7 +76,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
 -   A multilevel production order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent production order and the underlying production orders to ensure that they are processed together. Such a reservation binding overrides the item’s default costing and application method.  
 
--   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Design Details: Order](design-details-order.md).  
+-   A production, assembly, or purchase order where the **Reordering Policy** field of the involved item is set to **Order**. The planning system creates reservations between the demand and the planned supply to ensure that the specific supply is created. For more information, see [Order](design-details-handling-reordering-policies.md#order).  
 
 -   A production order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
 

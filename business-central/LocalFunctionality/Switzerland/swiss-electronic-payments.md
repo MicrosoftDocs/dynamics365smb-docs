@@ -2,7 +2,7 @@
     title: Swiss Electronic Payments
     description: Swiss enhancements allow you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.
 
-    services: project-madeira 
+    services: project-madeira
     documentationcenter: ''
     author: SorenGP
 
@@ -33,7 +33,7 @@ ESR is an electronic debtor service that uses payment slips to collect money. It
 LSV+ is a direct debit service that is used for processing payments. Companies can release customer payments directly from the customer's bank using direct debit. You can request and collect customer payments using direct debit in the LSV+ bank format, or in the DebitDirect PostFinance format. For more information, see [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md).  
 
 ## SEPA Credit Transfers  
-To export payments according to the SEPA standard, you must use a bank account. To make sure that the related general ledger entries are consistent with those generated for local Swiss payment methods (see above), the value in the **Bank Acc. Posting Group** field on the **Bank Account Card** page must point to the relevant general ledger account. For more information about how to export SEPA payments, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md).  
+To export payments according to the SEPA standard, you must use a bank account. To make sure that the related general ledger entries are consistent with those generated for local Swiss payment methods (see above), the value in the **Bank Acc. Posting Group** field on the **Bank Account Card** page must point to the relevant general ledger account. For more information about how to export SEPA payments, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)).  
 
 ## See Also  
  [Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md)   
@@ -41,5 +41,4 @@ To export payments according to the SEPA standard, you must use a bank account. 
  [Print ESR Invoices](how-to-print-esr-invoices.md)   
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)  '
- [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
  [Making Payments](../../payables-make-payments.md)

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 02/19/2020
+ms.date: 02/20/2020
 ms.author: edupont
 
 ---
@@ -73,7 +73,7 @@ The following summarizes specifications for check security fonts that may be use
 
 The full specification of check security fonts can be found in the supplier's documentation here: (https://www.idautomation.com/security-fonts/).
 
-Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Fonts in Business Central](ui-fonts.md)
+Fonts for other purposes are also available in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Available Fonts](ui-fonts.md)
 
 ## See Also
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  

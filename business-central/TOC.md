@@ -64,7 +64,7 @@
 ### [Update Custom Report Layouts](ui-update-report-layouts.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
-### [Fonts in Business Central](ui-fonts.md)
+### [Available Fonts](ui-fonts.md)
 ## Using Keyboard Shortcuts
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)

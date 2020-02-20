@@ -1,6 +1,6 @@
 ---
-title: Change the Way a Report Looks by Selecting a Different Layout | Microsoft Docs
-description: You can use different layouts for a report, and switch between layouts to change how a report looks.
+title: Available Fonts | Microsoft Docs
+description: The online version of Business Central contains pre-installed fonts on the servers that can be used when generating reports.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 02/19/2020
+ms.date: 02/20/2020
 ms.author: sgroespe
 
 ---
-# Fonts in Business Central Online
-The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating report generation. The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.
+# Available Fonts
+The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating reports. The following outlines which fonts are available and has links to detailed information at the 3rd-party suppliers of the fonts.
 
 > [!NOTE]
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.

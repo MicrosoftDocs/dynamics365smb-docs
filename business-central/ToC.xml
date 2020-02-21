@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Setting Up Banking" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="How to: Set Up Bank Accounts" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="How to: Set Up the Bank Data Conversion Service" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="How to: Set Up the AMC Banking 365 Fundamentals extension" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Setting Up Sales" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="How to: Register New Customers" Page="sales-how-register-new-customers.html"/>

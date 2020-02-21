@@ -26,7 +26,7 @@ Some information about contact companies is identical to the information about t
 
 When you modify one of these fields on the contact company card, application will automatically modify the field on the contact person card (unless you have manually modified the field on the contact person card).
 
-For more information, see [Create Contact Persons](marketing-how-create-contact-persons.md).
+For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
 ## Using Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create.

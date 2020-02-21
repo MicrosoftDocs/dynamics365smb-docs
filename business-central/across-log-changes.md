@@ -42,7 +42,7 @@ The information is displayed in the **Activity Log** page, according to the cont
 
 ## See Also
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Sorting](ui-sorting.md)  
+[Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

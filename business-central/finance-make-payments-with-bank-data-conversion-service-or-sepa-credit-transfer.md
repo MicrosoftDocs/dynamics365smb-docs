@@ -138,7 +138,6 @@ When the electronic payment is successfully processed by the bank, post the paym
 
 ## See Also  
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
-[Set Up SEPA Credit Transfer](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Managing Payables](payables-manage-payables.md)   
 [Working with General Journals](ui-work-general-journals.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   

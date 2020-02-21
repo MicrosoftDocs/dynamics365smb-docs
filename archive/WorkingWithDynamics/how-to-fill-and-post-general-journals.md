@@ -18,7 +18,7 @@
 # Fill and Post General Journals
 General journals are used to post to general ledger, bank, customer, vendor, and fixed assets accounts.  
 
- Payment journals are based on general journal batches and are used to post payments due on purchase documents to vendor accounts. The **Payment Journal** window is unique in that it can be used to export payment files for processing by electronic banks. For more information, see [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Payment journals are based on general journal batches and are used to post payments due on purchase documents to vendor accounts. The **Payment Journal** window is unique in that it can be used to export payment files for processing by electronic banks. For more information, see [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### To fill in and post a general journal  
 
@@ -62,4 +62,4 @@ General journals are used to post to general ledger, bank, customer, vendor, and
  [Suggest Vendor Payments](../FullExperience/how-to-suggest-vendor-payments.md)   
  [Insert Due Date as Posting Date on Payment Journal Lines](../FullExperience/how-to-insert-due-date-as-posting-date-on-payment-journal-lines.md)   
  [Export Payments to a Bank File](../FullExperience/how-to-export-payments-to-a-bank-file.md)   
- [Make Payments with Bank Data Conversion Service or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+ [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../FullExperience/make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)

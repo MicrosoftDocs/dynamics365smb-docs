@@ -32,20 +32,18 @@ To use Automated Data Capture System, you must enable the ADCS web service.
 
 ## To enable and publish the ADCS web service  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and choose the related link.
-2.  Choose **New** action.  
-
-3.  In the **Web Services** window, enter the following information on a new line:  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.
+2. Choose the **New** action.  
+3. On the **Web Services** page, enter the following information on a new line:  
 
     |Field|Value|  
     |---------------------------------|-----------|  
     |**Object Type**|Codeunit|  
     |**Object ID**|7714|  
-    |**Service Name**|ADCS **Important:**  It is required that you name the service **ADCS**.|  
+    |**Service Name**|ADCS **Important:** It is required that you name the service **ADCS**.|  
 
-5.  Select the **Published** check box.  
-
-6.  Choose the **OK** button.  
+5. Select the **Published** check box.  
+6. Choose the **OK** button.  
 
 ## To set up a warehouse to use ADCS  
 To use ADCS, you must specify which warehouse locations use the technology.  

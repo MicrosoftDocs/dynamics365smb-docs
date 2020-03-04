@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the German v
     * [Correct VAT Reports](how-to-correct-vat-reports.md) **Available Now**
     * [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
     * [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md) **Available Now**
+    * [EU Sales List in Germany](eu-sales-list-in-germany.md) **Available Now**
 
 * Banking & Payments
     * [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**
@@ -55,7 +56,6 @@ The following topics describe local functionality that is unique to the German v
 
 * General
     * [Currency Exchange Rates](currency-exchange-rates.md) **Available Now**
-    * [EU Sales List in Germany](eu-sales-list-in-germany.md) **Available Now**
     * [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Available Now**
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
 

@@ -15,7 +15,7 @@ ms.author: sgroespe
 # Use Automated Data Capture Systems (ADCS)
 
 > [!NOTE]
-> The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[d365fin](includes/d365fin_md.md)] to communicate with handheld devices through web services. You need to work with Microsoft partner who can provide the link between the web-service and the specific handheld device available at your disposal. 
+> The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[d365fin](includes/d365fin_md.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
 
@@ -93,7 +93,7 @@ You can add any user as a user of an Automated Data Capture System (ADCS). When 
 You use miniforms to describe the information that you want to present on a handheld device. For example, you can create miniforms to support the warehouse activity of picking items. After you create a miniform, you can add functions to it for the common actions that a user takes with handheld devices, such as moving up or down a line.  
 
 > [!NOTE] 
-> To implement or change the functionality of a miniform function, you must create a new codeunit for the **Handling Codeunit** field to perform the required action or response. You can learn more about ADCS functionality by examining codeunits such as 7705, 7706, 7712, 7713.  
+> To implement or change the functionality of a miniform function, you must create a new codeunit for the **Handling Codeunit** field to perform the required action or response. You can learn more about ADCS functionality by examining codeunits, such as 7705, 7706, 7712, and 7713.  
 
 ### To create a miniform for ADCS  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  

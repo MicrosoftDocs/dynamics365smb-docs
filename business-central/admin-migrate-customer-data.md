@@ -27,7 +27,7 @@ When you create a new company, you can import company settings for the new compa
 > [!NOTE]  
 >  You cannot rename a file that is not already a RapidStart Services configuration package as a .rapidstart configuration package file and then try to import it. If you try to do so, you will receive an error message.  
 
-Before you start, you must make sure that you have permission to run the RapidStart Services objects. For example you can have the SUPER permission set, or be an internal or delegated administrator. We also recommend that you are on a Role Center with links to RapidStart Services, such as the Administration Role Center. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).  
+Before you start, you must make sure that you have permission to run the RapidStart Services objects. For example, you can have the SUPER or D365 RAPIDSTART permission sets. We also recommend that you are on a Role Center with links to RapidStart Services, such as the Administration Role Center. For more information, see [To change the role](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > When exporting and importing configuration packages between two company databases, the databases should have the same schema to make sure that all data is transferred successfully. This means that the databases should have the same table and field structure, in which the tables have the same primary keys and fields have the same IDs and data types.  
@@ -131,7 +131,7 @@ When you have run the batch job, use the following procedure to process the data
 3. To apply the mapping that you have set up, choose the **Apply Data** action.
 
 ## To migrate customer data
-When you have exported a migration table, your next step is to enter the customer’s legacy data. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.
+When you have exported a migration table, your next step is to enter the customer's legacy data. To simplify your tasks, you can take advantage of the XML manipulation tools that are built into Excel. You can also use Excel built-in functions to help with data formatting and to put data in the correct cell.
 
 For assistance with XML, enable the **Developer** tab of the Excel ribbon, and then choose the **Source** action to see the XML schema of your migration table as represented in Excel.
 
@@ -177,7 +177,7 @@ Customer data must be validated before you apply the records to the [!INCLUDE[d3
 
 When you make a correction, the record is removed from the list of records on the **Migration Data Errors** page.  
 
-You are now ready to apply the customer’s data to the database.  
+You are now ready to apply the customer's data to the database.  
 
 ## To apply customer data
 When you have imported all data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
@@ -187,7 +187,7 @@ When you have imported all data migration records that are valid and have no err
 
 You can see the number of database records that have been created in the **No. of Database Records** field. You can verify that the correct records have been created by choosing the link in the **No. of Database Records** field.  
 
-The customer’s company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.
+The customer's company database is now set up and basic data is imported. Your next steps in the implementation process are to train users, define processes, create additional data, customize reports, and so on.
 
 ## See Also  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.author: sgroespe
 
 ---
@@ -111,8 +111,10 @@ When you have defined or imported the dimensions that you and your intercompany 
 If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
-2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.
+2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.'
 3. For each intercompany dimension that is not mapped automatically, fill in the **Map-to Dimension Code** field.
+
+    You may have to add the field to your view. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 4. Choose the **Intercompany Dimension Values** action.
 5. On the **Intercompany Dimension Values** page, fill in the **Map-to Dimension Value Code** field.
 

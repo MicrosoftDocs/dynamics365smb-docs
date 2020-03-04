@@ -1,10 +1,9 @@
 ---
 title: Business Central Learning Catalog
 description: Business Central Learning Catalog
-ms.topic: article
-ms.date: 11/05/2019
-ms.service: "dynamics365-business-central"
 author: loreleishannonmsft
+ms.date: 02/19/2020
+ms.topic: article
 ms.author: v-lshann
 ---
 

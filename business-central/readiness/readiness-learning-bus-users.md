@@ -1,15 +1,15 @@
 ---
-title: "Business user learning catalog"
-description: "Business user learning catalog"
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+title: Business users learning catalog
+description: Find all the available learning for Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: "dynamics365-business-central"
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Business Users Learning Catalog
+
+Did you just get a new application to use?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
 

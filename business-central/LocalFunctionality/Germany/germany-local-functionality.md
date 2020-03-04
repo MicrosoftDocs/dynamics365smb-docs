@@ -27,7 +27,7 @@ The following topics describe local functionality that is unique to the German v
     * [Correct VAT Reports](how-to-correct-vat-reports.md) **Available Now**
     * [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md) **Available Now**
     * [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md) **Available Now**
-     *[EU Sales List in Germany](eu-sales-list-in-germany.md) **Available Now**
+    * [EU Sales List in Germany](eu-sales-list-in-germany.md) **Available Now**
 
 * Banking & Payments
     * [Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**

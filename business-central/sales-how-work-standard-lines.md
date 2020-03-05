@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2019
+ms.date: 03/05/2020
 ms.author: sgroespe
 
 ---
@@ -20,17 +20,17 @@ If you often need to create sales and purchase lines with similar information, y
 
 The following procedures show how to work with standard sales lines on a sales invoice. It works in a similar way for all other sales documents and for all purchase documents.  
 
-## To set up standard sales lines  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Sales Lines**, and then choose the related link.  
-2. On the **Standard Sales Lines** page, choose the **New** action.  
+## To set up recurring sales lines  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring Sales Lines**, and then choose the related link.  
+2. On the **Recurring Sales Lines** page, choose the **New** action.  
 3. On the **General** FastTab, fill the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.  
 
 > [!NOTE]
-> You cannot define prices on standard sales lines because prices, discounts, etc. are calculated on the actual sales documents after you insert the standard sales lines.
+> You cannot define prices on recurring sales lines because prices, discounts, etc. are calculated on the actual sales documents after you insert the recurring sales lines.
 
-## To assign standard sales lines to a customer
-Assign one or more standard sales lines to a customer so that they are available to insert on sales documents for that customer.
+## To assign recurring sales lines to a customer
+Assign one or more recurring sales lines to a customer so that they are available to insert on sales documents for that customer.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a relevant customer.

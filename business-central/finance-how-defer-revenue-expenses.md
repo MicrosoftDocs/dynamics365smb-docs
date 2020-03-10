@@ -1,7 +1,6 @@
 ---
 title: Defer Revenues and Expenses| Microsoft Docs
 description: To recognize revenues and expenses in periods other than the period in which the transaction was posted, you can automatically defer or postpone them over a specified schedule.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
@@ -11,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 03/10/2020
 ms.author: sgroespe
 
 ---
@@ -51,7 +50,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 
 ## To assign a deferral template to an item
 > [!NOTE]  
->   The steps in this procedure are the same as when you assign a deferral template for G/L account or resource.
+>   The steps in this procedure are the same as when you assign a deferral template to a G/L account or a resource.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
 3. In the **Default Deferral Template** field, select the relevant deferral template.

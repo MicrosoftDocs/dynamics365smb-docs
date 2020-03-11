@@ -80,7 +80,7 @@ Enter the following advanced settings.
 2. On the **CDS Connection Setup** page, turn off the **Enabled** toggle.  
 
 ## View Item Availability - Support Matrix
-For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics 365 Sales, you can view the availability of inventory items across the integrated products. For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central.md).
+For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics 365 Sales, you can view the availability of inventory items across the integrated products. For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central).
 
 ## See Also  
 [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  

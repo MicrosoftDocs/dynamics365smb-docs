@@ -16,8 +16,6 @@
 # Setting Up User Accounts for Integrating with Common Data Service
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
-
 ## Setting Up the Administrator User Account
 You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[d365fin](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we will use this account one time to install and configure some required components. <!--Verify this-->
 
@@ -30,7 +28,7 @@ You must create a dedicated user account in your Office 365 subscription that bo
 > Do not use the administrator account for [!INCLUDE[d365fin](includes/cds_long_md.md)] for synchronization. Doing so will break the synchronization.
 
 ## Minimum Permissions for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-When you install the Integration Solution, permissions for the integration user account are configured. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].
+When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed you might need to reset them. You can do that by reinstalling the CDS Base Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -121,4 +119,5 @@ You can allow sales people to view inventory levels for the items they sell by g
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
 ## See Also  
+[Integrating with Common Data Service](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

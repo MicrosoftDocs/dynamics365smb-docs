@@ -20,12 +20,12 @@ It's important to make the right decision when choosing a business application, 
 
 Extending the trial period yourself is a one time-thing though. You cannot extend it twice, at least not yourself. If you have already extended the period, your Microsoft partner can extend it for you again. That's also a one-time thing. If you are not already working with a partner, see [How do I find a reselling partner?](across-faq.md#findpartner). Your partner can sign in to your [!INCLUDE [prodshort](includes/prodshort.md)] and run the same **Extend Trial Period** guide.  
 
-## What happens if my trial period is expired?
-If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual. Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification. If you have created your own company, sign out and then sign in again with the credentials for that company. If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created. After 90 days, we will delete your company and data.  
-
 ## To extend your trial period
 1. Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 2. In the notification at the top of the workspace, choose **Extend Trial**.
+
+## What happens if my trial period is expired?
+If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual. Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification. If you have created your own company, sign out and then sign in again with the credentials for that company. If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created. After 90 days, we will delete your company and data.  
 
 ## See Also
 

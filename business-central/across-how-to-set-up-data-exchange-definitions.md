@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/11/2020
+    ms.date: 03/13/2020
     ms.author: sgroespe
 
 ---
@@ -136,7 +136,7 @@ but in the other it's "US." That means you must transform the value when you exc
     |**Target Field Caption**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify the name of the field in the target table that the value in the **Column Caption** field is mapped to, when you are using an intermediate table for data import.|  
     |**Optional**|Only visible when the **Use as Intermediate Table** check box is selected.<br /><br /> Specify if the map should be skipped if the field is empty. If you do not select this check box, then an export error will occur if the field is empty.|  
 
-The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](/finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md), and [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md), and [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### Transformation Rules
 If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.

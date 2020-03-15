@@ -16,21 +16,17 @@ ms.author: bholtorf
 # The Late Payment Prediction Extension  
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
-## What are Predictions Based On?  
-The Late Payment Prediction extension uses a predictive model that we developed in Azure Machine Learning Studio and trained using data that is representative of a range of small to medium sized businesses. Though we have already trained and evaluated it, our predictive model will continue to learn from your data. The more you use the model and the more data you feed it, the more accurate predictions will become. By default, the extension evaluates the model and updates the predictions on a weekly basis. However, you can update the predictions whenever you want by choosing the **Update Prediction** action on the **Customer Ledger Entries** page.  
-
-> [!Note]
-> We use a bit of your compute time each week when we evaluate the model and update your predictions. In addition to manually updating your predictions, other actions that consume compute time are when you train the model (which you might do if you've recently added data) and when you evaluate the model (which looks at the quality of the model).
-
 ## Getting Started
-The extension is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], and we provide a subscription to Azure Machine Learning. The subscription offers 30 minutes of compute time per month. If you need more than that you can create your own predictive model and use it instead. For more information, see the section titled _Building Your Own Predictive Model_ later in this topic.  
 
 When you open a posted sales document, a notification will display at the top of the page. To use the Late Payment Prediction Extension you can opt in by choosing **Enable** in the notification. Alternatively, you can set up the extension manually. For example, if you regret dismissing the notification.  
 
 To enable the extension manually, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
-2. Choose the **Late Payment Prediction Setup** option, and then fill in the fields as necessary.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+2. Fill in the fields as necessary.
+
+> [!Note]
+> If you decides to enable the extension manually, be aware that system will not allow you to do it if the quality of the model is low. The quality of the model indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, these factors might be that there was not enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality.   
 
 ## Viewing All Payment Predictions
 If you enable the extension a **Payments Predicted to be Late** tile is available in the **Business Manager** Role Center. The tile displays the number of payments that are predicted to be late, and let's you open the **Customer Ledger Entries** page where you can dig deeper into the posted invoices. There are three columns to pay attention to:  
@@ -40,7 +36,7 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
 * **Prediction Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is not displayed, but you can add it if you want. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 > [!Tip]
-> The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also let's you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
+> The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
 ## Viewing a Payment Prediction for a Specific Sales Document
 You can also predict late payments up-front. On the **Sales Quotes**, **Sales Orders**, and **Sales Invoices** pages, you can use the **Predict Payment** action to generate a prediction for the sales document you're viewing.
@@ -48,21 +44,58 @@ You can also predict late payments up-front. On the **Sales Quotes**, **Sales Or
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## Building Your Own Predictive Model
-Interested in building your own predictive model? You can use Azure Machine Learning Studio to build your own predictive model and use it in [!INCLUDE[d365fin](includes/d365fin_md.md)]. To use your own model, you must subscribe to Azure Machine Learning. For more information, see [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765).  
+## Design details
+Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. Access to these web-services is included into your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+The web-services work in three modes:
+- Train model. In this mode web-service train model based on provided dataset.
+- Evaluate model. Web-service checks if provided model returns reliable data for provided dataset.
+- Predict. Web-service apply provided model to supplied dataset to get prediction.
+These web-services are stateless, that means they don’t store any data but calculate prediction on demand. That allows sharing the cloud computing among multiple tenants without risk of data leak. 
+> [!NOTE]  
+>   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service late payment prediction](#AnchorText). 
 
-We do, however, offer an easier way for you to create and use your own predictive model. You can share data from your invoices with our [Prediction Experiment for Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) in Azure Machine Learning, and let our experiment create and train a predictive model based on your data. To share your data, on the **Late Payment Prediction Setup** page, choose the **Create My Model** action. Afterward, predictions will be based on your model and your data, not ours.  
+### Data required to train and evaluate model 
+For each **Customer ledger entry** that has corresponding **Posted Sales Invoice**:
+- Amount (LCY) including Tax
+- Payment Terms in days calculated as **Due Date** minus **Posting Date**
+- Whether there is applied credit memo. 
 
+Furtermore the record is enriched with information about other invoices related to the same customer with aggregated data such as:
+- Total number and amount of paid invoices
+- Total number and amount of invoices that were paid late
+- Total number and amount of outstanding invoices
+- Total number and amount of outstanding invoices that are already late
+- Average Days Late
+- Ratio: Number Paid Late/Paid invoices
+- Ratio: Amount Paid Late/Paid invoices
+- Ratio: Number Outstanding Late/Outstanding invoices
+- Ratio: Amount Outstanding Late/Outstanding invoices
 > [!Note]
->   The quality of the model is important. When our predictive experiment uses your data to train a model it determines a quality value for the model as a percentage. The model quality indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, these factors might be that there was not enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality. Models with a quality value below the threshold will not produce predictions.  
+> The information about customer is not included into dataset.
 
-### To use your model instead of ours  
-If you create your own model in Azure Machine Learning Studio, without using the tools in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must provide your credentials so that [!INCLUDE[d365fin](includes/d365fin_md.md)] can access the model. There are a couple of steps to do that:
+### Standard model and My model
+The Late Payment Prediction extension contains a predictive model trained using data that is representative of a range of small to medium sized businesses. As soon as you start posting invoices and get payments, system will start evaluation if standard model fits your business flow. 
+If it appears that your processes doesn't match standard model, you still can use extension, but you will need to get more data. Just continue to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!Note]
+> We use a bit of your compute time each week when we evaluate and re-train the model. 
 
+System runs training and evaluation automalically when there are enough paid and late invoices in the system, however you can run it manually whenever you want.
+#### To train and use your model
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
-2. Choose the **Use My Azure Subscription** check box.  
-3. In the **Selected Model** field, choose **My Model**.  
-4. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  
+2. In the **Selected Model** field, choose **My Model**.
+3. Choose the **Create My Model** action, to train model on your data.  
+
+## <a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
+You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+
+1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=2086310).  
+2. Search for **Prediction Experiment for Dynamics 365 Business Central**, and then open the model in Azure Machine Learning Studio.  
+3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
+4. Run the model, and publish it as a web service.  
+5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
+6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+7. Choose the **Use My Azure Subscription** check box.
+8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
 ## See Also  
 [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765)  

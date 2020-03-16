@@ -21,7 +21,7 @@ Getting insights into your [!INCLUDE[prodshort](includes/prodshort.md)] data is 
 You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you wish to create your own Power BI reports. Power BI apps require permissions to the tables where data is retrieved from. More details on the requirements are described below.  
 
 > [!IMPORTANT]
-> The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. To install a Power BI App, you must also have a Power BI Pro license.  Once the Power BI App is installed, it may be shared with users with any license type.
+> The Power BI Apps that are described in this article are designed to use Azure Active Directory as the authentication mechanism unless otherwise specified. Also, you need a [Power BI Pro license](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] has published the following apps for Power BI:
 
@@ -161,7 +161,7 @@ This message will appear if the default report failed to deploy to your Power BI
 
 ### You need a Power BI Pro license to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 
-You need a [Power BI Pro license](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content needs to be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports)  
+You need a [Power BI Pro license](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### "Parameter validation failed, please make sure all parameters are valid"
 

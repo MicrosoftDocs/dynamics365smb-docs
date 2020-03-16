@@ -1,16 +1,15 @@
 ---
-title: "Developer learning catalog"
-description: "Developer learning catalog"
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+title: Developers learning catalog
+description: Find all the available learing for Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: "dynamics365-business-central"
-ms.reviewer: margoc
-ms.author: solsen
+ms.author: v-lshann
 ---
 
-# Developer Learning Catalog
+# Developers Learning Catalog
+
+Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs. 
 

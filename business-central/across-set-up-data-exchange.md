@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 03/13/2020
 ms.author: sgroespe
 
 ---
@@ -26,7 +26,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Set up the preconfigured OCR service to turn PDF or image files into electronic documents that can be converted to document records in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Set Up Incoming Documents](across-how-setup-income-documents.md)|  
 |Set up one of two preconfigured services for updated exchange rates to get the latest currency exchange rates into the **Currencies** page.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|  
 |Set up various master data, such as company information, customers, vendors, items, and units of measure, related to mapping data in [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer|  
+|Set up a bank account, a vendor, and a payment journal for SEPA credit transfer.|[Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.|[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Set up user authentication and the URL of the AMC Banking 365 Fundamentals extension provider that is required to have bank files converted to your bank’s format.|[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)|  
 |Set up and enable an external service that enables you to import bank statements directly as bank feeds.|[Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)|  

@@ -1,15 +1,15 @@
 ---
 title: "Business decision maker learning catalog"
 description: "Business decision maker learning catalog"
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/06/2019
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: "dynamics365-business-central"
-ms.author: solsen
+ms.author: v-lshann
 ---
 
 # Business Decision Makers Learning Catalog
+
+Do you decide whether to invest in new technologies?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 

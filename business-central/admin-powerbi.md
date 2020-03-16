@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 03/16/2020
 ms.author: bmeier
 
 ---
@@ -28,9 +28,6 @@ You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](on-premises) - Sales  
 
 ## Using the [!INCLUDE [prodshort](includes/prodshort.md)] dashboards in Power BI
 
@@ -160,11 +157,11 @@ A Power BI account has not been set up. In order to have a valid Power BI accoun
 
 ### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credendials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page.
+This message will appear if the default report failed to deploy to your Power BI workspace, or the report deployed but did not successfully refresh. If this happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to Business Central and manually select the report from the **Select Reports** page.
 
 ### You need a Power BI Pro license to install the [!INCLUDE [prodshort](includes/prodshort.md)] app in Power BI
 
-Power BI apps can only be installed by users that have a Power BI Pro license. Once the Power BI app is installed, you can share it with users that do not have a Power BI Pro license.  
+You need a [Power BI Pro license](/power-bi/service-features-license-type) to share your content, and the people you share it with do too, or the content needs to be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports)  
 
 ### "Parameter validation failed, please make sure all parameters are valid"
 
@@ -175,12 +172,12 @@ This error indicates that the one more of the parameters are not valid.
 - If connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. you have entered a URL that is not valid. You can verify the URL in the **Web Services** page in [!INCLUDE [prodshort](includes/prodshort.md)]  
 - A port is not open to allow the request to go through your firewall.
 
-### Login failed
+### Cannot sign in
 
-If you get a "login failed" error after using your [!INCLUDE [prodshort](includes/prodshort.md)] user credentials to log in, then you are probably experiencing one of the following issues:
+If you get a "login failed" error after using your [!INCLUDE [prodshort](includes/prodshort.md)] user credentials to sign in, then you are probably experiencing one of the following issues:
 
 - The account that you are using does not have permissions to retrieve the [!INCLUDE [prodshort](includes/prodshort.md)] data from your account. Verify that you have permissions to the required data in [!INCLUDE [prodshort](includes/prodshort.md)] and try again.
-- You have selected an authentication type other than Basic if connecting to [!INCLUDE [prodshort](includes/prodshort.md)]on-premises .
+- You have selected an authentication type other than Basic if connecting to [!INCLUDE [prodshort](includes/prodshort.md)] on-premises.
 - You have not entered a valid user name or password.
 
 ### Incorrect company name

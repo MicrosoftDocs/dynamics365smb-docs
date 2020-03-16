@@ -80,36 +80,34 @@ To use a manual process:
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## Design details
-Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. Access to these web-services is included into your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
-These web services are stateless, that means they don’t store any data but calculate prediction on demand. That allows sharing the cloud computing among multiple tenants without risk of data leak.
+Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing). These web services are stateless, meaning they use data only to calculate predictions on demand.They do not store data.
 
 > [!NOTE]  
->   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText). 
+>   You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText). 
 
 ### Data required for forecast
-
-To predict information about future revenue and expenses web service requires data about past. That data comes from three different sources.
+To make predictions about future revenue and expenses, web services require historical data from receivables, payables, and taxes.
 
 #### Receivables:
-**Due Date**, **Amount (LCY)** fields of the **Customer Ledger Entries** window, where:
-- Document type is "Invoice" or "Credit Memo"
-- Due date is between past date calculated based on values in the **Historical Periods** and **Period Type** fields in **Cash Flow Setup** window and workdate.
+**Due Date**, **Amount (LCY)** fields of the **Customer Ledger Entries** page, where:
+- The document type is Invoice or Credit Memo.
+- The due date is between date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using predictive web-service system compresses transactions by **Due Date** based on value in the **Period Type** field in the **Cash Flow Setup** window.
+Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### Payables:
-**Due Date**, **Amount (LCY)** fields of the **Vendor Ledger Entries** window, where:
-- Document type is "Invoice" or "Credit Memo"
-- Due date is between past date calculated based on values in the **Historical Periods** and **Period Type** fields in **Cash Flow Setup** window and workdate.
+**Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
+- The document type is "Invoice" or "Credit Memo."
+- The due date is between date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using predictive web-service system compresses transactions by **Due Date** based on value in the **Period Type** field in the **Cash Flow Setup** window.
+Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
 
 #### Tax:
-**Document Date**, **Amount** fields of the **VAT (Tax) Ledger Entries** window, where:
-- Type is "Sale"
-- Document date is between past date calculated based on values in the **Historical Periods** and **Period Type** fields in **Cash Flow Setup** window and workdate.
+**Document Date**, **Amount** fields on the **VAT (Tax) Ledger Entries** page, where:
+- The document type is "sales."
+- The document date is between the date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
 
-Before using predictive web-service system compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** window.
+Before using the predictive web-service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  

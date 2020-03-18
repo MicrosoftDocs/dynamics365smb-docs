@@ -8,10 +8,7 @@ ms.topic: article
 ms.search.keywords:
 ms.date: 10/01/2019
 ms.reviewer: edupont
-<<<<<<< HEAD
-=======
 ms.author: soalex
->>>>>>> repo_sync_working_branch
 ---
 
 # Vendor Tax Agent Scheme

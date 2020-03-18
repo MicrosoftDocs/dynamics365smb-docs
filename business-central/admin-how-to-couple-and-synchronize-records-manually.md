@@ -22,6 +22,8 @@ This topic describes how to couple one or more records in [!INCLUDE[d365fin](inc
 > [!Note]
 > Coupling and synchronizing data is available only if your system administrator has created a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service or [!INCLUDE[crm_md](includes/crm_md.md)]. A quick way to check is to open the **Customer** card and look for the **Set Up Coupling** action. If the action is available, the apps are connected.   
 
+## Video Example
+
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
 ## To couple a record  

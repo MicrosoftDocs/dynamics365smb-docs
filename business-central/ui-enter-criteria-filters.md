@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 03/19/2020
 ms.author: sgroespe
 
 ---
@@ -64,7 +64,7 @@ The following table provides some examples to explain how you can use the search
 > [!TIP]
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Filtering
+## <a name="filtering"></a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |

@@ -1,8 +1,6 @@
 ---
 title: Set Up Financial Processes| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/13/2020
+ms.date: 03/19/2020
 ms.author: sgroespe
 
 ---
@@ -32,7 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
+| Set up fiscal periods. |[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md) |
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Set Up Value-Added Tax (VAT)](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)

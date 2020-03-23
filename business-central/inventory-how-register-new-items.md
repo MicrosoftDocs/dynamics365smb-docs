@@ -32,7 +32,7 @@ Items that you offer to your customers but you do not want manage in your system
 
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## To create a new item card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
@@ -46,7 +46,7 @@ The following procedure explains how to create an item card from scratch. You ca
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 >
-> If you select **Average**, then the item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
+> If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
 
 You can view or edit special prices or discounts that you grant for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 

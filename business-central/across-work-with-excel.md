@@ -48,7 +48,7 @@ The Excel Add-in was enhanced in 2019 release wave 2. For more information, see 
 ### See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039?rel=0]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039)?rel=0]
 
 ## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

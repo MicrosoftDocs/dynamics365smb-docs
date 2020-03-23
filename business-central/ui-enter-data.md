@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 03/19/2020
+ms.date: 03/23/2020
 ms.author: sgroespe
 ---
 
@@ -146,7 +146,7 @@ You can enter dates and times in all the fields that are specifically assigned t
 
 ### Entering Dates
 
-For date fields, you can either use the data picker, which lets you select a date from a calender, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more details, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+For date fields, you can either use the data picker, which lets you select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more details, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 For manually date entry, you can enter two, four, six, or eight digits:  
 

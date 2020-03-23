@@ -32,7 +32,7 @@ The item card can be of type **Inventory**, **Service**, and **Non-Inventory** t
 You can fill vendor fields on the purchase invoice in two ways depending on whether the vendor is already registered.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ## To create a purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
@@ -42,7 +42,7 @@ You can fill vendor fields on the purchase invoice in two ways depending on whet
 3. In the **Vendor** field, enter the name of the new vendor.
 4. In the dialog box about registering the new vendor, choose the **Yes** button.
 5. On the **Select a template for a new vendor** page, choose a template to base the new vendor card on, and then choose the **OK** button.
-6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor’s name that you entered on the purchase invoice.
+6. A new vendor card opens, prefilled with the information on the selected vendor template. The **Name** field is prefilled with the new vendor's name that you entered on the purchase invoice.
 7. Proceed to fill in the remaining fields on the vendor card. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).  
 8. When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** page.
 

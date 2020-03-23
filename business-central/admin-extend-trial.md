@@ -42,7 +42,7 @@ If you have created your own company, sign out and then sign in again with the c
 ## See Also
 
 [Creating New Companies](about-new-company.md)  
-[[Trials and Subscriptions](across-preview.md)  
+[Trials and Subscriptions](across-preview.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  
 [Extending trials (as an administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Get Started as a Reseller of Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

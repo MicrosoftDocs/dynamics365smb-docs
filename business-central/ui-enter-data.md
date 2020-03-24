@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 01/27/2020
+ms.date: 03/23/2020
 ms.author: sgroespe
 ---
 
@@ -82,7 +82,7 @@ For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
 
 ## Filtering Line Items
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#Filtering).
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
 Filtering is especially helpful when viewing and analysing longer documents. For example, imagine you open a posted sales invoice and filter the line items to display all line items that have an individual discount above 5%, or filter to display only bike accessories with 'pro' in the name.
 
@@ -146,7 +146,7 @@ You can enter dates and times in all the fields that are specifically assigned t
 
 ### Entering Dates
 
-For date fields, you can either use the data picker, which lets you select a date from a calender, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more details, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+For date fields, you can either use the data picker, which lets you select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more details, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 For manually date entry, you can enter two, four, six, or eight digits:  
 

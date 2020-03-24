@@ -78,7 +78,7 @@
 ### [Setting Up Posting Groups](finance-posting-groups.md)
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)
+### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 ### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)

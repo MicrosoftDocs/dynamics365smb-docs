@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 03/12/2020
+ms.date: 03/23/2020
 ms.author: edupont
 
 ---

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 03/19/2020
     ms.author: sgroespe
 
 ---
@@ -33,7 +33,7 @@ To understand how the planning system works, it is necessary to understand the p
   Planning parameters and inventory levels are other types of demand and supply respectively, which undergo integrated balancing to replenish stock items. For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md).
 
 ## The Concept of Balancing in Brief
-  Demand is given by a company’s customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  
+  Demand is given by a company's customers. Supply is what the company can create and remove to establish balance. The planning system starts with the independent demand and then tracks backwards to the supply.  
 
    The inventory profiles are used to contain information about the demands and supplies, quantities, and timing. These profiles essentially make up the two sides of the balancing scale.  
 
@@ -95,7 +95,7 @@ During balancing, the planning system regards supply that carries serial/lot num
 
 Another reason that serial/lot numbered supply is inflexible is that serial/lot numbers are generally assigned so late in the process that it would be confusing if changes are suggested.  
 
-The balancing of serial/lot numbers does not respect the [Frozen Zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). If demand and supply is not synchronized, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
+The balancing of serial/lot numbers does not respect the *frozen zone*. If demand and supply is not synchronized, the planning system will suggest changes or suggest new orders, regardless of the planning starting date.  
 
 ### Order-to-Order Links are Never Broken  
 When planning an order-to-order item, the linked supply must not be used for any demand other than what it was originally intended for. The linked demand should not be covered by any other random supply, even if, in its present situation, it is available in time and quantity. For example, an assembly order that is linked to a sales order in an assemble-to-order scenario cannot be used to cover other demand.  

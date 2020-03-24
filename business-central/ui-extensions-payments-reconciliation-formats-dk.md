@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 03/19/2020
 ms.author: bholtorf
 
 ---
@@ -98,5 +98,4 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 ## See also
 [Customizing Business Central for [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Post SEPA Direct Debit Payment Receipts](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Working with General Journals](ui-work-general-journals.md)  

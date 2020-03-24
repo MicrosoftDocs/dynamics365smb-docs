@@ -20,7 +20,7 @@ If you have already paid for products on the posted purchase invoice, you cannot
 
 On the **Posted Purchase Invoice** page, you can choose the **Correct** button or the **Cancel** button. When you correct or cancel a posted purchase invoice, the corrective purchase credit memo is applied to all general ledger and inventory ledger entries that were created when the initial purchase invoice was posted. This reverses the posted purchase invoice in your financial records and leaves the corrective posted purchase credit memo for your audit trail. In the following the use of **Correct** and **Cancel** is described.
 <br><br>
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## To correct a posted purchase invoice
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Purchase Invoices**, and then choose the related link.  

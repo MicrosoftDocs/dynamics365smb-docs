@@ -26,7 +26,7 @@ You can find reports in the **Reports** tab on selected pages, or you can use se
 ## Specifying the Data to Include in Reports
 When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report.
 
-You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#-filtering).
+You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
 > [!Caution]
 > The **Filter list by** section on a request page provides a generic filtering capability for reports. These filters are optional.<br /><br /> Some reports will ignore any such filters, meaning that no matter what filter is set in the **Filter list by** section, the output of the report is the same. It is not possible to provide a list of which fields are ignored in which reports, so you will have to experiment with the filters when using them.<br /><br />

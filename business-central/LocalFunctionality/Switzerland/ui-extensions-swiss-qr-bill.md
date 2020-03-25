@@ -67,7 +67,7 @@ From the incoming document you can create a Purchase Journal or Purchase Invoice
 #### Receiving a QR Bill through Purchase Order or Purchase Invoice (Planned for May 2020)
 Receiving a QR Bill through a Purchase Order or Purchase invoice is meant for validation of the invoice amount and for carrying the payment reference. Similar to the Incoming Document you can scan or import a QR Bill into an *existing* document. This process will attempt to find the Vendor through the Vendor Bank Account with a matching IBAN or QR-IBAN and block the scan/import if the vendor does not match the vendor on the purchase document. If a Vendor Bank Account is not found you can create it and then allow the QR Bill to get attached to the purchase document. When the QR Bill is scanned or imported into the purchase document it will store the amount, payment reference and other information from the QR Bill on the purchase document. This is used for validation before posting of the purchase document. Posting the purchase document will be blocked if the amount of the order/invoice does not match the amount from the QR Bill. Validation will also happen at the moment of scan/import. For example, when attempting to scan or import a QR Bill the system will error if the payment reference is already used on an existing Vendor Ledger Entry for the same vendor. This is because vendors cannot issue multiple QR bills with the same payment reference. Equally, the system will also check if the QR Bill and payment reference has already been imported a into an open purchase document, to minimize the risk of mistakes. 
 
-#### Receiving a QR Bill through a Purchase Journal
+#### Receiving a QR Bill through a Purchase Journal (Planned for May 2020)
 QR Bills can be scanned or imported directly into a **Purchase Journal**. This is useful when you want to create new journal lines based on a QR Bill. Contrary to the above scenario with receiving QR Bills through purchase documents to be used for validation, scanning or importing directly into a purchase journal will create a new **Purchase Journal Line** using the vendor and amount from the QR Bill, trying to identify the vendor by finding a **Vendor Bank Account** with a matching IBAN or QR-IBAN.This enables a very productive payment scenario if you do not want to use the Purchase Order/Invoice module.  
 
 #### General information about scanning QR Bills
@@ -77,7 +77,7 @@ QR Bills can be scanned into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] u
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can import a QR Bill that have been scanned, decoded and saved to a .txt file. This is usable if your scanner solution produces .txt files and places them in a folder.
 
 > [!Note]
-> You cannot import a PDF file with a QR Bill. PDF files can be scanned directly into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] or saved to a .txt file and be imported.
+> You cannot import a PDF file with a QR Bill. PDF files can be scanned directly into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] or saved to a .txt file and then imported.
 
 ### Reconciliation
 When importing bank transactions (camt) in the Payment Reconciliation Journal page, this file is assumed to include the payment reference, which will automatically find the corresponding **Customer Ledger Entries** to settle.    

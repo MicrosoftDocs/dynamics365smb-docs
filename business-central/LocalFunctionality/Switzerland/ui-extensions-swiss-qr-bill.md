@@ -18,7 +18,7 @@ From July 1st 2020 it is mandatory for companies in Switzerland to be able to re
 ### Get started with QR Bill Management
 QR Bill Management is included in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] as an extension and automatically installed in existing and new customer environments. All you need to do to get started with this functionality is to do the necessary configuration changes in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. 
 
-1. Choose the ![Settings](../../media/ui-experience/settings_small.png) icon, and choose **Assisted Setup**.
+1. Choose the ![Settings](../../media/ui-experience/settings_icon_small.png) icon, and choose **Assisted Setup**.
 2. Find the group called **Get ready for the first invoice**.
 3. Select **Set up QR-Bill**. This will start the assisted setup for QR Bill Management.
 4. The first step of the setup is an introduction to the feature. Choose **Next**.

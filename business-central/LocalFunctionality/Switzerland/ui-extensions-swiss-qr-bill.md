@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 03/25/2020
+ms.date: 03/26/2020
 ms.author: soalex
 
 ---

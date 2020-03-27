@@ -26,47 +26,27 @@ The QR-Bill Management extension is included and automatically installed in [!IN
 
 If needed, you can change these settings on the following pages: 
 
-* **QR-Bill Setup** to change general settings. <!--should we give examples of what general and layout settings are?-->
+* **QR-Bill Setup** to change general settings. 
 * **QR-Bill Layout** to change layout settings.
 
-<!-- Suggest that we remove these. Typically, we don't give step by step guidance for setup guides. I did provide an edited version though, just in case you really want it.
-
-1. Choose the ![Settings](../../media/ui-experience/settings_icon_small.png) icon, and then choose **Assisted Setup**.
-2. Find the group named **Get ready for the first invoice**.
-3. Choose **Set up QR-Bill**. This starts an assisted setup guide that will help us configure the QR-Bill Management extension.
-4. The first step of the setup is an introduction to the feature. Choose **Next**.
-5. In the next step , You will now see *QR-Bill setup step 1 of 6: Generating and issuing QR-Bills*. This page shows your **Company Information**, on which you need to fill in the new field **QR-IBAN**. When done, choose **Next**.
-6. You will now see *QR-Bill setup step 2 of 6: Generating and issuing QR-Bills*. Here you must specify **Address Type** and **German Umlaut Chars Encoding**. Both have to do with how addresses and names are displayed on the QR-Bill. Recommended values are the defaults. When done, choose **Next**.
-7. You will now see *QR-Bill setup step 3 of 6: Generating and issuing QR-Bills*. Here you must select the **Default QR-Bill Layout**. This determines several things for the QR-Bill, like **IBAN type** (QR-IBAN or regular IBAN), **Reference type** (Creditor Reference or QR Reference) and whether or not to include **Billing Information** in SWICO format for passing more information to the receiver, like the invoice number, VAT amount etc. All of this can be changed in the QR-Bill Layout page as well. Recommended value is the default. When done, choose **Next**.
-8. You will now see *QR-Bill setup step 4 of 6: Generating and issuing QR-Bills*. In this step you must select which payment methods to enable for QR-Bills. QR-Bills are generated for a sales or service invoice if the invoice type is enabled for QR-Bills (next step) and the invoice is using a **Payment Method** enabled for QR-Bills. When done, choose **Next**.
-9. You will now see *QR-Bill setup step 5 of 6: Generating and issuing QR-Bills*. In this step you must select the document types to enable for QR-Bills. You can select to enable Sales Invoices and Service Invoices. When done, choose **Next**.
-10. You will now see *QR-Bill setup step 6 of 6: Receiving QR-Bills*. In this step you must select the Journal Template and Journal Batch to use for generating purchase journals from scanned or imported QR-Bills. When done, choose **Next**.
-
-1. Choose the ![Settings](../../media/ui-experience/settings_icon_small.png) icon, and then choose **Assisted Setup**.
-2. Under **Get ready for the first invoice**, choose **Set up QR-Bill**.
-4. Read the introduction to the feature, and then choose **Next**.
-5. Step 1 shows your **Company Information**. Fill in the **QR-IBAN** field, and then choose **Next**.
-6. In Step 2, specify the **Address Type** and **German Umlaut Chars Encoding**. These settings are related to how addresses and names are displayed on the QR-Bill. We recommend that you use the default values. When done, choose **Next**.
-7. In Step 3, choose the **Default QR-bill Layout**. This determines several things for the QR-bill, such as the **IBAN type** (IBAN or QR-IBAN), **Reference type** (Creditor Reference or QR Reference), and whether to include **Billing Information** in the SWICO format for passing additional information, such as the invoice number, VAT amount, and so on, to the receiver. We recommended that you use the default values. When you're done, choose **Next**.
-8. In Step 4, choose the payment methods to enable for QR-bills. QR-bills are generated for a sales or service invoice if the invoice type and payment method are enabled for QR-bills (we will enable it next step) and the invoice uses a **Payment Method** that is enabled for QR-bills. When done, choose **Next**.
-9. You will now see *QR-bill setup step 5 of 6: Generating and issuing QR-bills*. In this step you must select the document types to enable for QR-bills. You can select to enable Sales Invoices and Service Invoices. When done, choose **Next**.
-10. You will now see *QR-bill setup step 6 of 6: Receiving QR-bills*. In this step you must select the Journal Template and Journal Batch to use for generating purchase journals from scanned or imported QR-bills. When done, choose **Next**.
-
-If you want to change these settings later, use the following pages:
-
-* **QR-Bill Setup** to change general settings.
-* **QR-Bill Layout** to change layout settings.
--->
 ## Issuing QR-Bills
 You can enable QR-bills for sales and service invoices. This adds an entry to **Report Selection - Sales** that generates an extra PDF with the QR-bill when invoices are generated. 
 
 ## Adding Billing Information to QR-Bills
-When you create a QR-bill you can include billing information in the SWICO format, as advocated by SIX, the Swiss payment infrastructure provider. Ideally, business applications that produce or import QR-bills should also be able to process information such as the VAT amount, the vendor's invoice number, and so on, because it can be valuable for the payable invoice. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], this information is imported on the QR-bill. A key piece of information that is used by default is the vendor's invoice number. <!--why is this key information?--> The other information is also imported but not currently used. It can be used be an customization extension.  
+When you create a QR-bill you can include billing information in the SWICO format, as advocated by SIX, the Swiss payment infrastructure provider. Ideally, business applications that produce or import QR-bills should also be able to process information such as the VAT amount, the vendor's invoice number, and so on, because it can be valuable for the payable invoice. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], we import this information but use only the vendor's invoice number. If you want to use the other information you can create your own customization.
 
 ## Understanding the Payment Reference
-Payment processes are are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles this by generating a payment reference <!--number?--> for QR-bills that are unique for the invoices they accompany <!-- in a single [!INCLUDE[d365fin](../../includes/d365fin_md.md)] instance. -->, which means the same payment reference cannot be issued more than one time. If your customer is also using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the payment reference is imported when receiving QR-bills, transferred to the Vendor Ledger Entries page, and used as a reference when creating vendor payments. For more information, see [Receiving QR-Bills](ui-extensions-swiss-qr-bill.md#receiving-qr-bills). <!--As with the previous ESR Reference.--> Eventually, payment files (pain.001) will be sent from the customer's business app to their bank with the message to transfer the amounts to the vendor's account. The bank will produce a customer statement file (camt.054) that the vendor can import to reconcile accounts. This file will include the payment reference and is imported through the Data Exchange Framework that is updated by the QR-Bill Management extension to import camt.054 files.  
+Payment processes are are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles this by generating a payment reference for QR-bills that are unique for invoices issued in a specific company, which means the same payment reference cannot be issued more than one time. If your customer is also using [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the payment reference is imported when receiving QR-bills, transferred to the Vendor Ledger Entries page, and used as a reference when creating vendor payments. For more information, see [Receiving QR-Bills](ui-extensions-swiss-qr-bill.md#receiving-qr-bills). The flow is similar to the previous ESR Reference functionality that the QR-bills are replacing. Eventually, payment files (pain.001) will be sent from the customer's business app to their bank with the message to transfer the amounts to the vendor's account. The bank will produce a customer statement file (camt.054) that the vendor can import to reconcile accounts. This file will include the payment reference and is imported through the Data Exchange Framework that is updated by the QR-Bill Management extension to import camt.054 files.  
+For ESR references you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.
 
-Previously, you could add logical <!--logical?--> information to the ESR Reference. This is not the case with the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to include logical <!--logical?--> information. Instead, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] uses a unique counter for the payment reference, making sure it is unique. Additionally, logic is in place to block import or scan of the same payment reference twice, rendering it impossible to use it twice by mistake.  <!--Not sure that we need this paragraph. It repeats a lot of things stated in the previous paragraph.-->
+## Scanning and Importing QR-Bills
+To scan or import a QR-bill, you must use one of the following types of scanning devices:
+
+* An input scanner that decodes the QR code and simulates the keyboard to paste the decoded value directly in a field in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+* A scanner that can decode the QR code and save it to a .txt file that you import to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. 
+
+> [!Note]
+> You cannot import QR-bills received as PDF files directly into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] cannot interpret QR-codes. You must use one of the scanning methods.
 
 ## Receiving QR-Bills
 You can receive QR-bills in several places in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]:
@@ -91,24 +71,19 @@ From the incoming document you can create a purchase journal or a purchase invoi
 > [!Note]
 > When you import QR-bills, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will try to find a vendor bank account that has a matching IBAN or QR-IBAN. When importing QR-bills on incoming documents, and thereby creating a document or purchase journal, the vendor bank account will determine the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned.
 
+<!--
+
 ### Receiving a QR-Bill through Purchase Order or Purchase Invoice (Planned for May, 2020)
-<!--Generally speaking we don't publish descriptions of features before they're in preview or released. If this and the next feature aren't available now I think we should comment out these descriptions and then add them in May.-->
-Receiving a QR-bill through a purchase order or purchase invoice validates the invoice amount and adds the payment reference to the ledgers. Like incoming documents, you can scan or import a QR-bill to an existing purchase order or invoice. This process finds the vendor through their bank account that has an IBAN or QR-IBAN that matches the numbers on the purchase document. <!--Do we use the IBAN or QR-IBAN to find the account?--> If no match is found you cannot scan or import the QR-bill. If that happens,you can create the vendor bank account and then allow the QR-bill to be attached to the purchase document. When the QR-bill is scanned or imported to the purchase document it will add the amount, payment reference, and other information from the QR-bill. This is used for validation before posting the purchase document. Posting will be blocked if the amount of the order or invoice does not match the amount from the QR-bill. Validation also happens when you scan or import the QR-bill. If the payment reference is already used on a vendor ledger entry for a vendor, an error will display. Vendors cannot issue multiple QR-bills with the same payment reference. Similarly, an error will display if the QR-bill and payment reference has already been imported to an open purchase document. 
+Receiving a QR-bill through a purchase order or purchase invoice validates the invoice amount and adds the payment reference to the ledgers. Like incoming documents, you can scan or import a QR-bill to an existing purchase order or invoice. This process uses the QR-IBAN or IBAN from the QR-bill to find the vendor with a matching number. If no match is found you cannot scan or import the QR-bill. If that happens, you can create the vendor bank account and then allow the QR-bill to be attached to the purchase document. When the QR-bill is scanned or imported to the purchase document it will add the amount, payment reference, and other information from the QR-bill. This is used for validation before posting the purchase document. Posting will be blocked if the amount of the order or invoice does not match the amount from the QR-bill. Validation also happens when you scan or import the QR-bill. If the payment reference is already used on a vendor ledger entry for a vendor, an error will display. Vendors cannot issue multiple QR-bills with the same payment reference. Similarly, an error will display if the QR-bill and payment reference has already been imported to an open purchase document. 
 
 ### Receiving a QR-Bill through a Purchase Journal (Planned for May, 2020)
-You can scan or import QR-bills directly into a **Purchase Journal**. This is useful when you want to create new journal lines based on a QR-bill. Scanning or importing directly into a purchase journal creates a new **Purchase Journal Line** using the vendor and amount from the QR-bill, and tries to identify the vendor by finding a **Vendor Bank Account** that has a matching IBAN or QR-IBAN. For example, using purchase journals is useful if you do not want to use purchase orders or invoices.  
-
-## Scanning and Importing QR-Bills
-<!--Seems like this information should be above the procedures above.-->
-You can scan QR-bills into [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by using an input scanner, which is a scanner that simulates the keyboard and "copy/pastes" the decoded value in a field. 
-
-You can import QR-bills that have been scanned, decoded, and saved to a .txt file. For example, this is useful if your scanner solution produces .txt files and places them in a folder.
-
-> [!Note]
-> You cannot import QR-bills received as PDF files directly into [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] cannot interpret QR-codes. A received QR-bill must first be scanned with a scanner that can interpret the QR-code displayed on the QR-bill. Some scanners create .txt files and place them in a folder. You can import these files. Some scanners, called "input scanners," simulate the keyboard and can scan directly into a field in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+You can scan or import QR-bills directly into a **Purchase Journal**. This is useful when you want to create new journal lines based on a QR-bill. Scanning or importing directly into a purchase journal creates a new **Purchase Journal Line** using the vendor and amount from the QR-bill, and tries to identify the vendor by finding a **Vendor Bank Account** that has a matching IBAN or QR-IBAN. For example, using purchase journals is useful if you do not want to use purchase orders or invoices.  -->
 
 ## Reconciliation
 When importing bank transactions (camt) on the Payment Reconciliation Journal page, the file is assumed to include <!--not sure what "assumed to include" means--> the payment reference, which will automatically find the corresponding **Customer Ledger Entries** to settle.    
+
+## Upcoming Capabilities for QR-Bills
+We are planning to add capabilities to the QR-Bill Management extension in the coming updates to 2020 release wave 1. For example, you will be able to receive QR-bills through purchase documents and purchase journals. This will provide additional validations and allow you to automate and streamline receipt processes. For information about when that will happen, keep an eye on our [Release Plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## See Also
 [Switzerland Local Functionality](switzerland-local-functionality.md)  

@@ -15,12 +15,33 @@ ms.author: bholtorf
 ---
 
 # Scheduling a Synchronization between Business Central and Common Data Service
-You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with Common Data Service on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and Common Data Service records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. There are several synchronization jobs that are available out-of-the-box. You can view them on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with Common Data Service on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and Common Data Service records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. 
+
+There are several synchronization jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between entities. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+
+1. CURRENCY - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job.
+2. VENDOR - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job. 
+3. CONTACT - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job.
+4. CUSTOMER - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job.
+5. SALESPEOPLE - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job.
+
+You can view the jobs on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
+
+### Default Synchronization Job Queue Entries  
+The following table describes the default synchronization jobs for Common Data Service.  
+
+|Job Queue Entry|Description|Direction|Integration Table Mapping|Default Synchronization Frequency (mins)|Default inactivity sleep time (mins)|  
+|---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
+|CONTACT - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job|Synchronizes [!INCLUDE[d365fin](includes/cds_long_md.md)] contacts with [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.|Bidirectional|CONTACT|30|720 <br>(12 hours)| 
+|CURRENCY - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job|Synchronizes [!INCLUDE[d365fin](includes/cds_long_md.md)] transaction currencies with [!INCLUDE[d365fin](includes/d365fin_md.md)] currencies.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[d365fin](includes/cds_long_md.md)]|CURRENCY|30|720 <br> (12 hrs)| 
+|CUSTOMER - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job|Synchronizes [!INCLUDE[d365fin](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|CUSTOMER|30|720<br> (12 hrs)|
+|VENDOR - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job|Synchronizes [!INCLUDE[d365fin](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|VENDOR|30|720<br> (12 hrs)|
+|SALESPEOPLE - [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization job|Synchronizes [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with [!INCLUDE[d365fin](includes/cds_long_md.md)] users.|From [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]|SALESPEOPLE|30|1440<br> (24 hrs)|
 
 ## Synchronization Process  
-Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and Common Data Service entity to synchronize.  
+Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] entity to synchronize.  
 
-To synchronize data, Common Data Service entity records must be coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For example, a [!INCLUDE[d365fin](includes/d365fin_md.md)] customer must be coupled to a Common Data Service account. You can set up couplings manually, before running the synchronization jobs, or let the synchronization jobs set up couplings automatically. The following list describes how data is synchronized between Common Data Service and [!INCLUDE[d365fin](includes/d365fin_md.md)] when you are using the synchronization job queue entries. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md).
+To synchronize data, [!INCLUDE[d365fin](includes/cds_long_md.md)] entity records must be coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For example, a [!INCLUDE[d365fin](includes/d365fin_md.md)] customer must be coupled to a [!INCLUDE[d365fin](includes/cds_long_md.md)] account. You can set up couplings manually, before running the synchronization jobs, or let the synchronization jobs set up couplings automatically. The following list describes how data is synchronized between Common Data Service and [!INCLUDE[d365fin](includes/d365fin_md.md)] when you are using the synchronization job queue entries. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md).
 
 -   The **Sync. Only Coupled Records** check box controls whether new records are created when you synchronize. By default, the check box is selected, which means that only records that are coupled will be synchronized. In the integration table mapping, you can change the table mapping between a Common Data Service entity and a [!INCLUDE[d365fin](includes/d365fin_md.md)] table so that the integration synchronization jobs will create new records in the destination database for each record in the source database that is not coupled. For more information, see [Creating New Records](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records). 
     

@@ -14,6 +14,19 @@ ms.date: 10/01/2019
 # Integrating with Common Data Service
 Business apps often use data from more than one source. [!INCLUDE[d365fin](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on top of [!INCLUDE[d365fin](includes/cds_long_md.md)], to [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information about [!INCLUDE[d365fin](includes/cds_long_md.md)], see [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
+The following steps provide an overview of the steps to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!Note]  
+> These tasks require the **System Administrator** security role in [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+1. In the Microsoft 365 admin center, set up a user account for connecting to and synchronizing data with [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md).
+
+2. Assign licenses for [!INCLUDE[d365fin](includes/cds_long_md.md)] to the [!INCLUDE[d365fin](includes/d365fin_md.md)] users who will use the integrated apps.
+
+3. Set up a connection to [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Connect to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md).  
+
+4. Synchronize data between the apps. For more information, see [Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md). 
+
 ## Getting Started with [!INCLUDE[d365fin](includes/cds_long_md.md)]
 To get started with [!INCLUDE[d365fin](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[d365fin](includes/cds_long_md.md)], see the [Integrating with Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) module from Microsft Learn.
 

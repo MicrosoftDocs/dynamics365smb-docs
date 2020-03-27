@@ -26,7 +26,7 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [VAT Rates for Switzerland](vat-rates-for-switzerland.md) **Available Now**
 
 * Banking & Payments
-    * [QR-Bill Management](ui-extensions-swiss-qr-bill.md) **Available Now**
+    * [QR-Bill Management](ui-extensions-qr-bill-management.md) **Available Now**
     * [Close an LSV Collection](how-to-close-an-lsv-collection.md) **Available Now**
     * [Export Payments Using LSV](how-to-export-payments-using-lsv.md) **Available Now**
     * [Import ESR Payments](how-to-import-esr-payments.md) **Available Now**

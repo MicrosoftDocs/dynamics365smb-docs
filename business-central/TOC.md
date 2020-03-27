@@ -1390,7 +1390,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR Code on Swiss Payment Slips
+#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

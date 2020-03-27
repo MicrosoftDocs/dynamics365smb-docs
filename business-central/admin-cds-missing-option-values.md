@@ -12,7 +12,7 @@ ms.date: 02/03/2020
 ---
 
 # Handling Missing Option Values
-[!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CRM Option Mapping** <!--Is it CRM or CDS Option mapping? @Onat can you vertify this? --> system table to handled manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
+[!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
 
 The **Integration Table Mapping** page contains three maps for fields that contain one or more mapped option values. After a full synchronization, the **CDS Option Mapping** page contains the non-mapped options in the three fields respectively.
 
@@ -32,7 +32,7 @@ The **Integration Table Mapping** page contains three maps for fields that conta
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **CDS Option Mapping** page is based on enum values in the **CRM Account** table <!-- CRM or CDS? @Onat Please verify? -->. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account entity are mapped to fields on the customer and vendor records:
+The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account entity are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 

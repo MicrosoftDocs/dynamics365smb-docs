@@ -27,8 +27,12 @@ You must create a dedicated user account in your Office 365 subscription that bo
 > [!IMPORTANT]  
 > Do not use the administrator account for [!INCLUDE[d365fin](includes/cds_long_md.md)] for synchronization. Doing so will break the synchronization.
 
-## Minimum Permissions for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed you might need to reset them. You can do that by reinstalling the CDS Base Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+## Permissions and Security Roles for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
+When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed you might need to reset them. You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page. The Business Central CDS Integration security role is deployed.
+
+
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -117,6 +121,8 @@ You can allow sales people to view inventory levels for the items they sell by g
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## See Also  
 [Integrating with Common Data Service](admin-common-data-service.md)  

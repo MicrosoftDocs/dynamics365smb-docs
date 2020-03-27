@@ -50,7 +50,7 @@ The following procedure describes how to set up the connection manually on the *
 |**User Name** and **Password**|The credentials of the user account that is dedicated for the integration. For more information, see [Setting Up User Accounts for Integrating with [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).|
 |**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[d365fin](includes/cds_long_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
 
-3. In the **Ownership Model** field, choose whether you want a team entiity in [!INCLUDE[d365fin](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
+3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
 
 <!--Need to verify the details in this table, are these specific to Sales maybe?
 Enter the following advanced settings.
@@ -70,17 +70,9 @@ Enter the following advanced settings.
 > [!Note]
 > Connecting to [!INCLUDE[d365fin](includes/cds_long_md.md)] using the **CDS Connection Setup** page may require that you assign the Integration Administrator and Integration User security roles to the account used for integration in Dynamics 365 Sales. For more information, see [Assign a security role to a user](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user.md).
 
-
-> [!Note]
-> Connecting to Dynamics 365 Sales using the **Microsoft Dynamics 365 Sales Connection Setup** page may require you to assign **Integration Administrator** and **Integration User** security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user.md) to the user account used for integration.
-
-
 ### To disconnect from [!INCLUDE[d365fin](includes/cds_long_md.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.
 2. On the **CDS Connection Setup** page, turn off the **Enabled** toggle.  
-
-## View Item Availability - Support Matrix
-For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] and Dynamics 365 Sales, you can view the availability of inventory items across the integrated products. For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central).
 
 ## See Also  
 [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  

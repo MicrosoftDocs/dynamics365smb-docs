@@ -32,13 +32,17 @@ Whether and where a record gets created depends on the synchronization direction
      > [!NOTE]  
      >  To achieve this, the full synchronization operation temporarily clears the **Synch. Only Coupled Records** option on the integration table mapping that is used by the synchronization job. At the end of the full synchronization process, you will be prompted whether you want to keep this option cleared for all jobs.  
 
-* Coupled, the synchronization direction (for example, from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[d365fin](includes/cds_long_md.md)] or from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]) is predetermined by the integration table mappings. For more information, see [Standard Sales Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
+* Coupled, the synchronization direction (for example, from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[d365fin](includes/cds_long_md.md)] or from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]) is predetermined by the integration table mappings. For more information, see [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
 
 > [!IMPORTANT]  
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[d365fin](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 ### To run a full synchronization  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Common Data Service Connection Setup**, and then choose the related link.
+
+    > [!NOTE]
+    > If you want to run a full synchronization for entities through Dynamics 365 Sales, use the **Microsoft Dynamics 365 Sales Connection Setup** page instead.
+
 2.  Choose the **Run Full Synchronization** action, and then choose the **Yes** button.  
 3.  When the full synchronization is completed, you can specify whether to allow scheduled synchronization jobs to create new records.  
 
@@ -53,7 +57,7 @@ You can use the **CDS Connection Setup** page to synchronize changes to data in 
 
 1.  CURRENCY  
 2.  SALESPEOPLE  
-3.  Vendor  
+3.  VENDOR  
 4.  CUSTOMER  
 5.  CONTACTS  
 

@@ -51,17 +51,6 @@ The following table lists the standard mapping between entities in [!INCLUDE[d36
 ### Tip for Admins: Viewing Entity Mappings
 You can view the mapping between the entities in [!INCLUDE[d365fin](includes/cds_long_md.md)] and the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and the fields in [!INCLUDE[d365fin](includes/cds_long_md.md)] entities on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronization.
 
-### Tip for Developers: Mapping Fields in Business Central to the Option Sets in Common Data
-If you are a developer and you want to add options to the option sets in [!INCLUDE[d365fin](includes/cds_long_md.md)], you need to know this. There are three tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] that are mapped to the option fields of the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. Records in the tables that are not linked to options in [!INCLUDE[d365fin](includes/cds_long_md.md)] will not be synchronized. This means that the **Option** field will be blank in [!INCLUDE[d365fin](includes/cds_long_md.md)].
-
-The following table shows mappings from [!INCLUDE[d365fin](includes/d365fin_md.md)] tables for the **Option** field in the **Account** entity in [!INCLUDE[d365fin](includes/cds_long_md.md)].
-
-|Table|Option Field in the Account Entity|
-|----------------------|-------------------------------------------|
-|Payment Terms|Payment Terms|
-|Shipment Method|Address 1: Freight Terms|
-|Shipping Agent|Address 1: Shipping Method|
-
 ## See Also  
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 03/06/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---

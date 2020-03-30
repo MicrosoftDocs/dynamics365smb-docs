@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 02/05/2020
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---

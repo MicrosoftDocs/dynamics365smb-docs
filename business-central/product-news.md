@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---

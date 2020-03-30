@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 02/26/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 ---
 

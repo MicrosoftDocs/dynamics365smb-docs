@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 02/05/2020
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---

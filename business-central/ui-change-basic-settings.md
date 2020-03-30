@@ -78,6 +78,8 @@ Changes the display language. This field appears only when there is more than on
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
+Additional languages [!INCLUDE[d365fin](includes/d365fin_md.md)] can be installed from AppSource. While all supported display languages are shown in the list, an app containing the language translations must first be installed so [!INCLUDE[d365fin](includes/d365fin_md.md)] can display the language.  
+
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
 

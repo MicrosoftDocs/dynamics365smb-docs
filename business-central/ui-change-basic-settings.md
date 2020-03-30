@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 03/30/2020
 ms.author: sgroespe
 
 ---
@@ -78,7 +78,7 @@ Changes the display language. This field appears only when there is more than on
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
-Additional languages [!INCLUDE[d365fin](includes/d365fin_md.md)] can be installed from AppSource. While all supported display languages are shown in the list, an app containing the language translations must first be installed so [!INCLUDE[d365fin](includes/d365fin_md.md)] can display the language.  
+Additional languages for [!INCLUDE[prodshort](includes/prodshort.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the releant language app to the tenant before users can switch to the new language in [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).

@@ -61,7 +61,7 @@ Here's a short video about how to get around in [!INCLUDE[d365fin](includes/d365
 
 - Where possible, avoid older browsers such as Internet Explorer, and switch to one of our recommended modern browsers, such as the [new Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer is still supported, but since the new Edge browser is available for Windows Server now, we see a declining rate of usage for Internet Explorer. You can also get [a pilot of Edge in IE mode](https://www.microsoft.com/edge/business). For more information, see [Microsoft Edge documentation]((https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer is still supported, but since the new Edge browser is available for Windows Server now, we see a declining rate of usage for Internet Explorer. You can also get [a pilot of Edge in IE mode](https://www.microsoft.com/edge/business). For more information, see [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Keep your browser always updated to the latest version.
 
 ## See Related Training at [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)

@@ -28,7 +28,7 @@ The following table illustrates what occurs when items are blocked.
 > [!NOTE]
 > Blocked items can be returned. This means that none of the above settings apply when the item is used on return orders and credit memos.
 
-When you use the **Copy Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
+When you use the **Copy from Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
 ## To block an item from being entered on sales lines  
 

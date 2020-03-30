@@ -1,6 +1,6 @@
 ---
 title: Meet Microsoft Invoicing | Invoicing
-description: Learn about capabilities and work scenarios in Invoicing, a business management solution for smaller organizations.
+description: Microsoft Invoicing is no longer available.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---
@@ -16,7 +16,7 @@ ms.author: edupont
 > [!Note]
 > [!INCLUDE[d365inv_discont](includes/d365inv_discont.md)]
 
-[!INCLUDE[d365inv](includes/d365inv.md)] is an easy to use online and mobile app that can help send invoices, manage your expenses, and monitor your cash flow. With [!INCLUDE[d365inv](includes/d365inv.md)], you can get paid faster by seamlessly creating, editing, sending invoices, and accepting payments. It's easy to add new customers, mark invoices as paid when you receive payment, and view monthly and yearly sales.
+<!--[!INCLUDE[d365inv](includes/d365inv.md)] is an easy to use online and mobile app that can help send invoices, manage your expenses, and monitor your cash flow. With [!INCLUDE[d365inv](includes/d365inv.md)], you can get paid faster by seamlessly creating, editing, sending invoices, and accepting payments. It's easy to add new customers, mark invoices as paid when you receive payment, and view monthly and yearly sales.
 
 ## Who can access [!INCLUDE[d365inv](includes/d365inv.md)]?
 To get access to [!INCLUDE[d365inv](includes/d365inv.md)], you must have an [Office 365 Business Premium subscription](https://products.office.com/en-us/business/office-365-business-premium). You can access [!INCLUDE[d365inv](includes/d365inv.md)] from the Office 365 app launcher. [!INCLUDE[d365inv](includes/d365inv.md)] is currently available to customers in Canada, the United States, and the United Kingdom.
@@ -37,4 +37,4 @@ Get the [!INCLUDE[d365inv](includes/d365inv.md)] app on your mobile device by do
 ## See Also
 [Set up your business information](set-up-business-profile.md)  
 [Send an invoice to a new customer](send-invoice.md)  
-[Troubleshooting](about-troubleshooting.md)  
+[Troubleshooting](about-troubleshooting.md)  -->

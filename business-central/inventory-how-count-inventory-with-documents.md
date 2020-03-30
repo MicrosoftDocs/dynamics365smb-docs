@@ -32,7 +32,7 @@ Counting inventory by using documents consist of the following overall steps:
 ## To create a physical inventory order
 A physical inventory order is a complete document that consists of a physical inventory order header and some physical inventory order lines. The information on a physical inventory header describes how to take the physical inventory. The physical inventory order lines contain the information about the items and their locations.
 
-To create the physical inventory order lines, you typically use the **Calculate Lines** function to reflect the current inventory as lines on the order. Alternatively, you can use the **Copy Document** function to fill the lines with the content of another open or posted physical inventory order. The following procedure only describes how to use the **Calculate Lines** function.
+To create the physical inventory order lines, you typically use the **Calculate Lines** function to reflect the current inventory as lines on the order. Alternatively, you can use the **Copy from Document** function to fill the lines with the content of another open or posted physical inventory order. The following procedure only describes how to use the **Calculate Lines** function.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Choose the **New** action.

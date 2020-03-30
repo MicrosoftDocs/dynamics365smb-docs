@@ -38,7 +38,7 @@ The default company is called CRONUS and contains demonstration data only. You c
 ## To change the company name
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top left corner.
 

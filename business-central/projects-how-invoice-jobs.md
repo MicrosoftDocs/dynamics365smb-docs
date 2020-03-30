@@ -11,12 +11,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 10/01/2019
+ms.date: 02/24/2020
 ms.author: sgroespe
 
 ---
 # Invoice Jobs
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
+
+> [!NOTE]
+> You can also purchase external resources unrelated to a job, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 You can invoice the whole job from the **Job Task Lines** page or only invoice selected billable lines from the **Planning Lines** page. Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.
 

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 03/06/2020
 ms.author: sgroespe
 
 ---
@@ -75,12 +75,23 @@ When a profile is created, you can select different check boxes that define if, 
     - **Disable personalization** to specify if users of the related role can personalize their workspace.
     - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
-## To export user-created profiles
-You can export profiles that have been changed either by you or by users, as indicated by **(User-created)** in the **Source** field. The profile is exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## To export profiles
+You can export profiles from [!INCLUDE[d365fin](includes/d365fin_md.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* On the **Profiles (Roles)** page, choose the **Export User-Created Profiles** action.
+* On the **Profiles (Roles)** page, choose the **Export Profiles** action.
 
-A zip file with the .al files for profiles that were newly added or modified is exported.
+A zip file with the .al files for all profiles is exported.
+
+## To import profiles
+You can import profiles that have been exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
+
+1. On the **Profiles (Roles)** page, choose the **Import Profiles** action.
+2. Follow the steps on the **Import Profiles** wizard.
+
+    If you only want to import selected profiles, use the **Selected** check box to indicate which to import.
+3. Choose the **Import selected** button.
+
+A zip file with .al files for the selected profiles is imported.
 
 ## To delete a profile
 You can delete a profile by choosing the **Delete** action on the **Profiles (Roles)** page. However, the following limitations apply:

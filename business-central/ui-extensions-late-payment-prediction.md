@@ -45,7 +45,7 @@ You can also predict late payments up-front. On the **Sales Quotes**, **Sales Or
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## Design details
-Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. Access to these web services is included in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing).
+Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. Access to these web services is included in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website.
 
 The web-services work in three modes:
 - Train model. The web service trains the model based on the provided dataset.

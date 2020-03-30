@@ -30,14 +30,16 @@ The extension uses Azure AI to predict future sales based on your sales history 
 You can also use the extension to suggest when to stock up on inventory. For example, if you create a purchase order for Fabrikam because you want to buy their new desk chair, the Sales and Inventory Forecast extension will suggest that you also restock on the LONDON swivel chair that you usually buy from this vendor. This is because the extension forecasts that you will run out of stock of the LONDON swivel chair in the coming two months, so you might want to order more chairs already now.  
 
 ## Design details
-Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing). These web services are stateless, meaning they use data only to calculate predictions on demand.They do not store data.
+Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
+
+These web services are stateless, meaning they use data only to calculate predictions on demand. They do not store data.
 
 > [!NOTE]  
 >   You can also use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for sales and inventory forecasts](#AnchorText). 
 
 ### Data required for forecast
 To make predictions about future sales, the web service requires quantitative data about past sales. That data comes from the **Posting Date**, **Item No**, and **Quantity** fields on the **Item Ledger Entries** page, where:
--	The entry type is “Sale.”
+-    The entry type is "Sale."
 - The posting date is between the date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Sales and Inventory Forecast Setup** page and the work date.
 
 Before using the web service [!INCLUDE[d365fin](includes/d365fin_md.md)] compresses transactions by **Item No.** and **Posting Date** based on the value in the **Period Type** field in the **Sales and Inventory Forecast Setup** page.

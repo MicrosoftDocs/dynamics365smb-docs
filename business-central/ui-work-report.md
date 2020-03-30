@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2019
+ms.date: 02/19/2020
 ms.author: sgroespe
 
 ---
@@ -65,7 +65,16 @@ You can schedule or batch job a report to run at a specific date and time. Sched
 You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Role Center, where you can view it.
 
 ## <a name="PrintReport"></a>Printing a Report
-You can print a report from the **Print** button on the options page that appears when you open the report or from the menu bar in Preview.  
+You can print a report by choosing the **Print** button on the report request page or on the menu bar on the **Preview** page.
+
+Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+
+If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. This is indicated by this value in the **Printer** field on the report request page: *(none, handled by the browser)*.
+
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You cannot change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
 
 ### Printing Reports in Thai
 Specifically for the Thai version of [!INCLUDE[prodshort](includes/prodshort.md)], the **Print** button cannot print reports correctly due to limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
@@ -76,7 +85,7 @@ Alternatively, you can ask your administrator to create a Word report layout for
 A report layout controls what is shown on a report, how it is arranged, and how it is styled. If you want to switch to a different layout, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md). Or, if you want to customize your own report layout, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md).
 
 ## See Also
-[Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)  
+[Set Up Printers](ui-specify-printer-selection-reports.md)  
 [Working with Calendar Dates and Times](ui-enter-date-ranges.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

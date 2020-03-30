@@ -185,7 +185,7 @@ The following table shows the effect of the exact cost reversal on the item’s 
 When you run the **Adjust Cost - Item Entries** batch job, the increased cost of the purchase entry, due to the item charge, is forwarded to the sales entry (entry number 2). The sales entry then forwards this increased cost to the sales credit entry (entry number 3). The final result is that the cost is correctly reversed.  
 
 > [!NOTE]  
->  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
+>  If you are working with returns or credit memos and you have set up the **Exact Cost Reversing Mandatory** field in either the **Purchases & Payables Setup** page or the **Sales & Receivables Setup** page, as appropriate for your situation, then [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills the various application entry fields when you use the **Copy from Document** function. If you use the **Get Posted Document Lines to Reverse** function, then the fields are always filled automatically.  
 
 > [!NOTE]  
 >  If you post a transaction with a fixed application, and the item ledger entry that you are applying to is closed, meaning that the remaining quantity is zero, then the old application is automatically undone and reapplies the item ledger entry using the fixed application that you specified.  

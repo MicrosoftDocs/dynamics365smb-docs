@@ -80,7 +80,9 @@ To use a manual process:
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
 ## Design details
-Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For information about licensing, see [Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing). These web services are stateless, meaning they use data only to calculate predictions on demand.They do not store data.
+Subscriptions for [!INCLUDE[d365fin](includes/d365fin_md.md)] come with access to several predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
+
+These web services are stateless, meaning they use data only to calculate predictions on demand. They do not store data.
 
 > [!NOTE]  
 >   You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText). 

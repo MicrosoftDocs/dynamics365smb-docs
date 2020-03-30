@@ -34,7 +34,7 @@ At the bottom of the **Tell Me** window is an action called **exploring**, which
 The **On Current Page** section lets you find and perform actions on the page you have open. For example, if the **Sales Quote** page is open and you type "customer," the section includes an action that opens the customer card for the customer chosen on the sales quote.
 
 > [!NOTE]  
->   The list includes only actions that are available in the navigation bar at the top of the page. Actions on FastTabs are not included.  
+>   The list includes only actions that are available on the navigation bar at the top of the page. Actions on FastTabs are not included.  
 
 ### Finding a Page or a Task
 The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. For more information, see [Add a Page Action to Your Role Center](ui-bookmarks.md).

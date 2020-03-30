@@ -28,7 +28,7 @@
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
-## [Print-Friendly Cheat Sheet](ui-work-product.md)
+## [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)
+## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizing Business Central
 ### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)

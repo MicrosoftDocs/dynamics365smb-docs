@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---
@@ -34,20 +34,20 @@ In the demonstration company, the Business Manager and Accountant Role Centers i
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md).
 
-Before you can begin to use functionality, certain setup must be made. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Before you can begin to use functionality, certain setup must be made. To get started, simply choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Some setup steps can be performed semi-automatically by using assisted setup guides.
+> Some setup steps can be performed semi-automatically by using assisted setup guides. Others required manual setup, and you can find a list in the **Advanced Settings** page.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 For an overview of current capabilities and what is coming, take a look at our release plan at [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## The Role Centers
 The Role Center page is based on a role-centric design to give you fast access to the business process and intelligence tools that you need to do your job. For example, an accountant can monitor payments and approvals, and view finance performance charts. Find out what your current role gives access to with the role explorer. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md). Check out the various Role Centers by choosing the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") in the top right corner, choosing **My Settings**, and then the Role Center to explore. You are automatically signed out and in again to apply the change. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
-
-Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]
-> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
 ## Trying things out in your own company
 Thinking about subscribing? You can easily change from the demonstration company, and create and work in a company of your own. This is a great way to start toward a subscription. Setups for finances are provided; you just need to create or import your customers, vendors, and the products or services that you sell. After that, you're ready to post invoices and use business intelligence tools to analyze your business. You can use your company for free for a 30-day trial period. If you subscribe to [!INCLUDE[d365fin](includes/d365fin_md.md)] during that time, you're already up and running. You can continue with the work you did during the trial.  

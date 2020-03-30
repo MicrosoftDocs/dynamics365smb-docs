@@ -10,8 +10,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: crm, sales, couple, decouple, synchronize, cds, common data service
-ms.date: 10/01/2019
+ms.search.keywords: crm, sales, couple, decouple, synchronize
+ms.date: 04/01/2020
 ms.author: bholtorf
 
 ---

@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
 
 ---
@@ -20,7 +20,7 @@ Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] is a business ma
 There are plenty of benefits of using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a platform for App builders, which includes:
 
 * Get started with confidence through a seamless onboarding experience
-* Use Microsoft’s Go-To-Market services
+* Use Microsoft's Go-To-Market services
 * Customize your app listing page
 * Connect directly with decision-makers and reach more customers
 * Enhance business value and increase deal size with existing and new customers
@@ -35,7 +35,7 @@ Bring your [!INCLUDE[d365fin](includes/d365fin_md.md)] services to Microsoft App
 
 The new development tools enable to you to build extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)] users. If you want to familiarize yourself with the new tools or learn about extensions 2.0, have a look at [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Find information on apps and consulting services that are currently available on [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
 To help business users get started quickly, Microsoft has added a catalog of consulting services offerings for solutions based on [!INCLUDE[prodshort](includes/prodshort.md)], Power BI, and Power Apps to AppSource. Learn more about the [Consulting Services](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 

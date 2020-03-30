@@ -8,8 +8,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Common Data Service, CDS, integration, sync, synchronize
-ms.date: 03/27/2020
+ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.date: 04/01/2020
 ms.author: bholtorf
 
 ---

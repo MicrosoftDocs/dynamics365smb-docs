@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 03/05/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---
@@ -46,7 +46,7 @@ Assign one or more recurring sales lines to a customer so that they are availabl
 |**Always Ask**|A notification appears and all existing recurring sales lines are shown so that you can select one.
 
 ## To insert recurring sales lines on a sales invoice
-If recurring sales lines exist for the customer, you can insert them on all types of sales documents, such as a sales invoice. If you have activated the notification in question, you will be informed if recurring sales lines exist.
+If recurring sales lines exist for the customer, you can insert them, or have them inserted, on all types of sales documents, such as a sales invoice. If you have activated the **Always Ask** options, you will be informed if recurring sales lines exist.
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoices**, and then choose the related link.
 2. Open the sales invoice that you want to insert one or more standard sales lines on.
 3. Choose the **Get Recurring Sales Lines** action.

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 10/01/2019
+    ms.date: 04/01/2020
     ms.author: bholtorf
 
 ---

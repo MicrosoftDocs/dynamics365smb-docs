@@ -51,7 +51,7 @@
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
-### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
+### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -322,6 +322,7 @@
 ## [Create Users According to Licenses](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)
@@ -515,6 +516,7 @@
 ## [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
+## [Manage Database Access Intent](admin-data-access-intent.md)
 
 # Sales
 ## [Overview](sales-manage-sales.md)

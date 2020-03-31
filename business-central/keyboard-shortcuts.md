@@ -135,7 +135,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 |Press these keys<br />(in macOS)|To do this|
 |----------------|-----------|
-|Alt+F6|Toggle collapse/expand for the current FastTab.|
+|Alt+F6|Toggle collapse/expand for the current FastTab or part (sub-page).|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|

@@ -62,7 +62,7 @@ As for other personalization, the changes you make to column width are stored on
 |Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
 |Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalize List Views](ui-views.md)|  
 |Add a new action to a page or report on your Role Center.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Center Role Center](ui-bookmarks.md)|
-
+|Always start a list as expanded or collapsed|Choose the Expand All or Collapse All button in the top-left corner of the list, or choose the Expand All or Collapse All action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
 ## <a name="Actions"></a>Personalizing Actions
 

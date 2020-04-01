@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 01/01/2019
+ms.date: 04/01/2020
 ms.author: mikebc
 
 ---

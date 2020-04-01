@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---
@@ -127,18 +127,18 @@ For example, a user can have permission to run codeunit 80, Sales-Post. The Sale
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
 ## To create or modify permissions by recording your actions
-1.	Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
-2.	Alternatively, on the **Users** page, choose the **Permission Sets** action.
-3.	On the **Permission Sets** page, choose the **New** Action.
-4.	On a new line, fill in the fields as necessary.
-5.	Choose the **Permissions** action.
-6.	On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
+1.    Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
+2.    Alternatively, on the **Users** page, choose the **Permission Sets** action.
+3.    On the **Permission Sets** page, choose the **New** Action.
+4.    On a new line, fill in the fields as necessary.
+5.    Choose the **Permissions** action.
+6.    On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
 
     This starts a recording process that captures all your action in the user interface.
-7.	Go to the various pages and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
-8.	When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
-9.	Choose the **Yes** button to add the recorded permissions to the new permission set.
-10.	For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
+7.    Go to the various pages and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
+8.    When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
+9.    Choose the **Yes** button to add the recorded permissions to the new permission set.
+10.    For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
 
 ## Security Filters - To limit a user's access to specific records in a table
 For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
@@ -201,5 +201,4 @@ Administrators can define periods of time during which specified users are able 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central Licensing Guide](https://aka.ms/BusinessCentralLicensing)  
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help

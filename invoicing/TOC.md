@@ -1,5 +1,5 @@
 # [Welcome to Microsoft Invoicing](index.md)
-## Get started
+<!--## Get started
 ### [Set up your business information](set-up-business-profile.md)
 ### [Managing customer information](add-customers.md)
 ### [Add products or services](add-items.md)
@@ -13,4 +13,4 @@
 ## Send invoices and estimates to your customers
 ### [Send an invoice to a new customer](send-invoice.md)
 ### [Send an estimate to a customer](send-estimate.md)
-### [Give a discount](give-discount.md)
+### [Give a discount](give-discount.md)-->

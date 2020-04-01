@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 03/23/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 ---
 
@@ -109,6 +109,11 @@ To open the current card or document in a new window, choose ![Open New Window](
 > [!NOTE]
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Another way to multitask, is to open [!INCLUDE[d365fin](includes/d365fin_md.md)] on two or more browser tabs. When you do this, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This creates a new session.   
+
+> [!NOTE]
+> Do not use the **Duplicate** function of the browser to create the new tab as this may cause actions on one tab to block actions on other tabs because they are part of the same session.
 
 ## Entering Quantities by Calculation
 

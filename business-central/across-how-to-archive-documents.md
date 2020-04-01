@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2020
     ms.author: sgroespe
 
 ---
@@ -18,7 +18,7 @@ You can archive sales and purchase orders, quotes, return orders, and blanket or
 
 For archived documents where the original still exists and is not posted, you can use the **Restore** function to overwrite the original with the archived version of the document. This is practical if you need to restore the contents of a document to an earlier state.
 
-For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy Document** function.   
+For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy from Document** function.   
 
 ## To set up automatic document archiving  
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders, before you delete documents.

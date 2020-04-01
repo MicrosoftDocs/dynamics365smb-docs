@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 12/18/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
 
 ---

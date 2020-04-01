@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2020
     ms.author: sgroespe
 
 ---
@@ -18,7 +18,7 @@ Fiscal documents must contain all company information. You can enter all relevan
 
 ## To set up company information  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Sprocket icon to open the Settings menu](../../media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2.  Enter the information into the FastTabs as described in the following table.
 
     |Field|Description|  

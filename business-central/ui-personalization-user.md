@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---
@@ -31,7 +31,7 @@ You can easily resize columns on any list by dragging the boundary between two c
 
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## To personalize a page through the **Personalizing** banner
+## To start personalizing a page through the **Personalizing** banner
 1. Open any page that you want to personalize.
 2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
 
@@ -63,9 +63,10 @@ As for other personalization, the changes you make to column width are stored on
 |Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalize List Views](ui-views.md)|  
 |Add a new action to a page or report on your Role Center.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Center Role Center](ui-bookmarks.md)|
 
+
 ## <a name="Actions"></a>Personalizing Actions
 
-Personalization lets you decide which actions to show on the action bar and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
+Personalization lets you decide which actions to show on the navigation and action bars and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 
@@ -83,9 +84,9 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 |Option|What it does|
 |------|------------
-|**Remove**|This option appears if the selected action is also shown somewhere else on the action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else on the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in personalizing mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
-|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the action bar.|
+|**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
+|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
+|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
 ### To move actions and action groups
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
@@ -96,6 +97,18 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
+
+## <a name="Parts"></a>Personalizing Parts
+
+Parts are areas on a page that are typically composed of multiple fields, charts or other content, and can be identified by a colored border when setting focus to the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part as well as its' contents.
+
+- To move a part, drag and drop it to the desired position. A colored line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
+- You can hide a part by choosing the **Hide** option under the arrowhead.
+- When you start personalizing or navigate to a new page, any parts that are currently hidden will appear on the page with distinctive visuals to indicate they are hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
+
+You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
+
+
 ## To clear personalization
 At some point, you might want to undo some or all of the personalization changes that you have made to a page over time.
 
@@ -105,9 +118,9 @@ At some point, you might want to undo some or all of the personalization changes
 |Option|What it does|
 |------|------------
 |**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. This includes any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
-|**Only Actions**|Clears any personalization changes that you have ever made on the action bar on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|
+|**Only Actions**|Clears any personalization changes that you have ever made on the navigation or action bars on the page.|
+|**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the navigation or action bar. This includes changes to fields, columns, parts, and tiles. |
+|**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## Additional Points of Interest
 To help you better understand personalization, here are some pointers.

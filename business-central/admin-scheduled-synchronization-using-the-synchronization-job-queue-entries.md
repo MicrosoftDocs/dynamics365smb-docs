@@ -49,7 +49,7 @@ To synchronize data, [!INCLUDE[d365fin](includes/cds_long_md.md)] entity records
     If you clear the **Sync. Only Coupled Records** check box, when you synchronize customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] with accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)], a new account is created for each customer in [!INCLUDE[d365fin](includes/d365fin_md.md)] and automatically coupled. Additionally, because the synchronization is bidirectional in this case, a new customer is created and coupled for each [!INCLUDE[d365fin](includes/cds_long_md.md)] account that is not already coupled.  
 
     > [!NOTE]  
-    > There are rules and filters that determine what data is synchronized. For more information, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > There are rules and filters that determine what data is synchronized. For more information, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md).
 
 -   When new records are created in [!INCLUDE[d365fin](includes/d365fin_md.md)], the records use the either the template that is defined for the integration table mapping or the default template that is available for the record type. Fields are populated with data from [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)] depending on the synchronization direction. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).  
 

@@ -32,7 +32,7 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 When users are assigned a [!INCLUDE[d365fin](includes/d365fin_md.md)] license in Office 365 you can import them to the **Users** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Get New Users from Office 365** action.
 
-### To add a user or update user information in Business Central
+### <a name="adduser"></a>To add a user or update user information in Business Central
 Use dedicated import functions to add new users or update user information in [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Microsoft 365 Admin Center.  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Depending on what you want to do, choose either the **Get New Users from Office 365** or **Update Users from Office 365** action.

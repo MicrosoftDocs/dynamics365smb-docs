@@ -6,7 +6,7 @@
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.search.keywords: CZ, Czech, local, VAT, Control Report
-    ms.date: 01/08/2020
+    ms.date: 04/01/2020
     ms.reviewer: v-pejano
     ms.author: v-pejano
 ---

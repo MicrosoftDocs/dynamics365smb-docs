@@ -1,8 +1,6 @@
 ---
 title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---
@@ -31,8 +29,9 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 
-## See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
+
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -28,7 +28,7 @@
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
-## [Print-Friendly Cheat Sheet](ui-work-product.md)
+## [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ## [Finding Pages and Information with Tell Me](ui-search.md)
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Manage Notifications](ui-smart-notifications.md)
+## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizing Business Central
 ### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
 ### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
-### [Specify Printer Selection for Reports](ui-specify-printer-selection-reports.md)
+### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -322,6 +323,7 @@
 ## [Create Users According to Licenses](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ## [Creating New Companies](about-new-company.md)
@@ -511,6 +513,7 @@
 ## [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ## [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ## [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
+## [Manage Database Access Intent](admin-data-access-intent.md)
 
 # Sales
 ## [Overview](sales-manage-sales.md)
@@ -1390,7 +1393,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR Code on Swiss Payment Slips
+#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

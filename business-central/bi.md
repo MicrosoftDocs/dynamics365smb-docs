@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
 
 ---
@@ -33,6 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up analysis views to analyze data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 |Enable global financial reporting by to international accounting organizations with the eXtensible Business Reporting Language standard.|[Create Reports with XBRL](bi-create-reports-with-xbrl.md)|
+|Change the database access intent on reports, pages of the type API, and queries to reduce load and improve performance.|[Manage Database Access Intent](admin-data-access-intent.md)|
 
 ## See Also
 [Finance](finance.md)    

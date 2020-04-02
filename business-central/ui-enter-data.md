@@ -9,15 +9,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
 ---
 
 # Entering Data
 
-There are many general features that help you enter data easier, faster, and more accurate. The general features for entering data are described in this article.  
+There are many general features that help you enter data easier, faster, and more accurate. The basic principles and advanced features for entering data are described in this article.  
 
 The examples in this article use the demonstration data.
+
+## Working with editable fields
+Fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value, while non-editable fields are typically displayed with a gray background.   
+
+Some editable fields provide a picker to help you specify a value.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Picker**        |**How it helps you specify a value**|
+|Date picker       |This picker displays a calendar based on your current regional settings and helps you choose a single date|
+|Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
+|Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
+|Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
+
+
+### Modifying a field value
+To modify the value of a field, you must first set focus to that field:
+- Use the **Tab** key to set focus to a field. This selects the entire value.
+- Left-click your mouse or similar input device to set focus to a field. This will only select the entire field value if the field is in a list.  
+
+When you interact with fields in the user interface, [!INCLUDE[d365fin](includes/d365fin_md.md)] typically favors selecting the entire field value to make it easier for you to replace that value.
+
+When the entire field value is selected:
+- Replace the value by simply typing to specify a new value. If the field offers a picker, you can activate it using the **Alt+Arrow-down** keyboard shortcut.
+- Use the **Delete** or **Backspace** key to clear the value.
+
+You can press the **F2** key to toggle between selecting the entire field value and placing the cursor at the end of the value. Placing the cursor at the end of the value makes it easier for you to append to the existing value.
+
+When the cursor is shown at the end of the field value:
+- Add to the value by simply typing.
+- Use the **Home**, **End**, **Left-arrow** and **Right-arrow** keys to move the cursor within the value. If you are editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
+
+> [!NOTE]
+> After you specify a value, Business Central will only check that it is valid after you click outside the field or set focus to another element, such as the next field.  
+
 
 ## Keyboard Shortcuts
 
@@ -43,7 +77,7 @@ The following provides some useful information about using Quick Entry.
 - It is available for any editable fields.
 - It also works across columns and rows.
 - It does not prevent accessing other elements of a page, such as actions. These are still accessible by using Tab and Shift+Tab.  
-- FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the designated field.
+- FastTabs do not have to be expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the designated field. [!INCLUDE[d365fin](includes/d365fin_md.md)] will remember that the FastTab should be expanded next time you visit the page.  
 - Quick Entry works irrespective of whether fields are mandatory. So it is a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 

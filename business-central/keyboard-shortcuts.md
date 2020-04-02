@@ -62,7 +62,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Y and N|Activate **Yes** and **No** buttons in dialogs. This is language-supported. For example, press J in Germany to activate a **Ja** button.|
+|Y and N|Activate **Yes** and **No** buttons in dialogs. Actual keys will vary based on your current language specified in **My Settings**. For example, press J when using German language to activate the **Ja** button.|
 
 ## Keyboard Shortcuts in Lists
 

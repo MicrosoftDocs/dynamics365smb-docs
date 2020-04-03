@@ -336,6 +336,7 @@
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
+## [Enabling new features ahead of time](admin-feature-management.md)
 ## Customizing Business Central
 ### [Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

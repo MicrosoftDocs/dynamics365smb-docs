@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
 ---
 
@@ -40,6 +40,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |----------------|-----------|
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press Alt+Up Arrow to show the validation error. Press Esc or Alt+Up Arrow to close the tooltip.|
+|F2|Toggle between selecting the entire value of a field and placing the cursor at the end of the value of a field.|
 |Alt+F2|Show and hide the FactBox pane.|
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
@@ -61,7 +62,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Y and N|Activate **Yes** and **No** buttons in dialogs. This is language-supported. For example, press J in Germany to activate a **Ja** button.|
+|Y and N|Activate **Yes** and **No** buttons in dialogs. Actual keys will vary based on your current language specified in **My Settings**. For example, press J when using German language to activate the **Ja** button.|
 
 ## Keyboard Shortcuts in Lists
 

@@ -13,7 +13,7 @@ ms.author: sgroespe
 ---
 
 # Keyboard Shortcuts
-This article provides an overview of some of the shortcut key combinations that you can use when you are working with [!INCLUDE[prodshort](includes/prodshort.md)].
+This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
@@ -23,12 +23,12 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts 
 > [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview
-Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They are supported by most web browsers, however, the behavior may vary slightly.
+Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They're supported by most web browsers, however, the behavior may vary slightly.
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
-Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These are indicated with brackets in the following sections.
+Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
 > In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
@@ -40,7 +40,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |----------------|-----------|
 |Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press Alt+Up Arrow to show the validation error. Press Esc or Alt+Up Arrow to close the tooltip.|
-|F2|Toggle between selecting the entire value of a field and placing the cursor at the end of the value of a field.|
+|F2|Toggle between selecting the entire field value or placing the cursor at the end of the field value.|
 |Alt+F2|Show and hide the FactBox pane.|
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane is not open.|
@@ -57,12 +57,12 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application. (Similar to selecting refresh/reload in the browser.)|
-|F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you are working.|
+|F5|Refresh the data on the current page.<br /><br />Use this to ensure that the data on the page is up-to-date with any changes that others have made while you're working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
 |Tab|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |Shift+Tab|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|Y and N|Activate **Yes** and **No** buttons in dialogs. Actual keys will vary based on your current language specified in **My Settings**. For example, press J when using German language to activate the **Ja** button.|
+|Y and N|Activate **Yes** and **No** buttons in dialog boxes. Actual keys will vary based on your current language specified in **My Settings**. For example, press J to activate the **Ja** button when using German language.|
 
 ## Keyboard Shortcuts in Lists
 

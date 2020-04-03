@@ -9,13 +9,13 @@ ms.date: 04/03/2020
 ms.author: mikebc
 ---
 
-# Enabling upcoming features ahead of time
+# Enabling Upcoming Features Ahead of Time
 
-Some new features can be enabled ahead of time on your environment, allowing you to benefit as early as possible, and giving you the time you need to test and prepare your organization for change.
+Some new features can be enabled ahead of time. letting you take advantage of them as early as possible. Enabling features early gives you the time to test and prepare your organization for change.
 
-When Microsoft releases features or feature design improvements as part of minor updates, some of these are not immediately enabled. Administrators can enable each feature from the **Feature Management** page. When a feature is enabled, it becomes available for all users on that environment no matter how they access [!INCLUDE[prodshort](includes/prodshort.md)]. Features can be safely turned off again. These features are only optional for a period of time.
+When Microsoft releases features or feature design improvements as part of minor updates, some of the features aren't immediately enabled. Administrators can enable each feature from the **Feature Management** page. After a feature is enabled, it becomes available for all users on that environment no matter how they access [!INCLUDE[prodshort](includes/prodshort.md)]. Features can be safely turned off again. These features are only optional for a while.
 
-Learn more about [Feature Management](devitpro/administration/feature-management.md)  
+Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management)  
 
 ## See also
 

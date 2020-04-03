@@ -14,7 +14,7 @@
 
 ---
 # Work with Payment Tolerances and Payment Discount Tolerances
-You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
+You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
 
 You can use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.
 
@@ -32,7 +32,10 @@ You can choose to display a warning that is based on different tolerance situati
 - The first warning is for the payment discount tolerance. You are informed that you can accept a late payment discount. You can then choose whether to accept tolerance on the discount date.  
 - The second warning is for the payment tolerance. You are informed that all entries can be closed because the difference is in the sum of the maximum payment tolerance for the applied entries. You can then choose whether to accept tolerance on the payment amount.
 
-For more information, see [To enable or disable payment tolerance warning](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Enabling the warning message will let choose how to process payments that are within tolerance. If you do not enable the message, and a tolerance level is specified, invoices with amounts that are within tolerance will be automatically closed and you cannot choose to leave the remaining amount. 
+
+For more information, see [To enable or disable payment tolerance warning](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## To set up tolerances  
 Tolerance on days and amounts allows you to close an invoice even though the payment does not fully cover the amount on the invoice, whether this is because the due date for the payment discount has been exceeded, goods have been deducted or because of a minor error. This also applies to refunds and credit memos.  
@@ -63,7 +66,7 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 ## To enable or disable payment tolerance warnings
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2. On the **General Ledger Setup** page, on the **Application** FastTab, select the **Payment Tolerance Warning** check box to activate the warning. To deactivate the warning, clear the check box.  
+2. On the **General Ledger Setup** page, on the **Application** FastTab, turn on the **Payment Tolerance Warning** toggle to activate the warning. To deactivate the warning, turn off the toggle.  
 
 > [!NOTE]  
 >  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.

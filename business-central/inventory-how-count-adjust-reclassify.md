@@ -34,8 +34,8 @@ You must take a physical inventory, that is, count the actual items on hand, to 
 
 Apart from the physical counting task, the complete process involves the following three tasks:
 
-- Calculate the expected inventory. 
-- Print the report to be used when counting. 
+- Calculate the expected inventory.
+- Print the report to be used when counting.
 - Enter and post the actual counted inventory.
 
 You can perform the physical inventory in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  

@@ -34,8 +34,8 @@ You must take a physical inventory, that is, count the actual items on hand, to 
 
 Apart from the physical counting task, the complete process involves the following three tasks:
 
-- Calculate the expected inventory.
-- Print the report to be used when counting.
+- Calculate the expected inventory. 
+- Print the report to be used when counting. 
 - Enter and post the actual counted inventory.
 
 You can perform the physical inventory in either of the following ways depending on your warehouse setup. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
@@ -90,6 +90,9 @@ When you register the warehouse physical inventory, you are not posting to the i
 4. Choose the **Print** button.
 
 Employees can now proceed to count inventory and record any discrepancies on the printed report.
+
+> [!NOTE]
+> It can take several days till printed reports will come back for final processing and postings. When you enter and post actual counted inventory system adjust inventory to difference between expected and actual counted inventory. It is important for you to keep the originally calculated journal lines and not to re-calculate expected inventory, as expected inventory may change and lead to wrong inventory levels. If you need to issue multiple reports, for example for different locations or group of items you should create and keep separate journal batches.
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
 1. On each line on the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.

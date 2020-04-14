@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
 
 ---
@@ -102,7 +102,8 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
 
 > [!Important]  
-> Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. You can perform this task with the **Change Global Dimensions** function, but it can be time-consuming and may affect performance. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later.
+> Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. You can perform this task with the **Change Global Dimensions** function, but it can be time-consuming and may affect performance and tables may be locked during the update. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later. <br /><br />
+> For more information, see [To change global dimensions](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use all over the application.
@@ -111,8 +112,19 @@ Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d36
 2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### To change global dimensions
+When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Beware that this process may be time-consuming and can affect performance.
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Change Global Dimensions**, and then choose the related link.
-2. Hover over actions and fields on the page to learn how to change global and shortcut dimensions.
+2. Fill in the fields as necessary.
+
+    At the top of the **Change Global Dimensions** page, you can select in which mode the batch job is run to define how much time the update process takes and thereby how it affect performance.
+
+    |Option|Description|
+    |-|-|
+    |**Sequential**|(Default) The whole dimension change is done in one transaction taking all entries back to the dimensions they had before the change.<br /><br />This option is recommended if the company contains a relatively few posted entries where it will take the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Note that on large databases, this process may not be able to complete at all in this mode. In that case, use the **Parallel** option.|
+    |**Parallel**|The dimension change is done as multiple background sessions and the operation is split into multiple transactions.<br /><br />This option is recommended for large databases or companies with many posted entries where it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database session.|  
+
+3. Choose the **OK** button to start the dimension update process.
 
 ### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions on the **Dimensions** page:

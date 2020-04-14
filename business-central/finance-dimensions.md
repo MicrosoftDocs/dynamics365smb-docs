@@ -112,19 +112,25 @@ Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d36
 2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### To change global dimensions
-When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Beware that this process may be time-consuming and can affect performance.
+When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Change Global Dimensions**, and then choose the related link.
-2. Fill in the fields as necessary.
-
-    At the top of the **Change Global Dimensions** page, you can select in which mode the batch job is run to define how much time the update process takes and thereby how it affects performance.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
+2. Choose the **Change Global Dimensions** action.
+3. At the top of the page, select one of the following options to define in which mode the batch job is run.
 
     |Option|Description|
     |-|-|
     |**Sequential**|(Default) The whole dimension change is done in one transaction taking all entries back to the dimensions they had before the change.<br /><br />This option is recommended if the company contains relatively few posted entries where it will take the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Note that on large databases, the process may not be able to complete at all in this mode. In that case, use the **Parallel** option.|
-    |**Parallel**|The dimension change is done as multiple background sessions and the operation is split into multiple transactions.<br /><br />This option is recommended for large databases or companies with many posted entries where it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database session.|  
+    |**Parallel**|(Select the **Parallel Processing** checkbox.) The dimension change is done as multiple background sessions and the operation is split into multiple transactions.<br /><br />This option is recommended for large databases or companies with many posted entries where it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database session.|  
 
-3. Choose the **OK** button to start the dimension update process.
+4. In the **Global Dimension 1 Code** and/or **Global Dimension 2 Code** fields, enter the new dimension(s). The current dimensions are displayed in gray behind the fields.
+5. If you have selected the **Sequentital** mode, choose the **Start** action.
+6. If you have selected the **Parallel** mode, choose the **Prepare** action.
+7. At  the top of the page, choose the **Start** action to start the dimension update process.
+
+    The **Log Entries** tab is filled with information about the dimensions that will be changed.
+8. Sign out of !INCLUDE[d365fin](includes/d365fin_md.md)], and then sign back in.
+9. Choose the **Start** action to start the parallel processing of the dimension changes.
 
 ### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions on the **Dimensions** page:

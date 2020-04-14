@@ -117,11 +117,11 @@ When you change a global or shortcut dimension, all entries posted with the dime
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Change Global Dimensions**, and then choose the related link.
 2. Fill in the fields as necessary.
 
-    At the top of the **Change Global Dimensions** page, you can select in which mode the batch job is run to define how much time the update process takes and thereby how it affect performance.
+    At the top of the **Change Global Dimensions** page, you can select in which mode the batch job is run to define how much time the update process takes and thereby how it affects performance.
 
     |Option|Description|
     |-|-|
-    |**Sequential**|(Default) The whole dimension change is done in one transaction taking all entries back to the dimensions they had before the change.<br /><br />This option is recommended if the company contains a relatively few posted entries where it will take the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Note that on large databases, this process may not be able to complete at all in this mode. In that case, use the **Parallel** option.|
+    |**Sequential**|(Default) The whole dimension change is done in one transaction taking all entries back to the dimensions they had before the change.<br /><br />This option is recommended if the company contains relatively few posted entries where it will take the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Note that on large databases, the process may not be able to complete at all in this mode. In that case, use the **Parallel** option.|
     |**Parallel**|The dimension change is done as multiple background sessions and the operation is split into multiple transactions.<br /><br />This option is recommended for large databases or companies with many posted entries where it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database session.|  
 
 3. Choose the **OK** button to start the dimension update process.

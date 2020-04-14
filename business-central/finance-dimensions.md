@@ -124,13 +124,12 @@ When you change a global or shortcut dimension, all entries posted with the dime
     |**Parallel**|(Select the **Parallel Processing** checkbox.) The dimension change is done as multiple background sessions and the operation is split into multiple transactions.<br /><br />This option is recommended for large databases or companies with many posted entries where it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database session.|  
 
 4. In the **Global Dimension 1 Code** and/or **Global Dimension 2 Code** fields, enter the new dimension(s). The current dimensions are displayed in gray behind the fields.
-5. If you have selected the **Sequentital** mode, choose the **Start** action.
+5. If you have selected the **Sequential** mode, choose the **Start** action.
 6. If you have selected the **Parallel** mode, choose the **Prepare** action.
-7. At  the top of the page, choose the **Start** action to start the dimension update process.
 
     The **Log Entries** tab is filled with information about the dimensions that will be changed.
-8. Sign out of !INCLUDE[d365fin](includes/d365fin_md.md)], and then sign back in.
-9. Choose the **Start** action to start the parallel processing of the dimension changes.
+7. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)], and then sign back in.
+8. Choose the **Start** action to start the parallel processing of the dimension changes.
 
 ### Example of Dimension Setup
 Let's say that your company wants to track transactions based on organizational structure and geographic locations. To do that, you can set up two dimensions on the **Dimensions** page:

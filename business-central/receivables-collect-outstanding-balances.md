@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
 
 ---
@@ -119,11 +119,12 @@ On the **Reminder** page, you can fill in the **General** FastTab manually and t
 4. Choose the **Suggest Reminder Lines** action.
 5. In the **Suggest Reminder Lines** batch job, fill in the fields to define how and to whom the reminders are created.
 6. Select the **Include Entries On Hold** check box if you want the reminders to contain overdue open entries that are on hold.
+7. Select the **Only Entries with Overdue Amounts** check box if you want the reminders to contain only overdue open entries. Only invoices and payments will be shown as these are the entries for which your customers' payments may be overdue.
 
     > [!Important]
-    > Open entries that are on hold will be inserted, irrespective of the setting in the Only Entries with Overdue Amounts check box.
+    > Open entries that are on hold will be inserted, irrespective of the setting in the **Only Entries with Overdue Amounts** check box.
 
-7. Choose the **OK** button.
+8. Choose the **OK** button.
 
 ## To replace reminder texts  
 There are several ways you can determine the text that appears on the printed reminder. In some cases, you may want to replace the beginning and ending texts that have been defined for the current level with those from a different level.

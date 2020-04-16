@@ -25,7 +25,7 @@ On the **Printer Management** page, you can see the printers that are set up. Wh
 When a printer is set up and assigned to specific reports, you print a report by choosing the **Print** button on the report request page. For more information, see [Printing a Report](ui-work-report.md#PrintReport).
 
 > [!NOTE]
-> Cloud printing is designed for documents of reasonable size. Most cloud services, incl. PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
+> Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
 ## To set up a printer
 On the **Printer Management** page, you can see the printers that are set up and you can access the **Settings** page for each printer to edit an existing setup or set up a new printer.

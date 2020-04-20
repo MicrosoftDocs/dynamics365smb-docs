@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
 
 ---
@@ -90,6 +90,9 @@ When you register the warehouse physical inventory, you are not posting to the i
 4. Choose the **Print** button.
 
 Employees can now proceed to count inventory and record any discrepancies on the printed report.
+
+> [!NOTE]
+> It can take several days before printed reports come back for final processing and posting. When you specify and post actual counted inventory, the system adjusts inventory to reflect the difference between the expected and the actual counted inventory. You must keep the originally calculated journal lines and not recalculate the expected inventory, because the expected inventory may change and lead to wrong inventory levels. If you need to issue multiple reports, such as for different locations or group of items, you must create and keep separate journal batches.
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
 1. On each line on the **Phys. Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.

@@ -53,11 +53,17 @@ Synchronization determines which team should own records. This is controlled by 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.
 
-### Choosing a different business unit
-You can change the business unit selection. If you choose another unit, for example, one that you created earlier in CDS it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
+## Choosing a different business unit
+You can change the business unit selection if you are using the Teams ownership model. If you use the Person ownership model, the default business unit is always selected. 
+
+If you choose another business unit, for example, one that you created earlier in [!INCLUDE[d365fin](includes/cds_long_md.md)], it will keep its original name. That is, it will not be suffixed with the company ID. We will create a team that does use the naming convention.
+
+When changing a business unit, you can choose only the business units that are one level below the root business unit.
 
 ## Person Ownership
-If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the previous section.  
+If you choose the Person ownership model you must specify each salesperson who will own new records. The business unit and team are created as described in the [Team Ownership](admin-cds-company-concept.md#team-ownership) section.
+
+The default business unit is used when the Person ownership model is chosen, and you cannot choose another business unit. The team that is associated with the default business unit will own records for common entities, such as the Product entity, that are not related to specific salespersons.
 
 ## See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

@@ -335,6 +335,8 @@
 ## [Managing Data Encryption](admin-manage-data-encryption.md)
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
+## [Viewing Database Locks](admin-view-database-locks.md)
+## [Viewing Table Information](admin-view-table-information.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ## [Enabling New Features Ahead of Time](admin-feature-management.md)
 ## Customizing Business Central

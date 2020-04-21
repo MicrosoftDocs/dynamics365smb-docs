@@ -38,10 +38,11 @@ After you have set up the change log, activated it, and made a change to data, y
 ## About Activity Logs
 From some pages in [!INCLUDE [prodshort](includes/prodshort.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-The information is displayed in the **Activity Log** page, according to the context that it is opened from. You can open the page from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages, for example. You can empty the list of log entries, or just clear the list of entries older than seven days.  
+### Working with Activity Logs
+The information is displayed in the **Activity Log** page according to the context that it is opened from. For example, you can open the page from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages. You can empty the list of log entries, or just clear the list of entries older than seven days.  
 
 ## Monitoring Sensitive Fields for Changes
-Keeping data secure and private is a core concern for most businesses. To add a layer of security, you can monitor important fields and be notified by email when someone changes a value. For example, you might want to be notified if someone changes your company's IBAN number.
+Keeping sensitive data secure and private is a core concern for most businesses. To add a layer of security, you can monitor important fields and be notified by email when someone changes a value. For example, you might want to be notified if someone changes your company's IBAN number.
 
 > [!NOTE]
 > Sending notifications by email requires that you set up the email feature in [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
@@ -51,11 +52,10 @@ To quickly set up field monitoring, you can use the **Field Monitoring** assiste
 
 You can manage settings for field monitoring, such as whether to send an email notification or just log the change, for each field on the **Monitored Fields Worksheet** page. The page is also where you can add or remove fields to monitor.
 
-Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made and when they did so. To further investigate a change, choose a value to open the page where it was made.
+Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made.
 
 > [!TIP]
 > Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can either delete one or more entries manually, or you can use the **Delete Entries Older than 30** action. 
-
 
 ## See Also
 [Change Basic Settings](ui-change-basic-settings.md)  

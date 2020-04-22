@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/21/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
 
 ---
@@ -104,10 +104,9 @@ You can also use a copy function to quickly carry all the permissions of another
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type.
 
 ### To export and import a permission set
-In on-premises installations of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can create permission sets by  importing them from another tenant.
+To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.
 
-> [!NOTE]
-> Import/export of permission sets is not possible in online installations of [!INCLUDE[d365fin](includes/d365fin_md.md)]
+In multi-tenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
 
 1. In tenant 1, on the **Permission Sets** page, select the line or lines for the permission sets to export, and then choose the **Export Permission Sets** action.
 

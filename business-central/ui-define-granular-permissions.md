@@ -106,16 +106,16 @@ The new permission set, containing all the permissions of the copied permission 
 ### To export and import a permission set
 To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.
 
-In multi-tenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
+In multitenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
 
 1. In tenant 1, on the **Permission Sets** page, select the line or lines for the permission sets to export, and then choose the **Export Permission Sets** action.
 
     An xml file is created in the download folder on your machine. By default it is named "Export Permission Sets.xml"
 
 2. In tenant 2, on the **Permission Sets** page, select the **Import Permission Sets** action.
-3. On the **Import Permission Sets** dialog page, consider if you want to merge existing permission sets with any new data.
+3. On the **Import Permission Sets** dialog page, consider if you want to merge existing permission sets with any new permission sets in the xml file.
 
-    If you select the **Update existing permissions** check box, existing permission sets with the same name as those that exist in the xml file will be merged with the imported data.
+    If you select the **Update existing permissions** check box, existing permission sets with the same name as those that exist in the xml file will be merged with the imported permission sets.
 
     If you do not select the **Update existing permissions** check box, permission sets with the same name as those that exist in the xml file will be skipped during import. In that case, you will be notified about permission sets that are skipped.
 

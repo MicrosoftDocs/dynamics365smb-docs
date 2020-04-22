@@ -26,7 +26,7 @@ If your device has camera and location capabilities but you still encounter prob
 
 You must enable general access to camera and location from your device's privacy settings and explicitly give permission to  [!INCLUDE[prodshort](includes/prodshort.md)] to access them. For example, to see or change permissions for a device running on Windows, go to **Settings**, choose **Privacy**, and then **App permissions**. 
 
-For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location** and for Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **App permissions** and then **Camera** or **Location**.
+For mobile devices, you must give camera and location access permissions to the [!INCLUDE[prodshort](includes/prodshort.md)] Mobile App. To do so for an iOS device, go to **Settings**, choose **Privacy**, and then **Camera** or **Location** and for Android devices go to **Settings**, choose **Apps & Notifications**, **Advanced**, **Permission Manager** and then **Camera** or **Location**.
 
 In addition, if you are using [!INCLUDE[prodshort](includes/prodshort.md)] in a browser, you must also grant the [!INCLUDE[prodshort](includes/prodshort.md)] site permission to access the camera or location information. To see or change a site's permissions in the Microsoft Edge browser, go to **Settings**, choose **Site Permissions**, and then **Camera** or **Location**. Note that this might be different for other browsers.
 

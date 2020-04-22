@@ -19,10 +19,10 @@ A common challenge in many business management applications is avoiding unwanted
 ## About the Change Log 
 The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
 
-You can enable the change log in [!INCLUDE[d365fin](includes/d365fin_md.md)] so you have a history of activities. The log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show changes that are made to the fields on the specified tables. The change log collects all changes that are made to the table.
+The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify.
 
 > [!Important]
-> A user's changes are not visible in the **Change Log Entries** until the user's session is restarted, which happens in the following cases:
+> Changes display in the **Change Log Entries** only after the user's session is restarted, which happens as follows:
 <br />
 > * The session expired and was refreshed.
 > * The user selected another company or Role Center.

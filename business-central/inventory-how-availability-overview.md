@@ -95,8 +95,11 @@ The **Item Availability by BOM Level** page shows information for the item on th
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
-### To view the availability of an item by its units of measure
+## To view the availability of an item by its units of measure
 The **Item Availability by Unit of Measure** page shows an items availability broken down in the different units of measure that it is stored in.
+
+> [!NOTE]  
+>   To get accurate information about items availability in different units of measure, you will need to convert item units of measure.  For example, if you purchase item in one (purchase) unit of measure, such as boxes, and you sell items in different (sales) unit of measure, such as pieces, you need to use item journals to convert units of measure or "unbox" items. You can use negative adjustment item journal line to reduce inventory in purchase unit of measure, for example boxes, and positive adjustment to increase inventory in sales unit of measure, for example pieces. 
 
 ## Assembly Availability Page
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:

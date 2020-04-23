@@ -70,6 +70,7 @@
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
+## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)

@@ -48,11 +48,14 @@ Keeping sensitive data secure and private is a core concern for most businesses.
 > Sending notifications by email requires that you set up the email feature in [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 ### Working with Field Monitoring
-To quickly set up field monitoring, you can use the **Field Monitoring** assisted setup guide to import the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields, and specify the person who will receive an email notification when a change occurs. Afterward, to change the email recipient or turn off field monitoring, you can do so on the **Field Monitoring Setup** page.
+To quickly set up field monitoring, you can use the **Field Monitoring** assisted setup guide to import the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields, and specify the person who will receive an email notification when a change occurs. Afterward, to change the email recipient or turn off field monitoring, you can do so on the **Field Monitoring Setup** page. That page is also where you specify the minimum number of days for which to keep entries for changes. New entries cannot be deleted for the number of days you specify.
 
 You can manage settings for field monitoring, such as whether to send an email notification or just log the change, for each field on the **Monitored Fields Worksheet** page. The page is also where you can add or remove fields to monitor.
 
 Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made.
+
+> [!NOTE]
+> When a BLOB changes, such as a media file, the Field Caption column will indicate what it was, and the **New Value** column will display **Value has changed**.
 
 > [!TIP]
 > Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can either delete one or more entries manually, or you can use the **Delete Entries Older than 30** action. 

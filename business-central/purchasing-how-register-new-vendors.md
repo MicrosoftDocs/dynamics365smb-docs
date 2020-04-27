@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
 
 ---
@@ -43,6 +43,9 @@ Vendor cards hold the information that is required to buy products from the vend
 The vendor is now registered, and the vendor card is ready to be used on purchase documents.
 
 If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. For more information, see the following section.
+
+### Deleting Vendor Cards
+If you have posted a transaction for a vendor, you cannot delete the card because the ledger entries may be needed for auditing. To delete vendor cards with ledger entries, contact to Microsoft partner to do so through code.
 
 ## To save the vendor card as a template
 1. On the **Vendor Card** page, choose the **Save as Template** action. The **Vendor Template** page opens showing the vendor card as a template.

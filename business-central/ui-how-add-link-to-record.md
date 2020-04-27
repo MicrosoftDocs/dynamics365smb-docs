@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 04/27/2020
     ms.author: sgroespe
 ---
 # Manage Attachments, Links, and Notes on Cards and Documents
@@ -35,10 +35,16 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 2. Open the sales order that you want to attach a file to.
 3. In the FactBox, open the **Attachments** tab.
 4. Choose the value behind the **Documents** field, such as "0".
-5. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.
+5. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** action.
 5. Select a file from any location, and then choose the **Open** button.
 
 The file is now attached to the purchase invoice.
+
+## To view an attached file
+1. In the FactBox, open the **Attachments** tab.
+2. Choose the value behind the **Documents** field, such as "1".
+3. On the **Attached Documents** page, choose the **Preview** action.
+4. Open the downloaded file.
 
 ## To save a document as a PDF attachment
 Whenever you need to save a document as a file, you can use the **Attach as PDF** action to capture the current document content as a PDF file attached to the FactBox of the document. This is useful, for example, when documents follow multiple steps in a process, such as a sales process or an approval workflow, and you want to refer to a printout of the previous step.
@@ -48,7 +54,7 @@ The following procedure is based on a sales order. The steps are similar for all
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select a sales order, and then choose the **Attach as PDF** action.
 
-A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox. 
+A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
 
 ## To add a link from an item card
 You can add a link from a card or document to any URL or path. This is useful, for example, when you want to link an item card with the supplier's item catalog.

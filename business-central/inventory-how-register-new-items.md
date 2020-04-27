@@ -80,7 +80,7 @@ The vendors will now appear on the **Item Vendor Catalog** page, which you open 
 
 ## See Also
 [Inventory](inventory-manage-inventory.md)  
-[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger)  
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  

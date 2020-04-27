@@ -20,7 +20,7 @@ This report is typically used in companies without dedicated functionality for w
 ## To print a picking list from a sales order  
 The following procedure is based on a sales order. The steps are similar for all sales documents that can be used to initiate shipment of items.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open the sales order that you want to pick items for.  
 3. Choose the **Report** action, and then choose the **Picking List by Order** action.  
 4. Choose the **Print** button to print the picking list or choose the **Preview** button to view it on the screen.

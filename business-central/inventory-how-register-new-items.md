@@ -79,8 +79,9 @@ If you purchase the same item from more than one vendor, you must enter informat
 The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## See Also
-[Create Number Series](ui-create-number-series.md)  
 [Inventory](inventory-manage-inventory.md)  
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger)  
+[Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

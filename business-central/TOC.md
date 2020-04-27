@@ -529,6 +529,7 @@
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)
+## [Print the Picking List](sales-how-print-picking-list.md)
 ## [Posting Sales](ui-post-sales.md)
 ## [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [Make Drop Shipments](sales-how-drop-shipment.md)

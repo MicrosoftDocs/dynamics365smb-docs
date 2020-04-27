@@ -15,7 +15,7 @@
 # Print the Picking List
 You can print an inventory picking list directly from a sales order, a sales invoice, or any other document that initiates shipment of items.
 
-This report is typically used in companies without dedicated functionality for warehouse management, so that a inventory worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
+This report is typically used in companies without dedicated functionality for warehouse management, so that an inventory worker can simply view or print the picking list from the related sales document. In companies with higher volume or more complex processes, picking is planned and performed in dedicated warehouse documents. For more information, see [Pick Items](warehouse-pick-items.md).
 
 ## To print a picking list from a sales order  
 The following procedure is based on a sales order. The steps are similar for all sales documents that can be used to initiate shipment of items.

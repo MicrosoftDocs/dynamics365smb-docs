@@ -70,7 +70,7 @@ From any sales and purchase document that contains an assembly item, you can use
 
 The Explode BOM function is also available on the **Assembly BOM** page as a method to view child items on any subassemblies on an assembly BOM.
 
-> [!Caution|
+> [!CAUTION|
 > When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.
 
 The following procedure is based on a sales invoice. The same steps apply to other sales documents and to all purchase documents.

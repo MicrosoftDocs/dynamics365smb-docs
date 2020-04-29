@@ -19,7 +19,7 @@ First-Expired-First-Out (FEFO) is a sorting method that ensures that the oldest 
  This functionality only works when the following criteria are met:  
 
 -   The item must have a serial/lot number.  
--   On the item’s item tracking code setup, the **SN Specific Tracking** field or the **Lot Specific Tracking** field must be selected.  
+-   On the item’s item tracking code setup, the **SN Warehouse Tracking** field or the **Lot Warehouse Tracking** field must be selected.  
 -   The item must be posted to inventory with an expiration date.  
 -   On the location card, the **Require Pick** check box must be selected.  
 -   On the location card, the **Pick According to FEFO** check box must be selected.  

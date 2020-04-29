@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
 
 ---
@@ -103,6 +103,26 @@ You can also use a copy function to quickly carry all the permissions of another
 
 The new permission set, containing all the permissions of the copied permission set, is added as a new line on the **Permission Sets** page. Now you can modify permission in the new permission set. Note that the lines are sorted alphabetically within each type.
 
+### To export and import a permission set
+To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.
+
+In multitenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
+
+1. In tenant 1, on the **Permission Sets** page, select the line or lines for the permission sets to export, and then choose the **Export Permission Sets** action.
+
+    An xml file is created in the download folder on your machine. By default it is named "Export Permission Sets.xml"
+
+2. In tenant 2, on the **Permission Sets** page, select the **Import Permission Sets** action.
+3. On the **Import Permission Sets** dialog page, consider if you want to merge existing permission sets with any new permission sets in the xml file.
+
+    If you select the **Update existing permissions** check box, existing permission sets with the same name as those that exist in the xml file will be merged with the imported permission sets.
+
+    If you do not select the **Update existing permissions** check box, permission sets with the same name as those that exist in the xml file will be skipped during import. In that case, you will be notified about permission sets that are skipped.
+
+4. From the **Import** dialog page, find and select the xml file to be imported, and then choose the **Open** action.
+
+The permission sets are imported.
+
 ## To create or modify permissions manually
 This procedure explains how to add or edit permissions manually. You can also have a permissions generated automatically from your actions in the UI. For more information, see [To create or modify permissions by recording your actions](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -184,6 +204,9 @@ The following procedure explains how to assign permission sets to a user group o
 2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
 3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
 4. Select the **All User Groups** check box to assign the permission set to all user groups.
+
+## To remove obsolete permissions from all permission sets
+1. On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
 ## To set up user time constraints
 Administrators can define periods of time during which specified users are able to post, and also specify if the system logs the amount of time users are logged on. Administrators can also assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).

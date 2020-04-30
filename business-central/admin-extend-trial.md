@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 04/21/2020
     ms.author: bholtorf
 
 ---
@@ -22,7 +22,7 @@ Extending the trial period yourself is a one time-thing though. You cannot exten
 
 ## To extend your trial period
 
-1. Sign in to [!INCLUDE[prodshort](includes/prodshort.md)].
+1. Sign in to [!INCLUDE[prodshort](includes/prodshort.md)] at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
     Sign in with the email account that you used when you signed up for the trial.  
 
@@ -31,13 +31,17 @@ Extending the trial period yourself is a one time-thing though. You cannot exten
 
     If you dismissed the notification, you must sign out and then sign in again.
 
-If your organization has established a reseller relationship with a partner, they can sign in to your [!INCLUDE [prodshort](includes/prodshort.md)] as a delegated administrator and run the same **Extend Trial Period** guide. They can also contact Microsoft Support to extend the trial a third time. For more information, see [Extending trials (as an administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
-
 ## What happens if my trial period is expired?
 
 If your first 30-day trial period is expired, you can extend it yourself as described above, and things will be business as usual. Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification.  
 
-If you have created your own company, sign out and then sign in again with the credentials for that company. If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created. After 90 days, we will delete your company and data.  
+If you have created your own company, sign out and then sign in again with the credentials for that company.  
+
+If your organization has established a reseller relationship with a partner, they can sign in to your [!INCLUDE [prodshort](includes/prodshort.md)] as a delegated administrator and run the same **Extend Trial Period** guide. For more information, see [Extending trials (as an administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+
+However, after this second extension that has given your organization 90 days of trial, you must either subscribe to [!INCLUDE [prodshort](includes/prodshort.md)] or abandon [!INCLUDE [prodshort](includes/prodshort.md)]. If you decide to not continue, we recommend that you export any data that you rely on in your business.
+
+When your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[prodshort](includes/prodshort.md)] within 90 days and continue working in the company you created. 90 days after the extended trial expires, we will delete your company and data unless you subscribe.  
 
 ## See Also
 

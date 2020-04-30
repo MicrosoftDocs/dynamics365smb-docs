@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
 
 ---
@@ -105,6 +105,7 @@ You can even create directly-paid invoices for non-registered customers by first
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
+[Print the Picking List](sales-how-print-picking-list.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  

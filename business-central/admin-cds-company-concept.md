@@ -32,6 +32,9 @@ Because business units lack legal and business implications, you cannot force a 
 * We create separate owner team with the same name as the company and associate it with the business unit. The name of the team is prefixed with "BCI -." For example, BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Records that are created and synchronized to [!INCLUDE[d365fin](includes/cds_long_md.md)] are assigned to the "BCI Owner" team that is linked to the business unit.
 
+> [!NOTE]
+> If you rename a company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the names of the company, business, and team that we create automatically in [!INCLUDE[d365fin](includes/cds_long_md.md)] are not updated. Because only the company ID is used for integration, this does not affect synchronization. If you want the names to match you must update the company, business unit, and team in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+
 The following image shows an example of this data setup in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 ![The root business unit is on top, the teams are in the center, and then the companies are at the bottom.](media/cds_bu_team_company.png)

@@ -70,6 +70,7 @@
 ### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
+## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)
@@ -335,6 +336,8 @@
 ## [Managing Data Encryption](admin-manage-data-encryption.md)
 ## [Extending Your Trial Version](admin-extend-trial.md)
 ## [Inspecting Pages](across-inspect-page.md)
+## [Viewing Database Locks](admin-view-database-locks.md)
+## [Viewing Table Information](admin-view-table-information.md)
 ## [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ## [Enabling New Features Ahead of Time](admin-feature-management.md)
 ## Customizing Business Central
@@ -526,6 +529,7 @@
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
 ## [Sell Products](sales-how-sell-products.md)
+## [Print the Picking List](sales-how-print-picking-list.md)
 ## [Posting Sales](ui-post-sales.md)
 ## [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ## [Make Drop Shipments](sales-how-drop-shipment.md)

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
 
 ---
@@ -39,6 +39,9 @@ Before you can register new customers, you must set up various sales codes that 
 On the **Sales Prices** FastTab, you can view special prices or discounts that you grant for the customer if certain criteria are met, such as item, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 The customer is now registered, and the customer card is ready to be used on sales documents.
+
+### Deleting Customer Cards
+If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.
 
 If you want to use this customer card as a template when you create new customer cards, you can save it as a template. For more information, see the following section.
 

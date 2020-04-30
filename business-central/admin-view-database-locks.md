@@ -23,8 +23,8 @@ Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search
 
 The **Database Locks** page gives snapshot of all current database locks.
 
-For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.
+For more information about database locking, see [Monitoring Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) in the Business Central Developer and IT Pro help.
 
 ## See Also
 
-[Monitor Database Locks](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) 
+[Monitor Database Locks](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
 
 ---
@@ -60,7 +60,14 @@ We recommend that you also consider exporting data from the following pages:
 * Salespeople  
 
 > [!NOTE]  
->   If you have set up more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must export the relevant data from each company.
+> If you have set up more than one company in [!INCLUDE[prodshort](includes/prodshort.md)], you must export the relevant data from each company.
+
+> [!NOTE]
+> You must have at least one of the following permissions to open or edit data in Excel:
+>    - Permission set *D365 Excel Export Action*  
+>    - System permission 6110 *Allow Action Export To Excel*.  
+
+For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -647,7 +647,7 @@
 ## [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ## [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ## [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Assembly Management
 ## [Overview](assembly-assemble-items.md)
@@ -879,7 +879,7 @@
 #### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Set Up Belgian Tariff Numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgian Intrastat Reporting](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Print the Intrastat Form Report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1246,7 +1246,7 @@
 #### [Set Up OCR Payments](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Import and Post OCR Payments](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Print the OCR Journal Test Report](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Core Finance    
+### Core Finance
 #### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
 #### [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1432,7 +1432,7 @@
 ### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### General    
+### General
 #### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

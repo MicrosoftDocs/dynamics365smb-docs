@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 04/30/2020
     ms.author: sgroespe
 
 ---
@@ -30,6 +30,9 @@ When a sales quote or sales order is created, if the type of the sales quote lin
 The items are divided based on the system generated values displayed in the **Level** field.  
 
 You can specify an item as a variant in the sales quote line. This allows you to list the alternative items without including the price in the quote. You can also refer to specific parts of a sales quote or sales order based on the value displayed in the **Position** field of the sales quote line or the sales order line. For more information, see the Sales Line table.  
+
+> [!NOTE]
+> This functionality is only available in [!INCLUDE[prodshort](../../includes/prodshort.md)] on-premises.
 
 ## Purchase Invoices and Sales Invoices with Payment Discounts  
 For purchase invoices and sales invoices, the invoice amount is reduced by the discount amount, and then rounded. The invoice total is also rounded if there is a discount. For more information, see the General Ledger Setup table.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
 
 ---
@@ -20,13 +20,14 @@ Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recom
 
 ### Recommended browsers
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of the new Microsoft Edge.  
 **Chrome for Windows and Firefox for Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of these desktop browsers.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Safari on OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Microsoft Edge.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the current version of Safari on macOS.  
 
 ### Other supported browsers
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
+**Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the legacy version of Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access other websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
 
 ## Mobile devices
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
@@ -41,6 +42,13 @@ Before you access [!INCLUDE [prodshort](includes/prodshort.md)] online, we recom
 
 ## Excel
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)], you need Excel 2016 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="TAC"></a> Using the Business Central Administration Center
+The administration center is designed to work with the current version of the following browsers:
+- The new Microsoft Edge
+- Chrome for Windows
+- Firefox for Windows
+- Safari for macOS
 
 ## Using Business Central on-premises
 

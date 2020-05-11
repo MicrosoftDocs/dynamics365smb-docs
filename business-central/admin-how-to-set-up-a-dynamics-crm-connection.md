@@ -75,12 +75,25 @@ To connect an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 If you want to connect using an Azure Active Directory account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. If you are setting up your server to have a different home page, you can always change the URL.
 
-The client secret will be saved as an encrypted string in your database. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location, and provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
+The client secret will be saved as an encrypted string in your database. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location, and provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl." <!--Not sure about the subscribing phrasing.-->
 
 ### To register an application in Azure Active Directory application for connecting from Business Central to Common Data Service
+For more information about registering an application in Azure Active Directory, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
-1. 
+1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**. 
+2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Under **Manage**, choose **API permissions**.
+4. Under **Configured permissions**, choose **Add a permission**, and then add delegated permissions as follows:
+    * For Business Central API, add the **Financials.ReadWrite.All** permissions.
+    * For Sales, add the **user_impersonation** permissions. 
+5.  Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in Business Central, in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in <!--not sure about this phrasing. The same in the next step.--> an event subscriber as described earlier in this topic.
+6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You need to enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store in a secure storage and provide it in an event subscriber as noted above.
+7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your Common Data Service environment.
+8. To enable the connection to Common Data Service, turn on the **Enabled** toggle.
+9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Common Data Service and be an administrator in your Common Data Service environment). After sign in you will be prompted to allow your registered application to sign in to Common Data Service on behalf of the organization. You must give this consent to complete the setup.
 
+   > [!NOTE]
+   > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
 
 ### To disconnect from [!INCLUDE[d365fin](includes/cds_long_md.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.

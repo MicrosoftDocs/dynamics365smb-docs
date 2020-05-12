@@ -29,7 +29,7 @@ When you post or run a batch job, the correct source code is automatically attac
 
 ### To define source codes
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.  
 
 2. In the **Source Code Setup** window, for each each posting type and batch job, specify the relevant source code.  
 
@@ -41,7 +41,7 @@ You may want to change a source code. For example, you want to change the source
 
 ### To change source codes
 
-1. Choose the :::image type="content" source="media/ui-search/search_small.png" alt-text="Search for Page or Report icon"::: icon, enter **Source Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Source Codes**, and then choose the related link.
 
 2. On the line with the code to be changed, select the code in the **Code** field.
 
@@ -55,7 +55,7 @@ Reason codes supplement the source codes and are used to indicate why an entry w
 
 ### To set up reason codes
 
-1. Choose the :::image type="content" source="media/ui-search/search_small.png" alt-text="Search for Page or Report icon"::: icon, enter **Reason Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **Reason Codes**, and then choose the related link.
 
 2. In the **Reason Codes** window, enter the first code in the **Code** field. In the **Description** field, enter an explanatory text.
 
@@ -65,7 +65,7 @@ The following procedure describes how to add a reason code to a journal template
 
 ### To assign reason codes to journal templates
 
-1. Choose the :::image type="content" source="media/ui-search/search_small.png" alt-text="Search for Page or Report icon"::: icon, enter **General Journal Templates**, and then choose the related link.
+1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon")  icon, enter **General Journal Templates**, and then choose the related link.
 
 2. On the line with the selected journal template, in the **Reason Code** field, specify the relevant code.
 

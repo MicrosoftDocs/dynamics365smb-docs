@@ -83,6 +83,7 @@
 ### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 ### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -821,7 +822,7 @@
 ## Australia
 ### [Overview](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Tax
-#### [Tax](LocalFunctionality/Australia/tax.md)
+#### [Overview](LocalFunctionality/Australia/tax.md)
 #### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)

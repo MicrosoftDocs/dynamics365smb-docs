@@ -78,7 +78,7 @@ If you want to connect using an Azure Active Directory account, you must registe
 The client secret will be saved as an encrypted string in your database. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location, and provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
 
 ### To register an application in Azure Active Directory application for connecting from Business Central to Common Data Service
-For more information about registering an application in Azure Active Directory, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+For more information about registering an application in Azure Active Directory, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**. 
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].

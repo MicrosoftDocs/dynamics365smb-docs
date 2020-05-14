@@ -366,6 +366,7 @@
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+#### [DK, IS - Basic Financials](ui-extensions-basic-financials.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)

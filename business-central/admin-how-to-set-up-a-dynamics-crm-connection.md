@@ -73,12 +73,10 @@ Enter the following advanced settings.
 ## Connecting On-Premises Versions
 To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[d365fin](includes/cds_long_md.md)], you must specify some information on the **Common Data Service Connection Setup** page.
 
-If you want to connect using an Azure Active Directory account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. If you are setting up your server to have a different home page, you can always change the URL.
+If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database. 
 
-The client secret will be saved as an encrypted string in your database. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location, and provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
-
-### To register an application in Azure Active Directory application for connecting from Business Central to Common Data Service
-For more information about registering an application in Azure Active Directory, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+### To register an application in Azure AD for connecting from Business Central to Common Data Service
+The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Identity and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service). 
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**. 
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -90,14 +88,17 @@ For more information about registering an application in Azure Active Directory,
 > [!NOTE]
 > The name of the Dynamics CRM API might change.
 
-5.  Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in Business Central, in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
-6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You need to enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store in a secure storage and provide it in an event subscriber as noted above.
-7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your Common Data Service environment.
-8. To enable the connection to Common Data Service, turn on the **Enabled** toggle.
-9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Common Data Service and be an administrator in your Common Data Service environment). After sign in you will be prompted to allow your registered application to sign in to Common Data Service on behalf of the organization. You must give this consent to complete the setup.
+5.  Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
+6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
+7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[d365fin](includes/cds_long_md.md)] environment.
+8. To enable the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)], turn on the **Enabled** toggle.
+9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for [!INCLUDE[d365fin](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[d365fin](includes/cds_long_md.md)] environment). After you sign in you will be prompted to allow your registered application to sign in to [!INCLUDE[d365fin](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
 
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
+
+#### Using Another Identity and Access Management Service
+If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
 
 ### To disconnect from [!INCLUDE[d365fin](includes/cds_long_md.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.

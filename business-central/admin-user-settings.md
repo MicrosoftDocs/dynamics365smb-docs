@@ -16,9 +16,7 @@ ms.author: soalex
 ---
 # User Settings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-User settings, also known as user *personlizations*, are used in [!INCLUDE[d365fin](includes/d365fin_md.md)] to determine various aspects of the way the application presents itself to the user.  
-
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] every user can choose their own settings for the following:
+User settings, also known as user *personlizations*, are used in [!INCLUDE[d365fin](includes/d365fin_md.md)] to determine various aspects of the way the application presents itself to the user. Every user can choose their own settings for the following:
 
 * **Company**  
 The legal entity/company into which the user logs in. A user can have access to multiple companies but only be active in one company at a time.

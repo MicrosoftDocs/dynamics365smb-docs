@@ -14,7 +14,7 @@ ms.date: 05/19/2020
 ms.author: soalex
 
 ---
-# Manage user settings and preferences in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Manage user settings and preferences
 
 This page describes how to manage user settings in [!INCLUDE[d365fin](includes/d365fin_md.md)], similar to the ones users can set individually in the **My Settings** page.  
 

@@ -1,6 +1,6 @@
 ---
-title: User Settings Dynamics 365 Business Central | Microsoft Docs
-description: Manage user settings for Business Central.
+title: Manage user settings and preferences in Dynamics 365 Business Central | Microsoft Docs
+description: Manage user settings and preferences in Dynamics 365 Business Central.
 documentationcenter: ''
 author: sorenfriisalexandersen
 
@@ -9,22 +9,25 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: user settings, language, region
+ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 05/19/2020
 ms.author: soalex
 
 ---
-# User Settings in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Manage user settings and preferences in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-User settings, also known as user *personlizations*, are used in [!INCLUDE[d365fin](includes/d365fin_md.md)] to determine various aspects of the way the application presents itself to the user. Every user can choose their own settings for the following:
+This page describes how to manage user settings in [!INCLUDE[d365fin](includes/d365fin_md.md)], similar to the ones users can set individually in the **My Settings** page.  
+
+## What is user settings used for?
+**User settings** is not the same as **User Setup** which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalization as in the ability to make lightweight changes to the user interface. User settings on the other hand are used to determine various aspects of the way the application presents itself to the user. Every user can choose their own settings for the following:
 
 * **Company**  
-The legal entity/company into which the user logs in. A user can have access to multiple companies but only be active in one company at a time.
+This setting determines the company to be logged into at the next login. A user can have access to multiple companies and can be active in several companies.
 
-* **Role**  
-Defines the user's role center, visibile to the user when logged in. The role does not impact access rights to functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+* **Profile (Roles)**  
+Thre profile describes the user's function in the company. For example "Sales Manager", "Bookkeeper" or "Purchasing Agent". The profile in turn determines the user's role center, the home page that users will see when they have signed in. The profile does not impact access rights to functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
-* **Region**  
+* **Locale ID (Regional settings)**  
 Defines how dates and numbers are presented in the [!INCLUDE[d365fin](includes/d365fin_md.md)] client, for example to use European or American date formats and how to display decimal sign and thousand separators in amounts. If [!INCLUDE[d365fin](includes/d365fin_md.md)] users are synchronized from Office 365 the regional settings from Office 365 will be used, assuming the user wants to use the same settings in and [!INCLUDE[d365fin](includes/d365fin_md.md)]. An administrator or user can change these settings manually in [!INCLUDE[d365fin](includes/d365fin_md.md)] but they will be reset to the value from Office 365 once the next syncronization is performed.
 
  * **Language**  
@@ -41,7 +44,7 @@ Defines the time zone in which the user is located. Currently this is not synchr
 Administrators have the option to set or change these settings for users in each company. This is done on the **User Personalizations** (deep link here) page. Records on this page will reflect the individual user's choices for the above settings, one record per user. As users make changes to their settings in the **My Settings** page they will be reflected in the **User Personalizations** list. Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.
 
 > [!NOTE]
-> Even though it sounds like it, the name **User Personalizations** does not have anything to do with the *personal* changes a user can make to hide and show fields throughout [!INCLUDE[d365fin](includes/d365fin_md.md)]. We are working on changing the name of the **User Personalization** page to reflect that it allows for administrators to review or change user settings. 
+> **User Personalizations** does not have anything to do with the *personal* lightweight changes a user can make to the user experience. 
 
 ## Review or make changes to user settings
 

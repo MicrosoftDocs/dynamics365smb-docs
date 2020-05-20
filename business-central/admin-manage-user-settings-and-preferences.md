@@ -19,7 +19,7 @@ ms.author: soalex
 This page describes how to manage user settings in [!INCLUDE[d365fin](includes/d365fin_md.md)], similar to the ones users can set individually in the **My Settings** page.  
 
 ## What is user settings?
-**User settings** is not the same as **User Setup** which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalization as in the ability to make lightweight changes to the user interface. User settings on the other hand are used to determine various aspects of the way the application presents itself to the user. Every user can choose their own settings for the following:
+**User settings** is not the same as **User Setup** which is about the user as an entity and the user's access in the system. Furthermore, user settings has nothing to do with a user's personalization as in the ability to make lightweight changes to the user interface. User settings are used to determine various aspects of the way the application presents itself to the user. The following paragraph lists the user settings that can be set by the individual or centrally by the administrator:
 
 * **Company**  
 This setting determines the company to be logged into at the next login. A user can have access to multiple companies and can be active in several companies.

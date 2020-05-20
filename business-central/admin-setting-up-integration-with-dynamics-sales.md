@@ -29,7 +29,7 @@ You must create a dedicated user account in your Office 365 subscription that bo
 
 <!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
 
-<!--> [!IMPORTANT]  
+<!-- [!IMPORTANT]  
 > Do not use the administrator account for [!INCLUDE[d365fin](includes/cds_long_md.md)] for synchronization. Doing so will break the synchronization.-->
 
 ## Permissions and Security Roles for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]

@@ -14,11 +14,9 @@
 
 ---
 # Create Service Invoices or Credit Memos
-Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can send an invoice to your customers at any time, or create invoices periodically.  
-  
-To create an invoice directly, you can use the **Service Contract** page. You can also set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order.  
+Ease in invoicing your service orders is a key feature of [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can set up your system so that a service technician in the field can create an invoice for service that is not connected to a contract or order. Or you can invoice service contracts periodically. The invoice period for each contract defines how often you invoice it.
 
-## To invoice a service contract from the Service Contract page   
+## To invoice several service contracts   
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Service Contract Invoices**, and then choose the related link.  
 2. Set the filters you want to apply.  
 3. In the **Posting Date** field, enter the date to use as the posting date on the service invoices.  
@@ -26,9 +24,17 @@ To create an invoice directly, you can use the **Service Contract** page. You ca
 5. In the **Action** field, choose **Create Invoices**.  
 6. Choose **OK** to create the service invoices.  
   
+You can also invoice a service contract directly from the **Service Contract** page, if the next invoice date on the contract is earlier than the working date.
+
+## To invoice a service contract from the Service Contract page   
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contracts**, and then choose the related link.  
+2. Choose the service contract to invoice, and open the contract card.  
+3. Choose **Create Service Invoice** action. 
+4. Choose **Yes** to create the service invoices.  
+  
   > [!NOTE]  
   >  You cannot create service invoices for the service contract when the **Change Status** field value is set to **Open**.  
-  
+
 ## To post an invoice from a service order  
 The following procedure describes how to define the part of service that you will charge the customer for.  
 
@@ -66,7 +72,7 @@ Typically, after you post a service order with the **Invoice** or **Ship and Inv
 6. Fill in the **Document Date** field. The date you enter here will appear on the printed invoice and will be used to calculate the due date.  
 7. Fill in the service lines of the invoice. Fill in the **Type**, **No.**, and **Quantity** fields to register items, resources and costs that have been used in servicing. 
 
-## To invoice posted shipment lines  
+## To create an invoice that combines posted shipment lines from one or several service orders 
 You might need to create a service invoice for the service that has already been shipped, either from one or several service orders, but not yet invoiced or consumed. You can fill in the invoice lines automatically with the selected posted shipment lines for a specific customer.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
@@ -75,14 +81,6 @@ You might need to create a service invoice for the service that has already been
 4. Post the service invoice.  
   
  The posted service invoice and the corresponding ledger entries are created. Previously posted shipment documents are updated with the invoiced quantities and the relevant quantities on the service lines of the source orders.  
-
-## To create a combined invoice  
-You can invoice the customer for services provided on different service orders. Invoice lines are created for items, resource hours, or costs that have already been shipped from different service orders but not yet invoiced.  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.  
-2. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Choose the **Get Shipment Lines** action. The **Get Service Shipment Lines** page displays all lines that are shipped but not invoiced for the customer.  
-4. Choose the lines for the service to invoice, and then choose **OK** to add the service shipment lines to the invoice.  
 
 ## To create a service credit memo  
 A service credit memo document is typically used when a customer returns an item, but it can also be used to give a customer some compensation or to correct an erroneous invoice.  

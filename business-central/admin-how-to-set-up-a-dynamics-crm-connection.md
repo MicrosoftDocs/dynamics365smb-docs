@@ -23,13 +23,21 @@ There are a few pieces of information to have ready before you create the connec
 * The URL for the [!INCLUDE[d365fin](includes/cds_long_md.md)] environment that you want to connect to. If you use the **CDS Connection Setup** assisted setup guide to create the connection we will discover your environments, but you can also enter the URL of another environment in your tenant.  
 <!-- No longer needed with 16.2 update
 * A user name and password of a user account that is used only for the integration. This account is referred to as the "integration user" account. -->
-* The user name and password of an account that has administrator permissions in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)].  
+* The user name and password of an account that has administrator permissions in [!INCLUDE[d365fin](includes/d365fin_md.md)] and has System Administrator security role assigned in [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 > [!Note]
 > These steps describe the procedure for the online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## Set Up a Connection to [!INCLUDE[d365fin](includes/cds_long_md.md)]  
 For all authentication types other than Office 365 authentication, you set up your connection to [!INCLUDE[d365fin](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Office 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
+
+> [!Important]
+> During the setup of the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)], the administrator will be asked to give following permissions to registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)]:
+> * **Access [!INCLUDE[d365fin](includes/cds_long_md.md)] as you** permission is needed so [!INCLUDE[d365fin](includes/d365fin_md.md)] can, on behalf of administrator, automatically create non-licensed non-interactive [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user, assign security roles to this user and to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] Base CDS Integration Solution to [!INCLUDE[d365fin](includes/cds_long_md.md)]. This permission is used only once during set up of connection to [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+> * **Have full access to Dynamics 365 [!INCLUDE[d365fin](includes/d365fin_md.md)]** permission is needed so automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user can access [!INCLUDE[d365fin](includes/d365fin_md.md)] data that will be synchronized. 
+> * **Sign in and read your profile** permission is needed to verify user logging in actually has System Administrator security role assigned in [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+>
+> By giving his consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)] to synhronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
 
 ### To use the Set up Common Data Service connection assisted setup guide 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.

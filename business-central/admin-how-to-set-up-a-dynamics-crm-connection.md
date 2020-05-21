@@ -44,8 +44,9 @@ For all authentication types other than Office 365 authentication, you set up yo
 2. Choose **Set up Common Data Service connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
+<!-- no longer needed after 16.2
 > [!Note]
-> The **Set up Common Data Service connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the automatically created Business Central Integration application user account used for integration, and sets the access mode for the account to **non-interactive**.
+> The **Set up Common Data Service connection** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the automatically created Business Central Integration application user account used for integration, and sets the access mode for the account to **non-interactive**. -->
 
 ### To create or maintain the connection manually
 The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page manually. This is also the page where you manage settings for the integration.

@@ -26,17 +26,22 @@ You can invoice the whole job from the **Job Task Lines** page or only invoice s
 > [!NOTE]  
 >   If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [Manage Project Supplies](projects-how-manage-project-supplies.md).
 
-## To create and post a job sales invoice
+## To create multiple job sales invoices
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
-From the **Jobs** page, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. The following procedure shows how to use a batch job to invoice multiple jobs.  
+The following procedure shows how to use a batch job to invoice multiple jobs.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Create Sales Invoice**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Set filters if you want to limit the jobs that the batch job will process.
 4. Choose the **OK** button to create the invoices.  
 
-## To create multiple job sales invoices from job planning lines
+You can review and post created invoices in the **Sales Invoices** window.
+
+> [!NOTE]
+> Aternatively you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
+
+## To create and post job sales invoice from job planning lines
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -46,11 +51,9 @@ You can create an invoice from a job planning lines, and indicate at that time t
 5. Choose the **Create Sales Invoice** action.
 6. On the **Job Create Sales Invoice** page, enter the posting date and whether you want to create a new invoice or append this invoice to an existing one.
 7. Choose the **OK** button.  
-
-    On the job planning line, in the **Qty. Transferred to Invoice** field, you can see the quantity.
 8. On the **Job Planning Lines** page, choose the **Sales Invoices/Credit Memos** action.
 
-    The **Sales Invoice** page opens, showing the quantity that you have transferred to the invoice.  
+    The **Sales Invoice** page opens, showing the quantity that you have transferred to the invoice.
 9. Make any additional changes, and then choose the **Post** action.
 
 > [!NOTE]  

@@ -1,5 +1,5 @@
 ---
-    title: Connect to Dynamics 365 Sales | Microsoft Docs
+    title: Connect to Common Data Service | Microsoft Docs
     description: You can integrate other apps with Business Central through Common Data Service.
     author: bholtorf
 
@@ -28,15 +28,20 @@ There are a few pieces of information to have ready before you create the connec
 > If you are using Business Central on-premesis and are not using Azure Active Directory account to connect to Common Data Service, you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you are using an Azure Active Directory account the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
 
 ## Set Up a Connection to [!INCLUDE[d365fin](includes/cds_long_md.md)]  
-For all authentication types other than Office 365 authentication, you set up your connection to [!INCLUDE[d365fin](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Office 365 authentication, we recommend that you use the **CDS Connection Setup** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as coupling between records.  
+For all authentication types other than Office 365 authentication, you set up your connection to [!INCLUDE[d365fin](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Office 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
 
-### To use the CDS Connection Setup assisted setup guide 
+> [!Important]
+> During the setup of the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)], the administrator will be asked to give following permissions to registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)]:
+> * **Access [!INCLUDE[d365fin](includes/cds_long_md.md)] as you** permission is needed so [!INCLUDE[d365fin](includes/d365fin_md.md)] can, on behalf of administrator, automatically create non-licensed non-interactive [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user, assign security roles to this user and to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] Base CDS Integration Solution to [!INCLUDE[d365fin](includes/cds_long_md.md)]. This permission is used only once during set up of connection to [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+> * **Have full access to Dynamics 365 [!INCLUDE[d365fin](includes/d365fin_md.md)]** permission is needed so automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user can access [!INCLUDE[d365fin](includes/d365fin_md.md)] data that will be synchronized. 
+> * **Sign in and read your profile** permission is needed to verify user logging in actually has System Administrator security role assigned in [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+>
+> By giving his consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)] to synhronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
+
+### To use the Set up Common Data Service connection assisted setup guide 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
-2. Choose **Set up CDS Base Integration connection** to start the assisted setup guide.
+2. Choose **Set up Common Data Service connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
-
-> [!Note]
-> The **CDS Connection Setup** assisted setup guide automatically assigns **Integration Administrator** and **Integration User** security roles to the user account used for integration, and sets the access mode for the account to **non-interactive**.
 
 ### To create or maintain the connection manually
 The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page manually. This is also the page where you manage settings for the integration.
@@ -47,7 +52,6 @@ The following procedure describes how to set up the connection manually on the *
 |Field|Description|
 |-----|-----|
 |**Environment URL**|If you own environments in [!INCLUDE[d365fin](includes/cds_long_md.md)], we will find those for you when you run the setup guide. If you want to connect to a different environment in another tenant, you can enter the administrator credentials for the environment and we will discover those. |
-|**User Name** and **Password**|The credentials of the user account that is dedicated for the integration. For more information, see [Setting Up User Accounts for Integrating with [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).|
 |**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[d365fin](includes/cds_long_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
 
 3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[d365fin](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
@@ -66,9 +70,6 @@ Enter the following advanced settings.
     >  If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data.md) in Developer and IT-Pro help.  
 
 5. If [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
-
-> [!Note]
-> Connecting to [!INCLUDE[d365fin](includes/cds_long_md.md)] using the **CDS Connection Setup** page may require that you assign the Integration Administrator and Integration User security roles to the account used for integration in Dynamics 365 Sales. For more information, see [Assign a security role to a user](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user.md).
 
 ## Connecting On-Premises Versions
 To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[d365fin](includes/cds_long_md.md)], you must specify some information on the **Common Data Service Connection Setup** page.

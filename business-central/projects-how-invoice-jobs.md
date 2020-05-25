@@ -1,8 +1,6 @@
 ---
 title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
 description: Describes how to invoice customers for job expenses as a project progresses.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
 
 ---
@@ -24,7 +22,7 @@ During the project, job costs from resource usage, materials, and job-related pu
 You can invoice the whole job from the **Job Task Lines** page or only invoice selected billable lines from the **Planning Lines** page. Invoicing can be done after the job is finished or at certain intervals during the job's progress based on an invoicing schedule.
 
 > [!NOTE]  
->   If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [Manage Project Supplies](projects-how-manage-project-supplies.md).
+> If you select **Billable** in the **Job Line Type** field on the purchase documents for job-related purchases, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [Manage Project Supplies](projects-how-manage-project-supplies.md).
 
 ## To create multiple job sales invoices
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
@@ -39,7 +37,7 @@ The following procedure shows how to use a batch job to invoice multiple jobs.
 You can review and post created invoices in the **Sales Invoices** window.
 
 > [!NOTE]
-> Aternatively you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
+> Alternatively, invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
 
 ## To create and post job sales invoice from job planning lines
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.

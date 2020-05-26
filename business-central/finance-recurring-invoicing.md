@@ -1,5 +1,5 @@
 ---
-title: Financial Management| Microsoft Docs
+title: Recurring (subscription) revenue| Microsoft Docs
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 services: project-madeira
 documentationcenter: ''
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.date: 04/01/2020
+ms.date: 27/05/2020
 ms.author: edupont
 
 ---
@@ -51,7 +51,6 @@ Cons: system will use actual prices and discount for items, trying to find best 
 
 For more information, see [Create Recurring Sales and Purchase Lines](/sales-how-work-standard-lines)
 
-
 ## Recurring invoices with service contract
 A service contract contains the service contract agreements between your customers and your company. A service contract includes service level agreements and the service items that you service as a part of the contract. 
 You can define the starting date of the contract, the invoice period, whether or not the contract is prepaid, price update specifications if you plan to change prices while contract is active. You can use both service item or item in service contract lines.
@@ -63,9 +62,8 @@ Cons: requires Premium license.  Setting up service management and maintaining i
 
 For more information, see [Work with Service Contracts and Service Contract Quotes](/service-how-to-create-service-contracts-and-service-contract-quotes) and [Invoice several service contracts](/service-how-create-invoices#to-invoice-several-service-contracts)
 
-
-# Related features
-## Blanket sales orders 
+## Related features
+### Blanket sales orders 
 A blanket sales order represents a framework for a long-term agreement between you and your customer.
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability, however it can be used for planning purposes.
 
@@ -75,7 +73,7 @@ Cons: there is no out-of-the-box possibility to process multiple blanket orders 
 
 For more information, see [Work with Blanket Sales Orders](/sales-how-to-create-blanket-sales-orders)
 
-## Recurring Orders (Local functionality Norway)
+### Recurring Orders (Local functionality Norway)
 You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define. For example, if you deliver the same sales order every two weeks, you can use a blanket sales order and create recurring orders.
 You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you will have to periodically run the create recurring orders process. 
 
@@ -85,7 +83,7 @@ Cons: only available in Norway. Validity period can be defined on the recurring 
 
 For more information, see [Recurring Orders](/localfunctionality/norway/recurring-orders)
 
-## Recurring revenue and subscription billing by other providers
+### Recurring revenue and subscription billing by other providers
 At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for Business Central. Some extensions are provided by Microsoft, and other extensions are provided by other companies. The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) and get apps to help you in your work in Business Central.
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

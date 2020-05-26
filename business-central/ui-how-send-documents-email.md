@@ -1,20 +1,18 @@
 ---
 title: Set Up Document-Specific Email Content | Microsoft Docs
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2020
-ms.author: sgroespe
+ms.date: 05/13/2020
+ms.author: edupont
 
 ---
 # Send Documents by Email
+
 To communicate the contents of business documents quickly to your business partners, such as the payment information on sales documents to customers, you can use the Report Layout feature to define document-specific content that gets inserted in email bodies automatically. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
 To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup guide on the Role Center.
@@ -28,6 +26,7 @@ If the **Email** field on the **Send Document to** page is set to **Yes (Prompt 
 The following procedure describes how to set the **Sales - Invoice** report up to be used for document-specific email bodies when you email posted sales invoices.
 
 ## To set up a document-specific email body for sales invoices
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
@@ -44,6 +43,7 @@ Now, when you choose, for example, the **Send** action on the **Posted Sales Inv
 The following procedure describes how to send a posted sales invoice as an email message with the document attached as a PDF file and with a document-specific email body.
 
 ## To send documents by email
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the relevant posted sales invoice, and then choose the **Send** action. The **Send Document to** page opens.
 3. In the **Email** field, select **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
@@ -57,9 +57,16 @@ The following procedure describes how to send a posted sales invoice as an email
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  
->   If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+> If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
+
+## Documents marked as printed when they are sent
+
+Some documents in [!INCLUDE [prodshort](includes/prodshort.md)] have a field that specifies how many times that document has been printed. The field is also updated if you don't print the document but send it in email instead. The field even gets updated if you don't actually send the document, such as when your organization has not set up email, or when the contact that you want to send the document to doesn't have an email address listed. In all scenarios, as far as [!INCLUDE [prodshort](includes/prodshort.md)] is concerned, the document is printed because a PDF file is generated.  
+
+The user might not see this generated file, but this is why the field is updated.
 
 ## See Also
+
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

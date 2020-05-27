@@ -40,8 +40,8 @@ The following table describes a sequence of tasks, with links to the topics that
 |Allocate an entry in a general journal to several different accounts when you post the journal. |[Allocate Costs and Income](year-allocate-costs-income.md) |
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
-| Recognize revenues and expenses in other periods than when the transactions were posted. |[Recurring (subscription) Revenue](finance-recurring-invoicing.md)|
-| Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
+| Recognize revenues and expenses in other periods than when the transactions were posted. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
+| Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Recurring (subscription) Revenue](finance-recurring-invoicing.md)|
 |Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 |Use functions to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to the tax authorities.|[Work with VAT on Sales and Purchases](finance-work-with-vat.md)|

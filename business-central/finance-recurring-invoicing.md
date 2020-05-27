@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.date: 27/05/2020
+ms.date: 05/27/2020
 ms.author: edupont
 
 ---
@@ -23,15 +23,15 @@ Many companies are moving from a business revenue model where revenue is made fr
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. 
 With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
 
-Pros: flexible invoicing periods defined with [Date Formulas](/ui-enter-date-ranges#using-date-formulas)
+Pros: flexible invoicing periods defined with [Date Formulas](ui-enter-date-ranges#using-date-formulas)
 
 Cons: there is no out-of-the-box possibility to print and send invoice.
 
-For more information, see [Working with Recurring Journals](/ui-work-general-journals#working-with-recurring-journals)
+For more information, see [Working with Recurring Journals](ui-work-general-journals#working-with-recurring-journals)
 
 
 ## Create multiple invoices based on recurring job journal
-The recurring job journal is a more advanced alternative to general journal. You define content, including Items, Resources and G/L Accounts, that should be repeated for each job, specify recurring frequency. 
+The recurring job journal is a more advanced alternative to general journal. You define Items, Resources and G/L Accounts, that should be repeated for each job, specify recurring frequency. 
 After posting recurring job journal you can create multiple invoices with **Create Job Sales Invoice** task. You can review and post created invoices in the **Sales Invoices** window.
 
 Pros: standard invoicing procedure with all benefits, like standard and customer layouts for, communication preferences.
@@ -39,17 +39,17 @@ Possibility to define prices for each job individually.
 
 Cons: for each new customer you need to create a new job and add lines to recurring journal. 
 
-For more information, see [create job journal lines](/projects-how-record-job-usage#to-create-job-journal-lines-manually) and [create multiple job sales invoices](/projects-how-invoice-jobs#to-create-multiple-job-sales-invoices)
+For more information, see [Create job journal lines](projects-how-record-job-usage#to-create-job-journal-lines-manually) and [Create multiple job sales invoices](projects-how-invoice-jobs#to-create-multiple-job-sales-invoices)
 
 ## Create multiple invoices based on recurring sales lines
-If you often need to create sales and purchase lines with similar information, you can set up standard lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.
-You can use the **Create Recurring Sales Invoices** batch job to create sales invoices according to standard sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the standard sales lines.
+If you often need to create sales and purchase lines with similar information, you can set up recurring sales lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.
+You can use the **Create Recurring Sales Invoices** batch job to create sales invoices according to recurring sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the recurring sales lines.
 
-Pros: same recurring lines can be reused for multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included into invoice.
+Pros: same recurring lines can be assigned to multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included into invoice.
 
-Cons: system will use actual prices and discount for items, trying to find best combination, that gives minimal price. There is no way to set fixed prices. Only for G/L Accounts. 
+Cons: There is no way to set fixed prices for items as system will use the actual prices and discount valid on document date, trying to find best combination, that gives minimal price.  
 
-For more information, see [Create Recurring Sales and Purchase Lines](/sales-how-work-standard-lines)
+For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines)
 
 ## Recurring invoices with service contract
 A service contract contains the service contract agreements between your customers and your company. A service contract includes service level agreements and the service items that you service as a part of the contract. 
@@ -60,26 +60,26 @@ Pros: Part of advanced service management functionality that not limited to issu
 
 Cons: requires Premium license.  Setting up service management and maintaining it might not give huge advantages in simpler subscription scenarios.
 
-For more information, see [Work with Service Contracts and Service Contract Quotes](/service-how-to-create-service-contracts-and-service-contract-quotes) and [Invoice several service contracts](/service-how-create-invoices#to-invoice-several-service-contracts)
+For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes) and [Invoice several service contracts](service-how-create-invoices#to-invoice-several-service-contracts)
 
 ## Related features
 ### Blanket sales orders 
-A blanket sales order represents a framework for a long-term agreement between you and your customer.
+A blanket sales order represents a framework for a long-term agreement between your company and your customer.
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability, however it can be used for planning purposes.
 
-Pros: Represents anticipated demand and therefore considered during planning routine. For more information, see [Demand Forecasts and Blanket Orders](/design-details-central-concepts-of-the-planning-system#demand-forecasts-and-blanket-orders)
+Pros: Represents anticipated demand and therefore considered during planning routine. For more information, see [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system#demand-forecasts-and-blanket-orders)
 
 Cons: there is no out-of-the-box possibility to process multiple blanket orders in bulk.
 
-For more information, see [Work with Blanket Sales Orders](/sales-how-to-create-blanket-sales-orders)
+For more information, see [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders)
 
 ### Recurring Orders (Local functionality Norway)
 You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define. For example, if you deliver the same sales order every two weeks, you can use a blanket sales order and create recurring orders.
 You can use recurring groups to define a range of parameters that show how you make the orders. These groups are assigned to blanket orders that have to be created regularly. To create the recurring orders, you will have to periodically run the create recurring orders process. 
 
-Pros: For each new customer you need to create a new blanket order. You can choose between fixed and "best" prices.
+Pros: You can choose between fixed and "best" prices.
 
-Cons: only available in Norway. Validity period can be defined on the recurring group level.
+Cons: Only available in Norway. Validity period can be defined on the recurring group level.
 
 For more information, see [Recurring Orders](/localfunctionality/norway/recurring-orders)
 

@@ -23,7 +23,7 @@ Many companies are moving from a business revenue model where revenue is made fr
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. 
 With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
 
-Pros: flexible invoicing periods defined with [Date Formulas](ui-enter-date-ranges#using-date-formulas.md)
+Pros: flexible invoicing periods defined with [Date Formulas](ui-enter-date-ranges.md#using-date-formulas)
 
 Cons: there is no out-of-the-box possibility to print and send invoice.
 
@@ -39,7 +39,7 @@ Possibility to define prices for each job individually.
 
 Cons: for each new customer you need to create a new job and add lines to recurring journal. 
 
-For more information, see [Create job journal lines](projects-how-record-job-usage#to-create-job-journal-lines-manually.md) and [Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)
+For more information, see [Create job journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) and [Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)
 
 ## Create multiple invoices based on recurring sales lines
 If you often need to create sales and purchase lines with similar information, you can set up recurring sales lines that you can then insert on recurring sales and purchase documents, for example, for recurring replenishment orders.

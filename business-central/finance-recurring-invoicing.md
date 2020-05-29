@@ -1,5 +1,5 @@
 ---
-title: Recurring revenues| Microsoft Docs
+title: Work with recurring revenue| Microsoft Docs
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 author: AndreiPanko
 
@@ -14,7 +14,7 @@ ms.date: 05/27/2020
 ms.author: andreipa
 
 ---
-# How to work with recurring revenues in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Work with recurring revenue in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Many companies are moving from a business revenue model where revenue is made from a customer's one-time purchase to a subscription model where revenue is made on a recurring basis in return for consistent access to the delivery of a good or service.
 [!INCLUDE[d365fin](includes/d365fin_md.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 

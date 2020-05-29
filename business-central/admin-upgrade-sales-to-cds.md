@@ -28,11 +28,13 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 2. Open the **Common Data Service Connection Setup** page, and choose the **Enable** toggle to turn on the connection.
   
    After you enable the CDS connection, the Business Central CDS Base Integration Solution is deployed to Common Data Service.
-3. On the Microsoft Dynamics 365 Connection Setup page, choose the Enable toggle to turn on the connection to [!INCLUDE[crm_md](includes/crm_md.md)].
+3. Uninstall Microsoft Dynamics 365 Business Central Integration solution from you Dynamics 365 Sales following [Uninstall or delete a solution topic](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/uninstall-delete-solution) 
+
+4. On the Microsoft Dynamics 365 Connection Setup page, choose the Enable toggle to turn on the connection to [!INCLUDE[crm_md](includes/crm_md.md)].
   
    After you enable the Sales connection, the Business Central Integration Solution is deployed to Sales. This enables integration with entities that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
-4. Choose **Redeploy Integration Solution** to install and configure the upgraded Business Central Integration Solution.
-5. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
+5. Choose **Redeploy Integration Solution** to install and configure the upgraded Business Central Integration Solution.
+6. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

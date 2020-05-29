@@ -28,7 +28,7 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 2. Open the **Common Data Service Connection Setup** page, and choose the **Enable** toggle to turn on the connection.
   
    After you enable the CDS connection, the Business Central CDS Base Integration Solution is deployed to Common Data Service.
-3. Uninstall Microsoft Dynamics 365 Business Central Integration solution from you Dynamics 365 Sales following [Uninstall or delete a solution topic](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/uninstall-delete-solution) 
+3. Uninstall the Microsoft Dynamics 365 Business Central Integration solution from your Dynamics 365 Sales following [Uninstall or delete a solution topic](/powerapps/developer/common-data-service/uninstall-delete-solution) 
 
 4. On the Microsoft Dynamics 365 Connection Setup page, choose the Enable toggle to turn on the connection to [!INCLUDE[crm_md](includes/crm_md.md)].
   

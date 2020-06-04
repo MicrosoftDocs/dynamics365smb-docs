@@ -68,5 +68,7 @@ If you choose the Person ownership model you must specify each salesperson who w
 
 The default business unit is used when the Person ownership model is chosen, and you cannot choose another business unit. The team that is associated with the default business unit will own records for common entities, such as the Product entity, that are not related to specific salespersons.
 
+When you couple salespersons in [!INCLUDE[d365fin](includes/d365fin_md.md)] to users in [!INCLUDE[d365fin](includes/cds_long_md.md)], [!INCLUDE[d365fin](includes/d365fin_md.md)] will add the user to the default team in [!INCLUDE[d365fin](includes/cds_long_md.md)]. You can verify that users are coupled by looking at the **Default Team Member** column on the **Users - Commo Data Service** page. If the user is not coupled, you can add them manually by using the **Add Coupled Users to Team** action. For more information, see [Synchronizing Data in Business Central with Common Data Service](admin-synchronizing-business-central-and-sales.md).
+
 ## See Also
 [About [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

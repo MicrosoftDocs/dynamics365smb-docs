@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 06/01/2020
+ms.date: 06/06/2020
 ms.author: edupont
 
 ---
@@ -30,3 +30,4 @@ In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can 
 [Get Started with Accountant Hub](get-started.md)  
 [Exporting Your Business Data to Excel (Business Central)](/dynamics365/business-central/about-export-data)  
 [Accountant Experiences in Dynamics 365 Business Central](/dynamics365/business-central/finance-accounting)  
+[Dynamics 365 release plans](/dynamics365/release-plans/)  

@@ -10,11 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/09/2020
     ms.author: sgroespe
 
 ---
 # Netherlands Local Functionality
+
 The following topics describe local functionality that is unique to the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Feature Availability  
@@ -60,6 +61,8 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Import Postal Code Updates](how-to-import-post-code-updates.md) **Available Now**  
 
 ## See Also
+
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

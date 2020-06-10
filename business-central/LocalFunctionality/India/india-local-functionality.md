@@ -20,11 +20,11 @@ The following topics describe the local functionality in the Indian version of [
 
 * TAXENGINE
     * [TaxEngine Overview](TaxEngine-001-Overview.md) **Available Now**
-    * [TaxEngine Import Export configuration](TaxEngine-002-Import Export Configuration.md) **Available Now**
-    * [TaxEngine Configuration](TaxEngine-003-Tax Configuration.md) **Available Now**
+    * [TaxEngine Import Export configuration](TaxEngine-002-Import%Export%Configuration.md) **Available Now**
+    * [TaxEngine Configuration](TaxEngine-003-Tax%Configuration.md) **Available Now**
     * [TaxEngine Lookup](TaxEngine-004-Lookup.md) **Available Now**
-    * [TaxEngine Script](TaxEngine-005-Script Activities.md) **Available Now**
-    * [TaxEngine Design Consideration](TaxEngine-006-Design Consideration.md) **Available Now**
+    * [TaxEngine Script](TaxEngine-005-Script%Activities.md) **Available Now**
+    * [TaxEngine Design Consideration](TaxEngine-006-Design%Consideration.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

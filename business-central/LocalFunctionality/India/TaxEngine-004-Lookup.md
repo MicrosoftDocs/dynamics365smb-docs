@@ -1,0 +1,105 @@
+---
+    title: Tax Engine - Lookup
+    description: Tax Engine - Lookup
+
+    
+
+---
+# Tax Engine - Lookup
+
+Lookup is a utility to fetch value from the system or from a variable. (usage of lookup is explained in how to create Business Rule Section).
+
+# Source Type
+
+Source type is to specify the source of value.
+
+
+#### Current Record
+If value of a field is to be picked from the current record (that is source table of the rule).
+
+#### Variable
+
+If value of a variable is to be picked. Variables of a rule from the rule editor card can be created or viewed.
+
+
+#### Table
+
+If value of a field is to be picked from a table that is related to the current record / source table. This is very much like CALCFORMULA in C/SIDE.
+
+- Table Name : Specify the Table from where the value is to be picked.
+
+- Table Filters : Specify the relationship between the current record and the Table from where the value is to be picked.
+
+- Table Sorting : Sorting to be applied on table records. If sorting is specified records will be sorted on Primary Key.
+
+- Field Name: Value is picked from this field based on the method you have selected.
+
+- Method : 
+
+  - First: Value is picked from the first record.
+  - Last: Value is picked from the last record.
+  - Sum: Calculate sum of all values from a selected field after applying table filters.
+  - Average: Calculate average value from a selected field after applying table filters.
+  - Min: Min value from a selected field after applying table filters.
+  - Max: Max value from a selected field after applying table filters.
+  - Count: Count of records after applying table filters.
+
+#### Database
+
+USERID, COMPANYNAME, SERIALNUMBER, TENANTID, SESSIONID, SERVICEINSTANCEID values can be picked from the current database.
+
+
+#### System
+
+TIME, TODAY, WORKDATE, CURRENTDATETIME values can be picked from the current database.
+
+#### Tax Attribute
+
+Tax Attributes can be picked which are defined with tax type.
+
+
+#### Component
+
+Tax Component amounts computed based on percentage captured can be picked from Tax Rates.
+
+
+#### Record Variable
+
+The value of a ‘Record variable’ field used in use case variable can be picked.
+
+
+#### Component Percent
+
+‘Tax Component Percent’ captured from ‘Tax Rates’ can be picked.
+
+
+#### Column
+
+Value of ‘Tax Rate Parameter’ captured from ‘Tax Rates’ can be picked.
+
+
+#### Attribute Table
+
+Value of attribute from existing table can be picked.
+
+
+#### Posting
+
+To get the helpers that can be used in posting of a document. (Ex- Dimension Set, General Posting Group’s, GL Entry No. of Tax ledger Entry).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

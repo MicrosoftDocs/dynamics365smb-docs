@@ -1,5 +1,5 @@
 ---
-    title: Design Details - Changing Costing Methods
+    title: Design Details - Changing Costing Methods for Items
     description: Learn how to assign a different costing method to an item, although you have already used the item in transactions.
     author: bholtorf
 
@@ -14,7 +14,7 @@
 
 ---
 
-# Design Details - How to Change a Costing Method for an Item
+# Design Details: Change the Costing Method for Items
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
 
 This topic describes how to resolve this situation. The recommended approach is to replace the item that has the incorrect costing method with a new item, and use an assembly order to transfer the inventory from the old item to the new.
@@ -23,12 +23,12 @@ This topic describes how to resolve this situation. The recommended approach is 
 > Using assembly orders allows the costs to still flow although there are outstanding purchase invoices or shipping charges to post. Additionally, it allows for undoing the conversion and getting back the quantities of the old items, if needed.
 
 > [!TIP]
-> To become familiar with the process, we recommend that you start the conversion process with a single item<!--don't understand this sentence. To become familiar with the process, we recommend that you start the conversion process with a single item with a small set of items-->.
+> To become familiar with the process, we recommend that you start the conversion process with a single item or a small set of items.
 
 ## About Costing Methods
 In accounting, the cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
 
->     gross profit = revenue - COGS
+    gross profit = revenue - COGS
 
 Costing methods control the calculation of the flow of costs as goods are purchased, received in inventory, and sold. It is this flow that calculates COGS. Costing methods affect the timing of amounts recorded in COGS that affect gross profit.
 
@@ -61,7 +61,9 @@ To help avoid future mistakes you can specify a default costing method for new i
 You may want to give your new items the same numbers as those they are replacing. To do that, change the numbers of the existing items. For example, if the existing item number is "P1000," you might change it to "X-P1000." This is a manual change that you must make for each item.
 
 ### Create new items with the old numbering scheme and copy the master data in a batch
-Create the new items using the current number scheme. With the exception of the **Costing Method** field, the new items should contain the same master data as the existing items. To transfer the master data for the item, and related data from other features, use the **Copy Item** action on the **Item Card** page. The following table describes the master data that you can copy. 
+Create the new items using the current number scheme. With the exception of the **Costing Method** field, the new items should contain the same master data as the existing items. To transfer the master data for the item, and related data from other features, use the **Copy Item** action on the **Item Card** page. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).
+
+The following table describes the master data that you can copy. 
 
 |Area  |Master data that is copied |
 |---------|---------|
@@ -101,15 +103,15 @@ To make the new items fully useful you must manually copy some master data from 
 > [!NOTE]
 > This step does not consider quantities that are included in unshipped orders. For more information, see [Handle inventory quantities that are allocated to demand](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
 
-Use the Physical Inventory Journal to produce a list of the quantities in inventory. Depending on the warehouse location setup, use one of the following:
+Use a physical inventory journal to produce a list of the quantities in inventory. Depending on the warehouse location setup, use one of the following:
 
 * Physical Invt. Journals
-* Whse. Phys. Invt. Journals.
+* Whse. Phys. Invt. Journals
 
-Both journals can calculate the inventory quantity of the item, including the location, variant, bin, and storage location. 
+Both journals can calculate the inventory quantity of the item, including the location, variant, bin, and storage location. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
 ### Transfer the inventory to the new item
-Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts).
+Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). <!--I'd like to link to a description of how to create an assembly order but can't find anything that looks relevant.-->
 
 When creating assembly orders, use the information from the Physical Invt. journal or Whse. Phys. Invt. journal. The following tables describe what to enter in the header and lines on the order.
 
@@ -138,18 +140,16 @@ When creating assembly orders, use the information from the Physical Invt. journ
 > An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in inventory.
 
 > [!NOTE]
-> For a warehouse location, you might have to create picks before you can post the assembly order. To investigate that, review the pick setup on the **Location Card** page.
+> For a warehouse location, you might have to create picks before you can post the assembly order. To investigate that, review the setup for picking on the **Location Card** page. For more information, see [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
 ### Handle inventory quantities that are allocated to demand
-Ideally, the inventory for the original item should go to Zero after you transfer the inventory quantities. However, there can be outstanding orders, worksheets, and journals (see the table below) that still require a quantity of the original item.Then could also be blocked by a reservation or item tracking.
+Ideally, the inventory for the original item should go to zero after you transfer the inventory quantities. However, there can be outstanding orders, worksheets, and journals (see the table below) that still require a quantity of the original item. The quantity could also be blocked by a reservation or item tracking.
 
 **Example**
 There are 1000 pcs. in inventory, and 20 pcs. are reserved for a sales order that has not yet shipped. In that case, you might decide to keep the 20 pcs. in the old item so that you can fulfill the outstanding order.
 
 > [!NOTE]
-> There are functional areas that can affect the quantity, as listed in the table below, so it can be tricky to find the correct amount. To be safe, using the example above, you can choose to keep 100 pcs. and transfer the remaining 900 pcs. instead. Another way to do it would be to process the documents and journals so that only a manageable few remain.
-
-An alternative is to still transfer the entire quantity to the new item and then transfer some of it back to the original item using the assembly order.
+> There are functional areas that can affect the quantity, as listed in the table below, so it can be tricky to find the correct amount. To be safe, using the example above, you can choose to keep 100 pcs. and transfer the remaining 900 pcs. instead. Another way to do it would be to process the documents and journals so that only a manageable few remain. Yet another alternative is to transfer the entire quantity to the new item and then transfer some of it back to the original item using the assembly order.
 
 The following table lists functional areas where there might be outstanding quantities.
 
@@ -166,7 +166,7 @@ The following table lists functional areas where there might be outstanding quan
 |Production     |Production orders (planned, firm planned, and released)         |
 
 ### Block the original item from further use
-When the inventory for the original item is zero, you can block the item to prevent it fom being used in new transactions. To block the item, on the **Item Card** page, turn on the **Blocked** toggle.
+When the inventory for the original item is zero, you can block the item to prevent it fom being used in new transactions. To block the item, on the **Item Card** page, turn on the **Blocked** toggle. For more information, see [Block Items from Sales or Purchasing](inventory-how-block-items.md).
 
 ## Summary
 Changing the costing method on items that have been used in transactions is a process, and not a standard action in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can use the steps described in this topic as a template for the process.
@@ -179,5 +179,6 @@ We recommend the following:
 
 ## See Also
 [Design Details: Costing Methods](design-details-costing-methods.md)
+[Overview](design-details-inventory-costing.md)
 
 

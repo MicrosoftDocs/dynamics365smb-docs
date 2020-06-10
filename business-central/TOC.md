@@ -1095,7 +1095,6 @@
 #### [TaxEngine Script](LocalFunctionality/India/TaxEngine-005-Script%Activities.md)
 #### [TaxEngine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design%Consideration.md)
 
-
 ## Italy
 ### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)
 ### VAT

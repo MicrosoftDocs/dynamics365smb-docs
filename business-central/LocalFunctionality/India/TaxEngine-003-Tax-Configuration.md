@@ -1,7 +1,16 @@
 ---
     title: Tax Engine - Tax Configuration
     description: Tax Engine - Tax Configuration
+    author: v-debapd
 
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: India, local, IN, English
+    ms.date: 10/06/2020
+    ms.author: v-debapd
 ---
 # Tax Engine - Tax Configuration
 

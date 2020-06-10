@@ -1087,13 +1087,13 @@
 
 ## India
 ### [Overview](LocalFunctionality/India/india-local-functionality.md)
-### TAXENGINE
-#### [TaxEngine Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
-#### [TaxEngine Import Exportconfiguration](LocalFunctionality/India/TaxEngine-002-Import Export Configuration.md)
-#### [TaxEngine Configuration](LocalFunctionality/India/TaxEngine-003-Tax Configuration.md)
-#### [TaxEngine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
-#### [TaxEngine Script](LocalFunctionality/India/TaxEngine-005-Script Activities.md)
-#### [TaxEngine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design Consideration.md)
+### Tax Engine
+#### [Tax Engine Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
+#### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
+#### [Tax Engine Configuration](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
+#### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
+#### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
+#### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 
 ## Italy
 ### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)

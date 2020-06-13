@@ -1,5 +1,5 @@
 ---
-title: Switching to Another Orgaization | Microsoft Docs
+title: Switching to Another Organization | Microsoft Docs
 description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
 author: bholtorf
 

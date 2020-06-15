@@ -63,4 +63,4 @@ Before you can set up email logging, you must prepare your Exchange Online with 
   For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
 
 > [!NOTE]
-> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay. Also, the changes made in Exchange will be available in [!INCLUDE [prodshort](includes/prodshort.md)] after a delay.
+> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay. Also, the changes made in Exchange will be available in [!INCLUDE [prodshort](prodshort.md)] after a delay.

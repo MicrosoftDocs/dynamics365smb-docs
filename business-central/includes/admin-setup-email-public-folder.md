@@ -27,7 +27,7 @@ Before you can set up email logging, you must prepare your Exchange Online with 
 
   For more information, see [Create a public folder mailbox in Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes).  
 
-- Create new public folders (, use the EAC or EMS)
+- Create new public folders
 
   - Create a new public folder with the name *Email Logging* in the root so that the full path to the folder becomes ```\Email Logging\```
   - Create two subfolders so that the the result is the following full paths to the folders:
@@ -51,7 +51,7 @@ Before you can set up email logging, you must prepare your Exchange Online with 
   |User            |The email of the user account that Business Central will use to run the email logging job|
   |Permission level|Owner                     |
 
-  For more information, see [(Assign permissions to the public folder](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
+  For more information, see [Assign permissions to the public folder](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
 - Create two mail flow rules based on the information in the following table
 

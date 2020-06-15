@@ -24,6 +24,7 @@
 4. IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%), will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)
 
 5. GST Calculation will appear in the Fact Box, as following:
+    
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**GST Base Amount**|11,000|

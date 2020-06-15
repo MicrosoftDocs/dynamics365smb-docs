@@ -20,19 +20,17 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)], you cannot change a costing meth
 This topic describes how to resolve this situation. The recommended approach is to replace the item that has the incorrect costing method with a new item, and use an assembly order to transfer the inventory from the old item to the new.
 
 > [!NOTE]
-> Using assembly orders allows the costs to still flow although there are outstanding purchase invoices or shipping charges to post. Additionally, it allows for undoing the conversion and getting back the quantities of the old items, if needed.
+> Using assembly orders allows the costs to still flow although there are outstanding purchase invoices or shipping charges to post. Additionally, it allows you to undo the conversion and get the quantities of the original items back, if needed.
 
 > [!TIP]
 > To become familiar with the process, we recommend that you start the conversion process with a single item or a small set of items.
 
 ## About Costing Methods
-In accounting, the cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
+Costing methods control cost calculations when goods are purchased, received in inventory, and sold. Costing methods affect the timing of amounts recorded in COGS that affect gross profit. It is this flow that calculates COGS. The cost of goods sold (COGS) and revenue are used to determine gross profit, as follows:
 
     gross profit = revenue - COGS
 
-Costing methods control the calculation of the flow of costs as goods are purchased, received in inventory, and sold. It is this flow that calculates COGS. Costing methods affect the timing of amounts recorded in COGS that affect gross profit.
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following costing methods:
+When you set up inventory items, you must assign a costing method. The method can vary from business to business, and from item to item, so it's important to choose the right one. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following costing methods:
 
 * Average
 * FIFO
@@ -40,7 +38,7 @@ Costing methods control the calculation of the flow of costs as goods are purcha
 * Standard
 * Specific
 
-For this to work <!--for what to work, the process we're describing here or costing in general?-->every item must be assigned to a costing method. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
+For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 
 ## Using Assembly Orders to Change Costing Method Assignments
 This section describes the following steps for changing the costing method assigned to an item:
@@ -63,41 +61,28 @@ You may want to give your new items the same numbers as those they are replacing
 ### Create new items with the old numbering scheme and copy the master data in a batch
 Create the new items using the current number scheme. With the exception of the **Costing Method** field, the new items should contain the same master data as the existing items. To transfer the master data for the item, and related data from other features, use the **Copy Item** action on the **Item Card** page. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).
 
-The following table describes the master data that you can copy. 
-
-|Area  |Master data that is copied |
-|---------|---------|
-|Inventory     |* Units of measure<br> * Variants<br> * Translations<br> * Item cross references<br> * Extended texts<br> * Pictures<br> * Comments<br> * Dimensions<br> * Attributes    |
-|Sales     |Sales discounts and prices         |
-|Purchase     |Purchase discounts and prices         |
-|Assembly     |Bills of materials         |
-
-<!--When you copy an item it looks like they can either enter a number for the new item or choose from a number series. Should we be specific about what they should do? Also, it looks like we missed the Troubleshooting and Resource Skills options on the Service FastTab. Is that intentional?-->
-
 After you create the new items and transfer the master data, assign the correct costing method.
 
 ### Manually copy related master data from the original item to the new item
 To make the new items fully useful you must manually copy some master data from other areas, as described in the following table.
-
 
 |Area  |What to copy  |How to copy it  |
 |---------|---------|---------|
 |Inventory     |Stock-keeping units (SKUs)         |Check whether a SKU is specified for the original item. If planning parameters have been entered for each SKU card, then you must manually create the SKU for the new item. If the parameters are not specified, you can use the **Create Stockkeeping Unit** batch job from the **Item Card** page to create the data.        |
 |     |Item substitutions         |Check whether any item substitutions are defined for the original item. If there are, transfer that data to the new item. To view substitute items, use the **Substitutions** action on the **Item Card** page.         |
 |     |Analysis reports         |Review the Item Analysis, Sales Analysis, and Purchase Analysis reports. For those that reference the original items you can either create a new analysis report with a reference to the new item (keeping the original analysis report to use as history) or adjust the reports so that they reference the new item.         |
-|     |Standard journals         |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals. <!--what are standard journals, and where do you find them? I searched for "standard journals" but didn't find anything.-->         |
+|     |Standard journals         |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals, which are available on the item journal.          |
 |Sales     |Sales prepayment percentage         | Check whether any sales prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Sales**, and then **Prepayment Percentages**.        |
 |Purchase     |Purchase prepayment percentage         |Check whether any purchase prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Purchases**, and then **Prepayment Percentages**.                 |
 |Warehouse     |Bin contents         |Review the bin content defined for the original item. If columns such as as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[d365fin](includes/d365fin_md.md)] will maintain the records when you register warehouse documents and journals.|
-|     |ADCS - Item Identifier         |Check whether an ADCS item identifiers are defined for the original item and transfer that data to the new item. This information is available in the actions on the **Item Card** page.<!--I couldn't find anything for this-->         |
 |Job     |Job Prices         |Check whether job prices are defined for the original item and transfer that data to the new item. This information is available on the **Job Card** page in the **Job Details – No. of Prices** part on the **FactBox pane**.         |
-|Service     |Service resource skill         |Check whether service resource skills are defined for the original item and transfer that data to the new item. To view resource skills, use the **Resource Skills** action on the **Item Card** page. <!-- Need to verify this. The Word document said, "This information is available under Service Management"-->         |
-|     |Service item components         |Check whether components are defined for the original service item and transfer that data to the new item. To view service item components, on the **Item Card** page use the **Service Item** action to open the list of related service items, and then choose the **Components** action. <!--Need to verify this. -->         |
-|Production     |Production BOMs         |Check whether any production BOMs contain the original item and replace it with the new item. To replace the original item, on the **Production BOM** page, choose the **Exchange Production BOM Item** action. <!--I couldn't find this action.-->         |
+|Service     |Service resource skill         |Check whether service resource skills are defined for the original item and transfer that data to the new item. To view resource skills, use the **Resource Skills** action on the **Item Card** page.          |
+|     |Service item components         |Check whether components are defined for the original service item and transfer that data to the new item. To view service item components, on the **Item Card** page use the **Service Item** action to open the list of related service items, and then choose the **Components** action.          |
+|Production     |Production BOMs         |Check whether any production BOMs contain the original item and replace it with the new item. To replace the original item, on the **Production BOMs** page, choose the **Exchange Production BOM Item** action.         |
 |Assembly     |Assembly BOMs         |Check whether any assembly BOMs contain the original item and manually replace it with the new item.         |
 
 > [!IMPORTANT]
-> If the new costing method is Standard you should enter a value in the **Standard Cost** field on the **Item Card** page. You can use the **Standard Cost Worksheet** page to to set the cost shares accordingly. <!--Need to verify this. There is a Calc. Standard Cost action, but nothing called a worksheet.-->
+> If the new costing method is Standard you should enter a value in the **Standard Cost** field on the **Item Card** page. You can use the **Standard Cost Worksheet** page to set the cost shares accordingly. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).
 
 ### Determine the inventory quantity to convert from the original item to the new item
 > [!NOTE]
@@ -111,19 +96,19 @@ Use a physical inventory journal to produce a list of the quantities in inventor
 Both journals can calculate the inventory quantity of the item, including the location, variant, bin, and storage location. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
 ### Transfer the inventory to the new item
-Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). <!--I'd like to link to a description of how to create an assembly order but can't find anything that looks relevant.-->
+Create and post assembly orders to transfer the cost and inventory quantity from the original item to the new item. Assembly orders can convert one item to another while preserving the costs. This helps ensure that the net totals for the inventory account and COGS are not affected (except when the new costing method is Standard, in which case costs may be distributed to variance accounts). For more information, see [Assembly Management](assembly-assemble-items.md).
 
-When creating assembly orders, use the information from the Physical Invt. journal or Whse. Phys. Invt. journal. The following tables describe what to enter in the header and lines on the order.
+When creating assembly orders, use the information from the Physical Invt. journal or Whse. Phys. Invt. journal. The following tables describe the information in the reports to enter in the header and lines on the assembly order.
 
 #### Header
 |Field  |Value to enter  |
 |---------|---------|
 |Item No.     |The number of the new item.         |
-|Quantity     |The quantity in physical inventory. <!--The Word doc also had "Qty. (Calculated)" but I'm not sure what that is. Is it the total calculated quantity?--><br> **NOTE:** The quantities calculated by the physical inventory journals does not include the quantities that are on orders that have not yet shipped.          |
-|Variant Code     |The same as in physical inventory. <!--Does this mean that they should use the value calculated by the physical inventory report they used?-->         |
-|Location Code     |The same as in physical inventory.         |
-|Unit of Measure Code     |The same as in physical inventory.         |
-|Bin Code     |The same as in physical inventory.         |
+|Quantity     |The quantity in physical inventory journal.<br> **NOTE:** The quantities calculated by the physical inventory journals does not include the quantities that are on orders that have not yet shipped.          |
+|Variant Code     |The same as in physical inventory journal.          |
+|Location Code     |The same as in physical inventory journal.         |
+|Unit of Measure Code     |The same as in physical inventory journal.         |
+|Bin Code     |The same as in physical inventory journal.         |
 
 #### Lines
 
@@ -132,9 +117,9 @@ When creating assembly orders, use the information from the Physical Invt. journ
 |Type     |Item         |
 |No.     |The number of the original item.         |
 |Quantity per     |1         |
-|Variant Code     |The same as in physical inventory.         |
-|Location Code     |The same as in physical inventory.         |
-|Unit of Measure Code     |The same as in physical inventory.         |
+|Variant Code     |The same as in physical inventory journal.         |
+|Location Code     |The same as in physical inventory journal.         |
+|Unit of Measure Code     |The same as in physical inventory journal.         |
 
 > [!NOTE]
 > An assembly order can handle only one SKU of an item at a time. You must create an assembly order for each combination of SKU that has a quantity in inventory.
@@ -155,9 +140,9 @@ The following table lists functional areas where there might be outstanding quan
 
 |Area  |Where to look for outstanding quantities  |
 |---------|---------|
-|Sales     |Sales documents, including orders, return orders, invoices, and credit memos <!--quotes?-->         |
+|Sales     |Sales documents, including orders, return orders, invoices, quotes, blanket orders, and credit memos         |
 |Inventory     |Item journals, reservations, item tracking, and standard cost worksheet         |
-|Purchase     |Purchase documents, including orders, return orders, quotes, and blanket orders         |
+|Purchase     |Purchase documents, including orders, return orders, invoices, quotes, blanket orders, and credit memos         |
 |Planning     |Requisition worksheet, planning worksheet, and order planning         |
 |Warehouse     |Transfer orders, warehouse shipments, warehouse journals, and warehouse picks, put-aways, and movements, internal picks and put-aways, and bin creation worksheets         |
 |Assembly     |Assembly documents, including orders, return orders, and blanket orders         |

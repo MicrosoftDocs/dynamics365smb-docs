@@ -20,7 +20,8 @@
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select **Vendor** in invoice header, GST vendor type should be **Composite** or **Exempted**.
-3. Select **G/L Account**, **Item Code**, **Fixed Asset** or **Charge (Item)** in invoice line. For example, invoice will be issued for INR 10000 on which there is no GST will be charged.
+3. Select **G/L Account**, **Item Code**, **Fixed Asset** or **Charge (Item)** in invoice line. 
+For example, invoice will be issued for INR 10000 on which there is no GST will be charged.
 
 6. GL Entries will be as following:
     

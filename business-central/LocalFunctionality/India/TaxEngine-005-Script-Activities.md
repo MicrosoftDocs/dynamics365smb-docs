@@ -28,22 +28,22 @@ Script extension contains UI elements with their tables which are used in script
   |Type|Description|
   |--------------------|-----------------------|
   |Output Variable|Specifies the name of ‘variable’ in which value of the length is stored.|
-  |String|Specifies the string for which length is to be calculated, hard coded text or and expression can be entered.|
+  |String|Specifies the string for which length is to be calculated, hard coded text or/and expression can be entered.|
 
 - **Convert Case of String**: Converts the case of the string and assigns to the output variable.
 
   |Type|Description|
   |--------------------|-----------------------|
   |Output Variable|Specifies the name of variable in which value of converted case will be stored.|
-  |String|Specifies the string for which case will be converted, hard coded text or and expression can be entered|
-  |Convert to Case|Convert case of the string, it can be either Upper Case or Lower Case|
+  |String|Specifies the string for which case will be converted, hard coded text or/and expression can be entered.|
+  |Convert to Case|Converts case of the string, it can be either Upper Case or Lower Case.|
 
 - **Find Substring in String**: Finds the substring in string and assigns the position of the substring to output variable.
 
   |Type|Description|
   |--------------------|-----------------------|
-  |Output Variable|Specifies the name of variable in which value of substring will be stored|
-  |String|This will be the string for which value of substring will be searched, hard coded text or and expression can be entered.|
+  |Output Variable|Specifies the name of variable in which value of substring will be stored.|
+  |String|This will be the string for which value of substring will be searched, hard coded text or/and expression can be entered.|
   |Substring|Specifies the string or expression which needs to be identified from String value.|
 
 - **Replace Substring in String**: Replace substring in a string with a new string and assigns to output variable.
@@ -51,16 +51,16 @@ Script extension contains UI elements with their tables which are used in script
   |Type|Description|
   |--------------------|-----------------------|
   |Output Variable|Specifies the name of variable in which the value of Replaced String will be stored.|
-  |Sub String|This will be the string content which will be replaced from 'In String', hard coded text or and expression can be entered.|
-  |With String|This will be the string content which will be replaced with 'Sub String', hard coded text or and expression can be entered.|
-  |In String|This will be the string on which replacement of character will happen|
+  |Sub String|This will be the string content which will be replaced from 'In String', hard coded text or/and expression can be entered.|
+  |With String|This will be the string content which will be replaced with 'Sub String', hard coded text or/and expression can be entered.|
+  |In String|This will be the string on which replacement of character will happen.|
 
 - **Extract Substring**: Extracts substring of a length from a string from start/ end and assigns to output variable.
 
   |Type|Description|
   |--------------------|-----------------------|
   |Output Variable|Specifies the name of variable in which value of Extracted Sub String will be stored.|
-  |String|This will be the string for which value of Substring will be extracted, hard coded text or and expression can be entered.|
+  |String|This will be the string for which value of Substring will be extracted, hard coded text or/and expression can be entered.|
   |From|Starting point of extraction, it can be either start or end.|
   |Length|Length of the character to extract.|
 
@@ -68,8 +68,8 @@ Script extension contains UI elements with their tables which are used in script
 
   |Type|Description|
   |--------------------|-----------------------|
-  |Output Variable|Specifies the variable name on which value of Extracted Sub String will be stored|
-  |In String|This will be the string for which value of Substring will be extracted, hard coded text or and expression can be entered.|
+  |Output Variable|Specifies the variable name on which value of Extracted Sub String will be stored.|
+  |In String|This will be the string for which value of Substring will be extracted, hard coded text or/and expression can be entered.|
   |From Index|Starting point of extraction as Index.|
   |Length|Length of the character to extract.|
 
@@ -101,7 +101,7 @@ Script extension contains UI elements with their tables which are used in script
 
   |Type|Description|
   |--------------------|-----------------------|
-  |Output Variable|Specifies the name of variable in which value of ‘Calculated Date’ will be stored.| 
+  |Output Variable|Specifies the name of variable in which value of ‘Calculated Date’ will be stored.|
   |Date|This will be the date on which calculation will be done.|
   |Operator|This will be the operator that will be applied on ‘Date for calculation’.|
   |Number|This will be the number that will added or subtracted on date.|

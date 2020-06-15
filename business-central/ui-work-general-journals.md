@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
 
 ---
@@ -37,6 +37,9 @@ For each journal template, you can set up your own personal journal as a journal
 
 > [!TIP]  
 > If you select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values](ui-let-system-suggest-values.md).
+
+> [!TIP]
+> To add or remove fields in journals, use the **Personalizing** banner. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Understanding Main Accounts and Balancing Accounts
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
@@ -157,8 +160,15 @@ Values in the **Document No.** field are changed, where required, so that the do
 ## See Related Training at [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## See Also
+
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Allocate Costs and Income](year-allocate-costs-income.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
+[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
+[Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)  
+[Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)  
+[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)  

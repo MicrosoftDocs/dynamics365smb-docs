@@ -10,11 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/09/2020
     ms.author: sgroespe
 
 ---
 # Germany Local Functionality
+
 The following topics describe local functionality that is unique to the German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Feature Availability
@@ -60,7 +61,9 @@ The following topics describe local functionality that is unique to the German v
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
 
 ## See Also
+
 [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

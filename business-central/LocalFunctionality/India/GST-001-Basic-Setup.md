@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 15/06/2020
+    ms.date: 06/15/2020
     ms.author: v-debapd
 
 ---

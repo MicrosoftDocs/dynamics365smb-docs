@@ -20,8 +20,7 @@
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select **Vendor** in invoice header, GST vendor type should be **Registered**.
-3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge in invoice line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** in the Item or G/L Account.
-For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction),will be charged.
+3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge in invoice line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
 5. GST Credit option can be changed in invoice line.
 6. GST Calculation will appear in the Fact Box, as following:
     
@@ -114,7 +113,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
     |**IGST Payable Account (Interim)**|-1800|
     |**Vendor Account**|-10000|
 
-17. G/L Entries on payment to registered vendor (reverse charge) against Intra-State purchase invoice, will be following:
+17. G/L Entries on payment to registered vendor (reverse charge) against Intra-State purchase invoice, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -125,7 +124,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
     |**SGST Payable Account**|-900|
     |**Bank Account**|-10000|  
 
-18. G/L Entries on payment to registered vendor (reverse charge) against Inter-State purchase invoice, will be following:
+18. G/L Entries on payment to registered vendor (reverse charge) against Inter-State purchase invoice, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

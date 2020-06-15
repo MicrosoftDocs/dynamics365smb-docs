@@ -21,8 +21,7 @@
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select Vendor in invoice header, GST vendor type should be **Unregistered**.
-3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge in invoice line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** in the Item or G/L Account.
-For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
+3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge in invoice line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
 5. GST Credit option can be changed in invoice line.
 6. GST Calculation will appear in the Fact Box, as following:
     
@@ -80,7 +79,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
     |**CGST Payable Account (Interim)**|-900|
     |**Vendor**|10000|
 
-12. GL Entries for Item Charge in case Intra-State purchase of fixed asset from an unregistered vendor where input tax credit is available (reverse charge), will be as following:
+12. GL Entries for Item Charge in case of Intra-State purchase of fixed asset from an unregistered vendor where input tax credit is available (reverse charge), will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------| 
@@ -91,7 +90,7 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
     |**CGST Payable Account (Interim)**|-900|
     |**Vendor**|10000|
 
-13. GL Entries for Item Charge in case Intra-State purchase of fixed asset from an unregistered vendor where input tax credit is not available (reverse charge),will be as following:
+13. GL Entries for Item Charge in case of Intra-State purchase of fixed asset from an unregistered vendor where input tax credit is not available (reverse charge),will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------| 

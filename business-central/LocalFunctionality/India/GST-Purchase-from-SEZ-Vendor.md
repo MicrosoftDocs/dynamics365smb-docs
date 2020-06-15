@@ -65,7 +65,7 @@
     |**Vendor Account (Transaction Value)**|-13160|
 
 
-10. GL Entries for import of fixed asset with input tax credit available from SEZ vendor with cover of Bill of Entry will be as following:
+10. GL Entries for import of fixed asset with input tax credit available from SEZ vendor with cover of Bill of Entry, will be as following:
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  

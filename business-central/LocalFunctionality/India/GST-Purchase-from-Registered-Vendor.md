@@ -24,6 +24,7 @@
 4. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction),will be charged.
 5. GST Credit option can be changed in invoice line.
 6. GST Calculation will appear in the Fact Box, as following:
+    
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**GST Base Amount**|10,000|  
@@ -32,6 +33,7 @@
     |**IGST**|1800|
 
 7. G/L Entries for Intra-State/Intra-Union Territory purchase of goods from registered vendor where input tax credit is available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|10,000|  
@@ -40,12 +42,14 @@
     |**Vendor Account**|-11800|
 
 8. G/L Entries for Intra-State/Intra-Union Territory purchase of goods from registered vendor where input tax credit is not available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|11,800|  
     |**Vendor Account**|-11800|
 
 9. G/L Entries for Intra-State/Intra-Union Territory purchase of services from registered vendor where input tax credit is available, will be as following:
+
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Services Account**|10,000|  
@@ -61,6 +65,7 @@
     |**Vendor Account**|-11800|
 
 11. G/L Entries for Inter-State purchase of goods from registered vendor where input tax credit is available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|10,000|  
@@ -68,12 +73,14 @@
     |**Vendor Account**|-11800|
 
 12. G/L Entries for Inter-State purchase of goods from registered vendor where input tax credit is not available, will be as following:
+    
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|11800|  
     |**Vendor Account**|-11800|
 
 13. G/L Entries for Inter-State purchase of services from registered vendor where input tax credit is available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Services Account**|10,000|  
@@ -81,12 +88,14 @@
     |**Vendor Account**|-11800|
 
 14. G/L Entries for Inter-State purchase of services from registered vendor where input tax credit is not available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Services Account**|11800|  
     |**Vendor Account**|-11800|
 
 15. G/L Entries for the Intra-State purchase from registered vendor (reverse charge), will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase/Services Account**|10000|  
@@ -97,6 +106,7 @@
     |**Vendor Account**|-10000|
 
 16. G/L Entries for the Inter-State purchase from registered vendor (reverse charge) if time of supply is considered on the basis of payment, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase/Services Account**|10000|  
@@ -105,7 +115,8 @@
     |**Vendor Account**|-10000|
 
 17. G/L Entries on payment to registered vendor (reverse charge) against Intra-State purchase invoice, will be following:
-     |Particulars|Amount|
+    
+    |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Vendor Account**|10000|
     |**CGST Payable Account (Interim)**|900|
@@ -115,7 +126,8 @@
     |**Bank Account**|-10000|  
 
 18. G/L Entries on payment to registered vendor (reverse charge) against Inter-State purchase invoice, will be following:
-     |Particulars|Amount|
+    
+    |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Vendor Account**|10000|
     |**IGST Payable Account (Interim)**|1800|
@@ -124,6 +136,7 @@
 
 
 19. G/L Entries for Intra-State/Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Fixed Asset Increases during the Year**|10000|
@@ -132,6 +145,7 @@
     |**Vendor Account**|-11800|
 
 20. G/L Entries for Intra-State/Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is not available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
     |**Fixed Asset Increases during the Year**|11800|
@@ -141,6 +155,7 @@
 > In case of Inter-State purchase, IGST will be calculated.
 
 21. G/L Entries for Charge Item in case of Intra-State/Intra-Union Territory in purchase transaction from registered vendor where input tax credit is available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
     |**Purchase Account**|10000|
@@ -149,6 +164,7 @@
     |**Vendor Account**|-11800|
 
 22. G/L Entries for Charge Item in case of Intra-State/Intra-Union Territory in purchase transaction from registered vendor where input tax credit is not available, will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
     |**Purchase Account**|11800|

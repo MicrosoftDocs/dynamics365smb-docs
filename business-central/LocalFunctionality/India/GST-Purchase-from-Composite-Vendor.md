@@ -24,6 +24,7 @@
 4. For example, invoice will be issued for INR 10,000 on which there is no GST will be charged.
 
 6. GL Entries will be as following:
+    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase/Services Account**|10000|  

@@ -74,7 +74,7 @@ Registration Number under GST is called Goods and Service Tax Payer Identificati
     |---------------------------------|---------------------------------------|  
     |**State Code**|Specify the relevant State Code of the company for which registration number has been assigned.|  
     |**Code**|Enter the valid registration number provided by authority.|  
-    |**Description**|Specify the description of the registration number| 
+    |**Description**|Specify the description of the registration number.| 
     |**Input Service Distributor**|Specifies whether the registration belongs to a input service distributor nor not.| 
 
 > [!TIP]
@@ -154,7 +154,7 @@ Legal entity GST registration number need to be defined
 
     |Field|Description|
     |---------------------------------|  ---------------------------------------| 
-    |**State Code**|Specifies the state code of the company address|
+    |**State Code**|Specifies the state code of the company address.|
     |**GST Registration No.**|Specifies the registration number of GST for that specified address.|
     
 
@@ -171,7 +171,7 @@ GST registration number can be assigned to company for their multiple locations,
 
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
-    |**State Code**|Specifies the state code of the location address| 
+    |**State Code**|Specifies the state code of the location address.| 
     |**GST Registration No.**|Specifies the registration number of GST for that specified address.|
 
 > [!TIP]
@@ -188,7 +188,7 @@ GST registration number can be assigned to company for their multiple locations,
     |**GST Distribution Nos.**|Specifies the number series code for distribution document.| 
     |**GST Credit Adj. Jnl Nos.**|Specifies the number series code for credit adjustment journal.|
     |**GST Settlement Nos.**|Specifies the number series code for settlement document.|
-    |**GST Recon. Tolerance**|Specifies the tolerance value to be considered for GST reconciliation|  
+    |**GST Recon. Tolerance**|Specifies the tolerance value to be considered for GST reconciliation.|  
 
 ## To set up GST in purchase and payable setup
 
@@ -240,7 +240,7 @@ Following are the list of masters having GST setup as defined below
     |**GST Registration No.**|Registration No. of vendor shall be entered here. Registration number is mandatory if GST Vendor Type is Registered. Registration No. shall be of 15-digits.|
     |**Associated Enterprises**|This field is activated only if GST Vendor Type is Import. This is can be used for an import transaction of services/goods from sister concerns located outside India.|
     |**Aggregate Turnover**|This field can be used only if GST Vendor Type is Unregistered, the available options are: More than 20 lakh, Less than 20 lakh. System will allow interstate supply of services if Less than 20 lakh is selected in this field for unregistered vendor.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available|
+    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
 
 ## To set up GST in Vendor Order Address
@@ -252,7 +252,7 @@ Following are the list of masters having GST setup as defined below
     |---------------------------------|  ---------------------------------------| 
     |**State**|State code can be selected from dropdown for this field. User has to select appropriate State code.|
     |**GST Registration No.**|Registration No. of vendor shall be entered here. Registration number is mandatory if GST Vendor Type is Registered. Registration No. shall be of 15-digits.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available|
+    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
 ## To set up GST in Customer
 
@@ -266,7 +266,7 @@ Following are the list of masters having GST setup as defined below
     |**GST Registration Type**|Registration type can be GSTIN (Goods and Services Tax Payer Identification Number), UID (Unique Identification Number), and GID (Government Identification Number). Appropriate type shall be selected from the dropdown.|
     |**GST Registration No.**|The 15-digit GST Registration Number shall be entered here. Registration number is mandatory if GST Customer Type is Registered or Deemed Export.|
     |**E-Commerce Operator**|This field is activated, if sales are done through an e-commerce operator.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available|
+    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
 ## To set up GST in Customer Ship to Addresses
 
@@ -278,7 +278,7 @@ Following are the list of masters having GST setup as defined below
     |---------------------------------|  ---------------------------------------| 
     |**State**|State code can be selected from dropdown for this field. User has to select appropriate State code.|
     |**GST Registration No.**|Registration No. of vendor shall be entered here. Registration number is mandatory if GST Customer Type is Registered. Registration No. shall be of 15-digits.|
-    |**ARN No.**|This field captures the Customer ARN No. only when GST registration number is not available|
+    |**ARN No.**|This field captures the Customer ARN No. only when GST registration number is not available.|
 
 
 ## To set up GST in Service Cost

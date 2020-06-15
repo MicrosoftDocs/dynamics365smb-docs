@@ -9,7 +9,7 @@ author: v-debapd
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/06/2020
+    ms.date: 06/15/2020
     ms.author: v-debapd
 ---
 # Tax Engine - Design Consideration
@@ -99,9 +99,6 @@ Within tax engine execution, there are no database write operation until the exe
 
 Within tax engine execution, there are no transaction COMMIT’s, this is done to make sure that tax engine is not breaking any ongoing functionality in case of error during execution of Use Case.
 
-
-
-
 ### Deployment
 
 - Configuration Files
@@ -121,7 +118,7 @@ In case of any change done in any use case the current active version of the use
 
 - Enable or Disable for Use Case
 
-In case the use case is no longer applicable, we can disable that use cae which will skip its execution in tax engine.
+In case the use case is no longer applicable, we can disable that use case which will skip its execution in tax engine.
 
 
 

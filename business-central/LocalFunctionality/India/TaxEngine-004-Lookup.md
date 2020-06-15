@@ -1,13 +1,23 @@
 ---
     title: Tax Engine - Lookup
     description: Tax Engine - Lookup
+    
+    author: v-debapd
 
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: India, local, IN, English
+    ms.date: 06/15/2020
+    ms.author: v-debapd
     
 
 ---
 # Tax Engine - Lookup
 
-Lookup is a utility to fetch value from the system or from a variable. (usage of lookup is explained in how to create Business Rule Section).
+Lookup is a utility to fetch value from the system or from a variable.
 
 # Source Type
 

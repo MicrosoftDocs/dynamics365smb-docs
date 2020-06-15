@@ -1095,6 +1095,7 @@
 #### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
 #### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 ### GST
+#### [GST Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
 #### [Purchase from Composite Vendor](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
 #### [Purchase from Registered Vendor](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
 #### [Purchase from Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)

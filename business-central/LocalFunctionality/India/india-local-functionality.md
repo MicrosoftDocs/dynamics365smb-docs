@@ -27,6 +27,7 @@ The following topics describe the local functionality in the Indian version of [
     * [Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md) **Available Now**
 
 * GST
+    * [GST Overview](GST-001-Basic-Setup.md) **Available Now**
     * [Purchase from Composite Vendor](GST-Purchase-from-Composite-Vendor.md) **Available Now**
     * [Purchase from Registered Vendor](GST-Purchase-from-Registered-Vendor.md) **Available Now**
     * [Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md) **Available Now**

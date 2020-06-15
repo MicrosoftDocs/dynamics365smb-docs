@@ -1,7 +1,6 @@
 ---
 title: Set up email in Business Central | Microsoft Docs
 description: Describes how to use the company's SMTP server to send and receive email messages within Business Central, or alternatively how to use the email server settings created with the Office 365 subscription.
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -10,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
 
 ---
 # Set Up Email
+
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 Instead of entering the SMTP server details manually, you can use the **Apply Office 365 Server Settings** function to enter them with information from your Office 365 subscription.
@@ -22,6 +22,7 @@ Instead of entering the SMTP server details manually, you can use the **Apply Of
 You can either set email up manually, as described below, or you can get help by using the **Email Setup** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 ## To set up email
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -32,6 +33,7 @@ You can either set email up manually, as described below, or you can get help by
 5. When the test succeeds, close the page.
 
 ## Using a Substitute Sender Address on Outbound Email Messages
+
 All outgoing email messages from [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default address for the account that you specified on the SMTP Email Setup page, as described above. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the default account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or amend it with "on behalf of."
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[d365fin](includes/d365fin_md.md)].:
@@ -50,6 +52,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Use the EAC to assign permissions to individual mailboxes](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### To use the substitute address in approval workflows
+
 1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Copy or make a note of the address in the **User ID** field.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
@@ -60,6 +63,13 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page.
 
+## Set up Public Folders and Rules for Email Logging in Exchange Online
+
+Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
+
+[!INCLUDE [admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Next, you connect [!INCLUDE [prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
 ## See Also
 

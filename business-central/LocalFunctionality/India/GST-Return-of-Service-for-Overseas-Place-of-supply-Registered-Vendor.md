@@ -46,7 +46,7 @@
 
 > [!NOTE]
 >
-> All relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

@@ -23,7 +23,7 @@
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset.
 4. GST Credit option can be changed on **Purchase Credit Memo** line.
 
-- Purchase Credit Memo/Return Order for Imported Goods/ Fixed asset, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase credit memo/ return order will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%) will be charged. Calculation base:  (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)
+- Purchase Credit Memo/Return Order for Imported Goods/ Fixed asset, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase credit memo/ return order will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%) will be charged. Calculation base:  (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
 1. GST calculation will appear in the Fact Box, as following:
     
@@ -52,7 +52,7 @@
 
 > [!NOTE]
 >
-> All relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

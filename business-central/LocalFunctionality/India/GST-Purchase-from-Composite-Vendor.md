@@ -32,7 +32,7 @@ For example, invoice will be issued for INR 10000 on which there is no GST will 
 
 > [!NOTE]
 >
-> All relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

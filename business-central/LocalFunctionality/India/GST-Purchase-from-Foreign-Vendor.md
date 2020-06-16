@@ -22,7 +22,7 @@
 3. Select **Item Code** for goods, **G/L Account** for Service purchase and **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
 4. GST Credit option can be changed in document line.
 
-- Import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)
+- Import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
 1. GST calculation will appear in the Fact Box, as following:
     
@@ -52,7 +52,7 @@
     |**Vendor Account (Transaction Value)**|-10000|
 
 
-- Import of Fixed Asset from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)
+- Import of Fixed Asset from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
 1. GST Calculation will appear in the Fact Box, as following:
     

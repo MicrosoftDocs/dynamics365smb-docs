@@ -34,7 +34,7 @@ If value of a variable is to be picked. Variables of a rule from the rule editor
 
 #### Table
 
-If value of a field is to be picked from a table that is related to the current record / source table. This is very much like CALCFORMULA in C/SIDE.
+If value of a field is to be picked from a table that is related to the current record / source table. This is very much like CALCFORMULA in AL.
 
 - Table Name : Specify the Table from where the value is to be picked.
 

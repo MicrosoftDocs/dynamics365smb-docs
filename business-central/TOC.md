@@ -385,7 +385,6 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Overview](finance.md)
@@ -769,6 +768,7 @@
 ## Design Details: Inventory Costing
 ### [Overview](design-details-inventory-costing.md)
 ### [Design Details: Costing Methods](design-details-costing-methods.md)  
+### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
 ### [Design Details: Item Application](design-details-item-application.md)  
 ### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  

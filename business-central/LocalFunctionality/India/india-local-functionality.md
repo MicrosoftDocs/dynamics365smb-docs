@@ -33,6 +33,12 @@ The following topics describe the local functionality in the Indian version of [
     * [Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md) **Available Now**
     * [Purchase from SEZ Vendor](GST-Purchase-from-SEZ-Vendor.md) **Available Now**
     * [Purchase from Foreign Vendor](GST-Purchase-from-Foreign-Vendor.md) **Available Now**
+    * [Purchase Return to Composite Vendor](GST-Purchase-Return-to-Composite-Vendor.md) **Available Now**
+    * [Purchase Return to Registered Vendor](GST-Purchase-Return-to-Registered-Vendor.md) **Available Now**
+    * [Purchase Return to Unregistered Vendor (Reverse Charge)](GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) **Available Now**
+    * [Purchase Return to Foreign Vendor](GST-Purchase-Return-to-Foreign-Vendor.md) **Available Now**
+    * [Purchase from Vendor with Overseas Place of Supply](GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md) **Available Now**
+    * [Purchase Return to Vendor with Overseas Place of Supply](GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

@@ -19,11 +19,11 @@
 ## Create a Purchase Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
-2. Select **Vendor** in invoice header, GST vendor type should be **SEZ**.
-3. Select **Item Code**for goods , **Fixed Asset** for Fixed Asset purchase in invoice line. GST Group Code, HSN/SAC Code should be filled up on Item.
+2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **SEZ**.
+3. Select **Item Code**for goods , **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code should be filled up on Item.
 4. IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%), will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)
 
-5. GST Calculation will appear in the Fact Box, as following:
+5. GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -102,7 +102,7 @@
 
 > [!NOTE]
 >
-> All GST attributes to be stored along with the transaction for GST Settlement and generating GST returns for government authorities.
+> All relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

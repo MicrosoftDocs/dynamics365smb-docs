@@ -19,10 +19,10 @@
 ## Create a Purchase Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
-2. Select **Vendor** in invoice header, GST vendor type should be **Registered**.
-3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge in invoice line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
-5. GST Credit option can be changed in invoice line.
-6. GST Calculation will appear in the Fact Box, as following:
+2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.
+3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
+5. GST Credit option can be changed on invoice line.
+6. GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -174,7 +174,7 @@
 
 > [!NOTE]
 >
-> All GST attributes to be stored along with the transaction for GST Settlement and generating GST returns for government authorities.
+> All relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

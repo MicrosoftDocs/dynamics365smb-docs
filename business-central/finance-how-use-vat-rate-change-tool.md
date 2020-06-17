@@ -1,5 +1,5 @@
 ---
-title: Managing VAt Rate changes | Microsoft Docs
+title: Managing VAT Rate changes | Microsoft Docs
 description: Managing VAt Rate changes
 author: andregu
 ms.service: dynamics365-business-central

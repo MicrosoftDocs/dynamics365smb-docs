@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 06/17/2020
 ms.author: sgroespe
 
 ---
 # Administration
+
 Central administration tasks are usually performed by one role in the company. The scope of these tasks can depend on the company's size and the administrator's job responsibilities. These tasks can include managing database synchronization of job and email queues, setting up users, and customizing the user interface.  
 
 Entering the correct setup values from the start is important to the success of any new business software. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of setup guides that help you set up core data. For more information, see [Setting Up Business Central](setup.md).
@@ -32,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Define who can sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)] by creating users on the Microsoft 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)|
 |Assign permissions to users, modify permission sets, and group users for easy permission management.|[Assign Permissions to Users and Groups](ui-how-users-permissions.md)|
 |Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
-|Manage user settings, such as company, role, language, region and time zone.|[User Settings](admin-manage-user-settings-and-preferences.md)|
+|Manage user settings, such as company, role, language, region and time zone.|[User Settings](admin-manage-user-settings-preferences.md)|
 |Set up printers and specify which reports to print on which printers.|[Set Up Printers](ui-specify-printer-selection-reports.md)|
 |Classify data sensitivities for fields so that you can respond to requests from data subjects related to their personal data.|[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)|
 |Respond to requests from data subjects related to their personal data.|[Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)|

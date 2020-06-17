@@ -34,12 +34,15 @@ There are a few things that the tool does not convert:
 
 * Sales or purchase orders and invoices where shipments have been posted. These documents are posted using the current VAT rate.  
 * Documents that have posted prepayment invoices. For example, you have made or received prepayments on invoices that have not been completed before you use the VAT rate change tool. In this case, there will be a difference between the VAT that is due and the VAT that has been paid in the prepayments when the invoice is completed. The VAT rate change tool will skip these documents and you will have to manually update them.  
-* Sales and Purchase order lines with type *G/L Account*.
+* Unit price of the sales and purchase order lines with type different from Item and Resources
 * Drop shipments or special orders.  
 * Sales or purchase orders with warehouse integration if they are partially shipped or received.  
 * Service contracts.  
 * Credit memos
 * Return orders
+* Prices incl. VAT
+* Prices on Item master table
+* Prices in the Sales Prices table
 
 ### To prepare VAT rate change conversions  
 Before you set up the VAT rate change tool, you must make the following preparations.

@@ -25,7 +25,7 @@ The optimal approach to manage a VAT rate change is to fully post and close open
 4. At the VAT rate switch date you create new documents that will use the new rate.
 
 ## The VAT Rate Change tool
-The VAT Rate Change tool can assist with conversion of VAT Rates on some master data, journals and orders, to some extent. This is useful if you want to convert VAT on master data more easily or if you have orders that you cannot close before the switch date and will be used over a longer period of time. There are certain restrictions and limitations in the VAT Rate Change tool that applies.
+The VAT Rate Change tool can assist with conversion of VAT Rates on master data, journals and orders, to some extent. This is useful if you want to convert VAT on master data more easily or if you have orders that you cannot close before the switch date and will be processed over a longer period of time, crossing the VAT rate switch date. There are certain restrictions and limitations in the VAT Rate Change tool that applies.
 
 ## Understanding the VAT Rate Conversion Process and limitations
 The VAT Rate Change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  

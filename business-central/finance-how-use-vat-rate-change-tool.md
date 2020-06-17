@@ -40,7 +40,6 @@ There are a few things that the tool does not convert:
 * Service contracts.  
 * Credit memos
 * Return orders
-* Prices incl. VAT
 * Prices on Item master table
 * Prices in the Sales Prices table
 

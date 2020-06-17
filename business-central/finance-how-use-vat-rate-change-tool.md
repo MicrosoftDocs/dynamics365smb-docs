@@ -40,8 +40,8 @@ There are a few things that the tool does not convert:
 * Service contracts.  
 * Credit memos
 * Return orders
-* Prices on Item master table
-* Prices in the Sales Prices table
+* Prices on Items (master data)
+* Prices on Sales Prices (master data)
 
 ### To prepare VAT rate change conversions  
 Before you set up the VAT rate change tool, you must make the following preparations.

@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.date: 06/16/2020
 ms.author: edupont
 
 ---
@@ -28,6 +28,9 @@ If you already have [!INCLUDE [prodshort](includes/prodshort.md)], then log in a
 
 > [!TIP]
 > If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
+
+> [!NOTE]
+> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE [prodshort](includes/prodshort.md)] online. If your organization uses a different version of [!INCLUDE [prodshort](includes/prodshort.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
 ## See Related Training at [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 

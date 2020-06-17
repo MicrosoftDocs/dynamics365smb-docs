@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 04/01/2020
+ms.date: 06/17/2020
 ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@ ms.author: edupont
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a number of markets and languages around the World. In the markets where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available, a set of regulatory features are available to assist companies with regulatory burdens. [!INCLUDE[d365fin](includes/d365fin_md.md)] can present itself in different languages and you can change the language that is used to display texts, and the change is immediate, once you have been automatically signed out and in again. The setting applies to you and not to everyone else in your company.  
 
-For example, if you are using the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see the user interface in English, German, French or another language, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom where local functionality may has been adapted towards market needs.  
+For example, if you are using the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)], you can see the user interface in English, German, French, or another language, but it is still the Canadian version of [!INCLUDE[d365fin](includes/d365fin_md.md)] in all other aspects. It is not the same as, say, [!INCLUDE[d365fin](includes/d365fin_md.md)] in the United Kingdom where local functionality may has been adapted towards market needs.  
 
 To change the language of the user interface, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md#language).  Note, that the choice of language will be reset to your setting on your Office profile if your administrator synchronizes users from Office 365 into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

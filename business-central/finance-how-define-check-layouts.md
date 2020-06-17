@@ -50,6 +50,9 @@ The following summarizes specifications for the MICR E-13B fonts that may be use
 
 ![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
+### Delimiter characters
+![Delimiter characters](media/font-micr-letters.png "Delimiter characters")
+
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### MICR CMC-7 Specifications
@@ -63,6 +66,9 @@ The following CMC-7 fonts are available in [!INCLUDE[d365fin](includes/d365fin_m
 The following summarizes specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
 ![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+
+### Delimiter characters
+![Delimiter characters](media/font-cmc7-letters.png "Delimiter characters")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 

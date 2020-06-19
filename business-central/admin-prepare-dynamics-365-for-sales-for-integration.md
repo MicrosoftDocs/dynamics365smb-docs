@@ -1,8 +1,6 @@
 ---
 title: Integrating with Dynamics 365 Sales| Microsoft Docs
 description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -11,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: bholtorf
 
 ---
 # Integrating with Dynamics 365 Sales
+
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight by enabling them to view information in [!INCLUDE[d365fin](includes/d365fin_md.md)] while they are working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
@@ -48,7 +47,7 @@ You can use an assisted setup guide to quickly set up the connection and specify
 4. Optionally, there are advanced settings that can enhance security and enable additional capabilities, such as sales order processing and viewing inventory levels. The following table describes the advanced settings.  
 
 |Field|Description|
-|-----|-----|
+|-----|-----------|
 |**Import Dynamics 365 Sales Solution**|Enable this to install and configure the integration solution in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic-->|
 |**Publish Item Availability Web Service**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. This requires a [!INCLUDE[d365fin](includes/d365fin_md.md)] user account with a web services access key. Assigning the key is a two-step process. On the user account in [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose the **Change Web Service Key** action. In the Set Up Dynamics 365 Sales Connection assisted setup guide, you must specify the Dynamics 365 Business Central OData web service URL, and provide [!INCLUDE[d365fin](includes/d365fin_md.md)] user credentials for accessing the service. For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Business Central OData Web Service URL**|If you enable the web service for viewing item availability, the URL for the OData Web service is provided for you.|
@@ -62,7 +61,7 @@ You can use an assisted setup guide to quickly set up the connection and specify
 Enter the following information for the connection from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Field|Description|
-|-----|-----|
+|-----|-----------|
 |**Dynamics 365 Sales URL**|The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This enables users to open corresponding records in [!INCLUDE[d365fin](includes/d365fin_md.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[d365fin](includes/d365fin_md.md)] records open in [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 |**Item Availability Web Service Enabled**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you enable this, you must also provide a user name and an access key for the [!INCLUDE[crm_md](includes/crm_md.md)] to use to query OData Web Service for availablity of items (products). For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
 |**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you. Set this field to the URL of the [!INCLUDE[d365fin](includes/d365fin_md.md)] instance to use.<br /><br /> To reset the field to the default URL for the [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Reset Web Client URL** action.<br /><br /> This field is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration Solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -88,7 +87,7 @@ Entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as orders, are integrat
 The following table lists the standard mapping between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synchronization Direction|Default Filter|
-|-------------------------------------------|-----|-------------------------|--------------|
+|-------------------------------------------|--------------------------------------|-----------------|--------------|
 |Unit of Measure|Unit Group|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Item|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Sales Inventory**|
 |Resource|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales contact filter: **Product Type** is **Services**|

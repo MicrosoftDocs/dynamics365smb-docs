@@ -69,6 +69,7 @@ Before you set up the VAT rate change tool, you must make the following preparat
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert VAT product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
+3. On the **Prices Incl. VAT** FastTab, choose which line types on orders for which you want to update Unit Prices. Lines of type Item and Resource are always updated.
 
 ### To set up product posting group conversion
 

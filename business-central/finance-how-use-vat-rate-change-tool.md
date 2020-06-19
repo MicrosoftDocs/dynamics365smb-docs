@@ -27,26 +27,35 @@ The following approach is suggested to manage a VAT rate change
 3. Make the VAT switch on entities (relevant customers, vendors, items, and so on).  
 4. At the VAT rate switch date you create new documents that will use the new rate.  
 
+
+> [!NOTE]  
+> We are currently updating the VAT Rate Change tool. The functionality mentioned below may not match the functionality in your environment. The update will take place before July 1st 2020 and will not be a regular monthly update. Instead, all environments will be updated automatically (hotfix). When this update is complete, this message will no longer appear.  
+
 ## The VAT Rate Change tool
 
 The VAT Rate Change tool can assist with conversion of VAT Rates on master data, journals and orders, to some extent. This is useful if you want to convert VAT on master data more easily or if you have orders that you cannot close before the switch date and will be processed over a longer period of time, crossing the VAT rate switch date. There are certain restrictions and limitations in the VAT Rate Change tool that applies.
 
 ## Understanding the VAT rate conversion process and limitations
 
-The VAT Rate Change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
+The VAT Rate Change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, configuration templates for items, reservations, and item tracking information will be updated accordingly. 
+
+On order lines, the unit price will be updated for all lines of type Item and Resource, if using prices incl. VAT for the item. For other line types it is possible to decide whether or not the unit price should be updated.
 
 There are a few things that the tool does not convert:
 
 * Sales or purchase orders and invoices where shipments have been posted. These documents are posted using the current VAT rate.  
 * Documents that have posted prepayment invoices. For example, you have made or received prepayments on invoices that have not been completed before you use the VAT rate change tool. In this case, there will be a difference between the VAT that is due and the VAT that has been paid in the prepayments when the invoice is completed. The VAT rate change tool will skip these documents and you will have to manually update them.  
 * Unit price of sales and purchase order lines with type different from Item and Resources will remain unchanged
-* Drop shipments or special orders.  
 * Sales or purchase orders with warehouse integration if they are partially shipped or received.  
+* Drop shipments.
+* Special orders. 
+* Assembly orders.
 * Service contracts.  
-* Credit memos
-* Return orders
+* Credit memos.
+* Return orders.
 * Prices on Items (master data)
 * Prices on Sales Prices (master data)
+* Business Posting Groups on Customers and Vendors.
 
 ### To prepare VAT rate change conversions
 

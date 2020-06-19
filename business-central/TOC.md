@@ -38,7 +38,7 @@
 ## [Copy and Paste FAQ](ui-copy-paste.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
-## [Changing Language and Locale](about-locale-language.md)
+## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
@@ -325,6 +325,7 @@
 ## [Create Users According to Licenses](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
@@ -384,7 +385,6 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Overview](finance.md)
@@ -508,6 +508,7 @@
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 ## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+## [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
@@ -768,6 +769,7 @@
 ## Design Details: Inventory Costing
 ### [Overview](design-details-inventory-costing.md)
 ### [Design Details: Costing Methods](design-details-costing-methods.md)  
+### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
 ### [Design Details: Item Application](design-details-item-application.md)  
 ### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  

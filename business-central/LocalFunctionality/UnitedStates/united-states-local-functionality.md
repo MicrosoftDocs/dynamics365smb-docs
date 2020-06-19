@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/09/2020
+    ms.date: 06/10/2020
     ms.author: sgroespe
 
 ---
@@ -33,6 +33,9 @@ The following topics describe local functionality that is unique to the United S
 
 * General
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**  
+
+> [!NOTE]
+> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE [prodshort](../../includes/prodshort.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
 
 ## See Also
 

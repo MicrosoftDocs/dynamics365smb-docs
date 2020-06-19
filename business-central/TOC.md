@@ -508,6 +508,7 @@
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 ## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+## [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)

@@ -1,33 +1,38 @@
 ---
 title: Managing VAT Rate changes | Microsoft Docs
-description: Managing VAt Rate changes
+description: learn how to sue the VAT Rate Change tool for Dynamics 365 Business Central.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: andregu
 
 ---
 
-# Managing VAT rate changes
-VAT rates can change depending on local legislation. Any change in VAT impacts your data in [!INCLUDE[d365fin](includes/d365fin_md.md)] whether or not the VAT rate is lowered, raised or removed. VAT is connected to many entities in [!INCLUDE[d365fin](includes/d365fin_md.md)], like customers, vendors, items, resources, item charges and general ledger accounts. Changes in VAT rates usually happen at a specific date, from which point you will need to have changed the VAT setup, posting groups etc. to make sure new sales orders and purchase orders are created with the new VAT rate.
+# Managing VAT Rate Changes
+
+VAT rates can change depending on local legislation. Any change in VAT impacts your data in [!INCLUDE[d365fin](includes/d365fin_md.md)] whether or not the VAT rate is lowered, raised, or removed. VAT is connected to many entities in [!INCLUDE[d365fin](includes/d365fin_md.md)], such as customers, vendors, items, resources, item charges, and general ledger accounts. Changes in VAT rates usually happen at a specific date, from which point you will need to have changed the VAT setup, posting groups etc. to make sure new sales orders and purchase orders are created with the new VAT rate.
+
+## Changing VAT rates
 
 The optimal approach to manage a VAT rate change is to fully post and close open orders and other documents before the VAT rate switch date, to make sure these are not impacted by the change. This is the cleanest approach that allows you to start up new orders and documents with the new VAT rate.
 
-### The following approach is suggested to manage a VAT rate change
-1. Fully post and close open orders, journals and other documents before the switch date. You can wait to after the switch date as long as you do not add new lines and make sure the effective date will be prior the switch date. 
-2. Create the new VAT setup.
-3. Make the VAT switch on entities (relevant customers, vendors, items, etc.).
-4. At the VAT rate switch date you create new documents that will use the new rate.
+The following approach is suggested to manage a VAT rate change
+
+1. Fully post and close open orders, journals and other documents before the switch date. You can wait to after the switch date as long as you do not add new lines and make sure the effective date will be prior the switch date.  
+2. Create the new VAT setup.  
+3. Make the VAT switch on entities (relevant customers, vendors, items, and so on).  
+4. At the VAT rate switch date you create new documents that will use the new rate.  
 
 ## The VAT Rate Change tool
+
 The VAT Rate Change tool can assist with conversion of VAT Rates on master data, journals and orders, to some extent. This is useful if you want to convert VAT on master data more easily or if you have orders that you cannot close before the switch date and will be processed over a longer period of time, crossing the VAT rate switch date. There are certain restrictions and limitations in the VAT Rate Change tool that applies.
 
-## Understanding the VAT Rate Conversion Process and limitations
+## Understanding the VAT rate conversion process and limitations
+
 The VAT Rate Change tool performs VAT rate conversions for master data, journals, and orders in different ways. The selected master data and journals will be updated by the new general product posting group or VAT product post group. If an order has been fully or partially shipped, the shipped items will keep the current general product posting group or VAT product posting group. A new order line will be created for the unshipped items and updated to align current and new VAT or general product posting groups. In addition, item charge assignments, reservations, and item tracking information will be updated accordingly.  
 
 There are a few things that the tool does not convert:
@@ -43,7 +48,8 @@ There are a few things that the tool does not convert:
 * Prices on Items (master data)
 * Prices on Sales Prices (master data)
 
-### To prepare VAT rate change conversions  
+### To prepare VAT rate change conversions
+
 Before you set up the VAT rate change tool, you must make the following preparations.
 
 * If you have transactions that use different rates, then they must be separated into different groups either by creating new general ledger accounts for each rate or by using data filters to group transactions according to rate.  
@@ -51,24 +57,27 @@ Before you set up the VAT rate change tool, you must make the following preparat
 * To reduce the number of documents that get converted, post as many documents as possible and reduce unposted documents to a minimum.  
 * Back up data.
 
-### To set up the VAT rate change tool  
+### To set up the VAT rate change tool
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert VAT product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
 
-### To set up product posting group conversion  
+### To set up product posting group conversion
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **VAT Rate Change Setup** page, choose either the **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.** action.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
 
-### To perform VAT rate change conversion  
+### To perform VAT rate change conversion
+
 You use the VAT rate change tool to manage changes in the standard rate of VAT. You perform VAT and general posting group conversions to change VAT rates and maintain accurate VAT reporting. Depending on your setup, the following changes are made:  
 
 * VAT and general posting groups are converted.  
 * Changes are implemented in general ledger accounts, customers, vendors, open documents, journal lines, and so on.  
 
 > [!IMPORTANT]  
->  Before you perform VAT rate change conversion, you can test the conversion. To do so, follow the steps below, but make sure to clear the **Perform Conversion** and **VAT Rate Change Tool Completed** check boxes. During test conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is cleared and the **Converted Date** field in the **VAT Rate Change Log Entry** table is blank. After the conversion is complete, choose **VAT Rate Change Log Entries** to view the results of the test conversion. Verify each entry before you perform the conversion. In particular, verify transactions that use an old VAT rate.     
+> Before you perform VAT rate change conversion, you can test the conversion. To do so, follow the steps below, but make sure to clear the **Perform Conversion** and **VAT Rate Change Tool Completed** check boxes. During test conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is cleared and the **Converted Date** field in the **VAT Rate Change Log Entry** table is blank. After the conversion is complete, choose **VAT Rate Change Log Entries** to view the results of the test conversion. Verify each entry before you perform the conversion. In particular, verify transactions that use an old VAT rate.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
 2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
@@ -81,10 +90,12 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 5. After the conversion is complete, choose the **VAT Rate Change Log Entries** action to view the results of the conversion.  
 
 > [!IMPORTANT]  
->  After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
-## See Also  
+> After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
+
+## See Also
+
 [Set Up Value-Added Tax](finance-setup-vat.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)      
+[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Local functionality in Business Central](about-localization.md)
+[Local functionality in Business Central](about-localization.md)  

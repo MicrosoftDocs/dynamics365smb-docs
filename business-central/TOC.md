@@ -42,6 +42,7 @@
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
+## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizing Business Central
@@ -349,7 +350,6 @@
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customize Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)

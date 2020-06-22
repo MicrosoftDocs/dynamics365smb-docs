@@ -1,7 +1,7 @@
 ---
     title: Walkthrough - Tracing Serial-Lot Numbers | Microsoft Docs
-    description: When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.
-    author: SorenGP
+    description: This topic describes the actions to take to stop selling a defective item.
+    author: bholtorf
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/19/2020
-    ms.author: sgroespe
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Tracing Serial/Lot Numbers

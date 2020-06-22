@@ -350,7 +350,6 @@
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customize Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)

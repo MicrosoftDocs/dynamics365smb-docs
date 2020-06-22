@@ -1,7 +1,7 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 06/19/2020
-ms.author: sgroespe
+ms.author: bholtorf
 ---
 
 # Keyboard Shortcuts
@@ -19,9 +19,8 @@ This article provides an overview of some of the shortcut key combinations that 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.
->
-> [ ![Icon for the PDF file](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
+> :::image type="content" source="media/keyboard_shortcut_inline.png" alt-text="Keyboard shortcut PDF."(media/keyboard_shortcuts.pdf):::
 
 ## Overview
 

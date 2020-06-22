@@ -1,7 +1,7 @@
 ---
     title: Design Details - Costing Methods | Microsoft Docs
-    description: The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
-    author: SorenGP
+    description: This topic describes how the costing method affects how actual or a budgeted values are capitalized and used in the cost calculation.
+    author: bholtorf
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,11 +10,11 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: bholtorf
 
 ---
 # Design Details: Costing Methods
-The costing method determines if an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
+The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
 > You cannot change an item's costing method if item ledger entries exist for the item.<br /><br />

@@ -20,7 +20,7 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts 
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
-> :::image type="content" source="media/keyboard_shortcut_inline.png" alt-text="Keyboard shortcut PDF."(media/keyboard_shortcuts.pdf):::
+> [ ![Icon for the PDF file](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## Overview
 

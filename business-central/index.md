@@ -47,6 +47,7 @@ If you already have [!INCLUDE [prodshort](includes/prodshort.md)], then log in a
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Introducing docs.microsoft.com (original blog post)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

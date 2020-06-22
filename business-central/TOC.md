@@ -42,6 +42,7 @@
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
+## [Switching to Another Organization](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Personalizing Business Central

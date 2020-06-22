@@ -48,4 +48,4 @@ ms.author: bholtorf
 > [!TIP]
 > For a graphical, print-friendly version, choose the following image and download the PDF file.
 >
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")

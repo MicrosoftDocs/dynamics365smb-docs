@@ -60,7 +60,7 @@ Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** 
 
 The following table shows the combinations of FIK and GIRO payment methods that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports.
 
-|    |Type 01 | Type 04 | Type 71 | Type 73 |
+|Combination|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
 |Giro Account No. or FIK Creditor No.? | Giro Account No. | Giro Account No. | FIK Creditor No. | FIK Creditor No.|
 |Allows Message to Recipient? | Yes |No |No | Yes |

@@ -31,7 +31,7 @@ The following table describes the capabilities that are available if you install
 |**Account Receivables/Sales** |Basic Receivables, Sales Invoicing, Sales Discounts, Pricing, Sales Tax, Contact Management |
 |**Account Payables/Purchase** |Basic Payables, Purchase Invoicing |
 |**Project Management** |Jobs, Job Pricing, Time Sheets, Assignment, Tasks, Resources |
-|**Inventory**** |Basic Inventory, Item Substitutions, Item Cross Reference |
+|**Inventory** |Basic Inventory, Item Substitutions, Item Cross Reference |
 
 ## Getting Started
 This extension is a bit different than most, and you will need help from a Microsoft partner to install and set it up. Just so that you know what to expect, here's a high-level view of what the Microsoft partner will do.

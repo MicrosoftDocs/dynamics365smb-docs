@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/23/2020
     ms.author: bholtorf
 
 
@@ -36,7 +36,7 @@ For all authentication types other than Office 365 authentication, you set up yo
 > * **Have full access to Dynamics 365 [!INCLUDE[d365fin](includes/d365fin_md.md)]** permission is needed so automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user can access [!INCLUDE[d365fin](includes/d365fin_md.md)] data that will be synchronized. 
 > * **Sign in and read your profile** permission is needed to verify user logging in actually has System Administrator security role assigned in [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
 >
-> By giving his consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)] to synhronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
+> By giving consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[d365fin](includes/cds_long_md.md)] to synchronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
 
 ### To use the Set up Common Data Service connection assisted setup guide 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.

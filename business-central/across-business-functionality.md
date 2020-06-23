@@ -39,6 +39,8 @@ ms.author: sgroespe
 |Record external documents in [!INCLUDE[d365fin](includes/d365fin_md.md)], including their file attachments, and then manually create the related documents or automatically convert the files to electronic documents.|[Incoming Documents](across-income-documents.md)|
 
 ## See Also
+
+[Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
 [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Getting Started](product-get-started.md)  

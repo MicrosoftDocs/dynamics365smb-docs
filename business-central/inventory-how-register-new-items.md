@@ -1,7 +1,6 @@
 ---
 title: Create Item Cards for Goods or Services| Microsoft Docs
 description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -10,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/27/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
 
 ---
 # Register New Items
+
 Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
@@ -30,11 +30,12 @@ Items that you offer to your customers but you do not want manage in your system
 > [!NOTE]  
 > If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
 
-The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).<br><br>  
+The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## To create a new item card
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. On the **Items** page, choose the **New** action.
 
@@ -55,9 +56,11 @@ The item is now registered, and the item card is ready to be used on purchase an
 If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.
 
 ### Deleting Item Cards
+
 If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
 
 ## To save the item card as a template
+
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
@@ -66,22 +69,29 @@ If you have posted a transaction for an item, you cannot delete the card because
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-## To set up multiple vendors for an item  
+## To set up multiple vendors for an item
+
 If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2.  Select the relevant item, and then choose the **Edit** action.  
-3.  Choose the **Vendors** action.  
-4.  Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
-5.  Optionally, fill in the remaining fields.  
-6.  Repeat steps 2 through 5 for each vendor that you want to buy the item from.
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. Select the relevant item, and then choose the **Edit** action.  
+3. Choose the **Vendors** action.  
+4. Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
+5. Optionally, fill in the remaining fields.  
+6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
 The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
 
+## Categories, attributes, and variants
+
+[!INCLUDE [inventory_variant](includes/inventory_variant.md)]
+
 ## See Also
+
 [Inventory](inventory-manage-inventory.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
+[Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

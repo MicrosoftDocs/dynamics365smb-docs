@@ -1,28 +1,29 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2020
-ms.author: sgroespe
+ms.date: 06/19/2020
+ms.author: bholtorf
 ---
 
 # Keyboard Shortcuts
+
 This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prodshort](includes/prodshort.md)].
 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.
->
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
+> [ ![Icon for the PDF file](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
 
 ## Overview
+
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They're supported by most web browsers, however, the behavior may vary slightly.
 
 > [!NOTE]
@@ -34,11 +35,12 @@ Most of the shortcuts are the same whether the operating system is Windows or ma
 > In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
+
 The following table describes keyboard shortcuts for navigating and accessing different elements of a page. Elements include things like actions, drop-down lists, lookups, and more. For details about keyboard shortcuts for navigating records once you get inside a list, see the next section.
 
 |Press these keys<br />(in macOS)|To do this|
-|----------------|-----------|
-|Alt+Down Arrow|Open a drop-down list or look up a value for a field.|    
+|--------------------------------|----------|
+|Alt+Down Arrow|Open a drop-down list or look up a value for a field.|
 |Alt+Up Arrow|Show tooltip for a field or a column header of a table. If the field has validation errors, press Alt+Up Arrow to show the validation error. Press Esc or Alt+Up Arrow to close the tooltip.|
 |F2|Toggle between selecting the entire field value or placing the cursor at the end of the field value.|
 |Alt+F2|Show and hide the FactBox pane.|
@@ -74,16 +76,17 @@ The following table describes the keyboard shortcuts that you can use on a list 
 ### General
 
 |Press these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
-|-----------------|-------|-------|
+|--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sort the selected column in ascending or descending order.|Not applicable.|
 |Alt+N|Insert a new line in an editable list, such as the **G/L Budgets** page.|Same.|
 |Shift+F10 |Open a menu of options that are available for the selected row.|Same.|
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
+
 Grids containing rows and columns exist on many page types in [!INCLUDE[prodshort](includes/prodshort.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus remains in the same column.|Move to the first tile in the first row. |
 |Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus remains in the same column.|Move to the last tile in the last row.|
 |Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.|
@@ -99,11 +102,10 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prodshor
 |Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
 |Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
-
 ### <a name="CopyRows"></a>Selecting, Copying, and Pasting
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Click<br />(Cmd+Click)|Extend the selection of rows to include the row that you click.|Not applicable.|
 |Shift+Click|Extend the selection of rows to include the row that you click and all the rows in between.<br /><br />You can use this after using Ctrl+Up Arrow or Ctrl+Up Down to expand your selection.|Not applicable.|
 |Ctrl+Up Arrow<br />(Ctrl+Cmd+Up Arrow)|Move focus to the row above and keep the current row selected.|Not applicable.|
@@ -121,7 +123,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prodshor
 ### <a name="KeyboardFilter"></a>Searching and Filtering Lists
 
 |Press these keys<br />(in macOS)|To do this|
-|-----------------|-------|
+|--------------------------------|----------|
 |F3|Toggles the search box.<ul><li>Activate the search box, so you can start typing your search text.</li><li>If the search box is already activated, F3 returns to the list without clearing the search text.</li><ul>|
 |Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Shift+F3 opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit Enter to start adding a field filter.</li><li>If the filter pane is already open, Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>|
 |Ctrl+Shift+F3|Open and close the filter pane.<ul><li> If the filter pane isn't open, Ctrl+Shift+F3 opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit Enter to start adding a totals filter.</li><li>If the filter pane is already open, Ctrl+Shift+F3 closes it but doesn't clear any filters that you've added.</li></ul>  |
@@ -135,7 +137,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prodshor
 The following shortcuts are available on card pages, such as **Customer Card**, and document pages, such as **Sales Order**, to display and modify records.
 
 |Press these keys<br />(in macOS)|To do this|
-|----------------|-----------|
+|--------------------------------|----------|
 |Alt+F6|Toggle collapse/expand for the current FastTab or part (subpage).|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
@@ -154,7 +156,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
 |Press these keys<br />(in macOS)|To do this|Remarks|
-|-----------------|-------|-------|
+|--------------------------------|----------|-------|
 |Enter|Confirm the value in the current field and go to the next Quick Entry field.||
 |Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.<br /><br />This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
@@ -164,7 +166,7 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
 |Press these keys<br />(in macOS)|To do this|
-|-----------------|-------|
+|--------------------------------|----------|
 |Ctrl+Home|Open the calendar if closed. **Note**: This doesn't work if the date field is in a grid, where Ctrl+Home jumps to the first row.|
 |Ctrl+Home<br />(Cmd+Home)|Move to the current month, current day.|
 |Ctrl+Left Arrow<br />(Cmd+Left Arrow)|Move to the previous day.|
@@ -179,14 +181,14 @@ When setting a date field, you can either enter the date manually or open a cale
 
 ## Keyboard Shortcuts in Date Fields
 |Press these keys<br />(in macOS)|To do this|
-|-----------------|-------|
+|--------------------------------|----------|
 |t|Enter the current date. "T" stands for "today".|
 |w|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
 
 ## <a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
 
 |Press these keys<br />(in macOS)|To do this|
-|-----------------|-------|
+|--------------------------------|----------|
 |Down Arrow|Scroll down the page.|  
 |Up Arrow|Scroll up the page.|
 |Ctrl+0 (zero)<br />(Cmd+0)|Fits the entire page on the page. |
@@ -198,6 +200,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
 
 ## See also
+
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  

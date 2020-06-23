@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
 
 ---
@@ -22,7 +22,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Icon for the PDF file](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
 ## Links to Learn More
 

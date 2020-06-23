@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/18/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
 
 ---
@@ -81,6 +81,10 @@ If you purchase the same item from more than one vendor, you must enter informat
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
 The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+
+## Categories, attributes, and variants
+
+[!INCLUDE [inventory_variant](includes/inventory_variant.md)]
 
 ## See Also
 

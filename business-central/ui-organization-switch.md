@@ -43,5 +43,5 @@ When you are signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can q
 > A good way to go directly to your default company when you sign in, and avoid having to specify an environment, is to add the the URL to your list of favorites after you sign in.
 
 ## See Also
-[The Business Central Administration Center](/business-central/dev-itpro/administration/tenant-admin-center.md)  
+[The Business Central Administration Center](/business-central/dev-itpro/administration/tenant-admin-center)  
 [Change Basic Settings](ui-change-basic-settings.md)

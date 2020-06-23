@@ -1,5 +1,5 @@
 ---
-    title: Basic Financials | Microsoft Docs
+    title: Basic Experience Extension | Microsoft Docs
     description: This extension is a modernized alternative to Microsoft Dynamics C5.
     author: bholtorf
 
@@ -14,16 +14,16 @@
 
 
 ---
-# The Basic Financials Extension
+# The Basic Experience Extension
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[d365fin](includes/d365fin_md.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.
 
-This extension is intended for small businesses and can support up to three users. If you need more users you must upgrade to a Business Central license and uninstall this extension.
+This extension is intended for small businesses and can support up to three users. If you need more users you must upgrade to a [!INCLUDE[d365fin](includes/d365fin_md.md)] license and uninstall this extension.
 
 > [!NOTE]
 > As of now, this extension is available only for customers in Denmark and Iceland. 
 
 ## What's Available
-The following table describes the capabilities that are available if you install the Basic Financials extension.
+The following table describes the capabilities that are available if you install the Basic Experience extension.
 
 |Area  |Functionality  |
 |---------|---------|
@@ -37,14 +37,14 @@ The following table describes the capabilities that are available if you install
 This extension is a bit different than most, and you will need help from a Microsoft partner to install and set it up. Just so that you know what to expect, here's a high-level view of what the Microsoft partner will do.
 
 1. Create a new [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant. This can be either a trial or a CSP version.
-2. Add at least one user who is assigned to a Basic Financials license in you Azure Active Directory account.
+2. Add at least one user who is assigned to a Basic Experience license in your Azure Active Directory account.
 3. Remove all companies, including the sample Cronus company.
 4. Create a new company that does not contain any sample data or setups.
 5. Add the **Demo RapidStart** package. <!--what does the pockage contain?-->
-6. Download and install the Basic Financials extension from AppSource.
+6. Download and install the Basic Experience extension from AppSource.
 
 ## Migrating Data
-Bring your Dynamics C5 data along. After your Microsoft partner installs the Basic Financials extension you will have an empty company. To make it easy to move your data from Dynamics C5 to Basic Financials you can use the C5 Data Migration extension, which is included in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The extension makes it easy to migrate customers, vendors, items, and your general ledger accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
+Bring your Dynamics C5 data along. After your Microsoft partner installs the Basic Experience extension you will have an empty company. An easy way to move your data from Dynamics C5 to Basic Experience is to use the C5 Data Migration extension, which is included in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The extension migrates customers, vendors, items, and your general ledger accounts and their entries.
 
 ## See Also
-[The C Data Migration Extension](ui-extensions-c5-data-migration.md)
+[The C5 Data Migration Extension](ui-extensions-c5-data-migration.md)

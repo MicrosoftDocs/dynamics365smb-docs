@@ -9,17 +9,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/24/2020
     ms.author: sgroespe
 
 ---
 # Pick Items with Inventory Picks
+
 When your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to record and post picking and shipping information for your source documents. The outbound source document can be a sales order, a purchase return order, an outbound transfer order, or a production order whose components are ready to be picked.
 
 > [!NOTE]  
 > Components for assembly orders cannot be picked or posted with inventory picks. Instead, use the **Inventory Movement** page. For more information, see [Move Components to an Operation Area in Basic Warehousing](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
-
->  When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.  
+>
+> When picking and shipping sales line quantities that are assembled to the order, you must follow certain rules when creating the inventory pick lines. For more information, see the [Handling Assemble-to-Order Items with Inventory Picks](#handling-assemble-to-order-items-with-inventory-picks) section.  
 
 You can create an inventory pick in three ways:  
 
@@ -58,9 +59,9 @@ Now that the request is created, the warehouse employee can create a new invento
 4. Choose the **OK** button. The specified inventory picks are created.
 
 > [!NOTE]  
->  If picking and shipping sales line quantities that are assembled to the order you should follow certain rules when creating the inventory pick lines. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section.  
->   
->  In basic warehouse configurations, items that are assembled to sales orders are picked from the related sales order, as explained in this topic. For more information, see “Handling Assemble-to-Order Items in Inventory Picks” in Inventory Pick.  
+> If picking and shipping sales line quantities that are assembled to the order you should follow certain rules when creating the inventory pick lines. For more information, see the [Handling Assemble-to-Order Items with Inventory Picks](#handling-assemble-to-order-items-with-inventory-picks) section.  
+>
+> In basic warehouse configurations, items that are assembled to sales orders are picked from the related sales order, as explained in this topic. For more information, see the [Handling Assemble-to-Order Items with Inventory Picks](#handling-assemble-to-order-items-with-inventory-picks) section.  
 
 ## To record the inventory picks  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Pick**, and then choose the related link.  

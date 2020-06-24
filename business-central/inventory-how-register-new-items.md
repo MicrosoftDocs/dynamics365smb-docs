@@ -53,13 +53,9 @@ You can view or edit special prices or discounts that you grant, or that your ve
 
 The item is now registered, and the item card is ready to be used on purchase and sales documents.
 
-If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.
+If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.  
 
-### Deleting Item Cards
-
-If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
-
-## To save the item card as a template
+### To save the item card as a template
 
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -68,6 +64,10 @@ If you have posted a transaction for an item, you cannot delete the card because
 5. When you have completed the new item template, choose the **OK** button.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
+
+### Items used in production orders
+
+If you want to register items that are then used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
 ## To set up multiple vendors for an item
 
@@ -85,6 +85,10 @@ The vendors will now appear on the **Item Vendor Catalog** page, which you open 
 ## Categories, attributes, and variants
 
 [!INCLUDE [inventory_variant](includes/inventory_variant.md)]
+
+## Deleting item cards
+
+If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
 
 ## See Also
 

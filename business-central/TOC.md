@@ -1113,7 +1113,7 @@
 #### [Sale to Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md)
 #### [Sale Return from Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 #### [Sale Return from Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
-#### [GST and TDS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
+#### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
 
 ## Italy
 ### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)

@@ -45,7 +45,7 @@ The following topics describe the local functionality in the Indian version of [
     * [Sale to Registered Customer with Overseas POS](GST-Sale-to-Registered-Customer-Overseas-POS.md) **Available Now**
     * [Sale Return from Registered and Unregistered Customer](GST-Sale-Return-to-Registered-Unregistered-Customer.md) **Available Now**
     * [Sale Return from Registered Customer with Overseas POS](GST-Sales-Return-to-Registered-Customer-Overseas-POS.md) **Available Now**
-    * [GST and TDS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md) **Available Now**
+    * [GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md) **Available Now**
 
 
 ## See Also

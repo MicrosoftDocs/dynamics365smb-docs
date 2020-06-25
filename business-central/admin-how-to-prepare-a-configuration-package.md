@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/23/2020
     ms.author: sgroespe
 
 ---
@@ -103,7 +103,7 @@ Use the configuration worksheet to gather and categorize the information that yo
 You can now assign the tables to specific configuration packages that you have created or plan to create. For more information, see [To assign a table to a configuration package](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## To work with promoted tables  
-1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter his worksheet to see just the list of promoted tables that require attention.  
+1. Select the **Promoted Table** check box to indicate a table that is frequently used during the setup process by a typical customer, for example, the **G/L Account** table. When a table has this designation, a customer will be able to easily filter their worksheet to see just the list of promoted tables that require attention.  
 2. To see the filtered view, choose the **Promoted Only** action. The list of tables contains only those tables that have the check box selected.  
 
 ## To assign a table to a configuration package  

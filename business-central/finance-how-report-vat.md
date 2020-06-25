@@ -20,7 +20,7 @@ This topic describes the reports in [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 You can use the following reports :
 
 * The **EC Sales List** European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
-* The **VAT Return** report includes VAT for sales and purchases to customers in all countries that use VAT.
+* The **VAT Return** report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 

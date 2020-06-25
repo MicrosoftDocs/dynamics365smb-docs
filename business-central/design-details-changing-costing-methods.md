@@ -1,6 +1,6 @@
 ---
     title: Design Details - Changing Costing Methods for Items
-    description: Learn how to assign a different costing method to an item, although you have already used the item in transactions.
+    description: Learn how to assign a different costing method to an item although you have already used the item in transactions.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: costing methods, costing, item cost
     ms.date: 04/01/2020
     ms.author: bholtorf
 
@@ -163,7 +163,7 @@ We recommend the following:
 2. Consider contacting an experienced partner who can help you with the process.
 
 ## See Also
-[Design Details: Costing Methods](design-details-costing-methods.md)
+[Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)
 
 

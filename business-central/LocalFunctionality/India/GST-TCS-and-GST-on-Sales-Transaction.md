@@ -1,0 +1,91 @@
+---
+    title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+    description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+
+    author: v-debapd
+
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: India, local, IN, English
+    ms.date: 06/24/2020
+    ms.author: v-debapd
+---
+# Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+
+## Create a Sales Invoice
+
+
+1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
+
+2. Select **Customer** on **Sales Invoice** header.
+
+3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
+
+6. GST calculation will appear in the Fact Box, as following:
+    
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**GST Base Amount**|10,000|  
+    |**CGST**|900|  
+    |**SGST**|900|
+    |**TCS**|100|
+
+6. GL Entries will be as following:
+
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Customer Account**|11900|  
+    |**SGST/UTGST Payable Account**|-900|  
+    |**CGST Payable Account**|-900|
+    |**TCS Payable Account**|-100|
+    |**Sales Account**|-10000|
+
+> [!TIP]
+> In case of Inter-State Sales, IGST will be calculated with TCS as per the Income Tax Act, 1961.
+
+> [!NOTE]
+>
+> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+
+> [!NOTE]
+> Relevant TCS attributes to be stored along with the transaction for generating e-TCS returns and paying TCS to the Income Tax department.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

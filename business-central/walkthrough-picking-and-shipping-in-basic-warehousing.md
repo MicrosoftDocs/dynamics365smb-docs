@@ -36,7 +36,7 @@ In basic warehouse configurations where your location is set up to require pick 
 
 This walkthrough demonstrates the following tasks:  
 
-- Setting up MAIN location for inventory picks.  
+- Setting up SILVER location for inventory picks.  
 - Creating a sales order for customer 10000 for 30 loudspeakers.  
 - Releasing the sales order for warehouse handling.  
 - Creating an inventory pick based on a released source document.  
@@ -54,52 +54,57 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 To complete this walkthrough, you will need:  
 
-- For [!INCLUDE [prodshort](includes/prodshort.md)] online, a sandbox environment with **Full Evaluation - Complete Sample Data** option. For [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. installed.  
-- To make yourself a warehouse employee at the location MAIN by following these steps:  
+- For [!INCLUDE [prodshort](includes/prodshort.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. installed.  
+- To make yourself a warehouse employee at the location SILVER by following these steps:  
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Users** page.  
-  3. In the **Location Code** field, enter MAIN.  
+  3. In the **Location Code** field, enter SILVER.  
   4. Select the **Default** field.  
 
-- Make item 1928-S available at MAIN location by following these steps:  
+- Make item LS-81 available at SILVER location by following these steps:  
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positive Adjmt.|1928-S|MAIN|S-01-0001 **Note:**  The item’s default bin in CRONUS|20|  
-        |Positive Adjmt.|1928-S|MAIN|S-01-0002|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0001|20|  
+        |Positive Adjmt.|LS-81|SILVER|S-01-0002|20|  
 
   3. Choose the **Post** action, and then select the **Yes** button.  
 
-## Story  
-Ellen, the warehouse manager at CRONUS, sets up MAIN warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the MAIN Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.  
+## Story
 
-## Setting Up the Location  
+Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SILVER Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where LS-81 is stored.  
+
+## Setting Up the Location
+
 The setup of the **Location Card** page defines the company’s warehouse flows.  
 
-### To set up the location  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
-2.  Open the MAIN location card.  
-3.  Select the **Require Pick** check box.  
+### To set up the location
 
-## Creating the Sales Order  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+2. Open the SILVER location card.  
+3. On the **Warehouse** FastTab, choose the **Require Pick** check box.  
+
+## Creating the Sales Order
+
 Sales orders are the most common type of outbound source document.  
 
-### To create the sales order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-2.  Choose the **New** action.  
-3.  Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
+### To create the sales order
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+2. Choose the **New** action.  
+3. Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
     |Item|Location Code|Quantity|  
-    |----------|-------------------|--------------|  
-    |LS_81|MAIN|30|  
+    |----|-------------|--------|  
+    |LS_81|SILVER|30|  
 
      Proceed to notify the warehouse that the sales order is ready for warehouse handling.  
 
-4.  Choose the **Release** action.  
+4. Choose the **Release** action.  
 
     John proceeds to pick and ship the sold items.  
 
@@ -111,13 +116,15 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
+
+    Make sure that the **No.** field on the **General** FastTab is filled in.
 3. Select the **Source Document** field, and then select **Sales Order**.  
 4. Select the **Source No.** field, select the line for the sale to customer 10000, and then choose the **OK** button.  
 
     Alternatively, choose the **Get Source Document** action, and then select the sales order.  
 5. Choose the **Autofill Qty. to Handle** action.  
 
-    Alternatively, in the **Qty. to Handle** field, enter 10 and 30 respectively on the two inventory pick lines.  
+    Alternatively, in the **Qty. to Handle** field, enter 10 and 20 respectively on the two inventory pick lines.  
 6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
     The 30 loudspeakers are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  

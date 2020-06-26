@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 06/25/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
 
 ---
@@ -50,12 +50,15 @@ In the next task, you also record usage, but for a job planning line of type **B
 
     The **Quantity to Invoice** field shows the quantity that remains to complete the job and be invoiced.  
 5. Choose the **Create Sales Invoice** action.
+
+    > [!TIP]
+    > If you are going to add more job planning lines for this job, wait with this step until you have added all job planning lines.
 6. On the **Job Transfer to Sales Invoice** page, fill in the fields as necessary, and then choose the **OK** button.
-7. On the **Job Planning Lines** page, select the relevant line, and then choose the **Post** action.
-8. Review the recorded usage by observing the **Quantity**, **Quantity to Invoice**, **Qty. To Transfer to Invoice** fields, and, if the sales invoice is posted, the **Qty. Invoiced** fields.
-9. Repeat steps 3 through 8 to record additional usage.  
-10. To review a related posted sales invoice, choose the **Sales Invoices/Credit Memos** action.  
-11. On the **Job Invoices** page, select the relevant invoice, and then choose the **Open Sales Invoice/Credit Memo** action.  
+7. Review the recorded usage by observing the **Quantity**, **Quantity to Invoice**, **Qty. To Transfer to Invoice** fields, and, if the sales invoice is posted, the **Qty. Invoiced** fields.
+8. Repeat steps 3 through 8 to record additional usage.  
+9. To review a related posted sales invoice, choose the **Sales Invoices/Credit Memos** action.  
+
+    If more than one invoice exists for this job, you must choose the relevant invoice on the **Job Invoices** page, and then choose the **Open Sales Invoice/Credit Memo** action.  
 
 ## To create job journal lines from job planning lines
 

@@ -55,7 +55,7 @@ In the next task, you also record usage, but for a job planning line of type **B
     > If you are going to add more job planning lines for this job, wait with this step until you have added all job planning lines.
 6. On the **Job Transfer to Sales Invoice** page, fill in the fields as necessary, and then choose the **OK** button.
 7. Review the recorded usage by observing the **Quantity**, **Quantity to Invoice**, **Qty. To Transfer to Invoice** fields, and, if the sales invoice is posted, the **Qty. Invoiced** fields.
-8. Repeat steps 3 through 8 to record additional usage.  
+8. Repeat steps 3 through 7 to record additional usage.  
 9. To review a related posted sales invoice, choose the **Sales Invoices/Credit Memos** action.  
 
     If more than one invoice exists for this job, you must choose the relevant invoice on the **Job Invoices** page, and then choose the **Open Sales Invoice/Credit Memo** action.  

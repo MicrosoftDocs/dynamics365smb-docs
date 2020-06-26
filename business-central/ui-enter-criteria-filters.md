@@ -64,6 +64,9 @@ The following table provides some examples to explain how you can use the search
 > [!TIP]
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
+> [!NOTE]  
+> Search will not match values in images, BLOB fields, FlowFilters, FlowFields and other fields that do not belong to a table. 
+
 ## <a name="filtering"></a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.
 

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 06/04/2020
+ms.date: 06/25/2020
 ---
 
 # Resources for Help and Support
@@ -63,7 +63,7 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prodshort](includes/prodshort.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prodshort](includes/prodshort.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-As the internal administrator, you have access to the administration center where you can continue the troubleshooting. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content.  
+As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) and [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the administration content.  
 
 ## Report a Problem
 
@@ -74,7 +74,7 @@ Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner will help yo
 
 ### Support contacts
 
-The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the ITpro content for [!INCLUDE [prodshort](includes/prodshort.md)].  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
 

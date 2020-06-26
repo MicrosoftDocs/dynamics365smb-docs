@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
 
 ---
@@ -65,7 +65,7 @@ The following table provides some examples to explain how you can use the search
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> Search will not match values in images, BLOB fields, FlowFilters, FlowFields and other fields that do not belong to a table. 
+> Search will not match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that are not part of a table. 
 
 ## <a name="filtering"></a>Filtering
 Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.

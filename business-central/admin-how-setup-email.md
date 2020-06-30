@@ -1,7 +1,7 @@
 ---
 title: Set up email in Business Central | Microsoft Docs
 description: Describes how to use the company's SMTP server to send and receive email messages within Business Central, or alternatively how to use the email server settings created with the Office 365 subscription.
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -15,6 +15,44 @@ ms.author: sgroespe
 ---
 # Set Up Email
 
+<!--Connect one or more email accounts to Business Central and can send messages without having to switch apps. 
+
+To use email features in Business Central, you can either use the types of accounts that we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-how-setup-email.md#using-your-own-email-app).
+
+Business Central provides the following types of accounts.
+
+|Account Type  |Description  |Examples of when to use  |
+|---------|---------|---------|
+|Office 365     |Specific account. Everyone sends email from the account you specify.|When all messges come from the same department, for example, your sales organization.|
+|Office 365     |Own accounts. Everyone sends email from their own account.|Allow individual communications.|
+|Outlook     |Outlook.com, Live.com, Hotmail, MSN|         |
+|Other (SMTP)     |Use SMTP protocol to send emails.|         |
+
+> [!NOTE]
+> Both of the Office 365 account types apply to everyone in the company who uses email in Business Central.
+
+
+## Using Your Own Email App
+To use your own app, there are a few things you must do.
+
+1. Register your application in Azure Active Directory. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+2. Assign the following permissions for Microsoft Graph to your app.
+
+   |Permission  |Type  |Description  |
+   |---------|---------|---------|
+   |Mail.Send|Delegated|Send mail as a user         |
+   |Mail.Send.Shared|Delegated|Send mail on behalf of others  |
+   |offline_access|Delegated|Maintain access to data you have given it access to|
+   |openid|Delegated|Sign users in|
+   |User.Read|Delegated|Sign in and read user profile|
+3. Run the **Set up email** assisted setup guide to connect your email account.
+
+## Uptaking the New Email Features
+
+If you have already configured the email capabilities, you can continue using your current setup or you can start using the new email connectors. If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with those customizations when you start using the new email connectors.
+
+-->
+
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 Instead of entering the SMTP server details manually, you can use the **Apply Office 365 Server Settings** function to enter them with information from your Office 365 subscription.
@@ -27,7 +65,7 @@ You can either set email up manually, as described below, or you can get help by
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > If you are using an account that requires two-factor authentication, then the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
+    > If you are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.
 4. When all the fields are correctly filled in, choose the **Test Email Setup** action.
 5. When the test succeeds, close the page.

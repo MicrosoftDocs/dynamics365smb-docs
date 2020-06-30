@@ -109,7 +109,7 @@ Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d36
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use all over the application.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.
-2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Dimensions** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### To change global dimensions
 When you change a global or shortcut dimension, all entries posted with the dimension in question are updated. Because this process may be time-consuming and can affect performance, two different modes are provided to adapt the process to the size of the database.  

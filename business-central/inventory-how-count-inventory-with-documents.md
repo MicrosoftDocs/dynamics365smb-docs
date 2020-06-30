@@ -36,7 +36,7 @@ To create the physical inventory order lines, you typically use the **Calculate 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Choose the **New** action.
-3. Fill in the required fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fill in the required fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Choose the **Calculate Lines** action.
 5. Select options as necessary.
 6. Set filters, for example, to only include a subset of items to be counted with the first recording.

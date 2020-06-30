@@ -27,7 +27,7 @@ You can set up a number of put-away templates and select one of them to govern p
 4. Enter a short description, if you wish.  
 5. Fill in the first line with the bin requirements that you want fulfilled first and foremost when suggesting a put-away.
 
-    For example, if want the default put-away method to be based on fixed bins, then choose the **Find Fixed Bin** field. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    For example, if want the default put-away method to be based on fixed bins, then choose the **Find Fixed Bin** field. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Fill in the second line with the bin requirements that would be your second choice to fulfill in finding a bin for put-away. The second line is used only if a bin that meets the requirements of the first line cannot be found.  
 7. Continue to fill in the lines until you have described all the acceptable bin placements that you want to use in the put-away process.  
 8. On the last line in the put-away template, select the **Find Floating Bin** check box.  

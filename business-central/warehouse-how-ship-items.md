@@ -39,7 +39,7 @@ First you create a shipment document from a business source document. Then you p
 
 ### To create a warehouse shipment
 
-Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE [prodshort](includes/prodshort.md)], but your organization might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
+Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prodshort](includes/prodshort.md)], but your organization might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.  
 2. Choose the **New** action.  

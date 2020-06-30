@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 06/25/2020
+ms.date: 06/30/2020
 ---
 
 # Resources for Help and Support
@@ -17,7 +17,7 @@ This page outlines the resources available to you in the different sections of t
 
 ## Finding Answers
 
-The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE [prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
+The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
 
 ### Product Help
 
@@ -28,13 +28,13 @@ The **Find it** section includes two links to product Help:
   This link is automatically generated. If [!INCLUDE[prodshort](includes/prodshort.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prodshort](includes/prodshort.md)].  
 - Help landing page for [!INCLUDE[prodshort](includes/prodshort.md)]  
 
-  The functionality in the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. In addition to the default version, you can extend and customize [!INCLUDE[prodshort](includes/prodshort.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE [prodshort](includes/prodshort.md)].  
+  The functionality in the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. In addition to the default version, you can extend and customize [!INCLUDE[prodshort](includes/prodshort.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ### Community
 
 In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prodshort](includes/prodshort.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
-If you are using a trial version of [!INCLUDE [prodshort](includes/prodshort.md)], and you do not yet have a partner, the Community can help you get unblocked if you have questions.  
+If you are using a trial version of [!INCLUDE[prodshort](includes/prodshort.md)], and you do not yet have a partner, the Community can help you get unblocked if you have questions.  
 
 ### Blog
 
@@ -48,10 +48,10 @@ For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [
 
 ## Do More with Your Trial
 
-This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE [prodshort](includes/prodshort.md)] partners. Use the links to explore the full capabilities of [!INCLUDE [prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
+This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prodshort](includes/prodshort.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
-> This section is only available in trial experiences. If you already bought [!INCLUDE [prodshort](includes/prodshort.md)], the section is not longer visible.
+> This section is only available in trial experiences. If you already bought [!INCLUDE[prodshort](includes/prodshort.md)], the section is not longer visible.
 
 ## Give Feedback
 
@@ -70,19 +70,25 @@ As the internal administrator, you have access to the administration center wher
 Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner will help you with technical support. [!INCLUDE[prodshort](includes/prodshort.md)] is sold through partners, and this section makes it easy for you to contact your reselling partner if they have submitted their support contact details. If your [!INCLUDE[prodshort](includes/prodshort.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft. For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> This section is only available if you have paid for a [!INCLUDE [prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+> This section is only available if you have paid for a [!INCLUDE[prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 ### Support contacts
 
-The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
+
+## Using the docs.microsoft.com site to learn more
+
+The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [reference documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), and [learning paths and e-learning modules](/learn/browse/?expanded=dynamics&products=dynamics-business-central&) across multiple user profiles. In this section, you can learn about how to navigate the business functionality content, such as if you landed in an unexpected article from inside the product.  
+
+
 
 ## See Also
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  
-[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
+[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  

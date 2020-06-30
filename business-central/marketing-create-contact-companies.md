@@ -33,7 +33,7 @@ Functionality is the same for both types, except that the options for additional
 3. In the **No.** field, enter a number for the contact.
 
     Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can press the Enter key to insert the next available contact number.  
-5. Fill in the remaining fields as required. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fill in the remaining fields as required. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To create a contact from a customer, vendor, or bank account
 If you have customers, vendors, and bank accounts that you want to create contact cards for, you can use the **Create Contacts from** batch jobs to create contacts on the basis of the existing data. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

@@ -82,7 +82,26 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [reference documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), and [learning paths and e-learning modules](/learn/browse/?expanded=dynamics&products=dynamics-business-central&) across multiple user profiles. In this section, you can learn about how to navigate the business functionality content, such as if you landed in an unexpected article from inside the product.  
 
+### Content on the site
 
+The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
+
+### Finding other content
+
+If you land on an article that doesn't answer your question, you can find other content in two ways:
+
+- Use the **Filter by title** field in the table of contents on the left side of the website
+
+  This way, you can filter by words used in the titles of the various articles. For example, type *invoice*, and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
+- Use the **Search** field in the top right corner of the website
+
+  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds or articles in the [!INCLUDE [prodshort](includes/prodshort.md)] content that uses that word somewhere in the text.  
+
+### Languages
+
+Content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
+
+You can change the language by changing the URL, or you can use the language toggle in the bottom left corner of the website.  
 
 ## See Also
 

@@ -1,6 +1,6 @@
 ---
-title: Installing and Uninstalling Extensions to Customize Business Central  | Microsoft Docs
-description: Learn about adding functionality and customizing Business Central  by installing extensions.
+title: Installing and Uninstalling Extensions in Business Central  | Microsoft Docs
+description: Learn about installing and uninstalling extensions in Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 
@@ -16,18 +16,15 @@ ms.author: solsen
 
 # Installing and Uninstalling Extensions in Business Central
 
-You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).
+You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that, for example, add functionality, changes behavior, or gives you access to new online services. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).
 
 > [!NOTE]
 > To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the D365 EXTENSION MGMT user group or you must have the D365 EXTENSION MGMT permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.<br /><br />
 To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
-You manage the extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
-
-> [!NOTE]  
-> If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** page - if the extension is not listed there, you can install it as described in the following section.  
-
 ## Installing an Extension
+
+You manage extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
 You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
@@ -38,11 +35,11 @@ You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365
 If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.  
 
 When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.
-Other extensions simply add fields to an existing page, or they add a new page, for example.   
+Other extensions simply add fields to an existing page, or they add a new page, for example.
 
 ## Uninstalling an Extension
 
-If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available. This is controlled by the **Delete Extension Data** checkbox. If you 
+If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, you can choose to preserve the data so that if you install the extension again, your data is still available. Or, you can choose to delete the data so that if This is controlled by the **Delete Extension Data** checkbox. If you 
 
 There are some extensions that are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
 

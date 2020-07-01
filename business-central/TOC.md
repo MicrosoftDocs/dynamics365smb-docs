@@ -627,7 +627,6 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-### [Set Up Email Logging](marketing-set-up-email-logging.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)

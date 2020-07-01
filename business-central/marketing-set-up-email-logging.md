@@ -9,15 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 06/25/2020
+ms.date: 07/01/2020
 ms.author: bholtorf
 
 ---
 # Track Email Message Exchanges Between Salespeople and Contacts
 
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. [!INCLUDE[d365fin](includes/d365fin_md.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyze the contents of each message on the **Interaction Log Entries** page.
-
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
 ## Set up Public Folders and Rules for Email Logging in Exchange Online
 

@@ -39,11 +39,9 @@ Other extensions simply add fields to an existing page, or they add a new page, 
 
 ## Uninstalling an Extension
 
-If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, you can choose to preserve the data so that if you install the extension again, your data is still available. Or, you can choose to delete the data so that if This is controlled by the **Delete Extension Data** checkbox. If you 
+If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, you can choose to preserve the data so that if you install the extension again, your data is still available. Or, you can choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, the checkbox is not 
 
 There are some extensions that are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
-
-
 
 
 ## See Also

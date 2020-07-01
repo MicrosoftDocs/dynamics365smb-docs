@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: article
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 06/30/2020
+ms.date: 07/01/2020
 ---
 
 # Resources for Help and Support
@@ -28,7 +28,7 @@ The **Find it** section includes two links to product Help:
   This link is automatically generated. If [!INCLUDE[prodshort](includes/prodshort.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prodshort](includes/prodshort.md)].  
 - Help landing page for [!INCLUDE[prodshort](includes/prodshort.md)]  
 
-  The functionality in the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. In addition to the default version, you can extend and customize [!INCLUDE[prodshort](includes/prodshort.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prodshort](includes/prodshort.md)].  
+  The functionality in the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prodshort](includes/prodshort.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ### Community
 
@@ -80,11 +80,15 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## Using the docs.microsoft.com site to learn more
 
-The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [reference documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), and [learning paths and e-learning modules](/learn/browse/?expanded=dynamics&products=dynamics-business-central&) across multiple user profiles. In this section, you can learn about how to navigate the business functionality content, such as if you landed in an unexpected article from inside the product.  
+The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), [learning paths and e-learning modules](/learn/browse/?expanded=dynamics&products=dynamics-business-central) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
 
 ### Content on the site
 
 The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
+
+The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+In the English 
 
 ### Finding other content
 
@@ -93,21 +97,41 @@ If you land on an article that doesn't answer your question, you can find other 
 - Use the **Filter by title** field in the table of contents on the left side of the website
 
   This way, you can filter by words used in the titles of the various articles. For example, type *invoice*, and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
+
+  Underneath each link,  you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top right corner of the website
 
-  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds or articles in the [!INCLUDE [prodshort](includes/prodshort.md)] content that uses that word somewhere in the text.  
+  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prodshort](includes/prodshort.md)] content that uses that word somewhere in the text.  
 
 ### Languages
 
-Content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
+Content about business functionality is published in a number of languages. When you land on the docs.microsoft.com site from inside the product, you see the content in the same language as you have specified in [!INCLUDE [prodshort](includes/prodshort.md)], unless that language is not available on the docs.microsoft.co. site.  
 
 You can change the language by changing the URL, or you can use the language toggle in the bottom left corner of the website.  
+
+The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to 4 weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
+
+For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in [the Danish version of the docs.microsoft.com site](https://docs.microsoft.com/da-dk/dynamics365/business-central/localfunctionality/australia/how-to-compare-bank-cash-flow), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
+
+### Providing feedback
+
+On docs.microsoft.com, each article has two buttons at the end of the article. The *Product feedback* button sends you to the Ideas site, and the *Sign in to give documentation feedback* button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you do not already have one. For *product feedback*, you must sign in with your work or organizational email account. For *access to GitHub*, you can use any email address when you create an account.  
+
+We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But please be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
+
+> [!IMPORTANT]
+> Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.  
+
+### Navigating to other parts of the site
+
+The docs.microsoft.com hosts content for other products as well as other types of content. Use the links at the top of the site to navigate to the [Learn](/learn/) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You  can also find a link to the
+[Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
 
 ## See Also
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
-[Business Central developer and ITpro docs](/dynamics365/business-central/dev-itpro/)  
+[Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  

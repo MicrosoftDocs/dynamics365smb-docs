@@ -15,7 +15,7 @@ ms.author: edupont
 
 To help you with your subscription, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
-When you sign up for [!INCLUDE [prodshort](includes/prodshort.md)], you get access to a demonstration company. The demonstration company contains sample data, but you can create new sales documents, for example, or set up a bank account. However, if you want to use [!INCLUDE [prodshort](includes/prodshort.md)] to help run your business, you must contact a [!INCLUDE [prodshort](includes/prodshort.md)] reselling partner and buy a subscription. For more information about trials and subscriptions, see [Trials and Subscriptions](across-preview.md).  
+When you sign up for [!INCLUDE[prodshort](includes/prodshort.md)], you get access to a demonstration company. The demonstration company contains sample data, but you can create new sales documents, for example, or set up a bank account. However, if you want to use [!INCLUDE[prodshort](includes/prodshort.md)] to help run your business, you must contact a [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner and buy a subscription. For more information about trials and subscriptions, see [Trials and Subscriptions](across-preview.md).  
 
 ## Get to know [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -30,7 +30,7 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 > [!TIP]  
 > You can always get back to the Role Center by selecting the company name in the upper left corner.
 
-In the demonstration company, the Business Manager and Accountant Role Centers include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE [prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE [prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/browse/?products=dynamics-business-central). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
+In the demonstration company, the Business Manager and Accountant Role Centers include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE[prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE[prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/browse/?products=dynamics-business-central). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md).
 

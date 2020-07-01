@@ -18,13 +18,13 @@ This section contains answers to frequently asked questions about signing up for
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
 
-## How do I get [!INCLUDE [prodshort](includes/prodshort.md)]?
+## How do I get [!INCLUDE[prodshort](includes/prodshort.md)]?
 
-You can sign up for a free trial to explore [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day-new-company-trial-period).  
+You can sign up for a free trial to explore [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day-new-company-trial-period).  
 
-To help you get ready for doing business in [!INCLUDE [prodshort](includes/prodshort.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+To help you get ready for doing business in [!INCLUDE[prodshort](includes/prodshort.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
-When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can find a [!INCLUDE [prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#findpartner).  
+When you are ready to buy [!INCLUDE[prodshort](includes/prodshort.md)], you can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#findpartner).  
 
 ## Where do I go if I have questions?
 If you have questions about [!INCLUDE[d365fin](includes/d365fin_md.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. For more information, see [Dynamics 365 Business Central community](https://community.dynamics.com/business).  
@@ -46,7 +46,7 @@ Yes, you can! You can find free eLearning content on the [Microsoft Learn site](
 
 For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
-Additional content is provided by the [!INCLUDE [prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
+Additional content is provided by the [!INCLUDE[prodshort](includes/prodshort.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
 
 ## <a name="hdigetsupport"></a>How do I get technical support for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -97,9 +97,9 @@ Sure. If you do, you might need an app password in order to send email messages.
 
 ## <a name="findpartner"></a>How do I find a reselling partner?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-When you are ready to buy [!INCLUDE [prodshort](includes/prodshort.md)], you can find a [!INCLUDE [prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+When you are ready to buy [!INCLUDE[prodshort](includes/prodshort.md)], you can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 

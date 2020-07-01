@@ -42,7 +42,7 @@ To find items by characteristics, you can assign item attributes to items and al
 
 ## Categories, attributes, and variants
 
-[!INCLUDE [inventory_variant](includes/inventory_variant.md)]
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 ## See Also
 

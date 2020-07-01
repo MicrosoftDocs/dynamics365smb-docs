@@ -84,7 +84,7 @@ The vendors will now appear on the **Item Vendor Catalog** page, which you open 
 
 ## Categories, attributes, and variants
 
-[!INCLUDE [inventory_variant](includes/inventory_variant.md)]
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 ## Deleting item cards
 

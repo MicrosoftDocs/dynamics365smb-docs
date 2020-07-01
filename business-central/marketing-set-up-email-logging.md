@@ -21,9 +21,9 @@ Get more out of the communications between salespeople and your existing or pote
 
 ## Set up Public Folders and Rules for Email Logging in Exchange Online
 
-[!INCLUDE [admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Next, you connect [!INCLUDE [prodshort](includes/prodshort.md)] with Exchange Online.
+Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online.
 
 ## Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)] to Log Email Messages
 

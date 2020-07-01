@@ -22,7 +22,7 @@ If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions
 
 ## Get started
 
-The "Ready to Go" program is one way to get started as a [!INCLUDE [prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" program", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+The "Ready to Go" program is one way to get started as a [!INCLUDE[prodshort](includes/prodshort.md)] reseller. You can also contact the Microsoft office in your country or region. For more information about the resources available to you through the "Ready to Go" program", see [aka.ms/readytogo](https://aka.ms/readytogo), [Resell Different Solutions](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller), and [Get started as a reseller](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## See Also
 

@@ -90,7 +90,7 @@ The navigation panel to the left, the table of contents, groups articles by busi
 
 The table of contents includes a group of content that describes local functionality for the countries that Microsoft supports. If you do not see your country listed there, it is probably because your country is localized by a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-The local functionality content describes the capabilities that help make [!INCLUDE [prodshort](includes/prodshort.md)] compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the default section of the content on the docs.microsoft.com site, you can hopefully find it in the *Local Functionality* section.  
+The local functionality content describes the capabilities in [!INCLUDE [prodshort](includes/prodshort.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the default section of the content on the docs.microsoft.com site, you can hopefully find it in the *Local Functionality* section.  
 
 ### Finding other content
 

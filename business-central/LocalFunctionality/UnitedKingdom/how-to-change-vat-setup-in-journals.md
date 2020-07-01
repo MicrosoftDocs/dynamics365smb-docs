@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Change VAT Setup in Journals
 
-You can add VAT setup information to journal lines if needed in the British version of [!INCLUDE [prodshort](../../includes/prodshort.md)]. If you enter items without VAT, you do not need to remove VAT setup information manually.  
+You can add VAT setup information to journal lines if needed in the British version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. If you enter items without VAT, you do not need to remove VAT setup information manually.  
 
 ## To change VAT setup in journals  
 

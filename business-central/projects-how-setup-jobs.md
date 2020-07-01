@@ -13,7 +13,7 @@ ms.author: edupont
 ---
 # Set Up Jobs
 
-As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE [prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
+As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 

@@ -34,9 +34,9 @@ In many cases, registering for [!INCLUDE[d365fin](includes/d365fin_md.md)] can b
 
 ## Regional Availability
 
-[!INCLUDE [prodshort](includes/prodshort.md)] is available in a number of countries or regions with localization provided either by Microsoft or an approved localization partner. For a complete list of supported countries and regions, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+[!INCLUDE[prodshort](includes/prodshort.md)] is available in a number of countries or regions with localization provided either by Microsoft or an approved localization partner. For a complete list of supported countries and regions, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-For an overview of currently supported markets across Dynamics 365, see the [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability) deck. For an overview of local functionality in [!INCLUDE [prodshort](includes/prodshort.md)], see the [Local Functionality](about-localization.md) landing page.  
+For an overview of currently supported markets across Dynamics 365, see the [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability) deck. For an overview of local functionality in [!INCLUDE[prodshort](includes/prodshort.md)], see the [Local Functionality](about-localization.md) landing page.  
 
 ## See Also
 

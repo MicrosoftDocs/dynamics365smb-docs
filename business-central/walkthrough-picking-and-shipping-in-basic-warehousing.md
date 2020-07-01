@@ -15,7 +15,7 @@
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
-[!INCLUDE [complete_sample_data](includes/complete_sample_data.md)]
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -54,7 +54,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 To complete this walkthrough, you will need:  
 
-- For [!INCLUDE [prodshort](includes/prodshort.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. installed.  
+- For [!INCLUDE[prodshort](includes/prodshort.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. installed.  
 - To make yourself a warehouse employee at the location SILVER by following these steps:  
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
@@ -110,7 +110,7 @@ Sales orders are the most common type of outbound source document.
 
 ## Picking and Shipping Items
 
-On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+On the **Inventory Pick** page, you can manage all outbound warehouse activities for a specific source document, such as a sales order. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
 ### To pick and ship items
 

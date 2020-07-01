@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/23/2020
+    ms.date: 06/30/2020
     ms.author: bholtorf
 
 
@@ -67,14 +67,14 @@ Enter the following advanced settings.
 4. To test the connection settings, choose **Connection**, and then **Test Connection**.  
 
     > [!NOTE]  
-    >  If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data.md) in Developer and IT-Pro help.  
+    >  If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in the developer and administration help.  
 
 5. If [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
 
 ## Connecting On-Premises Versions
 To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[d365fin](includes/cds_long_md.md)], you must specify some information on the **Common Data Service Connection Setup** page.
 
-If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database. 
+If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database. 
 
 ### To register an application in Azure AD for connecting from Business Central to Common Data Service
 The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Identity and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service). 

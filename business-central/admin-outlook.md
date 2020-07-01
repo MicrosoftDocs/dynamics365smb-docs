@@ -23,13 +23,13 @@ It is easy to get started with the [!INCLUDE[d365fin](includes/d365fin_md.md)] a
 Then, when you open Outlook, you will see an email message from *Dynamics 365 Business Central Admin*. The new add-ins are added to the Outlook ribbon, and in the browser, you can see the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins immediately above or below the body of the email message. The add-ins are updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
 > [!TIP]
-> If you use the new Outlook on the web, then the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**. If you use the add-in often, you can pin it so that it is always immediately visible. For more information, see [Using add-ins in Outlook on the web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> If you use the new Outlook on the web, then the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins can be hidden under **More actions**. If you use the add-in often, you can pin it so that it is always immediately visible. For more information, see [Using add-ins in Outlook on the web](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-If you work with more that one [!INCLUDE [prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook. In the add-in's action bar, choose **More Actions**, and then you can see the option for switching between companies.  
+If you work with more that one [!INCLUDE[prodshort](includes/prodshort.md)] company, you can easily switch between companies in Outlook. In the add-in's action bar, choose **More Actions**, and then you can see the option for switching between companies.  
 
 <!--TEMP-->
 > [!NOTE]
-> Switching between companies requires [!INCLUDE [prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Switching between companies requires [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Some companies using Office 365 restrict users' permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
 
@@ -64,7 +64,7 @@ In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not avail
 
 ## Using Other Email Accounts
 
-The add-ins are designed to be used with Office 365. If you use [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE [prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+The add-ins are designed to be used with Office 365. If you use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

@@ -19,7 +19,7 @@
 A Sales VAT Advance Notification in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] is an XML file that you can use to report VAT to the German tax authorities on the Elektronische Steuererklärungen (ELSTER) online portal. The XML file includes tax and base amounts, and information about your company, and is created in the format and layout that German tax authorities require.    
 
 > [!NOTE]
- >  Most of the functionality is included in the **ELSTER VAT Localization for Germany** Extension. Make sure that this is installed in your [!INCLUDE [prodshort](../../includes/prodshort.md)].
+ >  Most of the functionality is included in the **ELSTER VAT Localization for Germany** Extension. Make sure that this is installed in your [!INCLUDE[prodshort](../../includes/prodshort.md)].
  
  
 ## Set Up and Export Sales VAT Advance Notifications

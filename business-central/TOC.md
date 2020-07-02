@@ -627,7 +627,6 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-### [Set Up Email Logging](marketing-set-up-email-logging.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -1406,7 +1405,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

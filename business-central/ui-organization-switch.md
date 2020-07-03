@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 # Switching to Another Company or Environment
 
-[!INCLUDE [company_environment](includes/company_environment.md)]
+[!INCLUDE [company_environment](includes/company_environment.md)] For more information, see [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
 
 > [!TIP]
 > If you often switch between companies, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you are in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).

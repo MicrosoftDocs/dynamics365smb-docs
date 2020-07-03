@@ -9,15 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
 
 ---
 # Sell Products
+
 You create a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
 > [!NOTE]  
->   You use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
+> Use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you use sales invoices, then [!INCLUDE [prodshort](includes/prodshort.md)] assumes that you ship the full quantity when you post the invoice. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales order when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
@@ -46,7 +47,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 4. In the dialog box about registering the new customer, choose the **Yes** button.
 5. On the **Select a template for a new customer** page, choose a template to base the new customer card on, and then choose the **OK** button.
 
-    A new customer card opens, prefilled with the information on the selected customer template. The **Name** field is prefilled with the new customer’s name that you entered on the sales order.
+    A new customer card opens, prefilled with the information on the selected customer template. The **Name** field is prefilled with the new customer's name that you entered on the sales order.
 6. Proceed to fill in the remaining fields on the customer card. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 7. When you have completed the customer card, choose the **OK** button to return to the **Sales Order** page.
 

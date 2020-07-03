@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/25/2020
+    ms.date: 07/03/2020
     ms.author: sgroespe
 
 ---
@@ -32,6 +32,9 @@ The following describes how to receive items with a purchase order. The steps ar
 
     The value in the **Qty. Shipped** field is updated. If this is a partial shipment, then the value is lower than the value in the **Quantity** field.
 4. Choose the **Post** action.
+
+> [!NOTE]
+> If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prodshort](includes/prodshort.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explain in this article.
 
 ## To ship items with a warehouse shipment
 

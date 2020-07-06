@@ -129,7 +129,7 @@
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 ### [About Item Types](inventory-about-item-types.md)
-### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
+### [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
 ### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)

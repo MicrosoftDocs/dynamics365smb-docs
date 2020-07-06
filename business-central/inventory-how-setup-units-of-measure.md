@@ -46,7 +46,10 @@ When you register a new item, you can choose the base unit of measure from the l
 5. Choose the **New** action. A new empty line is inserted.
 6. In the **Code** field, enter the name of the unit of measure. Alternatively, choose the field to select from the unit of measure codes that are in the database.
 7. In the **Qty. per Unit of Measure** field, enter how many units of the base unit of measure the new unit of measure contains.
-8. Repeat steps 5 through 7 to set up all the alternate units of measure that you want to use in different processes for this item.
+8. Optionally, in the **Height**, **Width**, **Length**, and **Weight** fields, specify precise information about the size of one unit of measure so that the [!INCLUDE [prodshort](includes/prodshort.md)] can calculate how many of each item unit can be placed in any given bin. The **Cubage** field is calculated automatically based on **Height**, **Width**, and **Length**.
+
+    If any of these fields contain a value other than 0, then that measure is used during all processes that involve placing items in a bin: put-away, movements, receipts, shipments, picks, and adjustments. [!INCLUDE [prodshort](includes/prodshort.md)] checks the sum of each physical measure of the items being put away and the items already in the bin against the maximum size or other measure that can fit into a bin, according to the bin capacity policy on the location card for this item. In other words, you must use the same unit measure for each dimension across all item units of measure - use kilograms or pounds for weight, for example, but be consistent.
+9. Repeat steps 5 through 7 to set up all the alternate units of measure that you want to use in different processes for this item.
 
     In the **Base Unit of Measure** field at the bottom of the window, you can view or change the item's base unit of measure. You can also change the base unit of measure in the **Base Unit of Measure** field on the item card. In the **Item Units of Measure** page, the base unit of measure must have the value **1** in the **Qty. per Unit of Measure** field.
 

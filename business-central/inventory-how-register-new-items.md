@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/22/2020
+ms.date: 07/06/2020
 ms.author: sgroespe
 
 ---
@@ -93,6 +93,7 @@ If you have posted a transaction for an item, you cannot delete the card because
 ## See Also
 
 [Inventory](inventory-manage-inventory.md)  
+[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  

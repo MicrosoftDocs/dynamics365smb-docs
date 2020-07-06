@@ -24,11 +24,11 @@ When you ship items from a warehouse that is set up warehouse shipment processin
 
 ## To ship items with a sales order
 
-The following describes how to receive items with a purchase order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
+The following describes how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open an existing sales order, or create a new one. For more information, see [Sell Products](sales-how-sell-products.md).
-3. In the **Qty. to Ship** field, enter the received quantity.
+3. In the **Qty. to Ship** field, enter the shipped quantity.
 
     The value in the **Qty. Shipped** field is updated. If this is a partial shipment, then the value is lower than the value in the **Quantity** field.
 4. Choose the **Post** action.

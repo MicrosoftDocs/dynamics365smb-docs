@@ -106,6 +106,9 @@ When you apply data from a template in Excel to a table that also has a configur
 
 Any record whose data is applied in this manner is complete, because it consists of data entered by a user in Excel, plus the default values specified by the configuration template.
 
+> [!NOTE]
+> If the data in the tables in the configuration package contains dates, for example, posting dates on invoices, the dates are considered in the time zone specified in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+
 ## To create a record from a configuration template
 You can use the structure of data that is contained in the data templates to convert your information into records in the database, one-by-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
 

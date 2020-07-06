@@ -217,7 +217,7 @@
 #### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
 #### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)

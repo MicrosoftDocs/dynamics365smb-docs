@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/25/2020
+ms.date: 07/03/2020
 ms.author: solsen
 
 ---
@@ -81,7 +81,7 @@ In the sandbox environment, you can also create a new company with the **Advance
 4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  
 5. Complete the rest of the assisted setup guide.  
 
-When the assisted setup guide completes, you can start exploring the new company with the complete sample data.  
+When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
 
 ### Designer
 

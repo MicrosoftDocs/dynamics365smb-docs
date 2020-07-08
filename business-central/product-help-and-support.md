@@ -88,7 +88,9 @@ The content that Microsoft publishes under the user assistance concept of *Learn
 
 The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-In the English 
+The table of contents includes a group of content that describes local functionality for the countries that Microsoft supports. If you do not see your country listed there, it is probably because your country is localized by a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+
+The local functionality content describes the capabilities in [!INCLUDE [prodshort](includes/prodshort.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the default section of the content on the docs.microsoft.com site, you can hopefully find it in the *Local Functionality* section.  
 
 ### Finding other content
 
@@ -111,7 +113,7 @@ You can change the language by changing the URL, or you can use the language tog
 
 The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to 4 weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
 
-For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in [the Danish version of the docs.microsoft.com site](https://docs.microsoft.com/da-dk/dynamics365/business-central/localfunctionality/australia/how-to-compare-bank-cash-flow), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
+For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in the Danish version of the docs.microsoft.com site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
 
 ### Providing feedback
 

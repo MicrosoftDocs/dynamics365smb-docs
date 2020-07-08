@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 # Analyzing Cash Flow in Your Company
-As they say, cash is king. The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash.  
+The charts on the Accountant Role Center provide insights that can help you make solid decisions about what to do with your cash.  
 
 | To answer questions like these | Use this chart |
 | --- | --- |

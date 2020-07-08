@@ -1,6 +1,6 @@
 ---
-title: Add Extra Lines to Define Extended Item Descriptions | Microsoft Docs
-description: You can add extra lines to extend the standard text that describes an item.
+title: Add Extra Lines to Define Extended Descriptions
+description: You can add extra lines to extend the standard text that describes an item, a G/L account, and other data.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -8,15 +8,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2020
+ms.date: 07/08/2020
 ms.author: sgroespe
 
 ---
-# Add Extended Item Text
+# Add Extended Text
 
-You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines. You do this from item cards.
+You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text. You can also set up conditions for use of the extra lines.  
 
-## To define extended text for an item description
+The following section describes how to add extended text to a description of an item. But the same steps apply to stock-keeping units, general ledger accounts, and resources.  
+
+## To define extended text for an description
 
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. Fill in the **Code** and **Description** fields.

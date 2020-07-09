@@ -36,6 +36,7 @@
     |**TDS**|1000|
 
 6. GL Entries for Income Tax TDS and GST in Intra-State purchase transactions, will be as following:
+    
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
     |**Service Account**|10000|  
@@ -66,6 +67,7 @@
     |**Vendor Account**|-10800|
 
 9. GL Entries for Income Tax TDS and GST in Inter-State purchase transactions (reverse charge), will be as following:
+    
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
     |**Service Account**|10000|

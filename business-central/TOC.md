@@ -1107,6 +1107,10 @@
 #### [Purchase Return to Foreign Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
 #### [Purchase from Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
 #### [Purchase Return to Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
+#### [GST and TDS on Purchase Transaction](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)
+#### [GST on Journals](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
+#### [GST on Advance Payment to Vendor](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
+#### [GST Application of Payment and Invoice](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
 #### [Exempted Sales](LocalFunctionality/India/GST-Exempted-Sales.md)
 #### [Sale to Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
 #### [Sale to Foreign Customer](LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md)
@@ -1114,6 +1118,8 @@
 #### [Sale Return from Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 #### [Sale Return from Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
 #### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
+#### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
+#### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 ## Italy
 ### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)

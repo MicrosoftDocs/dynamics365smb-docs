@@ -39,6 +39,10 @@ The following topics describe the local functionality in the Indian version of [
     * [Purchase Return to Foreign Vendor](GST-Purchase-Return-to-Foreign-Vendor.md) **Available Now**
     * [Purchase from Vendor with Overseas Place of Supply](GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md) **Available Now**
     * [Purchase Return to Vendor with Overseas Place of Supply](GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md) **Available Now**
+    * [GST and TDS on Purchase Transaction](GST-TDS-and-GST-on-Purchase.md) **Available Now**
+    * [GST on Journals](GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md) **Available Now**
+    * [GST on Advance Payment to Vendor](GST-GST-on-Advance-Payment-made-to-Vendor.md) **Available Now**
+    * [GST Application of Payment and Invoice](GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md) **Available Now**
     * [Exempted Sales](GST-Exempted-Sales.md) **Available Now**
     * [Sale to Registered and Unregistered Customer](GST-Sale-to-Registered-Unregistered-Customer.md) **Available Now**
     * [Sale to Foreign Customer](GST-Sale-to-Foreign-Customer-Service.md) **Available Now**
@@ -46,6 +50,8 @@ The following topics describe the local functionality in the Indian version of [
     * [Sale Return from Registered and Unregistered Customer](GST-Sale-Return-to-Registered-Unregistered-Customer.md) **Available Now**
     * [Sale Return from Registered Customer with Overseas POS](GST-Sales-Return-to-Registered-Customer-Overseas-POS.md) **Available Now**
     * [GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md) **Available Now**
+    * [GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md) **Available Now**
+    * [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
 
 
 ## See Also

@@ -1,0 +1,105 @@
+---
+    title: GST on Advance Payment made to Vendor, where there are reverse charges
+    description: GST on Advance Payment made to Vendor, where there are reverse charges
+
+    author: v-debapd
+
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: India, local, IN, English
+    ms.date: 06/24/2020
+    ms.author: v-debapd
+
+---
+# GST on Advance Payment made to Vendor, where there are reverse charges
+
+## GST on Advance Payment made to Vendor, where there are reverse charges
+
+### Create a General Journal or a Bank/Cash Payment Voucher
+
+1.  Choose the ![img](image/search.jpg)icon, enter **General Journal**/**Bank Payment Voucher**/**Cash Payment Voucher**, and then choose the related link. 
+2. Select **Vendor** in account type and select relevant **Vendor Code**, GST vendor type and registration number should be filled in vendor master.
+3. Select **G/L Account** or **Bank Account** in balancing account type, and select the cash or the bank account. 
+4. Advance Payment made to vendor does not include tax payment, as the purchaser is liable to pay tax under reverse charge. Hence, tax is applied straight away on base. For example, advance payment made to vendor against supply of services of INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged.
+5. GST on Advance Payment field needs to be activated on General Journal Line for computation of GST on Advance Payment. In addition, GST Group code and GST Place of Supply should not be blank for computation of GST.
+1. GST Calculation will appear in the Fact Box as following:
+    
+    |Component|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**GST Base Amount**|10,000|  
+    |**CGST**|900|  
+    |**SGST**|900|
+    |**IGST**|1800|
+
+6. GL Entries for Advance Payment made to Vendor, will be as following:
+
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Vendor Account**|10,000|  
+    |**SGST/UTGST/Receivable (Interim) Account**|900|  
+    |**CGST Receivable (Interim) Account**|900|
+    |**SGST/UTGST Payable Account**|-900|
+    |**CGST Payable Account**|-900|
+    |**Bank Account**|-10000|
+
+## Reversal of Advance Payment made to Vendor, where there are reverse charges
+
+If the vendor advance needs to be corrected or the entry is wrongly posted, in such a case the entry can be reversed and new entry can be created.
+
+1. Reversal GL Entries for Advance Payment made to Vendor, will be as following:
+
+    |Particulars|Amount|
+    |----------------------------------|---------------------------------------|  
+    |**Bank Account**|10000| 
+    |**SGST/UTGST Payable Account**|900|
+    |**CGST Payable Account**|900|
+    |**SGST/UTGST/Receivable (Interim) Account**|-900|  
+    |**CGST Receivable (Interim) Account**|-900|
+    |**Vendor Account**|-10,000|  
+    
+> [!TIP]
+> In case of Inter-State Advance Payment, IGST will be calculated.
+
+> [!NOTE]
+>
+> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

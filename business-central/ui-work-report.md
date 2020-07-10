@@ -46,7 +46,7 @@ Using saved settings is a fast and reliable way to consistently generate reports
 
 ## Previewing a Report
 
-Choose the **Preview** button to view the report in the. Use the menu bar on the report preview to:
+Choose the **Preview** button to view the report in the report request page. Use the menu bar on the report preview to:
 
 - Move through pages
 - Zoom in and out
@@ -73,19 +73,34 @@ When you schedule a report to run, you can specify that it must run every Thursd
 You can choose to save the processed report to a file, such as an Excel, Word, or PDF, print it to a selected printer, or process the report only. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Role Center, where you can view it.  
 
 ## <a name="PrintReport"></a>Printing a Report
-You can print a report by choosing the **Print** button on the report request page or on the menu bar on the **Preview** page.
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+You print a report by choosing the **Print** button on the report request page or on the menu bar on the **Preview** page.
 
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. This is indicated by this value in the **Printer** field on the report request page: *(none, handled by the browser)*.
+### Printer selection
 
+The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
+
+The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the *Selected printer** field on the report request page. 
+
+### Browser printing
+
+Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+
+If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+
+> [!NOTE]
+> The browser printing options are independent from [!INCLUDE[prodshort](includes/prodshort.md). So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md) aren't carried over to the browser print options.
+
+<!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
 
 > [!NOTE]
-> You cannot change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
-
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### Printing Reports in Thai
-Specifically for the Thai version of [!INCLUDE[prodshort](includes/prodshort.md)], the **Print** button cannot print reports correctly due to limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
+Specifically for the Thai version of [!INCLUDE[prodshort](includes/prodshort.md)], the **Print** button can't print reports correctly due to limitations in the service that generates the printable PDF file. Instead, you can open the report in Word and then save the report as a printable PDF.  
 
 Alternatively, you can ask your administrator to create a Word report layout for your most used reports. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).  
 

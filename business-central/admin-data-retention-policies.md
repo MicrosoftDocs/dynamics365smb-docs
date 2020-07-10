@@ -24,7 +24,7 @@ Before you can create retention policies, you must set up the following.
 
 |Setup  |Description  |
 |---------|---------|
-|**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must create a new list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extensioin-in-a-retention-policy).          |
+|**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must create a new list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy).          |
 |**Retention Periods**     |Specify periods of time for which to keep data in the tables in a policy. The periods determine how often data will be deleted.         |
 
 ### To create retention period
@@ -68,7 +68,7 @@ end;
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
 ## See Also
-[Auditing Changes in Business Central](across-log-changes)  
+[Auditing Changes in Business Central](across-log-changes.md)  
 [Filtering](ui-enter-criteria-filters.md#filtering)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

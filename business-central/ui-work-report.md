@@ -91,7 +91,7 @@ Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can'
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options are independent from [!INCLUDE[prodshort](includes/prodshort.md). So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md) aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md). So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md) aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).

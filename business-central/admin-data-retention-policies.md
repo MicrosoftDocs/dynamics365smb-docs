@@ -27,7 +27,7 @@ Before you can create retention policies, you must set up the following.
 |**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must create a new list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy).          |
 |**Retention Periods**     |Specify periods of time for which to keep data in the tables in a policy. The periods determine how often data will be deleted.         |
 
-### To create retention period
+### To create retention periods
 Retention periods can be as long or as short as you want. To create retention periods, on the **Retention Policies** page, use the **Retention Period** action. The periods you define will be available for all policies.
 
 ### Set up a retention policy

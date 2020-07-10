@@ -1,9 +1,6 @@
 ---
     title: How to Import and Post OCR Payments
     description: Before you can receive optical character recognition (OCR) payments, you must make certain preparations.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/10/2020
     ms.author: sgroespe
 
 ---

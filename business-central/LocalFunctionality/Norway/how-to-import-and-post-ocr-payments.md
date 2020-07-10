@@ -35,7 +35,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |** File Name**|Enter the full path of the import file.|  
+    |**File Name**|Enter the full path of the import file.|  
 
 5.  Choose the **OK** button to import the payment file to the journal.  
 

@@ -80,7 +80,7 @@ You print a report by choosing the **Print** button on the report request page o
 
 The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
 
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
+The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
 
 If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the *Selected printer** field on the report request page. 
 
@@ -91,7 +91,7 @@ Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can'
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md). So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md) aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).

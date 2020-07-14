@@ -71,6 +71,11 @@ Enter the following advanced settings.
 
 5. If [!INCLUDE[d365fin](includes/cds_long_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
 
+## Show Me the Process
+The following video shows the steps to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]. <br>
+  
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+
 ## Connecting On-Premises Versions
 To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[d365fin](includes/cds_long_md.md)], you must specify some information on the **Common Data Service Connection Setup** page.
 

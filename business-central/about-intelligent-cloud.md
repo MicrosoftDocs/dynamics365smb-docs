@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
 
 ---
@@ -19,7 +19,7 @@ ms.author: bmeier
 
 As a user of [!INCLUDE[prodshort](includes/prodshort.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI. However, while [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud-first service, also those customers who need to run their workloads fully on-premises or on the intelligent edge connected to the cloud can do so.  
 
-If you are interested in [!INCLUDE[prodshort](includes/prodshort.md)], you can sign up for a free trial online, or you can choose to work with a partner to deploy [!INCLUDE[prodshort](includes/prodshort.md)] locally to your own choice of hardware. You can then decide to get intelligent insights by connecting to a tenant in the cloud. As a result, the data from your locally deployed [!INCLUDE[prodshort](includes/prodshort.md)] will be replicated to the cloud for intelligent cloud scenarios.  
+If you are interested in [!INCLUDE[prodshort](includes/prodshort.md)], you can sign up for a free trial online, or you can choose to work with a partner to deploy [!INCLUDE[prodshort](includes/prodshort.md)] locally to your own choice of hardware. You can then decide to get intelligent insights by connecting to a tenant in the cloud. As a result, the data from your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises deployment replicates to the cloud for intelligent cloud scenarios.  
 
 Connecting to the intelligent cloud from an on-premises solution requires your administrator to specify information about your database. The tools used to connect your on-premises deployment to [!INCLUDE[prodshort](includes/prodshort.md)] online are the same that are also used to migration from on-premises to online. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -46,6 +46,5 @@ When your Dynamics 365 reselling partner has acquired the right license for your
 ## See Also
 
 [Welcome to Business Central](index.md)  
-[Business Central Intelligent Cloud extension](ui-extensions-intelligent-cloud.md)  
-[Data Replication extension](ui-extensions-data-replication.md)  
+[Intelligent Cloud Extensions for Cloud Migration](ui-extensions-data-replication.md)  
 [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

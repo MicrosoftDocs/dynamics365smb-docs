@@ -10,16 +10,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/15/2020
     ms.author: sgroespe
 
 ---
 # Year End Processes Overview
+
 Year end closing in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] involves three steps:  
 
-1.  Closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
-2.  Generating a year-end closing entry using the **Close Income Statement** option along with the offsetting equity account entries. For more information, see [Posting the year-end closing entry](how-to-post-the-year-end-closing-entry.md).  
-3.  Fiscally closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
+1. Closing the fiscal year. For more information, see [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md).  
+2. Generating a year-end closing entry using the **Close Income Statement** option along with the offsetting equity account entries. For more information, see [Posting the year-end closing entry](how-to-post-the-year-end-closing-entry.md).  
+3. Fiscally closing the fiscal year. For more information, see [Fiscally Close Years](how-to-fiscally-close-years.md).  
 
 According to the French law *NF Logiciel compatibilité informatisée* the system has to refuse the creation of a third open fiscal year, so only two open fiscal years are allowed at the same time.  
 
@@ -31,6 +32,10 @@ The system then generates a closing entry, but it does not post the entry automa
 
 Once a year has been fiscally closed you will not be able to post in this fiscal year.  
 
-## See Also  
- [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)   
- [Closing Years and Periods](../../year-close-years-periods.md)
+## See Also
+
+[Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)  
+[Posting the year-end closing entry](how-to-post-the-year-end-closing-entry.md)  
+[Fiscally Close Years](how-to-fiscally-close-years.md)  
+[Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)  
+[Closing Years and Periods](../../year-close-years-periods.md)  

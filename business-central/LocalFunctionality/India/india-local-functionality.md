@@ -61,6 +61,11 @@ The following topics describe the local functionality in the Indian version of [
     * [TDS Adjustment Entry](TDS-Adjustment-Entries.md) **Available Now**
     * [TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md) **Available Now**
 
+* TDS for Customer
+    * [TDS for Customer Overview](TDS-for-Customer-Overview.md) **Available Now**
+    * [TDS Calculation for Customer](TDS-Calculation-for-Customer.md) **Available Now**
+    * [TDS Certificate Update](TDS-Certificate-Update.md) **Available Now** 
+
 * Voucher Interface
     * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  

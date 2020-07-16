@@ -1127,6 +1127,10 @@
 #### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)
 #### [TDS Adjustment Entry](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 #### [TDS Payment to Authority](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+### TDS for Customer
+#### [TDS for Customer Overview](LocalFunctionality/India/TDS-for-Customer-Overview.md)
+#### [TDS Calculation for Customer](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
+#### [TDS Certificate Update](LocalFunctionality/India/TDS-Certificate-Update.md)
 ### Voucher Interface
 #### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 #### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)

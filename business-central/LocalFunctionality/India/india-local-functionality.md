@@ -53,6 +53,18 @@ The following topics describe the local functionality in the Indian version of [
     * [GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md) **Available Now**
     * [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
 
+* TDS
+    * [TDS Overview](TDS-Overview.md) **Available Now**
+    * [TDS Transactions](TDS-Transactions.md) **Available Now**
+    * [TDS Threshold](TDS-Threshold.md) **Available Now**
+    * [TDS Provisional Entry](TDS-Provisional-Entries.md) **Available Now**
+    * [TDS Adjustment Entry](TDS-Adjustment-Entries.md) **Available Now**
+    * [TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md) **Available Now**
+
+* Voucher Interface
+    * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
+    * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
+
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

@@ -1120,6 +1120,16 @@
 #### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
 #### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
 #### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+### TDS
+#### [TDS Overview](LocalFunctionality/India/TDS-Overview.md.md)
+#### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
+#### [TDS Threshold](LocalFunctionality/India/TDS-Threshold.md)
+#### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)
+#### [TDS Adjustment Entry](LocalFunctionality/India/TDS-Adjustment-Entries.md)
+#### [TDS Payment to Authority](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+### Voucher Interface
+#### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
+#### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)
 
 ## Italy
 ### [Overview](LocalFunctionality/Italy/italy-local-functionality.md)

@@ -1121,7 +1121,7 @@
 #### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
 #### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 ### TDS
-#### [TDS Overview](LocalFunctionality/India/TDS-Overview.md.md)
+#### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 #### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
 #### [TDS Threshold](LocalFunctionality/India/TDS-Threshold.md)
 #### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)

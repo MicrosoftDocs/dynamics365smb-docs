@@ -41,6 +41,11 @@ If you change the order date on the line, such as when items are not available a
 
 If you change the order date on the header, then that date is copied to the **Order Date** field on all the lines, and all the related date fields are then recalculated.  
 
+## Default values for lead time calculation
+The program uses the value from the **Lead Time Calculation** field on purchase order line to calculate the order planned and the expected receipt dates.
+You can manually enter the value on the line or let program to use values defined on vendor card, item card, stockkeeping unit card, or the item vendor catalog.
+However, notice that the lead time value on the vendor card is used only if a lead time is not specified on the item card, stockkeeping unit card (if one exists), or the item vendor catalog for the item. This is also the escalating order of priority for these values. If they are all provided, the lead time specified for the vendor card has the lowest priority, and the lead time in the item vendor catalog has the highest priority.
+
 ## See Also  
  [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
  [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  

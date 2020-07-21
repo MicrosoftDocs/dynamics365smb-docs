@@ -27,7 +27,7 @@ In [!INCLUDE[prodshort](includes/prodshort.md)], the Help menu item (the questio
 
 ## Help others
 
-If you are an administrator or superuser, you can help others by looking up error messages in the **Error Message Register** page or in the administration center. In many cases, the warning or error message is about setup or lack of permission and similar issues that the superuser or administrator can easily help with. In other cases, you might have to inspect pages to identify the cause. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md).  
+If you are an administrator or superuser, you can help others by looking up error messages in the **Error Message Register** page or in the administration center. In many cases, the warning or error message is about setup or lack of permission and similar issues that the superuser or administrator can easily help with. In other cases, you might have to inspect pages to identify the cause. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 ## See Also
 

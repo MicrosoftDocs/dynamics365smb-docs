@@ -1131,6 +1131,12 @@
 #### [TDS for Customer Overview](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 #### [TDS Calculation for Customer](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
 #### [TDS Certificate Update](LocalFunctionality/India/TDS-Certificate-Update.md)
+### TCS
+#### [TCS Overview](LocalFunctionality/India/TCS-Overview.md)
+#### [TCS Transactions](LocalFunctionality/India/TCS-Transactions.md)
+#### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
+#### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
+#### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
 ### Voucher Interface
 #### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 #### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)

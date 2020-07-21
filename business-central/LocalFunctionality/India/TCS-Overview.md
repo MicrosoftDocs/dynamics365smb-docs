@@ -1,0 +1,218 @@
+---
+    title: Setting up Tax Collected at Source, as per the provisions of the Income Tax Act, 1961
+    description: Specifies Basic Setups required, as per the provisions of the Income Tax Act, 1961
+
+    author: v-debapd
+
+    ms.service: dynamics365-business-central
+    ms.topic: article
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords: India, local, IN, English
+    ms.date: 07/21/2020
+    ms.author: v-debapd
+
+---
+# Setting up Tax Collected at Source (TCS), as per the provisions of the Income Tax Act, 1961
+
+## Overview
+
+Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
+
+**TCS** means **Tax Collection at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collection at Source’ (TCS) requires the receiver/seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
+
+## Setting up TCS
+
+### TCS has two types of setup.
+
+- Automatic - These setup are done through Tax Engine.
+- Manual - These setups are done manually by the business users.
+
+#### Following is the list of Setups that will be pre-configured in **Business Central - IN Localization** with the help of **Tax Engine**
+
+- Tax Types
+- Tax Entities
+- Components
+- Attributes
+- Rate Setup
+- Tax Rates
+
+For more information about Auto Setup, see **Tax Engine** Information.
+
+#### Following is the list of Manual Setups, business user needs to configure manually in **Business Central**
+
+- Tax Accounting Period
+- T.C.A.N Nos.
+- Assessee Codes
+- TCS Nature of Collection
+- Concessional Codes
+- TCS Posting Setup
+- TCS Setup in Customer Master
+- TCS Setup in Location Master
+- TCS Setup in Company Information
+- TCS Setup in State Master
+
+
+#### To set up Tax Accounting Period.
+
+Tax Accounting period and quarters need to be defined for TCS calculation.
+
+1. Choose the ![img](image/search.jpg)icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
+2. Fill in the fields as described in the following table.   
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Code**|Enter the valid tax type.|  
+    |**Description**|Specify the description of the tax type.|
+
+3. Select the Tax Type -> Action -> Tax Accounting Period -> Create Year, fill the following information and accounting period will be created.
+    
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Tax Type**|Select the valid tax type.|  
+    |**Starting Date**|Specify the starting date of the accounting period.|
+    |**No. of Periods**|Specify the number of periods.|
+    |**Period Length**|Specify the length of the period.|
+
+#### To set up T.C.A.N Nos.
+
+Tax Collected Account Number (T.C.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
+
+1. Choose the ![img](image/search.jpg)icon, enter **T.C.A.N Nos.**, and then choose the related link. 
+2. Fill in the fields as described in the following table.   
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Code**|Enter the valid registration number provided by tax department.|  
+    |**Description**|Specify the description of the registration number.|
+    
+
+> [!TIP]
+>
+> It is mandatory to enter the T.C.A.N, on all TCS Transactions.
+
+#### To set up Assessee Code
+
+Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TCS are different for different types of Assessee.
+
+1. Choose the ![img](image/search.jpg)icon, enter **Assessee Codes**, and then choose the related link. 
+2. Fill in the fields as described in the following table.   
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Code**|Enter the valid Assessee Code, for example: IND, COM.|  
+    |**Description**|Enter the description of the assessee code.|
+    |**Type**|Select the type of the assessee from drop down list as Company or Others.|
+
+> [!TIP]
+>
+> Type should be selected correctly while creating Assessee codes as it will reflect in eTDS returns.
+
+#### To set up TCS Nature of Collection
+
+TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C of the Income Tax Act 1961.
+
+1. Choose the ![img](image/search.jpg)icon, enter **TCS Nature of Collection**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Code**|Enter the valid TCS Nature of Collection applicable as per the Income Tax Act, 1961|  
+    |**Description**|Enter the description of the mentioned TCS Nature of Collection.|
+   
+
+#### To set up Concessional Codes
+
+Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.    
+
+1. Choose the ![img](image/search.jpg)icon, enter **Concessional Codes**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|   
+    |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act|  
+    |**Description**|Enter the description of the mentioned Concessional Codes|
+
+#### To set up TCS Posting Setup
+
+Specifies the general ledger account for each TCS Nature of Collection defined in the system. System will update the TCS payable amount in the defined general ledger account.
+
+1. Choose the ![img](image/search.jpg)icon, enter **TCS Posting Setup**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|
+    |**TCS Nature of Collection**|Enter the valid TCS nature of collection.|
+    |**Effective Date**|Specifies the starting date.|
+    |**TCS Account**|Specifies the general ledger account for posting of TCS payable amount.|
+
+
+#### To set up TCS in Customer Master
+
+TCS nature of collection and concessional codes need to be defined for each customer that is liable to TCS. Multiple TCS NOC can be attached to one customer.
+
+- To define the TCS Nature of Collection on the Customer Card
+
+  1. Choose the ![img](image/search.jpg)icon, enter **Customers** -> **Customer** -> **Allowed NOC** and then choose the related link.
+  2. **Assessee Code** needs to be filled on the customer master.
+  3. **PAN** needs to be filled on customer master. If no PAN is provided, higher rate of TCS will be deducted.
+  4. Fill in the fields as described in the following table.
+
+      |Field|Description|  
+      |---------------------------------|---------------------------------------|
+      |**TCS Nature of Collection**|Select the valid category from lookup list depending on the kind of product sold to the customer.|
+      |**Description**|Enter the description of the selected Nature of Collection.|
+      |**Default NOC**|Mark true if the Nature of Collection needs to be defined as default NOC.|
+      |**Threshold Overlook**|Place a check mark in this field to overlook the TCS Threshold amount defined in 'Tax Rates'|
+      |**Surcharge Overlook**|Place a check mark in this field to overlook the Surcharge Threshold amount defined in 'Tax Rates'|
+      
+- To define the concessional code on customer card
+
+  1. Choose the ![img](image/search.jpg)icon, enter **Customers** -> **Customer** -> **Customer Concessional Codes** and then choose the related link.
+  2. Fill in the fields as described in the following table.
+
+      |Field|Description|  
+      |---------------------------------|---------------------------------------|
+      |**TCS Nature of Collection**|Select the valid Nature of Collection from lookup list depending on the kind of product sold by customer.|
+      |**Description**|Enter the description of the selected Nature of Collection.|
+      |**Concessional Code**|Select the valid concessional code from lookup list depending on the kind of product sold by customer.|
+      |**Concessional Form No.**|Certificate number provided by the customer can be defined to justify the lower tax deduction.  |
+
+#### To set up TCS on Location Master
+
+**T.C.A.N** needs to be defined for locations from where the company files its returns.
+
+#### To set up TCS on Company Information
+
+-  Following information needs to be defined on company information.
+
+      |Field|Description|  
+      |---------------------------------|---------------------------------------|
+      |**T.C.A.N No.**|Specifies the TCAN of the legal entity.|
+      |**P.A.N No.**|Specifies the PAN of the legal entity.|
+      |**Deductor Category**|Specifies the deductor category of the legal entity.|
+      |**Circle No.**|Specifies circle number.|
+      |**Assessing Officer**|Specifies the assessing officer.|
+      |**Ward No.**|Specifies the word number.|
+
+#### To set up TCS on State Code
+
+**State Code for eTDS/TCS** needs to be defined on States master.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

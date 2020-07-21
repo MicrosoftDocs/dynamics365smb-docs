@@ -21,7 +21,7 @@
 The TCS that have been collected from various transactions, needs to be deposited to the government. Payment of TCS will be handled through Payment Journal/Bank Payment Voucher. Provision to select the TCS Entries which assessee needs to pay to the government authorities depends on the basis of filters, for example – T.C.A.N, Assesses, Date etc.
 
 1. Choose the ![img](image/search.jpg)icon, enter **Payment Journal** or **Bank Payment Voucher**, and then choose the related link.
-2. Select the relevant TCS payable account in **Account No. field -> select the relevant TCAN in **T.C.A.N No.** field -> Navigate -> Tax Payments -> TCS -> then click on TCS. 
+2. Select the relevant TCS payable account in **Account No.** field -> select the relevant TCAN in **T.C.A.N No.** field -> Navigate -> Tax Payments -> TCS -> then click on TCS. 
 3. Select entries and system will generate TCS payment entry on the journal line. 
 1. On posting of the payment journal TCS Entries will be marked as 'Paid'.
 

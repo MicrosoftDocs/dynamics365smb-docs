@@ -163,7 +163,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Customer Account**|103000|
-    |**TCS Payable Account - Scrap****|-500|
+    |**TCS Payable Account - Scrap**|-500|
     |**TCS Payable Account - Timber**|-2500|
     |**Sales Account - Scrap**|-50000|
     |**Sales Account - Timber**|-50000|

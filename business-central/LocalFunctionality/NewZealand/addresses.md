@@ -1,9 +1,6 @@
 ---
     title: Addresses in New Zealand
     description: A single postal code can include multiple cities in the same region.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/23/2020
     ms.author: sgroespe
 
 ---
-# Addresses
+# Addresses in the New Zealand Version
+
 A single postal code can include multiple cities in the same region.  
 
 At the same time, cities with the same name are sometimes located in different regions.  

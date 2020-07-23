@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
 
 ---
@@ -41,7 +41,7 @@ Then you can set up columns like these:
 
 Based on the lines and columns you have set up, [!INCLUDE[d365fin](includes/d365fin_md.md)] will aggregate the result of your report in the **Analysis Report** page, as shown in the following table.  
 
-| |Sales Current Month|Sales Last Month|Sales Last Month %|  
+|- |Sales Current Month|Sales Last Month|Sales Last Month %|  
 |-|-|-|-|  
 |Computers| | | |  
 |Displays| | | |  

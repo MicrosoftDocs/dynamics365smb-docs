@@ -9,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/23/2020
     ms.author: bholtorf
 
 ---
 # Design Details: Costing Methods
+
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
@@ -22,13 +23,13 @@ The costing method determines whether an actual or a budgeted value is capitaliz
 
 The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Costing method|Description|When to use|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first.|In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date.|  
-|LIFO|An item’s unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first.|Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.)|  
-|Average|An item’s unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For inventory valuation, it is assumes that all inventories are sold simultaneously.|In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and cannot be differentiated, such as chemicals.|  
-|Specific|An item’s unit cost is the exact cost at which the particular unit was received.|In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers.|  
-|Standard|An item’s unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values.|Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards.|  
+| Costing method | Description | When to use |
+|--|--|--|
+| FIFO | An item's unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first. | In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date. |
+| LIFO | An item's unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first. | Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.) |
+| Average | An item's unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For inventory valuation, it is assumes that all inventories are sold simultaneously. | In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and cannot be differentiated, such as chemicals. |
+| Specific | An item's unit cost is the exact cost at which the particular unit was received. | In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers. |
+| Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards. |
 
  The following image shows how costs flow through the inventory for each costing method.  
 
@@ -63,7 +64,7 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
 ### Effect of Costing Methods on Valuing Inventory Increases  
  **FIFO**/**LIFO**/**Average**/**Specific**  
 
- For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item’s acquisition cost.  
+ For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
  The following table shows how inventory increases are valued for all costing methods except **Standard**.  
 
@@ -75,7 +76,7 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
 
  **Standard**  
 
- For items using the **Standard** costing method, inventory increases are valued at the item’s current standard cost.  
+ For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
  The following table shows how inventory increases are valued for the **Standard** costing method.  
 

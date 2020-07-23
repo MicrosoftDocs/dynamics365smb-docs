@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
 
 ---
@@ -143,8 +143,8 @@ After you fix one or more errors, you can choose **Migrate** to migrate only the
 
 One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Batch Job to Use |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch Job to Use |
+|---------------------------|------------------------------|------------------|
 |Customer Entries| General Journals| CUSTMIGR |
 |Vendor Entries| General Journals| VENDMIGR|
 |Item Entries| Item Journals| ITEMMIGR |

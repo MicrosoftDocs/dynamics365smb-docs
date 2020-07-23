@@ -1,5 +1,5 @@
 ---
-    title: General Ledger
+    title: General Ledger in France
     description: Special general ledger functionality exists for the French version of Business Central.
     author: edupont04
 
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/15/2020
+    ms.date: 07/23/2020
     ms.author: edupont
 
 ---
-# General Ledger
+# General Ledger in France
 
 General ledger functionality for France is described in the below topics.
 

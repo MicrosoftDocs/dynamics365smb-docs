@@ -1357,7 +1357,6 @@
 #### [Export VAT Statements in Text Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 #### [Equivalence Charges](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 ### Banking & Payments  
-#### [Electronic Payments AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md)
 #### [Electronic Payments – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 #### [Set Up Bank Accounts for Electronic Payments](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 #### [Pay Vendors by Using Electronic Payments](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)

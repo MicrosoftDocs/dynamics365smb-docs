@@ -1,5 +1,5 @@
 ---
-    title: How to Print an Inventory Picking List from a Sales Order
+    title: How to Print an Inventory Picking List from a Sales Order in the Swiss Version
     description: You can print an inventory picking list directly from a sales order.
 
     author: SorenGP

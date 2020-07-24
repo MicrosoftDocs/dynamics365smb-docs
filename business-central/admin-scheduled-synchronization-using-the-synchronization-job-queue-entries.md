@@ -20,27 +20,28 @@ You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[c
 
 There are several synchronization jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between entities. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
 
-1. CURRENCY - COMMON DATA SERVICE synchronization job.
-2. VENDOR - COMMON DATA SERVICE synchronization job. 
-3. CONTACT - COMMON DATA SERVICE synchronization job.
-4. CUSTOMER - COMMON DATA SERVICE synchronization job.
-5. SALESPEOPLE - COMMON DATA SERVICE synchronization job.
+1. CURRENCY - Common Data Service synchronization job.
+2. VENDOR - Common Data Service synchronization job.
+3. CONTACT - Common Data Service synchronization job.
+4. CUSTOMER - Common Data Service synchronization job.
+5. SALESPEOPLE - Common Data Service synchronization job.
 
 You can view the jobs on the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-### Default Synchronization Job Queue Entries
+## Default Synchronization Job Queue Entries
 
 The following table describes the default synchronization jobs for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
-|Job Queue Entry|Description|Direction|Integration Table Mapping|Default Synchronization Frequency (mins)|Default inactivity sleep time (mins)|  
-|---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|CONTACT - COMMON DATA SERVICE synchronization job|Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] contacts with [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.|Bidirectional|CONTACT|30|720 <br>(12 hours)| 
-|CURRENCY - COMMON DATA SERVICE synchronization job|Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] transaction currencies with [!INCLUDE[d365fin](includes/d365fin_md.md)] currencies.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]|CURRENCY|30|720 <br> (12 hrs)| 
-|CUSTOMER - COMMON DATA SERVICE synchronization job|Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|CUSTOMER|30|720<br> (12 hrs)|
-|VENDOR - COMMON DATA SERVICE synchronization job|Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.|Bidirectional|VENDOR|30|720<br> (12 hrs)|
-|SALESPEOPLE - COMMON DATA SERVICE synchronization job|Synchronizes [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users.|From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)]|SALESPEOPLE|30|1440<br> (24 hrs)|
+| Job Queue Entry | Description | Direction | Integration Table Mapping | Default Synchronization Frequency (mins) | Default inactivity sleep time (mins) |
+|--|--|--|--|--|--|--|
+| CONTACT - Common Data Service synchronization job | Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] contacts with [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts. | Bidirectional | CONTACT | 30 | 720 <br>(12 hours) |
+| CURRENCY - Common Data Service synchronization job | Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] transaction currencies with [!INCLUDE[d365fin](includes/d365fin_md.md)] currencies. | From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] | CURRENCY | 30 | 720 <br> (12 hrs) |
+| CUSTOMER - Common Data Service synchronization job | Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers. | Bidirectional | CUSTOMER | 30 | 720<br> (12 hrs) |
+| VENDOR - Common Data Service synchronization job | Synchronizes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] accounts with [!INCLUDE[d365fin](includes/d365fin_md.md)] customers. | Bidirectional | VENDOR | 30 | 720<br> (12 hrs) |
+| SALESPEOPLE - Common Data Service synchronization job | Synchronizes [!INCLUDE[d365fin](includes/d365fin_md.md)] salespeople with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] users. | From [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)] | SALESPEOPLE | 30 | 1440<br> (24 hrs) |
 
-## Synchronization Process  
+## Synchronization Process
+
 Each synchronization job queue entry uses a specific integration table mapping that specifies which [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity to synchronize. The table mappings also include some settings that control which records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity to synchronize.  
 
 To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity records must be coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] records. For example, a [!INCLUDE[d365fin](includes/d365fin_md.md)] customer must be coupled to a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] account. You can set up couplings manually, before running the synchronization jobs, or let the synchronization jobs set up couplings automatically. The following list describes how data is synchronized between Common Data Service and [!INCLUDE[d365fin](includes/d365fin_md.md)] when you are using the synchronization job queue entries. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md).
@@ -64,11 +65,10 @@ To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] entity rec
 ## About Inactivity Timeouts
 
 Some job queue entries, such as those that schedule synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry card to prevent the job queue entry from running unnecessarily.  
-<br><br>
 
-> ![Flowchart for when job queue entries are put on hold due to inactivity.](media/on-hold-with-inactivity-timeout.png)
+:::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
 
-When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity**, and [!INCLUDE[d365fin](includes/d365fin_md.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again. 
+When the value in this field is not zero, and the job queue did not find any changes during the last run, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the job queue entry on hold. When that happens, the **Status of Job Queue** field will show **On Hold Due to Inactivity**, and [!INCLUDE[d365fin](includes/d365fin_md.md)] will wait for the period of time specified in **Inactivity Timeout** field before it runs the job queue entry again.  
 
 For example, by default, the CURRENCY job queue entry, which synchronizes currencies in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] with exchange rates in [!INCLUDE[d365fin](includes/d365fin_md.md)], will look for changes to exchange rates every 30 minutes. If no changes are found, [!INCLUDE[d365fin](includes/d365fin_md.md)] puts the CURRENCY job queue entry on hold for 720 minutes (six hours). If an exchange rate is changed in [!INCLUDE[d365fin](includes/d365fin_md.md)] while the job queue entry is on hold, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically reactivate the job queue entry and restart the job queue. 
 
@@ -77,7 +77,7 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 
 ## To view the synchronization job log
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Synchronization Log**, and then choose the related link.
+1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Log**, and then choose the related link.
 2. If one or more error occurred for a synchronization job, the number of errors appears in the **Failed** column. To view the errors for the job, choose the number.  
 
     > [!TIP]  
@@ -85,12 +85,12 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 
 ## To view the synchronization job log from the table mappings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
+1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Table Mappings**, and then choose the related link.
 2. In the **Integration Table Mappings** page, select an entry, and then choose **Integration Synch. Job Log**.  
 
 ## To view the synchronization error log
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Synchronization Errors**, and then choose the related link.
+- Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Integration Synchronization Errors**, and then choose the related link.
 
 ## See Also
 

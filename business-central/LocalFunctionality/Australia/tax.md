@@ -1,22 +1,17 @@
 ---
-    title: Australian Tax
-    description: Tax functionality in Australia is described in several topics.
+title: Australian Tax overview
+description: Tax functionality in Australia is described in several topics.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2020
-    ms.author: sgroespe
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords:
+ms.date: 04/01/2020
+ms.author: sgroespe
 
 ---
-# Tax
+# Tax Overview
+
 For information about tax in Australia, see the following topics:  
 
 [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)  
@@ -32,4 +27,5 @@ For information about tax in Australia, see the following topics:
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 ## See Also
+
 [Australia Local Functionality](australia-local-functionality.md)  

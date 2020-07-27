@@ -38,12 +38,14 @@
 ## [Copy and Paste FAQ](ui-copy-paste.md)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
-## [Changing Language and Locale](about-locale-language.md)
+## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
+## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+## [Warnings and Error Messages](product-error-messages.md)
 ## Personalizing Business Central
 ### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
@@ -83,6 +85,7 @@
 ### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 ### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 ### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
+### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 ### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -127,7 +130,7 @@
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Copy Existing Items to Create New Items](inventory-how-copy-items.md)
 ### [About Item Types](inventory-about-item-types.md)
-### [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md)
+### [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)
 ### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
 ### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
@@ -215,7 +218,7 @@
 #### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
 #### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
 ### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-### [Prepare to Migrate Customer Data](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Migrate Customer Data](admin-migrate-customer-data.md)
 ### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -324,6 +327,7 @@
 ## [Create Users According to Licenses](ui-how-users-permissions.md)
 ## [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ## [Manage Profiles](admin-users-profiles-roles.md)
+## [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ## [Set Up Printers](ui-specify-printer-selection-reports.md)
 ## [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ## [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
@@ -347,7 +351,6 @@
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions
 #### [Overview](ui-extensions.md)
-#### [Customize Using Extensions](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -383,7 +386,6 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finance
 ## [Overview](finance.md)
@@ -507,6 +509,7 @@
 ## [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
 ## [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ## [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
+## [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
 ## [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
@@ -543,6 +546,7 @@
 ## [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ## [Create a Forecast](production-how-to-create-a-forecast.md)
 ## [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
+## [Work with Recurring Revenue](finance-recurring-invoicing.md)
 
 # Purchasing
 ## [Overview](purchasing-manage-purchasing.md)
@@ -624,7 +628,6 @@
 ### [Create Opportunities](marketing-how-create-opportunities.md)
 ### [Track Email Message Exchanges](marketing-set-up-email-logging.md)
 ### [Process Sales Opportunities](marketing-processing-sales-opportunities.md)
-### [Set Up Email Logging](marketing-set-up-email-logging.md)
 ## [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
 ## [Using Dynamics 365 for Sales from Business Central](marketing-integrate-dynamicscrm.md)
 ### [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -647,7 +650,7 @@
 ## [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ## [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ## [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Assembly Management
 ## [Overview](assembly-assemble-items.md)
@@ -766,6 +769,7 @@
 ## Design Details: Inventory Costing
 ### [Overview](design-details-inventory-costing.md)
 ### [Design Details: Costing Methods](design-details-costing-methods.md)  
+### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
 ### [Design Details: Item Application](design-details-item-application.md)  
 ### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
@@ -821,7 +825,7 @@
 ## Australia
 ### [Overview](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Tax
-#### [Tax](LocalFunctionality/Australia/tax.md)
+#### [Overview](LocalFunctionality/Australia/tax.md)
 #### [Withholding Tax](LocalFunctionality/Australia/withholding-tax.md)
 #### [Set Up Withholding Tax](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Set Up Revenue Types for Withholding Tax](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -879,7 +883,7 @@
 #### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Set Up Belgian Tariff Numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgian Intrastat Reporting](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Set Up Intrastat Establishment Numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Print the Intrastat Form Report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1013,21 +1017,21 @@
 #### [Payment Management](LocalFunctionality/France/payment-management.md)
 #### [Post Payment Slips](LocalFunctionality/France/how-to-post-payment-slips.md)
 ### Core Finance
+#### [General Ledger](LocalFunctionality/France/general-ledger.md)
 #### [Apply General Ledger Entries](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
 #### [Unapply General Ledger Entries](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
-#### [Close a Year](LocalFunctionality/France/how-to-close-years.md)
-#### [Close Income Statement Accounts](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
-#### [Fiscally Close Accounting Periods](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
-#### [Fiscally Close Years](LocalFunctionality/France/how-to-fiscally-close-years.md)
+#### [Print General Ledger Reports](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
+#### [View Ledger Reconciliations](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
+#### [Specify Posting Periods](LocalFunctionality/France/how-to-specify-posting-periods.md)
 #### [Fiscal Periods and Fiscal Years](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
-#### [General Ledger](LocalFunctionality/France/general-ledger.md)
+#### [Overview of Year-End Processes](LocalFunctionality/France/year-end-processes-overview.md)
+#### [Fiscally Close Accounting Periods](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
+#### [Close Income Statement Accounts](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
+#### [Close a Year](LocalFunctionality/France/how-to-close-years.md)
+#### [Fiscally Close Years](LocalFunctionality/France/how-to-fiscally-close-years.md)
 #### [Open a New Fiscal Year Duplicate](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 #### [Post the Year-End Closing Entry](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
-#### [Overview of Year-End Processes](LocalFunctionality/France/year-end-processes-overview.md)
-#### [Print General Ledger Reports](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 #### [Reopen Accounting Periods](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
-#### [Specify Posting Periods](LocalFunctionality/France/how-to-specify-posting-periods.md)
-#### [View Ledger Reconciliations](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ### Fixed Assets
 #### [Set Up Accelerated Depreciation](LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md)
 #### [Accelerated Depreciation](LocalFunctionality/France/accelerated-depreciation.md)
@@ -1246,7 +1250,7 @@
 #### [Set Up OCR Payments](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Import and Post OCR Payments](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Print the OCR Journal Test Report](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Core Finance    
+### Core Finance
 #### [Apply General Ledger Entries in Closed Periods](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### General
 #### [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1353,7 +1357,6 @@
 #### [Export VAT Statements in Text Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 #### [Equivalence Charges](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 ### Banking & Payments  
-#### [Electronic Payments AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md)
 #### [Electronic Payments – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 #### [Set Up Bank Accounts for Electronic Payments](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 #### [Pay Vendors by Using Electronic Payments](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
@@ -1402,7 +1405,7 @@
 #### [Swiss Value Added Tax](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banking & Payments
-#### QR-Bill Management (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
@@ -1432,7 +1435,7 @@
 ### Inventory
 #### [Swiss Inventory Management](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Print an Inventory Picking List from a Sales Order](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### General    
+### General
 #### [Import Swiss Post Codes](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Swiss Purchase Documents and Sales Orders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

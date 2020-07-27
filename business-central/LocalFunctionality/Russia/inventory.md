@@ -6,12 +6,12 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Inventory
+# Inventory in the Russian Version
 
 Russian inventory functionality is described in several topics.
 

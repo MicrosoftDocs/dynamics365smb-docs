@@ -5,11 +5,8 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords:
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
 
 ---
@@ -19,7 +16,8 @@ Web services are a lightweight way to make application functionality available t
 
 You set up a web service in the [!INCLUDE[d365fin](includes/d365fin_md.md)] client. You must then publish the web service so that it is available to service requests over the network. Users can discover web services by pointing a browser at the server location and requesting a list of available services. When you publish a web service, it is immediately available over the network for authenticated users. All authorized users can access metadata for web services, but only users who have sufficient permissions can access actual data.
 
-## Creating and Publishing a Web Service  
+## Creating and Publishing a Web Service
+
 The following steps explain how to create and publish a web service.  
 
 ### To create and publish a web service  
@@ -37,7 +35,7 @@ The following steps explain how to create and publish a web service.
 When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
 
 > [!NOTE]
-> If the objects that you expose as web services must not be accessible from [!INCLUDE [prodshort](includes/prodshort.md)] online, you must mark the methods exposed in the code as `[Scope('OnPrem')]`. For more information, see [Scope Attribute](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> If the objects that you expose as web services must not be accessible from [!INCLUDE[prodshort](includes/prodshort.md)] online, you must mark the methods exposed in the code as `[Scope('OnPrem')]`. For more information, see [Scope Attribute](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 After you publish a web service, it is available to external parties. You can verify the availability of that web service by using a browser, or you can choose the link in the **OData URL** and **SOAP URL** fields on the **Web Services** page. The following procedure illustrates how you can verify the availability of the web service for later use.  
 
@@ -67,3 +65,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Administration](admin-setup-and-administration.md)  
 [Business Central Web Services for developers](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[OData request limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

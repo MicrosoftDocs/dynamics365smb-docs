@@ -9,16 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
 
 ---
 # Invoice Sales
+
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
 
 There are a couple of scenarios where you must use a sales order instead of a sales invoice:  
 
 * If you need to ship only part of an order quantity, for example, because the full quantity is not on hand.  
+* If you ship products after you post the corresponding sales invoices.
 * If you sell items that your vendor delivers directly to your customer, known as drop shipment. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md).  
 
 In all other aspects, sales orders and sales invoices work in the same way. For more information, see [Sell Products](sales-how-sell-products.md).

@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: edupont
 
 ---
 # Norway Local Functionality
+
 The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].  
 
 ## Feature Availability
@@ -79,4 +80,6 @@ The following topics describe local functionality that is unique to the Norwegia
  -->
 
 ## See Also
-[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    
+
+[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

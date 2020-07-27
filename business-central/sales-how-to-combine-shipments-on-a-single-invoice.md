@@ -16,7 +16,7 @@
 # Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
 
- Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have filled in two or more sales orders and posted them as shipped, but not invoiced. To combine shipments, the **Combine Shipments** check box must be selected on the **Shipping** FastTab of the **Customer** card.  
+Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have filled in two or more sales orders and posted them as shipped, but not invoiced. 
 
 ## To manually combine shipments on a single invoice  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
@@ -32,6 +32,8 @@ If you want to invoice more than one shipment at a time, you can use the combine
 7. To post the invoice, choose the **Post** action.  
 
 ## To automatically combine shipments on a single invoice  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] will selected only sales orders where **Combine Shipments** is selected. 
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Select the **Post Invoices** check box.  

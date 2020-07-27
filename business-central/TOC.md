@@ -45,6 +45,7 @@
 ## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
 ## [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+## [Warnings and Error Messages](product-error-messages.md)
 ## Personalizing Business Central
 ### [Personalize Your Workspace](ui-personalization-user.md)
 ### [Why a Page is Locked from Personalizing](ui-personalization-locked.md)
@@ -1356,7 +1357,6 @@
 #### [Export VAT Statements in Text Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 #### [Equivalence Charges](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 ### Banking & Payments  
-#### [Electronic Payments AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md)
 #### [Electronic Payments – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 #### [Set Up Bank Accounts for Electronic Payments](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 #### [Pay Vendors by Using Electronic Payments](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)

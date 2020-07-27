@@ -1,8 +1,6 @@
 ---
-title: Use Automatic Application to Reconcile Payments | Microsoft Docs
+title: Reconcile Payments Using Automatic Application
 description: Describes how to use the automatic application function to apply payments or cash receipts to their related open entries, and reconcile payments.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
 
 ---
 # Reconcile Payments Using Automatic Application
+
 The **Payment Reconciliation Journal** page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account and that you can apply to their related open customer, vendor, and bank account ledger entries. The lines in the journal are filled by importing a bank statement as a bank feed or file.
 
 > [!NOTE]

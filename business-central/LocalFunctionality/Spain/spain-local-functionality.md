@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/09/2020
+    ms.date: 07/23/2020
     ms.author: sgroespe
 
 ---
@@ -37,7 +37,6 @@ The following topics describe local functionality that is unique to the Spanish 
     * [Equivalence Charges](equivalence-charges-ec-.md) **Available Now**
 
 * Banking & Payments  
-    * [Electronic Payments AEB N34.1](electronic-payments-aeb-n34.1.md) **Available Now**
     * [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md) **Available Now**
     * [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md) **Available Now**
     * [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md) **Available Now**

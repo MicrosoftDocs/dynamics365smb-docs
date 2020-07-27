@@ -6,18 +6,18 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Adjust Exchange Rates
+# Adjust Exchange Rates in the Russian Version
 
 The difference for Russian task and worldwide task - Russian report create adjustment entry for every Vendor and Customer entry and uses posting group from entry not from Vendor and Customer card.
 
 1. Go to **Adjust Exchange Rates**.
 
-2.  Fill the fields:
+2. Fill the fields:
 
    | Field                                           | Description                                                  |
    | ----------------------------------------------- | ------------------------------------------------------------ |

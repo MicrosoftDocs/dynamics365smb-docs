@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/14/2020
     ms.author: sgroespe
 
 ---
@@ -24,6 +24,8 @@ The following procedure describes how to track from a sales order line. The step
 3.  Select a line, and then choose the **Document Line Tracking** action.
 4. On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.
 5. To view the entire document for the selected document line, choose the **Show Document** action.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## See Also
 [Sales](sales-manage-sales.md)  

@@ -43,6 +43,15 @@ The line information from the sales order is inserted on the purchase order line
 
 You can now instruct the vendor to ship the items to your customer, for example, by mailing the purchase order as a PDF.     
 
+## To create multiple purchase orders for drop shipments
+You can also use the requisition worksheet to create the related purchase order to the vendor. The advantage of using the requisition worksheet is that it can automatically generate purchase orders for all outstanding drop shipments, instead of requiring to create each one individually.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
+3. Choose the **OK** button.
+4. Review created requsition lines and in the **Vendor No.** field, select vendor that supplies required goods. 
+5. Choose the **Carry Out Action Message...*** action to convert reviewed lines it to a purchase order.
+
 ## To view the linked purchase order from the sales order
 * Select the drop-shipment sales order line, choose the **Order** action, choose the **Drop Shipment** action, and then choose the **Purchase Order** action.
 

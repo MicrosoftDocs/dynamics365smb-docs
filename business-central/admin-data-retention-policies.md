@@ -14,7 +14,7 @@
 
 ---
 # Define Retention Policies
-Administrators can define retention policies to specify how frequently they want Business Central to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
+Administrators can define retention policies to specify how frequently they want [!INCLUDE[prodshort](includes/prodshort.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
 
 ## Setting Up Retention Policies
 > [!NOTE]
@@ -42,6 +42,8 @@ You can use a job queue entry to apply retention policies to delete data automat
 To apply a retention policy automatically, just create and enable a policy. When you enable a policy we create a job queue entry that will automatically apply retention policies according to the retention period you specify. All retention policies will use the same job queue entry. By default, the job queue entry applies the policy every day at 0200. You can change the default, but if you do we recommend that it runs outside business hours. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md). 
 
 If you prefer to manually apply a policy yourself, you can turn on the **Manual** toggle on the **Retention Policies** page. You can then can use the **Apply Manually** action on the **Retention Policies** page. 
+
+You can use the **Apply Manually** action on the **Retention Policies** page to immediately apply a policy. If you prefer to always apply a policy manually, you can turn on the **Manual** toggle. The job queue entry will disregard the policy when it runs.
 
 ## Viewing Retention Policy Log Entries
 You can view activity related to retention policies in the **Retention Policy Log** page. For example, entries are created when when a policy is applied, or if errors occurred when that happened. 

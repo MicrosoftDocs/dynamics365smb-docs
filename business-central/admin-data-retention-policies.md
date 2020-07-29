@@ -39,19 +39,17 @@ Retention periods can be as long or as short as you want. To create retention pe
 ## Applying Retention Policies
 You can use a job queue entry to apply retention policies to delete data automatically, or you can manually apply policies.
 
-To apply a retention policy automatically, just create and enable a policy. When you enable a policy we create a job queue entry that will automatically apply retention policies according to the retention period you specify. All retention policies will use the same job queue entry. By default, the job queue entry applies the policy every day at 0200. You can change the default, but if you do we recommend that it runs outside business hours. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md). 
+To apply a retention policy automatically, just create and enable a policy. When you enable a policy we create a job queue entry that will apply retention policies according to the retention period you specify. All retention policies will use the same job queue entry. By default, the job queue entry applies the policy every day at 0200. You can change the default, but if you do we recommend that it runs outside business hours. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md). 
 
-If you prefer to manually apply a policy yourself, you can turn on the **Manual** toggle on the **Retention Policies** page. You can then can use the **Apply Manually** action on the **Retention Policies** page. 
-
-You can use the **Apply Manually** action on the **Retention Policies** page to immediately apply a policy. If you prefer to always apply a policy manually, you can turn on the **Manual** toggle. The job queue entry will disregard the policy when it runs.
+You can manually apply a policy by using the **Apply Manually** action on the **Retention Policies** page. If you want to always apply a policy manually, turn on the **Manual** toggle. The job queue entry will disregard the policy when it runs.
 
 ## Viewing Retention Policy Log Entries
 You can view activity related to retention policies in the **Retention Policy Log** page. For example, entries are created when when a policy is applied, or if errors occurred when that happened. 
 
 ## Including Your Extension in a Retention Policy
-By default, retention policies cover only tables that are included in the list of Business Central tables that we provide. You can remove default tables from the list, and you can add tables that you own. That is, you cannot add a table that you did not create yourself. For example, you cannot add other tables from Business Central or from an extension that you have purchased.
+By default, retention policies cover only tables that are included in the list of [!INCLUDE[prodshort](includes/prodshort.md)] tables that we provide. You can remove default tables from the list, and you can add tables that you own. That is, you cannot add a table that you did not create yourself. For example, you cannot add other tables from [!INCLUDE[prodshort](includes/prodshort.md)] or from an extension that you have purchased.
 
-To build your own list of allowed tables, a developer must add some code to the installer codeunit for the extension (a codeunit with the subtype install). You can add or edit the list of allowed tables only during installation or upgrade, and you must publish a new version of your extension. 
+To build your own list of allowed tables, a developer must add some code to the installer codeunit for the extension (a codeunit with the *install* subtype). You can add or edit the list of allowed tables only during installation or upgrade, and you must publish a new version of your extension. 
 
 The following code example shows how we added a table to the allowed tables list in codeunit 3907 "Retention Policy Installer". 
 

@@ -40,9 +40,13 @@ From some pages in [!INCLUDE[prodshort](includes/prodshort.md)], you can view an
 
 The information is displayed in the **Activity Log** page, according to the context that it is opened from. You can open the window from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages, for example. You can empty the list of log entries, or just clear the list of entries older than 7 days.  
 
+## Defining Retention Policies
+You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
+
 ## See Also
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Define Retention Policies](admin-data-retention-policies.md)  

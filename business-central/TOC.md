@@ -335,6 +335,7 @@
 ## [Logging Changes](across-log-changes.md)
 ## [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ## [Deleting Documents](admin-manage-documents.md)
+## [Defining Data Retention Policies](admin-data-retention-policies.md)
 ## [Publishing a Web Service](across-how-publish-web-service.md)
 ## [Configuring API Templates](admin-configuring-api-template.md)
 ## [Managing Data Encryption](admin-manage-data-encryption.md)

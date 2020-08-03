@@ -8,7 +8,7 @@ ms.topic: article
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
 
 ---
@@ -107,3 +107,4 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

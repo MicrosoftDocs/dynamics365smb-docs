@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## Get started with projects
 
-Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE [prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE [prodshort](includes/prodshort.md)] YouTube channel.  
+Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE[prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prodshort](includes/prodshort.md)] YouTube channel.  
 
 ## See Also
 

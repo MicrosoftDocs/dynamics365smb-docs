@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, transfer, sku, locations, warehouse
-    ms.date: 04/01/2020
+    ms.date: 06/23/2020
     ms.author: sgroespe
 
 ---
@@ -90,7 +90,7 @@ Now the planner at PINK location chooses to reserve against the purchase.
 
 ![Changing the quantity in transfer planning 2](media/nav_app_supply_planning_7_transfers10.png "Changing the quantity in transfer planning 2")  
 
-This usually means that the planning system will ignore the purchase order and the transfer demand. As long as there is balance, there is no problem. But what happens when the customer at RED location partly regrets his order and changes it to 22?  
+This usually means that the planning system will ignore the purchase order and the transfer demand. As long as there is balance, there is no problem. But what happens when the customer at RED location partly regrets the order and changes it to 22?  
 
 ![Changing the quantity in transfer planning 3](media/nav_app_supply_planning_7_transfers11.png "Changing the quantity in transfer planning 3")  
 

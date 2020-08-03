@@ -12,7 +12,7 @@ ms.author: edupont
 ---
 # What's New in Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 You can always refer to the release plan for an overview of new and upcoming functionality. Here in the documentation, you can then find topics that can help you learn about new and existing features in [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -26,7 +26,7 @@ To see all extensions offered by [!INCLUDE[d365fin](includes/d365fin_md.md)] par
 
 We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/), including when they are made available, and if there are special considerations.  
 
-For the partner community, we publish information on [Microsoft Dynamics 365 Business Central on the Dynamics 365 Blog for partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and in the [Developer and IT-pro Help for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+For the partner community, we publish information on [Microsoft Dynamics 365 Business Central on the Dynamics 365 Blog for partners](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and in the [Developer and IT-pro Help for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## See Also
 

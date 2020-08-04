@@ -52,6 +52,10 @@ The following topics describe the local functionality in the Indian version of [
     * [GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md) **Available Now**
     * [GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md) **Available Now**
     * [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
+    * [GST Stock Transfer](GST-Stock-Transfer.md) **Available Now**
+    * [GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md) **Available Now**
+    * [GST Reconciliation](GST-Reconciliation.md) **Available Now**
+    * [GST E-Way Bill](GST-E-Way-Bill.md) **Available Now**
 
 * TDS
     * [TDS Overview](TDS-Overview.md) **Available Now**

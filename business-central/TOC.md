@@ -1120,6 +1120,10 @@
 #### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
 #### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
 #### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+#### [GST Stock Transfer](LocalFunctionality/India/GST-Stock-Transfer.md)
+#### [GST Credit and Liability Adjustment](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
+#### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
+#### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ### TDS
 #### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 #### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)

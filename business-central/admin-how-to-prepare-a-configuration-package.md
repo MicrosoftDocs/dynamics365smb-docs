@@ -1,7 +1,7 @@
 ---
     title: How to Prepare a Configuration Package | Microsoft Docs
     description: Learn now to configure a RapidStart configuration package that can help set up new companies based on existing data.
-    author: SorenGP
+    author: bholtorf
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/06/2020
-    ms.author: sgroespe
+    ms.author: bholtorf
 
 ---
 # Prepare a Configuration Package
@@ -26,6 +26,12 @@ There are some things to consider before you create a configuration package beca
 ### Tables That Contain Posted Entries
 
 You cannot import data to tables that contain posted entries, such as the tables for customer, vendor, and item ledger entries, so you should not include this data in your configuration package. You can add entries to these tables after you import the configuration package by using journals to post the entries. For more information, see [Posting Documents and Journals](ui-post-documents-journals.md).
+
+### Table Names That Contain Special Characters
+
+Use caution if you have tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.
+
+The XML processor accepts only some special characters, and will remove those it does not. If removing a special character, such as the % sign in "Field 1%," results in two or more tables or fields with the same name an error will occur when you export or import a configuration package. 
 
 ### Licensing
 

@@ -50,7 +50,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State/Intra-Union T
     |**SGST/UTGST Payable (Interim) Account**|-900|
     |**Vendor Account**|10000|
 
-2. GL Entries at the time of posting invoice where Input Tax Credit is available, will be as following:
+2. GL Entries at the time of posting invoice where Input Tax Credit is not available, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

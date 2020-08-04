@@ -72,3 +72,4 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Demo: Customer Approval Process - Summer 2019](https://youtu.be/_Oyj6DBAuPI) | Join Craig as he shows a basic business process of onboarding a new customer. | YouTube video | 3 minutes 24 seconds |
 | [Demo: Consolidating Companies - Summer 2019](https://youtu.be/A4SExgt7wV4) | Join Craig as he shows you how to consolidate companies using Business Central. | YouTube video | 2 minutes 15 seconds |
 | [Demo: Automate Accounts Payable - Summer 2019](https://youtu.be/RB3_7UTpEjo) | Join Craig as he shows you one way in which you can automate accounts payable process using Business Central. | YouTube video | 3 minutes 51 seconds |
+| [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you how to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |

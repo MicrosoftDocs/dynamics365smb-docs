@@ -9,20 +9,22 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/05/2020
+    ms.date: 07/14/2020
     ms.author: sgroespe
 
 ---
 # Planning
+
 The production operations required to transform inputs into finished goods must be planned daily or weekly depending on the volume and nature of the products. [!INCLUDE[d365fin](includes/d365fin_md.md)] offers features to supply for anticipated and actual demand from sale, assembly, and production as well as features for distribution planning using stockkeeping units and location transfers.
 
 > [!NOTE]
-> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** page.<br /><br />
+> This topic mainly describes planning for companies involved in manufacturing or assembly management where the resulting supply orders can be either production, assembly, transfer, or purchase orders. The main interface for this planning work is the **Planning Worksheet** page.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] also supports supply planning for wholesale companies where the resulting supply orders can only be transfer and purchase orders. The main interface for this planning work is the **Requisition Worksheet** page, which is described indirectly in this topic as most planning functionality applies to both worksheets.
 
 Planning can be seen as the preparation of required supply orders in the purchasing, assembly, or manufacturing departments to fulfill sales or end-item demand. For more information, see [Purchasing](purchasing-manage-purchasing.md), [Assembly Management](assembly-assemble-items.md), and [Manufacturing](production-manage-manufacturing.md).
 
-The following table describes a sequence of tasks, with links to the topics that describe them.   
+The following table describes a sequence of tasks, with links to the topics that describe them.  
 
 |**To**|**See**|  
 |------------|-------------|  
@@ -34,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create a project production order directly from a multiline sales order representing a production project.|[Plan Project Orders](production-how-to-plan-project-orders.md)|
 |Use the **Order Planning** page to manually plan for sales or production demand one production BOM level at a time.|[Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)|
 |Use the **Planning Worksheet** page to run both the MPS and MRP options to automatically create either a high-level or detailed supply plan at all item levels.|[Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)|
-|Run the requisition worksheet to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|**Requisition Worksheet** page|  
+|Use the **Requisition Worksheet** page to automatically create a detailed supply plan to cover demand for items that are replenished by purchase or transfer only.|[Requisition worksheet](production-about-planning-functionality.md#requisition-worksheet)|  
 |Initiate or update a production order as rough-scheduled operations in the master production schedule.|[Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)|
 |Recalculate work or machine center calendars due to planning changes.|[To calculate a work center calendar](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|

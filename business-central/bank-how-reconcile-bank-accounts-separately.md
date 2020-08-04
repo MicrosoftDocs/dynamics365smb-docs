@@ -1,8 +1,6 @@
 ---
 title: Reconcile Bank Accounts| Microsoft Docs
 description: Describes how your inventory value is reconciled with the general ledger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
 
 ---
 # Reconcile Bank Accounts
+
 You perform bank reconciliation to make sure that your various business transactions and expenses are reflected correctly in the company books. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors.
 
 The following describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page.
@@ -24,7 +23,7 @@ The following describes how to perform bank reconciliation with the **Bank Acc. 
 > You can also reconcile bank accounts on the **Payment Reconciliation Journal** page in connection with payment processing. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> In North American versions, you can also perform this work on the **Bank Rec. Worksheet** page, which is better suited for checks and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see the "Reconcile Bank Accounts" section under United States Local Functionality.
+> In the North American versions, you can also perform this work on the **Bank Rec. Worksheet** page, which is better suited for checks and deposits but does not offer import of bank statement files. To use this page instead of the **Bank Acc. Reconciliation** page, deselect the **Bank Recon. with Auto. Match** field on the **General Ledger Setup** page. For more information, see [Reconciling Bank Accounts](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under United States Local Functionality.
 
 The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the internal bank account.
 
@@ -51,6 +50,7 @@ You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliat
 * Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.
 
 ## To fill bank reconciliation lines by importing a bank statement
+
 The **Bank Statement Lines** pane will be filled with bank transactions according to an imported file or stream provided by the bank.
 
 To enable import of bank statements as bank feeds, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
@@ -64,7 +64,9 @@ To enable import of bank statements as bank feeds, you must first set up and ena
 7. Locate the file, and then choose the **Open** button to import the bank transactions into the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page.
 
 ## To fill bank reconciliation lines with the Suggest Lines function
+
 The **Bank Statement Lines** pane will be filled according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.  
+
 1. On the **Bank Acc. Reconciliation** page, choose the **Suggest Lines** action.
 2. In the **Starting Date** field, enter the earliest posting date for the ledger entries to be reconciled.
 3. In the **Ending Date** field, enter the latest posting date for the ledger entries to be reconciled.
@@ -72,6 +74,7 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 5. Choose the **OK** button.
 
 ## To match bank statement lines with bank account ledger entries automatically
+
 The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). Note that you can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Match Automatically**. **The Match Bank Entries** page opens.
@@ -84,6 +87,7 @@ The **Bank Acc. Reconciliation** page offers automatic matching functionality ba
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To match bank statement lines with bank account ledger entries manually
+
 1. On the **Bank Acc. Reconciliation** page, select a non-applied line in the **Bank Statement Lines** pane.
 2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the Ctrl key.
 3. Choose the **Match Manually** action.
@@ -93,6 +97,7 @@ The **Bank Acc. Reconciliation** page offers automatic matching functionality ba
 5. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 ## To create missing ledger entries to match bank statement lines with
+
 Sometimes a bank statement contain amounts for interest or fees charged. Such bank statement lines cannot be matched because no related ledger entries exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Transfer to General Journal** action.  
@@ -101,15 +106,16 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
     The **General Journal** page opens containing new journal lines for any banks statement lines with missing ledger entries.
 3. Complete the journal line with relevant information, such as the balancing account. For more information, see [Working with General Journals](ui-work-general-journals.md).  
 4. To review the result of posting before you post, choose the **Test Report** action. The **Bank Account Statement** report opens and shows the same fields as at the header of the **Bank Acc. Reconciliation** page.
-4. Choose the **Post** action.
+5. Choose the **Post** action.
 
     When the entry is posted, proceed to match the bank statement line to it.
-5. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
-6. Match the bank statement line with the bank account ledger entry, either manually or automatically.
+6. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
+7. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## See Also
+
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  

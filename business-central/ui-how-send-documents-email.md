@@ -61,7 +61,7 @@ The following procedure describes how to send a posted sales invoice as an email
 
 ## Documents marked as printed when they are sent
 
-Some documents in [!INCLUDE [prodshort](includes/prodshort.md)] have a field that specifies how many times that document has been printed. The field is also updated if you don't print the document but send it in email instead. The field even gets updated if you don't actually send the document, such as when your organization has not set up email, or when the contact that you want to send the document to doesn't have an email address listed. In all scenarios, as far as [!INCLUDE [prodshort](includes/prodshort.md)] is concerned, the document is printed because a PDF file is generated.  
+Some documents in [!INCLUDE[prodshort](includes/prodshort.md)] have a field that specifies how many times that document has been printed. The field is also updated if you don't print the document but send it in email instead. The field even gets updated if you don't actually send the document, such as when your organization has not set up email, or when the contact that you want to send the document to doesn't have an email address listed. In all scenarios, as far as [!INCLUDE[prodshort](includes/prodshort.md)] is concerned, the document is printed because a PDF file is generated.  
 
 The user might not see this generated file, but this is why the field is updated.
 

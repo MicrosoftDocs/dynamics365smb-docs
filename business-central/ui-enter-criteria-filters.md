@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
 
 ---
 # Sorting, Searching, and Filtering
+
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
 
-For reports and XMLports, you can set filters as on lists to delimit which data to include in the report or XMLport, but you cannot sort and search.
+For reports and XMLports, as on lists, you can set filters to delimit which data to include in the report or XMLport, but you cannot sort and search.
 
 > [!TIP]
 > When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
@@ -25,20 +26,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## Sorting
+
 Sorting makes it easy for you to get a quick overview of your data. If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.
 
 To sort a list, you can either choose a column heading text to toggle between ascending and descending order, or choose the drop-down arrow in the column heading, and then choose the **Ascending** or **Descending** action.  
 
 > [!NOTE]  
->   Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
+> Sorting is not supported on images, BLOB fields, FlowFilters, and fields that do not belong to a table.  
 
 ## Searching
+
 <!--## Searching by using the Quick Filter -->
 At the top of each list page, there is a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you are interested in seeing.
 
 To search, simply choose the **Search** action, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
 ### Fine-tuning the Search
+
 In general, search will attempt to match text across all fields. It does not distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
 However, you can make a more exact search by using special characters.
@@ -64,7 +68,11 @@ The following table provides some examples to explain how you can use the search
 > [!TIP]
 > You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
+> [!NOTE]  
+> Search will not match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that are not part of a table.
+
 ## <a name="filtering"></a>Filtering
+
 Filtering provides a more advanced and versatile way of controlling which records display on a list or include in a report or XMLport. There are two major differences between searching and filtering, as described in the table below.
 
 || **Searching** | **Filtering** |
@@ -77,6 +85,7 @@ Filtering enables you to display records for specific accounts or customers, dat
 For lists, the filters are displayed on a filter pane that appears to the left of the list when you activate it. For reports, batch jobs, and XMLports, the filters are visible directly on the request page.
 
 ### Filtering with Option Fields
+
 For "ordinary" fields that hold data, setup date or business data, you can set filters both by selecting data and by typing filter values, and you can use symbols to define advanced filter criteria. For more information, see [Entering Filter Criteria](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 For fields of type **Option**, however, you can only set a filter by selecting one or more options from a drop-down list of the available options. An example of an option field is the **Status** field on the **Sales Orders** page.
@@ -85,6 +94,7 @@ For fields of type **Option**, however, you can only set a filter by selecting o
 > When you select multiple options as a filter value, the relationship between the options is defined as *OR*. For example, if you select both the **Open** and the **Released** check box in the **Status** filter field on the **Sales Orders** page, it means that sales orders that are either open or released are displayed.
 
 ### Setting Filters on Lists
+
 On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
 
 To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
@@ -111,6 +121,7 @@ The filter pane displays the current filters for a list, and enables you to set 
 You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
 
 ### Setting Filters in Reports, Batch Jobs, and XMLports
+
 For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
@@ -118,6 +129,7 @@ The main **Filter** section shows the default filter fields that you use to deli
 In the **Filter totals by** section, you can adjust various dimensions that influence calculations in the report or XMLport. To add a filter, choose the **+ Filter** action, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
 ## Entering Filter Criteria
+
 Both in the filter pane and on a request page, you enter your filter criteria in the box under the filter field.
 
 The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
@@ -128,10 +140,11 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="FilterCriteria"> </a>Filter Criteria and Symbols
+
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols that can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
->  There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+> There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
 
 The following sections describe how to use the different operators.
 
@@ -265,6 +278,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
 ## See Also
+
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [Save and Personalize List Views](ui-views.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

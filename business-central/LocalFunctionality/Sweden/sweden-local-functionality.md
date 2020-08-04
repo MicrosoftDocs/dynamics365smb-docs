@@ -10,11 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 06/09/2020
     ms.author: sgroespe
 
 ---
 # Sweden Local Functionality
+
 The following topics describe local functionality that is unique to the Swedish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Feature Availability  
@@ -29,6 +30,8 @@ The following topics describe local functionality that is unique to the Swedish 
     * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)    
+
+[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

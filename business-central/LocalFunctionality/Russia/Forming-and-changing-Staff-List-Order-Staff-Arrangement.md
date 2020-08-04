@@ -6,13 +6,15 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.reviewer: edupont
 ms.author: soalex
 ---
 # Forming and Changing the Staff List Order
 
-### Changing of Staff List
+You can form and change the staff list.
+
+## Changing of Staff List
 
 To make changes in the Staff List  go to **Human Resources > Organization > Staff list Order**
 
@@ -43,7 +45,7 @@ The HR Manager No. and Chief Accountant No. fields are filled automatically acco
 >
 > A unit can be closed if all positions in it are closed.
 
-### Forming of staff list
+## Forming of staff list
 
 In [!INCLUDE[prodshort](../../includes/prodshort.md)], there is a concept of archive staffing. Archive staffing allows you to save the status of the staff list at the time of its creation.
 
@@ -55,11 +57,11 @@ To create an archive, click the **Archive** button.
 
 The formed staff list for the specified date is transferred to the list of posted documents. **Human Resources > Archive > Archived Staff List**
 
-### Staff Arrangement
+## Staff Arrangement
 
 Staff list is document impersonal, it indicates the number of posts in the organization and salaries for them. However, some companies print a special form that is not regulated by the legislation – Staff Arrangement.
 
-Staff Arrangement – a document that indicates which units approved in the staff list are occupied, indicating the name of the employee, his salary and allowances, and which are still vacant.
+Staff Arrangement – a document that indicates which units approved in the staff list are occupied, indicating the name of the employee, their salary and allowances, and which are still vacant.
 
 The form of  Staff Arrangement is formed on the basis of the archived staff list.
 
@@ -71,4 +73,4 @@ Click OK to generate the report.
 
 ## See Also
 
-[Human Resources](Human-Resources.md)
+[Human Resources](Human-Resources.md)  

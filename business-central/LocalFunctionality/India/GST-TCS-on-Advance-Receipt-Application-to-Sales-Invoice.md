@@ -18,7 +18,7 @@
 
 Assessee is liable for paying GST and TCS at the time of receiving advance payment from customer.
 
-### Mandatory fields in Cash or Bank Receipt Voucher
+### Mandatory fields in Cash on Bank Receipt Voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Select **Customer** in **Account Type** field and select relevant customer code in **Account No.** field.
@@ -50,7 +50,7 @@ Assessee is liable for paying GST and TCS at the time of receiving advance payme
 
 Later sales invoice for services is issued to the customer for INR 20,000, 18% IGST and 1% TCS has to be charged on the invoice amount, and the advance receipt from customer will be applied with the invoice.
 
-### Mandatory fields in Sales Invoice
+### Mandatory fields on Sales Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
 2. Select **Customer** on **Sales Invoice** header.

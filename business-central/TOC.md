@@ -373,6 +373,7 @@
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
+#### [VAT Group](ui-extensions-vat-group.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)

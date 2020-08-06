@@ -31,6 +31,9 @@ Regardless of whether you are joining a VAT group as a member or a representativ
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.
 2. Complete the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+> [!NOTE]
+> The information you provide in the guide includes the codeunit to use when sending the VAT report. When your reach that step, choose codeunit 50100.
+
 ## Tasks for VAT Group Members
 As a member of a VAT group, you must submit your VAT return to the group representative.
 

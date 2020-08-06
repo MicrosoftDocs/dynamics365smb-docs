@@ -33,6 +33,9 @@ You activate and deactivate the change log on the **Change Log Setup** page. Whe
 
 On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[d365fin](includes/d365fin_md.md)] also tracks a number of system tables.
 
+> [!NOTE]
+> You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+
 After you have set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, you can do that on the **Delete Change Log Entries** page, where you can set filters based on dates and time.  
 
 ## About Activity Logs
@@ -45,56 +48,22 @@ The information is displayed in the **Activity Log** page according to the conte
 Keeping sensitive data secure and private is a core concern for most businesses. To add a layer of security, you can monitor important fields and be notified by email when someone changes a value. For example, you might want to be notified if someone changes your company's IBAN number.
 
 > [!NOTE]
-> Sending notifications by email requires that you set up the email feature in [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
+> Sending notifications by email requires that you set up the email feature in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 ### Setting Up Field Monitoring
-To quickly set up field monitoring, you can use the **Field Monitoring** assisted setup guide to import the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields, and specify the person who will receive an email notification when a change occurs. Afterward, to change the email recipient or turn off field monitoring, you can do so on the **Field Monitoring Setup** page. That page is also where you specify the minimum number of days for which to keep entries for changes. New entries cannot be deleted for the number of days you specify.
+You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
 
-> [!TIP]
-> Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can either delete one or more entries manually, or you can use a retention policy. 
+Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can either delete one or more entries manually, or you can use a retention policy. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
 
-### Working with Field Monitoring
+When you set up field monitoring, or change something in the setup, entries are created for your changes. You can specify whether to display entries related to the monitoring setup by showing or hiding them. 
+
 You can manage settings for field monitoring, such as whether to send an email notification or just log the change, for each field on the **Monitored Fields Worksheet** page. The page is also where you can add or remove fields to monitor.
 
-Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made.
+> [!NOTE]
+> After you add one or more fields, you must sign out of [!INCLUDE[prodshort](includes/prodshort.md)] and sign in again to view your changes.
 
-
-
-<!--Email Account Name field needs a new name. This is the accoun t that will be used to send notifications to the pertion shocen in the Notification Receipt field. Typically this is not associated with a person. It is not the Notification Recipient\s account Need a tooltip for it too.
-
-You can connect to a Retention Policy to specify how often to delete entries. Link to retention policies help.
-
-Use **Add Fields** to add new fields to monitor.
-
-Use **Set for Notification** and **Clear for Notification** to...
-
-**Field Change Entries** action opens the list of all changes. 
-
-After you add a field, you must sign out and sign in again. 
-
-Show Monitoring Setup Entries and Hide... Buttons show and hide changes to the setup for monitored fields. 
-
-You use the **Monitor Field Change Setup** assisted setup guide to set things up for the first time. You will 
-
-You specify the person who will receive a notification in the **Notification Recipient field**
-
-To start monitoring the selected fields for changes, choose Finish. You will need to restart Business Central. 
-
-After you choose a table for monitoring, it will be hidden in the Change Log setup. This is to avoid redundency in monitoring. You will not see the table on the **Change Log Setup (Table) List** page.
-
-Show notification informing use that some tables are hidden in change log table list as they are monitored in monitor sensitive fields feature.
-Notify users that some tables are hidden in the Change Log Table List page because they contain fields that are being monitored for changes.
-
-Notify users about monitor sensitive feature
-
-
-
-
-
-
- 
-
-.-->
+### Working with Field Monitoring
+Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made. To view a list of all entries, choose **Field Change Entries**.
 
 ## Defining Retention Policies
 You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. For more information, see [Define Retention Policies](admin-data-retention-policies.md).

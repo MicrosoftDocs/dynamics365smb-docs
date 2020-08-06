@@ -53,6 +53,7 @@ Some extensions are provided by Microsoft, and other extensions are provided by 
 Microsoft provides the following extensions:  
 
 * [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
+* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 * [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 * [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
@@ -67,8 +68,8 @@ Microsoft provides the following extensions:
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 * [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)

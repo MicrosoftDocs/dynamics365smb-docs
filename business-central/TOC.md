@@ -352,6 +352,7 @@
 ### Customize Using Extensions
 #### [Overview](ui-extensions.md)
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
+#### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
@@ -366,14 +367,13 @@
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-#### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
+#### [VAT Group](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
-#### [VAT Group](ui-extensions-vat-group.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Overview](admin-prepare-dynamics-365-for-sales-for-integration.md)

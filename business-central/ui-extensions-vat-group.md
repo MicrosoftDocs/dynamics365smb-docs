@@ -24,8 +24,12 @@ You can team up with one or more other businesses in your country to consolidate
 ## Setting Up VAT Groups
 Regardless of whether you are joining a VAT group as a member or a representative, the VAT Report Setup assisted setup guide can help you get going. The guide will help you define the periods of time the VAT submission covers, and specify the group members and the representative.
 
-> [!NOTE]
-> Before you start the assisted setup guide, contact all members of the group to get their VAT registration numbers. You must provide VAT registration numbers when you add members to the group.
+Before you set up a VAT Group as a group representative, you must do the following: 
+
+* Create a user in your company that members can submit VAT reports to. Assign the **VAT Group API User** permission to the user.
+* Contact the member companies to exchange the following information:
+    * Provide the member with the credentials for the user in the representative company and the web service access key. <!--where do they get the web service access key?-->
+    * Get their Group Member ID. This requires that the members have completed the setup guide as a member. The ID is available on the VAT Report Setup page.
 
 ### To use the VAT Report Setup assisted setup guide
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.
@@ -37,9 +41,10 @@ Regardless of whether you are joining a VAT group as a member or a representativ
 ## Tasks for VAT Group Members
 As a member of a VAT group, you must submit your VAT return to the group representative.
 
-### To submit VAT amounts to your group representative
+### To submit a VAT return to your group representative
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. 
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### Leaving a VAT Group
 If you no longer want to participate in a VAT group, you can exit the group and use the standard VAT reporting process instead. For more information, see [Set Up Value-Added Tax](finance-setup-vat.md).

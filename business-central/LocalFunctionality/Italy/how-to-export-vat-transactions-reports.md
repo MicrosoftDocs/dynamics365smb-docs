@@ -23,7 +23,7 @@ It is only possible to change the lines and fields when the document has the sta
 
 ## To export and submit a VAT transaction report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reports**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports**, and then choose the related link.  
 2.  Select an existing report or create a new report:  
 
     - Select the relevant VAT report from the list, and then choose the **Edit** action.  

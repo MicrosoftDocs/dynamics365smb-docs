@@ -1090,7 +1090,7 @@
 ## India
 ### [Overview](LocalFunctionality/India/india-local-functionality.md)
 ### Tax Engine
-#### [Tax Engine Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
+#### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 #### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
 #### [Tax Engine Configuration](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
 #### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
@@ -1098,15 +1098,17 @@
 #### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 ### GST
 #### [GST Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
-#### [Purchase from Composite Vendor](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
-#### [Purchase from Registered Vendor](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
-#### [Purchase from Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
-#### [Purchase from SEZ Vendor](LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md)
-#### [Purchase from Foreign Vendor](LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md)
-#### [Purchase Return to Composite Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md)
-#### [Purchase Return to Registered Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md)
-#### [Purchase Return to Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) 
-#### [Purchase Return to Foreign Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
+#### GST on Purchase
+##### [Purchase from Composite Vendor](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
+##### [Purchase from Registered Vendor](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
+##### [Purchase from Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
+##### [Purchase from SEZ Vendor](LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md)
+##### [Purchase from Foreign Vendor](LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md)
+#### GST on Purchase Return
+##### [Purchase Return to Composite Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md)
+##### [Purchase Return to Registered Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md)
+##### [Purchase Return to Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) 
+##### [Purchase Return to Foreign Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
 #### [Purchase from Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
 #### [Purchase Return to Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
 #### [GST and TDS on Purchase Transaction](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)

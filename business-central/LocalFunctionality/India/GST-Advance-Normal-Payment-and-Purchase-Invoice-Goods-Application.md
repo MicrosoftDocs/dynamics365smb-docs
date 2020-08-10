@@ -14,13 +14,13 @@
     ms.author: v-debapd
 
 ---
-# GST on Advance Payment/Normal payment application with Purchase Invoice
+# GST on Advance Payment or Normal payment application with Purchase Invoice
 
 ## GST on advance payment and application with purchase invoice
 
  GST is liable at the time of advance payment to vendor, for example, service amount is INR 20000 and advance payment made to vendor for INR 10000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST) has to be charged. Taxpayer paying advance is not eligible to claim ITC on advance paid. The taxpayer can claim ITC on advance paid only on receipt of services.
 
-1. GST calculation for Intra-State/Intra-Union Territory transactions will appear in the Fact Box, as following:
+1. GST calculation for Intra-State or Intra-Union Territory transactions will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Vendor Account**|10,000|  
-    |**SGST/UTGST/Receivable (Interim) Account**|900|  
+    |**SGST/UTGST Receivable (Interim) Account**|900|  
     |**CGST Receivable (Interim) Account**|900| 
     |**SGST/UTGST Payable Account**|-900| 
     |**CGST Payable Account**|-900| 
@@ -154,10 +154,6 @@ If this is found that the payment and invoice was wrongly applied and the applic
 >
 > Note: In case of Inter-State Purchase, IGST will be calculated.
 
-
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

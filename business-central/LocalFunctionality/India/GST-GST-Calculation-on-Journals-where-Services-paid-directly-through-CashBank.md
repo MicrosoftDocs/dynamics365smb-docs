@@ -21,8 +21,8 @@
 ### Create a General Journal or a Bank/Cash Payment Voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, and then choose the related link.
-2. Select **G/L Account** in account type and **G/L Account**/**Bank Account** in balancing account type, and then select the cash or bank accounts.
-3. GST (CGST/SGST/UTGST/IGST) to be calculated on Direct Expenses (Services) being paid through cash/bank, any legal fees, telephone expenses, etc. For example, there is an expense of INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on expense amount.
+2. Select **G/L Account** in account type and **G/L Account** or **Bank Account** in balancing account type, and then select the cash or bank accounts.
+3. GST (CGST/SGST/UTGST/IGST) to be calculated on Direct Expenses (Services) being paid through cash or bank, any legal fees, telephone expenses, etc. For example, there is an expense of INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on expense amount.
 4. GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
@@ -32,7 +32,7 @@
     |**SGST**|900|
     |**IGST**|1800| 
 
-5. GL Entries for Intra-State/Intra-Union Territory purchase of services where service provider is unregistered, will be as following:
+5. GL Entries for Intra-State or Intra-Union Territory purchase of services where service provider is unregistered, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

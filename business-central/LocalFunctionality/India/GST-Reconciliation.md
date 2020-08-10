@@ -18,8 +18,8 @@
 
 ## Overview
 
-- Line wise details of all invoices, supplementary invoices, debit notes and credit notes issued by a vendor/supplier towards Outward supplies made during a month shall be reported in GSTR-1 by 10th of the succeeding month.
-- Sales uploaded by the supplier/vendor in GSTR-1 are auto-reflected in GSTR-2A and GSTR-2 of the buyer as Inward supplies. For example, if the buyer purchases goods or services from 100 vendors in a month, the details of all such purchases will be reflected in GSTR-2A & GSTR-2 of the buyer, provided all 100 vendors have uploaded their sales in GSTR-1.
+- Line wise details of all invoices, supplementary invoices, debit notes and credit notes issued by a vendor or supplier towards Outward supplies made during a month shall be reported in GSTR-1 by 10th of the succeeding month.
+- Sales uploaded by the supplier or vendor in GSTR-1 are auto-reflected in GSTR-2A and GSTR-2 of the buyer as Inward supplies. For example, if the buyer purchases goods or services from 100 vendors in a month, the details of all such purchases will be reflected in GSTR-2A & GSTR-2 of the buyer, provided all 100 vendors have uploaded their sales in GSTR-1.
 - Purchase transactions posted in the system for preceeding month shall be reconciled with the supplier-uploaded information in GSTR-2A. However, there may be certain discrepancies between the two due to the following reasons:
   - Supplier or suppliers have ignored to upload invoice details in their GSTR-1
   - Supplier entering wrong GSTIN of the buyer
@@ -28,7 +28,7 @@
 - The buyer can add, modify and delete the auto-populated information in GSTR-2. Such information is made available to supplier in GSTR-1A. The supplier can accept or reject the modifications made by the buyer and supplier’s GSTR-1 shall stand amended to the extent of modifications accepted.
 - Buyer can avail credit with respect to invoice lines matched with the information in GSTR-2A. Though buyer can avail mismatched credit on a provisional basis, the same will get auto-reversed, if the supplier fails to upload invoices.
 - To summarize, Reconciliation feature is required to:
-  - Identify the purchase transactions, which are matched/unmatched with GSTR-2A. 
+  - Identify the purchase transactions, which are matched or unmatched with GSTR-2A. 
   - To ascertain the modifications required to be made in GSTR-2 and follow up the supplier to accept the same
   - Monitor unmatched transaction lines, if credit is availed on a provisional basis.
 - Purchases as per the books of account of buyer shall be matched with the supplier-uploaded information in GSTR-2A,  every month before uploading GSTR-2 by the buyer.

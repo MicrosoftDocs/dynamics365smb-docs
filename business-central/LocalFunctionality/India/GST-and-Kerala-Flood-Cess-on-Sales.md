@@ -26,7 +26,7 @@ Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/o
 
 3. Select **Item Code** for goods or **G/L Account** for service sales on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on **Item** or **G/L Account**. 
 
-For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction) and 1% Kerala Flood Cess has to be charged on the invoice amount.
+For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction) and 1% Kerala Flood Cess has to be charged on the invoice amount.
 
 -  GST calculation will appear in the Fact Box, as following:
     
@@ -37,12 +37,12 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
     |**SGST**|900|
     |**KFC**|100|
 
-- On posting the sales invoice for Intra-State/Intra-Union Territory sale of goods to unregistered customer, GL Entries will be as following:
+- On posting the sales invoice for Intra-State or Intra-Union Territory sale of goods to unregistered customer, GL Entries will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Customer Account**|13700|  
-    |**SGST/UTGST/Payable Account**|-1800|  
+    |**SGST/UTGST Payable Account**|-1800|  
     |**CGST Payable Account**|-1800|
     |**Kerala Flood Cess**|-100|
     |**Sales Account**|-10000|

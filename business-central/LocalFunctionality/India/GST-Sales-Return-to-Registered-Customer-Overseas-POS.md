@@ -1,6 +1,6 @@
 ---
-    title: Return/Credit Note of Services for Overseas Place of Supply to Registered Customer
-    description: Return/Credit Note of Services for Overseas Place of Supply to Registered Customer
+    title: Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
+    description: Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 
     author: v-debapd
 
@@ -14,9 +14,9 @@
     ms.author: v-debapd
 
 ---
-# Return/Credit Note of Services for Overseas Place of Supply to Registered Customer
+# Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 
-## Create a Sales Return Order/Credit Memo
+## Create a Sales Return Order or Credit Memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.
@@ -29,7 +29,7 @@
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|  
   
-6. GL Entries for Intra-State Return/Credit Note of services for overseas place of supply to registered customer, will be as following:
+6. GL Entries for Intra-State Return or Credit Note of services for overseas place of supply to registered customer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -37,9 +37,6 @@
     |**IGST Payable Account**|1800|
     |**Customer Account**|-11800|
 
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

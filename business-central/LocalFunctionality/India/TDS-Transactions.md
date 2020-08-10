@@ -25,20 +25,20 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 
 ## Mandatory fields for TDS calculation on General Journal, Purchase Journal, Purchase Invoice, Purchase Order.
 
-- Create General Journal/Purchase Journal
+- Create General Journal or Purchase Journal
 
 1.  Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Purchase Journal**, and then choose the related link. 
 2. Select **Vendor** in Account Type and select relevant vendor code in Account No. field. Select **G/L Account** in Bal. Account Type and select relevant expense account in Bal. Account No. field.
 3. Select relevant **TDS Section** on journal line.  **Location Code** and **T.A.N No.** fields should not be blank.
 
-- Create Purchase Invoice/Purchase Order
+- Create Purchase Invoice or Purchase Order
 
 1.  Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
 2. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
 3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
 4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.
 
-### TDS to be calculated on Vendor Invoice (through General Journal/Purchase Journal/Purchase Invoice/Purchase Order)
+### TDS to be calculated on Vendor Invoice (through General Journal, Purchase Journal, Purchase Invoice or Purchase Order)
 
 - In the given scenario, vendor has issued an invoice for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
   
@@ -57,7 +57,7 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
     |**TDS Payable Account**|-1000| 
     |**Vendor Account**|-49000|
 
-### TDS to be calculated on Vendor Advance Payment (through General Journal/Payment Journal)
+### TDS to be calculated on Vendor Advance Payment (through General Journal or Payment Journal)
 
 - In the given scenario, advance payment made to vendor for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
 
@@ -206,9 +206,7 @@ If a vendor have a certificate of concessional rate instead of normal rate then 
 > [!NOTE]
 > Concession Code must be selected on vendor master for lower or zero rated TDS transactions.
 
-> [!NOTE]
->
-> Relevant TDS attributes are stored along with the transaction for generating eTDS returns and paying TDS to government authorities.
+
 
 
 

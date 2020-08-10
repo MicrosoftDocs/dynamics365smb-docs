@@ -22,7 +22,7 @@
 
 2. Select **Customer** on **Sales Invoice** header.
 
-3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
+3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
 
 6. GST calculation will appear in the Fact Box, as following:
     
@@ -46,12 +46,8 @@
 > [!TIP]
 > In case of Inter-State Sales, IGST will be calculated with TCS as per the Income Tax Act, 1961.
 
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
-> [!NOTE]
-> Relevant TCS attributes to be stored along with the transaction for generating e-TCS returns and paying TCS to the Income Tax department.
+
 
 
 

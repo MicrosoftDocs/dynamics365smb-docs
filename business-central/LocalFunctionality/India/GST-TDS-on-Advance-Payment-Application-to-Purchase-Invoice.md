@@ -30,7 +30,7 @@ Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
 For example, service amount is INR 20000 and advance payment made to vendor for INR 10000, 18% GST (i.e. 9% CGST and 9% SGST/UTGST) and 10% TDS has to be charged.
 
-- GST calculation for Intra-State/Intra-Union Territory transactions will appear in the Fact Box, as following:
+- GST calculation for Intra-State or Intra-Union Territory transactions will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -44,7 +44,7 @@ For example, service amount is INR 20000 and advance payment made to vendor for 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Vendor Account**|10,000|  
-    |**SGST/UTGST/Receivable (Interim) Account**|900|  
+    |**SGST/UTGST Receivable (Interim) Account**|900|  
     |**CGST Receivable (Interim) Account**|900| 
     |**TDS Payable Account**|-1000|
     |**SGST/UTGST Payable Account**|-900| 

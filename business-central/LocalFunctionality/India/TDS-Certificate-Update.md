@@ -21,7 +21,7 @@
 
 - Assign TDS Certificate details
 
-Customer Ledger entries, which are not marked, against which TDS certificate is receivable can be assigned separately. Provision is available to mark the posted customer transactions (invoices/payments) for which TDS certificate is receivable.
+Customer Ledger entries, which are not marked, against which TDS certificate is receivable can be assigned separately. Provision is available to mark the posted customer transactions (invoices or spayments) for which TDS certificate is receivable.
 
 1. Choose the ![img](image/search.jpg)icon, enter **Update TDS Certificate Details**, and then choose the related link. 
 2. Select relevant customer code in **Customer No.** field then Acton -> Function -> Assign TDS Cert. Details, system will open the customer ledger entry of the customer. Select and update the relevant documents by marking 'TDS Certificate Receivable' field true. Marked document will be removed from the 'Assign TDS Cert. Details' page and will be added in 'Update TDS Cert. Details' page.

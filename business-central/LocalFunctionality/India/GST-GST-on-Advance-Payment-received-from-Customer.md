@@ -20,9 +20,9 @@
 
 An advance received from a customer needs to be reported in GSTR-1 with GST Rate wise for whole period.
 
-### Create a General Journal or a Bank/Cash Receipt Voucher
+### Create a General Journal or a Bank or Cash Receipt Voucher
 
-1. Choose the ![img](image/search.jpg)icon, enter **General Journal**/**Bank Payment Voucher**/**Cash Receipt Voucher**, and then choose the related link.
+1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Bank Payment Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Select **Customer** in account type and select relevant **Customer Code**, GST customer type and registration number should not be blank on customer master.
 3. Select **G/L Account** or **Bank Account** in balancing account type, and select the cash or bank account. For example, advance payment received from customer for INR 10000 on which 18% GST (i.e. 9% CGST and 9% SGST/UTGST) has to be charged.
 4. GST on Advance Payment field needs to be activated in General Journal Line for computation of GST on Advance Payment. In addition, GST Group code and GST Place of Supply are to be entered for computation of GST.
@@ -64,9 +64,7 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 > [!TIP]
 > In case of Inter-State Advance Payment, IGST will be calculated.
 
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
+
 
 
 

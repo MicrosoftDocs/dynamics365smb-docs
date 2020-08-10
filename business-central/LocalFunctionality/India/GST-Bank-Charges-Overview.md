@@ -58,7 +58,7 @@ This setup is required to calculate GST on bank charges.
     |**Code**|Specifies the unique identification code of Bank Charge.|
     |**Description**|Specifies the description of the Bank Charge.|
     |**Account**|Specifies the general ledger account for Bank Charge.|
-    |**Foreign Exchange**|Specifies the Bank Charges that are applicable on Foreign Exchange Sales/Purchase under GST. For foreign Exchange bank charges, the GST calculation is based on Deemed Value of purchase/sale.|
+    |**Foreign Exchange**|Specifies the Bank Charges that are applicable on Foreign Exchange Sales or Purchase under GST. For foreign Exchange bank charges, the GST calculation is based on Deemed Value of purchase or sale.|
     |**GST Group Code**|Specifies the relevant GST Group Code.|
     |**GST Credit**|GST Credit can be Availment or Non-Availment. This field by default displays Availment. If credit cannot be availed on any Bank Charges, then Non-Availment shall be selected manually from the drop down. |
     |**HSN/SAC**|All HSN/SAC Codes for GST Group code selected above shall be displayed as a dropdown for this field, business user has to select appropriate code.|

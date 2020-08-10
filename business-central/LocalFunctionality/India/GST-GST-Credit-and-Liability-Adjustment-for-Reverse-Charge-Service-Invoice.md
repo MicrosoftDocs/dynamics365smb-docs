@@ -37,7 +37,7 @@
     |**External Document No.**|System will verify only for this document|
     |**Nature of Adjustment**|User need to select the option, available options: Generate, Reverse|
     
-For example vendor issued invoice for INR 10000, in an Intra-State/Intra-Union Territory transaction, and GST 18% (9% CGST and 9% SGST), has to be charged.
+For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Union Territory transaction, and GST 18% (9% CGST and 9% SGST), has to be charged.
 
 1. GL Entries at the time of posting invoice where Input Tax Credit is available, will be as following:
 

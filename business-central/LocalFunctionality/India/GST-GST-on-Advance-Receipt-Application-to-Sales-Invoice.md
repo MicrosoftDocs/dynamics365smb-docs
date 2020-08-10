@@ -29,7 +29,7 @@ GST can also be liable at the time of receiving advance payment from customer. F
     |**CGST**|763 (8,475*9%)|  
     |**SGST**|763 (8,475*9%)|
 
-Later sales invoice for services is issued to the customer for INR 20,000. 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
+Later sales invoice for services is issued to the customer for INR 20,000. 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
 
 1. GST calculation will appear in the Fact Box, as following:
 
@@ -72,6 +72,3 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > In case of Inter-State Sale, IGST will be calculated.
 
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.

@@ -68,7 +68,7 @@ TDS certificate will be receivable from customer on receiving the advance paymen
 
 #### TDS Certificate is receivable against payment received from customer or against customer sales invoice
 
-It is required to identify the payment/invoice transaction against which TDS certificate is receivable while receiving the payment from customer who has deducted TDS or issuing the sales invoice on which TDS has been deducted, it is required to identify the payment/invoice transaction against which TDS certificate is receivable.
+It is required to identify the payment or invoice transaction against which TDS certificate is receivable while receiving the payment from customer who has deducted TDS or issuing the sales invoice on which TDS has been deducted, it is required to identify the payment or invoice transaction against which TDS certificate is receivable.
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Cash Receipt Journal**, **Bank Receipt Voucher**, **Cash Receipt Voucher** or **Sales Invoice**, and then choose the related link.
 2. **TDS Certificate Receivable** should be marked true on **Journal** line or **Sales Invoice** header.

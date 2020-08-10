@@ -18,7 +18,7 @@
 
 ## Stock Transfer
 
-Stock transfers between locations/branches/divisions having different registration numbers are taxable under GST. In such a case, where registration number is same, if the shipment location and recipient location both are in the same state, then CGST and SGST/UTGST are levied, other-wise, where the registration number is same, there shall be no levy.
+Stock transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, where registration number is same, if the shipment location and recipient location both are in the same state, then CGST and SGST/UTGST are levied, other-wise, where the registration number is same, there shall be no levy.
 
 1.  Choose the ![img](image/search.jpg)icon, enter **Transfer Order**, and then choose the related link. 
 2. Select **Transfer-from Code** and **Transfer-to Code** on **Transfer Order** header.  State Code and GST registration number should be filled on the location master.
@@ -26,7 +26,7 @@ Stock transfers between locations/branches/divisions having different registrati
 3. Select **Item** on **Transfer Order** line. GST Group Code, HSN/SAC Code should be filled on **Item**.
 
 
-For example, inventory for INR 1000 is being transferred from one location to another and 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on INR 1000.
+For example, inventory for INR 1000 is being transferred from one location to another and 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on INR 1000.
 
 4. GST calculation will appear in the Fact Box, as following:
     
@@ -57,7 +57,7 @@ For example, inventory for INR 1000 is being transferred from one location to an
     |**Inventory Account**|1000|
     |**Inventory Adjustment Account**|-1000|
 
-- GL Entries for shipment transaction in case of Intra-State/Intra-Union Territory stock transfer, will be as following:
+- GL Entries for shipment transaction in case of Intra-State or Intra-Union Territory stock transfer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -67,7 +67,7 @@ For example, inventory for INR 1000 is being transferred from one location to an
     |**Inventory Account**|-1000|
     |**Inventory Adjustment Account**|1000|
 
-- GL Entries for receipt transaction in case of Intra-State/Intra-Union Territory stock transfer, will be as following:
+- GL Entries for receipt transaction in case of Intra-State or Intra-Union Territory stock transfer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

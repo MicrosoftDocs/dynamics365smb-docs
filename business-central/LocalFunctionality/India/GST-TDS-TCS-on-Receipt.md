@@ -16,9 +16,9 @@
 ---
 ## GST TCS on Customer Payments
 
-GST TCS can be liable on cash/bank payment from customer. The GST TCS entries which are not reversed will be part of settlement. Business user can reverse the GST TCS entries before settlement is posted. The GST TCS entries which have Credit Availed field 'TRUE' will be shown on settlement page. User can manually enter amount in GST TCS Credit Utilized field for utilizing against the liability.
+GST TCS can be liable on cash or bank payment from customer. The GST TCS entries which are not reversed will be part of settlement. Business user can reverse the GST TCS entries before settlement is posted. The GST TCS entries which have Credit Availed field 'TRUE' will be shown on settlement page. User can manually enter amount in GST TCS Credit Utilized field for utilizing against the liability.
 
-For example, INR 1000 paid by the customer and 1% GST TCS (0.50% CGST, 0.50% SGST for Intra-State/Intra-Union Territory and 1% IGST for Inter State) has to be charged on the payment amount.
+For example, INR 1000 paid by the customer and 1% GST TCS (0.50% CGST, 0.50% SGST for Intra-State or Intra-Union Territory and 1% IGST for Inter State) has to be charged on the payment amount.
  
 1. Choose the ![img](image/search.jpg)icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Fill in the fields as described on **Bank Receipt Voucher** or **Cash Receipt Voucher**.
@@ -65,7 +65,7 @@ For example, INR 1000 paid by the customer and 1% GST TCS (0.50% CGST, 0.50% SGS
 
 ## GST TDS on Customer Payment
 
-GST TDS is applicable for Registered Customers. User can calculate GST TDS on cash/bank payment from customer, user needs to enter GST TDS/TCS Base Amount manually for calculating GST TDS. 
+GST TDS is applicable for Registered Customers. User can calculate GST TDS on cash or bank payment from customer, user needs to enter GST TDS/TCS Base Amount manually for calculating GST TDS. 
 
 A provision for updating GST TDS certificate details is available under Financial Management > Periodic Activities > GST > Task: Update GST TDS Certificate Dtl. The GST TDS entries against which the certificate is received will be a part of GST settlement.
 

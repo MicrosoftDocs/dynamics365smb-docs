@@ -29,21 +29,21 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 
 ## Mandatory fields for TCS calculation on General Journal, Sales Journal, Cash Receipt Journal, Sales Invoice, Sales Order, Sales Return Order, Sales Credit Memo.
 
-- Create General Journal/Sales Journal/Cash Receipt Journal/Bank Receipt Journal
+- Create General Journal, Sales Journal, Cash Receipt Journal or Bank Receipt Journal
 
 1.  Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link. 
 2. Select **Customer** in Account Type and select relevant customer code in Account No. field. 
 3. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. filed.
 4. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields should not be blank.
 
-- Create Sales Invoice/Sales Order
+- Create Sales Invoice or Sales Order
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, **Sales Order**, **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
 2. Select **Customer**, **Location Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** header.
 3. Select **G/L Account** or **Item Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** line.
 4. **TCS Nature of Collection**, **Location Code** and **T.C.A.N No.** fields should not be blank.
 
-### TCS to be calculated on Customer Invoice (through General Journal/Sales Journal/Sales Invoice/Sales Order)
+### TCS to be calculated on Customer Invoice (through General Journal, Sales Journal, Sales Invoice or Sales Order)
 
 - For example, invoice has been issued to customer for INR 10,000 on which 1% TCS is applicable for Nature of Collection 'Scrap'.
   
@@ -62,7 +62,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
     |**TCS Payable Account**|-100|
     |**Sales Account**|-10000|
 
-## TCS to be calculated on Customer Advance Payment (through General Journal/Cash Receipt Journal)
+## TCS to be calculated on Customer Advance Payment (through General Journal or Cash Receipt Journal)
 
 - For example, advance payment received from customer for INR 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”
 
@@ -124,8 +124,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
     |**TCS Payable Account**|-6500|
     |**Sales Account**|-650000|
 
-> [!TIP]
-> Relevant TCS attributes are stored along with the transaction for generating e-TCS returns and paying TCS to government authorities in Local Currency.
+
 
 ## TCS calculation on Higher rate if Customer is not having PAN No.
 
@@ -227,5 +226,3 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 > [!NOTE]
 > If Credit Memo is created before remittance of Tax to government, then TCS entries will get reversed proportionately, on the basis of the quantity returned. In case TCS amount has been remitted to Income Tax department, TCS Payable account will not be reversed.
 
-> [!NOTE]
-> Relevant TCS attributes are stored along with the transaction for generating e-TCS returns and paying TCS to government authorities.

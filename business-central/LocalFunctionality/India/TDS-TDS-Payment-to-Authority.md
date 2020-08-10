@@ -18,7 +18,7 @@
 
 ## Payment of TDS to Government Authorities
 
-The TDS that have been deducted on various transactions, needs to be deposited to the government. Payment of TDS will be handled through Payment Journal/General Journal. Provision available to select the TDS Entries which assessee needs to pay to government authorities depends on the basis of filters, for example – TAN, Assesses, Date etc.
+The TDS that have been deducted on various transactions, needs to be deposited to the government. Payment of TDS will be handled through Payment Journal or General Journal. Provision available to select the TDS Entries which assessee needs to pay to government authorities depends on the basis of filters, for example – TAN, Assesses, Date etc.
 
 1. Choose the ![img](image/search.jpg)icon, enter **Payment Journal** or **Bank Payment Voucher**, and then choose the related link.
 2. Select the relevant TDS payable account number in **Account No.** field -> Select relevant TAN in **T.A.N No.** field -> Navigate -> Pay TDS -> then click on TDS, select entries and system will generate TDS payment entry in the journal line. 
@@ -32,9 +32,7 @@ The TDS that have been deducted on various transactions, needs to be deposited t
     |**Bank Account**|-10000|
 
 
-> [!NOTE]
->
-> Relevant TDS attributes are stored along with the transaction for generating eTDS returns and paying TDS to government authorities.
+
 
 
 

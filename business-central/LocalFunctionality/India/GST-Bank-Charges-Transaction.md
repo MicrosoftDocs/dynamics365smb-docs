@@ -44,7 +44,7 @@
     |----------------------------------|---------------------------------------|  
     |**Bank Charges**|10000|  
     |**CGST Receivable Account**|900|
-    |**SGST/UTGST/Receivable Account**|900|
+    |**SGST/UTGST Receivable Account**|900|
     |**Bank Account**|-11800|
 
 - Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and 18% IGST has to be calculated on bank charges amount.
@@ -114,7 +114,7 @@ As per GST law, A person supplying the services of exchange of foreign currency 
    5. Select Process on the ribbon and click on Bank Charges -> select Bank Charge code and system will calculate the GST on bank charge amount. **External Document No.** and **GST Document Type** fields should not be blank on **Journal Bank Charges** line.
    6. GST Credit, GST Group Code and HSN/SAC Code should not be blank on Bank Charge Code.
 
-Let us take the following example and check the G/L entries of the posted transactions for different scenarios.
+Let us take the following example and check the GL entries of the posted transactions for different scenarios.
 
 |Bank Charge Code|Lower limit|Upper limit|Formula |Min. Deemed Value|Max Deemed Value|Deemed %|Fixed Amount|
 |---------|---------|--|--|--|--|--|--|
@@ -128,8 +128,8 @@ Let us take the following example and check the G/L entries of the posted transa
     |**CGST**|9%|  
     |**SGST**|9%|
     |**IGST**|18%|
-    |**Document Type**|Refund/Payment|
-    |**Account Type**|Vendor/Customer (Registered)|
+    |**Document Type**|Refund or Payment|
+    |**Account Type**|Vendor or Customer (Registered)|
     |**Amount**|USD -1000|
     |**Currency**|USD (Exchange Rate 65)|
     |**Amount (LCY)**|INR -65000|

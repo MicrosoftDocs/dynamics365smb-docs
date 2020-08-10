@@ -45,7 +45,7 @@ The net liability from below sources are shown in Payment Liability:
   - Advance Receipt 
   - Refund
   - Reversal of Advance Receipt
-  - Transactions posted through Sales/Service documents 
+  - Transactions posted through Sales or Service documents 
   - Warehouse Transfer Shipments
   - Service Transfer Shipments
   - Subcontracting Liability
@@ -96,7 +96,7 @@ The net credit from below sources are shown in Credit Availed for Settlement.
 10. Credit utilized and payment amount shall not exceed tax liability.
 11. Total credit utilized for a particular component shall not exceed total credit availed of that components plus Surplus credit of other components prioritized in claim-set off table for such component.
 12. Account No. and Account Type shall be the same for all tax components. However, Interest Account, Fees Account, Penalty Account and Others Account can be defined differently for different tax components.
-13. Credit cannot be utilized for payment of reverse charge liability. The entire liability is to be discharged in cash. Once settlement is done for any payment/refund document, the same cannot be reversed in system.
+13. Credit cannot be utilized for payment of reverse charge liability. The entire liability is to be discharged in cash. Once settlement is done for any payment or refund document, the same cannot be reversed in system.
 14. Provision for dimensions are also available on settlement page.
 
 Following are few examples of accounting entries.

@@ -16,11 +16,11 @@
 ---
 # Sales Return of Goods from Registered or Unregistered Customer
 
-## Create a Sales Return Order/Credit Memo
+## Create a Sales Return Order or Credit Memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered** or **Unregistered**.
-3. Select **Item Code** for goods or **G/L Account** for Service Sale on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on Item or G/L Account. For example, there is a sales credit memo for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State/Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the credit memo amount.
+3. Select **Item Code** for goods or **G/L Account** for Service Sale on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on Item or G/L Account. For example, there is a sales credit memo for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the credit memo amount.
 4. GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
@@ -34,7 +34,7 @@
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Sales Account**|10,000|  
-    |**SGST/UTGST/Payable Account**|900|  
+    |**SGST/UTGST Payable Account**|900|  
     |**CGST Payable Account**|900|
     |**Customer Account**|-11800|
 
@@ -51,7 +51,7 @@
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Service Account**|10,000|  
-    |**SGST/UTGST/Payable Account**|900|  
+    |**SGST/UTGST Payable Account**|900|  
     |**CGST Payable Account**|900|
     |**Customer Account**|-11800|
 
@@ -64,9 +64,6 @@
     |**Customer Account**|- 11800|
 
 
-> [!NOTE]
->
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 
 
 

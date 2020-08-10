@@ -20,11 +20,11 @@
 
 TDS Threshold defines the threshold limit for each TDS Section.  TDS can be deducted only if the total transaction with the assessee exceeds the threshold limit in the financial year.
 
-In a scenario where, credit/payment to a contractor under TDS Section 194C is below TDS threshold limit of INR 1,00,000 in aggregate in a financial year and single transaction threshold limit INR 30,000, TDS will not be deducted. 
+In a scenario where, credit or payment to a contractor under TDS Section 194C is below TDS threshold limit of INR 1,00,000 in aggregate in a financial year and single transaction threshold limit INR 30,000, TDS will not be deducted. 
 
-In the example given below, four transactions of INR 29,000 took place in a financial year, on the fourth transaction TDS will be deducted as the aggregate (previous transactions) credit/payment amount exceeds the TDS threshold limit of INR 1,00,000. TDS Calculation as following:
+In the example given below, four transactions of INR 29,000 took place in a financial year, on the fourth transaction TDS will be deducted as the aggregate (previous transactions) credit or payment amount exceeds the TDS threshold limit of INR 1,00,000. TDS Calculation as following:
 
-   |Particulars|Amount Credited/Paid|TDS Rates|TDS Amount|Threshold Limit|
+   |Particulars|Amount Credited or Paid|TDS Rates|TDS Amount|Threshold Limit|
    |--------------------|-----------------------|-----------------|----------|-------|  
    |First Invoice|29000|2%|Zero|Less than Single Transaction Threshold Limit 30,000|
    |Second Invoice|29000|2%|Zero|Less than Single Transaction Threshold Limit 30,000|
@@ -60,9 +60,7 @@ In the example given below, four transactions of INR 29,000 took place in a fina
     |**TDS Payable Account**|2140| 
     |**Vendor Account**|-29000|
 
-> [!NOTE]
->
-> Relevant TDS attributes are stored along with the transaction for generating eTDS returns and paying TDS to government authorities.
+
 
 
 

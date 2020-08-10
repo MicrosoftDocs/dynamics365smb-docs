@@ -24,6 +24,11 @@ Depending on the type of page and what it includes, you can make various changes
 > Administrators can perform the same layout changes as users can by customizing the workspace for a profile that multiple users are assigned. For more information, see [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
+## Video Overview
+The following video shows some of the ways in which you can personalize your Role Center.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
+
 ## To change the width of a column
 You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.
 1. In the header of a list, select and drag the boundary between two columns.

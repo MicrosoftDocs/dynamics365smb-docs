@@ -17,7 +17,7 @@ ROBOTS: NOINDEX
 # The Dynamics GP Data Migration Extension
 
 > [!NOTE]
-> This extension is deprecated in the 15.3 update. We recommend that users who want to migrate from Dynamics GP start using the **Cloud Migration** wizard instead. The **Cloud Migration** extension has more robust functionality and brings more data into Business Central from Dynamics GP. For more information, see [Migrate to Business Central Online from Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) in the administration content for [!INCLUDE [prodshort](includes/prodshort.md)].
+> This extension is deprecated in the 15.3 update. We recommend that users who want to migrate from Dynamics GP start using the **Cloud Migration** wizard instead. The **Cloud Migration** extension has more robust functionality and brings more data into Business Central from Dynamics GP. For more information, see [Migrate to Business Central Online from Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## See Also
 

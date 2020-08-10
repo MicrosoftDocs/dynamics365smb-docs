@@ -41,7 +41,7 @@ To change the region, go to the **My Settings** page. For more information, see 
 
 ## Application Version
 
-In the **Help and Support** page, you can see the version of [!INCLUDE [prodshort](includes/prodshort.md)] that your company is based on. If you want to base a company on a different version, your administrator can create a new production environment. For more information, see [Create a new production environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) in the developer- and IT Pro content.  
+In the **Help and Support** page, you can see the version of [!INCLUDE[prodshort](includes/prodshort.md)] that your company is based on. If you want to base a company on a different version, your administrator can create a new production environment. For more information, see [Create a new production environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) in the developer- and IT Pro content.  
 
 ## Languages of the [!INCLUDE[d365fin](includes/d365fin_md.md)] Help
 The Help content for the core functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] publishes to the Microsoft Docs site and available in a number of different languages. If you access the docs from inside [!INCLUDE[d365fin](includes/d365fin_md.md)], the content will display in your language. If a particular page is not available in your language yet, it will be shown in English.

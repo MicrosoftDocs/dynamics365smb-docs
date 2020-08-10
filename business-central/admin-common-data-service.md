@@ -8,10 +8,11 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 10/01/2019
+ms.date: 06/30/2020
 ---
 
 # Integrating with Common Data Service
+
 Business apps often use data from more than one source. [!INCLUDE[d365fin](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on top of [!INCLUDE[d365fin](includes/cds_long_md.md)], to [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information about [!INCLUDE[d365fin](includes/cds_long_md.md)], see [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
 The following steps provide an overview of the steps to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -35,13 +36,14 @@ Depending on your business needs, you can set up the integration to synchronize 
 [!INCLUDE[d365fin](includes/cds_long_md.md)] securely stores data in a set of entities, which are sets of records similar to how a table stores data within a database. [!INCLUDE[d365fin](includes/cds_long_md.md)] includes a base set of standard entities that cover typical scenarios, but you can also create custom entities specific to your organization. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can view standard and custom entities being synchronized on the Integration Table Mappings page.
 
 ## About the Base CDS Integration Solution
+
 The Base CDS Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates entities needed to map [!INCLUDE[d365fin](includes/d365fin_md.md)] company to business unit in [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
 
 By default, the **Set up [!INCLUDE[d365fin](includes/cds_long_md.md)] connection** assisted setup guide will import the solution. To do that, the setup guide uses an administrator user account that you specify. This account must be a valid user in [!INCLUDE[d365fin](includes/cds_long_md.md)] with the following security role:
 
 * System Administrator  
 
-For more information, see [Setting Up User Accounts for Integrating with [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) and [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles.md). 
+For more information, see [Setting Up User Accounts for Integrating with [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) and [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
 
 The administrator account is used only one time during the setup due to configuration changes Base CDS Solution is making in [!INCLUDE[d365fin](includes/cds_long_md.md)]. After the solution is imported the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
 

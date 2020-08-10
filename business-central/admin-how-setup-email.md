@@ -105,9 +105,9 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
-[!INCLUDE [admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Next, you connect [!INCLUDE [prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
+Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
 ## See Also
 

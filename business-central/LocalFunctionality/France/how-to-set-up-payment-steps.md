@@ -19,7 +19,7 @@ To use payment management, you must set up steps for payment documents and defin
 
 ## To set up payment steps  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2.  Select a payment class, and then choose the **Steps** action.  
 3.  In the **Name** field, enter a name for the payment step. You can enter a maximum of 50 alphanumeric characters.  
 4.  Choose the **Edit** action.  

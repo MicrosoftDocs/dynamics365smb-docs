@@ -51,7 +51,7 @@ You can use your [!INCLUDE[prodshort](includes/prodshort.md)] data as part of a 
     > [!NOTE]
     > The [!INCLUDE[prodshort](includes/prodshort.md)] connector for Power Automate supports multiple production and sandbox environments. If you have not created multiple production or sandbox environments, **Production** is the only available option that you can choose.  
 
-    At this point, you have successfully connected to your Business Central[!INCLUDE [prodshort](includes/prodshort.md)] data and are ready to begin building your flow.
+    At this point, you have successfully connected to your Business Central[!INCLUDE[prodshort](includes/prodshort.md)] data and are ready to begin building your flow.
 
 9. To create from a template, choose the **Start from template** option.
 10. Search for **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** templates.

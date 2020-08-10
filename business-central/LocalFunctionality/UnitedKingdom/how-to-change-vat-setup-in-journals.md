@@ -15,11 +15,11 @@ ms.author: edupont
 ---
 # Change VAT Setup in Journals
 
-You can add VAT setup information to journal lines if needed in the British version of [!INCLUDE [prodshort](../../includes/prodshort.md)]. If you enter items without VAT, you do not need to remove VAT setup information manually.  
+You can add VAT setup information to journal lines if needed in the British version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. If you enter items without VAT, you do not need to remove VAT setup information manually.  
 
 ## To change VAT setup in journals  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
 2. On the **General Journal** page, choose the button in the **Batch Name** field.  
 3. On the **General Journal Batches** page, on the **Home** tab, choose **New**.  
 4. Enter information into the required fields.  

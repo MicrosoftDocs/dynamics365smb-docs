@@ -27,7 +27,7 @@ If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Off
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Office 365 experience
 
-If your company subscribes to [!INCLUDE [prodshort](includes/prodshort.md)] but you as a user no longer want access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continues the subscription, your coworkers will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+If your company subscribes to [!INCLUDE[prodshort](includes/prodshort.md)] but you as a user no longer want access, you must ask your administrator or your Dynamics 365 reselling partner to remove the [!INCLUDE[d365fin](includes/d365fin_md.md)] license from your Office 365 user account. If [!INCLUDE[d365fin](includes/d365fin_md.md)] is removed from your user account, and your company continues the subscription, your coworkers will still have access to your shared data in the [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
 
 If your company wants to unsubscribe from [!INCLUDE[d365fin](includes/d365fin_md.md)], the Dynamics 365 reselling partner can remove the paid subscription from the company's account. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the developer and IT-pro content.  
 

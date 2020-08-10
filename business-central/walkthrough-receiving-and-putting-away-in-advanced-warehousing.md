@@ -15,7 +15,7 @@
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
-[!INCLUDE [complete_sample_data](includes/complete_sample_data.md)]  
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 

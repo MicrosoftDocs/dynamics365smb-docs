@@ -96,6 +96,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!IMPORTANT]  
 > You must use the same option ID values from [!INCLUDE[d365fin](includes/cds_long_md.md)] when you extend the [!INCLUDE[d365fin](includes/d365fin_md.md)] enum. Otherwise synchronization will fail.
 
+> [!IMPORTANT]  
+> You must not use character "," in the Enum values and captions. Currently it is not supported by [!INCLUDE[d365fin](includes/d365fin_md.md)] runtime.
+
 > [!NOTE]
 > The first ten characters of the new option value names and captions must be unique. For example, two options named "Transfer 20 working days" and "Transfer 20 calendar days" will cause an error because both have the same first 10 characters, "Transfer 2". Name them, for example, "TRF20 WD" and "TRF20 CD."
 

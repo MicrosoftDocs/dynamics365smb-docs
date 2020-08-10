@@ -20,7 +20,7 @@ When you specify posting periods, you limit the period in which posting is allow
 
 ## To specify posting periods  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, in the **Allow Posting From** field, specify the start date of the posting period.  
 3. In the **Allow Posting To** field, specify the end date of the posting period.  
 

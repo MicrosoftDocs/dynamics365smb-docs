@@ -21,7 +21,7 @@ The Payment Management module allows you to export your payments electronically 
 
 ## To export payments  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2.  On the **Payment Class** page, select a payment class, and then choose the **Steps** action.  
 3.  On the **Payment Step** page, fill in the **Name** field.  
 4.  Choose the **Edit** action to open.  

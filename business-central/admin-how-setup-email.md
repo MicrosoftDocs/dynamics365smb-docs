@@ -51,6 +51,45 @@ To use your own app, there are a few things you must do.
 
 If you have already configured the email capabilities, you can continue using your current setup or you can start using the new email connectors. If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with those customizations when you start using the new email connectors.
 
+
+
+Notes from Tomas
+
+go to assisted setup and choose
+
+The SMTP page will soon be discontinued. 
+
+Go to the Email Accounts page. Yo can have more than one account
+
+USes 2 Factor Authentication.
+
+The SMTP connector uses the same information that we have now.
+
+YOu can have as many connectors as you want.
+
+Connectors are available in the AppStore.
+
+Sent Mails action opens a view of the messages you sent, even if the account is shared.
+
+The Email Outbox shows messages that failed. FOr example, if a message has an attachment is too large. 
+
+## Define Scenarios for Using an Account
+You can specify the email account to always use for certain types of documents. Set Up Email Scenarios action lets you define how you want to use an account. For example, you can specify that you want to use an account for sales and purchase documents.
+
+The connectors are available by default.
+
+Two people can use the same address, for example, sales@cronus.com. To do that, you must go to Azure AD to allow multiple users to use the same account. To do that, go to Microsoft 365 admin center, Active Users, choose the user, choose Mail blade, and Manage email account, and then Send on behalf of permissions. Add the account to use, and then save you setting. **This is the new send on behalf of feature** You must make sure that all users have access to the account if you choose a shared account.
+
+For existing tenants, the admin must decide whether to turn it on.
+
+Need a "set up email account" topic
+
+how to set up accounts
+how to set up a connector
+how to assign accounts to processes
+
+
+
 -->
 
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.

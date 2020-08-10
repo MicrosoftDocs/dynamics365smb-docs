@@ -21,7 +21,7 @@ Withholding Tax (WHT) is calculated for local vendors who do not have an Austral
 
 ## To set up vendors without ABN for calculating the withholding tax  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Choose the required vendor, and then choose the **Edit** action.  
 3.  On the **Vendor Card** page, make sure the **ABN** field and the **Foreign Vend** field are empty.  
 4.  Choose the **OK** button.  

@@ -21,7 +21,7 @@
 
 ## To create a VAT statement  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement AT**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement AT**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

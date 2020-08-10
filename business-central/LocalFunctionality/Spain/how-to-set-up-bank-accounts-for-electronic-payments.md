@@ -19,7 +19,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up bank accoun
 
 ## To set up bank accounts for electronic payments  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
 2.  On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
 
@@ -36,7 +36,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up bank accoun
 
 ## To set up vendor bank accounts for electronic payments  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

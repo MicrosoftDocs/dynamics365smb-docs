@@ -23,7 +23,7 @@ The following procedure describes how to create payment slips for vendor payment
 
 ## To create a payment slip for vendors  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Choose the **New** action.  
 3.  On the **Payment Slip** page, choose a field to open the **Payment Class List** page.  
 4.  Select a payment class, and then choose the **OK** button.  
@@ -110,7 +110,7 @@ After you create a payment slip, you can generate payment files and send them to
 
 ## To create a payment file  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select a payment slip, and then choose the **Edit** action.  
 3.  On the **Payment Slip** page, choose the **Generate file** action.  
 4.  Choose the **Yes** button, and then choose the **OK** button.  

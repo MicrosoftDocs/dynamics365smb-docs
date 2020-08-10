@@ -15,7 +15,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **VAT Reco
 
 ### To print a VAT reconciliation report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Reconciliation**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reconciliation**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

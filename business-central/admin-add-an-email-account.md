@@ -19,12 +19,12 @@ ms.author: bholtorf
 >
 > If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors. 
 
-You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send and receive email messages without having to switch apps. You can compose each message individually with basic formatting tools (fonts, styles, colors, and so on) and add attachments (up to 100MB), or create templates that contain pre-defined, reusable texts. For more information, see [Send Documents by Email](ui-how-send-documents-email).
+You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send and receive email messages without having to switch apps. You can compose each message individually with basic formatting tools (fonts, styles, colors, and so on) and add attachments (up to 100MB), or create templates that contain pre-defined, reusable texts. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
 To use email features, you can either use the email connectors we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-add-an-email-account.md#using-your-own-email-app).
 
 ## About Email Connectors
-You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using email connectors. The following table describes the standard email connectors that are available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using email connectors. You can have as many connectors as you want, but only one of each type and one email account for each connector. The following table describes the standard email connectors that are available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
@@ -57,12 +57,12 @@ To use your own app, there are a few things you must do.
 
    |Permission  |Type  |Description  |
    |---------|---------|---------|
-   |Mail.Send|Delegated|Send mail as a user         |
-   |Mail.Send.Shared|Delegated|Send mail on behalf of others  |
+   |Mail.Send|Delegated|Send email as a user         |
+   |Mail.Send.Shared|Delegated|Send email on behalf of others  |
    |offline_access|Delegated|Maintain access to data you have given it access to|
    |openid|Delegated|Sign users in|
    |User.Read|Delegated|Sign in and read user profile|
-3. Run the **Set up email** assisted setup guide to connect your email account.
+3. Run the **Set up email** assisted setup guide to connect your email connector.
 
 ## See Also
 [Set Up Email](admin-how-setup-email.md)

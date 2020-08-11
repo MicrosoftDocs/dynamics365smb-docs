@@ -19,9 +19,9 @@ ms.author: bholtorf
 >
 > If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors. 
 
-You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send email messages without having to switch apps. You can compose each message individually with basic formatting tools and add attachments, or create templates that contain pre-defined texts.
+You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send and receive email messages without having to switch apps. You can compose each message individually with basic formatting tools (fonts, styles, colors, and so on) and add attachments (up to 100MB), or create templates that contain pre-defined, reusable texts. For more information, see [Send Documents by Email](ui-how-send-documents-email).
 
-To use email features, you can either use the email connectors we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-how-setup-email.md#using-your-own-email-app).
+To use email features, you can either use the email connectors we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-add-an-email-account.md#using-your-own-email-app).
 
 ## About Email Connectors
 You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using email connectors. The following table describes the standard email connectors that are available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -29,9 +29,9 @@ You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
 |Office 365     |Specific account. Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization.<br><br> Two or more people can use the same address, for example, sales@cronus.com. This requires that you set up the account in Azure Active Directory to allow multiple users. To allow multiple users to use the same account, go to the **Microsoft 365 admin center**, choose **Active Users**, choose the user, choose **Mail**, **Manage email account**, and then **Send on behalf of permissions**. Add the account to use, and then save your setting. If you add a shared account, all users must have access to the account.|
-|Office 365     |Own accounts. Everyone sends email from their own account.|Allow individual communications.|
-|Outlook     |Outlook.com, Live.com, Hotmail, MSN|Allow individual communications.|
-|Other (SMTP)     |Use SMTP protocol to send emails.|         |
+|Office 365     |Own accounts. Everyone sends email from their own account.|Allow communications from individual accounts.|
+|Outlook     |Outlook.com, Live.com, Hotmail, MSN|Allow communications from individual accounts.|
+|Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
 
 > [!NOTE]
 > The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
@@ -43,11 +43,11 @@ To quickly add an account, use the **Set up email** assisted setup guide to comp
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 ## Assign Accounts to Business Scenarios
-You can use specific email accounts for specific business scenarios. For example, you can set up Business Central so that all users always send sales documents from one account, and purchase documents from another. 
+You can use specific email accounts for specific business scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
-2. Choose the account to define scenarios for, and then choose **Process**, and then **Setup email scenarios**.
-3. Choose **Add scenarios**, and then choose the scenarios.
+2. Choose the account to define scenarios for, and then choose **Process**, and then **Setup Email Scenarios**.
+3. Choose **Add Scenarios**, and then choose the scenarios.
 
 ## Using Your Own Email App
 To use your own app, there are a few things you must do.

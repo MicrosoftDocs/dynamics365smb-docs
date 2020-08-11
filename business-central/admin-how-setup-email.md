@@ -14,6 +14,11 @@ ms.author: bholtorf
 
 ---
 # Set Up Email
+> [!NOTE]
+> Improved email capabilities are available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)] the new capabilities are already turned on. If you have already configured email you can continue using your current setup, or your administrator can turn on the new email capabilities. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). 
+>
+> If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors.
+
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 Instead of entering the SMTP server details manually, you can use the **Apply Office 365 Server Settings** function to enter them with information from your Office 365 subscription.

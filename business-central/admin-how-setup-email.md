@@ -8,90 +8,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
+ms.search.keywords: SMTP, email, Office 365
 ms.date: 06/15/2020
-ms.author: sgroespe
+ms.author: bholtorf
 
 ---
 # Set Up Email
-
-<!--Connect one or more email accounts to Business Central and can send messages without having to switch apps. 
-
-To use email features in Business Central, you can either use the types of accounts that we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-how-setup-email.md#using-your-own-email-app).
-
-Business Central provides the following types of accounts.
-
-|Account Type  |Description  |Examples of when to use  |
-|---------|---------|---------|
-|Office 365     |Specific account. Everyone sends email from the account you specify.|When all messges come from the same department, for example, your sales organization.|
-|Office 365     |Own accounts. Everyone sends email from their own account.|Allow individual communications.|
-|Outlook     |Outlook.com, Live.com, Hotmail, MSN|         |
-|Other (SMTP)     |Use SMTP protocol to send emails.|         |
-
-> [!NOTE]
-> Both of the Office 365 account types apply to everyone in the company who uses email in Business Central.
-
-
-## Using Your Own Email App
-To use your own app, there are a few things you must do.
-
-1. Register your application in Azure Active Directory. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
-2. Assign the following permissions for Microsoft Graph to your app.
-
-   |Permission  |Type  |Description  |
-   |---------|---------|---------|
-   |Mail.Send|Delegated|Send mail as a user         |
-   |Mail.Send.Shared|Delegated|Send mail on behalf of others  |
-   |offline_access|Delegated|Maintain access to data you have given it access to|
-   |openid|Delegated|Sign users in|
-   |User.Read|Delegated|Sign in and read user profile|
-3. Run the **Set up email** assisted setup guide to connect your email account.
-
-## Uptaking the New Email Features
-
-If you have already configured the email capabilities, you can continue using your current setup or you can start using the new email connectors. If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with those customizations when you start using the new email connectors.
-
-
-
-Notes from Tomas
-
-go to assisted setup and choose
-
-The SMTP page will soon be discontinued. 
-
-Go to the Email Accounts page. Yo can have more than one account
-
-USes 2 Factor Authentication.
-
-The SMTP connector uses the same information that we have now.
-
-YOu can have as many connectors as you want.
-
-Connectors are available in the AppStore.
-
-Sent Mails action opens a view of the messages you sent, even if the account is shared.
-
-The Email Outbox shows messages that failed. FOr example, if a message has an attachment is too large. 
-
-## Define Scenarios for Using an Account
-You can specify the email account to always use for certain types of documents. Set Up Email Scenarios action lets you define how you want to use an account. For example, you can specify that you want to use an account for sales and purchase documents.
-
-The connectors are available by default.
-
-Two people can use the same address, for example, sales@cronus.com. To do that, you must go to Azure AD to allow multiple users to use the same account. To do that, go to Microsoft 365 admin center, Active Users, choose the user, choose Mail blade, and Manage email account, and then Send on behalf of permissions. Add the account to use, and then save you setting. **This is the new send on behalf of feature** You must make sure that all users have access to the account if you choose a shared account.
-
-For existing tenants, the admin must decide whether to turn it on.
-
-Need a "set up email account" topic
-
-how to set up accounts
-how to set up a connector
-how to assign accounts to processes
-
-
-
--->
-
 To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields on the **SMTP Mail Setup** page.
 
 Instead of entering the SMTP server details manually, you can use the **Apply Office 365 Server Settings** function to enter them with information from your Office 365 subscription.

@@ -14,7 +14,12 @@ ms.author: bholtorf
 
 ---
 # Add an Email Account
-Connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send messages without having to switch apps. 
+> [!NOTE]
+> Improved email capabilities are available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)] the new capabilities are already turned on. If you have already configured email you can continue using your current setup, or your administrator can turn on the new email capabilities. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). 
+>
+> If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors. 
+
+You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] and send email messages without having to switch apps. You can compose each message individually with basic formatting tools and add attachments, or create templates that contain pre-defined texts.
 
 To use email features, you can either use the email connectors we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-how-setup-email.md#using-your-own-email-app).
 
@@ -23,7 +28,7 @@ You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using
 
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|Office 365     |Specific account. Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization.|
+|Office 365     |Specific account. Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization.<br><br> Two or more people can use the same address, for example, sales@cronus.com. This requires that you set up the account in Azure Active Directory to allow multiple users. To allow multiple users to use the same account, go to the **Microsoft 365 admin center**, choose **Active Users**, choose the user, choose **Mail**, **Manage email account**, and then **Send on behalf of permissions**. Add the account to use, and then save your setting. If you add a shared account, all users must have access to the account.|
 |Office 365     |Own accounts. Everyone sends email from their own account.|Allow individual communications.|
 |Outlook     |Outlook.com, Live.com, Hotmail, MSN|Allow individual communications.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|         |
@@ -31,16 +36,14 @@ You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using
 > [!NOTE]
 > The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
-Two people can use the same address, for example, sales@cronus.com. To do that, you must go to Azure AD to allow multiple users to use the same account. To do that, go to Microsoft 365 admin center, Active Users, choose the user, choose Mail blade, and Manage email account, and then Send on behalf of permissions. Add the account to use, and then save you setting. **This is the new send on behalf of feature** You must make sure that all users have access to the account if you choose a shared account.
-
-## Set up email accounts
+## Set Up Email Accounts
 To quickly add an account, use the **Set up email** assisted setup guide to complete the process.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## Assign accounts to processes
-Email is often used for specific business scenarios. For example, you might want to send sales documents from one account, and purchase documents from another. You can specify which scenarios that you want to use an account for. 
+## Assign Accounts to Business Scenarios
+You can use specific email accounts for specific business scenarios. For example, you can set up Business Central so that all users always send sales documents from one account, and purchase documents from another. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
 2. Choose the account to define scenarios for, and then choose **Process**, and then **Setup email scenarios**.
@@ -61,8 +64,12 @@ To use your own app, there are a few things you must do.
    |User.Read|Delegated|Sign in and read user profile|
 3. Run the **Set up email** assisted setup guide to connect your email account.
 
-## Uptaking the New Email Features
-If you have already configured the email capabilities, you can continue using your current setup or you can start using the new email connectors. If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with those customizations when you start using the new email connectors.
-
 ## See Also
 [Set Up Email](admin-how-setup-email.md)
+[Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Send Documents by Email](ui-how-send-documents-email.md)  
+[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
+[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)

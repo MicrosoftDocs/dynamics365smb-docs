@@ -9,16 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
 
 ---
 # Become a Reseller of [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Expand your business opportunity with [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Business Central is a new opportunity.   
+If you specialize in Cloud solutions, Office 365, SharePoint, industry solutions, analytics, ERP, CRM, accounting software, and/or business process optimization software/services, Business Central is a new opportunity.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that’s connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] can help you differentiate and deepen customer relationships by giving you the capability to deliver an end-to-end business management solution that's connecting people and processes like never before, embedded within familiar Microsoft Office tools that small and medium businesses use every day.  
 
 ## Get started
 
@@ -28,4 +29,4 @@ The "Ready to Go" program is one way to get started as a [!INCLUDE[prodshort](in
 
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

@@ -14,17 +14,20 @@
     ms.author: v-debapd
 
 ---
-# Calculation of Income Tax TDS and GST on Purchase Transactions
 
 ## Calculation of Income Tax TDS and GST on Purchase Transactions
+
+There are certain services on which GST applies along with the provisions of TDS under income tax. TDS should not be calculated on GST amount, in some cases where payment terms is set as 100% advance, full order value has to be paid as advance payment. In such cases, amount paid to vendor will be included of GST and if TDS has to deducted while paying amount to vendor then system should deduct TDS only on the base amount and should not calculate TDS on GST amount.
 
 ### Create a Purchase Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Invoice Header**.
-3. Select **G/L Account** for Service purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code should not be blank and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged and Income Tax TDS @10% also to be charged.
+3. Select **G/L Account** for Service purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code should not be blank and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. 
 
-6. GST calculation will appear in the Fact Box, as following :
+For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged and Income Tax TDS @10% also to be charged.
+
+- GST calculation will appear in the Fact Box, as following :
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -35,7 +38,7 @@
     |**IGST**|1800|
     |**TDS**|1000|
 
-6. GL Entries for Income Tax TDS and GST in Intra-State purchase transactions, will be as following:
+- GL Entries for Income Tax TDS and GST in Intra-State purchase transactions, will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -45,7 +48,7 @@
     |**TDS Payable Account**|-1000|
     |**Vendor Account**|-10800|
 
-7. GL Entries for Income Tax TDS and GST in Intra-State or Intra-Union Territory purchase transactions (reverse charge) will be as following:
+- GL Entries for Income Tax TDS and GST in Intra-State or Intra-Union Territory purchase transactions (reverse charge) will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -54,10 +57,10 @@
     |**CGST Receivable Account (Interim)**|900|
     |**TDS Payable Account**|-1000|
     |**Vendor Account**|-9000|
-    |**SGST/UTGST/UTGST Payable (Interim) A/C**|-900|
-    |**CGST Payable (Interim) A/C**|-900|
+    |**SGST/UTGST Payable (Interim) Account**|-900|
+    |**CGST Payable (Interim) Account**|-900|
 
-8. GL Entries for Income Tax TDS and GST in Inter-State purchase transactions, will be as following:
+- GL Entries for Income Tax TDS and GST in Inter-State purchase transactions, will be as following:
    
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -66,7 +69,7 @@
     |**TDS Payable Account**|-1000|
     |**Vendor Account**|-10800|
 
-9. GL Entries for Income Tax TDS and GST in Inter-State purchase transactions (reverse charge), will be as following:
+- GL Entries for Income Tax TDS and GST in Inter-State purchase transactions (reverse charge), will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -74,7 +77,8 @@
     |**IGST Receivable Account (Interim)**|1800|
     |**TDS Payable Account**|-1000|
     |**Vendor Account**|-9000|
-    |**IGST Payable (Interim) A/C**|-1800|
+    |**IGST Payable (Interim) Account**|-1800|
+
 
 
 

@@ -16,11 +16,18 @@
 ---
 # GST on Advance Payment or Normal payment application with Purchase Invoice
 
+An advance payment made to vendor for a transaction that is subject to reverse charge is to be reported in GSTR-2. 
+
+If the advance payment is applied to the invoice in the same month, then such applications need not be disclosed in GSTR-2. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application is to be reported in GSTR-2. 
+
+Process for application and un-application of payment and invoice has been explained in this document
+
+
 ## GST on advance payment and application with purchase invoice
 
  GST is liable at the time of advance payment to vendor, for example, service amount is INR 20000 and advance payment made to vendor for INR 10000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST) has to be charged. Taxpayer paying advance is not eligible to claim ITC on advance paid. The taxpayer can claim ITC on advance paid only on receipt of services.
 
-1. GST calculation for Intra-State or Intra-Union Territory transactions will appear in the Fact Box, as following:
+- GST calculation for Intra-State or Intra-Union Territory transactions will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -28,7 +35,7 @@
     |**CGST**|900|  
     |**SGST**|900| 
 
-3. GL Entries for advance payment made to vendor, will be as following:
+- GL Entries for advance payment made to vendor, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -42,7 +49,7 @@
 
 Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST), will be charged.
 
-1. GST Calculation will appear in the Fact Box, as following:
+- GST Calculation will appear in the Fact Box, as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -51,7 +58,7 @@ Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (
     |**SGST**|1800| 
 
 
-2. GL Entries for application of an advance payment with an invoice for services, where input tax credit is available:
+- GL Entries for application of an advance payment with an invoice for services, where input tax credit is available:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -69,7 +76,7 @@ Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (
     |**SGST/UTGST Receivable (Interim) Account**|-1800|
 
 
-8. GL Entries for application of an advance payment with an invoice for services, where input tax credit is not available:
+- GL Entries for application of an advance payment with an invoice for services, where input tax credit is not available:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -84,7 +91,7 @@ Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (
 
 If this is found that the payment and invoice was wrongly applied and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
 
-1. GL Entries for un-application of an advance payment with an invoice for services, where input tax credit is available:
+- GL Entries for un-application of an advance payment with an invoice for services, where input tax credit is available:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -95,7 +102,7 @@ If this is found that the payment and invoice was wrongly applied and the applic
     |**CGST Payable (Interim) Account**|-900| 
     |**SGST/UTGST Payable (Interim) Account**|-900|
             
-2. GL Entries for un-application of an advance payment with an invoice of services, where input tax credit is not available:
+- GL Entries for un-application of an advance payment with an invoice of services, where input tax credit is not available:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -107,9 +114,11 @@ If this is found that the payment and invoice was wrongly applied and the applic
 ## Normal Payment to vendor and application with purchase invoice
 
 For unregistered, import vendor and reverse charge purchase of service from registered vendor, user has to post a separate invoice for goods and services in the system. No GST calculation is done at the time of application.
-In ordinary course, when a normal payment is applied to the invoice, system proportionately posts the liability from Payable Interim Account to Payable Account and credit (if applicable) from Receivable Interim Account to Receivable Account. For example, Purchase Invoice for service purchase issued to vendor for INR 60,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST), will be charged. Later a payment of INR 10,000 has been made to vendor against to the purchase invoice, which doesn't have any GST impact.
+In ordinary course, when a normal payment is applied to the invoice, system proportionately posts the liability from Payable Interim Account to Payable Account and credit (if applicable) from Receivable Interim Account to Receivable Account. 
 
-1. GST Calculation will appear in the Fact Box, as following:
+For example, Purchase Invoice for service purchase issued to vendor for INR 60,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST), has to be charged. Later a payment of INR 10,000 has been made to vendor against to the purchase invoice, which doesn't have any GST impact.
+
+- GST Calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -120,7 +129,7 @@ In ordinary course, when a normal payment is applied to the invoice, system prop
     |**SGST/UTGST Amount = Invoice Total SGST/UTGST amount x (Normal Payment Applied/Total Transactional Value)**|900 (5,400*(10,000/60,000)|
     |**CGST Amount = Invoice Total CGST amount x (Normal Payment Applied/Total Transactional Value)**|900 (5,400*(10,000/60,000)|
 
-2. GL Entries for Application of invoice with normal payment:
+- GL Entries for Application of invoice with normal payment:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -137,7 +146,7 @@ In ordinary course, when a normal payment is applied to the invoice, system prop
 
 If this is found that the payment and invoice was wrongly applied and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
 
-1. GL Entries for un-application of invoice with normal payment:
+- GL Entries for un-application of invoice with normal payment:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

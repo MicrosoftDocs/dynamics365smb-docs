@@ -16,10 +16,6 @@
 ---
 # Service Transfer
 
-Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy.
-
-Service transferred from one state to another state, then IGST will be levied.
-
 ## Create a Service Transfer Order
 
 1.  Choose the ![img](image/search.jpg)icon, enter **Service Transfer Order**, and then choose the related link. 
@@ -28,9 +24,12 @@ Service transferred from one state to another state, then IGST will be levied.
 
 4. Select G/L Account for **Transfer From G/L Account No.** on **Shipment Line** and **Transfer To G/L Account No.** on **Receipt Line**. GST Group Code, HSN/SAC Code should not be blank on **G/L Account** card.
 
-For example, service for INR 10000 is being transferred on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
+Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy.
+ Service transferred from one state to another state, then IGST will be levied.
 
-1. GST Calculation on Service Transfer Order will appear in the Fact Box, as following:
+For example, service for INR 10000 is being transferred on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
+
+- GST Calculation on Service Transfer Order will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -39,7 +38,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**CGST**|900| 
     |**SGST**|900|
 
-2. On posting of shipment in case of Intra-State or Intra-Union Territory service transfer, GL Entries will be as following:
+- On posting of shipment in case of Intra-State or Intra-Union Territory service transfer, GL Entries will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -48,7 +47,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**SGST/UTGST Payable Account**|-900|
     |**Services Account**|-10000|
 
-3. On posting of receipt in case of Intra-State or Intra-Union Territory service transfer, GL Entries will be as following:
+- On posting of receipt in case of Intra-State or Intra-Union Territory service transfer, GL Entries will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -57,7 +56,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**CGST Receivable Account**|900|
     |**Inter-location Control Account**|-11800|
 
-4. On posting of shipment in case of Interstate service transfer, GL Entries will be as following:
+- On posting of shipment in case of Interstate service transfer, GL Entries will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -65,7 +64,7 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
     |**IGST Payable Account**|-1800|
     |**Services Account**|-10000|
 
-5. On posting of receipt in case of Interstate service transfer, GL Entries will be as following:
+- On posting of receipt in case of Interstate service transfer, GL Entries will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  

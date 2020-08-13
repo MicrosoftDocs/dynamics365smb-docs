@@ -1,6 +1,6 @@
 ---
-    title: GST on Advance Payment made to Vendor, where there are reverse charges
-    description: GST on Advance Payment made to Vendor, where there are reverse charges
+    title: GST on Advance Payment made to Vendor, with reverse charge
+    description: GST on Advance Payment made to Vendor, with reverse charge
 
     author: v-debapd
 
@@ -14,18 +14,23 @@
     ms.author: v-debapd
 
 ---
-# GST on Advance Payment made to Vendor, where there are reverse charges
+## GST on Advance Payment made to Vendor, with reverse charge
 
-## GST on Advance Payment made to Vendor, where there are reverse charges
+The tax needs to be paid if supplier gets the payment first, therefore we need to calculate GST at the time of advance payment made to vendor. However, when ‘supplier of goods’ receives advance payment, he is not required to pay GST at the time of the receipt of advance payment, while GST is required to be paid in case of supply of services.
 
-### Create a General Journal or a Bank/Cash Payment Voucher
+The process of GST calculation on advance payment to vendor has been explained in this document.
 
-1.  Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link. 
+### Create a General Journal or a Bank or Cash Payment Voucher
+
+1.  Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link. 
 2. Select **Vendor** in account type and select relevant **Vendor Code**, GST vendor type and registration number should be filled in vendor master.
 3. Select **G/L Account** or **Bank Account** in balancing account type, and select the cash or the bank account. 
-4. Advance Payment made to vendor does not include tax payment, as the purchaser is liable to pay tax under reverse charge. Hence, tax is applied straight away on base. For example, advance payment made to vendor against supply of services of INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged.
+4. Advance Payment made to vendor does not include tax payment, as the purchaser is liable to pay tax under reverse charge. Hence, tax is applied straight away on base. 
 5. GST on Advance Payment field needs to be activated on General Journal Line for computation of GST on Advance Payment. In addition, GST Group code and GST Place of Supply should not be blank for computation of GST.
-1. GST Calculation will appear in the Fact Box as following:
+
+For example, advance payment made to vendor against supply of services of INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged.
+
+- GST Calculation will appear in the Fact Box as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -34,7 +39,7 @@
     |**SGST**|900|
     |**IGST**|1800|
 
-6. GL Entries for Advance Payment made to Vendor, will be as following:
+- GL Entries for Advance Payment made to Vendor, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -49,7 +54,7 @@
 
 If the vendor advance needs to be corrected or the entry is wrongly posted, in such a case the entry can be reversed and new entry can be created.
 
-1. Reversal GL Entries for Advance Payment made to Vendor, will be as following:
+- Reversal GL Entries for Advance Payment made to Vendor, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -62,7 +67,6 @@ If the vendor advance needs to be corrected or the entry is wrongly posted, in s
     
 > [!TIP]
 > In case of Inter-State Advance Payment, IGST will be calculated.
-
 
 
 

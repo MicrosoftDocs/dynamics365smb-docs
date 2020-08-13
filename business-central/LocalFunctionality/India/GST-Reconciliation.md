@@ -38,27 +38,27 @@
 
 - Mapping GST Reconciliation fields with GST Components in GST Reconciliation Mapping is a pre-requisite for GST Reconciliation. Unless it is done, reconciliation can't happen in the system. 
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Component Mapping Recon.**, and then choose the related link.
-2. Fill in the fields as described in the following table.
+   1. Choose the ![img](image/search.jpg)icon, enter **GST Component Mapping Recon.**, and then choose the related link.
+   2. Fill in the fields as described in the following table.
     
-    |Field|Description| 
-    |---------------------------------|  ---------------------------------------| 
-    |**GST Component Code**|Specifies the different components of GST.|
-    |**GST Reconciliation Field No.**|Specifies the relevant reconciliation field against the component.|
-    |**GST Reconciliation Field Name**|Specifies the description of the reconciliation field.|
-    |**ISD Ledger Field No.**|Specifies the relevant input service distribution field against the component.|
-    |**ISD Ledger Field Name**|Specifies the description of the input service distribution field.|
+        |Field|Description| 
+        |---------------------------------|  ---------------------------------------| 
+        |**GST Component Code**|Specifies the different components of GST.|
+        |**GST Reconciliation Field No.**|Specifies the relevant reconciliation field against the component.|
+        |**GST Reconciliation Field Name**|Specifies the description of the reconciliation field.|
+        |**ISD Ledger Field No.**|Specifies the relevant input service distribution field against the component.|
+        |**ISD Ledger Field Name**|Specifies the description of the input service distribution field.|
 
 ## GST Reconciliation Process
 
 - Reconciliation feature enables the user to reconcile the posted purchase transactions with GSTR-2A downloaded from GSTN portal.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Reconciliation List.**, and then choose the related link, and click **New** to create a new reconciliation document.
-2. Select relevant GST registration number in **GSTIN No.** field for which reconciliation needs to be done. **Month**, **Year**, **Posting Date** fields should not be blank.
-3. **GST Recon. Tolerance** field will be updated with the value mentioned on **General Ledger Setup**.
-4. **Input Service Distributor** field will be marked true if the GSTIN is assigned for input service distribution location.
-5. Click on Action on the ribbon -> Functions -> Import GSTR-2A, choose the relevant file and the data will be updated in **Periodic GSTR-2A Data**.
-6. Click on **Fill GST Reconciliation** and the posted GST transactions will be populated in **GST Reconciliation Lines**.
+  1. Choose the ![img](image/search.jpg)icon, enter **GST Reconciliation List.**, and then choose the related link, and click **New** to create a new reconciliation document.
+  2. Select relevant GST registration number in **GSTIN No.** field for which reconciliation needs to be done. **Month**, **Year**, **Posting Date** fields should not be blank.
+  3. **GST Recon. Tolerance** field will be updated with the value mentioned on **General Ledger Setup**.
+  4. **Input Service Distributor** field will be marked true if the GSTIN is assigned for input service distribution location.
+  5. Click on Action on the ribbon -> Functions -> Import GSTR-2A, choose the relevant file and the data will be updated in **Periodic GSTR-2A Data**.
+  6. Click on **Fill GST Reconciliation** and the posted GST transactions will be populated in **GST Reconciliation Lines**.
  
 - Purchase Transactions with Vendor Type – Unregistered, Imports and Composite are excluded from Reconciliation. [This is due to the reason that unregistered and import vendors are not registered with GSTN authorities and hence will not upload their supplies in GSTR-1. Hence the same are not reflected in GSTR-2]
 - Invoice having multiple lines are clubbed together and shown as one line in GST Reconciliation feature i.e. Total Taxable amount and Tax Amounts (CGST, SGST, IGST).

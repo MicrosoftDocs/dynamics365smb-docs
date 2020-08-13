@@ -1,6 +1,6 @@
 ---
-    title: GST on Advance Receipt Application with Sales Invoice
-    description: GST on Advance Receipt Application with Sales Invoice
+    title: GST on Advance Payment Application with Sales Invoice
+    description: GST on Advance Payment Application with Sales Invoice
 
     author: v-debapd
 
@@ -14,13 +14,17 @@
     ms.author: v-debapd
 
 ---
-# GST on Advance Receipt and Application with Sales Invoice
 
-## GST on Advance Receipt and Application with Sales Invoice
+## GST on Advance Payment and Application with Sales Invoice
 
-GST can also be liable at the time of receiving advance payment from customer. For example, service amount is INR 20000 and customer made an advance payment of INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST) has to be charged on the advance payment.
+GST can also be liable at the time of receiving advance payment from customer. If advance payment is applied to an invoice in the same month, then such applications need not be disclosed in GSTR-1. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application needs to be reported in GSTR-1.
 
-1. GST Calculation will appear in the Fact Box, as following:
+Process of application of advance payment from customer and sale invoice has been explained in this document.
+
+
+For example, service amount is INR 20000 and customer made an advance payment of INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST) has to be charged on the advance payment.
+
+- GST Calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -31,7 +35,7 @@ GST can also be liable at the time of receiving advance payment from customer. F
 
 Later sales invoice for services is issued to the customer for INR 20,000. 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
 
-1. GST calculation will appear in the Fact Box, as following:
+- GST calculation will appear in the Fact Box, as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -39,7 +43,7 @@ Later sales invoice for services is issued to the customer for INR 20,000. 18% G
     |**CGST**|1800|  
     |**SGST**|1800|
 
-5. GL Entries for application of advance payment with sales invoice, will be as following:
+- GL Entries for application of advance payment with sales invoice, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -59,7 +63,7 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > An advance receipt and invoice application cannot be unapplied, if the tax liability on both is discharged through GST Settlement Screen.
 
-1. GL Entries for un-application of an advance payment and sales invoice:
+- GL Entries for un-application of an advance payment and sales invoice:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

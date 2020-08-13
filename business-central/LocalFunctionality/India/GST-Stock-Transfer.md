@@ -14,7 +14,6 @@
     ms.author: v-debapd
 
 ---
-# Stock Transfer
 
 ## Stock Transfer
 
@@ -28,7 +27,7 @@ Stock transfers between locations, branches or divisions having different regist
 
 For example, inventory for INR 1000 is being transferred from one location to another and 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on INR 1000.
 
-4. GST calculation will appear in the Fact Box, as following:
+- GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -37,7 +36,7 @@ For example, inventory for INR 1000 is being transferred from one location to an
     |**CGST**|90| 
     |**SGST**|90|
 
-5. Post the Transfer Order
+Post the Transfer Order
 
 - GL Entries for shipment transaction in case of Interstate stock transfer, will be as following:
 

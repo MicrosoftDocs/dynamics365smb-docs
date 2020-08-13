@@ -14,16 +14,14 @@
     ms.author: v-debapd
 
 ---
-# GST and TDS on Vendor Advance Payments
-
 ## GST and TDS on Vendor Advance Payments
 
-Liability of paying GST and TDS arises at the time of advance payment to vendor. 
+Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
 ### Mandatory fields in Cash on Bank Payment Voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
-2.  Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
+2. Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
 3. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
 4. Select relevant TDS Section, GST Group Code, HSN/SAC Code, Location Code on journal line.
 5. **GST on Advance Payment** should be marked true. 
@@ -68,12 +66,12 @@ Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (i.e
   
 - GST calculation will appear in the Fact Box, as following:
 
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**GST Base Amount**|20000|  
-    |**CGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]|  
-    |**SGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]| 
-    |**TDS Amount**|1000 = [2000 (20000 * 10%)] - [1000 (10000 *10%)]|
+  |Component|Amount|
+  |----------------------------------|---------------------------------------|  
+  |**GST Base Amount**|20000|  
+  |**CGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]|  
+  |**SGST**|900 = [1800 (20000 * 9%)] - [900 (10000 * 9%)]| 
+  |**TDS Amount**|1000 = [2000 (20000 * 10%)] - [1000 (10000 *10%)]|
 
 GST and TDS will be calculated on the remaining amount, i.e. Invoice Amount - Advance Payment Amount. If advance payment is not applied with the purchase invoice then GST and TDS will be calculated on the whole invoice amount.
 

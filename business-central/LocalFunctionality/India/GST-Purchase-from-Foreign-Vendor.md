@@ -15,6 +15,10 @@
 ---
 # Import from Foreign Vendor
 
+Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor is subject to reverse charge i.e. the person importing goods or services has to remit tax to the government. 
+
+Purchase process for foreign vendor has been explained in this document.
+
 ## Create a Purchase Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
@@ -22,119 +26,126 @@
 3. Select **Item Code** for goods, **G/L Account** for Service purchase and **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
 4. GST Credit option can be changed in document line.
 
-- Import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+- Import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
 
-1. GST calculation will appear in the Fact Box, as following:
+For example, purchase invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+
+  - GST calculation will appear in the Fact Box, as following:
     
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Transaction Value**|10000|
-    |**GST Base Amount**|11,000|
-    |**Custom Duty (BCD)**|1000|  
-    |**IGST**|2160 (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)|  
+      |Component|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Transaction Value**|10000|
+      |**GST Base Amount**|11,000|
+      |**Custom Duty (BCD)**|1000|  
+      |**IGST**|2160 (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)|  
 
 
-2. GL Entries for import of goods from foreign vendor where input tax credit is available, will be as following:
+  - GL Entries for import of goods from foreign vendor where input tax credit is available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Purchase Account (Transactional Value+ BCD)**|11000|  
-    |**IGST Receivable Account (GST on GST Assessable Value + BCD)**|2160| 
-    |**Customs House Account (GST Amount + BCD)**|-3160|
-    |**Vendor Account (Transaction Value)**|-10000|
+      |Particulars|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Purchase Account (Transactional Value+ BCD)**|11000|  
+      |**IGST Receivable Account (GST on GST Assessable Value + BCD)**|2160| 
+      |**Customs House Account (GST Amount + BCD)**|-3160|
+      |**Vendor Account (Transaction Value)**|-10000|
 
-3. GL Entries for import of goods from foreign vendor where input tax credit is not available, will be as following:
+  - GL Entries for import of goods from foreign vendor where input tax credit is not available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Purchase Account (Transactional Value+ BCD + IGST Amount)**|13160|  
-    |**Customs House Account (GST Amount + BCD)**|-3160|
-    |**Vendor Account (Transaction Value)**|-10000|
+      |Particulars|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Purchase Account (Transactional Value+ BCD + IGST Amount)**|13160|  
+      |**Customs House Account (GST Amount + BCD)**|-3160|
+      |**Vendor Account (Transaction Value)**|-10000|
 
 
-- Import of Fixed Asset from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. For example: Purchase Invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) will be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+- Import of Fixed Asset from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
 
-1. GST Calculation will appear in the Fact Box, as following:
+For example, purchase invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+
+  - GST Calculation will appear in the Fact Box, as following:
     
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Transaction Value**|10000|
-    |**GST Base Amount**|11,000|
-    |**Custom Duty (BCD)**|1000|  
-    |**IGST**|2160 (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)|  
+      |Component|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Transaction Value**|10000|
+      |**GST Base Amount**|11,000|
+      |**Custom Duty (BCD)**|1000|  
+      |**IGST**|2160 (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%)|  
 
-2. GL Entries for import of goods from foreign vendor where input tax credit is available, will be as following:
+  - GL Entries for import of goods from foreign vendor where input tax credit is available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Fixed Asset Increase During the Year Account (Transactional Value+ BCD)**|11000|  
-    |**IGST Receivable Account (GST on GST Assessable Value + BCD)**|2160| 
-    |**Customs House Account (GST Amount + BCD)**|-3160|
-    |**Vendor Account (Transaction Value)**|-10000|
+      |Particulars|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Fixed Asset Increase During the Year Account (Transactional Value+ BCD)**|11000|  
+      |**IGST Receivable Account (GST on GST Assessable Value + BCD)**|2160| 
+      |**Customs House Account (GST Amount + BCD)**|-3160|
+      |**Vendor Account (Transaction Value)**|-10000|
 
-3. GL Entries for import of goods from foreign vendor where input tax credit is not available, will be as following:
+  - GL Entries for import of goods from foreign vendor where input tax credit is not available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Fixed Asset Increase During the Year Account (Transactional Value+ BCD + IGST Amount)**|13160|  
-    |**Customs House Account (GST Amount + BCD)**|-3160|
-    |**Vendor Account (Transaction Value)**|-10000|
+     |Particulars|Amount|
+     |----------------------------------|---------------------------------------|  
+     |**Fixed Asset Increase During the Year Account (Transactional Value+ BCD + IGST Amount)**|13160|  
+     |**Customs House Account (GST Amount + BCD)**|-3160|
+     |**Vendor Account (Transaction Value)**|-10000|
 
 
-- Import of services from foreign vendor, For example: Purchase Invoice will be issued for INR 10000, (IGST @18%) will be charged.
+- Import of services from foreign vendor. 
 
-1. GST Calculation will appear in the Fact Box, as following:
+For example, purchase invoice will be issued for INR 10000, (IGST @18%) has to be charged.
+
+  - GST Calculation will appear in the Fact Box, as following:
     
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**GST Base Amount**|10000|
-    |**IGST**|1800|  
+     |Component|Amount|
+     |----------------------------------|---------------------------------------|  
+     |**GST Base Amount**|10000|
+     |**IGST**|1800|  
 
-2. GL Entries for import of services from foreign vendor where input tax credit is available, will be as following:
+  - GL Entries for import of services from foreign vendor where input tax credit is available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Services Account**|10000|  
-    |**IGST Receivable (Interim) Account**|1800|
-    |**IGST Payable (Interim) Account**|-1800|
-    |**Vendor Account (Transaction Value)**|-10000|
+     |Particulars|Amount|
+     |----------------------------------|---------------------------------------|  
+     |**Services Account**|10000|  
+     |**IGST Receivable (Interim) Account**|1800|
+     |**IGST Payable (Interim) Account**|-1800|
+     |**Vendor Account (Transaction Value)**|-10000|
 
-3. GL Entries for import of services from foreign vendor where input tax credit is not available, will be as following:
+  - GL Entries for import of services from foreign vendor where input tax credit is not available, will be as following:
     
-    |Particulars|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Services Account**|11800|  
-    |**IGST Payable (Interim) Account**|-1800|
-    |**Vendor Account**|-10000|
+      |Particulars|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Services Account**|11800|  
+      |**IGST Payable (Interim) Account**|-1800|
+      |**Vendor Account**|-10000|
 
 
-- Import of Services from Import Associate Vendor, For example: Purchase Invoice will be issued for INR 10000, (IGST @18%) will be charged.
+- Import of Services from Import Associate Vendor. 
 
-1. GST Calculation will appear in the Fact Box, as following:
+For example, purchase invoice will be issued for INR 10000, (IGST @18%) has to be charged.
+
+  - GST Calculation will appear in the Fact Box, as following:
     
-    |Component|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**GST Base Amount**|10000|
-    |**IGST**|1800|
+      |Component|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**GST Base Amount**|10000|
+      |**IGST**|1800|
 
-2. GL Entries for import of services from import associate vendor where input tax credit is available,will be as following:
+  - GL Entries for import of services from import associate vendor where input tax credit is available,will be as following:
     
-    |Particular|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Services Account**|10000|  
-    |**IGST Receivable Account**|1800|
-    |**IGST Payable Account**|-1800|
-    |**Vendor Account**|-10000|
+      |Particular|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Services Account**|10000|  
+      |**IGST Receivable Account**|1800|
+      |**IGST Payable Account**|-1800|
+      |**Vendor Account**|-10000|
 
-3. GL Entries for import of services from import associate vendor where input tax credit is not available, will be as following :
+  - GL Entries for import of services from import associate vendor where input tax credit is not available, will be as following :
     
-    |Particular|Amount|
-    |----------------------------------|---------------------------------------|  
-    |**Services Account**|11800|  
-    |**IGST Payable Account**|-1800|
-    |**Vendor Account**|-10000|
+      |Particular|Amount|
+      |----------------------------------|---------------------------------------|  
+      |**Services Account**|11800|  
+      |**IGST Payable Account**|-1800|
+      |**Vendor Account**|-10000|
 
 > [!NOTE]
-> Relevant GST attributes are stored along with the GST transactions for GST Settlement and generating GST returns for government authorities.
 >
 > Import Transaction should be in Foreign Currency.

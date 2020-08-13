@@ -27,29 +27,29 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 
 - Create General Journal or Purchase Journal
 
-1.  Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Purchase Journal**, and then choose the related link. 
-2. Select **Vendor** in Account Type and select relevant vendor code in Account No. field. Select **G/L Account** in Bal. Account Type and select relevant expense account in Bal. Account No. field.
-3. Select relevant **TDS Section** on journal line.  **Location Code** and **T.A.N No.** fields should not be blank.
+  1.  Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Purchase Journal**, and then choose the related link. 
+  2. Select **Vendor** in Account Type and select relevant vendor code in Account No. field. Select **G/L Account** in Bal. Account Type and select relevant expense account in Bal. Account No. field.
+  3. Select relevant **TDS Section** on journal line.  **Location Code** and **T.A.N No.** fields should not be blank.
 
 - Create Purchase Invoice or Purchase Order
 
-1.  Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
-2. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
-3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
-4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.
+  1.  Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
+  2. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
+  3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
+  s4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.
 
 ### TDS to be calculated on Vendor Invoice (through General Journal, Purchase Journal, Purchase Invoice or Purchase Order)
 
-- In the given scenario, vendor has issued an invoice for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
+In the given scenario, vendor has issued an invoice for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
   
-  In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|50000|  
     |**TDS Amount**|1000 (50000*2%)|
 
-  On posting of invoice, GL Entries will be as following:
+  - On posting of invoice, GL Entries will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -59,16 +59,16 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 
 ### TDS to be calculated on Vendor Advance Payment (through General Journal or Payment Journal)
 
-- In the given scenario, advance payment made to vendor for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
+In the given scenario, advance payment made to vendor for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
 
-  In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|50000|  
     |**TDS Amount**|1000 (50000*2%)|
 
-  On posting of advance payment, GL Entries will be as following:
+  - On posting of advance payment, GL Entries will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -83,16 +83,16 @@ On receiving the invoice from the vendor, TDS will be calculated on the differen
 
 ### TDS to be calculated on Non-Resident Vendor Invoice in FCY
 
-- In the given scenario, vendor issued an invoice for USD 10000 on which 2% TDS is applicable under TDS Section 195. All USD amounts will get converted into INR based on currency exchange rates. For this example exchange rate has been considered as USD 1 = INR 65.
+In the given scenario, vendor issued an invoice for USD 10000 on which 2% TDS is applicable under TDS Section 195. All USD amounts will get converted into INR based on currency exchange rates. For this example exchange rate has been considered as USD 1 = INR 65.
 
-  In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
-    |**TDS Base Amount**|USD 10000/INR 650000|  
+    |**TDS Base Amount**|USD 10000 or INR 650000|  
     |**TDS Amount**|INR 13000 (INR 650000*2%)|
 
-  On posting invoice, GL Entries, will be as following:
+  - On posting invoice, GL Entries, will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -107,16 +107,16 @@ On receiving the invoice from the vendor, TDS will be calculated on the differen
 
 PAN of vendor is mandatory for TDS calculation, but in case PAN is not available, higher rate of TDS will be deducted from the vendor.
 
-- In the given scenario, vendor issued an invoice for INR 50000 on which 2% TDS is applicable under TDS section 194C, but PAN is not available for vendor. In such a case 20% TDS will be charged as a higher rate.
+In the given scenario, vendor issued an invoice for INR 50000 on which 2% TDS is applicable under TDS section 194C, but PAN is not available for vendor. In such a case 20% TDS will be charged as a higher rate.
 
-    In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|50000|  
     |**TDS Amount**|10000 (50000*20%)|
 
-  On posting invoice, GL Entries, will be as following:
+  - On posting invoice, GL Entries, will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -145,17 +145,17 @@ PAN of vendor is mandatory for TDS calculation, but in case PAN is not available
 
 ### TDS calculation on multiple expenses in a single invoice
 
-- A single invoice can be raised by the vendor for multiple expenses. For example vendor issued a single invoice for INR 100000; INR 50000 each towards two services under TDS Section 194C and 194J.
+A single invoice can be raised by the vendor for multiple expenses. For example, vendor issued a single invoice for INR 100000; INR 50000 each towards two services under TDS Section 194C and 194J.
 
-    In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|100000|  
     |**TDS percent for 194C**|1000 (50,000x2%)|
-    |**TDS percent for 194J**|5    000 (50,000x10%)|
+    |**TDS percent for 194J**|5000 (50,000x10%)|
 
-  On posting invoice, GL Entries will be as following:
+  - On posting invoice, GL Entries will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -170,16 +170,16 @@ PAN of vendor is mandatory for TDS calculation, but in case PAN is not available
 
 If a vendor have a certificate of concessional rate instead of normal rate then to handle that scenario, concessional codes can be configured and attached to those vendors.
 
-- In the given scenario, vendor issued an invoice for INR 100000 towards professional services. Vendor has a certificate of income tax at Lower rate @ 5% on professional services instead of normal rate.
+In the given scenario, vendor issued an invoice for INR 100000 towards professional services. Vendor has a certificate of income tax at Lower rate @ 5% on professional services instead of normal rate.
 
-    In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|100000|  
     |**TDS Amount**|5000 (100000*5%)|
 
-  On posting invoice, GL Entries will be as following:
+  - On posting invoice, GL Entries will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -187,16 +187,16 @@ If a vendor have a certificate of concessional rate instead of normal rate then 
     |**TDS Payable Account**|-5000|
     |**Vendor Account**|-95000|
 
-- In this scenario, vendor issued an invoice for INR 100000 towards professional services. vendor has a certificate of income tax at Zero rate @ 0% on professional services instead of normal rate.
+In this scenario, vendor issued an invoice for INR 100000 towards professional services. vendor has a certificate of income tax at Zero rate @ 0% on professional services instead of normal rate.
 
-    In this case TDS calculation will be as following:
+  - In this case TDS calculation will be as following:
 
     |Component|Value|
     |----------------------------------|---------------------------------------|  
     |**TDS Base Amount**|100000|  
     |**TDS Amount**|0 (100000*0%)|
 
-  On posting invoice, GL Entries will be as following:
+  - On posting invoice, GL Entries will be as following:
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -205,7 +205,6 @@ If a vendor have a certificate of concessional rate instead of normal rate then 
 
 > [!NOTE]
 > Concession Code must be selected on vendor master for lower or zero rated TDS transactions.
-
 
 
 

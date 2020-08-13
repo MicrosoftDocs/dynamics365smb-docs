@@ -15,6 +15,10 @@
 ---
 # Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
+The Government has placed the responsibility on the e-commerce operators to collect the ‘tax’ at a specified rate from the supplier. This shall be done by the Operator by paying the supplier the price of the product or services, less the tax, calculated at the specified rate.
+
+The process of calculation of TCS and GST has been explained in this document.
+
 ## Create a Sales Invoice
 
 
@@ -22,9 +26,11 @@
 
 2. Select **Customer** on **Sales Invoice** header.
 
-3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
+3. Select **Item** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the Item. 
 
-6. GST calculation will appear in the Fact Box, as following:
+For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) and 1% TCS as per Income Tax Act, 1961 has to be charged on the invoice amount.
+
+-  GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -33,7 +39,7 @@
     |**SGST**|900|
     |**TCS**|100|
 
-6. GL Entries will be as following:
+-  On posting of sales invoice, GL Entries will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -45,7 +51,6 @@
 
 > [!TIP]
 > In case of Inter-State Sales, IGST will be calculated with TCS as per the Income Tax Act, 1961.
-
 
 
 

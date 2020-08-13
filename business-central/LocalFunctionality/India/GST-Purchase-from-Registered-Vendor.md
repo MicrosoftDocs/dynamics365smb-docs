@@ -16,13 +16,27 @@
 ---
 # Purchase from Registered Vendors
 
+A registered vendor is a person registered with GST authorities. For a registered vendor, on the vendor card, update the following fields:
+  - GST Vendor Type as Registered. 
+  - GST Registration No.
+  - State Code
+
+For purchases from registered vendors for services attracting reverse charge, purchasers are required to pay the GST tax, to the Government.
+If exempted goods and services are purchased from registered vendor, then no GST is to be paid to supplier or to the Government.
+
+Purchase process for registered vendor has been explained in this document.
+
+
 ## Create a Purchase Invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.
-3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), will be charged.
-5. GST Credit option can be changed on invoice line.
-6. GST calculation will appear in the Fact Box, as following:
+3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. 
+4. GST Credit option can be changed on invoice line.
+
+For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
+
+- GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -31,7 +45,7 @@
     |**SGST**|900|
     |**IGST**|1800|
 
-7. GL Entries for Intra-State or Intra-Union Territory purchase of goods from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of goods from registered vendor where input tax credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -40,14 +54,14 @@
     |**CGST Receivable Account**|900|
     |**Vendor Account**|-11800|
 
-8. GL Entries for Intra-State or Intra-Union Territory purchase of goods from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of goods from registered vendor where input tax credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|11,800|  
     |**Vendor Account**|-11800|
 
-9. GL Entries for Intra-State or Intra-Union Territory purchase of services from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of services from registered vendor where input tax credit is available, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -56,14 +70,14 @@
     |**CGST Receivable Account**|900| 
     |**Vendor Account**|-11800|
 
-10. GL Entries for Intra-State or Intra-Union Territory purchase of services from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of services from registered vendor where input tax credit is not available, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Services Account**|11,800|  
     |**Vendor Account**|-11800|
 
-11. GL Entries for Inter-State purchase of goods from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Inter-State purchase of goods from registered vendor where input tax credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -71,14 +85,14 @@
     |**IGST Receivable Account**|1800| 
     |**Vendor Account**|-11800|
 
-12. GL Entries for Inter-State purchase of goods from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Inter-State purchase of goods from registered vendor where input tax credit is not available, will be as following:
     
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
     |**Purchase Account**|11800|  
     |**Vendor Account**|-11800|
 
-13. GL Entries for Inter-State purchase of services from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Inter-State purchase of services from registered vendor where input tax credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -86,14 +100,14 @@
     |**IGST Receivable Account**|1800|
     |**Vendor Account**|-11800|
 
-14. GL Entries for Inter-State purchase of services from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Inter-State purchase of services from registered vendor where input tax credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Services Account**|11800|  
     |**Vendor Account**|-11800|
 
-15. GL Entries for the Intra-State purchase from registered vendor (reverse charge), will be as following:
+- GL Entries for the Intra-State purchase from registered vendor (reverse charge), will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -104,7 +118,7 @@
     |**SGST Payable Account (Interim)**|-900|
     |**Vendor Account**|-10000|
 
-16. GL Entries for the Inter-State purchase from registered vendor (reverse charge) if time of supply is considered on the basis of payment, will be as following:
+- GL Entries for the Inter-State purchase from registered vendor (reverse charge) if time of supply is considered on the basis of payment, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -113,7 +127,7 @@
     |**IGST Payable Account (Interim)**|-1800|
     |**Vendor Account**|-10000|
 
-17. GL Entries on payment to registered vendor (reverse charge) against Intra-State purchase invoice, will be as following:
+- GL Entries on payment to registered vendor (reverse charge) against Intra-State purchase invoice, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -124,7 +138,7 @@
     |**SGST Payable Account**|-900|
     |**Bank Account**|-10000|  
 
-18. GL Entries on payment to registered vendor (reverse charge) against Inter-State purchase invoice, will be as following:
+- GL Entries on payment to registered vendor (reverse charge) against Inter-State purchase invoice, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -134,7 +148,7 @@
     |**Bank Account**|-10000|
 
 
-19. GL Entries for Intra-State or Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -143,7 +157,7 @@
     |**CGST Receivable Account**|900|
     |**Vendor Account**|-11800|
 
-20. GL Entries for Intra-State or Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory purchase of fixed asset from registered vendor where input tax credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
@@ -153,7 +167,7 @@
 > [!TIP]
 > In case of Inter-State purchase, IGST will be calculated.
 
-21. GL Entries for Charge Item in case of Intra-State or Intra-Union Territory in purchase transaction from registered vendor where input tax credit is available, will be as following:
+- GL Entries for Charge Item in case of Intra-State or Intra-Union Territory in purchase transaction from registered vendor where input tax credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|
@@ -162,7 +176,7 @@
     |**CGST Receivable Account**|900|
     |**Vendor Account**|-11800|
 
-22. GL Entries for Charge Item in case of Intra-State or Intra-Union Territory in purchase transaction from registered vendor where input tax credit is not available, will be as following:
+- GL Entries for Charge Item in case of Intra-State or Intra-Union Territory in purchase transaction from registered vendor where input tax credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|

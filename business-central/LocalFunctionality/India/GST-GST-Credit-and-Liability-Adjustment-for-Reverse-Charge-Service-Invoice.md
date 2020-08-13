@@ -22,24 +22,24 @@
 
 - User can generate GST liability and credit for open reverse charge service invoice through GST Liability Adjustment.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Liability Adjustment**, and then choose the related link.
-2. Select the following in the request page
+  1. Choose the ![img](image/search.jpg)icon, enter **GST Liability Adjustment**, and then choose the related link.
+  2. Select the following in the request page
 
-    |Field Name|Description|
-    |----------------------------------|---------------------------------------|  
-    |**Adjustment Document No.**|System will generate number from number series assigned in Purchases & Payable Setup|
-    |**GST Registration No.**|System will list only transactions posted with selected GST Registration No.|  
-    |**Posting Date**|Adjustment posting date|  
-    |**Liability Date Formula**|Enter 0D, 30D or 60D. For example if 60D is mentioned, the system will reverse count 60 days from posting date for arriving Liability Filter Date|
-    |**Liability Filter Date**|System will update automatically (Posting date – Liability Date Formula, Ex: 01-Jan-18- 60D= 02-Nov-17), System will consider all open Reverse Charge service invoices posted before date updated in this field. (Ex: 02-Nov-17)|
-    |**Vendor No.**|System will list invoice from this vendor only|
-    |**Document No.**|System will verify only for this document|
-    |**External Document No.**|System will verify only for this document|
-    |**Nature of Adjustment**|User need to select the option, available options: Generate, Reverse|
+      |Field Name|Description|
+      |----------------------------------|---------------------------------------|  
+      |**Adjustment Document No.**|System will generate number from number series assigned in Purchases & Payable Setup|
+      |**GST Registration No.**|System will list only transactions posted with selected GST Registration No.|  
+      |**Posting Date**|Adjustment posting date|  
+      |**Liability Date Formula**|Enter 0D, 30D or 60D. For example, if 60D is mentioned, the system will reverse count 60 days from posting date for arriving Liability Filter Date|
+      |**Liability Filter Date**|System will update automatically (Posting date – Liability Date Formula, Ex: 01-Jan-18- 60D= 02-Nov-17), System will consider all open Reverse Charge service invoices posted before date updated in this field. (Ex: 02-Nov-17)|
+      |**Vendor No.**|System will list invoice from this vendor only|
+     **Document No.**|System will verify only for this document|
+      |**External Document No.**|System will verify only for this document|
+      |**Nature of Adjustment**|User need to select the option, available options: Generate, Reverse|
     
-For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Union Territory transaction, and GST 18% (9% CGST and 9% SGST), has to be charged.
+For example, vendor issued invoice for INR 10000, in an Intra-State or Intra-Union Territory transaction, and GST 18% (9% CGST and 9% SGST), has to be charged.
 
-1. GL Entries at the time of posting invoice where Input Tax Credit is available, will be as following:
+- GL Entries at the time of posting invoice where Input Tax Credit is available, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -50,7 +50,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Unio
     |**SGST/UTGST Payable (Interim) Account**|-900|
     |**Vendor Account**|10000|
 
-2. GL Entries at the time of posting invoice where Input Tax Credit is not available, will be as following:
+- GL Entries at the time of posting invoice where Input Tax Credit is not available, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -60,7 +60,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Unio
     |**Vendor Account**|10000|
 
 
-3. GL Entries for Generating GST Liability and GST Credit where Input Tax Credit is available, will be as following:
+- GL Entries for Generating GST Liability and GST Credit where Input Tax Credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -73,7 +73,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Unio
     |**CGST Payable Account**|-900|
     |**SGST/UTGST Payable Account**|-900|
 
-4. GL Entries for Generating GST Liability and GST Credit where Input Tax Credit is not available, will be as following:
+- GL Entries for Generating GST Liability and GST Credit where Input Tax Credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -82,7 +82,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Unio
     |**CGST Payable Account**|-900|
     |**SGST/UTGST Payable Account**|-900|
 
-5. GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit is available, will be as following:
+- GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit is available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -95,7 +95,7 @@ For example vendor issued invoice for INR 10000, in an Intra-State or Intra-Unio
     |**CGST Payable Account**|900|
     |**SGST/UTGST Payable Account**|900|
 
-6. GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit is not available, will be as following:
+- GL Entries for Reversing GST Liability and GST Credit where Input Tax Credit is not available, will be as following:
     
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  

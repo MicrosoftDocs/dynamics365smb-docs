@@ -16,6 +16,10 @@
 ---
 # Sales to Registered or Unregistered Customer
 
+Sales to a registered customer are known as B2B sales, sales to unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported separately in GSTR-1.
+
+Process of sales to registered or unregistered customer has been explained in this document.
+
 ## Create a Sales Invoice
 
 
@@ -23,9 +27,11 @@
 
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered** or **Unregistered**.
 
-3. Select **Item Code** for goods or **G/L Account** for service sales on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the item or G/L account. For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
+3. Select **Item Code** for goods or **G/L Account** for service sales on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the item or G/L account. 
 
-6. GST calculation will appear in the Fact Box, as following:
+For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction) has to be charged on the invoice amount.
+
+- GST calculation will appear in the Fact Box, as following:
     
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
@@ -34,7 +40,7 @@
     |**SGST**|900|
     |**IGST**|1800|
 
-6. GL Entries for Intra-State or Intra-Union Territory sale of goods to registered or unregistered customer, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory sale of goods to registered or unregistered customer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -43,7 +49,7 @@
     |**CGST Payable Account**|- 900|
     |**Sales Account**|- 10000|
 
-7. GL Entries for Inter-State sale of goods to registered or unregistered customer, will be as following:
+- GL Entries for Inter-State sale of goods to registered or unregistered customer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
@@ -51,7 +57,7 @@
     |**IGST Payable Account**|- 1800| 
     |**Sales Account**|- 10000|
 
-8. GL Entries for Intra-State or Intra-Union Territory sale of services to registered or unregistered customer, will be as following:
+- GL Entries for Intra-State or Intra-Union Territory sale of services to registered or unregistered customer, will be as following:
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  
@@ -60,7 +66,7 @@
     |**CGST Payable Account**|- 900|
     |**Sales Account**|- 10000|
 
-9. GL Entries for Inter-State sale of services to registered or unregistered customer, will be as following :
+- GL Entries for Inter-State sale of services to registered or unregistered customer, will be as following :
 
     |Particular|Amount|
     |----------------------------------|---------------------------------------|  

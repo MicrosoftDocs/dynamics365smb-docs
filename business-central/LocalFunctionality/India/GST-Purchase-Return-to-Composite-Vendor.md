@@ -16,12 +16,24 @@
 ---
 # Purchase Return of Goods and Services to Composite Vendor or Purchase Return of exempted goods and services with no GST Impact
 
+A composite vendor is a vendor whose aggregate turnover in a financial year does not exceed fifty lakh rupees and has opted for composition scheme. A composite vendor neither collects tax from the recipient of supplies nor passes on any credit of Input Tax. Hence, no GST is computed if the purchases are made from a composite vendor. 
+
+A composite vendor has to register himself with the GST authorities and hence registration no. is mandatory on the vendor card, if the vendor Type is selected as Composite. State Code is also mandatory. No GST entries are generated for a composite vendor, as a composite vendor is not entitled to collect any tax from the customers. 
+
+A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+
+Purchase return process for composite vendor has been explained in this document.
+
+
 ## Create a Purchase Return Order or Credit Memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order or Credit Memo**, and then choose the related link.
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Composite** or **Exempted**.
-3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. For example, Purchase Return Order or Credit Memo has been issued for INR 10000 on which no GST is charged.
-4. GL Entries will be as following:
+3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. 
+
+For example, Purchase Return Order or Credit Memo has been issued for INR 10000 on which no GST is charged.
+
+- GL Entries will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|

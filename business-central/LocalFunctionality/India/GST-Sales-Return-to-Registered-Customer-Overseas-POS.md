@@ -16,26 +16,36 @@
 ---
 # Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 
+GST is destination based tax i.e consumption tax, which means tax will be levied where goods and services are consumed and will accrue to that state.  The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce. 
+
+A customer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+
+Process of sale return from a registered customer with overseas place of supply  has been explained in this document.
+
 ## Create a Sales Return Order or Credit Memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.
 3. Select **G/L Account** on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on the G/L Account.
-4. **POS Out of India** field on **Sales Return Order** or **Sales Credit Memo** header should be marked as True. For example, there is a sales credit memo for INR 10,000 and 18% IGST has to be charged on the credit memo amount.
-6. GST calculation will appear in the Fact Box, as following:
+4. **POS Out of India** field on **Sales Return Order** or **Sales Credit Memo** header should be marked as True. 
+
+For example, there is a sales credit memo for INR 10,000 and 18% IGST has to be charged on the credit memo amount.
+
+- GST calculation will appear in the Fact Box, as following:
 
     |Component|Amount|
     |----------------------------------|---------------------------------------|  
     |**GST Base Amount**|10,000|  
     |**IGST**|1800|  
   
-6. GL Entries for Intra-State Return or Credit Note of services for overseas place of supply to registered customer, will be as following:
+- GL Entries for Intra-State Return or Credit Note of services for overseas place of supply to registered customer, will be as following:
 
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
     |**Service Account**|10000|  
     |**IGST Payable Account**|1800|
     |**Customer Account**|-11800|
+
 
 
 

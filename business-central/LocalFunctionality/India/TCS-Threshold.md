@@ -38,10 +38,6 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax will be coll
     |**Customer Account**|-9713|
 
 
-> [!NOTE]
->
-> Relevant TCS attributes are stored along with the transaction for generating e-TCS returns and paying TCS to government authorities .
-
 
 
 

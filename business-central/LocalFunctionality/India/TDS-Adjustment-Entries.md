@@ -30,9 +30,7 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 3. On posting of the adjustment journal G/L Entry, TDS Entry, Vendor Ledger Entry and Detailed Vendor Ledger Entry will be updated with the adjusted amount and revised information.
 
-> [!NOTE]
->
-> Relevant TDS attributes are stored along with the transaction for generating eTDS returns and paying TDS to government authorities.
+
 
 
 

@@ -33,9 +33,7 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 3. On posting of the adjustment journal G/L Entry, TCS Entry, Customer Ledger Entry and Detailed Customer Ledger Entry will be updated with the adjusted amount and revised information.
 
-> [!NOTE]
->
-> Relevant TCS attributes are stored along with the transaction for generating eTCS returns and paying TCS to the government authorities.
+
 
 
 

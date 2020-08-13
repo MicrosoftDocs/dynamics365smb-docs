@@ -21,7 +21,8 @@ The following topics describe the local functionality in the Indian version of [
 * Tax Engine
     * [Overview](TaxEngine-001-Overview.md) **Available Now**
     * [Tax Engine Import Export configuration](TaxEngine-002-Import-Export-Configuration.md) **Available Now**
-    * [Tax Engine Configuration](TaxEngine-003-Tax-Configuration.md) **Available Now**
+    * [Tax Engine Configuration of Tax Type and Tax Rate](TaxEngine-003-Tax-Configuration.md) **Available Now**
+    * [Tax Engine Configuration of Use Case](TaxEngine-003.1-Tax-Configuration.md) **Available Now**
     * [Tax Engine Lookup](TaxEngine-004-Lookup.md) **Available Now**
     * [Tax Engine Script](TaxEngine-005-Script-Activities.md) **Available Now**
     * [Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md) **Available Now**

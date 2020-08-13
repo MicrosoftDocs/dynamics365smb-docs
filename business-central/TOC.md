@@ -1092,8 +1092,9 @@
 ### Tax Engine
 #### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 #### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
-#### [Tax Engine Configuration of Tax Type and Tax Rate](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
-#### [Tax Engine Configuration of Use Case](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
+#### Tax Engine Configuration
+##### [Configuration of Tax Type and Tax Rate](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
+##### [Configuration of Use Case](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
 #### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
 #### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
 #### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)

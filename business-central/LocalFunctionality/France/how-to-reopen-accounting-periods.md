@@ -24,7 +24,7 @@ When a single fiscal period has been fiscally closed it might be necessary to re
 
 ## To reopen accounting periods  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  Choose the **Reopen Fiscal Period** action.  
 
     If more than one fiscal period is fiscally closed, the last one should be reopened. A message appears that identifies the period that should be reopened and explains the consequences of reopening it.  

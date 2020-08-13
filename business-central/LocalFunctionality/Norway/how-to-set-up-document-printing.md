@@ -38,7 +38,7 @@ The Norwegian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] conta
 
 ## To set up paper trays  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Printer Selections**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then choose the related link.  
 2.  Select the report.  
 3.  Choose the **Sales Document Paper Tray Setup** action.  
 4.  Select a paper source from the **First Page - Paper Source** field.  

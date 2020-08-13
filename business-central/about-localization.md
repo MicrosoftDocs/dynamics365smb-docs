@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ For a list of currently supported markets, see [Country/Regional Availability an
 
 ## Local Functionality
 
-To learn about the local functionality for each country, choose the related link:
+To learn about the local functionality for each country/region, choose the related link:
 
 | Region | Country | More information |
 | --- | --- |--- |
@@ -50,9 +50,11 @@ To learn about the local functionality for each country, choose the related link
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### Other Countries
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## See Also
+
 [Getting Started](product-get-started.md)  
 [Compliance](compliance/compliance-overview.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

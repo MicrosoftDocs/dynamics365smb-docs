@@ -1,5 +1,5 @@
 ---
-    title: General Ledger
+    title: General Ledger in the Netherlands
     description: Special general ledger functionality exists for the Dutch version of Business Central.
 
     author: SorenGP
@@ -10,14 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/23/2020
     ms.author: sgroespe
 
 ---
-# General Ledger
+# General Ledger in the Netherlands
+
 General ledger functionality for the Netherlands is described in the below topics.
 
 ## In This Section
+
 [Apply Customer Payments Manually](../../receivables-how-apply-sales-transactions-manually.md)  
 [Required Descriptions in G-L Entry](required-descriptions-in-g-l-entry.md)  
 [Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)

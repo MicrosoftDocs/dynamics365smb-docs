@@ -1,9 +1,6 @@
 ---
     title: How to Enter Australian Business Numbers
     description: You can enter an Australian Business Number (ABN) in certain pages.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 07/15/2020
     ms.author: sgroespe
 
 ---
 # Enter Australian Business Numbers
+
 You can enter an Australian Business Number (ABN) in the following pages:  
 
 - **Company Information**  
@@ -24,15 +22,18 @@ You can enter an Australian Business Number (ABN) in the following pages:
 
 An algorithm provided by the local tax office ensures that the number is in a valid format.  
 
+> [!NOTE]
+> All companies must register and apply for an ABN to report the details of payment summaries issued to their payees during the financial year. The payment summary includes the Tax File Numbers (TFN) or business numbers of the payees.
+
 ## To enter Australian business numbers  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
-2.  Select the required company or vendor.  
-3.  Expand the **Registration** FastTab.  
-4.  In the **ABN** field, enter the ABN.  
-5.  In the **ABN Division Part No.** field, enter the division part number of the ABN, if applicable.  
-6.  Choose the **OK** button.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
+2. Select the required company or vendor.  
+3. Expand the **Registration** FastTab.  
+4. In the **ABN** field, enter the ABN.  
+5. In the **ABN Division Part No.** field, enter the division part number of the ABN, if applicable.  
 
-## See Also  
- [Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)   
- [Australia Local Functionality](australia-local-functionality.md)
+## See Also
+
+[Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)   
+[Australia Local Functionality](australia-local-functionality.md)  

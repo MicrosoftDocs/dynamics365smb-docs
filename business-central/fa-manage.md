@@ -43,6 +43,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 
+## Video Overview
+The following video covers the basics of fixed assets.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

@@ -51,7 +51,11 @@ If you use the Email Printer extension, then all or some print jobs will be sent
 You must take all necessary privacy precautions, including ensuring that the email printing solution has properly configured permissions, privacy settings, and retention policies. It is your responsibility to provide a correct, verified, and operational email address. For more information, see [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## To select which printers print which reports
+
 On the **Printer Selections** page, you can set up for your user account which reports are printed by which printer. This is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
+
+> [!IMPORTANT]
+> For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Printer Selections** page can only be used for printers defined by printer extensions. It can't be used for local printers.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Alternatively, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -72,7 +76,7 @@ You or the administrator can also use the **Printer Selections** page to define 
 |Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
 |Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
 |Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
+|Print a specific report to the user's default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 
 > [!NOTE]

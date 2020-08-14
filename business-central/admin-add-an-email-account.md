@@ -57,6 +57,9 @@ To quickly add an account, use the **Set up email** assisted setup guide to comp
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+> [!NOTE]
+> You must always have a default email account, even if you add only one account. The default account will be used for all scenarios for which an account is not specified. For more information, see [Assign Accounts to Business Scenarios](admin-add-an-email-account.md#assign-accounts-to-business-scenarios).
+
 ## Assign Accounts to Business Scenarios
 You can use specific email accounts for specific business scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account.  
 
@@ -65,7 +68,7 @@ You can use specific email accounts for specific business scenarios. For example
 3. Choose **Add Scenarios**, and then choose the scenarios.
 
 ## Email Outbox
-The **Email Outbox** pages lists all messages that failed to send or were saved as drafts. 
+The **Email Outbox** pages lists all messages that failed to send or were saved as drafts. If you can't find an email on your Sent Emails page, it might be in the Email Outbox.
 
 ## Sent Emails
 The **Sent Emails** page displays a list of all of the messages that you have sent from your accounts. You cannot edit or delete these messages. 

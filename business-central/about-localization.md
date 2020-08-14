@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/21/2020
+ms.date: 08/12/2020
 ms.author: edupont
 
 ---
@@ -51,7 +51,7 @@ To learn about the local functionality for each country/region, choose the relat
 
 ### Other Countries
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## See Also
 

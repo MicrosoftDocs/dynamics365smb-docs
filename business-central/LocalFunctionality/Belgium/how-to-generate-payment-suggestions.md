@@ -21,7 +21,7 @@ After you have set up electronic banking, you can start generating payment sugge
 
 ## To generate payment suggestions  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the appropriate journal batch, and then choose the **Suggest Vendor Payments** action.  
 3.  On the **Suggest Vendor Payments EB** page, fill in the fields as described in the following table.  
 

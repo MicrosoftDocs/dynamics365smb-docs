@@ -22,14 +22,14 @@ In the following procedures, the first four describe how to enable SEPA payments
 
 ## To enable countries/regions for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.  
 2.  Choose the **Edit List** action.  
 3.  Select the **SEPA Allowed** check box for each country or region that you want to enable for SEPA.  
 4.  Choose the **OK** button.  
 
 ## To enable bank accounts for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account that you want to enable for SEPA, and then choose the **Edit** action.  
 3.  On the **General** FastTab, in the **Country/Region Code** field, select the appropriate code.  
 
@@ -42,7 +42,7 @@ In the following procedures, the first four describe how to enable SEPA payments
 
 ## To set up a SEPA ISO 20022 export protocol  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Protocols**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Protocols**, and then choose the related link.  
 2.  On the **Export Protocols** page, choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -63,21 +63,21 @@ In the following procedures, the first four describe how to enable SEPA payments
 
 ## To enable transaction modes for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transaction Modes**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Modes**, and then choose the related link.  
 2.  Select the transaction mode that you want to enable for SEPA, and then choose the **Edit** action.  
 3.  On the **Transaction Mode Card** page, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
 4.  Choose the **OK** button.  
 
 ## To verify vendor payment transaction modes for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Select the vendor that you want to verify the transaction mode for, and then choose the **View** action.  
 3.  On the **Payments** FastTab, in the **Transaction Mode Code** field, verify that the vendor payment transaction mode is one that has been enabled for SEPA.  
 4.  Choose the **OK** button.  
 
 ## To set up vendor bank accounts for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Select the relevant vendor, and then choose the **Bank Accounts** action.  
 3.  Select the vendor bank account to set up for SEPA, and then choose the **Edit** action.  
 4.  On the **Transfer** FastTab, in the **IBAN** and **SWIFT Code** fields, enter the international bank identifier code of the bank where the vendor has the account.  

@@ -36,7 +36,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 > [!Note]
 > If you are using an on-premises version, there are some additional steps to set up the features for Making Tax Digital. In the cloud version, these happen automatically. For more information, see the section titled [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) below.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Connections**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
     > [!Note]
@@ -77,7 +77,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 * Automatically enter start and end dates when you create VAT returns.
 
 ### To retrieve the VAT return periods from HMRC:
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
     
@@ -91,7 +91,7 @@ The VAT obligations are now retrieved from HMRC and you can view them on the **V
 Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders,invoices, and credit memos.
 
 ### To create and submit a VAT return:
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose **Process**, and then choose **Create VAT Return**.
 3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose **Suggest Lines**. 
@@ -102,7 +102,7 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 A successful submission of the VAT Return will result in a Status = Accepted on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to Approved a previously submitted VAT Return can be retrieved from the HMRC.
 
 ### To receive previously submitted VAT Returns from HMRC
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Return Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose <!-- Go the VAT Return Period Card for the selected VAT Return Period>
 3. On the **VAT Return Period Card** page, choose <!-- Receive submitted VAT Returns? >
 
@@ -111,7 +111,7 @@ If you want to check the status of your VAT, you can retrieve information from H
 
 To retrieve VAT liabilities:
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Liabilities**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Liabilities**, and then choose the related link.  
 2. On the **VAT Liabilities** page, choose **Process**, and then select **Get Liabilities**.
 3. Enter the **Start Date** and **End Date** of the period to retrieve VAT liabilities for, and then choose **OK**.
 
@@ -119,7 +119,7 @@ The VAT liabilities are now retrieved from HMRC and you can view them on the **V
 
 To retrieve VAT payments from HMRC:
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Payments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Payments**, and then choose the related link.  
 2. On the **VAT Payments** page, choose **Process**, and then choose **Get Payments**.
 3. Enter the **Start Date** and **End Date** of the period to retrieve VAT payments for, and then choose **OK**.
 

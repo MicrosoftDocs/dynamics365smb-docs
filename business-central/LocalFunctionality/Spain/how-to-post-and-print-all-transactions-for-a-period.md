@@ -21,7 +21,7 @@ Companies must submit their business transaction entries, grouped by transaction
 
 ## To post all transactions for a period  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -36,7 +36,7 @@ Companies must submit their business transaction entries, grouped by transaction
 
 ## To print all transactions for a period  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
 2.  To set the **Period Trans. No.** field for all of the general ledger entries in the period in a sequential order, choose the **Set Period Transaction No.** action.  
 3.  Select the appropriate filters.  
 4.  Choose the **OK** button.  

@@ -28,8 +28,8 @@ You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using
 
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|Microsoft 365     |Specific account. Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization.<br><br> Two or more people can use the same address, for example, sales@cronus.com. This requires that you set up the account in Azure Active Directory to allow multiple users. To allow multiple users to use the same account, go to the **Microsoft 365 admin center**, choose **Active Users**, choose the user, choose **Mail**, **Manage email account**, and then **Send on behalf of permissions**. Add the account to use, and then save your setting. If you add a shared account, all users must have access to the account.|
-|Current User  |Own accounts. Everyone sends email from their own account.|Allow communications from individual accounts.|
+|Microsoft 365     |Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. For more information, see [Creating a Shared Account](admin-add-an-email-account.md#creating-a-shared-account).|
+|Current User  |Everyone sends email from their own account.|Allow communications from individual accounts.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
 
 > [!NOTE]
@@ -44,6 +44,13 @@ IF you are already using SMTP, and you turn on the new feature and choose curren
 
 -->
 
+## Creating a Shared Account
+If you use the **Microsoft 365** connector to create a shared email account, you must set up the account in Azure Active Directory to allow multiple users. To allow multiple users to use the same account, follow these steps:
+
+1. Go to the **Microsoft 365 admin center**, and choose **Active Users**
+2. Choose the user, choose **Mail**, **Manage email account**, and then **Send on behalf of permissions**. 
+3. Add the account to use, and then save your settings. 
+
 ## Set Up Email Accounts
 To quickly add an account, use the **Set up email** assisted setup guide to complete the process.
 
@@ -57,7 +64,25 @@ You can use specific email accounts for specific business scenarios. For example
 2. Choose the account to define scenarios for, and then choose **Process**, and then **Setup Email Scenarios**.
 3. Choose **Add Scenarios**, and then choose the scenarios.
 
+## Email Outbox
+The **Email Outbox** pages lists all messages that failed to send or were saved as drafts. 
+
+## Sent Emails
+The **Sent Emails** page displays a list of all of the messages that you have sent from your accounts. You cannot edit or delete these messages. 
+
+Can't find an item in your sent items? That might be because of the following:
+
+* The message failed to send, for example, because the recipient's email address was incorrect. Try to find it in your Outbox.
+* The message has been deleted. Your administrator might have done some housekeeping and cleaned up messages that are past a certain age.
+
+> [!NOTE]
+> Your administrator can also view your sent messages.  
+
+Over time the list of sent messages will grow and begin to take up storage space. An easy way to clean up unneeded messages is to define a retention policy. Retention policies let you specify how long you want to keep data, and will delete the data for you after that period expires. For more information, see [](). 
+
 ## Using Your Own Email App
+<!--Should we mention **Email Application AAD Registration**? Looks like it's a shortcut to register an application in AAD.-->
+
 To use your own app, there are a few things you must do.
 
 1. Register your application in Azure Active Directory. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
@@ -74,15 +99,10 @@ To use your own app, there are a few things you must do.
 
 <!--Notes from all up bash
 
-**Compose an email** - What is this? 
-
-**Email Application AAD Registration** - what is this? Looks like it's a shortcut to register an application in AAD.
-
-The connectors have changed. There is only one Microsoft 365 option, and there is now 
+**Compose an email** - Not yet available. 
 
 Need a message about when a feature switch is not turned on. 
 
-In the Sent Items you can see the mails that you have sent, but the administrator can see everything. We need to make that clear to the user, so that they do not use their private account as the Current User. You cannot edit, add, or delete messages in the Sent Items page.
 
 Are there any permissions issues?
 
@@ -92,13 +112,7 @@ The admin creates accounts.
 
 Going to add a **Save as Draft** action.
 
-When you send a message, and there is standard text defined for the report layout, you can edit the body text before you send it. You can also change the From address. 
-
 To clean up sent mails, an admin can create a retention policy.
-
-## Troubleshooting Messages
-**Email Outbox** lists all messages that faiuled to send, or were put on hold for some reason. You can 
-
 
 You can spelcify that you want to delay sending a message. the status will be On Hold. How? Ask Maria
 

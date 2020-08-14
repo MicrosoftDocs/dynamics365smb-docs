@@ -51,16 +51,16 @@ Keeping sensitive data secure and private is a core concern for most businesses.
 > Sending notifications by email requires that you set up the email feature in [!INCLUDE[prodshort](includes/prodshort.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 ### Setting Up Field Monitoring
-You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
+You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. You must specify both the user notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
 
-Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries, you can either delete one or more entries manually, or you can use a retention policy. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
+Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries you can create a retention policy that will delete entries after a specified period of time. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
 
 When you set up field monitoring, or change something in the setup, entries are created for your changes. You can specify whether to display entries related to the monitoring setup by showing or hiding them. 
 
 You can manage settings for field monitoring, such as whether to send an email notification or just log the change, for each field on the **Monitored Fields Worksheet** page. The page is also where you can add or remove fields to monitor.
 
 > [!NOTE]
-> After you add one or more fields, you must sign out of [!INCLUDE[prodshort](includes/prodshort.md)] and sign in again to view your changes.
+> After you add one or more fields and start monitoring, you must sign out of [!INCLUDE[prodshort](includes/prodshort.md)] and sign in again to apply your settings.
 
 ### Working with Field Monitoring
 Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made. To view a list of all entries, choose **Field Change Entries**.

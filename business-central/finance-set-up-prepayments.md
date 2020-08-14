@@ -18,9 +18,9 @@ Before you can post prepayment invoices, you have to set up the posting accounts
 You can define the percentage of the line amount that will be invoiced for prepayment, for a customer or vendor, for all items or selected items. After you complete the setup, you can generate prepayment invoices from sales and purchase orders. You can use the default percentages for each sales or purchase line, or you can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order.  
 
 > [!NOTE]
-> If you are located in North America, we recommend that you do not specify a prepayment percentage of 100%. Due to how taxes are calculated in the [!INCLUDE[d365fin](includes/d365fin_md.md)] version for your region, in some cases this can lead to issues with prepayment invoices.
->
-> Also, when you use prepayment percentage of 100% and you're using payment discounts for prepayment invoices, the discounts on the final sales invoice will leave a remaining amount, even if your customer has paid the full amount.
+> We recommend that you do not use a prepayment percentage of 100% for the following reasons:
+> * If you are located in North America, due to how taxes are calculated, a prepayment percentage of 100% can lead to issues with prepayment invoices in some cases.
+> * In all regions, if you normal business procedure is to manually deduct a payment discount from the invoice, a prepayment percentage of 100% will not automatically leave an amount from which to deduct the invoice discount. 
 
 Because the prepaid amount belongs to the buyer until they have received the goods or services, you need to set up general ledger accounts to hold the prepayment amounts until the final invoice is posted. Sales prepayments must be recorded in a liabilities account until the items are shipped. Purchase prepayments must be recorded in an assets account until the items are received. In addition, you must set up a separate general ledger account for each VAT identifier.  
 

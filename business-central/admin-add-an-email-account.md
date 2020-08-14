@@ -29,12 +29,20 @@ You add an email account to [!INCLUDE[d365fin](includes/d365fin_md.md)] by using
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
 |Microsoft 365     |Specific account. Everyone sends email from the account you specify.|When all messages come from the same department, for example, your sales organization.<br><br> Two or more people can use the same address, for example, sales@cronus.com. This requires that you set up the account in Azure Active Directory to allow multiple users. To allow multiple users to use the same account, go to the **Microsoft 365 admin center**, choose **Active Users**, choose the user, choose **Mail**, **Manage email account**, and then **Send on behalf of permissions**. Add the account to use, and then save your setting. If you add a shared account, all users must have access to the account.|
-|Microsoft 365     |Own accounts. Everyone sends email from their own account.|Allow communications from individual accounts.|
-|Outlook     |Outlook.com, Live.com, Hotmail, MSN|Allow communications from individual accounts.|
+|Current User  |Own accounts. Everyone sends email from their own account.|Allow communications from individual accounts.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
 
 > [!NOTE]
 > The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
+
+<!--## New Email Features
+We're improving the features that are available for email. If you have already setup email capabilities through the SMTP setup, you will continue to use that functionality. However, if you change any of those settings you must use the new capabilities.
+
+IF you are already using SMTP, and you turn on the new feature and choose current user, people will send from their own account. Before you turn on the new feature, you need to ... 
+
+
+
+-->
 
 ## Set Up Email Accounts
 To quickly add an account, use the **Set up email** assisted setup guide to complete the process.
@@ -63,6 +71,40 @@ To use your own app, there are a few things you must do.
    |openid|Delegated|Sign users in|
    |User.Read|Delegated|Sign in and read user profile|
 3. Run the **Set up email** assisted setup guide to connect your email connector.
+
+<!--Notes from all up bash
+
+**Compose an email** - What is this? 
+
+**Email Application AAD Registration** - what is this? Looks like it's a shortcut to register an application in AAD.
+
+The connectors have changed. There is only one Microsoft 365 option, and there is now 
+
+Need a message about when a feature switch is not turned on. 
+
+In the Sent Items you can see the mails that you have sent, but the administrator can see everything. We need to make that clear to the user, so that they do not use their private account as the Current User. You cannot edit, add, or delete messages in the Sent Items page.
+
+Are there any permissions issues?
+
+Add a mention that test emails might end up in the recipients Junk folder.
+
+The admin creates accounts. 
+
+Going to add a **Save as Draft** action.
+
+When you send a message, and there is standard text defined for the report layout, you can edit the body text before you send it. You can also change the From address. 
+
+To clean up sent mails, an admin can create a retention policy.
+
+## Troubleshooting Messages
+**Email Outbox** lists all messages that faiuled to send, or were put on hold for some reason. You can 
+
+
+You can spelcify that you want to delay sending a message. the status will be On Hold. How? Ask Maria
+
+
+-->
+
 
 ## See Also
 [Set Up Email](admin-how-setup-email.md)

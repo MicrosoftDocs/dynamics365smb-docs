@@ -10,8 +10,8 @@
 ### [What's New](product-news.md)
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
-### Technical Support
-### Help System
+### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### Help System(/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visit Our Video Library](across-videos.md)
 ## Roles
 ### Business decision maker
@@ -22,7 +22,7 @@
 #### [Documentation](product-get-started.md)
 ### Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](product-get-started.md)
+#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## Readiness
 ### Try
 #### [Overview](across-preview.md)
@@ -30,7 +30,7 @@
 #### [Extending Your Trial Version](admin-extend-trial.md)
 #### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ### Buy
-#### [Overview](across-preview.md)
+#### [Overview](ui-get-ready-business.md)
 ### Develop
 #### [Extending Business Central](about-develop-extensions.md)
 ### Sell

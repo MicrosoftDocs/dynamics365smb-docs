@@ -36,16 +36,6 @@
 ### Sell
 #### [Become a Reseller](product-sell.md)
 
-## Trials and Subscriptions
-## Find Training
-### [Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers.md)
-### [Business User Learning Catalog](readiness/readiness-learning-bus-users.md)
-### [Developer Learning Catalog](readiness/readiness-learning-developers.md)
-### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
-### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
-### [Sales Learning Catalog](readiness/readiness-learning-sales.md)
-
 # Working with Business Central
 ## [Overview](ui-work-product.md)
 ## [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)

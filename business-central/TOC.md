@@ -1,19 +1,43 @@
 ﻿# [Welcome to Business Central](index.md)
 # Getting Started
-## [Overview](product-get-started.md)
-## [What's New](product-news.md)
-## [Minimum Requirements](product-requirements.md)
-## [Frequently Asked Questions](across-faq.md)
-## [Resources for Help and Support](product-help-and-support.md)
-## [Getting Ready for Doing Business](ui-get-ready-business.md)
-## [Overview of Business Functionality](across-business-functionality.md)
-## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-## [Visit Our Video Library](across-videos.md)
+## Getting started with Business Central
+### [Get to know Business Central](product-get-started.md)
+### [Overview of Business Functionality](across-business-functionality.md)
+### [Getting Ready for Doing Business](ui-get-ready-business.md)
+## Frequently asked questions
+### [Frequently Asked Questions](across-faq.md)
+### [Minimum Requirements](product-requirements.md)
+## Help and Support
+### [Resources for Help and Support](product-help-and-support.md)
+### Technical Support
+### Help System
+### [Visit Our Video Library](across-videos.md)
+## Roles
+### Business decision maker
+#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
+#### [Documentation](product-get-started.md)
+### Business user
+#### [Learning catalog](readiness/readiness-learning-bus-users.md)
+#### [Documentation](product-get-started.md)
+### Developer
+#### [Learning catalog](readiness/readiness-learning-developers.md)
+#### [Documentation](product-get-started.md)
+## Readiness
+### Try
+#### [Overview](across-preview.md)
+#### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+#### [Extending Your Trial Version](admin-extend-trial.md)
+#### [Unsubscribe or Remove Business Central](admin-cancel.md)
+### Buy
+#### [Overview](across-preview.md)
+### Develop
+#### [Extending Business Central](about-develop-extensions.md)
+### Sell
+#### [Become a Reseller](product-sell.md)
+<-- ## [What's New](product-news.md)-->
+
+
 ## Trials and Subscriptions
-### [Overview](across-preview.md)
-### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-### [Extending Your Trial Version](admin-extend-trial.md)
-### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Find Training
 ### [Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Decision Maker Learning Catalog](readiness/readiness-learning-bus-decision-makers.md)
@@ -22,9 +46,6 @@
 ### [Functional Consultant Learning Catalog](readiness/readiness-learning-functional-consultants.md)
 ### [Pre-sales Learning Catalog](readiness/readiness-learning-presales.md)
 ### [Sales Learning Catalog](readiness/readiness-learning-sales.md)
-## Resellers and Partners
-### [Become a Reseller](product-sell.md)
-### [Extending Business Central](about-develop-extensions.md)
 
 # Working with Business Central
 ## [Overview](ui-work-product.md)
@@ -73,6 +94,7 @@
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
+## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
 
 # Setting Up Business Central
 ## [Overview](setup.md)

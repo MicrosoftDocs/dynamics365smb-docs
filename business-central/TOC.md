@@ -7,6 +7,7 @@
 ## Frequently asked questions
 ### [Frequently Asked Questions](across-faq.md)
 ### [Minimum Requirements](product-requirements.md)
+### [What's New](product-news.md)
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
 ### Technical Support
@@ -34,8 +35,6 @@
 #### [Extending Business Central](about-develop-extensions.md)
 ### Sell
 #### [Become a Reseller](product-sell.md)
-<-- ## [What's New](product-news.md)-->
-
 
 ## Trials and Subscriptions
 ## Find Training

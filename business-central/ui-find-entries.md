@@ -15,7 +15,7 @@ ms.author: jswymer
 ---
 # Finding Related Entries for Posted Documents 
 
-In this article, you learn how to find documents and entries that are related to each other, based on a common:
+In this article, you learn how to find documents and entries that are related to each other based on a common information like:
 
 - document number or posting date
 - item serial number or lot number
@@ -26,11 +26,11 @@ This feature is useful if you want to find the ledger entries that resulted from
 
 ## Get started 
 
-The first thing to do is open the **Find Entries** page. There are two ways to open this pag:
+The first thing to do is open the **Find Entries** page. There are two ways to open this page:
 
 - Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
-    With this way, the **Find Entries** page will be empty, and you'll have to start searching for entries from scratch.
+    With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
 - Open a page that displays posted documents or posted documents entries, either as a list or a card. Then, locate and select the **Find Entries** action.
 

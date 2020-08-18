@@ -21,14 +21,14 @@ ms.author: bholtorf
 
 You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] send email messages without having to switch apps. You can compose each message individually with basic formatting tools (fonts, styles, colors, and so on) and add attachments (up to 100MB), or create templates that contain pre-defined, reusable texts. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-To use email features, you can either use the email connectors we provide, or build an app yourself and connect to it. The latter will probably require the help of a partner. For more information, see [Using Your Own Email App](admin-how-setup-email.md#using-your-own-email-app).
+To use email features, you can either use the email connectors we provide or build an app yourself and connect to it. The latter will probably require the help of a partner.
 
 ## About Email Connectors
 You add email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] through email connectors. You can have as many connectors as you want, but only one of each type, though you can have multiple email accounts for each connector. The following table describes the standard email connectors that are available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Other email connectors, such as the Outlook connector, are available in Extension Marketplace. For more information, see [Installing an Extension](/dynamics365/business-central/ui-extensions#installing-an-extension).
 
 |Account Type  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|Microsoft 365     |Everyone sends email from a shared mailbox.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. For more information, see [Creating a Shared Account](admin-how-setup-email.md#creating-a-shared-account).|
+|Microsoft 365     |Everyone sends email from a shared mailbox.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |Current User  |Everyone sends email from the account they used to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].|Allow communications from individual accounts.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
 
@@ -45,7 +45,7 @@ To quickly add an account, use the **Set up email** assisted setup guide to comp
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
     > [!NOTE]
-    > You must always have a default email account, even if you add only one account. The default account will be used for all scenarios for which an account is not specified. For more information, see [Assign Accounts to Email Scenarios](admin-how-setup-email.md#assign-accounts-to-business-scenarios).
+    > You must always have a default email account, even if you add only one account. The default account will be used for all scenarios for which an account is not specified. For more information, see [Assign Accounts to Email Scenarios](admin-how-setup-email.md#assign-accounts-to-email-scenarios).
 
     > [!NOTE]
     > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).

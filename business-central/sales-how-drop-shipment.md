@@ -1,8 +1,6 @@
 ---
 title: Link a Sales Order to a Purchase Order for Direct Shipment | Microsoft Docs
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -54,7 +52,7 @@ You can also use the requisition worksheet to create the purchase order for the 
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
 4. Review the purchase order lines, and in the **Vendor No.** field, select vendor that supplies required goods. 
-5. Choose the **Carry Out Action Message*** action to convert reviewed lines to a purchase order.
+5. Choose the **Carry Out Action Message** action to convert reviewed lines to a purchase order.
 
 ## To view the linked purchase order from the sales order
 

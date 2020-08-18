@@ -289,7 +289,6 @@
 #### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
 #### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 #### [Set up Email](admin-how-setup-email.md)
-#### [Add an Email Account](admin-add-an-email-account.md)
 #### [Create Workflows](across-how-to-create-workflows.md)
 #### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
 #### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)

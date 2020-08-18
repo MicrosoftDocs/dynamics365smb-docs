@@ -15,7 +15,7 @@ ms.author: bholtorf
 ---
 # Set Up Email
 > [!Important]
-> 2020 release wave 2 offers improved email capabilities. If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new capabilities are already turned on. If you are already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through SMTP, you can continue using your current setup. When you are ready, your administrator can turn on the new email capabilities. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). 
+> 2020 release wave 2 offers improved email capabilities. If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new capabilities are already turned on. If you are already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through SMTP, you can continue using your current setup. When you are ready, your administrator can turn on the new email capabilities, and we will convert your SMTP setup to use the SMTP connector. The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). 
 >
 > If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors. We recommend that you set up and test the new capabilities before you turn on the feature switch.
 
@@ -31,9 +31,6 @@ You add email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] through em
 |Microsoft 365     |Everyone sends email from a shared mailbox.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |Current User  |Everyone sends email from the account they used to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].|Allow communications from individual accounts.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
-
-> [!NOTE]
-> The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 ## Set Up Email
 To quickly add an account, use the **Set up email** assisted setup guide to complete the process.

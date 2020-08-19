@@ -1,6 +1,6 @@
 ﻿# [Welcome to Business Central](index.md)
 # Getting Started
-## Getting started with Business Central
+## Getting Started with Business Central
 ### [Get to know Business Central](product-get-started.md)
 ### [Overview of Business Functionality](across-business-functionality.md)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
@@ -10,14 +10,14 @@
 ### [What's New](product-news.md)
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
-### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 ### Help System(/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visit Our Video Library](across-videos.md)
-## Roles
-### Business decision maker
+### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+## User Type-Specific Start Pages
+### Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Documentation](product-get-started.md)
-### Business user
+### Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
 #### [Documentation](product-get-started.md)
 ### Developer

@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 # Set Up Email
-> [!Important]
+> [!Note]
 > 2020 release wave 2 offers improved email capabilities. If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new capabilities are already turned on. If you are already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through SMTP, you can continue using your current setup. When you are ready, your administrator can turn on the new email capabilities, and we will convert your SMTP setup to use the SMTP connector. The SMTP connector functions in the same way as previously in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). 
 >
 > If you have customized the email capabilities, for example, through an extension, there is a chance that something will go wrong with your customizations if you start  using the new email connectors. We recommend that you set up and test the new capabilities before you turn on the feature switch.
@@ -23,17 +23,25 @@ You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fi
 
 To use email features, you can either use the email connectors we provide or build an app yourself and connect to it. The latter will probably require the help of a partner.
 
-## About Email Connectors
-You add email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] through email connectors. You can have as many connectors as you want, but only one of each type, though you can have multiple email accounts for each connector. The following table describes the standard email connectors that are available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Other email connectors, such as the Outlook connector, are available in Extension Marketplace. For more information, see [Installing an Extension](/dynamics365/business-central/ui-extensions#installing-an-extension).
+> [!NOTE]
+> The standard email connectors use the accounts you set up for users in your Office 365 subscription. To send emails, users must have a valid license for Exchange. You set that up in the Microsoft 365 admin center.
 
-|Account Type  |Description  |Examples of when to use  |
+## About Email Connectors
+You add email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] through email connectors. Connectors are extensions that enable different types of email accounts to communicate with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, the standard connectors let you use Exchange accounts.
+
+You can have as many different connectors as you want, and you can have multiple email accounts for each connector. The following table describes the standard email connectors that are currently available in [!INCLUDE[d365fin](includes/d365fin_md.md)]. More connectors may become available in the future.
+
+|Connector  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|Microsoft 365     |Everyone sends email from a shared mailbox.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|Microsoft 365     |Everyone sends email from a shared mailbox in Exchange.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account.|
 |Current User  |Everyone sends email from the account they used to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].|Allow communications from individual accounts.|
 |Other (SMTP)     |Use SMTP protocol to send emails.|Specific account. Everyone sends email from the account you specify. You can, however, use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](/dynamics365/business-central/admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).|
 
+> [!IMPORTANT] 
+> If you use the Microsoft 365 connector, you must complete the steps to set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).
+
 ## Set Up Email
-To quickly add an account, use the **Set up email** assisted setup guide to complete the process.
+The **Set up email** assisted setup guide can help you get started quickly with emails.
 
 > [!TIP]
 > If you are converting an existing SMTP email setup to use the capabilities available in 2020 release wave 2, you can set everything up and test your settings before you turn on the feature switch to start using the new capabilities. 
@@ -42,16 +50,16 @@ To quickly add an account, use the **Set up email** assisted setup guide to comp
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
     > [!NOTE]
-    > You must always have a default email account, even if you add only one account. The default account will be used for all scenarios for which an account is not specified. For more information, see [Assign Accounts to Email Scenarios](admin-how-setup-email.md#assign-accounts-to-email-scenarios).
+    > You must have a default email account, even if you add only one account. The default account will be used for all email scenarios that are not assigned to an account. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
     > [!NOTE]
     > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 
-### Assign Accounts to Email Scenarios
-Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can only assign a scenario to one email account. 
+### Assign Email Scenarios to Email Accounts
+Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and unassign scenarios to accounts whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
-2. Choose the account to define scenarios for, and then choose **Process**, and then **Setup Email Scenarios**.
+2. Choose the account to define scenarios for, and then choose **Process**, and then **Set Up Email Scenarios**.
 3. Choose **Assign Scenarios**, and then choose the scenarios.
 
 ### Using a Substitute Sender Address on Outbound Email Messages

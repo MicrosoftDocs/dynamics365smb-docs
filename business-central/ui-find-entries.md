@@ -25,12 +25,14 @@ This feature is useful if you want to find the ledger entries that resulted from
 
 ## Get started 
 
-The first thing to do is open the **Find Entries** page. There are two ways to open this page:
+The first thing to do is open a the **Find Entries** page.
+
+<!--There are two ways to open this page:
 
 - Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
-    
+-->    
 - Open a page that displays posted documents or posted documents entries, either a list or a card. Then, locate and select the **Find Entries** action.
 
     With this way, the **Find Entries**, page will include all related documents and entries based on the document no. and posting date.

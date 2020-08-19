@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/09/2020
+ms.date: 08/19/2020
 ms.author: soalex
 
 ---
@@ -42,7 +42,7 @@ The following topics describe local functionality that is unique to the United K
 
 ## See Also
 
-[Preparing for the United Kingdom to leave the European Union](united-kingdom-leaving-eu.md)  
+[Using Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 

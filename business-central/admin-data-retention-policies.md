@@ -30,11 +30,17 @@ Before you can create retention policies, you must set up the following.
 ### To create retention periods
 Retention periods can be as long or as short as you want. To create retention periods, on the **Retention Policies** page, use the **Retention Period** action. The periods you define will be available for all policies.
 
+> [!NOTE]
+> For compliance reasons, we have defined a minimum retention period for some tables. If you set a retention period that is shorter than minimum required, a message will display the mandatory period.
+
 ### Set up a retention policy
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Retention Policies**, and choose the related link.
 2. In the **Table ID** field, choose the table that you want to include in the policy.
 3. In the **Retention Period** field, specify the length of time for which to keep the data in the table.
 4. Optional: To apply the policy to only certain data in a table, turn off the **Apply to all records** toggle. The **Record Retention Policy** FastTab will display, where you can specify filters that will determine the subset of expired data to which the policy applies. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
+
+> [!NOTE]
+> Some tables contain filters that you cannot change or remove. To help you identify these filters, they appear in a lighter color font.
 
 ## Applying Retention Policies
 You can use a job queue entry to apply retention policies to delete data automatically, or you can manually apply policies.
@@ -46,25 +52,46 @@ You can manually apply a policy by using the **Apply Manually** action on the **
 ## Viewing Retention Policy Log Entries
 You can view activity related to retention policies in the **Retention Policy Log** page. For example, entries are created when when a policy is applied, or if errors occurred when that happened. 
 
-## Including Your Extension in a Retention Policy
+## Including Your Extension in a Retention Policy (Requires Help from a Developer)
 By default, retention policies cover only tables that are included in the list of [!INCLUDE[prodshort](includes/prodshort.md)] tables that we provide. You can remove default tables from the list, and you can add tables that you own. That is, you cannot add a table that you did not create yourself. For example, you cannot add other tables from [!INCLUDE[prodshort](includes/prodshort.md)] or from an extension that you have purchased.
 
-To build your own list of allowed tables, a developer must add some code to the installer codeunit for the extension (a codeunit with the *install* subtype). You can add or edit the list of allowed tables only during installation or upgrade, and you must publish a new version of your extension. 
+To build your own list of allowed tables, a developer must add some code to the installer codeunit for the extension (a codeunit with the *install* subtype). 
 
-The following code example shows how we added a table to the allowed tables list in codeunit 3907 "Retention Policy Installer". 
+When a developer adds a table, they can specify mandatory and default filters. Mandatory filters cannot be removed or modified later when you add tables to define a retention policy. Default filters are just friendly suggestions.
+
+The following are examples of how to add a table to the list of allowed tables with, and without, mandatory or default filters. For a more complex example, see codeunit 3999 "Reten. Pol. Install - BaseApp". 
 
 ```
-trigger OnInstallAppPerCompany()    
-var        
-  RetentionPolicyLogEntry: Record "Retention Policy Log Entry";        
-  RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";        
-  CurrModuleInfo: ModuleInfo;    
-begin        
-  NavApp.GetCurrentModuleInfo(CurrModuleInfo);        
-  RetenPolAllowedTables.AddAllowedTable(Database::"Retention Policy Log Entry", RetentionPolicyLogEntry.FieldNo("Date/time"), CurrModuleInfo);    
-end;
+ trigger OnInstallAppPerCompany()
+    var
+        RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
+    begin
+        RetenPolAllowedTables.AddAllowedTable(Database::"Retention Policy Log Entry");
+    end;
 ```
 
+The following example includes a mandatory filter.
+
+```
+ trigger OnInstallAppPerCompany()
+    var
+        ChangeLogEntry: Record "Change Log Entry";
+        RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
+        RetentionPeriod: Enum "Retention Period Enum";
+        RecRef: RecordRef;
+        TableFilters: JsonArray;
+        Enabled: Boolean;
+        Mandatory: Boolean;
+    begin
+        ChangeLogEntry.Reset();
+        ChangeLogEntry.SetFilter("Field Log Entry Feature", '%1|%2', ChangeLogEntry."Field Log Entry Feature"::"Monitor Sensitive Fields", ChangeLogEntry."Field Log Entry Feature"::All);
+        RecRef.GetTable(ChangeLogEntry);
+        Enabled := true;
+        Mandatory := true;
+        RetenPolAllowedTables.AddTableFilterToJsonArray(TableFilters, RetentionPeriod::"28 Days", ChangeLogEntry.FieldNo(SystemCreatedAt), Enabled, Mandatory, RecRef);
+        RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
+    end;
+```
 After a developer has added tables to the list, an administrator can include them in a retention policy. 
 
 ## See Also

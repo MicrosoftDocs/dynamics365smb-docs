@@ -25,12 +25,13 @@ The departure of the United Kingdom (UK) from the European Union (EU), impacts m
 
 2. **Does Business Central support legislation in the United Kingdom?**
 
-    In many cases, yes. As with all countries for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for *Making Tax Digital*, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require additional feature support. For example, when regulations impact a specific vertical industry, such as construction, we expect the solution that extends [!INCLUDE[prodshort](../../includes/prodshort.md)] for that industry by a Microsoft Independent Software Vendor (ISV) to provide the necessary features for the regulatory requirements specific to that vertical. Again, the responsibility for compliance rests with the individual business deploying the solution.
+    In many cases, yes. As with all countries for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for [Making Tax Digital](making-tax-digital-submit-vat-return.md), which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require additional feature support. For example, when regulations impact a specific vertical industry, such as construction, we expect the solution that extends [!INCLUDE[prodshort](../../includes/prodshort.md)] for that industry by a Microsoft Independent Software Vendor (ISV) to provide the necessary features for the regulatory requirements specific to that vertical. Again, the responsibility for compliance rests with the individual business deploying the solution.
 
 ### Questions?
 
-Contact the [!INCLUDE[prodshort](../../includes/prodshort.md)] localization team if you have any questions regarding localization of [!INCLUDE[prodshort](../../includes/prodshort.md)] at *d365bcloc@microsoft.com*.
+Contact the [!INCLUDE[prodshort](../../includes/prodshort.md)] localization team if you have any questions regarding localization of [!INCLUDE[prodshort](../../includes/prodshort.md)] at [d365bcloc@microsoft.com](mailto:d365bcloc@microsoft.com).
 
 ## See Also
 
+[Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

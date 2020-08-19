@@ -23,7 +23,7 @@ The following topics describe local functionality that is unique to the United K
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
     * [Change VAT Setup in Journals](how-to-change-vat-setup-in-journals.md) **Available Now**
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
-    * [Print VAT Reports](how-to-print-vat-reports.md)|Current|
+    * [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
 
 * Banking & Payments

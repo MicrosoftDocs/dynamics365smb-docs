@@ -298,5 +298,6 @@ Then you must create various purchase, production, and sales transactions with t
 ## See Also
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
-[Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 [Find Entries](ui-find-entries.md)  
+[Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
+

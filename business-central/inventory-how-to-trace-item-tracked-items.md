@@ -55,10 +55,10 @@ These features can be particularly useful in quality control when you need to fi
 
 ## To find item-tracked items with Find Entries  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
-2.  Choose **Actions** > **Find by** > **Find by Item Reference**.
-4. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
-5. Choose the **Find** action to find all instances of the serial or lot number in the database.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
+2. Choose **Actions** > **Find by** > **Find by Item Reference**.
+3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
+4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
 ## See Also  
 [Inventory](inventory-manage-inventory.md)  

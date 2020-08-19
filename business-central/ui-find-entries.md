@@ -23,7 +23,7 @@ This feature is useful for finding the ledger entries that resulted from certain
 
 ## Get started
 
-The find entries feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first thing to do is open one of these pages. Then, either locate and choose the **Find Entries** action, or press the alt+G keys.
+The find entries feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first step is open one of these pages. Then, either choose the **Find Entries** action or press the alt+G keys.
 
 The **Find Entries** page  includes all related documents and entries based on the document no. and posting date. The page is divided into three sections:
 
@@ -59,6 +59,9 @@ You can search for entries based on information about either the document, busin
 |Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.|
 
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
+
+> [!TIP]
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) .
 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

@@ -21,7 +21,7 @@ When product defects occur, the errors must be identified and affected items mus
 
 The first task of defects management is to investigate where the defective items came from and where they were used. This investigation is based on historic data and is made easier by searching through item tracking entries using the **Item Tracing** page.  
 
-The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed on the **Navigate** page. You can use the Navigate feature to search all kinds of database records.  
+The second task of defects management is to determine whether the traced items are planned for in open documents, such as non-posted sales orders or consumption journals. This work is performed on the **** page. You can use the Find Entries feature to search all kinds of database records.  
 
 ## About This Walkthrough
 
@@ -60,7 +60,7 @@ From the sales department, the quality controller knows that the returned racing
 
 The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
 
-The first two defects-management tasks are performed on the **Item Tracing** page. The last task is performed on the **Navigate** page in integration with the **Item Tracing** page.  
+The first two defects-management tasks are performed on the **Item Tracing** page. The last task is performed on the **Find Entries** page in integration with the **Item Tracing** page.  
 
 ## Prepare Sample Data
 
@@ -223,7 +223,7 @@ Then you must create various purchase, production, and sales transactions with t
     > [!NOTE]  
     >  Do not post the last sales order for five racing frames.  
 
-    This completes the preparation of data to demonstrate the Item Tracing and Navigate features.  
+    This completes the preparation of data to demonstrate the Item Tracing and Find Entries features.  
 
 ## Tracing from Usage to Origin  
  From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
@@ -275,27 +275,28 @@ Then you must create various purchase, production, and sales transactions with t
 
     At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
 
-    This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Navigate** page to make sure that LOT1 is not used in non-posted documents.  
+    This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find Entries** page to make sure that LOT1 is not used in non-posted documents.  
 
 ## Finding All Records of a Serial/Lot Number  
- With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Navigate** page where he can perform a search through all database records.  
+ With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find Entries** page where he can perform a search through all database records.  
 
 ### To find all occurrences of LOT1 in non-posted records, such as open orders  
 
 1.  On the **Item Tracing** page, select the first trace line, the purchase receipt of LOT1.  
-2.  Choose the **Navigate** action.  
+2.  Choose the **Find Entries** action.  
 
-    The **Navigate** page is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Navigate line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
+    The **Find Entries** page is preset with search filters based on the trace result for LOT1. The quality controller recognizes most of the records as pertaining to documents already identified on the **Item Tracing** page. For example, the last Find Entries line of type Production Order refers to the two released production orders that consumed racing frames from LOT1.  
 
-    However, the second Navigate line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
+    However, the second Find Entries line of type **Sales Line** is a non-posted document line, so the quality controller proceeds to investigate.  
 
-3.  To open the sales line record, select the second Navigate line, choose the **Show** action. Alternatively, choose the value in the **No. of Records** field.  
+3.  To open the sales line record, select the second Find Entries line, choose the **Show** action. Alternatively, choose the value in the **No. of Records** field.  
 
     Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.  
 
- This completes the walkthrough of how to use the **Navigate** page for defects management in integration with the **Item Tracing** page.  
+ This completes the walkthrough of how to use the **Find Entries** page for defects management in integration with the **Item Tracing** page.  
 
 ## See Also
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
+[Find Entries](ui-find-entries.md)  

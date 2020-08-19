@@ -63,5 +63,7 @@ After you make a selection, enter the relevant search information in the fields 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## See Also
+
 [Working with Business Central](ui-work-product.md)  
-[Add a Page Action to Your Role Center](ui-bookmarks.md)
+[Add a Page Action to Your Role Center](ui-bookmarks.md)  
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)  

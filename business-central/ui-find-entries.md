@@ -1,8 +1,7 @@
 ---
 title: Finding entries | Microsoft Docs
-description: This topic describes how to use search to find actions, pages, reports, documentation, and data, as well as other apps and consulting services.
+description: This article describes how to documents and entries that are related
 author: jswymer
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -11,28 +10,35 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2020
 ms.author: jswymer
-
 ---
 # Finding Related Entries for Posted Documents 
 
 In this article, you learn how to find documents and entries that are related to each other based on a common information, like:
 
 - Document number or posting date
-- Business contact type, number or external document number
+- Business contact type, number, or external document number
 - Item serial number or lot number
 
-This feature is useful if you want to find the ledger entries that resulted from certain transactions. When you search by document number, you can print the summary from the Document Entries report. 
+This feature is useful for finding the ledger entries that resulted from certain transactions. When you search by document number, you can print the summary from the Document Entries report.
 
-## Get started 
+## Get started
 
-The first thing to do is open a the **Find Entries** page.
+The **Find Entries** feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first thing to do is open one of these pages. Then, either locate and choose the **Find Entries** action, or press the alt+G keys
 
-<!--There are two ways to open this page:
+The **Find Entries** page will include all related documents and entries based on the document no. and posting date. The page is divided into three sections:
+
+- The top section displays fields and actions that you use for filtering your search.
+- The middle section displays related documents based on the search.
+- The bottom section displays information about the source document that was found by searching.
+
+
+<!--
+ There are two ways to open this page:
 
 - Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
--->    
+    
 - Open a page that displays posted documents or posted documents entries, either a list or a card. Then, locate and select the **Find Entries** action.
 
     With this way, the **Find Entries**, page will include all related documents and entries based on the document no. and posting date.
@@ -40,12 +46,7 @@ The first thing to do is open a the **Find Entries** page.
 
     > [!TIP]
     > If you are on a page that has the **Find Entries** action, press crtl+G to open the **Find Entries** page directly. 
-
-The **Finding Entries** page is divided into three sections:
-
-- The top section displays fields and actions that you use for filtering your search.
-- The middle section displays related documents based on the search.
-- The bottom section displays information about the source document that was found by searching.
+-->
 
 ## Search for entries
 
@@ -53,11 +54,11 @@ You can search for entries based on information about either the document, busin
 
 |Action|Description|
 |------|-----------|
-|Find by Document|View entries based on a specific document number and/or posting date.|
+|Find by Document|View entries based on a specific document number or posting date.|
 |Business Contact |View entries based on a specific contact type, contact number, anr/or external document number. You can enter document information that was assigned by a vendor or a customer. Use the available fields to search for vendor documents by using the numbers that the vendor has assigned the documents.|
-|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or you can filter on the lot number or serial number that you want to search for. This option is useful if you want to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.|
+|Item reference|View entires based on a serial number or lot number. You can enter the lot number or serial number, or filter on the lot number or serial number that you want to search for. This action is useful to see where a specific item tracking number was used, what vendor it came from, or what customer it was sold to.|
 
-After you make a selection enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you are finished, choose **Find** to start the search. If you change any of the filters, you must choose **Find** again.
+After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

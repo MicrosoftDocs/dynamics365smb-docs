@@ -17,9 +17,9 @@ ms.author: jswymer
 
 In this article, you learn how to find documents and entries that are related to each other based on a common information, like:
 
-- document number or posting date
-- item serial number or lot number
-- Business contact type, number or external document number.
+- Document number or posting date
+- Business contact type, number or external document number
+- Item serial number or lot number
 
 This feature is useful if you want to find the ledger entries that resulted from certain transactions. When you search by document number, you can print the summary from the Document Entries report. 
 <!--Shows the number and type of entries that have the same document number or posting date. You can also use this feature to find the documents and entries where certain lot numbers and serial numbers are used.. in [!INCLUDE[d365fin](includes/d365fin_md.md)] -->

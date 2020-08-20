@@ -207,3 +207,4 @@ When setting a date field, you can either enter the date manually or open a cale
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
+[Find Entries](ui-find-entries.md)  

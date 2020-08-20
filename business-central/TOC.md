@@ -240,9 +240,17 @@
 ### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Using Business Central Without Outlook](admin-no-outlook.md)
 ## Using Power BI with Business Central
-### [Enabling Your Business Data for Power BI](admin-powerbi.md)
-### [Viewing List Data in Power BI Reports in Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)
+### [Introduction](admin-powerbi.md)
+### Administrator
+#### [Integration Overview](admin-powerbi-overview.md)
+#### [Enabling Power BI Integration](admin-powerbi-setup.md)
+### Designer
+#### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
+#### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
+### Consumer
+#### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
+#### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
 ## Using Power Automate with Business Central
 ### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 ## Using Power Apps with Business Central
@@ -438,8 +446,6 @@
 #### [Review or Apply Payments Manually after Automatic Application](receivables-how-review-apply-payments-auto-application.md)
 #### [Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)
 ### [Reconcile Vendor Payments with the Payment Journal or from Vendor Ledger Entries](payables-how-apply-purchase-transactions-manually.md)
 ### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 ### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)

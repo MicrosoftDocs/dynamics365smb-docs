@@ -24,7 +24,7 @@ Before you can create retention policies, you must set up the following.
 
 |Setup  |Description  |
 |---------|---------|
-|**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must create a new list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy).          |
+|**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must add their tables to the list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy).          |
 |**Retention Periods**     |Specify periods of time for which to keep data in the tables in a policy. The periods determine how often data will be deleted.         |
 
 ### To create retention periods
@@ -55,7 +55,7 @@ You can view activity related to retention policies in the **Retention Policy Lo
 ## Including Your Extension in a Retention Policy (Requires Help from a Developer)
 By default, retention policies cover only tables that are included in the list of [!INCLUDE[prodshort](includes/prodshort.md)] tables that we provide. You can remove default tables from the list, and you can add tables that you own. That is, you cannot add a table that you did not create yourself. For example, you cannot add other tables from [!INCLUDE[prodshort](includes/prodshort.md)] or from an extension that you have purchased.
 
-To build your own list of allowed tables, a developer must add some code to the installer codeunit for the extension (a codeunit with the *install* subtype). 
+To add your tables to the list of allowed tables, a developer must add some code, for example to the installer codeunit for the extension (a codeunit with the *install* subtype). 
 
 When a developer adds a table, they can specify mandatory and default filters. Mandatory filters cannot be removed or modified later when you add tables to define a retention policy. Default filters are just friendly suggestions.
 

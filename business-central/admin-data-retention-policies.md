@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords: delete, data, retention
+    ms.search.keywords: delete, data, retention, policy, policies
     ms.date: 04/01/2020
     ms.author: bholtorf
 
@@ -16,16 +16,15 @@
 # Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prodshort](includes/prodshort.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 
 
-## Setting Up Retention Policies
-> [!NOTE]
-> To set up retention policies, you must have the SUPER user permissions or the Retention Policy Setup permission set.
-
+## Required Setups and Permissions
 Before you can create retention policies, you must set up the following.
 
 |Setup  |Description  |
 |---------|---------|
 |**Allowed Tables**     |We provide a list of the tables that can be included in retention policies. However, if you want to add tables from an extension to a retention policy a developer must add their tables to the list. For more information, see [Including Your Extension in a Retention Policy](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy).          |
 |**Retention Periods**     |Specify periods of time for which to keep data in the tables in a policy. The periods determine how often data will be deleted.         |
+
+Additionally, you must have the SUPER user permissions or the Retention Policy Setup permission set. Users who are granted the Retention Policy Setup permission set can define retention policies for tables, even if they do not have Read and Delete permissions for those tables. The job queue entry must run as a user with permissions to read and delete the data. We recommend that you do not grant the Retention Policy Setup permission set to users who should not be allowed to delete data.
 
 ### To create retention periods
 Retention periods can be as long or as short as you want. To create retention periods, on the **Retention Policies** page, use the **Retention Period** action. The periods you define will be available for all policies.

@@ -23,14 +23,14 @@ The following procedures describe how to enable SEPA payment and set up vendor b
 
 ## To enable countries/regions for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.  
 2.  Choose the **Edit List** action.  
 3.  Select the **SEPA Allowed** check box for each country or region that you want to enable for SEPA.  
 4.  Choose the **OK** button.  
 
 ## To enable bank accounts for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account that you want to enable for SEPA, and then choose the **Edit** action.  
 3.  In the **Country/Region Code** field, select the appropriate code.  
 
@@ -43,7 +43,7 @@ The following procedures describe how to enable SEPA payment and set up vendor b
 
 ## To set up vendor bank accounts for SEPA  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Select the relevant vendor, and then choose the **Bank Accounts** action.  
 3.  Select the vendor bank account to set up for SEPA, and then choose the **Edit** action.  
 4.  In the **IBAN** and **SWIFT Code** fields, enter the international bank identifier code of the bank where the vendor has the account.  

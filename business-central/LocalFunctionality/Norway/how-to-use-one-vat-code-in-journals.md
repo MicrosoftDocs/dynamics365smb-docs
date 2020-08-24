@@ -23,7 +23,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 
 ## To create a VAT code  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Codes**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Codes**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Enter information in the **Code**, **General Posting Type**, and **Description** fields for each VAT code.  
 4.  Choose the **OK** button to close the **VAT Codes** page.  
@@ -32,7 +32,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 
 ## To set up VAT posting  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **VAT Posting Setup** card, fill in the following fields:  
 

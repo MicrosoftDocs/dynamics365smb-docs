@@ -25,13 +25,13 @@ The **Suggest Domiciliations** batch job creates domiciliation suggestions for a
 
 ## To edit a journal line  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 3.  Select the journal line, and edit the fields.  
 
 ## To delete a journal line  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 3.  Select the journal line, and then choose the **Delete** action.  
 4.  Choose the **Yes** button.  

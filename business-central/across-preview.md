@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
 
 ---
@@ -64,7 +64,7 @@ If you have added data to your [!INCLUDE[prodshort](includes/prodshort.md)] free
 
 ## Getting Started with a Subscription
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner). The reselling partner can help you set up [!INCLUDE[prodshort](includes/prodshort.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prodshort](includes/prodshort.md)] by adding apps from [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner). The reselling partner can help you set up [!INCLUDE[prodshort](includes/prodshort.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prodshort](includes/prodshort.md)] by adding apps from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online uses Office 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.  
 

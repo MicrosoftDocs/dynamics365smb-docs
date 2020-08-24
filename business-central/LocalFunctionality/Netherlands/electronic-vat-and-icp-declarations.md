@@ -45,7 +45,7 @@ Before you can send electronic declarations to the tax authorities you must perf
 3. Set up a VAT category code for all XML elements in the electronic VAT declaration. For more information, see [Set Up VAT Categories](how-to-set-up-vat-categories.md).
 
 ## To create an electronic declaration
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declarations**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Declarations**, and then choose the related link.  
 2. On the **Elec. Tax Declaration List** page, choose the **New** action.  
 3. On the **Elec. Tax Declaration Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4. Choose the **OK** button.
@@ -77,7 +77,7 @@ The electronic declaration is submitted to the tax authorities.
 For each electronic declaration, the tax authorities will send a response message. These messages must be received from the server of the tax authorities
 and be processed. The first step is to import the response message into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Receive Response Messages** action.  
 3. On the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -92,7 +92,7 @@ and be processed. The first step is to import the response message into [!INCLUD
 ## To process a response message from the tax authorities
 When a response message is imported, it must be processed by validating its content against the related electronic declaration. If no errors are found in the electronic declaration and the data has been processed by the tax authorities, then the **Status** field on the **Elec. Tax Declaration Card** page is changed to **Acknowledgement**.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Process Response Messages** action.  
 3. On the **Process Response Messages Batch Job** page, select the appropriate filters, and then choose the **OK** button.  
 

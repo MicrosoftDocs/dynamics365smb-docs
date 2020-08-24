@@ -21,7 +21,7 @@ On the **Before Start Item Cost** page, you can enter information about inventor
 
 ## To set up initial item costs  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Before Start Item Cost**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Before Start Item Cost**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Enter information into the required fields. This includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  
 4.  Choose the **OK** button.  

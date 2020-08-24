@@ -27,7 +27,7 @@ The **Swiss VAT Statement** is the standard calculation report for realizing VAT
 
 ## To print the Swiss VAT statement  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
 
     > [!NOTE]  
     >  You will receive a message stating that the **Swiss VAT Statement** will open in the local language.  

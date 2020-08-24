@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
+ms.date: 08/18/2020
 ms.author: sgroespe
 
 ---
@@ -43,7 +43,7 @@ The following describes how to pay a vendor by check. The steps are similar to r
 6. On the **Check** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. If your printer is set up to print checks, choose the **Print** button. Otherwise, choose the **Send to** button, select the **PDF Document** option, choose the **OK** button, and then print the PDF document.
 
-    The physical checks can now be brought to the bank for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
+    The physical checks can now be sent to the vendors for processing. Proceed to post the payment as applied to the vendor and thereby paid in the system.
 8. Choose the **Post** action.
 
 Fully applied vendor ledger entries and bank ledger entries are created.
@@ -57,7 +57,11 @@ You can cancel non-posted checks after they have been printed by using the **Voi
 1. On the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
 
 ## To void checks
+
 When check payment have been posted, you can only cancel (void) checks from the resulting bank ledger entries.
+
+> [!IMPORTANT]
+> If the check is applied to an invoice, unapply the check first so that the invoice can be repaid, and then void the check. If the check was printed and did not pay an invoice, then choose **Void Check Only** as described in this section.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Check Ledger Entries** action.

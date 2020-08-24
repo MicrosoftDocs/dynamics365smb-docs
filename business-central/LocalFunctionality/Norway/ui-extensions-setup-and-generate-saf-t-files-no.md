@@ -1,8 +1,6 @@
 ---
 title: Setup and generate SAF-T files | Microsoft Docs
 description: Use this extension to setup and generate SAF-T files for the Norwegian authorities in Business Central.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 06/17/2020
+ms.date: 08/24/2020
 ms.author: soalex
 
 ---
@@ -75,7 +73,21 @@ You can configure [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with extra d
 
 
 > [!IMPORTANT]
-> Due to the nature of exporting transactions, exporting SAF-T files will impact performance of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. There are a couple of things you can do to improve performance. Consider using the **Split by Date** option. It will collect G/L Entries by date, not by month as is the default. This will improve performance. If you are using the on-premises version you have an option to not generate zip files from the export. This will export the raw XML files and is only possible where there is a **Folder Path** to export to. The user can then zip the files manually, to save server performance. SAF-T files can be large and zipping is a costly operation for the server. Finally, for both online and on-premises, for very large exports with many transactions, you can also use the **Create Multiple Zip Files** option. This would make sense if individual files per month have a big size or count of files per date is too big. This is useful if the single large zip file will not validate on the authorities' web site due to its size. Using this feature will split up the export into multiple zip files, up to 10 as per the requirements stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files where generated and download them one by one.
+> Due to the nature of exporting transactions, exporting SAF-T files will impact performance of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+There are a couple of things you can do to improve performance:
+
+* **Split by Date** option.
+
+   This approach collects general ledger entries by date, not by month as is the default with better performance as a result. 
+   
+* **XML option**
+
+   For [!INCLUDE[d365fin](../../includes/d365fin_md.md)] on-premises, you have an option to not generate .ZIP files from the export. This will export the raw XML files and is only possible where there is a **Folder Path** to export to. The user can then compress the files manually, which saves server performance. SAF-T files can be large and compressing them to a .ZIP file is a costly operation for the server. 
+   
+* **Create Multiple Zip Files** option
+
+Finally, for both online and on-premises, for very large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are very large, or the count of files per date is too big. Use this option when the single large ZIP file will not validate on the authorities' web site due to its size, for example. Using this feature will split up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files where generated and download them one by one.  
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  

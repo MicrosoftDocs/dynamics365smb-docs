@@ -89,9 +89,9 @@ The figures illustrates in which sequence the system makes suggestions for suppl
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 > [!NOTE]
-> Low-level code calculations can impact system performance. To mitigate the impact, you can disable **Dynamic low-level code calculation** on the **Manufacturing Setup** page. When you do, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that you create a recurrent job queue entry that will update low-level codes daily. You can ensure that the job will run outside working hours by specifing a start time the **Earliest Start Date/Time** field.
-
-You can also enable logic that speeds up low-level code calculations by selecting **Optimize low-level code calculation** on the **Manufacturing Setup** page.
+> Low-level code calculations can impact system performance. To mitigate the impact, you can disable **Dynamic low-level code calculation** on the **Manufacturing Setup** page. When you do, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that you create a recurrent job queue entry that will update low-level codes daily. You can ensure that the job will run outside working hours by specifying a start time the **Earliest Start Date/Time** field.
+>
+> You can also enable logic that speeds up low-level code calculations by selecting **Optimize low-level code calculation** on the **Manufacturing Setup** page.
 
 ### Locations / Transfer-Level Priority  
 Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  

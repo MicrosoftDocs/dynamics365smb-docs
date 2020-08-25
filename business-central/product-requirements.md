@@ -29,7 +29,7 @@ Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recomm
 **Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the legacy version of Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access other websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
 
-> [!IMPORTANT)
+> [!IMPORTANT]
 > Starting in April 2021, Internet Explorer 11 and Edge Legacy will no longer be supported. We recommend you switch to one of the recommended modern browsers as soon as possible.
 
 ## Mobile devices

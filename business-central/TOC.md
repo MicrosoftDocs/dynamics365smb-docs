@@ -16,28 +16,108 @@
 ### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visit Our Video Library](across-videos.md)
 ### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-## Resources for a Business Decision Maker
-### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-### [Documentation](product-get-started.md)
-## Resources for a Business User
-### [Learning catalog](readiness/readiness-learning-bus-users.md)
-### [Documentation](product-get-started.md)
-## Resources for a Developer
-### [Learning catalog](readiness/readiness-learning-developers.md)
-### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
-## Readiness
-### Try
-#### [Overview](across-preview.md)
-#### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-#### [Extending Your Trial Version](admin-extend-trial.md)
-#### [Unsubscribe or Remove Business Central](admin-cancel.md)
-### Buy
-#### [Overview](ui-get-ready-business.md)
-### Develop
-#### [Extending Business Central](about-develop-extensions.md)
-### Sell
-#### [Become a Reseller](product-sell.md)
+### Resources for a Business Decision Maker
+#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
+#### [Documentation](product-get-started.md)
+### Resources for a Business User
+#### [Learning catalog](readiness/readiness-learning-bus-users.md)
+#### [Documentation](product-get-started.md)
+### Resources for a Developer
+#### [Learning catalog](readiness/readiness-learning-developers.md)
+#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
+### Readiness
+#### Try
+##### [Overview](across-preview.md)
+##### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+##### [Extending Your Trial Version](admin-extend-trial.md)
+##### [Unsubscribe or Remove Business Central](admin-cancel.md)
+#### Buy
+##### [Overview](ui-get-ready-business.md)
+#### Develop
+##### [Extending Business Central](about-develop-extensions.md)
+#### Sell
+##### [Become a Reseller](product-sell.md)
+## Business Process Walkthroughs
+### [Overview](walkthrough-business-process-walkthroughs.md)
+### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
+### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+### [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
+### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
+### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
+## Design Details
+### [Overview](design-details-application-design.md)
+### Design Details: Supply Planning
+#### [Overview](design-details-supply-planning.md)
+#### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
+#### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
+#### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
+#### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
+#### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
+#### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
+#### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
+#### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
+### Design Details: Inventory Costing
+#### [Overview](design-details-inventory-costing.md)
+#### [Design Details: Costing Methods](design-details-costing-methods.md)  
+#### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
+#### [Design Details: Item Application](design-details-item-application.md)  
+#### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+#### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
+#### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+#### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
+#### [Design Details: Average Cost](design-details-average-cost.md)  
+#### [Design Details: Variance](design-details-variance.md)  
+#### [Design Details: Rounding](design-details-rounding.md)  
+#### [Design Details: Cost Components](design-details-cost-components.md)  
+#### [Design Details: Inventory Periods](design-details-inventory-periods.md)  
+#### [Design Details: Inventory Posting](design-details-inventory-posting.md)  
+#### [Design Details: Production Order Posting](design-details-production-order-posting.md)  
+#### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
+#### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
+#### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
+#### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
+#### [Design Details: Revaluation](design-details-revaluation.md)
+### Design Details: Warehouse Management
+#### [Overview](design-details-warehouse-management.md)
+#### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
+#### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
+#### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
+#### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
+#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+#### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
+#### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+### Design Details: Item Tracking
+#### [Overview](design-details-item-tracking.md)
+#### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
+#### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
+#### [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
+#### [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)  
+#### [Design Details: Item Tracking Availability](design-details-item-tracking-availability.md)  
+#### [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
+#### [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
+#### [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
+### Design Details: General Journal Post Line
+#### [Overview](design-details-general-journal-post-line.md)
+#### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
+#### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
+#### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
+#### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+#### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+### Design Details: Dimension Set Entries
+#### [Overview](design-details-dimension-set-entries.md)
+#### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
+#### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
+#### [Design Details: Table Structure](design-details-table-structure.md)  
+<!--setup-->
 ## Setting Up Business Central
 ### [Overview](setup.md)
 ### Setting Up Finance
@@ -76,7 +156,6 @@
 #### [Send Documents by Email](ui-how-send-documents-email.md)
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
-
 ### Setting Up Purchasing
 #### [Overview](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
@@ -107,7 +186,6 @@
 #### [Define Depreciation Methods](fa-depreciation-methods.md)
 #### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
-
 ### Setting Up Warehouse Management
 #### [Overview](warehouse-setup-warehouse.md)
 #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
@@ -125,7 +203,6 @@
 #### [Enable Picking by FEFO](warehouse-picking-by-fefo.md)
 #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 #### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
-
 ### Setting Up Manufacturing
 #### [Overview](production-configure-production-processes.md)
 #### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
@@ -137,7 +214,6 @@
 #### [Work With Production Families](production-how-work-family.md)
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
-
 ### Setting Up Service Management
 #### [Overview](service-setup-service.md)
 #### [Create Service Items](service-how-to-create-service-items.md)
@@ -153,7 +229,6 @@
 #### [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
 #### [Set Up a Loaner Program](service-how-setup-loaner-program.md)
 #### [Set Up Service Contracts](service-how-setup-service-contracts.md)
-
 ### Setting Up Complex Application Areas Using Best Practices
 #### [Overview](set-up-complex-application-areas-using-best-practices.md)
 #### Setup Best Practices: Supply Planning
@@ -162,7 +237,6 @@
 ##### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 #### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
-
 ### Setting Up a Company With RapidStart Services
 #### [Overview](admin-set-up-a-company-with-rapidstart.md)
 #### Setting Up Company Configuration
@@ -209,7 +283,7 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-
+<!--using-->
 # Working with Business Central
 ## [Overview](ui-work-product.md)
 ## [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
@@ -258,7 +332,8 @@
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-
+## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+<!--general-->
 # General Business Functionality
 ## [Overview](ui-across-business-areas.md)
 ## [Add Comments to Cards and Documents](across-how-use-comments.md)
@@ -477,6 +552,8 @@
 
 # Sales
 ## [Overview](sales-manage-sales.md)
+## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
+## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Register New Customers](sales-how-register-new-customers.md)
 ## [Make Sales Quotes](sales-how-make-offers.md)
 ## [Invoice Sales](sales-how-invoice-sales.md)
@@ -499,6 +576,7 @@
 
 # Purchasing
 ## [Overview](purchasing-manage-purchasing.md)
+## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ## [Record Purchases](purchasing-how-record-purchases.md)
 ## [Request Quotes](purchasing-how-request-quotes.md)
 ## [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
@@ -662,6 +740,10 @@
 ## [Ship Items](warehouse-how-ship-items.md)
 ## [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+## [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+## [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+## [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+## [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 
 # Service Management
 ## [Overview](service-service.md)
@@ -687,87 +769,7 @@
 ### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 ### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 
-# Business Process Walkthroughs
-## [Overview](walkthrough-business-process-walkthroughs.md)
-## [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
-## [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-## [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-## [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-## [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-## [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
-## [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
-## [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-## [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
-## [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
-## [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
-# Design Details
-## [Overview](design-details-application-design.md)
-## Design Details: Supply Planning
-### [Overview](design-details-supply-planning.md)
-### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
-### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
-### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
-### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-## Design Details: Inventory Costing
-### [Overview](design-details-inventory-costing.md)
-### [Design Details: Costing Methods](design-details-costing-methods.md)  
-### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
-### [Design Details: Item Application](design-details-item-application.md)  
-### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
-### [Design Details: Average Cost](design-details-average-cost.md)  
-### [Design Details: Variance](design-details-variance.md)  
-### [Design Details: Rounding](design-details-rounding.md)  
-### [Design Details: Cost Components](design-details-cost-components.md)  
-### [Design Details: Inventory Periods](design-details-inventory-periods.md)  
-### [Design Details: Inventory Posting](design-details-inventory-posting.md)  
-### [Design Details: Production Order Posting](design-details-production-order-posting.md)  
-### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
-### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
-### [Design Details: Revaluation](design-details-revaluation.md)
-## Design Details: Warehouse Management
-### [Overview](design-details-warehouse-management.md)
-### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
-### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
-### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
-### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
-### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
-## Design Details: Item Tracking
-### [Overview](design-details-item-tracking.md)
-### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
-### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
-### [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
-### [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)  
-### [Design Details: Item Tracking Availability](design-details-item-tracking-availability.md)  
-### [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
-### [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
-### [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
-## Design Details: General Journal Post Line
-### [Overview](design-details-general-journal-post-line.md)
-### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
-### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
-### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-## Design Details: Dimension Set Entries
-### [Overview](design-details-dimension-set-entries.md)
-### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
-### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
-### [Design Details: Table Structure](design-details-table-structure.md)  
-
+<!--LF-->
 # Local Functionality
 ## [Overview](about-localization.md)
 

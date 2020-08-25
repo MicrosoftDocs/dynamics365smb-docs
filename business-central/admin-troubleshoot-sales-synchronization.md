@@ -47,6 +47,9 @@ The conflict happens because the destination record was also changed  - the reco
 
 These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronize the records again.
 
+## Remove Couplings Between Records
+When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. On the **Integration Table Mappings** page, you can choose choose **Uncoupling**, and then **Delete Coupling**. Alternatively, on the **Coupled Data Synchronization Errors** page, you can choose the errors and then choose **Remove Couplings**. 
+
 ## See Also
 [Integrating with Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  

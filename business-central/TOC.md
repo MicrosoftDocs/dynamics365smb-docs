@@ -1499,3 +1499,10 @@
 ## [Application Compliance](compliance/compliance-application-compliance.md)
 ## [Service Compliance](compliance/compliance-service-compliance.md)
 ## [Certifications](compliance/compliance-certifications.md)
+# Development and Administration for Dynamics 365 Business Central
+## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index)
+## [Administration](/dynamics365/business-central/dev-itpro/administration/tenant-administration)
+## [Development](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
+## [Security and Protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
+## [Removed or Deprecated Features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)

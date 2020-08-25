@@ -20,7 +20,7 @@ If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then log in at
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company.  
 
-Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Development and administration content** section.  
+Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Development and administration content** section. If you are new to [!INCLUDE [prodshort](includes/prodshort.md)], we recommend that you start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on Microsoft Learn.  
 
 |||  
 |-|-|  

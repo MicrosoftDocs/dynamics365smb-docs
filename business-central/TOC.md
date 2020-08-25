@@ -15,6 +15,7 @@
 ### [Resources for Help and Support](product-help-and-support.md)
 ### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visit Our Video Library](across-videos.md)
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 ### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)

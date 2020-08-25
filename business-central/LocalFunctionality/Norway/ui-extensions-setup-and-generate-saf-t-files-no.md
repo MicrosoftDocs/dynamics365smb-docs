@@ -1,8 +1,6 @@
 ---
 title: Setup and generate SAF-T files | Microsoft Docs
 description: Use this extension to setup and generate SAF-T files for the Norwegian authorities in Business Central.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 06/17/2020
+ms.date: 08/24/2020
 ms.author: soalex
 
 ---
@@ -71,7 +69,25 @@ To export SAF-T files from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], yo
 You can configure [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with extra data quality validation controls that help make sure that your SAF-T files can be validated by Skatteetaten. For example, SAF-T files can only be validated when certain information exists on relevant records in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To help ensure data quality for SAF-T you can enable more proactive controls on the **Data Quality** FastTab on the **SAF-T Setup** page. Additionally, on the **SAF-T Export** card page, use the **Data check** action to check the data quality before you export the file.
 
 > [!NOTE]
-> SAF-T exports will generate one file with master data, and separate files for each of the months included in the selected mapping range. Consider the amount of transactions in the selected period and adjust the **Max No. of Jobs** accordingly on the SAF-T Export page. As a general recommendation, start with three parallel jobs to allow parallel export and still leave resources for other [!INCLUDE[d365fin](../../includes/d365fin_md.md)] users. Additionally, for on-premises, you can specify a network share in the **Folder path** to generate the SAF-T files directly on a network share instead of in the database. For online versions of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] this is always the case. If you specify the **Folder Name**, the generated .zip file will be located here. 
+> SAF-T exports will by default generate one file with master data, and separate files for each of the months included in the selected mapping range. Consider the amount of transactions in the selected period and adjust the **Max No. of Jobs** accordingly on the SAF-T Export page. As a general recommendation, start with three parallel jobs to allow parallel export and still leave resources for other [!INCLUDE[d365fin](../../includes/d365fin_md.md)] users. Additionally, for on-premises, you can specify a network share in the **Folder path** to generate the SAF-T files directly on a network share instead of in the database. For online versions of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] this is always the case. If you specify the **Folder Name**, the generated .zip file will be located here. 
+
+
+> [!IMPORTANT]
+> Due to the nature of exporting transactions, exporting SAF-T files will impact performance of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+There are a couple of things you can do to improve performance:
+
+* **Split by Date** option.
+
+   This approach collects general ledger entries by date, not by month as is the default with better performance as a result. 
+   
+* **XML option**
+
+   For [!INCLUDE[d365fin](../../includes/d365fin_md.md)] on-premises, you have an option to not generate .ZIP files from the export. This will export the raw XML files and is only possible where there is a **Folder Path** to export to. The user can then compress the files manually, which saves server performance. SAF-T files can be large and compressing them to a .ZIP file is a costly operation for the server. 
+   
+* **Create Multiple Zip Files** option
+
+Finally, for both online and on-premises, for very large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are very large, or the count of files per date is too big. Use this option when the single large ZIP file will not validate on the authorities' web site due to its size, for example. Using this feature will split up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files where generated and download them one by one.  
 
 ## See Also
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  

@@ -34,7 +34,7 @@ The following procedures describe how to set up SEPA payments, including how to 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Protocols**, and then choose the related link.  
 2. On the **Export Protocols** page, choose the **New** action.  
-3. Fill in the fields as described in the following table. [!INCLUDE [tooltip-inline-tip_md](../../../includes/tooltip-inline-tip_md.md)]
+3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../../includes/tooltip-inline-tip_md.md)]
 4. Choose the **OK** button.  
 
 ## To set up vendor bank accounts for SEPA  

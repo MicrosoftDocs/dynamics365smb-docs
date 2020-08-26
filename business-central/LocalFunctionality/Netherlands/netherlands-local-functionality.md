@@ -45,7 +45,6 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md) **Available Now**
 
 * Core Finance
-    * [General Ledger](general-ledger.md) **Available Now**
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Required Descriptions in G/L Entries](required-descriptions-in-g-l-entry.md) **Available Now**
 

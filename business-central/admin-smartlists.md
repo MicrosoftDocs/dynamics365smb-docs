@@ -128,7 +128,7 @@ The application auto selects the first 5 fields from the data source selected. F
 If you want to change list page the SmartList query is assigned to, select the Assign action from the context menu **(…)** in the lower right. 
 This action will be disabled if you have not yet saved your SmartList query.
 
-### Viewing a SmartList Query 
+## Viewing a SmartList Query 
 Navigate to the list page that contains the SmartList query you want to render and select the All drop down. Your new SmartList query will appear in the drop down. To render the results, select the SmartList query. 
 Note: A any new SmartList queries created will not be visible until the list page is it associated with has refreshed. A refresh can be done by navigating away from, and back to the list page the SmartList query was associated with or by refreshing Business Central. 
 
@@ -139,12 +139,12 @@ You may edit any SmartList query that was created using SmartList Designer. To E
 Once the results are visible, select the Edit action at the top of the page. SmartList Designer will open with the query definition displayed.
 Once changes have been made you may Save the changes, create a new SmartList query by selecting Save As or Cancel and not save any changes.
 
-### Permissions
+## Permissions
 By default, the only users that have permissions to create and preview SmartList queries will be users with SUPER permissions. You may grant additional users’ permissions to create and preview SmartList queries by opening permission sets, selecting the SmartList Designer permission set and adding users or user groups to the SmartList Designer permission set. 
 
 Permissions create and preview SmartList queries are two separate permissions. To create a SmartList query, the user must have permissions to system object 9600. To preview a SmartList query, the user must have permissions to system object 9500.
 
-## SmartList Preview Permissions 
+### SmartList Preview Permissions 
 Permissions will need to be granted to any user that should have the ability to preview the results of a SmartList query definition. To grant this permission, navigate to permission sets, select the SmartList Designer permission set, and add permissions to system object 9605. 
 
 > [!IMPORTANT]

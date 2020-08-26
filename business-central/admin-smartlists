@@ -14,9 +14,11 @@ ms.author: bmeier
 Use SmartList and SmartList Designer to create, manage and view queries using your Business Central data. 
 The creation of queries can be done without writing code and the queries that are created can be exported and imported to make it easier to create once and use across tenants.
 Note SmartList and SmartList Designer functionality is only available in the online version of Business Central.
+
 ## SmartList Designer
-SmartList Designer enables users to create queries on their Business Central data without requiring any type of customization or extension.
-SmartList Designer setup
+**SmartList Designer** enables users to create queries on their Business Central data without requiring any type of customization or extension.
+
+## SmartList Designer setup
 The following procedure will take you through the steps to install and setup SmartList Designer with your Business Central tenant. SmartList Designer must be installed and configured to your Business Central tenant before SmartList queries can be created. Setup is only required once per tenant.
 1.	Choose the search icon, enter SmartList Designer Setup, and then choose the related link.
 2.	Select the Install SmartList Designer from AppSource link.

@@ -10,7 +10,7 @@ ms.date: 08/26/2020
 ms.author: bmeier
 
 ---
-# SmartList overview
+# SmartList Overview
 Use SmartList and SmartList Designer to create, manage and view queries using your Business Central data. 
 The creation of queries can be done without writing code and the queries that are created can be exported and imported to make it easier to create once and use across tenants.
 Note SmartList and SmartList Designer functionality is only available in the online version of Business Central.
@@ -22,17 +22,17 @@ Note SmartList and SmartList Designer functionality is only available in the onl
 
 The following procedure will take you through the steps to install and setup SmartList Designer with your Business Central tenant. SmartList Designer must be installed and configured to your Business Central tenant before SmartList queries can be created. Setup is only required once per tenant.
 
-1.	Choose the search icon, enter SmartList Designer Setup, and then choose the related link.
-2.	Select the Install SmartList Designer from AppSource link.
-3.	Select GET IT NOW.
+1.	Choose the search icon, enter **SmartList Designer Setup**, and then choose the related link.
+2.	Select the **Install SmartList Designer from AppSource** link.
+3.	Select **GET IT NOW**.
 4.	If prompted, enter your account name and password.
 5.	Read the disclaimer and select Continue if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.
 6.	Select the environment you want to install SmartList Designer into.
 7.	Select the checkmarks to agree to each of the terms listed.
-8.	Select Install
+8.	Select **Install**.
 9.	Navigate back to the SmartList Designer setup page in Business Central.
 10.	Verify the SmartList Designer App ID and AAD Tenant ID fields are populated.
-11.	Select OK
+11.	Select **OK**
 
 > [!Note]
 It could take several minutes for the SmartList Designer app to be recognized.

@@ -4,7 +4,7 @@ description: Learn about the capabilities of SmartList Designer and SmartList qu
 author: bmeier90
 
 ms.service: dynamics365-business-central
-ms.topic: SmartLists
+ms.topic: article
 ms.search.keywords: SmartList
 ms.date: 08/26/2020
 ms.author: bmeier
@@ -18,19 +18,21 @@ Note SmartList and SmartList Designer functionality is only available in the onl
 ## SmartList Designer
 **SmartList Designer** enables users to create queries on their Business Central data without requiring any type of customization or extension.
 
-## SmartList Designer setup
+### SmartList Designer setup
+
 The following procedure will take you through the steps to install and setup SmartList Designer with your Business Central tenant. SmartList Designer must be installed and configured to your Business Central tenant before SmartList queries can be created. Setup is only required once per tenant.
-*1.	Choose the search icon, enter SmartList Designer Setup, and then choose the related link.
-*2.	Select the Install SmartList Designer from AppSource link.
-*3.	Select GET IT NOW.
-*4.	If prompted, enter your account name and password.
-*5.	Read the disclaimer and select Continue if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.
-*6.	Select the environment you want to install SmartList Designer into.
-*7.	Select the checkmarks to agree to each of the terms listed.
-*8.	Select Install
-*9.	Navigate back to the SmartList Designer setup page in Business Central.
-*10.	Verify the SmartList Designer App ID and AAD Tenant ID fields are populated.
-*11.	Select OK
+
+1.	Choose the search icon, enter SmartList Designer Setup, and then choose the related link.
+2.	Select the Install SmartList Designer from AppSource link.
+3.	Select GET IT NOW.
+4.	If prompted, enter your account name and password.
+5.	Read the disclaimer and select Continue if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.
+6.	Select the environment you want to install SmartList Designer into.
+7.	Select the checkmarks to agree to each of the terms listed.
+8.	Select Install
+9.	Navigate back to the SmartList Designer setup page in Business Central.
+10.	Verify the SmartList Designer App ID and AAD Tenant ID fields are populated.
+11.	Select OK
 
 > [!Note]
 It could take several minutes for the SmartList Designer app to be recognized.
@@ -192,13 +194,13 @@ To view custom navigation, select a SmartList query and the Navigation action at
 
 To create a new custom navigation, follow these steps.
 
-*1.	Select Create at the top of the Navigation list page.
-*2.	Provide a name for the custom action you are about to create. This name will be visible when rendering a SmartList query. 
-*3.	Choose a target page from the lookup. A target page is the page that you want to navigate to when this SmartList query is viewed.
-*4.	If you want a specific record to be returned on the target page, toggle the Filter to Record on. If not, select OK to close the page.
-*5.	Select the Linking Data Item from the lookup. This will be the item you want displayed when the target page is opened.
-*6.	Select OK to close the page.
-*7.	Repeat these steps to create additional custom navigation.
+1.	Select Create at the top of the Navigation list page.
+2.	Provide a name for the custom action you are about to create. This name will be visible when rendering a SmartList query. 
+3.	Choose a target page from the lookup. A target page is the page that you want to navigate to when this SmartList query is viewed.
+4.	If you want a specific record to be returned on the target page, toggle the Filter to Record on. If not, select OK to close the page.
+5.	Select the Linking Data Item from the lookup. This will be the item you want displayed when the target page is opened.
+6.	Select OK to close the page.
+7.	Repeat these steps to create additional custom navigation.
 
 ### Edit Custom Navigation
 Select the custom navigation you want to edit, modify the custom navigation, and select OK.

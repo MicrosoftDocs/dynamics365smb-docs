@@ -56,21 +56,21 @@ At this point, the minimum amount of information to create a query has been defi
 The second option for launching SmartList Designer is to search for SmartList Designer and select the related link or by selecting New from the SmartList Management page.
 SmartList Designer will open, but instead of auto populating the Primary data source and columns, you will need to manually select the data source you want to use as the Primary data source. Once the primary data source is selected, the first 5 fields from that data source will auto populate the query definition.
 
-## Manage Fields
+### Manage Fields
 The Manage Fields action at the bottom of the list of fields will enable you to change the fields you want to make visible in your query. The list of fields will auto populate depending on where SmartList Designer was launched from. To modify that list, select Mange Fields and select/unselect the fields you want to make available in your query by marking or unmarking the checkbox next to each field. You may also do a search to locate fields you may want to add to your query.
 Once you have the fields selected that you want in the query, select Apply. If you choose not to modify the field list, select Cancel.
 
-## Adding a table
+### Adding a table
 To add another data source to your query, select **+ Table**. You will be presented with a list of tables that are related to the primary data source. Once a table is selected, there is no need to define a relationship between the tables as this is automatically done for you.
 
 > [!NOTE]
 A left outer join is created automatically between data sources. See advanced links for instructions on how to modify the default link. 
 If the table you want to add does not appear in the list, select Show All. This will display all tables from your Business Central tenant. SmartList Designer will attempt to link the data sources. If a link cannot be determined, the advance link page will appear. See advanced links.
 
-## Removing a table
+### Removing a table
 To remove a data source, select the … in the upper corner of the data source you want to remove. This will open a context menu that will enable you to remove the data source.
 
-## Apply Filter
+### Apply Filter
 Select the filter icon on the data source you want to filter. The app will open a filter page that will enable you to select the fields you want to filter on, as well as what filter(s) you want to apply to the field. 
 To apply filter, select a field from the data source, select a filter operator from the drop-down list and enter a filter value. 
 

@@ -3,11 +3,16 @@ author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 06/15/2020
+ms.date: 06/25/2020
 ms.author: edupont
 ---
 
-Before you can set up email logging, you must prepare your Exchange Online with [public folders](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). You can do this in the [Exchange admin center](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019), or you can use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps). The following list describes the main steps with links to learn more.  
+Before you can set up email logging, you must prepare your Exchange Online with [public folders](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). You can do this in the [Exchange admin center](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019), or you can use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps).  
+
+> [!TIP]
+> If you want to use the [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps), you can find inspiration for how to set up your script in a sample script that we published to [the BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+
+The following list describes the main steps with links to learn more.  
 
 - Create an admin role for public folders based on the information in the following table:
 
@@ -63,4 +68,4 @@ Before you can set up email logging, you must prepare your Exchange Online with 
   For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
 
 > [!NOTE]
-> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay. Also, the changes made in Exchange will be available in [!INCLUDE [prodshort](prodshort.md)] after a delay.
+> If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prodshort](prodshort.md)] after a delay.

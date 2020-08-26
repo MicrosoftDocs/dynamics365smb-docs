@@ -9,19 +9,22 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 08/19/2020
     ms.author: sgroespe
 
 ---
 # Create a VAT Statement
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  
 
+> [!NOTE]  
+>  As of July 1st 2020, the Austrian authorities changed VAT on certain hospitality services to 5% as a temporary measure part of a plan to stimulate the eoconomy in areas that are hit hard by COVID-19. If you have customers or vendors in the impacted areas, you must create VAT posting groups that reflect the correct VAT rate and use these for transactions created on or after July 1st 2020. To make sure that the new 5% VAT transactions get included correctly in the VAT statements, run the **Update VAT Statement** action from the **Search** field. This will rebuild the VAT statement and include the 5% transactions, ready for reporting in the corresponding box in the official VAT statement PDF template. Additionally, make sure that you aqcuire the official PDF template to use for VAT reporting.  
+
 > [!IMPORTANT]  
 >  You must fill in detailed information about your company address in the Company Information page before you create the VAT statement. This includes information about street, building, floor, and room number. This information is included in the FDF file.  
 
 ## To create a VAT statement  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement AT**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement AT**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

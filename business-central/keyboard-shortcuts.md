@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/19/2020
+ms.date: 06/26/2020
 ms.author: bholtorf
 ---
 
@@ -32,7 +32,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in you solution.) The keyboard shortcut is shown in the tooltip for the action in question.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 

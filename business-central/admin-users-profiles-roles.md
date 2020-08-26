@@ -6,11 +6,12 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
 
 ---
 # Manage Profiles
+
 All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
 > [!NOTE]
@@ -126,9 +127,15 @@ You can delete personalizations that one or more users have made to specific pag
 
 2. Select the line for the page personalization that you want to delete, and then choose the **Delete** action.
 
-The user will see the changes the next time they sign-in.    
+The user will see the changes the next time they sign-in.  
 
 You can also delete individual page customizations for a profile. For more information, see [To delete customization for specific pages for a profile](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## Managing user sessions
+
+As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
+
+For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. for more information, see [SQL Server technical documentation](/sql/sql-server/?view=sql-server-ver15).  
 
 ## See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

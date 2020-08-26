@@ -20,14 +20,14 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 
 ### To define accounting periods to calculate straight line depreciation  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  To open a new **Depreciation Book Card** page, choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 5.  Choose the **OK** button.  
 
 ## To define accounting periods in the FA - Projected Value report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA - Projected Value**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA - Projected Value**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 

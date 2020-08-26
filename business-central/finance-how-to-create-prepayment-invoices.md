@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2020
+    ms.date: 06/23/2020
     ms.author: edupont
 
 ---
@@ -36,6 +36,8 @@ The following procedure describes how to invoice a prepayment for a sales order.
     - They have the same dimensions.  
 
     If you want to specify a prepayment invoice with one line for each sales order line that has a prepayment percentage, then do not choose the **Compress Prepayment** field.  
+
+    The due date for the prepayment is calculated automatically based on the value of the **Prepmt. Payment Terms Code**.
 
 3. Fill in the sales lines.  
 

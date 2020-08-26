@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 06/15/2020
+ms.date: 07/01/2020
 ms.author: bholtorf
 
 ---
@@ -17,13 +17,11 @@ ms.author: bholtorf
 
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. [!INCLUDE[d365fin](includes/d365fin_md.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyze the contents of each message on the **Interaction Log Entries** page.
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
-
 ## Set up Public Folders and Rules for Email Logging in Exchange Online
 
-[!INCLUDE [admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Next, you connect [!INCLUDE [prodshort](includes/prodshort.md)] with Exchange Online.
+Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online.
 
 ## Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)] to Log Email Messages
 

@@ -28,20 +28,20 @@ In addition, there must be a posted purchased invoice against which you can send
 
 ## To issue payment to a vendor  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. Select the vendor to which you want to send payment. On the **Payment** FastTab, in the **Payment Method Code** field, choose the **TRASFBANC** option.
 3. Choose the **Bank Accounts** action.  
 4. In the **Vendor Bank Account List**, select the vendor's bank account, and then choose the **Edit** action.
 5. On the **Transfer** FastTab, specify information for the **IBAN** field.  
 6. Choose the **OK** button.  
-7. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Bill Card**, and then choose the related link.  
+7. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bill Card**, and then choose the related link.  
 8. Choose the **New** action.  
 9. On the **General** FastTab, enter information in the following fields: **Bank Account No.** of the vendor and **Payment Method Code**.  
 10. Choose the **Suggest Payment** action.
 11. Set filters, as appropriate, and then choose the **OK** button to run the batch job.  
 12. Choose the **Create List** action.
 13. Choose the **Yes** button to send the bill payment.  
-14. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendor Bill List Issued**, and choose the related link.
+14. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bill List Issued**, and choose the related link.
 15. Select the bill payment that you issued from the list, and then choose the **Edit** action. The **Vendor Bill List Sent Card** page opens.  
 16. To export the payment information, choose the **Export Bill List to File** action. You can review the xml file that was sent.  
 

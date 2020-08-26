@@ -1,8 +1,6 @@
 ---
-title: Add Extra Lines to Define Extended Item Descriptions | Microsoft Docs
-description: You can add extra lines to extend the standard text that describes an item.
-services: project-madeira
-documentationcenter: ''
+title: Add Extra Lines to Define Extended Descriptions
+description: You can add extra lines to extend the standard text that describes an item, a G/L account, and other data.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -10,14 +8,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 07/08/2020
 ms.author: sgroespe
 
 ---
-# Add Extended Item Text
-You can extend a standard text for items by adding extra lines, and you can set up conditions for use of the extra lines. You do this from item cards.
+# Add Extended Text
 
-## To define extended text for an item description
+You can extend the description for items, stock-keeping units, general ledger accounts, and resources by adding extra lines as extended text. You can also set up conditions for use of the extra lines.  
+
+The following section describes how to add extended text to a description of an item. But the same steps apply to stock-keeping units, general ledger accounts, and resources.  
+
+## To define extended text for an description
+
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. Fill in the **Code** and **Description** fields.
 3. Choose the **New**.
@@ -27,10 +29,14 @@ You can extend a standard text for items by adding extra lines, and you can set 
 7. Select relevant check boxes for the document types where you want the extended text printed.
 8. Close the page.
 
+You can now add this extended text to documents. The following procedure explains how to add extended text to a sales order, but the same steps apply to any other document that you specified for the extended text.  
+
 ## To add an extended item text on a sales order line
+
 1. Open a sales order with a sales line for an item that has extended text defined. For more information, see [Sell Products](sales-how-sell-products.md).
 2. Select the line in question, and then choose the **Insert Ext. Text** action.
 
 ## See Also
+
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

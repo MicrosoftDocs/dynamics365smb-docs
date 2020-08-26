@@ -36,7 +36,7 @@ After you have set up the change log, activated it, and made a change to data, y
 
 ## Working with Activity Logs
 
-From some pages in [!INCLUDE [prodshort](includes/prodshort.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE [prodshort](includes/prodshort.md)].  
+From some pages in [!INCLUDE[prodshort](includes/prodshort.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 The information is displayed in the **Activity Log** page, according to the context that it is opened from. You can open the window from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages, for example. You can empty the list of log entries, or just clear the list of entries older than 7 days.  
 

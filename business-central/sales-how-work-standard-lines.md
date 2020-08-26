@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
 
 ---
@@ -27,6 +27,8 @@ The following procedures show how to work with standard sales lines on a sales i
 
 > [!NOTE]
 > You cannot define prices on recurring sales lines because prices, discounts, etc. are calculated on the actual sales documents after you insert the recurring sales lines.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## To assign recurring sales lines to a customer
 

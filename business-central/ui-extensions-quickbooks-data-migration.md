@@ -1,5 +1,5 @@
 ---
-title: Using the QuickBooks Migration Extension | Microsoft Docs
+title: QuickBooks Migration Extension | Microsoft Docs
 description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.
 author: edupont04
 
@@ -9,16 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: edupont
 ---
 
 # The QuickBooks Data Migration Extension
+
 This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## Data from QuickBooks Desktop
- 
+
 You can import the following data from QuickBooks Online to Business Central:
 
 - Customers  
@@ -35,6 +36,7 @@ We migrate only full amounts on sales and purchase documents. We do not update p
 > We do not migrate purchase orders or sales orders.
 
 ## Before You Start
+
 An important part of the migration process is to specify the accounts to migrate transactions to. It's a good idea to plan this mapping before you migrate data. For example, the accounts where you post transactions for:
 
 - The sale of items or services to customers  
@@ -50,9 +52,11 @@ In order to get your data out of the QuickBooks desktop application you will nee
 > Currently the data exporter tool only works with QuickBooks 2017 and 2018.
 
 ## Finding the QuickBooks Data Migration Extension
+
 The QuickBooks Data Migration extension is installed and ready to go as an integrated part of the Data Migration assisted setup guide. If you are ready to get started now, and have exported your data from QuickBooks, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.  
 
 ## What do I do after I migrate Data?
+
 After you migrate data, transactions have the status Unposted, so you can review them and make adjustments. To review the transactions, go to the page where you would normally find them. For example, to review unposted sales invoices, go to the Sales Invoices page. To review payment journals, go to the Payment Journals page.
 There are a few things in particular that you should do:
 If the transactions in QuickBooks had markup or discount amounts, you must manually add the amounts to the related transactions in Business Central before you post them.
@@ -60,5 +64,6 @@ If you are using value added tax (VAT), you may need to add a business posting g
 Verify the beginning balances for accounts in the general ledger. QuickBooks does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## See Also
+
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  

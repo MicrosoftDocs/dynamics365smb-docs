@@ -19,13 +19,13 @@ Before you create the Report 347 declaration, you can run a report to identify p
 
 ## To identify unapplied payments in cash  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **347**, and then choose the link for the **347 Declaration** area.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **347**, and then choose the link for the **347 Declaration** area.  
 2.  Choose the **Unapplied Payments in Cash** action.  
 3.  On the **Options** FastTab, fill in the fields.  
 
 ## To create a Report 347 declaration  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 347 Declaration**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 347 Declaration**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields. For more information, see Make 347 Declaration.  
 3.  Choose the **OK** button.  
 
@@ -33,7 +33,7 @@ When you send the Report 347 declaration, you must include 347 declaration label
 
 ## To create 347 declaration labels  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **347 Declaration Labels**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **347 Declaration Labels**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields. For more information, see Declaration Labels.  
 
 ## See Also  

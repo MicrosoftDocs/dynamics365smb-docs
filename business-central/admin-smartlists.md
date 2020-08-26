@@ -20,7 +20,7 @@ SmartList and SmartList Designer functionality is only available in the online v
 ## SmartList Designer
 **SmartList Designer** enables users to create queries on their Business Central data without requiring any type of customization or extension.
 
-### SmartList Designer setup
+## SmartList Designer setup
 
 The following procedure will take you through the steps to install and setup SmartList Designer with your Business Central tenant. SmartList Designer must be installed and configured to your Business Central tenant before SmartList queries can be created. Setup is only required once per tenant.
 
@@ -41,8 +41,8 @@ It could take several minutes for the SmartList Designer app to be recognized.
 
 > [!IMPORTANT]
 If the SmartList Designer App ID field does not auto populate after several minutes, navigate to PowerApps.com, select the environment SmartList Designer was installed to, select the context menu next to the SmartList Designer app and copy the APP ID. Once copied, navigate back to Business Central and paste the value into the SmartList Designer Ap ID field.
-Creating a SmartList Query
 
+## Creating a SmartList Query
 You may launch SmartList Designer two ways. The first option is to navigate to one of the 21 different list page SmartList Designer can be launched from.
 From the list page, select the All drop down button at the top of the list and select New Query (SmartList). 
 

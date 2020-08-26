@@ -211,7 +211,7 @@ To import, select the Import action, choose the file you want to import and sele
 >[!NOTE]
 A common reason why a SmartList query will fail to import is that a data source found in the query definition does not exist in the tenant the SmartList query is being imported into. This could happen when a query definition contains an extension data source and the tenant you are importing the query into does not have that same extension installed.
 
-### Custom Navigation
+## Custom Navigation
 Custom navigation is used to create navigation points to other Business Central pages when rendering a SmartList query. A custom navigation is specific to the SmartList query it was created for.
 
 To view custom navigation, select a SmartList query and the Navigation action at the top of the page. The Navigation List page will open and display any custom navigation that have been created to the selected SmartList query.

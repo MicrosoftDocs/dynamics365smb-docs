@@ -1,21 +1,20 @@
 ﻿# [Welcome to Business Central](index.md)
 # [New and Planned](product-news.md)
 # Getting Started
-## Overview
-### [Overview of Business Functionality](across-business-functionality.md)
-### [Getting Started with Business Central](product-get-started.md)
+## [Overview of Business Functionality](across-business-functionality.md)
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
-### Learn
-#### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
-#### [Business process walkthroughs](walkthrough-business-process-walkthroughs.md)
-#### [Application design details](design-details-application-design.md)
-### Try
-#### [Overview](across-preview.md)
-#### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-#### [Extending Your Trial Version](admin-extend-trial.md)
-#### [Unsubscribe or Remove Business Central](admin-cancel.md)
-### Buy
-#### [Overview](ui-get-ready-business.md)
+## Learn
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
+### [Business process walkthroughs](walkthrough-business-process-walkthroughs.md)
+### [Application design details](design-details-application-design.md)
+## Try
+### [Overview](across-preview.md)
+### [Getting Started with Business Central](product-get-started.md)
+### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+### [Extending Your Trial Version](admin-extend-trial.md)
+### [Unsubscribe or Remove Business Central](admin-cancel.md)
+## Buy
+### [Overview](ui-get-ready-business.md)
 
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)

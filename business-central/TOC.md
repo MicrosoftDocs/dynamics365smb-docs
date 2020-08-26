@@ -1487,6 +1487,7 @@
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+#### [DK, IS - Basic Experience](ui-extensions-basic-experience.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales

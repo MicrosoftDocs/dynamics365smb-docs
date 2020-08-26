@@ -1,9 +1,14 @@
 ﻿# [Welcome to Business Central](index.md)
+# [New and Planned](product-news.md)
 # Getting Started
 ## Overview
-### [Getting Started with Business Central](product-get-started.md)
 ### [Overview of Business Functionality](across-business-functionality.md)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Getting Started with Business Central](product-get-started.md)
+<!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
+### Learn
+#### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+#### [Business process walkthroughs](walkthrough-business-process-walkthroughs.md)
+#### [Application design details](design-details-application-design.md)
 ### Try
 #### [Overview](across-preview.md)
 #### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
@@ -11,10 +16,6 @@
 #### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ### Buy
 #### [Overview](ui-get-ready-business.md)
-### Develop
-#### [Extending Business Central](about-develop-extensions.md)
-### Sell
-#### [Become a Reseller](product-sell.md)
 
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)
@@ -22,13 +23,13 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
 ### [Minimum Requirements](product-requirements.md)
-### [What's New](product-news.md)
+
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
 ### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
-### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-## Learn
 ### [Visit Our Video Library](across-videos.md)
+### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+<!--## Learn
 ### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
@@ -40,7 +41,7 @@
 #### [Documentation](product-get-started.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
+#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 ## Business Process Walkthroughs
 ### [Overview](walkthrough-business-process-walkthroughs.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -1125,6 +1126,7 @@
 #### [Create and Export Payment History](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Import and Reconcile Bank Statements](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Core Finance
+#### [General Ledger](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Apply and Unapply General Ledger Entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Required Descriptions in G/L Entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Purchasing
@@ -1487,7 +1489,6 @@
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
-#### [DK, IS - Basic Experience](ui-extensions-basic-experience.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales

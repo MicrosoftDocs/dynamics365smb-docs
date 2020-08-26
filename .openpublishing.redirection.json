@@ -566,6 +566,16 @@
             "source_path": "business-central/LocalFunctionality/unitedkingdom/how-to-print-direct-sales-and-purchase-details-reports.md",
             "redirect_url": "united-kingdom-local-functionality",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/about-develop-extensions.md",
+            "redirect_url": "ui-customizing-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/product-sell.md",
+            "redirect_url": "index",
+            "redirect_document_id": false
         }
 
     ]

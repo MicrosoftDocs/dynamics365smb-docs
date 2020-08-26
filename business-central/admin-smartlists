@@ -140,24 +140,28 @@ Add the desired SmartList queries to the user defined permission set. Permission
 The SmartList Management page provides a central location within Business Central to manage the SmartList queries that have been created. By default, only a SUPER user will have permissions to this page. Other users may be granted permissions. 
 From the SmartList Management page, you have a set of robust actions to help you create new SmartList queries or manage existing SmartList queries.
 
-*New 	Launches SmartList designer without a data source pre-selected.
-*Delete	Delete one or more existing SmartList queries.
-*Edit	Opens SmartList Designer and visually displays the SmartList query definition.
-*Preview	Renders the result set for the SmartList query selected.
-*Export	Exports the selected SmartList queries to your downloads folder where they can be imported into another tenant. You must have permissions to export SmartList queries.
-*Import	Imports the SmartList query file into your Business Central tenant. You must have permissions to import SmartList queries.
-*Assign Permissions	Assign one or more SmartList queries to a user defined permission set.
-*Navigation	Create custom navigation to your SmartList query.
+|||
+|-|-|
+|**New**| 	[Launches SmartList designer without a data source pre-selected.]
+|**Delete**|	[Delete one or more existing SmartList queries.]
+|**Edit**|	[Opens SmartList Designer and visually displays the SmartList query definition.]
+|**Preview**|	[Renders the result set for the SmartList query selected.]
+|**Export**|	[Exports the selected SmartList queries to your downloads folder where they can be imported into another tenant. You must have permissions to export SmartList queries.]
+|**Import**|	Imports the SmartList query file into your Business Central tenant. You must have permissions to import SmartList queries.
+|**Assign Permissions**|	[Assign one or more SmartList queries to a user defined permission set.]
+|**Navigation**|	[Create custom navigation to your SmartList query.]
 
 The SmartList Management page will provide details related to the SmartList query to assist you in the management of SmartList queries.
 
-*Object ID	ID that is assigned to a SmartList query created with SmartList Designer. The object range from SmartList queries is 701,000 – 710,000. 
-*Name	This is the name that was defined in SmartList Designer when the SmartList query was created.
-*Description	Short description of the SmartList query. By default, the description and name will have the same values.
-*Assigned List Page	Displays the list page the SmartList query is assigned to. This will be the query category assignment in SmartList Designer.
-*Primary Table	The data source that was defined as the first, or primary source, when the SmartList query was created in SmartList Designer.
-*Last Modified by	Displays name of user that that modified the SmartList query. If the SmartList query has never been modified, this will be the user that created the SmartList query.
-*Last Modified	Display the last date and time the SmartList query was modified. If the SmartList query has never been modified, this will be the date and time the SmartList query was created.
+|||
+|-|-|
+|**Object ID**|	[ID that is assigned to a SmartList query created with SmartList Designer. The object range from SmartList queries is 701,000 – 710,000.]
+|**Name**| [This is the name that was defined in SmartList Designer when the SmartList query was created.]
+|**Description**|	[Short description of the SmartList query. By default, the description and name will have the same values.]
+|**Assigned List Page**|	[Displays the list page the SmartList query is assigned to. This will be the query category assignment in SmartList Designer.]
+|**Primary Table**|	[The data source that was defined as the first, or primary source, when the SmartList query was created in SmartList Designer.]
+|**Last Modified by**| [Displays name of user that that modified the SmartList query. If the SmartList query has never been modified, this will be the user that created the SmartList query.]
+|**Last Modified**|	[Display the last date and time the SmartList query was modified. If the SmartList query has never been modified, this will be the date and time the SmartList query was created.]
 
 #General Functionality
 The SmartList Management page provides general functionality like other list pages in Business Central. You may search, filter, open in Excel, bookmark and create custom views from this list.

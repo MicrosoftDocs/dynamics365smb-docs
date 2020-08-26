@@ -4,6 +4,18 @@
 ### [Getting Started with Business Central](product-get-started.md)
 ### [Overview of Business Functionality](across-business-functionality.md)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### Try
+#### [Overview](across-preview.md)
+#### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
+#### [Extending Your Trial Version](admin-extend-trial.md)
+#### [Unsubscribe or Remove Business Central](admin-cancel.md)
+### Buy
+#### [Overview](ui-get-ready-business.md)
+### Develop
+#### [Extending Business Central](about-develop-extensions.md)
+### Sell
+#### [Become a Reseller](product-sell.md)
+
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -14,9 +26,12 @@
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
 ### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
+### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+## Learn
 ### [Visit Our Video Library](across-videos.md)
 ### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
-### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
+### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Documentation](product-get-started.md)
@@ -26,18 +41,6 @@
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
-### Readiness
-#### Try
-##### [Overview](across-preview.md)
-##### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
-##### [Extending Your Trial Version](admin-extend-trial.md)
-##### [Unsubscribe or Remove Business Central](admin-cancel.md)
-#### Buy
-##### [Overview](ui-get-ready-business.md)
-#### Develop
-##### [Extending Business Central](about-develop-extensions.md)
-#### Sell
-##### [Become a Reseller](product-sell.md)
 ## Business Process Walkthroughs
 ### [Overview](walkthrough-business-process-walkthroughs.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)

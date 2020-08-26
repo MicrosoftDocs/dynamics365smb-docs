@@ -81,14 +81,14 @@ Note: The applicable filter options will match what is available in Business Cen
 Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
 Trouble shooting: If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage Fields. Filters can be applied to fields that are not displayed in the query definition.
 
-## Query preview
+### Query preview
 Once you have defined your query definition, you may preview the results before saving it. Select the Preview button to render the results of the query definition. When preview is selected, the results will render in a separate instance, browser tab, of Business Central. Business Central will open to the default company and render the results of the query. 
 It is recommended that after you have reviewed the results that you close the SmartList page in Business Central. 
 
 >[!Note] There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in SmartList Designer so see accurate results.
 Troubleshoot: If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. See Managing Permissions.
 
-## Saving a Query
+### Saving a Query
 Select the Save button to save your query definition. When Save is selected, a dialog will appear prompting you to provide and name and category for your SmartList query.
 The name is limited to 30 characters. You will receive an error message if the name you defined is longer than 30 characters.
 The category relates to the list page you want the SmartList query to be visible from. There is a total of 21 list pages available to choose from. 
@@ -102,28 +102,28 @@ Once edits have been made to an existing SmartList query, the Save As action wil
 Use the Save As command to save the edits as a new query. Enter a name for your SmartList query. SmartList query names must be unique. If the name entered is not unique, you will receive an error message when you attempt to save the query. 
 Select the category to assign your SmartList query to and select OK. 
 
-## New Query
+### New Query
 Another option for creating a query is to start without a data source selected. To create a new query, select the New action from the context (…) menu in the SmartList Designer app. 
 Note: If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
 The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in Business Central. Select the table you want to use as your primary data source.
 The application auto selects the first 5 fields from the data source selected. From here, the creation of the query is the same as the steps above when the data source was automatically selected for you.
 
-## Assign 
+### Assign 
 If you want to change list page the SmartList query is assigned to, select the Assign action from the context menu (…) in the lower right. 
 This action will be disabled if you have not yet saved your SmartList query.
 
-## Viewing a SmartList Query 
+### Viewing a SmartList Query 
 Navigate to the list page that contains the SmartList query you want to render and select the All drop down. Your new SmartList query will appear in the drop down. To render the results, select the SmartList query. 
 Note: A any new SmartList queries created will not be visible until the list page is it associated with has refreshed. A refresh can be done by navigating away from, and back to the list page the SmartList query was associated with or by refreshing Business Central. 
 
-## Navigation
+### Navigation
 Displays custom navigation links created from the SmartList Management page. All custom navigation can be pinned to remain open each time the SmartList query is viewed. Custom Navigation will consist of one default custom navigation with additional navigation options. Also see SmartList Management.
 Edit a SmartList Query
 You may edit any SmartList query that was created using SmartList Designer. To Edit, view the results of the SmartList query from the list page it is associated with.
 Once the results are visible, select the Edit action at the top of the page. SmartList Designer will open with the query definition displayed.
 Once changes have been made you may Save the changes, create a new SmartList query by selecting Save As or Cancel and not save any changes.
 
-## Permissions
+### Permissions
 
 By default, the only users that have permissions to create and preview SmartList queries will be users with SUPER permissions. You may grant additional users’ permissions to create and preview SmartList queries by opening permission sets, selecting the SmartList Designer permission set and adding users or user groups to the SmartList Designer permission set. 
 Permissions create and preview SmartList queries are two separate permissions. To create a SmartList query, the user must have permissions to system object 9600. To preview a SmartList query, the user must have permissions to system object 9500.
@@ -138,7 +138,7 @@ Users will need to be granted permissions to each SmartList query created for th
 To add permissions to the user defined permission set, select Permissions once the user defined permission set is created. From the Permissions page, select SmartList Permissions from the actions at the top. The action may be hidden under the (…) option.
 Add the desired SmartList queries to the user defined permission set. Permissions may also be added from the SmartList Management page however, the user defined permission set must exist to use that functionality. 
 
-### SmartList Management 
+## SmartList Management 
 The SmartList Management page provides a central location within Business Central to manage the SmartList queries that have been created. By default, only a SUPER user will have permissions to this page. Other users may be granted permissions. 
 From the SmartList Management page, you have a set of robust actions to help you create new SmartList queries or manage existing SmartList queries.
 
@@ -165,7 +165,7 @@ The SmartList Management page will provide details related to the SmartList quer
 |**Last Modified by**| Displays name of user that that modified the SmartList query. If the SmartList query has never been modified, this will be the user that created the SmartList query.
 |**Last Modified**|	Display the last date and time the SmartList query was modified. If the SmartList query has never been modified, this will be the date and time the SmartList query was created.
 
-## General Functionality
+### General Functionality
 The SmartList Management page provides general functionality like other list pages in Business Central. You may search, filter, open in Excel, bookmark and create custom views from this list.
 The SmartList Manage page contains five default views: All, Finance, Inventory, Purchasing and Sales.
 SmartList queries that are created will be filtered into one of the views based upon the list (Query Category) they have been assigned to in SmartList Designer. To change the category, select to Edit the SmartList query and reassign using the Assign action found in the context menu (…) in the lower right portion of the screen.

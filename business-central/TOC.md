@@ -1176,7 +1176,6 @@
 #### [Create and Export Payment History](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Import and Reconcile Bank Statements](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Core Finance
-#### [General Ledger](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Apply and Unapply General Ledger Entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Required Descriptions in G/L Entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Purchasing

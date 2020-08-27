@@ -4,7 +4,7 @@
 ## [Overview of Business Functionality](across-business-functionality.md)
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
+### [Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
 ### Business Process Walkthroughs
 #### [Overview](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
@@ -95,31 +95,6 @@
 ## Buy
 ### [Overview](ui-get-ready-business.md)
 
-## Frequently Asked Questions
-### [Generally Asked Questions](across-faq.md)
-### [Tell Me FAQ](ui-search-faq.md)
-### [Searching and Filtering FAQ](ui-search-filter-faq.md)
-### [List Views FAQ](ui-views-faq.md)
-### [Minimum Requirements](product-requirements.md)
-
-## Help and Support
-### [Resources for Help and Support](product-help-and-support.md)
-### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
-### [Visit Our Video Library](across-videos.md)
-### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 <!--setup-->
 ## Setting Up Business Central
 ### [Overview](setup.md)
@@ -286,6 +261,32 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
+
+## Frequently Asked Questions
+### [Generally Asked Questions](across-faq.md)
+### [Tell Me FAQ](ui-search-faq.md)
+### [Searching and Filtering FAQ](ui-search-filter-faq.md)
+### [List Views FAQ](ui-views-faq.md)
+### [Minimum Requirements](product-requirements.md)
+
+## Help and Support
+### [Resources for Help and Support](product-help-and-support.md)
+### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
+### [Visit Our Video Library](across-videos.md)
+### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+<!--## Learn
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
+### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### Resources for a Business Decision Maker
+#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
+#### [Documentation](product-get-started.md)
+### Resources for a Business User
+#### [Learning catalog](readiness/readiness-learning-bus-users.md)
+#### [Documentation](product-get-started.md)
+### Resources for a Developer
+#### [Learning catalog](readiness/readiness-learning-developers.md)
+#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 <!--using-->
 # Working with Business Central
 ## [Overview](ui-work-product.md)
@@ -1125,7 +1126,6 @@
 ##### [Create and Export Payment History](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 ##### [Import and Reconcile Bank Statements](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 #### Core Finance
-##### [General Ledger](LocalFunctionality/Netherlands/general-ledger.md)
 ##### [Apply and Unapply General Ledger Entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required Descriptions in G/L Entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
@@ -1430,13 +1430,18 @@
 ##### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 
-# Compliance
-## [Overview](compliance/compliance-overview.md)
-## [Application Compliance](compliance/compliance-application-compliance.md)
-## [Service Compliance](compliance/compliance-service-compliance.md)
-## [Certifications](compliance/compliance-certifications.md)
+# Security, Privacy, Compliance
+## Security and Protection
+### [Overview](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+## Privacy
+### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+## Compliance
+### [Overview](compliance/compliance-overview.md)
+### [Application Compliance](compliance/compliance-application-compliance.md)
+### [Service Compliance](compliance/compliance-service-compliance.md)
+### [Certifications](compliance/compliance-certifications.md)
 
-# Development and Administration for Dynamics 365 Business Central
+# Development and Administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration Tasks in Business Central
 ### [Overview](admin-setup-and-administration.md)

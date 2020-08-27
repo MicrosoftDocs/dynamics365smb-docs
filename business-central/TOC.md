@@ -336,6 +336,8 @@
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
 ## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+# Business Functionality
+## [Overview of Business Functionality](across-business-functionality.md)
 <!--general-->
 # General Business Functionality
 ## [Overview](ui-across-business-areas.md)
@@ -415,9 +417,6 @@
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
 #### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
-
-# Business Functionality
-## [Overview of Business Functionality](across-business-functionality.md)
 ## Finance
 ### [Overview](finance.md)
 ### Managing Receivables

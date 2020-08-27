@@ -36,7 +36,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Report on the costs of a project. **Requires complete sample data**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Pick items for shipment in basic warehouse configurations. **Requires complete sample data**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|
-|Export business data for auditing purposes in Germany.|[Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-gdpdu-data.md)|
+|Export business data for auditing purposes in Germany.|[Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## See Also
 

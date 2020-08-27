@@ -1010,12 +1010,10 @@
 ##### [Post a Negative Entry](LocalFunctionality\Germany\how-to-post-a-negative-entry.md)
 ##### [Process for Digital Audits](LocalFunctionality/Germany/process-for-digital-audits.md)
 ##### [Set Up Data Exports for Digital Audits](LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md)
-##### [Set Up Data Exports for GDPDU](LocalFunctionality/Germany/how-to-set-up-data-exports-for-gdpdu.md)
 ##### [Export Data for a Digital Audit](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU Filter Examples](LocalFunctionality/Germany/gdpdu-filter-examples.md)
 ##### [Upgrade a .DTD Definition File](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
-##### [Walkthrough: Exporting GDPDU Data](LocalFunctionality/Germany/walkthrough-exporting-gdpdu-data.md)
 #### Purchasing
 ##### [Set Up Delivery Reminders](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
 ##### [Set Up Delivery Reminder Terms, Levels, and Text](LocalFunctionality/Germany/how-to-set-up-delivery-reminder-terms-levels-and-text.md)

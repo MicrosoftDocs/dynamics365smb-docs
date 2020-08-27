@@ -576,6 +576,16 @@
             "source_path": "business-central/product-sell.md",
             "redirect_url": "index",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-gdpdu.md",
+            "redirect_url": "how-to-set-up-data-exports-for-digital-audits",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/walkthrough-exporting-gdpdu-data.md",
+            "redirect_url": "walkthrough-exporting-data-for-a-digital-audit",
+            "redirect_document_id": false
         }
 
     ]

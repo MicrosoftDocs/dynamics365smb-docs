@@ -1,5 +1,5 @@
 ---
-title: Business Functionality Supported by Business Central | Microsoft Docs
+title: Business Functionality Supported by Business Central
 description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
+ms.date: 08/27/2020
 ms.author: sgroespe
 
 ---

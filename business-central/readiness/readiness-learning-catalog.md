@@ -25,7 +25,7 @@ Find the right online training, in person workshops, and events for your role as
 
     [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)
 
-    [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)
+    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
@@ -39,7 +39,7 @@ Find the right online training, in person workshops, and events for your role as
 
     [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
-    [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)
+    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
@@ -67,7 +67,7 @@ Find the right online training, in person workshops, and events for your role as
 
     [Business Central learning paths (Free, self-paced online learning paths)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
-    [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)
+    [Business Central videos on YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 

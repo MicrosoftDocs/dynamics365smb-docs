@@ -4,6 +4,7 @@
 ## [Overview of Business Functionality](across-business-functionality.md)
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Learn
+### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
 ### Business Process Walkthroughs
 #### [Overview](walkthrough-business-process-walkthroughs.md)

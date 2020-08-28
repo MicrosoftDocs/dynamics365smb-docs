@@ -28,7 +28,7 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 
 You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.
 
-## Are you using Business Central on-premises
+## Using Business Central on-premises?
 
 If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app.
 

@@ -22,7 +22,7 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 ## Get the app on my mobile device
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
+[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
@@ -34,7 +34,7 @@ You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be
 If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app.
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
+[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
 3. Instead of entering an email address on the ***Welcome** page, select the option to **Connect to a local or hosted service**.

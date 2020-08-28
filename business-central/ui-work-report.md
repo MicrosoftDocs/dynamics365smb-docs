@@ -59,16 +59,16 @@ Use the fields under **Options** and **Filters** to change limit the information
 
 ## Previewing a Report
 
-Previewing a report lets you see what the report will look like before you print it. You can then go back to the request page and make changes to options and filters as needed. To preview a report, choose the **Preview** or **Preview & Close** button on the report request page.
+Previewing a report lets you see what the report will look like before you print it. The preview will lay out the report based in the [printer](#Printer) that is shown in the **Printer** field on the request page. After previewing, you can then go back to the request page and make changes to options and filters as needed.
 
-The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
+To preview a report, choose the **Preview** or **Preview & Close** button on the report request page. The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
 
 > [!NOTE]
 > If you're using Business Central 2020 release wave 1 or earlier, there is only a **Preview** button, which closes the request page on preview, like described for **Preview & Close**.
 
 ### Working with the preview
 
-The preview will lay out the report based in the [printer](#Printer) that is shown in the **Printer** field on the request page. In the preview, use the menu bar on the report preview to:
+In the preview, use the menu bar on the report preview to:
 
 - Move through pages
 - Zoom in and out

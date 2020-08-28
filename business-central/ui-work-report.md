@@ -28,10 +28,10 @@ When you open a report, batch job, or XMLport, you are typically presented with 
 
 ## Printer
 
-The **Printer** field shows the name of printer that report is set up to use for printing. Specifies a network or cloud-enabled printer selected for this report. You can change the printer by using Printer Selections page. If no printer is selected, the browser will handle the printout and display a standard experience where a local printer can be chosen.
+The **Printer** field shows the name of printer that the report will be sent to for printing. **(Handeled by browser)** indicates there is no printer designated to the report for printing. In  this case, the browser will handle the printout and display a standard experience where you can choose a local printer connected to your device.
 
->[!NOTE]
-> The predefined settings are typically set up and managed by an administrator. If you want to learn more, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+> [!NOTE]
+> You can't change the printer using the **Printer** field. To change the printer, you'll have to go to the **Printer Selections** page. Setting the printer is typically an administrator task. If you want to learn more, see [Set Up Printers](ui-specify-printer-selection-reports.md).
 
 ## <a name="SavedSettings"></a>Use default values from
 
@@ -51,9 +51,9 @@ Using saved settings is a fast and reliable way to consistently generate reports
 >[!NOTE]
 >If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
 -->
-## Specifying the Data to Include in Reports
+## Specifying the data to Include in reports
 
-You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
+Use the fields under **Options** and **Filters** to change limit the information you want in the report. You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
 > [!CAUTION]
 > The **Filter list by** section on a request page provides a generic filtering capability for reports. These filters are optional.
@@ -63,10 +63,30 @@ You set filters in a report in more or less the same way as you set filters on l
 > **Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
 
+## Advanced options
+
+The fields under **Advanced** set limitations on the generated report to control printer resources. You typically won't have to change these settings, unless you have a large report. If a report exceeds these limitations when you try to preview or print, a message appears telling you which limitation was exceeded. You can then change the settings to suit your report. Each field, however, has a maximum value that you should be aware of:
+
+|Field|Maximum value|
+|-----|-------------|
+|Maximum rendering time||
+|Maximum rows||
+|Maximum documents||
+
+
 
 ## Previewing a Report
 
-Choose the **Preview** button to view the report in the report request page. Use the menu bar on the report preview to:
+Previewing a report lets you see what the report will look like before you print it. You can then go back to the request page and make changes to options and filters as needed. To preview a report, choose the **Preview** or **Preview & Close** button on the report request page.
+
+The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
+
+> [!NOTE]
+> If you're using Business Central 2020 release wave 1 or earlier, there is only a **Preview** button, which closes the request page on preview, like described for **Preview & Close**.
+
+### Working with the preview
+
+In the preview, use the menu bar on the report preview to:
 
 - Move through pages
 - Zoom in and out

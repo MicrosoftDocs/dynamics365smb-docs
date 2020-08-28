@@ -21,10 +21,10 @@ You can team up with one or more other businesses in your country to consolidate
 > [!NOTE]
 > VAT reports contain customer data. That data will be deleted after 30 days.
 
-## Setting Up VAT Groups
-Regardless of whether you are joining a VAT group as a member or a representative, use the VAT Group Management Setup assisted setup guide to define your engagement with the group, and create a connection between the group members and the representative.
+## Forming a VAT Group
+VAT group members and the group representative can use the **VAT Group Management Setup** assisted setup guide to define their engagement with the group, and create a connection between the group members' and the representative's [!INCLUDE[d365fin](includes/d365fin_md.md)]. The group members will use the connection to submit their VAT returns to the group representative
 
-To set up a VAT group, the group members and the representative must exchange the following information: 
+Before using the guide to set up a VAT group, the group members and the representative must exchange the following information: 
 
 * The group representative must create a user in the company that members will submit VAT reports to, and assign the **VAT Group API User** permission to the user. The group members will need the user name and credentials for this user when they join the group. We recommend that this user is used only for submitting VAT returns to the group representative, and is not associated with a person. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * The group representative must provide the web service access key. <!--where do they get the web service access key?-->
@@ -38,8 +38,6 @@ When a member joins a VAT group, they must choose an authentication method. The 
 * **Windows** - This only works [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises on NSTs that have Windows authentication as the authentication type. If you choose this then the user signed in on the member instance must also be a user that can access the group representative company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### To use the assisted setup guide
-The information you enter in the **VAT Group Management** assisted setup guide differs, depending on whether you are joining a VAT group as a member or the group representative.
-
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.
 2. Complete the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

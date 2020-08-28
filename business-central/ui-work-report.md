@@ -22,24 +22,19 @@ Batch jobs and XMLports do more or less the same as reports, but for the purpose
 > [!NOTE]
 > This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
+## Getting started
+
 You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report. The following sections explain the options that are available.
 
-## Printer
+## <a name="SavedSettings"></a>Using default values - predefined settings 
 
-The **Printer** field shows the name of printer that the report will be sent to for printing. **(Handeled by browser)** indicates there is no printer designated to the report for printing. In  this case, the browser will handle the printout and display a standard experience where you can choose a local printer connected to your device.
-
-> [!NOTE]
-> You can't change the printer using the **Printer** field. To change the printer, you'll have to go to the **Printer Selections** page. Setting the printer is typically an administrator task. If you want to learn more, see [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-## <a name="SavedSettings"></a>Use default values from
-
-Most request pages include the **Use default values from** field. This field lets you select a predefined settings for the report that set options and filters for the report. Just select an entry from the drop-downlist, and you'll see the options and filters on the page change accordingly.
+Most request pages include the **Use default values from** field. This field lets you select predefined settings for the report, which automatically set options and filters for the report. Select an entry from the drop-down list, and you'll see the options and filters on the request page change accordingly.
 
 The entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you ran the report.
 
-The **Use default values from** field provides a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or printing the report. The changes that you make will not be saved to the predefined settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+The **Use default values from** field provides a fast and reliable way to consistently generate reports that contain the correct data. After you select an entry, you can change any of the options and filters before previewing or printing the report. The changes that you make will not be saved to the predefined settings entry you selected, but they will be saved to the **Last used options and filters** entry.
 
 >[!NOTE]
 > The predefined settings are typically set up and managed by an administrator. If you want to learn more, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
@@ -87,7 +82,7 @@ The button that displays depends on the report, so some reports have **Preview**
 
 ### Working with the preview
 
-In the preview, use the menu bar on the report preview to:
+The preview will layout the report based in the [printer](#Printer) that is shown in the **Printer** field on the request page. In the preview, use the menu bar on the report preview to:
 
 - Move through pages
 - Zoom in and out
@@ -103,6 +98,7 @@ In the preview, use the menu bar on the report preview to:
 - Print
 
 ## Saving a Report
+
 You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel document by choosing the **Send to** button, and then making your selection.
 
 ## <a name="ScheduleReport"></a> Scheduling a Report to Run
@@ -117,14 +113,22 @@ You can choose to save the processed report to a file, such as an Excel, Word, o
 
 You print a report by choosing the **Print** button on the report request page or on the menu bar on the **Preview** page.
 
+<!--
 ### Printer selection
 
 The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
 
 The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
 
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page. 
+If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
+-->
+### <a name="Printer"></a>Printer
 
+The **Printer** field on the request page shows the name of printer that the report will be sent to. **(Handled by the browser)** indicates there is no designated printer for the report. In this case, the browser will handle the printout and display a standard experience, where you can choose a local printer connected to your device.
+
+You can't change the printer using the **Printer** field. To change the printer, you'll have to go to the **Printer Selections** or **Printer Management** pages. Setting the printer is typically an administrator task. If you want to learn more, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+<!--
 ### Browser printing
 
 Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.

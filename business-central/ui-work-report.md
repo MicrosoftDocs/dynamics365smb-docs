@@ -1,7 +1,7 @@
 ---
 title: Scheduling a Report to Run at a Specific Date and Time | Microsoft Docs
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
-author: SorenGP
+author: jswymer
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
-ms.author: sgroespe
+ms.author: jswymer
 
 ---
 # Working with Reports, Batch Jobs, and XMLports
@@ -22,10 +22,36 @@ Batch jobs and XMLports do more or less the same as reports, but for the purpose
 > [!NOTE]
 > This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
-You can find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
+You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
+When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report. The following sections explain the options that are available.
+
+## Printer
+
+The **Printer** field shows the name of printer that report is set up to use for printing. Specifies a network or cloud-enabled printer selected for this report. You can change the printer by using Printer Selections page. If no printer is selected, the browser will handle the printout and display a standard experience where a local printer can be chosen.
+
+>[!NOTE]
+> The predefined settings are typically set up and managed by an administrator. If you want to learn more, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+
+## <a name="SavedSettings"></a>Use default values from
+
+Most request pages include the **Use default values from** field. This field lets you select a predefined settings for the report that set options and filters for the report. Just select an entry from the drop-downlist, and you'll see the options and filters on the page change accordingly.
+
+The entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you ran the report.
+
+The **Use default values from** field provides a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or printing the report. The changes that you make will not be saved to the predefined settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+
+>[!NOTE]
+> The predefined settings are typically set up and managed by an administrator. If you want to learn more, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+<!--
+Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
+
+Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+
+>[!NOTE]
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+-->
 ## Specifying the Data to Include in Reports
-When you open a report, batch job, or XMLport, you are typically presented with a request page where you set various options and filters that determine what to include in the report.
 
 You set filters in a report in more or less the same way as you set filters on lists. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
@@ -36,13 +62,7 @@ You set filters in a report in more or less the same way as you set filters on l
 >
 > **Example**: When you use the **Create Reminders** batch job, a filter for the **Customer Ledger Entries** field of **Last Issued Reminder Level** will be ignored because filters are fixed for that batch job.
 
-## <a name="SavedSettings"></a>Using Saved Settings
-The request page can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
 
 ## Previewing a Report
 

@@ -19,13 +19,27 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 ## To get the app on my mobile device
+
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
+[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
 You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.
+
+## Are you using Business Central on-premises
+
+If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app.
+
+1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
+[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
+[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
+2. Launch the app from your mobile device.
+3. Instead of entering an email address on the ***Welcome** page, select the option to **Connect to a local or hosted service**.
+4. On the next page, in the **Service name** box, enter the web address that you uses to open the [!INCLUDE[d365fin](includes/d365fin_md.md)] client.For example, `https://mycomputer:443/BC170`. If your not sure, ask your administrator.
+5. Next, enter your user name and password for accessing Business Central. 
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

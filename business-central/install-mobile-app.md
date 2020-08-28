@@ -37,9 +37,8 @@ If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can
 [![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Launch the app from your mobile device.
 3. Instead of entering an email address on the ***Welcome** page, select the option to **Connect to a local or hosted service**.
-4. On the next page, in the **Service name** box, enter the web address that you uses to open the [!INCLUDE[d365fin](includes/d365fin_md.md)] client.For example, `https://mycomputer:443/BC170`. If your not sure, ask your administrator.
-5. Next, enter your user name and password for accessing Business Central. 
-
+4. On the next page, in the **Service name** box, enter the web address that you uses to open [!INCLUDE[d365fin](includes/d365fin_md.md)], for example *https://mybusinesscentral:443/BC170*. If your not sure, ask your administrator.
+5. Next, enter your user name and password for accessing Business Central.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

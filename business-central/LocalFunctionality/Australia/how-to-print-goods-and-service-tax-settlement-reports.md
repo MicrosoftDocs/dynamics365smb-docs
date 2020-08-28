@@ -1,8 +1,6 @@
 ---
-    title: How to Print Goods and Service Tax Settlement Reports
-    description: Describes how to print a periodic goods and services tax (GST) settlement.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Print Goods and Service Tax Settlement Reports (AU)
+    description: Describes how to print a periodic goods and services tax (GST) settlement in the Australian version of Business Central.
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,15 +8,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 08/28/2020
     ms.author: bholtorf
 
 ---
-# Print Goods and Service Tax Settlement Reports
+# Print Goods and Service Tax Settlement Reports in the Australian Version
+
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 
+### To print a goods and service tax settlement
 
-### To print a goods and service tax settlement  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate GST Statement**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 

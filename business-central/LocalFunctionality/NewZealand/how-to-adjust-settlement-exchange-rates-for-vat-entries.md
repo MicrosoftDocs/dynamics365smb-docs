@@ -1,6 +1,6 @@
 ---
-    title: How to Adjust Settlement Exchange Rates for VAT Entries
-    description: You can use the Adjust Settlement Exch. Rates batch job to settle VAT entries according to the government exchange rate as defined in the Currency Exchange Rate table.
+    title: Adjust Settlement Exchange Rates for VAT Entries (NZ)
+    description: Use a batch job to settle VAT entries according to the government exchange rates in the New Zealand version.
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -8,11 +8,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/17/2020
+    ms.date: 08/28/2020
     ms.author: bholtorf
 
 ---
-# Adjust Settlement Exchange Rates for VAT Entries
+# Adjust Settlement Exchange Rates for VAT Entries in the New Zealand Version
 
 You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.  
 

@@ -1,9 +1,6 @@
 ---
-    title: How to Set Up Vendors Without ABN for Calculating the Withholding Tax
-    description: Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Set Up Vendors Without ABN for Calculating WHT
+    description: In Business Central, Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 08/28/2020
     ms.author: sgroespe
 
 ---
-# Set Up Vendors Without ABN for Calculating the Withholding Tax
+# Set Up Vendors Without ABN for Calculating the Withholding Tax in the Australian Version
+
 Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.  
 
 ## To set up vendors without ABN for calculating the withholding tax  

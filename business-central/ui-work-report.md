@@ -151,7 +151,7 @@ The fields under **Advanced** set limitations on the generated report to control
 |Maximum documents|500|
 
 > [!NOTE]
-> The maximum values may be different for [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, and an administrator can change them. For more information, see [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). For an overview of reports limitations [!INCLUDE[d365fin](includes/d365fin_md.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online)
+> The maximum values may be different for [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, and an administrator can change them. For more information, see [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). For an overview of reports limitations [!INCLUDE[d365fin](includes/d365fin_md.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## See Also
 

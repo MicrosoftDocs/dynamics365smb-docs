@@ -29,7 +29,7 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
-You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.
+You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and can view and edit data.
 
 <!--
 [![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
@@ -49,8 +49,14 @@ If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
 3. Instead of entering an email address on the ***Welcome** page, select the option to **Connect to a local or hosted service**.
-4. On the next page, in the **Service name** box, enter the web address that you uses to open [!INCLUDE[d365fin](includes/d365fin_md.md)], for example *https://mybusinesscentral:443/BC170*. If your not sure, ask your administrator.
+4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[d365fin](includes/d365fin_md.md)], for example *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
 5. Next, enter your user name and password for accessing Business Central.
+
+   When completed, the Business Central App will open.
+
+> [!NOTE]
+> If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or wrong configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/deployment/devenv-troubleshooting-the-mobile-app).
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

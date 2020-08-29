@@ -23,7 +23,7 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
@@ -37,11 +37,14 @@ You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be
 -->
 ## Using Business Central on-premises?
 
-If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app.
+If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
+
+> [!NOTE]
+>  
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.

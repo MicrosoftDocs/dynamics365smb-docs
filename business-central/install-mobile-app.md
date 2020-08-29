@@ -23,8 +23,8 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
 
-   - [!Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
-   - [[App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
+   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
@@ -41,8 +41,8 @@ If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can
 
 1. Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
 
-   - [!Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
-   - [[App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848)
+   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
 3. Instead of entering an email address on the ***Welcome** page, select the option to **Connect to a local or hosted service**.

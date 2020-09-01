@@ -131,7 +131,8 @@ Another option for creating a query is to start without a data source selected. 
 
 > [Note!] 
 > If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
-> The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in  >Business Central. Select the table you want to use as your primary data source.
+
+The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in  Business Central. Select the table you want to use as your primary data source.
 
 The application auto selects the first 5 fields from the data source selected. From here, the creation of the query is the same as the steps above when the data source was automatically selected for you.
 

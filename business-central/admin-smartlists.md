@@ -96,7 +96,7 @@ You may filter on more than one field within a selected data source. To add an a
 > The applicable filter options will match what is available in Business Central. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).  
 > Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to > the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
 
-> [!Trouble shooting] 
+> [!Troubleshoot] 
 > If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage  > Fields. Filters can be applied to fields that are not displayed in the query definition.
 
 ### Query preview
@@ -108,7 +108,7 @@ It is recommended that after you have reviewed the results that you close the Sm
 > There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in   >SmartList Designer so see accurate results.
 
 > [!Troubleshoot]
-> If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. See Managing Permissions.
+> If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. *See Managing Permissions.
 
 ### Saving a Query
 Select the Save button to save your query definition. When Save is selected, a dialog will appear prompting you to provide and name and category for your SmartList query.
@@ -130,7 +130,7 @@ Another option for creating a query is to start without a data source selected. 
 
 > [Note!] 
 > If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
-> The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in > Business Central. Select the table you want to use as your primary data source.
+> The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in  >Business Central. Select the table you want to use as your primary data source.
 
 The application auto selects the first 5 fields from the data source selected. From here, the creation of the query is the same as the steps above when the data source was automatically selected for you.
 

@@ -27,13 +27,13 @@ The following procedure will take you through the steps to install and setup Sma
 1.	Choose the search icon, enter **SmartList Designer Setup**, and then choose the related link.
 2.	Select the **Install SmartList Designer from AppSource** link.
 3.	Select **GET IT NOW**.
-4.	If prompted, enter your account name and password.
-5.	Read the disclaimer and select Continue if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.
+4.	If prompted, enter your **account name** and **password**.
+5.	Read the disclaimer and select **Continue** if you agree. If you do not agree, close the message by select the X in the upper right corner of the message.
 6.	Select the environment you want to install SmartList Designer into.
 7.	Select the checkmarks to agree to each of the terms listed.
 8.	Select **Install**.
-9.	Navigate back to the SmartList Designer setup page in Business Central.
-10.	Verify the SmartList Designer App ID and AAD Tenant ID fields are populated.
+9.	Navigate back to the **SmartList Designer setup** page in Business Central.
+10.	Verify the **SmartList Designer App ID** and **AAD Tenant ID** fields are populated.
 11.	Select **OK**
 
 > [!Note] 
@@ -44,7 +44,7 @@ The following procedure will take you through the steps to install and setup Sma
 
 ## Creating a SmartList Query
 You may launch SmartList Designer two ways. The first option is to navigate to one of the 21 different list page SmartList Designer can be launched from.
-From the list page, select the All drop down button at the top of the list and select New Query (SmartList). 
+From the list page, select the **All** drop down button at the top of the list and select **New Query (SmartList)**. 
 
 The SmartList Designer page will open and automatically select the data source related to the list page you initiated SmartList Designer from as well as any visible columns on the list page. This will be considered your Primary data source for the query. 
 
@@ -57,15 +57,23 @@ The second option for launching SmartList Designer is to search for SmartList De
 SmartList Designer will open, but instead of auto populating the Primary data source and columns, you will need to manually select the data source you want to use as the Primary data source. Once the primary data source is selected, the first 5 fields from that data source will auto populate the query definition.
 
 ### Manage Fields
-The Manage Fields action at the bottom of the list of fields will enable you to change the fields you want to make visible in your query. The list of fields will auto populate depending on where SmartList Designer was launched from. To modify that list, select Mange Fields and select/unselect the fields you want to make available in your query by marking or unmarking the checkbox next to each field. You may also do a search to locate fields you may want to add to your query.
-Once you have the fields selected that you want in the query, select Apply. If you choose not to modify the field list, select Cancel.
+The Manage Fields action at the bottom of the list of fields will enable you to change the fields you want to make visible in your query. The list of fields will auto populate depending on where SmartList Designer was launched from. To modify that list, select **Mange Fields** and select/unselect the fields you want to make available in your query by marking or unmarking the checkbox next to each field. You may also do a search to locate fields you may want to add to your query.
+Once you have the fields selected that you want in the query, select **Apply**. If you choose not to modify the field list, select Cancel.
 
 ### Adding a table
-To add another data source to your query, select **+ Table**. You will be presented with a list of tables that are related to the primary data source. Once a table is selected, there is no need to define a relationship between the tables as this is automatically done for you.
+To add another data source to your query, select **+ Table**. You will be presented with a list of tables that are related to the primary data source. Once a table is selected, there is no need to define a relationship between the tables as this is automatically done for you. All successfully linked tables and fields will have an indicator next to them.
 
 > [!NOTE] 
-> A left outer join is created automatically between data sources. See advanced links for instructions on how to modify the default link. 
-> If the table you want to add does not appear in the list, select Show All. This will display all tables from your Business Central tenant. SmartList Designer will attempt to > > link the data sources. If a link cannot be determined, the advance link page will appear. *See advanced links.
+> A left outer join is created automatically between data sources. *See advanced links* for instructions on how to modify the default link. 
+
+### Advanced Links
+In the instance where you want to relate two data source they may not have a relationship defined, use the advanced link funtionality. Following the same steps to add a table, select **Show All** below the table drop down list. This will display all available tables that can be added to the query definition. SmartList Designer will attempt to create a link between the data sources. If a link cannot be created, the Link Fields screen will appear.
+
+Select the fields you want to link between the data sources available. If a link cannot be create between the data sources, select **Cancel** to exist the screen. If a link could not be created, you will recieve a message indicating that a link could not be created and the data source you just added will be removed from the query defination. 
+
+### Edit Links ###
+To modify an exsiting linked table or field, select the context menu icon in the data source you want to change the links for and select **Edit Link**. The Link Fields screen will appear and display the tables and fields currently linked. Edit the tables or fields you would like to update and select **Save**.
+
 
 ### Removing a table
 To remove a data source, select the … in the upper corner of the data source you want to remove. This will open a context menu that will enable you to remove the data source.

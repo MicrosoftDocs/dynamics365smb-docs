@@ -39,7 +39,7 @@ The following procedure will take you through the steps to install and setup Sma
 > [!Note] 
 > It could take several minutes for the SmartList Designer app to be recognized.
 
-> [!IMPORTANT] 
+> [!Tip] 
 > If the SmartList Designer App ID field does not auto populate after several minutes, navigate to PowerApps.com, select the environment SmartList Designer was installed to, select the context menu next to the SmartList Designer app and copy the APP ID. Once copied, navigate back to Business Central and paste the value into the SmartList Designer App ID field.
 
 ## Creating a SmartList Query
@@ -82,12 +82,12 @@ To remove a data source, select the … in the upper corner of the data source y
 Select the filter icon on the data source you want to filter. The app will open a filter page that will enable you to select the fields you want to filter on, as well as what filter(s) you want to apply to the field. 
 To apply filter, select a field from the data source, select a filter operator from the drop-down list and enter a filter value. 
 
-> [!Note] 
+> [!Tip] 
 > If you want to enter multiple filter values, use the IN operator. Select the + icon next to the filter value to add additional filter values.  
 
 To define additional filters on a selected field, select the + icon on the left side of the page.  There is no limit on the number of filters that can be applied to a field. 
 
-> [!Note] 
+> [!Tip] 
 > Each row will be treated as an AND clause between rows. 
 
 You may filter on more than one field within a selected data source. To add an additional field, select Add Filter icon in the lower left portion of the screen. Repeat the previous steps to define the filter(s) for that field.
@@ -97,7 +97,7 @@ You may filter on more than one field within a selected data source. To add an a
 
 Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to > the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
 
-> [!Troubleshoot] 
+> [!Important] 
 > If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage  > Fields. Filters can be applied to fields that are not displayed in the query definition.
 
 ### Query preview
@@ -108,7 +108,7 @@ It is recommended that after you have reviewed the results that you close the Sm
 > [!Note] 
 > There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in   >SmartList Designer so see accurate results.
 
-> [!Troubleshoot]
+> [!Tip]
 > If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. *See Managing Permissions.
 
 ### Saving a Query
@@ -118,7 +118,7 @@ The name is limited to 30 characters. You will receive an error message if the n
 The category relates to the list page you want the SmartList query to be visible from. There is a total of 21 list pages available to choose from. 
 Once a name and category are defined, select OK. You will receive a success message after the query is created in Business Central. If the query failed to create, you will be notified with an error message.
 
-> [!Important] 
+> [!Tip] 
 > Once the SmartList query is saved, and you return to the list page you initiated SmartList Designer from, you will need to refresh the list page before the new query is >available in the navigation.
 
 ### Save As
@@ -221,7 +221,7 @@ Once the SmartList queries have exported, the SmartList Export Results page will
 
 To import, select the Import action, choose the file you want to import and select OK. Once the SmartList queries have imported, the SmartList Import Results page will appear. The page will list all the SmartList queries that were imported successfully and provide an error message for the SmartList queries that failed to import.
 
-> [!NOTE] 
+> [!Tip] 
 >A common reason why a SmartList query will fail to import is that a data source found in the query definition does not exist in the tenant the SmartList query is being imported >into. This could happen when a query definition contains an extension data source and the tenant you are importing the query into does not have that same extension installed.
 
 ## Custom Navigation

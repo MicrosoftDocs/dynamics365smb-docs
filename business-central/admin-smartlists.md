@@ -67,7 +67,7 @@ To add another data source to your query, select **+ Table**. You will be presen
 > A left outer join is created automatically between data sources. *See advanced links* for instructions on how to modify the default link. 
 
 ### Advanced Links
-In the instance where you want to relate two data source they may not have a relationship defined, use the advanced link funtionality. Following the same steps to add a table, select **Show All** below the table drop down list. This will display all available tables that can be added to the query definition. SmartList Designer will attempt to create a link between the data sources. If a link cannot be created, the Link Fields screen will appear.
+In the instance where you want to relate two data sources they may not have a relationship defined, use the advanced link funtionality. Following the same steps to add a table, select **Show All** below the table drop down list. This will display all available tables that can be added to the query definition. SmartList Designer will attempt to create a link between the data sources. If a link cannot be created, the Link Fields screen will appear.
 
 Select the fields you want to link between the data sources available. If a link cannot be create between the data sources, select **Cancel** to exist the screen. If a link could not be created, you will recieve a message indicating that a link could not be created and the data source you just added will be removed from the query defination. 
 

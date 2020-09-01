@@ -48,8 +48,8 @@ From the list page, select the All drop down button at the top of the list and s
 
 The SmartList Designer page will open and automatically select the data source related to the list page you initiated SmartList Designer from as well as any visible columns on the list page. This will be considered your Primary data source for the query. 
 
->[!Important] 
->If SmartList Designer has not yet been setup, the user will be automatically taken to the SmartList Designer Setup page.
+> [!Important] 
+> If SmartList Designer has not yet been setup, the user will be automatically taken to the SmartList Designer Setup page.
 
 At this point, the minimum amount of information to create a query has been defined. You may preview the results, create the query, or extend the query definition. 
 
@@ -64,8 +64,8 @@ Once you have the fields selected that you want in the query, select Apply. If y
 To add another data source to your query, select **+ Table**. You will be presented with a list of tables that are related to the primary data source. Once a table is selected, there is no need to define a relationship between the tables as this is automatically done for you.
 
 > [!NOTE] 
->A left outer join is created automatically between data sources. See advanced links for instructions on how to modify the default link. 
->If the table you want to add does not appear in the list, select Show All. This will display all tables from your Business Central tenant. SmartList Designer will attempt to >link the data sources. If a link cannot be determined, the advance link page will appear. *See advanced links.
+> A left outer join is created automatically between data sources. See advanced links for instructions on how to modify the default link. 
+> If the table you want to add does not appear in the list, select Show All. This will display all tables from your Business Central tenant. SmartList Designer will attempt to > > link the data sources. If a link cannot be determined, the advance link page will appear. *See advanced links.
 
 ### Removing a table
 To remove a data source, select the … in the upper corner of the data source you want to remove. This will open a context menu that will enable you to remove the data source.
@@ -84,23 +84,23 @@ To define additional filters on a selected field, select the + icon on the left 
 
 You may filter on more than one field within a selected data source. To add an additional field, select Add Filter icon in the lower left portion of the screen. Repeat the previous steps to define the filter(s) for that field.
 
->[!Note] 
->The applicable filter options will match what is available in Business Central. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).  
->Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to >the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
+> [!Note] 
+> The applicable filter options will match what is available in Business Central. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).  
+> Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to > the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
 
->[!Trouble shooting!] 
->If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage >Fields. Filters can be applied to fields that are not displayed in the query definition.
+> [!Trouble shooting] 
+> If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage  > Fields. Filters can be applied to fields that are not displayed in the query definition.
 
 ### Query preview
 Once you have defined your query definition, you may preview the results before saving it. Select the Preview button to render the results of the query definition. When preview is selected, the results will render in a separate instance, browser tab, of Business Central. Business Central will open to the default company and render the results of the query. 
 
 It is recommended that after you have reviewed the results that you close the SmartList page in Business Central. 
 
->[!Note] 
->There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in SmartList Designer so see accurate results.
+> [!Note] 
+> There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in   >SmartList Designer so see accurate results.
 
-[!Troubleshoot]
->If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. See Managing Permissions.
+> [!Troubleshoot]
+> If you get a permission error when Preview is selected it means you have permissions to create the query but not to render a result set. See Managing Permissions.
 
 ### Saving a Query
 Select the Save button to save your query definition. When Save is selected, a dialog will appear prompting you to provide and name and category for your SmartList query.
@@ -110,7 +110,7 @@ The category relates to the list page you want the SmartList query to be visible
 Once a name and category are defined, select OK. You will receive a success message after the query is created in Business Central. If the query failed to create, you will be notified with an error message.
 
 > [!Important] 
->Once the SmartList query is saved, and you return to the list page you initiated SmartList Designer from, you will need to refresh the list page before the new query is >available in the navigation.
+> Once the SmartList query is saved, and you return to the list page you initiated SmartList Designer from, you will need to refresh the list page before the new query is >available in the navigation.
 
 ### Save As
 Once edits have been made to an existing SmartList query, the Save As action will become available in the context menu (…) in the lower right. 
@@ -120,8 +120,9 @@ Select the category to assign your SmartList query to and select OK.
 ### New Query
 Another option for creating a query is to start without a data source selected. To create a new query, select the New action from the context (…) menu in the SmartList Designer app. 
 
->[Note!] If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
-The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in Business Central. Select the table you want to use as your primary data source.
+> [Note!] 
+> If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
+> The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in > Business Central. Select the table you want to use as your primary data source.
 
 The application auto selects the first 5 fields from the data source selected. From here, the creation of the query is the same as the steps above when the data source was automatically selected for you.
 
@@ -150,7 +151,7 @@ Permissions create and preview SmartList queries are two separate permissions. T
 Permissions will need to be granted to any user that should have the ability to preview the results of a SmartList query definition. To grant this permission, navigate to permission sets, select the SmartList Designer permission set, and add permissions to system object 9605. 
 
 > [!IMPORTANT] 
->By granting this permission, you are granting the user the right to preview any data results from the SmartList query being defined. The user must still have permissions to the >tables defined in the query in order to see data.
+> By granting this permission, you are granting the user the right to preview any data results from the SmartList query being defined. The user must still have permissions to the tables defined in the query in order to see data.
 
 ### SmartList Query Permissions 
 Users will need to be granted permissions to each SmartList query created for them to view the SmartList query. To do this, navigate to permission sets, create a new permission set, add permissions to the permission set and then add users or user groups to the permission set.   
@@ -210,7 +211,7 @@ Once the SmartList queries have exported, the SmartList Export Results page will
 
 To import, select the Import action, choose the file you want to import and select OK. Once the SmartList queries have imported, the SmartList Import Results page will appear. The page will list all the SmartList queries that were imported successfully and provide an error message for the SmartList queries that failed to import.
 
->[!NOTE] 
+> [!NOTE] 
 >A common reason why a SmartList query will fail to import is that a data source found in the query definition does not exist in the tenant the SmartList query is being imported >into. This could happen when a query definition contains an extension data source and the tenant you are importing the query into does not have that same extension installed.
 
 ## Custom Navigation

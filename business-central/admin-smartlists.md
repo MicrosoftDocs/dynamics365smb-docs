@@ -94,7 +94,8 @@ You may filter on more than one field within a selected data source. To add an a
 
 > [!Note] 
 > The applicable filter options will match what is available in Business Central. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).  
-> Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to > the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
+
+Once you have defined the filters you want to apply to a data source, select OK. The application will return you to the query definition page and display a filter icon next to > the field(s) that you have defined a filter for. The see the filter value, simply hover over the filter icon.
 
 > [!Troubleshoot] 
 > If you do not see a filter icon displayed on the query definition page, it could mean that you applied a filter on a field you did not make visible in your query. See Manage  > Fields. Filters can be applied to fields that are not displayed in the query definition.

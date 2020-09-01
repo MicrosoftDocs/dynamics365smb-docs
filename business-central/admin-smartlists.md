@@ -71,8 +71,8 @@ In the instance where you want to relate two data source they may not have a rel
 
 Select the fields you want to link between the data sources available. If a link cannot be create between the data sources, select **Cancel** to exist the screen. If a link could not be created, you will recieve a message indicating that a link could not be created and the data source you just added will be removed from the query defination. 
 
-### Edit Links ###
-To modify an exsiting linked table or field, select the context menu icon in the data source you want to change the links for and select **Edit Link**. The Link Fields screen will appear and display the tables and fields currently linked. Edit the tables or fields you would like to update and select **Save**.
+### Edit Links
+To modify an exsiting linked table or field, select the ... in the upper corner of the data source you want to modify the links on. This will open a ontext menu. Select **Edit Link**. The Link Fields screen will appear and display the tables and fields currently linked. Edit the tables or fields you would like to update and select **Save**.
 
 
 ### Removing a table

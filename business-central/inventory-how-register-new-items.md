@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 09/02/2020
 ms.author: sgroespe
 
 ---
@@ -88,7 +88,13 @@ The vendors will now appear on the **Item Vendor Catalog** page, which you open 
 
 ## Deleting item cards
 
-If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.
+If you have posted a transaction for an item, you cannot delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
+
+## Manage inventory in warehouses
+
+When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization does not use the warehouse management capabilities in [!INCLUDE [prodshort](includes/prodshort.md)], then you can ignore those fields.  
+
+If your organization later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
 ## See Also
 

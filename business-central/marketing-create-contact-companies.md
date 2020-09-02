@@ -3,7 +3,7 @@ title: Create Contact Companies| Microsoft Docs
 ddescription: Outlines the tasks to create contact companies, including assigning relevant data about prospects and defining the business relationships you have with companies.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,20 +12,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: bholtorf
 
 ---
 # Create Contacts
 You regularly meet persons from other companies that may develop into business relationships, such as a customer relation. When such a new contact is made, as much information as possible must be recorded on a contact card so that communication can continue.
 
-You can create the contact as type **Company**, for example, if the relation not an individual person but an entity, such as a contractor or a bank. You an also create the contact as type **Person**. Functionality is more or less the same for both types and both can be changed as the relationship evolves.
+You can create the contact as type **Company**, for example, if the contact is not an individual person but an entity, such as a contractor or a bank. You an also create the contact as type **Person**. The features are more or less the same for both types of contacts, and both can be changed as the relationship evolves.
 
-When a contact card is converted to a customer card, for example, the contact person or contact company becomes the name of the customer. The contact card remains, and data on the two cards will be synchronized going forward if you link them.
+When a contact is converted to a customer, for example, the contact person or contact company becomes the name of the customer. The contact remains, and data on the two cards will be synchronized going forward if you link them.
 
 ## Person or Company
 You can decide to set up a contact as a person or a company, typically depending on whether you know the name of the contact person at the time of creation. You do this when you fill in the **Type** field on the **Contact Card** page. You can also maintain contact cards for both a company and one or more persons working in the company. This happens automatically when you fill in the **Company Name** field on a contact card of type **Person**.
 
-Functionality is the same for both types, except that the options for additional information changes depending on the type. For example, you can only assign job responsibilities to a person and industry group to a company. This is indicated in the UI by graying out the fields and actions that do not apply. You can change the value of the **Type** field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the person's related company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
+The information that's relevant differs depending on the contact type, so the fields and actions that are available are different. For example, you can only assign job responsibilities to a person, and an industry group to a company. This is indicated in the UI by graying out the fields and actions that do not apply. You can change the value of the **Type** field later, or you can use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to control which data is shared between a person and the person's related company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
 
 ## To create a contact manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

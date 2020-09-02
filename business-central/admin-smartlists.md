@@ -129,7 +129,7 @@ Select the category to assign your SmartList query to and select OK.
 ### New Query
 Another option for creating a query is to start without a data source selected. To create a new query, select the New action from the context (…) menu in the SmartList Designer app. 
 
-> [Note!]
+> [!Note]
 > If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
 
 The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in  Business Central. Select the table you want to use as your primary data source.

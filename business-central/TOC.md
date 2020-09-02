@@ -555,6 +555,7 @@
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage Database Access Intent](admin-data-access-intent.md)
+### [Create Custom Queries using SmartLists](bi-smartlists.md)
 
 ## Sales
 ### [Overview](sales-manage-sales.md)

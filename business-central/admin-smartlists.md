@@ -129,7 +129,7 @@ Select the category to assign your SmartList query to and select OK.
 ### New Query
 Another option for creating a query is to start without a data source selected. To create a new query, select the New action from the context (…) menu in the SmartList Designer app. 
 
-> [Note!] 
+> [Note!]
 > If you have an existing query definition in progress, you will be prompted to save or discard the changes before continuing.
 
 The first step will be to select a primary data source for your query. Choose the Find Table action. The application will present you with a list of all tables available in  Business Central. Select the table you want to use as your primary data source.
@@ -233,12 +233,12 @@ To view custom navigation, select a SmartList query and the Navigation action at
 
 To create a new custom navigation, follow these steps.
 
-1.	Select Create at the top of the Navigation list page.
-2.	Provide a name for the custom action you are about to create. This name will be visible when rendering a SmartList query. 
-3.	Choose a target page from the lookup. A target page is the page that you want to navigate to when this SmartList query is viewed.
-4.	If you want a specific record to be returned on the target page, toggle the Filter to Record on. If not, select OK to close the page.
-5.	Select the Linking Data Item from the lookup. This will be the item you want displayed when the target page is opened.
-6.	Select OK to close the page.
+1.	Select **Create** at the top of the Navigation list page.
+2.	Provide a **name** for the custom action you are about to create. This name will be visible when rendering a SmartList query. 
+3.	Choose a **target page** from the lookup. A target page is the page that you want to navigate to when this SmartList query is viewed.
+4.	If you want a specific record to be returned on the target page, toggle the **Filter to Record** on. If not, select OK to close the page.
+5.	Select the **Linking Data Item** from the lookup. This will be the item you want displayed when the target page is opened.
+6.	Select **OK** to close the page.
 7.	Repeat these steps to create additional custom navigation.
 
 ### Edit Custom Navigation

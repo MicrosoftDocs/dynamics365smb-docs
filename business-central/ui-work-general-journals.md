@@ -118,7 +118,10 @@ If the recurring method in the recurring journal is set to **Balance** or **Reve
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. On the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
 
 ### Reversal Date Calculation
-When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** action lets you control the date that reversal entries will be posted when reversal recurring methods are used.
+When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** field lets you control the date that reversal entries will be posted when reversal recurring methods are used.
+
+> [!NOTE]
+> By default, the **Reversal Date Calculation** field is not available on the **Recurring General Journals** page. To use the field, you must add it by personalizing the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.

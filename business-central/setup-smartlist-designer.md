@@ -38,7 +38,7 @@ The following procedure will take you through the steps to install and set up Sm
 > [!Tip]
 > If the **SmartList Designer App ID** field remains blank after several minutes, navigate to [PowerApps.com](PowerApps.com), log in with your administrative account, choose the environment that you installed SmartList Designer in, choose the context menu next to the SmartList Designer app and copy the app ID. You can then paste the value into the **SmartList Designer App ID** field in [!INCLUDE [prodshort](includes/prodshort.md)].
 
-## SmartLists and permissions
+## <a name="permissions"></a>SmartLists and permissions
 
 By default, only users that have SUPER permissions can create and preview SmartList queries. You can grant permission to other users to create and preview SmartList queries by assigning them the *SmartList Designer* permission set, or adding users or user groups to the *SmartList Designer* permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
@@ -51,13 +51,13 @@ Permissions will need to be granted to any user that should have the ability to 
 > [!IMPORTANT]
 > By granting this permission, you are granting the user the right to preview any data results from the SmartList query being defined. The user must still have permissions to the tables defined in the query in order to see data.
 
-### SmartList Query Permissions
+### SmartList query permissions
 
 Users will need to be granted permissions to each SmartList query created for them to view the SmartList query. To do this, navigate to permission sets, create a new permission set, add permissions to the permission set and then add users or user groups to the permission set.  
 
-To add permissions to the user defined permission set, select Permissions once the user defined permission set is created. From the Permissions page, select SmartList Permissions from the actions at the top. The action may be hidden under the (…) option.  
+To add permissions to the user defined permission set, select **Permissions** once the user-defined permission set is created. From the **Permissions** page, select **SmartList Permissions** from the actions at the top. The action may be hidden under the (…) option.  
 
-Add the desired SmartList queries to the user defined permission set. Permissions may also be added from the SmartList Management page however, the user defined permission set must exist to use that functionality.  
+Add the desired SmartList queries to the user-defined permission set. Permissions can also be added from the **SmartList Management** page however, the user-defined permission set must exist to use that functionality.  
 
 ## See also
 

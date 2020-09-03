@@ -120,6 +120,12 @@ You pay rent every month, so you have entered the rent amount on the cash accoun
 ### Reversal Date Calculation
 When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** field lets you control the date that reversal entries will be posted when reversal recurring methods are used.
 
+#### Example
+Accruals are usually posted with Fixed, Variable, or Balance recurring methods on the journal line. The posting date of the posted amount on the account on journal line is calculated using the recurring frequency. The posting date for the balancing entry is calculated using the **Reversal Date Calculation** field, as follows:
+
+* If the field is blank, the balancing entry will be posted the next day.
+* If the field contains a date formula (for example, **5D** for five days), the balancing entry will be posted with a posting date calculated using the reversal date calculation.
+
 > [!NOTE]
 > By default, the **Reversal Date Calculation** field is not available on the **Recurring General Journals** page. To use the field, you must add it by personalizing the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 

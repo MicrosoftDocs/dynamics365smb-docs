@@ -49,11 +49,18 @@ When you enable the validation the **Journal Check** FactBox displays next to th
 You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.     
 
 ### Reversing Journals to Correct Mistakes
-When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. General journals have a couple of features that can help.
+When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.
 
-On the **Posted General Journal** page, use the **Copy Journal** action to create a copy of a general journal line or a batch with opposite signs (a reversing journal), and a different posting date or document number. To allow journals to be copied to posted general journals, on the **General Journal Templates** page, choose the **Copy to Posted Jnl. Lines** check box. After you allow people to copy posted general journals, if needed you can turn off copying for specific batches.
+* **Copy Selected Lines to Journal** - Copy only the lines that you select.
+* **Copy G/L Register to Journal** - Copy all lines that belong to the same G/L register.
 
-When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** action lets you control the date that reversal entries will be posted where reversal recurring methods are used. <!--how does it relate to the reversal recurring methods?-->
+These actions let you create a copy of a general journal line or a batch, and then specify the following:
+
+* The journal to copy the lines to
+* Whether with opposite signs (a reversing journal)
+* A different posting date or document number
+
+To allow journals to be copied to posted general journals, on the **General Journal Templates** page, choose the **Copy to Posted Jnl. Lines** check box. After you allow people to copy posted general journals, if needed you can turn off copying for specific batches.
 
 ## Understanding Main Accounts and Balancing Accounts
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
@@ -109,6 +116,9 @@ If the recurring method in the recurring journal is set to **Balance** or **Reve
 
 #### Example: Allocating Rent Payments to Different Departments
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. On the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
+
+### Reversal Date Calculation
+When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** action lets you control the date that reversal entries will be posted when reversal recurring methods are used.
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.

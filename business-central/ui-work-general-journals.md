@@ -8,13 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: journals, recurring, accrual
 ms.date: 06/10/2020
 ms.author: bholtorf
 
 ---
 # Working with General Journals
 
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, using recurring journals to post accruals, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Most journals are based on the *General Journal*, and you can process all transactions on the **General Journal** page. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 

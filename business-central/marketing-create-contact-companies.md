@@ -1,6 +1,6 @@
 ---
 title: Create Business Contacts | Microsoft Docs
-ddescription: Outlines the tasks to create contacts, assign relevant data about prospects, and define your business relationships.
+description: Outlines the tasks to create contacts and define your business relationships.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -36,7 +36,7 @@ When a contact is converted to a customer, for example, the contact person or co
 5. Fill in the remaining fields as required. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To create a contact from a customer, vendor, or bank account
-If you have customers, vendors, and bank accounts that you want to create contact cards for, you can use the **Create Contacts from** batch jobs to create contacts on the basis of the existing data. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+If you have customers, vendors, and bank accounts that you want to create contact cards for, you can use the **Create Contacts from** batch jobs to create contacts on the basis of the existing data. When you create a contact this way, the contact information is afterwards synchronized with the related customer, vendor, or bank account information. For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Before you can create contacts based on existing data, you must specify a business relation code for customers, vendors, or bank accounts on the **Interactions** FastTab on the **Marketing Setup** page. For more information, see [Set up Contacts](marketing-setup-contacts.md).
@@ -90,7 +90,7 @@ If some of your contacts are also customers, vendors, employees, or bank account
 
 There are three ways to enable data synchronization between contacts and customers, vendors, employees, or bank accounts:
 
-* When you create contacts from customers, vendors, employees, or bank accounts. See [To create a contact from a customer, vendor, or bank account](marketing-create-contact-companies.md#to-create-a-contact-from-a-customer-vendor-employee-or-bank-account).
+* When you create contacts from customers, vendors, employees, or bank accounts. See [To create a contact from a customer, vendor, or bank account](marketing-create-contact-companies.md#to-create-a-contact-from-a-customer-vendor-or-bank-account).
 * When you create customers, vendors, employees, or bank accounts from contacts. See [To create a customer, vendor, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * When you link contacts with existing customers, vendors, employees, or bank accounts from the contact card. See [To link a contact to an existing customer, vendor, or bank account](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 

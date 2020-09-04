@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
 ---
 
@@ -162,7 +162,7 @@ The following shortcuts pertain to the Quick Entry feature on cards, documents, 
 |Shift+Enter|Confirm the value in the current field and go to the previous Quick Entry field.||
 |Ctrl+Shift+Enter|Confirm the value in the current column and go to next Quick Entry field outside the list.<br /><br />This shortcut applies to embedded lists on a page, such as line items on a sales order. It enables you to quickly get out of the list and continue entering data in other fields on the page.|
 
-## <a name="calendarshortcuts"/> Keyboard Shortcuts in the Calendar (Date Picker)
+## <a name="calendarshortcuts"></a> Keyboard Shortcuts in the Calendar (Date Picker)
 
 When setting a date field, you can either enter the date manually or open a calendar (date picker) that lets you select the date you want. The following table describes the keyboard shortcuts for the calendar.
 
@@ -181,12 +181,13 @@ When setting a date field, you can either enter the date manually or open a cale
 |Page Up|Move to the previous month.|  
 
 ## Keyboard Shortcuts in Date Fields
+
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |t|Enter the current date. "T" stands for "today".|
 |w|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
 
-## <a name="reportpreviewshortcuts"/>Keyboard Shortcuts in the Report Preview
+## <a name="reportpreviewshortcuts"></a>Keyboard Shortcuts in the Report Preview
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|

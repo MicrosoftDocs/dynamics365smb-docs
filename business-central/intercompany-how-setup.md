@@ -32,7 +32,7 @@ If you will make intercompany sales transactions that include resources, you mus
 3. On the **Intercompany Partner** page, fill in the fields as necessary.
 
 > [!NOTE]
-> In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot use file locations to transfer transactions to your partners because BC does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
+> In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[d365fin](includes/d365fin_md.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.

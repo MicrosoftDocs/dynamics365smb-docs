@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/25/2020
+    ms.date: 08/25/2020
     ms.author: sgroespe
 
 ---
@@ -35,7 +35,8 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Plan a project, from start to finish. **Requires complete sample data**|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
 |Report on the costs of a project. **Requires complete sample data**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Pick items for shipment in basic warehouse configurations. **Requires complete sample data**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
+|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|
+|Export business data for auditing purposes in Germany.|[Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## See Also
 

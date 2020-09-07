@@ -20,6 +20,14 @@ You set up a web service in the [!INCLUDE[d365fin](includes/d365fin_md.md)] clie
 
 The following steps explain how to create and publish a web service.  
 
+<!--
+    You can also create a new web service URL in [!INCLUDE [prodshort](includes/prodshort.md)] instead. Choose one of the following methods:
+
+      - Use the **Create Data Set** action on the **Web Services** page
+      - Use the **Set Up Reporting** Assisted Setup guide
+      - Choose the **Edit in Excel** action in any lists
+    -->
+
 ### To create and publish a web service  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Services**, and then choose the related link.  

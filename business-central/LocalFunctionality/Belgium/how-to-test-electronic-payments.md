@@ -33,7 +33,7 @@ You can view any errors on the **Export Check Error Logs** page.
 
 ## To test payment journal lines  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 3.  In the **Export Protocol** field, select the export protocol.  
 4.  Enter the payment journal line information, and then choose the **Check Payment Lines** action to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified on the **Export Protocols** page.  

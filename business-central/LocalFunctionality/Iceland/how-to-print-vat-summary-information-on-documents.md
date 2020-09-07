@@ -21,7 +21,7 @@ The following procedure describes how to display VAT summary information on a sa
 
 ## To show VAT summary information  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  In the list, select the relevant document, and then choose the **Print** action.  
 3.  To display VAT information in the report, select the **Always Show VAT Summary** check box.  
 

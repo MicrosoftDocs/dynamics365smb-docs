@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/23/2020
+    ms.date: 09/07/2020
     ms.author: bholtorf
 
 ---
@@ -18,8 +18,7 @@
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
-> You cannot change an item's costing method if item ledger entries exist for the item.<br /><br />
-> Information will soon be published here about workarounds to changing a costing method in special situations.
+> You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
 The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 

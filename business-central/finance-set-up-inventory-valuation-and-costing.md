@@ -30,14 +30,14 @@ The following table describes a sequence of tasks, with links to the topics that
 |Select the period of time you would like application to use for calculating the weighted average cost of items that use the average costing method.|**Average Cost Period** field on the **Inventory Setup** page|  
 |Define inventory periods to control inventory value over time by disallowing transaction posting in closed inventory periods.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|  
 |Ensure that sales returns are applied to the original outbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field on the **Sales & Receivables** page|  
-|Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field on the **´Purchases & Payables** page|
+|Ensure that purchase returns are applied to the original inbound transaction to preserve inventory value.|**Exact Cost Reversing Mandatory** field on the **Purchases & Payables** page|
 |Set up the rounding rules to apply when adjusting or suggesting item prices and when adjusting or suggesting standard costs.|**Rounding Method** page|  
 
 ## See Also
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Set Up General Inventory Information](inventory-how-setup-general.md)  
-[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)  

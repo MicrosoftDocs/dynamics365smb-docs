@@ -85,7 +85,7 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 5. Select the **Report Request Page** check box.
 6. In the **Batch Post Sales Orders** request page, define what is included during automatic posting of sales orders, and then choose the **OK** button.
 > [!IMPORTANT] 
-> Remember to setup strict filters otherwise system will post all documents, even if they are not ready. Consider to filter at least by the **Status** field where value is *Released* and the **Posting Date** where value is *..today*. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters).
+> Remember to setup strict filters otherwise system will post all documents, even if they are not ready. Consider to filter at least by the **Status** field where value is *Released* and the **Posting Date** where value is *..today*. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
 7. Select all check boxes from **Run on Mondays** through **Run on Fridays**.
 8. In the **Starting Time** field, enter 4 PM.
 9. Choose the **Set Status to Ready** action.

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 06/24/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Register New Customers

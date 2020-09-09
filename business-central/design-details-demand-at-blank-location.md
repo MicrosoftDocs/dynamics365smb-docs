@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, demand, supply, inventory, planning
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Demand at Blank Location

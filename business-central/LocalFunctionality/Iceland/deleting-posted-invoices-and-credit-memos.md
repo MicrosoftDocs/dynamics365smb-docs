@@ -12,7 +12,7 @@
     ms.workload: na
     ms.search.keywords: Iceland, post, invoice, credit memo
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Deleting Posted Invoices and Credit Memos

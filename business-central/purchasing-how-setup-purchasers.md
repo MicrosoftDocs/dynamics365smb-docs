@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 ---
 # Set Up Purchasers
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  

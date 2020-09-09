@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: kit, kitting
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Sell Assemble-to-Order Items and Inventory Items Together

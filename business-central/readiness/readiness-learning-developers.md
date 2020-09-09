@@ -4,7 +4,7 @@ description: Find all the available learning for Business Central developers.
 author: loreleishannonmsft
 ms.date: 08/24/2020
 ms.topic: article
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Developers Learning Catalog

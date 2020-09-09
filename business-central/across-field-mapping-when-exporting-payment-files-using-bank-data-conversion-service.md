@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension

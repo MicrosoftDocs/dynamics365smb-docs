@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 07/22/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Create and Modify Custom Report Layouts

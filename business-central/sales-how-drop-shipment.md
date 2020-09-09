@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 08/17/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Make Drop Shipments

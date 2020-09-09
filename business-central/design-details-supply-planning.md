@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, supply, planning, reordering, replenishment
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Supply Planning

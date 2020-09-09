@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/10/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Import and Post OCR Payments

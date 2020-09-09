@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, general journal, posting, codeunit 12
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: General Journal Post Line

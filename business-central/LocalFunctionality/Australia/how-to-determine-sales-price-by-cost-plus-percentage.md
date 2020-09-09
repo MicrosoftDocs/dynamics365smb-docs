@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/28/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2020
+    ms.author: edupont
 
 ---
 # Determine Sales Price by Cost Plus Percentage in the Australian Version

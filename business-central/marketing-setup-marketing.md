@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/30/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Setting Up Relationship Management

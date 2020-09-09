@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 09/02/2020
-ms.author: sgroespe
+ms.date: 07/06/2020
+ms.author: edupont
 
 ---
 # Register New Items

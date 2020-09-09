@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 06/10/2020
-ms.author: bholtorf
+ms.author: edupont
 
 ---
 # Working with General Journals

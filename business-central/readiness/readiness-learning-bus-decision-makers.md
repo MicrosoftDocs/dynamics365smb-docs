@@ -4,7 +4,7 @@ description: "Business decision maker learning catalog"
 author: loreleishannonmsft
 ms.date: 04/01/2020
 ms.topic: article
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Business Decision Makers Learning Catalog

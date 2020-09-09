@@ -6,8 +6,8 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 08/28/2020
-ms.author: sgroespe
+ms.date: 04/01/2020
+ms.author: edupont
 
 ---
 # Calculate and Post Withholding Tax Settlements in the Australian Version

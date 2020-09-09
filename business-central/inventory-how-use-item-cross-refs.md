@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
 ms.date: 04/01/2020
-ms.author: bholtorf
+ms.author: edupont
 
 ---
 # Use Item Cross References

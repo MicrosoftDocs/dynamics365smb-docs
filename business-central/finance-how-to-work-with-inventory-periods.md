@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: inventory, periods
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Work with Inventory Periods

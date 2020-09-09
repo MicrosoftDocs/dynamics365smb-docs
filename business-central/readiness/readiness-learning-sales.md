@@ -4,7 +4,7 @@ description: Find all the available learning for Business Central.
 author: loreleishannonmsft
 ms.date: 04/30/2020
 ms.topic: article
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Partner Sales and Marketing Learning Catalog

@@ -4,7 +4,7 @@ description: Business Central Learning Catalog
 author: loreleishannonmsft
 ms.date: 08/28/2020
 ms.topic: article
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Business Central Learning Catalog

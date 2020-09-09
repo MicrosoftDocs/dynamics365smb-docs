@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/28/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2020
+    ms.author: edupont
 
 ---
 # Set Up Vendors Without ABN for Calculating the Withholding Tax in the Australian Version

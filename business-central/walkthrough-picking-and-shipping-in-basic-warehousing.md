@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/24/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations

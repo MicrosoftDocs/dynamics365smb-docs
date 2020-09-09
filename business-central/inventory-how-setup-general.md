@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/07/2020
-ms.author: bholtorf
+ms.date: 04/01/2020
+ms.author: edupont
 
 ---
 # Set Up General Inventory Information

@@ -1,6 +1,6 @@
 ---
     title: Create Bin Contents
-    description: After you have set up your bins, you can set up the bin contents. In other words, you can set up the items you want to store in any given bin and set the rules that govern filling the bin with a particular item.
+    description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 09/02/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2020
+    ms.author: edupont
 
 ---
 # Create Bin Contents

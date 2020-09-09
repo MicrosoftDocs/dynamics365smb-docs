@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/18/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Tips and Tricks: RapidStart Services

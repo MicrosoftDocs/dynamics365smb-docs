@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, transfer, sku, locations, warehouse
     ms.date: 06/23/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Transfers in Planning

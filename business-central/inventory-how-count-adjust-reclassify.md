@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 04/20/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Count, Adjust, and Reclassify Inventory Using Journals

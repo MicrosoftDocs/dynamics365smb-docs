@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 09/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Use XML Schemas to Prepare Data Exchange Definitions

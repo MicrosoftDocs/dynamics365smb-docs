@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Map Text on Recurring Payments to Accounts for Automatic Reconciliation

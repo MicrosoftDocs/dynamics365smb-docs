@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/19/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Managing Receivables

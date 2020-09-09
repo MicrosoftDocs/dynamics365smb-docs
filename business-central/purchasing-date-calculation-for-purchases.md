@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/16/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Date Calculation for Purchases

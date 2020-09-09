@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/26/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Required Descriptions in G-L Entry

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/02/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Collect Outstanding Balances

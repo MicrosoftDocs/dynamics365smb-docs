@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Work with Catalog Items

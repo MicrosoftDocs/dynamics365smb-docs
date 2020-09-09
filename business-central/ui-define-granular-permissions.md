@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 07/23/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Assign Permissions to Users and Groups

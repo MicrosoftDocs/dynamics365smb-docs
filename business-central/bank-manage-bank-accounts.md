@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 06/22/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Reconciling Bank Accounts

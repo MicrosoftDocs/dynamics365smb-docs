@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 ---
 # Specify When and How to Receive Notifications
 When you set up users in approval workflows, you must specify in the **Notification Setup** and **Notification Schedule** pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the **Change Notification Settings** button on any notification.  

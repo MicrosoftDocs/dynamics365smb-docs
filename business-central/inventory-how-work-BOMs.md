@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/27/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Work with Bills of Material

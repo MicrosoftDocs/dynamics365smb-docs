@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 07/23/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Design Details: Item Application

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 08/18/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Make Check Payments

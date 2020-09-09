@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/09/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Sweden Local Functionality

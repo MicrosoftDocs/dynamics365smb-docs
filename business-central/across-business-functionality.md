@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 08/27/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Business Functionality

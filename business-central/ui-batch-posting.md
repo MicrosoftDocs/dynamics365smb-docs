@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 08/18/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Post Multiple Documents at the Same Time

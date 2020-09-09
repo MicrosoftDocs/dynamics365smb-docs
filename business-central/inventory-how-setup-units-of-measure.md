@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 07/06/2020
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 # Set Up Units of Measure

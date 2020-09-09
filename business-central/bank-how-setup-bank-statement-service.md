@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 06/24/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Set Up the Envestnet Yodlee Bank Feeds Service

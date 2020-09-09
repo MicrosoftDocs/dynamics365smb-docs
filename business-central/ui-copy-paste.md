@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 ---
 
 # Copy and Paste FAQ

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/14/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Create Recurring Sales and Purchase Lines

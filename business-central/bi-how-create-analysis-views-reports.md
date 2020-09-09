@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 07/23/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 #  Create Analysis Reports

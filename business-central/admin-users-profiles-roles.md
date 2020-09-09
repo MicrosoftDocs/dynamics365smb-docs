@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 06/26/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Manage Profiles

@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, inventory, item, tracking, serial number, lot number
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Item Tracking Lines Page

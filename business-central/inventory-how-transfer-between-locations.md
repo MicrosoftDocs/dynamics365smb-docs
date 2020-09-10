@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 04/01/2020
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 # Transfer Inventory Between Locations

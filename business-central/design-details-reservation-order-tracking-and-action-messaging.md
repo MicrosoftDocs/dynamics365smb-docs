@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, replenishment, reordering
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Reservation, Order Tracking, and Action Messaging

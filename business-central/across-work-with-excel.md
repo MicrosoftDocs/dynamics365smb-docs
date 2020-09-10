@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 09/08/2020
 ms.author: jswymer
 
 ---
@@ -54,5 +54,6 @@ If you make changes to the add-in, you must reload it in order to update the con
 
 ## See Also
 
+[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Working with Business Central](ui-work-product.md)  
 [Enhancements to Excel integration in 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

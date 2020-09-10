@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Import Swiss Bank Clearing Numbers
@@ -21,7 +21,7 @@ You can import the BC Bank Master file—the official Swiss bank clearing number
 
 ## To import Swiss bank clearing numbers  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Directory**, and choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Directory**, and choose the related link.  
 2.  Choose the **Import Bank Directory** action.  
 3.  On the **Import Bank Directory** page, on the **Options** FastTab, select the **Automatically Update Clearing Numbers** field to update the bank clearing numbers automatically.  
 4.  Choose the **Print** button or the **Preview** button to import the bank clearing numbers, and then, on the **Open** page, locate the file that you have downloaded from the SIX Interbank Clearing website.
@@ -33,7 +33,7 @@ The following procedure describes how to define bank branch numbers for customer
 
 ## To define bank branch numbers for customer bank accounts  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Select the customer for whom you want to create bank account information, and then choose the **Bank Accounts** action.  
 3.  On the **Customer Bank Account List** page, select the required bank account, and then choose the **Edit** action.  
 4.  On the **General** FastTab, in the **Bank Branch No.** field, select the number of the bank agency or branch.  

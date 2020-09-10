@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 07/02/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Process Purchase Returns or Cancellations

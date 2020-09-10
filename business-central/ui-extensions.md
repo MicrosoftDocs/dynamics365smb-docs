@@ -10,11 +10,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
 
 ---
 # Customizing Business Central Using Extensions
+
 You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
 
 > [!NOTE]
@@ -29,13 +30,11 @@ When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensio
 For example, Microsoft provides an extension that provides integration with PayPal Payments Standard. This extension is installed by default.
 But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.  
 
-You manage the extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
+You manage the extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link. For more information, see [Installing and Uninstalling Extensions](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
->   If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** page - if the extension is not listed there, you can install it as described in the following section.  
+> If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** page - if the extension is not listed there, you can install it as described in the following section.  
 
-## Installing an Extension
-You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1). Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Use the same email account for other services and products for a smooth experience.  
 
@@ -81,6 +80,7 @@ Microsoft provides the following extensions:
 >  New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## See Also
+
 [Extending Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

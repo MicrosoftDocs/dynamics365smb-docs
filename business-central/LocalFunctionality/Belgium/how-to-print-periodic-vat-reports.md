@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Print Periodic VAT Reports
@@ -25,7 +25,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 
 ## To print the monthly/quarterly declaration  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Form/Intervat Declaration**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Form/Intervat Declaration**, and then choose the related link.  
 2.  On the **VAT – Form** page, fill in the fields.  
 
     |Field|Description|  
@@ -41,7 +41,7 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 
 ## To print the VAT annual listing on disk  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Annual Listing – Disk**, and then enter the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Annual Listing – Disk**, and then enter the related link.  
 2.  On the **VAT Annual Listing – Disk** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -57,9 +57,9 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 
 ## To print the VAT-VIES declaration report to disk  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **VAT – Vies Declaration Disk**, and then choose the related link.  
 2.  Enter the required information, and choose the **OK** button to start the batch job, which will create a .xml file. For more information, see VAT- VIES Declaration Disk.  
-3.  If you have to make a correction, Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT – VIES Correction**, and then choose the related link.  
+3.  If you have to make a correction, Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT – VIES Correction**, and then choose the related link.  
 4.  Choose the **Edit List** action, and then enter the information that has to be adjusted. Choose the **OK** button.  
 
 ## See Also  

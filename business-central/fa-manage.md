@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Fixed Assets
@@ -46,7 +46,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## Video Overview
 The following video covers the basics of fixed assets.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

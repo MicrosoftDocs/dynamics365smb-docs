@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
+ms.author: jswymer
 ms.date: 04/01/2020
 ---
 

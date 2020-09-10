@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Set Up Compressed Depreciation of Fixed Assets
@@ -23,7 +23,7 @@ When you calculate depreciation, one line is generated for each fixed asset. For
 
 ## To set up compressed depreciation of fixed assets  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  On the **Depreciation Book List** page, select the relevant depreciation book, and then choose the **Edit** action.  
 3.  To post only the depreciation totals of assets that are grouped by category, on the **Depreciation Book Card** page, on the **General** FastTab, select the **Compress Depreciation** check box.  
 

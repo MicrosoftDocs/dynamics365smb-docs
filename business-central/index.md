@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/16/2020
+ms.date: 08/25/2020
 ms.author: edupont
 
 ---
@@ -18,12 +18,14 @@ ms.author: edupont
 
 If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then log in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prodshort](includes/prodshort.md)], see [Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company. Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Developer and IT-pro content** section.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company.  
+
+Some key articles are also listed in the first section in the following table. And if you are a partner or customer looking at extending the functionality, you will find relevant links in the **Development and administration content** section. If you are new to [!INCLUDE [prodshort](includes/prodshort.md)], we recommend that you start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on Microsoft Learn.  
 
 |||  
 |-|-|  
-|**Business Processes**|-   [Getting Started](product-get-started.md)<br />-   [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administration](admin-setup-and-administration.md)<br />-   [Business Functionality](across-business-functionality.md)<br />-   [Local Functionality](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [General Business Functionality](ui-across-business-areas.md)<br />-   [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)<br />-   [Application Design Details](design-details-application-design.md)|  
-|**Developer and IT-pro content**|-   [Developer and IT-pro Help for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Business Processes**|-   [Getting Started](product-get-started.md)<br />-   [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administration](admin-setup-and-administration.md)<br />-   [Business Functionality](across-business-functionality.md)<br />-   [Local Functionality](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [General Business Functionality](ui-across-business-areas.md)<br />-   [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)<br />-   [Application Design Details](design-details-application-design.md)<br />- [Customize Business Central](ui-customizing-overview.md)|  
+|**Development and administration content**|-   [Development and Administration for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Community Resources**|-   [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 Release Plans](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(requires PartnerSource account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 > [!TIP]

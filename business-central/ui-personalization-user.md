@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Personalize Your Workspace
@@ -27,7 +27,7 @@ Administrators can also override or disable users' personalization, and they can
 ## Video Overview
 The following video shows some of the ways in which you can personalize your Role Center.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## To change the width of a column
 You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Set Up Intercompany
@@ -18,7 +18,7 @@ To send a transaction (such as a sales journal line) from one company and have t
 
 You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
 
-If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Cross Reference** function: To map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the intercompany partner.  
+If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Cross Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the intercompany partner. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). 
 
 If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md).
 
@@ -30,6 +30,9 @@ If you will make intercompany sales transactions that include resources, you mus
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Intercompany Partner** page, fill in the fields as necessary.
+
+> [!NOTE]
+> In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[d365fin](includes/d365fin_md.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.

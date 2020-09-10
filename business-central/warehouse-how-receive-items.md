@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/07/2020
-    ms.author: sgroespe
+    ms.date: 08/18/2020
+    ms.author: edupont
 
 ---
 # Receive Items
@@ -28,7 +28,8 @@ The following describes how to receive items with a purchase order. The steps ar
 3. In the **Qty. to Receive** field, enter the received quantity.
 
   > [!NOTE]
-  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field top handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Choose the **Post** action.
 
   The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.

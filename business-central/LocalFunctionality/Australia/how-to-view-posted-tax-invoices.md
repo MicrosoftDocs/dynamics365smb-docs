@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # View Posted Tax Invoices
@@ -18,7 +18,7 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 ## To view a posted sales tax invoice  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
 2.  View the FastTabs as described in the following table.  
 
     |FastTab|Description|  

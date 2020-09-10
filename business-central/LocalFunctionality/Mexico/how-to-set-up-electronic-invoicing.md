@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Set Up Electronic Invoicing
@@ -24,7 +24,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[d365fin](../
 
 ## To set up company information  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

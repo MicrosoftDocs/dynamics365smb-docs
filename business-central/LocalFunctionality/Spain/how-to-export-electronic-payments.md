@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 ---
 
 # Export Electronic Payments
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 ## To export electronic payments using the Payment Orders page  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
 3.  Choose THE **Export to File** action.  
 
@@ -59,7 +59,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 ## To export electronic payments using the Payment Journal page  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
 3.  On the **Navigate** tab, choose **Electronic Payments**, and then choose **Export**.  
 
@@ -92,7 +92,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 ## To export electronic payments from the Cartera module  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **PO - Export N34.1**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PO - Export N34.1**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

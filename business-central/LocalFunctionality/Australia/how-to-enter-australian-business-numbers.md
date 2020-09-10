@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/15/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Enter Australian Business Numbers
@@ -27,7 +27,7 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 ## To enter Australian business numbers  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
 2. Select the required company or vendor.  
 3. Expand the **Registration** FastTab.  
 4. In the **ABN** field, enter the ABN.  

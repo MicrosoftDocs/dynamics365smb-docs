@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Manage the Intercompany Inbox and Outbox

@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Set Up EU Third-Party Purchase Transactions
@@ -19,7 +19,7 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 
 ## To set up EU third-party purchase transactions  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2.  Select an existing purchase invoice, or choose the **New** action to create a new one.  
 3.  On the **Invoice Details** FastTab, select the **EU 3-Party Trade** check box.  
 4.  Choose the **OK** button.  

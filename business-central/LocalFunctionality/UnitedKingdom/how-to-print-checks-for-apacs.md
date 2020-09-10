@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Print Checks for APACS
@@ -18,7 +18,7 @@ The Association for Payment Clearing Services (APACS) specification defines a st
 
 ## To print checks for APACS  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  To preview the check, choose the **Preview Check** action.  
 3.  To print the check, choose the **Print Check** action.  
 

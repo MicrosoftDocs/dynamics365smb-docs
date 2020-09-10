@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Post Payment Slips
@@ -21,7 +21,7 @@ Before you post a payment slip, you must create the payment slip. For more infor
 
 ## To post a payment slip  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select a payment slip, and then choose the **Edit** action.  
 3.  On the **Payment Slip** page, choose the **Post** action.  
 4.  Choose the **OK** button.  

@@ -17,7 +17,7 @@ You can create check installments for postdated checks. You can define the numbe
 
 ## To create a check installment  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
 2.  Select the relevant check, and then choose the **Edit** action.  
 3.  On the **Post Dated Checks-Purchase** page, choose the **Create Check Installments** action.  
 4.  Fill in the fields as described in the following table.  

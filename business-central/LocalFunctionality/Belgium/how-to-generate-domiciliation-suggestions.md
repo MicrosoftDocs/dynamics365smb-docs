@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Generate Domiciliation Suggestions
@@ -15,7 +15,7 @@ After you have set up domiciliations, you can start generating domiciliation sug
 
 ## To generate domiciliation suggestions  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch, and then choose the **Suggest Domiciliations** action.  
 3.  Fill in the fields as displayed in the following table.  
 

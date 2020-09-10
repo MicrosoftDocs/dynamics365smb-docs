@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Set Up Payment Addresses
@@ -23,7 +23,7 @@ The following procedure describes how to set up a payment address for a vendor, 
 
 ## To set up a payment address  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the relevant link.  
 2.  Select a vendor, and then choose the **Edit** action.  
 3.  Choose the **Payment Addresses** action.  
 4.  Fill in the required fields as described in the following table.  

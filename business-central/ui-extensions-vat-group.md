@@ -18,10 +18,6 @@ ms.author: bholtorf
 # The VAT Group Management Extension
 You can team up with one or more other businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a _VAT group_. You can engage with the group as a member or the group representative.
 
-<!--
-> [!NOTE]
-> VAT reports contain customer data. That data will be deleted after 30 days.
--->
 ## Forming a VAT Group
 VAT group members and the group representative can use the **VAT Group Management Setup** assisted setup guide to define their engagement with the group, and create a connection between their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants. The group members will use the connection to submit their VAT returns to the group representative. The representative will submit VAT to tax authorities on behalf of the group using a single VAT return. 
 

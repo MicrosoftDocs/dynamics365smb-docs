@@ -18,51 +18,66 @@ ms.author: bholtorf
 # The VAT Group Management Extension
 You can team up with one or more other businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a _VAT group_. You can engage with the group as a member or the group representative.
 
+<!--
 > [!NOTE]
 > VAT reports contain customer data. That data will be deleted after 30 days.
-
+-->
 ## Forming a VAT Group
-VAT group members and the group representative can use the **VAT Group Management Setup** assisted setup guide to define their engagement with the group, and create a connection between the group members' and the representative's [!INCLUDE[d365fin](includes/d365fin_md.md)]. The group members will use the connection to submit their VAT returns to the group representative. The VAT Group representative will submit VAT on behalf of the entire group through a single VAT Return, subtmitted to authorities as it would normally be. 
+VAT group members and the group representative can use the **VAT Group Management Setup** assisted setup guide to define their engagement with the group, and create a connection between their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants. The group members will use the connection to submit their VAT returns to the group representative. The representative will submit VAT to tax authorities on behalf of the group using a single VAT return. 
 
-## VAT Group constellations
-All communication in VAT Group Mamanagement happens from VAT Group member towards the VAT Group representative. The VAT Group representative exposes an API that allows the VAT Group members to submit their VAT Returns directly to the VAT Group representative. 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports inter-group VAT Return submissions for companies using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] either on premises or online in any combination. The setup of the communication will depend on the constellation. The following sections describes the technical setup needed for various group constellations.
+## VAT Group Constellations
+Communications happen from group members toward the representative. The group representative exposes an API that allows the members to submit their VAT returns directly to the VAT Group representative. 
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports inter-group VAT return submissions for companies using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] on-premises or online, and in any combination. The setup of the communication will depend on the constellation. The following sections describe how to set up various group constellations.
 
 The recommended order of setup across the group is the following:<br>
-* Create the needed VAT Group member users in the VAT Group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
-* Set up the VAT Group Management feature in the VAT Group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by starting the **Set up VAT Group Management** assisted setup. Skip the part with adding **Approved members**.
-* Create the needed setup in Azure AD (see the section *VAT Group representative is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online*)
-* Set up the VAT Group members so they can connect to and authenticate with the VAT Group representative.
-* On the VAT Group representative, add VAT Group members in the **VAT Group Approved Members** list. A VAT Group member can only be added to this list once the member has completed the **Set up VAT Group Management** assisted setup, because a unique Group Member ID is needed in order for the VAT Group representative to identify submitting members. This ID is generated as part of the assisted setup.
+
+1. Create the VAT group member users in the VAT group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+2. Set up the VAT Group Management feature in the VAT group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by starting the **Set up VAT Group Management** assisted setup. In the guide, skip the step for adding **Approved members**.
+3. Create the setup in Azure AD. For more information, see [The VAT Group representative is using Business Central online](ui-extensions-vat-group.md#the-vat-group-representative-is-using-business-ventral-online).
+4. Set up the VAT group members so they can connect and authenticate to the VAT group representative.
+5. Add VAT group members on the **VAT Group Approved Members** page in the group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The VAT group member must first complete the **Set Up VAT Group Management** assisted setup guide to receive a unique group member ID. The member must provide the ID to the VAT group representative so they can add the member to the group and identify their VAT return submissions.
 
 > [!NOTE]
-> In order for VAT Group members to connect to the VAT Group representative, they need a user with access to the VAT Group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Create at least one user in the VAT Group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For optimal security it is recommended to create a user for each VAT Group member. Make sure to distribute the credentials for these users securely to VAT Group members.
+> In order for VAT group members to connect to the VAT group representative, they need a user with access to the VAT group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. The VAT group representative must create at least one user for this, however, for security reasons we recommended that you create a user for each VAT group member. Make sure to distribute the credentials for these users securely to VAT group members.
 
-**VAT Group representative is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online**<br>
-When the VAT Group representative is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online the VAT Group members will use Azure AD to authenticate to be able so submit VAT Returns to the VAT Group representative. If the VAT Group members are also using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online the VAT Group member will be able to authenticate using the designated user credentials and the endpoint information. See more details in the **VAT Group member - Setup** section.
+### The VAT group representative is using Business Central online
+When the VAT group representative is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online, the VAT group members will use Azure AD to authenticate when they submit VAT returns to the VAT group representative. If the VAT group members are also using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online, the VAT group member can authenticate using the designated user credentials and the endpoint information. For more information, see [VAT Group Member Setup](ui-extensions-vat-group.md#vat-group-member-setup).
 
-If just one of the VAT Group members is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] on premises you need to set up an **App Registration** in Azure AD on the VAT Group representative tenant. This App Registration will enable authentication towards the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online environment used by the VAT Group representative. Please see the following documentation on how to create an App Registration in Azure AD. [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)<br><br>
-Make sure the following guidelines are followed when creating the App Registration in Azure AD:<br>
-* On the **Authentication** section, add **Web** as a platform and use the following **Redirect URL**: https://businesscentral.dynamics.com/OAuthLanding.htm
-*  On the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**
-* On the **Certificates & secrets** section, create a new **client secret** and note the value. This will be needed by the VAT Group members when they setup the connection to the VAT Group representative. 
-* On the **API permissions** section, make sure to add permissions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Make sure to enable delegated access to **Financials.ReadWrite.All** and **user_impersonation**.
-* On the **Overview** section, note the **Application (client) ID**. This will be needed by the VAT Group members when they setup the connection to the VAT Group representative. 
+If a VAT group member is using [!INCLUDE[d365fin](../../includes/d365fin_md.md)] on-premises, you must set up an app registration in Azure AD on the VAT group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] tenant. The app registration will enable the VAT group representative's [!INCLUDE[d365fin](../../includes/d365fin_md.md)] online to authenticate the group member. For more information, see [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)<br><br>
 
-## VAT Group member - Setup
-Setting up the VAT Group member to use VAT Group Management is done by starting the **Set up VAT Group Management** assisted setup.
-* Start by defining this company's VAT Group role. Select **Member**. When done, choose **Next**.
-* Copy the **Group Member ID** and inform the VAT Group representative, who needs it to add your company to the approved members of the group.
-* Add the **API URL** of the VAT Group representative. You will need this information from the VAT Group representative. Usually this URL is in the form of **https://api.businesscentral.dynamics.com/v2.0/[ENVIRONMENTNAME]/api/v1.0** as for example **https://api.businesscentral.dynamics.com/v2.0/GBProduction/api/v1.0**. 
-* Add the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] company name of the VAT Group representative. For example **CRONUS UK Ltd.**
-* Choose **Authentication Type**. Select **OAuth2**. WHen done, choose **Next**.
-* In **Client ID** provided by the VAT Group representative.
-* In **Client Secret provided by the VAT Group representative**
-* In **OAuth 2.0 Authority Endpoint** enter **https://login.microsoftonline.com/common/oauth2**
-* In **OAuth 2.0 Resource URL** enter **https://api.businesscentral.dynamics.com/**
-* In **OAuth 2.0 Redirect URL** enter **https://businesscentral.dynamics.com/OAuthLanding.htm**. When done, choose **Next**.
-* The VAT Group member will now try to authenticate agenst the VAT Group representative tenant and get a token for access. It will prompt the VAT Group member for the user credentials to use that was provided by the VAT Group representative.
-* Choose the current VAT Report configuration. Normally this would be a configuration that is set up to report VAT to authorities in the given country. For example in the United Kingdom the VAT Report configuration would be set up to report VAT to the HMRC. The VAT Group Management feature will copy this setup but change the submission codeunit to one provided by Microsoft that supports submission to the VAT Group representative instead of the authorities. When done, choose **Next**.
+When you create the app registration in Azure AD, you must specify the following.
+
+* In the **Authentication** section, add **Web** as a platform, and use the following **Redirect URL**: https://businesscentral.dynamics.com/OAuthLanding.htm.
+* In the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+* In the **Certificates & secrets** section, create a new client secret and note the value. The VAT group members will need the secret when they set up the connection to the group representative.
+* In the **API permissions** section, add permissions to [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Make sure to enable delegated access to **Financials.ReadWrite.All** and **user_impersonation**.
+* In the **Overview** section, note the **Application (client) ID**. The VAT group members will need the ID when they set up the connection to the group representative. 
+
+## VAT Group Member Setup
+Set up the VAT group member by starting the **Set up VAT Group Management** assisted setup guide. 
+
+> [!NOTE]
+> Before you get started, contact the VAT group representative for the following information about their [!INCLUDE[d365fin](../../includes/d365fin_md.md)]:
+>
+> * The API URL
+> * The name of their company 
+> * Client ID
+> * Client secret
+> * Sign in credentials for the dedicated user 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Group**, and then choose the related link.
+2. To define the company's VAT group role, choose **Member**, and then choose **Next**.
+3. Copy the **Group Member ID** and then share it with the VAT group representative so they can add your company as an approved members of the group.
+4. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows, **https://api.businesscentral.dynamics.com/v2.0/[ENVIRONMENTNAME]/api/v1.0**. For example, **https://api.businesscentral.dynamics.com/v2.0/GBProduction/api/v1.0**. 
+5. Add the [!INCLUDE[d365fin](../../includes/d365fin_md.md)] company name of the VAT Group representative. For example **CRONUS UK Ltd.**
+6. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
+7. In the **Client ID** field, enter the ID provided by the VAT group representative.
+8. In the **Client Secret provided by the VAT Group representative** field, enter the secret provided by the VAT group representative.
+9. In the **OAuth 2.0 Authority Endpoint** field, enter **https://login.microsoftonline.com/common/oauth2**.
+10. In the **OAuth 2.0 Resource URL** field, enter **https://api.businesscentral.dynamics.com/**.
+11. In the **OAuth 2.0 Redirect URL** field, enter **https://businesscentral.dynamics.com/OAuthLanding.htm**. 
+12. When done, choose **Next**, and then enter the user credentials provided by the VAT group representative.
+13. Choose the VAT report configuration that you use to report VAT to authorities in your country. For example, in the United Kingdom the VAT report configuration would be set up to report VAT to the HMRC. The VAT Group Management extension will copy this setup, but replace the submission codeunit with one that supports submission to the VAT group representative instead of the authorities. The codeunit is provided by Microsoft. When done, choose **Next**.
 
  
 (TO DO's IN THIS DOCS)

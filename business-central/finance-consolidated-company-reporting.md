@@ -1,7 +1,6 @@
 ---
 title: Consolidate Data from Multiple Companies | Microsoft Docs
-description: Get an summary view of the financial health accross your businesses.
-documentationcenter: ''
+description: Get an summary view of the financial health across your business units.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -10,13 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.author: bholtorf
 
 ---
 
 # Consolidating Financial Data from Multiple Companies
-If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the Consolidated Trial Balance report on the Accountant Role Center can give you an overview of the financial health of your overall business.  
+
+Some organizations use [!INCLUDE [prodshort](includes/prodshort.md)] in multiple business units or companies. Others use [!INCLUDE [prodshort](includes/prodshort.md)] in subsidiaries that must report into parent organizations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
+
+If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
 
 The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report.
 
@@ -35,6 +37,7 @@ Depending on the complexity of your businesses, there are two ways to set up the
 * If you do need more advanced settings, you can set up the consolidated company and business units yourself.
 
 ## To do a simple consolidation setup
+
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
 
 * Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation. The company should not contain transactions.
@@ -46,6 +49,7 @@ To use the assisted setup guide, follow these steps:
 2. Choose **Set up consolidation reporting**, and then complete each step in the assisted setup guide.
 
 ## To do an advanced consolidation setup
+
 If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation. You set up the consolidated company in the same way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of companies to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
@@ -114,17 +118,23 @@ You can test your data before you transfer it to the consolidated company. [!INC
     * To test the database, choose **Test Database**.  
 
 ## To run the consolidation
+
 After you have tested the data, you can transfer it to the consolidated company.  
 
 1. Sign in to the consolidated company.  
 2. On the **Accountant Role Center**, choose the **Run Consolidation** action.  
 3. Fill in the required fields.  
-4. In the **Where** field, choose **Company Name**, and then choose the consolidated company in the **is** field.
+4. In the Filter section, set a filter for the relevant business unit or company name.  
+5. Optionally, schedule the report to run at a convenient time.  
 
 ## To eliminate repeated transactions
+
 After you have consolidated all the companies, you must find any transactions that are recorded more than once across companies and then post elimination entries to remove them.
 
-Processing consolidation eliminations is a manual process. You can follow these steps:
+Processing consolidation eliminations is a manual process.  
+
+To eliminate repeated transactions:
+
 1. Find transactions that potentially need to be adjusted and enter general journal lines to eliminate them.
 2. Run the **G/L Consolidation Eliminations** report to help you assess the effect of the general journal lines before posting.
 3. Post the adjusting transactions.
@@ -144,9 +154,12 @@ Each account appears on a line by itself, following the structure of the chart o
 * The posting text copied from the general journal.
 * The consolidated company's total after the eliminations, if they are posted.
 
-
 ## To export and import consolidated data between databases
+
 If data for a business unit is in another database, you must export the data to a file before you can include it in the consolidation. Each company must be exported separately. For this purpose, use the **Export Consolidation** batch job.  
+
+> [!TIP]
+> Use the same process to export consolidated data that must be submitted to Dynamics 365 Finance, such as if the current business unit is a subsidiary and the parent company uses Dynamics 365 Finance.
 
 After you run the batch job, all entries in general ledger accounts are processed. For every combination of selected dimensions and date, the contents of the entries' **Amount** fields are totaled and exported. The next combination of selected dimensions and date with the same account number is processed, then the combinations in the next account number are processed, and so on.  
 
@@ -158,6 +171,7 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 4. The XML files also contain the currency exchange rates in the consolidation period. These rates are included in a separate section at the beginning of the file.
 
 ## See Also
+
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)

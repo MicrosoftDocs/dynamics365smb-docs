@@ -16,7 +16,11 @@ ms.author: jswymer
 
 [!INCLUDE [prodshort](includes/2020rw_online_only.md)]
 
-[!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. The app lets you:
+[!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries.
+
+## Overview
+
+The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you do the following:
 
 - Copy a link to any Business Central record and paste it into chat to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record. 
 - Once in the chat, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.

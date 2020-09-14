@@ -14,7 +14,7 @@ ms.author: jswymer
 
 # Working with Business Central in Microsoft Teams
 
-
+[!INCLUDE [prodshort](includes/2020rw_online_only.md)]
 
 [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. The app lets you:
 
@@ -28,9 +28,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 ## Requirements
 
 - A Teams subscription.
-- [!INCLUDE [prodshort](includes/prodshort.md)] release wave 2 or later.
-- Permissions in Business Central:
-
+- Permissions in Business Central
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into Teams and have it expand into a card, you must have at least read access to the target page and its data.
   - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, viewing more details for a card requires the user to have read permission on the page and its data. If they want to change data, they'll need modify permissions.
 
@@ -42,12 +40,12 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 4. Select the app when you find it.
 5. Read read the information and select **Add**.
 
-## Include a Business Central record in a Teams chat
+## Include Business Central record in Teams chat
 
 1. Sign in to [!INCLUDE [prodshort](includes/prodshort.md)] using your browser.
 2. Open the record that you want to share.
 
-    The Business Central app for Teams is designed to display card and document type pages. So use it for pages that display a single entity, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
+    The app for Teams is designed to display card and document type pages. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
 3. Copy the entire URL from the browser's address bar.
 4. Go to Teams and start a chat.

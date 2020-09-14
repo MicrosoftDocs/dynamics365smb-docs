@@ -11,7 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 07/10/2020
 ms.author: jswymer
 ---
+
 # Working with Business Central in Microsoft Teams
+
+
 
 [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. The app lets you:
 

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 09/14/2020
     ms.author: edupont
 
 ---
@@ -56,7 +56,7 @@
  Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> When importing CAMT bank statements into [!INCLUDE[d365fin](includes/d365fin_md.md)] the system expects the transaction to be unique, which means that the Transaction ID field (the information coming from the tag **Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId** in the CAMT file) must be unique within the open bank account reconciliation. The system always expects this information to be present and ignores payments without it.
+> In an import of CAMT bank statements, [!INCLUDE[d365fin](includes/d365fin_md.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignores the payment.
 
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

@@ -1,6 +1,6 @@
 ---
 title: Partner sales and marketing learning catalog
-description: Find all the available learning for Business Central.
+description: Find all the available learning for partner sales and marketing roles in Business Central.
 author: loreleishannonmsft
 ms.date: 04/30/2020
 ms.topic: article

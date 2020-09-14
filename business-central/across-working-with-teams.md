@@ -24,9 +24,12 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 ## Requirements
 
-- Teams subscription.
+- A Teams subscription.
 - [!INCLUDE [prodshort](includes/prodshort.md)] release wave 2 or later.
-- Permissions in Business Central are not required for 
+- Permissions in Business Central:
+
+  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into Teams and have it expand into a card, you must have at least read access to the target page and its data.
+  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, viewing more details for a card requires the user to have read permission on the page and its data. If they want to change data, they'll need modify permissions.
 
 ## Add the Business Central app to Teams
 
@@ -36,22 +39,20 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 4. Select the app when you find it.
 5. Read read the information and select **Add**.
 
-## Get started
+## Include a Business Central record in a Teams chat
 
-1. Sign in to Business Central with your browser.
+1. Sign in to [!INCLUDE [prodshort](includes/prodshort.md)] using your browser.
 2. Open the record that you want to share.
 
-    The Business Central app for Teams is designed for card and document type pages. You use it on pages that display a single entity, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
+    The Business Central app for Teams is designed to display card and document type pages. So use it for pages that display a single entity, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
-3. Copy the full URL from the browser's address bar.
-
-    Be sure to include the domain name, organization ID, environment ID, and all other parameters, such as the page ID and bookmark.
+3. Copy the entire URL from the browser's address bar.
 4. Go to Teams and start a chat.
-5. Paste the copied URL into the message box.
+5. Paste the URL into the message box.
+6. The first time you paste a link into chat, you'll be asked to sign in to [!INCLUDE [prodshort](includes/prodshort.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
-6. The first time you paste a Business Central link into chat, you'll be asked to sign in to Business Central. You'll also have to give your consent for the app to retrieve data from Business Central. Follow the on-screen instructions.
-
-    This task is a one-time only task.
+    > [!TIP]
+    > You'll only have to do this step once or until you want to change which [!INCLUDE [prodshort](includes/prodshort.md)] Teams connect to.
 
 7. Wait a moment while a card is generated in the message box.
 
@@ -62,10 +63,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 9. To view more details or make changes to the record, select **Details**.
 
-    The window that opens is similar to what you would see in Business Central. But it's slightly trimmed down for Teams. When you're finished viewing and making changes, close the window to return to the Teams chat.
-
-    > [!NOTE]
-    > Users must have proper permissions in Business Central to view and edit the record.
+    The details page is similar to what you'd see in [!INCLUDE [prodshort](includes/prodshort.md)]. But it's slightly trimmed down for Teams. When you're finished viewing and making changes, close the window to return to the Teams chat.
 
 ## See Also
 

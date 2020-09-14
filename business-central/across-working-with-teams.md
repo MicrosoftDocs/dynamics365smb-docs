@@ -18,7 +18,7 @@ ms.author: jswymer
 - Copy a link to any Business Central record and paste it into chat to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record. 
 - Once in the chat, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
-[![Teams integration with Business Central](media/teams-intro.png)](media/teams-intro.png#lightbox)
+[![Teams integration with Business Central](media/teams-intro-v2.png)](media/teams-intro-v2.png#lightbox)
 
 The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 

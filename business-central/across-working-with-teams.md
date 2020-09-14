@@ -16,7 +16,7 @@ ms.author: jswymer
 [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. The app lets you:
 
 - Copy a link to any Business Central record and paste it into chat to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record. 
-- In the chat, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams. You can also open the record in Business Central, getting the full client experience.
+- Once in the chat, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
 [![Teams integration with Business Central](media/teams-intro.png)](media/teams-intro.png#lightbox)
 
@@ -26,6 +26,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 - Teams subscription.
 - [!INCLUDE [prodshort](includes/prodshort.md)] release wave 2 or later.
+- Permissions in Business Central are not required for 
 
 ## Add the Business Central app to Teams
 

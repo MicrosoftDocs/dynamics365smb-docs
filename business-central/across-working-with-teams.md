@@ -12,7 +12,7 @@ ms.date: 07/10/2020
 ms.author: jswymer
 ---
 
-# Working with Business Central in Microsoft Teams
+# Using Microsoft Teams with Business Central
 
 [!INCLUDE [prodshort](includes/2020rw_online_only.md)]
 
@@ -44,7 +44,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 4. Select the app when you find it.
 5. Read read the information and select **Add**.
 
-## Include Business Central record in Teams chat
+## Include a Business Central card in Teams chat
 
 1. Sign in to [!INCLUDE [prodshort](includes/prodshort.md)] using your browser.
 2. Open the record that you want to share.

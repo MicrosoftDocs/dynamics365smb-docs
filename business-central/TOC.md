@@ -225,7 +225,8 @@
 ## Using Outlook with Business Central
 ### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-### [Using Business Central Without Outlook](admin-no-outlook.md)
+## [Using Business Central Without Outlook](admin-no-outlook.md)
+## [Using Teams with Business Central](across-working-with-teams.md)
 ## Using Power BI with Business Central
 ### [Introduction](admin-powerbi.md)
 ### Administrator

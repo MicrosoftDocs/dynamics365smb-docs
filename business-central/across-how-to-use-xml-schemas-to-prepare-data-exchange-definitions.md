@@ -1,6 +1,6 @@
 ---
-    title: Create XMLports based on XML schemas | Microsoft Docs
-    description: Use XML schemas to set yup the document exchange framework.
+    title: Use XML Schemas to Prepare Data Exchange Definitions
+    description: Use XML schemas to set up the document exchange framework.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,17 +9,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/18/2020
-    ms.author: sgroespe
+    ms.date: 09/01/2020
+    ms.author: edupont
 
 ---
 # Use XML Schemas to Prepare Data Exchange Definitions
 
-To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You perform this work on the **XML Schema Viewer** page by loading the XML schema file, selecting the relevant data elements, and then initializing either a data exchange definition or an XMLport.  
+To enable import/export of data in XML files through the data exchange framework in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use XML schemas to define which data elements you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)]. You perform this work on the **XML Schema Viewer** page by loading the XML schema file, selecting the relevant data elements, and then initializing a data exchange definition.  
 
- When you have defined which data elements to include based on the XML schema, you can use the **Generate XMLport** action to create the XMLport object.  
-
- Alternatively, you can use the **Generate Data Exchange Definition** action to initialize a data exchange definition based on the selected data elements, which you then complete in the Data Exchange Framework. This creates a record on the **Posting Exchange Definition** page where you continue by defining which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+ When you have defined which data elements to include based on the XML schema, you can use the **Generate Data Exchange Definition** action to initialize a data exchange definition based on the selected data elements, which you then complete in the Data Exchange Framework. This creates a record on the **Posting Exchange Definition** page where you continue by defining which elements in the file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
  This topic contains the following procedures:  
 
@@ -28,10 +26,6 @@ To enable import/export of data in XML files through the data exchange framework
 - To select or clear nodes in an XML schema  
 
 - To generate a data exchange definition that is based on an XML schema  
-
-- To generate an XMLport for the file that is based on an XML schema  
-
-- To add the XMLport to your app  
 
 ## To load an XML schema file
 
@@ -110,19 +104,8 @@ To enable import/export of data in XML files through the data exchange framework
 > [!NOTE]  
 > You can also use the **Get File Structure** function from the **Posting Exchange Definition** page, which uses the functionality of the **XML Schema Viewer** page to prefill the **Column Definitions** TastTab.  
 
-### To generate an XMLport that is based on an XML schema  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
-
-2. Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
-
-3. In the **New XMLport No.** field, specify the number that the new XMLport object will be given when it is generated.  
-
-4. Make sure the relevant nodes are selected. For more information, see the [To select or clear nodes in an XML schema](#to-select-or-clear-nodes-in-an-xml-schema) section.  
-
-5. Choose the **Generate XMLport** action, and then save the object as an .al file in an appropriate location.  
-
-6. Add the .al file to your extension project in Visual Studio Code and compile the app. For more information, see [XMLport Overview](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) in the developer content.  
+> [!NOTE]
+> In 2019 release wave 1 and earlier versions, you could generate an XMLport that was based on the schema and then import that into your solution. This is no longer supported.
 
 ## See Also
 

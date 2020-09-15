@@ -1,20 +1,21 @@
 ---
 title: Using General Journals to Post Directly to G/L| Microsoft Docs
 description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.keywords: journals, recurring, accrual
 ms.date: 06/10/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Working with General Journals
 
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, using recurring journals to post accruals, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Most journals are based on the *General Journal*, and you can process all transactions on the **General Journal** page. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
@@ -40,6 +41,27 @@ For each journal template, you can set up your own personal journal as a journal
 
 > [!TIP]
 > To add or remove fields in journals, use the **Personalizing** banner. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+
+### Validating General Journal Batches
+To help prevent delays when posting, you can turn on a background check that will notify you when there is a mistake in the financial journal you're working on that will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[d365fin](includes/d365fin_md.md)] validate finance journals, such as general or payment journals, while you're working on them. 
+
+When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[d365fin](includes/d365fin_md.md)] found, and you can choose it to open an overview the issues. 
+
+You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.     
+
+### Reversing Journals to Correct Mistakes
+When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.
+
+* **Copy Selected Lines to Journal** - Copy only the lines that you select.
+* **Copy G/L Register to Journal** - Copy all lines that belong to the same G/L register.
+
+These actions let you create a copy of a general journal line or a batch, and then specify the following:
+
+* The journal to copy the lines to
+* Whether with opposite signs (a reversing journal)
+* A different posting date or document number
+
+To allow journals to be copied to posted general journals, on the **General Journal Templates** page, choose the **Copy to Posted Jnl. Lines** check box. After you allow people to copy posted general journals, if needed you can turn off copying for specific batches.
 
 ## Understanding Main Accounts and Balancing Accounts
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
@@ -95,6 +117,18 @@ If the recurring method in the recurring journal is set to **Balance** or **Reve
 
 #### Example: Allocating Rent Payments to Different Departments
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. On the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
+
+### Reversal Date Calculation
+When using recurring general journals to post accruals at the end of a period, it's important to have full control over reversal entries. On the **Recurring General Journals** page, the **Reversal Date Calculation** field lets you control the date that reversal entries will be posted when reversal recurring methods are used.
+
+#### Example
+Accruals are usually posted with Fixed, Variable, or Balance recurring methods on the journal line. The posting date of the posted amount on the account on journal line is calculated using the recurring frequency. The posting date for the balancing entry is calculated using the **Reversal Date Calculation** field, as follows:
+
+* If the field is blank, the balancing entry will be posted the next day.
+* If the field contains a date formula (for example, **5D** for five days), the balancing entry will be posted with a posting date calculated using the reversal date calculation.
+
+> [!NOTE]
+> By default, the **Reversal Date Calculation** field is not available on the **Recurring General Journals** page. To use the field, you must add it by personalizing the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Working with Standard Journals
 When you have created journal lines which you know you are likely to create again later, you can save them as a standard journal before you post the journal. This functionality applies to item journals and general journals.

@@ -10,40 +10,45 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Walkthrough: Exporting Data for a Digital Audit
+
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
 
 The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data for a digital audit (GoBD/GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## About This Walkthrough  
+## About This Walkthrough
+
 This walkthrough illustrates the following tasks:  
 
 - Setting up requirements for the data export.  
 - Setting up the source for the data export.  
 - Exporting data for the tax auditor.  
 
-## Prerequisites  
+## Prerequisites
+
 To complete this walkthrough, you will need:  
 
-- The German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the CRONUS AG demonstraltion company.
+- The German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the CRONUS AG demonstration company.
 - The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu-01-08-2002.dtd**.  
 
-## Story  
-Cassie is an accountant at CRONUS AG. She has been notified by the company’s tax auditor that they want to see a list of purchase and sales transactions in the first quarter of the calendar year 2013. Cassie knows the type of financial data that the auditor wants, but she needs the help of Sean to set up the export.  
+## Story
+
+Cassie is an accountant at CRONUS AG. She has been notified by the company's tax auditor that they want to see a list of purchase and sales transactions in the first quarter of the calendar year 2013. Cassie knows the type of financial data that the auditor wants, but she needs the help of Sean to set up the export.  
 
 Sean is a power user with CRONUS AG. He understands how the data is set up technically with tables and fields. Therefore he usually helps Cassie set up the data exports for the auditors. From other data exports, he knows that the tool that the auditors use has some requirements on what the exported files must contain, but he needs the help of Cassie to establish exactly which data is needed.  
 
-## Defining the Requirements  
+## Defining the Requirements
+
 Cassie sets up the requirements for the data export. The auditors have asked her for transactions with customers and vendors. Therefore she knows that she needs data from the customer ledger, the vendor ledger, and the general ledger.  
 
 ### To set up the requirements for a data export  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
-2.  Choose the **New** action.  
-3.  On the **Data Exports** page, fill in the fields as described in the following table.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
+2. Choose the **New** action.  
+3. On the **Data Exports** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -54,17 +59,17 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
     Next, Cassie adds descriptions of the kind of data that she needs in the export.  
 
-4.  On the **Data Exports** page, choose the **Record Definitions** action.  
-5.  On the **Data Export Record Definitions** page, choose the **Record Code** field, and then, on the page that appears, choose the **New** action.  
-6.  On the **Data Export Record Types** page, fill in the fields as described in the following table.  
+4. On the **Data Exports** page, choose the **Record Definitions** action.  
+5. On the **Data Export Record Definitions** page, choose the **Record Code** field, and then, on the page that appears, choose the **New** action.  
+6. On the **Data Export Record Types** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the record type, **GLCUSTVEND**.|  
     |**Description**|The description for the record type, **G/L, Cust., Vend.**.|  
 
-7.  Choose the **OK** button.  
-8.  On the **Data Export Record Definitions** page, fill in the fields as described in the following table.  
+7. Choose the **OK** button.  
+8. On the **Data Export Record Definitions** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -234,7 +239,7 @@ Sean has added the **Customer** table to the data export source. Now, he adds th
     |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
     |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
 
-Sean has almost completed the setup, but he wants to verify that the data export source meets the technical requirements of the auditors’ tool.  
+Sean has almost completed the setup, but he wants to verify that the data export source meets the technical requirements of the auditors' tool.  
 
 ### To validate the data export source  
 
@@ -266,12 +271,14 @@ Cassie wants to export data that she can then send to the tax auditors.
 
 When the export is completed, Cassie is notified. She can now submit the exported files to the tax auditors. First, she examines the files in the C:Exports folder on her computer. There is a file for each table, and the files have the names that Sean specified in the data export source. There is also an INDEX.XML file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
 
-## Next Steps  
-When the tax auditors import Cassie’s files into their software, they can read the data that she exported. If the auditors need a new version of the same data export, Cassie can run the export again.  
+## Next Steps
+
+When the tax auditors import Cassie's files into their software, they can read the data that she exported. If the auditors need a new version of the same data export, Cassie can run the export again.  
 
 The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
 
-## See Also  
- [Process for Digital Audits](process-for-digital-audits.md)   
- [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-gdpdu.md)   
- [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)
+## See Also
+
+[Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)  
+[Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
+[Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)  

@@ -1,8 +1,6 @@
 ---
-    title: New Zealand Inland Revenue Department Numbers and Adjustment Notes
-    description: An IRD number is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Inland Revenue Department Numbers and Adjustment Notes
+    description: Learn about IRD numbers and adjustment notes and how they are supported in the New Zealand version of Business Central.
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -10,11 +8,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 08/28/2020
     ms.author: bholtorf
 
 ---
 # New Zealand Inland Revenue Department Numbers and Adjustment Notes
+
 A New Zealand Inland Revenue Department Number (IRD) is a single identifier for all business dealings with the tax office, and for dealings with other government departments and agencies.  
 
 IRDs and adjustment notes—or credit memos—are used to satisfy tax requirements.  

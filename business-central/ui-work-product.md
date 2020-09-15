@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]

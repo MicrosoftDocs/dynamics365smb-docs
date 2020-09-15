@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Reconcile Payments that Cannot be Applied Automatically

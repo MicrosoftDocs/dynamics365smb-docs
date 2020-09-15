@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 07/24/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Sorting, Searching, and Filtering

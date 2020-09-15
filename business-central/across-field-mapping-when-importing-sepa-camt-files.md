@@ -9,8 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.date: 09/14/2020
+    ms.author: edupont
 
 ---
 # Field Mapping When Importing SEPA CAMT Files
@@ -53,7 +53,11 @@
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Unstructured|Text|Information supplied to enable the matching/reconciliation of an entry with the items that the payment is intended to settle, such as commercial invoices in an accounts-receivable system, in an unstructured form||6|Description|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Additional information about the entry||16|Transaction Information|  
 
- Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).  
+ Elements in the **Ntry** node that are imported into [!INCLUDE[d365fin](includes/d365fin_md.md)] but not mapped to any fields are stored in the **Posting Exch. Column Def** table. Users can view these elements from the **Payment Reconciliation Journal**, **Payment Application**, and **Bank Acc. Reconciliation** pages by choosing the **Bank Statement Line Details** action. For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> In an import of CAMT bank statements, [!INCLUDE[d365fin](includes/d365fin_md.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[d365fin](includes/d365fin_md.md)] ignores the payment.
+
 ## See Also  
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  

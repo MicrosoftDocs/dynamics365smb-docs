@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Working with Dimensions

@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/04/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Warehouse Setup

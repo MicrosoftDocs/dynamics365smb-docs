@@ -9,7 +9,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/27/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Print the Picking List

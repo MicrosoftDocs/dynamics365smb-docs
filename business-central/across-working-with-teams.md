@@ -49,7 +49,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 1. Sign in to [!INCLUDE [prodshort](includes/prodshort.md)] using your browser.
 2. Open the record that you want to share.
 
-    The app for Teams is designed to display card and document type pages. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
+    The app for Teams is designed to display card type pages from Business Central. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
 3. Copy the entire URL from the browser's address bar.
 4. Go to Teams and start a chat.
@@ -57,14 +57,14 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 6. The first time you paste a link into chat, you'll be asked to sign in to [!INCLUDE [prodshort](includes/prodshort.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!TIP]
-    > You'll only have to do this step once or until you want to change which [!INCLUDE [prodshort](includes/prodshort.md)] Teams connect to.
+    > You'll only have to do this step once or until you change which [!INCLUDE [prodshort](includes/prodshort.md)] environment Teams connect to.
 
 7. Wait a moment while a card is generated in the message box.
 
 8. When the card appears, select **Send** to submit the card to the conversation.
 
     > [!TIP]
-    > After the card appears, before you select **Send**, you can delete the pasted URL if you like.
+    > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
 
 9. To view more details or make changes to the record, select **Details**.
 

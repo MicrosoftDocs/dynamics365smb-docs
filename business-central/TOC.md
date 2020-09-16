@@ -1456,7 +1456,7 @@
 ### [Creating New Companies](about-new-company.md)
 ### [Logging Changes](across-log-changes.md)
 ### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
-### [Deleting Documents](admin-manage-documents.md)
+### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
 ### [Defining Data Retention Policies](admin-data-retention-policies.md)
 ### [Publishing a Web Service](across-how-publish-web-service.md)
 ### [Configuring API Templates](admin-configuring-api-template.md)

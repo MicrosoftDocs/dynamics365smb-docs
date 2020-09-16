@@ -1,6 +1,6 @@
 ---
-title: Manage, delete, or compress documents | Microsoft Docs
-description: Keep your historical data or delete it.
+title: Manage storage by deleting documents or compressing data
+description: Learn how you can keep your historical data by compressing ledger entries, or delete it.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.date: 09/16/2020
 ms.author: edupont
 
 ---
-# Manage, Delete, or Compress Documents
+# Manage Storage by Deleting Documents or Compressing Data
 
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 

@@ -524,9 +524,10 @@
 #### [Close Accounting Periods](year-close-account-periods.md)
 #### [Close Income Statement Accounts](year-close-income-statement.md)
 #### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
-
+### Consolidating Financial Data from Multiple Companies
+#### [Company Consolidation](finance-consolidated-company-reporting.md)
+#### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
-### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Working with Dimensions](finance-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)

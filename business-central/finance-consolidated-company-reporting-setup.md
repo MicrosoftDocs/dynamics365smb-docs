@@ -41,17 +41,29 @@ To use the assisted setup guide, follow these steps:
 
 If you need more advanced settings for your consolidation, you can set up consolidation manually. For example, if you have companies that you own only partially, or you have companies that you do not want to include in the consolidation.  
 
-
 ### Set up the consolidated company
 
 First, you must set up the consolidated company. You set up the consolidated company in the same way that you set up other companies. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 The following list illustrates key aspects of the consolidated company.
 
-1. The chart of accounts for a company that will be consolidated must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to which the balance will be transferred on consolidation. This is a mapping that will allow companies with different chart of accounts to be consolidated together.
-2. To consolidate several companies' financial data in a consolidated company, you must enter information about the subsidiary as business units to be included and about how much their figures will be included. For more information, see the [Add business units](#busunit) section.
-3. You can specify exchange rates when consolidating the financial statements of business units if the financial statements are in a foreign currency. The three exchange rates that are used are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. For more information, see the [Specify exchange rates for consolidations](#exchrates) section.
-4. You can consolidate dimension information and general ledger accounts. For more information, see the [Include or exclude dimensions](#dim) section.
+1. Set up the chart of accounts
+
+    For more information, see [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md).  
+
+    The charts of accounts can be identical across a business unit and the consolidated company, or the consolidated company can have a different chart of account. If a business unit's chart of accounts is different from that of the consolidated company, you must specify the mapping between accounts on the accounts in the business unit. For more information, see the [Prepare general ledger accounts for consolidation](#glacc) section.
+
+2. Add business units
+
+    To consolidate several companies' financial data in a consolidated company, you must enter information about the subsidiary as business units to be included and about how much their figures will be included.
+
+    For more information, see the [Add business units](#busunit) section.
+3. You can specify exchange rates when consolidating the financial statements of business units if the financial statements are in a foreign currency.
+
+    The three exchange rates that are used are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. For more information, see the [Specify exchange rates for consolidations](#exchrates) section.
+4. You can consolidate dimension information and general ledger accounts.
+
+    For more information, see the [Include or exclude dimensions](#dim) section.
 
 ### <a name="busunit"></a>Add business units
 
@@ -69,14 +81,16 @@ If your business unit uses a foreign currency, you must specify the exchange rat
 
 ### <a name="glacc"></a>Prepare general ledger accounts for consolidation
 
+The chart of accounts for a company that will be consolidated must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to which the balance will be transferred on consolidation. This is a mapping that will allow companies with different chart of accounts to be consolidated together.
+
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company. For example, this is useful if you frequently run the report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab.
+1. In each business unit's [!INCLUDE [prodshort](includes/prodshort.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="exchrates"></a>Specify exchange rates for consolidations
 
-If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. On each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
+If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. In the consolidated company, on each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
 
 The following table describes the exchange rate methods you can use for accounts.
 
@@ -107,11 +121,11 @@ You can consolidate dimension information and general ledger accounts.
   * To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code** field on the relevant dimensions.  
 * Add the relevant dimensions to the relevant general ledger accounts
 
-### <a name="exclude"></a>To exclude a company from consolidation
+### <a name="exclude"></a>Exclude a company from consolidation
 
 If you do not want to include a business unit in the consolidation, you can exclude it. To do that, go to the business unit card, and clear the **Consolidate** check box.
 
-### <a name="include"></a>To include a partially-owned company in consolidation
+### <a name="include"></a>Include a partially-owned company in consolidation
 
 If you own only part of a company, you can include a percentage of each transaction that corresponds to the percentage of the company you own. For example, if you own 70% of the company, consolidation will include $70 of an invoice for $100. To specify the percentage of the company you own, go to the business unit card, and enter the percentage in the **Consolidation %** field.  
 

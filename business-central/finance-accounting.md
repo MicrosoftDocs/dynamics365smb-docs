@@ -38,6 +38,8 @@ We have made it easy for you to invite your external accountant. Simply open the
 > 
 > This task requires access to managing users and licenses in Azure Active Directory, the user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
+[!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
+
 ### Adding your accountant to your Office 365 via Azure Portal
 
 If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure Portal and assign this user the External Accountant license. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).

@@ -52,6 +52,11 @@ The following table describes a sequence of tasks, with links to the topics that
 | Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 |Learn how to use the Accountant Role Center, invite an external accountant, and use the Accountant Hub to manage accounts for multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
 
+## Take a Video Tour
+The following video introduces some of the key capabilities for managing finances. <br><br>  
+
+[!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  

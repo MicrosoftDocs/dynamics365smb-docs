@@ -55,7 +55,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## Take a Video Tour
 The following video introduces some of the key capabilities for managing finances. <br><br>  
 
-[!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  

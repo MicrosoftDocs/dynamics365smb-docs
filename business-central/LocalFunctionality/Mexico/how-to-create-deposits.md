@@ -1,6 +1,6 @@
 ---
-    title: How to Create Deposits
-    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
+    title: How to Create Deposits [MX]
+    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Mexican version.
 
 
     author: SorenGP
@@ -15,7 +15,8 @@
     ms.author: edupont
 
 ---
-# Create Deposits
+# Create Deposits in the Mexican Version
+
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
 ## To create a deposit  

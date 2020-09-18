@@ -35,7 +35,7 @@ The following procedure will take you through the steps to install and set up Sm
 > It can take several minutes for the SmartList Designer app to be recognized.
 
 > [!Tip]
-> If the **SmartList Designer App ID** field remains blank after several minutes, navigate to [PowerApps.microsoft.com](PowerApps.microsoft.com), log in with your administrative account, choose the environment that you installed SmartList Designer in, choose the context menu next to the SmartList Designer app, and copy the app ID. You can then paste the value into the **SmartList Designer App ID** field in [!INCLUDE [prodshort](includes/prodshort.md)].
+> If the **SmartList Designer App ID** field remains blank after several minutes, navigate to [PowerApps.microsoft.com](https://powerapps.microsoft.com/), log in with your administrative account, choose the environment that you installed SmartList Designer in, choose the context menu next to the SmartList Designer app, and copy the app ID. You can then paste the value into the **SmartList Designer App ID** field in [!INCLUDE [prodshort](includes/prodshort.md)].
 
 ## <a name="permissions"></a>SmartLists and permissions
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Unrealized Sales Tax and Sales Payment Discounts | Microsoft Docs
-    description: You can use the General Ledger Setup page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.
+    title: How to Set Up Unrealized Sales Tax and Sales Payment Discounts [CA]
+    description: You can use the General Ledger Setup page to set up unrealized sales tax in the Canadian version. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Set Up Unrealized Sales Tax and Sales Payment Discounts
+# Set Up Unrealized Sales Tax and Sales Payment Discounts in the Canadian Version
+
 You can use the **General Ledger Setup** page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
 
 > [!NOTE]

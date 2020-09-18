@@ -262,7 +262,7 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Get SmartList Designer](setup-smartlist-designer.md)
+### [Get SmartList Designer](bi-smartlist-designer-setup.md)
 
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)

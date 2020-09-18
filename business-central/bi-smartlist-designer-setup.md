@@ -1,14 +1,13 @@
 ---
-title: Get SmartList Designer | Microsoft Docs
+title: Get SmartList Designer
 description: Install the SmartList Designer so that you can create queries across your Business Central data.
 author: bmeier90
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.reviewer: edupont
 ms.search.keywords: SmartList
 ms.date: 09/03/2020
-ms.author: bmeier
+ms.author: edupont
 
 ---
 # Get SmartList Designer
@@ -36,7 +35,7 @@ The following procedure will take you through the steps to install and set up Sm
 > It can take several minutes for the SmartList Designer app to be recognized.
 
 > [!Tip]
-> If the **SmartList Designer App ID** field remains blank after several minutes, navigate to [PowerApps.com](PowerApps.com), log in with your administrative account, choose the environment that you installed SmartList Designer in, choose the context menu next to the SmartList Designer app and copy the app ID. You can then paste the value into the **SmartList Designer App ID** field in [!INCLUDE [prodshort](includes/prodshort.md)].
+> If the **SmartList Designer App ID** field remains blank after several minutes, navigate to [PowerApps.microsoft.com](PowerApps.microsoft.com), log in with your administrative account, choose the environment that you installed SmartList Designer in, choose the context menu next to the SmartList Designer app, and copy the app ID. You can then paste the value into the **SmartList Designer App ID** field in [!INCLUDE [prodshort](includes/prodshort.md)].
 
 ## <a name="permissions"></a>SmartLists and permissions
 

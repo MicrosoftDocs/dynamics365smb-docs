@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/17/2020
+ms.date: 09/18/2020
 ms.author: edupont
 
 ---
@@ -23,16 +23,22 @@ The Role Center is a dashboard with activity tiles that show you real-time key f
 
 If you are new to [!INCLUDE[d365fin](includes/d365fin_md.md)], you can launch a list of videos right from your Role Center. You can also launch a **Getting Started** tour that points out key areas.  
 
+## Company Hub
+
+If you work in multiple [!INCLUDE [prodshort](includes/prodshort.md)] companies, you might find it useful to use the **Company Hub** page to keep track of work.  For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
+
 ## <a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[d365fin](includes/d365fin_md.md)] so they can work with you on your fiscal data. [!INCLUDE[d365fin](includes/d365fin_md.md)] includes three licenses of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Once your accountant has gained access to your [!INCLUDE[d365fin](includes/d365fin_md.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant pages for their work. They can also use the company hub in their own [!INCLUDE [prodshort](includes/prodshort.md)] to manage their work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
+
 We have made it easy for you to invite your external accountant. Simply open the **Users** page, and then choose the **Invite External Accountant** action in the ribbon. An email is made ready for you, just add your accountant's work email, and send the invitation.  
 
 > [!Note]  
-> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).   
+> This requires that you have set up SMTP email. For more information, see [Set Up Email](admin-how-setup-email.md).  
 
 <!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
 
@@ -40,8 +46,6 @@ We have made it easy for you to invite your external accountant. Simply open the
 > The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.
 >
 > This task requires access to managing users and licenses in Azure Active Directory. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
-
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
 ### Adding your accountant to your Office 365 in the Azure portal
 

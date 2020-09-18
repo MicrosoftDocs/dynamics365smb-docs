@@ -22,6 +22,8 @@ An environment link is a card where you specify the [!INCLUDE [prodshort](includ
 
 The link is used when you choose the company in the company hub.  
 
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
+
 ## Load companies
 
 When you have added your environments, your companies show up automatically. However, if you know that a new company has been added to an environment, you can choose the **Reload all companies** action to refresh the list. Use the same action to refresh data from across your companies.  

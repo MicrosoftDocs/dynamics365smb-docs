@@ -1,31 +1,37 @@
 ---
 title: Manage Work across Multiple Companies in the Company Hub
 description: Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
-author: bholtorf
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/14/2020
-ms.author: bholtorf
+ms.date: 09/18/2020
+ms.author: edupont
 ---
 
 # Manage Work across Multiple Companies in the Company Hub
 
-Some people work in multiple companies in [!INCLUDE [prodshort](includes/prodshort.md)], and some also work in more than one organization, or *tenant*, such as external accountants, or employees of corporations with multiple subsidiaries.<!-- (e.g. Internal Accountant, Different Managers, CEO and etc…)--> For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
+Some people work in multiple companies in [!INCLUDE [prodshort](includes/prodshort.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
+
+You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly.  
 
 ## Company hub home page
 
-From the company hub landing page, you see a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.  
+If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.  
+
+Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
 
 > [!TIP]
-> To access a specific company in [!INCLUDE [prodshort](includes/prodshort.md)], choose the **Go To Company** menu item - you are logged in automatically.
+> To access a specific company in [!INCLUDE [prodshort](includes/prodshort.md)], choose the name of the company, or choose the **Go To Company** menu item - you are logged in automatically in a new browser tab.
 
-You can add new companies, such as when you get a new client, or when your corporation adds a new subsidiary.
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
 
-## Company details
+You can add new companies, such as when you get a new client, or when your corporation adds a new subsidiary. For more information, see [Add Companies to Your Company Hub](company-hub-add-company.md).  
 
-You can see more information about each company by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
+<!--## Company details
+
+In the **Company Hub** page, you can see more information about each company by choosing the name of the company that you want to learn more about. This opens the **Company Details** pane, where you can see additional information, such as the following:  
 
 * Cash account balances  
 * Cash flow forecast  
@@ -35,13 +41,13 @@ You can see more information about each company by choosing the name of the comp
 > [!TIP]
 > You can launch predefined Excel workbooks from the **Reports** tab in the ribbon. These Excel workbooks are designed as ready-to-print key financial statements and reports, but you can also modify them to fit your needs. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
-Otherwise, close the details pane and continue to the next company.  
+Otherwise, close the details pane and continue to the next company.  -->
 
 ## Assigned tasks
 
-In [!INCLUDE [prodshort](includes/prodshort.md)], you can assign tasks to yourself and others, and others can assign tasks to you. Your dashboard in the company hub gives you an overview of assigned tasks for each company, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
+In [!INCLUDE [prodshort](includes/prodshort.md)], you can assign tasks to yourself and others, and others can assign tasks to you. The company hub gives you an overview of assigned tasks for each company, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
 
-In the client company, you also have cues that call out tasks assigned to you in this particular client.
+<!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
 ### My user tasks
 
@@ -74,10 +80,9 @@ For example, if you are an accountant, your clients can invite you to their [!IN
 
 Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prodshort](includes/prodshort.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-You switch between countries using the **My Settings** page.
-
 ## See also
 
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  
 [The Company Hub for Business Central Extension](ui-extensions-company-hub.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  

@@ -1,9 +1,6 @@
 ---
-    title: How to Set Up Automatic Account Posting Groups
-    description: To use automatic account codes, you must create an automatic account posting group.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Set Up Automatic Account Posting Groups in the Finnish version
+    description: To use automatic account codes in the Finnish version, you must create an automatic account posting group.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -16,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Set Up Automatic Account Posting Groups
+# Set Up Automatic Account Posting Groups in the Finnish Version
+
 To use automatic account codes, you must create an automatic account posting group.  
 
 ## To set up automatic account posting groups  

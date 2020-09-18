@@ -1,6 +1,6 @@
 ---
-    title: How to Create Check Installments
-    description: Describes how to create check installments for post-dated checks.
+    title: Create Check Installments in the New Zealand version
+    description: Describes how to create check installments for post-dated checks in the New Zealand version.
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -12,7 +12,8 @@
     ms.author: bholtorf
 
 ---
-# Create Check Installments
+# Create Check Installments in the New Zealand Version
+
 You can create check installments for post-dated checks. You can define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.  
 
 ## To create a check installment  

@@ -17,7 +17,7 @@ ms.author: bholtorf
 > [!Note]
 > Enhanced email capabilities are available in preview, which means that you can try them out but should not use them in production. Preview features give you early access to new capabilities, so you can provide feedback that can help us make them even better. 
 >
-> If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new email capabilities are already turned on. If you are already using SMTP settings for email, see [Legacy SMTP Settings and the Email - SMTP Connector Extension](admin-how-setup-email.md#legacy-smtp-settings-and-the-email-smtp-connector-extension). 
+> If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new email capabilities are already turned on. If you are already using SMTP settings for email, see [Legacy SMTP Settings and the Email - SMTP Connector Extension](admin-how-setup-email.md#legacy-smtp-settings-and-the-smtp-connector-extension). 
 
 You can connect one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)] so you can send email messages without having to switch apps. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. You can also create templates that contain pre-defined, reusable texts. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -37,9 +37,9 @@ The following table describes the email extensions that are currently available 
 > [!NOTE]
 > The standard email extensions use the accounts you set up for users in the Microsoft 365 admin center your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
 
-You can also use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messagages).
+You can also use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
 
-## Legacy SMTP Settings and the Email - SMTP Connector Extension
+## Legacy SMTP Settings and the SMTP Connector Extension
 If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When you are ready, your administrator can turn on the enhanced email capabilities. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). When that happens, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup.
 
 > [!NOTE]

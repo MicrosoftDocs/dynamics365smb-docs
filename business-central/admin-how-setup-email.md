@@ -35,7 +35,7 @@ The following table describes the email extensions that are currently available 
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Everyone sends email from the account you specify. |
 
 > [!NOTE]
-> The standard email extensions use the accounts you set up for users in the Microsoft 365 admin center your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
+> The standard email extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
 
 You can also use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
 
@@ -43,7 +43,7 @@ You can also use the **Send As** or **Send on Behalf** capabilities from Exchang
 If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When you are ready, your administrator can turn on the enhanced email capabilities. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). When that happens, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup.
 
 > [!NOTE]
-> If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using the new email extensions. We recommend that you set up and test the new capabilities before you turn on the feature switch for the enhanced email capabilities.
+> If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
 
 ## Add Email Accounts
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
@@ -58,7 +58,7 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 
 ## Assign Email Scenarios to Email Accounts
-Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and unassign scenarios whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
+Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
  
 <!--
 ## To set up email

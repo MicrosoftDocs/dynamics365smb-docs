@@ -16,8 +16,6 @@
 ---
 # Setting up Tax Collected at Source (TCS), as per the provisions of the Income Tax Act, 1961
 
-## Overview
-
 Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
 
 **TCS** means **Tax Collection at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collection at Source’ (TCS) requires the receiver or seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
@@ -29,7 +27,7 @@ Business Central has included Tax Collected at Source (TCS) Feature in Indian Lo
 - Automatic - These setup are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-#### Following is the list of Setups that will be pre-configured in **Business Central - IN Localization** with the help of **Tax Engine**
+### Following is the list of Setups that will be pre-configured with the help of **Tax Engine**
 
 - Tax Types
 - Tax Entities
@@ -40,9 +38,9 @@ Business Central has included Tax Collected at Source (TCS) Feature in Indian Lo
 
 For more information about Auto Setup, see **Tax Engine** Information.
 
-#### Following is the list of Manual Setups, business user needs to configure manually in **Business Central**
+### The following are required manual setup
 
-## To set up Tax Accounting Period.
+## To set up tax accounting period.
 
 Tax Accounting period and quarters need to be defined for TCS calculation.
 
@@ -63,7 +61,7 @@ Tax Accounting period and quarters need to be defined for TCS calculation.
     |**No. of Periods**|Specify the number of periods.|
     |**Period Length**|Specify the length of the period.|
 
-## To set up T.C.A.N Nos.
+## To set up T.C.A.N
 
 Tax Collected Account Number (T.C.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
 
@@ -80,7 +78,7 @@ Tax Collected Account Number (T.C.A.N) allotted to a company can be more than on
 >
 > It is mandatory to enter the T.C.A.N, on all TCS Transactions.
 
-## To set up Assessee Code
+## To set up assessee code
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TCS are different for different types of Assessee.
 
@@ -97,7 +95,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 >
 > Type should be selected correctly while creating Assessee codes as it will reflect in eTDS returns.
 
-## To set up TCS Nature of Collection
+## To set up TCS nature of collection
 
 TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C of the Income Tax Act 1961.
 
@@ -110,7 +108,7 @@ TCS Nature of Collection represents the various types of payments received for w
     |**Description**|Enter the description of the mentioned TCS Nature of Collection.|
    
 
-## To set up Concessional Codes
+## To set up concessional codes
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.    
 
@@ -122,7 +120,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
     |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act|  
     |**Description**|Enter the description of the mentioned Concessional Codes|
 
-## To set up TCS Posting Setup
+## To set up TCS posting setup
 
 Specifies the general ledger account for each TCS Nature of Collection defined in the system. System will update the TCS payable amount in the defined general ledger account.
 
@@ -136,7 +134,7 @@ Specifies the general ledger account for each TCS Nature of Collection defined i
     |**TCS Account**|Specifies the general ledger account for posting of TCS payable amount.|
 
 
-## To set up TCS in Customer Master
+## To set up TCS in customer master
 
 TCS nature of collection and concessional codes need to be defined for each customer that is liable to TCS. Multiple TCS NOC can be attached to one customer.
 
@@ -167,11 +165,11 @@ TCS nature of collection and concessional codes need to be defined for each cust
       |**Concessional Code**|Select the valid concessional code from lookup list depending on the kind of product sold by customer.|
       |**Concessional Form No.**|Certificate number provided by the customer can be defined to justify the lower tax deduction.  |
 
-## To set up TCS on Location Master
+## To set up TCS on location master
 
 **T.C.A.N** needs to be defined for locations from where the company files its returns.
 
-## To set up TCS on Company Information
+## To set up TCS on company information
 
 -  Following information needs to be defined on company information.
 
@@ -184,7 +182,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
       |**Assessing Officer**|Specifies the assessing officer.|
       |**Ward No.**|Specifies the word number.|
 
-## To set up TCS on State Code
+## To set up TCS on state code
 
 **State Code for eTDS/TCS** needs to be defined on States master.
 

@@ -17,7 +17,7 @@
 ---
 # Voucher Transaction
 
-## Type of Vouchers and Transactions
+## Type of vouchers and transactions
 
 Following are the vouchers needed to record the transactions like Cash, Bank, and Journals for this functionality:
 - Cash Receipt Voucher: Entries which affect the Cash accounts while receiving cash payments from customers or refund from vendor. 
@@ -50,7 +50,7 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
     |**Voucher Narration**|Specify the voucher narration, this will be a single narration for the whole document.|
    
 
-### Posted G/l Entries for each voucher
+### Posted general ledger entries for each voucher
 
 - Payment received in cash from customer for INR 10,000 through Cash Receipt Voucher. 
 
@@ -137,7 +137,7 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
 > [!TIP]
 > Bank and Cash accounts are not allowed in Journal Voucher.
 
-## Opening Balances for GST
+## Opening balances for GST
 
 GST opening balances shall be created in Business Central. In Journal Voucher, options available to provide the opening balances for – 
     
@@ -154,7 +154,7 @@ GST opening balances shall be created in Business Central. In Journal Voucher, o
 > System should record the values in GST Sub-Ledger.
 
 
-## TDS and TCS Payment to Government
+## TDS and TCS payment to government
 
 It is required to pay the TDS and TCS to government authorities through Bank/Cash Payment Vouchers. Provision is available to select the TDS and TCS sub-ledger entries by applying filters like Companies/Non-Companies, etc. and on the basis of TAN and TCAN Numbers. 
 

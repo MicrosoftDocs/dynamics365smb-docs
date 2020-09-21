@@ -21,7 +21,7 @@ The advance payments received from the customers may need to be reported in GSTR
 
 Process of GST calculation on advance payment from customer has been explained in this document.
 
-### Create a General Journal or a Bank or Cash Receipt Voucher
+### Create a general journal or a bank or cash receipt voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Select **Customer** in account type and select relevant **Customer Code**, GST customer type and registration number should not be blank on customer master.
@@ -50,7 +50,7 @@ For example, advance payment received from customer for INR 10000 on which 18% G
     |**SGST/UTGST Payable Account**|-763| 
     |**Customer Account**|-10000| 
 
-## Reversal of Advance Payment received from Customer
+## Reversal of advance payment received from customer
 
 If the customer advance needs to be corrected or the entry is wrongly posted, in such a case the entry can be reversed and new entry can be created.
 

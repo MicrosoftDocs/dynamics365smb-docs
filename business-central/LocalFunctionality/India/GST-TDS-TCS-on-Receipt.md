@@ -63,7 +63,7 @@ For example, INR 1000 paid by the customer and 1% GST TCS (0.50% CGST, 0.50% SGS
     |**IGST TCS Receivable Account**|10|  
     |**Bank Account**|990| 
 
-## GST TDS on Customer Payment
+## GST TDS on customer payment
 
 GST TDS is applicable for Registered Customers. User can calculate GST TDS on cash or bank payment from customer, user needs to enter GST TDS/TCS Base Amount manually for calculating GST TDS. 
 

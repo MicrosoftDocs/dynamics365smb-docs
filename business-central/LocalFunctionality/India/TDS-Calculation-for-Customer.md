@@ -17,7 +17,7 @@
 ---
 # Transactions on TDS for Customer 
 
-## TDS calculation and tracking of TDS Certificate Receivable
+## TDS calculation and tracking of TDS certificate receivable
 
 TDS can be deducted on receiving payment from customer. TDS can be calculated on the following documents:
 
@@ -34,19 +34,19 @@ TDS certificate will be receivable from customer on receiving the advance paymen
 - Cash Receipt Journal
 - Sales Invoice
 
-#### Mandatory fields for TDS calculation on General Journal, Cash Receipt Journal, Bank Receipt Voucher and Cash Receipt Voucher at the time of TDS calculation
+#### Mandatory fields for TDS calculation on general journal, cash receipt journal, bank receipt voucher and cash receipt voucher at the time of TDS calculation
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Cash Receipt Journal**, **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link. 
 2. Select **Customer** in Account Type and select relevant customer code in **Account No.** field. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant cash or bank account in **Bal. Account No.** field.
 3. **TDS Certificate Receivable** field should be marked true and then select relevant **TDS Section** on journal line, **Location Code** field should not be blank.
 
-#### Mandatory fields for TDS certificate receivable tracking on General Journal, Cash Receipt Journal, Bank Receipt Voucher, Cash Receipt Voucher and Sales Invoice
+#### Mandatory fields for TDS certificate receivable tracking on general journal, cash receipt journal, bank receipt voucher, cash receipt voucher and sales invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Cash Receipt Journal**, **Bank Receipt Voucher**, **Cash Receipt Voucher** or **Sales Invoice**, and then choose the related link.
 2. **TDS Certificate Receivable** should be marked true on **Journal** line or **Sales Invoice** header.
 3. **TDS Certificate Receivable** identification will flow into Customer Ledger Entry on posting of the document.
 
-#### TDS to be calculated on customer receipts (through General Journal, Cash Receipt Journal, Bank Receipt Voucher, Cash Receipt Voucher)
+#### TDS to be calculated on customer receipts (through general journal, cash receipt journal, bank receipt voucher, cash receipt voucher)
 
 - In the given scenario, advance payment received from customer for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
 

@@ -34,7 +34,7 @@
 - Purchases as per the books of account of buyer shall be matched with the supplier-uploaded information in GSTR-2A,  every month before uploading GSTR-2 by the buyer.
 
 
-## To set up GST Component Mapping Recon.
+## To set up GST component mapping recon.
 
 - Mapping GST Reconciliation fields with GST Components in GST Reconciliation Mapping is a pre-requisite for GST Reconciliation. Unless it is done, reconciliation can't happen in the system. 
 
@@ -49,7 +49,7 @@
         |**ISD Ledger Field No.**|Specifies the relevant input service distribution field against the component.|
         |**ISD Ledger Field Name**|Specifies the description of the input service distribution field.|
 
-## GST Reconciliation Process
+## GST reconciliation process
 
 - Reconciliation feature enables the user to reconcile the posted purchase transactions with GSTR-2A downloaded from GSTN portal.
 

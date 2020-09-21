@@ -30,14 +30,14 @@ Feature required to provide the voucher interface as per Indian business require
 
 ## Setting up Voucher Interface
 
-#### Following is the list of Setups that are required to be configured in **Business Central** for Voucher Interface
+### The following setups are required for voucher interface
 
 - General Journal Template
 - General Journal Batch
 - Voucher Setup
 
 
-## To set up General Journal Template
+## To set up general journal template
 
 Journals are used for different types or groups of entries, such as purchases, payments, sales, and receivables. Each journal type is set up with its own journal template. Journal templates provide the basic journal structure where busiess users can specify default information for all batches created using the template.
 
@@ -59,7 +59,7 @@ Journals are used for different types or groups of entries, such as purchases, p
     |**Force Doc. Balance**|Specifies whether entries posted in this general journal template must balance by document number and document type. If this field is empty, the program balances the journal by date only.|
     |**Increment Batch Name**|Specifies if batch name using this template are automatically incremented|
     
-## To set up General Journal Batch
+## To set up general journal batch
 
 Journal batches are created based on the journal templates. All journal batches created from a specific template have the same structure, default settings, and information defined in the template. However, since these settings are defaults, business users can change them for a specific journal batch.
 Batches are typically used to separate one user's entries from another. For example, User-A and User-B both work on general journal entries. User-A typically makes entries and posts them later when they are approved. To keep User-B's entries from becoming mixed with User-A's entries, separate batches can be assigned to the two users.
@@ -80,11 +80,11 @@ Batches are typically used to separate one user's entries from another. For exam
     |**Reason Code**|Describes why an entry was made and can be used for the audit trail. Reason codes also provide opportunities for problem patterns analysis. The selected reason code is assigned as a default to all journal batches created from this batch.|
     |**Suggest Balancing Amount**|Specifies the amount field on journal lines for the same document number is automatically pre filled with the value which is required to balance the document.|
 
-## To set up Voucher Setup
+## To set up voucher setup
 
 Voucher setup is done to define the type of voucher, related transaction direction and default account number. Voucher setup can be defined from company information and location.
 
-- Voucher Setup on company information
+- Voucher setup on company information
 
   1. Choose the ![img](image/search.jpg)icon, enter **Company Information**, and then choose the related link.
   2. Company Information -> Voucher Setup
@@ -96,7 +96,7 @@ Voucher setup is done to define the type of voucher, related transaction directi
        |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
        |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
 
-- Voucher Setup on location
+- Voucher setup on location
 
   1. Choose the ![img](image/search.jpg)icon, enter **Locations**, and then choose the related link.
   2. Locations -> Process -> Voucher Setup

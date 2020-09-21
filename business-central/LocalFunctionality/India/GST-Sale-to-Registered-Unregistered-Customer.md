@@ -20,7 +20,7 @@ Sales to a registered customer are known as B2B sales, sales to unregistered cus
 
 Process of sales to registered or unregistered customer has been explained in this document.
 
-## Create a Sales Invoice
+## Create a sales invoice
 
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.

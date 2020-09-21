@@ -18,7 +18,7 @@
 
 Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/or services, made by taxable person to an unregistered person i.e. B2C supplies. Kerala Flood CESS is required to be shown separately on the invoice.
 
-## Create a Sales Invoice
+## Create a sales invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
 

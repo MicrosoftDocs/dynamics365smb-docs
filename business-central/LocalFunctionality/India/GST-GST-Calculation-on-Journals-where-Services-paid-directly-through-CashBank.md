@@ -20,7 +20,7 @@ Invoice and credit memo can be posted from journals. GST calculation logic for j
 
 GST calculation process has been explained in this document.
 
-## Create a General Journal or a Bank or Cash Payment Voucher
+## Create a general journal or a bank or cash payment voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **General Journal**, and then choose the related link.
 2. Select **G/L Account** in account type and **G/L Account** or **Bank Account** in balancing account type, and then select the cash or bank accounts.

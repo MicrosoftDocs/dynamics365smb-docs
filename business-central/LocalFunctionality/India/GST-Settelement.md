@@ -36,9 +36,9 @@ This tax liability on both interstate transactions (IGST) and intrastate transac
 
 The first priority for any component would be that component itself. This logic is inbuilt. The above table is setting priorities for other components.
 
-## Sources of Settlement
+## Sources of settlement
 
-1. Sales Liability : 
+1. Sales liability : 
 
 The net liability from below sources are shown in Payment Liability:
 - Detailed GST Ledger entry: Liability from below transactions having 'Liabile to Pay' selected as true in Detail GST Ledger entry will be shown in liability for current period
@@ -53,14 +53,14 @@ The net liability from below sources are shown in Payment Liability:
 - Posted settlement entry: Any negative Liability from previous period settlement which were not adjusted are shown in Liability for Current period
 - If net credit availed for this period is negative then it will be added in the current period Liability
 
-2.	Reverse Charge Liability:
+2.	Reverse charge liability:
 The net liability of the following transactions that are subject to reverse charge are shown in 'Payment Libaility- Rev. Chrg'.:
 - Advance Payments
 - Refund
 - Reversal of Advance Receipt
 - Transactions posted through Purchase Documents 
 
-3.	Credit Availed : 
+3.	Credit availed : 
 The net credit from below sources are shown in Credit Availed for Settlement.
 - Detailed GST Ledger entry: Credit from transactions mentioned herebelow, having credit availed marked as true in 'Detail GST Ledger Entry' will be shown in liability for current period
   - Transactions posted through Purchase Documents 
@@ -72,7 +72,7 @@ The net credit from below sources are shown in Credit Availed for Settlement.
 - Posted Settlement Entry: Any unutilized credit from previous period will get added in 'Credit Availed' for current period.
 - Distributed Credit: Credit received after ISD distribution to the recipients will get added to 'Credit Availed'.
 
-## Process of Settlement
+## Process of settlement
 
 1. Choose the ![img](image/search.jpg)icon, enter **GST Settlement**, and then choose the related link.
 2. **GST Settlement Nos.** should not be blank on **General Ledger Setup**.

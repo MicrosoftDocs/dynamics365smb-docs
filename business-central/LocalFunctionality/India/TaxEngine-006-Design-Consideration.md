@@ -17,11 +17,11 @@
 
 This section contains the factors that shall be considered while configuring Taxes using tax engine.
 
-## Tax Type
+## Tax type
 
 A new tax type should be created if it has unique attributes which are used in definition of conditions and computation logic. For example, GST and TDS are defined as different tax types. 
 
-## Tax Attributes
+## Tax attributes
  - When to create an Attribute as Generic?
  
    Generic attributes are used in the same way as item attributes are managed in Business Central. If the attribute is not linked to a field in an existing table then it is generic in nature.
@@ -29,7 +29,7 @@ A new tax type should be created if it has unique attributes which are used in d
  
    In case field is already available in the table which is being mapped then it can be linked to that attribute. This means that field data will be used as attribute value. 
 
-## Generic Tax Rate Setup
+## Generic tax rate setup
 - Rate Setup for Different Tax Type
   
   Tax Rate Setup of each tax type is configured separately but the User Interface is same. Fields in tax rate setup are dynamic and based on the tax rate column setup. User can define what columns are needed for a tax rate setup. For example ‘GST tax type would require ‘HSN Code’ where as TDS tax type is not dependent on HSN code.
@@ -40,7 +40,7 @@ A new tax type should be created if it has unique attributes which are used in d
   
   Example: If there is a regulatory change in which ‘Threshold Limit’ is removed then it can be managed by removing it from the tax rate column setup.
 
-## Generic Metadata
+## Generic metadata
 - Tax Transaction Values
   Data pertaining to tax calculation regarding a said transaction is stored in a common table. If the transaction record is deleted then related tax transaction value also gets deleted.
   
@@ -52,7 +52,7 @@ A new tax type should be created if it has unique attributes which are used in d
  
   This table contains the information of tax rate setup, tax engine uses common tax rate setup for types of taxes.
 
-## Use Case Execution
+## Use case execution
 
 - Only Child Use Cases are Executed for Output
   There can be a parent child relation between use cases. Parent use cases are used for defining attribute mapping which is common for one or more use cases.
@@ -85,7 +85,7 @@ A new tax type should be created if it has unique attributes which are used in d
 
   In case of any change done in any use case the current active version of the use case is archived and new changed use case version becomes active.
 
-## Enabling and Disabling Configuration
+## Enabling and disabling configuration
 
 - Enable or Disable Use Case
 

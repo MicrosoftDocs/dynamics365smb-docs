@@ -16,8 +16,6 @@
 ---
 # Setting up Goods and Service Tax
 
-## Overview
-
 Business Central has included GST Feature to Indian Localization.
 
 **“Goods and Services Tax”** means any tax on supply of goods, or services or both except taxes on the supply of the alcoholic liquor for human consumption.
@@ -26,7 +24,7 @@ Business Central has included GST Feature to Indian Localization.
 
 GST has two different types of setups, Automatic and Manual.
 
-Below is the list of Automatic Setups, that will be pre-configured in Business Central - IN Localization with the help of Tax Engine
+Below is the list of Automatic Setups, that will be pre-configured with the help of Tax Engine
 
 - Tax Types
 - HSN/SAC
@@ -37,7 +35,7 @@ Below is the list of Automatic Setups, that will be pre-configured in Business C
 
 For more information about Automatic Setup, see **Tax Engine** information.
 
-Below is the list of Manual Setups, that are required to be configured manually in Business Central
+Below is the list of Manual Setups, that are required to be configured manually
 
 ## To set up GST registration number
 
@@ -205,7 +203,7 @@ Below is the list of masters having GST setup
     |**Exempted**|This field is checked if the item is exempted from payment of tax.| 
 
 
-## To set up GST in Vendor
+## To set up GST in vendor
 1. Choose the ![img](image/search.jpg)icon, enter **Vendor**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
@@ -219,7 +217,7 @@ Below is the list of masters having GST setup
     |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
 
-## To set up GST in Vendor Order Address
+## To set up GST in vendor order address
 
 1. Choose the ![img](image/search.jpg)icon, enter **Vendor** > **Order Addresses**, and then choose the related link.
 2. Fill in the fields as described in the following table.
@@ -230,7 +228,7 @@ Below is the list of masters having GST setup
     |**GST Registration No.**|Registration No. of vendor shall be entered here. Registration number is mandatory if GST Vendor Type is Registered. Registration No. shall be of 15-digits.|
     |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
-## To set up GST in Customer
+## To set up GST in customer
 
 1. Choose the ![img](image/search.jpg)icon, enter **Customers**, and then choose the related link.
 
@@ -244,7 +242,7 @@ Below is the list of masters having GST setup
     |**E-Commerce Operator**|This field is activated, if sales are done through an e-commerce operator.|
     |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
 
-## To set up GST in Customer Ship to Addresses
+## To set up GST in customer ship to addresses
 
 1. Choose the ![img](image/search.jpg)icon, enter **Customers** > **Ship to Addresses**, and then choose the related link.
 
@@ -257,7 +255,7 @@ Below is the list of masters having GST setup
     |**ARN No.**|This field captures the Customer ARN No. only when GST registration number is not available.|
 
 
-## To set up GST in Service Cost
+## To set up GST in service cost
 
 1. Choose the ![img](image/search.jpg)icon, enter **Service Cost**, and then choose the related link.
 
@@ -271,7 +269,7 @@ Below is the list of masters having GST setup
     |**Exempted**|This field is checked if the item is exempted from payment of tax.| 
 
 
-## To set up GST in Bank Account
+## To set up GST in bank account
 
 1. Choose the ![img](image/search.jpg)icon, enter **Bank Account**, and then choose the related link.
 2. Fill in the fields as described in the following table.

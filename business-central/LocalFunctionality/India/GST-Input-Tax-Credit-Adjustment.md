@@ -16,9 +16,9 @@
 ---
 # GST Input Tax Credit Adjustments
 
-## Credit Adjustment Journal
+## Credit adjustment journal
 
-Credit Adjustment Journal is designed to handle certain Credit Adjustments arising on reconciliation.
+Credit adjustment journal is designed to handle certain credit adjustments arising on reconciliation.
 
 - Purpose of Credit Adjustments
 
@@ -51,7 +51,7 @@ Credit Adjustment Journal is designed to handle certain Credit Adjustments arisi
 > [!NOTE]
 > Business user can post GST Credit Adjustment Journal selecting nature of adjustment type as Credit Re-Availment and Permanent Reversal after posting GST Adjustment Journal for type 'Credit Reversal'. If the GST Credit Adjustment Journal is posted with 'Nature of Adjustment' as ‘Permanent Reversal’ then system will not consider these entries again for posting via adjustment type as ‘Credit Reversal’ or ‘Credit Re-Availment’.
 
-## GST credit adjustment for Reverse Charge transactions
+## GST credit adjustment for reverse charge transactions
 
 Credit Adjustment Journal functionality is also available for adjusting reverse charge transactions where GST Group Type is 'Service'. This functionality is designed to handle certain adjustments arising on selecting GST Credit Type incorrectly at the time of transaction.
 
@@ -96,7 +96,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 > - The Credit Adjustment for reverse charge transactions can be executed only for GST Group Type as Service. The GST Credit and Liability for reverse charge transactions where GST Group Type is Service are realized only on application of payment, hence system will filter only application entries in GST Credit Adjustment Journal for reverse charge scenarios.
 
 
-## GST Credit Adjustment Entry Process
+## GST credit adjustment entry process
 
 1. Choose the ![img](image/search.jpg)icon, enter **GST Credit Adjustment**, and then choose the related link.
 2. **GST Credit Adj. Jnl Nos.** should not be blank on **General Ledger Setup**.

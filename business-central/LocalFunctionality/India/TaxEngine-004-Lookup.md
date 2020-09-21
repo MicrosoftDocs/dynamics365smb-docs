@@ -24,7 +24,7 @@ Lookup is a utility to fetch value from the system or from a variable.
 Source type is to specify the source of value.
 
 
-#### Current Record
+#### Current record
 If value of a field is to be picked from the current record (that is source table of the rule).
 
 #### Variable
@@ -63,22 +63,22 @@ USERID, COMPANYNAME, SERIALNUMBER, TENANTID, SESSIONID, SERVICEINSTANCEID values
 
 TIME, TODAY, WORKDATE, CURRENTDATETIME values can be picked from the current database.
 
-#### Tax Attribute
+#### Tax attribute
 
 Tax Attributes can be picked which are defined with tax type.
 
 
-#### Component
+#### component
 
 Tax Component amounts computed based on percentage captured can be picked from Tax Rates.
 
 
-#### Record Variable
+#### Record variable
 
 The value of a ‘Record variable’ field used in use case variable can be picked.
 
 
-#### Component Percent
+#### Component percent
 
 ‘Tax Component Percent’ captured from ‘Tax Rates’ can be picked.
 
@@ -88,7 +88,7 @@ The value of a ‘Record variable’ field used in use case variable can be pick
 Value of ‘Tax Rate Parameter’ captured from ‘Tax Rates’ can be picked.
 
 
-#### Attribute Table
+#### Attribute table
 
 Value of attribute from existing table can be picked.
 

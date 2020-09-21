@@ -19,7 +19,7 @@
 
 ## TDS certificate details assign, update and rectification process
 
-- Assign TDS Certificate details
+- Assign TDS certificate details
 
   Customer Ledger entries, which are not marked, against which TDS certificate is receivable can be assigned separately. Provision is available to mark the posted customer transactions (invoices or payments) for which TDS certificate is receivable.
 
@@ -27,7 +27,7 @@
    2. Select relevant customer code in **Customer No.** field then Acton -> Function -> Assign TDS Cert. Details, system will open the customer ledger entry of the customer. Select and update the relevant documents by marking 'TDS Certificate Receivable' field true. Marked document will be removed from the 'Assign TDS Cert. Details' page and will be added in 'Update TDS Cert. Details' page.
    3. System will update the 'TDS Certificate Receivable' field as true in Customer Ledger Entry.
 
-- Update TDS Certificate details
+- Update TDS certificate details
 
   After receiving the TDS Certificate, it is required to update the TDS certificate details.
 
@@ -36,7 +36,7 @@
   3. Select and update the relevant documents for which company has received the TDS Certificate by marking 'TDS Certificate Received' field true and update. Marked document will be removed from the 'Update TDS Cert. Details' page and will be added in 'Rectify TDS Cert. Details' page.
   4. System will update the customer ledger entry of the selected document with the input data.
 
-- Rectify TDS Certificate details
+- Rectify TDS certificate details
 
   Rectification of updated details may also be required just in case some wrong information is provided earlier.
 

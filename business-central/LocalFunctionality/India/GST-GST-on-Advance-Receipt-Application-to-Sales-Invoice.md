@@ -15,7 +15,7 @@
 
 ---
 
-## GST on Advance Payment and Application with Sales Invoice
+## GST on advance payment and application with sales invoice
 
 GST can also be liable at the time of receiving advance payment from customer. If advance payment is applied to an invoice in the same month, then such applications need not be disclosed in GSTR-1. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application needs to be reported in GSTR-1.
 
@@ -56,7 +56,7 @@ Later sales invoice for services is issued to the customer for INR 20,000. 18% G
     |**CGST Payable (Interim) Account**|-763|   
     |**SGST/UTGST Payable (Interim) Account**|-763|  
 
-## GST Un-Application of Customer Advance with Sales Invoice
+## GST un-application of customer advance with sales invoice
 
 If this is found that the payment and invoice was wrongly applied  and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
 

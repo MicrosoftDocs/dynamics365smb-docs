@@ -15,7 +15,7 @@
 
 ---
 
-## Stock Transfer
+## Stock transfer
 
 Stock transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, where registration number is same, if the shipment location and recipient location both are in the same state, then CGST and SGST/UTGST are levied, other-wise, where the registration number is same, there shall be no levy.
 
@@ -76,7 +76,7 @@ Post the Transfer Order
     |**Inventory Account**|1000| 
     |**Inventory Adjustment Account**|-1000|
 
-## Stock Transfer for Bonded Warehouse
+## Stock transfer for bonded warehouse
 
 Bonded warehouse transfer means transfer of stock from customs warehouse to company warehouse. This scenarios occurs when material is stored at customs warehouse before moving it to company’s warehouse. In this case the customs duty will be paid only when material is moved from bonded warehouse.
 

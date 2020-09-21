@@ -16,7 +16,6 @@
 ---
 # Payment of TDS to Government Authorities
 
-## Payment of TDS to Government Authorities
 
 The TDS that have been deducted on various transactions, needs to be deposited to the government. Payment of TDS will be handled through Payment Journal or General Journal. Provision available to select the TDS Entries which assessee needs to pay to government authorities depends on the basis of filters, for example – TAN, Assesses, Date etc.
 

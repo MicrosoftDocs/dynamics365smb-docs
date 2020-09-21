@@ -20,7 +20,7 @@ The tax needs to be paid if supplier gets the payment first, therefore we need t
 
 The process of GST calculation on advance payment to vendor has been explained in this document.
 
-### Create a General Journal or a Bank or Cash Payment Voucher
+### Create a general journal or a bank or cash payment voucher
 
 1.  Choose the ![img](image/search.jpg)icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link. 
 2. Select **Vendor** in account type and select relevant **Vendor Code**, GST vendor type and registration number should be filled in vendor master.
@@ -50,7 +50,7 @@ For example, advance payment made to vendor against supply of services of INR 10
     |**CGST Payable Account**|-900|
     |**Bank Account**|-10000|
 
-## Reversal of Advance Payment made to Vendor, where there are reverse charges
+## Reversal of advance payment made to vendor, where there are reverse charges
 
 If the vendor advance needs to be corrected or the entry is wrongly posted, in such a case the entry can be reversed and new entry can be created.
 

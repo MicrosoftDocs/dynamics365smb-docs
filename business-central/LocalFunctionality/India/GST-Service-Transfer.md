@@ -16,16 +16,15 @@
 ---
 # Service Transfer
 
-## Create a Service Transfer Order
+Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy. Service transferred from one state to another state, then IGST will be levied.
 
-1.  Choose the ![img](image/search.jpg)icon, enter **Service Transfer Order**, and then choose the related link. 
+## Create a service transfer order
+
+1. Choose the ![img](image/search.jpg)icon, enter **Service Transfer Order**, and then choose the related link. 
 2. Select **Transfer-from Code** and **Transfer-to Code** on **Service Transfer Order** header. State Code and GST registration number should not be blank on **Location** card.
 3. Select **Ship Control Account** and **Receive Control Account** on **Service Transfer Order** header.
 
 4. Select G/L Account for **Transfer From G/L Account No.** on **Shipment Line** and **Transfer To G/L Account No.** on **Receipt Line**. GST Group Code, HSN/SAC Code should not be blank on **G/L Account** card.
-
-Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy.
- Service transferred from one state to another state, then IGST will be levied.
 
 For example, service for INR 10000 is being transferred on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 

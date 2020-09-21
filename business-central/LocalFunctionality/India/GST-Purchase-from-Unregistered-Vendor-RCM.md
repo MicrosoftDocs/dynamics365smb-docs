@@ -20,7 +20,7 @@ Persons whose aggregate turnover in a financial year does not exceed forty lakh 
 
 Purchase process for unregistered vendor has been explained in this document.
 
-## Create a Purchase Invoice
+## Create a purchase invoice
 
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 

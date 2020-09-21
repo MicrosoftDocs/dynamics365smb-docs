@@ -27,7 +27,7 @@ If exempted goods and services are purchased from registered vendor, then no GST
 Purchase process for registered vendor has been explained in this document.
 
 
-## Create a Purchase Invoice
+## Create a purchase invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.

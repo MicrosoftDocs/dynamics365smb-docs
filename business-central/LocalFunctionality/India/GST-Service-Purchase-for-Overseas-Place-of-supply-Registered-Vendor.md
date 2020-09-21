@@ -20,7 +20,7 @@ The supply of goods or services or both when the supplier is located in India an
 
 The process of computing tax on purchase from vendor with overseas place of supply has been explained in this document.
 
-## Create a Purchase Invoice
+## Create a purchase invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.

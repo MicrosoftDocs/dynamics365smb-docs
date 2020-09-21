@@ -16,7 +16,6 @@
 ---
 # Setting up Tax Deducted at Source (TDS), as per the provisions of the Income Tax Act, 1961
 
-## Overview
 
 Business Central has included Tax Deducted at Source (TDS) Feature to Indian Localization.
 
@@ -33,7 +32,7 @@ The Income Tax Act, 1961 specifies that tax deduction is to be made, for the spe
 - Automatic - These setup are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-#### Following is the list of Setups which will be pre-configured in **Business Central - IN Localization** with help of **Tax Engine**
+#### Following is the list of Setups which will be pre-configured with help of **Tax Engine**
 
 - Tax Types
 - Tax Entities
@@ -44,9 +43,9 @@ The Income Tax Act, 1961 specifies that tax deduction is to be made, for the spe
 
 For more information about Automatic Setup, see **Tax Engine** Information.
 
-#### Following is the list of Manual Setups, business user needs to configure manually in **Business Central**
+#### The following are required manual setups
 
-## To set up Tax Accounting Period.
+## To set up tax accounting period.
 
 Tax Accounting period and quarters need to be defined for TDS calculation.
 
@@ -67,7 +66,7 @@ Tax Accounting period and quarters need to be defined for TDS calculation.
     |**No. of Periods**|Specify the number of periods.|
     |**Period Length**|Specify the length of the period.|
 
-## To set up T.A.N Nos.
+## To set up T.A.N
 
 Tax Deduction Account Number (T.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to capture here.
 
@@ -84,7 +83,7 @@ Tax Deduction Account Number (T.A.N) allotted to a company can be more than one,
 >
 > It is mandatory to enter the T.A.N, on all TDS Transactions.
 
-## To set up Assessee Code
+## To set up assessee code
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TDS are different for different types of Assessee.
 
@@ -101,7 +100,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 >
 > Type should be selected correctly while creating Assessee codes as it will reflect in eTDS returns.
 
-## To set up TDS Section
+## To set up TDS section
 
 TDS Section represents the various sections under which tax deduction takes place as per the Income Tax Act 1961.
 
@@ -114,7 +113,7 @@ TDS Section represents the various sections under which tax deduction takes plac
     |**Description**|Enter the description of the mentioned TDS Section.|
     |**e-TDS**|Specifies the section code to be used in the TDS return.|
 
-## To set up Concessional Codes
+## To set up concessional codes
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.
 
@@ -126,7 +125,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
     |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act.|  
     |**Description**|Enter the description of the mentioned Concessional Codes.|
 
-## To set up TDS Nature of Remittances
+## To set up TDS nature of remittances
 
 Specifies the type of remittance.
 
@@ -138,7 +137,7 @@ Specifies the type of remittance.
     |**Code**|Enter the valid nature of remittance code applicable.|
     |**Description**|Enter the description of the code.|
 
-## To set up Act Applicable
+## To set up act applicable
 
 Specifies the Act under which income from Non-resident Indians will be taxed either the Income Tax Act (IT-Act), or as per the relevant rates prescribed in the relevant Double Tax Avoidance Agreement (DTAA).
 
@@ -149,7 +148,7 @@ Specifies the Act under which income from Non-resident Indians will be taxed eit
     |---------------------------------|---------------------------------------|   
     |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act, 1961.| 
 
-## To set up TDS Posting Setup
+## To set up TDS posting setup
 
 Specifies the general ledger account for each TDS Section defined in the system. System will update the TDS payable amount in the defined general ledger account.
 
@@ -162,7 +161,7 @@ Specifies the general ledger account for each TDS Section defined in the system.
     |**Effective Date**|Specifies the starting date.|
     |**TDS Account**|Specifies the general ledger account for posting of TDS payable amount.|
 
-## To set up TDS Rounding Precision
+## To set up TDS rounding precision
 
 Rounding precision for each and every component can be defined in system.
 
@@ -171,7 +170,7 @@ Rounding precision for each and every component can be defined in system.
 2. Define the relevant rounding precision against each tax components.
 
 
-## To set up TDS in Vendor Master
+## To set up TDS in vendor master
 
 TDS Section and concessional codes need to be defined for each vendor that is liable to TDS. Multiple TDS sections can be attached to one vendor.
 
@@ -204,11 +203,11 @@ TDS Section and concessional codes need to be defined for each vendor that is li
       |**Concessional Code**|Select the valid concessional code from lookup depending on the kind of services provided by vendor.|
       |**Certificate No.**|Certificate number provided by the vendor can be defined to justify the lower tax deduction.|
       
-## To set up TDS in Location Master
+## To set up TDS in location master
 
 **T.A.N** needs to be defined on locations from where the company files its returns.
 
-## To set up TDS in Company Information
+## To set up TDS in company information
 
 -  Following information needs to be defined in company information.
 
@@ -224,7 +223,7 @@ TDS Section and concessional codes need to be defined for each vendor that is li
       |**Ministry Type**|Specifies the Ministry type.|
       |**Ministry Code**|Specifies the Ministry code.|
 
-## To set up TDS in State Code
+## To set up TDS in state code
 
 **State Code for eTDS/TCS** needs to be defined on States master.
 

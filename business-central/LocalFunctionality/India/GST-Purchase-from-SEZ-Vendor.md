@@ -20,7 +20,7 @@ A special economic zone (SEZ) is a dedicated zone wherein businesses enjoy simpl
  
 Purchase process for SEZ vendor has been explained in this document.
 
-## Create a Purchase Invoice
+## Create a purchase invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **SEZ**.

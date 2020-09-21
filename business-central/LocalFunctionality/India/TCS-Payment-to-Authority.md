@@ -16,8 +16,6 @@
 ---
 # Payment of TCS to Government Authorities
 
-## Payment of TCS to Government Authorities
-
 The TCS that have been collected from various transactions, needs to be deposited to the government. Payment of TCS will be handled through Payment Journal/Bank Payment Voucher. Provision to select the TCS Entries which assessee needs to pay to the government authorities depends on the basis of filters, for example, T.C.A.N, Assesses, Date etc.
 
 1. Choose the ![img](image/search.jpg)icon, enter **Payment Journal** or **Bank Payment Voucher**, and then choose the related link.

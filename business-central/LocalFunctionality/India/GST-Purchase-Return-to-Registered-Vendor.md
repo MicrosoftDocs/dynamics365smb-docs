@@ -23,7 +23,7 @@ A buyer may require to return the goods or issue credit note due to various reas
 Purchase return process for registered vendor has been explained in this document.
 
 
-## Create a Purchase Return Order or Credit Memo
+## Create a purchase return order or credit memo
 
 1.  Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link. 
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Registered**.

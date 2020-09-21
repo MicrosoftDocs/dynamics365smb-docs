@@ -20,7 +20,7 @@ Sales made to an exempted customer are known as exempt sales. GST customer type 
 
 Process of sale to unregistered customer has been explained in this document.
 
-## Create a Sales Invoice or Credit Memo
+## Create a sales invoice or credit memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice** or **Sales Credit Memo**, and then choose the related link.
 2. Select **Customer** on **Sales Invoice** or **Sales Credit Memo** header, GST customer type should be **Exempted**.

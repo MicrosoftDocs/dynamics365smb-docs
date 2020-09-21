@@ -22,7 +22,7 @@ A customer may require to return the goods or issue credit note due to various r
 
 Process of sale return from a registered customer with overseas place of supply  has been explained in this document.
 
-## Create a Sales Return Order or Credit Memo
+## Create a sales return order or credit memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.

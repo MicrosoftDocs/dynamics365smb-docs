@@ -27,7 +27,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 - Cash Receipt Voucher
 - Bank Receipt Voucher
 
-## TCS calculation on General Journal, Sales Journal, Cash Receipt Journal, Sales Invoice, Sales Order, Sales Return Order, Sales Credit Memo.
+## TCS calculation on general journal, sales journal, cash receipt journal, sales invoice, sales order, sales return order, sales credit memo.
 
 - Create General Journal, Sales Journal, Cash Receipt Journal or Bank Receipt Journal
 
@@ -43,7 +43,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
   3. Select **G/L Account** or **Item Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** line.
   4. **TCS Nature of Collection**, **Location Code** and **T.C.A.N No.** fields should not be blank.
 
-### TCS to be calculated on Customer Invoice (through General Journal, Sales Journal, Sales Invoice or Sales Order)
+### TCS to be calculated on customer invoice (through general journal, sales journal, sales invoice or sales order)
 
 For example, invoice has been issued to customer for INR 10,000 on which 1% TCS is applicable for Nature of Collection 'Scrap'.
   
@@ -62,7 +62,7 @@ For example, invoice has been issued to customer for INR 10,000 on which 1% TCS 
     |**TCS Payable Account**|-100|
     |**Sales Account**|-10000|
 
-## TCS to be calculated on Customer Advance Payment (through General Journal, Cash Receipt Journal)
+## TCS to be calculated on customer advance payment (through general journal, cash receipt journal)
 
 For example, advance payment received from customer for INR 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”
 
@@ -81,7 +81,7 @@ For example, advance payment received from customer for INR 10,000 on which 1% T
     |**TCS Payable Account**|-99|
     |**Customer Account**|-9901|
 
-## Adjustment of calculated TCS on advance payment against Sales Invoice
+## Adjustment of calculated TCS on advance payment against sales invoice
 
 TCS which has been calculated on advance payment can be adjusted while creating Sales Invoice against that advance payment. TCS will not be calculated on Customer Invoices if advance payment, on which TCS has already been calculated, is applied to the invoice. System should check the TCS base amount on which TCS has been calculated on advance payment with the line amount of Sales Invoice and TCS will only be calculated on the line amount which is more than the TCS base amount. For example: If TCS base amount was 10,000.00 in advance payment and line amount is 20,000.00 on sales invoice, then TCS will be calculated on 10,000.00 on sales invoice.
 
@@ -105,7 +105,7 @@ TCS which has been calculated on advance payment can be adjusted while creating 
 > TCS is calculated after adjusting the TCS amount which was earlier calculated on advance payment.
 
 
-## TCS to be calculated on Non-Resident Customer Invoice in FCY
+## TCS to be calculated on non-resident customer invoice in FCY
 
 For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”. All foreign currency amounts will get converted into INR based on currency exchange rates, exchange rate has been considered, for this example is 1 USD = 65 INR.
 
@@ -126,7 +126,7 @@ For example, invoice has been raised to foreign customer for USD 10,000 on which
 
 
 
-## TCS calculation on Higher rate if Customer is not having PAN No.
+## TCS calculation on higher rate if customer is not having PAN
 
 For example, invoice has been raised to customer for INR 50,000 on which 1% TCS is applicable for Nature of collection “Scrap”. But if there is no PAN available for customer then higher TCS of 5% is applicable.
 
@@ -145,7 +145,7 @@ For example, invoice has been raised to customer for INR 50,000 on which 1% TCS 
     |**TCS Payable Account**|-2500|
     |**Sales Account**|-50000|
 
-## TCS calculation on multiple Nature of Goods in single invoice
+## TCS calculation on multiple nature of goods in single invoice
 
 For example, invoice has been raised to customer for INR 1,00,000. INR 50,000 each towards two nature of goods “Scrap” and “Timber”.
 
@@ -167,7 +167,7 @@ For example, invoice has been raised to customer for INR 1,00,000. INR 50,000 ea
     |**Sales Account - Scrap**|-50000|
     |**Sales Account - Timber**|-50000|
 
-## TCS on Sale of Scrap @ Lower Rate
+## TCS on sale of scrap @ lower rate
 
 For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrap. Customer has a certificate of income tax at Lower rate @ 0.5% on Scrap instead of normal rate.
 
@@ -186,7 +186,7 @@ For example, invoice has been raised to customer for INR 1,00,000 towards sale o
     |**TCS Payable Account**|-500|
     |**Sales Account**|-100000|
 
-## TCS on Sale of Scrape @ Zero Rate
+## TCS on sale of scrape @ zero rate
 
 For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrape. Customer has a certificate of income tax at Zero rate @ 0% on Scrap instead of normal rate.
 
@@ -204,7 +204,7 @@ For example, invoice has been raised to customer for INR 1,00,000 towards sale o
     |**Customer Account**|100000|
     |**Sales Account**|-100000|
 
-## TCS to be calculated on Sales Return (Sales Return Order or Sales Credit Memo)
+## TCS to be calculated on sales return (sales return order or sales credit memo)
 
 For example, sales return from customer for INR 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”.
 

@@ -22,7 +22,7 @@ A composite vendor has to register himself with the GST authorities and hence re
 
 Purchase process for composite vendor has been explained in this document.
 
-## Create a Purchase Invoice
+## Create a purchase invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Composite** or **Exempted**.

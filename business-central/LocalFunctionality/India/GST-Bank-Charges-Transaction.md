@@ -29,7 +29,7 @@ Process for GST calculation on bank charges has been explained in this document.
 5. **Location Code** should not be blank on **Bank Payment Voucher**.
 6. **Bank Charge** field should be marked true, select **Process** on the ribbon and click on **Bank Charges** -> select **Bank Charge** code and system will calculate the GST on bank charge amount. **GST Credit**, **GST Group Code** and **HSN/SAC Code** should not be blank on **Bank Charge** Code.
 
-### GST on Bank Charges
+### GST on bank charges
 
 Intra-State Bank Payment with GST on Bank Charges where Input Tax Credit is available, for example bank charge of INR 10000 to be paid to bank and GST (9% CGST and 9% SGST) has to be calculated on bank charges amount.
     
@@ -105,7 +105,7 @@ Inter-State Bank Payment with GST on Bank Charges where Input Tax Credit is not 
       |**Bank Account**|-11800| 
 
 
-## Deemed Value Calculation for GST Base Amount in Foreign Exchange Transactions
+## Deemed value calculation for GST base amount in foreign exchange transactions
 
 As per GST law, A person supplying the services of exchange of foreign currency may exercise option to ascertain value in terms of Rule 32(2)b for a financial Year. In service related to supply of foreign currency, including money changing, the problem of valuation always arises, therefore the Rule states that, consideration should be taken to the difference in the buying rate or the selling rate.
 

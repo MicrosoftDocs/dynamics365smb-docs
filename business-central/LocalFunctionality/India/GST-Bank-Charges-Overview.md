@@ -14,9 +14,8 @@
     ms.author: v-debapd
 
 ---
-# Setting up GST for Bank Charges
+# Setting up GST for Bank Charges 
 
-## Overview
 
 As per GST Law, GST is applicable on bank charges and ITC can be availed for specified services.  As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice is not provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it is not serially numbered and whether or not it contains the address of recipient of taxable service. 
 
@@ -27,13 +26,14 @@ The place of supply of banking and other financial services to any person shall 
 The place of supply of banking and other financial services shall be the location of the supplier of services. If any services are received from a foreign bank by an Indian customer, then the place of supply for such services becomes the place where the foreign bank is located i.e. outside India and hence any charges collected towards such services are not subject to India GST.
 
 
-### Following are the Setups, business users need to configure in **Business Central**
+### Required Setup
 
 - Bank Account
 - Bank Charges Master
 - Bank Charges Deemed Value Setup
 
-## To set up GST on Bank Account
+
+## To set up GST on a bank account
 
 This setup is required to specify that this bank is eligible to calculate GST on bank charges.
 
@@ -46,7 +46,7 @@ This setup is required to specify that this bank is eligible to calculate GST on
     |**GST Registration Status**|GST Registration type can be Blank or Registered. If GST registration No. is added in Bank Account Master the status will be updated as Registered.|
     |**GST Registration No.**|Registration No. of Bank shall be entered here. Registration number is mandatory, if GST Registration Status is Registered. Registration No. comprises 15-digits.|
 
-## To set up GST on Bank Charges Master
+## To set up GST on bank charges master
 
 This setup is required to calculate GST on bank charges.
 
@@ -64,7 +64,7 @@ This setup is required to calculate GST on bank charges.
     |**HSN/SAC**|All HSN/SAC Codes for GST Group code selected above shall be displayed as a dropdown for this field, business user has to select appropriate code.|
     |**Exempted**|This field is checked if the Bank Charges are exempted from payment of GST.|
 
-## To set up GST on Bank Charges Deemed Value Setup
+## To set up GST on bank charges deemed value setup
 
 This setup is required to estimate the Deemed Value for calculation of GST on foreign exchange purchases.
 

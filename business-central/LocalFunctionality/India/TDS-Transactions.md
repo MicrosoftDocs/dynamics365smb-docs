@@ -23,7 +23,7 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 - General Journal
 - Purchase Journal
 
-## Mandatory fields for TDS calculation on General Journal, Purchase Journal, Purchase Invoice, Purchase Order.
+## Mandatory fields for TDS calculation on general journal, purchase journal, purchase invoice, purchase order.
 
 - Create General Journal or Purchase Journal
 
@@ -38,7 +38,7 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
   3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
   s4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.
 
-### TDS to be calculated on Vendor Invoice (through General Journal, Purchase Journal, Purchase Invoice or Purchase Order)
+### TDS to be calculated on vendor invoice (through general journal, purchase journal, purchase invoice or purchase order)
 
 In the given scenario, vendor has issued an invoice for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
   
@@ -57,7 +57,7 @@ In the given scenario, vendor has issued an invoice for INR 50,000 on which 2% T
     |**TDS Payable Account**|-1000| 
     |**Vendor Account**|-49000|
 
-### TDS to be calculated on Vendor Advance Payment (through General Journal or Payment Journal)
+### TDS to be calculated on vendor advance payment (through general journal or payment journal)
 
 In the given scenario, advance payment made to vendor for INR 50,000 on which 2% TDS is applicable under TDS Section 194C.
 
@@ -81,7 +81,7 @@ On receiving the invoice from the vendor, TDS will be calculated on the differen
 > [!NOTE]
 > Advance payment needs to be applied with the invoice before posting. Otherwise TDS will be calculated on the whole invoice amount.
 
-### TDS to be calculated on Non-Resident Vendor Invoice in FCY
+### TDS to be calculated on non-resident vendor invoice in FCY
 
 In the given scenario, vendor issued an invoice for USD 10000 on which 2% TDS is applicable under TDS Section 195. All USD amounts will get converted into INR based on currency exchange rates. For this example exchange rate has been considered as USD 1 = INR 65.
 
@@ -103,7 +103,7 @@ In the given scenario, vendor issued an invoice for USD 10000 on which 2% TDS is
 > [!TIP]
 > Nature of Remittance and Act Applicable are mandatory for NRI Payments.
 
-### TDS calculation on Higher rate if Vendor is not having PAN
+### TDS calculation on higher rate if vendor is not having PAN
 
 PAN of vendor is mandatory for TDS calculation, but in case PAN is not available, higher rate of TDS will be deducted from the vendor.
 
@@ -124,7 +124,7 @@ In the given scenario, vendor issued an invoice for INR 50000 on which 2% TDS is
     |**TDS Payable Account**|-10000|
     |**Vendor Account**|-40000|
 
-### Expenses Partially subject to TDS
+### Expenses partially subject to TDS
 
 - In the given scenario, vendor issued an invoice for INR 112360, out of which INR 100000 is for auditing service on which 10% TDS will be applicable under Section 194J. INR 12360 is for other charges on which TDS is not applicable.
     
@@ -166,7 +166,7 @@ A single invoice can be raised by the vendor for multiple expenses. For example,
     |**Vendor Account**|-94000|
 
 
-### TDS on Expenses at Lower Rate or Zero Rate
+### TDS on expenses at lower rate or zero rate
 
 If a vendor have a certificate of concessional rate instead of normal rate then to handle that scenario, concessional codes can be configured and attached to those vendors.
 

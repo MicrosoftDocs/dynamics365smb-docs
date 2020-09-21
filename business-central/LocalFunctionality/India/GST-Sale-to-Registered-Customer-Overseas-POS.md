@@ -21,7 +21,7 @@ GST is destination based tax i.e consumption tax, which means tax will be levied
 
 Process of sale to a registered customer with overseas place of supply  has been explained in this document.
 
-## Create a Sales Invoice
+## Create a sales invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
 

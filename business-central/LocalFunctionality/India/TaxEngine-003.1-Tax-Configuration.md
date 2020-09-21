@@ -16,7 +16,7 @@
 
 This topic provides information about use case configuration.
 
-## Use Cases
+## Use cases
 Use case describes a business scenario, conditions which need to be met and event which will trigger the calculation of tax. A use case can be enabled or disabled as per the business need.  
 
 Use Case consist of following stages for calculation:
@@ -82,7 +82,7 @@ Use Case consist of following stages for calculation:
     Calculated tax, which is an output of a use case needs to be mapped to a tax ledger table. Example: On posting of general ledger entry for GST, there will be a new GST Entry created as a tax ledger for the posted transaction.
 
 
-## How to Attach Use Case to Business Event.
+## How to attach use case to business event.
 
 - To attach a use case to a Business Event go to ‘Tax Use Case Events’ from the Search box.
 
@@ -91,7 +91,7 @@ Use Case consist of following stages for calculation:
 - Attached used case can be seen on the fact box.
 
 
-## How to check Tax Information on Transaction
+## How to check tax information on transaction
 
 There are two fact boxes available on transaction page to view calculated tax
 

@@ -14,15 +14,14 @@
     ms.author: v-debapd
 
 ---
-# Setting up for GST TDS and GST TCS
+# Setup for GST TDS and GST TCS 
 
-## Overview
 
-- GST TDS 
+## GST TDS 
 
 As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient will issue a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient will pay the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which he can further adjust it against liability.
 
-- GST TCS
+## GST TCS
 
 As per Section 52 of CGST Act, 2017, every e-commerce operator is required to collect tax at the rate of 1% (0.5% of CGST and 0.5% of SGST for intra state supply or 1% of IGST on interstate supply) on the net value of taxable supplies provided the supplier is supplying goods or services through e-commerce operator (online market place) and consideration with respect to the supply is to be collected by the said e-commerce operator The taxable supplies includes total sales and returns. 
 The GST TCS amount collected by e-commerce operator shall be paid to GSTIN and the same will be reflected as available credit for supplier in their electronic cash ledger that can be utilized to setoff liability.
@@ -34,7 +33,7 @@ GST TDS is applicable only for Registered Suppliers
 The calculation of GST TCS is provided on Bank or Cash Payment and Receipt Vouchers.
 
 
-## To set up GST TDS/TCS Setup
+## To set up GST TDS/TCS
 
 This setup is required for calculation of GST TDS and GST TCS on payment to vendor or receipt from customer.
 

@@ -16,7 +16,7 @@
 
 This topic provides information about tax types that a tax authority can levy in the same jurisdiction or a different jurisdiction, calculation and posting handling of the same.
 
-## Tax Types
+## Tax types
 
 There can be various type of taxes applicable for a company. Examples:
 
@@ -26,7 +26,7 @@ There can be various type of taxes applicable for a company. Examples:
 - **WHT** : Withholding Tax.
 
 
-## Tax Entities
+## Tax entities
 
 These are tables which are specific to a Tax Type. This is defined to restrict the list of tables in a lookup. A Tax Entity can be of type ‘Master’ or ‘Transaction’.
 
@@ -34,7 +34,7 @@ These are tables which are specific to a Tax Type. This is defined to restrict t
 - Transaction: Purchase Line, Sales Line, Transfer Line, Gen. Journal Line etc.
 
 
-## Input Parameters
+## Input parameters
 
 Attributes of tax type are inputs that can be used as a parameter in tax calculation or they can also be used in reporting. For example :
 
@@ -62,7 +62,7 @@ Certain tax type may have components to be computed as part of tax calculation. 
 - E-Cess: is a component of Tax Type TDS.
 
 
-## Rate Setup
+## Rate setup
 For each tax type, parameters are defined basis which rate is specified in the setup.
 
 These Parameters can be of following types:
@@ -77,7 +77,7 @@ These Parameters can be of following types:
 
 
 
-## Tax Rates
+## Tax rates
 We can define tax rates on combination of tax parameters defined for a tax type. Rate defined for a combination cannot be repeated.
 
 

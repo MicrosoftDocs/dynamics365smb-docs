@@ -20,7 +20,7 @@ Export of goods is defined as taking goods out of India to a place outside India
  
 Process of sale to foreign customer has been explained in this document.
 
-## Create a Sales Invoice
+## Create a sales invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Export** or **Deemed Export** or **SEZ Development** or **SEZ Unit**.

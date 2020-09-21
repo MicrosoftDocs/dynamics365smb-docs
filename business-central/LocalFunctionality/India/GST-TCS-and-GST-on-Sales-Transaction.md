@@ -19,7 +19,7 @@ The Government has placed the responsibility on the e-commerce operators to coll
 
 The process of calculation of TCS and GST has been explained in this document.
 
-## Create a Sales Invoice
+## Create a sales invoice
 
 
 1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.

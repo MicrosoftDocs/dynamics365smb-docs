@@ -18,7 +18,7 @@
 
 Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
-### Mandatory fields in Cash on Bank Payment Voucher
+### Mandatory fields in cash or bank payment voucher
 
 1. Choose the ![img](image/search.jpg)icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
 2. Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
@@ -54,7 +54,7 @@ For example, service amount is INR 20000 and advance payment made to vendor for 
 
 Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (i.e. 9% CGST and 9% SGST/UTGST) and 10% TDS, will be charged, and the advance payment will be applied with the invoice.
 
-### Mandatory fields on Purchase Invoice
+### Mandatory fields on purchase invoice
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header.

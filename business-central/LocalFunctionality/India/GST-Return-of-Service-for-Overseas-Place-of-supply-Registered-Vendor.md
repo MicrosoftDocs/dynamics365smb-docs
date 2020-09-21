@@ -20,7 +20,7 @@ The supply of goods or services or both when the supplier is located in India an
 
 The process of computing tax on purchase return to a vendor with overseas place of supply has been explained in this document.
 
-## Create a Purchase Return Order or Purchase Credit
+## Create a purchase return order or purchase credit memo
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Registered**.

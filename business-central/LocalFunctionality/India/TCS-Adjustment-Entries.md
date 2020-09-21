@@ -18,7 +18,7 @@
 
 TCS adjustment is applicable for any correction of the TCS amount, TCS rate and TCS base amount already calculated but not paid to government authorities. Provision is available to enter the new TCS rates, new TCS amount and new TCS base amount for the TCS entry which was created against invoice or payment and not paid to government authorities. System should recalculate TCS amount and adjustments would be made accordingly. The revised TCS amount should be updated in the relevant GL Accounts for TCS Payable and Customer Account. Existing TCS entry should be updated with revised TCS percentages, TCS amount and TCS base amount.
 
-## TCS Adjustment Process
+## TCS adjustment process
 
 1. Choose the ![img](image/search.jpg)icon, enter **TCS Adjustment Journal**, and then choose the related link.
 2. Select the relevant transaction number in **Transaction No.** field from the drop down, and the selected line, will get populated with the posted record. Following information can be changed, in the adjustment journal as per the requirement:

@@ -68,7 +68,7 @@ TIME, TODAY, WORKDATE, CURRENTDATETIME values can be picked from the current dat
 Tax Attributes can be picked which are defined with tax type.
 
 
-#### component
+#### Component
 
 Tax Component amounts computed based on percentage captured can be picked from Tax Rates.
 

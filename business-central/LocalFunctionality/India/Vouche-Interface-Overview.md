@@ -28,7 +28,7 @@ Feature required to provide the voucher interface as per Indian business require
 - Cash Payment Voucher - Used for transactions that will credit the Cash Account.
 - Contra Voucher - Entries which are affecting the Cash and Bank Account together, are termed as Contra Vouchers. For example, Withdrawal from bank.
 
-## Setting up Voucher Interface
+## Setting up voucher interface
 
 ### The following setups are required for voucher interface
 

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/16/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Set Up Bank Accounts

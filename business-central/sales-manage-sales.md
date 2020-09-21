@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/27/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Sales

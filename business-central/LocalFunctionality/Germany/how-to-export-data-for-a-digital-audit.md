@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Export Data for a Digital Audit

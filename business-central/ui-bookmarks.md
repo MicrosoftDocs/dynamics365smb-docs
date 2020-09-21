@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 ---
 
 # Bookmark a Page or Report on Your Role Center

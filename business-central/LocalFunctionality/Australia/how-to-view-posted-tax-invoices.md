@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # View Posted Tax Invoices

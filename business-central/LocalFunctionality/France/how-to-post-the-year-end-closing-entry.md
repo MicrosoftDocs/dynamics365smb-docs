@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/23/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Post the Year-End Closing Entry in the French Version

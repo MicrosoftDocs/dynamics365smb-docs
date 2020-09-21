@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/22/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Use Time Sheets for Jobs

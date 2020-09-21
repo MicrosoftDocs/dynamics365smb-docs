@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: planning, design
     ms.date: 04/20/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Planning Parameters

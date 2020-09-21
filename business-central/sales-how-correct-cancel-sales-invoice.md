@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 07/03/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Correct or Cancel Unpaid Sales Invoices

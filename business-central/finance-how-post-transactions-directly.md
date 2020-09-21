@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Post Transactions Directly to the General Ledger

@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Understanding WIP Methods

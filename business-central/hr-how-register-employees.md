@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 04/01/2020
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 # Register Employees

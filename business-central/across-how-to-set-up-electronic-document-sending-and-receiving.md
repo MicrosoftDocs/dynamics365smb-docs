@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/21/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Set Up Electronic Document Sending and Receiving

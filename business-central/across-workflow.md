@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/22/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Workflows in Dynamics 365 Business Central

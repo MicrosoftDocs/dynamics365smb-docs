@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 07/21/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Edit Posted Documents

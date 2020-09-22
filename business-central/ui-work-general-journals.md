@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/10/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Working with General Journals

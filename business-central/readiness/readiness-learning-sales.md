@@ -1,10 +1,10 @@
 ---
 title: Partner sales and marketing learning catalog
-description: Find all the available learning for Business Central.
+description: Find all the available learning for partner sales and marketing roles in Business Central.
 author: loreleishannonmsft
 ms.date: 04/30/2020
 ms.topic: article
-ms.author: v-lshann
+ms.author: margoc
 ---
 
 # Partner Sales and Marketing Learning Catalog
@@ -38,7 +38,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Search customer stories](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Find customer reference stories for Dynamics 365 Business Central on [https://customer.microsoft.com](https://customer.microsoft.com).  | Website |                       |
 | [Cloud Solution Provider Program](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Partners only) About the Cloud Solution Provider program     | Website |                       |
 | [Marketing in a Cloud World](https://mbspartner.microsoft.com/OSS/Topic/19) | (Partner only) Addressing how to optimize your marketing practices and realign your marketing principles for a cloud-first world will be a primary factor in determining the success or failure of your organization moving forward. This series of videos and resources provide marketing best practices, content creation guidance, pragmatic tips and useful tools for applying cloud marketing principals to drive demand for your solutions. | Topic page | 35 minutes |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Partner only) Addressing how to optimize your marketing practices and realign your marketing principles for a cloud-first world will be a primary factor in determining the success or failure of your organization moving forward. This series of videos and resources provide marketing best practices, content creation guidance, pragmatic tips and useful tools for applying cloud marketing principals to drive demand for your solutions.   | Topic page    | 35 minutes            |
 | [Cloud Solution Provider program - selling in-demand cloud solutions](https://docs.microsoft.com/partner-center/csp-overview)  | The Cloud Solution Provider program (CSP) helps you go beyond reselling licenses to being more involved in your customer’s business.   | Website      |                       |
 | [Cloud Solution Provider program - compare partner support programs](https://partner.microsoft.com/support/partnersupport) | Watch this video to see how to pick the right partner support plan for your business. Then see a side-by-side comparison below.    | Website                               |                       |
 | [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, “demo-oriented” solution sales approach that typically leads to highly customized product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customizable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |

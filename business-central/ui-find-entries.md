@@ -69,4 +69,4 @@ After you make a selection, enter the relevant search information in the fields 
 
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  
-[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items)  
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  

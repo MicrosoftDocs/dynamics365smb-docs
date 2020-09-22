@@ -135,7 +135,7 @@ You can also delete individual page customizations for a profile. For more infor
 
 As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. for more information, see [SQL Server technical documentation](/sql/sql-server/?view=sql-server-ver15).  
+For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
 ## See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

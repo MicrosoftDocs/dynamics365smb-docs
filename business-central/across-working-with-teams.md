@@ -16,11 +16,11 @@ ms.author: jswymer
 
 [!INCLUDE [prodshort](includes/2020rw_online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that let's you meet, chat, call and collaborate with people you work with. [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you meet, chat, call, and collaborate with people you work with. [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries.
 
 ## Overview
 
-The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you do the following:
+The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 
 - Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record.
 - Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
@@ -33,8 +33,8 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 - A Teams subscription.
 - Permissions in Business Central
-  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into Teams and have it expand into a card, you must have at least read access to the target page and its data.
-  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, viewing more details for a card requires the user to have read permission on the page and its data. If they want to change data, they'll need modify permissions.
+  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to read to the target page and its data.
+  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, to view more details for a card, the user has to have read permission on the page and its data. If they want to change data, they'll need modify permissions.
 
 ## Add the Business Central app to Teams
 
@@ -49,7 +49,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 1. Sign in to [!INCLUDE [prodshort](includes/prodshort.md)] using your browser.
 2. Open the record that you want to share.
 
-    The app for Teams is designed to display card type pages from Business Central. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
+    The app is designed to display card type pages from [!INCLUDE [prodshort](includes/prodshort.md)]. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
 3. Copy the entire URL from the browser's address bar.
 4. Go to Teams and start a conversation.

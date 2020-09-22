@@ -22,14 +22,14 @@ ms.author: jswymer
 
 The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you do the following:
 
-- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record. 
+- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record.
 - Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
 [![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
-## Requirements
+## Prerequisites
 
 - A Teams subscription.
 - Permissions in Business Central
@@ -56,7 +56,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 5. Paste the URL into the box where you add a message.
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prodshort](includes/prodshort.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
-    > [!TIP]
+    > [!NOTE]
     > You'll only have to do this step once or until you change which [!INCLUDE [prodshort](includes/prodshort.md)] environment Teams connect to.
 
 7. Wait a moment while a card is generated in the message box.

@@ -93,6 +93,17 @@ The following topics describe the local functionality in the Indian version of [
     * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
 
+* Fixed Asset **Comming Soon**
+
+* Subcontracting **Comming Soon**
+
+* Gate Entry **Comming Soon**
+
+* Stale Cheque **Comming Soon**
+
+* Capital Work In Progress **Comming Soon**
+
+
 
 ## See Also
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

@@ -11,7 +11,7 @@ ms.author: edupont
 ---
 # Warnings and Error Messages in Dynamics 365 Business Central
 
-During your work day, you might see notifications in [!INCLUDE [prodshort](includes/prodshort.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips to how to make progress.  
+During your work day, you might see notifications in [!INCLUDE [prodshort](includes/prodshort.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips on how to make progress.  
 
 ## In-product user assistance
 

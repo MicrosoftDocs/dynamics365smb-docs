@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 09/22/2020
 ms.author: edupont
 
 ---
@@ -100,6 +100,7 @@ If your organization later sets up warehouse management, in most cases, you must
 
 [Inventory](inventory-manage-inventory.md)  
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
+[Tariff numbers](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  

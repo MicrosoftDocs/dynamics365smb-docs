@@ -26,7 +26,7 @@ The place of supply of banking and other financial services to any person shall 
 The place of supply of banking and other financial services shall be the location of the supplier of services. If any services are received from a foreign bank by an Indian customer, then the place of supply for such services becomes the place where the foreign bank is located i.e. outside India and hence any charges collected towards such services are not subject to India GST.
 
 
-### Required Setup
+### The following setups are required: 
 
 - [Bank Accounts](gst-bank-charges-overview.md#to-set-up-gst-on-bank-account)
 - [Bank Charges Master](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-master)

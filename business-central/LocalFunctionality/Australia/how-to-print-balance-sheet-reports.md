@@ -1,6 +1,6 @@
 ---
-    title: How to Print Balance Sheet Reports
-    description: You can use the Balance Sheet report to view the company’s balance sheet.
+    title: Print Balance Sheet Reports in the Australian version
+    description: You can use the Balance Sheet report to view the company's balance sheet in the Australian version.
 
     author: SorenGP
 
@@ -11,17 +11,18 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
-# Print Balance Sheet Reports
-You can use the **Balance Sheet** report to view the company’s balance sheet.  
+# Print Balance Sheet Reports in the Australian Version
+
+You can use the **Balance Sheet** report to view the company's balance sheet.  
 
  This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  
 
 ### To print a balance sheet report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Balance Sheet**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the relevant link.  
 
 2.  On the **Balance Sheet** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 

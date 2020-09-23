@@ -1,6 +1,6 @@
 ---
- title: How to Set Up Withholding Tax
- description: Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.
+ title: Set Up Withholding Tax in the Australian version
+ description: Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld in the Australian version. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.
  author: edupont04
 
  ms.service: dynamics365-business-central
@@ -13,7 +13,7 @@
  ms.author: edupont
 
 ---
-# Set Up Withholding Tax
+# Set Up Withholding Tax in the Australian Version
 
 Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.  
 
@@ -21,7 +21,7 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 
 ## To enable withholding tax
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 
 2. On the **Local Functionalities** FastTab, choose the **Enable WHT** field.  
 
@@ -40,7 +40,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 ### To set up a product posting group for withholding tax  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Product Posting Group**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -54,7 +54,7 @@ Finally, you must set up how these posting groups must be used when documents ar
 
 ### To set up posting for withholding tax  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Posting Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
 
 2. Fill in the fields as described in the following table.  
 

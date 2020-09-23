@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 07/07/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Record Special Sales Prices and Discounts

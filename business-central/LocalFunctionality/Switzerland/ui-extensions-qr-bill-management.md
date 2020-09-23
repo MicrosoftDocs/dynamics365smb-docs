@@ -58,7 +58,7 @@ You can receive QR-bills in several places in [!INCLUDE[d365fin](../../includes/
 ### To receive a QR-bill through an incoming documents
 Receiving a QR-bill through incoming documents is especially useful when the process is automated, but you can also manually receive a QR-bill through incoming documents.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Documents**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.
 2. In the **Incoming Documents** list, create a new entry by choosing **New**, and then **New**. 
 3. On the **Incoming Document** page, enter a description in the **Description** field.
 4. To import the QR-bill, choose **Actions**, then **QR-Bill**, and then **Scan QR-Bill** to scan a QR-bill into the incoming document entry.

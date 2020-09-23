@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # View Ledger Reconciliations
@@ -21,7 +21,7 @@ The following procedure applies to viewing reconciliation between the general le
 
 ## To view general ledger reconciliation with the customer ledger  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
 2.  Choose the **Reports** action, choose the **France** action, and then choose the **GL/Cust. Ledger Reconciliation** action.  
 3.  On the **GL/Cust. Ledger Reconciliation** page, set the appropriate filters.  
 

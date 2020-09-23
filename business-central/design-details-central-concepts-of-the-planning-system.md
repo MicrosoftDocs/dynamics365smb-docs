@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Central Concepts of the Planning System
@@ -87,6 +87,14 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### Optimizing Performance for Low-Level Calculations
+Low-level code calculations can impact system performance. To mitigate the impact, you can disable **Dynamic low-level code calculation** on the **Manufacturing Setup** page. When you do, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that you create a recurrent job queue entry that will update low-level codes daily. You can ensure that the job will run outside working hours by specifying a start time the **Earliest Start Date/Time** field.
+
+You can also enable logic that speeds up low-level code calculations by selecting **Optimize low-level code calculation** on the **Manufacturing Setup** page. 
+
+> [!IMPORTANT]
+> If you choose to optimize performance, [!INCLUDE[d365fin](includes/d365fin_md.md)] will use new calculation methods to determine low-level codes. If you have an extension that relies on the events used by the old calculations, the extension may stop working.   
 
 ### Locations / Transfer-Level Priority  
 Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  

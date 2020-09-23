@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Export Data for a Digital Audit
@@ -20,7 +20,7 @@ If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 ### To export data for a digital audit
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
 
 2.  On the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 

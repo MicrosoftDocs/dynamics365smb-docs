@@ -1,6 +1,6 @@
 ---
-    title: How to Print Deposit Slip Reports
-    description: The Deposit Slip report displays cash and check details in a format required by the bank.
+    title: Print Deposit Slip Reports in the Australian version
+    description: The Deposit Slip report displays cash and check details in a format required by the bank in the Australian version.
 
     author: SorenGP
 
@@ -11,15 +11,16 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
-# Print Deposit Slip Reports
+# Print Deposit Slip Reports in the Australian Version
+
 The **Deposit Slip** report displays cash and check details in a format required by the bank.  
 
 ## To print a deposit slip report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  Select the **Bank** journal.  
 3.  Choose the **Edit Journal** action.  
 4.  On the **Cash Receipt Journal** page, choose the **Print Deposit Slip** action.  

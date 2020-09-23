@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Create Custom Company Configuration Packages
@@ -34,6 +34,11 @@ Another approach would be to create a package that includes the tables that defi
 -   Inventory Posting Setup  
 
 To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
+
+> [!IMPORTANT]
+> Use caution if you choose tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.
+>
+> The XML processor accepts only some special characters, and will remove those it does not. If removing a special character, such as the % sign in "Field 1%," results in two or more tables or fields with the same name an error will occur when you export or import a configuration package.
 
 ## To create a custom company configuration package  
 1.  Create a new company. For more information, see [Creating New Companies in Business Central](about-new-company.md).  

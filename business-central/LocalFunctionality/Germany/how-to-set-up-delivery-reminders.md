@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Delivery Reminders
-    description: In Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
+    title: Set Up Delivery Reminders in the German version
+    description: In the German version of Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
 
     author: SorenGP
 
@@ -11,16 +11,16 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/23/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
-# Set Up Delivery Reminders
+# Set Up Delivery Reminders in the German Version
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders on the **Purchases & Payables Setup** page.  
 
 ## To set up delivery reminders  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Default Del. Rem. Date Field** field, specify one of the following options as described in the following table.  
 
     |Option|Description|  

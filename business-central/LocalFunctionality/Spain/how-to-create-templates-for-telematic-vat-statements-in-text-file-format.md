@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Create Templates for Telematic VAT Statements in Text File Format
@@ -23,7 +23,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 ## To create a template for VAT statements in text file format  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Design txt file** action.  
 3.  On the **Transference Format** page, fill in the fields as described in the following table.  
 

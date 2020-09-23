@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Manage Job Supplies
@@ -25,7 +25,7 @@ The following procedure shows how to use a purchase invoice to purchase products
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
-3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the personalization tools if a field is not visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
     The value that you select in the **Job Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [Invoice Jobs](projects-how-invoice-jobs.md).
 4. Choose the **Post** action.

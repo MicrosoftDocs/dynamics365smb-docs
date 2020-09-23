@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Close an LSV Collection
@@ -23,7 +23,7 @@ When the collection is complete, the current collection number is assigned in th
 
 ## To close an LSV collection  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  Select the required journal line, and then choose the **Modify Posting Date** action. This will modify the value in the **Credit Date** field by using the value suggested during the LSV collection.  
 3.  In the **New Date** field, enter the new date.  
 4.  Choose the **Close Collection* action*.  
@@ -37,7 +37,7 @@ When the collection is complete, the current collection number is assigned in th
 
 ## To reopen an LSV collection  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  Select the required journal line for which you want to reopen the collection, on then choose the **Reopen Collection** action.  
 
     > [!NOTE]  

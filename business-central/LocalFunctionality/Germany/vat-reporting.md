@@ -1,6 +1,6 @@
 ---
-    title: VAT Reporting
-    description: You can report VAT electronically to the tax authorities.
+    title: VAT Reporting in the German version
+    description: You can report VAT electronically to the tax authorities in the German version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -10,10 +10,11 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
-# VAT Reporting
+# VAT Reporting in the German version
+
 You can report VAT to the German tax authorities on the Elektronische Steuererklärungen (ELSTER) online portal. You can generate and export your VAT declaration as an XML file that you send to the German ELSTER portal. For more information, see [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md).  
 
 You can print the following local VAT reports.  

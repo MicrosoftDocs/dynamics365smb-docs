@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/16/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Set Up Bank Accounts
@@ -42,7 +42,7 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
-3. Choose **Navigate**, and then choose the **Bank Accounts** action.
+3. Choose the **Bank Accounts** action.
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

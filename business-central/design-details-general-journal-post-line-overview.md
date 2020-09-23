@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: design, general ledger, post
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # General Journal Post Line Overview

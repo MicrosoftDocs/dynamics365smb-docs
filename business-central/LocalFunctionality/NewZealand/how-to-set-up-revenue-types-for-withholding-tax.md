@@ -1,9 +1,8 @@
 ---
-    title: How to Set Up Revenue Types for Withholding Tax
-    description: Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Set Up Revenue Types for Withholding Tax in the New Zealand version
+    description: Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
@@ -14,11 +13,12 @@
     ms.author: bholtorf
 
 ---
-# Set Up Revenue Types for Withholding Tax
+# Set Up Revenue Types for Withholding Tax in the New Zealand Version
+
 Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates. You can use the **WHT Revenue Types** page to set up the revenue types for withholding tax.  
 
 ## To set up revenue types for withholding tax  
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **WHT Revenue Types**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Revenue Types**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  

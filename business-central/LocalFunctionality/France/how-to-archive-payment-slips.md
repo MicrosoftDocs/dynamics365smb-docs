@@ -13,7 +13,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Archive Payment Slips
@@ -26,7 +26,7 @@ You can archive the payment slip by using the following methods:
 
 ## To archive a payment slip  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select the relevant payment slip, and then choose the **Edit** action.  
 3.  On the **Payment Slip** page, choose the **Archive** action.  
 4.  Choose the **Yes** button to archive the payment slip.  
@@ -36,7 +36,7 @@ You can archive the payment slip by using the following methods:
 
 ## To archive a batch of payment slips  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
 2.  On the **Archive Payment Slips** page, on the **Payment Header** FastTab, select the appropriate filters.  
 3.  Choose the **OK** button.  
 

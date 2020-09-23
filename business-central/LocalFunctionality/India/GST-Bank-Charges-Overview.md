@@ -26,18 +26,18 @@ The place of supply of banking and other financial services to any person shall 
 The place of supply of banking and other financial services shall be the location of the supplier of services. If any services are received from a foreign bank by an Indian customer, then the place of supply for such services becomes the place where the foreign bank is located i.e. outside India and hence any charges collected towards such services are not subject to India GST.
 
 
-### Required Setup
+### The following setups are required: 
 
-- Bank Account
-- Bank Charges Master
-- Bank Charges Deemed Value Setup
+- [Bank Accounts](gst-bank-charges-overview.md#to-set-up-gst-on-bank-account)
+- [Bank Charges Master](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-master)
+- [Bank Charges Deemed Value Setup](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-deemed-value-setup)
 
 
 ## To set up GST on a bank account
 
 This setup is required to specify that this bank is eligible to calculate GST on bank charges.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Account**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Account**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -50,7 +50,7 @@ This setup is required to specify that this bank is eligible to calculate GST on
 
 This setup is required to calculate GST on bank charges.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Charges**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Charges**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -68,7 +68,7 @@ This setup is required to calculate GST on bank charges.
 
 This setup is required to estimate the Deemed Value for calculation of GST on foreign exchange purchases.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Charges Deemed Value Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Charges Deemed Value Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 

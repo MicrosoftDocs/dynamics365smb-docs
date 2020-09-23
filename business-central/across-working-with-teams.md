@@ -31,10 +31,14 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 ## Prerequisites
 
-- A Teams subscription.
+- A Microsoft Teams (subscription
+
+    I don't have a Microsoft 365 account. How do I access Microsoft Teams?
+To use Microsoft Teams, you need a Microsoft 365 account with the appropriate Microsoft 365 license plan listed below. Talk to your company's IT administrator to get an account or sign your company up for Microsoft 365.
 - Permissions in Business Central
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to read to the target page and its data.
-  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, to view more details for a card, the user has to have read permission on the page and its data. If they want to change data, they'll need modify permissions.
+  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, to view more details for a card, you and other users must have read permission on the page and its data. If they want to change data, they'll need modify permissions.
+
 
 ## Add the Business Central app to Teams
 

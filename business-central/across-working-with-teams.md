@@ -39,7 +39,6 @@ To use Microsoft Teams, you need a Microsoft 365 account with the appropriate Mi
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to read to the target page and its data.
   - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, to view more details for a card, you and other users must have read permission on the page and its data. If they want to change data, they'll need modify permissions.
 
-
 ## Add the Business Central app to Teams
 
 1. Open and sign in to Teams.

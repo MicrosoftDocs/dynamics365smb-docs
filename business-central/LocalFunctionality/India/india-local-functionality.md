@@ -14,6 +14,8 @@
 
 ---
 # India Local Functionality
+[!INCLUDE[vnext_preview](../../includes/vnext_preview_md)]
+
 The following topics describe the local functionality in the Indian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## Feature Availability

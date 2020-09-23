@@ -16,6 +16,7 @@
 ---
 # Setup for GST TDS and GST TCS 
 
+This topic explains the requirement and the process of setting up GST TDS and GST TCS.
 
 ## GST TDS 
 

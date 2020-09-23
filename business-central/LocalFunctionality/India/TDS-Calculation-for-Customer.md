@@ -15,7 +15,9 @@
 
 
 ---
-# Transactions on TDS for Customer 
+# TDS for Customer 
+
+This topic explains the process of calculating TDS on customer payments.
 
 ## TDS calculation and tracking of TDS certificate receivable
 

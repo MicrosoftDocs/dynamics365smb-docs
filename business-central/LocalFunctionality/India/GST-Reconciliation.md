@@ -16,6 +16,8 @@
 ---
 # GST Reconciliation
 
+This topic explains the setups and process of GST reconciliation.
+
 ## Overview
 
 - Line wise details of all invoices, supplementary invoices, debit notes and credit notes issued by a vendor or supplier towards Outward supplies made during a month shall be reported in GSTR-1 by 10th of the succeeding month.

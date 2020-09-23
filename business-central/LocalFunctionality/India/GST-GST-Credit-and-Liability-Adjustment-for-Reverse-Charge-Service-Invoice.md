@@ -16,6 +16,8 @@
 ---
 # GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
 
+This topic explains the process of adjusting GST Credit and GST Liability for open reverse charge goods and services invoices.
+
 - For reverse charge invoices of goods, GST Liability and Credit shall be generated immediately, or in next 30 days from date of issue of supplier invoice, if payment to supplier is not made against it.
 
 - For reverse charge for service invoices, GST Liability and Credit shall be generated immediately, or 60 days from date of issue of supplier invoice, if payment to supplier is not made against it.

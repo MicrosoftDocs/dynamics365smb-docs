@@ -16,6 +16,8 @@
 ---
 # GST Input Tax Credit Adjustments
 
+This topic explains the requirement and process of GST credit adjustment.
+
 ## Credit adjustment journal
 
 Credit adjustment journal is designed to handle certain credit adjustments arising on reconciliation.

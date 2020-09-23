@@ -17,6 +17,8 @@
 ---
 # Voucher Transaction
 
+This topic explains the process of recording day-to-day transactions through voucher interface.
+
 ## Type of vouchers and transactions
 
 Following are the vouchers needed to record the transactions like Cash, Bank, and Journals for this functionality:

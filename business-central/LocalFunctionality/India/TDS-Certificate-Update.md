@@ -17,6 +17,8 @@
 ---
 # TDS Certificate Tracking
 
+This topic explains how to track and update the TDS certificate receivable or received from a customer.
+
 ## TDS certificate details assign, update and rectification process
 
 - Assign TDS certificate details

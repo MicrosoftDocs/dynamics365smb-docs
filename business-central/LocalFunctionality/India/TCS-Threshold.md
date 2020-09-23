@@ -16,6 +16,8 @@
 ---
 # TCS with Threshold
 
+This topic explains the requirement of threshold amount in TCS and  the process of calculating TCS for such transactions.
+
 ## TCS calculation considering threshold limits
 
 TCS threshold defines the threshold limit for each TCS Nature of Collection.  TCS can be deducted only if the total transaction with the assessee exceeds the threshold limit in the financial year.

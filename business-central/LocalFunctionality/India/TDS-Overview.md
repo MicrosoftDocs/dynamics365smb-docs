@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# Setting up Tax Deducted at Source (TDS), as per the provisions of the Income Tax Act, 1961
+# Setting Up Tax Deducted at Source (TDS), as per the provisions of the Income Tax Act, 1961
 
 
 Business Central has included Tax Deducted at Source (TDS) Feature to Indian Localization.
@@ -25,7 +25,7 @@ Income from several sources is subjected to TDS. Presently this concept of TDS i
 
 The Income Tax Act, 1961 specifies that tax deduction is to be made, for the specified incomes, on credit or on payment, whichever is earlier.
 
-## Setting up TDS
+## Setting Up TDS
 
 ### TDS has two different types of setups
 

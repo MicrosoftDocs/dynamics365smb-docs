@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 07/23/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Reconcile Payments Using Automatic Application

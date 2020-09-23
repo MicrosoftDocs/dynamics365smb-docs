@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Calculate Accelerated Depreciation
@@ -25,7 +25,7 @@ Entries are transferred to the fixed asset general journal when you select an ac
 
 ## To calculate accelerated depreciation  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
 2.  On the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

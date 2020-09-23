@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Print VAT Reports
@@ -24,7 +24,7 @@ You can use the following reports for VAT reporting:
 
 ## To print the day book VAT entry report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Day Book VAT Entry**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book VAT Entry**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the field as described in the following table.  
 
     |Field|Description|  
@@ -35,7 +35,7 @@ You can use the following reports for VAT reporting:
 
 ## To print the day book customer ledger entry report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Day Book Cust. Ledger Entry**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Cust. Ledger Entry**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -47,7 +47,7 @@ You can use the following reports for VAT reporting:
 
 ## To print the unposted sales report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Unposted Sales**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Unposted Sales**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -59,7 +59,7 @@ You can use the following reports for VAT reporting:
 
 ## To print the day book vendor ledger entry report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Day Book Vendor Ledger Entry**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Day Book Vendor Ledger Entry**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -71,7 +71,7 @@ You can use the following reports for VAT reporting:
 
 ## To print the unposted purchases report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Unposted Purchases**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Unposted Purchases**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

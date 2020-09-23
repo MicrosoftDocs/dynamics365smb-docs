@@ -1,6 +1,6 @@
 ---
-    title: How to Create Deposits | Microsoft Docs
-    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
+    title: How to Create Deposits [US]
+    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the US version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -10,10 +10,11 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
-# Create Deposits
+# Create Deposits in the US Version
+
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
 The **Deposit** page specifies bank deposit information. The information includes the bank account number, total deposit amount, deposit lines, posting date, document date, department code, currency code, and deposit notes. You can use the page to create new deposits, post deposits, print deposits, view deposit comments, or view a report that shows the deposit amount to be reconciled.
@@ -25,7 +26,7 @@ Deposit lines contain information about the individual deposited items, such as 
 After you have filled in the deposit information and the associated deposit lines, you must post it in order to update the bank ledger, general ledger, customer ledger, and any other relevant ledgers. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
 ## To create a deposit  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Deposits**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
 

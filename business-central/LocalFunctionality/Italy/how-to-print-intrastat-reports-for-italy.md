@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Print Intrastat Reports for Italy
@@ -20,7 +20,7 @@ The following Intrastat reports are available:
 
 ## To print quarterly or monthly reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  Select the required journal batch.  
 3.  To open the **Intrastat - Monthly** report or the **Intrastat - Quarterly** report, choose the **Monthly Report** action or the **Quarterly Report** action.  
 4.  On the **Intrastat Jnl. Line** FastTab, select the appropriate filters.  
@@ -32,14 +32,14 @@ The following Intrastat reports are available:
 
 ## To print Intrastat - Checklist reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat - Checklist**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Checklist**, and then choose the related link.  
 2.  On the **Options** FastTab, select the **Show Intrastat Journal Lines** check box to include detailed information about the journal lines in the report.  
 3.  On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 
 ## To print Intrastat - Form reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat - Form**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat - Form**, and then choose the related link.  
 2.  On the **Intrastat Jnl. Batch** and **Intrastat Jnl. Line** FastTabs, select the appropriate filters.  
 3.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
 

@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 06/26/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # Manage Profiles
@@ -63,7 +63,7 @@ On the **My Settings** page, users can define basic behavior of their account, s
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
-2. Select the line for the profile that you want to change user settings for, choose the **Navigate** action, and then choose the **User Personalizations** action.
+2. Select the line for the profile that you want to change user settings for, and then choose the **User Personalizations List** action.
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
 
@@ -135,7 +135,7 @@ You can also delete individual page customizations for a profile. For more infor
 
 As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. for more information, see [SQL Server technical documentation](/sql/sql-server/?view=sql-server-ver15).  
+For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
 ## See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

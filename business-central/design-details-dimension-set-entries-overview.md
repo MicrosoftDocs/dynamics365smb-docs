@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: dimension
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Dimension Set Entries Overview

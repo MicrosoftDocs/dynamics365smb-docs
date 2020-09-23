@@ -1,9 +1,8 @@
 ---
-    title: How to Compare Bank Cash Flow
-    description: Describes how compare the flow of cash in a particular bank for a specified period.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Compare Bank Cash Flow in the New Zealand version
+    description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
@@ -14,7 +13,8 @@
     ms.author: bholtorf
 
 ---
-# Compare Bank Cash Flow
+# Compare Bank Cash Flow in the New Zealand Version
+
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
  The report displays the following details:  
@@ -30,7 +30,7 @@ The debit and credit amounts are displayed in the local currency. You can also v
 
 ## To compare bank cash flow  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Detail Cashflow Compare**, and then choose the relevant link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

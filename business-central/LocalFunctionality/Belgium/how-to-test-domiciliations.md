@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Test Domiciliations
@@ -19,7 +19,7 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
 
 ## To print a domiciliation test report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 3.  Choose the **Test Report** action.  
 4.  Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  

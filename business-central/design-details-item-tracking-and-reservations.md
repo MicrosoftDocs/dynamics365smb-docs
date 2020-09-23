@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/23/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Design Details: Item Tracking and Reservations
@@ -32,10 +32,11 @@ Reservation of item tracking numbers falls into two categories, as shown in the 
 |Nonspecific|You do not select a specific serial or lot number when you reserve the inventory item from a demand, such as a sales order.<br /><br /> This is a state that is imposed on a reservation entry for serial or lot numbers that are not selected specifically. **Note:**  The demand does not carry serial or lot numbers. <br /><br /> For example, you want to reserve a can of blue paint from any lot for your sales order. A can of blue paint from a random serial or lot number is shipped to the customer.|  
   
 The main difference between specific and nonspecific reservation is defined by the existence of serial or lot numbers on the demand side, as shown in the following table.  
-  
-|<!--blank -->|**Supply**|**Demand**|  
-|**Specific**|Serial or lot number.|Serial or lot number.|  
-|**Nonspecific**|Serial or lot number.|No serial or lot number.|  
+
+| Type            | Supply                | Demand                   |
+|-----------------|-----------------------|--------------------------|
+| **Specific**    | Serial or lot number. | Serial or lot number.    |
+| **Nonspecific** | Serial or lot number. | No serial or lot number. |
   
 When you reserve inventory quantities from an outbound document line for an item that has item tracking numbers assigned and is set up for specific item tracking, the **Reservation** page leads you through different workflows depending on your need for the serial or lot numbers.  
   

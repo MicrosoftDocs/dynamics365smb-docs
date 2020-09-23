@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 # View the Availability of Items

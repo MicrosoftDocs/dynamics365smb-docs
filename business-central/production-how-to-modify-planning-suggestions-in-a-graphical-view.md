@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 05/05/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Modify Planning Suggestions in a Graphical View

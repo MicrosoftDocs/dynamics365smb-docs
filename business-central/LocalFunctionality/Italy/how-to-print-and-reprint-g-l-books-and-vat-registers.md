@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2020
-    ms.author: sgroespe
+    ms.author: edupont
 
 ---
 # Print and Reprint GL Books and VAT Registers
@@ -21,7 +21,7 @@ The following procedure describes how to print or reprint the **G/L Book - Print
 
 ## To print the general ledger book report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Book - Print**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Book - Print**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -37,7 +37,7 @@ The following procedure describes how to print or reprint the **G/L Book - Print
     > [!IMPORTANT]  
     >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not save the page number automatically when you run the reports. After you run the G/L Book - Print report or the VAT Register - Print report, you must update [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the last printed page number..  
 
-3.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 
     To set the last printed page number for the VAT register report, search for **VAT Register**, and choose the link for the page under **VAT Posting Group**.  
 
@@ -49,7 +49,7 @@ The following procedure describes how to view or change the page numbering for p
 
 ## To view or change page numbering for reprinting the general ledger book report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  Choose the **Change G/L Book Reprint Info.** action. On the **G/L Book Reprint Info** page, the **First Page Number** field specifies the first page number of the previously printed reports.  
 
 When you update the **General Ledger Setup** page or the **VAT Registers** page with the page number of the last page of the printed report, make sure that you specify the correct page number. If the reprinted report starts with the wrong page number, the report will not be accepted by the tax authorities. The **G/L Book Reprint Info** page and the **VAT Register Reprint Info** can help you identify the correct page number.  

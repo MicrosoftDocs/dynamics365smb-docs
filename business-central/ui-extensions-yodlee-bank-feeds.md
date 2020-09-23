@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
-ms.author: sgroespe
+ms.author: edupont
 
 ---
 # The Envestnet Yodlee Bank Feeds Extension
@@ -36,6 +36,9 @@ The Envestnet Yodlee Bank Feeds service provides the following benefits:
 * Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Supports manual as well as automatic bank feeds.
 * Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.
+
+## Available Bank Feeds
+You can check whether a bank is supported by setting up and connecting to the Envestnet Yodlee Bank Feeds service. The bank will appear on the list if it is supported by Envestnet Yodlee.
 
 For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 

@@ -12,7 +12,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2020
-ms.author: SorenGP
+ms.author: edupont
 
 ---
 # Setting Up Inventory

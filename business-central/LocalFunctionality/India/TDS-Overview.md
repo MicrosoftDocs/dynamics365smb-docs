@@ -45,11 +45,25 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 
 #### The following are required manual setups
 
+- [Tax Accounting Period](tds-overview.md#to-set-up-tax-accounting-period)
+- [T.A.N](tds-overview.md#to-set-up-t.a.n)
+- [Assessee Code](tds-overview.md#to-set-up-assessee-code)
+- [TDS Section](tds-overview.md#to-set-up-tds-section)
+- [Concessional Code](tds-overview.md#to-set-up-concessional-codes)
+- [TDS Nature of Remittances](tds-overview.md#to-set-up-tds-nature-of-remittances)
+- [Act Applicable](tds-overview.md#to-set-up-act-applicable)
+- [TDS Posting Setup](tds-overview.md#to-set-up-tds-posting-setup)
+- [TDS Rounding Precision](tds-overview.md#to-set-up-tds-rounding-precision)
+- [TDS in Vendore Master](tds-overview.md#to-set-up-tds-in-vendor-master)
+- [TDS in Location Master](tds-overview.md#to-set-up-tds-in-location-master)
+- [TDS in Company Information](tds-overview.md#to-set-up-tds-in-company-information)
+- [TDS in State Code](tds-overview.md#to-set-up-tds-in-state-code)
+
 ## To set up tax accounting period.
 
 Tax Accounting period and quarters need to be defined for TDS calculation.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -70,7 +84,7 @@ Tax Accounting period and quarters need to be defined for TDS calculation.
 
 Tax Deduction Account Number (T.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to capture here.
 
-1. Choose the ![img](image/search.jpg)icon, enter **T.A.N Nos.**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **T.A.N Nos.**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -87,7 +101,7 @@ Tax Deduction Account Number (T.A.N) allotted to a company can be more than one,
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TDS are different for different types of Assessee.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Assessee Codes**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -104,7 +118,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 
 TDS Section represents the various sections under which tax deduction takes place as per the Income Tax Act 1961.
 
-1. Choose the ![img](image/search.jpg)icon, enter **TDS Sections**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Sections**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -117,7 +131,7 @@ TDS Section represents the various sections under which tax deduction takes plac
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Concessional Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -129,7 +143,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
 
 Specifies the type of remittance.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Nature of Remittances**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Nature of Remittances**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -141,7 +155,7 @@ Specifies the type of remittance.
 
 Specifies the Act under which income from Non-resident Indians will be taxed either the Income Tax Act (IT-Act), or as per the relevant rates prescribed in the relevant Double Tax Avoidance Agreement (DTAA).
 
-1. Choose the ![img](image/search.jpg)icon, enter **Act Applicable**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Act Applicable**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -152,7 +166,7 @@ Specifies the Act under which income from Non-resident Indians will be taxed eit
 
 Specifies the general ledger account for each TDS Section defined in the system. System will update the TDS payable amount in the defined general ledger account.
 
-1. Choose the ![img](image/search.jpg)icon, enter **TDS Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Posting Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -165,7 +179,7 @@ Specifies the general ledger account for each TDS Section defined in the system.
 
 Rounding precision for each and every component can be defined in system.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Tax Type** -> Select **TDS** -> **Tax Component**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> Select **TDS** -> **Tax Component**, and then choose the related link. 
 
 2. Define the relevant rounding precision against each tax components.
 
@@ -176,7 +190,7 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 
 - To define the TDS Sections in the Vendor Card
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Vendors** -> **Navigate** -> **Allowed Sections** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Vendors** -> **Navigate** -> **Allowed Sections** and then choose the related link.
   2. **Assessee Code** needs to be filled on the vendor master.
   3. **PAN** needs to be filled on vendor master, in case of no PAN is provided, higher rate of TDS will be deducted.
   4. Fill in the fields as described in the following table.
@@ -194,7 +208,7 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 
 - To define the concessional code in vendor card
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Vendors** -> **Navigate** -> **TDS Concessional Codes** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Vendors** -> **Navigate** -> **TDS Concessional Codes** and then choose the related link.
   2. Fill in the fields as described in the following table.
 
       |Field|Description|  

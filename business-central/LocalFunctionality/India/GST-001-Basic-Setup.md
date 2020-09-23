@@ -14,13 +14,13 @@
     ms.author: v-debapd
 
 ---
-# Setting up Goods and Service Tax
+# Setting Up Goods and Service Tax
 
 Business Central has included GST Feature to Indian Localization.
 
 **“Goods and Services Tax”** means any tax on supply of goods, or services or both except taxes on the supply of the alcoholic liquor for human consumption.
 
-## Setting up Goods and Service Tax
+## Setting Up Goods and Service Tax
 
 GST has two different types of setups, Automatic and Manual.
 
@@ -37,11 +37,30 @@ For more information about Automatic Setup, see **Tax Engine** information.
 
 Below is the list of Manual Setups, that are required to be configured manually
 
+- [GST Registration Number](gst-001-basic-setup.md#to-set-up-gst-registration-number)
+- [GST Accounting Period](gst-001-basic-setup.md#to-set-up-gst-accounting-period)
+- [GST States](gst-001-basic-setup.md#to-set-up-gst-states)
+- [GST Groupes](gst-001-basic-setup.md#to-set-up-gst-groups)
+- [GST Posting Setup](gst-001-basic-setup.md#to-set-up-gst-posting-setup)
+- [GST in Company Information](gst-001-basic-setup.md#to-set-up-gst-in-company-information)
+- [GST in Location](gst-001-basic-setup.md#to-set-up-gst-in-location)
+- [GST in General Ledger Setup](gst-001-basic-setup.md#to-set-up-gst-in-general-ledger-setup)
+- [GST in Purchase and Payable Setup](gst-001-basic-setup.md#to-set-up-gst-in-purchase-and-payable-setup)
+- [GST in Sales and Receivable Setup](gst-001-basic-setup.md#to-set-up-gst-in-sales-and-receivable-setup)
+- [GST in Source Code Setup](gst-001-basic-setup.md#to-set-up-gst-in-source-code-setup)
+- [GST in Masters](gst-001-basic-setup.md#to-set-up-gst-in-masters)
+- [GST in Vendor](gst-001-basic-setup.md#to-set-up-gst-in-vendor)
+- [GST in Vendor Order Address](gst-001-basic-setup.md#to-set-up-gst-in-vendor-order-address)
+- [GST in Customer](gst-001-basic-setup.md#to-set-up-gst-in-customer)
+- [GST in Customer Ship to Addresses](gst-001-basic-setup.md#to-set-up-gst-in-customer-ship-to-addresses)
+- [GST in Service Cost](gst-001-basic-setup.md#to-set-up-gst-in-service-cost)
+- [GST in Bank Account](gst-001-basic-setup.md#to-set-up-gst-in-bank-account)
+
 ## To set up GST registration number
 
 Registration Number under GST is called Goods and Service Tax Payer Identification Number (GSTIN). It is a state-wise PAN based 15-digit number.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Registration Nos.**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Registration Nos.**, and then choose the related link. 
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -59,7 +78,7 @@ Registration Number under GST is called Goods and Service Tax Payer Identificati
 
 Accounting Periods and sub-periods are created and closed here. Under GST, Fiscal year would be normally from 1st April to 31st March and Sub-Accounting Periods are months.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Tax Accounting Period**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Accounting Period**, and then choose the related link.
 2. Fill in the fields as described in the following table. 
 
     |Field|Description|  
@@ -77,7 +96,7 @@ Accounting Periods and sub-periods are created and closed here. Under GST, Fisca
 
 List of State codes to be defined with relevant GST registration number state code and eTDS/TCS state code.
 
-1.  Choose the ![img](image/search.jpg)icon, enter **States**, and then choose the related link.
+1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **States**, and then choose the related link.
 2. Select **GST** -> **Action** -> **Tax Rates**.
 3. Fill in the fields as described in the following table.
 
@@ -92,7 +111,7 @@ List of State codes to be defined with relevant GST registration number state co
 
 List of GST groups need to be defined, group can be of two types **Goods** or **Service**.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Groups**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Groups**, and then choose the related link.
 3. Fill in the fields as described in the following table. 
 
     |Field|Description| 
@@ -106,7 +125,7 @@ List of GST groups need to be defined, group can be of two types **Goods** or **
 
 General Ledger Account for each component and state combination is defined state-wise.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Posting Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description| 
@@ -123,7 +142,7 @@ General Ledger Account for each component and state combination is defined state
 
 Legal entity's GST registration number needs to be defined.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Company Information**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
 2. Fill in the fields as described in the following table. 
 
     |Field|Description|
@@ -140,7 +159,7 @@ Legal entity's GST registration number needs to be defined.
 
 GST registration number can be assigned to company for their multiple locations. These registration numbers can be defined in the location master.
 
-1.  Choose the ![img](image/search.jpg)icon, enter **Locations**, and then choose the related link.
+1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
 2. Fill in the fields as described in the following table. 
 
     |Field|Description| 
@@ -154,7 +173,7 @@ GST registration number can be assigned to company for their multiple locations.
 
 ## To set up GST in general ledger setup
 
-1. Choose the ![img](image/search.jpg)icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table. 
 
     |Field|Description| 
@@ -166,23 +185,23 @@ GST registration number can be assigned to company for their multiple locations.
 
 ## To set up GST in purchase and payable setup
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase & Payable Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase & Payable Setup**, and then choose the related link.
 2. Fill in the required number series codes for purchase and purchase credit memo documents for different type of GST purchase transactions. for example, **Registered**, **Unregistered**.
 3. Fill in the number series code for **GST liability adjustment journal**.
 4. Enter exemption's start and end date for reverse charge for unregistered vendor.
 
 ## To set up GST in sales and receivable setup
 
-1.  Choose the ![img](image/search.jpg)icon, enter **Sales & Receivable Setup**, and then choose the related link.
+1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales & Receivable Setup**, and then choose the related link.
 
 2. Fill in the required number series codes for sales and sales credit memo documents for different types of GST sales transactions. for example, **Export**, **Debit Note**, **Non-GST** etc.
 
 ## To set up GST in source code setup
 
-1. Choose the ![img](image/search.jpg)icon, enter **Source Code Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Source Code Setup**, and then choose the related link.
 2. Fill in source codes for different types of GST transactions. For **Credit Adjustment Journal**, **Settlement**, **Distribution**, **Liability Adjustment**, **Adjustment Journal**.
 
-## To set up GST in Masters
+## To set up GST in masters
 
 Below is the list of masters having GST setup
 
@@ -192,7 +211,7 @@ Below is the list of masters having GST setup
 - Resource
 - Item Charge
 
-1.  Choose the ![img](image/search.jpg)icon, enter **Items**, **Fixed Asset**, **Chart of Account** -> **G/L Account**, **Resources** and **Item Charges** and then choose the related link.
+1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Items**, **Fixed Asset**, **Chart of Account** -> **G/L Account**, **Resources** and **Item Charges** and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -204,7 +223,8 @@ Below is the list of masters having GST setup
 
 
 ## To set up GST in vendor
-1. Choose the ![img](image/search.jpg)icon, enter **Vendor**, and then choose the related link.
+
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
     
@@ -219,7 +239,7 @@ Below is the list of masters having GST setup
 
 ## To set up GST in vendor order address
 
-1. Choose the ![img](image/search.jpg)icon, enter **Vendor** > **Order Addresses**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor** > **Order Addresses**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -230,7 +250,7 @@ Below is the list of masters having GST setup
 
 ## To set up GST in customer
 
-1. Choose the ![img](image/search.jpg)icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
     
@@ -244,7 +264,7 @@ Below is the list of masters having GST setup
 
 ## To set up GST in customer ship to addresses
 
-1. Choose the ![img](image/search.jpg)icon, enter **Customers** > **Ship to Addresses**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** > **Ship to Addresses**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
     
@@ -257,7 +277,7 @@ Below is the list of masters having GST setup
 
 ## To set up GST in service cost
 
-1. Choose the ![img](image/search.jpg)icon, enter **Service Cost**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Cost**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
     
@@ -271,7 +291,7 @@ Below is the list of masters having GST setup
 
 ## To set up GST in bank account
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Account**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Account**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 

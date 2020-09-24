@@ -14,7 +14,9 @@
     ms.author: v-debapd
 
 ---
-# TCS calculation on Sales and Receipt Transactions
+# TCS Calculation on Sales and Receipt Transactions
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 TCS can be collected on goods (Items) and services (G/L Account) transactions. TCS calculations can be done through following documents:
 
@@ -31,14 +33,14 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 
 - Create General Journal, Sales Journal, Cash Receipt Journal or Bank Receipt Journal
 
-  1.  Choose the ![img](image/search.jpg)icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link. 
+  1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link. 
   2. Select **Customer** in Account Type and select relevant customer code in Account No. field. 
   3. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. filed.
   4. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields should not be blank.
 
 - Create Sales Invoice or Sales Order
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, **Sales Order**, **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, **Sales Order**, **Sales Return Order** or **Sales Credit Memo**, and then choose the related link.
   2. Select **Customer**, **Location Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** header.
   3. Select **G/L Account** or **Item Code** on **Sales Order**, **Sales Invoice**, **Sales Return Order** or **Sales Credit Memo** line.
   4. **TCS Nature of Collection**, **Location Code** and **T.C.A.N No.** fields should not be blank.

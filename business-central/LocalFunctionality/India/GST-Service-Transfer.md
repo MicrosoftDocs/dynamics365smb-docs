@@ -16,11 +16,13 @@
 ---
 # Service Transfer
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy. Service transferred from one state to another state, then IGST will be levied.
 
 ## Create a service transfer order
 
-1. Choose the ![img](image/search.jpg)icon, enter **Service Transfer Order**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link. 
 2. Select **Transfer-from Code** and **Transfer-to Code** on **Service Transfer Order** header. State Code and GST registration number should not be blank on **Location** card.
 3. Select **Ship Control Account** and **Receive Control Account** on **Service Transfer Order** header.
 

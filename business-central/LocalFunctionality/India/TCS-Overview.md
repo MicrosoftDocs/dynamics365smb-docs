@@ -14,20 +14,23 @@
     ms.author: v-debapd
 
 ---
-# Setting up Tax Collected at Source (TCS), as per the provisions of the Income Tax Act, 1961
+# Setting Up Tax Collected at Source (TCS), as per the Provisions of the Income Tax Act, 1961
+
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
 
 **TCS** means **Tax Collection at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collection at Source’ (TCS) requires the receiver or seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
 
-## Setting up TCS
+## Setting Up TCS
 
 ### TCS has two types of setup.
 
 - Automatic - These setup are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-### Following is the list of Setups that will be pre-configured with the help of **Tax Engine**
+### Following is the list of setups that will be pre-configured with the help of **Tax Engine**
 
 - Tax Types
 - Tax Entities
@@ -40,11 +43,22 @@ For more information about Auto Setup, see **Tax Engine** Information.
 
 ### The following are required manual setup
 
-## To set up tax accounting period.
+- [Tax Accounting Period](tcs-overview.md#to-set-up-tax-accounting-period)
+- [T.A.N](tcs-overview.md#)
+- [Assessee Code](tcs-overview.md#)
+- [TCS Nature of Collection](tcs-overview.md#)
+- [Concessional Code](tcs-overview.md#to-set-up-concessional-codes)
+- [TCS Posting Setup](tcs-overview.md#to-set-up-tcs-posting-setup)
+- [TCS on Customer Master](tcs-overview.md#to-set-up-tcs-on-customer-master)
+- [TCS on Location Master ](tcs-overview.md#to-set-up-tcs-on-location-master)
+- [TCS on Company Information](tcs-overview.md#to-set-up-tcs-on-company-information)
+- [TCS on State Code](tcs-overview.md#to-set-up-tcs-on-state-code)
+
+## To set up tax accounting period
 
 Tax Accounting period and quarters need to be defined for TCS calculation.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -65,7 +79,7 @@ Tax Accounting period and quarters need to be defined for TCS calculation.
 
 Tax Collected Account Number (T.C.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
 
-1. Choose the ![img](image/search.jpg)icon, enter **T.C.A.N Nos.**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **T.C.A.N Nos.**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -82,7 +96,7 @@ Tax Collected Account Number (T.C.A.N) allotted to a company can be more than on
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TCS are different for different types of Assessee.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Assessee Codes**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -99,7 +113,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 
 TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C of the Income Tax Act 1961.
 
-1. Choose the ![img](image/search.jpg)icon, enter **TCS Nature of Collection**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -112,7 +126,7 @@ TCS Nature of Collection represents the various types of payments received for w
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.    
 
-1. Choose the ![img](image/search.jpg)icon, enter **Concessional Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -124,7 +138,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
 
 Specifies the general ledger account for each TCS Nature of Collection defined in the system. System will update the TCS payable amount in the defined general ledger account.
 
-1. Choose the ![img](image/search.jpg)icon, enter **TCS Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Posting Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -134,13 +148,13 @@ Specifies the general ledger account for each TCS Nature of Collection defined i
     |**TCS Account**|Specifies the general ledger account for posting of TCS payable amount.|
 
 
-## To set up TCS in customer master
+## To set up TCS on customer master
 
 TCS nature of collection and concessional codes need to be defined for each customer that is liable to TCS. Multiple TCS NOC can be attached to one customer.
 
 - To define the TCS Nature of Collection on the Customer Card
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Customers** -> **Customer** -> **Allowed NOC** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** -> **Customer** -> **Allowed NOC** and then choose the related link.
   2. **Assessee Code** needs to be filled on the customer master.
   3. **PAN** needs to be filled on customer master. If no PAN is provided, higher rate of TCS will be deducted.
   4. Fill in the fields as described in the following table.
@@ -155,7 +169,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
       
 - To define the concessional code on customer card
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Customers** -> **Customer** -> **Customer Concessional Codes** and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customers** -> **Customer** -> **Customer Concessional Codes** and then choose the related link.
   2. Fill in the fields as described in the following table.
 
       |Field|Description|  

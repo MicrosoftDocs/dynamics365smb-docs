@@ -15,7 +15,7 @@
 
 ---
 
-## TDS on Provisional Entries
+# TDS on Provisional Entries
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

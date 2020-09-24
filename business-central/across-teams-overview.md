@@ -32,7 +32,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 ## Get Started
 
 1. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prodshort](includes/prodshort.md)] and Teams.
-2. Install [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. For more information, see [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md).
+2. Install [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. See [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 3. Once the app is installed, you're ready to go. See [Working with Business Central Data in Teams](across-working-with-teams.md). 
 
 ## See Also

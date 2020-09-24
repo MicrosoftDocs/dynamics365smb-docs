@@ -10,12 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 15/07/2020
+    ms.date: 09/24/2020
     ms.author: v-debapd
 
 ---
 
-## Overview of Voucher Interface
+# Overview of Voucher Interface
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
@@ -34,9 +34,9 @@ Feature required to provide the voucher interface as per Indian business require
 
 ### The following setups are required for voucher interface
 
-- [General Journal Template](voucher-interface-overview.md#to-set-up-general-journal-template)
-- [General Journal Batch](voucher-interface-overview.md#to-set-up-general-journal-batch)
-- [General Voucher Setup](voucher-interface-overview.md#to-set-up-voucher-setup)
+- [General Journal Template](vouche-interface-overview.md#to-set-up-general-journal-template)
+- [General Journal Batch](vouche-interface-overview.md#to-set-up-general-journal-batch)
+- [General Voucher Setup](vouche-interface-overview.md#to-set-up-voucher-setup)
 
 
 ## To set up general journal template

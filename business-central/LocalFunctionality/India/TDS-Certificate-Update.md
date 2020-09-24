@@ -27,7 +27,7 @@ This topic explains how to track and update the TDS certificate receivable or re
 
   Customer Ledger entries, which are not marked, against which TDS certificate is receivable can be assigned separately. Provision is available to mark the posted customer transactions (invoices or payments) for which TDS certificate is receivable.
 
-   1. Choose the [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)], enter **Update TDS Certificate Details**, and then choose the related link. 
+   1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Update TDS Certificate Details**, and then choose the related link. 
    2. Select relevant customer code in **Customer No.** field then Acton -> Function -> Assign TDS Cert. Details, system will open the customer ledger entry of the customer. Select and update the relevant documents by marking 'TDS Certificate Receivable' field true. Marked document will be removed from the 'Assign TDS Cert. Details' page and will be added in 'Update TDS Cert. Details' page.
    3. System will update the 'TDS Certificate Receivable' field as true in Customer Ledger Entry.
 

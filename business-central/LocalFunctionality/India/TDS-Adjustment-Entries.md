@@ -16,11 +16,13 @@
 ---
 # TDS Adjustments
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 TDS adjustment can be required, for any corrections in the TDS amount, TDS rate or TDS base amount already deducted but not paid to government authorities. The revised TDS amount will be updated in the relevant GL Accounts for TDS Payable and Vendor Account. Existing TDS entry will be updated with revised TDS percentages, TDS amount and TDS base amount.
 
 ## TDS adjustment process
 
-1. Choose the ![img](image/search.jpg)icon, enter **TDS Adjustment Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Adjustment Journal**, and then choose the related link.
 2. Select the relevant transaction number in **Transaction No.** field from the drop down, and the selected line will be populated with the posted record. Following information can be changed in the adjustment journal as per the requirement:
   
     |Field Name|Use|

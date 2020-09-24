@@ -16,9 +16,11 @@
 ---
 # TDS with Threshold
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 This topic explains the requirement of threshold amount in TDS and  the process of calculating TDS for such transactions.
 
-## TDS calculation considering threshold limit
+## TDS calculation considering threshold limits
 
 TDS Threshold defines the threshold limit for each TDS Section.  TDS can be deducted only if the total transaction with the assessee exceeds the threshold limit in the financial year.
 

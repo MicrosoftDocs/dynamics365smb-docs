@@ -17,13 +17,15 @@
 
 ## TDS on Provisional Entries
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 As per TDS rules, tax (TDS) has to be deducted at source, when amount is paid or credited to the account of the payee whichever is earlier. When the amount is credited to suspense account or any provisional account, then it is treated as amount is credited to the account of the payee and tax has to be deducted at source. Hence, Tax has to be deducted at source even on provisions made in the books of accounts to which TDS provisions are applicable.
 
 A provisional entry should be posted before posting an actual entry, on posting of actual entry, provisional entry will be reversed. As per requirement, TDS to be calculated on provisional entry and on posting of actual entry, system should not calculate TDS as it is deducted in provisional entry. 
 
 For example, provisional expense journal has to be created and posted for INR 10000 against professional expense and 10% TDS to be calculated on the expense amount.
 
-1.	Choose the ![img](image/search.jpg)icon, enter **Purchase Journal**, and then choose the related link.
+1.	Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
 2.  Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -59,7 +61,7 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 •	Later invoice created against the provisional entry.
 
-1.	Choose the ![img](image/search.jpg)icon, enter **Purchase Journal**, and then choose the related link.
+1.	Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
 2.	Fill in the fields as described in the following table.
 
     |Field|Description|

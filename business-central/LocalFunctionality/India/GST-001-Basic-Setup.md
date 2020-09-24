@@ -16,6 +16,8 @@
 ---
 # Setting Up Goods and Service Tax
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Business Central has included GST Feature to Indian Localization.
 
 **“Goods and Services Tax”** means any tax on supply of goods, or services or both except taxes on the supply of the alcoholic liquor for human consumption.

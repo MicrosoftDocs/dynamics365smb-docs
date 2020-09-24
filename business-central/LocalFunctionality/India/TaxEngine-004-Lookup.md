@@ -17,9 +17,11 @@
 ---
 # Tax Engine - Lookup
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Lookup is a utility to fetch value from the system or from a variable.
 
-# Source Type
+## Source Type
 
 Source type is to specify the source of value.
 

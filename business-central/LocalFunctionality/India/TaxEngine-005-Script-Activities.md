@@ -15,6 +15,8 @@
 ---
 # Tax Engine - Script Activity
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Script extension contains UI elements with their tables which are used in scripting of Business logics within a use case.
 
 ### String / Text

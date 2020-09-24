@@ -14,6 +14,8 @@
 ---
 # Tax Engine - Use Case Configuration
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 This topic provides information about use case configuration.
 
 ## Use cases

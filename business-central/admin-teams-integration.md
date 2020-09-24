@@ -18,10 +18,21 @@ ms.author: jswymer
 
 As an administrator, there a few things you can do to control who in your organization can use the Teams integration and what
 
-
 ## In Microsoft Teams
 
-You can control access For any user to be able use the Teams integration. 
+### Teams license
+
+This table gives you an overview of the licenses needed for the [!INCLUDE [prodshort](includes/prodshort.md)] app features to work in a Teams conversation.
+
+|What|Teams license|Business Central license|
+|----|---|---|
+|Send a card|![check](media/check.png "check")|![check](media/check.png "check")|
+|View a card|![check](media/check.png "check")||
+|View card details|![check](media/check.png "check")|![check](media/check.png "check")|
+
+### Managing the Business Central app
+
+As a Teams administrator, manage all Teams apps for your organization, including the [!INCLUDE [prodshort](includes/prodshort.md)] app. For example, you can approve or upload new Business Central app for your organization,  block or allow user's to install the app, and more. For more information, see the following articles in the Microsoft Teams documentation:
 
 [Manage your apps in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
 [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
@@ -30,12 +41,14 @@ If you will test with multiple users, you may need to repeat step 3 for each use
 
 ## In [!INCLUDE [prodshort](includes/prodshort.md)]
 
-For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permission in [!INCLUDE [prodshort](includes/prodshort.md)] client.
+For the most part, the pages and data that users can view and edit in a Teams conversations is controlled by their permissions in [!INCLUDE [prodshort](includes/prodshort.md)] client.
 
 - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on thw page and its data.
 - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.
 - To view more details for a card or open the record in [!INCLUDE [prodshort](includes/prodshort.md)], users must have read permission on the page and its data.
 - To change data, user's need modify permissions.
+
+For information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## See Also
 

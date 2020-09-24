@@ -30,7 +30,7 @@ The place of supply of banking and other financial services shall be the locatio
 
 ### The following setups are required: 
 
-- [Bank Accounts](gst-bank-charges-overview.md#to-set-up-gst-on-bank-account)
+- [Bank Accounts](gst-bank-charges-overview.md#to-set-up-gst-on-a-bank-account)
 - [Bank Charges Master](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-master)
 - [Bank Charges Deemed Value Setup](gst-bank-charges-overview.md#to-set-up-gst-on-bank-charges-deemed-value-setup)
 

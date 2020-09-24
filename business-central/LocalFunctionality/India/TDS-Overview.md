@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 16/07/2020
+    ms.date: 09/24/2020
     ms.author: v-debapd
 
 ---
@@ -47,7 +47,7 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 #### The following are required manual setups
 
 - [Tax Accounting Period](tds-overview.md#to-set-up-tax-accounting-period)
-- [T.A.N](tds-overview.md#to-set-up-t.a.n)
+- [T.A.N](tds-overview.md#to-set-up-tan)
 - [Assessee Code](tds-overview.md#to-set-up-assessee-code)
 - [TDS Section](tds-overview.md#to-set-up-tds-section)
 - [Concessional Code](tds-overview.md#to-set-up-concessional-codes)

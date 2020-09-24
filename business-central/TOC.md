@@ -227,6 +227,7 @@
 ### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ## [Using Business Central Without Outlook](admin-no-outlook.md)
 ## Microsoft Teams Integration
+### [Overview](across-teams-overview.md)
 ### [Managing Teams Integration](admin-teams-integration.md)
 ### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ### [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md)

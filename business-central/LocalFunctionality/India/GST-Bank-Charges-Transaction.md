@@ -14,7 +14,9 @@
     ms.author: v-debapd
 
 ---
-## GST on Bank Charges Transaction
+# GST on Bank Charges Transaction
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice is not provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it is not serially numbered and whether or not it contains the address of recipient of taxable service.
 
@@ -22,7 +24,7 @@ Process for GST calculation on bank charges has been explained in this document.
 
 ### GST calculation on bank charges
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Payment Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Payment Voucher**, and then choose the related link.
 2. Select **G/L Account** in **Account Type** field and select relevant general ledger account in **Account No.** field.
 3. Select **Bank Account** in **Bal. Account Type** field and select relevant bank account in **Bal. Account No.** field.
 4. **GST Registration No.** and **GST Registration Status** fields should not be blank on **Bank Account**.
@@ -111,7 +113,7 @@ As per GST law, A person supplying the services of exchange of foreign currency 
 
 ### GST calculation on bank charges for bank payment
 
-   1. Choose the ![img](image/search.jpg)icon, enter **Bank Receipt Voucher**, and then choose the related link.
+   1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher**, and then choose the related link.
    2. Select **G/L Account** in Account Type field and select relevant **Vendor** or **Customer** account in Account No. field.
    3. Select **Bank Account** in Bal. Account Type field and select relevant bank account in Bal. Account No. field.
    4. **GST Registration No.** and **GST Registration Status** fields should not be blank on Bank Account.

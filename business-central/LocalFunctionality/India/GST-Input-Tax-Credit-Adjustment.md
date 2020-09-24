@@ -20,6 +20,10 @@
 
 This topic explains the requirement and process of GST credit adjustment.
 
+- [Credit Adjustment Journal](GST-Input-Tax-Credit-Adjustment.md#credit-adjustment-journal)
+- [Credit Adjustment for Reverse Charge Transactions](GST-Input-Tax-Credit-Adjustment.md#gst-credit-adjustment-for-reverse-charge-transactions)
+- [Credit Adjustment Entry Process](GST-Input-Tax-Credit-Adjustment.md#gst-credit-adjustment-entry-process)
+
 ## Credit adjustment journal
 
 Credit adjustment journal is designed to handle certain credit adjustments arising on reconciliation.

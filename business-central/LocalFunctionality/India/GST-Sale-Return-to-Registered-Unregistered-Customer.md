@@ -16,6 +16,8 @@
 ---
 # Sales Return of Goods from Registered or Unregistered Customer
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Sales to a registered customer are known as B2B sales, sales to unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported in separately in GSTR-1.
 
 A customer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
@@ -24,7 +26,7 @@ Process of sale return from registered or unregistered customer has been explain
 
 ## Create a sales return order or credit memo
 
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered** or **Unregistered**.
 3. Select **Item Code** for goods or **G/L Account** for Service Sale on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on Item or G/L Account. 
 

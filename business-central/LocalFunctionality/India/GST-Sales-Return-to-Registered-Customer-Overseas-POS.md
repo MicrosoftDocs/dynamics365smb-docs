@@ -16,6 +16,8 @@
 ---
 # Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 GST is destination based tax i.e consumption tax, which means tax will be levied where goods and services are consumed and will accrue to that state.  The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce. 
 
 A customer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
@@ -24,7 +26,7 @@ Process of sale return from a registered customer with overseas place of supply 
 
 ## Create a sales return order or credit memo
 
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.
 3. Select **G/L Account** on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on the G/L Account.
 4. **POS Out of India** field on **Sales Return Order** or **Sales Credit Memo** header should be marked as True. 

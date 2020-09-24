@@ -10,12 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 16/07/2020
+    ms.date: 09/24/2020
     ms.author: v-debapd
 
 
 ---
 # Voucher Transaction
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the process of recording day-to-day transactions through voucher interface.
 

@@ -17,6 +17,8 @@
 
 ## Overview of Voucher Interface
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Business Central has included Voucher Interface Feature to Indian Localization.
 
 Feature required to provide the voucher interface as per Indian business requirements to record the day-to-day transactions in following vouchers:
@@ -28,20 +30,20 @@ Feature required to provide the voucher interface as per Indian business require
 - Cash Payment Voucher - Used for transactions that will credit the Cash Account.
 - Contra Voucher - Entries which are affecting the Cash and Bank Account together, are termed as Contra Vouchers. For example, Withdrawal from bank.
 
-## Setting up voucher interface
+## Setting Up Voucher Interface
 
 ### The following setups are required for voucher interface
 
-- General Journal Template
-- General Journal Batch
-- Voucher Setup
+- [General Journal Template](voucher-interface-overview.md#to-set-up-general-journal-template)
+- [General Journal Batch](voucher-interface-overview.md#to-set-up-general-journal-batch)
+- [General Voucher Setup](voucher-interface-overview.md#to-set-up-voucher-setup)
 
 
 ## To set up general journal template
 
 Journals are used for different types or groups of entries, such as purchases, payments, sales, and receivables. Each journal type is set up with its own journal template. Journal templates provide the basic journal structure where busiess users can specify default information for all batches created using the template.
 
-1. Choose the ![img](image/search.jpg)icon, enter **General Journal Template**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal Template**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -64,7 +66,7 @@ Journals are used for different types or groups of entries, such as purchases, p
 Journal batches are created based on the journal templates. All journal batches created from a specific template have the same structure, default settings, and information defined in the template. However, since these settings are defaults, business users can change them for a specific journal batch.
 Batches are typically used to separate one user's entries from another. For example, User-A and User-B both work on general journal entries. User-A typically makes entries and posts them later when they are approved. To keep User-B's entries from becoming mixed with User-A's entries, separate batches can be assigned to the two users.
 
-1. Choose the ![img](image/search.jpg)icon, enter **General Journal Template**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal Template**, and then choose the related link.
 2. general Journal Template -> Navigate -> Template -> Batches 
 1. Fill in the fields as described in the following table.   
 
@@ -86,7 +88,7 @@ Voucher setup is done to define the type of voucher, related transaction directi
 
 - Voucher setup on company information
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Company Information**, and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.
   2. Company Information -> Voucher Setup
   3. Fill in the fields as described in the following table.   
 
@@ -98,7 +100,7 @@ Voucher setup is done to define the type of voucher, related transaction directi
 
 - Voucher setup on location
 
-  1. Choose the ![img](image/search.jpg)icon, enter **Locations**, and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
   2. Locations -> Process -> Voucher Setup
   3. Fill in the fields as described in the following table.   
 

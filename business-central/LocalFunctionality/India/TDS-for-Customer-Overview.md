@@ -50,10 +50,10 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 - [TDS Section](tds-for-customer-overview.md#to-set-up-tds-section)
 - [Concessional Code](tds-for-customer-overview.md#to-set-up-concessional-codes)
 - [TDS Posting Setup](tds-for-customer-overview.md#to-set-up-tds-posting-setup)
-- [TDS on Customer Master](tds-for-customer-overview.md#to-set-up-tds-in-customer-master)
-- [TDS on Location Master](tds-for-customer-overview.md#to-set-up-tds-in-location-master)
-- [TDS on Company Information](tds-for-customer-overview.md#to-set-up-tds-in-company-information)
-- [TDS on State Code](tds-for-customer-overview.md#to-set-up-tds-in-state-code)
+- [TDS on Customer Master](tds-for-customer-overview.md#to-set-up-tds-on-customer-master)
+- [TDS on Location Master](tds-for-customer-overview.md#to-set-up-tds-on-location-master)
+- [TDS on Company Information](tds-for-customer-overview.md#to-set-up-tds-on-company-information)
+- [TDS on State Code](tds-for-customer-overview.md#to-set-up-tds-on-state-code)
 
 ## To set up tax accounting period
 

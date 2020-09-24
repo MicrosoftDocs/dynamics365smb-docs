@@ -15,7 +15,9 @@
 
 
 ---
-# Sale of Services to Overseas Place of Supply to registered customer
+# Sale of Services to Overseas Place of Supply to Registered Customer
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST is destination based tax i.e consumption tax, which means tax will be levied where goods and services are consumed and will accrue to that state.  The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce.
 
@@ -23,7 +25,7 @@ Process of sale to a registered customer with overseas place of supply  has been
 
 ## Create a sales invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered**.
 

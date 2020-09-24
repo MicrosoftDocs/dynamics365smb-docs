@@ -15,14 +15,15 @@
 ---
 # Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 The Government has placed the responsibility on the e-commerce operators to collect the ‘tax’ at a specified rate from the supplier. This shall be done by the Operator by paying the supplier the price of the product or services, less the tax, calculated at the specified rate.
 
 The process of calculation of TCS and GST has been explained in this document.
 
 ## Create a sales invoice
 
-
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 
 2. Select **Customer** on **Sales Invoice** header.
 

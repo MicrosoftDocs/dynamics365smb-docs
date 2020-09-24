@@ -16,11 +16,13 @@
 ---
 # GST and Kerala Flood Cess on Sales Transaction
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/or services, made by taxable person to an unregistered person i.e. B2C supplies. Kerala Flood CESS is required to be shown separately on the invoice.
 
 ## Create a sales invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Unregistered**.
 

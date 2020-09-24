@@ -16,14 +16,15 @@
 ---
 # Sales to Registered or Unregistered Customer
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Sales to a registered customer are known as B2B sales, sales to unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported separately in GSTR-1.
 
 Process of sales to registered or unregistered customer has been explained in this document.
 
 ## Create a sales invoice
 
-
-1. Choose the ![img](image/search.jpg)icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered** or **Unregistered**.
 

@@ -16,6 +16,8 @@
 ---
 # Purchase Credit Memo or Return Order to Foreign Vendor
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor are subject to reverse charge i.e. the person importing goods or services is required to remit tax to the Government.
 
 A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
@@ -24,7 +26,7 @@ Purchase return process for foreign vendor has been explained in this document.
 
 ## Create a purchase return order or credit memo
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order or Credit Memo**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order or Credit Memo**, and then choose the related link. 
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Import**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset.
 4. GST Credit option can be changed on **Purchase Credit Memo** line.

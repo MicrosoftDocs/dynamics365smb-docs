@@ -1,17 +1,16 @@
 ---
-title: SmartLists | Microsoft Docs
-description: Learn about the capabilities of SmartList Designer and SmartList queries.
+title: Create Custom Queries using SmartLists
+description: Learn about the capabilities of SmartList Designer and SmartList queries in Business Central.
 author: bmeier90
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.reviewer: edupont
 ms.search.keywords: SmartList
 ms.date: 09/03/2020
-ms.author: bmeier
-
+ms.author: edupont
+ROBOTS: NOINDEX, NOFOLLOW
 ---
-# Create Custom Queries using SmartLists
+<!--# Create Custom Queries using SmartLists
 
 Use SmartList Designer and SmartLists to create, manage and view queries using your Business Central data.  
 
@@ -20,7 +19,7 @@ The creation of queries can be done without writing code and the queries that ar
 > [!Note]
 > SmartLists and SmartList Designer functionality is only available in the online version of Business Central.
 
-SmartList Designer is an app for [!INCLUDE [prodshort](includes/prodshort.md)] so that you can create queries on your Business Central data without requiring any type of customization or extension. SmartList Designer must be installed once in the [!INCLUDE [prodshort](includes/prodshort.md)] online tenant and can then be used by any user who has the relevant permissions. For more information, see [Get SmartList Designer](setup-smartlist-designer.md).  
+SmartList Designer is an app for [!INCLUDE [prodshort](includes/prodshort.md)] so that you can create queries on your Business Central data without requiring any type of customization or extension. SmartList Designer must be installed once in the [!INCLUDE [prodshort](includes/prodshort.md)] online tenant and can then be used by any user who has the relevant permissions. For more information, see [Get SmartList Designer](bi-smartlist-designer-setup.md).  
 
 ## Create a query
 
@@ -113,7 +112,7 @@ It is recommended that after you have reviewed the results that you close the Sm
 > There are no refresh capabilities in Business Central for query definitions that have not been saved. You must do a preview after each change to your query definition in SmartList Designer so see accurate results.
 
 > [!Tip]
-> If you get a permission error during the preview, it means you have permissions to create the query but not to render a result set. For more information, see [SmartLists and permissions](setup-smartlist-designer.md#smartlists-and-permissions).
+> If you get a permission error during the preview, it means you have permissions to create the query but not to render a result set. For more information, see [SmartLists and permissions](bi-smartlist-designer-setup.md#permissions).
 
 ### Saving a query
 
@@ -195,7 +194,7 @@ In the **SmartList Management**, you can bulk-assign access to queries by assign
 > [!NOTE]
 > You can add queries to a permission set in the **SmartList Permission Management** page, but you cannot remove queries from a permission set, and you cannot move queries from one permission set to another. To remove or move, you must use the permissions pages.
 
-Once permissions are granted to a SmartList query, the users who have those permissions can see the SmartList query. However, they are not be able to view the results of the query if they do not have permissions to the underlying data sources that are defined for the query. For more information, see [SmartLists and Permissions](setup-smartlist-designer.md#permissions).
+Once permissions are granted to a SmartList query, the users who have those permissions can see the SmartList query. However, they are not be able to view the results of the query if they do not have permissions to the underlying data sources that are defined for the query. For more information, see [SmartLists and Permissions](bi-smartlist-designer-setup.md#permissions).
 
 ### Export and import queries
 
@@ -228,5 +227,5 @@ If one or more custom navigation records are created for a given SmartList query
 
 ## See also
 
-[Get SmartList Designer](setup-smartlist-designer.md)  
-[Business Intelligence](bi.md)  
+[Get SmartList Designer](bi-smartlist-designer-setup.md)  
+[Business Intelligence](bi.md) --> 

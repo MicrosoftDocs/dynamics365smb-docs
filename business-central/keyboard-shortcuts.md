@@ -139,6 +139,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |Alt+F6|Toggle collapse/expand for the current FastTab or part (subpage).|
+|Alt+G|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |Alt+N |Open a page to create a new record; the same way as choosing the **New** action. |
 |Alt+Shift+N |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
 |Alt+Shift+W |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -207,3 +208,4 @@ When setting a date field, you can either enter the date manually or open a cale
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
+[Find Entries](ui-find-entries.md)  

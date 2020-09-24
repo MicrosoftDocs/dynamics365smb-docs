@@ -1,5 +1,5 @@
 ---
-    title: Electronic Funds Transfer (EFT)
+    title: Electronic Funds Transfer (EFT) in the Australian version
     description: You can pay vendors using the electronic funds transfer (EFT) system in Australia.
     author: bholtorf
     ms.service: dynamics365-business-central
@@ -12,11 +12,12 @@
     ms.author: bholtorf
 
 ---
-# Electronic Funds Transfer (EFT)
+# Electronic Funds Transfer (EFT) in the Australian Version
+
 You can pay vendors using the electronic funds transfer (EFT) system in Australia.  
 
 ## Setting up Electronic Funds Transfer in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank’s website for additional processing. To submit EFT files, you must set up the following information:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] can export EFT files that you can then upload to your bank's website for additional processing. To submit EFT files, you must set up the following information:  
 
 * You must add EFT information to the bank account or bank accounts that you will use to pay vendors electronically. The EFT-specific fields are on the **Bank Account** page.  
 * For those vendors that you want to pay electronically, you must select the **EFT Payment** check box and specify the vendor bank account in the **EFT Vendor Bank Account Code** field on the **Vendor** page.  

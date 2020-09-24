@@ -262,7 +262,7 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Get SmartList Designer](setup-smartlist-designer.md)
+<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)
@@ -524,9 +524,10 @@
 #### [Close Accounting Periods](year-close-account-periods.md)
 #### [Close Income Statement Accounts](year-close-income-statement.md)
 #### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
-
+### Consolidating Financial Data from Multiple Companies
+#### [Company Consolidation](finance-consolidated-company-reporting.md)
+#### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
-### [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Working with Dimensions](finance-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
@@ -556,7 +557,7 @@
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage Database Access Intent](admin-data-access-intent.md)
-### [Create Custom Queries using SmartLists](bi-smartlists.md)
+<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
@@ -776,7 +777,11 @@
 #### [Service Posting](service-service-posting.md)
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
-
+<!--Company Hub-->
+## Manage work across companies with the company hub
+### [Overview](company-hub.md)
+### [Add Companies to Your Company Hub](company-hub-add-company.md)
+### [Troubleshooting Your Company Hub](company-hub-troubleshooting.md)
 <!--LF-->
 ## Local Functionality
 ### [Local Functionality Overview](about-localization.md)
@@ -1456,7 +1461,7 @@
 ### [Creating New Companies](about-new-company.md)
 ### [Logging Changes](across-log-changes.md)
 ### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
-### [Deleting Documents](admin-manage-documents.md)
+### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
 ### [Defining Data Retention Policies](admin-data-retention-policies.md)
 ### [Publishing a Web Service](across-how-publish-web-service.md)
 ### [Configuring API Templates](admin-configuring-api-template.md)
@@ -1477,6 +1482,7 @@
 #### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+#### [Company Hub](ui-extensions-company-hub.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essential Business Insights](ui-extensions-essential-business-insights.md)
@@ -1495,7 +1501,7 @@
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
-#### [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+#### [UK - GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
@@ -1510,7 +1516,15 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-
+<!--migrate to BC online-->
+## Migrate to Business Central Online
+### [Migrating On-Premises Data](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
+### [Managing the Migration to the Cloud](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
+### [FAQ about Connecting to the Intelligent Cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Development](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Security and Protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

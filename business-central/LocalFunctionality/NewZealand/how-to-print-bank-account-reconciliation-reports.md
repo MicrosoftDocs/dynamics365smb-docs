@@ -1,9 +1,8 @@
 ---
-    title: How to Print Bank Account Reconciliation Reports
-    description: Describes how to print a report that displays open bank ledger entries as unpresented checks or unrecorded deposits.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Print Bank Account Reconciliation Reports in the New Zealand version
+    description: Describes how to print a report that displays open bank ledger entries as unpresented checks or unrecorded deposits in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
@@ -14,7 +13,8 @@
     ms.author: bholtorf
 
 ---
-# Print Bank Account Reconciliation Reports
+# Print Bank Account Reconciliation Reports in the New Zealand Version
+
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
 
 ## To print a bank account reconciliation report  

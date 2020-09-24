@@ -1,8 +1,6 @@
 ---
-    title: How to Print Income Statements
-    description: Describes how to view the company’s annual income statement.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Print Income Statements in the Australian version
+    description: Describes how to view the company's annual income statement in the Australian version.
     author: SorenGP
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -14,8 +12,9 @@
     ms.author: edupont
 
 ---
-# Print Income Statements
-You can use the **Income Statement** report to view the company’s annual income statement.  
+# Print Income Statements in the Australian Version
+
+You can use the **Income Statement** report to view the company's annual income statement.  
 
 This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
 

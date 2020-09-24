@@ -27,7 +27,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
 You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.
 
-The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.
+The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item's value entries are the same as before the item charge was assigned.
 
 > [!NOTE]
 > The bookkeeping aspects of sales returns, such as the payments to customers as reimbursement, is considered bookkeeping work and not described here. For more information, see [Managing Payables](payables-manage-payables.md).
@@ -212,13 +212,15 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 2.  Specify in the **No.** filter field which return orders to delete.  
 3.  Choose the **OK** button.  
 
-Alternatively, delete individual sales return orders manually.   
+Alternatively, delete individual sales return orders manually.  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
+
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
+[Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

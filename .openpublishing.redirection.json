@@ -586,6 +586,11 @@
             "source_path": "business-central/LocalFunctionality/Germany/walkthrough-exporting-gdpdu-data.md",
             "redirect_url": "walkthrough-exporting-data-for-a-digital-audit",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-extensions-getaddressio.md",
+            "redirect_url": "/LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio",
+            "redirect_document_id": false
         }
 
     ]

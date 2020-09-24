@@ -12,11 +12,11 @@ ms.date: 07/10/2020
 ms.author: jswymer
 ---
 
-# Using Microsoft Teams with Business Central
+# Working with Business Central Data in Microsoft Teams
 
 [!INCLUDE [prodshort](includes/2020rw_online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you meet, chat, call, and collaborate with people you work with. [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries.
+[!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn who to use the app to share [!INCLUDE [prodshort](includes/prodshort.md)] data with coworkers in a Teams conversation.
 
 ## Overview
 
@@ -25,27 +25,14 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 - Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record.
 - Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
-[![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
-
-The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
-
 ## Prerequisites
 
-- A Microsoft Teams (subscription
-
-    I don't have a Microsoft 365 account. How do I access Microsoft Teams?
-To use Microsoft Teams, you need a Microsoft 365 account with the appropriate Microsoft 365 license plan listed below. Talk to your company's IT administrator to get an account or sign your company up for Microsoft 365.
-- Permissions in Business Central
-  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to read to the target page and its data.
-  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central. However, to view more details for a card, you and other users must have read permission on the page and its data. If they want to change data, they'll need modify permissions.
-
-## Add the Business Central app to Teams
-
-1. Open and sign in to Teams.
-2. In the left side, select **Apps**.
-3. Search for **Dynamics 365 Business Central**.
-4. Select the app when you find it.
-5. Read read the information and select **Add**.
+- You have a Microsoft Teams license
+- You've installed the [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. For more information, see [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
+  - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission view page and its data.
+  - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.
+  - For others to view more details from card, they must also have view permission, as a minimum, to the page and its data [!INCLUDE [prodshort](includes/prodshort.md)]. If they want to change data, they'll need modify permissions.
 
 ## Include a Business Central card in a Teams conversation
 
@@ -75,6 +62,8 @@ To use Microsoft Teams, you need a Microsoft 365 account with the appropriate Mi
 
 ## See Also
 
+[Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
+[Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

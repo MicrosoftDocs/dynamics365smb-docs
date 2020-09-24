@@ -19,14 +19,14 @@ ms.author: jswymer
 As an administrator, there a few things you can do to control who in your organization can use the Teams integration and what
 
 
-If you will test with multiple users, you may need to repeat step 3 for each user or use the administrative setup policy to set this up for all users. Note that this can take up to 1 hour to apply to all users. Learn more about setup policies here: https://docs.microsoft.com/en-US/microsoftteams/teams-app-setup-policies
-
-
 ## In Microsoft Teams
 
-You can control access For any user to be able use the Teams integration, they'll need a Teams license. You can alslo lim
+You can control access For any user to be able use the Teams integration. 
 
+[Manage your apps in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
+[Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
 
+If you will test with multiple users, you may need to repeat step 3 for each user or use the administrative setup policy to set this up for all users.
 
 ## In [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -36,8 +36,6 @@ For the most part, the pages and data that users can view and edit in a Teams co
 - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.
 - To view more details for a card or open the record in [!INCLUDE [prodshort](includes/prodshort.md)], users must have read permission on the page and its data.
 - To change data, user's need modify permissions.
-
-
 
 ## See Also
 

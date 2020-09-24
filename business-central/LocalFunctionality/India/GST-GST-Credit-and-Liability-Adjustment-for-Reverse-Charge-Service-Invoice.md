@@ -14,7 +14,9 @@
     ms.author: v-debapd
 
 ---
-# GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
+# GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the process of adjusting GST Credit and GST Liability for open reverse charge goods and services invoices.
 
@@ -24,7 +26,7 @@ This topic explains the process of adjusting GST Credit and GST Liability for op
 
 - User can generate GST liability and credit for open reverse charge service invoice through GST Liability Adjustment.
 
-  1. Choose the ![img](image/search.jpg)icon, enter **GST Liability Adjustment**, and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Liability Adjustment**, and then choose the related link.
   2. Select the following in the request page
 
       |Field Name|Description|

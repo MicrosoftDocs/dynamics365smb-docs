@@ -16,6 +16,8 @@
 ---
 # GST Settlement of Net Payment Liability
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Settlement refers to discharge of tax liability to the government. Tax liability arises for scenarios mentioned below: 
 - Outward Supplies (Sales, Transfers) 
 - Inward Supplies that are subject to Reverse charge (Purchases, Inward Transfers)
@@ -74,7 +76,7 @@ The net credit from below sources are shown in Credit Availed for Settlement.
 
 ## Process of settlement
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Settlement**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Settlement**, and then choose the related link.
 2. **GST Settlement Nos.** should not be blank on **General Ledger Setup**.
 3. **GST Settlement** should not be blank on **Source Type Setup**.
 4. Select relevant information in the following fields in **GST Settlement**

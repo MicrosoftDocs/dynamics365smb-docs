@@ -16,6 +16,8 @@
 ---
 # E-Way Bill
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 An electronic way bill or e-Way Bill is essential for the transport of goods that are worth more than INR 50,000. There are also some goods for which an e-way bill is essential even if the amount does not exceed INR 50,000. E-Way Bill Template is designed to meet the formats or requirements provided by government. 
 
 - Business user will be able to generate excel file from system which will be helpful for them to enter data into E-Waybill JSON Preparation tool. Business user can copy and paste data from excel sheet exported from system to preparation tool.
@@ -27,7 +29,7 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
 
 - E-Way Bill template feature enables the user to generate excel file from system which will be helpful for them to enter data into E-Waybill JSON Preparation tool.
 
-  1. Choose the ![img](image/search.jpg)icon, enter **E-Way Bill File Format**, and then choose the related link.
+  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **E-Way Bill File Format**, and then choose the related link.
   2. GST Registration No. and State Code should be updated on **Shipping Agent**.
   3. Transportation Mode field should not be blank on **Transport Method**
   4. Select the following information in the request page and click OK to generate the report

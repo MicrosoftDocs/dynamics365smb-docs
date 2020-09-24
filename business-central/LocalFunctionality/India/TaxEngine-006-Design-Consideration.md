@@ -1,8 +1,8 @@
 ---
-   title: Tax Engine - Design Consideration
-   description: Tax Engine - Design Consideration
+    title: Tax Engine - Design Consideration
+    description: Tax Engine - Design Consideration
 
-   author: v-debapd
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article

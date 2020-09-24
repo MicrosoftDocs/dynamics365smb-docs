@@ -45,7 +45,7 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 ### Following are required manual setups
 
 - [Tax Accounting Period](tds-for-customer-overview.md#to-set-up-tax-accounting-period)
-- [T.A.N](tds-for-customer-overview.md#to-set-up-t.a.n)
+- [T.A.N](tds-for-customer-overview.md#to-set-up-tan)
 - [Assesse Code](tds-for-customer-overview.md#to-set-up-assessee-code)
 - [TDS Section](tds-for-customer-overview.md#to-set-up-tds-section)
 - [Concessional Code](tds-for-customer-overview.md#to-set-up-concessional-codes)

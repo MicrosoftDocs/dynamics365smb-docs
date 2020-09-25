@@ -14,12 +14,7 @@ ms.author: bholtorf
 
 ---
 # Set Up Email
-> [!Note]
-> Enhanced email capabilities are available in preview, which means that you can try them out but should not use them in production. Preview features give you early access to new capabilities, so you can provide feedback that can help us make them even better. 
->
-> If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new email capabilities are already turned on. If you are already using SMTP settings for email, see [Legacy SMTP Settings and the Email - SMTP Connector Extension](admin-how-setup-email.md#legacy-smtp-settings-and-the-smtp-connector-extension). 
-
-People in businesses send documents such as sales and purchase orders and invoices by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)]. That cuts out the middle-man, and lets people send documents without having to open an email app. People can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. 
+People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)]. That cuts out the middle-man, and lets people send documents without having to open an email app. People can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. 
 
 The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] make it easy to send documents, but that's a one-way street. You cannot also receive replies.  
 
@@ -30,21 +25,21 @@ You add email accounts through extensions that enable accounts from different pr
 
 After you add an email account, you can specify predefined business scenarios in which to use the account to send emails. For example, you can specify that all users send sales documents from one account, and purchase documents from another. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-The following table describes the email extensions that are currently available in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The following table describes the extensions that are available by default.
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
 |**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].|Allow communications from individual accounts.|
-|**Other (SMTP)**|Use SMTP protocol to send emails.|Everyone sends email from the account you specify. |
+|**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The standard email extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
+> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
 
-You can also use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
+If you use SMTP, you can use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
 
 ## Legacy SMTP Settings and the Email - SMTP Connector Extension
-If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. The next time we update your [!INCLUDE[d365fin](includes/d365fin_md.md)], your legacy SMTP settings will be copied to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
+If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[d365fin](includes/d365fin_md.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
 
 > [!NOTE]
 > If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
@@ -58,9 +53,11 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+<!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). <!--is this still true?-->
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
+is this still true?-->
 ## Assign Email Scenarios to Email Accounts
 Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
  

@@ -12,20 +12,13 @@ ms.author: edupont
 
 ---
 # Send Documents and Emails
-> [!Note]
-> Enhanced email capabilities are available in preview, which means that you can try them out but should not use them in production. Preview features give you early access to new capabilities, so you can provide feedback that can help us make them even better. 
->
-> If you're new to [!INCLUDE[d365fin](includes/d365fin_md.md)], the new email capabilities are already turned on. If you are already using SMTP settings for email, see [Legacy SMTP Settings and the Email - SMTP Connector Extension](admin-how-setup-email.md#legacy-smtp-settings-and-the-smtp-connector-extension).
-
-You can easily share documents, such as sales and purchase orders and invoices, by email directly from the document in [!INCLUDE[d365fin](includes/d365fin_md.md)]], without having to open an email app. 
+You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]], without having to open an email app. 
 
 You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
 When you send invoices, you can make it easier for customers to make payments through a payment service, such as PayPal, by automatically adding information and a link to the service in the email. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens pre-filled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
-
-To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup guide on the Role Center. For more information, see [Set Up Email](admin-how-setup-email.md).
+To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup guide. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)]] supports only outbound email communications. You cannot also receive replies from within the app.
@@ -36,7 +29,10 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the invoice, and then choose the **Print/Send** action.
 3. In the **Email** field, choose **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
-4. Choose the **OK** button. The **Send Email** page opens.
+    
+    If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens pre-filled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
+
+4. Choose the **OK** button.
 5. In the **To:** field, enter a valid email address. The default value is the customer email address.
 6. In the **Subject** field, enter a descriptive subject text. The default value is the customer name and invoice number.
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file.

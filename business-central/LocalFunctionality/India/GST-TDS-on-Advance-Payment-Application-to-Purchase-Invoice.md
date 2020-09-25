@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-## GST and TDS on Vendor Advance Payments
+# GST and TDS on Vendor Advance Payments
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

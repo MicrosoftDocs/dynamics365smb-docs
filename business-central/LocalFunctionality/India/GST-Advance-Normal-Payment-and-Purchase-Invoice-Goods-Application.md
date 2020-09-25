@@ -14,7 +14,9 @@
     ms.author: v-debapd
 
 ---
-# GST on Advance Payment or Normal payment application with Purchase Invoice
+# GST on Advance Payment or Normal Payment Application with Purchase Invoice
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 An advance payment made to vendor for a transaction that is subject to reverse charge is to be reported in GSTR-2. 
 

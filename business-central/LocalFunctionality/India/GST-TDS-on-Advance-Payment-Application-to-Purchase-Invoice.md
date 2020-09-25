@@ -16,11 +16,13 @@
 ---
 ## GST and TDS on Vendor Advance Payments
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
 ### Mandatory fields in cash or bank payment voucher
 
-1. Choose the ![img](image/search.jpg)icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Payment Voucher** or **Cash Payment Voucher**, and then choose the related link.
 2. Select **Vendor** in **Account Type** field and select relevant vendor code in **Account No.** field.
 3. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
 4. Select relevant TDS Section, GST Group Code, HSN/SAC Code, Location Code on journal line.
@@ -56,7 +58,7 @@ Later invoice for service purchase issued by vendor for INR 20,000, 18% GST (i.e
 
 ### Mandatory fields on purchase invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header.
 3. Select **G/L Account** for service on **Purchase Invoice** line.
 4. Select TDS Section on **Purchase Invoice** line.

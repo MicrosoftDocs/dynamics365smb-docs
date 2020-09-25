@@ -16,13 +16,15 @@
 ---
 # Purchase of Goods from SEZ Vendor
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 A special economic zone (SEZ) is a dedicated zone wherein businesses enjoy simpler tax and easier legal compliances. The transactions with SEZ’s are deemed  exports and imports. The SEZ supply of goods can be made with cover of bill of entry or without cover of bill of entry.
  
 Purchase process for SEZ vendor has been explained in this document.
 
 ## Create a purchase invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **SEZ**.
 3. Select **Item Code**for goods , **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code should be filled up on Item.
 4. IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 

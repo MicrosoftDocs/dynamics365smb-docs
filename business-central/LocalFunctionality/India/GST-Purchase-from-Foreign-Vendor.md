@@ -15,13 +15,15 @@
 ---
 # Import from Foreign Vendor
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor is subject to reverse charge i.e. the person importing goods or services has to remit tax to the government. 
 
 Purchase process for foreign vendor has been explained in this document.
 
 ## Create a purchase invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Import**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase and **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
 4. GST Credit option can be changed in document line.

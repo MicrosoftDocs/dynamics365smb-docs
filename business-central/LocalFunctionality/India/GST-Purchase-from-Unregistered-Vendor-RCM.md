@@ -16,6 +16,8 @@
 ---
 # Purchase of Goods from an Unregistered Vendor (Reverse Charge)
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 Persons whose aggregate turnover in a financial year does not exceed forty lakh rupees are not required to be registered with the GST authorities. Such persons are called unregistered vendors. Any purchases from unregistered vendors do not attract GST. However, there are some notified services under GST, on supply of such services GST is applicable under reverse charge mechanism i.e. the purchasers are required to pay GST tax to the Government.
 
 Purchase process for unregistered vendor has been explained in this document.
@@ -23,7 +25,7 @@ Purchase process for unregistered vendor has been explained in this document.
 ## Create a purchase invoice
 
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select Vendor on **Purchase Invoice** header, GST vendor type should be **Unregistered**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. 
 4. GST Credit option can be changed on invoice line.

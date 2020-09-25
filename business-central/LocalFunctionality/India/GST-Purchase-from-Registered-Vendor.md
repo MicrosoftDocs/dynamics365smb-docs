@@ -16,6 +16,8 @@
 ---
 # Purchase from Registered Vendors
 
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 A registered vendor is a person registered with GST authorities. For a registered vendor, on the vendor card, update the following fields:
   - GST Vendor Type as Registered. 
   - GST Registration No.
@@ -29,7 +31,7 @@ Purchase process for registered vendor has been explained in this document.
 
 ## Create a purchase invoice
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link. 
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link. 
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Registered**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. 
 4. GST Credit option can be changed on invoice line.

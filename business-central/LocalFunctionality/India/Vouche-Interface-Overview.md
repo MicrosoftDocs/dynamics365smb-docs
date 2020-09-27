@@ -41,7 +41,7 @@ Feature required to provide the voucher interface as per Indian business require
 
 ## To set up general journal template
 
-Journals are used for different types or groups of entries, such as purchases, payments, sales, and receivables. Each journal type is set up with its own journal template. Journal templates provide the basic journal structure where busiess users can specify default information for all batches created using the template.
+Journals are used for different types or groups of entries, such as purchases, payments, sales, and receivables. Each journal type is set up with its own journal template. Journal templates provide the basic journal structure where business users can specify default information for all batches created using the template.
 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal Template**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   

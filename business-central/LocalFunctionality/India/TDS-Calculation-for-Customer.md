@@ -30,7 +30,7 @@ TDS can be deducted on receiving payment from customer. TDS can be calculated on
 - Bank Receipt Voucher
 - Cash Receipt Journal
 
-TDS certificate will be receivable from customer on receiving the advance payment or issueing sales invoice to customer. TDS Certificate Receivable can be tracked through following documents:
+TDS certificate will be receivable from customer on receiving the advance payment or issuing sales invoice to customer. TDS Certificate Receivable can be tracked through following documents:
 
 - General Journal
 - Cash Receipt Voucher

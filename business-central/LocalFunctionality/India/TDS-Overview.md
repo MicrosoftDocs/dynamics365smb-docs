@@ -55,7 +55,7 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 - [Act Applicable](tds-overview.md#to-set-up-act-applicable)
 - [TDS Posting Setup](tds-overview.md#to-set-up-tds-posting-setup)
 - [TDS Rounding Precision](tds-overview.md#to-set-up-tds-rounding-precision)
-- [TDS in Vendore Master](tds-overview.md#to-set-up-tds-in-vendor-master)
+- [TDS in Vendor Master](tds-overview.md#to-set-up-tds-in-vendor-master)
 - [TDS in Location Master](tds-overview.md#to-set-up-tds-in-location-master)
 - [TDS in Company Information](tds-overview.md#to-set-up-tds-in-company-information)
 - [TDS in State Code](tds-overview.md#to-set-up-tds-in-state-code)

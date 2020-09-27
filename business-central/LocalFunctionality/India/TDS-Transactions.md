@@ -78,7 +78,7 @@ In the given scenario, advance payment made to vendor for INR 50,000 on which 2%
     |**TDS Payable Account**|-1000|
     |**Bank Account**|-49000|
 
-On receiving the invoice from the vendor, TDS will be calculated on the differencial amount. Suppose vendor sent an invoice of INR 120000. Since TDS has already been calculated at the time of payment, at the time of invoicing TDS will be calcuated on the remaining amount i.e. INR 70000 (1200000 - 50000).
+On receiving the invoice from the vendor, TDS will be calculated on the differential amount. Suppose vendor sent an invoice of INR 120000. Since TDS has already been calculated at the time of payment, at the time of invoicing TDS will be calculated on the remaining amount i.e. INR 70000 (1200000 - 50000).
 
 > [!NOTE]
 > Advance payment needs to be applied with the invoice before posting. Otherwise TDS will be calculated on the whole invoice amount.
@@ -170,7 +170,7 @@ A single invoice can be raised by the vendor for multiple expenses. For example,
 
 ### TDS on expenses at lower rate or zero rate
 
-If a vendor have a certificate of concessional rate instead of normal rate then to handle that scenario, concessional codes can be configured and attached to those vendors.
+If a vendor has a certificate of concessional rate instead of normal rate then to handle that scenario, concessional codes can be configured and attached to those vendors.
 
 In the given scenario, vendor issued an invoice for INR 100000 towards professional services. Vendor has a certificate of income tax at Lower rate @ 5% on professional services instead of normal rate.
 

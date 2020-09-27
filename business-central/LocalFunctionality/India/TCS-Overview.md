@@ -21,7 +21,7 @@
 
 Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
 
-**TCS** means **Tax Collection at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collection at Source’ (TCS) requires the receiver or seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
+**TCS** means **Tax Collected at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collected at Source’ (TCS) requires the receiver or seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
 
 ## Setting Up TCS
 
@@ -50,7 +50,7 @@ For more information about Auto Setup, see **Tax Engine** Information.
 - [Concessional Code](tcs-overview.md#to-set-up-concessional-codes)
 - [TCS Posting Setup](tcs-overview.md#to-set-up-tcs-posting-setup)
 - [TCS on Customer Master](tcs-overview.md#to-set-up-tcs-on-customer-master)
-- [TCS on Location Master ](tcs-overview.md#to-set-up-tcs-on-location-master)
+- [TCS on Location Master](tcs-overview.md#to-set-up-tcs-on-location-master)
 - [TCS on Company Information](tcs-overview.md#to-set-up-tcs-on-company-information)
 - [TCS on State Code](tcs-overview.md#to-set-up-tcs-on-state-code)
 
@@ -75,7 +75,7 @@ Tax Accounting period and quarters need to be defined for TCS calculation.
     |**No. of Periods**|Specify the number of periods.|
     |**Period Length**|Specify the length of the period.|
 
-## To set up T.C.A.N
+## To set up T.C.A.N.
 
 Tax Collected Account Number (T.C.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
 
@@ -194,7 +194,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
       |**Deductor Category**|Specifies the deductor category of the legal entity.|
       |**Circle No.**|Specifies circle number.|
       |**Assessing Officer**|Specifies the assessing officer.|
-      |**Ward No.**|Specifies the word number.|
+      |**Ward No.**|Specifies the ward number.|
 
 ## To set up TCS on state code
 

@@ -35,7 +35,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 
   1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link. 
   2. Select **Customer** in Account Type and select relevant customer code in Account No. field. 
-  3. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. filed.
+  3. Select **G/L Account** or **Bank Account** in Bal. Account Type and select relevant expense account in Bal. Account. No. field.
   4. Select relevant **TCS Nature of Collection** in journal line. **Location Code** and **T.C.A.N No.** fields should not be blank.
 
 - Create Sales Invoice or Sales Order
@@ -47,7 +47,7 @@ TCS can be collected on goods (Items) and services (G/L Account) transactions. T
 
 ### TCS to be calculated on customer invoice (through general journal, sales journal, sales invoice or sales order)
 
-For example, invoice has been issued to customer for INR 10,000 on which 1% TCS is applicable for Nature of Collection 'Scrap'.
+For example, invoice has been issued to customer for INR 10,000 on which 1% TCS is applicable for Nature of Collection "Scrap".
   
   - In this case TCS calculation will be as following:
 
@@ -109,7 +109,7 @@ TCS which has been calculated on advance payment can be adjusted while creating 
 
 ## TCS to be calculated on non-resident customer invoice in FCY
 
-For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”. All foreign currency amounts will get converted into INR based on currency exchange rates, exchange rate has been considered, for this example is 1 USD = 65 INR.
+For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection “Scrap”. All foreign currency amounts will get converted into INR based on currency exchange rates. Exchange rate considered for this example is 1 USD = 65 INR.
 
   - In this case TCS calculation will be as following:
 
@@ -188,9 +188,9 @@ For example, invoice has been raised to customer for INR 1,00,000 towards sale o
     |**TCS Payable Account**|-500|
     |**Sales Account**|-100000|
 
-## TCS on sale of scrape @ zero rate
+## TCS on sale of scrap @ zero rate
 
-For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrape. Customer has a certificate of income tax at Zero rate @ 0% on Scrap instead of normal rate.
+For example, invoice has been raised to customer for INR 1,00,000 towards sale of Scrap. Customer has a certificate of income tax at Zero rate @ 0% on Scrap instead of normal rate.
 
   - In this case TCS calculation will be as following:
 

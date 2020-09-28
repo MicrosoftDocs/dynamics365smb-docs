@@ -37,13 +37,13 @@ Below is the list of Automatic Setups, that will be pre-configured with the help
 - HSN/SAC
 - Component
 - Rate Setup
-- Tax Rates
 - Attributes
 
 For more information about Automatic Setup, see **Tax Engine** information.
 
 Below is the list of Manual Setups, that are required to be configured manually
 
+- [GST Rate](gst-001-basic-setup.md#to-set-up-gst-rates)
 - [GST Registration Number](gst-001-basic-setup.md#to-set-up-gst-registration-number)
 - [GST Accounting Period](gst-001-basic-setup.md#to-set-up-gst-accounting-period)
 - [GST States](gst-001-basic-setup.md#to-set-up-gst-states)
@@ -62,6 +62,29 @@ Below is the list of Manual Setups, that are required to be configured manually
 - [GST in Customer Ship to Addresses](gst-001-basic-setup.md#to-set-up-gst-in-customer-ship-to-addresses)
 - [GST in Service Cost](gst-001-basic-setup.md#to-set-up-gst-in-service-cost)
 - [GST in Bank Account](gst-001-basic-setup.md#to-set-up-gst-in-bank-account)
+
+## To set up GST rates
+
+Rate of GST is defined in combination of HSN/SAC, group and states.
+
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **GST** -> **Action** -> **Tax Rates**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**HSN/SAC**|Specifies the HSN/SAC code.|
+    |**GST Group Code**|Specifies the GST group code.|
+    |**From State**|Specifies the vendor state code.|
+    |**Location State Code**|Specifies the location state code.|
+    |**Date From**|Specifies the starting date.|
+    |**Date To**|Specifies the ending date.|
+    |**SGST %**|Specifies the SGST rate.|
+    |**CGST %**|Specifies the CGST rate.|
+    |**IGST %**|Specifies the IGST rate.|
+    |**Cess %**|Specifies the Cess rate.|
+    |**KFC %**|Specifies the KFC rate.|
+    |**POS Out of India**|Specifies whether **POS out of India** functionality is activated or not.|
+    |**POS as Vendor State**|Specifies whether **POS as Vendor State** functionality is activated or not.|
 
 ## To set up GST registration number
 

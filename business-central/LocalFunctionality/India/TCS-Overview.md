@@ -37,12 +37,13 @@ Business Central has included Tax Collected at Source (TCS) Feature in Indian Lo
 - Components
 - Attributes
 - Rate Setup
-- Tax Rates
+
 
 For more information about Auto Setup, see **Tax Engine** Information.
 
-### The following are required manual setup
+### The following are required to be setup manually
 
+- [TCS Rates](tcs-overview.md#to-set-up-tcs-rates)
 - [Tax Accounting Period](tcs-overview.md#to-set-up-tax-accounting-period)
 - [T.A.N](tcs-overview.md#)
 - [Assessee Code](tcs-overview.md#)
@@ -53,6 +54,28 @@ For more information about Auto Setup, see **Tax Engine** Information.
 - [TCS on Location Master](tcs-overview.md#to-set-up-tcs-on-location-master)
 - [TCS on Company Information](tcs-overview.md#to-set-up-tcs-on-company-information)
 - [TCS on State Code](tcs-overview.md#to-set-up-tcs-on-state-code)
+
+## To set up TCS rates
+
+Rate of TCS is defined in combination of TCS nature of collection and assessee code.
+
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TCS** -> **Action** -> **Tax Rates**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**TCS Nature of Collection**|Specifies the nature of collection of TCS.|
+    |**Assessee Code**|Specifies the assessee code.|
+    |**Concessional Code**|Specifies the concessional code.|
+    |**Effective Date**|Specifies the effective date.|
+    |**TCS %**|Specifies the TCS rate.|
+    |**Surcharge %**|Specifies the surcharge rate.|
+    |**Non PAN TCS %**|Specifies the TCS rate in case of non availability of PAN.|
+    |**e Cess %**|Specifies the eCess rate.|
+    |**SHE Cess %**|Specifies the SHE Cess rate.|
+    |**TCS Threshold Amount**|Specifies the threshold amount applicable for TCS.|
+    |**Surcharge Threshold Amount**|Specifies the threshold amount applicable for surcharge.|
+    |**Contract Amount**|Specifies the contract amount.|
 
 ## To set up tax accounting period
 

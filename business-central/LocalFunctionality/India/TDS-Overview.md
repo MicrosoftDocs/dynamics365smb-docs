@@ -40,12 +40,12 @@ The Income Tax Act, 1961 specifies that tax deduction is to be made, for the spe
 - Components
 - Attributes
 - Rate Setup
-- Tax Rates
 
 For more information about Automatic Setup, see **Tax Engine** Information.
 
-#### The following are required manual setups
+#### The following are required to be setup manually
 
+- [TDS Rate](tds-overview.md#to-set-up-tds-rates)
 - [Tax Accounting Period](tds-overview.md#to-set-up-tax-accounting-period)
 - [T.A.N](tds-overview.md#to-set-up-tan)
 - [Assessee Code](tds-overview.md#to-set-up-assessee-code)
@@ -59,6 +59,32 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 - [TDS in Location Master](tds-overview.md#to-set-up-tds-in-location-master)
 - [TDS in Company Information](tds-overview.md#to-set-up-tds-in-company-information)
 - [TDS in State Code](tds-overview.md#to-set-up-tds-in-state-code)
+
+## To set up TDS rates
+
+Rate of TDS is defined in combination of TDS section and assessee code.
+
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TDS** -> **Action** -> **Tax Rates**, and then choose the related link.
+2. Fill in the fields as described in the following table.
+
+    |Field|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Section Code**|Specifies the TDS section code.|
+    |**Assessee Code**|Specifies the assessee code.|
+    |**Effective Date**|Specifies the date from which rate will be effective.|
+    |**Concessional Code**|Specifies the concessional code.|
+    |**Nature of Remittance**|Specifies whether the nature of remittance is applicable or not.|
+    |**Act Applicable**|Specifies the applicable act.|
+    |**Currency Code**|Specifies the currency code.|
+    |**TDS %**|Specifies the TDS rate.|
+    |**Non PAN TDS %**|Specifies the TDS rate in case of non availability of PAN.|
+    |**Surcharge %**|Specifies the surcharge rate.|
+    |**eCESS %**|Specifies the eCess rate.|
+    |**SHE Cess %**|Specifies the SHE Cess rate.|
+    |**Surcharge Threshold Amount**|Specifies the threshold amount applicable for surcharge.|
+    |**TDS Threshold Amount**|Specifies the threshold amount applicable for TDS.|
+    |**Per Contract Value**|Specifies the per contract value.|
+
 
 ## To set up tax accounting period.
 

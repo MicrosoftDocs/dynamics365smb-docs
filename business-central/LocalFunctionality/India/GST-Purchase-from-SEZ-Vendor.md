@@ -20,7 +20,7 @@
 
 A special economic zone (SEZ) is a dedicated zone wherein businesses enjoy simpler tax and easier legal compliances. The transactions with SEZ’s are deemed  exports and imports. The SEZ supply of goods can be made with cover of bill of entry or without cover of bill of entry.
  
-Purchase process for SEZ vendor has been explained in this document.
+Process for purchase from SEZ vendor has been explained in this document.
 
 ## Create a purchase invoice
 
@@ -106,7 +106,7 @@ For example, purchase invoice will be issued for INR 10000, Custom Duty INR 1000
     |**Vendor Account (Transaction Value)**|-13160|
 
 > [!NOTE]
-> The GST calculation process for SEZ vendor is same as Import vendor.
+> The GST calculation process for SEZ vendor is same as for an Import vendor.
 
 
 

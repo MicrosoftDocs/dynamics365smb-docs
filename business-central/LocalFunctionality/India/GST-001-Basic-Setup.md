@@ -47,7 +47,7 @@ Below is the list of Manual Setups, that are required to be configured manually
 - [GST Registration Number](gst-001-basic-setup.md#to-set-up-gst-registration-number)
 - [GST Accounting Period](gst-001-basic-setup.md#to-set-up-gst-accounting-period)
 - [GST States](gst-001-basic-setup.md#to-set-up-gst-states)
-- [GST Groupes](gst-001-basic-setup.md#to-set-up-gst-groups)
+- [GST Groups](gst-001-basic-setup.md#to-set-up-gst-groups)
 - [GST Posting Setup](gst-001-basic-setup.md#to-set-up-gst-posting-setup)
 - [GST in Company Information](gst-001-basic-setup.md#to-set-up-gst-in-company-information)
 - [GST in Location](gst-001-basic-setup.md#to-set-up-gst-in-location)
@@ -233,7 +233,7 @@ GST registration number can be assigned to company for their multiple locations.
 
 ## To set up GST in masters
 
-Below is the list of masters having GST setup
+Below is the list of masters requiring setup of GST
 
 - Item
 - Fixed Asset
@@ -261,10 +261,10 @@ Below is the list of masters having GST setup
     |Field|Description| 
     |---------------------------------|  ---------------------------------------|
     |**GST Vendor Type**|Vendor type can be Registered, Composite, Unregistered, Import, Exempted, SEZ. It has to be selected from the dropdown.|
-    |**GST Registration No.**|Registration No. of vendor shall be entered. Registration number is mandatory if GST Vendor Type is Registered. Registration No. shall be of 15-digits.|
+    |**GST Registration No.**|Enter Registration No. of vendor. Registration number is mandatory if GST Vendor Type is Registered. Registration No. is of 15-digits.|
     |**Associated Enterprises**|This field is activated only if GST Vendor Type is Import. This can be used for an import transaction of services or goods from sister concerns located outside India.|
-    |**Aggregate Turnover**|This field can be used only if GST Vendor Type is Unregistered. The available options are: More than 20 lakh, Less than 20 lakh. System will allow interstate supply of services if Less than 20 lakh is selected in this field for unregistered vendor.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
+    |**Aggregate Turnover**|Applicable only if GST Vendor Type is Unregistered. The available options are: More than 20 lakh, Less than 20 lakh. System will allow interstate supply of services if Less than 20 lakh is selected in this field for unregistered vendor.|
+    |**ARN No.**|Capture the Vendor ARN No. only when GST registration number is not available.|
 
 
 ## To set up GST in vendor order address
@@ -275,8 +275,8 @@ Below is the list of masters having GST setup
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
     |**State**|State code can be selected from dropdown for this field. appropriate State code has to be selected.|
-    |**GST Registration No.**|Registration No. of vendor shall be entered here. Registration number is mandatory if GST Vendor Type is Registered. Registration No. shall be of 15-digits.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
+    |**GST Registration No.**|Enter Registration No. of vendor. Registration number is mandatory if GST Vendor Type is Registered. Registration No. is of 15-digits.|
+    |**ARN No.**|Capture the Vendor ARN No. only when GST registration number is not available.|
 
 ## To set up GST in customer
 
@@ -288,9 +288,9 @@ Below is the list of masters having GST setup
     |---------------------------------|  ---------------------------------------| 
     |**GST Customer Type**|Customer type can be Registered, Unregistered, Export, Deemed Export, SEZ Unit, SEZ Development or Exempted. Select the appropriate Customer type from the dropdown.|
     |**GST Registration Type**|Registration type can be GSTIN (Goods and Services Tax Payer Identification Number), UID (Unique Identification Number), and GID (Government Identification Number). Appropriate type shall be selected from the dropdown.|
-    |**GST Registration No.**|The 15-digit GST Registration Number shall be entered. Registration number is mandatory if GST Customer Type is Registered or Deemed Export.|
+    |**GST Registration No.**|Enter the 15-digit GST Registration Number. Registration number is mandatory if GST Customer Type is Registered or Deemed Export.|
     |**E-Commerce Operator**|This field is activated, if sales are done through an e-commerce operator.|
-    |**ARN No.**|This field captures the Vendor ARN No. only when GST registration number is not available.|
+    |**ARN No.**|Capture the Customer ARN No. only when GST registration number is not available.|
 
 ## To set up GST in customer ship to addresses
 
@@ -300,9 +300,9 @@ Below is the list of masters having GST setup
     
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
-    |**State**|State code can be selected from dropdown for this field. Select appropriate State code.|
-    |**GST Registration No.**|Registration No. of vendor shall be entered. Registration number is mandatory if GST Customer Type is Registered. Registration No. shall be of 15-digits.|
-    |**ARN No.**|This field captures the Customer ARN No. only when GST registration number is not available.|
+    |**State**|Select state from the dropdown for this field. Select appropriate State code.|
+    |**GST Registration No.**|Enter Registration No. of customer. Registration number is mandatory if GST Customer Type is Registered. Registration No. is of 15-digits.|
+    |**ARN No.**|Capture the Customer ARN No. only when GST registration number is not available.|
 
 
 ## To set up GST in service cost
@@ -314,9 +314,9 @@ Below is the list of masters having GST setup
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
     |**GST Group Code**|Specifies the GST Group code relevant for the service cost. GST Group codes created in GST Group Setup appears as dropdown.|
-    |**GST Credit**|This field is checked if the GST Credit can be Availment or Non-Availment. By default this field displays Availment.|
+    |**GST Credit**|Check if the GST Credit can be Availment or Non-Availment. By default this field displays Availment.|
     |**HSN/SAC Code**|Specifies HSN/SAC Code for the GST Group selected in GST Group code field.| 
-    |**Exempted**|This field is checked if the item is exempted from payment of tax.| 
+    |**Exempted**|Check if the item is exempted from payment of tax.| 
 
 
 ## To set up GST in bank account
@@ -326,9 +326,9 @@ Below is the list of masters having GST setup
     
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
-    |**State Code**|This field is required for GST calculation in Bank Charges transactions.|
-    |**GST Registration Status**|GST Registration type can be Blank or Registered. If GST registration No. is added in Bank Account Master the status will be updated as Registered.|
-    |**GST Registration No.**|Registration No. of Bank shall be entered. Registration number is mandatory, if GST Registration Status is Registered. Registration No. comprises 15-digits.|
+    |**State Code**|Required for GST calculation in Bank Charges transactions.|
+    |**GST Registration Status**|Can be Blank or Registered. If GST registration No. is added in Bank Account Master the status will be updated as Registered.|
+    |**GST Registration No.**|Enter Registration No. of Bank. Registration number is mandatory, if GST Registration Status is Registered. Registration No. comprises 15-digits.|
 
 
 

@@ -21,7 +21,7 @@
 
 As per GST Law, GST is applicable on bank charges and ITC can be availed for specified services.  As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice is not provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it is not serially numbered and whether or not it contains the address of recipient of taxable service. 
 
-Bank charges can be interstate or Interstate. CGST & SGST are applicable if the bank and customer are located in the same state. IGST is applicable if both are in different states. 
+Bank charges can be Intrastate or Interstate. CGST & SGST are applicable if the bank and customer are located in the same state. IGST is applicable if both are in different states. 
 
 The place of supply of banking and other financial services to any person shall be the location of the recipient of services on the records of the supplier of services. If the location of recipient of services is not on the records of the supplier, the place of supply shall be the location of the supplier of services. 
 

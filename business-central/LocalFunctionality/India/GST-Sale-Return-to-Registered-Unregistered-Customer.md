@@ -18,7 +18,7 @@
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
-Sales to a registered customer are known as B2B sales, sales to unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported in separately in GSTR-1.
+Sales to a registered customer are known as B2B sales, sales to an unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported in separately in GSTR-1.
 
 A customer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 

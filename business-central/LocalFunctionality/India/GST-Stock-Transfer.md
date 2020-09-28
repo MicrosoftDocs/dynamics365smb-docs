@@ -85,7 +85,7 @@ Bonded warehouse transfer means transfer of stock from customs warehouse to comp
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Transfer Order**, and then choose the related link. 
 2. Select **Transfer-from Code** and **Transfer-to Code** on **Transfer Order** header. 
 3. State Code and GST registration number should be filled on Transfer-to **Location**.
-4. **Bondend warehouse** field should be marked true on Transfer-from **Location**.
+4. **Bonded warehouse** field should be marked true on Transfer-from **Location**.
 
 3. Select **Item** on **Transfer Order** line. GST Group Code, HSN/SAC Code should be filled on **Item**.
 

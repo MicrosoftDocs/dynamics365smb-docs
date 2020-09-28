@@ -100,7 +100,7 @@ Tax Accounting period and quarters need to be defined for TCS calculation.
 
 ## To set up T.C.A.N.
 
-Tax Collected Account Number (T.C.A.N) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
+Tax Collected Account Number (T.C.A.N.) allotted to a company can be more than one, depending on the number of branch locations from where the company files its returns. All the account numbers allotted to a company need to be captured here.
 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **T.C.A.N Nos.**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
@@ -113,7 +113,7 @@ Tax Collected Account Number (T.C.A.N) allotted to a company can be more than on
 
 > [!TIP]
 >
-> It is mandatory to enter the T.C.A.N, on all TCS Transactions.
+> It is mandatory to enter the T.C.A.N. on all TCS Transactions.
 
 ## To set up assessee code
 
@@ -204,7 +204,7 @@ TCS nature of collection and concessional codes need to be defined for each cust
 
 ## To set up TCS on location master
 
-**T.C.A.N** needs to be defined for locations from where the company files its returns.
+**T.C.A.N.** needs to be defined for locations from where the company files its returns.
 
 ## To set up TCS on company information
 

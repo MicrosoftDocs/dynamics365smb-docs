@@ -17,17 +17,17 @@
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
-This functionality is handled through Json file. Json Exchange extension is used to import or export the configuration data of tax engine as json.
+Json Exchange extension is used to import or export the configuration data of tax engine in json format.
 
 There are two options available for importing and exporting tax configuration:
 
 - **Import or Export from Tax Type**
 
-This option is used when all configuration of a tax type is to be imported or exported. This contains its entities, components, input parameter, rate setup and use cases.
+This option is used when all configuration pertaining to a tax type is to be imported or exported. It contains entities, components, input parameter, rate setup and use cases.
 
 - **Import or Export for a specific Use Case**
 
-This option is used when one or more-use cases related to a specific tax type is to be imported or exported. This contains use case related information.
+This option is used when configuration pertaining to one or more-use cases is to be imported or exported. It contains use case related information.
 
 
 

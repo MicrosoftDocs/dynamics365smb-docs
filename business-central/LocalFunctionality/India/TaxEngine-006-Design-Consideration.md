@@ -34,11 +34,11 @@ A new tax type should be created if it has unique attributes which are used in d
 ## Generic tax rate setup
 - Rate Setup for Different Tax Type
   
-  Tax Rate Setup of each tax type is configured separately but the User Interface is same. Fields in tax rate setup are dynamic and based on the tax rate column setup. User can define what columns are needed for a tax rate setup. For example ‘GST tax type would require ‘HSN Code’ where as TDS tax type is not dependent on HSN code.
+  Tax Rate Setup of each tax type is configured separately but the User Interface is same. Fields in tax rate setup are dynamic and based on the tax rate column setup. User can define what columns are needed for a tax rate setup. For example ‘GST' tax type would require ‘HSN Code’ where as 'TDS' tax type is not dependent on HSN code.
 
-- Why Generic Table for Tax Rate Setup?
+- Generic Table for Tax Rate Setup
   
-  Use generic table for tax rate setup for all Tax types to handle any new components introduced by government for getting the tax rate.
+  Use generic table for tax rate setup for all Tax types. It enables to handling any new components introduced by government related to the tax rate.
   
   Example: If there is a regulatory change in which ‘Threshold Limit’ is removed then it can be managed by removing it from the tax rate column setup.
 
@@ -52,18 +52,19 @@ A new tax type should be created if it has unique attributes which are used in d
 
  - Tax Rate Configuration Value
  
-  This table contains the information of tax rate setup, tax engine uses common tax rate setup for types of taxes.
+  This table contains information of tax rate setup. Tax engine uses common tax rate setup for different types of taxes.
 
 ## Use case execution
 
-- Only Child Use Cases are Executed for Output
+- Only Child Use Cases are Executed for output
+
   There can be a parent child relation between use cases. Parent use cases are used for defining attribute mapping which is common for one or more use cases.
-
-  In case an event is linked with more than one use case belonging to same tax type then its condition should be unique as tax engine will only execute one child level use case within one tax type.
-
+  
+  A child use case is mapped in the use case tree. Before execution of the use case, conditions of use case tree should be passed.
+  
 - Sequencing of Use Case Execution
 
-  The sequence of use case execution depends on the sequencing defined in the related tax use case event.
+  The sequence of use case execution depends on the sequencing defined in the use case tree.
 
 - Execution of multiple Use Cases for a tax type
 
@@ -79,13 +80,22 @@ A new tax type should be created if it has unique attributes which are used in d
  
   Every use case configured in tax engine is a Json file which can be exported and imported from a Business Central tenant. These configurations are deployed individually for each company.
 
+- Deployment of Configuration
+
+  Default configurations that are provided in the system will be available as part of demo data. In case if a new production company is created then the configuration can be imported from assisted setup, where system will pick the json based on the function of a codeunit. Json for standard configuration is available in a translation file for there related extensions like GST, TDS and TCS which are updated when the codeunit function is called. In case users have changed any standard configuration or created a new configuration then they can use the export and import function available on tax types and use cases page.
+
 - Change in Configuration
+
+  If any update is done on a use case then the version of the use case will be higher than the one which is already deployed. System will archive the old one and update the new use case based on the jeson.
+
+   
+- Change in Configuration by user
 
   In case of any change done in any use case to fix a bug or handle regulatory change, the updated configuration should be imported again in each company individually.
 
 - Version Management
 
-  In case of any change done in any use case the current active version of the use case is archived and new changed use case version becomes active.
+  In case of any change done in any use case the current active version of the use case is archived and new use case version becomes active.
 
 ## Enabling and disabling configuration
 

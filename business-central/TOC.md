@@ -1058,8 +1058,8 @@
 ###### [Configuration of Tax Type and Tax Rate](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
 ###### [Configuration of Use Case](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
 ##### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
-##### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
 ##### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
+##### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
 #### GST
 ##### [GST Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
 ##### GST on Purchase

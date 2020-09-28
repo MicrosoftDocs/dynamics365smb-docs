@@ -31,18 +31,17 @@ If value of a field is to be picked from the current record (that is source tabl
 
 #### Variable
 
-If value of a variable is to be picked. Variables of a rule from the rule editor card can be created or viewed.
-
+If value of a variable is to be picked. Variables of a rule can be created or viewed from the rule editor card.
 
 #### Table
 
 If value of a field is to be picked from a table that is related to the current record / source table. This is very much like CALCFORMULA in AL.
 
-- Table Name : Specify the Table from where the value is to be picked.
+- Table Name : Specify the table from where the value is to be picked.
 
-- Table Filters : Specify the relationship between the current record and the Table from where the value is to be picked.
+- Table Filters : Specify the relationship between the current record and the table from where the value is to be picked.
 
-- Table Sorting : Sorting to be applied on table records. If sorting is specified records will be sorted on Primary Key.
+- Table Sorting : Sorting to be applied on table records. If sorting is specified, records will be sorted on Primary Key.
 
 - Field Name: Value is picked from this field based on the method you have selected.
 
@@ -67,17 +66,17 @@ TIME, TODAY, WORKDATE, CURRENTDATETIME values can be picked from the current dat
 
 #### Tax attribute
 
-Tax Attributes can be picked which are defined with tax type.
+Tax attributes defined with tax type can be picked.
 
 
 #### Component
 
-Tax Component amounts computed based on percentage captured can be picked from Tax Rates.
+Tax Component amounts computed can be picked from Tax Rates.
 
 
 #### Record variable
 
-The value of a ‘Record variable’ field used in use case variable can be picked.
+The value of a ‘Record variable’ field used in 'use case' variable can be picked.
 
 
 #### Component percent
@@ -92,7 +91,7 @@ Value of ‘Tax Rate Parameter’ captured from ‘Tax Rates’ can be picked.
 
 #### Attribute table
 
-Value of attribute from existing table can be picked.
+Value of an attribute from existing table can be picked.
 
 
 #### Posting

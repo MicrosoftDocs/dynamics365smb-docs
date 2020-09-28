@@ -25,7 +25,7 @@ Use Case consist of following stages for calculation:
 
   - **Condition**:
 
-    This will be the condition which decides whether the use case should be executed or not.
+    Condition which determine whether the use case should be executed or not.
 
     Example of Condition:
 
@@ -33,7 +33,7 @@ Use Case consist of following stages for calculation:
      |--------------------|-----------------------|-----------------|----------|  
      |    |"Applies-to Doc No."|Not Equals|''
      |or|"Applies-to ID"|Not Equals|''
-     |and|"GSt Vendor Type"|Equals|'Unregistered'
+     |and|"GST Vendor Type"|Equals|'Unregistered'
      |and|"Account Type"|Equals|'Vendor'
      |and|"Document Type"|Equals|'Invoice'
      |and|"GST Bill-to/Buy-from State Code"|Equals|'Location State Code'
@@ -44,12 +44,12 @@ Use Case consist of following stages for calculation:
 
    - **Attribute Mapping**:
 
-     This will be defined to map the required attributes with their source.
-     Example : In case GST to be calculated on Sales Line, HSN Code will flow from G/L Account table in case type on General Journal Line is G/L Account.
+     This is defined to map the required attributes with their source of value.
+     Example : In case, GST is to be calculated on Sales Line and value of field ‘Type’ on General Journal Line is ‘G/L Account’ then, HSN Code will flow from G/L Account table.
 
    - **Rate Parameter Mapping**:
 
-     Rate parameter need to be mapped with their source, but this mapping will be done only for column types ‘Range’ and ‘Value’. If an applicable tax rate is found, then system will return ‘component percent’ defined for that tax rate. Example:
+     Rate parameter needs to be mapped with their source, but this mapping will be done only for column types ‘Range’ and ‘Value’. If an applicable tax rate is found, then system will return ‘component percent’ defined for that tax rate. Example:
 
       |Type  |Description  |
       |---------|---------|
@@ -60,12 +60,12 @@ Use Case consist of following stages for calculation:
 
    - **Use Case Variables**:
 
-     Variables can be used at the time of computation of an intermediate value or define a validation in a use case. Example: showing alert message on Tax execution.
+     Variables can be used at the time of computation of an intermediate value or defining validations in a use case. Example: showing alert message on tax execution.
 
 
   - **Computation Script**:
 
-     This is an optional step which will be only used to store values in variables.
+     This is an optional step, which will be used to store values in variables.
      Example: storing value of TDS Amount and adding INR 1000 freight to get the final amount.
 
 
@@ -76,7 +76,7 @@ Use Case consist of following stages for calculation:
 
   - **Use Case Posting**:
 
-    Map required component of use case with a G/L account from chart of accounts. There is a posting entity where the G/L accounts are configured for the tax type. Based on the filters applied on the posting entity, tax engine points to the record from which components can be mapped to posting accounts. In case of reverse charge, same component is adjusted with its payable or receivable account. Configuration will have “Reverse Charge” flag as true and account can be mapped for same in “Reverse Charge G/L Field Name”.
+    There is a posting entity where the 'G/L Accounts' are configured for the specific 'tax type'. Based on the filters applied on the posting entity, tax engine points to the record from which components can be mapped to posting accounts. In case of reverse charge, same component is adjusted with its payable or receivable account. Configuration will have “Reverse Charge” flag as true and account can be mapped for same to “Reverse Charge G/L Field Name”.
 
 
   - **Tax Ledger Mapping**:
@@ -84,23 +84,14 @@ Use Case consist of following stages for calculation:
     Calculated tax, which is an output of a use case needs to be mapped to a tax ledger table. Example: On posting of general ledger entry for GST, there will be a new GST Entry created as a tax ledger for the posted transaction.
 
 
-## How to attach use case to business event.
-
-- To attach a use case to a Business Event go to ‘Tax Use Case Events’ from the Search box.
-
-- This will open the list of available ‘Events’, select an ‘Event’, for example “A Sales Document is released” and click on ‘Attach/ De-Attach Rule’, it will open the list of available use cases that can be attached to an event.
-
-- Attached used case can be seen on the fact box.
-
-
-## How to check tax information on transaction
+## How to check tax information for a transaction
 
 There are two fact boxes available on transaction page to view calculated tax
 
 - Tax Information 
 - Tax Component
 
-Statistics Page, we will show the tax information in Tax Summary Tab.
+Statistics Page, will show the tax information in Tax Summary Tab.
 
 
 

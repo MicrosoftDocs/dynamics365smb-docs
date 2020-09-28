@@ -22,9 +22,9 @@ A composite vendor is a vendor whose aggregate turnover in a financial year does
 
 A composite vendor has to register himself with the GST authorities and hence registration no. is mandatory on the vendor card, if the vendor Type is selected as Composite. State Code is also mandatory. No GST entries are generated for a composite vendor, as a composite vendor is not entitled to collect any tax from the customers. 
 
-A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+A buyer may have to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 
-Purchase return process for composite vendor has been explained in this document.
+Process for purchase returns to a composite vendor has been explained in this document.
 
 
 ## Create a purchase return order or credit memo

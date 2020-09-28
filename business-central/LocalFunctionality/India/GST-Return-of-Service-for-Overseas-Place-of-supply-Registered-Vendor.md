@@ -29,7 +29,7 @@ The process of computing tax on purchase return to a vendor with overseas place 
 3. Select **G/L Account** on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** in the G/L Account. 
 4. GST Credit option can be changed on **Purchase Credit Memo** line.
 
-For example, Service Recipient having GSTIN for West Bengal and Vendor having GSTIN for West Bengal, but being service provider and place of supply is outside India. In this case, IGST will be charged as place of supply is outside India. So, return order or credit memo will be issued for INR 10,000 on which 18% IGST, has to be charged.
+For example, if a service recipient has a GSTIN for West Bengal and the Vendor has a GSTIN in West Bengal, but the place of supply is outside India. In this case, IGST will be charged as place of supply is outside India. So, return order or credit memo will be issued for INR 10,000 on which 18% IGST, has to be charged.
 
 - GST calculation will appear in the Fact Box, as following:
     

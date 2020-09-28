@@ -19,7 +19,7 @@
 
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor is subject to reverse charge i.e. the person importing goods or services has to remit tax to the government. 
 
-Purchase process for foreign vendor has been explained in this document.
+Process for purchase from a foreign vendor has been explained in this document.
 
 ## Create a purchase invoice
 
@@ -28,9 +28,9 @@ Purchase process for foreign vendor has been explained in this document.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase and **Fixed Asset** for Fixed Asset purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account.
 4. GST Credit option can be changed in document line.
 
-- Import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
+- In case of import of goods from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
 
-For example, purchase invoice will be issued INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+For example, purchase invoice is issued INR 10000, Custom Duty is INR 1000. Therefore, on GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
   - GST calculation will appear in the Fact Box, as following:
     
@@ -62,7 +62,7 @@ For example, purchase invoice will be issued INR 10000, Custom Duty INR 1000, GS
 
 - Import of Fixed Asset from foreign vendor, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
 
-For example, purchase invoice will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+For example, purchase invoice is issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000,(IGST @18%) has to be charged. Calculation base: (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
   - GST Calculation will appear in the Fact Box, as following:
     
@@ -93,7 +93,7 @@ For example, purchase invoice will be issued for INR 10000, Custom Duty INR 1000
 
 - Import of services from foreign vendor. 
 
-For example, purchase invoice will be issued for INR 10000, (IGST @18%) has to be charged.
+For example, purchase invoice is issued for INR 10000, (IGST @18%) has to be charged.
 
   - GST Calculation will appear in the Fact Box, as following:
     
@@ -122,7 +122,7 @@ For example, purchase invoice will be issued for INR 10000, (IGST @18%) has to b
 
 - Import of Services from Import Associate Vendor. 
 
-For example, purchase invoice will be issued for INR 10000, (IGST @18%) has to be charged.
+For example, purchase invoice is issued for INR 10000, (IGST @18%) has to be charged.
 
   - GST Calculation will appear in the Fact Box, as following:
     

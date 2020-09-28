@@ -20,9 +20,9 @@ A registered vendor is a person who is registered with GST authorities.
 For purchases from registered vendors for services attracting reverse charge, purchasers themselves has to pay tax to the government.
 If exempted goods and services are purchased from registered Vendor, then no GST is to be paid to supplier or to the Government.
 
-A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+A buyer may have to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 
-Purchase return process for registered vendor has been explained in this document.
+Process for purchase returns to registered vendor has been explained in this document.
 
 
 ## Create a purchase return order or credit memo
@@ -31,7 +31,7 @@ Purchase return process for registered vendor has been explained in this documen
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Registered**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset, Charge (Item). 
 
-For example, purchase credit memo or return order will be issued for INR 10000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
+For example, purchase credit memo or return order is issued for INR 10000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 
 - GST calculation will appear in the Fact Box, as following:
     

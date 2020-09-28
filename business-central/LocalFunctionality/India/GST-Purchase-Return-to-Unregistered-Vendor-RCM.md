@@ -20,9 +20,9 @@
 
 Persons whose aggregate turnover in a financial year does not exceed forty lakh rupees are not required to be registered with the GST authorities. Such persons are called unregistered vendors. Any purchases from unregistered vendors do not attract GST. However, there are some notified services under GST, on supply of such services GST is applicable under reverse charge i.e. the purchasers are required to  pay GST to the Government.
 
-A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+A buyer may have to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 
-Purchase return process for unregistered vendor has been explained in this document.
+Process for Purchase returns to unregistered vendor has been explained in this document.
 
 
 ## Create a purchase return order or credit memo
@@ -31,7 +31,7 @@ Purchase return process for unregistered vendor has been explained in this docum
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Unregistered**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. GST Group Code, HSN/SAC Code and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item, G/L Account, Fixed Asset, Item (Charge). 
 
-For example, purchase credit memo or return order will be issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
+For example, purchase credit memo or return order is issued for INR 10,000 on which 18% GST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), has to be charged.
 
 - GST calculation will appear in the Fact Box, as following:
     

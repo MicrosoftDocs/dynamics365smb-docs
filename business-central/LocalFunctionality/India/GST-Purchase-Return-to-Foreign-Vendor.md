@@ -20,9 +20,9 @@
 
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor are subject to reverse charge i.e. the person importing goods or services is required to remit tax to the Government.
 
-A buyer may require to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
+A buyer may have to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 
-Purchase return process for foreign vendor has been explained in this document.
+Process for purchase returns to foreign vendor has been explained in this document.
 
 ## Create a purchase return order or credit memo
 
@@ -33,7 +33,7 @@ Purchase return process for foreign vendor has been explained in this document.
 
 - Purchase Credit Memo or Return Order for Imported Goods or Fixed asset, IGST is to be calculated on GST Assessable Value + Basic Custom Duty. 
 
-For example, purchase credit memo or return order will be issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%) has to be charged. Calculation base:  (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
+For example, purchase credit memo or return order is issued for INR 10000, Custom Duty INR 1000, GST Assessable Value INR 11000 (IGST @18%) has to be charged. Calculation base:  (18% on 11,000 GST Assessable Value + 1,000 BCD) (12,000*18%).
 
   - GST calculation will appear in the Fact Box, as following:
     

@@ -22,7 +22,7 @@ Persons whose aggregate turnover in a financial year does not exceed forty lakh 
 
 A buyer may have to return the goods or issue credit note due to various reasons like damaged goods, quality issues etc.
 
-Process for Purchase returns to unregistered vendor has been explained in this document.
+Process for purchase returns to unregistered vendor has been explained in this document.
 
 
 ## Create a purchase return order or credit memo

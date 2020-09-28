@@ -24,9 +24,9 @@ This topic explains the setups and process of GST reconciliation.
 
 - Line wise details of all invoices, supplementary invoices, debit notes and credit notes issued by a vendor or supplier towards Outward supplies made during a month shall be reported in GSTR-1 by 10th of the succeeding month.
 - Sales uploaded by the supplier or vendor in GSTR-1 are auto-reflected in GSTR-2A and GSTR-2 of the buyer as Inward supplies. For example, if the buyer purchases goods or services from 100 vendors in a month, the details of all such purchases will be reflected in GSTR-2A & GSTR-2 of the buyer, provided all 100 vendors have uploaded their sales in GSTR-1.
-- Purchase transactions posted in the system for preceeding month shall be reconciled with the supplier-uploaded information in GSTR-2A. However, there may be certain discrepancies between the two due to the following reasons:
+- Purchase transactions posted in the system for preceding month shall be reconciled with the supplier-uploaded information in GSTR-2A. However, there may be certain discrepancies between the two, due to the following reasons:
   - Supplier or suppliers have ignored to upload invoice details in their GSTR-1
-  - Supplier entering wrong GSTIN of the buyer
+  - Supplier entered wrong GSTIN of the buyer
   - Omission of entering any invoice by the buyer
   - Invoice No. & Date, Tax Amounts may have wrongly entered by the buyer in there books of account.
 - The buyer can add, modify and delete the auto-populated information in GSTR-2. Such information is made available to supplier in GSTR-1A. The supplier can accept or reject the modifications made by the buyer and supplier’s GSTR-1 shall stand amended to the extent of modifications accepted.
@@ -38,9 +38,9 @@ This topic explains the setups and process of GST reconciliation.
 - Purchases as per the books of account of buyer shall be matched with the supplier-uploaded information in GSTR-2A,  every month before uploading GSTR-2 by the buyer.
 
 
-## To set up GST component mapping recon.
+## To set up GST component mapping reconciliation.
 
-- Mapping GST Reconciliation fields with GST Components in GST Reconciliation Mapping is a pre-requisite for GST Reconciliation. Unless it is done, reconciliation can't happen in the system. 
+- Mapping GST reconciliation fields with GST components is a pre-requisite for GST Reconciliation. Unless it is done, reconciliation can not happen in the system.
 
    1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Component Mapping Recon.**, and then choose the related link.
    2. Fill in the fields as described in the following table.
@@ -66,7 +66,7 @@ This topic explains the setups and process of GST reconciliation.
  
 - Purchase Transactions with Vendor Type – Unregistered, Imports and Composite are excluded from Reconciliation. [This is due to the reason that unregistered and import vendors are not registered with GSTN authorities and hence will not upload their supplies in GSTR-1. Hence the same are not reflected in GSTR-2]
 - Invoice having multiple lines are clubbed together and shown as one line in GST Reconciliation feature i.e. Total Taxable amount and Tax Amounts (CGST, SGST, IGST).
-- Periodic GSTR-2A can be downloaded in Excel or XML format. The following fields in GSTR-2A is matched with GST Reconciliation lines
+- Periodic GSTR-2A can be downloaded in Excel or XML format. The following fields in GSTR-2A are matched with GST Reconciliation lines
    - External Document No.
    - Tax Amounts (IGST, CGST, SGST)
    - Vendor Invoice Date
@@ -80,7 +80,7 @@ This topic explains the setups and process of GST reconciliation.
     - Service Transfers 
     - Transfer Orders
 - GST Reconciliation Lines shown in the selected month are having purchase transaction (Invoice & Credit Memo) till the End Date for selected month.
-- Once the GST Reconciliation lines are posted, system will not generate any accounting entries. Reconcile, Reconciliation Month and Reconciliation Year will be updated in Detailed GST Ledger Entries. GST Reconciliation lines which are Reconciled will not be considered again for reconciliation.
+- Once the GST Reconciliation lines are posted, system will not generate any accounting entries. 'Reconciled', 'Reconciliation Month' and 'Reconciliation Year' will be updated in Detailed GST Ledger Entries. GST Reconciliation lines with status 'Reconciled' will not be considered again for reconciliation.
 
 
 

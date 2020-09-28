@@ -26,23 +26,23 @@ This topic explains the requirement and process of GST credit adjustment.
 
 ## Credit adjustment journal
 
-Credit adjustment journal is designed to handle certain credit adjustments arising on reconciliation.
+Credit adjustment journal is designed to handle certain credit adjustments arising as an outcome of reconciliation.
 
 - Purpose of Credit Adjustments
 
     |Nature of Adjustment|Purpose of Adjustment|
     |----------------------------------|---------------------------------------|
-    |**Credit Reversal**|This adjustment enables the users to reverse the availed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Credit Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as TRUE.|  
-    |**Credit Re-availment**|This Adjustment allows the users to re-avail the reversed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|  
-    |**Permanent reversal**|This adjustment allows the user to reverse a transaction permanently. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Permanent Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as FALSE.|
+    |**Credit Reversal**|To reverse the availed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Credit Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as TRUE.|  
+    |**Credit Re-availment**|To re-avail the reversed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|  
+    |**Permanent reversal**|To reverse a transaction permanently. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment type as ‘Permanent Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as FALSE.|
 
 - Need for Adjustment
 
     |Nature of Adjustment|Need for Adjustment|
     |----------------------------------|---------------------------------------|
-    |**Credit Reversal**|If provisional credit is availed and credit remains unmatched, then after a prescribed period, the credit gets auto-reversed in Credit ledger of GSTN Portal. This adjustment enables the user reverse such credit availment in the books of account and posted to respective GST mismatch account.|  
-    |**Credit Re-availment**|In the above scenario, credit is reversed due to the reason that vendor payment is not made within 180 days or for any other reason. Subsequently, if the vendor payment is made, then the reversed credit can be re-availed. Hence, this adjustment allows the user to re-avail the credit and post it to respective GST Receivable account.|  
-    |**Permanent reversal**|If the user is certain that the vendor will never upload the invoice information in GSTN portal, then the user can reverse the credit posted to respective GST Mismatch Account and post the same into respective GST expense account.|
+    |**Credit Reversal**|If provisional credit is availed and credit remains unmatched, then after a prescribed period, the credit gets auto-reversed in Credit ledger of GSTN Portal. To reverse such credit availment in the books of account and posted to respective GST mismatch account.|  
+    |**Credit Re-availment**|If credit is reversed due to the reason that vendor payment is not made within 180 days or for any other reason. Subsequently, if the vendor payment is made, then the reversed credit can be re-availed. Hence, to re-avail the credit and post it to respective GST Receivable account.|  
+    |**Permanent reversal**|If it is certain that the vendor will never upload the invoice information in GSTN portal, then the credit posted to respective GST Mismatch Account and post the same into respective GST expense account.|
 
 - Accounting Entries
 
@@ -57,7 +57,7 @@ Credit adjustment journal is designed to handle certain credit adjustments arisi
    |**Permanent Reversal**|Credit Memo|GST Mismatch Account|GST Expense Account|
 
 > [!NOTE]
-> Business user can post GST Credit Adjustment Journal selecting nature of adjustment type as Credit Re-Availment and Permanent Reversal after posting GST Adjustment Journal for type 'Credit Reversal'. If the GST Credit Adjustment Journal is posted with 'Nature of Adjustment' as ‘Permanent Reversal’ then system will not consider these entries again for posting via adjustment type as ‘Credit Reversal’ or ‘Credit Re-Availment’.
+> GST Credit Adjustment Journal can be posted by selecting 'Nature of adjustment type' as 'Credit Re-Availment' and 'Permanent Reversal' after posting GST Adjustment Journal for type 'Credit Reversal'. If the GST Credit Adjustment Journal is posted with 'Nature of Adjustment' as ‘Permanent Reversal’ then system will not consider these entries again for posting via adjustment type as ‘Credit Reversal’ or ‘Credit Re-Availment’.
 
 ## GST credit adjustment for reverse charge transactions
 
@@ -67,17 +67,17 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
     |Nature of Adjustment|Purpose of Adjustment|
     |----------------------------------|---------------------------------------|
-    |**Credit Reversal**|This adjustment enables the users to reverse the availed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as TRUE.|
-    |**Credit Re-Availment**|This adjustment allows the users to re-avail the reversed credit for posted transactions. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|
-    |**Credit Availment**|This adjustment enables user to avail credit which is not availed in posted transactions. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|
-    |**Reversal of Availment**|This adjustment enables user to reverse the availed credit in above scenario. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Permanent Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as FALSE.|
+    |**Credit Reversal**|To reverse the availed credit for posted transactions. Detailed GST Ledger entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as TRUE.|
+    |**Credit Re-Availment**|To re-avail the reversed credit for posted transactions. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|
+    |**Credit Availment**|To avail credit which is not availed in posted transactions. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Credit Re-Availment’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as TRUE and ‘Liable to Pay’ as FALSE.|
+    |**Reversal of Availment**|To reverse the availed credit in above scenario. Detailed GST Ledger Entries and Detailed Cr. Adjustment entries will be updated with Credit Adjustment Type as ‘Permanent Reversal’. Detailed Cr. Adjustment Entries will be created and updated with ‘Credit Availed’ as FALSE and ‘Liable to Pay’ as FALSE.|
 
 - Need for Adjustment
 
     |Nature of Adjustment|Need for Adjustment|
     |----------------------------------|---------------------------------------|
-    |**Credit Reversal**|If GST Credit is selected as Availment in transactions and later point of time realized it has been incorrectly selected, this adjustment allows user to reverse credit and post it to respective GST Payable Account.| 
-    |**Credit Re-Availment**|If GST Credit is selected as Non-Availment in transactions and later point of time realized it has been incorrectly selected, this adjustment allows user to Avail Credit and post it to respective GST Receivables Account.|
+    |**Credit Reversal**|If GST Credit is selected as Availment in transactions and later on realized that it has been incorrectly selected, then this adjustment allows to reverse credit and post it to respective GST Payable Account.| 
+    |**Credit Re-Availment**|If GST Credit is selected as Non-Availment in transactions and later realized that it has been incorrectly selected, then this adjustment allows to Avail Credit and post it to respective GST Receivables Account.|
     |**Reversal of Availment**|Reversal of Availment will be used to reverse the entries posted for Credit Availment. System will Re-Avail Credit and post it to respective GST Receivable Account.|
 
 - Accounting Entries
@@ -98,10 +98,10 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
   |**Reversal of Availment**|Invoice|FA|FA Acquisition Account|GST Payable Account|
 
 > [!NOTE]
-> - Business user can post GST Credit Adjustment Journal selecting nature of adjustment type as Credit Re-Availment after posting GST Adjustment Journal for Type Credit Reversal. 
-> - Business user can post GST Credit Adjustment Journal selecting nature of adjustment type as Reversal of Availment after posting GST Adjustment Journal for Type Credit Availment.
+> - GST Credit Adjustment Journal can be posted as Credit Re-Availment after posting GST Adjustment Journal for Type Credit Reversal.
+> - GST Credit Adjustment Journal can be posted as Reversal of Availment after posting GST Adjustment Journal for Type Credit Availment.
 > - Permanent Reversal is not applicable for reverse charge transactions.
-> - The Credit Adjustment for reverse charge transactions can be executed only for GST Group Type as Service. The GST Credit and Liability for reverse charge transactions where GST Group Type is Service are realized only on application of payment, hence system will filter only application entries in GST Credit Adjustment Journal for reverse charge scenarios.
+> - The Credit Adjustment for reverse charge transactions can be executed only for GST Group Type as 'Service'. The GST credit and liability for reverse charge transactions, where GST Group Type is 'Service' is realized only on application of payment. System will filter application entries in GST Credit Adjustment Journal for reverse charge scenarios.
 
 
 ## GST credit adjustment entry process
@@ -109,7 +109,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Credit Adjustment**, and then choose the related link.
 2. **GST Credit Adj. Jnl Nos.** should not be blank on **General Ledger Setup**.
 3. **GST Credit Adjustment Journal** should not be blank on **Source Type Setup**.
-4. Select relevant information in the following fields in **GST Credit Adjustment Journal**
+4. Select relevant information for following fields in **GST Credit Adjustment Journal**
 
     |Field|Description|
     |----------------------------------|---------------------------------------|  
@@ -123,9 +123,9 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
     |**Nature of Adjustment**|Specify the relevant nature of adjustment.|
     |**Input Service Distribution**|Specifies whether the GST registration number is assigned for input service distribution.|
     |**Reverse Charge**|Specifies whether the adjustment will be done for Reverse Charge entry or not.|
-    |**Adjustment %**|Select applicable % (1% to 100%), based on the applicable % system will create lines and provision has been provided to user on line to modify the %, provision has been provided to post partial amount in Credit Adjustment.|
+    |**Adjustment %**|Select applicable % (1% to 100%). Based on the applicable %, system will create lines and % value can be modified. Partial amount can be posted in Credit Adjustment.|
 
-5. Once relevant values are selected on the request page, click on **Apply Entries** on ribbon. 
+5. Once relevant values are selected on the request page, click on **Apply Entries**. 
 6. Check the documents and values and click on **Action** -> **Posting** -> **Dimensions** or **Line Dimension**, fill the relevant dimensions and post the entry.
 
 

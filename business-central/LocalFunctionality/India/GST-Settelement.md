@@ -43,7 +43,7 @@ The first priority for any component would be that component itself. This logic 
 1. Sales liability : 
 
 The net liability from below sources are shown in Payment Liability:
-- Detailed GST Ledger entry: Liability from below transactions having 'Liabile to Pay' selected as true in Detail GST Ledger entry will be shown in liability for current period
+- Detailed GST Ledger entry: Liability from below transactions having 'Liabile to Pay' selected as true in Detail GST Ledger entry will be shown as liability for current period
   - Advance Receipt 
   - Refund
   - Reversal of Advance Receipt
@@ -51,20 +51,20 @@ The net liability from below sources are shown in Payment Liability:
   - Warehouse Transfer Shipments
   - Service Transfer Shipments
   - Subcontracting Liability
-- Detailed credit adjustment entry: Credit Reversals from Credit Adjustment Journal are shown in Liability
-- Posted settlement entry: Any negative Liability from previous period settlement which were not adjusted are shown in Liability for Current period
-- If net credit availed for this period is negative then it will be added in the current period Liability
+- Detailed credit adjustment entry: Credit Reversals from Credit Adjustment Journal are shown as Liability
+- Posted settlement entry: Any negative Liability from previous period settlement which was not adjusted is shown as Liability for Current period
+- If net credit availed for this period is negative then it will be added in the current period liability
 
 2.	Reverse charge liability:
-The net liability of the following transactions that are subject to reverse charge are shown in 'Payment Libaility- Rev. Chrg'.:
+The net liability of the following transactions that are subject to reverse charge is shown in 'Payment Liability- Rev. Chrg'.:
 - Advance Payments
 - Refund
 - Reversal of Advance Receipt
 - Transactions posted through Purchase Documents 
 
 3.	Credit availed : 
-The net credit from below sources are shown in Credit Availed for Settlement.
-- Detailed GST Ledger entry: Credit from transactions mentioned herebelow, having credit availed marked as true in 'Detail GST Ledger Entry' will be shown in liability for current period
+The net credit from below sources is shown in Credit Availed for Settlement.
+- Detailed GST Ledger entry: Credit from transactions mentioned below, having credit availed marked as true in 'Detail GST Ledger Entry' will be shown as liability for current period
   - Transactions posted through Purchase Documents 
   - Warehouse Transfer Receipts
   - Service Transfer Receipts
@@ -77,8 +77,8 @@ The net credit from below sources are shown in Credit Availed for Settlement.
 ## Process of settlement
 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Settlement**, and then choose the related link.
-2. **GST Settlement Nos.** should not be blank on **General Ledger Setup**.
-3. **GST Settlement** should not be blank on **Source Type Setup**.
+2. **GST Settlement Nos.** should not be blank in **General Ledger Setup**.
+3. **GST Settlement** should not be blank in **Source Type Setup**.
 4. Select relevant information in the following fields in **GST Settlement**
 
     |Field|Description|
@@ -91,15 +91,15 @@ The net credit from below sources are shown in Credit Availed for Settlement.
     |**Bank Reference Date**|Specify the bank reference date.|
 
 5. Once relevant values are selected in the request page click on **Apply Entries** on ribbon. 
-6. System auto-populates the net Payment Liability and the Total Credit availed in settlement page for the given period.
-7. Credit utilized shall be auto populated by the system based on the priorities set out in claim set-off table. However, the user can edit the same.
-8. The auto population of credit utilization shall be based on the assumption that unless the credit is availed – both own credit (credit of the component itself) and cross credit (credit of other components) is utilized fully, cash payment for a particular component shall not arise.
+6. System auto-populates the 'Net Payment Liability' and the 'Total Credit Availed' in settlement page for the given period.
+7. 'Credit Utilized' shall be auto populated by the system based on the priorities set out in claim set-off table. However, they can be edited the same.
+8. 'Credit Utilization' is auto populated when both ‘own credit’ (credit of the component itself) and cross credit (credit of other components) is utilized fully. It is  based on the assumption that unless the credit is availed cash payment for a particular component shall not arise.        
 9. Credit cannot be utilized for payment of interest, penalty, fees and others. They shall always be paid in cash.
 10. Credit utilized and payment amount shall not exceed tax liability.
-11. Total credit utilized for a particular component shall not exceed total credit availed of that components plus Surplus credit of other components prioritized in claim-set off table for such component.
-12. Account No. and Account Type shall be the same for all tax components. However, Interest Account, Fees Account, Penalty Account and Others Account can be defined differently for different tax components.
+11. Total credit utilized for a particular component shall not exceed total credit availed for that component plus surplus credit of other components prioritized in claim-set off table for such component.
+12. 'Account No'. and 'Account Type' shall be the same for all tax components. However, 'Interest Account', 'Fees Account', 'Penalty Account' and 'Others Account' can be defined differently for different tax components.
 13. Credit cannot be utilized for payment of reverse charge liability. The entire liability is to be discharged in cash. Once settlement is done for any payment or refund document, the same cannot be reversed in system.
-14. Provision for dimensions are also available on settlement page.
+14. Dimensions are also available on settlement page.
 
 Following are few examples of accounting entries.
 
@@ -111,7 +111,7 @@ Following are few examples of accounting entries.
   |**CGST**|10000|15000|10000|0|
   |**SGST/UTGST**|15000|10000|10000|5000|
 
-  - On posting accounting entry, will be as following:
+  - On posting, accounting entries will be as following:
 
     |GST Component|Tax Liability|
     |---------|---------|
@@ -131,7 +131,7 @@ Following are few examples of accounting entries.
   |**CGST**|10000|15000|10000|0|
   |**SGST/UTGST**|15000|10000|10000|5000|
 
-  - On posting accounting entry, will be as following:
+  - On posting, accounting entries will be as following:
 
     |GST Component|Tax Liability|
     |---------|---------|
@@ -145,9 +145,9 @@ Following are few examples of accounting entries.
     |**SGST/UTGST Receivable Account**|-10000|
 
 > [!NOTE]
-> In case of negative Credit, the same will be treated as our Liability and needs to be paid in the current period settlement.
+> In case of negative credit, the same will be treated as liability and needs to be paid in the current period settlement.
 
-- Example for Accounting Entries in case of Reverse Charge Liability:
+- Example for accounting entries in case of Reverse Charge Liability:
 
   |GST Component|Reverse Charge Liability|Credit Availed|Credit Utilized|Payment|
   |---------|---------|---------|---------|----|
@@ -155,7 +155,7 @@ Following are few examples of accounting entries.
   |**CGST**|10000|0|0|10000|
   |**SGST/UTGST**|15000|0|0|15000|
 
-  - On posting accounting entry, will be as following:
+  - On posting, accounting entries will be as following:
 
     |GST Component|Tax Liability|
     |---------|---------|

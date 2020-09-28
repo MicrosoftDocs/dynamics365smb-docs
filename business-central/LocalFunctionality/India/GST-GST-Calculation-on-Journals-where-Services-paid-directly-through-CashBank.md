@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# GST on Journals where Services Paid Directly through Cash or Bank
+# GST on Journals where Services are Paid Directly through Cash or Bank
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

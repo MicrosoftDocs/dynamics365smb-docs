@@ -91,7 +91,7 @@ Later invoice for service purchase issued by vendor for INR 20,000 and 18% GST (
     **CGST Receivable (Interim) Account**|-900|
     |**SGST/UTGST Receivable (Interim) Account**|-900|
 
-If this is found that the payment and invoice was wrongly applied and the application needs to be reversed, in such a case un apply functionality can be used. Un-application entries are same for both online application and offline application.
+If this is found that the payment and invoice was wrongly applied and the application needs to be reversed, in such a case un-apply functionality can be used. Un-application entries are same for both online application and offline application.
 
 - GL Entries for un-application of an advance payment with an invoice for services, where input tax credit is available:
     

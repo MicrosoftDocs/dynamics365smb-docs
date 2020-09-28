@@ -40,6 +40,9 @@ Entities in [!INCLUDE[d365fin](includes/cds_long_md.md)], such as accounts, are 
 
 The following table lists the standard mapping between entities in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides.
 
+> [!TIP]
+> You can reset configuration changes made to integration table and field mappings to their default settings by selecting the mappings, and then choosing **Use Default Synchronization Setup**.
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synchronization Direction | Default Filter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
 | Salesperson/Purchaser | User | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] contact filter: **Status** is **No**, **User Licensed** is **Yes**, Integration user mode is **No** |

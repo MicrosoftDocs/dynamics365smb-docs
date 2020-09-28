@@ -14,15 +14,15 @@
 
 ---
 # Trace Item-Tracked Items
-You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the Navigate features.  
+You can see where an item-tracked item was used, including how and when it was received or produced, transferred, sold, consumed, or returned. You can also find all current instances of a specific serial or lot number in the database. You do this by using the Item Tracing and the [Find Entries](ui-find-entries.md) features.  
 
- These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
+These features can be particularly useful in quality control when you need to find out which customers received products with a particular lot number or when you need to find out which lot a defective component came from.  
 
  On the **Item Tracing** page, you can trace forwards and backwards in a sequence of posted inventory transactions for the serial or lot number.  
 
- On the **Navigate** page, you cannot see the sequence of transactions, but you can see all records of the serial or lot number, both posted entries and open records.  
+ On the **Find Entries** page, you cannot see the sequence of transactions, but you can see all records of the serial or lot number, both posted entries and open records.  
 
- The two features can be used in combination by transferring a traced serial or lot number to the **Navigate** page to finish a complete trace scenario. For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).  
+ The two features can be used in combination by transferring a traced serial or lot number to the **Find Entries** page to finish a complete trace scenario. For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## To trace item-tracked items  
 
@@ -53,11 +53,12 @@ You can see where an item-tracked item was used, including how and when it was r
 >   
 >  To find the item tracing lines where the transaction history has already been traced, choose the **Go to Already Traced** button. The item tracing line in question is selected, and all underlying lines are expanded.  
 
-## To find item-tracked items with Navigate  
+## To find item-tracked items with Find Entries  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Navigate**, and then select the related link.  
-2.  On the **Item Tracking** FastTab, in the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
-3.  Choose the **Find** action to find all instances of the serial or lot number in the database.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
+2. Choose **Actions** > **Find by** > **Find by Item Reference**.
+3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
+4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
 
 ## See Also  
 [Inventory](inventory-manage-inventory.md)  
@@ -65,4 +66,5 @@ You can see where an item-tracked item was used, including how and when it was r
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)  
+[Find Entries](ui-find-entries.md)  

@@ -1,6 +1,6 @@
 ---
-    title: How to Print Bank Account Reconciliation Reports
-    description: The Bank Account Reconciliation report displays open bank ledger entries as unpresented checks or unrecorded deposits.
+    title: Print Bank Account Reconciliation Reports in the Australian version
+    description: The Bank Account Reconciliation report displays open bank ledger entries as unpresented checks or unrecorded deposits in the Australian version.
 
     author: SorenGP
 
@@ -14,7 +14,8 @@
     ms.author: edupont
 
 ---
-# Print Bank Account Reconciliation Reports
+# Print Bank Account Reconciliation Reports in the Australian Version
+
 The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
 
 ## To print a bank account reconciliation report  

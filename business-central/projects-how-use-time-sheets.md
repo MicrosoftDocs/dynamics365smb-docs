@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 09/18/2020
 ms.author: edupont
 
 ---
@@ -109,6 +109,27 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
     >   You can only reopen lines that have the status **Approved**. You cannot reopen lines that have the status **Rejected**. You cannot reopen a time sheet if it has been posted.  
 3. On the **Time Sheet** page, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
+
+## To view and approve time sheets by job
+
+On a job, you can specify a person who is responsible for the job. That information is linked to time sheet lines, and can be used to provide a list of the time sheets that a project manager is required to review and approve. For example, the team project manager may be responsible for certain jobs in your company. In that case, the manager should be designated as the **Person Responsible** on the job card. In this view of time sheet information, you can see the job tasks associated with a job and the quantity of hours used.
+
+> [!NOTE]
+> To be able to approve time sheets in the **Manager Time Sheet by Job** window, you must first select a **Time Sheet by Job Approval** option in the **Resources Setup** page. For more information, see [Set Up Resources](projects-how-setup-resources.md).
+
+### To approve or reject a time sheet by job
+
+1. In the **Search** box, enter **Manager Time Sheet by Job**, and then choose the related link. Microsoft Dynamics NAV displays a list of time sheet lines associated with the jobs for which you have responsibility.
+2. On the **Home** tab, choose **Approve**. Choose **All** to approve all lines. Choose **Selected** to approve only selected lines.
+
+    > [!NOTE]
+    > You can only approve time sheets that have the status of **Submitted**.
+
+3. To provide additional information about the approval or rejection, select a time sheet line, and on the **Navigate** tab, select **Comments**. In the **Date** field, enter a date, and then enter a comment in the **Comment** field.
+4. Choose the **OK** button.
+
+> [!NOTE]
+> After you have approved or rejected a time sheet line by job, it cannot be reopened or modified in the **Time Sheet** window.
 
 ## To post time sheet lines in a resource journal
 After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.

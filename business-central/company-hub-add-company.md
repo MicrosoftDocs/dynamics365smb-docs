@@ -1,0 +1,33 @@
+---
+title: Add companies to your company hub | Microsoft Docs
+description: Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
+author: edupont04
+
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: accountant, accounting, company hub
+ms.date: 09/17/2020
+ms.author: edupont
+
+---
+# Add Companies to Your Company Hub
+
+With the company hub, you can access your work from across multiple companies from multiple [!INCLUDE [prodshort](includes/prodshort.md)] environments. You can add a environments and companies manually, if your companies do not show up automatically in the company hub.  
+
+Right in the company hub landing page, you find the **Setup** menu, from where you can access the **Environment Links** page. Simply choose **New**, and then fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+
+## Environment links
+
+An environment link is a card where you specify the [!INCLUDE [prodshort](includes/prodshort.md)] environment that hosts one or more companies that you do work in. The data in the card for each environment is specified by you, and you can change it as needed. However, the **Environment Link** field is critical - this is how you can access each company in [!INCLUDE [prodshort](includes/prodshort.md)]. Use the **Test the connection** action in the ribbon to test that you entered the right link. The link that you must enter points at environment that hosts the company that you are adding, and it must include the Azure Active Directory (Azure AD) ID, or the organization's domain name. For example, if they have specified a domain such as MyBusiness.com, then the link to their [!INCLUDE [prodshort](includes/prodshort.md)] is ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Otherwise, it will look something like this: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
+
+The link is used when you choose the company in the company hub.  
+
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
+
+## Load companies
+
+When you have added your environments, your companies show up automatically. However, if you know that a new company has been added to an environment, you can choose the **Reload all companies** action to refresh the list. Use the same action to refresh data from across your companies.  
+
+## See also
+
+[Manage Work across Multiple Companies in the Company Hub](company-hub.md)  

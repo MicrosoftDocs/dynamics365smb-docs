@@ -1,8 +1,6 @@
 ---
-    title: How to Calculate Goods and Services Tax on Prepayments
+    title: Calculate Goods and Services Tax on Prepayments (AU)
     description: Describes how to calculate goods and services tax (GST) for partial payments or prepayments based on the total invoice amount, instead of on a partial amount.
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -14,7 +12,8 @@
     ms.author: edupont
 
 ---
-# Calculate Goods and Services Tax on Prepayments
+# Calculate Goods and Services Tax on Prepayments in the Australian Version
+
 When a partial payment or prepayment is made, you must calculate Goods and Services Tax (GST) for that partial payment or prepayment based on the total invoice amount, instead of on a partial amount. If you account for GST on a noncash basis, you must report and pay GST on payments during the period in which you receive partial payment or issue a tax invoice for payment.  
 
 ## To calculate GST on prepayments  

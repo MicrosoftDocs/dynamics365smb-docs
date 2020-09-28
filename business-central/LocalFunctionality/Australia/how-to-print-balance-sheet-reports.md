@@ -1,6 +1,6 @@
 ---
-    title: How to Print Balance Sheet Reports
-    description: You can use the Balance Sheet report to view the company’s balance sheet.
+    title: Print Balance Sheet Reports in the Australian version
+    description: You can use the Balance Sheet report to view the company's balance sheet in the Australian version.
 
     author: SorenGP
 
@@ -14,8 +14,9 @@
     ms.author: edupont
 
 ---
-# Print Balance Sheet Reports
-You can use the **Balance Sheet** report to view the company’s balance sheet.  
+# Print Balance Sheet Reports in the Australian Version
+
+You can use the **Balance Sheet** report to view the company's balance sheet.  
 
  This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  
 

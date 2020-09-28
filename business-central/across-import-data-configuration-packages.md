@@ -1,6 +1,6 @@
 ---
-title: Use Excel to import data into Business Central| Microsoft Docs
-description: Use the default configuration package to add customer data in Excel and import the data back into Business Central .
+title: Use Excel to import data into Business Central
+description: Use the default configuration package to add customer data in Excel and import the data back into Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,6 +13,7 @@ ms.author: edupont
 
 ---
 # Importing Business Data from Other Finance Systems
+
 When you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)], you can choose to create an empty company so that you can upload your own data and to test your new [!INCLUDE[d365fin](includes/d365fin_md.md)] company. Depending on the finance solution that your business uses today, you can transfer information about customers, vendors, inventory, and bank accounts.  
 
 From the Role Center, you can start an assisted setup guide that helps you transfer the business data from an Excel file or from other formats. The type of files you can upload depends on the extensions that are available. For example, you can migrate data from QuickBooks because [!INCLUDE[d365fin](includes/d365fin_md.md)] includes an extension that handles the conversion from QuickBooks. If you want to migrate data from other finance solutions, you must either check if an extension is available for that solution or import from Excel.  
@@ -22,7 +23,7 @@ From the Role Center, you can start an assisted setup guide that helps you trans
 You can import master data and some transactional data from other finance systems based on the default configuration package in [!INCLUDE[d365fin](includes/d365fin_md.md)]. On the **Configuration Packages** page, you can work with the package to import and validate the data before you apply the package.  
 
 > [!TIP]  
-> Alternatively, use data migration wizards to import data from QuickBooks or Dynamics GP. For more information, see [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md) or [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md).
+> We recommend that you use data migration wizards to import data from Dynamics GP, Dynamics NAV, or QuickBooks. For more information, see [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content, or [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > For larger implementation work, you can use RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], which is an extensive toolkit for setting up new solutions based on customers' business requirements and setup data. RapidStart Services also offers functionality for import of business data. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -76,8 +77,8 @@ The default configuration package supports the following tables:
 
 ## See Also
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)  
-[Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)  
 [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

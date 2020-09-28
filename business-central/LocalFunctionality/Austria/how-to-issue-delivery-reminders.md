@@ -1,6 +1,6 @@
 ---
-    title: How to Issue Delivery Reminders
-    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.
+    title: How to Issue Delivery Reminders [AT]
+    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors in the Austrian version. Before you issue the delivery reminders, you can print a test report.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Issue Delivery Reminders
+# Issue Delivery Reminders in the Austrian Version
+
 After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report. For more information, see [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md).  
 
 When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries on the **Deliv. Reminder Ledger Entries** page.  

@@ -1,6 +1,6 @@
 ---
-    title: How to Create Delivery Reminders Manually
-    description: Remind customers of late delivery.
+    title: How to Create Delivery Reminders Manually [DE]
+    description: Remind customers of late delivery in the German version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Create Delivery Reminders Manually
+# Create Delivery Reminders Manually in the German Version
+
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [Generate Delivery Reminders](how-to-generate-delivery-reminders.md).
 
 > [!NOTE]

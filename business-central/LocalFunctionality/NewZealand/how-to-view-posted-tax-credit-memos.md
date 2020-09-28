@@ -1,9 +1,8 @@
 ---
-    title: How to View Posted Tax Credit Memos
-    description: Describes how to view details of sales tax credit memos and purchase tax credit memos that have been posted.
-    services: project-madeira 
-    documentationcenter: ''
+    title: View Posted Tax Credit Memos in the New Zealand version
+    description: Describes how to view details of sales tax credit memos and purchase tax credit memos that have been posted in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
@@ -14,7 +13,8 @@
     ms.author: bholtorf
 
 ---
-# View Posted Tax Credit Memos
+# View Posted Tax Credit Memos in the New Zealand Version
+
 You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
 
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  

@@ -8,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
+ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 08/19/2020
 ms.author: edupont
 ---

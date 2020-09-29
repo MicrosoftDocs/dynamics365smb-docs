@@ -257,7 +257,7 @@
 ### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 ### [Getting Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-### [Using the same Office 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
+### [Using the same Microsoft 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
 ### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)

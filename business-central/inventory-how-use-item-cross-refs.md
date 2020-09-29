@@ -29,7 +29,7 @@ The following procedures describe how to use item cross references on the purcha
 2. Open the card for an item for which you want to create a cross reference to the item description that the vendor uses for that item.
 3. Choose the **Cross References** action.
 
-     If you cannot find the **Cross References** action, choose to view more options, and then find it under **Navigate**, **Item**.
+     If you cannot find the **Cross References** action, choose to view more options, and then find it under **Related** > **Item**.
   
 4. On a new line on the **Item Cross-Reference Entries** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 

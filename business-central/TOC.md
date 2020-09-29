@@ -262,7 +262,7 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Get SmartList Designer](bi-smartlist-designer-setup.md)
+<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
 ### [Generally Asked Questions](across-faq.md)
@@ -557,7 +557,7 @@
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage Database Access Intent](admin-data-access-intent.md)
-### [Create Custom Queries using SmartLists](bi-smartlists.md)
+<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
@@ -1049,6 +1049,88 @@
 ##### [Map IRS Numbers to the Chart of Accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Deleting Posted Invoices and Credit Memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
+### India
+#### [Overview](LocalFunctionality/India/india-local-functionality.md)
+#### Tax Engine
+##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
+##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
+##### Tax Engine Configuration
+###### [Configuration of Tax Type and Tax Rate](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
+###### [Configuration of Use Case](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
+##### [Tax Engine Lookup](LocalFunctionality/India/TaxEngine-004-Lookup.md)
+##### [Tax Engine Design Consideration](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
+##### [Tax Engine Script](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
+#### GST
+##### [GST Overview](LocalFunctionality/India/GST-001-Basic-Setup.md)
+##### GST on Purchase
+###### [Purchase from Composite Vendor](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
+###### [Purchase from Registered Vendor](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
+###### [Purchase from Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
+###### [Purchase from SEZ Vendor](LocalFunctionality/India/GST-Purchase-from-SEZ-Vendor.md)
+###### [Purchase from Foreign Vendor](LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md)
+###### [Purchase from Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
+###### [GST and TDS on Purchase Transaction](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)
+##### GST on Purchase Return
+###### [Purchase Return to Composite Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md)
+###### [Purchase Return to Registered Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md)
+###### [Purchase Return to Unregistered Vendor (Reverse Charge)](LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) 
+###### [Purchase Return to Foreign Vendor](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
+###### [Purchase Return to Vendor with Overseas Place of Supply](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
+##### GST on Journals/Payment/Application
+###### [GST on Journals](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
+###### [GST on Advance Payment to Vendor](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
+###### [GST Application of Payment and Invoice](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
+###### [GST on Advance Receipt from Customer](LocalFunctionality/India/GST-GST-on-Advance-Payment-received-from-Customer.md)
+###### [GST Application of Receipt and Invoice](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [GST and TCS on Customer Advance](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
+###### [GST and TDS on Vendor Advance](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
+##### GST on Sales
+###### [Exempted Sales](LocalFunctionality/India/GST-Exempted-Sales.md)
+###### [Sale to Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
+###### [Sale to Foreign Customer](LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md)
+###### [Sale to Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md)
+###### [GST and TCS on Sales Transaction](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
+###### [GST Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
+##### GST on Sales Return
+###### [Sale Return from Registered and Unregistered Customer](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
+###### [Sale Return from Registered Customer with Overseas POS](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
+##### GST on Transfer
+###### [GST Stock Transfer](LocalFunctionality/India/GST-Stock-Transfer.md)
+###### [GST Service Transfer](LocalFunctionality/India/GST-Service-Transfer.md)
+##### GST on Bank Charge
+###### [GST Bank Charges Overview](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
+###### [GST Bank Charges Transaction](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
+##### GST TDS/TCS
+###### [GST TDS TCS Overview](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
+###### [GST TCS on Payment](LocalFunctionality/India/GST-TCS-on-Payment.md)
+###### [GST TDS TCS on Receipt](LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md)
+##### GST Adjustments/Periodic Activities
+###### [GST Credit and Liability Adjustment](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
+###### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
+###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
+###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
+###### [GST Settelement](LocalFunctionality/India/GST-Settelement.md)
+#### TDS
+##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
+##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
+##### [TDS Threshold](LocalFunctionality/India/TDS-Threshold.md)
+##### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)
+##### [TDS Adjustment Entry](LocalFunctionality/India/TDS-Adjustment-Entries.md)
+##### [TDS Payment to Authority](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+#### TDS for Customer
+##### [TDS for Customer Overview](LocalFunctionality/India/TDS-for-Customer-Overview.md)
+##### [TDS Calculation for Customer](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
+##### [TDS Certificate Update](LocalFunctionality/India/TDS-Certificate-Update.md)
+#### TCS
+##### [TCS Overview](LocalFunctionality/India/TCS-Overview.md)
+##### [TCS Transactions](LocalFunctionality/India/TCS-Transactions.md)
+##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
+##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
+##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+#### Voucher Interface
+##### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
+##### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)
 #### VAT
@@ -1515,7 +1597,15 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshooting Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
-
+<!--migrate to BC online-->
+## Migrate to Business Central Online
+### [Migrating On-Premises Data](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
+### [Managing the Migration to the Cloud](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
+### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
+### [FAQ about Connecting to the Intelligent Cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Development](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Security and Protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

@@ -1,6 +1,6 @@
 ---
 title: Creating tax registers in Russia
-description: Russian enhancements include tax registers.
+description: Describes how to create tax registers in Russia.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
@@ -51,9 +51,9 @@ The following procedure shows how to create tax registers.
 
 10. Choose the **Drill-down** button in the **Amount** field to view the sources based on which this was counted. A source can be a tax register or a list of transactions forming this amount, depending on the settings. If the source forming the sum is a tax register, choose the **Drill-down** button to open the window where the source tax register information is displayed. Then choose the **Drill-down** button in the **Amount** field on this form to get a list of transactions forming the amount.
 
-11. Select a document and choose **Navigate** to get all the transactions of the selected document.
+11. Select a document and choose **Find Entries** to get all the transactions of the selected document.
 
-12. Choose **Show** to view all the transactions of any entry ledger that is created.
+12. Choose **Show Related Entries** to view all the transactions of any entry ledger that is created.
 
 ## See Also
 
@@ -61,3 +61,4 @@ The following procedure shows how to create tax registers.
 [Tax Registers](Tax-Registers.md)  
 [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
+[Find Entries](../../ui-find-entries.md)  

@@ -8,9 +8,9 @@ ms.topic: article
 ms.search.keywords: SmartList
 ms.date: 09/03/2020
 ms.author: edupont
-
+ROBOTS: NOINDEX, NOFOLLOW
 ---
-# Create Custom Queries using SmartLists
+<!--# Create Custom Queries using SmartLists
 
 Use SmartList Designer and SmartLists to create, manage and view queries using your Business Central data.  
 
@@ -228,4 +228,4 @@ If one or more custom navigation records are created for a given SmartList query
 ## See also
 
 [Get SmartList Designer](bi-smartlist-designer-setup.md)  
-[Business Intelligence](bi.md)  
+[Business Intelligence](bi.md) --> 

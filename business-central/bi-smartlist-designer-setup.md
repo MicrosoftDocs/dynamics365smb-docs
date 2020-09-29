@@ -8,9 +8,9 @@ ms.topic: article
 ms.search.keywords: SmartList
 ms.date: 09/03/2020
 ms.author: edupont
-
+ROBOTS: NOINDEX, NOFOLLOW
 ---
-# Get SmartList Designer
+<!--# Get SmartList Designer
 
 The following procedure will take you through the steps to install and set up SmartList Designer with your Business Central tenant. SmartList Designer must be installed and configured to your Business Central tenant before SmartList queries can be created.
 
@@ -43,7 +43,7 @@ By default, only users that have SUPER permissions can create and preview SmartL
 
 <!--Permissions to create and preview SmartList queries are two separate permissions. To create a SmartList query, the user must have permissions to system object 9600. To preview a SmartList query, the user must have permissions to system object 9500.-->
 
-### Permission to preview SmartLists
+<!--### Permission to preview SmartLists
 
 Permissions will need to be granted to any user that should have the ability to preview the results of a SmartList query definition. To grant this permission, navigate to permission sets, select the SmartList Designer permission set, and add permissions to system object 9605.  
 
@@ -60,4 +60,4 @@ Add the desired SmartList queries to the user-defined permission set. Permission
 
 ## See also
 
-[Create Custom Queries using SmartLists](bi-smartlists.md)  
+[Create Custom Queries using SmartLists](bi-smartlists.md)  -->

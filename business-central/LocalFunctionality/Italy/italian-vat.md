@@ -46,7 +46,7 @@ In Italy, the EU sales list (Intrastat) and annual listing reports are updated t
 
 ## VAT Transaction Reports
 
-You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to the Italian blacklist. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries/regions that are blacklisted are reported through the **Blacklist Communication Report** report. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides support for the following transaction types:  
+You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to Italian authorities. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries/regions that are blacklisted are reported through the **Blacklist Communication Report** report. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides support for the following transaction types:  
 
 |**Transaction Type**|**Supported**|
 |--------------------|-------------|  

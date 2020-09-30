@@ -8,7 +8,7 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 06/30/2020
+ms.date: 10/01/2020
 ---
 
 # Integrating with Common Data Service

@@ -2,7 +2,7 @@
 title: Business Central Learning Catalog
 description: Business Central Learning Catalog
 author: loreleishannonmsft
-ms.date: 08/28/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
 ---

@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

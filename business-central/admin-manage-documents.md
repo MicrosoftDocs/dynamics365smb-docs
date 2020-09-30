@@ -5,7 +5,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 09/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---

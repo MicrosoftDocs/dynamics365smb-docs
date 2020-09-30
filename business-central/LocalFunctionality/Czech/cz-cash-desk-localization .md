@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 09/30/2020
+ms.date: 10/01/2020
 ms.reviewer: edupont
 ms.author: v-pejano
 ---

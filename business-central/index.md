@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---

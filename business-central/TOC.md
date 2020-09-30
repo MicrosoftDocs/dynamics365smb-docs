@@ -778,8 +778,8 @@
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 <!--Company Hub-->
-## Manage work across companies with the company hub
-### [Overview](company-hub.md)
+## Company Hub
+### [Manage Work across Companies with the Company Hub](company-hub.md)
 ### [Add Companies to Your Company Hub](company-hub-add-company.md)
 ### [Troubleshooting Your Company Hub](company-hub-troubleshooting.md)
 <!--LF-->

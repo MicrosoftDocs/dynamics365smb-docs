@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
 ---
 
@@ -14,7 +14,7 @@ ms.author: edupont
 
 Some people work in multiple companies in [!INCLUDE [prodshort](includes/prodshort.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
 
-You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly.  
+You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly. You can do the same work in both places, but actions are placed slightly different in menus.  
 
 ## Company hub home page
 
@@ -28,6 +28,9 @@ Choose the **Company Hub** action to open the company hub, where you can work mo
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
 
 You can add new companies, such as when you get a new client, or when your corporation adds a new subsidiary. For more information, see [Add Companies to Your Company Hub](company-hub-add-company.md).  
+
+> [!TIP]
+> In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
 
 <!--## Company details
 
@@ -61,14 +64,14 @@ When you have completed a task, simply mark it as completed.
 
 For more information about companies and environments, see [Environment links](company-hub-add-company.md#environment-links).  
 
-## Get the company hub
+## Access the company hub
 
-You can access the company hub in two different ways:
+In order to access the company hub, you must have access through either the *D365 COMPANY HUB* user group or through the *D365 COMPANY HUB*  permission set. You must also have access to the companies that are listed in your company hub, which means that you must be a user in those companies. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).  
 
-* A dedicated role center
-* A page run from the page search
+> [!IMPORTANT]
+> The company hub is a company-wide list, so any user who is granted access to the company hub will be able to see all companies in their own [!INCLUDE [prodshort](includes/prodshort.md)] tenant, and all KPIs for the companies that they have access to.
 
-In both cases, you must make sure that the *Company Hub* extension is available in your [!INCLUDE [prodshort](includes/prodshort.md)]. The company hub is available by default in [!INCLUDE [prodshort](includes/prodshort.md)] trials, and you can add it to your paid [!INCLUDE [prodshort](includes/prodshort.md)] from the **Extension Management** page. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).  
+If you cannot find the company hub, and you know that you have been granted access to it, then check with your administrator if the company hub is listed in the **Extension Management** page. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).  
 
 ## Set up the company hub
 

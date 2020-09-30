@@ -1,12 +1,12 @@
 ---
-title: Add companies to your company hub | Microsoft Docs
+title: Add companies to your company hub
 description: Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 09/17/2020
+ms.date: 01/01/2020
 ms.author: edupont
 
 ---
@@ -24,10 +24,19 @@ The link is used when you choose the company in the company hub.
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
 
+> [!TIP]
+> If you're working in the free trial version of [!INCLUDE [prodshort](includes/prodshort.md)], it is easy to add the companies in your tenant. You can find the environment link by copying the Azure Active Directory ID from the **Troubleshooting** section of the Help & Support page. The environment name is probably the default value, PRODUCTION. Add this information to the **Environment Link** field, such as ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, and then choose **Test the connection**. The evaluation company will be added to the list.
+>
+> If you have moved to the thirty-day trial company, My Company, you can add that to the list by choosing the **Reload / Reload all Companies** action in the list.
+
 ## Load companies
 
 When you have added your environments, your companies show up automatically. However, if you know that a new company has been added to an environment, you can choose the **Reload all companies** action to refresh the list. Use the same action to refresh data from across your companies.  
 
+> [!TIP]
+> In order to refresh the data in the company hub, you must have access to the data in the companies that the data comes from.
+
 ## See also
 
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
+[Resources for Help and Support](product-help-and-support.md)  

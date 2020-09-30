@@ -1,21 +1,21 @@
 ---
-    title: How to Print Income Statements
-    description: Describes how print the company’s annual income statement in a report.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Print Income Statements in the New Zealand version
+    description: Describes how print the company's annual income statement in a report in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
-# Print Income Statements
-You can use the **Income Statement** report to view the company’s annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
+# Print Income Statements in the New Zealand version
+
+You can use the **Income Statement** report to view the company's annual income statement. This is a legal report that is required for auditing accounts. This report displays the details of revenues and expenses for the current year and the previous year.  
 
 ## To print the income statement report  
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the relevant link.  

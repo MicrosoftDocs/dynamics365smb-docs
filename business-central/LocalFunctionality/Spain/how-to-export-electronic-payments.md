@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 ---
 
@@ -61,7 +61,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
-3.  On the **Navigate** tab, choose **Electronic Payments**, and then choose **Export**.  
+3.  Choose the **Related** > **Payments** > **Electronic Payments** > **Export**.  
 
     Payments of type SEPA will be exported to a file immediately.  
 

@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---

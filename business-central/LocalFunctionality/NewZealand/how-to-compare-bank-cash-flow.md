@@ -1,20 +1,20 @@
 ---
-    title: How to Compare Bank Cash Flow
-    description: Describes how compare the flow of cash in a particular bank for a specified period.
-    services: project-madeira 
-    documentationcenter: ''
+    title: Compare Bank Cash Flow in the New Zealand version
+    description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
-# Compare Bank Cash Flow
+# Compare Bank Cash Flow in the New Zealand Version
+
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
  The report displays the following details:  

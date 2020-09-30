@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -41,8 +41,8 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Select the fixed asset that you want to view entries for, and then choose the **Depreciation Books** action.  
 3. Select the depreciation book that you want to view entries for, and then choose the **Ledger Entries** action.  
-4. Select a line with **Disposal** in the **FA Posting Category** field, and then choose the **Navigate** action.  
-5. On the **Navigate** page, select the general ledger entry line, and then choose the **Show** action.  
+4. Select a line with **Disposal** in the **FA Posting Category** field, and then choose the **Find Entries** action.  
+5. On the **Find Entries** page, select the general ledger entry line, and then choose the **Show Related Entries** action.  
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
@@ -53,4 +53,5 @@ The **General Ledger Entries** page opens where you can see the entries that the
 [To set up fixed asset posting groups](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Find Entries](ui-find-entries.md)  

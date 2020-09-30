@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

@@ -1,17 +1,17 @@
 ---
 title: Payables and receivables in Russia
-description: Russian enhancements include payables and receivables.
+description: Russian enhancements include payables and receivables in the Russian version.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
-# Payables and Receivables
+# Payables and Receivables in the Russian version
 
 In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your accounts payable and accounts receivable.
 

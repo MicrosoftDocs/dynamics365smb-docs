@@ -3,7 +3,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
 ---
 
@@ -60,7 +60,7 @@ You can unapply the applied general ledger entries and then open the closed entr
 
 ## To unapply general ledger entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
+1. Choose the :::image type="icon" source="../../../media/ui-search/search_small.png" border="false"::: icon, enter **G/L Registers**, and then choose the related link.  
 2. Select a general ledger register, and then choose the **General Ledger** action.  
 3. Select the general ledger entry that you want to unapply, and then choose the **Undo Application** action.  
 

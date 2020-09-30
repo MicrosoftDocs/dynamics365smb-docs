@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 05/05/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ Where remittance advice is used to notify vendors of payments being made, you ca
 
 You can send remittance advice in two different ways:
 
-* In the **Payment Journal** page, choose **Navigate**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
+* In the **Payment Journal** page, choose **Related**, **Payments**, **Send Remittance Advice** to email remittance advice for one or multiple payment journal lines
 * In the **Vendor Ledger Entries** page, choose **Actions**, **Functions**, **Send Remittance Advice** to email remittance advice after posting of vendor payments, for one or multiple vendor ledger entries
 
 ## See Also

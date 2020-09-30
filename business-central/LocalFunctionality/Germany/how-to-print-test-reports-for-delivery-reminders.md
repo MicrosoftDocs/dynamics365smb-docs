@@ -1,6 +1,6 @@
 ---
-    title: How to Print Test Reports for Delivery Reminders
-    description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
+    title: Print Test Reports for Delivery Reminders [DE]
+    description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders in the German version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# Print Test Reports for Delivery Reminders
+# Print Test Reports for Delivery Reminders in the German Version
+
 After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.  
 
 A test report is a document that lets you review and modify a delivery reminder before you issue it.  

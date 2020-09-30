@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Delivery Reminder Terms, Levels, and Text
-    description: To create delivery reminders, you must perform certain setup.
+    title: Set Up Delivery Reminder Terms, Levels, and Text [DE]
+    description: To create delivery reminders, you must perform certain setup in the German version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Set Up Delivery Reminder Terms, Levels, and Text
+# Set Up Delivery Reminder Terms, Levels, and Text in the German Version
+
 To create delivery reminders, you must set up the following:  
 
 - Delivery reminder terms  

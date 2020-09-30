@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 09/22/2020
 ms.author: edupont
 
 ---
@@ -33,6 +33,8 @@ To find items by characteristics, you can assign item attributes to items and al
 
 > [!NOTE]  
 > Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.
+
+If you change your mind about an item category, you can delete it. However, if it has already been assigned to an item, you must remove that assignment before you can delete the item category.
 
 ## To assign an item category to an item
 

@@ -17,7 +17,7 @@ The following catalog is organized from core knowledge to specific domains, and 
 
 | Content     | Description    | Format                                | Length              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Partners only) This session will outline the value of Business Central. Business Central offers terrific value because it integrates with other Microsoft cloud services including Office 365 and can be customized or extended for specific industry needs with Power Apps, Power Automate, and Power BI. | Video                                 | 8 minutes 5 seconds |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Partners only) This session will outline the value of Business Central. Business Central offers terrific value because it integrates with other Microsoft cloud services including Microsoft 365 and can be customized or extended for specific industry needs with Power Apps, Power Automate, and Power BI. | Video                                 | 8 minutes 5 seconds |
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) | Explore Dynamics 365 Business Central Capabilities    | Website    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action.    | Free, self-paced online learning path | 24 minutes          |
 

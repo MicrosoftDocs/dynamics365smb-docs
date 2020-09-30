@@ -1,6 +1,6 @@
 ---
- title: How to Set Up Withholding Tax
- description: Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.
+ title: Set Up Withholding Tax in the Australian version
+ description: Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld in the Australian version. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.
  author: edupont04
 
  ms.service: dynamics365-business-central
@@ -13,7 +13,7 @@
  ms.author: edupont
 
 ---
-# Set Up Withholding Tax
+# Set Up Withholding Tax in the Australian Version
 
 Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.  
 

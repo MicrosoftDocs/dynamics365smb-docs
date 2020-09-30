@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 08/10/2020
+    ms.date: 09/18/2020
     ms.author: edupont
 
 ---
@@ -23,7 +23,10 @@ You can assign various machine centers to every work center. A machine center ma
 
 The planned capacity of a work center consists of the availability of the corresponding machine centers and the additional planned availability of the work center. The planned availability of the work center group is, therefore, the sum of all corresponding availabilities of the machine centers and work centers.  
 
-The availability is stored in calendar entries. Before you set up work or machine centers, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+The availability is stored in calendar entries.  
+
+> [!IMPORTANT]
+> Before you set up work or machine centers, you must set up shop calendars. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).
 
 ## To set up a work center
 

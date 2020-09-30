@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
 

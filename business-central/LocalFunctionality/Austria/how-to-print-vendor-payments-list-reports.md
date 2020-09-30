@@ -1,6 +1,6 @@
 ---
-    title: How to Print Vendor Payments List Reports
-    description: The Vendor Payments List report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
+    title: How to Print Vendor Payments List Reports [AT]
+    description: The Vendor Payments List report provides a list of payments for each vendor in the Austrian version. The report can sort payments chronologically or grouped by vendor.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,13 +13,17 @@
     ms.author: edupont
 
 ---
-# Print Vendor Payments List Reports
+# Print Vendor Payments List Reports in the Austrian Version
+
 The **Vendor Payments List** report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.  
+
+> [!NOTE]
+> The **Vendor Payments List** report is available in the following markets: Austria, Germany, Switzerland.
 
 ## To print the vendor payments list report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Payments List**, and then choose the related link.  
-2.  Fill in the fields as described in the following table.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Payments List**, and then choose the related link.  
+2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -28,5 +32,6 @@ The **Vendor Payments List** report provides a list of payments for each vendor.
 
  At the end of the report, the number of processed payments is displayed.  
 
-## See Also  
+## See Also
+
 [Making Payments](../../payables-make-payments.md)

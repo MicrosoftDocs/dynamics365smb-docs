@@ -1,6 +1,6 @@
 ---
     title: Business Process Walkthroughs | Microsoft Docs
-    description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. The walkthroughs consist of multiple procedures, some of which would normally be performed by one user, while others incorporate several different user roles. In order to simulate the working environment, some of the walkthroughs contain setup steps necessary to complete the exercises as described. These steps can provide insight into the kind of information users need to share with their company's IT professionals.
+    description: This selection of walkthroughs provides step-by-step, end-to-end business processes that you can perform using the CRONUS International Ltd. demonstration company. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -35,7 +35,8 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
 |Plan a project, from start to finish. **Requires complete sample data**|[Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)|  
 |Report on the costs of a project. **Requires complete sample data**|[Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Pick items for shipment in basic warehouse configurations. **Requires complete sample data**|[Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|  
+|Perform defects management. **Requires complete sample data**|[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)|
+|Export business data for auditing purposes in Germany.|[Walkthrough: Exporting Data for a Digital Audit](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## See Also
 

@@ -250,5 +250,5 @@ Administrators can define periods of time during which specified users are able 
 [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
-[Add Users to Office 365 for business](https://aka.ms/CreateOffice365Users)  
+[Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help

@@ -1,6 +1,6 @@
 ---
-    title: VAT Reporting
-    description: You can report VAT electronically to the tax authorities.
+    title: VAT Reporting in the Austrian Version
+    description: You can report VAT electronically to the tax authorities in the Austrian version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -13,7 +13,8 @@
     ms.author: edupont
 
 ---
-# VAT Reporting
+# VAT Reporting in the Austrian Version
+
 VAT Information Exchange System (VIES) reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. Paper reports and XML files are created for Austrian VIES reporting.
 
 You can print the following local VAT reports.  

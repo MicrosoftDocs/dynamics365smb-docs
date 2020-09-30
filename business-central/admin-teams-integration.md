@@ -26,9 +26,9 @@ This table gives you an overview of the licenses needed for the [!INCLUDE [prods
 
 |What|Teams license|Business Central license|
 |----|---|---|
-|Send a card|![check](media/check.png "check")|![check](media/check.png "check")|
-|View a card|![check](media/check.png "check")||
-|View card details|![check](media/check.png "check")|![check](media/check.png "check")|
+|Paste a link to a [!INCLUDE [prodshort](includes/prodshort.md)] record into a conversation, and send it as a card.|![check](media/check.png "check")|![check](media/check.png "check")|
+|View a card of a [!INCLUDE [prodshort](includes/prodshort.md)] record in a conversation.|![check](media/check.png "check")||
+|View more details of card for a [!INCLUDE [prodshort](includes/prodshort.md)] record in a conversation.|![check](media/check.png "check")|![check](media/check.png "check")|
 
 ### Managing the Business Central app
 

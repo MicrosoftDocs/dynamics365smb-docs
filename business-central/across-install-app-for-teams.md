@@ -28,7 +28,7 @@ In this article, you learn how to install the [!INCLUDE [prodshort](includes/pro
 2. In the left side, select **Apps**.
 3. Search for **Dynamics 365 Business Central**.
 4. Select the app when you find it.
-5. Read read the information and select **Add**.
+5. Read read the information, then select **Add**.
 
 ## Next step
 

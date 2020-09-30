@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ If you work with more that one [!INCLUDE[prodshort](includes/prodshort.md)] comp
 > [!NOTE]
 > Switching between companies requires [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Some companies using Microsoft 365 restrict users' permissions to deploy add-ins. So you must make sure that you have an Microsoft 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Microsoft 365 for free](https://products.office.com/try).  
+Some companies using Microsoft 365 restrict users' permissions to deploy add-ins. So you must make sure that you have an Microsoft 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Microsoft 365 for free](https://www.microsoft.com/microsoft-365/try).  
 
 ## Using the Contact Insights Add-in
 Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you can see overview information for the customer, as well as drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[d365fin](includes/d365fin_md.md)] without leaving Outlook.  

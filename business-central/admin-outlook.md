@@ -64,7 +64,7 @@ In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not avail
 
 ## Using Other Email Accounts
 
-The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

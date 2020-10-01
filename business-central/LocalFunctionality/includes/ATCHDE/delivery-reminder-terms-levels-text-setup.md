@@ -15,8 +15,6 @@ To create delivery reminders, you must set up the following:
 
 Each delivery reminder term has two or more delivery reminder levels, and for each delivery reminder level, you can specify text that will be part of the delivery reminder.  
 
-For more information, see [Delivery Reminders](delivery-reminders.md).  
-
 ## To set up delivery reminder terms  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder Terms**, and then choose the related link.  

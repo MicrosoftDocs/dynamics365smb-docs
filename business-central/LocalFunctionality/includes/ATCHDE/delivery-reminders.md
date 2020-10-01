@@ -6,7 +6,7 @@ ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
 ---
-Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:  
+Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:
 
 - Delivery reminder terms  
 
@@ -20,11 +20,9 @@ Delivery reminders are used to track overdue vendor shipments and to remind vend
 
     You must set up delivery reminder text messages for every delivery reminder level. There are two types of delivery reminder text messages: beginning and ending. The beginning text message is printed under the header section, before the list of entries that are marked for reminder. The ending text message is printed after this list.  
 
-For more information, see [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md).  
+After you have set up the delivery terms, levels, and texts, you must assign the relevant delivery reminder codes to your vendors.  
 
-After you have set up the delivery terms, you must assign the delivery reminder term codes to vendors. For more information, see [Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md).  
-
-You can create delivery reminders manually or automatically. You can use the **Create Delivery Reminder** batch job to create delivery reminders automatically. This batch job allows you to select the purchase orders for which delivery reminders must be created. For more information, see [Generate Delivery Reminders](how-to-issue-delivery-reminders.md).  
+You can create delivery reminders manually or automatically. You can use the **Create Delivery Reminder** batch job to create delivery reminders automatically so that you can select the purchase orders for which delivery reminders must be created.  
 
 You can also track documents in relation to purchase order lines and sales order lines.  
 
@@ -32,5 +30,3 @@ You can also track documents in relation to purchase order lines and sales order
 
 - **Issued Delivery Reminder** - To view the delivery reminders for vendors.  
 - **Delivery Reminder - Test** - To verify the delivery reminders before you issue them.  
-
-For more information, see [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md).  

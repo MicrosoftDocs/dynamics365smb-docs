@@ -7,10 +7,10 @@ ms.date: 10/01/2020
 ms.author: edupont
 ---
 
-In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually. For more information, see [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md).  
+In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.  
 
 > [!NOTE]  
-> To create delivery reminders, you must set up the delivery reminder properties. For more information, see [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md).  
+> To create delivery reminders, you must have set up the delivery reminder terms, levels, and texts.  
 
 ## To generate delivery reminders for all overdue deliveries  
 

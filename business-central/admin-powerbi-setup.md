@@ -1,6 +1,6 @@
 ---
-title: Enabling Power BI Integration With Business Central| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+title: Enabling Power BI Integration With Business Central
+description: Learn how to set up the connection to Power Bi so you can get insights, business intelligence, and KPIs from your Business Central data with the Business Central apps for Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -22,8 +22,8 @@ With [!INCLUDE[prodshort](includes/prodshort.md)], users get a free Power BI lic
 
 |Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prodshort](includes/prodshort.md)] Apps|
 |-------------|--------||
-|Power BI free|![check](media/check.png)|![check](media/check.png)|(limited)|(limited)||
-|Power BI Pro|![check](media/check.png)|![check](media/check.png)|![check](media/check.png)|(extensive)|![check](media/check.png)|
+|Power BI free|![a checkmark](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
+|Power BI Pro|![yet another checkmark](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
 For more information, see [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

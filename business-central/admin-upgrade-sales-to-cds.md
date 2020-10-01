@@ -1,8 +1,6 @@
 ---
-title: Upgrading an Integration with Dynamics 365 Sales| Microsoft Docs
-description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
+title: Upgrading an Integration with Dynamics 365 Sales
+description: Learn how to move your Dynamics 365 Business Central integration with Dynamics 365 Sales to the latest version.
 author: bholtorf
 
 ms.service: dynamics365-business-central

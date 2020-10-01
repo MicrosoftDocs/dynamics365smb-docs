@@ -1,5 +1,6 @@
 ---
 title: "View Database Locks"
+description: Learn how you can view information about any database locks right from the client interface in Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,8 +11,6 @@ ms.date: 10/01/2020
 ms.author: jswymer
 ---
 # Viewing Database Locks
-
-## About Locks
 
 Database locking controls access by multiple users to the same data at the same time. To protect a transaction against other transactions modifying the same data, the first transaction puts a lock on the data. The lock remains until the transaction's done.
 

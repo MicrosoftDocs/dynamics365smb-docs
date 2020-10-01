@@ -1,16 +1,12 @@
 ---
 title: Customizing Pages for Roles | Microsoft Docs
 description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
+
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -42,9 +38,12 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 The customization of pages is now recorded for the profile.
 
 ## To view all customized pages for a profile
+
 You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.
 
-- On the **Profile (Role)** page, choose the **Customized Pages** action.
+- On the **Profile (Role)** page, choose the **Manage customized pages** action.
+
+On the **Customized Pages** page, you can delete customizations, and you can troubleshoot by scanning for potential issues.  
 
 ## To delete all customizations for a profile
 You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -56,12 +55,13 @@ The layout on pages for the profile is reset to the default layout.
 ## To delete customization for specific pages for a profile
 You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. On the **Profile (Role)** page, choose the **Customized Pages** action.
-2. On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.
+1. On the **Profile (Role)** page, choose the **Manage customized pages** action.
+2. On the **Customized Pages** page, select one or more lines for page customizations that you want to delete, and then choose the **Delete** action.
 
 The layout on the selected pages is adjusted to the changes you made.
 
 ## See Also
+
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

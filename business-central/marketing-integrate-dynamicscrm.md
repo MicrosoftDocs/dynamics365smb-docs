@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 ---
 # Using Dynamics 365 Sales from Business Central
@@ -64,14 +64,17 @@ Sales orders that people submit in [!INCLUDE[crm_md](includes/crm_md.md)] will b
 Alternatively, you can manually convert submitted sales orders from [!INCLUDE[crm_md](includes/crm_md.md)] by using the **Create in [!INCLUDE[d365fin](includes/d365fin_md.md)]** action available on **Sales Orders - Dynamics 365 for Sales** page.
 On such sales orders, the **Name** field on the original order is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that such non-registered product sales are mapped to a specified item/resource number for financial analysis.
+This can also work if the original sales order contains write-in products, meaning items or resources that are not registered in either app. In that case, you must fill in the **Write-in Product Type** and **Write-in Product No.** fields on the **Sales & Receivables Setup** page so that sales of non-registered products are mapped to a specified item or resource number.
+
+> [!NOTE]
+> You cannot map a write-in to an item or resource in [!INCLUDE[d365fin](includes/d365fin_md.md)] that is coupled with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. To allow for write-ins, we recommend that you create an item or resource specifically for that purpose, and do not couple it with a product in [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 If the description of the item on the original sales order is long, an additional sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in SALESORDER-ORDER **Integration table mapping** are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in the **SALESORDER-ORDER** integration table mapping are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodical synchronization based on the SALESORDER-ORDER **Integration table mapping** will work only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping will work only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -81,6 +84,8 @@ Alternatively, you can manually convert activated sales quotes from [!INCLUDE[cr
 On such sales quotes, the **Name** field on the original quote is transferred and mapped to the **External Document Number** field on the sales order in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Also **Effective To** field on quote is transferred and mapped to the  **Quote Valid Until** field on sales quote in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Sales quotes go through many revisions while they are being finalized. Both manual and automatic processing of sales quotes in [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that previous versions of sales quotes are archived before processing new revisions of sales quotes from [!INCLUDE[crm_md](includes/crm_md.md)].
+
+When you choose **Process** in [!INCLUDE[d365fin](includes/d365fin_md.md)] for a quote that is in state **Won**, a sales order is created in [!INCLUDE[d365fin](includes/d365fin_md.md)] only if a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)]. Otherwise, the quote is only released in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If a corresponding sales order is submitted in [!INCLUDE[crm_md](includes/crm_md.md)] later, and a sales order is created from it, the **Quote No.** is updated on the sales order and the quote is archived.
 
 ## Handling Posted Sales Invoices, Customer Payments, and Statistics
 After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed**.

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union
-ms.date: 08/19/2020
+ms.date: 10/01/2020
 ms.author: soalex
 
 ---

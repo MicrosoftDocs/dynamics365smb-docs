@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/23/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
@@ -18,8 +18,7 @@
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
 > [!NOTE]
-> You cannot change an item's costing method if item ledger entries exist for the item.<br /><br />
-> Information will soon be published here about workarounds to changing a costing method in special situations.
+> You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
 The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -37,7 +36,7 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 
-|<!--blank -->|FIFO|Average|Standard|Specific|  
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
 |General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
 |Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  

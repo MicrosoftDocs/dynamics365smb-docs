@@ -6,7 +6,7 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
 ---
@@ -31,7 +31,7 @@ The following table provides examples of the types of requests you can respond t
 A data subject can request that you temporarily stop processing their personal data. To honor such requests, you can mark their record as blocked due to privacy to stop processing their data. When a record is marked as blocked, you cannot create new transactions that use that record. For example, you cannot create a new invoice for a customer when either the customer or the salesperson is blocked. To mark a data subject as blocked, open the card for the data subject, for example the Customer, Vendor, or Contact cards, and choose the **Privacy Blocked** check box. You may need to choose **Show More** to display the field.  
 
 ## Handling Data Subject Requests While in Trial
-Certain types of personal data is part of your Office 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR). The process for handling data subject requests is different depending on the type of [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.  
+Certain types of personal data is part of your Microsoft 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR). The process for handling data subject requests is different depending on the type of [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.  
 
 If you have a paid subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you must contact your organization's tenant administrator to make a data subject request. The administrator has the administrative rights and tools to fulfil your request.  
 

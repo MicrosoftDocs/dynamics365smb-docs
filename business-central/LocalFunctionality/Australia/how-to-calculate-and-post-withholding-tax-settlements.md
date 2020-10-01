@@ -1,16 +1,17 @@
 ---
-title: How to Calculate and Post Withholding Tax Settlements
-description: You can use the Calc. and Post WHT Settlement page to calculate and post the withholding tax (WHT).
+title: Calculate and Post Withholding Tax Settlements (AU)
+description: Learn how to calculate and post the withholding tax (WHT) in the Australian version of Business Central.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Calculate and Post Withholding Tax Settlements
+# Calculate and Post Withholding Tax Settlements in the Australian Version
+
 You can use the **Calc. and Post WHT Settlement** page to calculate and post the withholding tax (WHT).  
 
 You can close WHT entries that are open or not settled and transfer the corresponding amount to the WHT settlement account.  

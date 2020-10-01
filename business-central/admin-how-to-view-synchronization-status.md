@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: sales, crm, integration, sync, synchronize
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
@@ -31,10 +31,13 @@ Use the **Coupled Data Synchronization Errors** page to view the status of synch
 
 |Action|Description|
 |----|----|
-|**Remove Coupling**|Uncouples the records and they will no longer synchronize. To resume synchronizing the records, you must couple them again.|
-|**Retry**|For each record where an error is found, synchronization is skipped unless you fix the issue manually. Retry will include the record in the next synchronization.|
-|**Synchronize**|The app will try to resolve a conflict where a record was changed in both business apps. You can choose the version of the record to use in both apps.|
+|**Remove Coupling**|Uncouples the records and they will no longer synchronize. To restart the synchronization you must couple them again. |
+|**Retry** and **Retry All**|For each record where an error is found, synchronization is skipped unless you fix the issue. Retry will include the selected record in the next synchronization, and **Retry All** includes all of the records.|
+|**Synchronize**|The app will try to resolve a conflict where a record was changed in both business apps. You can choose the version of the record to use.|
 |**Restore Records** and **Delete Records**|These are useful when a record was deleted in one of the business apps. Delete Records deletes the record in the app where it still exists. Restore recreates the record in the business app where it was deleted.|
+
+> [!NOTE]
+> To reduce the number of conflicts you need to resolve, you can set up your integration table mappings to apply these actions automatically. For more information, [Mapping Integration Tables](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## To view the synchronization log for a specific (manually synchronized) record
 1. Open, for example, a customer, item or any other record that is synchronizing data between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Common Data Service or [!INCLUDE[crm_md](includes/crm_md.md)].

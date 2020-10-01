@@ -1,6 +1,6 @@
 ---
-    title: How to Create Deposits | Microsoft Docs
-    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
+    title: How to Create Deposits [US]
+    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the US version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# Create Deposits
+# Create Deposits in the US Version
+
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
 The **Deposit** page specifies bank deposit information. The information includes the bank account number, total deposit amount, deposit lines, posting date, document date, department code, currency code, and deposit notes. You can use the page to create new deposits, post deposits, print deposits, view deposit comments, or view a report that shows the deposit amount to be reconciled.

@@ -1,9 +1,6 @@
 ---
-    title: How to View Withholding Tax Entries
-    description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: View Withholding Tax Entries in the Australian version
+    description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the Australian version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# View Withholding Tax Entries
+# View Withholding Tax Entries in the Australian Version
+
 You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register.  
 
 On the **WHT Entry** page, you can view details about the withholding tax, such as the base amount, the calculated WHT amount, the WHT calculation method, and the unrealized WHT amount.  

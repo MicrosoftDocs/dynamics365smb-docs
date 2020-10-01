@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 07/13/2020
+ms.date: 10/01/2020
 ms.author: jenolson
 
 ---

@@ -1,20 +1,20 @@
 ---
-    title: Withholding Tax
+    title: Withholding Tax in the New Zealand version
     description: Describes how withholding tax (WHT) works in New Zealand.
-    services: project-madeira 
-    documentationcenter: ''
     author: bholtorf
+
     ms.service: dynamics365-business-central
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
-# Withholding Tax
+# Withholding Tax in the New Zealand Version
+
 Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor, in which the full amount owed to that vendor is reduced by the tax withheld. The withheld tax is then remitted to tax authorities during the next Business Activity Statement (BAS) submission.  
 
 The New Zealand government requires taxes to be withheld from payment to vendors under the following circumstances:  

@@ -65,7 +65,7 @@ The following list describes the main steps with links to learn more.
   |A rule for incoming email |Log Email Sent to This Organization|*The sender* is located *Outside the organization*, and *the recipient* is located *Inside the organization*|BCC the email account that is specified for the *Queue* public folder|
   |A rule for outgoing email | Log Email Sent from This Organization |*The sender* is located *Inside the organization*, and *the recipient* is located *Outside the organization*|BCC the email account that is specified for the *Queue* public folder|
   
-  For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
+  For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
 > If you make changes in the Exchange Management Shell, the changes become visible in the Exchange admin center after a delay. Also, the changes made in Exchange will be available in [!INCLUDE[prodshort](prodshort.md)] after a delay.

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---

@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Business Units for Business Activity Statements
+    title: Set Up Business Units for Business Activity Statements (AU)
     description: Describes how to consolidate the financial statements of various companies into one financial statement.
     author: bholtorf
     ms.service: dynamics365-business-central
@@ -8,11 +8,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
-# Set Up Business Units for Business Activity Statements
+# Set Up Business Units for Business Activity Statements in the Australian Version
+
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can consolidate the financial statements of various companies into one financial statement.  
 
 You must set up a consolidation company to perform the consolidation. In this company, the total amounts for all accounts in the group, from both the parent company and subsidiaries, are added together. You must also indicate the general ledger accounts in the consolidated company to which the total should be transferred.  

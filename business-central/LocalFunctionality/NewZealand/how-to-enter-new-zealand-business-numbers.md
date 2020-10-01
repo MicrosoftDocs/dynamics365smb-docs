@@ -1,6 +1,6 @@
 ---
-    title: How to Enter New Zealand Inland Revenue Department Numbers
-    description: You can enter a New Zealand Inland Revenue Department Number (IRD) in certain pages.
+    title: Enter Inland Revenue Department Numbers
+    description: You can enter an Inland Revenue Department Number (IRD) in certain pages in the New Zealand version of Business Central.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/15/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---

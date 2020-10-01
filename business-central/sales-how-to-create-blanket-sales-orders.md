@@ -1,6 +1,6 @@
 ---
-    title: How to Create Blanket Sales Orders | Microsoft Docs
-    description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time.
+    title: Work with Blanket Sales Orders or Purchase Orders
+    description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. The same applies to purchasing.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,12 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# Work with Blanket Sales Orders
-A blanket sales order represents a framework for a long-term agreement between you and your customer.
+# Work with Blanket Sales Orders or Blanket Purchase Orders
+
+A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your vendor.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.
 
@@ -90,7 +91,8 @@ The link between the blanket sales order and the originating sales order, and an
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also
-[Sales](sales-manage-sales.md)
+
+[Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

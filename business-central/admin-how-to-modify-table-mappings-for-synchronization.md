@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---
@@ -26,6 +26,17 @@ When you create the connection between the apps, [!INCLUDE[d365fin](includes/d36
 
 ### Synchronization Rules
 An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an entity in [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### Strategies for Auto-Resolving Conflicts
+Data conflicts can easily occur when business applications exchange data on an ongoing basis. For example, someone might delete or change a record in one of the applications, or both. To reduce the number of conflicts that you will have to manually resolve, you can specify resolution strategies and [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically resolve conflicts according to the rules in the strategies.
+
+Integration table mappings include rules that control how synchronization jobs synchronize records. On the **Integration Table Mapping** page, in the **Resolve Deletion Conflicts** and **Resolve Update Conflicts** columns, you can specify how [!INCLUDE[d365fin](includes/d365fin_md.md)] will resolve conflicts that occur because records were deleted in tables in one or the other business application, or updated in both. 
+
+In the **Resolve Deletion Conflicts** column, you can choose to have [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically restore deleted records, remove the coupling between the records, or do nothing. If you do nothing, you must manually resolve conflicts. 
+
+In the **Resolve Update Conflicts** column, you can choose to have [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically send a data update to the integration table when sending data to [!INCLUDE[d365fin](includes/cds_long_md.md)], or to get a data update from the integration table when getting data from [!INCLUDE[d365fin](includes/cds_long_md.md)], or do nothing. If you do nothing, you must manually resolve conflicts.
+
+After you specify the strategy, on the **Coupled Data Synchronization Errors** page, you can choose the **Retry All** action to automatically resolve conflicts. 
 
 ## Mapping Integration Fields
 Mapping tables is only the first step. You must also map the fields on the tables. Integration field mappings link fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables with corresponding fields in [!INCLUDE[d365fin](includes/cds_long_md.md)], and determine whether to synchronize data in each table. The standard table mapping that [!INCLUDE[d365fin](includes/d365fin_md.md)] provides includes field mappings, but you can change those if you want. For more information, see [Viewing Entity Mappings](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

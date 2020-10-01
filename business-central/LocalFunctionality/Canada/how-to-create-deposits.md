@@ -1,6 +1,6 @@
 ---
-    title: How to Create Deposits | Microsoft Docs
-    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
+    title: How to Create Deposits [CA]
+    description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# Create Deposits
+# Create Deposits in the Canadian Version
+
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  
 
 ## To create a deposit  

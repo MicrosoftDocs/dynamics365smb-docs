@@ -1,6 +1,6 @@
 ---
-title: How to Create Delivery Reminders Manually
-description: In Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
+title: How to Create Delivery Reminders Manually [AT]
+description: In the Austrian version of Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Create Delivery Reminders Manually
+# Create Delivery Reminders Manually in the Austrian Version
+
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create delivery reminders when a purchase has not been delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries. For more information, see [Generate Delivery Reminders](how-to-generate-delivery-reminders.md).
 
 > [!NOTE]

@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Payables and Receivables | Microsoft Docs
-description: This section describes local functionality - Payables and Receivables
+title: Payables and Receivables in the Czech version
+description: This section describes local functionality in the Czech version - Payables and Receivables.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Payables and Receivables
+# Payables and Receivables in the Czech version
 
 ## Credits
 

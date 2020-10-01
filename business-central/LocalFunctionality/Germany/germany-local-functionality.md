@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/09/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
@@ -38,12 +38,10 @@ The following topics describe local functionality that is unique to the German v
     * [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
     * [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
     * [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md) **Available Now**
-    * [Set Up Data Exports for GDPDU](how-to-set-up-data-exports-for-gdpdu.md) **Available Now**
     * [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md) **Available Now**
     * [GDPDU Filter Examples](gdpdu-filter-examples.md) **Available Now**
     * [Upgrade a .DTD Definition File](how-to-upgrade-a-.dtd-definition-file.md) **Available Now**
     * [Walkthrough: Exporting Data for a Digital Audit](walkthrough-exporting-data-for-a-digital-audit.md) **Available Now**
-    * [Walkthrough: Exporting GDPDU Data](walkthrough-exporting-gdpdu-data.md) **Available Now**
 
 * Purchasing
     * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**

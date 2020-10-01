@@ -1,6 +1,6 @@
 ---
-    title: How to Compare Bank Cash Flow
-    description: You can use the Bank Detail Cashflow Compare report to compare the flow of cash in a particular bank for a specified period.
+    title: Compare Bank Cash Flow in the Australian version
+    description: You can use the Bank Detail Cashflow Compare report to compare the flow of cash in a particular bank for a specified period in the Australian version.
 
     author: SorenGP
 
@@ -10,11 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2020
+    ms.date: 10/01/2020
     ms.author: edupont
 
 ---
-# Compare Bank Cash Flow
+# Compare Bank Cash Flow in the Australian Version
+
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
  The report displays the following details:  

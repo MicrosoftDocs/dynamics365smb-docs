@@ -14,7 +14,7 @@ In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], you can create delivery
 
 ## To create a delivery reminder manually  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.  
+1. Choose the ![The lightbulb icon that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **Delivery Reminder** page, fill in the fields as described in the following table.  
 

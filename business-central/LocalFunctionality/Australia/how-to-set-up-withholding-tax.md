@@ -21,7 +21,7 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 
 ## To enable withholding tax
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![The lightbulb icon that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 
 2. On the **Local Functionalities** FastTab, choose the **Enable WHT** field.  
 

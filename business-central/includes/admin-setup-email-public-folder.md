@@ -22,7 +22,7 @@ The following list describes the main steps with links to learn more.
   |Selected roles  |Public Folders            |
   |Selected members|The email of the user account that Business Central will use to run the email logging job|
 
-  For more information, see [Manage role groups](/exchange/permissions/role-groups?view=exchserver-2019).
+  For more information, see [Manage role groups](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
 
 - Create a new public folder mailbox based on the information in the following table:
 
@@ -39,11 +39,11 @@ The following list describes the main steps with links to learn more.
     - ```\Email Logging\Queue\```
     - ```\Email Logging\Storage\```
 
-  For more information, see [Create a public folder](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true ).
+  For more information, see [Create a public folder](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
 
 - Mail-enable the *Queue* public folder
 
-  For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true )
+  For more information, see [Mail-enable or mail-disable a public folder](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
 
 - Mail-enable sending emails to the *Queue* public folder using Outlook or the Exchange Management Shell
 

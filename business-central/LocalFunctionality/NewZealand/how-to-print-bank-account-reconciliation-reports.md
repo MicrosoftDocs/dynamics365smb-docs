@@ -15,13 +15,8 @@
 ---
 # Print Bank Account Reconciliation Reports in the New Zealand Version
 
-The **Bank Account Reconciliation** report displays open bank ledger entries as unpresented checks or unrecorded deposits.  
+[!INCLUDE [print-balance-sheet-reports](../includes/AUNZ/print-balance-sheet-reports.md)]
 
-## To print a bank account reconciliation report  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reconciliation**, and then choose the related link.  
-2.  On the **Options** FastTab, select the **New Page per Bank Account** check box.  
-3.  On the **Bank Account** FastTab, select appropriate filters.  
-4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
+## See Also
 
-## See Also  
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)

@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: andregu
 
 ---

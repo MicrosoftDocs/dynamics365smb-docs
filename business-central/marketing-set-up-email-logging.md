@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---
@@ -27,7 +27,7 @@ Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Onl
 
 Get started with email logging in two easy steps:
 
-1. Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Exchange Online for your Office 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Office 365. To start the guide, go to **Assisted Setup**, and then choose **Set up email logging**.  
+1. Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Exchange Online for your Microsoft 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Microsoft 365. To start the guide, go to **Assisted Setup**, and then choose **Set up email logging**.  
 
 2. Make sure that valid email addresses have been entered in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your sales people and contacts, depending on whether they are potential or existing customers. To do that, for each customer or salesperson, open the **Contact** or **Salesperson/Purchaser** card and have a look in the **Email** field.
 

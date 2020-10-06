@@ -74,7 +74,7 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Group**, and then choose the related link.
 2. To define the company's VAT group role, choose **Member**, and then choose **Next**.
 3. Copy the **Group Member ID** and then share it with the VAT group representative so they can add your company as an approved members of the group.
-4. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows, **https://api.businesscentral.dynamics.com/v2.0/[ENVIRONMENTNAME]/api/v1.0**. For example, **https://api.businesscentral.dynamics.com/v2.0/GBProduction/api/v1.0**. 
+4. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows, **https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]**. For example, **https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative**. 
 5. Add the [!INCLUDE[d365fin](includes/d365fin_md.md)] company name of the VAT group representative. For example **CRONUS UK Ltd.**
 6. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
 7. In the **Client ID** field, enter the ID provided by the VAT group representative.

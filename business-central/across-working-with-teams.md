@@ -46,8 +46,12 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
     The app is designed to display card type pages from [!INCLUDE [prodshort](includes/prodshort.md)]. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
 3. Copy the entire URL from the browser's address bar.
+
+   ![Copy Business Central URL from browser](media/teams-url.png)
 4. Go to Teams and start a conversation.
 5. Paste the URL into the box where you add a message.
+
+   ![Paste Business Central URL in Teams](media/teams-paste-url.png)
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prodshort](includes/prodshort.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]

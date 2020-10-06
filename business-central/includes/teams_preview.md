@@ -1,0 +1,1 @@
+> Teams integration is only available for Business Central Online in 2020 release wave 2 and later. It's currently a preview, which means that functionality might change or be added in future releases.

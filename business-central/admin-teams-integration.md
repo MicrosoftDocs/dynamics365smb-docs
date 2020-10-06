@@ -14,7 +14,7 @@ ms.author: jswymer
 
 # Managing Microsoft Teams Integration with Business Central
 
-[!INCLUDE [prodshort](includes/2020rw_online_only.md)]
+[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
 
 This article provides an overview of what you can do as an administrator to control Microsoft Teams integration with [!INCLUDE [prodshort](includes/prodshort.md)].
 

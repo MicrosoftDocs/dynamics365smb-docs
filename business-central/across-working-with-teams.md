@@ -14,7 +14,7 @@ ms.author: jswymer
 
 # Working with Business Central Data in Microsoft Teams
 
-[!INCLUDE [prodshort](includes/2020rw_online_only.md)]
+[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
 
 [!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn who to use the app to share [!INCLUDE [prodshort](includes/prodshort.md)] data with coworkers in a Teams conversation.
 

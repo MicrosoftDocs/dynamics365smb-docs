@@ -14,7 +14,7 @@ ms.author: jswymer
 
 # Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams
 
-[!INCLUDE [prodshort](includes/2020rw_online_only.md)]
+[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
 
 In this article, you learn how to install the [!INCLUDE [prodshort](includes/prodshort.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 

@@ -1496,7 +1496,7 @@
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-#### [VAT Group](ui-extensions-vat-group.md)
+#### [VAT Group Management](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)

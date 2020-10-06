@@ -1,5 +1,5 @@
 ---
-title: Working with Business Central Data in Microsoft Teams| Microsoft Docs
+title: Business Central and Microsoft Teams Integration overview| Microsoft Docs
 description: Share Business Central records directly in a Teams conversation.
 author: jswymer
 ms.service: dynamics365-business-central

@@ -1,5 +1,5 @@
 ---
-title: Working with Business Central Data in Microsoft Teams| Microsoft Docs
+title: Managing Microsoft Teams Integration with Business Central| Microsoft Docs
 description: Manage Business Central integration with Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central

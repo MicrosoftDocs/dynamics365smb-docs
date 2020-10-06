@@ -1,5 +1,5 @@
 ---
-title: Working with Business Central Data in Microsoft Teams| Microsoft Docs
+title: Installing the Business Central app in Microsoft Teams| Microsoft Docs
 description: How to install the Business Central app for Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central

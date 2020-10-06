@@ -8,7 +8,7 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
+ms.date: 10/01/2020
 ---
 
 # Handling Missing Option Values

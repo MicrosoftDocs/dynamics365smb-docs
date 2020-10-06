@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 08/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
 # Minimum Requirements for Using Business Central
+
 Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
 ## Browsers
@@ -26,28 +27,33 @@ Before you access [!INCLUDE[prodshort](includes/prodshort.md)] online, we recomm
 
 ### Other supported browsers
 
-**Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the legacy version of Microsoft Edge.  
+**Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with the legacy version of Microsoft Edge, but we recommend that you switch to the new Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is designed to work with Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-bit and 64-bit versions). We recommend that you upgrade to the latest version of Internet Explorer supported for your version of Windows. You can also run the new Edge and still access other websites that require Internet Explorer. For more information, see [Microsoft Edge documentation](/deployedge/edge-ie-mode).
 
 > [!IMPORTANT]
 > Starting in April 2021, Internet Explorer 11 and Edge Legacy will no longer be supported. We recommend you switch to one of the recommended modern browsers as soon as possible.
 
 ## Mobile devices
-**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+
+**Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for iPad and iPhone requires iOS 10.0 or later.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Android tablet and Android phone can be installed on devices with at least 1GB of RAM and Android 6.0 or higher.  
 **Device size:** [!INCLUDE[d365fin](includes/d365fin_md.md)] is supported on smartphones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
 
 ## Outlook
-**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2016 or later, Outlook in a browser, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organization must also use Microsoft 365. You cannot use [!INCLUDE[prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  
+
+**Outlook applications:** To use [!INCLUDE[d365fin](includes/d365fin_md.md)] online as your business inbox in Outlook, you will need Outlook 2019 or later, Outlook on the web, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organization must also use Microsoft 365. You cannot use [!INCLUDE[prodshort](includes/prodshort.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  
 **Browsers:** When using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
 **Platforms:** When using the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In in Outlook for iPhone, Outlook for iPad, or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Excel
-**Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)], you need Excel 2016 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+
+**Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[d365fin](includes/d365fin_md.md)], you need Excel 2019 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Using the Business Central Administration Center
+
 The administration center is designed to work with the current version of the following browsers:
+
 - The new Microsoft Edge
 - Chrome for Windows
 - Firefox for Windows
@@ -55,8 +61,9 @@ The administration center is designed to work with the current version of the fo
 
 ## Using Business Central on-premises
 
-If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## See Also
+
 [Getting Started](product-get-started.md)  
-[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  

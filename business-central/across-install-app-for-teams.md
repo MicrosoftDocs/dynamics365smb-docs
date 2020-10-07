@@ -18,8 +18,6 @@ ms.author: jswymer
 
 In this article, you learn how to install the [!INCLUDE [prodshort](includes/prodshort.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
-<!-- deep link https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29 -->
-
 ## Prerequisites
 
 - A Microsoft Teams license

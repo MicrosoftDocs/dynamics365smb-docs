@@ -31,12 +31,16 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 
 - You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. For more information, see [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md)
-- You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
+
+> [!NOTE]
+> All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop-out** buttons on a card, they'll need access to [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).
+<!--
+- People You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to view the page and its data.
   - Once a card is submitted into a conversation, any user in that conversation can view that card without having permission to Business Central.
   - For other users to view more details from card, they must also have view permission, as a minimum, to the page and its data. If they want to change data, they'll need modify permissions.
 
-  Setting up permissions is typically done by an administrator. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).
+  Setting up permissions is typically done by an administrator. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).-->
 
 ## Include a Business Central card in a Teams conversation
 
@@ -57,16 +61,18 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prodshort](includes/prodshort.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
-    > You'll only have to do this step once or until you change which [!INCLUDE [prodshort](includes/prodshort.md)] environment Teams connect to.
+    > You'll only have to do this step once.
 
 7. Wait a moment while a card is generated in the message box.
 
-8. When the card appears, select **Send** to submit the card to the conversation.
+8. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation will be able to see the card.
+
+9. If the card looks good, select **Send** to submit the card to the conversation.
 
     > [!TIP]
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
 
-9. To view more details or make changes to the record, select **Details**.
+10. To view more details or make changes to the record, select **Details**.
 
     The details page is similar to what you'd see in [!INCLUDE [prodshort](includes/prodshort.md)]. But it's slightly trimmed down for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
 

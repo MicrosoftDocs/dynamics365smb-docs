@@ -7,7 +7,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 07/10/2020
 ms.author: jswymer
 ---
@@ -20,7 +20,7 @@ In this article, you learn how to install the [!INCLUDE [prodshort](includes/pro
 
 ## Prerequisites
 
-- A Microsoft Teams license
+- Your organization's policies must allow you to install apps in Microsoft Teams.
 
 ## Add the Business Central app to Teams
 

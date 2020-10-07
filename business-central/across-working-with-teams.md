@@ -1,13 +1,13 @@
 ---
 title: Working with Business Central Data in Microsoft Teams| Microsoft Docs
-description: Describes how to use the Business Central app for Microsoft Teams.
+description: Learn how to use the Business Central app for Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 07/10/2020
 ms.author: jswymer
 ---
@@ -16,7 +16,7 @@ ms.author: jswymer
 
 [!INCLUDE [teams_preview.md](includes/teams_preview.md)]
 
-[!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn who to use the app to share [!INCLUDE [prodshort](includes/prodshort.md)] data with coworkers in a Teams conversation.
+[!INCLUDE [prodshort](includes/prodshort.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prodshort](includes/prodshort.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prodshort](includes/prodshort.md)] data with coworkers in a Teams conversation.
 
 ## Overview
 
@@ -29,7 +29,7 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 
 ## Prerequisites
 
-- You have a Microsoft Teams license
+- You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. For more information, see [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md)
 - You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to view the page and its data.
@@ -48,7 +48,9 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 3. Copy the entire URL from the browser's address bar.
 
    ![Copy Business Central URL from browser](media/teams-url.png)
-4. Go to Teams and start a conversation.
+4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
+
+    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Paste the URL into the box where you add a message.
 
    ![Paste Business Central URL in Teams](media/teams-paste-url.png)

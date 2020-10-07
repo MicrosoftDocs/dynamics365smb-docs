@@ -7,7 +7,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 07/10/2020
 ms.author: jswymer
 ---
@@ -24,7 +24,7 @@ This article provides an overview of what you can do as an administrator to cont
 
 This section describes the minimum requirements for the [!INCLUDE [prodshort](includes/prodshort.md)] app features to work in Teams.
 
-- Teams license
+- Required licenses
 
     This table gives you an overview of the licenses needed for the [!INCLUDE [prodshort](includes/prodshort.md)] app features to work in Teams.
 
@@ -36,11 +36,11 @@ This section describes the minimum requirements for the [!INCLUDE [prodshort](in
 
 - Allow URL previews
 
-    **Allow URL previews** setting must be turned on. Otherwise, a card can't be geenerated for Business Central links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
+    **Allow URL previews** policy setting must be turned on. Otherwise, a card can't be generated for Business Central links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
 ### Managing the Business Central app (optional)
 
-As a Teams administrator, you can manage all apps for your organization, including the [!INCLUDE [prodshort](includes/prodshort.md)] app. You can approve or upload [!INCLUDE [prodshort](includes/prodshort.md)] app for your organization, block user's from installing the app, and more.
+As a Teams administrator, you can manage all apps for your organization, including the [!INCLUDE [prodshort](includes/prodshort.md)] app. You can approve or install the [!INCLUDE [prodshort](includes/prodshort.md)] app for your organization, block user's from installing the app, and more.
 
 For more information, see the following articles in the Microsoft Teams documentation:
 
@@ -61,7 +61,7 @@ For more information, see the following articles in the Microsoft Teams document
 
 - User permissions:
 
-    For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prodshort](includes/prodshort.md)] client.
+    For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prodshort](includes/prodshort.md)].
     
     - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
     - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.

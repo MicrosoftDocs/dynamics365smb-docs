@@ -96,6 +96,8 @@ The **VAT Group Submissions** page lists the VAT returns that members have submi
 ### Creating a Group VAT Return
 To report VAT on behalf of the group, on the **VAT Returns** page, create a VAT return for your company only. Afterward, include the most recent VAT submissions from VAT group members by choosing the **Include Group VAT** action.  
 
+When the VAT Group representative's VAT Return has been submitted to the authorities on behalf of the entire group, you will normally run the **Calculate and Post VAT Settlement** action. This action closes open VAT Entries and transfers amounts to the VAT Settlement account. Currently, this action does not take the group submissions into account. This means that only the VAT Entries of the VAT Group representative company will be posted. The VAT Group member submission amounts must be posted to the VAT settlement amount manually, so that the VAT Group representative's VAT Settlement account will reflect the liability of what was reported to authorities. This behaviour will change in an upcoming update of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], so the entire group VAT (the Total Amount on Report Lines on the VAT Return) will be settled. 
+
 > [!NOTE]
 > VAT group members can correct submitted VAT returns as long as the group representative has not released the VAT return for the group. To make a correction, the VAT group member must create a new VAT return for the VAT return period and submit it to the VAT group representative. On the VAT group representative's side, the latest VAT return will be included on the **VAT Returns** page. 
 

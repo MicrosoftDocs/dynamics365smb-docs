@@ -26,11 +26,27 @@ In this article, you learn how to install the [!INCLUDE [prodshort](includes/pro
 
 ## Add the Business Central app to Teams
 
+There are two ways to install the Business Central app:
+
+**Option 1**
+
+This option is the quickest way to install the app.
+
+1. Select this link: [https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29](https://teams.microsoft.com/l/app/84c2de91-84e8-4bbf-b15d-9ef33245ad29).
+
+2. Wait for the Business Central app to appear.
+
+    ![Install Business Central app in Teams](media/teams-install-app.png)
+
+3. Select **Add for me**.
+
+**Option 2**
+
 1. Open and sign in to Teams.
 2. In the left side, select **Apps**.
-3. Search for **Dynamics 365 Business Central**.
+3. Search for **Business Central**.
 4. Select the app when you find it.
-5. Read read the information, then select **Add**.
+5. Select **Add for me**.
 
 ## Next step
 

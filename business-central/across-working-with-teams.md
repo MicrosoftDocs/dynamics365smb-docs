@@ -68,6 +68,9 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 
     The details page is similar to what you'd see in [!INCLUDE [prodshort](includes/prodshort.md)]. But it's slightly trimmed down for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
 
+    > [!NOTE]
+    > Any changes you make won't be reflected in the card until the next time you paste its link in a conversation.
+
 ## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  

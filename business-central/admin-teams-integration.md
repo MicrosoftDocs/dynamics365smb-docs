@@ -53,7 +53,11 @@ For more information, see the following articles in the Microsoft Teams document
 
 - [!INCLUDE [prodshort](includes/prodshort.md)] version:
 
-    [!INCLUDE [prodshort](includes/prodshort.md)] 2020 release wave 2 (version 17) or later. Teams integration is only supported for [!INCLUDE [prodshort](includes/prodshort.md)] online, not on-premises.
+    [!INCLUDE [prodshort](includes/prodshort.md)] 2020 release wave 2 (version 17) or later. Teams integration is only supported for [!INCLUDE [prodshort](includes/prodshort.md)] online; not on-premises.
+
+- Codeunit **2718 Page Summary** is published as a web service:
+
+    This codeunit is published as a web service by default. The codeunit is part of the [!INCLUDE [prodshort](includes/prodshort.md)] system application. It's used to get the field data for a [!INCLUDE [prodshort](includes/prodshort.md)] page added to a Teams conversation. 
 
 - User permissions:
 

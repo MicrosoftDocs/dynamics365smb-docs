@@ -242,7 +242,7 @@
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
-#### [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md)
+#### [Working with Business Central Data in Teams](across-working-with-teams.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator

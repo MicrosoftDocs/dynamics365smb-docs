@@ -24,10 +24,6 @@ This article provides an overview of what you can do as an administrator to cont
 
 This section describes the minimum requirements for the [!INCLUDE [prodshort](includes/prodshort.md)] app features to work in Teams.
 
-- Allow URL previews
-
-    **Allow URL previews** setting must be turned on. Otherwise, a card can't be geenerated for Business Central links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
-
 - Teams license
 
     This table gives you an overview of the licenses needed for the [!INCLUDE [prodshort](includes/prodshort.md)] app features to work in Teams.
@@ -38,7 +34,11 @@ This section describes the minimum requirements for the [!INCLUDE [prodshort](in
     |View a card of a [!INCLUDE [prodshort](includes/prodshort.md)] record in a conversation.|![check mark](media/check.png "check")||
     |View more details of card for a [!INCLUDE [prodshort](includes/prodshort.md)] record in a conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
 
-### Managing the Business Central app
+- Allow URL previews
+
+    **Allow URL previews** setting must be turned on. Otherwise, a card can't be geenerated for Business Central links pasted into a Teams conversation. For more information about this setting, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
+
+### Managing the Business Central app (optional)
 
 As a Teams administrator, you can manage all apps for your organization, including the [!INCLUDE [prodshort](includes/prodshort.md)] app. You can approve or upload [!INCLUDE [prodshort](includes/prodshort.md)] app for your organization, block user's from installing the app, and more.
 
@@ -49,14 +49,22 @@ For more information, see the following articles in the Microsoft Teams document
 
 ## In [!INCLUDE [prodshort](includes/prodshort.md)]
 
-For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prodshort](includes/prodshort.md)] client.
+### Minimum requirements
 
-- To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
-- Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.
-- To view more details for a card or open the record in [!INCLUDE [prodshort](includes/prodshort.md)], users must have read permission on the page and its data.
-- To change data, user's need modify permissions.
+- [!INCLUDE [prodshort](includes/prodshort.md)] version:
 
-For information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
+    [!INCLUDE [prodshort](includes/prodshort.md)] 2020 release wave 2 (version 17) or later. Teams integration is only supported for [!INCLUDE [prodshort](includes/prodshort.md)] online, not on-premises.
+
+- User permissions:
+
+    For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prodshort](includes/prodshort.md)] client.
+    
+    - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
+    - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to Business Central.
+    - To view more details for a card or open the record in [!INCLUDE [prodshort](includes/prodshort.md)], users must have read permission on the page and its data.
+    - To change data, user's need modify permissions.
+    
+    For information about permissions, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
 ## See Also
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  

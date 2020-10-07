@@ -16,7 +16,8 @@ ms.author: bholtorf
 ---
 
 # The VAT Group Management Extension
-You can team up with one or more businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a _VAT group_. You can engage with the group as a member or the group representative.
+
+You can join one or more businesses in your country to consolidate VAT reporting under a single registration number. This type of arrangement is known as a *VAT group*. You can engage with the group as a member or the group representative.
 
 ## Forming a VAT Group
 VAT group members and the group representative can use the **VAT Group Management Setup** assisted setup guide to define their engagement with the group, and create a connection between their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants. The group members will use the connection to submit their VAT returns to the group representative. The representative will submit VAT to tax authorities on behalf of the group using a single VAT return. 
@@ -25,18 +26,23 @@ VAT group members and the group representative can use the **VAT Group Managemen
 Communication happens from group members to the representative. The group representative exposes an API that allows the members to submit their VAT returns to the VAT group representative. 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] supports inter-group VAT return submissions for companies using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises or online, and in any combination. The setup of the communication depends on the constellation. The following sections describe how to set up various group constellations.
 
-The following is the recommended order of the steps to set up a VAT group:
+The following list shows the recommended order of the steps to set up a VAT group:
 
 1. Create the setup in Azure Active Directory. For more information, see [Requirements for Authentication](ui-extensions-vat-group.md#requirements-for-authentication).
-2. Share the technical information that VAT group members and the representative need to connect their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants. Usually, this is information the VAT group representative has, like for example name of the VAT group representative environment to which the VAT group members will submit VAT.
+2. Share the technical information that VAT group members and the representative need to connect their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants.
+
+  Usually, the VAT group representative has this information, such as the name of the VAT group representative environment to which the VAT group members will submit VAT.
 3. Create users in the VAT group representative's [!INCLUDE[d365fin](includes/d365fin_md.md)] that VAT group members can use to authenticate and connect.
-4. Run the VAT Group Management assisted setup guide to connect the VAT group members. This requires some information from the VAT group representative. For more information, see [VAT Group Member Setup](ui-extensions-vat-group.md#vat-group-member-setup). Make sure to note the **Group Member ID** from each VAT group member. The representative needs the ID to add the company to the VAT group.
+4. Run the **Set up VAT Group Management** assisted setup guide to connect the VAT group members.
+
+  The guide requires some information from the VAT group representative. For more information, see the [VAT Group Member Setup](#vat-group-member-setup) section. Make a note of the **Group Member ID** for each VAT group member. The representative needs these IDs to add the companies to the VAT group.
 5. Set up the VAT Group Management extension in the VAT group representative's [!INCLUDE[d365fin](includes/d365fin_md.md)] by using the **Set up VAT Group Management** assisted setup guide. 
 
 > [!NOTE]
 > To connect to the VAT group representative, group members need a user with access to the VAT group representative's [!INCLUDE[d365fin](includes/d365fin_md.md)]. The VAT group representative must create at least one user for this, however, for security reasons we recommended that you create a user for each VAT group member. Make sure to distribute the credentials for these users to VAT group members in a secure way.
 
 ## Understanding the VAT Group Management Setup
+
 The VAT group representative exposes an API that VAT group members can use to connect to their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant and submit VAT returns. VAT group members will often use [!INCLUDE[d365fin](includes/d365fin_md.md)] in separate Azure Active Directory tenants. Therefore, more setup is needed to make a connection between the VAT group member and representative's [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
   
 VAT group members connect to the representative by calling a web service on the VAT group representative tenant. The caller must be authenticated using OAuth. When the VAT Group Management extension is set up, you will be asked to authenticate to the VAT group representative to get and save an access token. This access token is used when submitting VAT returns to the VAT group representative. 
@@ -73,9 +79,9 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Group**, and then choose the related link.
 2. To define the company's VAT group role, choose **Member**, and then choose **Next**.
-3. Copy the **Group Member ID** and then share it with the VAT group representative so they can add your company as an approved members of the group.
+3. Copy the value of the **Group Member ID** field, and then share it with the VAT group representative so they can add your company as an approved member of the group.
 4. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`. 
-5. Add the [!INCLUDE[d365fin](includes/d365fin_md.md)] company name of the VAT group representative. For example **CRONUS UK Ltd.**
+5. Add the [!INCLUDE[d365fin](includes/d365fin_md.md)] company name of the VAT group representative, such as *CRONUS UK Ltd*.
 6. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
 7. In the **Client ID** field, enter the ID provided by the VAT group representative.
 8. In the **Client Secret provided by the VAT Group representative** field, enter the secret provided by the VAT group representative.
@@ -95,13 +101,13 @@ The following sections describe the tasks that VAT group representatives must pe
 
 ### VAT Group Submissions
 
-The **VAT Group Submissions** page lists the VAT returns that members have submitted. Consider this the draft location for the submissions until the VAT group representative includes them in a VAT return for the group. You can open the submissions to review the VAT for the individual boxes reported by the VAT group member.
+The **VAT Group Submissions** page lists the VAT returns that members have submitted. The page serves as a draft location for the submissions until the VAT group representative includes them in a VAT return for the group. You can open the submissions to review the VAT for the individual boxes reported by the VAT group member.
 
 ### Creating a Group VAT Return
 
 To report VAT on behalf of the group, on the **VAT Returns** page, create a VAT return for your company only. Afterward, include the most recent VAT submissions from VAT group members by choosing the **Include Group VAT** action.  
 
-When the VAT Group representative's VAT Return has been submitted to the authorities on behalf of the entire group, you will normally run the **Calculate and Post VAT Settlement** action. This action closes open VAT Entries and transfers amounts to the VAT Settlement account. Currently, this action does not take the group submissions into account. This means that only the VAT Entries of the VAT Group representative company will be posted. The VAT Group member submission amounts must be posted to the VAT settlement amount manually, so that the VAT Group representative's VAT Settlement account will reflect the liability of what was reported to authorities. This behaviour will change in an upcoming update of [!INCLUDE[d365fin](includes/d365fin_md.md)], so the entire group VAT (the Total Amount on Report Lines on the VAT Return) will be settled. 
+When the VAT Group representative's VAT Return has been submitted to the authorities on behalf of the entire group, you will normally run the **Calculate and Post VAT Settlement** action. This action closes open VAT Entries and transfers amounts to the VAT Settlement account. Currently, this action does not take the group submissions into account. This means that only the VAT Entries of the VAT Group representative company will be posted. The VAT Group member submission amounts must be posted to the VAT settlement amount manually, so that the VAT Group representative's VAT Settlement account will reflect the liability of what was reported to authorities. This behavior will change in an upcoming update of [!INCLUDE[d365fin](includes/d365fin_md.md)], so the entire group VAT (the Total Amount on Report Lines on the VAT Return) will be settled. 
 
 > [!NOTE]
 > VAT group members can correct submitted VAT returns as long as the group representative has not released the VAT return for the group. To make a correction, the VAT group member must create a new VAT return for the VAT return period and submit it to the VAT group representative. On the VAT group representative's side, the latest VAT return will be included on the **VAT Returns** page. 

@@ -65,16 +65,16 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 
 7. Wait a moment while a card is generated in the message box.
 
-8. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation will be able to see the card.
+8. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.
 
-9. If the card looks good, select **Send** to submit the card to the conversation.
+9. If the card looks good, select **Send** to submit it to the conversation.
 
     > [!TIP]
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
 
 10. To view more details or make changes to the record, select **Details**.
 
-    The details page is similar to what you'd see in [!INCLUDE [prodshort](includes/prodshort.md)]. But it's slightly trimmed down for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
+    The details page is similar to what you'd see in [!INCLUDE [prodshort](includes/prodshort.md)]. But it's slightly trimmed for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
 
     > [!NOTE]
     > Any changes you make won't be reflected in the card until the next time you paste its link in a conversation.

@@ -33,7 +33,7 @@ The [!INCLUDE [prodshort](includes/prodshort.md)] app lets you:
 - You've installed the [!INCLUDE [prodshort](includes/prodshort.md)] app in Teams. For more information, see [Install the [!INCLUDE [prodshort](includes/prodshort.md)] App for Microsoft Teams](across-install-app-for-teams.md)
 
 > [!NOTE]
-> All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop-out** buttons on a card, they'll need access to [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).
+> All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop-out** buttons on a card, they'll need access to [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 <!--
 - People You and your coworkers have the following permissions in [!INCLUDE [prodshort](includes/prodshort.md)]
   - To paste a [!INCLUDE [prodshort](includes/prodshort.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to view the page and its data.

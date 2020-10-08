@@ -143,9 +143,6 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 
 When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols as operators to further filter the results. The following tables show the symbols that can be used as operators in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
-> [!IMPORTANT]  
-> There may be instances where field values contain the same symbols that are used as operators. For example a field could contain *&* or and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
-
 The following sections describe how to use the different operators.
 
 > [!NOTE]
@@ -239,7 +236,18 @@ The following sections describe how to use the different operators.
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
+### Filtering on Values That Contain Symbols
+
+There may be instances where field values contain the same symbols that are used as operators. For example, fields could contain *&* or *()*. If you want to filter on values that contain the following symbols, the filter expression must be included in quotation marks (''). For example, if you want to filter on records that start with the text *J & V*, the filter expression would be is `'S&R*'`.
+
+- &
+- (
+- )
+- =
+- &#124;
+
 ### <a name="FilterTokens"> </a>Filter Tokens
+
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.
 
 > [!TIP]

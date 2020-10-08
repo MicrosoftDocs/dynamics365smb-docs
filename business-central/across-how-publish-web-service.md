@@ -34,13 +34,15 @@ The following steps explain how to create and publish a web service.
 2. On the **Web Services** page, choose **New**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > **Codeunit** and **Page** are valid types for SOAP web services. **Page** and **Query** are valid types for OData web services.  
+    > **Codeunit** and **Page** are valid types for SOAP web services. **Page** and **Query** are valid types for OData web services. Starting in version 16.3, **Codeunit** is also valid for OData v4 web services (but do note that no URL is shown in the user interface.) 
     > Also, if the database contains multiple companies, you can choose an object ID that is specific to one of the companies.  
     > Finally, the service name is visible to consumers of your web service and is the basis for identifying and distinguishing web services, so you should make the name meaningful.
 
 3. Select the check box in the **Published** column.  
 
-When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service. You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use.  
+When you publish the web service, in the **OData URL** and **SOAP URL** fields, you can see the URLs that are generated for the web service (for codeunits exposed as OData v4 unbound actions, the URL fields are not shown in the user interface. 
+
+You can test the web service immediately by choosing the links in the **OData URL** and **SOAP URL** fields. Optionally, you can copy the value of the field and save it for later use. To test codeunits exposed as OData v4 unbound actions, see instructions here [Verifying web service availability](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability).
 
 > [!NOTE]
 > If the objects that you expose as web services must not be accessible from [!INCLUDE[prodshort](includes/prodshort.md)] online, you must mark the methods exposed in the code as `[Scope('OnPrem')]`. For more information, see [Scope Attribute](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).

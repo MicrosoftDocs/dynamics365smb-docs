@@ -139,12 +139,12 @@ Columns that already have filters are indicated by the ![Filter icon](media/ui-s
 > [!TIP]
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filter Criteria and Symbols
+### <a name="FilterCriteria"> </a>Filter Criteria and Operators
 
-When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols (or operators) to further filter the results. The following tables show the symbols that can be used in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
+When you enter criteria, you can use all the numbers and letters that you can normally use in the field. In addition, you can use special symbols as operators to further filter the results. The following tables show the symbols that can be used as operators in filters. For dates and times, you can also refer to [Working with Calendar Dates and Times](ui-enter-date-ranges.md) for more detailed information.
 
 > [!IMPORTANT]  
-> There may be instances where field values contain these symbols and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
+> There may be instances where field values contain the same symbols that are used as operators. For example a field could contain *&* or and you want to filter on them. To do this, you must include the filter expression that contains the symbol in quotation marks (''). For example, if you want to filter on records that start with the text *S&R*, the filter expression is `'S&R*'`.
 
 The following sections describe how to use the different operators.
 

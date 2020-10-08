@@ -1,7 +1,7 @@
 ---
 title: Sorting, Searching, and Filtering Lists | Microsoft Docs
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using powerful filter symbols and keyboard shortcuts.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2020
-ms.author: edupont
+ms.author: jswymer
 
 ---
 # Sorting, Searching, and Filtering
@@ -236,15 +236,17 @@ The following sections describe how to use the different operators.
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-### Filtering on Values That Contain Symbols
+### Filtering on Values That Contain Special Characters
 
-There may be instances where field values contain the same symbols that are used as operators. For example, fields could contain *&* or *()*. If you want to filter on values that contain the following symbols, the filter expression must be included in quotation marks (''). For example, if you want to filter on records that start with the text *J & V*, the filter expression would be is `'S&R*'`.
+There may be cases where field values contain the one of the following symbols:
 
 - &
 - (
 - )
 - =
 - &#124;
+
+If you want to filter on values that contain these symbols, the filter expression must be included in quotation marks (''). For example, if you want to filter on records that start with the text *J & V*, the filter expression would be is `'J & V*'`.
 
 ### <a name="FilterTokens"> </a>Filter Tokens
 

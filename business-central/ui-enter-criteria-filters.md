@@ -251,6 +251,8 @@ There may be cases where field values contain the one of the following symbols:
 
 If you want to filter on any of these symbols, place the filter expression in quotation marks (''). For example, if you wanted to filter on records that start with the text *J & V*, the filter expression would be `'J & V*'`.
 
+This requirement is not necessary for other symbols.
+
 ### <a name="FilterTokens"> </a>Filter Tokens
 
 When entering filter criteria, you can also type words that have special meaning, called filter tokens. After entering the token word, the word is replaced by the value or values that it represents. This makes filtering easier by reducing the need to navigate to other pages to look up values you want to add to your filter. The tables below describe some of the tokens you can type as filter criteria.

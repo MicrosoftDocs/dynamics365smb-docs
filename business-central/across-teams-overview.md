@@ -37,6 +37,6 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 ## See Also
 
+[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 [Getting Started](product-get-started.md)  
-
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -53,6 +53,7 @@ You're now ready to use the app in Teams to share Business Central data. For mor
 ## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
+[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

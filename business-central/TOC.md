@@ -238,6 +238,11 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
+### Microsoft Teams Integration
+#### [Overview](across-teams-overview.md)
+#### [Managing Teams Integration](admin-teams-integration.md)
+#### [Installing Business Central App for Teams](across-install-app-for-teams.md)
+#### [Working with Business Central Data in Teams](across-working-with-teams.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -1561,7 +1566,6 @@
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions
 #### [Extensions Overview](ui-extensions.md)
-#### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Company Hub](ui-extensions-company-hub.md)

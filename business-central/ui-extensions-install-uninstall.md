@@ -44,29 +44,29 @@ Some extensions are provided by Microsoft, and other extensions are provided by 
 
 Microsoft provides the following extensions:
 
-* [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)	
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)	
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)	
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)	
-* [Essential Business Insights](ui-extensions-essential-business-insights.md)	
-* [Image Analyzer](ui-extensions-image-analyzer.md)	
-* [Intelligent Cloud](ui-extensions-data-replication.md)	
-* [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)	
-* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)	
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)	
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)	
-* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)	
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)	
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)	
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)	
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)	
-* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)	
-* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)	
-* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)	
-* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)	
-* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)	
-* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)	
-* [Business Central Extensions by Other Providers](ui-extensions-other.md)
+* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Company Hub](ui-extensions-company-hub.md)  
+* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essential Business Insights](ui-extensions-essential-business-insights.md)
+* [Image Analyzer](ui-extensions-image-analyzer.md)
+* [Intelligent Cloud](ui-extensions-data-replication.md)
+* [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)  
+* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
+* [VAT Group](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
+* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
 ## Uninstalling an Extension
 
@@ -76,8 +76,8 @@ You uninstall an extension using the **Extension Management** page. If you unins
 > If you enable the **Delete Extension Data** checkbox, you will get a confirmation dialog and you must choose **OK**. With the **Delete Extension Data** checkbox enabled, you can now uninstall the extension, and you will be asked to reconfirm that you want to uninstall the extension and delete the data. The action cannot be undone.
 Some extensions are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
 
-
 ## See Also
+
 [Extending Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

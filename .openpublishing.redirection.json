@@ -591,6 +591,11 @@
             "source_path": "business-central/ui-extensions-getaddressio.md",
             "redirect_url": "/LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-extensions-accountant-portal.md",
+            "redirect_url": "finance-accounting",
+            "redirect_document_id": false
         }
 
     ]

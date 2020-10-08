@@ -1,6 +1,6 @@
 ---
-title: Business Central accountant experience | Microsoft Docs
-description: Learn about the accountant portal for Business Central and the Accountant Role Center that supports internal and external accountants in the client company.
+title: Accountant experiences in Business Central
+description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
 author: edupont04
 
 ms.service: dynamics365-business-central

@@ -46,7 +46,7 @@ In Italy, the EU sales list (Intrastat) and annual listing reports are updated t
 
 ## VAT Transaction Reports
 
-You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to Italian authorities. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries/regions that are blacklisted are reported through the **Blacklist Communication Report** report. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides support for the following transaction types:  
+You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to Italian authorities. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries/regions that are listed as blocked are reported through the **Blacklist Communication Report** report. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] provides support for the following transaction types:  
 
 |**Transaction Type**|**Supported**|
 |--------------------|-------------|  
@@ -71,7 +71,7 @@ The VAT transactions reports include lines where the amount is over the threshol
 Document lines contain a field to indicate if the line must be included in the VAT transaction reports. The **Include in VAT Transac. Rep.** fields are selected automatically based on the day of the transaction and a comparison with the threshold amount for the calendar year. If sales lines are related to a blanket order, the threshold is compared to the amount for the blanket order. This only applies to sales line of type **Item**. For service lines, the comparison is made with the service contract amount.  
 
 > [!NOTE]  
-> Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and is not blacklisted.  
+> Credit memos are included in the VAT transaction report if the customer or vendor is from a country/region that is outside the EU and is not listed as blocked.  
 
 When you post credit memos, you must update the **Refers to Period** field to specify the relevant period. The VAT transaction reports will include credit memos where the **Refers to Period** field is set to **Current Calendar Year** or **Previous Calendar Year**.  
 

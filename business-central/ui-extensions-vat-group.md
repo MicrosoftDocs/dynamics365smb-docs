@@ -77,19 +77,18 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 > * Client secret
 > * Sign in credentials for the dedicated user 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Group**, and then choose the related link.
-2. To define the company's VAT group role, choose **Member**, and then choose **Next**.
-3. Copy the value of the **Group Member ID** field, and then share it with the VAT group representative so they can add your company as an approved member of the group.
-4. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`. 
-5. Add the [!INCLUDE[d365fin](includes/d365fin_md.md)] company name of the VAT group representative, such as *CRONUS UK Ltd*.
-6. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
-7. In the **Client ID** field, enter the ID provided by the VAT group representative.
-8. In the **Client Secret provided by the VAT Group representative** field, enter the secret provided by the VAT group representative.
-9. In the **OAuth 2.0 Authority Endpoint** field, enter *https://login.microsoftonline.com/common/oauth2*.
-10. In the **OAuth 2.0 Resource URL** field, enter *https://api.businesscentral.dynamics.com/*.
-11. In the **OAuth 2.0 Redirect URL** field, enter *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
-12. When you have specified the various fields, choose **Next**, and then enter the user credentials that were provided by the VAT group representative.
-13. Choose the VAT report configuration that you use to report VAT to authorities in your country.
+1. To define the company's VAT group role, choose **Member**, and then choose **Next**.
+2. Copy the value of the **Group Member ID** field, and then share it with the VAT group representative so they can add your company as an approved member of the group.
+3. Add the **API URL** from the VAT group representative. Typically, the URL is formatted as follows: `https://api.businesscentral.dynamics.com/v2.0/[TENANT-ID]/[ENVIRONMENTNAME]`. For example, `https://api.businesscentral.dynamics.com/v2.0/907869c3-b252-4aca-b9cb-17a15d25477b/UKRepresentative`. 
+4. Add the [!INCLUDE[d365fin](includes/d365fin_md.md)] company name of the VAT group representative, such as *CRONUS UK Ltd*.
+5. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
+6. In the **Client ID** field, enter the ID provided by the VAT group representative.
+7. In the **Client Secret provided by the VAT Group representative** field, enter the secret provided by the VAT group representative.
+8. In the **OAuth 2.0 Authority Endpoint** field, enter *https://login.microsoftonline.com/common/oauth2*.
+9. In the **OAuth 2.0 Resource URL** field, enter *https://api.businesscentral.dynamics.com/*.
+10. In the **OAuth 2.0 Redirect URL** field, enter *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+11. When you have specified the various fields, choose **Next**, and then enter the user credentials that were provided by the VAT group representative.
+12. Choose the VAT report configuration that you use to report VAT to authorities in your country.
 
   For example, in the United Kingdom, the VAT report configuration would be set up to report VAT to HMRC. The VAT Group Management extension copies this setup, but replaces the submission codeunit with one that supports submission to the VAT group representative rather than the tax authorities. The codeunit is provided by Microsoft. When done, choose **Next**.
 

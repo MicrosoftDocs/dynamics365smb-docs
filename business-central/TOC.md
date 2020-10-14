@@ -381,7 +381,7 @@
 ##### [Set Up Workflows](across-set-up-workflows.md)
 ##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ##### [Set up Email](admin-how-setup-email.md)

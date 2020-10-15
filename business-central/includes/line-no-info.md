@@ -3,7 +3,7 @@ author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
 ---
 > [!TIP]

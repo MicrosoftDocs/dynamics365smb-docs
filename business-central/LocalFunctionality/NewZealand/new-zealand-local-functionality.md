@@ -6,7 +6,7 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: New Zealand, local functionality
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---

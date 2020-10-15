@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---

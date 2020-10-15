@@ -1,6 +1,6 @@
 ---
 title: Share contacts between Business Central and Outlook| Microsoft Docs
-description: This service has deep integration with Office 365 so you can share contacts between Outlook and Business Central.
+description: This service has deep integration with Microsoft 365 so you can share contacts between Outlook and Business Central.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contacts, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: contacts, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -19,7 +19,7 @@ You can see the same contacts in [!INCLUDE[d365fin](includes/d365fin_md.md)] as 
 A dedicated folder in Outlook makes contacts easy to find, and you can set a filter to synchronize only the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to see in Outlook. Once the contact synchronization is set up, you can start synchronization manually or set up an automatic synchronization that will keep the contacts in sync on a scheduled basis.  
 
 ## Set Up Synchronization
-You set up how you want to synchronize contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. As a prerequisite, your user profile in [!INCLUDE[d365fin](includes/d365fin_md.md)] must specify your Office 365 email account. You can check this in the **Office 365 Authentication** section of your user profile in the **Users** list.  
+You set up how you want to synchronize contacts with Outlook on the **Exchange Sync. Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. As a prerequisite, your user profile in [!INCLUDE[d365fin](includes/d365fin_md.md)] must specify your Microsoft 365 email account. You can check this in the **Microsoft 365 Authentication** section of your user profile in the **Users** list.  
 
 Then, on the **Exchange Sync. Setup** page, you can validate that the connection to Exchange is working and then set up contact synchronization. Open the **Contact Sync. Setup** page and start the synchronization. Optionally, set a filter for which contacts to synchronize between [!INCLUDE[d365fin](includes/d365fin_md.md)] and Outlook. For example, you can set a filter on name, type, company, or similar. You can also change the default name of the folder that the contacts will synchronize to in Outlook. The default name is *Business Central*.  
 
@@ -34,13 +34,13 @@ In the **Contacts** list, you can synchronize contacts in two ways:
 
 * **Sync with Office 365**
 
-  This action synchronizes all changes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Office 365 since the previous synchronization, based on the last modified date. Any new contacts from Office 365 will be synchronized back to [!INCLUDE[d365fin](includes/d365fin_md.md)] as well. This is typically faster than doing a full sync.  
+  This action synchronizes all changes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to Microsoft 365 since the previous synchronization, based on the last modified date. Any new contacts from Microsoft 365 will be synchronized back to [!INCLUDE[d365fin](includes/d365fin_md.md)] as well. This is typically faster than doing a full sync.  
 
 * **Full Sync with Office 365**
 
   This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.  
 
-In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person. [!INCLUDE[d365fin](includes/d365fin_md.md)] is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.  
+In both cases, contacts are only synchronized from Outlook if they have the required fields filled in. The required fields to synchronize to Microsoft 365 are **Name**, **Email address** and they must be of type Person. [!INCLUDE[d365fin](includes/d365fin_md.md)] is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.  
 
 In Outlook, the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] are shown in a folder under **Other contacts** in the **People**  view. If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.  
 

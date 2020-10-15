@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2020
+    ms.date: 10/01/2020
     ms.author: bholtorf
 
 ---
@@ -26,7 +26,7 @@ Extending the trial period yourself is a one time-thing though. You cannot exten
 
     Sign in with the email account that you used when you signed up for the trial.  
 
-    If you signed up with an email account from a [30-day trial of Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial), then you must first extend your Office 365 trial, or buy a Office 365 subscription. For more information, see [Extend your trial for Office 365 for business](/microsoft-365/commerce/extend-your-trial).
+    If you signed up with an email account from a [30-day trial of Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), then you must first extend your Microsoft 365 trial, or buy a Microsoft 365 subscription. For more information, see [Extend your trial for Microsoft 365 for business](/microsoft-365/commerce/extend-your-trial).
 2. In the notification at the top of the workspace, choose **Extend Trial**.
 
     If you dismissed the notification, you must sign out and then sign in again.

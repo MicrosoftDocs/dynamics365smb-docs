@@ -152,6 +152,6 @@ Due to a limitation at HMRC, it is not possible to send test submissions of VAT 
 ## See Also
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)  
+[The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

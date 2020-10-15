@@ -33,7 +33,8 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 9. On the **Service Connections** page, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
 
 ## See Also
+
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)  
+[The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

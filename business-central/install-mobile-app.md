@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2020
+ms.date: 10/15/2020
 ms.author: edupont
 ---
 
@@ -29,12 +29,13 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
-You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and can view and edit data.
+You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and can view and edit data.  
 
-<!--
-[![Windows Store](./media/install-mobile-app/windowsstore-v2.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
--->
+> [!TIP]
+> If you want to connect the app to a specific environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, choose the relevant production or sandbox environment.
+>
+[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
+
 ## Using Business Central on-premises?
 
 If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
@@ -45,14 +46,14 @@ If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
-3. Instead of entering an email address on the **Welcome** page, select the option to **Connect to a local or hosted service**.
-4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[d365fin](includes/d365fin_md.md)], for example *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
+3. Instead of entering an email address on the **Welcome** page, choose the **Advanced options** button, and then choose the **On-premises** sign-in option.
+4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[d365fin](includes/d365fin_md.md)], such as *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
 5. Next, enter your user name and password for accessing Business Central.
 
    When completed, the Business Central App will open.
 
 > [!NOTE]
-> If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/deployment/devenv-troubleshooting-the-mobile-app).
+> If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)

@@ -94,7 +94,7 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 
 ## Using the VAT Group Management Features
 
-VAT group members use the standard processes to prepare VAT returns. The only difference is to choose the **VATGROUP** report version, which submits the VAT return to the VAT group representative rather than the authorities. For more information, see [About the VAT Return Report](/business-central/finance-how-report-vat#about-the-vat-return-report).
+VAT group members use the standard processes to prepare VAT returns. The only difference is to choose the **VATGROUP** report version, which submits the VAT return to the VAT group representative rather than the authorities. For more information, see [About the VAT Return report](finance-how-report-vat.md#about-the-vat-return-report).
 
 The following sections describe the tasks that VAT group representatives must perform.
 

@@ -389,7 +389,6 @@
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
 ##### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Using Workflows
 ##### [Use Workflows](across-use-workflows.md)
 ##### [Enable Workflows](across-how-to-enable-workflows.md)

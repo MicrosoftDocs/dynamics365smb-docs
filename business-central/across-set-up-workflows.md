@@ -37,7 +37,6 @@ You can set up and use workflows that connect business-process tasks performed b
 |Use workflow templates to create new workflows.|[Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Share workflows with other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.|[Export and Import Workflows](across-how-to-export-and-import-workflows.md)|  
 |Learn how to set up a workflow for approving sales documents by following an end-to-end procedure.|[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Add support for a business scenario that requires new workflow events or responses by customizing the application code.|[Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## Example of an Approval Workflow
 This video shows how to set up an workflow that will require someone to request someone else's approval before they can change information about an existing customer, or create a new customer.  

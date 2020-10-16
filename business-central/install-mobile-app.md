@@ -29,14 +29,12 @@ Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile de
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.
 
-    If your [!INCLUDE [prodshort](includes/prodshort.md)] has more than one environment, then you will be asked to choose the environment that you want to access.
-
-    Requires Business Central 2020 release wave 2 and later.
+    If your [!INCLUDE [prodshort](includes/prodshort.md)] has more than one production environment, then you will be asked to choose the environment that you want to access (requires Business Central 2020 release wave 2 and later).
 
 You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and can view and edit data.  
 
 > [!TIP]
-> If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, choose the relevant environment.
+> If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
 >
 > Requires Business Central 2020 release wave 2 and later.
 
@@ -58,7 +56,6 @@ If you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, you can
 
 > [!NOTE]
 > If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
-
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

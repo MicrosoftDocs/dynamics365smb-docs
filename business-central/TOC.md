@@ -270,10 +270,12 @@
 <!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
-### [Generally Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
+### [Copy and Paste FAQ](ui-copy-paste.md)
+### [Mobile Apps FAQ](ui-mobile-faq.md)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support

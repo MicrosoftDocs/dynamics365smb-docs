@@ -35,8 +35,6 @@ You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and ca
 
 > [!TIP]
 > If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
->
-> Requires Business Central 2020 release wave 2 and later.
 
 ## Using Business Central on-premises?
 

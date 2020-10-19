@@ -36,7 +36,7 @@ Prior to defining a company's experience setting, you define users' access to sp
 The **Experience** setting applies to all users in a company, but each user can personalize their own experience further by changing page layouts and content. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## Enabling Premium Features after Upgrading a Plan
-Users are assigned to plans in Microsoft 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add users individually or in bulk to Microsoft 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Users are assigned to plans in Microsoft 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add users and assign licenses at the same time](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### To update plan changes in users groups
 When you have made a change to users plans in Microsoft 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -45,7 +45,7 @@ When you have made a change to users plans in Microsoft 365 Admin Center, such a
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 3. On the **Users** page, choose the **Refresh all User Groups** action.
 
-All new information about the users’ plans and their assigned user groups are now updated according to the plan changes.
+All new information about the users' plans and their assigned user groups are now updated according to the plan changes.
 
 ### To select the Premium experience
 You can now proceed to select the new experience.

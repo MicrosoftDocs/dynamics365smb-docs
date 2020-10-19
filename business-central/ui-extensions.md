@@ -69,7 +69,7 @@ Microsoft provides the following extensions:
 * [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 * [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
-* [UK - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  

@@ -1,6 +1,6 @@
 ---
-title: 'Set Up the GetAddress.io UK Postcodes Extension | Microsoft Docs'
-description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
+title: Set Up the GetAddress.io UK Postcodes Extension
+description: Learn how to configure the GetAddress.io extension in the British version of Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,6 +13,7 @@ ms.author: bholtorf
 
 ---
 # Set Up the GetAddress.io UK Postcodes Extension
+
 This extension makes it easy to enter addresses in the United Kingdom (UK) for entities like customers, contacts, employees, vendors, bank accounts, and so on.
 
 The GetAddress.io UK Postcodes extension uses the getAddress API to find addresses in postcodes in the UK. To use the extension, you need to get a plan and an API Key for the getAddress API. We help you do that when you set up the GetAddress.io UK Postcodes extension. Plans are based on use, or what are sometimes referred to as "calls." A call, in this case, is when [!INCLUDE[d365fin](../../includes/d365fin_md.md)] displays a list of addresses in a postcode. Depending on how often you add addresses, choose the plan that is best for you. If you just choose **Get API Key** you will use the **Free** plan, which lets you add 20 addresses per day, and is valid for 30 days.
@@ -33,7 +34,8 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 9. On the **Service Connections** page, verify that the **Address Provider** field shows **GetAddress.io**. If it does, the service is enabled.
 
 ## See Also
+
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
-[The GetAddress.io UK Postcodes Extension](../../ui-extensions-getaddressio.md)  
+[The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  

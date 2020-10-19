@@ -383,7 +383,7 @@
 ##### [Set Up Workflows](across-set-up-workflows.md)
 ##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ##### [Set up Email](admin-how-setup-email.md)
@@ -391,7 +391,6 @@
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
 ##### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Using Workflows
 ##### [Use Workflows](across-use-workflows.md)
 ##### [Enable Workflows](across-how-to-enable-workflows.md)
@@ -1116,7 +1115,7 @@
 ###### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [GST Settelement](LocalFunctionality/India/GST-Settelement.md)
+###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)

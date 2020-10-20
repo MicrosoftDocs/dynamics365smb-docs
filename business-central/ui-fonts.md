@@ -1,8 +1,6 @@
 ---
-title: Available Fonts | Microsoft Docs
+title: Available Fonts
 description: The online version of Business Central contains pre-installed fonts on the servers that can be used when generating reports.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
 
 ---
@@ -21,8 +19,10 @@ The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-i
 > [!NOTE]
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
 
-## Document Fonts  
+## Document Fonts
+
 The following fonts are installed and available to use in Word and RDLC document reports:
+
 * Arial
 * Consolas
 * Courier New

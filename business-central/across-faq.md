@@ -71,9 +71,9 @@ If you want to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, t
 ## Do I have to buy Microsoft 365?
 No. But if you want to experience [!INCLUDE[d365fin](includes/d365fin_md.md)] as fully integrated with Microsoft 365, you can sign up for a 1-month free trial of Microsoft 365 [here](https://products.office.com/try).  
 
-If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have an Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. For more information, see [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
+If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. For more information, see [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
 
-If you do not have an Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
+If you do not have a Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the Azure portal where you have access to advanced administration tools.  
 
 ## What is the integration with Microsoft 365 about?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and [!INCLUDE[d365fin](includes/d365fin_md.md)] using the app launcher. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[d365fin](includes/d365fin_md.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as your Business Inbox in Outlook](admin-outlook.md).  

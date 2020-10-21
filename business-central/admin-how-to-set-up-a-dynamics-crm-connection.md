@@ -31,7 +31,7 @@ There are a few pieces of information to have ready before you create the connec
 
 ## Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
+For all authentication types other tha Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
 
 > [!IMPORTANT]
 > During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

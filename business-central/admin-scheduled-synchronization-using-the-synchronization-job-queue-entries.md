@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---
@@ -18,7 +18,7 @@ ms.author: bholtorf
 
 You can synchronize [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[d365fin](includes/d365fin_md.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. 
 
-There are several synchronization jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between entities. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+There are several synchronization jobs that are available out-of-the-box. The jobs are run in the following order to avoid coupling dependencies between entities. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
 1. CURRENCY - Common Data Service synchronization job.
 2. VENDOR - Common Data Service synchronization job.

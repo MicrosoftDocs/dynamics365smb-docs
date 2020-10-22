@@ -1,6 +1,6 @@
 ---
 title: Using Business Central with Outlook| Microsoft Docs
-description: This service has deep integration with Office 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
+description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -18,7 +18,7 @@ ms.author: edupont
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduces the ability to manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook add-ins, you can see financial data related to customers and vendors, as well as create and send financial documents, such as quotes and invoices.  
 
 ## Getting the Add-in
-It is easy to get started with the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in for Outlook. In the **Set up your Business Inbox in Outlook** assisted setup guide, you can set up the connection for yourself or for your organization if your organization uses Office 365. Simply specify your Office 365 user name and password, if you are prompted, and tell us if you want to receive a sample email message. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook. For more information, see [Minimum Requirements for Outlook](product-requirements.md#outlook).  
+It is easy to get started with the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in for Outlook. In the **Set up your Business Inbox in Outlook** assisted setup guide, you can set up the connection for yourself or for your organization if your organization uses Microsoft 365. Simply specify your Microsoft 365 user name and password, if you are prompted, and tell us if you want to receive a sample email message. The [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins are then automatically added to your Outlook. For more information, see [Minimum Requirements for Outlook](product-requirements.md#outlook).  
 
 Then, when you open Outlook, you will see an email message from *Dynamics 365 Business Central Admin*. The new add-ins are added to the Outlook ribbon, and in the browser, you can see the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins immediately above or below the body of the email message. The add-ins are updated periodically, and you'll get notified that a new version is ready for you in Outlook.  
 
@@ -31,7 +31,7 @@ If you work with more that one [!INCLUDE[prodshort](includes/prodshort.md)] comp
 > [!NOTE]
 > Switching between companies requires [!INCLUDE[prodshort](includes/prodshort.md)] 2019 release wave 2 or later as announced in the [release plan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Some companies using Office 365 restrict users' permissions to deploy add-ins. So you must make sure that you have an Office 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Office 365 for free](https://products.office.com/try).  
+Some companies using Microsoft 365 restrict users' permissions to deploy add-ins. So you must make sure that you have a Microsoft 365 subscription that includes email and allows you to deploy add-ins. If you want to try out the add-in anyway, you can [try Microsoft 365 for free](https://www.microsoft.com/microsoft-365/try).  
 
 ## Using the Contact Insights Add-in
 Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you can open the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you can see overview information for the customer, as well as drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[d365fin](includes/d365fin_md.md)] without leaving Outlook.  
@@ -56,15 +56,15 @@ In the Document Links add-in, you can modify and take actions with the document,
 ## Adding the Add-ins Manually
 In some cases, the add-ins do not get added automatically to Outlook. Even if you or a colleague ran the assisted setup guide on behalf of the company, [!INCLUDE[d365fin](includes/d365fin_md.md)] might not show up in Outlook. If you experience this issue, you can add the [!INCLUDE[d365fin](includes/d365fin_md.md)] add-ins manually.  
 
-First, you must verify that you have access to the add-ins in your Office 365 account. Quite simply open your Outlook in a browser, open a message, select **More actions** (...) at the top of the message, and then, at the bottom of the list, choose **Get Add-ins**. This opens the **Add-ins for Outlook** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
+First, you must verify that you have access to the add-ins in your Microsoft 365 account. Quite simply open your Outlook in a browser, open a message, select **More actions** (...) at the top of the message, and then, at the bottom of the list, choose **Get Add-ins**. This opens the **Add-ins for Outlook** page, where you can enable [!INCLUDE[prodshort](includes/prodshort.md)] for your Outlook. Then, when you navigate back to Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] should be available.  
 
 Similarly in the Outlook desktop client, you can verify that [!INCLUDE[d365fin](includes/d365fin_md.md)] is listed on the **Get Add-ins** page.  
 
-In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Office 365 administrator.
+In both cases, if [!INCLUDE[d365fin](includes/d365fin_md.md)] is still not available, you have to get the add-in manifest files. For more information, please contact your Microsoft 365 administrator.
 
 ## Using Other Email Accounts
 
-The add-ins are designed to be used with Office 365. If you use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) and [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, your administrator will know if you can use the [!INCLUDE[prodshort](includes/prodshort.md)] add-ins in Outlook. For more information, see [What email address can I use with [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email), and the [Features that require specific circumstances](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) article and the [Why doesn't the Outlook add-in work for my users?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) section in the general FAQ in the administration content.  
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

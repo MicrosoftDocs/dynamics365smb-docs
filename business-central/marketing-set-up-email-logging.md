@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
 
 ---
@@ -27,7 +27,7 @@ Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Onl
 
 Get started with email logging in two easy steps:
 
-1. Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Exchange Online for your Office 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Office 365. To start the guide, go to **Assisted Setup**, and then choose **Set up email logging**.  
+1. Connect [!INCLUDE[d365fin](includes/d365fin_md.md)] with Exchange Online for your Microsoft 365 subscription. Exchange Online handles your email messages. We've made this step easy by providing an assisted setup guide. You just need your administrator credentials for your administrator account in Microsoft 365. To start the guide, go to **Assisted Setup**, and then choose **Set up email logging**.  
 
 2. Make sure that valid email addresses have been entered in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your sales people and contacts, depending on whether they are potential or existing customers. To do that, for each customer or salesperson, open the **Contact** or **Salesperson/Purchaser** card and have a look in the **Email** field.
 
@@ -35,11 +35,46 @@ Get started with email logging in two easy steps:
 > After you complete the steps in the guide you can check whether the connection was successful. Search for **Marketing Setup**, choose **Process**, then **Functions**, and then **Validate Email Logging Setup**.
 
 ## Viewing Email Message Exchanges in the Interaction Log
-
 [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry on the **Interaction Log** page each time a salesperson and a contact exchange an email message. To view the interaction log, open the **Contact** or **Salesperson Purchaser** card for the person, and then choose **History**, and then choose **Interaction Log Entries**. There are a few things we can do with each entry in the log, for example:
 
 - View the content of the email message that was exchanged by clicking the **Show Attachments** action.
 - Turn an email exchange into a sales opportunity - If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To do that, choose the entry, and then choose the **Create Opportunity** action. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities.md).
+
+## Connecting On-Premises Versions
+To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange Online for email logging, you must specify some information on the **Marketing Setup** page, or run the assisted setup guide for email logging.
+
+To connect using an Azure Active Directory account, you must register an application in Azure Active Directory, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. 
+
+You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
+
+### To register an application in Azure AD for connecting from Business Central to Exchange Online
+The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service).
+
+1. In the Azure Portal, under **Manage**, choose **Authentication**.
+2. Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If the redirect URL on the Marketing Setup page is empty, find the suggested redirect URL on the **Email Logging Assisted Setup** page.
+3. Under **Manage**, choose **API permissions**.
+4. Select **Add a permission**. On the **Request API Permissions** page, choose **Exchange** under **Supported legacy APIs**.
+5. To use delegated permissions, choose **Delegated permissions**, and then choose **EWS.AccessAsUser.All** under **EWS**. Choose **Add permissions**.
+6. To use application permissions, choose **Application permissions**, and then choose **full_access_as_app**. Choose **Add permissions**.
+7. Choose **Grant admin consent for org**, and then give consent.
+8. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Marketing Setup** page, or store it in secure storage and provide it in an event subscriber.
+9. Choose **Overview**, and then find the **Application (client) ID** value. This is the client ID of your application. You must enter it either on the **Marketing Setup page**, in the **Client ID** field, or store it in secure storage and provide it in an event subscriber.
+10. In [!INCLUDE[d365fin](includes/d365fin_md.md)], set up email logging on the **Marketing Setup** page, or use the **Email Logging Assisted Setup** guide for assistance with the process.
+    * Provide the email account of the user on behalf of whom the scheduled job will connect to Exchange Online and process emails. The user must have a valid license for Exchange Online.
+    * Provide the URL for your Exchange Online. Typically, this is the domain that you specified in the user's email address.
+    * Provide the **Queue Folder Path** and **Storage Folder Path**.
+11. To start logging email, turn on the **Enabled** toggle.
+12. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Exchange and be an administrator in your Exchange Online). After you sign in you will be prompted to allow your registered application to sign in to Exchange Online on behalf of the organization. You must give consent to complete the setup.
+
+   > [!NOTE]
+   > If you are not prompted to sign in with your administrator account, it might be because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
+
+### Using Another Identity and Access Management Service
+If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
+
+### To stop logging email
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Marketing Setup**, and then choose the related link.
+2. Turn off the **Enabled** toggle.
 
 ## See Also
 [Managing Relationships](marketing-relationship-management.md)

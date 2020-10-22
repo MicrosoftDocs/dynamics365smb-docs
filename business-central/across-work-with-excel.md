@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 09/08/2020
+ms.date: 10/01/2020
 ms.author: jswymer
 
 ---

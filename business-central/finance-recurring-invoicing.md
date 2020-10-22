@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: andreipa
 
 ---
@@ -100,7 +100,7 @@ With this option, you can choose between fixed and "best" prices.
 
 However, this is only available in Norway. Validity period can be defined on the recurring group level.
 
-For more information, see [Recurring Orders (Norway)](/localfunctionality/norway/recurring-orders.md).
+For more information, see [Recurring Orders](LocalFunctionality/Norway/recurring-orders.md).
 
 ### Recurring revenue and subscription billing by other providers
 

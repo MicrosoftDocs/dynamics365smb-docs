@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -70,8 +70,6 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 
 ## Other Dynamics 365 apps
 Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](/dynamics365/) link in the black banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/business-central/overview/).  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## See Related Training at [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

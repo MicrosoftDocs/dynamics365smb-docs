@@ -1,5 +1,5 @@
 ---
-title: Count Inventory With Document-Based Functionality| Microsoft Docs
+title: Count Inventory With Document-Based Functionality
 description: Describes how to perform physical inventory counting using the Physical Order Inventory and Physical Inventory Recording pages.
 author: SorenGP
 
@@ -9,18 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
 
 ---
 # Count Inventory Using Documents
+
 You can take a physical inventory of your items by using physical inventory order and physical inventory recording documents. The **Physical Inventory Order** page is used to organize the complete inventory counting project, for example one per location. The **Physical Inventory Recording** page is used by to communicate and capture the actual counting of items. You can create multiple recordings for one order, for example to distribute groups of items to different employees.
 
-The **Physical Inventory Recording** report can be printed from each recording and contains empty quantity fields for entering the counted inventory. When a user is done counting, and the quantities are entered on the **Physical Inventory Recoding** page, you choose the **Finish** action. This transfers the quantities to the related lines on the **Physical Inventory Order** page. Functionality ensures that no item count can be recorded twice.      
+The **Physical Inventory Recording** report can be printed from each recording and contains empty quantity fields for entering the counted inventory. When a user is done counting, and the quantities are entered on the **Physical Inventory Recording** page, you choose the **Finish** action. This transfers the quantities to the related lines on the **Physical Inventory Order** page. Functionality ensures that no item count can be recorded twice.  
 
 > [!NOTE]
-> This procedure describes how to perform a physical inventory using documents, a method that provides more control and supports distributing the counting to multiple employees. You can also perform the task by using journals, the **Phys. Inventory Journals** and **Whse. Phys. Inventory Journals** pages. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Note that if you use the Bins or Zones functionality, then you cannot use physical inventory orders. In stead, use **Whse. Phys. Inventory Journal** page to count your warehouse entries before synchronizing them with item ledger entries.
+> This article describes how to perform a physical inventory using documents, a method that provides more control and supports distributing the counting to multiple employees. You can also perform the task by using journals, such as the **Phys. Inventory Journals** and **Whse. Phys. Inventory Journals** pages. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).<br /><br />
+> Note that if you use the Zones functionality, then you cannot use physical inventory orders. Instead, use **Whse. Phys. Inventory Journal** page to count your warehouse entries before synchronizing them with item ledger entries.
 
 Counting inventory by using documents consist of the following overall steps:
 
@@ -42,11 +43,11 @@ To create the physical inventory order lines, you typically use the **Calculate 
 6. Set filters, for example, to only include a subset of items to be counted with the first recording.
 
     > [!TIP]
-    > To plan for multiple employees to count the inventory, it is advisable to set different filters each time you use the **Calculate Lines** action to only fill the order with the subset of inventory items that one user will be recording. Then as you generate multiple physical inventory recordings for multiple employees, you minimize the risk of counting items twice. For more information, see the "To create a physical inventory recording" section.
+    > To plan for multiple employees to count the inventory, it is advisable to set different filters each time you use the **Calculate Lines** action to only fill the order with the subset of inventory items that one user will be recording. Then as you generate multiple physical inventory recordings for multiple employees, you minimize the risk of counting items twice. For more information, see the [To create a physical inventory recording](#to-create-a-physical-inventory-recording) section.
 
-7.  Choose the **OK** button.
+7. Choose the **OK** button.
 
-A line for each item that exists on the chosen location and per the set filters and options is inserted on the order. For items that are set up for item tracking, the **Use Item Tracking** check box is selected, and information about the expected quantity of serial and lot numbers is available by choosing the **Lines** action and then **Item Tracking Lines**. For more information, see the "Handling Item Tracking when Counting Inventory" section.
+A line for each item that exists on the chosen location and per the set filters and options is inserted on the order. For items that are set up for item tracking, the **Use Item Tracking** check box is selected, and information about the expected quantity of serial and lot numbers is available by choosing the **Lines** action and then **Item Tracking Lines**. For more information, see the [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory) section.
 
 You can now proceed to create one or more recordings, which are instructions to the employees who perform the actual counting.  
 
@@ -68,22 +69,23 @@ In case of manual counting, you can print a list, the **Phys. Invt. Recording** 
 5. Choose the **Recordings** action to open the **Phys. Inventory Recording List** page.
 6. Open the relevant recording.
 7. On the **General** FastTab, fill in the fields as necessary.
-8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. For more information, see the "Handling Item Tracking when Counting Inventory" section.    
+8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. For more information, see the [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory) section.  
 9. Choose the **Print** action to prepare the physical document that employees will use to write down the counted quantities.
 
-## To finish a physical Inventory recording
+## To finish a physical inventory recording
+
 When employees have counted the inventory quantities, you must prepare to record them in the system.
 
 1. From the **Phys. Inventory Recording List** page, select the physical inventory recording that you want to finish, and then choose the **Edit** action.
 2. On the **Lines** FastTab, fill the actual counted quantity in the **Quantity** field for each line.
-3. For items with serial or lot numbers (the **Use Item Tracking** check box is selected), enter the counted quantities on the dedicated lines for the item's serial and lot numbers respectively question. For more information, see the "Handling Item Tracking when Counting Inventory" section.
+3. For items with serial or lot numbers (the **Use Item Tracking** check box is selected), enter the counted quantities on the dedicated lines for the item's serial and lot numbers respectively question. For more information, see the [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory) section.
 4. Select the **Recorded** check box on each line.
 5. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
 > [!NOTE]
 > When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
 > If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
-> If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the "To find duplicate physical inventory order lines" section.
+> If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the [To find duplicate physical inventory order lines](#to-find-duplicate-physical-inventory-order-lines) section.
 
 ## To complete a physical inventory order
 When you have finished a physical inventory recording, the **Qty. Recorder (Base)** field on the related physical inventory order is updated with the counted (recorded) values, and the **On Recording** check box is selected. If a counted value is different from the expected, then that difference is shown in the **Pos Qty. (Base)** and **Neg Qty. (Base)** field respectively.
@@ -180,6 +182,7 @@ A lot-tracked item is stored in inventory with the "LOT" number series.
 On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field will contain *8*. For the order line in question, the **Phys. Invt. Item Track. List** page will contain the positive or negative quantities for the individual lot numbers.
 
 ## See Also
+
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)  

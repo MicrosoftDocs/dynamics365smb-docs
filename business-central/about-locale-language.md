@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ For example, if you are using the Canadian version of [!INCLUDE[d365fin](include
 To change the language of the user interface, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> The choice of languages will be reset to your setting on your Office 365 profile if your administrator synchronizes users from Office 365 to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> The choice of languages will be reset to your setting on your Microsoft 365 profile if your administrator synchronizes users from Microsoft 365 to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Changing the texts that are stored as application data is not part of the multilanguage capability. This is an application design issue. Examples of such texts are the names of items in the inventory or the comments for a customer. In other words, these types of text are not translated.  
 
@@ -32,7 +32,7 @@ Changing the texts that are stored as application data is not part of the multil
 ## Changing the region
 Region is different from both language and legal requirements in local markets. Region determines how your data presents itself in terms of comma separator, aligned to the left or to the right, and certain other settings. The region also determines some of the system elements in the browser, such as the action to create a new item in a list, for example.  
 
-You can change the region in the browser tab that you are using to work in [!INCLUDE[d365fin](includes/d365fin_md.md)]. the change applies only to you and not to the other users in your company.  Note, that the choice of region will be reset to your setting on your Office profile if your administrator synchronizes users from Office 365 into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You can change the region in the browser tab that you are using to work in [!INCLUDE[d365fin](includes/d365fin_md.md)]. the change applies only to you and not to the other users in your company.  Note, that the choice of region will be reset to your setting on your Microsoft 365 profile if your administrator synchronizes users from Microsoft 365 into [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  When you change the region, you will see a long list of languages and regions. However, the langauge is not influenced by the choice of region.  

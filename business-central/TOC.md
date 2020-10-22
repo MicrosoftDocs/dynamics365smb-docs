@@ -238,6 +238,11 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
+### Microsoft Teams Integration
+#### [Overview](across-teams-overview.md)
+#### [Managing Teams Integration](admin-teams-integration.md)
+#### [Installing Business Central App for Teams](across-install-app-for-teams.md)
+#### [Working with Business Central Data in Teams](across-working-with-teams.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -257,7 +262,7 @@
 ### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 ### [Getting Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-### [Using the same Office 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
+### [Using the same Microsoft 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
 ### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
@@ -265,10 +270,12 @@
 <!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
-### [Generally Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
+### [Copy and Paste FAQ](ui-copy-paste.md)
+### [Mobile Apps FAQ](ui-mobile-faq.md)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support
@@ -376,7 +383,7 @@
 ##### [Set Up Workflows](across-set-up-workflows.md)
 ##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)
+##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ##### [Set up Email](admin-how-setup-email.md)
@@ -384,7 +391,6 @@
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
 ##### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-##### [Walkthrough: Implementing New Workflow Events and Responses](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Using Workflows
 ##### [Use Workflows](across-use-workflows.md)
 ##### [Enable Workflows](across-how-to-enable-workflows.md)
@@ -778,8 +784,8 @@
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 <!--Company Hub-->
-## Manage work across companies with the company hub
-### [Overview](company-hub.md)
+## Company Hub
+### [Manage Work across Companies with the Company Hub](company-hub.md)
 ### [Add Companies to Your Company Hub](company-hub-add-company.md)
 ### [Troubleshooting Your Company Hub](company-hub-troubleshooting.md)
 <!--LF-->
@@ -1109,7 +1115,7 @@
 ###### [GST Reconciliation](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
-###### [GST Settelement](LocalFunctionality/India/GST-Settelement.md)
+###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1561,7 +1567,7 @@
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
 ### Customize Using Extensions
 #### [Extensions Overview](ui-extensions.md)
-#### [Accountant Portal for Business Central](ui-extensions-accountant-portal.md)
+#### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Company Hub](ui-extensions-company-hub.md)
 #### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
@@ -1577,7 +1583,7 @@
 #### [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 #### [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-#### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
+#### [VAT Group Management](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
 #### [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)

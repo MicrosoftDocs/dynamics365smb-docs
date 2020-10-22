@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -35,9 +35,10 @@ When you have set up your inventory, you can manage various processes related to
 | Assign items to categories and give them attributes to help you and customers find items. |[Categorize Items](inventory-how-categorize-items.md) |
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 
-## See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
+
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    

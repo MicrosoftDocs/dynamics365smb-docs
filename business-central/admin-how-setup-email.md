@@ -14,27 +14,28 @@ ms.author: bholtorf
 
 ---
 # Set Up Email
-People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)]. That cuts out the middle-man, and lets people send documents without having to open an email app. People can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. 
+People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] make it easy to send documents, but that's a one-way street. You cannot also receive replies.  
+The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox.
 
-For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
+> [!NOTE]
+> To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
 
 ## Adding Email Accounts
 You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[d365fin](includes/d365fin_md.md)]. The standard extensions let you use accounts from Microsoft Exchange Online, but other extensions may be available that let you connect accounts from other providers, such as Gmail.
 
 After you add an email account, you can specify predefined business scenarios in which to use the account to send emails. For example, you can specify that all users send sales documents from one account, and purchase documents from another. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-The following table describes the extensions that are available by default.
+The following table describes the email extensions that are available by default.
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].|Allow communications from individual accounts.|
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange. 
+> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
 
 If you use SMTP, you can use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
 

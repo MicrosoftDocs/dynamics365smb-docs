@@ -28,8 +28,8 @@ This works well when the quantity on a production order is a factor of the lot s
 Lot size is also popular in manufacturing environments where output is measured as quantity you can make during fixed amount of time. Example, if Volume per 9 hour shift is 25000 cubic feet, you can set run time as 9 hours and lot size as 25000.
 The production order quantity becomes less important as on the production order the run time gets calculated as the Run time / Lot size to get the run time per piece.
  
->
-[!NOTE] >The value defined in Lot size doesn't have impact on time specified in **Setup Time** field of the routing line. The setup will happen only one time, even if there are several lots. For example, so that you don’t need to warm the oven for the second lot of muffins. For more information, see [Create Routings](production-how-to-create-routings.md).
+> [!NOTE]
+> The value defined in Lot size doesn't have impact on time specified in **Setup Time** field of the routing line. The setup will happen only one time, even if there are several lots. For example, so that you don’t need to warm the oven for the second lot of muffins. For more information, see [Create Routings](production-how-to-create-routings.md).
 
 Do not confuse the lot size defined for routings with the lot sizes for items or stockkeeping units. Those values are used for a different purpose, and do not affect production capacity. 
 
@@ -38,9 +38,10 @@ For items and stockkeeping units, lot sizes have the following effects on cost c
 
 * For standard cost calculation, if you enable **Cost Incl Setup** on the **Manufacturing Setup** page, the cost for the setup is added to the standard cost. If you specify a lot size, the setup cost for routing operation will be reduced according to one lot size. For example, if your lot size defined on item card is 10, and it takes 15 minutes to heat the oven, the cost of the fuel will be allocated to the 10 muffins as roughly 1.5 minutes. 
 
-> [!NOTE] Setup costs are handled differently from a standard cost and capacity allocation perspectives. If produced quantity doesn't match lot size defined in the item card that will lead to variation. For more information, see [Managing Inventory Costs](finance-manage-inventory-costs.md). <!--not sure that I got this part right seems to repeat the first example.-->
+> [!NOTE]
+> Setup costs are handled differently from a standard cost and capacity allocation perspectives. If produced quantity doesn't match lot size defined in the item card that will lead to variation. For more information, see [Managing Inventory Costs](finance-manage-inventory-costs.md). <!--not sure that I got this part right seems to repeat the first example.-->
 
-* For supply planning, the lot size setting on items works with the **Default Dampener %** on the **Manufacturing Setup** page. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore changes in demand that are below the dampener percentage and will not create planning suggestions. For example, 15 is specified in the Default Dampener % field, and we have a production order for 20 muffins to feed 20 guests, but one guest cannot attend. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore the single missing guest because it's only 10% of the lot size 10 defined on the item. However, if two guests cannot make it, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that we reduce the order quantity because two is 20% of the lot size. For more information about planning, see [Planning](production-planning.md).dr
+For supply planning, the lot size setting on items works with the **Default Dampener %** on the **Manufacturing Setup** page. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore changes in demand that are below the dampener percentage and will not create planning suggestions. For example, 15 is specified in the Default Dampener % field, and we have a production order for 20 muffins to feed 20 guests, but one guest cannot attend. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore the single missing guest because it's only 10% of the lot size 10 defined on the item. However, if two guests cannot make it, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that we reduce the order quantity because two is 20% of the lot size. For more information about planning, see [Planning](production-planning.md).
 
 ## See Also
 [Create Production BOMs](production-how-to-create-production-boms.md)  

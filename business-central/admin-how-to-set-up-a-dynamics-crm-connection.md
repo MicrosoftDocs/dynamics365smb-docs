@@ -31,10 +31,10 @@ There are a few pieces of information to have ready before you create the connec
 
 ## Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
+For all authentication types other tha Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
 
 > [!IMPORTANT]
-> During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
+> During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to a registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
 >
 > * **Access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] as you** permission is needed so [!INCLUDE[d365fin](includes/d365fin_md.md)] can, on behalf of administrator, automatically create non-licensed non-interactive [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user, assign security roles to this user and to deploy [!INCLUDE[d365fin](includes/d365fin_md.md)] Base CDS Integration Solution to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. This permission is used only once during set up of connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 > * **Have full access to Dynamics 365 [!INCLUDE[d365fin](includes/d365fin_md.md)]** permission is needed so automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user can access [!INCLUDE[d365fin](includes/d365fin_md.md)] data that will be synchronized.  
@@ -43,6 +43,16 @@ For all authentication types other than Microsoft 365 authentication, you set up
 > By giving consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
 
 ### To use the Set up Common Data Service connection assisted setup guide
+The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can make it easier to connect the applications, and can even help you run an initial synchronization. If you choose to run initial synchronization, [!INCLUDE[d365fin](includes/d365fin_md.md)] will review the data in both applications and provide recommendations for how to approach initial synchronization. The following table describes the recommendations.
+
+|Recommendation  |Description  |
+|---------|---------|
+|**Full synchronization**|Data exists only in [!INCLUDE[d365fin](includes/d365fin_md.md)], or only in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The recommendation is to synchronize all data from the service that has it to the other service.|
+|**No synchronization**|Data exists in both applications, and running full synchronization would duplicate the data. The recommendation is to couple records.|
+|**Dependency not satisfied**|Data exists in both applications, but the record or entity cannot be synchronized because it depends on a record or entity that has the No synchronization recommendation. For example, if customers cannot be synchronized, then data for contacts that depends on the customer data cannot be synchronized either.|
+
+> [!IMPORTANT]
+> Typically, you only use full synchronization when you're integrating the applications for the first time, and only one application contains data. Full synchronization can be useful in a demonstration environment because it automatically creates and couples records in each application, which makes it faster to start working with synchronized data. However, you should only run full synchronization if you want one record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for the table mappings. Otherwise, the result can be duplicate records.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 2. Choose **Set up Common Data Service connection** to start the assisted setup guide.

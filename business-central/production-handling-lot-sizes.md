@@ -15,10 +15,10 @@
 ---
 
 # Handling Lot Sizes in Production
-From a quantity perspective, the way you produce items might not correlate to how sell them. For example, you might produce hundreds of items at the same time, but ship each item individually. There are few nuances you should know when configure production.
+In terms of quantity, the number of items you produce in a production operation might not correlate to how sell them. For example, you might produce hundreds of items in a single lot, but sell each item individually. When you configure your production routes and bills of materials (BOMs), there are few nuances you should consider with regards to lot sizes. This topic describes how lot sizes impact cost calculations and resource planning.
 
 ## Units of Measure in Production Bill of Materials
-Even if you decide to use PCS or Liters as the base unit of measure (UoM) <!--is this on the item?-->, you can use different ones in production bills of materials (BOMs). For example, you can create a BOM and specify the unit of measure as pallet or ton. This comes in handy when your machines or raw components dictate the volume. For example, you rarely bake a single muffin because it is difficult to use a portion of an egg. Instead, you bake a batch of muffins to reduce waste. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).
+Although you specify the base unit of measure (UOM) for an item, your BOM might use a different UOM for the finished product. For example, the base UOM for an item might be PCS, but your BOM might call for pallet or ton. This comes in handy when your machines or raw components dictate the volume. For example, you probably wouldn't want to bake a single muffin because it is difficult to use a portion of an egg. Instead, you bake a batch of muffins to reduce waste. For more information, see [Create Production BOMs](production-how-to-create-production-boms.md).
 
 From a routing perspective, you can specify a lot size on routing lines so that the components of a BOM match the capacity of the machines that produce the items. The lot size allocates production capacity for production order. 
 
@@ -27,7 +27,8 @@ From a routing perspective, you can specify a lot size on routing lines so that 
 >
 >The time specified in **Setup Time** field of the routing line will happen only one time, even if there are several lots. For example, so that you don’t need to warm the oven for the second lot of muffins. For more information, see [Create Routings](production-how-to-create-routings.md).
 
-Do not confuse the lot size defined for routings with the lot sizes for items or stockkeeping units. Those values are used for a different purpose, and do not affect production capacity. 
+## Lot Sizes for Items and Stockkeeping Units
+Lot sizes defined for routings are not the same as lot sizes for items or stockkeeping units. Those values are used for a different purpose, and do not affect production capacity. 
 
 For items and stockkeeping units, lot sizes have the following effects on cost calculation and resource planning:
 

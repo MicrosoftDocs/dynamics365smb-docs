@@ -112,6 +112,27 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 6. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 7. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
+## Undo a bank account reconciliation
+If you discover a mistake in a posted bank reconciliation, you can use the **Undo** action on the **Bank Statement** page to correct the mistake. When you undo a posted bank reconciliation the entries will be moved to the **Bank Reconciliation** page and marked as **Open**, meaning they aren't reconciled. You can then enter the correct value and post the bank reconciliation again.
+
+> [!TIP]
+> The bank statement number used for the new bank reconciliation is taken from the bank account as is the Balance Last Statement.
+>
+>You can change these values before you start a new bank reconciliation. This means that if you want to redo the bank reconciliation with the same number, you must first change the **Last Statement No.** on the bank account to be the statement no. – 1 (minus 1). 
+
+### Examples
+The following are a few examples of how to fix a mistake on a posted bank reconciliation with or without using the same statement number.
+
+#### Example 1
+You did bank reconciliations for January, February, and March using statement number 100, and discover that March only included entries only up to March 30th. You can enter 99 in the **Last Statement No.** field, and then choose **Redo**. The bank reconciliation will then be for statement 100 again. Remember to specify the correct date in the **Statement Ending Date** field which, in this example, would be March 31st.
+
+#### Example 2
+You did bank reconciliations for January, February, June, and July, but you discover that there was a mistake in February. What you do next depends on whether the statement matters.
+
+* If the statement number matters, set the **Last Statement No.** on the bank account to the statement number for February, with – 1 (minus 1), and choose **Undo**. You can then reconcile February again.
+* When you do the bank reconciliations for March, April, or August, <!--not May?--> you have to be mindful about setting the Last Statement No. correctly before creating the new reconciliation.
+* If the statement number does not matter, just choose **Undo** and then reconcile February again.
+
 ## See Related Training at [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## See Also

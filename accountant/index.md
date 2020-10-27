@@ -1,12 +1,12 @@
 ---
-title: Manage your clients in Dynamics 365 | Microsoft Docs
+title: Manage your clients in Dynamics 365
 description: Accountant Hub gives you a better overview of your clients so you can switch easily from client to client.
 author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 06/06/2020
+ms.date: 10/27/2020
 ms.author: edupont
 
 ---
@@ -14,7 +14,7 @@ ms.author: edupont
 
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
+<!--If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients. From there, you can access each client's data.  
 
 > [!div class="mx-imgBorder"]
 > ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
@@ -23,7 +23,7 @@ You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up
 
 In the current version of [!INCLUDE [d365acc](includes/d365acc_md.md)], you can add clients who use [!INCLUDE [d365fin](includes/d365fin_long_md.md)] to run their business. For more information, see [Add clients to your dashboard](add-client.md).  
 
-[!INCLUDE [d365fin_early_release.md](includes/d365fin_early_release.md.md)]
+[!INCLUDE [d365fin_early_release.md](includes/d365fin_early_release.md.md)]-->
 
 ## See Also
 

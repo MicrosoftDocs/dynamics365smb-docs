@@ -1,5 +1,5 @@
 ---
-title: Get clients into Dynamics 365 accountant experience | Microsoft Docs
+title: Get clients into Dynamics 365 accountant experience
 description: Learn how to add existing clients to the Accountant Hub for Dynamics 365.
 author: edupont04
 
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 10/27/2020
 ms.author: edupont
 
 ---
 # Add clients to your dashboard in [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-You can add a client by using the **Clients** page, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
+<!--You can add a client by using the **Clients** page, which you can open by choosing the **Manage Clients** action in the ribbon. Simply choose **New** and then fill in the fields.  
 
 > [!div class="mx-imgBorder"]
 > ![Add a client](./media/accountant-add-client/manage-client.png)
@@ -33,7 +33,7 @@ A company who use [!INCLUDE [d365fin](includes/d365fin_md.md)] can invite you to
 
 As a result, you will receive email from your client with links to their [!INCLUDE [d365fin](includes/d365fin_md.md)]. The first link is an invitation to get access to their company - open the link and accept the steps that adds you to your client's [!INCLUDE [d365fin](includes/d365fin_md.md)]. The second link is for adding this client to your dashboard in [!INCLUDE [d365acc](includes/d365acc_md.md)] as described above.  
 
-When you have accepted the invitation, you are logged in and can access the client's financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json).  
+When you have accepted the invitation, you are logged in and can access the client's financial data from the **Accountant** Role Center. For more information, see [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json).  -->
 
 ## See Also
 [Get Started with [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

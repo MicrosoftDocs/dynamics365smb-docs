@@ -60,7 +60,7 @@ The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can 
 
 ### To create or maintain the connection manually
 
-The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page manually. This is also the page where you manage settings for the integration.
+The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page. This is also the page where you manage settings for the integration.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CDS Connection Setup**, and then choose the related link.
 2. Enter the following information for the connection from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].

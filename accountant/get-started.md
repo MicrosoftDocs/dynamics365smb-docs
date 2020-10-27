@@ -1,18 +1,18 @@
 ---
-title: Dynamics 365 accountant experience | Microsoft Docs
-description: Learn about the Accountant Hub for Dynamics 365.
+title: Dynamics 365 accountant experience
+description: Get started with the Accountant Hub for Dynamics 365.
 author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 10/27/2020
 ms.author: edupont
 ---
 # Get started with [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
+<!--Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. If you are an accountant with several clients, you can use [!INCLUDE [d365acc](includes/d365acc_md.md)] as your dashboard for a better overview of your clients.  
 
 You can get access to [!INCLUDE [d365acc](includes/d365acc_md.md)] by signing up from [Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
@@ -76,12 +76,12 @@ You can sort by due date, for example, or any other type of data that helps you 
 
 To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
 
-When you have completed a task, simply mark it as completed.  
+When you have completed a task, simply mark it as completed.  -->
 
 ## See Also
 
-[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
-[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
+<!--[Add Clients to Your Dashboard in [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
+[Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  -->
 [Analyzing Financial Statements in Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Accountant Experiences in [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+<!--[Dynamics 365 — Accountant Hub on Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)-->  

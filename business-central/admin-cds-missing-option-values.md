@@ -32,7 +32,7 @@ The **Integration Table Mapping** page contains three maps for fields that conta
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account entity are mapped to fields on the customer and vendor records:
+The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 

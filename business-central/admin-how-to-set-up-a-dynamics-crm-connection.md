@@ -49,7 +49,7 @@ The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can 
 |---------|---------|
 |**Full synchronization**|Data exists only in [!INCLUDE[d365fin](includes/d365fin_md.md)], or only in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The recommendation is to synchronize all data from the service that has it to the other service.|
 |**No synchronization**|Data exists in both applications, and running full synchronization would duplicate the data. The recommendation is to couple records.|
-|**Dependency not satisfied**|Data exists in both applications, but the record or entity cannot be synchronized because it depends on a record or entity that has the No synchronization recommendation. For example, if customers cannot be synchronized, then data for contacts that depends on the customer data cannot be synchronized either.|
+|**Dependency not satisfied**|Data exists in both applications, but the record or table cannot be synchronized because it depends on a record or table that has the No synchronization recommendation. For example, if customers cannot be synchronized, then data for contacts that depends on the customer data cannot be synchronized either.|
 
 > [!IMPORTANT]
 > Typically, you only use full synchronization when you're integrating the applications for the first time, and only one application contains data. Full synchronization can be useful in a demonstration environment because it automatically creates and couples records in each application, which makes it faster to start working with synchronized data. However, you should only run full synchronization if you want one record in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each record in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for the table mappings. Otherwise, the result can be duplicate records.
@@ -70,7 +70,7 @@ The following procedure describes how to set up the connection manually on the *
     |**Environment URL**|If you own environments in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], we will find those for you when you run the setup guide. If you want to connect to a different environment in another tenant, you can enter the administrator credentials for the environment and we will discover those. |
     |**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
 
-3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
+3. In the **Ownership Model** field, choose whether you want a team table in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
 
     <!--Need to verify the details in this table, are these specific to Sales maybe?-->
     Enter the following advanced settings.
@@ -101,7 +101,7 @@ If you want to connect using an Azure Active Directory (Azure AD) account, you m
 
 ### To register an application in Azure AD for connecting from Business Central to Common Data Service
 
-The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Identity and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft idtable platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Idtable and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-idtable-and-access-management-service).  
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -122,7 +122,7 @@ The following steps assume that you use Azure AD to manage identities and access
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-#### Using Another Identity and Access Management Service
+#### Using Another Idtable and Access Management Service
 
 If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
 

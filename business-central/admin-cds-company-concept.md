@@ -51,7 +51,7 @@ However, the 1:1 mapping between business unit, company, and team is just a star
 
 In this example, a new EUR (Europe) root business unit is created in [!INCLUDE[d365fin](includes/cds_long_md.md)] as the parent for both Cronus DE (Gernamy) and Cronus ES (Spain). The EUR business unit is not related to synchronization. However, it can give members of the EUR Sales team access to account data in both Cronus DE and Cronus ES by setting the data visibility to **Parent/Child BU** on the associated security role in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI - <ID> record. When a BCI - <ID> record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for an table, administrators can change the owning team, but a team must always be assigned.
+Synchronization determines which team should own records. This is controlled by the **Default owning team** field on the BCI - <ID> row. When a BCI - <ID> record is enabled for synchronization we automatically create the associated business unit and owner team (if it doesn't already exist), and set the **Default owning team** field. When synchronization is enabled for an table, administrators can change the owning team, but a team must always be assigned.
 
 > [!NOTE]
 > Records become read-only after a company is added and saved, so be sure to choose the correct company.

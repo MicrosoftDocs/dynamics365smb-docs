@@ -28,7 +28,7 @@ When you create the connection between the apps, [!INCLUDE[d365fin](includes/d36
 An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[d365fin](includes/d365fin_md.md)] table and an table in [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
 
 ### Strategies for Auto-Resolving Conflicts
-Data conflicts can easily occur when business applications exchange data on an ongoing basis. For example, someone might delete or change a record in one of the applications, or both. To reduce the number of conflicts that you will have to manually resolve, you can specify resolution strategies and [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically resolve conflicts according to the rules in the strategies.
+Data conflicts can easily occur when business applications exchange data on an ongoing basis. For example, someone might delete or change a row in one of the applications, or both. To reduce the number of conflicts that you will have to manually resolve, you can specify resolution strategies and [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically resolve conflicts according to the rules in the strategies.
 
 Integration table mappings include rules that control how synchronization jobs synchronize records. On the **Integration Table Mapping** page, in the **Resolve Deletion Conflicts** and **Resolve Update Conflicts** columns, you can specify how [!INCLUDE[d365fin](includes/d365fin_md.md)] will resolve conflicts that occur because records were deleted in tables in one or the other business application, or updated in both. 
 
@@ -56,7 +56,7 @@ Coupling links records in [!INCLUDE[d365fin](includes/cds_long_md.md)] to record
 * It makes synchronization possible.
 * Users can open records in one business app from the other. This requires that the apps are already integrated.
 
-Couplings can be set up automatically by using the synchronization jobs, or manually by editing the record in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Synchronizing Data in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) and [Couple and Synchronize Records Manually](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
+Couplings can be set up automatically by using the synchronization jobs, or manually by editing the row in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Synchronizing Data in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) and [Couple and Synchronize Records Manually](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## Filtering Records  
 If you do not want to synchronize all records for a specific table in [!INCLUDE[d365fin](includes/cds_long_md.md)] or table in [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up filters to limit the records that are synchronized. You set up filters on the **Integration Table Mappings** page.  
@@ -69,9 +69,9 @@ If you do not want to synchronize all records for a specific table in [!INCLUDE[
 3.  To filter the [!INCLUDE[d365fin](includes/cds_long_md.md)] records, set the **Integration Table Filter** field.  
 
 ## Creating New Records  
-By default, only records in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] that are coupled will be synchronized by the integration synchronization jobs. You can set up table mappings so that new records will be created in the destination (for example, [!INCLUDE[d365fin](includes/d365fin_md.md)]) for each record in the source (for example, [!INCLUDE[d365fin](includes/cds_long_md.md)]) that is not already coupled.  
+By default, only records in [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] that are coupled will be synchronized by the integration synchronization jobs. You can set up table mappings so that new records will be created in the destination (for example, [!INCLUDE[d365fin](includes/d365fin_md.md)]) for each row in the source (for example, [!INCLUDE[d365fin](includes/cds_long_md.md)]) that is not already coupled.  
 
-For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[d365fin](includes/cds_long_md.md)] to salesperson records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[d365fin](includes/cds_long_md.md)] that is not already coupled to a salesperson in [!INCLUDE[d365fin](includes/d365fin_md.md)], a new salesperson record is created in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[d365fin](includes/cds_long_md.md)] to salesperson records in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[d365fin](includes/cds_long_md.md)] that is not already coupled to a salesperson in [!INCLUDE[d365fin](includes/d365fin_md.md)], a new salesperson row is created in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### To create new records during synchronization  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.

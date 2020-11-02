@@ -1,5 +1,5 @@
 ---
-    title: Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer | Microsoft Docs
+    title: Make Payments with AMC Banking  (US) or SEPA Credit Transfer (EU)
     description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
     author: bholtorf
 

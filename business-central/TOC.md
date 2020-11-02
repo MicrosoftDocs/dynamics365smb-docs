@@ -267,7 +267,6 @@
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.md)
@@ -563,7 +562,6 @@
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage Database Access Intent](admin-data-access-intent.md)
-<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)

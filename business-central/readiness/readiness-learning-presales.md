@@ -1,6 +1,6 @@
 ---
 title: Partner pre-sales learning catalog
-description: Find all the available learning for Business Central.
+description: Find all the available learning for Business Central pre--sales consultants.
 author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article

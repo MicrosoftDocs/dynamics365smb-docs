@@ -487,6 +487,7 @@
 #### [Set Up Intercompany](intercompany-how-setup.md)
 #### [Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)
 #### [Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)
+#### [Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)
 
 ### Accounting for Costs
 #### [Cost Accounting Overview](finance-manage-cost-accounting.md)

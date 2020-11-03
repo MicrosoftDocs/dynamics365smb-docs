@@ -77,7 +77,7 @@ Microsoft provides the following extensions:
 
 ## See Also
 
-[Extending Dynamics 365 Business Central](about-develop-extensions.md)  
+[Customize Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  

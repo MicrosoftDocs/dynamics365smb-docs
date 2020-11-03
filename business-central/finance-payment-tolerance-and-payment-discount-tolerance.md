@@ -204,7 +204,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 1](media/multiplePmtTolRules(Pre1503).gif "Multiple payment tolerance rules 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Multiple payment tolerance rules 1a":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -215,7 +215,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Multiple payment tolerance rules 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Multiple payment tolerance rules 2":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -226,7 +226,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Multiple payment tolerance rules 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Multiple payment tolerance rules 3":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -237,7 +237,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Multiple payment tolerance rules 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Multiple payment tolerance rules 4":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -248,7 +248,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Multiple payment tolerance rules 5](media/multiplePmtTolRules(Post0122).gif "Multiple payment tolerance rules 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Multiple payment tolerance rules 5":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

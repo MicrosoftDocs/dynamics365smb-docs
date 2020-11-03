@@ -44,6 +44,9 @@ You can compress the following types of data in [!INCLUDE [prodshort](includes/p
 
   With the **Retain Field Contents** facility, you can also retain the contents of these additional fields: **Document No.**, **Buy-from Vendor No.**, **Purchaser Code**, **Global Dimension 1 Code**, and **Global Dimension 2 Code**.
 
+> [!NOTE]
+> After you run date compression, all accounts in the ledger are locked. For example, you cannot un-apply vendor or bank ledger entries for any accounts during the period for which dates are compressed.
+
 <!--* General ledger entries
 * Customer ledger entries-->
 <!--* Fixed asset ledger entries

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/06/2020
+    ms.date: 11/03/2020
     ms.author: edupont
 
 ---
@@ -49,7 +49,7 @@ To set this up, you assign responsibility centers to users in three functional a
 5. In the **Service Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to service management.  
 
 > [!NOTE]  
-> Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility center.
+> Users can view only those posted documents that related to their own responsibility center. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
 ## See Also
 

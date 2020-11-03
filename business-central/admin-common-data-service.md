@@ -58,7 +58,7 @@ During connection setup, integration table mappings that are needed to synchroni
 
 ## See Also
 [Data Ownership Models](admin-cds-company-concept.md)  
-<!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Common Data Service](docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration) -->
+<!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Common Data Service](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->
 
 
 

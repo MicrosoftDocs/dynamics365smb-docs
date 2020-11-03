@@ -49,7 +49,7 @@ To set this up, you assign responsibility centers to users in three functional a
 5. In the **Service Resp. Ctr. Filter** field, enter the responsibility center where the user will have tasks related to service management.  
 
 > [!NOTE]  
-> Users will still be able to view all posted documents and ledger entries, not just those related to their own responsibility center.
+> Users will only be able to view posted documents related to their own responsibility center, but they will still be able to view all ledger entries.
 
 ## See Also
 

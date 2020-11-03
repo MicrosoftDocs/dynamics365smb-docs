@@ -44,11 +44,9 @@ To enter a  line in an intercompany general journal, follow these steps.
    6. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for each intercompany partner who should share in the cost.
 10. To post the document and allocate the costs, choose **Post**.  
 
-<!--What about the IC Partner G/L Account. No. field? Also, should we describe how to do it using a PO? -->
+<!--What about the IC Partner G/L Account. No. field?-->
 
 ## To allocate costs using a purchase document
-<!--> [!NOTE]
-> Calculating VAT for cost allocation-->
 When you use a document to distribute costs to intercompany partners, there are two VAT settings to be aware of: 
 1. The settings on the G/L account for expenses:
     a. If the general business or VAT business posting groups are set up on the G/L account, then the calculation depends on the groups and the product groups from the document line.

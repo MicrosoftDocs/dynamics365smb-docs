@@ -35,27 +35,48 @@ To enter a  line in an intercompany general journal, follow these steps.
 6. In the **Amount** field, enter the amount on the invoice.
 7. In the **Bal. Account Type** field, choose **G/L Account**.
 8. In the **Bal. Account No.** field, choose the balancing account to use.
-9. To enter lines that allocate costs to intercompany partners, follow these steps:
+9. To allocate costs to intercompany partners, follow these steps:
    1. Create a new line.
    2. Leave the **Document Type** field, choose the option that leaves the field blank.
    3. In the **Account Type** field, choose **IC Partner**.
    4. In the **Account No.** field, choose the intercompany partner to allocate the cost to.
    5. In the **Amount** field, enter the amount of the invoice to allocate to the intercompany partner.
-   6. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for each intercompany partner who should share in the cost.
-10. To post the document and allocate the costs, choose **Post**.  
-
-<!--What about the IC Partner G/L Account. No. field?-->
+   6. In the **IC Partner G/L Acc. No.** field, choose the G/L account that you want to post the amount to for the intercompany partner. 
+   7. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Repeat these steps for each intercompany partner who should share in the cost.
+1. To post the document and allocate the costs, choose **Post**.  
 
 ## To allocate costs using a purchase document
-When you use a document to distribute costs to intercompany partners, there are two VAT settings to be aware of: 
-1. The settings on the G/L account for expenses:
-    a. If the general business or VAT business posting groups are set up on the G/L account, then the calculation depends on the groups and the product groups from the document line.
-    b. If the general business or VAT business posting groups are not specified on the G/L account, the calculation depends on the following:
-2.	The posting group settings on the intercompany partner
-    a. Whether the intercompany partner is assigned to a customer number that does not have a general business or VAT business posting groups specified.
-    b. There is no customer number associated with the intercompany partner. Then the general business or VAT business posting groups are blank, and the line in the VAT posting setup is used, which is usually a group where 0% VAT is specified.
+The following procedure describes how to allocate costs using a purchase invoice. The steps are the same for purchase orders.
 
-It is important to validate both the intercompany partner setup and the G/L account setup (for the expense account used for the cost distribution) before you allocate costs to intercompany partners.
+> [!NOTE]
+> To complete these steps you must personalize the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
+2. In the **Type** field, choose **G/L Account**.
+3. In the **No.** field, choose the G/L account to post to.
+4. In the **IC Partner Code** field, choose the intercompany partner to allocate the cost to.
+5. In the **IC Partner Ref. Type** choose the intercompany partner's G/L account to debit.
+6. In the **Quantity** field, specify the number of units to charge to the intercompany partner.
+7. In the **Direct Unit Cost Excl. VAT (or Incl. VAT)** field, enter the cost per item to charge to the intercompany partner.
+8. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
+9. To post the purchase order, choose **Post**.
+
+## To send the allocated costs to intercompany partners
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IC Outbox Transactions**, and then choose the related link.
+2. Choose lines to send, and then choose the **Send to IC Partner** action. 
+3. To allocate the costs, choose the **Complete Line Actions** action.
+
+## Calculating VAT for Cost Distributions
+When you use a document to distribute costs to intercompany partners, there are two VAT settings to be aware of: 
+* The settings on the G/L account for expenses:
+   * If the general business or VAT business posting groups are set up on the G/L account, then the calculation depends on the groups and the product groups from the document line.
+   * If the general business or VAT business posting groups are not specified on the G/L account, the calculation depends on the following:
+* The posting group settings on the intercompany partner
+   * Whether the intercompany partner is assigned to a customer number that does not have a general business or VAT business posting groups specified.
+   * There is no customer number associated with the intercompany partner. Then the general business or VAT business posting groups are blank, and the line in the VAT posting setup is used, which is usually a group where 0% VAT is specified.
+
+> [!NOTE]
+> It is important to validate both the intercompany partner setup and the G/L account setup (for the expense account used for the cost distribution) before you allocate costs to intercompany partners.
 
 ## See Also
 [Set Up Intercompany](intercompany-how-setup.md)  

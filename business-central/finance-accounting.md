@@ -73,7 +73,9 @@ Next, you must assign the new guest user a license to [!INCLUDE[prodshort](inclu
 3. Choose **Licenses**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** license.  
 
-    If this license is not available, you must use an available **Dynamics 365 Business Central for IWs** license instead.
+    Contact your reselling partner to get license added.
+    
+    For evaluation purposes only you may use an available **Dynamics 365 Business Central for IWs** license instead. 
 5. Save the assignment.
 
 If successful, the license is assigned to the guest user, and the guest account is created.

@@ -75,7 +75,7 @@ Next, you must assign the new guest user a license to [!INCLUDE[prodshort](inclu
     
     If this license is not available, contact your reselling partner to get license added.
 
-    For evaluation purposes only you may use an available **Dynamics 365 Business Central for IWs** license instead. 
+    For evaluation purposes only you may use an available **Dynamics 365 Business Central for IWs** license instead. You cannot use this license if the customer has already purchased [!INCLUDE[prodshort](includes/prodshort.md)] other licenses. 
 5. Save the assignment.
 
 If successful, the license is assigned to the guest user, and the guest account is created.

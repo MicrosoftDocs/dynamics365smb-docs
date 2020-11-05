@@ -72,9 +72,9 @@ Next, you must assign the new guest user a license to [!INCLUDE[prodshort](inclu
 2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
 3. Choose **Licenses**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** license.  
-
-    Contact your reselling partner to get license added.
     
+    If this license is not available, contact your reselling partner to get license added.
+
     For evaluation purposes only you may use an available **Dynamics 365 Business Central for IWs** license instead. 
 5. Save the assignment.
 

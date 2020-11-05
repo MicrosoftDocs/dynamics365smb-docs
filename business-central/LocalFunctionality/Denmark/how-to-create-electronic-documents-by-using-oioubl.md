@@ -43,6 +43,9 @@ After you post a document, you can create an electronic invoice in an OIOUBL for
 This generates an XML file that is stored at the default download location on your device.
 
 
+> [!Note]
+> With the online version of Business Central, the XML file is automatically created in the Download folder on the pc.
+
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
  [Set Up OIOUBL](how-to-set-up-oioubl.md)   

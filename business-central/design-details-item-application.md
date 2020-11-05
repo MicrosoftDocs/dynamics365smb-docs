@@ -116,12 +116,14 @@ The cost of the second purchase, LCY 20.00, is passed correctly to the purchase 
 The following example, which illustrates the effect of fixed application, is based on the following scenario for an item that uses the Average costing method:  
 
 1. In entry numbers 1 and 2, the user posts two purchase invoices. The second invoice has the incorrect direct unit cost of LCY 1000.00.  
-2. In entry number 3, the user posts a purchase credit memo, with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
+2. In entry number 3, the user posts a purchase credit memo with a fixed application applied to the purchase entry with the wrong direct unit cost. The sum of the **Cost Amount (Actual)** field for the two fixed applied value entries becomes 0.00  
 3. In entry number 4, the user posts another purchase invoice with the correct direct unit cost of LCY 100.00  
 4. In entry number 5, the user posts a sales invoice.  
 5. The inventory quantity is 0, and the inventory value is also 0.00  
 
 The following table shows the result of the scenario on the item's value entries.  
+
+The following table shows the result of the scenario on the item's value entries after posting is complete and cost adjustment has been run.
 
 |Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  

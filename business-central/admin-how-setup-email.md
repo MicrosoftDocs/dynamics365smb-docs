@@ -130,6 +130,28 @@ Get more out of the communications between salespeople and your existing or pote
 
 Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
+## Set Up Email for Business Central On-Premises 
+If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you must register your application in Azure Active Directory before you can use the new mail capabilities.
+
+1. In [!INCLUDE[prodshort](includes/prodshort.md)], start the **Email Application AAD Registration** assisted setup guide.
+2. On the first page of the guide, copy the value in the **Redirect URL** field.
+3. In Azure Active Directory, search for **App registrations**, and then open the **App registrations** page.
+4. Choose **New registration**.
+5. In the **Name** field, enter a name for your app.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Azure AD Directory - Multitenant)** or **Accounts in any organizational directory (Any Azure AD Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
+8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
+9. In [!INCLUDE[prodshort](includes/prodshort.md)], in the assisted setup guide, paste the ID in **Client ID** field.
+10. In Azure Active Directory, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
+11. On the **Request API permissions** pane, on the **Microsoft APIs** tab, choose **Microsoft Graph**.  
+12. Choose **Delegated permissions**, and then in the **Select permissions** field, search for **Mail.ReadWrite**, **Mail.Send**, and **offline_access**. Choose those permissions, and then choose **Add permissions**.
+13. On the navigation pane, choose **Certificates & secrets**.
+14. Under **Client secrets**, choose **New client secret**.
+15. Under **Add a client secret**, enter a description of the client, specify how long you want your secret to be available, and then choose **Add**.
+16. When the secret is generated, copy it. 
+17. In [!INCLUDE[prodshort](includes/prodshort.md)], in the assisted setup guide paste the secret in the **Client Secret field**.
+18. The **Verify Registration** button becomes available. 
+
 ## See Also
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
 
 ---
@@ -15,6 +15,9 @@ ms.author: edupont
 With the company hub, you can access your work from across multiple companies from multiple [!INCLUDE [prodshort](includes/prodshort.md)] environments. You can add a environments and companies manually, if your companies do not show up automatically in the company hub.  
 
 Right in the company hub landing page, you find the **Setup** menu, from where you can access the **Environment Links** page. Simply choose **New**, and then fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+
+> [!NOTE]
+> You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prodshort](includes/prodshort.md)] online.
 
 ## Environment links
 

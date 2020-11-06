@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
 ---
 
@@ -15,6 +15,9 @@ ms.author: edupont
 Some people work in multiple companies in [!INCLUDE [prodshort](includes/prodshort.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
 
 You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly. You can do the same work in both places, but actions are placed slightly different in menus.  
+
+> [!NOTE]
+> You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prodshort](includes/prodshort.md)] online.
 
 ## Company hub home page
 

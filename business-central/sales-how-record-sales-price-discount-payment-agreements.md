@@ -1,7 +1,7 @@
 ---
 title: Set Up Special Sales Prices and Discounts for Customers | Microsoft Docs
 description: Describes how to define the alternate pricing and discount agreements that you want to apply to sales documents when selling to different customers.
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Record Special Sales Prices and Discounts
@@ -34,25 +34,36 @@ Because sales prices and sales line discounts are based on a combination of item
 > If you do not want an item to ever be sold at a discounted price, simply leave discount fields on the item card empty, and do not include the item in any line discount setup.
 
 ## To set up a sales price for a customer
+The steps to set up sales prices for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the relevant customer card, and then choose the **Prices** action.
+2. Choose the customer, and then choose the **Prices** action.
 
-    On the **Sales Prices** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Prices** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 ## To set up a sales line discount for a customer
 
+#### [Option 1](#tab/option-1)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
-    On the **Sales Line Discounts** page, the **Sales Type** field is prefilled with **Customer**, and the **Sales Code** field is prefilled with the customer number.
+    On the **Sales Line Discounts** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 > [!Note]
-> When you open the **Sales Prices** and **Sales Line Discounts** windows from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and cannot be changed or removed, indicated by the grayed value in the **Sales Code Filter** field.
+> When you open the **Sales Prices** and **Sales Line Discounts** pages from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and cannot be changed or removed.
 >
-> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the windows from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+
+#### [Option 2](#tab/option-2)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+2. Choose the customer, and then choose the **Sales Price Lists** action. 
+3. Choose **New** to create a new sales price list.
+4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. To add items to the list, do one of the following:
+   * To add many items, choose **Suggest Lines**, and then enter filter criteria to specify the types of items to add. Optionally, you can also enter some additional settings for the items that are specific to the price list. You can change these later, if needed.
+   * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To set up an invoice discount for a customer
 

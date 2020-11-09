@@ -14,10 +14,12 @@ ms.author: bholtorf
 
 ---
 # Record Special Sales Prices and Discounts
+> [!NOTE]
+> In 2020 release wave 2 we released streamlined processes for setting up and managing sales prices and discounts. Whether or not you are using the new processes depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md). Option 2 in the steps in this topic describe the new processes.
 
-The different price and discount agreements that apply when selling to different customers must be defined so that the agreed rules and values are applied to sales documents that you create for the customers.
+The price and discount agreements that apply when selling to customers must be defined so that the agreed rules and values are applied to sales documents.
 
-When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists.
 
@@ -26,23 +28,36 @@ Concerning discounts, you can set up and use two types of sales discounts:
 | Discount Type | Description |
 | --- | --- |
 | **Sales Line Discount** |An amount discount that is inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists. This works in the same way as for sales prices. |
-| **Invoice Discount** |A percentage discount that is subtracted from the document total if the value amount of all lines on a sales document exceeds a certain minimum. |
+| **Invoice Discount** |A discount percentage that is subtracted from the sales document total if the sum of all lines on the document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item card of the item where the rules and values apply.
 
-> [!NOTE]  
-> If you do not want an item to ever be sold at a discounted price, simply leave discount fields on the item card empty, and do not include the item in any line discount setup.
+> [!TIP]  
+> If an item should never be sold with a discount, leave the discount fields on the item card empty, and do not include the item in any line discount setups.
 
 ## To set up a sales price for a customer
-The steps to set up sales prices for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update.
+The steps to set up sales prices for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
 
+#### [Option 1](#tab/option-1)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 
     On the **Sales Prices** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
+#### [Option 2](#tab/option-2)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+2. Choose the customer, and then choose the **Sales Price Lists** action. 
+3. Choose **New** to create a new sales price list.
+4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. To add items to the list, do one of the following:
+   * To add many items, choose **Suggest Lines**, and then enter filter criteria to specify the types of items to add. Optionally, you can also enter some additional settings for the items that are specific to the price list. You can change these later, if needed.
+   * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+---
+
 ## To set up a sales line discount for a customer
+The steps to set up line discounts for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
 
 #### [Option 1](#tab/option-1)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
@@ -58,22 +73,24 @@ The steps to set up sales prices for a customer differ, depending on whether you
 
 #### [Option 2](#tab/option-2)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Choose the customer, and then choose the **Sales Price Lists** action. 
-3. Choose **New** to create a new sales price list.
-4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-5. To add items to the list, do one of the following:
-   * To add many items, choose **Suggest Lines**, and then enter filter criteria to specify the types of items to add. Optionally, you can also enter some additional settings for the items that are specific to the price list. You can change these later, if needed.
-   * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Choose the customer, and then choose the **Sales Price Lists** action.
+3. Open the price list on which to specify the line discount.
+4. Create a new line, or choose the an existing line
+5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. In the **Defines** field, choose either **Price & Discount**, or just **Discount**. 
+7. In the **Line Discount %** field, specify the discount percentage.
+
+   > [!TIP]
+   > If you're editing an existing line, you can filter the lines by choosing the appropriate option in the **View Columns For** field.
 
 ---
 
 ## To set up an invoice discount for a customer
-
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer card for a customer that will be eligible for invoice discounts.
-3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer.
+3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer. <!--Looks like I can only choose customers in this list-->
 
 > [!NOTE]  
 > Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms.
@@ -89,10 +106,9 @@ Proceed to set up new the sales invoice discount terms.
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
 ## To work with sales invoice discounts and service charges
+When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. 
 
-When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
-
-On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
+On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--I can't find this page-->
 
 Before you can use invoice discounts with sales, you must enter certain information in application. You must decide:  
 

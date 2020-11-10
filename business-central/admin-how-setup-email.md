@@ -130,8 +130,37 @@ Get more out of the communications between salespeople and your existing or pote
 
 Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
-## Set Up Email for Business Central On-Premises 
-If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you must register your application in Azure Active Directory before you can use the new mail capabilities.
+## Setting Up Email for Business Central On-Premises 
+If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, there are a few things you must do before you can complete the steps in this article. Those steps are described in the following sections.
+
+### Create an App Registration in Azure Portal
+Ensure that your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises can communicate with your email provider by creating an app registration in Azure Active Directory. For more information, see [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure?branch=master#register-an-application-in-azure-active-directory).
+
+When you create your app registration, you must grant the registered app delegated permissions. The following table lists the minimum permissions.
+
+|API / Permission Name  |Type  |Description  |
+|---------|---------|---------|
+|Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
+|Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
+|Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
+|Microsoft Graph / offline_access|Delegated|Request an access token. <!--not at all sure about this one-->|
+
+> [!TIP]
+> When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prodshort](includes/prodshort.md)] to your app registration.
+> 
+> * Application (client) ID 
+> * Redirect URI (optional)
+> * Client secret
+
+### Connect [!INCLUDE[prodshort](includes/prodshort.md)] to Your App Registration
+After you register your application in Azure Active Directory, use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prodshort](includes/prodshort.md)] to it.
+
+* In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application AAD Registration**, and then choose the related link.
+
+> [!TIP]
+> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. The guide will require the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+
+<!--
 
 1. In [!INCLUDE[prodshort](includes/prodshort.md)], start the **Email Application AAD Registration** assisted setup guide.
 2. On the first page of the guide, copy the value in the **Redirect URL** field.
@@ -151,6 +180,8 @@ If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you m
 16. When the secret is generated, copy it. 
 17. In [!INCLUDE[prodshort](includes/prodshort.md)], in the assisted setup guide paste the secret in the **Client Secret field**.
 18. The **Verify Registration** button becomes available. 
+
+-->
 
 ## See Also
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  

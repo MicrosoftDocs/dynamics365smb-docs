@@ -13,6 +13,9 @@ ms.author: edupont
 
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 
+> [!TIP]
+> For information about other ways to reduce the amount of data stored in a database, see [Reducing Data Stored in Business Central Databases](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in the Developer and IT pro help.
+
 ## Delete Documents
 
 In certain situations, you may need to delete invoiced purchase orders that have not been deleted. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
@@ -43,6 +46,9 @@ You can compress the following types of data in [!INCLUDE [prodshort](includes/p
   After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
 
   With the **Retain Field Contents** facility, you can also retain the contents of these additional fields: **Document No.**, **Buy-from Vendor No.**, **Purchaser Code**, **Global Dimension 1 Code**, and **Global Dimension 2 Code**.
+
+> [!NOTE]
+> After you run date compression, all accounts in the ledger are locked. For example, you cannot un-apply vendor or bank ledger entries for any accounts during the period for which dates are compressed.
 
 <!--* General ledger entries
 * Customer ledger entries-->

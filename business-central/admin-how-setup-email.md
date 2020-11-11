@@ -19,7 +19,10 @@ People in businesses send information and documents, such as sales and purchase 
 The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!NOTE]
-> To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
+> If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal. The app registration will enable [!INCLUDE[prodshort](includes/prodshort.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). 
+
+## Required Permissions
+To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
 
 ## Adding Email Accounts
 You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[d365fin](includes/d365fin_md.md)]. The standard extensions let you use accounts from Microsoft Exchange Online, but other extensions may be available that let you connect accounts from other providers, such as Gmail.
@@ -134,7 +137,7 @@ Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Onl
 [!INCLUDE[prodshort](includes/prodshort.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you must register [!INCLUDE[prodshort](includes/prodshort.md)] as an app in the Azure portal, and then connect [!INCLUDE[prodshort](includes/prodshort.md)] to the app registration. The following sections describe how.
 
 ### Create an App Registration for [!INCLUDE[prodshort](includes/prodshort.md)] in Azure Portal
-The steps to register [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure?branch=master#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
+The steps to register [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure.md#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|

@@ -1,6 +1,6 @@
 ---
-    title: Connect to Common Data Service | Microsoft Docs
-    description: You can integrate other apps with Business Central through Common Data Service.
+    title: Connect to Microsoft Dataverse | Microsoft Docs
+    description: You can integrate other apps with Business Central through Microsoft Dataverse.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -14,7 +14,7 @@
 
 
 ---
-# Connect to Common Data Service
+# Connect to Microsoft Dataverse
 
 This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -31,7 +31,7 @@ There are a few pieces of information to have ready before you create the connec
 
 ## Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For all authentication types other tha Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
+For all authentication types other tha Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Dataverse connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
 
 > [!IMPORTANT]
 > During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to a registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -42,7 +42,7 @@ For all authentication types other tha Microsoft 365 authentication, you set up 
 >
 > By giving consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronize data using automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user's credentials.
 
-### To use the Set up Common Data Service connection assisted setup guide
+### To use the Set up Microsoft Dataverse connection assisted setup guide
 The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can make it easier to connect the applications, and can even help you run an initial synchronization. If you choose to run initial synchronization, [!INCLUDE[d365fin](includes/d365fin_md.md)] will review the data in both applications and provide recommendations for how to approach initial synchronization. The following table describes the recommendations.
 
 |Recommendation  |Description  |
@@ -55,7 +55,7 @@ The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can 
 > Typically, you only use full synchronization when you're integrating the applications for the first time, and only one application contains data. Full synchronization can be useful in a demonstration environment because it automatically creates and couples records in each application, which makes it faster to start working with synchronized data. However, you should only run full synchronization if you want one row in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each row in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for the table mappings. Otherwise, the result can be duplicate records.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
-2. Choose **Set up Common Data Service connection** to start the assisted setup guide.
+2. Choose **Set up Dataverse connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
 ### To create or maintain the connection manually
@@ -95,16 +95,16 @@ The following video shows the steps to connect [!INCLUDE[d365fin](includes/d365f
 
 ## Connecting On-Premises Versions
 
-To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Common Data Service Connection Setup** page.
+To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
 If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database.  
 
-### To register an application in Azure AD for connecting from Business Central to Common Data Service
+### To register an application in Azure AD for connecting from Business Central to Dataverse
 
 The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft idtable platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Idtable and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-idtable-and-access-management-service).  
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
-2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Common Data Service Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Dataverse Connection Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 3. Under **Manage**, choose **API permissions**.
 4. Under **Configured permissions**, choose **Add a permission**, and then add delegated permissions on the **Microsoft APIs** tab as follows:
     * For Business Central, add the **Financials.ReadWrite.All** permissions.
@@ -113,9 +113,9 @@ The following steps assume that you use Azure AD to manage identities and access
     > [!NOTE]
     > The name of the Dynamics CRM API might change.
 
-5. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Common Data Service Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
-6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
-7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment.
+5. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Dataverse Connection Setup** page, or store in a secure storage and provide it in an event subscriber as described earlier in this topic.
+6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Dataverse Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
+7. In [!INCLUDE[d365fin](includes/d365fin_md.md)], on the **Dataverse Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment.
 8. To enable the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], turn on the **Enabled** toggle.
 9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
 

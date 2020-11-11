@@ -1,6 +1,6 @@
 ---
 title: Mapping the Tables and Fields to Synchronize | Microsoft Docs
-description: Learn how to map tables and fields for synchronizing data between Business Central and Common Data Service.
+description: Learn how to map tables and fields for synchronizing data between Business Central and Microsoft Dataverse.
 author: bholtorf
 
 ms.service: dynamics365-business-central

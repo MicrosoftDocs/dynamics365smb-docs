@@ -1,6 +1,6 @@
 ---
 title: Synchronization and Data Integration | Microsoft Docs
-description: The synchronization copies data between Common Data Service tables and Business Central records, and keeps the data in both systems up-to-date.
+description: The synchronization copies data between Microsoft Dataverse tables and Business Central records, and keeps the data in both systems up-to-date.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 
-# Synchronizing Data in Business Central with Common Data Service
+# Synchronizing Data in Business Central with Microsoft Dataverse
 
 When you integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[d365fin](includes/d365fin_md.md)] records (such as customers, contacts, and sales people) with equivalent records in [!INCLUDE[d365fin](includes/cds_long_md.md)] (such as accounts, contacts, and users). Depending on the type of row, you can synchronize data from [!INCLUDE[d365fin](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

@@ -1,6 +1,6 @@
 ---
 title: Manual Synchronization of Table Mappings | Microsoft Docs
-description: The synchronization copies data between Common Data Service tables and Business Central to keep both systems up-to-date.
+description: The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -38,7 +38,7 @@ Whether and where a row gets created depends on the synchronization direction. F
 >  You typically only use the full synchronization when you initially set up integration between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] and only one of solutions contains data, which you want to copy to the other solution. A full synchronization can be useful in a demonstration environment. Because the full synchronization automatically creates and couples records between the solutions, it makes it faster to start working with synchronizing data between records. On the other hand, you should only run a full synchronization if you want a row in [!INCLUDE[d365fin](includes/d365fin_md.md)] for each row in [!INCLUDE[d365fin](includes/cds_long_md.md)] for the given table mappings. Otherwise, you can have unwanted or duplicate records in either [!INCLUDE[d365fin](includes/d365fin_md.md)] or [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 ### To run a full synchronization  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Common Data Service Connection Setup**, and then choose the related link.
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 
     > [!NOTE]
     > If you want to run a full synchronization for tables through Dynamics 365 Sales, use the **Microsoft Dynamics 365 Sales Connection Setup** page instead.

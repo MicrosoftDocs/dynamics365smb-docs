@@ -20,8 +20,8 @@ The sales person role is often considered as one the most outward-facing jobs in
 > [!NOTE]
 > This topic describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Integrating Through Common Data Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] also integrates with [!INCLUDE[d365fin](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Integration with Common Data Service](admin-common-data-service.md).
+## Integrating Through Dataverse
+[!INCLUDE[d365fin](includes/d365fin_md.md)] also integrates with [!INCLUDE[d365fin](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
 
 If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can continue to synchronize data using your setup. However, if you upgrade or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Upgrading an Integration with Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -82,7 +82,7 @@ In addition to the settings above, enter the following settings for [!INCLUDE[cr
 
 <!--
 ### User Account Settings
-Integrate with Business Central through Common Data Service requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
 
 ### Standard Sales Entity Mapping for Synchronization
 
@@ -105,7 +105,7 @@ The following table lists the standard mapping between tables in [!INCLUDE[d365f
 
 ### Synchronization Rules
 
-The following table lists the rules that control the synchronization between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)]. These are in addition to rules defined for Common Data Service, which also apply. For more information, see [Standard Entity Mapping](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization).
+The following table lists the rules that control the synchronization between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)]. These are in addition to rules defined for Dataverse, which also apply. For more information, see [Standard Entity Mapping](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
 > Changes to data in  that were made by the integration user account are not synchronized. Therefore, we recommended that you do not change data while using that account. For more information, see [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
@@ -123,7 +123,7 @@ The following table lists the rules that control the synchronization between [!I
 
 ### Synchronization Jobs for a Sales Integration
 
-The jobs are run in the following order to avoid coupling dependencies between tables. There are additional jobs available from Common Data Service. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+The jobs are run in the following order to avoid coupling dependencies between tables. There are additional jobs available from Dataverse. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. UNITOFMEASURE - Dynamics 365 Sales synchronization job  
 2. RESOURCE-PRODUCT - Dynamics 365 Sales synchronization job  

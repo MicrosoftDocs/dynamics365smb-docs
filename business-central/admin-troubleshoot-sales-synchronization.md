@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 # Troubleshooting Synchronization Errors
-There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with Common Data Service, and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
+There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[d365fin](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 
 Errors often occur either because of something that a user has done to coupled records or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting a row in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
 
@@ -51,8 +51,8 @@ These records are now moved to the "Skipped Synch. Records" page, which you open
 When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. On the **Integration Table Mappings** page, you can choose choose **Uncoupling**, and then **Delete Coupling**. Alternatively, on the **Coupled Data Synchronization Errors** page, you can choose the errors and then choose **Remove Couplings**. 
 
 ## See Also
-[Integrating with Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  
-[Set Up a Connection to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
+[Set Up a Connection to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)  
 [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  

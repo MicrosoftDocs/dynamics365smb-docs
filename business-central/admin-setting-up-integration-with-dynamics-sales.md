@@ -1,5 +1,5 @@
 ---
-    title: Setting Up User Accounts for Integrating with Common Data Service | Microsoft Docs
+    title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
     description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
     author: bholtorf
 
@@ -13,14 +13,14 @@
     ms.author: bholtorf
 
 ---
-# Setting Up User Accounts for Integrating with Common Data Service
+# Setting Up User Accounts for Integrating with Microsoft Dataverse
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Setting Up the Administrator User Account
 You must add your administrator user account for [!INCLUDE[d365fin](includes/d365fin_md.md)] as a user in [!INCLUDE[d365fin](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] we will use this account one time to install and configure some required components. 
 
 ## Permissions and Security Roles for User Accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)]
-When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed manually you can reset them. You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page. The Business Central CDS Integration security role is deployed.
+When you install the CDS Base Integration Solution, permissions for the integration user account are configured. If those permissions are changed manually you can reset them. You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Dataverse Connection Setup** page. The Business Central CDS Integration security role is deployed.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
@@ -116,5 +116,5 @@ You can allow sales people to view inventory levels for the items they sell by g
 -->
 
 ## See Also  
-[Integrating with Common Data Service](admin-common-data-service.md)  
+[Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

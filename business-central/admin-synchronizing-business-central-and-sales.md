@@ -52,7 +52,7 @@ The following table lists the standard mapping between tables in [!INCLUDE[d365f
 | Currency | Transaction Currency | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 
 
-### Tip for Admins: Viewing Entity Mappings
+### Tip for Admins: Viewing Table Mappings
 You can view the mapping between the tables in [!INCLUDE[d365fin](includes/cds_long_md.md)] and the tables in [!INCLUDE[d365fin](includes/d365fin_md.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and the fields in [!INCLUDE[d365fin](includes/cds_long_md.md)] tables on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronization.
 
 ## See Also  

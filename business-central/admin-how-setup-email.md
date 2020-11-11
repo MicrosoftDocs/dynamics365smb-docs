@@ -19,7 +19,7 @@ People in businesses send information and documents, such as sales and purchase 
 The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!NOTE]
-> If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal. The app registration will enable [!INCLUDE[prodshort](includes/prodshort.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). 
+> If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal. The app registration will enable [!INCLUDE[prodshort](includes/prodshort.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, we handle this for you.
 
 ## Required Permissions
 To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
@@ -39,8 +39,6 @@ The following table describes the email extensions that are available by default
 
 > [!NOTE]
 > The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
-
-If you use SMTP, you can use the **Send As** or **Send on Behalf** capabilities from Exchange Online or your Exchange server to change the sender address on outbound messages. For more information, see [Using a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#using-a-substitute-sender-address-on-outbound-email-messages).
 
 ## Legacy SMTP Settings and the Email - SMTP Connector Extension
 If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[d365fin](includes/d365fin_md.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
@@ -95,7 +93,7 @@ You can use reports to include key information from sales and purchase documents
 Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
 
 ## Using a Substitute Sender Address on Outbound Email Messages
-If you are using an SMTP account, you can use the **Send As** or **Send on Behalf** capabilities on your Exchange server to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the SMTP account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or amend it with "on behalf of."
+If you are using the legacy SMTP settings, you can use the **Send As** or **Send on Behalf** capabilities from Microsoft Exchange to change the sender address on outbound messages. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the SMTP account to authenticate to Exchange, but will either substitute the sender address with the one you specify, or amend it with "on behalf of."
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
@@ -144,7 +142,7 @@ The steps to register [!INCLUDE[prodshort](includes/prodshort.md)] in Azure port
 |Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
 |Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
-|Microsoft Graph / offline_access|Delegated|Request an access token. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Delegated|Maintain data access consent. <!--need to verify this-->|
 
 > [!TIP]
 > When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prodshort](includes/prodshort.md)] to your app registration.

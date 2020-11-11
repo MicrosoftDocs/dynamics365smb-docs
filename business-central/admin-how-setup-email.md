@@ -16,7 +16,7 @@ ms.author: bholtorf
 # Set Up Email
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[d365fin](includes/d365fin_md.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox.
+The email capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox page in [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!NOTE]
 > To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
@@ -123,7 +123,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 ## Set Up Document Sending Profiles
 You can set up a preferred method of sending sales documents for each of your customers so that you do not have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
-## Set up Public Folders and Rules for Email Logging in Exchange Online
+## Set Up Public Folders and Rules for Email Logging in Exchange Online
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
@@ -131,19 +131,17 @@ Get more out of the communications between salespeople and your existing or pote
 Next, you connect [!INCLUDE[prodshort](includes/prodshort.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 
 ## Setting Up Email for Business Central On-Premises 
-If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, there are a few things you must do before you can complete the steps in this article. Those steps are described in the following sections.
+[!INCLUDE[prodshort](includes/prodshort.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you must register [!INCLUDE[prodshort](includes/prodshort.md)] as an app in the Azure portal, and then connect [!INCLUDE[prodshort](includes/prodshort.md)] to the app registration. The following sections describe how.
 
-### Create an App Registration in Azure Portal
-Ensure that your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises can communicate with your email provider by creating an app registration in Azure Active Directory. For more information, see [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure?branch=master#register-an-application-in-azure-active-directory).
-
-When you create your app registration, you must grant the registered app delegated permissions. The following table lists the minimum permissions.
+### Create an App Registration for [!INCLUDE[prodshort](includes/prodshort.md)] in Azure Portal
+The steps to register [!INCLUDE[prodshort](includes/prodshort.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure?branch=master#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|
 |Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
 |Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
-|Microsoft Graph / offline_access|Delegated|Request an access token. <!--not at all sure about this one-->|
+|Microsoft Graph / offline_access|Delegated|Request an access token. <!--need to verify this-->|
 
 > [!TIP]
 > When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prodshort](includes/prodshort.md)] to your app registration.
@@ -152,10 +150,13 @@ When you create your app registration, you must grant the registered app delegat
 > * Redirect URI (optional)
 > * Client secret
 
-### Connect [!INCLUDE[prodshort](includes/prodshort.md)] to Your App Registration
-After you register your application in Azure Active Directory, use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prodshort](includes/prodshort.md)] to it.
+For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). 
 
-* In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application AAD Registration**, and then choose the related link.
+### Connect [!INCLUDE[prodshort](includes/prodshort.md)] to Your App Registration
+After you register your application in Azure portal, in [!INCLUDE[prodshort](includes/prodshort.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prodshort](includes/prodshort.md)] to it.
+
+1. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application AAD Registration**, and then choose the related link.
+2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. The guide will require the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->

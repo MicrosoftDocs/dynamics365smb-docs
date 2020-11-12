@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 11/05/2020
 ms.author: edupont
 
 ---
@@ -72,8 +72,10 @@ Next, you must assign the new guest user a license to [!INCLUDE[prodshort](inclu
 2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
 3. Choose **Licenses**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** license.  
+    
+    If this license is not available, contact your reselling partner to add the license to your subscription.
 
-    If this license is not available, you must use an available **Dynamics 365 Business Central for IWs** license instead.
+    Specifically for evaluation purposes in a trial tenant, you can use an available **Dynamics 365 Business Central for IWs** license instead. However, you cannot use this type of license if you have already purchased [!INCLUDE[prodshort](includes/prodshort.md)]. 
 5. Save the assignment.
 
 If successful, the license is assigned to the guest user, and the guest account is created.

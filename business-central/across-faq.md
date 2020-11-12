@@ -86,6 +86,10 @@ Yes. When the expiration date for your trial period is approaching we will displ
 
 For more information about finding a partner, see [How do I find a reselling partner?](#findpartner).  
 
+## What are the service level agreements for the cloud?
+
+[!INCLUDE [service-terms](includes/service-terms.md)]
+
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
 
@@ -135,6 +139,7 @@ The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises i
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

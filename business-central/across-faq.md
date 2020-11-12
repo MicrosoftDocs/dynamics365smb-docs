@@ -86,7 +86,7 @@ Yes. When the expiration date for your trial period is approaching we will displ
 
 For more information about finding a partner, see [How do I find a reselling partner?](#findpartner).  
 
-## What are the service level agreements for moving to the cloud?
+## What are the service level agreements for the cloud?
 
 [!INCLUDE [service-terms](includes/service-terms.md)]
 

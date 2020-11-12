@@ -1,5 +1,5 @@
 ---
-title: Meet Microsoft Dynamics 365 Business Central
+title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
 author: edupont04
 

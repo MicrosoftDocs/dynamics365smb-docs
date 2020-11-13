@@ -45,10 +45,10 @@ To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange O
 
 To connect using an Azure Active Directory account, you must register an application in Azure Active Directory, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. 
 
-You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
+You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
 
 ### To register an application in Azure AD for connecting from Business Central to Exchange Online
-The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service).
+The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service).
 
 1. In the Azure Portal, under **Manage**, choose **Authentication**.
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If the redirect URL on the Marketing Setup page is empty, find the suggested redirect URL on the **Email Logging Assisted Setup** page.

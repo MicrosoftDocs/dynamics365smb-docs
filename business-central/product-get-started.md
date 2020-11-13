@@ -1,6 +1,6 @@
 ---
-title: Getting Started | Microsoft Docs
-description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
+title: Getting Started
+description: Learn about capabilities and work scenarios in Business Central so that you can get off to a good start.
 author: edupont04
 
 ms.service: dynamics365-business-central

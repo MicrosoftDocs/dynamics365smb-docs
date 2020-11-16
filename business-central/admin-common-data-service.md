@@ -12,7 +12,7 @@ ms.date: 10/01/2020
 ---
 
 # Integrating with Microsoft Dataverse
-[!INCLUDE[d365fin](includes/cc_data_platform_banner_md.md)]
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
 
 Business apps often use data from more than one source. [!INCLUDE[d365fin](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on top of [!INCLUDE[d365fin](includes/cds_long_md.md)], to [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. For more information about [!INCLUDE[d365fin](includes/cds_long_md.md)], see [What is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 

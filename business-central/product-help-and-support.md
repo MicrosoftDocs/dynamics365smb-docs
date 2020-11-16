@@ -55,7 +55,7 @@ This section gives you shortcuts to Microsoft AppSource where you can find solut
 
 ## Give Feedback
 
-On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central’s engineering backlog for investigation and prioritization.  
+On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central's engineering backlog for investigation and prioritization.  
 
 Make sure that you search through the list of submitted suggestions. Chances are that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
 
@@ -80,7 +80,7 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## Using the docs.microsoft.com site to learn more
 
-The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), [learning paths and e-learning modules](/learn/browse/?expanded=dynamics&products=dynamics-business-central) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
+The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), free [learning paths and e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
 
 ### Content on the site
 

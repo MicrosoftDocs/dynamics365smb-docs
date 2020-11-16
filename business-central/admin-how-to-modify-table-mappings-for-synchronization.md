@@ -14,12 +14,14 @@ ms.author: bholtorf
 
 ---
 # Mapping the Tables and Fields to Synchronize
-The basis of synchronizing data in [!INCLUDE[d365fin](includes/d365fin_md.md)] with data in [!INCLUDE[d365fin](includes/cds_long_md.md)] is mapping the tables and fields that contain the data to each other. Mapping happens through integration tables. 
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+
+The basis of synchronizing data in [!INCLUDE[d365fin](includes/d365fin_md.md)] with data in [!INCLUDE[d365fin](includes/cds_long_md.md)] is mapping the tables and fields with tables and columns that contain the data. Mapping happens through integration tables. 
 
 ## Mapping Integration Tables
-An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an table, such as an account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integration tables include fields that correspond to the fields in the table for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table. For example, the Account integration table connects to the Accounts table in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. There must be a integration table mapping for each table in [!INCLUDE[cds_short_md](includes/cds_short_md.md)] that you want to synchronize with data in [!INCLUDE[prodshort](includes/prodshort.md)].
+An integration table is a table in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database that represents an table, such as an account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integration tables include fields that correspond to the columns in the table for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table. For example, the Account integration table connects to the Accounts table in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. There must be a integration table mapping for each table in [!INCLUDE[cds_short_md](includes/cds_short_md.md)] that you want to synchronize with data in [!INCLUDE[prodshort](includes/prodshort.md)].
 
-When you create the connection between the apps, [!INCLUDE[d365fin](includes/d365fin_md.md)] sets up some default table and field mappings. You can change the table mappings if you want. For more information, see [Standard Table Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization). If you have changed the default mappings and want to revert your changes, on the **[!INCLUDE[d365fin](includes/cds_long_md.md)] Connection Setup** page, choose **Use Default Synchronization Setup**.
+When you create the connection between the apps, [!INCLUDE[d365fin](includes/d365fin_md.md)] sets up some default mappings. You can change the table mappings if you want. For more information, see [Standard Table Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization). If you have changed the default mappings and want to revert your changes, on the **[!INCLUDE[d365fin](includes/cds_long_md.md)] Connection Setup** page, choose **Use Default Synchronization Setup**.
 
 > [!Note]
 > If you are using an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the integration table mappings are stored in table 5335 Integration Table Mappings, and can be viewed and modified from page 5335 Integration Table Mappings. Complex mappings and synchronization rules are defined in codeunit 5341. 

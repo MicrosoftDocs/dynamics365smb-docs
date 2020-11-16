@@ -15,6 +15,7 @@
 
 ---
 # Connect to Microsoft Dataverse
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
 
 This topic describes how to set up a connection between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 

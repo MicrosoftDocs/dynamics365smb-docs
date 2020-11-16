@@ -14,6 +14,8 @@
 
 ---
 # Setting Up User Accounts for Integrating with Microsoft Dataverse
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[d365fin](includes/cds_long_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## Setting Up the Administrator User Account

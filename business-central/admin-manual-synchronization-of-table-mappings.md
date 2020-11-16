@@ -15,6 +15,8 @@ ms.author: bholtorf
 ---
 
 # Manually Synchronize Table Mappings
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+
 An integration table mapping associates a [!INCLUDE[d365fin](includes/d365fin_md.md)] table, such as customer, with a [!INCLUDE[d365fin](includes/cds_long_md.md)] table, such as account. Synchronizing an integration table mapping enables you to synchronize data in all records of the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] table that are coupled. Additionally, depending on the configuration of the table mapping, synchronization can create and couple new records in the destination solution for uncoupled records in the source.  
 
 Manually synchronizing integration table mappings can be useful during the initial set up of an integration, and when diagnosing synchronization errors.  

@@ -15,6 +15,8 @@ ms.author: bholtorf
 ---
 
 # Data Ownership Models
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+
 [!INCLUDE[d365fin](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) in the Power Apps documentation. When you set up integration between [!INCLUDE[d365fin](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)] you must choose one of two ownership models for records that are synchronized:
 
 * Team 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2020
+ms.date: 11/16/2020
 ms.author: jswymer
 
 ---
@@ -19,7 +19,7 @@ There are a few things that you can do that will help you scan, find, and limit 
 For reports and XMLports, as on lists, you can set filters to delimit which data to include in the report or XMLport, but you cannot sort and search.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use basic filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
+> When viewing your data as tiles, you can search and use filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -41,11 +41,18 @@ At the top of each list page, there is a ![Search list](media/ui-search/search-l
 
 To search, simply choose the **Search** action, and then in the box, type the text that you are looking for. You can enter letters, numbers, and other symbols.
 
-### Fine-tuning the Search
-
 In general, search will attempt to match text across all fields. It does not distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
-However, you can make a more exact search by using special characters.
+> [!TIP]
+> You can press **F3** to activate and deactivate the search box. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
+
+
+### Fine-tuning the Search with Filter criteria
+
+You can make a more exact search by using filter operators, expressions and filter tokens. Unlike filtering, these are applied across all fields when used in the search box, making them less efficient than filtering.
 
 - To find only field values that match the entire text and case exactly, place the search text between single quotes `''` (for example, `'man'`).
 
@@ -65,11 +72,6 @@ The following table provides some examples to explain how you can use the search
 |`@Man*`|All records with fields that start with **man**, regardless of the case. For example, **Manchester** and **manual**, but not **Sportsman**.|
 |`@*man`|All records that end with **man**, regardless of the case. For example **Sportsman**, but not **Manchester** or **manual**.|
 
-> [!TIP]
-> You can press **F3** to activate and deactivate the search box. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
-
-> [!NOTE]  
-> Search will not match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that are not part of a table.
 
 ## <a name="filtering"></a>Filtering
 

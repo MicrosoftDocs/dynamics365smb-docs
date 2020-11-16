@@ -31,7 +31,7 @@ There are a few pieces of information to have ready before you create the connec
 
 ## Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For all authentication types other tha Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
+For all authentication types other than Office 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **CDS Connection Setup** page. For Office 365 authentication, we recommend that you use the **Set up Common Data Service connection** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as ownership model and initial synchronization.  
 
 > [!IMPORTANT]
 > During the setup of the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], the administrator will be asked to give following permissions to a registered Azure application named [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -58,6 +58,10 @@ The [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Connection Setup guide can 
 2. Choose **Set up Common Data Service connection** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
+   > [!NOTE]
+   > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
+
+
 ### To create or maintain the connection manually
 
 The following procedure describes how to set up the connection manually on the **CDS Connection Setup** page. This is also the page where you manage settings for the integration.
@@ -70,16 +74,16 @@ The following procedure describes how to set up the connection manually on the *
     |**Environment URL**|If you own environments in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], we will find those for you when you run the setup guide. If you want to connect to a different environment in another tenant, you can enter the administrator credentials for the environment and we will discover those. |
     |**Enabled**|Start using the integration. If you do not enable the connection now, the connection settings will be saved but users will not be able to access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data from [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can return to this page and enable the connection later.  |
 
-3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit BCI_Company will display in the **Coupled Business Unit** field.
+3. In the **Ownership Model** field, choose whether you want a team entity in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to own new records, or one or more specific users. If you choose **Person**, you must specify each user. If you choose **Team**, the default business unit will be displayed in the **Coupled Business Unit** field.
 
-    <!--Need to verify the details in this table, are these specific to Sales maybe?-->
+    <!-- Need to verify the details in this table, are these specific to Sales maybe? IK: No they are not and no longer relevant 
     Enter the following advanced settings.
 
     |Field|Description|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[d365fin](includes/d365fin_md.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[d365fin](includes/d365fin_md.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[d365fin](includes/d365fin_md.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[d365fin](includes/d365fin_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[d365fin](includes/d365fin_md.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[d365fin](includes/d365fin_md.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
-
+    -->
 4. To test the connection settings, choose **Connection**, and then **Test Connection**.  
 
     > [!NOTE]  

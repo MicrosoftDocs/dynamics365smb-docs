@@ -34,7 +34,7 @@ Some key articles are also listed in the first section in the following table. A
 > [!NOTE]
 > Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prodshort](includes/prodshort.md)] online. If your organization uses a different version of [!INCLUDE[prodshort](includes/prodshort.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
-## See Related Training at [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
 
@@ -49,7 +49,7 @@ Some key articles are also listed in the first section in the following table. A
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Introducing docs.microsoft.com (original blog post)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 

@@ -32,8 +32,8 @@ On report request pages, you can also save filters or use predefined filters. Fo
 ## Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasses the functionality provided in Dynamics NAV.  
 
-## Can I search and filter using the companion apps and AddIns for Microsoft 365?
-On different display targets such as mobile devices or in Outlook, you can search in lists but cannot filter on individual fields in most cases. In the [!INCLUDE[prodshort](includes/prodshort.md)] app for Microsoft Teams, both search and filter are available on lists.
+## Can I search and filter using the companion apps and add-ins for Microsoft 365?
+On different display targets, such as mobile devices or in Outlook, you can search in lists but can't filter on individual fields in most cases. In the [!INCLUDE[prodshort](includes/prodshort.md)] app for Microsoft Teams, both search and filter are available on lists.
 
 ## How do I view how my search terms have been applied to fields in the list?
 After entering search terms in the search box, you can view the exact search criteria and which fields they have been applied to by showing the page inspection pane (**Ctrl+Alt+F1**) and choosing the **Page Filters** tab.

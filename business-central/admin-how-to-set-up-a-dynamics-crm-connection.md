@@ -87,12 +87,14 @@ The following procedure describes how to set up the connection manually on the *
     > If data encryption is not enabled in [!INCLUDE[d365fin](includes/d365fin_md.md)], you will be asked whether you want to enable it. To enable data encryption, choose **Yes** and provide the required information. Otherwise, choose **No**. You can enable data encryption later. For more information, see [Encrypting Data in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in the developer and administration help.  
 
 5. If [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchronization is not already set up, you will be asked whether you want to use the default synchronization setup. Depending on whether you want to keep records aligned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and [!INCLUDE[d365fin](includes/d365fin_md.md)], choose **Yes** or **No**.
-
+<!--
 ## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+
+-->
 
 ## Connecting On-Premises Versions
 

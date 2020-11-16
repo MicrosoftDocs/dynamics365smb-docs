@@ -64,8 +64,7 @@ To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 - With bidirectional synchronization, the job synchronizes from [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], and then from [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## About Inactivity Timeouts
-
-Some job queue entries, such as those that schedule synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry card to prevent the job queue entry from running unnecessarily.  
+Some job queue entries, such as those that schedule synchronization between [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry PAGE to prevent the job queue entry from running unnecessarily.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
 

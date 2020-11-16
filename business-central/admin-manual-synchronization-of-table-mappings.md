@@ -55,7 +55,7 @@ Whether and where a row gets created depends on the synchronization direction. F
 You can view the results of the full synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
 ## Synchronizing All Modified Records
-You can use the **CDS Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] tables and [!INCLUDE[d365fin](includes/cds_long_md.md)] tables that are defined in the table mappings. By default, only records that have been modified since the last time they were synchronized will be synchronized. Synchronization jobs synchronize table mappings in the following order to avoid coupling dependencies between the tables:  
+You can use the **Common Data Service Connection Setup** page to synchronize changes to data in all integration table mappings. This is similar to a full synchronization. It will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] tables that are defined in the table mappings. By default, only data that has been modified since the last synchronization will be synchronized. Synchronization jobs synchronize table mappings in the following order to avoid coupling dependencies between the tables:  
 
 1.  CURRENCY  
 2.  SALESPEOPLE  
@@ -66,16 +66,14 @@ You can use the **CDS Connection Setup** page to synchronize changes to data in 
 You can view the results of the synchronization on the **Integration Synchronization Jobs** page. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).  
 
 > [!TIP]  
->  By modifying the integration table mapping in advance, you can configure the synchronization with filters to control which records are synchronized, or configure it to create new records in the destination solution for uncoupled records in the source. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).
+>  By modifying the integration table mapping in advance, you can create filters to control the data to synchronize, or configure mappings to create new data in the destination solution for uncoupled records or rows in the source. For more information, see [Modify Table Mappings for Synchronization](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### To synchronize records for all tables  
+### To synchronize data for all tables  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Dynamics 365 Sales Connection Setup**, and then choose the related link.
 2.  Choose the **Synchronize Modified Records** action, and then choose **Yes**.  
 
 ## Synchronize Individual Table Mappings
-You can use the **Integration Table Mappings** page to run a synchronization job specific table mappings. This will synchronize data in all coupled records in the [!INCLUDE[d365fin](includes/d365fin_md.md)] table and [!INCLUDE[d365fin](includes/cds_long_md.md)] table that are defined by the table mapping. By default, only records that have been modified since the last time they were synchronized will be synchronized.  
-
-By modifying the integration table mapping in advance, you can configure the synchronization job to create new records in the destination solution for uncoupled records in the source.
+You can use the **Integration Table Mappings** page to run a synchronization job for table mappings. This will synchronize data for all coupled records and rows in the [!INCLUDE[d365fin](includes/d365fin_md.md)] and [!INCLUDE[d365fin](includes/cds_long_md.md)] tables that are defined by the table mapping. By default, only data that has been modified since the last synchronization will be synchronized.  
 
 ### To synchronize records of an integration table mapping  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.

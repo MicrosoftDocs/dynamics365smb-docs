@@ -20,10 +20,10 @@ ms.author: bholtorf
 
 There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[d365fin](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 
-Errors often occur either because of something that a user has done to coupled records or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting a row in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
+Errors often occur either because of something that a user has done to coupled records, or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting data in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
 
 ## Example
-This video shows an example of how to troubleshoot errors that happened while synchronizating with Sales. The process will be the same for all integrations. 
+This video shows an example of how to troubleshoot errors that happened while synchronizing with Sales. The process will be the same for all integrations. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 

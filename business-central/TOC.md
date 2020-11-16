@@ -1594,12 +1594,12 @@
 #### [Business Central Extensions by Other Providers](ui-extensions-other.md)
 ## Integrating with Dynamics 365 Sales
 ### [Integrate with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integrating with Common Data Service
-### [Integrate with Common Data Service](admin-common-data-service.md)
+## Integrating with Microsoft Dataverse
+### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
 ### [Data Ownership Models](admin-cds-company-concept.md)
-### [Setting Up User Accounts for Integrating with Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synchronizing Business Central and Common Data Service](admin-synchronizing-business-central-and-sales.md)
+### [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synchronizing Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)

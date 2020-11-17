@@ -12,6 +12,8 @@ ms.date: 10/01/2020
 ---
 
 # Handling Missing Option Values
+[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+
 [!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
 
 The **Integration Table Mapping** page contains three maps for fields that contain one or more mapped option values. After a full synchronization, the **CDS Option Mapping** page contains the non-mapped options in the three fields respectively.
@@ -32,7 +34,7 @@ The **Integration Table Mapping** page contains three maps for fields that conta
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account entity are mapped to fields on the customer and vendor records:
+The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 
@@ -97,7 +99,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > You must use the same option ID values from [!INCLUDE[d365fin](includes/cds_long_md.md)] when you extend the [!INCLUDE[d365fin](includes/d365fin_md.md)] enum. Otherwise synchronization will fail.
 
 > [!IMPORTANT]  
-> Do not use character "," in the Enum values and captions. This is currently not supported by the [!INCLUDE[d365fin](includes/d365fin_md.md)] runtime.
+> Do not use the ","  character in the enum values and captions. This is currently not supported by the [!INCLUDE[d365fin](includes/d365fin_md.md)] runtime.
 
 > [!NOTE]
 > The first ten characters of the new option value names and captions must be unique. For example, two options named "Transfer 20 working days" and "Transfer 20 calendar days" will cause an error because both have the same first 10 characters, "Transfer 2". Name them, for example, "TRF20 WD" and "TRF20 CD."
@@ -139,3 +141,4 @@ The **Payment Terms** table in [!INCLUDE[d365fin](includes/d365fin_md.md)] will 
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
 ## See Also
+[Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)

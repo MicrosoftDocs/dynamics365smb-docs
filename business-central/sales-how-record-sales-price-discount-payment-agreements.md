@@ -38,14 +38,14 @@ Because sales prices and sales line discounts are based on a combination of item
 ## To set up a sales price for a customer
 The steps to set up sales prices for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
 
-#### [Option 1](#tab/option-1)
+#### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 
     On the **Sales Prices** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
-#### [Option 2](#tab/option-2)
+#### [New Experience](#tab/new-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action. 
 3. Choose **New** to create a new sales price list.
@@ -59,7 +59,7 @@ The steps to set up sales prices for a customer differ, depending on whether you
 ## To set up a sales line discount for a customer
 The steps to set up line discounts for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
 
-#### [Option 1](#tab/option-1)
+#### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 
@@ -71,7 +71,7 @@ The steps to set up line discounts for a customer differ, depending on whether y
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### [Option 2](#tab/option-2)
+#### [New Experience](#tab/new-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Open the price list on which to specify the line discount.
@@ -88,6 +88,7 @@ The steps to set up line discounts for a customer differ, depending on whether y
 ## To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
+#### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer card for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer. <!--Looks like I can only choose customers in this list-->
@@ -104,6 +105,16 @@ Proceed to set up new the sales invoice discount terms.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
+
+---
+
+#### [New Experience](#tab/new-experience)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+2. Choose the customer, and then choose the **Sales Price Lists** action.
+3. 
+
+---
+
 
 ## To work with sales invoice discounts and service charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. 

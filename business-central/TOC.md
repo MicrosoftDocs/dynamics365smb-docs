@@ -450,7 +450,7 @@
 ### Managing Payables
 #### [Payables Overview](payables-manage-payables.md)
 #### Making Payments
-#### [Payments Overview](payables-make-payments.md)
+##### [Making Payments](payables-make-payments.md)
 ##### [Working with General Journals](ui-work-general-journals.md)
 ##### [Record Payments and Refunds](payables-how-post-payments-refunds.md)
 ##### [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md)

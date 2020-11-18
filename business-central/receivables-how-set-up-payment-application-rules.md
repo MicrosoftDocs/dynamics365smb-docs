@@ -37,7 +37,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 > [!NOTE]
-> If you have a lot of open ledger entries, automatic application and matching might take time. To optimize performance, use the **Payment Application Settings** page. For more information, see [Payment Application Settings](receivables-how-set-up-payment-application-rules.md#payment-application-settings).
+> If you have a lot of open ledger entries, automatic application and matching might take time. To optimize performance, use the **Payment Application Settings** page. For more information, see [Optimizing Performance for Automatic and Manual Matching](receivables-how-set-up-payment-application-rules.md#optimizing-performance-for-automatic-and-manual-matching).
 
 ## To set up a payment application rule
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.

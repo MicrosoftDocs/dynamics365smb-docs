@@ -84,7 +84,7 @@ The following table shows which payment application rules are set up in the gene
 | Low              | 5        | No                    | No                             | Multiple Matches               |
 
 ## Optimizing Performance for Automatic and Manual Matching
-Automatic application and matching are great if you do not have a lot of open ledger entries. However, if you do, it might take [!INCLUDE[d365fin](includes/d365fin_md.md)] a few seconds to find matches that meet the confidence criteria. If you often match entries, those seconds can add up. To optimize performance for automatic and manual matching, use the **Payment Application Settings** page to fine-tune how, and what, [!INCLUDE[d365fin](includes/d365fin_md.md)] will apply and match. 
+Automatic application and matching are great if you do not have a lot of open ledger entries. However, if you do, it might take [!INCLUDE[d365fin](includes/d365fin_md.md)] a while to find matches that meet the confidence criteria. If you often match entries, the waiting time can add up. To optimize performance for automatic and manual matching, use the **Payment Application Settings** page to fine-tune how, and what, [!INCLUDE[d365fin](includes/d365fin_md.md)] will apply and match. 
 
 The following table describes the options on on the **Payment Application Settings** page.
 
@@ -92,9 +92,9 @@ The following table describes the options on on the **Payment Application Settin
 |---------|---------|---------|
 |**Disable Suggestions for Apply Manually**     |Do not suggest lines when you open the Payment Application page. This can make the page open faster.        |
 |**Enable Apply Immediately Rules**     |Apply payments to the first match that is found according to the payment application rules. To use this, on the **Payment Application Rules** page you must choose the **Apply Immediately** check box for each rule.         |
-|**Related Party Name Matching**     |Determine who made the payment by matching names in the **Transaction Text** field on payment reconciliation journals. The options are as follows:<br><br> * **String Nearness** tries to find a name that is spelled exactly the same. This is often the most accurate option, however, it is also the slowest.<br><br> * **Exact Match with Permutations** will look for names entered as First Name Last Name, and vice versa, Last Name First Name. For example, John Doe and Doe, John. This is the recommended option. <br><br> * **Disabled** indicates that you do not want to match names.  |
-|Enable Customer Ledger Entries Matching, Enable Vendor Ledger Entries Matching, and Enable Bank Ledger Entries Matching     |Turn matching on or off for specific types of ledger entries. For example, if you do not need to match vendor ledger entries, you can save system resources by turning that off.        |
-|**Match Closing Document No. on Bank Ledger Entries**    |If possible, leave this option turned off.         |
+|**Related Party Name Matching**     |Determine who made the payment by matching names in the **Transaction Text** field on payment reconciliation journals. The options are as follows:<br><br> * **String Nearness** will allow for names that are not spelled exactly the same. For example, it will allow for typos, abbreviations, permutations, and so on. This is often the most accurate option, however, it is also the slowest.<br><br> * **Exact Match with Permutations** will look for names entered as First Name Last Name, and vice versa, Last Name First Name. For example, John Doe and Doe, John. This is the recommended option. <br><br> * **Disabled** indicates that you do not want to match names. Use this option if you do not include names in transaction texts.  |
+|**Enable Customer Ledger Entries Matching**, **Enable Vendor Ledger Entries Matching**, and **Enable Bank Ledger Entries Matching**     |Turn matching on or off for specific types of ledger entries. For example, if you do not need to match vendor ledger entries, you can save system resources by turning that off.        |
+|**Match Closing Document No. on Bank Ledger Entries**    |If possible, leave this option turned off. This option will increase the confidence in matching, however, it will slow down the process.        |
 
 ## See Related Training at [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 

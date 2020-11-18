@@ -12,7 +12,6 @@ ms.author: edupont
 
 ---
 # Set Up Jobs
-
 As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
@@ -44,6 +43,10 @@ When the **Apply Usage Link by Default** check box is selected, and the job plan
 2. Select the **Apply Usage Link by Default** check box.
 
 ## To set up prices for job resources
+> [!NOTE]
+> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
+
+#### [Current Experience](#tab/current-experience)
 You can set up specific prices for resources for a job. You use the **Job Resource Prices** page to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -57,6 +60,12 @@ The value in the **Unit Price** field for the resource will be used on the job p
 > [!NOTE]  
 >   This price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.
 
+---
+#### [New Experience](#tab/new-experience)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+2. Select the relevant job, and then choose the **Sales Price Lists** action.
+
+---
 ## To set up prices for job items
 You can set up specific prices for items for a job. You use the **Job Item Prices** page to do this.
 

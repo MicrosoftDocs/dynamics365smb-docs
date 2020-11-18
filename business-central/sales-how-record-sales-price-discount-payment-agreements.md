@@ -15,13 +15,13 @@ ms.author: bholtorf
 ---
 # Record Special Sales Prices and Discounts
 > [!NOTE]
-> In 2020 release wave 2 we released streamlined processes for setting up and managing sales prices and discounts. Whether or not you are using the new processes depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md). Option 2 in the steps in this topic describe the new processes.
+> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
 
 The price and discount agreements that apply when selling to customers must be defined so that the agreed rules and values are applied to sales documents.
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists.
+Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, and starting and ending dates exists.
 
 Concerning discounts, you can set up and use two types of sales discounts:
 
@@ -30,13 +30,21 @@ Concerning discounts, you can set up and use two types of sales discounts:
 | **Sales Line Discount** |An amount discount that is inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists. This works in the same way as for sales prices. |
 | **Invoice Discount** |A discount percentage that is subtracted from the sales document total if the sum of all lines on the document exceeds a certain minimum. |
 
-Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item card of the item where the rules and values apply.
+Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item page of the item where the rules and values apply.
 
 > [!TIP]  
-> If an item should never be sold with a discount, leave the discount fields on the item card empty, and do not include the item in any line discount setups.
+> If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
+
+The **Applies-to Type** and **Applies-to No.** fields let you choose what this price list will apply to, such as customer or customer price group. Using **View Columns for, you can show or hide columns relevant for setting prices, discounts or prices and discounts.
+
+You can set up Price List lines manually or you can use, for example, the Suggest Lines action to create new prices for selected items, item discount groups, resources, and other product types. If you choose Suggest Lines, the Price Lines - Create New page allows you to set filters to select products for which you want to create new price list lines. You can also specify whether to consider a Minimum quantity when calculating prices, the adjustment factor to apply for new price list lines, and the rounding method to apply for prices. The Copy Lines action allows you to copy existing price list lines between price lists.
+
+By default, the status of new price lists is Draft. When you're done adding lines and want the price calculation engine to include it, you can change the status to Active.
+
+To review price lists and prices that apply for specific customers or vendors, on the Customer page, choose Sales Price Lists or, on the Vendor page, choose Purchase Price Lists. You can view price list lines set in various price lists by choosing Sales Prices or Purchase Prices from the Item and Resource pages.
 
 ## To set up a sales price for a customer
-The steps to set up sales prices for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
+These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
 #### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
@@ -57,7 +65,7 @@ The steps to set up sales prices for a customer differ, depending on whether you
 ---
 
 ## To set up a sales line discount for a customer
-The steps to set up line discounts for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. Option 2 describes the new feature.
+The steps to set up line discounts for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
 #### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
@@ -71,12 +79,12 @@ The steps to set up line discounts for a customer differ, depending on whether y
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
+---
 #### [New Experience](#tab/new-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
-3. Open the price list on which to specify the line discount.
-4. Create a new line, or choose the an existing line
-5. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Open the price list for which to specify the line discount.
+4. Create a new line, or choose an existing line, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. In the **Defines** field, choose either **Price & Discount**, or just **Discount**. 
 7. In the **Line Discount %** field, specify the discount percentage.
 
@@ -90,7 +98,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 
 #### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Open the customer card for a customer that will be eligible for invoice discounts.
+2. Open the customer page for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer. <!--Looks like I can only choose customers in this list-->
 
 > [!NOTE]  
@@ -98,7 +106,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 
 Proceed to set up new the sales invoice discount terms.
 
-1. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
+1. On the **Customers** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
 2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.

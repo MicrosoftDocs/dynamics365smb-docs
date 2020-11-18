@@ -101,7 +101,8 @@
 ### [Setting Up Business Central](setup.md)
 ### Setting Up Finance
 #### [Setting Up Finance](finance-setup-finance.md)
-#### [Defining Payment Methods](finance-payment-methods.md)
+#### [Set Up Payment Methods](finance-payment-methods.md)
+#### [Set Up Payment Terms](finance-payment-terms.md)
 #### [Setting Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)

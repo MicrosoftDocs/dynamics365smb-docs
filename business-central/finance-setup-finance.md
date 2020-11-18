@@ -26,7 +26,8 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
+| Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |
+| Specify payment terms to manage due dates and to calculate possible payment discounts.|[Set Up Payment Terms](finance-payment-terms.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|

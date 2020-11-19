@@ -11,7 +11,7 @@ ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2020
-ms.author: bmeier
+ms.author: edupont
 
 ---
 

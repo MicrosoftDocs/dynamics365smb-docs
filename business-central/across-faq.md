@@ -42,7 +42,7 @@ Also, if the capability is published as an extension in AppSource, then there is
 Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## Can I get training in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/browse/?products=dynamics-business-central). For more information, see [Business Central Learning Catalog](readiness/readiness-learning-catalog.md). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
+Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
 
 For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
 
@@ -85,6 +85,10 @@ Yes. When the expiration date for your trial period is approaching we will displ
 > It may take up to two business days to complete the trial extension process.  
 
 For more information about finding a partner, see [How do I find a reselling partner?](#findpartner).  
+
+## What are the service level agreements for the cloud?
+
+[!INCLUDE [service-terms](includes/service-terms.md)]
 
 ## Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[d365fin](includes/d365fin_md.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
@@ -135,6 +139,7 @@ The first releases of [!INCLUDE[prodshort](includes/prodshort.md)] on premises i
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

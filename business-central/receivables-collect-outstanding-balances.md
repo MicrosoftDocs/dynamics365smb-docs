@@ -177,33 +177,33 @@ After you create the finance charge memos, you can modify them. The text that ap
 After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.
 
 ### To set up finance charge terms
+You must set up finance charge terms for each finance charge calculation, and then assign the terms to the customer in the **Fin. Charge Terms Code** field on the **Customer** page.
 
-You must set up a code representing each finance charge calculation. Then you can enter this code in the **Fin. Charge Terms Code** field on customer or vendor cards.
+Finance charges can be calculated using either the average daily balance or the balance due methods.
 
-Finance charges can be calculated using either the average daily balance method or the balance due method.
+* Average daily balance  
+  
+  The number of days the payment is overdue is taken into account:  
+  *Average Daily Balance method* - *Finance Charge* = *Overdue Amount* x *(Days Overdue / Interest Period)* x *(Interest Rate/100)*
 
-* Balance due method
+* Balance due  
+  
+  The finance charge is a percentage of the overdue amount:  
+  *Balance Due method* - *Finance Charge* = *Overdue Amount* x *(Interest Rate / 100)*
 
-    The finance charge is simply a percentage of the overdue amount:  
-    *Balance Due method* - *Finance Charge* = *Overdue Amount* x *(Interest Rate / 100)*
 
-*   Average daily balance method
-
-    The number of days the payment is overdue is taken into account:  
-    *Average Daily Balance method* - *Finance Charge* = *Overdue Amount* x *(Days Overdue / Interest Period)* x *(Interest Rate/100)*
-
-In addition, each code in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to be included on the finance charge memo.
+Additionally, each term in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to include on the finance charge memo.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
 2. Fill in the fields as necessary.
 3. To use more than one combination of finance charge terms, set up a code for each one.
 
-    For each finance charge term, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Finance Charge Terms** page.
+    For each finance charge term, you can specify individual conditions that can include additional fees in both LCY and in foreign currency. You can define additional fees in foreign currencies for each term on the **Finance Charge Terms** page.
 4. Choose the **Currencies** action.
 5. On the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
 
     > [!NOTE]  
-    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, then the LCY finance charge conditions that are set up on the **Finance Charge Terms** page will be used and then converted to the relevant currency.
+    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, the LCY finance charge conditions specified on the **Finance Charge Terms** page will be used and then converted to the relevant currency.
 
     For each finance charge term, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the finance charge memo.  
 6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Finance Charge Text** page.

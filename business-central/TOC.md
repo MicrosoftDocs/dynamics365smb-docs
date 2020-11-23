@@ -542,7 +542,6 @@
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)

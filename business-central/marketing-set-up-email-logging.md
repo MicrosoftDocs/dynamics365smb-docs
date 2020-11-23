@@ -41,7 +41,7 @@ Get started with email logging in two easy steps:
 - Turn an email exchange into a sales opportunity - If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To do that, choose the entry, and then choose the **Create Opportunity** action. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities.md).
 
 ## Connecting On-Premises Versions
-To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange Online for email logging, you must specify some information on the **Marketing Setup** page, or run the assisted setup guide for email logging.
+To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange Online for email logging, you must specify some information on the **Marketing Setup** page, or run the assisted setup guide for email logging. In the **Authentication Type** field, you must choose **Basic**, and enter credentials for the user account for Exchange Online. Then turn on the **Enabled** toggle to start logging email. You cannot use the assisted setup guide for connecting to Exchange on-premises because the guide is only for connecting to Exchange Online.
 
 To connect using an Azure Active Directory account, you must register an application in Azure Active Directory, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. 
 

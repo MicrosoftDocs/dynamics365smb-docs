@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
 ---
 
@@ -200,6 +200,14 @@ When setting a date field, you can either enter the date manually or open a cale
 |Right Arrow|Scroll to the right when the page is zoomed in so that it isn't entirely in view. |
 |Page Down<br />(Fn+Down Arrow)|Go to the next page of the report.|
 |Page Up<br />(Fn+Up Arrow)|Go to the previous page of the report.|
+
+## <a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
+
+|Press these keys<br />(in macOS)|To do this|
+|--------------------------------|----------|
+|Ctrl++|Zoom in on the current page.|  
+|Ctrl+-|Zoom out on the current page.|  
+|Ctrl+0|Zoom in or out to 100% on the current page.|  
 
 ## See also
 

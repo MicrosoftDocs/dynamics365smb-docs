@@ -444,7 +444,6 @@
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block Customers](receivables-how-block-customers.md)
-#### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
@@ -504,6 +503,7 @@
 ### Managing Inventory Costs
 #### [Inventory Costing Overview](finance-manage-inventory-costs.md)
 #### [About Inventory Costing](finance-learn-about-costing.md)
+#### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 #### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
@@ -542,7 +542,6 @@
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
-### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
 ### [Update Currency Exchange Rates](finance-how-update-currencies.md)

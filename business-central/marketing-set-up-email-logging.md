@@ -40,10 +40,14 @@ Get started with email logging in two easy steps:
 - View the content of the email message that was exchanged by clicking the **Show Attachments** action.
 - Turn an email exchange into a sales opportunity - If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To do that, choose the entry, and then choose the **Create Opportunity** action. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities.md).
 
-## Connecting On-Premises Versions
-To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange Online for email logging, you must specify some information on the **Marketing Setup** page, or run the assisted setup guide for email logging.
+## Connecting On-Premises Versions to Microsoft Exchange
+You can connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange on-premises or Exchange Online for email logging. For both versions of Exchange, settings for the connection are available on the **Marketing Setup** page. For Exchange Online, you can also use an assisted setup guide. 
 
-To connect using an Azure Active Directory account, you must register an application in Azure Active Directory, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. 
+### Connecting to Exchange On-premises
+To connect [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email. 
+
+### Connecting to Exchange Online
+To connect to Exchange Online, you must use **OAuth2** as the **Authentication Type**. You must also register an application in Azure Active Directory, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. For more information, see [To register an application in Azure AD for connecting from Business Central to Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
 

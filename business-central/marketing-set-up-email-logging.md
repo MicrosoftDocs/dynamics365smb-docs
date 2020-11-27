@@ -58,12 +58,12 @@ The following steps assume that you use Azure Active Directory to manage identit
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If the redirect URL on the Marketing Setup page is empty, find the suggested redirect URL on the **Email Logging Assisted Setup** page.
 
     > [!NOTE]
-    > If you do not specify the redirect URL, you can do so later by choosing ***Add a platform**, and then choosing **Web** to add the web application and the redirect URL. 
+    > If you do not specify the redirect URL, you can do so later by choosing **Add a platform**, and then choosing **Web** to add the web application and the redirect URL. 
 
 3. Under **Manage**, choose **Manifest**.
-4. Locate the **requiredResourceAccess** property in the manifest, and add the following code in the brackets ([]). 
+4. Locate the **requiredResourceAccess** property in the manifest, and add the following code in the brackets ([]) to add the required permissions. For more information, see [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
 
-```al
+```
 {
     "resourceAppId": "00000002-0000-0ff1-ce00-000000000000",
     "resourceAccess": [
@@ -78,8 +78,6 @@ The following steps assume that you use Azure Active Directory to manage identit
     ]
 }
 ```
-   > [!NOTE]
-   > For more information, see [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application)
 
 5. Choose **Save**.
 6. Under **Manage**, choose **API permissions**, and then confirm that the following permissions are listed:  

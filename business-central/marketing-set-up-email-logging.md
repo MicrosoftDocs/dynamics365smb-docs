@@ -51,7 +51,7 @@ To connect to Exchange Online, you must use **OAuth2** as the **Authentication T
 
 You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
 
-### To register an application in Azure AD for connecting Business Central to Exchange Online
+### To register an application in Azure AD for connecting from Business Central to Exchange Online
 The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. In the Azure Portal, under **Manage**, choose **Authentication**.

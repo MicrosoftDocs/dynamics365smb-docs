@@ -52,13 +52,18 @@ To connect to Exchange Online, you must use **OAuth2** as the **Authentication T
 You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
 
 ### To register an application in Azure AD for connecting Business Central to Exchange Online
-The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) and [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
+The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. In the Azure Portal, under **Manage**, choose **Authentication**.
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in [!INCLUDE[d365fin](includes/d365fin_md.md)]. If the redirect URL on the Marketing Setup page is empty, find the suggested redirect URL on the **Email Logging Assisted Setup** page.
+
+    > [!NOTE]
+    > If you do not specify the redirect URL, you can do so later by choosing ***Add a platform**, and then choosing **Web** to add the web application and the redirect URL. 
+
 3. Under **Manage**, choose **Manifest**.
-4. Locate the requiredResourceAccess property in the manifest, and add the following code in the brackets ([]):
-```
+4. Locate the **requiredResourceAccess** property in the manifest, and add the following code in the brackets ([]). 
+
+```al
 {
     "resourceAppId": "00000002-0000-0ff1-ce00-000000000000",
     "resourceAccess": [
@@ -73,27 +78,27 @@ The following steps assume that you use Azure Active Directory to manage identit
     ]
 }
 ```
+   > [!NOTE]
+   > For more information, see [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application)
+
 5. Choose **Save**.
-6. Under **Manage**, chooose **API**, and then confirm that the following permissions are listed:  
+6. Under **Manage**, choose **API permissions**, and then confirm that the following permissions are listed:  
 
     * EWS.AccessAsUser.All
     * full_access_as_app
 
-
-<!--
-1. Choose **Grant admin consent for org**, and then give consent.
-1. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Marketing Setup** page, or store it in secure storage and provide it in an event subscriber.
-1. Choose **Overview**, and then find the **Application (client) ID** value. This is the client ID of your application. You must enter it either on the **Marketing Setup page**, in the **Client ID** field, or store it in secure storage and provide it in an event subscriber.
-1. In [!INCLUDE[d365fin](includes/d365fin_md.md)], set up email logging on the **Marketing Setup** page, or use the **Email Logging Assisted Setup** guide for assistance with the process.
+7. Under **Manage**, choose **Certificates & Secrets**, and then create a new secret for your app. You will use the secret either in [!INCLUDE[d365fin](includes/d365fin_md.md)], in the **Client Secret** field on the **Marketing Setup** page, or store it in secure storage and provide it in an event subscriber.
+8. Choose **Overview**, and then find the **Application (client) ID** value. This is the client ID of your application. You must enter it either on the **Marketing Setup page**, in the **Client ID** field, or store it in secure storage and provide it in an event subscriber.
+9. In [!INCLUDE[d365fin](includes/d365fin_md.md)], set up email logging on the **Marketing Setup** page, or use the **Email Logging Assisted Setup** guide for assistance with the process.
     * Provide the email account of the user on behalf of whom the scheduled job will connect to Exchange Online and process emails. The user must have a valid license for Exchange Online.
     * Provide the URL for your Exchange Online. Typically, this is the domain that you specified in the user's email address.
     * Provide the **Queue Folder Path** and **Storage Folder Path**.
-1. To start logging email, turn on the **Enabled** toggle.
-1. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Exchange and be an administrator in your Exchange Online). After you sign in you will be prompted to allow your registered application to sign in to Exchange Online on behalf of the organization. You must give consent to complete the setup.
+10. To start logging email, turn on the **Enabled** toggle.
+11. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Exchange and be an administrator in your Exchange Online). After you sign in you will be prompted to allow your registered application to sign in to Exchange Online on behalf of the organization. You must give consent to complete the setup.
 
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it might be because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
--->
+
 ### Using Another Identity and Access Management Service
 If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
 

@@ -46,12 +46,14 @@ To review price lists and prices that apply for specific customers or vendors, o
 ## To set up a sales price for a customer
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
-#### [Current Experience](#tab/current-experience)
+#### [Current Experience](#tab/current-experience)  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
-#### [New Experience](#tab/new-experience)
+#### [New Experience](#tab/new-experience)  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action. 
 3. Choose **New** to create a new sales price list.
@@ -60,13 +62,15 @@ These steps differ, depending on whether your administrator has turned on the **
    * To add many items, choose **Suggest Lines**, and then enter filter criteria to specify the types of items to add. Optionally, you can also enter some additional settings for the items that are specific to the price list. You can change these later, if needed.
    * To copy items from another price list, choose **Copy Lines**, and then choose the price list to copy.
    * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. To start using the price list, in the **Status** field, choose **Active**.
+6. To start using the price list, in the **Status** field, choose **Active**.  
+
 ---
 
 ## To set up a sales line discount for a customer
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
-#### [Current Experience](#tab/current-experience/)
+#### [Current Experience](#tab/current-experience/)  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
@@ -76,7 +80,8 @@ These steps differ, depending on whether your administrator has turned on the **
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### [New Experience](#tab/new-experience/)
+#### [New Experience](#tab/new-experience/)  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Open the price list for which to specify the line discount.
@@ -153,7 +158,7 @@ If no special price can be calculated for the item on the line, then either the 
 ## To copy sales prices
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
-#### [Current Experience](#tab/current-experience/)
+#### [Current Experience](#tab/current-experience/)  
 
 If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job on the **Sales Price Worksheet** page.  
 
@@ -167,9 +172,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
    > [!NOTE]  
    > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
 
----
-
-#### [New Experience](#tab/new-experience/)
+#### [New Experience](#tab/new-experience/)  
 
 The status of the price list must be **Draft**. 
 
@@ -199,8 +202,6 @@ If you want to bulk update item prices, such as increase all item prices by some
 
 > [!NOTE]
 > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, on the **Sales Price Worksheet** page.
-
----
 
 #### [New Experience](#tab/new-experience/)
 

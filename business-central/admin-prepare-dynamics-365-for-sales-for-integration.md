@@ -147,10 +147,52 @@ The following table describes the default synchronization jobs for Sales.
 |POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[d365fin](includes/d365fin_md.md)] posted sales invoices.|From [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
 |Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[d365fin](includes/d365fin_md.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[d365fin](includes/d365fin_md.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. |Not applicable|Not applicable|30|Not applicable| 
 
-### Note for On-Premises Versions
+<!--
+## Connecting Business Central On-Premises Versions Earlier Than Version 16
+The Microsoft Power Platform team has [announced](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration) that it is deprecating the Office365 authentication type. If you are using a Business Central on-premises version that is earlier than version 16, you must use the OAuth authentication type to connect to [!INCLUDE[crm_md](includes/crm_md.md)] online. The steps in this section describe how to make the connection.
+
+### Requirements
+You must have a Microsoft Azure subscription. A trial account will work for application registration.
+
+### To connect a version of Business Central earlier than version 16
+1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your Business Central installation DVD. There are multiple versions of the solution, such as DynamicsNAVIntegrationSolution_v8 or DynamicsNAVIntegrationSolution_v9 or DynamicsNAVIntegrationSolution_v91. The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
+2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. For more information, see [Create a non-interactive user account](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+
+   * Dynamics 365 Business Central Integration Administrator
+   * Dynamics 365 Business Central Integration User
+
+   > [!Important]
+   > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
+
+3.  In Azure portal, create an app registration for [!INCLUDE[d365fin](includes/d365fin_md.md)]. For the steps, see [Register an application in Azure Active Directory](/business-central/dev-itpro/administration/register-app-azure?branch=live#register-an-application-in-azure-active-directory). The settings that are specific to connecting to [!INCLUDE[crm_md](includes/crm_md.md)] are the delegated permissions. The following table lists and describes the permissions.
+
+   |API / Permission Name |Type  |Description  |
+   |---------|---------|---------|
+   |Financials.ReadWrite.All     |Delegated|Required for [!INCLUDE[d365fin](includes/d365fin_md.md)].    |
+   |user_impersonation     |Delegated|Required for [!INCLUDE[crm_md](includes/crm_md.md)].|
+   
+4. In [!INCLUDE[d365fin](includes/d365fin_md.md)], search for **Microsoft Dynamics 365 Connection Setup**, and then choose the related link. 
+5. On the **Microsoft Dynamics 365 Connection Setup** page, in the **Authentication Type** field, choose the option for OAuth. 
+6. Choose the CRM SDK version that matches solution version you imported in step 1.
+7. In the **Server Address** field, enter the URL of your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and then enter the user name and password for the integration user.
+8. In the **Connection String** field, specify the ID of the app registration. This field has two tokens in which the ID of your application should be specified.
+
+   |Token           |Description  |
+   |----------------|-------------|
+   |**AppId**       |Set to the application ID.      |
+   |**RedirectUri** |Set to the application ID, but add the **app://** prefix.         |
+
+    **Example**
+    The following example shows a connection string.
+
+    ```
+    AuthType=OAuth;Username=jsmith@contoso.onmicrosoft.com;Password=****;Url=https://contosotest.crm.dynamics.com;AppId=<your AppId>;RedirectUri=app://<your AppId>;TokenCacheStorePath=;LoginPrompt=Auto
+    ```
+9. Enable the connection.
+-->
 
 > [!Note]
-> If you are connecting an on-premises version of [!INCLUDE[d365fin](includes/d365fin_md.md)] to [!INCLUDE[crm_md](includes/crm_md.md)] and you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). This step is not required when connecting an online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> If you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Use connection strings in XRM tooling to connect to Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). This step is not required when connecting an online version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## See Also
 

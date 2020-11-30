@@ -49,8 +49,6 @@ These steps differ, depending on whether your administrator has turned on the **
 #### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
-
-    On the **Sales Prices** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
 #### [New Experience](#tab/new-experience)
@@ -60,18 +58,17 @@ These steps differ, depending on whether your administrator has turned on the **
 4. On the **General** and **Tax** FastTabs, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. To add items to the list, do one of the following:
    * To add many items, choose **Suggest Lines**, and then enter filter criteria to specify the types of items to add. Optionally, you can also enter some additional settings for the items that are specific to the price list. You can change these later, if needed.
+   * To copy items from another price list, choose **Copy Lines**, and then choose the price list to copy.
    * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
+6. To start using the price list, in the **Status** field, choose **Active**.
 ---
 
 ## To set up a sales line discount for a customer
-The steps to set up line discounts for a customer differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
+These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
 #### [Current Experience](#tab/current-experience/)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
-
-    On the **Sales Line Discounts** page, the **Sales Type** field is pre-filled with **Customer**, and the **Sales Code** field is pre-filled with the customer number.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 > [!Note]
@@ -83,19 +80,37 @@ The steps to set up line discounts for a customer differ, depending on whether y
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Open the price list for which to specify the line discount.
-4. Create a new line, or choose an existing line, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Turn on the **Allow Invoice Disc.** toggle.
+5. Create a new line, or choose an existing line, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. In the **Defines** field, choose either **Price & Discount**, or just **Discount**. 
 7. In the **Line Discount %** field, specify the discount percentage.
 
    > [!TIP]
-   > If you're editing an existing line, you can filter the lines by choosing the appropriate option in the **View Columns For** field.
+   > If you're editing an existing line, you can filter the lines by choosing the appropriate option in the **View Columns for** field.
 
 ---
 
-## To set up an invoice discount for a customer
+## Working with Sales Invoice Discounts and Service Charges
+When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. On the **Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--I can't find this page-->
+
+Before you can use invoice discounts with sales, you must enter certain information in application. You must decide which customers will be granted this type of discount, and the discount percentages you will use.  
+
+If you invoice discounts to be calculated automatically, you can specify this on the **Sales & Receivables Setup** page.  
+
+For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in local currency for domestic customers and in foreign currency for foreign customers.  
+
+You link discount percentages to specific invoice amounts in **Invoice Discounts** pages. You can enter any number of percentages in each page. Each customer can have its own page, or you can link several customers to the same page.  
+
+In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
+
+> [!TIP]  
+> Before you start entering this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
+
+For more information about discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
+
+### To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
-#### [Current Experience](#tab/current-experience/)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer page for a customer that will be eligible for invoice discounts.
 3. In the **Invoice Disc. Code** field, select a code for the relevant invoice discount terms to use to calculate invoice discounts for the customer. <!--Looks like I can only choose customers in this list-->
@@ -113,39 +128,7 @@ Proceed to set up new the sales invoice discount terms.
 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
-#### [New Experience](#tab/new-experience/)
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
-2. Choose the customer, and then choose the **Sales Price Lists** action.
-3. 
-
----
-
-
-## To work with sales invoice discounts and service charges
-When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. 
-
-On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--I can't find this page-->
-
-Before you can use invoice discounts with sales, you must enter certain information in application. You must decide:  
-
-- which customers will be granted this type of discount.  
-- which discount percentages you will use.  
-
-If you invoice discounts to be calculated automatically, you can specify this on the **Sales & Receivables Setup** page.  
-
-For each customer, you can specify whether you will grant invoice discounts if the requirement is satisfied (that is, if the invoice amount is large enough). You can define the terms of the invoice discount in local currency for domestic customers and in foreign currency for foreign customers.  
-
-You link discount percentages to specific invoice amounts in **Cust. Invoice Discounts** pages. You can enter any number of percentages in each page. Each customer can have its own page, or you can link several customers to the same page.  
-
-In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
-
-> [!TIP]  
-> Before you start entering this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
-
-For more information about discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
-
 ## Best Price Calculation
-
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
 
 The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
@@ -160,7 +143,7 @@ The best price is the lowest permissible price with the highest permissible line
     - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
     - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage, using the following criteria:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks whether any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage using the following criteria:
 
     - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
@@ -168,7 +151,9 @@ The best price is the lowest permissible price with the highest permissible line
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## To copy sales prices
+These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
+#### [Current Experience](#tab/current-experience/)
 If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job, which you launch from the **Sales Price Worksheet** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
@@ -180,8 +165,21 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 
 > [!NOTE]  
 > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
+---
 
+#### [New Experience](#tab/new-experience/)
+The status of the price list must be **Draft**. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link. 
+2. Choose the price list to copy, and then choose **Copy Lines**.
+
+> [!NOTE]
+> You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.
+
+---
 ## To bulk update item prices
+
+#### [Current Experience](#tab/current-experience/)
 
 If you want to bulk update item prices, such as increase all item prices by some percentage, you must run the **Suggest Item Price on Wksh.** batch job. You can find a link to the batch job on the **Sales Price Worksheet** page.  
 
@@ -195,6 +193,16 @@ If you want to bulk update item prices, such as increase all item prices by some
 
 > [!NOTE]
 > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them in the **Sales Prices** table, you can use the **Implement Price Changes** batch job, which is found on the **Actions** tab, in the **Functions** group, on the **Sales Price Worksheet** page.
+
+---
+
+#### [New Experience](#tab/new-experience/)
+To update prices for multiple items, you must create a new price list, and then copy the lines from an existing price list. When you copy the lines you can use filters to specify what to copy, and you can specify an integer or decimal number in the **Adjustment Factor** field to increase or decrease prices. The price list must be in the **Draft** status. If needed, you can then deactivate the old price list.
+
+> [!NOTE]
+> You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.
+
+---
 
 ## See Related Training at [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

@@ -1,23 +1,6 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "d365accountant",
-      "build_source_folder": "accountant",
-      "build_output_subfolder": "d365accountant",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "moniker_groups": [],
-      "version": 0
-    },
-    {
       "docset_name": "d365businesscentral",
       "build_source_folder": "business-central",
       "build_output_subfolder": "d365businesscentral",

@@ -18,6 +18,8 @@ ms.author: edupont
 Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Delegate Approval Requests** codeunit daily, to prevent documents from piling up or otherwise block the workflow.
 
 The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
+> [!IMPORTANT]  
+> If you use the SUPER permissions set that comes with [!INCLUDE[d365fin](includes/d365fin_md.md)], you and your users have permissions to run all objects witihin license. That is still not enough for Delegated Admin or users with Device license, who cannot create job queue entires.
 
 A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies what codeunit or report is run, when and how often the entry is run, in what category the job runs, and how it runs.  
 
@@ -47,16 +49,6 @@ The part shows which documents with your ID in the **Assigned User ID** field ar
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
-## Security  
-Job queue entries run based on permissions. Those permissions must allow the execution of the report or codeunit.  
-
-When a job queue is activated manually, it is run with the credentials of the user. When a job queue is activated as a scheduled task, it is run with the credentials of the server instance. When a job is run, it is run with the credentials of the job queue that activates it. However, the user who created that job queue entry must also have permissions. When a job is "run in user session" (such as during background posting), it is run with the credentials of the user who created that job.  
-
-> [!IMPORTANT]  
-> If you use the SUPER permissions set that comes with [!INCLUDE[d365fin](includes/d365fin_md.md)], you and your users have permissions to run all objects. In this case, access for each user is only limited by permissions for data.  
-
-## Using Job Queues Effectively  
-The job queue entry record has many fields whose purpose is to carry parameters into a codeunit that you have specified to be run with a job queue. This also means that codeunits that are to be run via the job queue must be specified with the Job Queue Entry record as a parameter in the **OnRun** trigger. This helps provide an extra level of security, as this prevents users from running random codeunits via the job queue. If the user must pass parameters to a report, the only way to do this is by wrapping the report execution into a codeunit, which then parses the input parameters and enters them into the report before executing it.  
 
 ## Examples of what can be scheduled using job queue
 

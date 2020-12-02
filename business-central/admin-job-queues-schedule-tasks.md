@@ -70,7 +70,7 @@ If you have integrated [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUD
 
 ### Posting of sales and purchase orders with job queue
 Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time. 
-For more information, see [How to Post Multiple Documents at the Same Time](ui-batch-posting.md)
+For more information, see [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
 ## See Also
 

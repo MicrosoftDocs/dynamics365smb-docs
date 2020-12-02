@@ -586,7 +586,6 @@
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ### [Track Packages](sales-how-track-packages.md)
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
-### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
 

@@ -1,6 +1,6 @@
 ---
 title: How to Post Inventory Costs to the General Ledger| Microsoft Docs
-description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
+description: At the end of accounting periods, monthly, yearly or other, a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value to the finance department. Apart from the posting routine that transfers the individual item value entries to dedicated general ledger accounts, several reports, tracing functions, and a special reconciliation tool are available to the auditor or controller responsible for this business-critical work.
 documentationcenter: ''
 author: SorenGP
 

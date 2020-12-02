@@ -21,6 +21,7 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post and New**
 * **Post and Send**
 * **Preview Posting**
+* **Post Batch**
 * **Test Report**
 
 >[NOTE!]For sales order you can also see options related to prepaiment functionality. For more information see [Invoicing Prepayments](finance-invoice-prepayments.md). 

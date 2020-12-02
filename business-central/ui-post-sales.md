@@ -21,9 +21,9 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post and New**
 * **Post and Send**
 * **Preview Posting**
-* **Draft Invoice**
-* **Pro Forma Invoice**
 * **Test Report**
+
+>[NOTE!]For sales order you can also see options related to prepaiment functionality. For more information see [Invoicing Prepayments](finance-invoice-prepayments.md). 
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 

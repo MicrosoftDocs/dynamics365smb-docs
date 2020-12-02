@@ -514,10 +514,7 @@
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)

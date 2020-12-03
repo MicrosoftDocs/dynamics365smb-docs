@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
 
 ---
@@ -24,7 +24,8 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post Batch**
 * **Test Report**
 
->[NOTE!]For sales order you can also see options related to prepaiment functionality. For more information see [Invoicing Prepayments](finance-invoice-prepayments.md). 
+> [NOTE!]
+> For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md). 
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 

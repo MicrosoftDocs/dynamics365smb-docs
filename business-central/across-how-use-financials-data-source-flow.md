@@ -11,7 +11,7 @@ ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 10/01/2020
-ms.author: bmeier
+ms.author: edupont
 ---
 
 # Using [!INCLUDE[prodshort](includes/prodshort.md)] in an Automated Workflow

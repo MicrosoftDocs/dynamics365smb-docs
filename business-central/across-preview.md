@@ -72,7 +72,7 @@ You can also contact the [[!INCLUDE[d365fin](includes/d365fin_md.md)] Sales team
 
 ## Getting Started with Sandboxes
 
-Sandbox environments can be a way for you to practice with [!INCLUDE[d365fin](includes/d365fin_md.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/browse/?products=dynamics-business-central), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) so that you and your colleagues can practice there rather than in your production environment.  
+Sandbox environments can be a way for you to practice with [!INCLUDE[d365fin](includes/d365fin_md.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) so that you and your colleagues can practice there rather than in your production environment.  
 
 If you are a developer, a sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production environment.  
 

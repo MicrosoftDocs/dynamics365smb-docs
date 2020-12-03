@@ -1,5 +1,5 @@
 ---
-title: Meet Microsoft Dynamics 365 Business Central
+title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
 author: edupont04
 
@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 11/12/2020
 ms.author: edupont
 
 ---
@@ -26,7 +26,7 @@ Some key articles are also listed in the first section in the following table. A
 |-|-|  
 |**Business Processes**|-   [Getting Started](product-get-started.md)<br />-   [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administration](admin-setup-and-administration.md)<br />-   [Business Functionality](across-business-functionality.md)<br />-   [Local Functionality](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [General Business Functionality](ui-across-business-areas.md)<br />-   [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)<br />-   [Application Design Details](design-details-application-design.md)<br />- [Customize Business Central](ui-customizing-overview.md)|  
 |**Development and administration content**|-   [Development and Administration for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
-|**Community Resources**|-   [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 Release Plans](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(requires PartnerSource account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+|**Community Resources**|-   [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365 Release Plans](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 > [!TIP]
 > If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
@@ -34,7 +34,7 @@ Some key articles are also listed in the first section in the following table. A
 > [!NOTE]
 > Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prodshort](includes/prodshort.md)] online. If your organization uses a different version of [!INCLUDE[prodshort](includes/prodshort.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
-## See Related Training at [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
 
@@ -45,10 +45,11 @@ Some key articles are also listed in the first section in the following table. A
 [Working with Dimensions](finance-dimensions.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Compliance](compliance/compliance-overview.md)  
+[Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Introducing docs.microsoft.com (original blog post)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 

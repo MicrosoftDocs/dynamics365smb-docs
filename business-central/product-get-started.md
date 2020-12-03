@@ -1,6 +1,6 @@
 ---
-title: Getting Started | Microsoft Docs
-description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
+title: Getting Started
+description: Learn about capabilities and work scenarios in Business Central so that you can get off to a good start.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -30,7 +30,7 @@ For more information, see [Working with [!INCLUDE[d365fin](includes/d365fin_md.m
 > [!TIP]  
 > You can always get back to the Role Center by selecting the company name in the upper left corner.
 
-In the demonstration company, the Business Manager and Accountant Role Centers include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE[prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE[prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/browse/?products=dynamics-business-central). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
+In the demonstration company, the Business Manager and Accountant Role Centers include the Getting Started tile and the Product Videos tile. Both tiles launch pages where you can choose between different videos that can help you get started with different aspects of [!INCLUDE[prodshort](includes/prodshort.md)]. You can find more videos on our YouTube channel. For more information, see [Visit Our Video Library](across-videos.md). You can also find eLearning content for the base version of [!INCLUDE[prodshort](includes/prodshort.md)] on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). If you want more assistance, contact a [!INCLUDE[d365fin](includes/d365fin_md.md)] partner.  
 
 When you are ready to start working and you want to look at some of the business processes that [!INCLUDE[d365fin](includes/d365fin_md.md)] supports, see [Business Functionality](across-business-functionality.md).
 
@@ -82,7 +82,7 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
+[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [How do I find a reselling partner?](across-faq.md#findpartner)
 [Dynamics 365 Documentation](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Release Plan](https://go.microsoft.com/fwlink/?linkid=2047422)  

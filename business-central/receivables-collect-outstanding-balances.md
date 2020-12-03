@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2020
+ms.date: 1    0/01/2020
 ms.author: edupont
 
 ---
@@ -34,7 +34,7 @@ From the customer card, you can create a statement with that customer's transact
 
 ## Reminders
 
-Before you can create reminders, you must set up reminder terms and assign them to your customers. Each reminder term has predefined reminder levels. Each reminder level includes rules about when the reminder will be issued, for example, how many days after the invoice due date or the date of the previous reminder. The contents of the **Finance Charge Terms** page determines whether interest is calculated on the reminder.  
+Before you can create reminders, you must set up reminder terms and assign them to your customers. For more information, see [Set Up Reminder Terms and Levels](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] The contents of the **Finance Charge Terms** page determines whether interest is calculated on the reminder.  
 
 You can periodically run the **Create Reminders** batch job to create reminders for all customers with overdue balances, or you can manually create a reminder for a specific customer and have the lines calculated and filled in automatically.  
 
@@ -43,58 +43,6 @@ After you create the reminders, you can modify them. The text that appears at th
 A customer ledger entry with the **On Hold** field filled in will not prompt the creation of a reminder. However, if a reminder is created on the basis of another entry, an overdue entry marked on hold will also be included on the reminder. Interest is not calculated on lines with these entries.
 
 After you have created reminders and made any needed modifications, you can either print test reports or issue the reminders, typically as email.
-
-### To set up reminder terms
-
-If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms. For each reminder terms code, you can define an unlimited number of reminder levels.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.  
-3. To use more than one combination of reminder terms, set up a code for each one.
-
-### To set up reminder levels
-
-The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
-
-If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
-3. Fill in the fields as necessary.  
-
-    For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Reminder Levels** page.
-4. Choose the **Currencies** action.
-5. On the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
-
-    > [!NOTE]  
-    > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up on the **Reminder Levels** page will be used and then converted to the relevant currency.
-
-    For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.
-
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Reminder Text** page.
-7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field .  
-
-|Placeholder|Value|  
-|-----------------|-----------|  
-|%1|Content of the **Document Date** field on the reminder header|  
-|%2|Content of the **Due Date** field on the reminder header|  
-|%3|Content of the **Interest Rate** field on the related finance charge terms|  
-|%4|Content of the **Remaining Amount** field on the reminder header|  
-|%5|Content of the **Interest Amount** field on the reminder header|  
-|%6|Content of the **Additional Fee** field on the reminder header|  
-|%7|The total amount of the reminder|  
-|%8|Content of the **Reminder Level** field on the reminder header|  
-|%9|Content of the **Currency Code** field on the reminder header|  
-|%10|Content of the **Posting Date** field on the reminder header|  
-|%11|The company name|  
-|%12|Content of the **Add. Fee per Line** field on the reminder header|  
-
-For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe USD 1.200,50 due on 02-02-2014.**.
-
-> [!NOTE]
-> The due date is calculated according to the date formula that you enter. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
-
-After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 
 ### To create a reminder automatically
 
@@ -170,58 +118,16 @@ When a customer does not pay by the due date, you can have finance charges calcu
 > [!NOTE]  
 > You use finance charge memos to calculate interest and finance charges and to inform your customers about interest and finance charges without reminding them of overdue payments. Alternatively, you can calculate interest on overdue payments when you create reminders.  
 
+Before you can create finance charge memos, you must set up terms. For more information, see [Set Up Finance Charge Terms](finance-setup-finance-charges.md).  
+
 You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **Create Finance Charge Memos** function job to create finance charge memos for all or selected customers with overdue balances.  
 
 After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
 
 After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.
 
-### To set up finance charge terms
-You must set up finance charge terms for each finance charge calculation, and then assign the terms to the customer in the **Fin. Charge Terms Code** field on the **Customer** page.
+### To create a finance charge memo manually
 
-Finance charges can be calculated using either the average daily balance or the balance due methods.
-
-* Average daily balance  
-  
-  The number of days the payment is overdue is taken into account:  
-  *Average Daily Balance method* - *Finance Charge* = *Overdue Amount* x *(Days Overdue / Interest Period)* x *(Interest Rate/100)*
-
-* Balance due  
-  
-  The finance charge is a percentage of the overdue amount:  
-  *Balance Due method* - *Finance Charge* = *Overdue Amount* x *(Interest Rate / 100)*
-
-
-Additionally, each term in the Finance Charge Terms table is linked to a subtable, the Finance Charge Text table. For each set of finance charge terms, you can define a beginning and/or an ending text to include on the finance charge memo.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.
-3. To use more than one combination of finance charge terms, set up a code for each one.
-
-    For each finance charge term, you can specify individual conditions that can include additional fees in both LCY and in foreign currency. You can define additional fees in foreign currencies for each term on the **Finance Charge Terms** page.
-4. Choose the **Currencies** action.
-5. On the **Currencies for Fin. Chrg. Terms** page, define for each term a currency code and an additional fee.
-
-    > [!NOTE]  
-    > When you create finance charges in a foreign currency, the foreign currency conditions that you set up here will be used to create finance charge memos. If there are no foreign currency finance charge conditions set up, the LCY finance charge conditions specified on the **Finance Charge Terms** page will be used and then converted to the relevant currency.
-
-    For each finance charge term, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the finance charge memo.  
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Finance Charge Text** page.
-7. To automatically insert related values in the resulting finance charge text, enter the following placeholders in the **Text** field.
-
-|Placeholder|Value|  
-|-----------------|-----------|  
-|%1|Content of the **Document Date** field on the finance charge memo header|  
-|%2|Content of the **Due Date** field on the finance charge memo header|  
-|%3|Content of the **Interest Rate** field on the related finance charge terms|  
-|%4|Content of the **Remaining Amount** field on the finance charge memo header|  
-|%5|Content of the **Interest Amount** field on the finance charge memo header|  
-|%6|Content of the **Additional Fee** field on the finance charge memo header|  
-|%7|The total amount of the reminder|  
-|%8|Content of the **Currency Code** field on the finance charge memo header|  
-|%9|Content of the **Posting Date** field on the finance charge memo header|  
-
-### To create a finance charge memo manually  
 A finance charge memo is similar to an invoice. You can fill in a header manually and have the lines filled in for you, or you can create finance charge memos for all customers automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  

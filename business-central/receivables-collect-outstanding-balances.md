@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 1    0/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
 
 ---
@@ -188,6 +188,8 @@ When you set up finance charge terms and reminder terms, for delayed payment pen
 
 ## See Also
 
+[Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
+[Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

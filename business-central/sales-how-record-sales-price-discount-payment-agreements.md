@@ -85,7 +85,7 @@ These steps differ, depending on whether your administrator has turned on the **
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.
 3. Open the price list for which to specify the line discount.
-4. Turn on the **Allow Invoice Disc.** toggle.
+4. Turn on the **Allow Line Disc.** toggle.
 5. Create a new line, or choose an existing line, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. In the **Defines** field, choose either **Price & Discount**, or just **Discount**. 
 7. In the **Line Discount %** field, specify the discount percentage.
@@ -132,28 +132,6 @@ Proceed to set up new the sales invoice discount terms.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
 The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
-
-## Best Price Calculation
-When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
-
-The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
-
-> [!NOTE]  
-> The following describes how the best price is calculated for sales. The calculation is the same for purchases.
-
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
-
-    - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
-    - Is the item or the item discount group on the line included in any of these price/discount agreements?
-    - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
-    - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
-
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks whether any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage using the following criteria:
-
-    - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
-
-If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## To copy sales prices
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
@@ -211,6 +189,30 @@ To update prices for multiple items, you must create a new price list, and then 
 > You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
 
 ---
+
+## Best Price Calculation
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.
+
+The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates this when it inserts the unit price and the line discount percentage for items on new document and journal lines.
+
+> [!NOTE]  
+> The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
+
+    - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
+    - Is the item or the item discount group on the line included in any of these price/discount agreements?
+    - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
+    - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
+
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks whether any price/discount agreements apply to information on the document or journal line, and then inserts the applicable unit price and line discount percentage using the following criteria:
+
+    - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
+    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
+
+If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
+
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

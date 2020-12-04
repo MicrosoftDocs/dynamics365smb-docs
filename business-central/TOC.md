@@ -518,6 +518,7 @@
 ##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)

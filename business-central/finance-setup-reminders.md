@@ -19,17 +19,17 @@ You can use reminders to remind customers about overdue amounts. [!INCLUDE [remi
 
 ## Reminder terms
 
-If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms. For each reminder terms code, you can define an unlimited number of reminder levels.
+If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
 ### To set up reminder terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. Fill in the fields as necessary.  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. To use more than one combination of reminder terms, set up a code for each one.
 
 ## Reminder levels
 
-The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
+For each reminder terms code, you can define an unlimited number of reminder levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
@@ -39,14 +39,19 @@ If you create more reminders than you have defined levels for, the conditions fo
 2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-    For each reminder level, you can specify individual conditions, which can include additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Reminder Levels** page. 
+    Optionally, for each reminder level, specify additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Reminder Levels** page.  
 
-    The additional fees can be calculated in three different ways that are defined by the **Add. Fee Calculation Type** field.  
+    The additional fees can be calculated in three different ways that are defined by the value of the **Add. Fee Calculation Type** field.  
 
-    - **Fixed**: The **Additional Fee** values on the line on the **Reminder Levels** page are used.  
-    - **Dynamics Single**: The per-line values on the **Additional Fee Setup** page are used.
-    - **Accumulated Dynamic**: The values on the **Additional Fee Setup** page are used.
+    - **Fixed**
 
+        Fees are calculated based on the values of the **Additional Fee** fields on the line for the reminder level itself.  
+    - **Single Dynamic**
+
+        Fees are calculated based on the values of the fields on the relevant line in the **Additional Fee Setup** page for that reminder level.
+    - **Accumulated Dynamic**
+
+        Fees are calculated based on the values of the fields on the combined lines in the **Additional Fee Setup** page for that reminder level.
 4. Choose the **Currencies** action.
 5. On the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
 
@@ -55,7 +60,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 
     For each reminder level, you can specify text that will be printed before (**Beginning Text**) or after (**Ending Text**) on the entries on the reminder.
 
-6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill on the **Reminder Text** page.
+6. Choose the **Beginning Text** or **Ending Text** actions respectively, and fill in the **Reminder Text** page.
 7. To automatically insert related values in the resulting reminder text, enter the following placeholders in the **Text** field .  
 
 |Placeholder|Value|  

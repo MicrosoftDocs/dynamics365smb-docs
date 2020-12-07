@@ -27,8 +27,7 @@ The application adds legislation requirements of Czechia as well as reporting fe
 
 - Statutory Company Information and Company Officials  
 - Financial Documents  
-- Financial Documents  
-- Statutory Statement 
+- Statutory Statement
 - VAT features
   - VAT Statements  
   - VAT Control Report and other reporting  

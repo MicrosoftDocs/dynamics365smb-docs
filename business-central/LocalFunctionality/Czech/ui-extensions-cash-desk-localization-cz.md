@@ -23,7 +23,7 @@ The Cash Desks and Cash Documents features allow you to define cash accounts and
 - Receipt cash document, withdrawal of cash documents and their posting
 - Cash desk cases used as templates for usual accounting transactions
 - Payment application with customer and vendor ledger entries
-- Payment Application with advance invoices
+- Payment Application with advance invoices (not available)
 - Cash desk inventory
 - Output documents (receipt cash document, withdrawal cash document)
 - Reports - Cash Desk Account Book, Cash Desk Book, Cash Desk Hand Over

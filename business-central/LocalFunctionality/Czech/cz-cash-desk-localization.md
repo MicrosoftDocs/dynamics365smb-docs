@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
-# Cash Desk Localization for Czech
+# Cash Desk Localization for Czech (Extension)
 
 In the Czech version of Business Central, the Cash Desk functionality helps companies with the legislation requirements and best practices in cash desk operations.
 

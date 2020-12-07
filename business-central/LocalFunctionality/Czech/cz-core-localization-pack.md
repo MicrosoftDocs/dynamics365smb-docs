@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
-# Core Localization Pack for Czech (Application)
+# Core Localization Pack for Czech (Extension)
 
 This extension includes functionality to help companies with the requirements of Czech accounting and tax legislation and best practices.  
 

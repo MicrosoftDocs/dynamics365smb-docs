@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
-# Cash Desk Localization for Czech
+# Cash Desk Localization for Czech (Extension)
 
 In the Czech version of Business Central, the Cash Desk functionality helps companies with the legislation requirements and best practices in cash desk operations.
 
@@ -23,7 +23,7 @@ The Cash Desks and Cash Documents features allow you to define cash accounts and
 - Receipt cash document, withdrawal of cash documents and their posting
 - Cash desk cases used as templates for usual accounting transactions
 - Payment application with customer and vendor ledger entries
-- Payment Application with advance invoices
+- Payment Application with advance invoices (not available)
 - Cash desk inventory
 - Output documents (receipt cash document, withdrawal cash document)
 - Reports - Cash Desk Account Book, Cash Desk Book, Cash Desk Hand Over

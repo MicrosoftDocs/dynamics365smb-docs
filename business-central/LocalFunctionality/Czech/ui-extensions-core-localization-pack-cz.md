@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
-# Core Localization Pack for Czech (Application)
+# Core Localization Pack for Czech (Extension)
 
 This extension includes functionality to help companies with the requirements of Czech accounting and tax legislation and best practices.  
 
@@ -27,8 +27,7 @@ The application adds legislation requirements of Czechia as well as reporting fe
 
 - Statutory Company Information and Company Officials  
 - Financial Documents  
-- Financial Documents  
-- Statutory Statement 
+- Statutory Statement
 - VAT features
   - VAT Statements  
   - VAT Control Report and other reporting  

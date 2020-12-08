@@ -596,6 +596,11 @@
             "source_path": "business-central/ui-extensions-accountant-portal.md",
             "redirect_url": "finance-accounting",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-report-costs-and-reconcile-with-the-general-ledger.md",
+            "redirect_url": "finance-how-to-post-inventory-costs-to-the-general-ledger",
+            "redirect_document_id": false
         }
 
     ]

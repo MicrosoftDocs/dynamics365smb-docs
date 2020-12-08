@@ -7,13 +7,13 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Compensation, Finance, CZ, Cash
 ms.date: 12/01/2020
-ms.reviewer: v-pejano
+ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
 # Compensation Localization for Czech (Extension)
 
-The Compensation solution helps companies to set off receivables and payables. Compensations are used when the company's customer is also its supplier. Entries to be counted can be entered manually or automatically from the Compensation Card. In addition, there are functions to mark entries to count and recalculating the balance. There is also a print-out of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
+The Compensation solution helps companies set off receivables and payables. Compensations are used when the company's customer is also its supplier. Entries to be counted can be entered manually or automatically from the Compensation Card. In addition, there are functions to mark entries to count and recalculating the balance. There is also a print-out of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
 
 ## Key features
 

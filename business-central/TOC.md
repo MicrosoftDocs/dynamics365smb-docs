@@ -928,11 +928,14 @@
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Compensation Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensation-localization-cz.md)
 #### Inventory
 ##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
+##### [Core Localization Pack for Czech (Base)](LocalFunctionality/Czech/cz-localization-base-pack.md)
+##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)

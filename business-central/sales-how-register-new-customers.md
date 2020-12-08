@@ -58,7 +58,7 @@ The customer template is added to the list of customer templates, so that you ca
 
 ## Deleting customer cards
 
-If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact to Microsoft partner to do so through code.  
+If you have posted a transaction for a customer, you cannot delete the card because the ledger entries may be needed for auditing. To delete customer cards with ledger entries, contact your Microsoft partner to do so through code.  
 
 ## See Also
 

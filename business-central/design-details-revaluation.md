@@ -81,12 +81,12 @@ The valuation date is set to the date of the consumption posting (02-01-20), as 
 |02-15-20|Direct Cost|02-15-20|150.00|3|3|  
 
 ## Expected Cost in Revaluation  
-The revaluable quantity XE "Revaluable Quantity"  XE "Quantity;Revaluable"  is calculated as the sum of quantity XE "quantity"  for completely invoiced XE "Invoice"  item ledger XE "Item Ledger"  entries with a posting date equal to or earlier than the revaluation XE "Revaluation"  date. This means that when some items are received/shipped but not invoiced, their inventory value cannot be calculated XE "Inventory Value" . Items using the Standard costing method are not limited in this respect. XE "Value"  
+The revaluable quantity is calculated as the sum of the quantity for completely invoiced item ledger entries with a posting date equal to or earlier than the revaluation date. This means that when some items are received/shipped but not invoiced, their inventory value cannot be calculated. Items that use the Standard costing method are not limited in this respect.  
 
 > [!NOTE]  
->  Another type of expected cost that can be revalued is WIP inventory, within certain rules. For more information, see the “WIP Inventory Revaluation” section in this topic.  
+>  Another type of expected cost that can be revalued is WIP inventory, within certain rules. For more information, see [WIP Inventory Revaluation](design-details-revaluation.md#wip-inventory-revaluation).  
 
-When calculating the revaluable quantity for items using the Standard costing method, item ledger entries that have not been completely invoiced are included in the calculation. These entries are then revalued when you post the revaluation. When you invoice the revalued entry, the following value entries are created:  
+When calculating the re-valuable quantity for items using the Standard costing method, item ledger entries that have not been completely invoiced are included in the calculation. These entries are then revalued when you post the revaluation. When you invoice the revalued entry, the following value entries are created:  
 
 -   The usual invoiced value entry with an entry type of **Direct Cost**. The cost amount on this entry is the direct cost from the source line.  
 -   A value entry with an entry type of **Variance**. This entry records the difference between the invoiced cost and the revalued standard cost.  
@@ -112,7 +112,7 @@ The following table shows the resulting value entries.
 |3.b.|01-15-20|Revaluation|01-20-20|-150.00|0.00|1|4|  
 |3.c.|01-15-20|Variance|01-15-20|0.00|450.00|1|5|  
 
-## Determining if an Inventory Decrease Is Affected by Revaluation  
+## Determining Whether an Inventory Decrease is Affected by Revaluation  
 The date of the posting or the revaluation is used to determine if an inventory decrease is affected by a revaluation.  
 
 The following table shows the criteria that is used for an item that does not use the Average costing method.  
@@ -162,10 +162,10 @@ Revaluation of WIP inventory implies revaluing components that are registered as
 With this in mind, it is important to establish conventions as to when an item is considered part of the WIP inventory from a financial point of view. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the following conventions exist:  
 
 -   A purchased component becomes part of the raw material inventory from the time of posting a purchase as invoiced.  
--   A purchased/subassembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a production order.  
--   A purchased/subassembled component remains part of the WIP inventory until the time when a production order (manufactured item) is invoiced.  
+-   A purchased/sub-assembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a production order.  
+-   A purchased/sub-assembled component remains part of the WIP inventory until the time when a production order (manufactured item) is invoiced.  
 
-The way the valuation date for the value entry of consumption is set, follows the same rules as for non-WIP inventory. For more information, see the “Determining if an Inventory Decrease Is Affected by Revaluation” section in this topic.  
+The way the valuation date for the value entry of consumption is set, follows the same rules as for non-WIP inventory. For more information, see [Determining Whether an Inventory Decrease is Affected by Revaluation](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 WIP inventory can be revalued as long as the revaluation date is not later than the posting date of the corresponding item ledger entries of type Consumption and as long as the corresponding production order has not been invoiced yet.  
 

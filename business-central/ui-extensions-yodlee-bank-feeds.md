@@ -1,8 +1,6 @@
 ---
-title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension | Microsoft Docs
+title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension
 description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -16,6 +14,7 @@ ms.author: edupont
 
 ---
 # The Envestnet Yodlee Bank Feeds Extension
+
 To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account. This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.
 
 The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.

@@ -17,7 +17,7 @@ The following procedure describes how to set up product posting groups for WHT, 
 
 ### To set up a product posting group for withholding tax  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
+1. Choose the ![A lightbulb icon that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Product Posting Group**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -31,7 +31,7 @@ Finally, you must set up how these posting groups must be used when documents ar
 
 ### To set up posting for withholding tax  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
+1. Choose the ![The lightbulb icon that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **WHT Posting Setup**, and then choose the related link.  
 
 2. Fill in the fields as described in the following table.  
 

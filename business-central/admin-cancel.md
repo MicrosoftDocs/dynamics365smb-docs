@@ -21,9 +21,9 @@ If you want to stop using [!INCLUDE[d365fin](includes/d365fin_md.md)], you can c
 
 If you signed up for the free trial and do not want to continue with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can close your account at any time. We recommend that you export any data before you close your account. 
 
-You must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin center](https://admin.microsoft.com/). 
+You must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin center](https://admin.microsoft.com/).  
 
-If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Microsoft 365 business account, you do not have an Microsoft 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at cancelbusinesscentra@microsoft.com. You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md).  
+If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] using a non-Microsoft 365 business account, you do not have a Microsoft 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[d365fin](includes/d365fin_md.md)] Cancelation team by sending an email message at [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). You must include the name of your [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## Unsubscribing by removing [!INCLUDE[d365fin](includes/d365fin_md.md)] from your Microsoft 365 experience
 

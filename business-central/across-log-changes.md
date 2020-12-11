@@ -63,9 +63,18 @@ You can manage settings for field monitoring, such as whether to send an email n
 > After you add one or more fields and start monitoring, you must sign out of [!INCLUDE[prodshort](includes/prodshort.md)] and sign in again to apply your settings.
 
 ### Working with Field Monitoring
+
 Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain information such as the field for which the value was changed, the original and new values, and who made the change and when they did so. To further investigate a change, choose a value to open the page where it was made. To view a list of all entries, choose **Field Change Entries**.
 
+### Viewing Field Monitoring Telemetry 
+
+You can set up [!INCLUDE[prodshort](includes/prodshort.md)] to send field monitoring activity to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and IT Pro help:
+
+- [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
+
 ## Defining Retention Policies
+
 You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
 
 ## See Also

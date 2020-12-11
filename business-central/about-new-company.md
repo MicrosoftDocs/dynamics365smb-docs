@@ -58,7 +58,14 @@ Once you have the basics in place, you can set up remaining core areas. Then, yo
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-For more information, see [Switching to Another Company or Environment](ui-organization-switch.md).  
+For more information, see [Switching to Another Company or Environment](ui-organization-switch.md). 
+
+## Changing a Company's Name
+
+Once a company has been created, you can't change it's name. But you can change its **Display Name**, which is text that will be shown for the company throughout the application.  
+
+> [!TIP]
+> You can rename a company if you're using [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises.
 
 ## See Also
 

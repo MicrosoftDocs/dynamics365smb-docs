@@ -242,6 +242,14 @@ Administrators can define periods of time during which specified users are able 
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
+
+## Viewing permission changes telemetry 
+
+You can set up [!INCLUDE[prodshort](includes/prodshort.md)] to send changes that are done to permission to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and IT Pro help:
+
+- [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## See Also
 
 [Create Users According to Licenses](ui-how-users-permissions.md)  

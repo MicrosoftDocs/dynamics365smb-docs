@@ -40,6 +40,8 @@ The following table describes the email extensions that are available by default
 > [!NOTE]
 > The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
+
 ## Legacy SMTP Settings and the Email - SMTP Connector Extension
 If you're already using [!INCLUDE[d365fin](includes/d365fin_md.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[d365fin](includes/d365fin_md.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
 

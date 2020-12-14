@@ -29,9 +29,7 @@ Communication happens from group members to the representative. The group repres
 The following list shows the recommended order of the steps to set up a VAT group:
 
 1. Create the setup in Azure Active Directory. For more information, see [Requirements for Authentication](ui-extensions-vat-group.md#requirements-for-authentication).
-2. Share the technical information that VAT group members and the representative need to connect their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants.
-
-  Usually, the VAT group representative has this information, such as the name of the VAT group representative environment to which the VAT group members will submit VAT.
+2. Share the technical information that VAT group members and the representative need to connect their [!INCLUDE[d365fin](includes/d365fin_md.md)] tenants. Usually, the VAT group representative has this information, such as the name of the VAT group representative's environment to which the VAT group members will submit VAT.
 3. Create users in the VAT group representative's [!INCLUDE[d365fin](includes/d365fin_md.md)] that VAT group members can use to authenticate and connect.
 4. Run the **Set up VAT Group Management** assisted setup guide to connect the VAT group members.
 

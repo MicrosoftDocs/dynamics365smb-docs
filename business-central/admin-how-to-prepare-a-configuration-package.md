@@ -170,3 +170,4 @@ After you have vetted and tested all your setup information, you can proceed to 
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+[Analyzing Configuration Package Trace Telemetry](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

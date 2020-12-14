@@ -107,6 +107,8 @@
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
+#### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
+#### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
@@ -514,10 +516,7 @@
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
@@ -586,7 +585,6 @@
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ### [Track Packages](sales-how-track-packages.md)
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
-### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
 
@@ -925,16 +923,19 @@
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
+##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advances](LocalFunctionality/Czech/advances.md)
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Compensation Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensation-localization-cz.md)
 #### Inventory
 ##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
+##### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)

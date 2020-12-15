@@ -19,7 +19,7 @@ Job queues in [!INCLUDE[d365fin](includes/d365fin_md.md)] enables users to sched
 
 The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
 > [!IMPORTANT]  
-> If you use the SUPER permissions set that comes with [!INCLUDE[d365fin](includes/d365fin_md.md)], you and your users have permissions to run all objects witihin license. That is still not enough for Delegated Admin or users with Device license, who cannot create job queue entires.
+> If you use the SUPER permissions set that comes with [!INCLUDE[d365fin](includes/d365fin_md.md)], you and your users have permissions to run all objects within the license. That is still not enough for Delegated Admin or users with Device license, who cannot create job queue entires.
 
 A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies what codeunit or report is run, when and how often the entry is run, in what category the job runs, and how it runs.  
 

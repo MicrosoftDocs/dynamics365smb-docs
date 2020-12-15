@@ -116,7 +116,7 @@ There are a couple ways to get reports to your coworkers and others:
     Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their Power BI Service. See [Upload reports from files](across-working-with-business-central-in-powerbi.md#upload).
 
     > [!NOTE]
-    > Distributing reports in this manner means that refreshing data for reports will done individually by each user. This situation might impact [!INCLUDE[prodshort](includes/prodshort.md)] performance.
+    > Distributing reports in this manner means that refreshing data for reports will be done individually by each user. This situation might impact [!INCLUDE[prodshort](includes/prodshort.md)] performance.
 
 - Share report from your Power BI service
 

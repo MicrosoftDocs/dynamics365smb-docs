@@ -50,7 +50,7 @@ The conflict happens because the destination row was also changed  - the row tim
 These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronize the records again.
 
 ## Remove Couplings Between Records
-When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. On the **Integration Table Mappings** page, you can choose choose **Uncoupling**, and then **Delete Coupling**. Alternatively, on the **Coupled Data Synchronization Errors** page, you can choose the errors and then choose **Remove Couplings**. 
+When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
 
 ## See Also
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

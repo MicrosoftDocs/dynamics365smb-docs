@@ -21,9 +21,7 @@ You can access the company hub by switching to the **Company Hub** role in My Se
 
 ## Company hub home page
 
-If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.  
-
-Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
+If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
 
 > [!TIP]
 > To access a specific company in [!INCLUDE [prodshort](includes/prodshort.md)], choose the name of the company, or choose the **Go To Company** menu item - you are logged in automatically in a new browser tab.

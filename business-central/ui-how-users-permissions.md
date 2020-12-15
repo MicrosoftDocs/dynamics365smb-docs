@@ -42,7 +42,7 @@ When users are assigned a [!INCLUDE[d365fin](includes/d365fin_md.md)] license in
 Use dedicated import functions to add new users or update user information in [!INCLUDE[d365fin](includes/d365fin_md.md)] from the Microsoft 365 Admin Center.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
-2. Choose the or **Update Users from Office 365** action.
+2. Choose the **Update Users from Office 365** action.
 
     If this is the first time you add users from Microsoft 365, choose the **Get New Users from Office 365** action.  
 3. Follow the steps in the guide that appears.

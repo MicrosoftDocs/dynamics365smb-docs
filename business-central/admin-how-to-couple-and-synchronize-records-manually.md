@@ -1,5 +1,5 @@
 ---
-title: Couple and Synchronize Records Manually| Microsoft Docs
+title: Coupling and Synchronizing| Microsoft Docs
 description: Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 Sales table that are coupled.
 services: project-madeira
 documentationcenter: ''
@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 
-# Couple and Synchronize Records Manually
+# Coupling and Synchronizing
 This topic describes how to couple one or more records in [!INCLUDE[d365fin](includes/d365fin_md.md)] with records in Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view Dataverse information from [!INCLUDE[d365fin](includes/d365fin_md.md)], and vice versa. The coupling also enables you to synchronize data between the records. You can couple existing records, or create and couple new records.
 
 > [!Note]
@@ -50,6 +50,9 @@ This topic describes how to couple one or more records in [!INCLUDE[d365fin](inc
 1.  In [!INCLUDE[d365fin](includes/d365fin_md.md)], open the list page for the record, such as the Customers or Contacts list pages.  
 2.  Select the records that you want to synchronize, and then choose the **Synchronize Now** action.  
 3.  If records can be synchronized in one direction, select the option that specifies the direction, and then choose **OK**.  
+
+## Uncoupling Records
+You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page.
 
 ## See Also  
 [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)

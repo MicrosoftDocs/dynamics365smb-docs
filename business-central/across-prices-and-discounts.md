@@ -17,28 +17,34 @@ ms.author: bholtorf
 > [!NOTE]
 > In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
 
-The price and discount agreements that apply when you sell to customers or buy from vendors must be defined so that the agreed rules and values are applied to sales and purchase documents.
+Price and discount strategies for the purchase and sale of items and services are fundamental tools for successful businesses. In [!INCLUDE[d365fin](includes/d365fin_md.md)], after you set up the items and services your company buys and sells, you can define what you pay or charge for them by setting up price lists. Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measure, or perios of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
 
-When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+## Setting Up Prices and Discounts
+Before you create price lists, you must define your pricing and discount strategies on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.
 
-Concerning prices, you can have a special sales price inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, and starting and ending dates exists.
-
-Concerning discounts, you can set up and use two types of sales discounts:
+You can set up and use two types of discounts:
 
 | Discount Type | Description |
 | --- | --- |
-| **Sales Line Discount** |An amount discount that is inserted on sales lines if a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date exists. This works in the same way as for sales prices. |
-| **Invoice Discount** |A discount percentage that is subtracted from the sales document total if the sum of all lines on the document exceeds a certain minimum. |
+| **Line Discount** |A discount amount that is given for lines on sales and purchase documents. Typically, line discounts are based on a combination of customer, item, minimum quantity, unit of measure, or period of time that you define for sales and purchases on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.|
+| **Invoice Discount** |A discount percentage that is subtracted from sales and purchase document total if the sum of all lines on the document exceeds a certain minimum. |
 
 Because sales prices and sales line discounts are based on a combination of item and customer, you can also perform this configuration from the item page of the item where the rules and values apply.
 
 > [!TIP]  
 > If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
 
-The **Applies-to Type** and **Applies-to No.** fields let you choose what this price list will apply to, such as customer or customer price group. Using **View Columns for, you can show or hide columns relevant for setting prices, discounts or prices and discounts.
+## Set Up a Price List 
+You can set up price lists by adding items and services manually for each line, or you can use the **Suggest Lines** action to create new prices for selected items, item discount groups, resources, and other product types. If you choose **Suggest Lines**, on the **Price Lines - Create New** page you can use filters to select the items or services to include on the price list. You can also specify whether to consider a minimum quantity when calculating prices, the adjustment factor to apply for new price list lines, and the rounding method to apply for prices. 
 
-You can set up Price List lines manually or you can use, for example, the Suggest Lines action to create new prices for selected items, item discount groups, resources, and other product types. If you choose Suggest Lines, the Price Lines - Create New page allows you to set filters to select products for which you want to create new price list lines. You can also specify whether to consider a Minimum quantity when calculating prices, the adjustment factor to apply for new price list lines, and the rounding method to apply for prices. The Copy Lines action allows you to copy existing price list lines between price lists.
+By default, the status of new price lists is **Draft**. When you're ready to start using the list, you can change the status to **Active**.
 
-By default, the status of new price lists is Draft. When you're done adding lines and want the price calculation engine to include it, you can change the status to Active.
+To review price lists and prices that apply for specific customers or vendors, on the **Customer** or **Vendor** pages, choose either **Sales Price Lists** or **Purchase Price Lists** action. For items and resources, you can view price list lines by choosing **Sales Prices** or **Purchase Prices** on the **Item** and **Resource** pages.
 
-To review price lists and prices that apply for specific customers or vendors, on the Customer page, choose Sales Price Lists or, on the Vendor page, choose Purchase Price Lists. You can view price list lines set in various price lists by choosing Sales Prices or Purchase Prices from the Item and Resource pages.
+## Copy a Price List
+The **Copy Lines** action allows you to copy existing price list lines between price lists.
+
+## Calculating the Best Price
+When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+
+## See Also

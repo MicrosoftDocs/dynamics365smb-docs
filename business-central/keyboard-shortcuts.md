@@ -32,7 +32,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the ledger entries for a record when you open the record in a card. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 
@@ -203,7 +203,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 ## <a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
 
-|Press these keys<br />(in macOS)|To do this|
+|Press these keys|To do this|
 |--------------------------------|----------|
 |Ctrl++|Zoom in on the current page.|  
 |Ctrl+-|Zoom out on the current page.|  

@@ -22,16 +22,16 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 > Reconnecting through [!INCLUDE[d365fin](includes/cds_long_md.md)] will apply default synchronization settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
 
 ## To upgrade your connection to use Dataverse
-1. Open the **Microsoft Dynamics 365 Connection Setup** page, choose the **Enable** toggle to turn off your existing connection to [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Open the **Dataverse Connection Setup** page, and choose the **Enable** toggle to turn on the connection.
+1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enable** toggle to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Open the **Dataverse Connection Setup** page, and choose the **Enable** toggle to turn on the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)].
   
-   After you enable the CDS connection, the Business Central CDS Base Integration Solution is deployed to Dataverse.
-3. Uninstall the Microsoft Dynamics 365 Business Central Integration solution from your Dynamics 365 Sales. For more information, see [Uninstall or delete a solution topic](/powerapps/developer/common-data-service/uninstall-delete-solution). 
+   After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.
+3. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution. For more information, see [Uninstall or delete a solution](/powerapps/developer/common-data-service/uninstall-delete-solution). 
 
-4. On the **Microsoft Dynamics 365 Connection Setup** page, turn on the **Enable** toggle to connect to [!INCLUDE[crm_md](includes/crm_md.md)].
+4. On the **Microsoft Dynamics 365 Connection Setup** page, turn on the **Enable** toggle to reconnect to [!INCLUDE[crm_md](includes/crm_md.md)].
   
-   After you enable the Sales connection, the Business Central Integration Solution is deployed to Sales. This enables integration with tables that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
-5. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
+   After you enable the connection, the Business Central Integration Solution is deployed to Sales. This enables integration with tables that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
+5. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md).
 
 ## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

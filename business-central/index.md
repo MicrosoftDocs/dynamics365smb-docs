@@ -25,7 +25,7 @@ If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then log in at
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company.  
 
-You can also start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
+You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prodshort](includes/prodshort.md)] online. If your organization uses a different version of [!INCLUDE[prodshort](includes/prodshort.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
@@ -35,9 +35,12 @@ The following sections point to key articles that can help you get familiar with
 ## Business Processes
 
 - [Getting Started](product-get-started.md)
-- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 - [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 - [Administration](admin-setup-and-administration.md)
+- [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+- [Application Design Details](design-details-application-design.md)
+- [Customize Business Central](ui-customizing-overview.md)
 - [Business Functionality](across-business-functionality.md)
 
   - [Finance](finance.md)
@@ -53,11 +56,8 @@ The following sections point to key articles that can help you get familiar with
   - [Manufacturing](production-manage-manufacturing.md)
   - [Warehouse Management](warehouse-manage-warehouse.md)
   - [Service Management](service-service.md)
-- [Local Functionality](LocalFunctionality/Austria/austria-local-functionality.md)
-- [General Business Functionality](ui-across-business-areas.md)
-- [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
-- [Application Design Details](design-details-application-design.md)
-- [Customize Business Central](ui-customizing-overview.md)
+  - [General Business Functionality](ui-across-business-areas.md)
+  - [Local Functionality](LocalFunctionality/about-localization.md)
 
 ## Development and administration content
 

@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
 
 ---
 # Set Up Intercompany
+
 To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
 You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
@@ -86,7 +87,11 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 3. Repeat step 2 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
 ## To set up intercompany dimensions
+
 If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
+
+> [!NOTE]
+> Each company in [!INCLUDE [prodshort](includes/prodshort.md)] must map dimensions to intercompany dimensions for outgoing documents, and map intercompany dimensions to their own dimensions for incoming documents. This mapping helps assure consistency across the companies. For more information, see the [To map intercompany dimensions to your company's dimensions](#to-map-intercompany-dimensions-to-your-companys-dimensions) section.
 
 If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the [To define the intercompany dimensions](intercompany-how-setup.md#to-define-the-intercompany-dimensions) procedure.
 
@@ -109,9 +114,11 @@ When a file exists for the defining intercompany dimensions, intercompany partne
 The lines on the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
-When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.
+When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on *incoming transactions* will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on *outgoing transactions*.
 
-If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.
+If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.  
+
+In the following steps, you first map intercompany dimensions to dimensions for incoming documents in the **Intercompany Dimensions** page. Then, you map dimensions to intercompany dimensions for outgoing documents in the **Dimensions** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
 2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.'
@@ -129,6 +136,7 @@ If any of the intercompany dimensions have the same code as the corresponding di
 10. On the **Dimension Values** page, fill in the **Map-to IC Dimension Value Code** field.
 
 ## See Also
+
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

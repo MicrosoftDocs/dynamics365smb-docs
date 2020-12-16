@@ -1,6 +1,6 @@
 ---
 title: Welcome to Microsoft Dynamics 365 Business Central
-description: Learn about capabilities and work scenarios in Business Central, a business management solution for small and mid-sized organizations.
+description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -16,7 +16,7 @@ ms.author: edupont
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
 
-If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then log in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prodshort](includes/prodshort.md)], see [Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prodshort](includes/prodshort.md)], see [Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
 > [!TIP]
 > Did you land here from inside [!INCLUDE [prodshort](includes/prodshort.md)]? If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
@@ -61,7 +61,7 @@ The following sections point to key articles that can help you get familiar with
 
 ## Development and administration content
 
-- [Development and Administration for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)
+- [Development and Administration](/dynamics365/business-central/dev-itpro/index)
 - [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)

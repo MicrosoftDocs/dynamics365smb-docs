@@ -57,7 +57,7 @@ The following sections point to key articles that can help you get familiar with
   - [Warehouse Management](warehouse-manage-warehouse.md)
   - [Service Management](service-service.md)
   - [General Business Functionality](ui-across-business-areas.md)
-  - [Local Functionality](LocalFunctionality/about-localization.md)
+  - [Local Functionality](about-localization.md)
 
 ## Development and administration content
 

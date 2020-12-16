@@ -12,16 +12,16 @@ ms.author: edupont
 
 ---
 # Send Documents and Emails
-You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[d365fin](includes/d365fin_md.md)]], without having to open an email app. 
+You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)]], without having to open an email app. 
 
 You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
 When you send invoices, you can make it easier for customers to make payments through a payment service, such as PayPal, by automatically adding information and a link to the service in the email. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-To enable emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], start the **Set Up Email** assisted setup guide. For more information, see [Set Up Email](admin-how-setup-email.md).
+To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], start the **Set Up Email** assisted setup guide. For more information, see [Set Up Email](admin-how-setup-email.md).
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]] supports only outbound email communications. You cannot also receive replies from within the app.
+> [!INCLUDE[prod_short](includes/prod_short.md)]] supports only outbound email communications. You cannot also receive replies from within the app.
 
 ## To send documents by email
 This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. <!--update this-->
@@ -49,10 +49,10 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 2. Choose the account to send the email from, and then choose the **Compose Email** action.
 
 ## Documents marked as printed when they are sent
-Some documents in [!INCLUDE[prodshort](includes/prodshort.md)] have a field that specifies how many times the document has been printed. The number in that field <!--"that field?" need a name...--> is also updated if you send the document by email because a PDF file is generated for it. The number is updated even if you don't send the email. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
+Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field that specifies how many times the document has been printed. The number in that field <!--"that field?" need a name...--> is also updated if you send the document by email because a PDF file is generated for it. The number is updated even if you don't send the email. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## Sent Emails and Your Email Outbox
-[!INCLUDE[d365fin](includes/d365fin_md.md)]] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
+[!INCLUDE[prod_short](includes/prod_short.md)]] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
 
 > [!NOTE]
 > Depending on the extension that your company uses for email, administrators can see a list of messages that everyone has sent, but not the content of the messages
@@ -63,4 +63,4 @@ The **Email Outbox** is where you'll find the emails that you saved as drafts, a
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

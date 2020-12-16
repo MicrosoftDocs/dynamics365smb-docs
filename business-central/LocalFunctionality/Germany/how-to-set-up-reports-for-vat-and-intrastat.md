@@ -15,7 +15,7 @@
 
 ---
 # Set Up Reports for VAT and Intrastat
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.  
 
 ### To set up reports for VAT  
 

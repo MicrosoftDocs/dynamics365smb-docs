@@ -16,7 +16,7 @@
 ---
 # Void Electronic Payments
 
-In the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
+In the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)], you can void the exported payment file. By voiding the file, the entire payment journal from which the file was created, will be deleted.  
 
 ## To void electronic payments  
 

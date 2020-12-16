@@ -30,4 +30,4 @@ To use electronic banking services to import bank statements and  export payment
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

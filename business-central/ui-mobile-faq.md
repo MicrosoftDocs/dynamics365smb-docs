@@ -15,11 +15,11 @@ ms.author: edupont
 
 # Mobile Apps FAQ
 
-This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prodshort](includes/prodshort.md)].  
+This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## Is there an app for my device?
 
-Probably! Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
+Probably! Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
 
 - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
 - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -29,7 +29,7 @@ Probably! Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mo
 
 No, not exactly. For example, we show only the **Home** activity group due to the limited screen size on mobile devices. Similarly, the keyboard shortcuts are not available because you mainly use touch rather than a keyboard to navigate on mobile devices.
 
-The following table describes some of the most common differences and limitations that you might experience when using [!INCLUDE [prodshort](includes/prodshort.md)] on mobile devices, compared to the browser.
+The following table describes some of the most common differences and limitations that you might experience when using [!INCLUDE [prod_short](includes/prod_short.md)] on mobile devices, compared to the browser.
 
 | Concept | On tablets | On phones | Example from the browser |
 |--|--|--|--|

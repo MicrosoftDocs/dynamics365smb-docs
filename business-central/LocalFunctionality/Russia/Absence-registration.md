@@ -15,7 +15,7 @@ ms.author: soalex
 
 All types of absence which are paid according to the legislation on average earnings shall be registered by the corresponding types of orders. 
 
-There are four types of orders in [!INCLUDE[prodshort](../../includes/prodshort.md)]:
+There are four types of orders in [!INCLUDE[prod_short](../../includes/prod_short.md)]:
 
 - Vacation; 
 - Travel; 

@@ -55,7 +55,7 @@ After you create the VAT report, you have to submit it to the tax authorities.
 1.  On the **VAT Report** page, choose the **Release** action.  
 2.  Confirm that you want to release the report.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown on the **VAT Report Error Log** page so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
+    [!INCLUDE[prod_short](../../includes/prod_short.md)] validates that the VAT report is set up correctly. If the validation fails, the errors are shown on the **VAT Report Error Log** page so that you can make the appropriate changes. For example, an error displays if you try to release a standard VAT report but you have not yet added any lines to the report.  
 
     When you mark a VAT report as released, it becomes non-editable. If you must change the report after marking it as released, you must first reopen it.  
 

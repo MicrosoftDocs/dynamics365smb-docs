@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Upload KLADR
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] supports work with the classifier of addresses of the Russian Federation **KLADR** – the departmental classifier created for distribution of territories between tax inspections and the automated mailing of correspondence.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports work with the classifier of addresses of the Russian Federation **KLADR** – the departmental classifier created for distribution of territories between tax inspections and the automated mailing of correspondence.
 
 Upload of KLADR can be carried out on separate regions as required.  
 

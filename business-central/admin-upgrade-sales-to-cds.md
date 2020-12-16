@@ -14,16 +14,16 @@ ms.author: bholtorf
 
 ---
 # Upgrading an Integration with Dynamics 365 Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] integrates with [!INCLUDE[d365fin](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[d365fin](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
 
-If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[d365fin](includes/d365fin_md.md)], you can continue to synchronize data using your setup. However, if you upgrade [!INCLUDE[d365fin](includes/d365fin_md.md)], or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to synchronize data using your setup. However, if you upgrade [!INCLUDE[prod_short](includes/prod_short.md)], or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
 > [!NOTE]
-> Reconnecting through [!INCLUDE[d365fin](includes/cds_long_md.md)] will apply default synchronization settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
+> Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] will apply default synchronization settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
 
 ## To upgrade your connection to use Dataverse
 1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enable** toggle to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Open the **Dataverse Connection Setup** page, and choose the **Enable** toggle to turn on the connection to [!INCLUDE[d365fin](includes/cds_long_md.md)].
+2. Open the **Dataverse Connection Setup** page, and choose the **Enable** toggle to turn on the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
    After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.
 3. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.

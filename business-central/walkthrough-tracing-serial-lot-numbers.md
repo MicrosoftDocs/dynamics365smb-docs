@@ -46,7 +46,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 To complete this walkthrough, you will need:  
 
-- The [!INCLUDE[d365fin](includes/d365fin_md.md)] company.  
+- The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
 - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
 
 ## Story

@@ -74,7 +74,7 @@ Different account types, such as a customer account and an item account, can hav
 4.  Repeat the procedure for each source code for which you want to set up default dimension priorities.  
 
 > [!IMPORTANT]  
->  If you set up two tables with the same priority for the same source code, [!INCLUDE[d365fin](includes/d365fin_md.md)] will always select the table with the lowest table ID.  
+>  If you set up two tables with the same priority for the same source code, [!INCLUDE[prod_short](includes/prod_short.md)] will always select the table with the lowest table ID.  
 
 ### To set up dimension combinations  
 To avoid posting entries with contradictory or irrelevant dimensions, you can block or limit specific combinations of two dimensions. A blocked dimension combination means that you cannot post both dimensions on the same entry regardless of what the dimension values are. A limited dimension combination lets you post both dimensions to the same entry, but only for certain combinations of dimension values.
@@ -92,14 +92,14 @@ To avoid posting entries with contradictory or irrelevant dimensions, you can bl
 4.  Now select a dimension value combination that is blocked and enter **Blocked** in the field. A blank field means that the dimension value combination is allowed. Repeat if multiple combinations are blocked.  
 
 > [!NOTE]  
->  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
+>  The same dimensions are displayed in both rows and columns and, therefore, all dimension combinations appear two times. [!INCLUDE[prod_short](includes/prod_short.md)] automatically displays the setting in both fields. You cannot select anything in the fields from the upper-left corner and down, because these fields have the same dimension in both rows and columns.  
 >   
 >  The selected option is not visible before you exit the field.  
 >   
 >  To show the name of the dimensions instead of the code, select the **Show Column Name** field.
 
 ### To set up global and shortcut dimensions
-Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
+Global and shortcut dimensions can be used as a filter anywhere in [!INCLUDE[prod_short](includes/prod_short.md)], including on reports, batch jobs, and analysis views. Global and shortcut dimensions are always available to be inserted directly without first opening the **Dimensions** page. On journal and document lines, you can select global and shortcut dimensions in a field on the line. You can set up two global dimensions and eight shortcut dimensions. Choose the dimensions that you use most frequently.
 
 > [!Important]  
 > Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. You can perform this task with the **Change Global Dimensions** function, but it can be time-consuming and may affect performance and tables may be locked during the update. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later. <br /><br />
@@ -128,7 +128,7 @@ When you change a global or shortcut dimension, all entries posted with the dime
 6. If you have selected the **Parallel** mode, choose the **Prepare** action.
 
     The **Log Entries** tab is filled with information about the dimensions that will be changed.
-7. Sign out of [!INCLUDE[d365fin](includes/d365fin_md.md)], and then sign back in.
+7. Sign out of [!INCLUDE[prod_short](includes/prod_short.md)], and then sign back in.
 8. Choose the **Start** action to start the parallel processing of the dimension changes.
 
 ### Example of Dimension Setup
@@ -159,7 +159,7 @@ For **AREA**, you add the following dimension values:
 For the two main geographic areas, Americas and Europe, you add subcategories for regions by indenting the dimension values. This will let you report on sales or expenses in regions, and get totals for the larger geographic areas. You could also choose to use countries or regions as your dimension values, or counties or cities, depending on your business.
 
 > [!NOTE]  
->   To set up a hierarchy, the codes must be in alphabetical order. This includes the codes of the dimension values that are provided in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>   To set up a hierarchy, the codes must be in alphabetical order. This includes the codes of the dimension values that are provided in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 For **DEPARTMENT**, you add the following dimension values:
 
@@ -192,7 +192,7 @@ You can set up default dimensions for accounts or account types, so that dimensi
 ### To view global dimensions in ledger entry pages  
 Global dimensions are always company\-defined and company-named. To see the global dimensions for your company, open the **General Ledger Setup** page.  
 
-In a ledger entry page, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+In a ledger entry page, you can see whether there are global dimensions for the entries. The two global dimensions differ from the rest of your dimensions because you can use them as filters anywhere in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2.  On the **Chart of Accounts** page, choose the **Ledger Entries** action.  
@@ -228,4 +228,4 @@ When you post documents or journal lines that contain dimensions, various errors
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

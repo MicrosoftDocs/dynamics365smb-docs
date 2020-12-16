@@ -67,4 +67,4 @@ If you have posted a transaction for a customer, you cannot delete the card beca
 [Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

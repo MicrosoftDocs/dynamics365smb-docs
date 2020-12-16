@@ -18,7 +18,7 @@
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
 
 > [!NOTE]
-> In addition to the Workflow functionality within [!INCLUDE[d365fin](includes/d365fin_md.md)], you can use Power Automate to define workflows for events in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Note that although they are two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
+> In addition to the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)], you can use Power Automate to define workflows for events in [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
 
  You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. For more information, see [Workflow](across-workflow.md).  
 
@@ -36,11 +36,11 @@ This walkthrough illustrates the following tasks:
 
 Sean is a super user at CRONUS. He creates two approval users. One is Alicia who represents a purchasing agent. The other is himself representing Alicia's approver. Sean then gives himself unlimited purchase approval rights and specifies that he will receive notifications by internal note as soon as a relevant event occurs. Last, Sean creates the required approval workflow as a copy of the existing Purchase Order Approval Workflow workflow template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
 
-To test the approval workflow, Sean first signs in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as Alicia, and then requests approval of a purchase order. Sean then signs in as himself, sees the note on his Role Center, follows the link to the approval request for the purchase order, and approves the request.  
+To test the approval workflow, Sean first signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia, and then requests approval of a purchase order. Sean then signs in as himself, sees the note on his Role Center, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## Users
 
-Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+Before you can set up approval users and their notification method, you must make sure that two users exist in [!INCLUDE[prod_short](includes/prod_short.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
 ### Setting Up Approval Users
 
@@ -91,7 +91,7 @@ Create the purchase order approval workflow by copying the steps from the **Purc
 
 ## Using the Approval Workflow
 
-Use the new Purchase Order Approval Workflow workflow by first signing in to [!INCLUDE[d365fin](includes/d365fin_md.md)] as Alicia to request approval of a purchase order. Then sign in as yourself, view the note on the Role Center, follow the link to the approval request, and then approve the request.  
+Use the new Purchase Order Approval Workflow workflow by first signing in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia to request approval of a purchase order. Then sign in as yourself, view the note on the Role Center, follow the link to the approval request, and then approve the request.  
 
 ### To request approval of a purchase order, as Alicia
 
@@ -112,11 +112,11 @@ The value in the **Status** field on Alicia's purchase order changes to **Releas
 
 You have now set up and tested a simple approval workflow based on the first two steps of the Purchase Order Approval Workflow workflow. You can easily extend this workflow to automatically post Alicia's purchase order when Sean approves it. To do this, you must enable the Purchase Invoice Workflow workflow, in which the response to a released purchase invoice is to post it. First you must change the event condition on the first workflow step from (purchase) **Invoice** to **Order**.  
 
-The generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)] includes a number of workflow templates for scenarios that are supported by the application code. Most of these are for approval workflows.  
+The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] includes a number of workflow templates for scenarios that are supported by the application code. Most of these are for approval workflows.  
 
 You define variations of workflows by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
-If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them through code, or you can set up a workflow using Power Automate. For more information, see [Using [!INCLUDE[prodshort](includes/prodshort.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md) or [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer help, respectively.
+If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them through code, or you can set up a workflow using Power Automate. For more information, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md) or [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer help, respectively.
 
 ## See Also
 

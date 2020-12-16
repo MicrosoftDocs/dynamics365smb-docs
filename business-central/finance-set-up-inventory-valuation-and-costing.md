@@ -15,7 +15,7 @@
 To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions. Typically, businesses choose a specific costing method and apply that to inventory items, for example, to help them track the value of items on stock.  
 
 > [!TIP]
-> For an introduction to costing in [!INCLUDE [prodshort](includes/prodshort.md)], see [About Inventory Costing](finance-learn-about-costing.md).
+> For an introduction to costing in [!INCLUDE [prod_short](includes/prod_short.md)], see [About Inventory Costing](finance-learn-about-costing.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 

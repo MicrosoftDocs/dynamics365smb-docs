@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Set Up Bank Accounts
-You use bank accounts in the [!INCLUDE[d365fin](includes/d365fin_md.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.<br><br>  
+You use bank accounts in the [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
@@ -51,4 +51,4 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 [Setting Up Banking](bank-setup-banking.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

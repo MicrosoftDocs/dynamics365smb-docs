@@ -15,7 +15,7 @@
 
 ---
 # Set Up Initial Item Costs
-When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in your organization.  
+When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)] in your organization.  
 
 On the **Before Start Item Cost** page, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
 

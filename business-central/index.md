@@ -12,31 +12,31 @@ ms.date: 12/15/2020
 ms.author: edupont
 
 ---
-# Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# Welcome to [!INCLUDE[prod_short_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
 
-If you already have [!INCLUDE[prodshort](includes/prodshort.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prodshort](includes/prodshort.md)], see [Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
+If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]](product-get-started.md).  
 
 > [!TIP]
-> Did you land here from inside [!INCLUDE [prodshort](includes/prodshort.md)]? If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
+> Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
 
 ## Overview
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[d365fin](includes/d365fin_md.md)] in your company.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
 
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prodshort](includes/prodshort.md)] online. If your organization uses a different version of [!INCLUDE[prodshort](includes/prodshort.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
+> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
-The following sections point to key articles that can help you get familiar with [!INCLUDE [prodshort](includes/prodshort.md)].  
+The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## Business Processes
 
 - [Getting Started](product-get-started.md)
-- [Setting up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
-- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+- [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
+- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Administration](admin-setup-and-administration.md)
 - [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 - [Application Design Details](design-details-application-design.md)
@@ -79,10 +79,10 @@ The following sections point to key articles that can help you get familiar with
 ## See Also
 
 [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Getting Started with [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as my Business Inbox in Outlook](admin-outlook.md)  
-[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on Your Mobile Device](install-mobile-app.md)  
+[Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]](product-get-started.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
+[Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Compliance](compliance/compliance-overview.md)  
@@ -92,4 +92,4 @@ The following sections point to key articles that can help you get familiar with
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Introducing docs.microsoft.com (original blog post)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

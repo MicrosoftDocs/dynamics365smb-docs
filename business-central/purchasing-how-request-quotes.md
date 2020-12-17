@@ -33,4 +33,4 @@ The purchase quote is removed from the database. A purchase invoice or a purchas
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

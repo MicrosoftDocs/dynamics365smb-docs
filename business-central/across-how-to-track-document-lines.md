@@ -30,4 +30,4 @@ The following procedure describes how to track from a sales order line. The step
 ## See Also
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

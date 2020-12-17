@@ -14,7 +14,7 @@
 
 ---
 # Migrate Customer Data
-You can migrate existing customer data from an existing ERP system to [!INCLUDE[d365fin](includes/d365fin_md.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
 
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.
@@ -83,17 +83,17 @@ When you have determined the tables that you want to transfer customer data to, 
 If the table is empty, the resulting data migration file contains empty cells for the fields you selected when you chose or created migration tables for your new company. If the selected data migration table contains data, it will be exported.  
 
 ## To map values to be used during import
-When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[d365fin](includes/d365fin_md.md)] treats and handles the mapping based on table relations:  
+When you apply data that you have imported from Excel or from a RapidStart package, [!INCLUDE[prod_short](includes/prod_short.md)] treats and handles the mapping based on table relations:  
 
-- If you define a mapping directly for a field in a table, then [!INCLUDE[d365fin](includes/d365fin_md.md)] uses it.  
+- If you define a mapping directly for a field in a table, then [!INCLUDE[prod_short](includes/prod_short.md)] uses it.  
 
-- If the field has a relation to another table, [!INCLUDE[d365fin](includes/d365fin_md.md)] searches for the mapping defined for the primary key field in the related table. The related table, however, must be part of the configuration package.  
+- If the field has a relation to another table, [!INCLUDE[prod_short](includes/prod_short.md)] searches for the mapping defined for the primary key field in the related table. The related table, however, must be part of the configuration package.  
 
-- If mapping information is defined in both places, for the field directly and for the primary key in the related table, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will search for the mapping in both places.  
+- If mapping information is defined in both places, for the field directly and for the primary key in the related table, then [!INCLUDE[prod_short](includes/prod_short.md)] will search for the mapping in both places.  
 
 - If the same mappings are defined directly for a field and in the related table, but have different new values, the mapping that is defined directly for the field takes priority over the mapping that is defined for the table that the field is referencing.  
 
-In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
+In the following procedures, you should review in advance which values you want to retain during the migration process. To perform the following procedures, you need data migration files (.xlsx) that you have exported from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.
 2. Open the package for the company in question.  
@@ -106,16 +106,16 @@ In the following procedures, you should review in advance which values you want 
 9. To apply the mapping that you have set up, choose the **Apply Data** action.  
 
 ### Mapping Example  
-The following example illustrates how [!INCLUDE[d365fin](includes/d365fin_md.md)] implements mapping definitions.  
+The following example illustrates how [!INCLUDE[prod_short](includes/prod_short.md)] implements mapping definitions.  
 
 1. Create a configuration table that has a **Salesperson/Purchaser** table. Define a mapping for the **Code** field.  
 2. Add additional tables to the package, for example, **Customer** and **Vendor**. These tables both reference the **Salesperson/Purchaser** table through the **Salesperson Code** and **Purchaser Code** fields respectively.  
 3. When you apply data, the mapping that you provided for the **Code** field in the the **Salesperson/Purchaser** table will also be considered during the processing of the **Salesperson Code** and **Purchaser Code** fields.
 
-## To add additional values to [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## To add additional values to [!INCLUDE[prod_short](includes/prod_short.md)]  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 2. Select the table for which you want to add additional values, and then, on the **Tables** tab, choose the **Fields** action.  
-3. For the fields for which you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
+3. For the fields for which you want [!INCLUDE[prod_short](includes/prod_short.md)] to permit additional values during migration, select the **Create Missing Codes** check box.  
 4. Import the customer data. For more information, see [To import customer data](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## To clean up and process data before applying data
@@ -138,7 +138,7 @@ For assistance with XML, enable the **Developer** tab of the Excel ribbon, and t
 The following procedure is based on an Excel worksheet that you have created for migration. For more information, see [To export data migration files](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Do not change the columns in the Excel worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Do not change the columns in the Excel worksheets. If they are moved, changed, or deleted, the worksheet cannot be imported into [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. In Excel, open the exported data file. There is a worksheet with the name of the table.
 2. Rename Sheet1 to indicate that the worksheet will be used to transform the data. Copy the header row without its formatting from the exported table to the new worksheet.
@@ -147,10 +147,10 @@ The following procedure is based on an Excel worksheet that you have created for
 5. When you have mapped all of the data, copy the range of data onto the table worksheet.
 6. Save the file and make sure that you do not change the file type.
 
-You are now ready to import the data migration files that contain customer legacy data into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You are now ready to import the data migration files that contain customer legacy data into [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## To import customer data
-When the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[d365fin](includes/d365fin_md.md)].
+When the customer data has been entered in the data migration files in Excel, you import the files into [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Open the **Config. Package Card** page.
 2. Select the table for which you want to import data, and then, on the **Tables** tab, choose the **Import from Excel** action.
@@ -163,7 +163,7 @@ When the customer data has been entered in the data migration files in Excel, yo
 Data from the file is imported into the configuration package tables. In the **No. of Package Records** field, you can see the number of records that have been imported. In addition, you can see the number of migration errors.
 
 ## To validate customer data
-Customer data must be validated before you apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+Customer data must be validated before you apply the records to the [!INCLUDE[prod_short](includes/prod_short.md)] database.  
 
 > [!NOTE]  
 >  In most cases, invalid data is not created in the database. However, the application can occasionally be blocked if an imported migration table contains errors.  
@@ -180,7 +180,7 @@ When you make a correction, the record is removed from the list of records on th
 You are now ready to apply the customer's data to the database.  
 
 ## To apply customer data
-When you have imported all data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+When you have imported all data migration records that are valid and have no errors, you can apply the records to the [!INCLUDE[prod_short](includes/prod_short.md)] database.  
 
 1. Open the **Configuration Packages** page.  
 2. Select the table for the data migration file that you want to apply, and then choose the **Apply Data** action.

@@ -54,4 +54,4 @@ The purpose of WIP inventory valuation is to determine the value of the items wh
 [Design Details: Production Order Posting](design-details-production-order-posting.md)
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

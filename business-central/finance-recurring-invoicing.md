@@ -14,10 +14,10 @@ ms.date: 10/01/2020
 ms.author: andreipa
 
 ---
-# Work with recurring revenue in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Many companies are moving from a business revenue model where revenue is made from a customer's one-time purchase to a subscription model where revenue is made on a recurring basis in return for consistent access to the delivery of a good or service.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
+[!INCLUDE[prod_short](includes/prod_short.md)] has the following options for automating how you send subscription invoices to your customers and register recurring revenue. 
 
 ## Register revenue with a recurring general journal
 
@@ -28,7 +28,7 @@ With a recurring journal, entries that will be posted regularly need to be typed
 
 With this option, you define flexible invoicing periods with [Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
 
-However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 For more information, see [Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -54,7 +54,7 @@ If you often need to create sales and purchase lines with similar information, y
 
 With this option, you can assign the same recurring lines to multiple customers. You can define period of validity for the recurring sales lines for specific customer. You can assign multiple recurring lines to the same customer and all of them will be included in the invoice.
 
-However, there is no way to set fixed prices for items because [!INCLUDE[d365fin](includes/d365fin_md.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
+However, there is no way to set fixed prices for items because [!INCLUDE[prod_short](includes/prod_short.md)] will use the actual prices and discount valid on document date, trying to find best combination that gives the lowest price.  
 
 For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).
 
@@ -74,7 +74,7 @@ However, this option requires the Premium license. Setting up service management
 For more information, see [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md) and [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## Related features
-There are several related capabilities in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+There are several related capabilities in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### Blanket sales orders
 

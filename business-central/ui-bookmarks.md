@@ -77,6 +77,6 @@ When you add a new action, any translated text that was available at the time is
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

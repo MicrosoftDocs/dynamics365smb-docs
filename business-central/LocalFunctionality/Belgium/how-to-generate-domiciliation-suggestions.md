@@ -11,7 +11,7 @@ ms.author: edupont
 
 ---
 # Generate Domiciliation Suggestions
-After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can create domiciliation suggestions for domestic customers only.  
+After you have set up domiciliations, you can start generating domiciliation suggestions. In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create domiciliation suggestions for domestic customers only.  
 
 ## To generate domiciliation suggestions  
 

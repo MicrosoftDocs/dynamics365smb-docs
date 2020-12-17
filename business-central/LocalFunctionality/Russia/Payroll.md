@@ -48,7 +48,7 @@ For each payroll item, a payroll accounting group can be defined, the setup  det
 
 Payroll is performed by a special salary document, individual for each employee.
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] supports two types of payroll documents: 
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports two types of payroll documents: 
 
 - Payment of salary in interperiod; 
 - Basic payroll. 

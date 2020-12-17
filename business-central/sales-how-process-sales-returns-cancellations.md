@@ -223,4 +223,4 @@ Alternatively, delete individual sales return orders manually.
 [Managing Payables](payables-manage-payables.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

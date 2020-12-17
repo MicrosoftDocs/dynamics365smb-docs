@@ -19,7 +19,7 @@ Accounting periods, which are also known as reporting periods, are periods of ti
 
 For many companies the fiscal year does not align with the calendar year. For example, the fiscal year might end on June 30th rather than December 31st. For newly created companies, the fiscal might actually be longer than 12 months.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] only requires accounting periods only if you want to close an income statement, or run data compression tasks. 
+[!INCLUDE[prod_short](includes/prod_short.md)] only requires accounting periods only if you want to close an income statement, or run data compression tasks. 
 
 You can use accounting periods in reporting. For example, when you are reviewing posted entries on the **Balance/Budget** page where the reporting interval can be specified. One of the options you may specify to report by accounting period. You can also build an account schedule that compares results for different accounting periods.
 
@@ -44,7 +44,7 @@ If the accounting periods in your fiscal year have different durations, like the
   
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.  
 2. In the **Starting Date** field, enter the date on which the fiscal year starts. The **Name** field will show the name of the month.  
-3. Choose the **New Fiscal Year** check box to indicate that this is the first period in the year. [!INCLUDE[d365fin](includes/d365fin_md.md)] will use this period to determine which periods to close at year-end.
+3. Choose the **New Fiscal Year** check box to indicate that this is the first period in the year. [!INCLUDE[prod_short](includes/prod_short.md)] will use this period to determine which periods to close at year-end.
 4. Repeat steps 2 and 3 for each remaining period.  
 
 ## Closing a Fiscal Year

@@ -19,7 +19,7 @@ When you export payment files using the AMC Banking 365 Fundamentals extension, 
 > [!CAUTION]  
 >  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which you can export data.  
+The following table lists the fields in [!INCLUDE[prod_short](includes/prod_short.md)] from which you can export data.  
 
 |Mapped Field|Field in Table|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  

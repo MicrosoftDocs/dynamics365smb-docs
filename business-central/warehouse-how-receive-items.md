@@ -119,7 +119,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 2. Post the receipt as you would for any other receipt.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
+> [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -130,4 +130,4 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

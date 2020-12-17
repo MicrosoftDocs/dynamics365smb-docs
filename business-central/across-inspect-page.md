@@ -40,4 +40,4 @@ Users who are not granted permissions on **System object 5330** can still access
 
 ## See Also
 
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

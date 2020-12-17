@@ -68,4 +68,4 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 [Register New Items](inventory-how-register-new-items.md)  
 [Create Special Orders](sales-how-to-create-special-orders.md)|  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -33,7 +33,7 @@ In addition, the following internal source documents exist that function like ou
 
  Processes and UI documents in outbound warehouse flows are different for basic and advanced warehouse configurations. The main difference is that activities are performed order-by-order in basic warehouse configurations, and they are consolidated for multiple orders in advanced warehouse configurations. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](design-details-warehouse-setup.md).  
 
- In [!INCLUDE[d365fin](includes/d365fin_md.md)], the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+ In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Outbound Process|Bins|Picks|Shipments|Complexity Level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  

@@ -19,7 +19,7 @@ Use account schedules to get insight into the financial data stored in your char
 
 You access these two reports, for example, with the **Financials Statements** action on the Business Manager and Accountant Role Centers.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.  
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
@@ -46,7 +46,7 @@ You can use G/L account categories to change the layout of your financial statem
 
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
-The account schedules in the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
+The account schedules in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
 
 The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
 
@@ -117,7 +117,7 @@ Your account schedule can compare the results of different accounting periods, s
 
 An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
 
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -138,7 +138,7 @@ Examples of formulas:
 | \-1FY\[1..CP\]  | From the beginning of previous fiscal year to current period in previous fiscal year, including both periods |
 | \-1FY\[CP..LP\] | From current period in previous fiscal year to last period of previous fiscal year, including both periods   |
 
-If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prodshort](includes/prodshort.md)] compares to the same period 1 year earlier.
+If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period 1 year earlier.
 
 > [!NOTE]
 > It is not always transparent which periods you are comparing because you can set a date filter on a report that spans different dates than the accounting periods that are reflected in the data in the chart of accounts. For example, you create an account schedule where you want to compare this period with the same period last year, so you set the **Comparison Date Formula** field to *-1FY*. Then, you run the report on February 28th and set the date filter to January and February. As a result, the account schedule compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
@@ -153,4 +153,4 @@ For more information about date formulas, see [Working with Calendar Dates and T
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

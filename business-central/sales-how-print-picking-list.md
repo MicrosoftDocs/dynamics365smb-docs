@@ -33,4 +33,4 @@ You can also save the picking list as a document, for example, to send to someon
 ## See Also  
 [Inventory](inventory-manage-inventory.md)  
 [Pick Items](warehouse-pick-items.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

@@ -15,7 +15,7 @@ ms.author: soalex
 ---
 # Manage user settings and preferences
 
-As an administrator, you can user settings in [!INCLUDE[d365fin](includes/d365fin_md.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
+As an administrator, you can user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
 ## Types of user settings
 
@@ -27,27 +27,27 @@ As an administrator, you can user settings in [!INCLUDE[d365fin](includes/d365fi
 
 - **Profile (Roles)**  
 
-  The profile describes the user's function in the company, such as *Sales Manager*, *Bookkeeper*, or *Purchasing Agent*. The profile then determines the user's role center, the home page that users will see when they sign in. The profile does not impact access rights to functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  The profile describes the user's function in the company, such as *Sales Manager*, *Bookkeeper*, or *Purchasing Agent*. The profile then determines the user's role center, the home page that users will see when they sign in. The profile does not impact access rights to functionality in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 - **Locale ID (Regional settings)**  
 
-  Defines how dates and numbers are presented in the [!INCLUDE[d365fin](includes/d365fin_md.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[d365fin](includes/d365fin_md.md)] users are synchronized from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[d365fin](includes/d365fin_md.md)]. An administrator or user can change these settings manually in [!INCLUDE[d365fin](includes/d365fin_md.md)], but they will be reset to the value from Microsoft 365 once the next synchronization is performed.
+  Defines how dates and numbers are presented in the [!INCLUDE[prod_short](includes/prod_short.md)] client, such as whether to use European or American date formats, or how to display the decimal sign and thousand separators in amounts. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronized from Microsoft 365, the regional settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)], but they will be reset to the value from Microsoft 365 once the next synchronization is performed.
 
 - **Language**  
 
-  Defines the application language that [!INCLUDE[d365fin](includes/d365fin_md.md)] presents text, captions, and error messages in. If [!INCLUDE[d365fin](includes/d365fin_md.md)] users are synchronized from Microsoft 365, the language settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[d365fin](includes/d365fin_md.md)]. An administrator or user can change these settings manually in [!INCLUDE[d365fin](includes/d365fin_md.md)], but they will be reset to the value from Microsoft 365 once the next synchronization is performed.
+  Defines the application language that [!INCLUDE[prod_short](includes/prod_short.md)] presents text, captions, and error messages in. If [!INCLUDE[prod_short](includes/prod_short.md)] users are synchronized from Microsoft 365, the language settings from Microsoft 365 are used, assuming that the user wants to use the same settings in Office products and [!INCLUDE[prod_short](includes/prod_short.md)]. An administrator or user can change these settings manually in [!INCLUDE[prod_short](includes/prod_short.md)], but they will be reset to the value from Microsoft 365 once the next synchronization is performed.
 
-  If the language setting from Microsoft 365 matches a supported language in [!INCLUDE[d365fin](includes/d365fin_md.md)], this language will be chosen for the user.  
+  If the language setting from Microsoft 365 matches a supported language in [!INCLUDE[prod_short](includes/prod_short.md)], this language will be chosen for the user.  
 
   > [!NOTE]
-  > You may have to install a language app for [!INCLUDE[d365fin](includes/d365fin_md.md)] to properly display the language. Therefore, it is a good practice to install the necessary language apps before any user logs in the first time so that they have a good experience from their first day. For more information, see the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+  > You may have to install a language app for [!INCLUDE[prod_short](includes/prod_short.md)] to properly display the language. Therefore, it is a good practice to install the necessary language apps before any user logs in the first time so that they have a good experience from their first day. For more information, see the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Time zone**  
 
   Defines the time zone in which the user is located. Currently this is not synchronized from Microsoft 365 and must be set manually.  
 
 > [!NOTE]
-> If a Microsoft 365 user synchronization is made while users are logged into [!INCLUDE[d365fin](includes/d365fin_md.md)], these users must refresh the browser or log out and back in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to see a potential different language set by the synchronization action.
+> If a Microsoft 365 user synchronization is made while users are logged into [!INCLUDE[prod_short](includes/prod_short.md)], these users must refresh the browser or log out and back in to [!INCLUDE[prod_short](includes/prod_short.md)] to see a potential different language set by the synchronization action.
 
 ## Overview of all user settings
 

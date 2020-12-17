@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Tax Registers
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
 
 ## Types of Tax Registers
 

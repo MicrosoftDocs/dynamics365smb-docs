@@ -14,7 +14,7 @@
 
 ---
 # Create a VAT Statement
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  
 
 > [!NOTE]  
 >  As of July 1st 2020, the Austrian authorities changed VAT on certain hospitality services to 5% as a temporary measure part of a plan to stimulate the eoconomy in areas that are hit hard by COVID-19. If you have customers or vendors in the impacted areas, you must create VAT posting groups that reflect the correct VAT rate and use these for transactions created on or after July 1st 2020. To make sure that the new 5% VAT transactions get included correctly in the VAT statements, run the **Update VAT Statement** action from the **Search** field. This will rebuild the VAT statement and include the 5% transactions, ready for reporting in the corresponding box in the official VAT statement PDF template. Additionally, make sure that you aqcuire the official PDF template to use for VAT reporting.  

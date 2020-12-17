@@ -11,30 +11,30 @@ ms.date: 10/01/2020
 
 # Resources for Help and Support
 
-In [!INCLUDE[prodlong](includes/prodlong.md)], the Help menu item (the question mark in the top right corner) gives you access to the **Help & Support** page, where you can find links to resources that can help you find answers to your questions. You can also see how you can contact technical support for your [!INCLUDE[prodshort](includes/prodshort.md)].  
+In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top right corner) gives you access to the **Help & Support** page, where you can find links to resources that can help you find answers to your questions. You can also see how you can contact technical support for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 This page outlines the resources available to you in the different sections of the **Help and Support** page.  
 
 ## Finding Answers
 
-The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prodshort](includes/prodshort.md)] partner, and as a result the behavior can be slightly different.  
+The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
 
 ### Product Help
 
 The **Find it** section includes two links to product Help:
 
-- Help about the page you were just viewing in [!INCLUDE[prodshort](includes/prodshort.md)]  
+- Help about the page you were just viewing in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  This link is automatically generated. If [!INCLUDE[prodshort](includes/prodshort.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prodshort](includes/prodshort.md)].  
-- Help landing page for [!INCLUDE[prodshort](includes/prodshort.md)]  
+  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prodshort](includes/prodshort.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prodshort](includes/prodshort.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prodshort](includes/prodshort.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### Community
 
-In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prodshort](includes/prodshort.md)] community members. Partners and Microsoft employees participate in the conversations.  
+In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
-If you are using a trial version of [!INCLUDE[prodshort](includes/prodshort.md)], and you do not yet have a partner, the Community can help you get unblocked if you have questions.  
+If you are using a trial version of [!INCLUDE[prod_short](includes/prod_short.md)], and you do not yet have a partner, the Community can help you get unblocked if you have questions.  
 
 ### Blog
 
@@ -42,16 +42,16 @@ We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.mic
 
 ### Capabilities Coming Soon
 
-[!INCLUDE[prodshort](includes/prodshort.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
-For the longer term overview, the [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prodshort](includes/prodshort.md)] in the coming years.  
+For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
 
 ## Do More with Your Trial
 
-This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prodshort](includes/prodshort.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prodshort](includes/prodshort.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
+This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
-> This section is only available in trial experiences. If you already bought [!INCLUDE[prodshort](includes/prodshort.md)], the section is not longer visible.
+> This section is only available in trial experiences. If you already bought [!INCLUDE[prod_short](includes/prod_short.md)], the section is not longer visible.
 
 ## Give Feedback
 
@@ -61,36 +61,36 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 ## Troubleshooting
 
-The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prodshort](includes/prodshort.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prodshort](includes/prodshort.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
+The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
 As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) and [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the administration content.  
 
 ## Report a Problem
 
-Your [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner will help you with technical support. [!INCLUDE[prodshort](includes/prodshort.md)] is sold through partners, and this section makes it easy for you to contact your reselling partner if they have submitted their support contact details. If your [!INCLUDE[prodshort](includes/prodshort.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft. For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and this section makes it easy for you to contact your reselling partner if they have submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft. For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> This section is only available if you have paid for a [!INCLUDE[prodshort](includes/prodshort.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prodshort](includes/prodshort.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prodshort](includes/prodshort.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+> This section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
 
 ### Support contacts
 
-The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prodshort](includes/prodshort.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE[prodshort](includes/prodshort.md)].  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
 
 ## Using the docs.microsoft.com site to learn more
 
-The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prodshort](includes/prodshort.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), free [learning paths and e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
+The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prod_short](includes/prod_short.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), free [learning paths and e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
 
 ### Content on the site
 
 The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
 
-The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prodshort](includes/prodshort.md)].  
+The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 The table of contents includes a group of content that describes local functionality for the countries that Microsoft supports. If you do not see your country listed there, it is probably because your country is localized by a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-The local functionality content describes the capabilities in [!INCLUDE [prodshort](includes/prodshort.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the default section of the content on the docs.microsoft.com site, you can hopefully find it in the *Local Functionality* section.  
+The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the default section of the content on the docs.microsoft.com site, you can hopefully find it in the *Local Functionality* section.  
 
 ### Finding other content
 
@@ -103,11 +103,11 @@ If you land on an article that doesn't answer your question, you can find other 
   Underneath each link,  you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top right corner of the website
 
-  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prodshort](includes/prodshort.md)] content that uses that word somewhere in the text.  
+  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
 
 ### Languages
 
-Content about business functionality is published in a number of languages. When you land on the docs.microsoft.com site from inside the product, you see the content in the same language as you have specified in [!INCLUDE [prodshort](includes/prodshort.md)], unless that language is not available on the docs.microsoft.co. site.  
+Content about business functionality is published in a number of languages. When you land on the docs.microsoft.com site from inside the product, you see the content in the same language as you have specified in [!INCLUDE [prod_short](includes/prod_short.md)], unless that language is not available on the docs.microsoft.co. site.  
 
 You can change the language by changing the URL, or you can use the language toggle in the bottom left corner of the website.  
 

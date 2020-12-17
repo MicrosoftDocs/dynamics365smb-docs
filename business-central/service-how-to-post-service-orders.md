@@ -81,7 +81,7 @@ The following procedure describes how to post the items, resource hours, and or 
 The service is posted as consumed either partially or fully, depending on the value in the **Qty. to Consume** field, and the relevant ledger entries are created. In addition,previously posted service shipment documents are updated chronologically with the consumed quantities. The relevant quantities will be updated on the service lines of the order.  
 
 ## To post shipments from service orders  
-After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[d365fin](includes/d365fin_md.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
+After specifying the details of a service, you can adjust and post the quantities of items used, time spent, and costs incurred. As a result, [!INCLUDE[prod_short](includes/prod_short.md)] makes the necessary changes to reflect the new state of your inventory and current status of the specific order processing.  
 
 The following procedure shows how to post shipment of service line items in locations that are not set up to require warehouse handling.  
 
@@ -93,7 +93,7 @@ The following procedure shows how to post shipment of service line items in loca
 
 4. Choose the **Post** action. on the page that appears, choose the **Ship** button.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
+[!INCLUDE[prod_short](includes/prod_short.md)] creates ledger entries (in the warranty ledger, item ledger, service ledger, or G/L), produces the posted service shipment document, and updates the relevant fields on the service lines of the service order.  
 
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
 

@@ -15,7 +15,7 @@ ms.author: edupont
 
 # The QuickBooks Data Migration Extension
 
-This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[d365fin](includes/d365fin_md.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This extension makes it easy to migrate customers, vendors, items, and accounts from QuickBooks to [!INCLUDE[prod_short](includes/prod_short.md)]. If your business uses QuickBooks today, you can export the relevant information and then open an assisted setup guide to upload the data to [!INCLUDE[prod_short](includes/prod_short.md)].  
 For more information, see [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md).
 
 ## Data from QuickBooks Desktop
@@ -46,7 +46,7 @@ An important part of the migration process is to specify the accounts to migrate
 Business Central requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks.
 If transactions in QuickBooks have tax amounts, you must set up a tax account for your tax jurisdictions in Business Central before you can post transactions.
 
-In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The tool will connect to your QuickBooks application and export the applicable data to a .zip file.  
+In order to get your data out of the QuickBooks desktop application you will need to download the Microsoft Data Exporter Tool.  The instructions for the tool are in the Data Migration Wizard in [!INCLUDE[prod_short](includes/prod_short.md)]. The tool will connect to your QuickBooks application and export the applicable data to a .zip file.  
 
 > [!NOTE]
 > Currently the data exporter tool only works with QuickBooks 2017 and 2018.
@@ -66,4 +66,4 @@ Verify the beginning balances for accounts in the general ledger. QuickBooks doe
 ## See Also
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  

@@ -70,7 +70,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 ## See Also
 
-[Local Functionality in [!INCLUDE[prod_short_long](includes/prod_long.md)]](about-localization.md)  
+[Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  
 [Getting Started](product-get-started.md)  
 [Welcome to Business Central](index.md)  

@@ -50,7 +50,7 @@ When dimensions and values are set up, you can define global and shortcut dimens
 * **Shortcut Dimensions** are available as fields on journals, document lines, and ledger entries. You can create up to eight of these.  
 
 > [!NOTE]
-> The shortcut dimensions you specify on the **General Ledger Setup** page 
+> If you set up shortcut dimensions on the **General Ledger Setup** page, the dimensions are available for ledger entries, such as the customer, vendor, item, bank, and job ledger entries.
 
 ### To set up default dimensions for customers, vendors, and other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  

@@ -11,7 +11,7 @@ ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# [!INCLUDE[prod_short_long](includes/prod_long.md)] Trials and Subscriptions
+# [!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is available in an increasing number of countries across the world. If you want to learn about [!INCLUDE[prod_short](includes/prod_short.md)], you can sign up for a free trial. Then, when you are ready, you can talk to a reselling partner about getting a subscription.  
 
@@ -23,7 +23,7 @@ You can sign up for a free trial [here](https://go.microsoft.com/fwlink/?linkid=
 
 Depending on your country or region, the trial includes the languages and functionality that your country or region requires. For more information, see [Changing Language and Locale](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Getting Started page with links to videos that can help you get started. For more information, see [Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]](product-get-started.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Getting Started page with links to videos that can help you get started. For more information, see [Getting Started with [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
 
 If you encounter difficulties, the [Frequently Asked Questions](across-faq.md) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](across-faq.md#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
 

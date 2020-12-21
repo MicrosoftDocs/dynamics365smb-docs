@@ -10,7 +10,7 @@ ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]
+# Getting Started with [!INCLUDE[prod_long](includes/prod_long.md)]
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Signing up is easy, and you can migrate existing business data from your legacy system.  
 
 To help you with your subscription, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
@@ -66,7 +66,7 @@ If you have additional questions, we recommend that you ask the community or con
 
 ## Ready to subscribe?
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, you must contact a Dynamics 365 reselling partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner) and [[!INCLUDE[prod_short_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, you must contact a Dynamics 365 reselling partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner) and [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md).  
 
 ## Other Dynamics 365 apps
 Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 365](/dynamics365/) link in the black banner at the top of this page. You can also learn more at the [Dynamics 365 Business Central website](https://dynamics.microsoft.com/business-central/overview/).  
@@ -80,7 +80,7 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
-[[!INCLUDE[prod_short_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [How do I find a reselling partner?](across-faq.md#findpartner)

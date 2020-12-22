@@ -68,7 +68,10 @@ The following primarily describes how to set up a work center. The steps to set 
 14. In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
 15. Select the **Consolidated Calendar** check box if you are also using machine centers. This ensures that calendar entries are rolled up from machine center calendars.  
 16. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. Note that queue time is added to other non-productive time elements such as wait time and move time that you may define on routing lines using this work center.  
+17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. 
+
+> [!NOTE]
+> Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
 
 ## Example - Different Machine Centers Assigned to a Work Center
 

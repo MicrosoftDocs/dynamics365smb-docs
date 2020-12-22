@@ -17,9 +17,9 @@ ms.author: edupont
 
 # Intelligent Cloud Base Extension
 
-This extension will take you through the process to configure a connection between your on-premises solution and your [!INCLUDE [prodshort](includes/prodshort.md)] online environment, either because you are migrating to the cloud, or because you're connecting to the Intelligent Cloud from your on-premises solution.  
+This extension will take you through the process to configure a connection between your on-premises solution and your [!INCLUDE [prod_short](includes/prod_short.md)] online environment, either because you are migrating to the cloud, or because you're connecting to the Intelligent Cloud from your on-premises solution.  
 
-Once the connection is configured, you can migrate data or manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant. This extension will work in conjunction with a data replication extension available for your specific on-premises solution. For more information, see [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Once the connection is configured, you can migrate data or manage data replications from your on-premises solution to your [!INCLUDE[prod_short](includes/prod_short.md)] cloud tenant. This extension will work in conjunction with a data replication extension available for your specific on-premises solution. For more information, see [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## See Also
 

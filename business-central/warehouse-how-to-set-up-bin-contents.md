@@ -29,7 +29,7 @@ Select the **Fixed** field if necessary. If the bin is to be used as the default
 
 If you are using directed put-away and pick, and if you have entered the correct dimensional information on the item card about each item's units of measure, the maximum quantity that you enter on the **Bin Contents** page is verified against the physical capabilities of the bin. The minimum and maximum quantities are used when calculating bin replenishment and suggested put-aways.  
 
-If you select the **Fixed** field, you are fixing the item to the bin, meaning that [!INCLUDE[d365fin](includes/d365fin_md.md)] will try to put this item in the bin if there is space for it, and it will preserve the record fixing the item to the bin even when the quantity in the bin is 0. Other items can be put into the bin, even though a particular item has been fixed to the bin.  
+If you select the **Fixed** field, you are fixing the item to the bin, meaning that [!INCLUDE[prod_short](includes/prod_short.md)] will try to put this item in the bin if there is space for it, and it will preserve the record fixing the item to the bin even when the quantity in the bin is 0. Other items can be put into the bin, even though a particular item has been fixed to the bin.  
 
 > [!NOTE]  
 > You can set up several bin contents at the same time on the **Bin Content Creation Worksheet** page.  
@@ -61,4 +61,4 @@ In this worksheet, you can work with a number of bin content lines for a number 
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

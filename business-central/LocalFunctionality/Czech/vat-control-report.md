@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # VAT Control Report
 
-The [!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality has been extended with the VAT Control Report feature. The basic page is the **VAT Control Report Card** page. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. The basic setup, i.e. distribution of combinations of VAT posting groups into the individual sections of control report, is determined by the VAT statement.
+The [!INCLUDE[prod_short](../../includes/prod_short.md)] functionality has been extended with the VAT Control Report feature. The basic page is the **VAT Control Report Card** page. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. The basic setup, i.e. distribution of combinations of VAT posting groups into the individual sections of control report, is determined by the VAT statement.
 
 To process the control report, you must set up the VAT control report sections, tariff numbers, VAT statement, stat. reporting setup, and extend the VAT posting setup. The functionality contains:
 

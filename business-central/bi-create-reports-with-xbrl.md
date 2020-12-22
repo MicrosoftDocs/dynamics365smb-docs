@@ -23,7 +23,7 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  • Non-financial information  
  • Regulatory filings, such as annual and quarterly financial statements  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
+ [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
 
 ## eXtensible Business Reporting Language
 XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
@@ -77,7 +77,7 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
    > You can only export data that corresponds to the selection in the **Source Type** field. This includes descriptions and notes.  
 
    > [!NOTE]  
-   > Taxonomies might contain elements that [!INCLUDE[d365fin](includes/d365fin_md.md)] does not support. If an element is not supported, the **Source Type** field will display **Not Applicable** and the **Description** field will show an error message, such as **Unexpected type: "specific type not recognized"**. If you must export the element, choose a matching source type. Typically, this is a constant or a description. This will allow you to enter and export data, however, such elements might have validation rules that cannot be checked before exporting.
+   > Taxonomies might contain elements that [!INCLUDE[prod_short](includes/prod_short.md)] does not support. If an element is not supported, the **Source Type** field will display **Not Applicable** and the **Description** field will show an error message, such as **Unexpected type: "specific type not recognized"**. If you must export the element, choose a matching source type. Typically, this is a constant or a description. This will allow you to enter and export data, however, such elements might have validation rules that cannot be checked before exporting.
 
  ## To import an XBRL taxonomy  
 The first step in working with the XBRL functionality is to import the taxonomy into your company database. A taxonomy consists of one or more schemas and some linkbases. After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.  
@@ -109,4 +109,4 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 ## See Also
 [Finance](finance.md)    
 [Business Intelligence](bi.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -33,7 +33,7 @@ If you will make intercompany sales transactions that include resources, you mus
 3. On the **Intercompany Partner** page, fill in the fields as necessary.
 
 > [!NOTE]
-> In [!INCLUDE[d365fin](includes/d365fin_md.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[d365fin](includes/d365fin_md.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
@@ -91,7 +91,7 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
 
 > [!NOTE]
-> Each company in [!INCLUDE [prodshort](includes/prodshort.md)] must map dimensions to intercompany dimensions for outgoing documents, and map intercompany dimensions to their own dimensions for incoming documents. This mapping helps assure consistency across the companies. For more information, see the [To map intercompany dimensions to your company's dimensions](#to-map-intercompany-dimensions-to-your-companys-dimensions) section.
+> Each company in [!INCLUDE [prod_short](includes/prod_short.md)] must map dimensions to intercompany dimensions for outgoing documents, and map intercompany dimensions to their own dimensions for incoming documents. This mapping helps assure consistency across the companies. For more information, see the [To map intercompany dimensions to your company's dimensions](#to-map-intercompany-dimensions-to-your-companys-dimensions) section.
 
 If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the [To define the intercompany dimensions](intercompany-how-setup.md#to-define-the-intercompany-dimensions) procedure.
 
@@ -141,4 +141,4 @@ In the following steps, you first map intercompany dimensions to dimensions for 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

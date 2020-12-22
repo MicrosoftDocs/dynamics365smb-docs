@@ -929,7 +929,7 @@
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Compensation Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensation-localization-cz.md)
+##### [Compensations Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventory
 ##### [Inventory](LocalFunctionality/Czech/inventory.md)
 #### General

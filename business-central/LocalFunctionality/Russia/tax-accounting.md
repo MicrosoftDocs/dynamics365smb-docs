@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Tax Accounting
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up and maintain tax registers to track taxable profits and losses. This is based on the following tax accounting principles:
 
 - The financial database is used for tax accounting.
 - The chart of accounts is used to track taxable profits and losses.
@@ -21,7 +21,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up and mainta
 - Fixed asset transactions and expenses for future periods are tracked using the depreciation book for tax accounting.
 - Tax registers are grouped and totaled monthly. Each register has 12 values for a 12 month tax period. 
 
-Because [!INCLUDE[prodshort](../../includes/prodshort.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.
+Because [!INCLUDE[prod_short](../../includes/prod_short.md)] keeps the history of all transactions, detailed information from a transaction that changes taxable profits is automatically tracked. The information collected in tax registers meets the principles of tax reliability and tax validity.
 
 ## Tax Registers
 

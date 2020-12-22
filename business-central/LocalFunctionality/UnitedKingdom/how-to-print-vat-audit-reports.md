@@ -15,7 +15,7 @@
 ---
 # Print VAT Audit Reports in the British Version
 
-In the United Kingdom, all vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prodshort](../../includes/prodshort.md)] comply with this requirement:  
+In the United Kingdom, all vendors must export the data required for auditing in a Content Separated Value (CSV) file format. The following reports in the British version of [!INCLUDE [prod_short](../../includes/prod_short.md)] comply with this requirement:  
 
 - **VAT Audit**  report – This report is used for VAT auditing.  
 - **VAT Entry Exception** report - This report details the differences between the calculated VAT and the changes that occur because of rounding, VAT tolerance percentage, and discounts. It also displays the difference in VAT amounts for the tax authorities.  

@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Overview - Fixed Assets
 
-In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
+In Russia, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
 
 ## Getting Started with Fixed Assets
 

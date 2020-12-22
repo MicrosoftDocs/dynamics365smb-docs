@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Set Up Printers
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it cannot reach local printers connected to users' machines. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. This is indicated by this value in the **Printer** field on the report request page: *(none, handled by the browser)*.
 
@@ -55,7 +55,7 @@ You must take all necessary privacy precautions, including ensuring that the ema
 On the **Printer Selections** page, you can set up for your user account which reports are printed by which printer. This is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
 
 > [!IMPORTANT]
-> For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the **Printer Selections** page can only be used for printers defined by printer extensions. It can't be used for local printers.
+> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Printer Selections** page can only be used for printers defined by printer extensions. It can't be used for local printers.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Alternatively, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -84,6 +84,6 @@ You or the administrator can also use the **Printer Selections** page to define 
 
 ## See Also
 [Printing a Report](ui-work-report.md#PrintReport)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  

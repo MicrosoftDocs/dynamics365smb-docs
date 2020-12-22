@@ -16,7 +16,7 @@
 # Design Details: Revaluation
 You can revalue the inventory based on the valuation base that most accurately reflects the inventory value. You can also backdate a revaluation, so that the cost of goods sold (COGS) is correctly updated for items that have already been sold. Items using the Standard costing method that have not been completely invoiced can also be revalued.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the following flexibility is supported regarding revaluation:  
+In [!INCLUDE[prod_short](includes/prod_short.md)], the following flexibility is supported regarding revaluation:  
 
 -   The revaluable quantity can be calculated for any date, also back in time.  
 -   For items using Standard costing method, expected cost entries are included in revaluation.  
@@ -159,7 +159,7 @@ The following table shows the resulting value entries.
 ## WIP Inventory Revaluation  
 Revaluation of WIP inventory implies revaluing components that are registered as part of WIP inventory at the time of the revaluation.  
 
-With this in mind, it is important to establish conventions as to when an item is considered part of the WIP inventory from a financial point of view. In [!INCLUDE[d365fin](includes/d365fin_md.md)], the following conventions exist:  
+With this in mind, it is important to establish conventions as to when an item is considered part of the WIP inventory from a financial point of view. In [!INCLUDE[prod_short](includes/prod_short.md)], the following conventions exist:  
 
 -   A purchased component becomes part of the raw material inventory from the time of posting a purchase as invoiced.  
 -   A purchased/sub-assembled component becomes part of the WIP inventory from the time of posting its consumption in connection with a production order.  
@@ -178,4 +178,4 @@ WIP inventory can be revalued as long as the revaluation date is not later than 
  [Design Details: Inventory Valuation](design-details-inventory-valuation.md)
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

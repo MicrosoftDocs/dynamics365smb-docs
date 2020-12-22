@@ -16,7 +16,7 @@ ms.author: solsen
 ---
 
 # Configuring API Templates
-The API library for [!INCLUDE[d365fin_md](includes/d365fin_md.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
+The API library for [!INCLUDE[prod_short_md](includes/prod_short.md)] provides a simplified representation of the underlying entities. All the properties in the application are not exposed through the associated API. The **API Setup** page allows you to define templates that are used to populate empty properties on an entity when you create a POST action through the API. 
 
 For example, if a configuration template is defined for the item entity, when a new item record is created through the items API, any properties for the new item that are not defined in the API call will be populated from the selected template. If, for example, no value is defined for the **Gen. Prod. Posting Group** field through the API, but a value is defined in the selected template, then the posting group value defined in the template will be applied to the new item. 
 
@@ -40,7 +40,7 @@ The defined template is applied to a new record created through the API if, and 
 
 ## See Also
 [API Documentation](/dynamics-nav/fin-graph)  
-[Developing Connect Apps for [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Developing Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Enabling the APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

@@ -15,27 +15,27 @@ ms.author: edupont
 ---
 # Assign Permissions to Users and Groups
 
-The [!INCLUDE[d365fin](includes/d365fin_md.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The [!INCLUDE[prod_short](includes/prod_short.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the license as defined in the Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], there are two levels of permissions to database objects:
+In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permissions to database objects:
 
 - Overall permissions according to the license, also referred to as the entitlement.
-- More detailed permissions as assigned from within [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- More detailed permissions as assigned from within [!INCLUDE[prod_short](includes/prod_short.md)].
 
 To make it easier to manage permissions for multiple users, you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 >
-> You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## To assign permission sets to users
 
-A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[d365fin](includes/d365fin_md.md)].
+A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[prod_short](includes/prod_short.md)].
 
-A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+A [!INCLUDE[prod_short](includes/prod_short.md)] solution contains a number of predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > If you do not want to restrict a user's access more than already defined by the license, you can assign a special permission set called SUPER to the user. This permission set ensures that the user can access all objects specified in the license.
@@ -93,7 +93,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 Permission sets function as containers of permissions, so that you can easily manage multiple permissions in one record.
 
 > [!NOTE]  
-> A [!INCLUDE[d365fin](includes/d365fin_md.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions.
+> A [!INCLUDE[prod_short](includes/prod_short.md)] solution typically contains a number of predefined permission sets that are added by Microsoft or by your software provider. These permission sets are of type **System** or **Extension**. You cannot create or edit these types of permission sets or the permissions within them. However, you can copy them to define your own permission sets and permissions.
 >
 > Permission sets that users create, from new or as copies, are of type **User-Defined** and can be edited.
 
@@ -119,7 +119,7 @@ The new permission set, containing all the permissions of the copied permission 
 
 ### To export and import a permission set
 
-To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.
+To quickly set up permissions, you can import permission sets that you have exported from another [!INCLUDE[prod_short](includes/prod_short.md)] tenant.
 
 In multitenant environments, a permission set will be imported into a specific tenant, i.e. the scope of the import is "Tenant".
 
@@ -159,7 +159,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 ### Example - Indirect Permission
 
 You can assign an indirect permission to use an object only through another object.
-For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
+For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 37, Sales Line. When the user posts a sales document, the Sales-Post codeunit, [!INCLUDE[prod_short](includes/prod_short.md)] checks if the user has permission to modify theSales Line table. If not, the codeunit cannot complete its tasks, and the user receives an error message. If so, the codeunit runs successfully.
 
 However, the user does not need to have full access to the Sales Line table to run the codeunit. If the user has indirect permission for the Sales Line table, then the Sales-Post codeunit runs successfully. When a user has indirect permission, that user can only modify the Sales Line table by running the Sales-Post codeunit or another object that has permission to modify the Sales Line table. The user can only modify the Sales Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.
 
@@ -173,14 +173,14 @@ However, the user does not need to have full access to the Sales Line table to r
 6. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
 
     This starts a recording process that captures all your action in the user interface.
-7. Go to the various pages and activities in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
+7. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
 8. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
 9. Choose the **Yes** button to add the recorded permissions to the new permission set.
 10. For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
 
 ## Security Filters - To limit a user's access to specific records in a table
 
-For record-level security in [!INCLUDE[d365fin](includes/d365fin_md.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
+For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
 
 ## To manage permissions through user groups
 
@@ -245,7 +245,7 @@ Administrators can define periods of time during which specified users are able 
 
 ## Viewing permission changes telemetry 
 
-You can set up [!INCLUDE[prodshort](includes/prodshort.md)] to send changes that are done to permission to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prodshort](includes/prodshort.md)] Developer and IT Pro help:
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes that are done to permission to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
 
 - [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
@@ -255,7 +255,7 @@ You can set up [!INCLUDE[prodshort](includes/prodshort.md)] to send changes that
 [Create Users According to Licenses](ui-how-users-permissions.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  

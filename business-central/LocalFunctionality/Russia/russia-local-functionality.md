@@ -1,6 +1,6 @@
 ---
 title: Russia Local Functionality
-description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].
+description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 author: AliiaSalikhova
 
 ms.service: dynamics365-business-central
@@ -14,7 +14,7 @@ ms.author: soalex
 ---
 # Russia Local Functionality
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prodshort](../../includes/prodshort.md)] to calculate VAT due based on Russian VAT rates and regulations.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prod_short](../../includes/prod_short.md)] to calculate VAT due based on Russian VAT rates and regulations.
 
 ## Feature Availability
 

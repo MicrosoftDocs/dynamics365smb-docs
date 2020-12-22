@@ -15,7 +15,7 @@
 
 ---
 # Apply General Ledger Entries in Closed Periods
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to post entries after a posting period is closed, even if no actual posting is performed during that period. You can also choose the users who will make these entries.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to post entries after a posting period is closed, even if no actual posting is performed during that period. You can also choose the users who will make these entries.  
 
 ## To apply an entry in a closed period  
 

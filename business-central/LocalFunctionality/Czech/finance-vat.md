@@ -89,7 +89,7 @@ The exchange rate is located in documents, but Czech Republic requires the possi
 
 ## [VAT Control Report](vat-control-report.md)
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality has been extended by the VAT Control Report. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. To process the control report, you must set up VAT control report sections, tariff numbers, VAT statement, stat. reporting setup, and extend the VAT posting setup.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] functionality has been extended by the VAT Control Report. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. To process the control report, you must set up VAT control report sections, tariff numbers, VAT statement, stat. reporting setup, and extend the VAT posting setup.  
 
 ## VAT Reports
 

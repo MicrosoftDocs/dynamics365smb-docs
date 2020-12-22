@@ -20,7 +20,7 @@ There are many general features that help you enter data easier, faster, and mor
 The examples in this article use the demonstration data.
 
 ## Working with editable fields
-Fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.   
+Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.   
 
 Some editable fields provide a picker to help you specify a value.  
 
@@ -40,7 +40,7 @@ To modify the value of a field, you must first set focus to that field. You set 
 - Use the **Tab** key. The action selects the entire value.
 - Left-click your mouse or similar input device. This action will only select the entire field value if the field is in a list.  
 
-When you interact with fields in the user interface, [!INCLUDE[d365fin](includes/d365fin_md.md)] typically favors selecting the entire field value to make it easier for you to replace that value.
+When you interact with fields in the user interface, [!INCLUDE[prod_short](includes/prod_short.md)] typically favors selecting the entire field value to make it easier for you to replace that value.
 
 When the entire field value is selected:
 - Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the **Alt+Arrow-down** keyboard shortcut.
@@ -81,7 +81,7 @@ The following list provides some useful information about using Quick Entry.
 - It's available for any editable fields.
 - It also works across columns and rows.
 - It doesn't prevent accessing other elements of a page, such as actions. These elements are still accessible by using Tab and Shift+Tab.  
-- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[d365fin](includes/d365fin_md.md)] will remember that the FastTab should be expanded next time you visit the page.  
+- It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[prod_short](includes/prod_short.md)] will remember that the FastTab should be expanded next time you visit the page.  
 - Quick Entry works no matter whether fields are mandatory. So it's a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
 
@@ -158,7 +158,7 @@ To open the current card or document in a new window, choose ![Open New Window](
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Another way to multitask, is to open [!INCLUDE[d365fin](includes/d365fin_md.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
+Another way to multitask, is to open [!INCLUDE[prod_short](includes/prod_short.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
 
 > [!NOTE]
 > Don't use the **Duplicate** function of the browser to create the new tab as this may cause actions on one tab to block actions on other tabs because they are part of the same session.
@@ -290,4 +290,4 @@ Here are some examples.
 
 ## See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

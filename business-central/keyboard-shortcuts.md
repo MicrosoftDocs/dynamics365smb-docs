@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 # Keyboard Shortcuts
 
-This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prodshort](includes/prodshort.md)].
+This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
@@ -32,7 +32,7 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
 > [!NOTE]
-> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], F9 posts a document and Ctrl+F7 shows the financial entries for a record. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
+> In addition to the global keyboard shortcuts described in this topic, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], F9 posts a document and Ctrl+F7 shows the ledger entries for a record when you open the record in a card. (These may be different in your solution.) The keyboard shortcut is shown in the tooltip for the action in question.
 
 ##  <a name="Keyboard"></a> General Keyboard Shortcuts
 
@@ -58,7 +58,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+F1|Open the Business Central help for the page.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
-|Ctrl+F5|Reload the [!INCLUDE[prodshort](includes/prodshort.md)] application. (Similar to selecting refresh/reload in the browser.)|
+|Ctrl+F5|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
 |F5|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is up to date with any changes that others have made while you're working.|
 |Enter|Enable or access the element or control that is in focus.|
 |Esc|Close the current page or drop-down list.|
@@ -83,7 +83,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
 
-Grids containing rows and columns exist on many page types in [!INCLUDE[prodshort](includes/prodshort.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
+Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
 |Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |--------------------------------|--------------------------|--------------------------|
@@ -203,7 +203,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 ## <a name="zoomshortcuts"></a>Keyboard Shortcuts for Zooming In and Out
 
-|Press these keys<br />(in macOS)|To do this|
+|Press these keys|To do this|
 |--------------------------------|----------|
 |Ctrl++|Zoom in on the current page.|  
 |Ctrl+-|Zoom out on the current page.|  
@@ -214,6 +214,6 @@ When setting a date field, you can either enter the date manually or open a cale
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
 [Find Entries](ui-find-entries.md)  

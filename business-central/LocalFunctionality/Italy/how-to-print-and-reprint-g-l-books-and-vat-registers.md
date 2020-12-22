@@ -15,7 +15,7 @@
 
 ---
 # Print and Reprint GL Books and VAT Registers
-The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G/L Book - Print** report and the **VAT Register - Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the last printed page number before you run these reports again.  
+The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G/L Book - Print** report and the **VAT Register - Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[prod_short](../../includes/prod_short.md)] with the last printed page number before you run these reports again.  
 
 The following procedure describes how to print or reprint the **G/L Book - Print** report, but the same steps apply to printing or reprinting the **VAT Register - Print** report.  
 
@@ -35,7 +35,7 @@ The following procedure describes how to print or reprint the **G/L Book - Print
     When you print the report, you will be reminded to update the **General Ledger Setup** page with the page number on the last page.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not save the page number automatically when you run the reports. After you run the G/L Book - Print report or the VAT Register - Print report, you must update [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the last printed page number..  
+    >  [!INCLUDE[prod_short](../../includes/prod_short.md)] does not save the page number automatically when you run the reports. After you run the G/L Book - Print report or the VAT Register - Print report, you must update [!INCLUDE[prod_short](../../includes/prod_short.md)] with the last printed page number..  
 
 3.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 

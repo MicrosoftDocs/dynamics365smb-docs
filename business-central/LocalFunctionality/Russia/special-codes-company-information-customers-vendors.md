@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Special codes for Company information, Customers, and Vendors
 
-The Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)] adds special classified codes that are needed in some printing forms and reports.
+The Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] adds special classified codes that are needed in some printing forms and reports.
 
 ## Company Information
 

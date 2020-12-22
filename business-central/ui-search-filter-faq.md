@@ -19,7 +19,7 @@ Yes.
 - Filtering is highly flexible and can be applied to specific fields, including those not visible on the page: it displays records with exact, case-sensitive matches, but can be adjusted with powerful search symbols, tokens, and formulas. For more information on how to use these features, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
 
 ## Exactly which fields are matched when searching?
-[!INCLUDE[prodshort](includes/prodshort.md)] applies the search criteria to all fields that are visible on the page. If a field has been hidden, such as by using personalization, search won't consider this field. Search criteria are applied to fields only if their data type matches that of the search criteria. For example, searching for the term *today* will search all text and code fields for the literal value "today", and also any date fields where *today* is evaluated as an expression for the current date, but won't search in any numeric fields. For more information on filter criteria, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+[!INCLUDE[prod_short](includes/prod_short.md)] applies the search criteria to all fields that are visible on the page. If a field has been hidden, such as by using personalization, search won't consider this field. Search criteria are applied to fields only if their data type matches that of the search criteria. For example, searching for the term *today* will search all text and code fields for the literal value "today", and also any date fields where *today* is evaluated as an expression for the current date, but won't search in any numeric fields. For more information on filter criteria, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
 
 ## Is there a keyboard experience for search and filter?
 Search and filter have been highly optimized for users who prefer mouse-free interaction to work efficiently with their data. There are a variety of shortcut keys that can be used in sequence to work at high speed. For more information see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
@@ -33,19 +33,19 @@ Your filters and adjustments to predefined filters are remembered throughout the
 On report request pages, you can also save filters or use predefined filters. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
 
 ## Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[d365fin](includes/d365fin_md.md)] surpasses the functionality provided in Dynamics NAV.  
+[!INCLUDE[prod_short](includes/prod_short.md)] builds upon these popular features and delivers a modern and highly usable experience for finding and analyzing your data. With more keyboard shortcuts and the introduction of search, [!INCLUDE[prod_short](includes/prod_short.md)] surpasses the functionality provided in Dynamics NAV.  
 
 ## Can I search and filter using the companion apps and add-ins for Microsoft 365?
-On different display targets, such as mobile devices or in Outlook, you can search in lists but can't filter on individual fields in most cases. In the [!INCLUDE[prodshort](includes/prodshort.md)] app for Microsoft Teams, both search and filter are available on lists.
+On different display targets, such as mobile devices or in Outlook, you can search in lists but can't filter on individual fields in most cases. In the [!INCLUDE[prod_short](includes/prod_short.md)] app for Microsoft Teams, both search and filter are available on lists.
 
 ## How do I view how my search terms have been applied to fields in the list?
 After entering search terms in the search box, you can view the exact search criteria and which fields they have been applied to by opening the page inspection pane (**Ctrl+Alt+F1**) and choosing the **Page Filters** tab.
 
 ## Can I do anything about the "Searching for rows is taking too long" message?
 
-There is a time-limit on how a long a search operation can take. First, try changing the search criteria and search again. If you are using [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
+There is a time-limit on how a long a search operation can take. First, try changing the search criteria and search again. If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, contact your system administrator, because an administrator can increase the time-limit for searches.
 
-As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prodshort](includes/prodshort.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
+As an on-premises administrator, you increase the time-limit on searches by changing the **Search Timeout** setting of [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in the Business Central Developer and IT Pro Help.
 
 ## Will Microsoft extend the filter pane experience?
 At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors and more types of lists, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).

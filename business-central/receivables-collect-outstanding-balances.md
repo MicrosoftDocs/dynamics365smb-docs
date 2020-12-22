@@ -192,4 +192,4 @@ When you set up finance charge terms and reminder terms, for delayed payment pen
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

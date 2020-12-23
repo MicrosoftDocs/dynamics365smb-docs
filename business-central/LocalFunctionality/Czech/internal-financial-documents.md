@@ -23,6 +23,6 @@ For the reasons above, this feature provides the following reports:
 
 ## See Also
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)
+[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  

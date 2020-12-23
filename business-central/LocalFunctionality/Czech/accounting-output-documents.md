@@ -33,6 +33,7 @@ In order to comply with the legislation, reporting features, and local reporting
 
 ## See Also
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)
+[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  
+

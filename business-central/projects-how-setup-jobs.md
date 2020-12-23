@@ -68,7 +68,7 @@ The value in the **Unit Price** field for the resource will be used on the job p
 
 ---
 ## To set up prices for job items
-You can set up specific prices for items for a job. You use the **Job Item Prices** page to do this.
+You can set up specific prices for items for a job. You use the **Job Item Prices** page to do this. <!--I can't find this page. Is this removed if the new experience is turned on?-->
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Item** action.
@@ -82,10 +82,10 @@ The value in the **Unit Price** field for the item will be used on the job plann
 >   This price will always override the regular customer price (the “best price” mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.
 
 ## To set up prices for job general ledger accounts
-You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** page to do this.
+You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** page to do this. <!--I can't find this page. Is this removed if the new experience is turned on?-->
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **G/L Account** action.  
+2. Select the relevant job, and then choose the **G/L Account** action.  <!--Don't see this action when the new experience is turned on.-->
 3. On the **Job G/L Account Prices** page, fill in the fields as necessary.
 
 The optional information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.  

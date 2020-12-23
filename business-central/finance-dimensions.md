@@ -44,13 +44,10 @@ You can define the dimensions and dimension values to categorize journals and do
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
-When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, without having to open the **Dimensions** page first. For more information, see [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
+When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, and ledger entries, without having to open the **Dimensions** page first. For more information, see [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Global Dimensions** are used as filters, for example, on reports, batch jobs, and XMLports. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut Dimensions** are available as fields on journals, document lines, and ledger entries. You can create up to eight of these.  
-
-> [!NOTE]
-> If you set up shortcut dimensions on the **General Ledger Setup** page, the dimensions are available for ledger entries, such as the customer, vendor, item, bank, and job ledger entries.
 
 ### To set up default dimensions for customers, vendors, and other accounts
 You can assign a default dimension for a specific account. The dimension will be copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also make a dimension required for posting an entry with a specific type of account.  
@@ -124,7 +121,7 @@ When you change a global or shortcut dimension, all entries posted with the dime
     |Option|Description|
     |-|-|
     |**Sequential**|(Default) The change is done in one transaction that reverts all entries to the dimensions they had before the change.<br /><br />This option is recommended if the company contains relatively few posted entries where it will take the shortest time to complete. The process locks multiple tables and blocks other users until it is done. Note that on large databases, the process may not be able to complete in this mode. In that case, use the **Parallel** option.|
-    |**Parallel**|The dimension change happens in multiple background sessions and the operation is split into multiple transactions. To use this option, turn on the **Parallel Processing** toggle. <br /><br />We recommended this option for large databases or companies with many posted entries where <!--because instead of where?--> it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database sessions.|  
+    |**Parallel**|The dimension change happens in multiple background sessions and the operation is split into multiple transactions. To use this option, turn on the **Parallel Processing** toggle. <br /><br />We recommended this option for large databases or companies with many posted entries because it will take the shortest time to complete. Note that with this mode, the update process will not start if there are more than one active database sessions.|  
 
 4. In the **Global Dimension 1 Code** and/or **Global Dimension 2 Code** fields, enter the new dimension(s). The current dimensions are displayed in gray behind the fields.
 5. Depending on the mode, do one of the following:

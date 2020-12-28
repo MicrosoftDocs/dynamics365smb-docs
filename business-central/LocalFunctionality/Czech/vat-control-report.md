@@ -1,12 +1,12 @@
 ---
-title: VAT Control Report | Microsoft Docs
+title: VAT Control Report
 description: Czech companies registered for VAT in the Czech Republic (with assigned CZ VAT ID number) have the obligation to submit the VAT Control Report.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
-ms.date: 10/01/2020
+ms.date: 12/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -28,5 +28,7 @@ To process the control report, you must set up the VAT control report sections, 
 * Closing lines - **Close lines** function fills the **Closed by Document No.** field on control report lines.
 
 ## See also
+
+[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  

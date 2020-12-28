@@ -1,6 +1,6 @@
 ---
-title: Managing Brexit in Business Central
-description: Learn about recommended steps you can take in Business Central to help manage Brexit.
+title: Brexit impact on in Business Central - United Kingdom leaving the European Union
+description: Learn about recommended steps you can take in Business Central to help manage Brexit and impact after United Kingdom is leaving the European Union.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -15,7 +15,7 @@ ms.author: soalex
 ---
 # Managing your business in United Kingdom after leaving the European Union
 
-The departure of the United Kingdom (UK) from the European Union (EU), will impact many businesses operating inside and across UK borders. As per January 1st 2021 it is likely that impact on UK businesses will revolve around these areas:
+The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As per January 1st 2021 it is likely that impact on UK businesses will revolve around these areas:
 * Importing goods from the EU
 * Exporting goods to the EU
 * Moving goods to or from Northern Ireland

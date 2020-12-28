@@ -38,7 +38,7 @@ If part of your business is in Northern Ireland and you trade across EU borders 
 * Add your **EORI number** and/or **Supplemental VAT Registration number** (starting with "XI") on **Company Information**.
 * Add Northern Ireland to the **Countries/Regions** list.
 * Specify this region on the relevant trading partners, such as customers and vendors.
-* Specify EORI number on trading partners, such as customers and vendors.
+* Specify **EORI number** on trading partners, such as customers and vendors.
 * Specify this region for any warehouse locations you have in Northern Ireland on the **Locations** page.  
 
 ##  Intrastat changes

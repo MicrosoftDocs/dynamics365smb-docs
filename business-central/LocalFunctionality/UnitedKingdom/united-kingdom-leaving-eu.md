@@ -27,7 +27,7 @@ If your business performs any of the above activities, you will likely need to m
 >  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition).  
 
 ## Trade across borders and the use of Economic Operators Registration and Identification numbers 
-Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new EORI number field to the Company Information page. This is added to the international version (W1) and is available in all versions for European countries. In the UK version we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page to handle scenarios where you must express more than one of these numbers. For example, this is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
+Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new **EORI number** field to the **Company Information** page. This is added to the international version (W1) and is available in all versions for European countries. In the UK version we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page to handle scenarios where you must express more than one of these numbers. For example, this is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
 
 Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance with adding the **EORI number** or **Supplementary VAT Reg. Number** to the relevant reports.  
 
@@ -58,7 +58,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 ### Questions?
 
-Contact the [!INCLUDE[prod_short](../../includes/prod_short.md)] localization team if you have any questions regarding localization of [!INCLUDE[prod_short](../../includes/prod_short.md)] at **d365bcloc@microsoft.com**.
+Contact the [!INCLUDE[prod_short](../../includes/prod_short.md)] localization team if you have any questions regarding localization of [!INCLUDE[prod_short](../../includes/prod_short.md)] at d365bcloc@microsoft.com.
 
 ## See Also
 

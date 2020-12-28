@@ -60,7 +60,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Intrastat Report Export to CSV Format](intrastat.md) **2021 release wave 1**
 
 - **Inventory**
-  - [Inventory – G/L reconciliation Enhancements](how-to-use-reconciliation-enhancements.md) **2021 release wave 1**
+  - [Inventory – G/L reconciliation Enhancements](how-to-use-inventory-gl-reconciliation-enhancements.md) **2021 release wave 1**
   - [Advanced features of the physical inventory](advanced-features-physical-inventory.md) **Available Now**
   - [Inventory Operations Document](how-to-use-inventory-operations-document.md) **Available Now**
   - [Inventory Counting Document](inventory-counting-document.md) **Available Now**

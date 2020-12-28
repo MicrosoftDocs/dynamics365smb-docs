@@ -3,7 +3,7 @@ title: Analyze Data by Dimensions| Microsoft Docs
 description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 
 ms.service: dynamics365-business-central
 ms.topic: article

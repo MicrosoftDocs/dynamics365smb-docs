@@ -13,42 +13,44 @@ ms.date: 01/01/2021
 ms.author: soalex
 
 ---
-# Managing your business in United Kingdom after leaving the European Union
+# Managing your business in the United Kingdom after the country leaves the European Union
 
-The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As per January 1st 2021 it is likely that impact on UK businesses will revolve around these areas:
+The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As of January 1st, 2021, it is likely the impact on UK businesses will revolve around these areas:
+
 * Importing goods from the EU
 * Exporting goods to the EU
 * Moving goods to or from Northern Ireland
 
-If your business perform any of the above activities it is likely you need to do configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
+If your business performs any of the above activities, you will likely need to make some configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 > [!NOTE]  
->  Make sure to check the latest information from Her Majesty's Revenue and Customs (HMRC) for the latest information and Brexit impact for your business: [https://www.gov.uk/transition](https://www.gov.uk/transition).  
+>  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition).  
 
-## Trade across borders and use of Economic Operators Registration and Identification numbers. 
-Having left the European Union, businesses in United Kingdom are now subject to more administrative burdens when trading across borders, export and importing goods. One of these areas are with Customs when goods are crossing the borders. While [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents per default, we have added a new EORI number field to Company Information. This is added to the international version (W1) and visible in all country versions in Europe. In the UK version of [!INCLUDE[prod_short](../../includes/prod_short.md)] we have also added a **Supplementary VAT Reg. Number** field on **Company Information** to handle scenarios where you must express multiple such identifiers. This is typically on invoices, depending on the countries/regions of the specific trade and depends on the movements of goods and services.
+## Trade across borders and the use of Economic Operators Registration and Identification numbers 
+Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new EORI number field to the Company Information page. This is added to the international version (W1) and is available in all versions for European countries. In the UK version we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page to handle scenarios where you must express more than one of these numbers. For example, this is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
 
-Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance with adding the **EORI number** or **Supplementary VAT Reg. Number** to relevant reports.  
+Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance with adding the **EORI number** or **Supplementary VAT Reg. Number** to the relevant reports.  
 
 ## Trade involving Northern Ireland
-If part of your business is in Northern Ireland and you trade across EU borders or other European countriers, or your business are in one of these countries and trade with a company or move goods into Northern Ireland, you should make sure to:
-* Add Northern Ireland to the **Countries/Regions** list
-* Specify this region on relevant trading partners, customers and vendors.
-* Specify this region on the details for warehouse locations you have in Northern Ireland. This can be done through the **Locations** page.  
+If part of your business is in Northern Ireland and you trade across EU borders or other European countries, or your business is in one of these countries and trade with a company or move goods into Northern Ireland, make sure to do the following:
+
+* Add Northern Ireland to the **Countries/Regions** list.
+* Specify this region on the relevant trading partners, such as customers and vendors.
+* Specify this region for any warehouse locations you have in Northern Ireland on the **Locations** page.  
 
 ##  Intrastat changes
-Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market and VAT regime as well as in the UK’s equivalents for goods (only). This means that goods moved into or out of Northern Ireland must still be reported on Intrastat. To handle this, you can still use the Intrastat Journal in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
+Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market and VAT regime, as well as in the UK’s equivalents for goods (only). This means that goods moved in or out of Northern Ireland must be reported on Intrastat. To handle this, you can use the Intrastat Journal in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
 
-Since Intrastat reporting is no longer needed for regular export/import for UK, it may be needed to filter out/delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make this easier, we have added **Location Code** on the **Intrastat Journal Lines**. This enables you to easily filter lines based on their **Ship-from** or **Receive-to** location and exclude those not relevant for Northern Ireland. 
+Because Intrastat reporting is no longer needed for regular export/import for UK, it may be needed to filter or delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make this easier, we have added **Location Code** on the **Intrastat Journal Lines**. This enables you to easily filter lines based on their **Ship-from** or **Receive-to** location and exclude those not relevant for Northern Ireland. 
 
-## VAT impact of goods moved to and from Northern Ireland
-If your business has a warehouse in Northern Ireland, goods moved to that location will be subject of VAT as per January 1st 2021. When goods are then sold, VAT can be reclaimed. This, and other scenarios involving the VAT process changes, are not scenarios supported by dedicated features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. While you may be able to configure [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the situation relevant for your business, we recommend to engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance to make sure you are doing the correct configuration changes to handle the scenarios specific to your business. Your partner can also refer you to product add-ons that you might need. 
+## VAT impact of goods moved in and out of Northern Ireland
+If your business has a warehouse in Northern Ireland, goods moved to that location will be subject of VAT as of January 1st, 2021. When goods are then sold, VAT can be reclaimed. This, and other scenarios involving the VAT process changes, are not scenarios supported by dedicated features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. While you may be able to configure [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the situation relevant for your business, we recommend that you engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner to help ensure that your configuration changes are correct and optimal for the scenarios that are specific to your business. Your partner can also refer you to product add-ons that you might need. 
 
 ## Frequently asked questions
 
-1. **I’m using the online version of Business Central – where is my data stored?**
+1. **I’m using Business Central online – where is my data stored?**
 
-    The data for UK customers of [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the United Kingdom. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the United Kingdom. This is to ensure optimal data residency and performance.
+    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the UK. This is to ensure optimal data residency and performance.
 
 2. **Does Business Central support legislation in the United Kingdom?**
 

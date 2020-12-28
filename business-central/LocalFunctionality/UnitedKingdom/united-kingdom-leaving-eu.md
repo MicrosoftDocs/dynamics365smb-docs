@@ -24,7 +24,8 @@ The departure of the United Kingdom (UK) from the European Union (EU) will impac
 If your business performs any of the above activities, you will likely need to make some configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 > [!NOTE]  
->  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition).  
+>  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft is doing the same and will continuously monitor legislation changes for potential product impact.   
+
 
 ## Trade across borders and the use of Economic Operators Registration and Identification numbers 
 Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new **EORI number** field to the **Company Information** page. This is added to the international version (W1) and is available in all versions for European countries. In the UK version we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page to handle scenarios where you must express more than one of these numbers. For example, this is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
@@ -34,12 +35,14 @@ Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] resellin
 ## Trade involving Northern Ireland
 If part of your business is in Northern Ireland and you trade across EU borders or other European countries, or your business is in one of these countries and trade with a company or move goods into Northern Ireland, make sure to do the following:
 
+* Add your **EORI number** and/or **Supplemental VAT Registration number** (starting with "XI") on **Company Information**.
 * Add Northern Ireland to the **Countries/Regions** list.
 * Specify this region on the relevant trading partners, such as customers and vendors.
+* Specify EORI number on trading partners, such as customers and vendors.
 * Specify this region for any warehouse locations you have in Northern Ireland on the **Locations** page.  
 
 ##  Intrastat changes
-Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market and VAT regime, as well as in the UK’s equivalents for goods (only). This means that goods moved in or out of Northern Ireland must be reported on Intrastat. To handle this, you can use the Intrastat Journal in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
+Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market and VAT regime, as well as in the UK’s equivalents for goods (only). This means that goods moved in or out of Northern Ireland to or from European countries must be reported on Intrastat. To handle this, you can use the Intrastat Journal in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
 
 Because Intrastat reporting is no longer needed for regular export/import for UK, it may be needed to filter or delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make this easier, we have added **Location Code** on the **Intrastat Journal Lines**. This enables you to easily filter lines based on their **Ship-from** or **Receive-to** location and exclude those that are not relevant. 
 

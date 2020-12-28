@@ -13,7 +13,7 @@ ms.date: 01/01/2021
 ms.author: soalex
 
 ---
-# Managing your business in the United Kingdom after the country leaves the European Union
+# Managing your business in the United Kingdom after the country leaves the European Union (Brexit)
 
 The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As of January 1st, 2021, it is likely the impact on UK businesses will revolve around these areas:
 

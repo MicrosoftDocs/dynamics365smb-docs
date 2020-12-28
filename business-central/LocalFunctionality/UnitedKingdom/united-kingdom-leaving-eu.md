@@ -48,7 +48,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 1. **I’m using the online version of Business Central – where is my data stored?**
 
-    The data for UK customers of [!INCLUDE[prodshort](../../includes/prodshort.md)] online is stored in data centers in the United Kingdom. This will not change, regardless of whether the United Kingdom leaves the EU. If you create another [!INCLUDE[prodshort](../../includes/prodshort.md)] environment in the same tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the United Kingdom. This is to ensure optimal data residency and performance.
+    The data for UK customers of [!INCLUDE[prodshort](../../includes/prodshort.md)] online is stored in data centers in the United Kingdom. If you create another [!INCLUDE[prodshort](../../includes/prodshort.md)] environment in the same Azure AD tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the United Kingdom. This is to ensure optimal data residency and performance.
 
 2. **Does Business Central support legislation in the United Kingdom?**
 

@@ -63,7 +63,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Inventory – G/L reconciliation Enhancements](how-to-use-inventory-gl-reconciliation-enhancements.md) **2021 release wave 1**
   - [Advanced features of the physical inventory](advanced-features-physical-inventory.md) **Available Now**
   - [Inventory Operations Document](how-to-use-inventory-operations-document.md) **Available Now**
-  - [Inventory Counting Document](inventory-counting-document.md) **Available Now**
+  - [Inventory Counting Document](how-to-use-inventory-counting-documents.md) **Available Now**
 
 - **General**
   - [Extended User Control](how-to-setup-extended-user-control.md) **2021 release wave 1**

@@ -49,6 +49,10 @@ Because Intrastat reporting is no longer needed for regular export/import for UK
 ## VAT impact of goods moved in and out of Northern Ireland
 If your business has a warehouse in Northern Ireland, goods moved to that location will be subject of VAT as of January 1st, 2021. When goods are then sold, VAT can be reclaimed. This, and other scenarios involving the VAT process changes, are not scenarios supported by dedicated features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. While you may be able to configure [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the situation relevant for your business, we recommend that you engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner to help ensure that your configuration changes are correct and optimal for the scenarios that are specific to your business. Your partner can also refer you to product add-ons that you might need. 
 
+> [!NOTE]  
+>  Customers who are using on premises versions of [!INCLUDE[prod_short](../../includes/prod_short.md)] will need the January 2021 Cumulative Updates to make use of the **EORI number**, **Supplemental VAT Reg. No.** and **Location Code** fields mentioned above.   
+
+
 ## Frequently asked questions
 
 1. **I’m using Business Central online – where is my data stored?**

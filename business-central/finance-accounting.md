@@ -13,7 +13,7 @@ ms.date: 11/05/2020
 ms.author: edupont
 
 ---
-# Accountant Experiences in [!INCLUDE[prod_short_long](includes/prod_long.md)]
+# Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 

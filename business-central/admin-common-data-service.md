@@ -36,9 +36,9 @@ Depending on your business needs, you can set up the integration to synchronize 
 ## Standard and Custom Entities
 [!INCLUDE[prod_short](includes/cds_long_md.md)] securely stores data in a set of tables, which are sets of records similar to how a table stores data within a database. [!INCLUDE[prod_short](includes/cds_long_md.md)] includes a base set of standard tables that cover typical scenarios, but you can also create custom tables specific to your organization. In [!INCLUDE[prod_short](includes/prod_short.md)], you can view standard and custom tables being synchronized on the Integration Table Mappings page.
 
-## About the Base CDS Integration Solution
+## About the Business Central Base Integration Solution
 
-The Base CDS Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
+The Base Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
 By default, the **Set up [!INCLUDE[prod_short](includes/cds_long_md.md)] connection** assisted setup guide will import the solution. To do that, the setup guide uses an administrator user account that you specify. This account must be a valid user in [!INCLUDE[prod_short](includes/cds_long_md.md)] with the following security role:
 
@@ -46,7 +46,7 @@ By default, the **Set up [!INCLUDE[prod_short](includes/cds_long_md.md)] connect
 
 For more information, see [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) and [Create users in Microsoft Dynamics 365 (online) and assign security roles](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
 
-The administrator account is used only one time during the setup due to configuration changes Base CDS Solution is making in [!INCLUDE[prod_short](includes/cds_long_md.md)]. After the solution is imported the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
+The administrator account is used only one time during the setup for the configuration changes that the Base Integration Solution makes in [!INCLUDE[prod_short](includes/cds_long_md.md)]. After the solution is imported the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
 
 In addition to customizing [!INCLUDE[prod_short](includes/cds_long_md.md)], the solution also creates the following roles in [!INCLUDE[prod_short](includes/cds_long_md.md)] for the integration:
 
@@ -55,7 +55,7 @@ In addition to customizing [!INCLUDE[prod_short](includes/cds_long_md.md)], the 
 
 For details about each role, such as the permissions and access levels, see [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
-During connection setup, integration table mappings that are needed to synchronize data, are created. Entities in Dataverse are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+During connection setup, integration table mappings that are needed to synchronize data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 ## See Also
 [Data Ownership Models](admin-cds-company-concept.md)  

@@ -12,11 +12,11 @@ ms.date: 12/15/2020
 ms.author: edupont
 
 ---
-# Welcome to [!INCLUDE[prod_short_long](includes/prod_long.md)]
+# Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
 
-If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]](product-get-started.md).  
+If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Started with [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
 
 > [!TIP]
 > Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can *filter by titles* in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.
@@ -79,7 +79,7 @@ The following sections point to key articles that can help you get familiar with
 ## See Also
 
 [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Getting Started with [!INCLUDE[prod_short_long](includes/prod_long.md)]](product-get-started.md)  
+[Getting Started with Business Central](product-get-started.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
@@ -87,6 +87,7 @@ The following sections point to key articles that can help you get familiar with
 [Resources for Help and Support](product-help-and-support.md)  
 [Compliance](compliance/compliance-overview.md)  
 [Service Terms](compliance/compliance-service-compliance.md#service-terms)  
+[Major Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

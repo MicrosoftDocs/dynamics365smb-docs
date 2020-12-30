@@ -1,37 +1,71 @@
 ---
-title: Using Business Central after the United Kingdom Has Left the European Union
-description: Learn about recommended steps you can take in Business Central after Brexit in 2020.
+title: Brexit Impact on Business Central - United Kingdom leaving the European Union
+description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: united kingdom, uk, brexit, eu, european union
-ms.date: 10/01/2020
+ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
+ms.date: 01/01/2021
 ms.author: soalex
 
 ---
-# Using Business Central after the United Kingdom Has Left the European Union
+# Brexit Impact on Business Central
 
-The departure of the United Kingdom (UK) from the European Union (EU), impacts many businesses operating inside and across UK borders. With final negotiations still pending, we do not foresee any required Microsoft [!INCLUDE[prod_short](../../includes/prod_short.md)] product changes. However, as a user of [!INCLUDE[prod_short](../../includes/prod_short.md)], your organization should expect to make configuration changes. [!INCLUDE[prod_short](../../includes/prod_short.md)] is a highly configurable business application and has many settings related to VAT processes, which is the area that will most likely be impacted. You may want to start preparing for changes in legislation, such as keeping track of VAT rules. We recommend that you pay specific attention to the potential VAT impact as a result of international negotiations and British legislation, making sure to fully post open documents before changing your VAT setup. Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance.
+The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As of January 1, 2021, it is likely the impact on UK businesses will revolve around these areas:
 
-## Frequently asked questions
+* Importing goods from the EU
+* Exporting goods to the EU
+* Moving goods to or from Northern Ireland
 
-1. **I'm using the online version of Business Central – where is my data stored?**
+If your business performs any of the above activities, you will likely need to make some configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-    The data for UK customers of [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the United Kingdom. This will not change after the United Kingdom left the EU. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the United Kingdom. This is to ensure optimal data residency and performance.
+> [!NOTE]  
+>  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft will continuously monitor legislation changes due to Brexit and assess potential product impact.   
 
-2. **Does Business Central support legislation in the United Kingdom?**
 
-    In many cases, yes. As with all countries for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for [Making Tax Digital](making-tax-digital-submit-vat-return.md), which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require additional feature support. For example, when regulations impact a specific vertical industry, such as construction, we expect the solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry by a Microsoft Independent Software Vendor (ISV) to provide the necessary features for the regulatory requirements specific to that vertical. Again, the responsibility for compliance rests with the individual business deploying the solution.
+## Trade Across Borders and the Use of Economic Operators Registration and Identification Numbers 
+Businesses in the UK are now subject to more administrative burdens when exporting and importing goods across borders, and one of these areas is with Customs. Although [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Customs documents by default, we have added a new **EORI number** field to the **Company Information**, **Customer**, and **Vendor** pages. This field is added to the international version (W1) and is available in all versions for European countries. In the UK version, we have also added a **Supplementary VAT Reg. Number** field on the **Company Information** page for scenarios where you must provide more than one of VAT registration number. For example, this number is typically on invoices, depending on the countries/regions of the specific trade and on the movement of goods and services.
+
+Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner for assistance with adding the **EORI number** or **Supplementary VAT Reg. Number** to the relevant reports.  
+
+> [!NOTE]  
+>  If you are using [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, to use the **EORI number**, **Supplemental VAT Reg. No.** and **Location Code** fields you must install the January 2021 Cumulative Update.   
+
+## Trade Involving Northern Ireland
+If part of your business is in Northern Ireland and you trade across EU borders or other European countries, or your business is in one of these countries and trade with a company or move goods into Northern Ireland, make sure to do the following:
+
+* Add your **EORI number** and/or **Supplemental VAT Registration number** (starting with "XI") on the **Company Information** page.
+* Add Northern Ireland to the **Countries/Regions** list.
+* Specify this region on the relevant trading partners, such as customers and vendors.
+* Specify an **EORI number** for your trading partners, such as customers and vendors.
+* Specify Northern Ireland on the **Locations** page as the region for any warehouse locations you have in Northern Ireland.  
+
+## Intrastat Changes
+Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market, VAT regime, and in the UK’s equivalents for goods (only). Goods moved in or out of Northern Ireland to or from European countries must be reported on Intrastat. To handle this requirement, use Intrastat journals in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
+
+Because Intrastat reporting is no longer needed for regular export and import for the UK, you may need to filter or delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make this easier, we have added a **Location Code** field on the **Intrastat Journal Lines** so you can filter lines based on their **Ship-from** or **Receive-to** location. 
+
+## VAT Impact on Moving Goods In and Out of Northern Ireland
+If your business has a warehouse in Northern Ireland, goods moved to that location will be subject to VAT as of January 1, 2021. When those goods are sold, VAT can be reclaimed. This and other scenarios involving the VAT process changes are not supported by standard features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Although you may be able to configure [!INCLUDE[prod_short](../../includes/prod_short.md)] for your business, we recommend that you engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] reselling partner to help ensure that your configuration changes are compliant and optimal for the scenarios that are specific to your business. Your partner can also refer you to product add-ons that you might need. 
+
+## Frequently Asked Questions
+
+1. **I’m using [!INCLUDE[prod_short](../../includes/prod_short.md)] online – where is my data stored?**
+
+    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
+
+2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
+
+    In many cases, yes. As with all countries for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Vendor (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
 
 ### Questions?
 
-Contact the [!INCLUDE[prod_short](../../includes/prod_short.md)] localization team if you have any questions regarding localization of [!INCLUDE[prod_short](../../includes/prod_short.md)] at [d365bcloc@microsoft.com](mailto:d365bcloc@microsoft.com).
+If you have questions regarding the localization of [!INCLUDE[prod_short](../../includes/prod_short.md)], contact the [!INCLUDE[prod_short](../../includes/prod_short.md)] localization team at **d365bcloc@microsoft.com**.
 
 ## See Also
 
-[Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

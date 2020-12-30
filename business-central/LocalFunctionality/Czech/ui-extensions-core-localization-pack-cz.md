@@ -70,7 +70,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [G/L Account Group – Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
   - [Check of Posting Group changing – Customer, Vendor, item, bank account](check-of-posting-group-changing.md) **Available Now**
   - [Check of output in inventory – time sequence](check-output-inventory-time-sequence.md) **2021 release wave 1**
-  - [Templates for inventory Operations – Whse. Net Change Templates](warehouse-net-change-templates.md) **Available Now**
+  - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
 ## See Also  
 

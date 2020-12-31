@@ -17,6 +17,11 @@ The following topics describe the local functionality in the Czech version of [!
 
 ## Feature Availability
 
+* General
+  * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
+  * [General](general.md) **Available Now**
+  * [Best Practices](best-practices.md) **Available Now**
+
 * Core Finance  
   * [Finance](finance.md) **Available Now**  
   * [Year Close Operations](year-close-operations.md) **Available Now**  
@@ -40,15 +45,10 @@ The following topics describe the local functionality in the Czech version of [!
 * Payables and Receivables
   * [Payables and Receivables](receivables-payables.md) **Available Now**
   * [Intrastat](intrastat.md) **Available Now**
-   * [Compensation (Extension)](ui-extensions-compensations-localization-cz.md) **2021 release wave 1**
+  * [Compensation (Extension)](ui-extensions-compensations-localization-cz.md) **2021 release wave 1**
 
 * Inventory
   * [Inventory](inventory.md) **Available Now**
-
-* General
-  * [General](general.md) **Available Now**
-  * [Best Practices](best-practices.md) **Available Now**
-  * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md)  
 
 ## See Also
 

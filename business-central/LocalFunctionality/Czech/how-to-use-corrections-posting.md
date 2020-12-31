@@ -24,6 +24,6 @@ The purpose of the feature is:
 
 ## See also
 
-[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)
+[Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  

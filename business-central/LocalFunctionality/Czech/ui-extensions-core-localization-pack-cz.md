@@ -37,7 +37,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Unreliable Payer](unreliable-payer.md) **Available Now**
   - [VAT Exchange Rate](how-to-setup-vat-exchange-rate.md) **Available Now**
   - [Reverse Charge - setup and posting](how-to-setup-and-post-reverse-charge.md) **Available Now**
-  - [VAT Control Report](how-to-create-vat-control-report.md) **Available Now**
+  - [VAT Control Report](vat-control-report.md) **Available Now**
   - [VAT Reports](vat-reports-cz.md) **Available Now**
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
 

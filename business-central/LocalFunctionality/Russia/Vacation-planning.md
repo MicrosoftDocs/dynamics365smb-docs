@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Vacation Planning
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] provides a schedule of vacations for a calendar year:
+[!INCLUDE[prod_short](../../includes/prod_short.md)] provides a schedule of vacations for a calendar year:
 
 1. Go to **Human Resources > Vacation Planning > Vacation Schedule**
 2. To create a vacation schedule, create a new schedule by specifying in the **Year** field the calendar year for which the vacation schedule is drawn up. The **Description** field contains the name of the schedule.

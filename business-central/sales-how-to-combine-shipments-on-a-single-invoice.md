@@ -32,7 +32,7 @@ Before you can create a combined shipment, more than one sales shipment for the 
 7. To post the invoice, choose the **Post** action.  
 
 ## To automatically combine shipments on a single invoice  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] will select only sales orders where **Combine Shipments** is chosen. 
+[!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -57,4 +57,4 @@ Repeat steps 1 through 3 for any other affected documents, such as blanket sales
 
 ## See Also  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

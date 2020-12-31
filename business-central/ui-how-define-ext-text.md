@@ -39,4 +39,4 @@ You can now add this extended text to documents. The following procedure explain
 ## See Also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

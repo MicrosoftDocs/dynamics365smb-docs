@@ -15,7 +15,7 @@
 
 ---
 # Set Up Declaration Types
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are two types of declaration:  
 
 - Simplified declaration  
 - Extended declaration  

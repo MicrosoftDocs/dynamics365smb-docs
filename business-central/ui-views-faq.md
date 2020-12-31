@@ -40,7 +40,7 @@ At the bottom of the filter pane, choose the **Reset filters** action to clear f
 Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the **Show** action.
 
 ### How can I share my views with others?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] does not provide a way to share the precise list view, but you can share your current filters so that other users can see a similar list of records. In your desktop browser, simply copy the URL and share it with your colleagues. Sharing filters is not guaranteed to give the recipient an identical set of filters that you see in your browser.
+[!INCLUDE[prod_short](includes/prod_short.md)] does not provide a way to share the precise list view, but you can share your current filters so that other users can see a similar list of records. In your desktop browser, simply copy the URL and share it with your colleagues. Sharing filters is not guaranteed to give the recipient an identical set of filters that you see in your browser.
 
 ### Can I search for views in the Tell Me window?
 No. The **Tell Me** window only displays search results for the page, but you are only a step away from getting to your favorite view once you navigate to the page.
@@ -62,20 +62,20 @@ The views you see on any list are a combination of your personal views together 
 Some views only provide the option to save a copy of the view, while others do not allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
 - Personal views that you saved
 - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you cannot save changes to filters back to that system view.
-- Legacy system views that are a standard part of the business application but were created using older versions of [!INCLUDE[d365fin](includes/d365fin_md.md)]. These views offer significantly fewer options. You can only save them as a new view and cannot hide or reorder them either. Note that legacy system views will be discontinued in a future update to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Legacy system views that are a standard part of the business application but were created using older versions of [!INCLUDE[prod_short](includes/prod_short.md)]. These views offer significantly fewer options. You can only save them as a new view and cannot hide or reorder them either. Note that legacy system views will be discontinued in a future update to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### How do I convert legacy system views?
-Legacy system views are list views that were created by developers in older versions of [!INCLUDE[d365fin](includes/d365fin_md.md)] by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and significantly fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
+Legacy system views are list views that were created by developers in older versions of [!INCLUDE[prod_short](includes/prod_short.md)] by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and significantly fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
 
-Note that legacy system views will be discontinued in a future update to [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Note that legacy system views will be discontinued in a future update to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### Others in my organization need similar list views as standard. What can I do?
-Working with personal views is quick and effective, but [!INCLUDE[d365fin](includes/d365fin_md.md)] provides additional tools to define list views needed by specific user roles or all users in the organization.
+Working with personal views is quick and effective, but [!INCLUDE[prod_short](includes/prod_short.md)] provides additional tools to define list views needed by specific user roles or all users in the organization.
  - Developers can customize the environment and create list views in extensions for all users in the organization.
  - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the **Profiles (Roles)** page.
 
 ### I work with multiple languages: how do I translate the name of the view?
-When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in different languages. To provide translated view names, you must switch language using the **My Settings** page and then rename the view, which will store the translated name in the new language.
+When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with [!INCLUDE[prod_short](includes/prod_short.md)] in different languages. To provide translated view names, you must switch language using the **My Settings** page and then rename the view, which will store the translated name in the new language.
 
 ### Do views with expressions work in all languages?
 Expressions that only use symbols, such as '**|**' or **..**, are considered safe for users to access in any language. Any views with expressions that include letters, keywords or filter tokens will only work for the language in which they were authored.

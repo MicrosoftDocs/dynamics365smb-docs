@@ -72,25 +72,25 @@ In cost accounting, you can transfer general ledger entries to a cost type by us
 |Month|All general ledger entries in the same calendar month are transferred as one entry to the corresponding cost type.|  
 
 > [!IMPORTANT]  
->  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
+>  If you have selected the **Auto Transfer from G/L** check box on the **Cost Accounting Setup** page, [!INCLUDE[prod_short](includes/prod_short.md)] updates the cost accounting after every posting in the general ledger. Combined entries are not possible.
 
 ## Results of Transferring General Ledger Entries to Cost Entries
-During the transfer of general ledger entries to cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
+During the transfer of general ledger entries to cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] creates connections in the entries in the **G/L Entry** table, the **Cost Entry** table, and the **Cost Register** table to make it possible to trace the connections between cost entries and general ledger entries.  
 
 ### General Ledger Entries  
-For each general ledger entry that is transferred to cost accounting, [!INCLUDE[d365fin](includes/d365fin_md.md)] fills the cost **Entry No.** field.  
+For each general ledger entry that is transferred to cost accounting, [!INCLUDE[prod_short](includes/prod_short.md)] fills the cost **Entry No.** field.  
 
 ### Cost Entries  
-For each cost entry, [!INCLUDE[d365fin](includes/d365fin_md.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
+For each cost entry, [!INCLUDE[prod_short](includes/prod_short.md)] saves the entry number of the corresponding general ledger entry in the **G/L Entry No.** field in the **Cost Entry** table.  
 
-For combined cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] saves the entry number of the last general ledger entry, which is the entry with the highest entry number.  
+For combined cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] saves the entry number of the last general ledger entry, which is the entry with the highest entry number.  
 
 The **G/L Account** field in the **Cost Entry** table contains the number of the general ledger account that the cost entry came from.  
 
-For single cost entries, [!INCLUDE[d365fin](includes/d365fin_md.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
+For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfers the posting text from the general ledger entry to the **Description** text field. For combined entries, the text field shows these entries are transferred as combined entries. For example, for a combined entry for the month of October in 2013, the text can be **Combined Entries, October 2013**.  
 
 ### Cost Register  
-In the **Cost Register** table, [!INCLUDE[d365fin](includes/d365fin_md.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
+In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
 
 ## See Also  
  [About Cost Accounting](finance-about-cost-accounting.md)   

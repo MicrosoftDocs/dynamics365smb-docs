@@ -56,7 +56,7 @@ If you want to assign a depreciation book to several fixed assets, you can use t
 7. Choose the **OK** button.
 
 ## To set up depreciation posting types
-For each depreciation book, you must set up how you want [!INCLUDE[d365fin](includes/d365fin_md.md)] to handle various posting types. For example, whether posting should be debit or credit and whether the posting type should be included in the depreciable basis.  
+For each depreciation book, you must set up how you want [!INCLUDE[prod_short](includes/prod_short.md)] to handle various posting types. For example, whether posting should be debit or credit and whether the posting type should be included in the depreciable basis.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2. Select the depreciation book that you want to set up, and them choose the **FA Posting Type Setup** action.
@@ -80,4 +80,4 @@ For each depreciation book, you define a default setup of templates and batches.
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

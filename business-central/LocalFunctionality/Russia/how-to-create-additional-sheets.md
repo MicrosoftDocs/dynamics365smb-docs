@@ -12,7 +12,7 @@ ms.author: soalex
 ---
 # Create Additional Sheets
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
 ## To create entries for an additional sheet for a VAT purchase or sales ledger
 

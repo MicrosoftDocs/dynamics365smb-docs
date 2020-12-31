@@ -11,15 +11,15 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 10/01/2020
 ms.author: jswymer
 ---
-# Using the [!INCLUDE [prodshort](includes/prodshort.md)] Apps in Power BI
+# Using the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
-> **APPLIES TO:** [!INCLUDE [prodlong](includes/prodlong.md)] online 
+> **APPLIES TO:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
-[!INCLUDE [prodlong](includes/prodlong.md)] publishes the following Power BI apps, which provide detailed dashboards for viewing data:
+[!INCLUDE [prod_long](includes/prod_long.md)] publishes the following Power BI apps, which provide detailed dashboards for viewing data:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales
+- [!INCLUDE [prod_long](includes/prod_long.md)] - CRM  
+- [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
+- [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
 ## Overview
 
@@ -30,10 +30,10 @@ Each app includes several reports that you can drill into for data, including th
 - Pin a customized view to the dashboard to continue tracking.  
   You can refresh data manually, and you can set up a refresh schedule. For more information, see [Configuring scheduled refresh](/power-bi/refresh-scheduled-refresh).  
 
-The apps are designed to work with data from any company in [!INCLUDE[prodshort](includes/prodshort.md)]. When you install the Power BI app, you specify one or more parameters to connect to your [!INCLUDE [prodshort](includes/prodshort.md)].  
+The apps are designed to work with data from any company in [!INCLUDE[prod_short](includes/prod_short.md)]. When you install the Power BI app, you specify one or more parameters to connect to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[prodshort](includes/prodshort.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md). 
+> You can also build your own reports and dashboards in Power BI based on your [!INCLUDE[prod_short](includes/prod_short.md)] data. For more information, see [Connecting Your Business Data to Power BI](across-how-use-financials-data-source-powerbi.md). 
 
 ## Prerequisites
 
@@ -41,25 +41,25 @@ Power BI apps require permissions to the tables where data is retrieved from and
     
 |App | Web services|
 |----|-------------|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – CRM| <ul><li>Sales Opportunities</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Finance| <ul><li>PowerBIFinance</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Sales| <ul><li>Item Sales by Customer</li><li>Sales Dashboard</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – CRM| <ul><li>Sales Opportunities</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Finance| <ul><li>PowerBIFinance</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Sales| <ul><li>Item Sales by Customer</li><li>Sales Dashboard</li><li>Excel Template View Company Information</li><li>Power BI Report Labels</li></ul>|
 
 > [!TIP]
-> An easy way to find the web services is to search for *web services* in [!INCLUDE[prodshort](includes/prodshort.md)]. In the **Web Services** page, make sure that the **Publish** field is selected for the web services listed above. For more information, see [Publishing a Web Service](across-how-publish-web-service.md).
+> An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure that the **Publish** field is selected for the web services listed above. For more information, see [Publishing a Web Service](across-how-publish-web-service.md).
 
 ## Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## Install a [!INCLUDE[prodshort](includes/prodshort.md)] app in Power BI
+## Install a [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
 
     ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    You can also get starting from within [!INCLUDE [prodshort](includes/prodshort.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organization** from the ribbon. Either the Organization gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prodshort](includes/prodshort.md)].
+    You can also get starting from within [!INCLUDE [prod_short](includes/prod_short.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organization** from the ribbon. Either the Organization gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 3. In the **Services** box, select **Get**.
 
@@ -70,18 +70,18 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
     When completed, the app will be available from **Apps** on the navigation menu in Power BI.
 
-## Connect the [!INCLUDE[prodshort](includes/prodshort.md)] app to your data
+## Connect the [!INCLUDE[prod_short](includes/prod_short.md)] app to your data
 
 1. Under **Apps**, select the Business Central app, then **Connect**.
-2. When prompted, fill in the **Company Name** and **Environment** with information about the [!INCLUDE[prodshort](includes/prodshort.md)] instance that you want to connect to.
+2. When prompted, fill in the **Company Name** and **Environment** with information about the [!INCLUDE[prod_short](includes/prod_short.md)] instance that you want to connect to.
 
-    - For **Company Name**, make sure to use the full name, not the display name. You can find the company name in the **Companies** page in [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - For **Company Name**, make sure to use the full name, not the display name. You can find the company name in the **Companies** page in [!INCLUDE[prod_short](includes/prod_short.md)]. 
     - For **Environment**, if you haven't created multiple environments, enter **Production**.
 
 3. Select **Next**.
 4. Select **Sign-in**.
-5. When prompted, enter the user name and password for signing into [!INCLUDE[prodshort](includes/prodshort.md)].
-6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prodshort](includes/prodshort.md)] company.
+5. When prompted, enter the user name and password for signing into [!INCLUDE[prod_short](includes/prod_short.md)].
+6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prod_short](includes/prod_short.md)] company.
 
     ![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -95,9 +95,9 @@ A Power BI account hasn't been set up. You must have a license to get a valid Po
 
 ### Message: There are no enabled reports. Choose Select Report to see a list of reports that you can display.
 
-This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prodshort](includes/prodshort.md)] and manually select the report from the **Select Reports** page.
+This message appears if the default report failed to deploy to your Power BI workspace. Or the report deployed but didn't successfully refresh. If this problem happens, navigate to the report in your Power BI workspace, select **Dataset**, **Settings**, and then manually update the credentials. Once the dataset successfully refreshes, navigate back to [!INCLUDE[prod_short](includes/prod_short.md)] and manually select the report from the **Select Reports** page.
 
-### You need a Power BI Pro license to install the [!INCLUDE[prodshort](includes/prodshort.md)] app in Power BI
+### You need a Power BI Pro license to install the [!INCLUDE[prod_short](includes/prod_short.md)] app in Power BI
 
 You need a [Power BI Pro license](/power-bi/service-features-license-type) to share your content, and the people you share it with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -105,22 +105,22 @@ You need a [Power BI Pro license](/power-bi/service-features-license-type) to sh
 
 This error indicates that one more of the parameters aren't valid.
 
-- The specified environment parameter doesn't match any existing [!INCLUDE[prodshort](includes/prodshort.md)] production or sandbox environment.
-- The specified company parameter doesn't match any existing [!INCLUDE[prodshort](includes/prodshort.md)] companies. Verify the company name in the **Companies** page in [!INCLUDE[prodshort](includes/prodshort.md)].
-- If connecting to [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you entered a URL that isn't valid. You can verify the URL in the **Web Services** page in [!INCLUDE[prodshort](includes/prodshort.md)]  
+- The specified environment parameter doesn't match any existing [!INCLUDE[prod_short](includes/prod_short.md)] production or sandbox environment.
+- The specified company parameter doesn't match any existing [!INCLUDE[prod_short](includes/prod_short.md)] companies. Verify the company name in the **Companies** page in [!INCLUDE[prod_short](includes/prod_short.md)].
+- If connecting to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you entered a URL that isn't valid. You can verify the URL in the **Web Services** page in [!INCLUDE[prod_short](includes/prod_short.md)]  
 - A port isn't open to allow the request through your firewall.
 
 ### Can't sign in
 
-If you get a "login failed" error after using your [!INCLUDE[prodshort](includes/prodshort.md)] user credentials to sign in, then you're probably experiencing one of the following issues:
+If you get a "login failed" error after using your [!INCLUDE[prod_short](includes/prod_short.md)] user credentials to sign in, then you're probably experiencing one of the following issues:
 
-- The account that you're using doesn't have permissions to retrieve the [!INCLUDE[prodshort](includes/prodshort.md)] data from your account. Verify that you have permissions to the required data in [!INCLUDE[prodshort](includes/prodshort.md)] and try again.
-- You've selected an authentication type other than Basic, if connecting to [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.
+- The account that you're using doesn't have permissions to retrieve the [!INCLUDE[prod_short](includes/prod_short.md)] data from your account. Verify that you have permissions to the required data in [!INCLUDE[prod_short](includes/prod_short.md)] and try again.
+- You've selected an authentication type other than Basic, if connecting to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 - You haven't entered a valid user name or password.
 
 ### Message: Your data source can't be refreshed because the credentials are invalid. Please update your credentials and try again
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, the problem might be that the OData URL is only exposed to the local network.
+For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the problem might be that the OData URL is only exposed to the local network.
 
 ### Incorrect company name
 
@@ -136,7 +136,7 @@ Once the Power BI app installs and your data show in Power BI, you notice that n
 
 ### I only see data for a single company
 
-The Power BI app will only display data from the [!INCLUDE[prodshort](includes/prodshort.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
+The Power BI app will only display data from the [!INCLUDE[prod_short](includes/prod_short.md)] company that was defined when the Power BI app was installed. Data from additional companies can be added to the reports by adding new queries that use different companies as the data source.  
 
 ### What Now?
 
@@ -150,9 +150,9 @@ The Power BI app will only display data from the [!INCLUDE[prodshort](includes/p
 ## See Also
 
 [Business Central and Power BI](admin-powerbi.md)  
-[Power BI Integration Component and Architecture Overview for [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Working with [!INCLUDE [prodshort](includes/prodshort.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
-[Building Power BI Reports to Display [!INCLUDE [prodlong](includes/prodlong.md)] Data](across-how-use-financials-data-source-powerbi.md)  
+[Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Working with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
 [The 'new look' of the Power BI service](/power-bi/service-new-look)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -160,9 +160,9 @@ The Power BI app will only display data from the [!INCLUDE[prodshort](includes/p
 [Business Intelligence](bi.md)  
 [Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

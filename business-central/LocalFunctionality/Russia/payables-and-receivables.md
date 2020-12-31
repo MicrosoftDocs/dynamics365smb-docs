@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Payables and Receivables in the Russian version
 
-In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your accounts payable and accounts receivable.
+In Russia, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your accounts payable and accounts receivable.
 
 ## Getting Started with Payables and Receivables
 

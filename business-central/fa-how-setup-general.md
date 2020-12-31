@@ -47,7 +47,7 @@ Allocation keys apply to fixed asset classes, not to individual assets.
 ## To set up fixed asset journal templates
 A template is a predefined layout for a journal. The template contains information about trace codes, reports, and number series. For more information, see [Working with General Journals](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** page, but you can set up additional journal templates.  
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** page, but you can set up additional journal templates.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
@@ -60,7 +60,7 @@ You can set up multiple journal batches, which are individual journals for each 
 3. On the **FA Journal Batches** page, fill in the fields as necessary.
 
 ## To set up fixed asset reclassification journal templates
-You use dedicated reclassification journals when you need to transfer, split, or combine fixed assets. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically creates a fixed asset reclassification journal template the first time that you open the **FA Reclass. Journal** page, but you can set up additional reclassification journal templates. For more information, see [Work with General Journals](ui-work-general-journals.md).  
+You use dedicated reclassification journals when you need to transfer, split, or combine fixed assets. [!INCLUDE[prod_short](includes/prod_short.md)] automatically creates a fixed asset reclassification journal template the first time that you open the **FA Reclass. Journal** page, but you can set up additional reclassification journal templates. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary.
@@ -91,7 +91,7 @@ You use fixed asset location codes to register the location of the fixed asset, 
 2. Enter codes and names for the fixed asset locations that you want to create.
 
 ## To register opening entries
-If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
+If you are using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
 
  The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
 
@@ -106,7 +106,7 @@ If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 7. In the fixed asset journal, enter the following lines for each asset:
    * A line with the acquisition cost.
    * A line with the accumulated depreciation to the end of the previous fiscal year.
-   * A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[d365fin](includes/d365fin_md.md)] is set to start calculating the depreciation.
+   * A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[prod_short](includes/prod_short.md)] is set to start calculating the depreciation.
 
     If you have other opening balances you can also enter them now, such as write-down and appreciation.  
 8. After you have entered and posted the journal lines for each asset, turn on general ledger integration in the
@@ -119,4 +119,4 @@ If the fixed assets are not integrated with the general ledger, skip step 6 and 
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

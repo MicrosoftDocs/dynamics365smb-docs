@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # The Company Hub for Business Central Extension
 
-This application provides a dashboard with summary data for each company that the user has access to across all [!INCLUDE [prodshort](includes/prodshort.md)] online, such as the many clients of an accountant. The home page displays financial KPIs as well as a direct link to the individual environments and companies so that users can.
+This application provides a dashboard with summary data for each company that the user has access to across all [!INCLUDE [prod_short](includes/prod_short.md)] online, such as the many clients of an accountant. The home page displays financial KPIs as well as a direct link to the individual environments and companies so that users can.
 
 The dashboard is a highly specialized Role Center for a better overview of your work.
 
@@ -23,7 +23,7 @@ When you first install the extension, a sample company helps you get started. Yo
 
 ## Installing the Extension
 
-When you install the extension in your [!INCLUDE [prodshort](includes/prodshort.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.
+When you install the extension in your [!INCLUDE [prod_short](includes/prod_short.md)], you will be asked if you want to use it now. If you do, then you must sign out and sign in again, because the extension replaces your current Role Center and adds permissions to your user profile.
 
 ## See also
 

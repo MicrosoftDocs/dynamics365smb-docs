@@ -16,7 +16,7 @@ ms.author: soalex
 
 # Set Up and Generate DIOT Reports
 
-As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] by generating a file that can be uploaded to SAT. This topic describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[d365fin](../../includes/d365fin_md.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This topic describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## What Does this Extensions Handle?
 The extension provides the following capabilities:
@@ -25,9 +25,9 @@ The extension provides the following capabilities:
 * Export the DIOT report so it can be uploaded to the authorities
 
 ## Setup of the Mexican DIOT Extension
-You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. If needed, you can run the guide several times until the setup is completed.
+You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until the setup is completed.
 
-1. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
 2. Choose the **Set Up DIOT** action.
 3. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
 4. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
@@ -50,7 +50,7 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
 9. Choose the **Finish** button.
 
 ## Optional Setup for Reporting Witholding Tax with the DIOT Extension
-The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
+The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
 
 The **VAT Posting Setup** table has a new field, **DIOT WHT %**. By setting this field to a value other than zero, you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
 
@@ -68,5 +68,5 @@ This field will only affect the DIOT report calculations and not the actual post
 When the report runs without errors, you will be prompted to save the file **Diot.txt**, which you can then send to authorities.
 
 ## See Also
-[Customizing [!INCLUDE[d365fin](../../includes/d365fin_md.md)] Using Extensions](../../ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 [Getting Started](../../product-get-started.md)

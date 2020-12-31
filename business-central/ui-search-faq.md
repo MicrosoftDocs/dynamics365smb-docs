@@ -28,7 +28,7 @@ Actions, pages, and reports that originate from extensions are picked up by Tell
 ### What makes this different from what was previously known as Page Search?
 Page Search has evolved into Tell Me to help you get work done quickly. Page Search could only help you navigate to pages or reports. At a technical level, Tell Me is no longer based on the legacy MenuSuite concept.
 
-### I use on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Does that include Tell Me?
+### I use on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Does that include Tell Me?
 You can use Tell Me in the on-premises Web Client to find actions, pages, and reports, but not documentation, or apps and consulting services on AppSource.
 
 ### Is Tell Me available for all form factors?

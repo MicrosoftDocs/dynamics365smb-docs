@@ -19,7 +19,7 @@ The cash journal and the bank/giro journal help you post transactions into the s
 
 In conjunction with Telebanking, they allow you to import electronic bank statements into the **Bank/Giro Journal** page. The system can automatically reconcile these statements during the import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
 
 You can enter increases or decreases to the cash account on the **Cash Journal** page. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
 

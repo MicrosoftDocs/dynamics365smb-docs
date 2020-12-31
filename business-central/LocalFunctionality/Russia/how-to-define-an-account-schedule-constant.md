@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Define an Account Schedule Constant
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
 ## To define an account schedule constant
 

@@ -11,13 +11,13 @@ ms.author: edupont
 ---
 # Set Up Payment Terms
 
-Payment terms determine how you help you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prodshort](includes/prodshort.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
+Payment terms determine how you help you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 
 You can assign a payment term to customers and vendors so that the same terms are always used on the sales and purchase documents you create for them. If needed, you can change the terms on the sales or purchase document, such as if you want a particular customer to pay you within 7 days rather than the default 14 days. This does not change the default payment term assigned to the customer.
 
-The same payment terms are used for sales and purchase documents. For example, when you post an invoice, [!INCLUDE [prodshort](includes/prodshort.md)] calculates the payment discounts based on the payment terms. The payment discount date, that is, the latest date on which the customer can pay and receive a discount on the payment, will also be calculated at that time.  
+The same payment terms are used for sales and purchase documents. For example, when you post an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the payment discounts based on the payment terms. The payment discount date, that is, the latest date on which the customer can pay and receive a discount on the payment, will also be calculated at that time.  
 
-Similarly, when you post a credit memo, [!INCLUDE [prodshort](includes/prodshort.md)] calculates possible payment discounts based on the payment terms. The discount on credit memos is calculated according to the same principles as payment discounts on invoices. Where a credit memo is applied to an invoice, the possible payment discount amount for the invoice will be reduced by the payment discount amount for the credit memo.  
+Similarly, when you post a credit memo, [!INCLUDE [prod_short](includes/prod_short.md)] calculates possible payment discounts based on the payment terms. The discount on credit memos is calculated according to the same principles as payment discounts on invoices. Where a credit memo is applied to an invoice, the possible payment discount amount for the invoice will be reduced by the payment discount amount for the credit memo.  
 
 ## To set up payment terms
 
@@ -27,7 +27,7 @@ Similarly, when you post a credit memo, [!INCLUDE [prodshort](includes/prodshort
 After you set up the payment terms, you assign them to customers and vendors. Optionally, assign payment terms to your payment methods.  
 
 > [!TIP]
-> In the base version of [!INCLUDE [prodshort](includes/prodshort.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
+> In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
 >
 > In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side on the [Docs.microsoft.com](about-localization.md) site.
 

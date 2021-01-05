@@ -39,7 +39,7 @@ Then you can set up columns like these:
 ## Setting Up Line and Column Layouts  
  On the **Analysis Report** page, you can view different line and column layouts according to the lines or line templates that you set up on the **Analysis Line Templates** page. You can define the name of the report and the objects you want to show in the lines of your report. You set up your columns on the **Analysis Column Templates** page. You can define the name of the column template and the analysis parameters that you want to show in the report as columns. On the **Analysis Column Templates** page, each line represents a column in your report. Note that analysis lines and analysis columns are independent from each other.  
 
-Based on the lines and columns you have set up, [!INCLUDE[d365fin](includes/d365fin_md.md)] will aggregate the result of your report in the **Analysis Report** page, as shown in the following table.  
+Based on the lines and columns you have set up, [!INCLUDE[prod_short](includes/prod_short.md)] will aggregate the result of your report in the **Analysis Report** page, as shown in the following table.  
 
 |- |Sales Current Month|Sales Last Month|Sales Last Month %|  
 |-|-|-|-|  
@@ -101,4 +101,4 @@ You use analysis reports to analyze the dynamics of your sales according to key 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

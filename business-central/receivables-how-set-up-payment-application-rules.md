@@ -48,10 +48,10 @@ In addition to the matching criteria, the following applies concerning the sign 
 |**Doc. No./Ext. Doc. No. Matched**|Specifies if text on the payment reconciliation journal line must match with the value in the **Document No.** field or the **External Document No.** field on the open entry before the application rule will be used to automatically apply the payment to the open entry.|
 |**Amount Incl. Tolerance Matched**|Specifies how many entries for a customer or vendor must match the amount including payment tolerance before the application rule will be used to automatically apply a payment to the open entry.|
 
-The following table shows which payment application rules are set up in the generic version of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The following table shows which payment application rules are set up in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> The payment application rules may be different in your implementation of [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> The payment application rules may be different in your implementation of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Match Confidence | Priority | Related Party Matched | Doc. No./Ext. Doc. No. Matched | Amount Incl. Tolerance Matched |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -86,4 +86,4 @@ The following table shows which payment application rules are set up in the gene
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

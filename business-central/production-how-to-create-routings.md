@@ -42,8 +42,8 @@ Before you can set up a routing, the following must be in place:
 9. In the **Routing Link Code** field, enter a code to connect the component to a specific operation. For more information, see [To create routing links](production-how-to-create-routings.md#to-create-routing-links).
 10. In the **Run Time** and **Setup Time** fields, enter the process times needed to perform the operation.
 
-    > [!NOTE]
-    > Setup time is calculated per production order, whereas run time is calculated per produced item.  
+     > [!NOTE]
+     > Setup time is calculated per production order, whereas run time is calculated per produced item.  
 
 11. In the **Concurrent Capacities** field, specify how many units of the selected resource are used to perform the operation. For example, two people allocated to one packing operation will halve the run time.  
 12. Continue to fill in lines for all operations involved in producing the item in question.  
@@ -125,4 +125,4 @@ The time validity of the version is specified by the **Starting Date** field.
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

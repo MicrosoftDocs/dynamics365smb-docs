@@ -15,7 +15,7 @@
 ---
 # Dutch Post Codes
 
-In the Netherlands, you can subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities. Depending on your subscription, you receive a file that has changes to the post code data for you to import into [!INCLUDE[prodshort](../../includes/prodshort.md)].  
+In the Netherlands, you can subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities. Depending on your subscription, you receive a file that has changes to the post code data for you to import into [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## See Also
 

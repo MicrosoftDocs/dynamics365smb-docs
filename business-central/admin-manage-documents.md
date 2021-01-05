@@ -13,9 +13,12 @@ ms.author: edupont
 
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 
+> [!TIP]
+> For information about other ways to reduce the amount of data stored in a database, see [Reducing Data Stored in Business Central Databases](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in the Developer and IT pro help.
+
 ## Delete Documents
 
-In certain situations, you may need to delete invoiced purchase orders that have not been deleted. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
+In certain situations, you may need to delete invoiced purchase orders that have not been deleted. [!INCLUDE[prod_short](includes/prod_short.md)] checks that you have fully invoiced the deleted purchase orders. You cannot delete orders that you have not fully invoiced and received.  
 
 Return orders are usually deleted after they are invoiced. When you post an invoice, it is transferred to the **Posted Purchase Credit Memo** page. If you selected the **Return Shipment on Credit Memo** check box on the **Purchases & Payable Setup** page, then the invoice is transferred to the **Posted Return Shipment** page. You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job. Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.  
 
@@ -27,13 +30,13 @@ Service orders are not deleted automatically, however, if the total quantity on 
 
 ## Compress Data with Date Compression
 
-You can compress data in [!INCLUDE [prodshort](includes/prodshort.md)] so that you save space in the database, which in [!INCLUDE [prodshort](includes/prodshort.md)] online can even save you money. The compression is based on dates and works by combining several old entries into one new entry. You can compress entries from closed fiscal years only, and only vendor ledger entries where the **Open** field is set to *No*.  
+You can compress data in [!INCLUDE [prod_short](includes/prod_short.md)] so that you save space in the database, which in [!INCLUDE [prod_short](includes/prod_short.md)] online can even save you money. The compression is based on dates and works by combining several old entries into one new entry. You can compress entries from closed fiscal years only, and only vendor ledger entries where the **Open** field is set to *No*.  
 
 For example, vendor ledger entries from previous fiscal years can be compressed so that there is only one credit and one debit entry per account per month. The amount in the new entry is the sum of all the compressed entries. The date assigned is the starting date for the period that is compressed, such as the first day of the month (if the entries are compressed by month). After the compression, you can still see the net change for each account in the previous fiscal year.
 
 The number of entries that result from a date compression depends on how many filters you set, which fields are combined, and which period length you choose. There will always be at least one entry. When the batch job is finished, you can see the result in the **Date Compr. Registers** page.
 
-You can compress the following types of data in [!INCLUDE [prodshort](includes/prodshort.md)] using batch jobs:
+You can compress the following types of data in [!INCLUDE [prod_short](includes/prod_short.md)] using batch jobs:
 
 * Bank account ledger entries
 

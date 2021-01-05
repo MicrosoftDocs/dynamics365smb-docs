@@ -31,4 +31,4 @@ After you use the **Close Income Statement** batch job to generate the year-end 
 [Close Accounting Periods](year-close-account-periods.md)  
 [Closing Books](year-close-books.md)  
 [Close Income Statement](year-close-income-statement.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

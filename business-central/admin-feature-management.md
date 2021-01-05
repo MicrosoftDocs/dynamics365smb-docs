@@ -13,7 +13,7 @@ ms.author: mikebc
 
 Some new features can be enabled ahead of time, letting you take advantage of them as early as possible. Enabling features early gives you the time to test and prepare your organization for change.
 
-When Microsoft releases features or feature design improvements as part of minor updates, some of the features aren't immediately enabled. Administrators can enable each feature from the **Feature Management** page. After a feature is enabled, it becomes available for all users on that environment no matter how they access [!INCLUDE[prodshort](includes/prodshort.md)]. Features can be safely turned off again. These features are only optional for a while.
+When Microsoft releases features or feature design improvements as part of minor updates, some of the features aren't immediately enabled. Administrators can enable each feature from the **Feature Management** page. After a feature is enabled, it becomes available for all users on that environment no matter how they access [!INCLUDE[prod_short](includes/prod_short.md)]. Features can be safely turned off again. These features are only optional for a while.
 
 Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 

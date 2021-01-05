@@ -16,7 +16,7 @@
 ---
 # Certifications
 
-This content contains information about certifications in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 ## Country/region-specific certifications and accreditations
 
@@ -41,4 +41,4 @@ Business Central as a cloud service also has achieved certifications, such as IS
 [Application Compliance](compliance-application-compliance.md)  
 [Service Compliance](compliance-service-compliance.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

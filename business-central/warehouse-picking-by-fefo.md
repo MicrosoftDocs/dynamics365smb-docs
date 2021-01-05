@@ -44,4 +44,4 @@ If the **Strict Expiration Posting** field is selected, then only items that are
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

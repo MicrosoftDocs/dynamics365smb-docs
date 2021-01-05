@@ -38,8 +38,8 @@ Any lines that cannot be matched, indicated by a value in the **Difference** fie
 
 |Difference|Reason|Resolution|
 |-|-|
-|A transaction in the internal bank account is not on the bank statement.|The bank transaction did not occur although a posting was made in [!INCLUDE[d365fin](includes/d365fin_md.md)].|Make the missing money transaction (or prompt a debitor to make it), and then reimport the bank statement file or enter the transaction manually.|
-|A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[d365fin](includes/d365fin_md.md)].|A bank transaction was made without a corresponding posting in [!INCLUDE[d365fin](includes/d365fin_md.md)], for example a journal line posting for an expense.|Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
+|A transaction in the internal bank account is not on the bank statement.|The bank transaction did not occur although a posting was made in [!INCLUDE[prod_short](includes/prod_short.md)].|Make the missing money transaction (or prompt a debitor to make it), and then reimport the bank statement file or enter the transaction manually.|
+|A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[prod_short](includes/prod_short.md)].|A bank transaction was made without a corresponding posting in [!INCLUDE[prod_short](includes/prod_short.md)], for example a journal line posting for an expense.|Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
 |A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match.|Information, such as the amount or the customer name, was entered differently in connection with the bank transaction or the internal posting.|Review the information, and then manually match the two. Optionally, correct the information mismatch.||
 
 You must resolve the differences, for example by creating missing entries and correcting non-matching information, or by making missing money transactions, until the bank account reconciliation is completed and posted.
@@ -47,7 +47,7 @@ You must resolve the differences, for example by creating missing entries and co
 You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page in the following ways:
 
 * Automatically, by using the **Import Bank Statement** function to fill in the **Bank Statement Lines** pane with bank transactions according to an imported file or stream provided by the bank.
-* Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.
+* Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[prod_short](includes/prod_short.md)] that have outstanding payments.
 
 ## To fill bank reconciliation lines by importing a bank statement
 
@@ -65,7 +65,7 @@ To enable import of bank statements as bank feeds, you must first set up and ena
 
 ## To fill bank reconciliation lines with the Suggest Lines function
 
-The **Bank Statement Lines** pane will be filled according to invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] that have outstanding payments.  
+The **Bank Statement Lines** pane will be filled according to invoices in [!INCLUDE[prod_short](includes/prod_short.md)] that have outstanding payments.  
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Suggest Lines** action.
 2. In the **Starting Date** field, enter the earliest posting date for the ledger entries to be reconciled.
@@ -98,7 +98,7 @@ The **Bank Acc. Reconciliation** page offers automatic matching functionality ba
 
 ## To create missing ledger entries to match bank statement lines with
 
-Sometimes a bank statement contain amounts for interest or fees charged. Such bank statement lines cannot be matched because no related ledger entries exist in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
+Sometimes a bank statement contain amounts for interest or fees charged. Such bank statement lines cannot be matched because no related ledger entries exist in [!INCLUDE[prod_short](includes/prod_short.md)]. You must then post a journal line for each transaction to create a related ledger entry that it can be matched with.
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Transfer to General Journal** action.  
 2. On the **Trans. Bank Rec. to Gen. Jnl.** page, specify which general journal to use, and then choose the **OK** button.
@@ -151,4 +151,4 @@ If the next bank reconciliation you do is for August, consider changing the valu
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

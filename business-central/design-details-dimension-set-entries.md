@@ -14,7 +14,7 @@
 
 ---
 # Design Details: Dimension Set Entries
-This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## In This Section  
 [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  

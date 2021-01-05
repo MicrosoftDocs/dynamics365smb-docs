@@ -32,7 +32,7 @@ In simple processes, the inventory items already carry serial or lot numbers, fo
 In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the **Item Tracking Lines** page under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
 
 ## Item Tracking Availability
-When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
+When you work with serial and lot numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
 
 On the **Item Tracking Lines** page, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
 
@@ -84,28 +84,6 @@ For some items, you might want to set up specific warranties in the item trackin
     |---------------------------------|---------------------------------------|  
     |**Warranty Date Formula**|Specifies the last day of warranty for the item.|  
     |**Man. Warranty Date Entry Reqd.**|Specifies that you must manually enter a warranty date on the item tracking line.|  
-
-## To record serial or lot number information  
-If you need to link special information to a specific item tracking number, for example, for quality assurance, you can do so in a serial or lot number information card.
-
-1. Open a document that has serial or lot numbers assigned.
-2. Open the **Item Tracking Lines** page for the document.
-3. Choose, for example, the **Serial No. Information Card** action.  
-
-    The **Serial No.** and **Lot No.** fields are prefilled from the item tracking line.  
-4. Enter a short piece of information in the **Description** field, for example about the condition of the item.  
-5. Choose the **Comment** action to create a separate comment record.  
-6. Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
-
-## To modify existing serial or lot number information  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Select an item that has an item tracking code and has serial or lot number information.
-3. From the **Item Card** page, choose the **Entries** action, and then choose **Ledger Entries**.
-4. Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** page opens.  
-5. Select a card, and then choose the **Lot No./Serial No. Information Card** action.  
-6. Modify the short description text, the comment record, or the **Blocked** field.  
-
-You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [To reclassify lot or serial numbers](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## To assign serial or lot numbers during an inbound transaction  
 Companies may want to keep track of items from the moment they enter the company. In this situation, the purchase order is often the central document, although item tracking may be handled from any inbound document and its posted entries displayed in the related item ledger entries.  
@@ -232,6 +210,34 @@ In these situations, the existing item tracking lines are copied automatically t
 
 The contents of the **Serial No.** and **Lot No.** fields are not editable. However, you can delete complete lines or change the quantities to match changes being made on the source line.  
 
+## To record serial or lot number information  
+If you need to link special information to a specific item tracking number, for example, for quality assurance, you can do so in a serial or lot number information card.
+
+1. Open a document that has serial or lot numbers assigned.
+2. Open the **Item Tracking Lines** page for the document.
+3. Choose, for example, the **Serial No. Information Card** action.  
+
+    The **Serial No.** and **Lot No.** fields are prefilled from the item tracking line.  
+4. Enter a short piece of information in the **Description** field, for example about the condition of the item.  
+5. Choose the **Comment** action to create a separate comment record.  
+6. Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
+
+If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
+
+Alternativelly you can create an information card when you post journals or documents, on the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. 
+
+You can modify created serial or lot information cards later.
+
+## To modify existing serial or lot number information  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. Select an item that has an item tracking code and has serial or lot number information.
+3. From the **Item Card** page, choose the **Entries** action, and then choose **Ledger Entries**.
+4. Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** page opens.  
+5. Select a card, and then choose the **Lot No./Serial No. Information Card** action.  
+6. Modify the short description text, the comment record, or the **Blocked** field.  
+
+You cannot modify the serial or lot numbers or quantities. To do so, you must reclassify the item ledger entry in question. For more information, see [To reclassify lot or serial numbers](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## To reclassify serial or lot numbers  
 Reclassifying item tracking for an item means changing a lot or serial number to a new lot or serial number or changing the expiration date to a new expiration date. If you are working with lots, you can also merge multiple lots into one. You perform these tasks using the item reclassification journal.
 
@@ -264,4 +270,4 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

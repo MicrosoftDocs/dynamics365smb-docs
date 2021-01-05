@@ -24,7 +24,7 @@ Attachments, links, and notes stay attached as the card or document is processed
 > When you partially ship and invoice a sales order or purchase order, the attachment will only be attached to the final invoice of that order. Likewise, when you invoice using the Deferrals feature, the attachment is only attached to the G/L entries for the document but not for the deferral entries.
 
 ## To attach a file to a purchase invoice
-You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Files attached with the Incoming Documents feature are not included on the **Attachments** tab. For more information, see [Incoming Documents](across-income-documents.md).
@@ -90,6 +90,6 @@ The following procedure is based on a sales order. The steps are similar for all
 The note is now attached to the sales order.
 
 ## See Also  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

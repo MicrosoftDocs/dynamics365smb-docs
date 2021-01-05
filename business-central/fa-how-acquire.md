@@ -44,7 +44,7 @@ When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card**
 ## To set up a component list for a main asset
 You can group your fixed assets into main assets and their components. For example, you may have a production machine that consists of many parts that you want to group in this manner.  
 
-Both the main asset and all its components must be set up as individual fixed asset cards. After you have set up a component list, [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed asset cards.
+Both the main asset and all its components must be set up as individual fixed asset cards. After you have set up a component list, [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **Main Assets/Component** and **Components of Main Asset** fields on the fixed asset cards.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 2. Select the fixed asset that is the main asset, and then choose the **Main Asset Components** action.
@@ -66,7 +66,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 4. Choose the **Post** action.  
 
 > [!TIP]  
->   If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[d365fin](includes/d365fin_md.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [Insure Fixed Assets](fa-how-insure.md).
+>   If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[prod_short](includes/prod_short.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [Insure Fixed Assets](fa-how-insure.md).
 
 ## To cancel an acquisition cost posting for one fixed asset
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
@@ -99,4 +99,4 @@ You can post the salvage value together with the acquisition cost from a fixed a
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

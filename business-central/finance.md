@@ -1,8 +1,6 @@
 ---
-title: Financial Management| Microsoft Docs
-description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-services: project-madeira
-documentationcenter: ''
+title: Financial Management
+description: Learn about how Business Central supports your needs for financial management, accounting, auditing, or bookkeeping.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -16,7 +14,8 @@ ms.author: edupont
 
 ---
 # Finance
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
@@ -53,18 +52,20 @@ The following table describes a sequence of tasks, with links to the topics that
 |Learn how to use the Accountant Role Center, invite an external accountant, and use the Company Hub to manage accounts for multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
 
 ## Take a Video Tour
+
 The following video introduces some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## See Also
+
 [Setting Up Finance](finance-setup-finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
-[Managing Projects](projects-manage-projects.md)    
+[Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

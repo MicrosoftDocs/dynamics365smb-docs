@@ -111,4 +111,4 @@ You can even create directly-paid invoices for non-registered customers by first
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

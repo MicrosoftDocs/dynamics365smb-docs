@@ -23,28 +23,28 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  • Non-financial information  
  • Regulatory filings, such as annual and quarterly financial statements  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
+ [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to implement data in XBRL, and take advantage of the flexibility and automation it provides for both collecting and sharing data.  
 
 ## eXtensible Business Reporting Language
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
+XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  
 
 Taxonomies are maintained by www.xbrl.org. You can download taxonomies or read more detailed information on the XBRL website.  
 
-Someone who wants financial information from you, provides you with a taxonomy (an XML document) containing one or more schemas, each with one or more lines to fill out. The lines correspond to the individual financial facts required by the sender. You import this taxonomy into application and then fill out the schema(s) by entering which account or accounts correspond to each line, what kind of timeframe to use, for example net change or balance at date. In some cases you can enter a constant instead, for example, number of employees. You are now ready to send the instance document (an XML document) to the someone who requests the information. The idea is that this might be a recurring event, so unless changes have been made to the taxonomy, you just export new instance documents for new periods on request.  
+Someone who wants financial information from you, provides you with a taxonomy (an XML document) containing one or more schemas, each with one or more lines to fill out. The lines correspond to the individual financial facts required by the sender. You import this taxonomy and then fill out the schema(s) by entering which account or accounts correspond to each line and what kind of time frame to use, for example, net change or balance at date. In some cases you can enter a constant instead, for example, a number of employees. You are now ready to send the instance document (an XML document) to the requester. The idea is that this might be a recurring event, so unless changes have been made to the taxonomy, you just export new instance documents for new periods on request.  
 
 ## XBRL is comprised of the following components  
-The XBRL **Specification** explains what XBRL is, how to build XBRL instance documents and XBRL taxonomies. The XBRL Specification explains XBRL in technical terms and is intended for a technical audience.  
+The XBRL **Specification** explains what XBRL is, and how to build XBRL instance documents and XBRL taxonomies. The XBRL Specification explains XBRL in technical terms and is intended for a technical audience.  
 
-The XBRL **Schema** are the core low-level components of XBRL. The schema is the physical XSD file which express how instance documents and taxonomies are to be built.  
+The XBRL **Schema** are the core low-level components of XBRL. The schema is the physical XSD file that expresses how instance documents and taxonomies are to be built.  
 
-The XBRL **Linkbases** are the physical XML files which contain various information about the elements defined in the XBRL Schema, such as labels in one or more languages, how they relate to each other, how to sum up elements, etc.  
+The XBRL **Linkbases** are the physical XML files that contain various information about the elements defined in the XBRL Schema, such as labels in one or more languages, how they relate to each other, how to sum up elements, and so on.  
 
 An XBRL **Taxonomy** is a "vocabulary" or "dictionary" created by a group, compliant with the XBRL Specification, in order to exchange business information.  
 
-An XBRL **Instance document** is a business report, such as a financial statement prepared to the XBRL specification. The meaning of the values in the instance document is explained by the taxonomy. An instance document is somewhat useless unless you know the taxonomy to which it is prepared.  
+An XBRL **Instance document** is a business report, such as a financial statement prepared to the XBRL specification. The meaning of the values in the instance document is explained by the taxonomy. An instance document is somewhat useless unless you know the taxonomy for which it is prepared.  
 
 ## Layered Taxonomies  
-A taxonomy can consist of a base taxonomy, for example, us-gaap or IAS, and then have one or more extensions. To reflect this, a taxonomy refers to one or more schemas which all are separate taxonomies. When the additional taxonomies are loaded into the database, the new elements are simply added to the end of the existing elements.  
+A taxonomy can consist of a base taxonomy, for example, us-gaap or IAS, and then have one or more extensions. To reflect this, a taxonomy refers to one or more schemas, each of which are separate taxonomies. When the additional taxonomies are loaded into the database, the new elements are simply added to the end of the existing elements.  
 
 ## Linkbases  
  In XBRL Spec. 2, the taxonomy is described in several XML-files. The primary XML file is the taxonomy schema file itself (.xsd file) which only contains an unordered list of elements or facts to be reported. In addition to this, there are usually associated some linkbase files (.xml). The linkbase files contain data which is complementary to the raw taxonomy (.xsd file). There are six types of linkbases files of which four have relevance for Product Name XBRL. These are:  
@@ -70,11 +70,14 @@ You set up the XBRL Lines by mapping the data in the taxonomy to the data in you
 6.  To set up the mapping of the general ledger accounts in the chart of accounts to the XBRL lines, choose the **G/L Map Lines** action.  
 7.  To add notes to the financial statement, choose the **Notes** action.  
 
-> [!NOTE]  
->  You can only export data that correspond to the source type you have selected in the **Source Type** field that includes description and notes.  
+   > [!TIP]
+   > To exclude lines from the export, choose **NOT APPLICABLE** as the source type.
 
-> [!NOTE]  
->  Lines that are not relevant can be marked as line type **NOT APPLICABLE** so the lines are not exported.
+   > [!NOTE]  
+   > You can only export data that corresponds to the selection in the **Source Type** field. This includes descriptions and notes.  
+
+   > [!NOTE]  
+   > Taxonomies might contain elements that [!INCLUDE[prod_short](includes/prod_short.md)] does not support. If an element is not supported, the **Source Type** field will display **Not Applicable** and the **Description** field will show an error message, such as **Unexpected type: "specific type not recognized"**. If you must export the element, choose a matching source type. Typically, this is a constant or a description. This will allow you to enter and export data, however, such elements might have validation rules that cannot be checked before exporting.
 
  ## To import an XBRL taxonomy  
 The first step in working with the XBRL functionality is to import the taxonomy into your company database. A taxonomy consists of one or more schemas and some linkbases. After you have completed the import of both schemas and linkbases and have applied the linkbases to the schema, you can set up the lines and map the general ledger accounts in the chart of accounts to the appropriate taxonomy lines.  
@@ -106,4 +109,4 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 ## See Also
 [Finance](finance.md)    
 [Business Intelligence](bi.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -13,9 +13,9 @@ ms.author: soalex
 
 # Posting Vendor and Customer Prepayments
 
-In the Russian version, prepayments work in a different way compared to the standard version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. When we receive a prepayment, it is necessary by accounting rules to post the prepayment on a separate account. Therefore, the vendor and customer posting groups have the **Prepayment Account** field.
+In the Russian version, prepayments work in a different way compared to the standard version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. When we receive a prepayment, it is necessary by accounting rules to post the prepayment on a separate account. Therefore, the vendor and customer posting groups have the **Prepayment Account** field.
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] uses this accounts for prepayment entries- Payment with Prepayment check mark.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] uses this accounts for prepayment entries- Payment with Prepayment check mark.
 
 ## To post a prepayment
 

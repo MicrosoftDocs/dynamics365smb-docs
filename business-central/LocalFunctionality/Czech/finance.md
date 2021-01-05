@@ -13,7 +13,7 @@ ms.author: v-pejano
 
 # Finance in the Czech Version
 
-In the Czech Republic, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your finances.
+In the Czech Republic, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your finances.
 
 ## Corrections Posting (Red Storno)
 

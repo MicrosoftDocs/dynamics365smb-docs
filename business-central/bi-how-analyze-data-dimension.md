@@ -3,7 +3,7 @@ title: Analyze Data by Dimensions| Microsoft Docs
 description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -78,4 +78,4 @@ The following procedure is for updating an analysis view from the **Analysis by 
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with Dimensions](finance-dimensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

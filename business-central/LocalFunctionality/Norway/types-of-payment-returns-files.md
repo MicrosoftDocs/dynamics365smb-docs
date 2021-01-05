@@ -17,7 +17,7 @@
 
 ---
 # Types of Payment Returns Files
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes two types of payment return files that can be imported:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes two types of payment return files that can be imported:  
 
 - Receipt returns  
 - Settlement returns  

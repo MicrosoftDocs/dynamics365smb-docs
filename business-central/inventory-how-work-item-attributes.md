@@ -75,4 +75,4 @@ The items on the **Items** page are filtered by the specified item attribute val
 [Categorize Items](inventory-how-categorize-items.md)    
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
 
 ---
@@ -74,6 +74,17 @@ If you have a contact and either a customer, vendor, employee, or bank account f
 3. On the page that opens, select the customer, vendor, employee, or bank account to link to.
 4. In the **Current Master Fields** field, specify whose fields to prioritize in case of conflicting information in fields common to the contact and customer, vendor, employee, or bank account. For example, if the salesperson code is different for the contact and customer, you can choose to keep the one on the contact card by selecting **Contact**.
 5. Choose the **OK** button.
+
+## To remove link between contact and an existing customer, vendor, employee or bank account
+If you have wrongly linked a contact and either a customer, vendor, employee, or bank account, you can remove link between to entities and stop to synchronize data.
+
+1. Open the contact that has wrong link.
+2. Choose the **Business Relations** action.
+3. On the page that opens, select the customer, vendor, employee, or bank account to remove link from.
+4. Choose the **Delete** action.
+
+> [!NOTE]  
+> Do not use **Business Relations** window to change existing relations. Instead remove relation and use **Link with existing** action. See [To link a contact to an existing customer, vendor, or bank account](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## Synchronizing Contacts with Customers, Vendors, Employees, and Bank Accounts
 If some of your contacts are also customers, vendors, employees, or bank accounts, you can synchronize then with data from the contact and gain the following benefits:

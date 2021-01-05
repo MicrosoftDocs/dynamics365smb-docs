@@ -48,10 +48,10 @@ When the **Apply Usage Link by Default** check box is selected, and the job plan
 > In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
 
 #### [Current Experience](#tab/current-experience)
-You can set up specific prices for resources for a job. You use the **Job Resource Prices** page to do this.
+You can set up specific prices for resources for a job. You use the **Job Resource Prices** page to do this. <!--can't find this page. Is it deprecated when the new experience is turned on?-->
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **Resource** action.
+2. Select the relevant job, and then choose the **Resource** action. <!--don't see this action-->
 3. On the **Job Resource Prices** page, fill in the fields as necessary.
 
 The optional information in the **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.  

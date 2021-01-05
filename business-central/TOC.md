@@ -280,6 +280,7 @@
 ### [List Views FAQ](ui-views-faq.md)
 ### [Copy and Paste FAQ](ui-copy-paste.md)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support

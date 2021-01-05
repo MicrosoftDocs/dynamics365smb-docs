@@ -35,17 +35,15 @@ To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you
 
 For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 
-When users are assigned a [!INCLUDE[prod_short](includes/prod_short.md)] license in Microsoft 365, you can import them to the **Users** page in [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Get New Users from Office 365** action.
+When users are assigned a [!INCLUDE[prod_short](includes/prod_short.md)] license in Microsoft 365, you can import them to the **Users** page in [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Update users from Office 365** action.
 
 ### <a name="adduser"></a>To add a user or update user information in Business Central
-
 Use dedicated import functions to add new users or update user information in [!INCLUDE[prod_short](includes/prod_short.md)] from the Microsoft 365 Admin Center.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
-2. Choose the **Update Users from Office 365** action.
-
-    If this is the first time you add users from Microsoft 365, choose the **Get New Users from Office 365** action.  
-3. Follow the steps in the guide that appears.
+2. Choose one of the following actions:
+    * To add new users, choose **Update Users from Office 365**.
+    * To update information for current users, choose **Update user information from Office 365**.
 
 The new users and user information in your Microsoft 365 subscription will be added on the **Users** page in [!INCLUDE[prod_short](includes/prod_short.md)]. You can now assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
@@ -61,7 +59,7 @@ Sometimes you may need to change the license that is assigned to a user. For exa
 1. Change the license in the Microsoft 365 Admin Center. For more information, see [Add users individually or in bulk to Microsoft 365](https://aka.ms/CreateOffice365Users).
 2. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] as an administrator.
 3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-4. On the **Users** page, choose the **Restore User Default User Groups** action.
+4. On the **Users** page, choose the **Refresh User Groups** action.
 
 The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).
 

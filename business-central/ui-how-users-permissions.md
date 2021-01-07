@@ -35,36 +35,22 @@ To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you
 
 For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 
-When users are assigned a [!INCLUDE[prod_short](includes/prod_short.md)] license in Microsoft 365, you can import them to the **Users** page in [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Update users from Office 365** action.
+### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
+After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes license assignments. 
 
-### <a name="adduser"></a>To add a user or update user information in Business Central
-Use dedicated import functions to add new users or update user information in [!INCLUDE[prod_short](includes/prod_short.md)] from the Microsoft 365 Admin Center.  
+1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
+2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
+3. Choose **Update Users from Office 365**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
-2. Choose one of the following actions:
-    * To add new users, choose **Update Users from Office 365**.
-    * To update information for current users, choose **Update user information from Office 365**.
+If you are adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you are updating user information, and the update includes a license change, the users will be assigned to the appropriate user group and their permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
-The new users and user information in your Microsoft 365 subscription will be added on the **Users** page in [!INCLUDE[prod_short](includes/prod_short.md)]. You can now assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+> [!NOTE]
+> All users must be assigned to the same license, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
 
 For more information about synchronizing user information with Microsoft 365, see the [Synchronization with Microsoft 365](#m365) section.
 
 > [!NOTE]
-> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant)
-
-### To change the assigned license for a user
-
-Sometimes you may need to change the license that is assigned to a user. For example, if you decide to use the Service Management module and therefore need to upgrade all Essential licenses to Premium. Or if a user's responsibility has changed and you need to replace a Team Member license to Essential.
-
-1. Change the license in the Microsoft 365 Admin Center. For more information, see [Add users individually or in bulk to Microsoft 365](https://aka.ms/CreateOffice365Users).
-2. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] as an administrator.
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-4. On the **Users** page, choose the **Refresh User Groups** action.
-
-The users will be moved to a proper user group and the permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).
-
-> [!NOTE]
-> All users must be assigned to the same license, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 ### To remove a user's access to the system
 
@@ -87,13 +73,16 @@ In both cases, a number of settings are made automatically. These are listed in 
 
 If you change user information in Microsoft 365 you can update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change. Depending on what you want to update, use one of the actions on the **Users** page. The actions are described in the last three columns in the table below.
 
-|What happens when:|First user, first sign-in|Get Users from Microsoft 365|Update Users from Microsoft 365|Restore User Default User Groups|Refresh User Groups|
-|-|-|-|-|-|-|
-|Scope:|Current user|New users in Microsoft 365|Multiple selected users|Single selected user (except current)|Multiple selected users|
-|Create the new user and assign SUPER permission set.<br /><br /><!--Platform-->|**X**|| | | |
-|Update the user record based on actual information in Microsoft 365: State, Full Name, Contact Email, Authentication Email.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**| |
-|Synchronize user plans (licenses) with licenses and roles assigned in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**| |**X**|**X**|
-|Add the user to user groups according to the current user plans. Remove the SUPER permission set for all users other than the first user to sign in and [administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration). At least one SUPER is required.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**| |**X**<br /><br />Removes manually assigned user groups and permissions.|**X**<br /><br />Update user group assignments.|
+> [!NOTE]
+> The actions described in the following table are accurate, however, the only one that you need is **Update Users from Office 365**, which was added to simplify the process. The other actions will be removed in a future version of [!INCLUDE[prod_short](includes/prod_short.md)].
+
+|What happens when:|First user, first sign-in|Get Users from Microsoft 365|Update Users from Microsoft 365|Restore User Default User Groups|Refresh User Groups|Update user information from Microsoft 365|
+|-|-|-|-|-|-|-|
+|Scope:|Current user|New users in Microsoft 365|Multiple selected users|Single selected user (except current)|Multiple selected users|Multiple selected users|
+|Create the new user and assign SUPER permission set.<br /><br /><!--Platform-->|**X**||**X** | | | |
+|Update the user based on information in Microsoft 365: State, Full Name, Contact Email, Authentication Email.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
+|Synchronize user plans (licenses) with licenses and roles assigned in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
+|Add the user to user groups according to the current user plans. Remove the SUPER permission set for all users other than the first user to sign in and [administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration). At least one SUPER is required.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Removes manually assigned user groups and permissions.|**X**<br /><br />Update user group assignments.| |
 
 ## The Device License
 

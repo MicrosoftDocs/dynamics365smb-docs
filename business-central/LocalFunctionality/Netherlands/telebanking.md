@@ -38,6 +38,9 @@ A payment history is nothing more than a proposal except for the fact that data 
  For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank/Giro Journals. If you want, you can have [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.  
 
  For more information, see [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
+ 
+ > [!NOTE]  
+>  The currency of imported transactions must match the currency set on the bank account in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Exchange Protocols  
  For both exporting and importing, a number of protocols have been defined. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports the following protocols:  

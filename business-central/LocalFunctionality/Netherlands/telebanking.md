@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 01/07/2021
     ms.author: edupont
 
 ---
@@ -40,7 +40,7 @@ A payment history is nothing more than a proposal except for the fact that data 
  For more information, see [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
  
  > [!NOTE]  
->  The currency of imported transactions must match the currency set on the bank account in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+>  The currency of the imported transactions must match the currency that is specified on the bank account in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Exchange Protocols  
  For both exporting and importing, a number of protocols have been defined. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports the following protocols:  

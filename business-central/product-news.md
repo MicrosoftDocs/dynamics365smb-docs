@@ -22,7 +22,7 @@ The following list provides information about the latest versions of [!INCLUDE [
 * [2020 release wave 1](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
 * [2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
-You can also explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com) site.  
+You can also explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/) site.  
 
 ## See Also
 

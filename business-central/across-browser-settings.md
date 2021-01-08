@@ -11,7 +11,7 @@ ms.search.keywords: Teams, web client, troubleshooting, errors
 ms.date: 01/08/2021
 ms.author: jswymer
 ---
-# Setting Up and Troubleshooting Your Browser to Work Business Central Web Client
+# Setting Up and Troubleshooting Your Browser to Work With Business Central Web Client
 
 This article explains how to set up your browser so that the [!INCLUDE[web_client](includes/web_client.md)] and all its features work properly. Read this article if you're having problems opening the [!INCLUDE[web_client](includes/web_client.md)], because some problems may be caused by your browser's settings.
 

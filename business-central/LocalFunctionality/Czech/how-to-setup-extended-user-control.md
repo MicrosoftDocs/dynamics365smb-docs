@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Extended User Control
+# Extended User Control in the Czech Version
 
 This feature in User Setup in combination with new User Setup Lines table allows setting and providing the following control:
 
@@ -29,7 +29,7 @@ This feature in User Setup in combination with new User Setup Lines table allows
 - Check the usage of Whse. Net Change Templates at posting in Item Journals
 - Allow Posting to Closed Period
 - Allow Complete Job
-- Allow Item Unapply functionality
+- Allow Item Un-apply functionality
 
 
 ## See Also

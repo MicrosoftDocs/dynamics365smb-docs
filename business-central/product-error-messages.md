@@ -35,6 +35,6 @@ If you are an administrator or superuser, you can help others by looking up erro
 [Frequently Asked Questions](across-faq.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
-[Copy and Paste FAQ](ui-copy-paste.md)  
+[Copy and Paste FAQ](faq-copy-paste.yml)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  

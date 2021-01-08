@@ -37,7 +37,7 @@ The following table lists some of the general functionality with links to topics
 |Get an overview of pages for your role and for other roles and navigate to pages.|[Finding Pages with the Role Explorer](ui-role-explorer.md)|
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
-|Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](ui-copy-paste.md)|
+|Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](faq-copy-paste.yml)|
 | View or process data in specific date ranges. |[Working with Calendar Dates and Times](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|

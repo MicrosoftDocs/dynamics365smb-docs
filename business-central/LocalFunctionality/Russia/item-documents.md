@@ -86,7 +86,6 @@ The following functions are available in the **Item Receipt** window.
 | -------------------------------- | ----------------------------|
 | Changing document status         | Documents can be open or released for the next processing stage. Choose the **Release** or the **Reopen** action. |
 | Reservation of document lines    | Items can be reserved from the document line. Choose the **Reserve** action. |
-| Warehouse adjustment calculation | Refers only to item quantity corrections in the warehouse bins. This is accessible only if advanced picking and placing is used in the warehouse. |
 | Document posting                 | Choose the **Post** action to perform the following:   -   **Post** Post the item receipt. The posted item receipt is created. -   **Post and Print** Post the receipt and print the test report. |
 
 ## Analysis of a Posted Document Item Receipt Without a Vendor

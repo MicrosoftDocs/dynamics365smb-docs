@@ -243,11 +243,13 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
-### Microsoft Teams Integration
+### Using Microsoft Teams with Business Central
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 #### [Working with Business Central Data in Teams](across-working-with-teams.md)
+#### [Teams FAQ](teams-faq.md)
+#### [Troubleshooting](admin-teams-troubleshooting.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -280,6 +282,7 @@
 ### [List Views FAQ](ui-views-faq.md)
 ### [Copy and Paste FAQ](ui-copy-paste.md)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Teams FAQ](teams-faq.md)
 ### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
 

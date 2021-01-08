@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 01/08/2021
 ms.author: jswymer
 ---
 
@@ -22,8 +22,8 @@ ms.author: jswymer
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
-- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The link will expand that into a compact, interactive card that displays information about the record.
-- Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
+- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
+- Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
 [![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
@@ -34,13 +34,6 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 > [!NOTE]
 > All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop-out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
-<!--
-- People You and your coworkers have the following permissions in [!INCLUDE [prod_short](includes/prod_short.md)]
-  - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, you have to have at least permission to view the page and its data.
-  - Once a card is submitted into a conversation, any user in that conversation can view that card without having permission to Business Central.
-  - For other users to view more details from card, they must also have view permission, as a minimum, to the page and its data. If they want to change data, they'll need modify permissions.
-
-  Setting up permissions is typically done by an administrator. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md).-->
 
 ## Include a Business Central card in a Teams conversation
 
@@ -51,13 +44,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 3. Copy the entire URL from the browser's address bar.
 
-   ![Copy Business Central URL from browser](media/teams-url.png)
+   ![Copy Business Central URL from browser](media/teams-url-v2.png)
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Paste the URL into the box where you add a message.
+5. Paste the URL in the message box where you compose a message.
 
-   ![Paste Business Central URL in Teams](media/teams-paste-url.png)
+   ![Paste Business Central URL in Teams](media/teams-paste-url-v2.png)
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
@@ -72,18 +65,27 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
     > [!TIP]
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
 
-10. To view more details or make changes to the record, select **Details**.
+10. To view more details or make changes to the record shown in the card, select **Details**. For more information, see the next section.
 
-    The details page is similar to what you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. But it's slightly trimmed for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
+## View card details
 
-    > [!NOTE]
-    > Any changes you make won't be reflected in the card until the next time you paste its link in a conversation.
+Once a card's been sent to a conversation, all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record, as opposed to having to scan the full record.
+
+The details window is similar to what you'd see in [!INCLUDE [prod_short](includes/prod_short.md)] the record. But it's slightly trimmed for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
+
+Here are a couple things to keep in mind when working with the card details:
+
+- To open the card details, users must have permission on the page and its data in [!INCLUDE [prod_short](includes/prod_short.md)].
+- Cards in Teams chats aren't automatically updated to changes. Any changes you save to a record in the details window are saved in [!INCLUDE [prod_short](includes/prod_short.md)]. But the card in Teams won't show the changes in the conversion, until you paste the link again.
+
+To learn more about working with cards and card details, see [Teams FAQ](teams-faq.md).
 
 ## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
+[Teams FAQ](teams-faq.md)  
+[Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

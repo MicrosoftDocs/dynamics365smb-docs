@@ -43,7 +43,34 @@ As the component forecast is designed to define options for a parent item, the c
  The forecast period is valid from its starting date until the date the next forecast starts. The time interval page gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
 
 ## Forecast by Locations  
-It can be stated in the manufacturing setup if you want filter forecast according to location when calculating a plan. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
+
+It can be stated in the **Manufacturing Setup** how you want to deal with locations defined on forecast when calculating a plan. 
+
+### Use Forecast by Locations is enabled
+If you enable **Use Forecast by Location**, then system will respect locations code specified for each Demand Forecast entry. System will calculate remaining forecast for each location. 
+Example. Company purchase and sale item on two locations: EAST and WEST, for both location Lot-to-lot reordering policy is configured. 
+You created forecast:
+- 10 pcs for location EAST
+- 4 pcs for location WEST
+You also have sales order with quantity 12 on location WEST.
+Planning system will suggest you:
+- replanish 10 pcs for location EAST, based on data from forecast
+- replanish 12 pcs for location WEST, based on sales order. The 4 pcs specified in forecast are completelly consumed by actual demand in form of sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
+
+### Use Forecast by Locations is disabled
+If you disable **Use Forecast by Location**, then system will ignore location code specified for each Demand Forecast entry and agregate forecast into forecast for empty location. 
+Example. Company purchase and sale item on two locations: EAST and WEST, for both location Lot-to-lot reordering policy is configured. 
+You created forecast:
+- 10 pcs for location EAST
+- 4 pcs for location WEST
+You also have sales order with quantity 12 on location WEST.
+Planning system will suggest you:
+- replanish 12 pcs for location WEST, based on sales order. 
+- replanish 2 pcs for empty location. The 10 and 4 pcs specified in forecast are partially consumed by actual demand in form of sales order. System ignored the location codes entered by user and uses blank location instead.
+
+Note, that you can specify filter by locations, bul location-based results may not match to planning results without filters.
 
 ## To create a demand forecast
 

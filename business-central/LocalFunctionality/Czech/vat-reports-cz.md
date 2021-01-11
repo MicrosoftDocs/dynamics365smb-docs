@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# VAT Reports
+# VAT Reports in the Czech Version
 
 To fulfil the requirements in legislation reporting and local reporting practices of Czech companies, this feature provides the following reports:
 

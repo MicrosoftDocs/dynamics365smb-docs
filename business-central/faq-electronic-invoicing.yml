@@ -36,7 +36,7 @@ sections:
           - [Deex - VAT & E-Invoicing Localization for Korea](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.deexkorea%7CAID.deex_korean_vat_localization%7CPAPPID.b6696d1f-9913-4006-97bc-86ae58f38ec1?tab=Overview)
   - name: B2G requirement in Germany
     questions:
-      - question: What about the 2G requirement in Germany?
+      - question: What about the B2G requirement in Germany?
         answer: For Business Central users that have customers in the German government and need B2G invoicing, as of November 27, 2020, they must send invoices in local formats, such as *XRechnung* or *ZUGFeRD*.  This will be supported by apps such as the [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), or [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
 
 additionalContent: |

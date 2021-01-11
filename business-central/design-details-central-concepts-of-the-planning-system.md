@@ -175,7 +175,7 @@ Serial/lot-numbered items without specific item tracking setup may carry serial/
 
 Demand-supply with serial/lot numbers, specific or non-specific, are considered high priority and are therefore exempt from the frozen zone, meaning that they will be part of planning even if they are due before the planning starting date.  
 
-For more information, see [Serial/Lot Numbers are Loaded by Specification Level](design-details-balancing-demand-and-supply#seriallot-numbers-are-loaded-by-specification-level).
+For more information, see [Serial/Lot Numbers are Loaded by Specification Level](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 For more information about how the planning system balances attributes, see [Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 

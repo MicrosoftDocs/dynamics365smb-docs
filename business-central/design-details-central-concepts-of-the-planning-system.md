@@ -84,7 +84,7 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 
 ![Planning for bills of material](media/NAV_APP_supply_planning_1_BOM_planning.png "Planning for bills of material")  
 
-The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
+The figures illustrate in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
@@ -266,7 +266,7 @@ The field can be manually set by the user, however, in some cases it will be set
 For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
 ## Order Planning  
-The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[prod_short](includes/prod_short.md)].  
+The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information, see [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** page may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning page.  

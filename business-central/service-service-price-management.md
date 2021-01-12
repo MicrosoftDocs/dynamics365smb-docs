@@ -46,6 +46,12 @@ When you assign a service price group to a service item, all the special service
 You set up the actual types of service pricing (price adjustment type and price) for a combination of service price groups and customer price groups. For each type of service pricing, you select a service price adjustment group. You also specify the service price adjustment type, fixed, maximum, or minimum, and the actual price.  
   
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labor, which is the labor price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labor, the same labor price adjustment group.  
+
+#### [Current Experience](#tab/current-experience)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
+3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
+
   
 ## Service Price Adjustment  
 Service price adjustment lets you adjust the price of an item, resource, general ledger account, or cost on a service order.  

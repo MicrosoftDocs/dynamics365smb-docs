@@ -1,8 +1,6 @@
 ---
-title: Use Item Cross-References| Microsoft Docs
+title: Use Item Cross-References
 description: Set up references between the descriptions that you and your vendor use for an item so you can insert the vendor's item description on purchase documents.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
 
 ---
@@ -21,7 +19,7 @@ If you set up a cross reference between the item description that you use for an
 The following procedures describe how to use item cross references on the purchase side. The steps are similar for the sales side.
 
 > [!NOTE]
-> It's becoming more common for item identifiers such as GTINs or GUIDs to contain 30 or more characters, which is more than the current feature for item cross references can handle. If you need to use references that contain more than 30 characters, your administrator can turn on the **Write longer item references** feature on the [Feature Management](https://businesscentral.dynamics.com/?page=xzy) page (link requires that you have a [!INCLUDE[prod_short](includes/prod_short.md)] tenant). How you use references doesn't change, but the names of things like pages and buttons will. For example, the **Item Cross-Reference Entries** page will become the **Item Reference Entries** page.
+> It's becoming more common for item identifiers such as GTINs or GUIDs to contain 30 or more characters, which is more than the current feature for item cross references can handle. If you need to use references that contain more than 30 characters, your administrator can turn on the **Write longer item references** feature on the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page (link requires that you have a [!INCLUDE[prod_short](includes/prod_short.md)] tenant). How you use references doesn't change, but the names of things like pages and buttons will. For example, the **Item Cross-Reference Entries** page will become the **Item Reference Entries** page.
 
 ## To set up an item cross reference to a vendor's item description
 

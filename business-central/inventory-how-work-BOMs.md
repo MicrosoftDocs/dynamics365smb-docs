@@ -1,7 +1,6 @@
 ---
-title: Work with Bills of Material to Manage Components| Microsoft Docs
+title: Work with Bills of Material to Manage Components
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +8,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
 
 ---
@@ -85,11 +84,15 @@ All fields on the sales invoice line for the assembly item are cleared except fo
 > The **Picking List by Order** report is also changed to show the components only. This means that a warehouse worker picking the parent item, the assembly item, will not see it in the picking list. For more information, see [Print the Picking List](sales-how-print-picking-list.md).
 
 ## To calculate the standard cost of an assembly item
-You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item’s assembly BOM.
+
+You calculate the unit cost of an assembly item by rolling up the unit cost of each component and resource in the item's assembly BOM.
 
 You can also calculate and update the standard cost for one or many items on the **Standard Cost Worksheet** page. For more information, see [Update Standard Costs](finance-how-to-update-standard-costs.md).  
 
-The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.
+The unit cost of an assembly BOM always equals the total of the unit costs of its components, including other assembly BOMs, and any resources.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. In the top right corner, choose the **Search for Page or Report** icon, enter **Items**, and then choose the related link.
 2. Open the card for an assembly item. (The **Assembly BOM** field on the **Items** page contains **Yes**.)

@@ -2,14 +2,13 @@
 title: Minimum requirements for using Business Central| Microsoft Docs
 description: Learn about the minimum system and version requirements for using Business Central online.
 author: edupont04
-
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2020
+ms.date: 01/08/2021
 ms.author: edupont
 
 ---
@@ -37,14 +36,22 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
 **iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1GB of RAM and Android 6.0 or higher.  
-**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smartphones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
 
 ## Outlook
 
-**Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you will need Outlook 2019 or later, Outlook on the web, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organization must also use Microsoft 365. You cannot use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  
+**Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iPhone, Outlook for iPad, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  
 **Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iPhone, Outlook for iPad, or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+## Teams
+
+**Teams desktop applications:** The [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams supports the latest version of the Teams Windows desktop client. 
+
+**Browsers:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams in the browser (web client), the app requires that your computer is running one of the supported browsers listed earlier in this article. 
+
+**Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app in Teams for iOS or Android, the app requires that your mobile device is running one of the supported mobile platforms, listed earlier in this article.
 
 ## Excel
 

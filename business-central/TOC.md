@@ -243,11 +243,13 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
-### Microsoft Teams Integration
+### Using Microsoft Teams with Business Central
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 #### [Working with Business Central Data in Teams](across-working-with-teams.md)
+#### [Teams FAQ](teams-faq.md)
+#### [Troubleshooting](admin-teams-troubleshooting.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -278,8 +280,10 @@
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
-### [Copy and Paste FAQ](ui-copy-paste.md)
+### [Copy and Paste FAQ](faq-copy-paste.yml)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Teams FAQ](teams-faq.md)
+### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support
@@ -310,7 +314,7 @@
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
-## [Copy and Paste FAQ](ui-copy-paste.md)
+## [Copy and Paste FAQ](faq-copy-paste.yml)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
@@ -578,8 +582,8 @@
 ### [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
-### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
+### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)

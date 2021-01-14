@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting your company hub
-description: Learn how to work around any issues in the company hub in Dynamics 365 Business Central.
+description: Learn how to work around any issues when you the company hub in Dynamics 365 Business Central to manage work across multiple companies.
 author: edupont04
 
 ms.service: dynamics365-business-central

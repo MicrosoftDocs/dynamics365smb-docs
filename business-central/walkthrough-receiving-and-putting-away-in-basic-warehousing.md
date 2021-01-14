@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Receiving and Putting Away in Basic Warehouse Configurations | Microsoft Docs
-    description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    title: Walkthrough - Receive and put away in basic warehouse configurations
+    description: In Business Central, the inbound processes for receiving and putting away can be performed in four different ways, depending on the warehouse complexity level.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -70,7 +70,7 @@ To complete this walkthrough, you will need:
 Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## Setting up the Location  
- The setup of the **Location Card** page defines the company’s warehouse flows.  
+ The setup of the **Location Card** page defines the company's warehouse flows.  
 
 ### To set up the location  
 
@@ -104,7 +104,7 @@ Purchase orders are the most common type of inbound source document.
     |LS-81|SILVER|S-01-0001|30|  
 
     > [!NOTE]  
-    >  The bin code is entered automatically according to the setup that you performed in the “Setting up the Location” section.  
+    >  The bin code is entered automatically according to the setup that you performed in the "Setting up the Location" section.  
 
     Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.  
 

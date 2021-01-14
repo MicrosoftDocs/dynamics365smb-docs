@@ -1,6 +1,6 @@
 ---
-    title: How to Pick for Internal Operations in Advanced Warehouse Configurations | Microsoft Docs
-    description: In advanced warehouse configurations where the location is set up to use picking as well as shipping, you can pick components for production and assembly activities with the **Warehouse Pick** page.
+    title: Pick for Internal Operations in Advanced Warehouse Configurations
+    description: If your locations use picking as well as shipping, pick components for production and assembly activities in the Warehouse Pick page.
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -50,7 +50,7 @@ Under **Company Settings** you can view and edit setup information about the cur
 
 If you need to add more users, this is done from Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
-When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Office 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Microsoft 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ## Getting Help
 

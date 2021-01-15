@@ -33,12 +33,12 @@ The following table describes the email extensions that are available by default
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Office 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
+> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -59,7 +59,7 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## Assign Email Scenarios to Email Accounts

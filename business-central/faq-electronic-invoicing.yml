@@ -3,12 +3,18 @@ metadata:
   title: Electronic invoicing FAQ
   description: Get answers about the document exchange service and supported versions of PEPPOL.
   author: sorenfriisalexandersen
+  ms.topic: article
   ms.service: dynamics365-business-central
   ms.search.keywords: e-invoicing, PEPPOL, NemHandel
   ms.date: 01/05/2021
   ms.author: edupont
+
 title: Electronic Invoicing FAQ
-summary: The built-in document exchange service submits electronic invoices to TradeShift, a  service provider that relays electronic invoices to PEPPOL or NemHandel recipients. But the service supports a limited number of versions. This FAQ answers some of the key questions about electronic invoicing.  
+summary: |
+  The built-in document exchange service submits electronic invoices to TradeShift, a  service provider that relays electronic invoices to PEPPOL or NemHandel recipients. But the service supports a limited number of versions.   
+  
+  This FAQ answers some of the key questions about electronic invoicing.  
+
 sections:
   - name: General
     questions:
@@ -22,7 +28,7 @@ sections:
     questions:
       - question: Are there apps that can help us with electronic invoicing?
         answer: |
-          Yes!. The following list provides examples of existing apps for Business Central that support electronic invoicing in the latest formats. Note that it is not a complete list:
+          Yes! The following list provides examples of existing apps for Business Central that support electronic invoicing in the latest formats. Note that it is not a complete list:
           - [Pagero - E-Invoicing app (Denmark, Germany, Finland, France, Norway, Spain, Sweden, United Kingdom)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
           - [Oseberg Solutions - E-invoice PEPPOL Bis (Norway)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
           - [BCS Itera - E-Invoicing for Finland](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.e-invoicing-finland%7CPAPPID.d88e27d5-57ce-4504-ab72-f73bb6702b59?tab=Overview)
@@ -40,7 +46,7 @@ sections:
         answer: For Business Central users that have customers in the German government and need B2G invoicing, as of November 27, 2020, they must send invoices in local formats, such as *XRechnung* or *ZUGFeRD*.  This will be supported by apps such as the [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), or [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
 
 additionalContent: |
-  ## Additional Content
+  ## Next steps
   Find related information here: 
     - [Send Electronic Documents](sales-how-to-send-electronic-documents.md)  
     

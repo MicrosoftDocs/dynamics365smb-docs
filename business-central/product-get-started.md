@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Learn about capabilities and work scenarios in Business Central so that you can get off to a good start.
+description: Get to know Business Central's capabilities and work scenarios so that you can get off to a good start.
 author: edupont04
 
 ms.service: dynamics365-business-central

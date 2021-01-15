@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Use Job Queues to Schedule Tasks
 
-Job queues in [!INCLUDE[prod_short](includes/prod_short.md)] enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Delegate Approval Requests** codeunit daily, to prevent documents from piling up or otherwise block the workflow.
+Job queues in [!INCLUDE[prod_short](includes/prod_short.md)] enable users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Delegate Approval Requests** codeunit daily, to prevent documents from piling up or otherwise block the workflow.
 
 The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
 > [!IMPORTANT]  

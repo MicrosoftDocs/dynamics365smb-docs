@@ -273,6 +273,7 @@
 ### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
+### [Report Selection](across-report-selections.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 
 ## Frequently Asked Questions

@@ -32,21 +32,20 @@ Creating the job queue entries can be tricky, even for an experienced consultant
 
 ## To create a job queue entry for adjusting and reconciling inventory cost manually
 
-Alternatively, you can create job queue entries manually. The following procedure shows how to set the **Adjust Cost - Item Entries** batch job to automatically run daily, but the same steps apply to the **Post Inventory Cost to G/L** batch job..  
+Alternatively, you can create job queue entries manually. The following procedure shows how to set the **Adjust Cost - Item Entries** batch job to automatically run daily, but the same steps apply to the **Post Inventory Cost to G/L** batch job. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
-3. In the **Object Type to Run** field, choose **Report**.  
-
-  To schedule a task for reconciling inventory with the general ledger, choose **Codeunit**
-4. In the **Object ID to Run** field, choose 795, **Adjust Cost - Item Entries**.  
-
-  To schedule a task for reconciling inventory with the general ledger, choose 2846, **Post Inventory Cost to G/L**.
+3. In the **Object Type to Run** field, choose *Report*.  
+4. In the **Object ID to Run** field, choose *795*, **Adjust Cost - Item Entries**.  
 5. In the **Next Run Date Formula** field, enter *1D*.
 6. In the **Starting Time** field, enter *2 AM*.
 7. Choose the **Set Status to Ready** action.
 
 Now, inventory cost will be updated every night.  
+
+To schedule a task for reconciling inventory with the general ledger, choose Codeunit 2846 **Post Inventory Cost to G/L**.
+
 
 > [!NOTE]
 > To avoid locking, do not schedule tasks for the **Adjust Cost - Item Entries** batch job, the **Post Inventory Cost to G/L** codeunit, and tasks for posting sales or purchasing transactions at the same time, and make sure that they use same Job Queue Category.

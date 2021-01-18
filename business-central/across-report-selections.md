@@ -16,13 +16,13 @@ You can set up default reports that will be used to print the various documents 
 
 The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] includes default configurations, but of course you can change these defaults. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.  
 
-## Report selections
+## Available report selections
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes different **Report Selection** pages for different areas. The following tables describes where you can find information about the different pages.  
 
 |Area or task  |Learn more|
 |--------------|----------|
-|Example of how report selection works (Sales)|[Report selection for sales](#example-report-selection-for-sales)|
+|Example of how report selection works (Sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents)|
 |Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
 |Define check layouts     |[Select a Check Layout](finance-how-define-check-layouts.md) |
 |Define reports for VAT reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
@@ -40,7 +40,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 * **Report Selection - Bank Account**  
 * **Report Selections Reminder/Finance Charge**  
 
-## Example: Report selection for sales
+## Example: Report selection for sales documents
 
 The **Report Selection - Sales** page defines the default reports to use in different scenarios for each related document type. Choose a document type in the **Usage** field, and then add or review the report selection. You can set up more than one report and the order of sequence that the reports must be sent or printed in.  
 
@@ -48,7 +48,7 @@ The **Report Selection - Sales** page defines the default reports to use in diff
 
 Some types of document can be sent as email attachments, and others cannot. Each **Report Selection** page shows additional fields if the type support email out of the box.  
 
-For example, in the **Report Selection- Sales** and **Report Selection - Purchase** pages, the following fields help you set up emailing:
+For example, in the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up emailing:
 
 |Field name |Description  |
 |-----------|-------------|

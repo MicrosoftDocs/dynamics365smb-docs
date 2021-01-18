@@ -45,12 +45,7 @@ At the top of the Role Center, a notification appears to inform you that this is
 
 > [!NOTE]
 > A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.<br /><br />
-> You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.
-
-At any time, you can return to the **Sandbox Environment** page, and reset the sandbox environment.
-
-> [!NOTE]  
-> Resetting the sandbox environment will remove it completely, and then create it again with the default demonstration data.  
+> You can also create a sandbox environment containing the production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the Developer and IT-Pro help.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/08/2021
+ms.date: 01/20/2021
 ms.author: jswymer
 ---
 
@@ -19,14 +19,6 @@ ms.author: jswymer
 This article answers some of the questions you may have about working with Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## [General](#tab/general)
-
-### Can I use the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams in production?
-
-Yes. Although the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams is in preview, it's ready for use in production.
-
-### Does Microsoft provide support for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in preview? 
-
-Yes. The app is fully supported by Microsoft and follows the standard support lifecycle for [!INCLUDE [prod_short.md](includes/prod_short.md)] components.
 
 ### How do I sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams? 
 
@@ -123,7 +115,7 @@ To remove the app that you installed for yourself, go to any chat compose box, f
 
 ### Will Microsoft continue to improve the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what is next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see [Dynamics 365 Business Central 2020 release wave 2 plan](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central).
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what is next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [Dynamics 365 release plan](https://aka.ms/dynamics365releaseplan).
 
 If you want to participate in improving the app for Teams, or have a great idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 

@@ -34,7 +34,7 @@ No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams only wo
 
 ### Does the app work with multiple companies and environments? 
 
-Yes. When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names. You can paste links to any companies and environments you have access to within your organization and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
+Yes. When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names for the app to match the record in the right company. You can paste links to any companies and environments you have access to within your organization and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
 
 ### In which countries or regions is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app available? 
 
@@ -105,7 +105,7 @@ The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_shor
 
 ### Where can I learn about my privacy? 
 
-You can learn about how Microsoft handles your data in the Microsoft Privacy Statement. 
+You can learn about how Microsoft handles your data in the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
 Contact your administrator to learn how your organization handles the privacy of your data. 
 

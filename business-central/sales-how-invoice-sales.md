@@ -1,5 +1,5 @@
 ---
-title: Create a Sales Invoice or Sales Order | Microsoft Docs
+title: Create a Sales Invoice or Sales Order
 description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/20/2021
 ms.author: edupont
 
 ---
@@ -89,6 +89,10 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 The **Post and Send Confirmation** dialog box displays the customer's preferred method of receiving documents. You can change the sending method by choosing the lookup button for the **Send Document to** field. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document. The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.  
+
+### Calculating Invoice Discounts on Sales
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## Registering Payments
 

@@ -67,7 +67,7 @@ There's currently no embedding of Teams controls or presence of Teams features i
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
-Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can view cards sent by others, access details. or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. However, you can't paste links that expand into cards when composing messages. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
+Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. However, you can't paste links that expand into cards when composing messages. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
 
 ### Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android? 
 
@@ -121,14 +121,16 @@ If you want to participate in improving the app for Teams, or have a great idea 
 
 ## [Working with cards](#tab/cards)
 
-### Which types of pages can I link to?
+### Which types of links does the app support?
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams is designed to expand links only to [!INCLUDE [prod_short.md](includes/prod_short.md)] pages that represent a single record. These page types include: 
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams reacts to most [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client links. When the link refers to a single record on a page, the card will display fields for that record. The supported page types include: 
 
 - Card pages, such as the Item card
 - Document pages, such as the Sales Order document
 - ListPlus pages that represent a single record composed of other records, such as a Bank Account Reconciliation statement
 - Simple list pages where a record doesn't offer the ability to drill down into a separate details page, such as the Zip codes list
+
+When pasting a link to the root Web client Url, such as https://businesscentral.dynamics.com, the card instead displays information to help new users get started with accessing [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### How do I delete a card I sent to a chat? 
 

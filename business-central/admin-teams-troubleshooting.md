@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 12/10/2020
+ms.date: 01/20/2021
 ms.author: jswymer
 ---
 
@@ -31,7 +31,7 @@ If you're experiencing this problem, here are a few things to try:
 
     In Teams, go to any chat, and under the message compose box, choose the [!INCLUDE [prod_short](includes/prod_short.md)] icon. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
 
-3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service and is accessible through any firewalls.
+3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 
     Teams connects to [!INCLUDE [prod_short](includes/prod_short.md)] using an endpoint to this codeunit on the [!INCLUDE [prod_short](includes/prod_short.md)] service. For information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
@@ -49,7 +49,7 @@ A link won't expand into a card in the following situations:
 
 The link must also contain all the necessary information to locate the record and display the corresponding card. This information includes:
 
-- The environment name, by using the *environmentname=* parameter. If you don't specify the environment name, Teams assumes you're attempting to reach the environment named "Production".
+- The environment name, by including this in the Url path. If you don't specify the environment name, Teams assumes you're attempting to reach the environment named "Production".
 - The company name, by using the *company=* parameter
 - The page identifier, by using the *page=* parameter
 - The bookmark to the record, by using the *bookmark=* parameter

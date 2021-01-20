@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/08/2021
+ms.date: 01/20/2021
 ms.author: jswymer
 ---
 
@@ -17,14 +17,6 @@ ms.author: jswymer
 This article answers some of the questions you may have about working with Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## [General](#tab/general)
-
-### Can I use the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams in production?
-
-Yes. Although the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams is in preview, it's ready for use in production.
-
-### Does Microsoft provide support for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in preview? 
-
-Yes. The app is fully supported by Microsoft and follows the standard support lifecycle for [!INCLUDE [prod_short.md](includes/prod_short.md)] components.
 
 ### How do I sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app in Teams? 
 
@@ -40,7 +32,7 @@ No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams only wo
 
 ### Does the app work with multiple companies and environments? 
 
-Yes. When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names. You can paste links to any companies and environments you have access to within your organization and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
+Yes. When the [!INCLUDE [prod_short.md](includes/prod_short.md)] app expands a link into a card, the link must contain the environment and company names for the app to match the record in the right company. You can paste links to any companies and environments you have access to within your organization and from the [!INCLUDE [prod_short.md](includes/prod_short.md)] account you used to sign in. Participants in the chat will see the card. But they can't view the card details unless they have permissions to the company or environment where that record is stored.
 
 ### In which countries or regions is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app available? 
 
@@ -73,7 +65,7 @@ There's currently no embedding of Teams controls or presence of Teams features i
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
-Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can view cards sent by others, access details. or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. However, you can't paste links that expand into cards when composing messages. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
+Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. However, you can't paste links that expand into cards when composing messages. For minimum requirements for mobile, see [Minimum Requirements for Using Business Central](product-requirements.md).
 
 ### Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android? 
 
@@ -111,7 +103,7 @@ The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_shor
 
 ### Where can I learn about my privacy? 
 
-You can learn about how Microsoft handles your data in the Microsoft Privacy Statement. 
+You can learn about how Microsoft handles your data in the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
 Contact your administrator to learn how your organization handles the privacy of your data. 
 
@@ -121,20 +113,22 @@ To remove the app that you installed for yourself, go to any chat compose box, f
 
 ### Will Microsoft continue to improve the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what is next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see [Dynamics 365 Business Central 2020 release wave 2 plan](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central).
+At Microsoft, we're constantly listening to feedback from our diverse user community and acting upon the top suggestions. To learn about what is next for the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, see the [Dynamics 365 release plan](https://aka.ms/dynamics365releaseplan).
 
 If you want to participate in improving the app for Teams, or have a great idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
 ## [Working with cards](#tab/cards)
 
-### Which types of pages can I link to?
+### Which types of links does the app support?
 
-The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams is designed to expand links only to [!INCLUDE [prod_short.md](includes/prod_short.md)] pages that represent a single record. These page types include: 
+The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams reacts to most [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client links. When the link refers to a single record on a page, the card will display fields for that record. The supported page types include: 
 
 - Card pages, such as the Item card
 - Document pages, such as the Sales Order document
 - ListPlus pages that represent a single record composed of other records, such as a Bank Account Reconciliation statement
 - Simple list pages where a record doesn't offer the ability to drill down into a separate details page, such as the Zip codes list
+
+When pasting a link to the root Web client Url, such as https://businesscentral.dynamics.com, the card instead displays information to help new users get started with accessing [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### How do I delete a card I sent to a chat? 
 

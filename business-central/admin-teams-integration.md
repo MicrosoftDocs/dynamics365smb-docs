@@ -14,8 +14,6 @@ ms.author: jswymer
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
-
 This article provides an overview of what you can do as an administrator to control Microsoft Teams integration with [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## In Microsoft Teams

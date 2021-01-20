@@ -14,8 +14,6 @@ ms.author: jswymer
 
 # Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
-
 This article provides information on how to identify and fix problems you may experience when using Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)], as a typical user or administrator.
 
 ## None of my links expand into a card 

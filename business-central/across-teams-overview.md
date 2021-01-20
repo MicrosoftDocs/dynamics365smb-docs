@@ -14,8 +14,6 @@ ms.author: jswymer
 
 # Business Central and Microsoft Teams Integration
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
-
 [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you connect with others, collaborate seamlessly, and simplify work. [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)] so you can quickly share details across team members and respond faster to inquiries.
 
 ## Overview

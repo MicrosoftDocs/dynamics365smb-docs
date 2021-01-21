@@ -49,7 +49,7 @@ A link won't expand into a card in the following situations:
 
 The link must also contain all the necessary information to locate the record and display the corresponding card. This information includes:
 
-- The environment name, by including this in the Url path. If you don't specify the environment name, Teams assumes you're attempting to reach the environment named "Production".
+- The environment name, by including it in the URL path. If you don't specify the environment name, Teams assumes you're attempting to reach the environment named "Production".
 - The company name, by using the *company=* parameter
 - The page identifier, by using the *page=* parameter
 - The bookmark to the record, by using the *bookmark=* parameter

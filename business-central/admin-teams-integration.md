@@ -51,7 +51,7 @@ For more information, see the following articles in the Microsoft Teams document
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 2 update 17.3 or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 2, update 17.3, or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
 
 - Codeunit **2718 Page Summary Provider** is published as a web service:
 

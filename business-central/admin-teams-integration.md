@@ -14,6 +14,8 @@ ms.author: jswymer
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
+[!INCLUDE [online_only](includes/online_only.md)]
+
 This article provides an overview of what you can do as an administrator to control Microsoft Teams integration with [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## In Microsoft Teams

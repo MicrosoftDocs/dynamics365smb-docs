@@ -13,6 +13,8 @@ ms.author: jswymer
 ---
 # Teams FAQ
 
+[!INCLUDE [online_only](includes/online_only.md)]
+
 This article answers some of the questions you may have about working with Teams and [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## [General](#tab/general)

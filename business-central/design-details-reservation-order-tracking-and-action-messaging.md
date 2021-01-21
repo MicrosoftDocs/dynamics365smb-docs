@@ -27,8 +27,11 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## Reservation  
- A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, see "Design Details: Costing Methods".  
+ A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, see [Design Details: Item Tracking](design-details-item-tracking.md).  
 
  The **Reservation** page is accessible from all order lines of both demand and supply type. In this page, the user can specify which demand or supply entry to create a reservation link to. The reservation consists of a pair of records that share the same entry number. One record has a negative sign and points to the demand. The other record has a positive sign and points to the supply. These records are stored in the **Reservation Entry** table with status value **Reservation**. The user can view all reservations on the **Reservation Entries** page.  
 
@@ -102,7 +105,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 ### The Order Network  
  The order tracking system is based on the principle that the order network must always be in a state of balance, in which every demand that enters the system is offset by a corresponding supply and vice versa. The system provides this by identifying logical links between all demand and supply entries in the order network.  
 
- This principle implies that a change in demand results in a corresponding imbalance on the supply side of the order network,. Conversely, a change in supply results in a corresponding imbalance on the demand side of the order network. In reality, the order network is in a state of constant flux as users enter, amend, and delete orders. Order Tracking processes orders dynamically, reacting to each change at the time that it enters the system and becomes a part of the order network. As soon as new order tracking records are created, the order network is in balance, but only until the next change occurs.  
+ This principle implies that a change in demand results in a corresponding imbalance on the supply side of the order network. Conversely, a change in supply results in a corresponding imbalance on the demand side of the order network. In reality, the order network is in a state of constant flux as users enter, amend, and delete orders. Order Tracking processes orders dynamically, reacting to each change at the time that it enters the system and becomes a part of the order network. As soon as new order tracking records are created, the order network is in balance, but only until the next change occurs.  
 
  To increase the transparency of calculations in the planning system, the **Untracking Planning Elements** page displays untracked quantities, which represent the difference in quantity between known demand and suggested supply. Each line on the page refers to the cause of the excess quantity, such as **Blanket Order**, **Safety Stock Level**, **Fixed Reorder Quantity**, **Minimum Order Qty.**, **Rounding**, or **Dampener**.  
 
@@ -131,7 +134,7 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  
 
- ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![First example of order tracking entries in Reservation Entry table](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### Entry Numbers 8 and 9  
  For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, **Prod. Order Component**, to the supply in table 32, **Item Ledger Entry**. The **Reservation Status** field contains **Tracking** to indicate that these entries are dynamic order tracking links between supply and demand.  
@@ -149,7 +152,7 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Second example of order tracking entries in Reservation Entry table](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### Entry Numbers 8 and 9  
  Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of **Tracking** to **Surplus**. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.  
@@ -163,15 +166,15 @@ On the **Manufacturing Setup** page, the **Components at Location** field is set
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Third example of order tracking entries in Reservation Entry table](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at WEST location, reflecting that the **Location Code** field on the production order component line contains **WEST** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to EAST location and can now not be fully tracked unless the component need on the production order line is changed to EAST location.  
+ The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at WEST location, reflecting that the **Location Code** field on the production order component line contains **WEST** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to EAST location and cannot now be fully tracked unless the component need on the production order line is changed to EAST location.  
 
  At this point in the scenario, the **Location Code** on the production order line is set to **EAST**. In addition, on the **Item Tracking Lines** page, the 30 units of LOTA and the 70 units of LOTB are assigned to the production order line.  
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Order tracking entries in Reservation Entry table](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Fourth example of order tracking entries in Reservation Entry table](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### Entry Numbers 21 and 22  
  Since the component need has been changed to EAST location, and the supply is available as item ledger entries at EAST location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: bholtorf
 
 ---
@@ -32,7 +32,7 @@ Credit memos for returns, however, are exceptions because money is flowing in th
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Optionally, add payment terms to your payment method.  
+Optionally, add payment terms to your payment method. For more information, see [Set Up Payment Terms](finance-payment-terms.md).  
 
 ## To assign a payment method to a customer or vendor
 

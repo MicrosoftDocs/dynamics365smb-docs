@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/08/2021
+ms.date: 01/20/2021
 ms.author: jswymer
 ---
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
 This article provides an overview of what you can do as an administrator to control Microsoft Teams integration with [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -53,7 +53,7 @@ For more information, see the following articles in the Microsoft Teams document
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 2 (version 17) or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 2, update 17.3, or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
 
 - Codeunit **2718 Page Summary Provider** is published as a web service:
 

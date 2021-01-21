@@ -629,7 +629,7 @@
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
 ### [Create Jobs](projects-how-create-jobs.md)
-## [Use Resources for Jobs](projects-how-use-resources.md)
+### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
 ### [Manage Job Budgets](projects-how-manage-budgets.md)
 ### [Record Usage for Jobs](projects-how-record-job-usage.md)

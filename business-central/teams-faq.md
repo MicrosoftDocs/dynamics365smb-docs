@@ -11,7 +11,6 @@ ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365
 ms.date: 01/20/2021
 ms.author: jswymer
 ---
-
 # Teams FAQ
 
 This article answers some of the questions you may have about working with Teams and [!INCLUDE [prod_short](includes/prod_short.md)].

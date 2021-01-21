@@ -16,7 +16,7 @@
 # Design Details: Warehouse Setup
 
 Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] contains different levels of complexity, as defined by license permissions in the offered granules. The level of complexity in a warehouse solution is largely defined by the bin setup on location cards, which in turn is license-controlled so that access to bin setup fields is defined by the license. In addition, the application objects in the license govern which UI document to use for the supported warehouse activities.  
-
+<!--
 The following warehouse-related granules exist:  
 
 - Basic Inventory (4010)  
@@ -30,18 +30,20 @@ The following warehouse-related granules exist:
 - Automated Data Capture System (4640)
 - Bin Setup (4660)  
 
-For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account).  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
 The following table shows which granules are required to define different warehouse complexity levels, which UI documents support each level, and which location codes reflect these levels in the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database.  
 
-|Complexity Level|Description|UI Document|CRONUS Location|Minimum Granule Requirement|  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
+|Complexity Level|Description|UI Document|Example Location|Minimum Granule Requirement|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.|Order|BLUE|Basic Inventory|  
 |2|No dedicated warehouse activity.<br /><br /> Receive/ship posting from orders.<br /><br /> Bin code is required.|Order, with bin code|SILVER|Basic Inventory/Bin|  
 |3 <br /><br /> **NOTE**: Even though the settings are called **Require Pick** and **Require Put-away**, you can still post receipts and shipments directly from the source business documents at locations where you select these check boxes.|Basic warehouse activity, order-by-order.<br /><br /> Receive/ship posting from inventory put-away/pick documents. <br /><br /> Bin code is required.|Inventory Put-away/Inventory Movement/Inventory Pick, with bin code|(SILVER + Require Put-away or Require Put-away)|Basic Inventory/Bin/Put Away/Pick|  
 |4|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet|GREEN|Basic Inventory/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
 |5|Advanced warehouse activity, for multiple orders.<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations.<br /><br /> Bin code is required.|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Pick Worksheet/Put-away Worksheet, with bin code|(GREEN + Bin Mandatory)|Basic Inventory/Bin/Warehouse Receipt/Put Away/Pick/Warehouse Shipment|  
-|6 <br /><br /> **Note**: This level is referred to as “WMS”, since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
+|6 <br /><br /> **Note**: This level is referred to as "WMS", since it requires the most advanced granule, Warehouse Management Systems.|Advanced warehouse activity, for multiple orders<br /><br /> Consolidated receive/ship posting based on warehouse put-away/pick registrations<br /><br /> Bin code is required.<br /><br /> Zone/Class code is optional.<br /><br /> Warehouse workers directed by workflow<br /><br /> Bin replenishment planning<br /><br /> Bin ranking<br /><br /> Bin setup by capacity<br /><br /> Slotting <!-- Hand-held device integration -->|Warehouse Receipt/Warehouse Put-away/Warehouse Pick/Warehouse Shipment/Warehouse Movement/Pick Worksheet/Put-away Worksheet/Internal Whse. Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Various worksheets for bin management<br /><br /> ADCS screens|WHITE|Basic Inventory/Bin/Put Away/Warehouse Receipt/Pick/Warehouse Shipment/Warehouse Management Systems/Internal Picks and Put-aways/Bin Setup/<!-- Automated Data Capture System/ -->Bin Setup|  
 
 For examples of how the UI documents are used per warehouse complexity level, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
 
@@ -98,7 +100,7 @@ If you want to set a maximum quantity of a specific item to be stored in an indi
 Before you set capacity restrictions for bin contents on a bin, you must first make sure that the UOM and dimensions of the item have been set up on the item card.  
 
 > [!NOTE]  
-> It is only possible to operate with multiple UOMs in WMS installations. I all other configurations, bin contents can only be in the base UOM. In all transactions with a UOM higher than the item’s base UOM, the quantity is converted to the base UOM.  
+> It is only possible to operate with multiple UOMs in WMS installations. I all other configurations, bin contents can only be in the base UOM. In all transactions with a UOM higher than the item's base UOM, the quantity is converted to the base UOM.  
 
 ## Zone
 

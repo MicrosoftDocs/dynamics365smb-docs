@@ -37,7 +37,7 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
  Before you begin this walkthrough, you must install the [!INCLUDE[prod_short](includes/prod_short.md)]. The following modifications must be made to the database:  
 
 -   Delete all existing sales orders for bicycles.  
--   Create one sales order for 10 bicycles at BLUE location.  
+-   Create one sales order for 10 bicycles at EAST location.  
 -   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
 
  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
@@ -135,7 +135,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
 
-     The item’s defined replenishment system and default vendor will display.  
+     The item's defined replenishment system and default vendor will display.  
 
     > [!NOTE]  
     >  At the bottom of the page, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
@@ -144,7 +144,7 @@ The **Order Planning** page can be accessed from several different locations:
 4.  Choose the **OK** button to book the ten items that are available.  
 
     > [!NOTE]  
-    >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
+    >  In the demand line, the suggested purchase has been exchanged with a transfer from MAIN location. The **Make Orders** function creates a transfer order from MAIN to the demanded location. The **Substitutes Exists** field works in the same way.  
 
 5.  Choose the **Make Orders** action. The **Make Supply Orders** page opens.  
 6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  

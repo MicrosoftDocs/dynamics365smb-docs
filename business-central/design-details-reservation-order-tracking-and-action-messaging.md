@@ -25,7 +25,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 
  The reservations system also forms the structural foundation for the item tracking system. For more information, see [Design Details: Item Tracking](design-details-item-tracking.md).  
 
- For more detailed information about how the reservation system works, see the "Reservation Entry Table" white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
+ <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
 
 ## Reservation  
  A reservation is a firm link that connects a specific demand and a specific supply to each other. This link directly affects the subsequent inventory transaction and ensures the proper application of item entries for costing purposes. A reservation overrides the default costing method of an item. For more information, see "Design Details: Costing Methods".  

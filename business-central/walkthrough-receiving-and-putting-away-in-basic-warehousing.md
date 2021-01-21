@@ -48,6 +48,9 @@ This walkthrough demonstrates the following tasks.
 -   Verifying that the put-away bins are inherited from the purchase order.  
 -   Registering the warehouse movement into the warehouse and at the same time posting the purchase receipt for the source purchase order.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## Roles  
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 

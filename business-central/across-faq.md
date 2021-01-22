@@ -1,6 +1,6 @@
 ---
-title: FAQ About Using Business Central| Microsoft Docs
-description: Answers common questions about how to sign up for or buy Business Central, get a trial, get support, extend a trial, cancel a subscription, and find training and other support.
+title: FAQ About Using Business Central
+description: Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Frequently Asked Questions
+# Frequently Asked Questions about Using Business Central
 
 This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  
 

@@ -34,6 +34,7 @@ When you have set up your inventory, you can manage various processes related to
 |As a supplement to item cards, record information about your items in a specific location or of a specific variant.|[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assign items to categories and give them attributes to help you and customers find items. |[Categorize Items](inventory-how-categorize-items.md) |
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 ## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

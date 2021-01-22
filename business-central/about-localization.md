@@ -1,6 +1,6 @@
 ---
-title: Local functionality in Business Central | Microsoft Docs
-description: Learn about local availability and regulatory compliance of Dynamics 365 Business Central.
+title: Local functionality in Business Central
+description: Learn about local availability and regulatory compliance of Business Central for the countries where Microsoft provides the local functionality.
 author: edupont04
 
 ms.service: dynamics365-business-central

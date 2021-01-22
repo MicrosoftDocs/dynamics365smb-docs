@@ -1,6 +1,6 @@
 ---
-    title: Migrate Customer Data | Microsoft Docs
-    description: You can migrate existing customer data from an existing ERP system to Business Central using RapidStart Services. You can use Excel .xlsx files as the data carrier. You can also manually move the data by entering it directly into the company.
+    title: Migrate Customer Data
+    description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -14,6 +14,7 @@
 
 ---
 # Migrate Customer Data
+
 You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company.
 
 > [!NOTE]

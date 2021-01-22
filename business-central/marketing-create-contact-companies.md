@@ -8,9 +8,9 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: relationship, prospect, contact
 ms.date: 01/05/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Contacts
@@ -106,7 +106,7 @@ There are three ways to enable data synchronization between contacts and custome
 
 ## To view which customer, vendor, employee, or bank account a contact is related to
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.
-2. Select the line for a contact, choose the **Related Information** action, and then choose the **Customer/Vendor/Bank Acc/Employee** action.
+2. Select the line for a contact, and then choose either the **Customer**, **Vendor**, **Bank Account**, or **Employee** actions.
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  

@@ -58,10 +58,7 @@ The following table shows how the information in the optional fields will be use
 
 |Column1  |Column2  |
 |---------|---------|
-|**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered.<br><br>  
-
-> [!NOTE]  
-> This price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.|
+|**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered. Note that this price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.|
 |**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered.<br><br> 
 
 > [!NOTE]  

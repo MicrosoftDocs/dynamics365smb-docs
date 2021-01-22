@@ -46,13 +46,13 @@ To review price lists and prices that apply for specific customers or vendors, o
 ## To set up a sales price for a customer
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
-#### [Current Experience](#tab/current-experience)  
+#### [Current Experience](#tab/current-experience/)  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
-#### [New Experience](#tab/new-experience)  
+#### [New Experience](#tab/new-experience/)  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action. 

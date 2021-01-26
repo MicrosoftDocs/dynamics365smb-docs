@@ -1,6 +1,6 @@
 ---
 title: Teams FAQ
-description: Get answers for some typical questions about working with Teams and [!INCLUDE [prod_short.md](includes/prod_short.md)].
+description: Get answers for some typical questions about working with Teams and Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/20/2021
+ms.date: 01/26/2021
 ms.author: jswymer
 ---
 # Teams FAQ

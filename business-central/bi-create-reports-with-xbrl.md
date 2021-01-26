@@ -24,12 +24,11 @@ XBRL, which stands for eXtensible Business Reporting Language, is an XML-based l
  • Regulatory filings, such as annual and quarterly financial statements  
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to import G/L-related schemas and create XBRL instance documents by mapping G/L data from the chart of accounts to elements in taxonomies that were designed for financial reports, such as balance sheets, income statements, and so on. 
+> You can import G/L-related schemas and create XBRL instance documents by mapping G/L data from the chart of accounts to elements in taxonomies that were designed for financial reports, such as balance sheets, income statements, and so on.
 > 
-> Although the XBRL capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] support taxonomies for Specification 2, there are taxonomies that contain elements that [!INCLUDE[prod_short](includes/prod_short.md)] does not support, such as Formula linkbases, iXBRL, or other structural differences. We recommend that you validate the XBRL capability before you use it for reporting.
+> The XBRL capabilities in Business Central support taxonomies for Specification 2, however, taxonomies might contain unsupported elements such as Formula linkbases, iXBRL, or have other structural differences. We recommend that you validate the XBRL capability before you use it for reporting.
 > 
-> Full support of reporting requirements for taxonomies may require third party XBRL tagging and tools. The XBRL International organization has a list of tools and services that  you can use for XBRL reporting. Depending on your XBRL reporting requirements for a given taxonomy, you might want to explore those resources. For more information, see [Getting Started for Business](https://go.microsoft.com/fwlink/?linkid=2153466) and [Tools and Services](https://go.microsoft.com/fwlink/?linkid=2153356).
-
+> Full support for taxonomies may require third party XBRL tagging and tools. The XBRL International organization has a list of tools and services that you can use for XBRL reporting. Depending on the XBRL reporting requirements for a given taxonomy, you might want to explore those resources. For more information, see [Getting Started for Business](https://go.microsoft.com/fwlink/?linkid=2153466) and [Tools and Services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## eXtensible Business Reporting Language
 XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) is an XML-based language for financial reporting. XBRL provides a standard for uniform reporting for all users of the financial information supply chain; such as public and private companies, the accounting profession, regulators, analysts, the investment community, capital markets and lenders, as well as key third parties such as software developers and data aggregators.  

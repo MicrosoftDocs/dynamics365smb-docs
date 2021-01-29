@@ -21,7 +21,7 @@ If you assign a bank account to the payment journal template, the bank account w
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 
-    [!INCLUDE[tooltip](../../includes/tooltip.md)]
+    [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 3. Repeat step 2 for any additional templates.
 
 Next, add the templates to journal batches.

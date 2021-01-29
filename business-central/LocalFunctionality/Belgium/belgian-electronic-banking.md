@@ -53,7 +53,7 @@ In order to process electronic payments, you must set up transaction codes accor
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IBLC/BLWI Transaction Codes**, and then choose the related link.  
 2. Choose the **New** action.  
-3. Enter the **Transaction Code** and **Description**. [!INCLUDE[tooltip](../../includes/tooltip.md)]  
+3. Enter the **Transaction Code** and **Description**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
 
 ## See Also
 

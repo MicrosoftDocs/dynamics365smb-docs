@@ -48,6 +48,9 @@ If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have 
 > [!NOTE]
 > If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
 
+> [!IMPORTANT]
+> If you choose the OAuth option for authentication in your legacy SMTP email setup, you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+
 ## Add Email Accounts
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
 
@@ -136,7 +139,7 @@ Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange O
 ## Setting Up Email for Business Central On-Premises 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must register [!INCLUDE[prod_short](includes/prod_short.md)] as an app in the Azure portal, and then connect [!INCLUDE[prod_short](includes/prod_short.md)] to the app registration. The following sections describe how.
 
-### Create an App Registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Azure Portal
+### Create an App Registration for Business Central in Azure Portal
 The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
 
 |API / Permission Name  |Type  |Description  |
@@ -144,16 +147,28 @@ The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure po
 |Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
 |Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
-|Microsoft Graph / offline_access|Delegated|Maintain data access consent. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
 
-> [!TIP]
-> When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
-> 
-> * Application (client) ID 
-> * Redirect URI (optional)
-> * Client secret
+If you are using a legacy SMTP setup and want to use OAuth for authentication, the APIs and permissions for the delegated admin are slightly different. The following table lists the permissions.
+
+|API / Permission Name  |Type  |Description  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
+|Microsoft Graph / openid|Delegated|Sign users in.|
+|Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
+||Microsoft Graph / SMTP.Send|Delegated|Send emails frfom mailbozes using SMTP AUTH.         |
+|Office 365 Exchange Online / User.Read |Delegated|Sign in and read user profile.         |
+
+When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
+ 
+* Application (client) ID 
+* Redirect URI (optional)
+* Client secret
 
 For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). 
+
+> [!NOTE]
+> After you connect Business Central to your app registration, if you have trouble using the SMTP setup to send email it might be because SMTP AUTH is not enabled for your tenant. Ask your administrator to verify the setting.
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to Your App Registration
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.

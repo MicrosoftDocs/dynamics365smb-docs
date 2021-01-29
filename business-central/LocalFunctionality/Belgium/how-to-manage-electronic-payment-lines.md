@@ -27,9 +27,8 @@ You can have [!INCLUDE[prod_short](../../includes/prod_short.md)] suggest paymen
 
     To delete the selected line, choose the **Delete** action.  
 
-4.  Choose the **OK** button.  
+## See Also
 
-## See Also  
- [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [Test Electronic Payments](how-to-test-electronic-payments.md)
+[Belgian Electronic Payments](belgian-electronic-payments.md)  
+[Suggest Vendor Payments](../../payables-how-suggest-vendor-payments.md)  
+[Test Electronic Payments](how-to-test-electronic-payments.md)  

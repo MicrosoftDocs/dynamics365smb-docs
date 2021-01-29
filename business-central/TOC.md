@@ -851,7 +851,7 @@
 ### Belgium
 #### [Local Functionality in the Belgian Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
 #### VAT
-##### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
+##### [VAT](LocalFunctionality/Belgium/belgian-vat.md)
 ##### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 ##### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
 ##### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
@@ -862,15 +862,14 @@
 ##### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & Payments
+##### [Electronic Banking (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Electronic Payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
+##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
+<!--TOC cleanup stopped here-->
 ##### [Set Up Bank Accounts for CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
 ##### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 ##### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Belgian Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Set Up Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
-##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Belgian Electronic Payments](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Set Up IBLC-BLWI Transaction Codes](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
 ##### [Set Up Vendors for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)

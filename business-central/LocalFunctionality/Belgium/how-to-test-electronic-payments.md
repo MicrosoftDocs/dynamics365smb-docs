@@ -38,8 +38,9 @@ You can view any errors on the **Export Check Error Logs** page.
 3.  In the **Export Protocol** field, select the export protocol.  
 4.  Enter the payment journal line information, and then choose the **Check Payment Lines** action to validate the payment journal lines. The validation that is performed on the journal lines depends on the type of check that is specified on the **Export Protocols** page.  
 
-## See Also  
- [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
- [Print Payment Files](how-to-print-payment-files.md)
+## See Also
+
+[Belgian Electronic Payments](belgian-electronic-payments.md)  
+[Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Suggest Vendor Payments](../../payables-how-suggest-vendor-payments.md)  
+[Print Payment Files](how-to-print-payment-files.md)  

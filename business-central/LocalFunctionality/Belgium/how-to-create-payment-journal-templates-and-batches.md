@@ -1,5 +1,5 @@
 ---
-title: How to Create Payment Journal Templates and Batches
+title: Create Payment Journal Templates and Batches
 description: In the Belgian version of Business Central, payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types.
 author: SorenGP
 
@@ -10,31 +10,26 @@ ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Create Payment Journal Templates and Batches
+# Create Payment Journal Templates and Batches in the Belgian Version
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types. However, the payment journal contains some fields that are specific for processing payments. Before you can start generating payment suggestions, you have to set up a payment journal template and a payment journal batch.  
 
 If you assign a bank account to the payment journal template, the bank account will be inserted on all payment journal batches and payment journal lines that are created by using this template. By specifying a bank account for the journal template, you can reduce the time that is required for checking the payment suggestions.  
 
 ## To create a payment journal template  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal Templates**, and then choose the related link.  
-2.  Choose the **New** action.  
-3.  On the **EB Payment Journal Templates** page, fill in the fields as described in the following table.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal Templates**, and then choose the related link.  
+2. Choose the **New** action.  
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Name**|Enter the unique name for the payment journal template that you are creating.|  
-    |**Description**|Enter a description of the payment journal template.|  
-    |**Bank Account**|Select the bank account that will be used when you create a payment suggestion.|  
-    |**Reason Code**|Select the reason code that will be used on all the journal batches and lines that are created by using the journal template. If you want to use a different reason code on a journal line, you can manually change it.|  
-    |**Source Code**|Select the source code that will be used on all the journal batches and lines that are created by using the journal template.|  
+    [!INCLUDE[tooltip](../../includes/tooltip.md)]
+3. Repeat step 2 for any additional templates.
 
-4.  Choose the **OK** button.  
+Next, add the templates to journal batches.
 
 ## To add payment journal batches to the journal template  
 
-1.  On the **Payment Journal Templates** page, choose the **Batches** action.  
-2.  On the **Paym. Journal Batch** page, fill in the fields as described in the following table.  
+1. On the **Payment Journal Templates** page, choose the **Batches** action.  
+2. On the **EB Payment Journal Batches** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -44,9 +39,7 @@ If you assign a bank account to the payment journal template, the bank account w
     |**Reason Code**|Specifies the reason code that is linked to this journal batch.|  
     |**Status**|Specifies the status of the batch.|  
 
-3.  Choose the **OK** button.  
-
 ## See Also  
- [Belgian Electronic Payments](belgian-electronic-payments.md)   
- [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
- [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+[Belgian Electronic Payments](belgian-electronic-payments.md)  
+[Electronic Banking in the Belgian Version](belgian-electronic-banking.md)  

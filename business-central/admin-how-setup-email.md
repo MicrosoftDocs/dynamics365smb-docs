@@ -156,7 +156,7 @@ If you are using a legacy SMTP setup and want to use OAuth for authentication, t
 |Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
 |Microsoft Graph / openid|Delegated|Sign users in.|
 |Microsoft Graph / User.Read |Delegated|Sign in and read user profile.         |
-||Microsoft Graph / SMTP.Send|Delegated|Send emails frfom mailbozes using SMTP AUTH.         |
+|Microsoft Graph / SMTP.Send|Delegated|Send emails from mailboxes using SMTP AUTH.         |
 |Office 365 Exchange Online / User.Read |Delegated|Sign in and read user profile.         |
 
 When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
@@ -168,7 +168,7 @@ When you create your app registration, note the following information. You will 
 For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). 
 
 > [!NOTE]
-> After you connect Business Central to your app registration, if you have trouble using the SMTP setup to send email it might be because SMTP AUTH is not enabled for your tenant. Ask your administrator to verify the setting.
+> After you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, if you have trouble using the SMTP setup to send email it might be because SMTP AUTH is not enabled for your tenant. Ask your administrator to verify the setting.
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to Your App Registration
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.

@@ -49,7 +49,7 @@ If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have 
 > If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
 
 > [!IMPORTANT]
-> If you choose the OAuth option for authentication in your legacy SMTP email setup, you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> If you choose the OAuth option for authentication, you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## Add Email Accounts
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
@@ -149,7 +149,7 @@ The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure po
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
 |Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
 
-If you are using a legacy SMTP setup and want to use OAuth for authentication, the APIs and permissions for the delegated admin are slightly different. The following table lists the permissions.
+If you are using a legacy SMTP setup or the SMTP connector and want to use OAuth for authentication, the permissions are slightly different. The following table lists the permissions.
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|
@@ -168,7 +168,7 @@ When you create your app registration, note the following information. You will 
 For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). 
 
 > [!NOTE]
-If you have trouble using the legacy SMTP setup to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the SMTP email connector instead because it supports modern authentication methods, such as OAuth. However, if you must use the SMTP setup you can enable SMTP AUTH. For more information, see [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+If you have trouble using the legacy SMTP setup to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the Microsoft 365 and Current User email connectors instead, because they use Microsoft Graph Mail APIs. However, if you must use the SMTP setup you can enable SMTP AUTH. For more information, see [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to Your App Registration
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.

@@ -1,8 +1,6 @@
 ---
-    title: How to Set Up Vendors Without IRD Numbers for Calculating the Withholding Tax
+    title: Set Up Vendors Without IRD for Calculating Withholding Tax (NZ)
     description: Withholding Tax (WHT) is calculated for local vendors who do not have a New Zealand Inland Revenue Department number.
-    services: project-madeira 
-    documentationcenter: ''
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: article

@@ -33,6 +33,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Use an EU web service to verify a customer's VAT registration number.|[Verify VAT Registration Numbers](finance-setup-vat.md)|
 |Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 ## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

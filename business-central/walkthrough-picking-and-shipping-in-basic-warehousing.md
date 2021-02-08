@@ -30,6 +30,9 @@ For more information, see [Design Details: Outbound Warehouse Flow](design-detai
 
 The following walkthrough demonstrates method B in the previous table.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## About This Walkthrough
 
 In basic warehouse configurations where your location is set up to require pick processing but not ship processing, you use the **Inventory Pick** page to record and post pick and ship information for your outbound source documents. The outbound source document can be a sales order, purchase return order, outbound transfer order, or a production order with component need.  
@@ -41,6 +44,9 @@ This walkthrough demonstrates the following tasks:
 - Releasing the sales order for warehouse handling.  
 - Creating an inventory pick based on a released source document.  
 - Registering the warehouse movement from the warehouse and at the same time posting the sales shipment for the source sales order.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## Roles
 
@@ -80,7 +86,7 @@ Ellen, the warehouse manager at CRONUS, sets up SILVER warehouse for basic pick 
 
 ## Setting Up the Location
 
-The setup of the **Location Card** page defines the company’s warehouse flows.  
+The setup of the **Location Card** page defines the company's warehouse flows.  
 
 ### To set up the location
 

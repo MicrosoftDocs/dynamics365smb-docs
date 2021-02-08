@@ -18,6 +18,9 @@ Transfer orders are also a source of supply when working at the SKU level. When 
 
 ![Example of transfer flow](media/nav_app_supply_planning_7_transfers1.png "Example of transfer flow")  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 When comparing the situation where a supply order is directly facing a demand order to a situation where the sales order is supplied through a chain of SKU transfers, it is obvious that the planning task in the latter situation can become very complex. If demand changes, it might cause a ripple effect through the chain, because all transfer orders plus the purchase/production order in the opposite end of the chain will have to be manipulated to reestablish balance between demand and supply.  
 
 ![Example of supply/demand balance in transfers](media/nav_app_supply_planning_7_transfers2.png "Example of supply/demand balance in transfers")  

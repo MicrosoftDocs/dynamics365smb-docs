@@ -1,5 +1,5 @@
 ---
-title: Create a Sales Invoice or Sales Order | Microsoft Docs
+title: Create a Sales Invoice or Sales Order
 description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
 
 ---
@@ -90,6 +90,10 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document. The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.  
 
+### Calculating Invoice Discounts on Sales
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## Registering Payments
 
 Depending on your business needs, you can get paid and register that payment in different ways: manually, automatically, and through payment services.  
@@ -102,13 +106,18 @@ In business environments where the customer pays immediately, for example by Pay
 
 You can even create directly-paid invoices for non-registered customers by first setting up a "cash customer" card, which you point to on the sales invoice. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. For more information, see [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
+
 ## See Related Training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## See Also
+
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Print the Picking List](sales-how-print-picking-list.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
+[Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

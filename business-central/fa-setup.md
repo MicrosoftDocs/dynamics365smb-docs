@@ -40,5 +40,5 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

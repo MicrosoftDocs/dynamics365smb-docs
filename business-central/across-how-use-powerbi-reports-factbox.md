@@ -81,6 +81,6 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  

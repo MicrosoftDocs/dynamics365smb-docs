@@ -22,7 +22,7 @@ You can send documents such as invoices as email using your business email addre
 
 
 ## See Also
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Using Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)

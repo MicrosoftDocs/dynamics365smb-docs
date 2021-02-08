@@ -623,6 +623,11 @@
             "source_path": "business-central/ui-copy-paste.md",
             "redirect_url": "faq-copy-paste",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/product-get-started.md",
+            "redirect_url": "ui-get-ready-business",
+            "redirect_document_id": false
         }
 
     ]

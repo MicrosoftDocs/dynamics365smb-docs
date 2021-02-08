@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Node Name="" DisplayName="Help" Page="product-get-started.html">
+<Node Name="" DisplayName="Help" Page="ui-get-ready-business.html">
   <Node Name="" DisplayName="Getting Started" Page="across-get-started.html">
     <Node Name="" DisplayName="Overview of Business Functionality" Page="across-business-functionality.html"/>
     <Node Name="" DisplayName="Importing Business Data from Other Finance Systems" Page="upload-data.html"/>

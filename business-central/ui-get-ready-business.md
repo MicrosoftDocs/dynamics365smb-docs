@@ -16,20 +16,28 @@ ms.author: edupont
 
 Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
+To help you get ready for doing business, follow the steps in the **Get started** guide that is available when you first sign in. If you don't see the **Get started** guide at the top of your Home page, you can start it from the  ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Get started** action.<!--VERIFY-->  
 
-Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+<!--you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose the-->
+
+Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.<!--VERIFY-->  
 
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
-If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+<!--If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).-->
 
 > [!NOTE]  
 > The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots, and then choose the **Start Setup** action.
+When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots, and then choose the **Start Setup** action.<!--VERIFY-->  
+
+## Tours and page descriptions
+
+[!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and page descriptions that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
+
+For example, to see the page description for the **Sales Invoice** card, choose link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with the page description. If a tour exists for the page, a link invites you to take the tour.
 
 ## Role Center
 
@@ -62,7 +70,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  

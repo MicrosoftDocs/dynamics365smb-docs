@@ -83,4 +83,4 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 
 ## See Also
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md)
+[Getting Ready for Doing Business](ui-get-ready-business.md)

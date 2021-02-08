@@ -213,7 +213,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
 [Find Entries](ui-find-entries.md)  

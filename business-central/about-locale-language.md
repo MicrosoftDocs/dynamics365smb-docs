@@ -56,4 +56,4 @@ It's simple - scroll to the bottom of the browser page and choose the globe symb
 
 [Resources for Help and Support](product-help-and-support.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  

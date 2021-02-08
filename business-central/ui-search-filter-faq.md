@@ -54,4 +54,4 @@ At Microsoft, we're constantly listening to feedback from our diverse community 
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  

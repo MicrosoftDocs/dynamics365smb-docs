@@ -89,11 +89,12 @@
 
 ## Try
 ### [Trials and Subscriptions](across-preview.md)
-### [Getting Started with Business Central](product-get-started.md)
+### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
+### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
 
 <!--setup-->
@@ -299,10 +300,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Documentation](index.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Documentation](index.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->

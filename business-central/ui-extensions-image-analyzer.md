@@ -100,4 +100,4 @@ You can view the number of analyses you've done, and how many you can still do, 
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  

@@ -14,15 +14,15 @@ ms.author: edupont
 ---
 # Getting Ready for Doing Business
 
-Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
+To help you get ready for doing business, follow the steps in the **Get started** checklist that is available when you first sign in. If you don't see a **Get started** banner at the top of your Home page, you can start it from the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Get started** action.<!--VERIFY-->  
 
-To help you get ready for doing business, follow the steps in the **Get started** guide that is available when you first sign in. If you don't see the **Get started** guide at the top of your Home page, you can start it from the  ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Get started** action.<!--VERIFY-->  
+<!--Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link.VERIFY-->  
 
-<!--you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose the-->
+## Checklist
 
-Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.<!--VERIFY-->  
+The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your role, country, and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
+The checklist helps you set up key information in [!INCLUDE [prod_short](includes/prod_short.md)]. If you want to migrate existing data, such as vendors, customers, and items from your existing financial system, you can find guidance in the [Migrate Customer Data](admin-migrate-customer-data.md) article.
 
 <!--If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).-->
 
@@ -31,13 +31,13 @@ Once you have migrated data, such as vendors, customers, and items from your exi
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots, and then choose the **Start Setup** action.<!--VERIFY-->  
+When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
 
-## Tours and page descriptions
+## Teaching tips and tours
 
-[!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and page descriptions that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
+[!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
 
-For example, to see the page description for the **Sales Invoice** card, choose link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with the page description. If a tour exists for the page, a link invites you to take the tour.
+For example, to see the teaching tip for the **Sales Invoice** card, choose link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour.
 
 ## Role Center
 

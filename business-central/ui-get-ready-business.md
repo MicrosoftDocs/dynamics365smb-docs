@@ -14,15 +14,15 @@ ms.author: edupont
 ---
 # Getting Ready for Doing Business
 
-To help you get ready for doing business, follow the steps in the **Get started** checklist that is available when you first sign in. If you don't see a **Get started** banner at the top of your Home page, you can start it from the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Get started** action.<!--VERIFY-->  
+To help you get ready for doing business, follow the steps in the **Get started** checklist that is available when you first sign in. If you don't see a **Get started** banner at the top of the Business Manager Home page, you can start it from the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Get started** action.<!--VERIFY-->  
 
 <!--Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link.VERIFY-->  
 
 ## Checklist
 
-The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your role, country, and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
+The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-The checklist helps you set up key information in [!INCLUDE [prod_short](includes/prod_short.md)]. If you want to migrate existing data, such as vendors, customers, and items from your existing financial system, you can find guidance in the [Migrate Customer Data](admin-migrate-customer-data.md) article.
+The checklist helps you set up key information in [!INCLUDE [prod_short](includes/prod_short.md)] with assisted setup guides. For an overview of other configurations and areas to set up, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md). If you want to migrate existing data, such as vendors, customers, and items from your existing financial system, you can find guidance in the [Migrate Customer Data](admin-migrate-customer-data.md) article.
 
 <!--If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).-->
 
@@ -37,7 +37,7 @@ When you have run an assisted setup guide, it is marked as **Completed**. <!--VE
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
 
-For example, to see the teaching tip for the **Sales Invoice** card, choose link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour.
+Teaching tips are short messages that inform, remind, or teach you about important and new capabilities that launch automatically when you open a page. For example, to see the teaching tip for the **Sales Invoice** card, choose the link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour. The *Learn more* link takes you to the product Help for the page.
 
 ## Role Center
 
@@ -52,17 +52,17 @@ Use the arrows to collapse a part of the page and make more room to show specifi
 
 ## Company Information
 
-Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[prod_short](includes/prod_short.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
+In the **Company Information** page, you can view and edit setup information about the current company. Some of the information is set up as part of the **Get Started** checklist. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
 
 ## Adding Users and Permissions
 
-If you need to add more users, this is done from Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+If you need to add more users, this is done from Microsoft 365 admin center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
-When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Office 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Microsoft 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ## Getting Help
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] you will find tooltips that can help guide you through the various business processes. For each tooltip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
+[!INCLUDE[prod_short](includes/prod_short.md)] includes teaching tips for pages and tooltips for fields and actions that can help guide you through the various business processes. For each tooltip or teaching tip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
 
 ## Next Steps
 
@@ -70,10 +70,11 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Business Functionality](across-business-functionality.md)  
+[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[Trials and Subscriptions](across-preview.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

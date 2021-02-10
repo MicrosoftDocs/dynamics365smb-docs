@@ -4,7 +4,7 @@ description: Before update 15.3, you could use the Dynamics GP Data Migration ex
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

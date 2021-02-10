@@ -4,7 +4,7 @@ description: Outlines how to use resources, time sheets, and jobs to manage proj
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020

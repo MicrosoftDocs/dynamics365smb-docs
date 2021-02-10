@@ -4,7 +4,7 @@ description: ARES is an information system allowing retrieval of information on 
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 12/01/2020
 ms.reviewer: v-pejano

@@ -4,7 +4,7 @@ description: You can manage incoming external business documents, such as paymen
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

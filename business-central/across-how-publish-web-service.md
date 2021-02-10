@@ -4,7 +4,7 @@ description: Publish objects as web services to make them immediately available 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/08/2020
 ms.author: edupont

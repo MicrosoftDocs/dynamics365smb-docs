@@ -4,7 +4,7 @@ description: Use intercompany documents to post transactions with your intercomp
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

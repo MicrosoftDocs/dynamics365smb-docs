@@ -4,7 +4,7 @@ description: It's easy to create a new, blank company in Business Central. An as
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

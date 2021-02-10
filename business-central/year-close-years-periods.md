@@ -4,7 +4,7 @@ description: Outlines the tasks to close a fiscal year or accounting period, for
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

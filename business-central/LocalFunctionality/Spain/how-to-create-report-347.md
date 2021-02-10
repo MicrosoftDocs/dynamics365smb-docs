@@ -4,7 +4,7 @@ description: All companies in Spain must provide an annual declaration, Report 3
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont

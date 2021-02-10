@@ -4,7 +4,7 @@ description: Learn how to add companies from other Business Central environments
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 10/29/2020
 ms.author: edupont

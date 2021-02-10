@@ -3,7 +3,7 @@
     description: Describes how to consolidate the financial statements of various companies into one financial statement.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

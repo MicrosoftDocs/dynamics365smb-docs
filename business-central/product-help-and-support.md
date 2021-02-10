@@ -3,7 +3,7 @@ title: "Help and Support"
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
 author: edupont04
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ms.service: "dynamics365-business-central"
 ms.author: edupont
 ms.date: 10/01/2020

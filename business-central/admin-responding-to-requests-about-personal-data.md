@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ---
 
 # Responding to Requests About Personal Data  

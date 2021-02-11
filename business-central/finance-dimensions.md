@@ -97,6 +97,30 @@ When you post documents or journal lines that contain dimensions, various errors
 |Wrong dimension value code for default dimension where the **Value Posting** field contains **Same Code**|-Select %1 %2 for the %3 %4.<br />-Select %1 %2 for the %3 %4 for %5 %6|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter the required dimension value for the conflicting dimension in the dimension set.|
 |Non-blank dimension value code for blank default dimension where the **Value Posting** field contains **Same Code**|-%1 %2 must be blank.<br />-%1 %2 must be blank for %3 %4.|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter a blank dimension value code for the conflicting dimension in the dimension set.|
 |Unexpected dimension value for default dimension where the **Value Posting** field contains **No Code**|-%1 %2 must not be mentioned.<br />-%1 %2 must not be mentioned for %3 %4|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Remove the conflicting line from the dimension set.|
+|A dimension correction does not complete correctly.||-Choose **Reset** to revert the correction to a draft state. This resets the changes, and you can run the correction again.|
+
+## Correcting Dimension Errors
+If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. That will help keep your financial reports and analyses accurate.
+
+### Setting Up Dimension Corrections
+There are two things to consider when setting up dimension corrections:
+
+* Are there any dimensions that you do not want to allow people to change? On the **Dimension Correction Settings** page, specify the dimensions that you want to block for changes.
+* Who do you want to allow to change dimensions? To allow people to make changes, assign the **DIMENSION CORRECTION** permission to the users. The permissions allow them to create dimension corrections, run them, and undo them if needed. They'll also be able to specify blocked dimensions.
+
+### Correcting an Error
+On the **General Ledger Entries** page, use the **Dimension Correction** action to start correcting dimensions. You can manually select one or more general ledger entries, or use filters to select sets of entries. If needed, you can also add or delete dimensions.
+
+> [!NOTE]
+> Always select the entries before you specify the new dimension values.
+
+> [!TIP]
+> After you correct a dimension, if you don't like what you see you can undo the correction to reset the previous value. However, you can only undo the most recent correction. 
+
+Before you run a correction, it's a good idea to validate it first. Validation will ensure that the correction does not break any restrictions set on the dimensions. For example, it will check whether any new values are blocked.
+
+### Dimension Corrections on Large Data Sets
+Use caution when correcting large sets of entries, for example, sets that include more than 10,000 entries. If you can, we recommend that you use the filters to run the corrections on smaller sets of data. It's also a good idea to run corrections outside the normal business hours. 
 
 ## See Related Training at [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 

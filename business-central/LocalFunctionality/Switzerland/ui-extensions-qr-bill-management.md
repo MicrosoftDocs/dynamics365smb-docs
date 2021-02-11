@@ -3,7 +3,7 @@ title: 'QR-Bill Management | Microsoft Docs'
 description: Set up the QR-Bill Management extension extension and easily generate, send, and import QR-bills.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

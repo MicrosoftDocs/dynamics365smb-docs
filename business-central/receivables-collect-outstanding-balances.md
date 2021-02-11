@@ -4,7 +4,7 @@ description: Learn how to send a reminder to a customer about a payment that is 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

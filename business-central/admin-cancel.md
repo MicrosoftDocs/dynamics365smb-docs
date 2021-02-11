@@ -1,10 +1,10 @@
 ---
-title: Cancelling Business Central | Microsoft Docs
-description: Describes how to remove or delete your Business Central experience.
+title: Unsubscribe or Remove Business Central
+description: Learn how to remove or delete your Business Central experience if you have a trial subscription, or if you have a paid subscription.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -4,7 +4,7 @@ description: The following topics describe the local functionality in the Russia
 author: AliiaSalikhova
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont

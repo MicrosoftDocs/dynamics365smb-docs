@@ -1,10 +1,10 @@
 ---
-title: Multilanguage and Localization | Microsoft Docs
-description: Learn how language and region influence your experience in Business Central.
+title: Multilanguage and Localization
+description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

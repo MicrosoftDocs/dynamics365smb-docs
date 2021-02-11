@@ -3,7 +3,7 @@ title: "About Searching and Filtering in Business Central"
 description: "Answers frequently-asked questions about Search and Filter."
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 11/16/2020

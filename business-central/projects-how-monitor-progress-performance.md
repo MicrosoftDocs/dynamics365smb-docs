@@ -4,7 +4,7 @@ description: Describes how you can create a work in process (WIP) method and cal
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

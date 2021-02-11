@@ -4,7 +4,7 @@ description: 'Learn how you can do bulk invoicing from Microsoft Bookings in Bus
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

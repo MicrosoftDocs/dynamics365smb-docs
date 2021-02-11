@@ -4,7 +4,7 @@ description: Learn how you can configure how data from different companies in Bu
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

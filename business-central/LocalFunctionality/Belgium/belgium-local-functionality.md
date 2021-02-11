@@ -4,7 +4,7 @@ description: The following topics describe the local functionality in the Belgia
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: soalex

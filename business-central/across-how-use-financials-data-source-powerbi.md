@@ -3,7 +3,7 @@ title: Building Reports in Power BI Desktop to Display Business Central Data | M
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

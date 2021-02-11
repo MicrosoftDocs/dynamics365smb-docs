@@ -4,7 +4,7 @@ description: This functionality allows users to change Customer and Vendor posti
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano

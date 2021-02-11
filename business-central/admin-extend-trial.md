@@ -1,10 +1,10 @@
 ---
-    title: Extend Your Trial Version | Microsoft Docs
-    description: If you need more time to decide whether to subscribe, you can extend your trial version.
+    title: Extend Your Trial Version of Business Central
+    description: If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

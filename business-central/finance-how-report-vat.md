@@ -4,7 +4,7 @@ description: Learn how to prepare reports that lists VAT from sales during a per
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

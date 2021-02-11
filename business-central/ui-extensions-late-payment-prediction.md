@@ -4,7 +4,7 @@ description: Use our predictive model to predict whether an invoice will be paid
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

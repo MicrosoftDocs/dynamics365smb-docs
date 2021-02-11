@@ -4,7 +4,7 @@ description: Learn how you can troubleshoot and find solutions to error messages
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
 

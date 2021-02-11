@@ -4,7 +4,7 @@ description: This section describes local functionality in the Czech version - P
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
 ms.date: 10/01/2020
 ms.reviewer: v-pejano

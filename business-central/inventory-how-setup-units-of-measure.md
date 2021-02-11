@@ -4,7 +4,7 @@ description: You can set up multiple units of measure for an item so that you ca
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

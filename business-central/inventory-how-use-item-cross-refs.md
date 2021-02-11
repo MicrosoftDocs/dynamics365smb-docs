@@ -4,7 +4,7 @@ description: Set up references between the descriptions that you and your vendor
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

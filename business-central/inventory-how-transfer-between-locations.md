@@ -4,7 +4,7 @@ description: Describes how to move inventory from one place or warehouse to anot
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -4,7 +4,7 @@ description: Learn how to get Dynamics 365 Business Central ready to integrate w
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

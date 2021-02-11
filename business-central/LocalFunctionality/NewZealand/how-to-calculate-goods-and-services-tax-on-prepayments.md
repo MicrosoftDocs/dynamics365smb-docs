@@ -3,7 +3,7 @@
     description: Describes how to calculate Goods and Services Tax (GST) for partial payments or prepayments based on the total invoice amount, instead of on a partial amount.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

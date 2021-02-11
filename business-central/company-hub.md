@@ -4,7 +4,7 @@ description: Learn about the company hub in Dynamics 365 Business Central that y
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/29/2020
 ms.author: edupont

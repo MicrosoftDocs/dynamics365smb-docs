@@ -38,7 +38,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 
 When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you might see an empty Power BI part on some page, as shown in the previous figure. The first thing to do is to connect to your Power BI account. Once connected, you can see reports. You only have to do this step once.
 
-To connect to Power BI, select the **Get Started with Power BI** link in the **Power BI Reports** part.
+To connect to Power BI, select the **Get Started with Power BI** link in the **Power BI Reports** part. 
 
 During the connecting process, [!INCLUDE [prod_short](includes/prod_short.md)] communicates with the Power BI service to determine if you have a valid Power BI account and license. Once your license is verified, the default Power BI report displays on the page. If there a report isn't shown, you can select a report from the part.
 

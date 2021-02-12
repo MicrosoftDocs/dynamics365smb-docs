@@ -1551,6 +1551,7 @@
 ### [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ### [Manage Profiles](admin-users-profiles-roles.md)
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
+### [Onboard Users with Checklists](admin-checklist.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ### [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)

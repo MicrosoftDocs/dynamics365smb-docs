@@ -8,11 +8,11 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ---
 
 # Responding to Requests About Personal Data  
-Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** tab in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
+Data subjects can request several types of actions regarding their personal data. For example, under the General Data Protection Regulation (GDPR), EU residents have the right to request the export, deletion and modification of their personal data. This is known as a *Data Subject Request*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options under **Data Privacy** tab in the **IT Manager** Role Center. For more information about classifying data and classifying data sensitivity in [!INCLUDE[prod_long](includes/prod_long.md)], see [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) and [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md).  
 
 ## Types of Requests
 
@@ -31,13 +31,13 @@ The following table provides examples of the types of requests you can respond t
 A data subject can request that you temporarily stop processing their personal data. To honor such requests, you can mark their record as blocked due to privacy to stop processing their data. When a record is marked as blocked, you cannot create new transactions that use that record. For example, you cannot create a new invoice for a customer when either the customer or the salesperson is blocked. To mark a data subject as blocked, open the card for the data subject, for example the Customer, Vendor, or Contact cards, and choose the **Privacy Blocked** check box. You may need to choose **Show More** to display the field.  
 
 ## Handling Data Subject Requests While in Trial
-Certain types of personal data is part of your Microsoft 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR). The process for handling data subject requests is different depending on the type of [!INCLUDE[d365fin](includes/d365fin_md.md)] tenant.  
+Certain types of personal data is part of your Microsoft 365 account and requires administrative access to export, if you receive a data subject request from a user regarding this type of personal data under the General Data Protection Regulation (GDPR). The process for handling data subject requests is different depending on the type of [!INCLUDE[prod_short](includes/prod_short.md)] tenant.  
 
-If you have a paid subscription for [!INCLUDE[d365fin](includes/d365fin_md.md)], you must contact your organization's tenant administrator to make a data subject request. The administrator has the administrative rights and tools to fulfil your request.  
+If you have a paid subscription for [!INCLUDE[prod_short](includes/prod_short.md)], you must contact your organization's tenant administrator to make a data subject request. The administrator has the administrative rights and tools to fulfil your request.  
 
-If you signed up for [!INCLUDE[d365fin](includes/d365fin_md.md)] from the [Trials](https://trials.dynamics.com/) page, and you have not moved out of this trial experience through a paid subscription by your organization’s tenant administrator, then you can fulfil your own data subject request in the [Work and School Privacy page in the Azure Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Here, you can export and download your personal data.
+If you signed up for [!INCLUDE[prod_short](includes/prod_short.md)] from the [Trials](https://trials.dynamics.com/) page, and you have not moved out of this trial experience through a paid subscription by your organization’s tenant administrator, then you can fulfil your own data subject request in the [Work and School Privacy page in the Azure Portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Here, you can export and download your personal data.
 
-On the Work and School Privacy page, you can also close your account. However, we recommend that you make sure that you have exported and deleted all data first, since deleting your account means that you lose access to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+On the Work and School Privacy page, you can also close your account. However, we recommend that you make sure that you have exported and deleted all data first, since deleting your account means that you lose access to [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 You can still mark people as blocked due to privacy and export, edit, or delete transactions as explained elsewhere in this article.  
 

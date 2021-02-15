@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
 
 # Design Details: Change the Costing Method for Items
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
+In [!INCLUDE[prod_short](includes/prod_short.md)], you cannot change a costing method for an item after you have included the item in a transaction. For example, after you have bought or sold the item. If an incorrect costing method was assigned to the item or items, you might not discover the issue until you do your financial reporting.
 
 This topic describes how to resolve this situation. The recommended approach is to replace the item that has the incorrect costing method with a new item, and use an assembly order to transfer the inventory from the old item to the new.
 
@@ -32,7 +32,7 @@ Costing methods control cost calculations when goods are purchased, received in 
 
 *gross profit* = *revenue - COGS*
 
-When you set up inventory items, you must assign a costing method. The method can vary from business to business, and from item to item, so it's important to choose the right one. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following costing methods:
+When you set up inventory items, you must assign a costing method. The method can vary from business to business, and from item to item, so it's important to choose the right one. [!INCLUDE[prod_short](includes/prod_short.md)] supports the following costing methods:
 
 * Average
 * FIFO
@@ -57,7 +57,7 @@ This section describes the following steps for changing the costing method assig
 
 ### Define a default costing method
 
-To help avoid future mistakes you can specify a default costing method for new items. Whenever someone creates a new item, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest the default costing method. You specify the default method in the **Default Costing Method** field on the **Inventory Setup** page. 
+To help avoid future mistakes you can specify a default costing method for new items. Whenever someone creates a new item, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest the default costing method. You specify the default method in the **Default Costing Method** field on the **Inventory Setup** page. 
 
 ### Identify the items to change the costing method for and renumber them
 
@@ -81,7 +81,7 @@ To make the new items fully useful you must manually copy some master data from 
 |     |Standard journals         |Check whether standard journals reference the original item and transfer that data to the new item when necessary. This information is found on the standard journals, which are available on the item journal.          |
 |Sales     |Sales prepayment percentage         | Check whether any sales prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Sales**, and then **Prepayment Percentages**.        |
 |Purchase     |Purchase prepayment percentage         |Check whether any purchase prepayment percentages are defined for the original item and transfer that data to the new item. To view prepayment percentages, on the **Item Card** page, choose **Purchases**, and then **Prepayment Percentages**.                 |
-|Warehouse     |Bin contents         |Review the bin content defined for the original item. If columns such as as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[d365fin](includes/d365fin_md.md)] will maintain the records when you register warehouse documents and journals.|
+|Warehouse     |Bin contents         |Review the bin content defined for the original item. If columns such as as Min. Qty., Max. Qty., Default, and Dedicated have been individually entered then you must manually create bin content for the new item. If they are not, no action is required. [!INCLUDE[prod_short](includes/prod_short.md)] will maintain the records when you register warehouse documents and journals.|
 |Job     |Job Prices         |Check whether job prices are defined for the original item and transfer that data to the new item. This information is available on the **Job Card** page in the **Job Details – No. of Prices** part on the **FactBox pane**.         |
 |Service     |Service resource skill         |Check whether service resource skills are defined for the original item and transfer that data to the new item. To view resource skills, use the **Resource Skills** action on the **Item Card** page.          |
 |     |Service item components         |Check whether components are defined for the original service item and transfer that data to the new item. To view service item components, on the **Item Card** page use the **Service Item** action to open the list of related service items, and then choose the **Components** action.          |
@@ -167,7 +167,7 @@ When the inventory for the original item is zero, you can block the item to prev
 
 ## Summary
 
-Changing the costing method on items that have been used in transactions is a process, and not a standard action in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can use the steps described in this topic as a template for the process.
+Changing the costing method on items that have been used in transactions is a process, and not a standard action in [!INCLUDE[prod_short](includes/prod_short.md)]. You can use the steps described in this topic as a template for the process.
 
 The process can be time consuming because there are several manual steps. However, taking the time to complete it will minimize the impact of mistakes on your general ledger.
 

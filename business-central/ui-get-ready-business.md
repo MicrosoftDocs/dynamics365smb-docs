@@ -4,7 +4,7 @@ description: Outlines the assisted setup guides, videos, help topics, and pages 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -14,7 +14,7 @@ ms.author: edupont
 ---
 # Getting Ready for Doing Business
 
-Congratulations, you have just initiated your first company in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
 
@@ -22,7 +22,7 @@ Alternatively, to open the list of assisted setup guides for any role, choose th
 
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
-If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.
@@ -44,7 +44,7 @@ Use the arrows to collapse a part of the page and make more room to show specifi
 
 ## Company Information
 
-Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
+Under **Company Settings** you can view and edit setup information about the current company, much of this was prefilled if you completed the **Set Up Company** assisted setup when signing up for [!INCLUDE[prod_short](includes/prod_short.md)]. If you want to change the company logo, contact information, bank settings, or tax information, you can do it from this page.  
 
 ## Adding Users and Permissions
 
@@ -54,7 +54,7 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## Getting Help
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find tooltips that can help guide you through the various business processes. For each tooltip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
+In [!INCLUDE[prod_short](includes/prod_short.md)] you will find tooltips that can help guide you through the various business processes. For each tooltip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
 
 ## Next Steps
 
@@ -63,9 +63,9 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 ## See Also
 
 [Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Trials and Subscriptions](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
 [Resources for Help and Support](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

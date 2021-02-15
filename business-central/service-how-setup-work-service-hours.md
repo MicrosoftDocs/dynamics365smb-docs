@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -14,7 +14,7 @@
 
 ---
 # Set Up Work Hours and Service Hours
-Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[d365fin](includes/d365fin_md.md)] has built-in tools that you can customize to record this kind of information.  
+Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[prod_short](includes/prod_short.md)] has built-in tools that you can customize to record this kind of information.  
   
 After you set the default service hours of your company, you can calculate response times for service orders or send warnings or alerts when service calls come in. The alert feature is implemented together with the job scheduler.   
   

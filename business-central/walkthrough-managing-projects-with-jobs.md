@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -64,7 +64,7 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 -   Create sample data by using the steps in the following section.  
 
 ## Story  
-This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[d365fin](includes/d365fin_md.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[d365fin](includes/d365fin_md.md)] enables copying jobs and payment by installments.
+This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
 
@@ -476,7 +476,7 @@ By comparing prices, job task lines, and job planning lines for the two jobs, yo
 3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
 ## Next Steps  
- This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[d365fin](includes/d365fin_md.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
@@ -484,4 +484,4 @@ By comparing prices, job task lines, and job planning lines for the two jobs, yo
  [Use Resources](projects-how-use-resources.md)   
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
  [Invoice Jobs](projects-how-invoice-jobs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

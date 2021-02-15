@@ -4,7 +4,7 @@ description: This section describes Czech local functionality - Bank feature
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 10/01/2020
 ms.reviewer: v-pejano
@@ -30,7 +30,7 @@ The **Default Bank Account Code** field is added on the **Company Information** 
 
 ## Sales Documents and Bank Accounts
 
-It is quite common for companies to have multiple bank accounts open with multiple banking institutions in order to lower the cost of financial transactions. For that purpose [!INCLUDE[d365fin](../../includes/d365fin_md.md)] needs to enable users to select the preferred bank account to be printed on sales documents.
+It is quite common for companies to have multiple bank accounts open with multiple banking institutions in order to lower the cost of financial transactions. For that purpose [!INCLUDE[prod_short](../../includes/prod_short.md)] needs to enable users to select the preferred bank account to be printed on sales documents.
 
 The **Bank Account Code** field is added on sales documents, and information from the selected bank account is transferred to the sales header.
 
@@ -38,7 +38,7 @@ Additional fields for payment identification are added to the sales header, such
 
 ## Purchase Documents and Bank Accounts
 
-It is quite common for vendors to have multiple bank accounts open with multiple banking institutions. For this purpose [!INCLUDE[d365fin](../../includes/d365fin_md.md)] needs to enable users to select a vendor bank account for payment on purchase documents.
+It is quite common for vendors to have multiple bank accounts open with multiple banking institutions. For this purpose [!INCLUDE[prod_short](../../includes/prod_short.md)] needs to enable users to select a vendor bank account for payment on purchase documents.
 
 The **Vendor Bank Account Code** field is added on purchase documents and information from the selected vendor bank account is transferred to the purchase header.
 

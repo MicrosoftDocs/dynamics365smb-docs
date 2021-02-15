@@ -4,7 +4,7 @@ description: Learn how you can configure how data from different companies in Bu
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -30,7 +30,7 @@ Depending on the complexity of your businesses, there are two ways to set up con
 If your consolidation is straightforward, for example because you wholly-own the business units to consolidate, the **Company Consolidation** assisted setup guide will help you through the following steps:
 
 * Choose whether to create a new consolidated company, or whether to consolidate the data in a company that you have already created for the consolidation. The company should not contain transactions.
-* Preview the results. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
+* Preview the results. [!INCLUDE[prod_short](includes/prod_short.md)] verifies that the master data and transactions can be successfully transferred to the consolidated company.
 
 To use the assisted setup guide, follow these steps:
 
@@ -67,7 +67,7 @@ The following list illustrates key aspects of the consolidated company.
 
 ### <a name="busunit"></a>Add business units
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lets you set up a list of business units to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
+[!INCLUDE[prod_short](includes/prod_short.md)] lets you set up a list of business units to consolidate, verify the accounting data before you consolidate it, import files, and generate consolidation reports.  
 
 1. Sign in to the consolidated company.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
@@ -85,7 +85,7 @@ The chart of accounts for a company that will be consolidated must specify accou
 
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company. For example, this is useful if you frequently run the report.
 
-1. In each business unit's [!INCLUDE [prodshort](includes/prodshort.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="exchrates"></a>Specify exchange rates for consolidations
@@ -133,5 +133,5 @@ If you own only part of a company, you can include a percentage of each transact
 
 [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -20,7 +20,7 @@ The costing method determines whether an actual or a budgeted value is capitaliz
 > [!NOTE]
 > You cannot change an item's costing method if item ledger entries exist for the item. For more information, see [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md).
 
-The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+The following methods are supported in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Costing method | Description | When to use |
 |--|--|--|
@@ -159,4 +159,4 @@ The following methods are supported in [!INCLUDE[d365fin](includes/d365fin_md.md
  [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

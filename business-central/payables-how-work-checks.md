@@ -4,7 +4,7 @@ description: Describes how to issue checks using the payment journal, print chec
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Make Check Payments
 
-You can issue electronic and manual checks in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
+You can issue electronic and manual checks in [!INCLUDE[prod_short](includes/prod_short.md)]. Both methods use the payment journal to issue checks to vendors. You can also void checks and view check ledger entries.
 
 The following procedure shows how to pay a vendor with a computer checks by applying the payment to the relevant vendor invoice, printing the check, and then posting the payment as paid. This results in positive vendor ledger entries, applied to negative bank ledger entries, and physical checks for processing in the bank.
 
@@ -79,4 +79,4 @@ If you want to review posted checks, for example to verify multiple checks paid 
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Export a Positive Pay file](finance-how-positive-pay.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

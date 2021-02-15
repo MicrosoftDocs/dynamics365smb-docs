@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Managing Interactions
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.
+In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.
 
 You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.
 

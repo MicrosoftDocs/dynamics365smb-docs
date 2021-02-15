@@ -4,7 +4,7 @@ description: You create item cards for services that you sell as hours and for p
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -21,7 +21,7 @@ Item cards hold the information that is required to buy, store, sell, deliver, a
 
 The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[d365fin](includes/d365fin_md.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
+An item can be structured as a parent item with underlying child items in a bill of materials (BOM). In [!INCLUDE[prod_short](includes/prod_short.md)], a bill of material can be either an assembly BOM or a production BOM, depending on its use. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Vendor Catalog** page, so that you can easily select an alternate vendor.
 
@@ -92,7 +92,7 @@ If you have posted a transaction for an item, you cannot delete the card because
 
 ## Manage inventory in warehouses
 
-When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization does not use the warehouse management capabilities in [!INCLUDE [prodshort](includes/prodshort.md)], then you can ignore those fields.  
+When you register a new item, you will see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization does not use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
 If your organization later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
@@ -106,4 +106,4 @@ If your organization later sets up warehouse management, in most cases, you must
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

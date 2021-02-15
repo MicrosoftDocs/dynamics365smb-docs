@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -111,4 +111,4 @@ Posting sales order lines where a part is inventory quantity and another part is
  [Design Details: Costing Methods](design-details-costing-methods.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,9 +16,9 @@ ms.author: bholtorf
 
 ---
 # Planning Services
-With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   
+With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
+[!INCLUDE[prod_short](includes/prod_short.md)] also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.
   
 The following table describes a sequence of tasks, with links to the topics that describe them.   
   

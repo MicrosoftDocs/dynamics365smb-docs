@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -66,7 +66,7 @@ You can use the **Index Insurance** batch job to update the value of the fixed a
 5. Open the relevant insurance journal, review the created values, and then post them to the insurance coverage ledger.  
 
 ## To monitor insurance coverage
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated reports and statistics pages for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated reports and statistics pages for use in analyzing insurance policies and whether your fixed assets are over- or under-insured.  
 
 ### Overview of Insurance Policies
 To get an overview of your insurance policies, preview or print the **Insurance - List** report. The report shows all the policies and the most important fields from the insurance cards.  
@@ -114,4 +114,4 @@ The fixed asset will be detached from the incorrect insurance policy, on the sec
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

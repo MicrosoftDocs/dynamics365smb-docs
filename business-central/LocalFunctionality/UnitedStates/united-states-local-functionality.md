@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 ---
 # United States Local Functionality
 
-The following topics describe local functionality that is unique to the United States version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+The following topics describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Feature Availability  
 
@@ -35,11 +35,11 @@ The following topics describe local functionality that is unique to the United S
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**  
 
 > [!NOTE]
-> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prodshort](../../includes/prodshort.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
+> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
 
 ## See Also
 
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

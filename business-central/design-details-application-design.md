@@ -5,7 +5,7 @@
     documentationcenter: ''
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Design Details
-This content contains detailed technical information about complex application features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This content contains detailed technical information about complex application features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Design details content is aimed at implementers, developers, and super users who need deeper insight to implement, customize, or set up the features in question.  
 
@@ -33,6 +33,6 @@ This content contains detailed technical information about complex application f
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Warehouse Management](warehouse-manage-warehouse.md)   
  [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

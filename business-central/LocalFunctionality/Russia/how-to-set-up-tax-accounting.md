@@ -4,7 +4,7 @@ description: Russian enhancements include tax accounting.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Set Up Tax Accounting
 
-Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[prodshort](../../includes/prodshort.md)] by setting up tax registers.
+Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[prod_short](../../includes/prod_short.md)] by setting up tax registers.
 
 ## To activate tax accounting
 
@@ -34,7 +34,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
    | **Create Reclass. FA Tax Ledger** | Select to create fixed asset reclassification entries. |
    | **Create Acquis. FE Tax Ledger**  | Select to create future expense acquisition entries.   |
 
-4. Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[prodshort](../../includes/prodshort.md)] finance module.
+4. Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[prod_short](../../includes/prod_short.md)] finance module.
 
 5. Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.
 

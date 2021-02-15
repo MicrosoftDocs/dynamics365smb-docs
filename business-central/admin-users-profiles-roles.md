@@ -4,7 +4,7 @@ description: Learn how to manage users and Role Centers in Business Central.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
@@ -12,7 +12,7 @@ ms.author: edupont
 ---
 # Manage Profiles
 
-All users of [!INCLUDE[d365fin](includes/d365fin_md.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
+All users of [!INCLUDE[prod_short](includes/prod_short.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
 > [!NOTE]
 > The typical business use of a profile is a role. A profile is therefore named *Profile (Role)* in the UI.
@@ -77,14 +77,14 @@ When a profile is created, you can select different check boxes that define if, 
     - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To export profiles
-You can export profiles from [!INCLUDE[d365fin](includes/d365fin_md.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * On the **Profiles (Roles)** page, choose the **Export Profiles** action.
 
 A zip file with the .al files for all profiles is exported.
 
 ## To import profiles
-You can import profiles that have been exported from [!INCLUDE[d365fin](includes/d365fin_md.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
+You can import profiles that have been exported from [!INCLUDE[prod_short](includes/prod_short.md)]. The steps are more or less the opposite of the steps to export profiles. For more information, see [To export profiles](admin-users-profiles-roles.md#to-export-profiles).
 
 1. On the **Profiles (Roles)** page, choose the **Import Profiles** action.
 2. Follow the steps on the **Import Profiles** wizard.
@@ -123,7 +123,7 @@ You can delete personalizations that one or more users have made to specific pag
     The **User Page Personalizations** page lists all the pages that have been personalized and the user that they belong to.
 
     > [!Note]
-    > A check mark in the **Legacy Personalization** field indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization differently. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a Page is Locked from Personalizing](ui-personalization-locked.md).
+    > A check mark in the **Legacy Personalization** field indicates that the personalization was done in an older version of [!INCLUDE[prod_short](includes/prod_short.md)], which handled personalization differently. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page. For more information, see [Why a Page is Locked from Personalizing](ui-personalization-locked.md).
 
 2. Select the line for the page personalization that you want to delete, and then choose the **Delete** action.
 
@@ -133,9 +133,9 @@ You can also delete individual page customizations for a profile. For more infor
 
 ## Managing user sessions
 
-As the administrator of [!INCLUDE[prodshort](includes/prodshort.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
+As the administrator of [!INCLUDE[prod_short](includes/prod_short.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in the administration content.  
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
+For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
 ## See Also  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

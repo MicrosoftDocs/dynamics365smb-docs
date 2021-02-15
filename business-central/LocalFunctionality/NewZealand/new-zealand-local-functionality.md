@@ -4,7 +4,7 @@ description: The following topics describe the local functionality in the New Ze
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 10/01/2020
 ms.author: bholtorf
@@ -12,7 +12,7 @@ ms.author: bholtorf
 ---
 # New Zealand Local Functionality
 
-The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -50,7 +50,7 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## See Also
 
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

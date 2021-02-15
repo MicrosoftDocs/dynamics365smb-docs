@@ -4,7 +4,7 @@ description: Learn about how Business Central supports your needs for financial 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Finance
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups that make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
@@ -66,6 +66,6 @@ The following video introduces some of the key capabilities for managing finance
 [Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

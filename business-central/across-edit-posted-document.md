@@ -4,7 +4,7 @@ description: Learn about the different posting functions to post purchase docume
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -49,4 +49,4 @@ The posted sales shipment is updated.
 [General Business Functionality](ui-across-business-areas.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

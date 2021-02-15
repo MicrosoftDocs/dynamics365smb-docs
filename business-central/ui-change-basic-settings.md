@@ -4,7 +4,7 @@ description: Learn how to change some basic settings, for example, the Role Cent
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Change Basic Settings
 
-On the **My Settings** page, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
+On the **My Settings** page, you can see and change basic settings for [!INCLUDE[prod_short](includes/prod_short.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
 
 ## <a name="role-center"></a> Role Center
 The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
@@ -31,7 +31,7 @@ The default role is **Business Manager**, but you can select another role to use
 3. Choose the **OK** button.
 
 ## <a name="company"></a>Company
-A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)]. There can be multiple companies in a database, but only one can be selected at a time.
+A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
 
@@ -76,9 +76,9 @@ The **Region** setting determines how dates, times, numbers, and currencies are 
 ## <a name="language"></a> Language
 Changes the display language. This field appears only when there is more than one language to choose from.
 
-The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[d365fin](includes/d365fin_md.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
+The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
-Additional languages for [!INCLUDE[prodshort](includes/prodshort.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the releant language app to the tenant before users can switch to the new language in [!INCLUDE[prodshort](includes/prodshort.md)].  
+Additional languages for [!INCLUDE[prod_short](includes/prod_short.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the releant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Changing When I Receive Notifications
 Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
@@ -87,5 +87,5 @@ Choose this link to view or change the notifications that you get about certain 
 
 ## See Also
 [Creating New Companies](about-new-company.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  

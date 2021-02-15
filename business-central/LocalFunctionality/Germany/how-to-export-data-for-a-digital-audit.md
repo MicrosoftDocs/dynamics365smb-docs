@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
 # Export Data for a Digital Audit
 You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU). You can also select various options to be included in an XML file.  
 
-If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates empty files.  
+If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.md)] creates empty files.  
 
 ### To export data for a digital audit
 

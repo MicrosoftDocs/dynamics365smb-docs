@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -74,7 +74,7 @@ Static allocation method is based on a definite value, such as square meters use
 This topic describes how to define three new allocation target cost objects for the allocation source PROD cost center using the established allocation ratio 5:2:4. The three target cost objects are ACCESSO, PAINT, and FITTINGS.  
 
 > [!NOTE]  
->  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### To define the allocation source PROD cost center on the General FastTab  
 
@@ -105,13 +105,13 @@ This topic describes how to define three new allocation target cost objects for 
 15. On the third line, in the **Share** field, enter the allocation ratio **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the **Percent** field using a percentage rate that is dependent on all three allocation ratios that are entered in the **Share** field for all three lines.
 
 ## Scenario 2: Defining Dynamic Allocations Based on Items Sold
 This topic shows an example of how to define allocations by using the dynamic allocation method. In the example, you change the dynamic allocation of the costs for the SALES cost center to support the new cost object IT EQUIPMENT. IT EQUIPMENT packages have item numbers in the range from 8904-W to 8924-W. You use the previous year’s sales figures to calculate the share. The allocation is posted to the helping cost type 9903.  
 
 > [!NOTE]  
->  The example uses the demo data in the [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  The example uses the demo data in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### To define dynamic allocations based on items sold in the previous year  
 
@@ -131,7 +131,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 14. Choose the **Calculate Allocation Key** action to calculate the share.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
 ## See Also  
  [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   

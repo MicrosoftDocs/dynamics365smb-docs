@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -14,7 +14,7 @@
 
 ---
 # Swiss Electronic Payments
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.  
 
 ## Electronic Payment Methods  
 You can make electronic payments using the following methods:  

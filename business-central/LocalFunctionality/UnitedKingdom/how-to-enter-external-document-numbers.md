@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -18,7 +18,7 @@
 You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.  
 
 > [!NOTE]
-> Specify the document number that your customer or vendor has specified. [!INCLUDE [prodshort](../../includes/prodshort.md)] does not check if these external document numbers are unique or duplicates.
+> Specify the document number that your customer or vendor has specified. [!INCLUDE [prod_short](../../includes/prod_short.md)] does not check if these external document numbers are unique or duplicates.
 
 The following procedure explains how to specify an external document number on a sales order, but similar steps apply to other sales and purchase documents.
 

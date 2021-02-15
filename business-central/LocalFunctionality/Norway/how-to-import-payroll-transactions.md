@@ -4,7 +4,7 @@ description: You can import payroll transactions into a general journal from two
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -18,7 +18,7 @@ ms.author: edupont
 You can import payroll transactions into a general journal from the leading Norwegian payroll solution, Huldt & Lillevik Lønn - Visma. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.  
 
 > [!NOTE]  
-> To import payroll transactions, your [!INCLUDE[prodshort](../../includes/prodshort.md)] must include the **Payroll Data Definitions (NO)** extension. If you are not sure if you have this extension, please talk to your administrator.  
+> To import payroll transactions, your [!INCLUDE[prod_short](../../includes/prod_short.md)] must include the **Payroll Data Definitions (NO)** extension. If you are not sure if you have this extension, please talk to your administrator.  
 
 ## To import payroll transactions  
 

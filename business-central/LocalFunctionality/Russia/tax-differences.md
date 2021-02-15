@@ -4,7 +4,7 @@ description: Russian enhancements include managing tax differences.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -15,7 +15,7 @@ ms.author: soalex
 
 Tax differences are variations in tax amounts caused by the different rules for recognizing income and expenses between entries for book accounting and tax accounting. 
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up tax difference registers and tax difference journals to track and manage differences between book accounting and tax accounting amounts.
 
 ## Preparing the Chart of Accounts
 

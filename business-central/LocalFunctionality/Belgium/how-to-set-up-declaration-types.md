@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Set Up Declaration Types
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are two types of declaration:  
 
 - Simplified declaration  
 - Extended declaration  

@@ -4,7 +4,7 @@ description: Learn about the company hub in Dynamics 365 Business Central that y
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/29/2020
 ms.author: edupont
@@ -12,21 +12,19 @@ ms.author: edupont
 
 # Manage Work across Multiple Companies in the Company Hub
 
-Some people work in multiple companies in [!INCLUDE [prodshort](includes/prodshort.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
+Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page for managing work across the various environments that they work in, across companies, environments, and regions.  
 
 You can access the company hub by switching to the **Company Hub** role in My Settings, or by opening the **Company Hub** page directly. You can do the same work in both places, but actions are placed slightly different in menus.  
 
 > [!NOTE]
-> You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prodshort](includes/prodshort.md)] online.
+> You can connect the company hub to as many companies as you need. However, you can only connect the company hub to companies that are hosted in [!INCLUDE [prod_short](includes/prod_short.md)] online.
 
 ## Company hub home page
 
-If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.  
-
-Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
+If you use the **Company Hub** role, your home page shows a list of companies that you have access to, including information about key point of interest (KPI) data, and links to open each company. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Choose the **Company Hub** action to open the company hub, where you can work more closely with each company.  
 
 > [!TIP]
-> To access a specific company in [!INCLUDE [prodshort](includes/prodshort.md)], choose the name of the company, or choose the **Go To Company** menu item - you are logged in automatically in a new browser tab.
+> To access a specific company in [!INCLUDE [prod_short](includes/prod_short.md)], choose the name of the company, or choose the **Go To Company** menu item - you are logged in automatically in a new browser tab.
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
 
@@ -51,7 +49,7 @@ Otherwise, close the details pane and continue to the next company.  -->
 
 ## Assigned tasks
 
-In [!INCLUDE [prodshort](includes/prodshort.md)], you can assign tasks to yourself and others, and others can assign tasks to you. The company hub gives you an overview of assigned tasks for each company, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
+In [!INCLUDE [prod_short](includes/prod_short.md)], you can assign tasks to yourself and others, and others can assign tasks to you. The company hub gives you an overview of assigned tasks for each company, and you can also access a list of all assigned tasks by choosing **My User Tasks** on the **Home** page.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
@@ -72,7 +70,7 @@ For more information about companies and environments, see [Environment links](c
 In order to access the company hub, you must have access through either the *D365 COMPANY HUB* user group or through the *D365 COMPANY HUB*  permission set. You must also have access to the companies that are listed in your company hub, which means that you must be a user in those companies. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]
-> The company hub is a company-wide list, so any user who is granted access to the company hub will be able to see all companies in their own [!INCLUDE [prodshort](includes/prodshort.md)] tenant, and all KPIs for the companies that they have access to.
+> The company hub is a company-wide list, so any user who is granted access to the company hub will be able to see all companies in their own [!INCLUDE [prod_short](includes/prod_short.md)] tenant, and all KPIs for the companies that they have access to.
 
 If you cannot find the company hub, and you know that you have been granted access to it, then check with your administrator if the company hub is listed in the **Extension Management** page. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).  
 
@@ -80,11 +78,11 @@ If you cannot find the company hub, and you know that you have been granted acce
 
 To start using the company hub, you must add one or more companies to your dashboard. For more information, see [Add Companies to Your Company Hub](company-hub-add-company.md).  
 
-But to add a company, you must have been given access to one or more instances of [!INCLUDE [prodshort](includes/prodshort.md)] in addition to the company that you use the company hub in.  
+But to add a company, you must have been given access to one or more instances of [!INCLUDE [prod_short](includes/prod_short.md)] in addition to the company that you use the company hub in.  
 
-For example, if you are an accountant, your clients can invite you to their [!INCLUDE [prodshort](includes/prodshort.md)]. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).  
+For example, if you are an accountant, your clients can invite you to their [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).  
 
-Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prodshort](includes/prodshort.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## See also
 

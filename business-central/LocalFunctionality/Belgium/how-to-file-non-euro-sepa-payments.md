@@ -4,14 +4,14 @@ description: In the Belgian version of Business Central, you can file non-euro S
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
 
 ---
 # File Non-Euro SEPA Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
 
 Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
 

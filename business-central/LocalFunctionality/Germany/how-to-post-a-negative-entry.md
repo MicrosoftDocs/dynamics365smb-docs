@@ -4,7 +4,7 @@ description: You can use the Correction field to post a negative debit instead o
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont

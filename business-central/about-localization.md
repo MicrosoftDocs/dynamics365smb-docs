@@ -1,6 +1,6 @@
 ---
-title: Local functionality in Business Central | Microsoft Docs
-description: Learn about local availability and regulatory compliance of Dynamics 365 Business Central.
+title: Local functionality in Business Central
+description: Learn about local availability and regulatory compliance of Business Central for the countries where Microsoft provides the local functionality.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -13,9 +13,9 @@ ms.date: 10/01/2020
 ms.author: edupont
 
 ---
-# Local Functionality in [!INCLUDE[prodlong](includes/prodlong.md)]
+# Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
+[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
 
 For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -51,7 +51,7 @@ To learn about the local functionality for each country/region, choose the relat
 
 ### Other Countries
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## See Also
 

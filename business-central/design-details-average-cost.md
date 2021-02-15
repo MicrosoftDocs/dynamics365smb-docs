@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -14,7 +14,7 @@
 
 ---
 # Design Details: Average Cost
-The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  The valuation date is set automatically.  
 
@@ -207,4 +207,4 @@ The average cost of an item is calculated with a periodic weighted average, base
  [Design Details: Item Application](design-details-item-application.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

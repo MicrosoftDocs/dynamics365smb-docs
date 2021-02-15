@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,7 +34,7 @@ The following describes how to ship items from a sales order. The steps are simi
 4. Choose the **Post** action.
 
 > [!NOTE]
-> If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prodshort](includes/prodshort.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explain in this article.
+> If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explain in this article.
 
 ## To ship items with a warehouse shipment
 
@@ -42,7 +42,7 @@ First you create a shipment document from a business source document. Then you p
 
 ### To create a warehouse shipment
 
-Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prodshort](includes/prodshort.md)], but your organization might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
+Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prod_short](includes/prod_short.md)], but your organization might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -101,7 +101,7 @@ For more information about picking for warehouse shipments, see [Pick Items for 
 You can also use the pick worksheet to make several pick instructions into one instruction (for several shipments) and thereby improve the efficiency of picking in the warehouse. For more information, see [Plan Pick in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+> If you are waiting for particular items to arrive at the warehouse, and you use cross-dock functionality, then [!INCLUDE[prod_short](includes/prod_short.md)] calculates on each shipment or pick worksheet line the quantity of the item that is in the cross-dock bin. It updates this field each time you leave and open the shipment document or worksheet. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## See Also
 
@@ -110,4 +110,4 @@ You can also use the pick worksheet to make several pick instructions into one i
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

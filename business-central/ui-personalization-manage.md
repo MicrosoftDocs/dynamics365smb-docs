@@ -4,7 +4,7 @@ description: Learn how to customize the user interface for a profile (role) so t
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
@@ -25,7 +25,7 @@ Page customization starts from the **Profiles (Roles)** page, the administrator'
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
 3. Choose the **Customize pages** action.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] opens on a new browser tab for the selected profile with the **Customizing** banner activated. The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.
+    [!INCLUDE[prod_short](includes/prod_short.md)] opens on a new browser tab for the selected profile with the **Customizing** banner activated. The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.
 
 4. Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
@@ -66,4 +66,4 @@ The layout on the selected pages is adjusted to the changes you made.
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -4,7 +4,7 @@ description: Use the Incoming Documents feature to create electronic documents, 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -19,7 +19,7 @@ If you create general journal lines from incoming document records, you must spe
 
 If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up workflow approvers.
 
-To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first set up the OCR feature and enable the service. Choose a service package that is appropriate for your organization and/or country/region. Alternatively, you can create entries manually to represent the external documents.  
+To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[prod_short](includes/prod_short.md)], you must first set up the OCR feature and enable the service. Choose a service package that is appropriate for your organization and/or country/region. Alternatively, you can create entries manually to represent the external documents.  
 
 When the Incoming Documents feature is set up, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines. The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries. For more information, see [Processing Incoming Documents](across-process-income-documents.md).
 
@@ -53,4 +53,4 @@ For more information, see [Use OCR to Turn PDF and Image Files into Electronic D
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

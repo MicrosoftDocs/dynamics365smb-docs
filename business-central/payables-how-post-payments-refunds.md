@@ -4,7 +4,7 @@ description: Describes how to record payments that you make to vendors and refun
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -17,7 +17,7 @@ ms.author: edupont
 
 On the **Payment Journal** page, you record payments that you make to vendors and refunds that you make to customers. When you post a payment journal line, the paid amount is recorded on the specified system bank account. You must then take steps to perform the actual money transfer from the related bank account.  
 
-The payment journal is a general journal that is optimized for making payments. You can quickly add lines manually, you can let [!INCLUDE[d365fin](includes/d365fin_md.md)] suggest vendor payments, and you can apply the payment to posted documents. Even though you are making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalize the payment journal to show the **Amount** field instead.  
+The payment journal is a general journal that is optimized for making payments. You can quickly add lines manually, you can let [!INCLUDE[prod_short](includes/prod_short.md)] suggest vendor payments, and you can apply the payment to posted documents. Even though you are making payments, you enter a positive amount in the **Document Amount** field. Depending on the document type for the journal line, this amount is then converted to a negative amount in the underlying transactions. This way, it's faster for you to add journal lines manually. If you prefer to enter negative amounts, you can personalize the payment journal to show the **Amount** field instead.  
 
 - Applying payments to invoices or credit memos
 
@@ -52,4 +52,4 @@ The payment journal is a general journal that is optimized for making payments. 
 [Export a Positive Pay file](finance-how-positive-pay.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

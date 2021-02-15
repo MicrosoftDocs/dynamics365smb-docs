@@ -4,7 +4,7 @@ description: Use our predictive model to predict whether an invoice will be paid
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,7 +26,7 @@ To enable the extension manually, follow these steps:
 2. Fill in the fields as necessary.
 
 > [!Note]
-> If you decide to enable the extension manually, be aware that [!INCLUDE[d365fin](includes/d365fin_md.md)] will not allow you to do so if the quality of the model is low. The quality of the model indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, there might not have been enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality.   
+> If you decide to enable the extension manually, be aware that [!INCLUDE[prod_short](includes/prod_short.md)] will not allow you to do so if the quality of the model is low. The quality of the model indicates how accurate the model's predictions are likely to be. Several factors can impact the quality of a model. For example, there might not have been enough data, or the data did not contain enough variation. You can view the quality of the model you are currently using on the **Late Payment Prediction Setup** page. You can also specify a minimum threshold for the model quality.   
 
 ## Viewing All Payment Predictions
 If you enable the extension a **Payments Predicted to be Late** tile is available in the **Business Manager** Role Center. The tile displays the number of payments that are predicted to be late, and let's you open the **Customer Ledger Entries** page where you can dig deeper into the posted invoices. There are three columns to pay attention to:  
@@ -45,7 +45,7 @@ You can also predict late payments up-front. On the **Sales Quotes**, **Sales Or
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## Design details
-Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[d365fin](includes/d365fin_md.md)] is available. Access to these web services is included in your [!INCLUDE[d365fin](includes/d365fin_md.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website.
+Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Access to these web services is included in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website.
 
 The web-services work in three modes:
 - Train model. The web service trains the model based on the provided dataset.
@@ -78,13 +78,13 @@ Additionally, the record is enriched with aggregated data from other invoices th
 > The information about the customer is not included in the dataset.
 
 ### Standard model and My model
-The Late Payment Prediction extension contains a predictive model that is trained using data that is representative of a range of small to medium-sized businesses. When you start posting invoices and receiving payments, [!INCLUDE[d365fin](includes/d365fin_md.md)] will evaluate whether the standard model fits your business flow. 
+The Late Payment Prediction extension contains a predictive model that is trained using data that is representative of a range of small to medium-sized businesses. When you start posting invoices and receiving payments, [!INCLUDE[prod_short](includes/prod_short.md)] will evaluate whether the standard model fits your business flow. 
 
-If it appears that your processes do not match the standard model, you still can use the extension but you will need to get more data. Just continue to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
+If it appears that your processes do not match the standard model, you still can use the extension but you will need to get more data. Just continue to use [!INCLUDE[prod_short](includes/prod_short.md)].
 > [!Note]
 > We use a bit of your compute time each week when we evaluate and re-train the model. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] runs training and evaluation automalically when there are enough paid and late invoices are available, however you can run it manually whenever you want.
+[!INCLUDE[prod_short](includes/prod_short.md)] runs training and evaluation automalically when there are enough paid and late invoices are available, however you can run it manually whenever you want.
 
 #### To train and use your model
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
@@ -106,4 +106,4 @@ You can also create your own predictive web service based on a public model name
 ## See Also  
 [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  

@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Set Up Operation Codes
-You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will return an error.  
+You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[prod_short](../../includes/prod_short.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[prod_short](../../includes/prod_short.md)] will return an error.  
 
 ## To set up operation codes  
 

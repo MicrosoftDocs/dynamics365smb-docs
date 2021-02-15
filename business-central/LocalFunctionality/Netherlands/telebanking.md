@@ -4,12 +4,12 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 01/07/2021
     ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ In general, all financial interactions with vendors and customers are done throu
 ## Proposals  
 Based on vendor and customer ledger entries, telebanking enables you to generate payment and collection proposals. This can be done for any bank that has been set up for your company. Both domestic and foreign payments and collections are possible.  
 
-You can set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to combine payments to or collections from the same bank account automatically.  
+You can set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to combine payments to or collections from the same bank account automatically.  
 
 When a proposal has been agreed upon, it should be processed into a payment history.  
 
@@ -35,12 +35,15 @@ A payment history is nothing more than a proposal except for the fact that data 
  For more information, see [Create and Export Payment History](how-to-create-and-export-payment-history.md).  
 
 ## Bank Statements  
- For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank/Giro Journals. If you want, you can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.  
+ For all your financial interactions through your bank, the bank can send you electronic bank statements. These statements can be imported into the Bank/Giro Journals. If you want, you can have [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically reconcile these statements during this import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.  
 
  For more information, see [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).  
+ 
+ > [!NOTE]  
+>  The currency of the imported transactions must match the currency that is specified on the bank account in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Exchange Protocols  
- For both exporting and importing, a number of protocols have been defined. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the following protocols:  
+ For both exporting and importing, a number of protocols have been defined. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports the following protocols:  
 
 - BTL91 (export). This cross-border protocol is no longer accepted in the Netherlands as of May 1st 2019. This protocol is replaced by the Generic Payment File protocol.
 - BBV (export)  

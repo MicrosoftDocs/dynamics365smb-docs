@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Swiss Inventory Management
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Swiss enhancements to inventory management. This includes the following:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swiss enhancements to inventory management. This includes the following:  
 
 - Detailed reporting.  For more information, see the Inventory - Sales Statistics report and the Inventory - List report.  
 - The ability to track an invoice with multiple shipments.  

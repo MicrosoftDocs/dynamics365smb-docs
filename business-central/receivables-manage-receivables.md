@@ -4,7 +4,7 @@ description: Outlines tasks to manage receivables and apply payments to customer
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -19,7 +19,7 @@ A regular step in any financial rhythm is to reconcile bank accounts, which requ
 
 While most customers in B2B environments pay some time after delivery, leaving the posted sales invoices open for the Accounts Receivable department to close (apply) when payment is received, some sales invoices can be paid immediately, for example with PayPal. Such invoices are immediately applied as paid when they are posted and, therefore, do not appear as payments to be processes in AR. For more information, see, for example, [Invoice Sales](sales-how-invoice-sales.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], one of the fastest ways to register payments is with the **Payment Reconciliation Journal** page by importing a bank statement file or feed. The payments are applied to open customer or vendor ledger entries based on data matches between payment text and entry information. You can review and change the matches before you post the journal, and close bank account ledger entries for ledger entries when you post the journal. The bank account is reconciled when all payments are applied.
+In [!INCLUDE[prod_short](includes/prod_short.md)], one of the fastest ways to register payments is with the **Payment Reconciliation Journal** page by importing a bank statement file or feed. The payments are applied to open customer or vendor ledger entries based on data matches between payment text and entry information. You can review and change the matches before you post the journal, and close bank account ledger entries for ledger entries when you post the journal. The bank account is reconciled when all payments are applied.
 
 Other pages exist where you can either apply payments or reconcile bank accounts:
 
@@ -49,7 +49,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

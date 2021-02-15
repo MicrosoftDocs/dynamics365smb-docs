@@ -5,7 +5,7 @@
     documentationcenter: ''
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
 ---
 # Application Compliance
 
-This content contains information about application compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
+This content contains information about application compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)], like the International Financial Reporting Standards, local functionality, GDPR and more. Confidence in a business management solution is key to running an efficient business. With Business Central companies are empowered to streamline business processes while consistently and cost-efficiently complying with increasing regulation and reporting requirements.
 
 ## Data Privacy
 
@@ -104,5 +104,5 @@ Microsoft builds localized versions of Business Central for a limited number of 
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

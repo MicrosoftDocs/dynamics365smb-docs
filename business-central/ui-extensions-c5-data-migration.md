@@ -4,7 +4,7 @@ description: Use this extension to migrate customers, vendors, items, and genera
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,10 +16,10 @@ ms.author: bholtorf
 
 # The C5 Data Migration Extension
 
-This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[d365fin](includes/d365fin_md.md)]. You can also migrate historical entries for general ledger accounts.
+This extension makes it easy to migrate customers, vendors, items, and your general ledger accounts from Microsoft Dynamics C5 2012 to [!INCLUDE[prod_short](includes/prod_short.md)]. You can also migrate historical entries for general ledger accounts.
 
 > [!Note]
-> The company in [!INCLUDE[d365fin](includes/d365fin_md.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
+> The company in [!INCLUDE[prod_short](includes/prod_short.md)] must not contain any data. Additionally, after you start a migration, do not create customers, vendors, items, or accounts until the migration finishes.
 
 ## What Data is Migrated?
 The following data is migrated for each entity:
@@ -97,14 +97,14 @@ If you migrate accounts, the following data is also migrated:
 
 ## File Size Requirements
 
-The largest file size you can upload to [!INCLUDE[d365fin](includes/d365fin_md.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_short.md)] is 150 MB. If the file you export from C5 is larger than that, consider migrating data in multiple files. For example, export one or two types of entities from C5, such as customers and vendors, to a file, and then export items to another file, and so on. You can import files individually in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## To migrate data
 
-There are just a few steps to export data from C5, and import it in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+There are just a few steps to export data from C5, and import it in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[d365fin](includes/d365fin_md.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 ## Viewing the Status of the Migration
@@ -141,7 +141,7 @@ After you fix one or more errors, you can choose **Migrate** to migrate only the
 
 ## Verifying Data After Migrating
 
-One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[d365fin](includes/d365fin_md.md)].
+One way to verify that your data migrated correctly is to look at the following pages in C5 and [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Batch Job to Use |
 |---------------------------|------------------------------|------------------|
@@ -156,5 +156,5 @@ You can stop migrating data by choosing **Stop All Migrations**. If you do, all 
 
 ## See Also
 
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)  

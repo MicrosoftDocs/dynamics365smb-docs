@@ -4,7 +4,7 @@ description: The online version of Business Central contains pre-installed fonts
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -15,10 +15,10 @@ ms.author: edupont
 ---
 # Available Fonts
 
-The online version of [!INCLUDE[d365fin](includes/d365fin_md.md)] contains pre-installed fonts on the servers that can be used when generating reports. The following sections outline which fonts are available.
+The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when generating reports. The following sections outline which fonts are available.
 
 > [!NOTE]
-> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[d365fin](includes/d365fin_md.md)] environment.
+> For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.
 
 ## Document Fonts
 
@@ -47,4 +47,4 @@ For more information, see [Select a Check Layout](finance-how-define-check-layou
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Select a Check Layout](finance-how-define-check-layouts.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

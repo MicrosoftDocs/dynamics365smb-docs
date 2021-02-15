@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -42,7 +42,7 @@ For items and stockkeeping units, lot sizes have the following effects on cost c
 > [!NOTE]
 > Setup costs are handled differently from a standard cost and capacity allocation perspectives. If produced quantity doesn't match lot size defined in the item card that will lead to variation. For more information, see [Managing Inventory Costs](finance-manage-inventory-costs.md). <!--not sure that I got this part right seems to repeat the first example.-->
 
-For supply planning, the lot size setting on items works with the **Default Dampener %** on the **Manufacturing Setup** page. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore changes in demand that are below the dampener percentage and will not create planning suggestions. For example, 15 is specified in the Default Dampener % field, and we have a production order for 20 muffins to feed 20 guests, but one guest cannot attend. [!INCLUDE[d365fin](includes/d365fin_md.md)] will ignore the single missing guest because it's only 10% of the lot size 10 defined on the item. However, if two guests cannot make it, [!INCLUDE[d365fin](includes/d365fin_md.md)] will suggest that we reduce the order quantity because two is 20% of the lot size. For more information about planning, see [Planning](production-planning.md).
+For supply planning, the lot size setting on items works with the **Default Dampener %** on the **Manufacturing Setup** page. [!INCLUDE[prod_short](includes/prod_short.md)] will ignore changes in demand that are below the dampener percentage and will not create planning suggestions. For example, 15 is specified in the Default Dampener % field, and we have a production order for 20 muffins to feed 20 guests, but one guest cannot attend. [!INCLUDE[prod_short](includes/prod_short.md)] will ignore the single missing guest because it's only 10% of the lot size 10 defined on the item. However, if two guests cannot make it, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest that we reduce the order quantity because two is 20% of the lot size. For more information about planning, see [Planning](production-planning.md).
 
 ## See Also
 [Create Production BOMs](production-how-to-create-production-boms.md)  

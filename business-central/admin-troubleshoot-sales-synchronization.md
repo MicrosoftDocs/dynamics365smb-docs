@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,9 +16,9 @@ ms.author: bholtorf
 
 ---
 # Troubleshooting Synchronization Errors
-[!INCLUDE[d365fin](includes/cc_data_platform_banner.md)]
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-There are lots of moving parts involved in integrating [!INCLUDE[d365fin](includes/d365fin_md.md)] with [!INCLUDE[d365fin](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
+There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 
 Errors often occur either because of something that a user has done to coupled records, or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting data in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
 
@@ -50,7 +50,7 @@ The conflict happens because the destination row was also changed  - the row tim
 These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronize the records again.
 
 ## Remove Couplings Between Records
-When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. On the **Integration Table Mappings** page, you can choose choose **Uncoupling**, and then **Delete Coupling**. Alternatively, on the **Coupled Data Synchronization Errors** page, you can choose the errors and then choose **Remove Couplings**. 
+When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
 
 ## See Also
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

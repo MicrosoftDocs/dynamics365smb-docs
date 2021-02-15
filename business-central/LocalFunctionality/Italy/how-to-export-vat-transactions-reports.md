@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -36,7 +36,7 @@ It is only possible to change the lines and fields when the document has the sta
 
 4.  Choose the **Release** action. The **Status** field is updated to Released.  
 
-    [!INCLUDE[d365fin](../../includes/d365fin_md.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown on the **VAT Report Error Log** page so that you can make the appropriate changes.  
+    [!INCLUDE[prod_short](../../includes/prod_short.md)] validates that the VAT report is valid and ready for submission. If the validation fails, the errors are shown on the **VAT Report Error Log** page so that you can make the appropriate changes.  
 
     After you release a VAT report, you cannot edit it. If you have to change the report after it is released, you have to first reopen it. Choose the **Reopen** action.  
 

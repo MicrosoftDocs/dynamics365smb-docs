@@ -1,24 +1,22 @@
 ### YamlMime:FAQ
 metadata:
   title: Copy and paste data FAQ
-  description: Get answers about copying fields and rows from Business Central pages and pasting the data somewhere else.
-  author: SorenGP
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 11/20/2020
-  ms.author: edupont
+  description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
 title: Copy and Paste FAQ
-summary: You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
+summary: |
+  You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
+
+  In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
 sections:
   - name: General
     questions:
       - question: What can I copy and paste?
         answer: |
           You can copy and paste this type of data:
-          - Copy one or more rows in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the same list, or to any list with identical columns.
-          - Copy one or more rows in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste into Excel or other applications.
-          - Copy one or more rows in Excel and paste into a [!INCLUDE[d365fin](includes/d365fin_md.md)] list.
-          - Copy the value of an individual field in [!INCLUDE[d365fin](includes/d365fin_md.md)] and paste it anywhere.
+          - Copy one or more rows in [!INCLUDE[prod_short](includes/prod_short.md)] to the same list, or to any list with identical columns.
+          - Copy one or more rows in [!INCLUDE[prod_short](includes/prod_short.md)] and paste into Excel or other applications.
+          - Copy one or more rows in Excel and paste into a [!INCLUDE[prod_short](includes/prod_short.md)] list.
+          - Copy the value of an individual field in [!INCLUDE[prod_short](includes/prod_short.md)] and paste it anywhere.
 
       - question: Does copy and paste work with tiles?
         answer: |
@@ -45,7 +43,7 @@ sections:
 
       - question: Can I paste rows into an Outlook email?
         answer: |
-          Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+          Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in [!INCLUDE[prod_short](includes/prod_short.md)].
 
       - question: In which lists can I copy and paste rows?
         answer: |
@@ -55,7 +53,7 @@ sections:
 
       - question: On which clients is copy and paste available?
         answer: |
-          Copy and paste are available in the browser or the [!INCLUDE[d365fin](includes/d365fin_md.md)] app for Windows 10.
+          Copy and paste are available in the browser or the [!INCLUDE[prod_short](includes/prod_short.md)] app for Windows 10.
 
       - question: What is the maximum number of rows that can be copied?
         answer: |
@@ -63,17 +61,17 @@ sections:
 
       - question: Must I have the exact same number of columns when pasting rows?
         answer: |
-          Yes. Whether you are copying from [!INCLUDE[d365fin](includes/d365fin_md.md)], from Excel, or from some other table source, the rows that you paste into [!INCLUDE[d365fin](includes/d365fin_md.md)] must have the exact matching columns - no more no less.
+          Yes. Whether you are copying from [!INCLUDE[prod_short](includes/prod_short.md)], from Excel, or from some other table source, the rows that you paste into [!INCLUDE[prod_short](includes/prod_short.md)] must have the exact matching columns - no more no less.
 
       - question: Why do I get errors when pasting rows?
         answer: |
-          When pasting into [!INCLUDE[d365fin](includes/d365fin_md.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
+          When pasting into [!INCLUDE[prod_short](includes/prod_short.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
 
 
 additionalContent: |
-  ## Additional Content
+  ## Next steps
   Find related information here: 
     - [Assistive Features](ui-accessibility.md)  
     - [Getting Started](product-get-started.md)  
-    - [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+    - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
     - [Frequently Asked Questions](across-faq.md)  

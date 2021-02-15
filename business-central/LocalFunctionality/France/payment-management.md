@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -17,7 +17,7 @@
 
 ---
 # Payment Management
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
 
 You can manage customer and vendor payments using payment slips. Before you create a payment slip, you must set up the following prerequisites:  
 

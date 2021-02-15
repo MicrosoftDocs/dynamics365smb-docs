@@ -40,3 +40,6 @@ The **Item Tracking Lines** and **Item Tracking Summary** pages provide dynamic 
 
 ## See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

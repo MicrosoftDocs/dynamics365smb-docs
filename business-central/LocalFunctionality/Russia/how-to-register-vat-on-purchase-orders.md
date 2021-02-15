@@ -41,3 +41,6 @@ In Russia, organizations are required to keep a journal of received and issued V
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

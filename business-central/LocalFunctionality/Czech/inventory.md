@@ -53,3 +53,6 @@ For the reasons above, this feature provides the following reports:
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

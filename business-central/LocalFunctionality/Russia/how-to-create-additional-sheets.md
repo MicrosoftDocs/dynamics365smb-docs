@@ -91,3 +91,6 @@ Processing of corrective documents for sales book is similar to processing for p
 ## See Also
 
 [VAT Ledgers](VAT-Ledgers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

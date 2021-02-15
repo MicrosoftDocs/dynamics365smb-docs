@@ -63,3 +63,6 @@ Finally, you must specify EAN numbers and account codes for the relevant custome
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
 [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

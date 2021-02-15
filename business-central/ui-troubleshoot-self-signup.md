@@ -1,4 +1,4 @@
-﻿---
+---
 title: Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs
 description: Learn about the most common reasons why you may not be able to complete the signup to Business Central, and ways to work around them.
 author: edupont04
@@ -45,3 +45,6 @@ For an overview of currently supported markets across Dynamics 365, see the [Int
 [Local Functionality](about-localization.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

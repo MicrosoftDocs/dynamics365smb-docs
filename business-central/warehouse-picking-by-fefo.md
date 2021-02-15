@@ -45,3 +45,6 @@ If the **Strict Expiration Posting** field is selected, then only items that are
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

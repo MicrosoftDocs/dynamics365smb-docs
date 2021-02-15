@@ -185,3 +185,5 @@ Script extension contains UI elements and tables which are used in scripting of 
   |--------------------|-----------------------|
   |Message|Message that is to be displayed.
   |Throw Error|Check this flag to throw error message.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

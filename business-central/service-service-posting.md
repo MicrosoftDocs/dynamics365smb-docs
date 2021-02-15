@@ -54,3 +54,6 @@ The following procedure uses a posted service invoice as an example, but the sam
 ## See Also  
 [Post Service Orders](service-how-to-post-service-orders.md)   
 [Create Service Orders](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

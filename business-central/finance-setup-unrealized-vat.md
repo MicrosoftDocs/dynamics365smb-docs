@@ -47,3 +47,6 @@ To use accounts for unrealized VAT, follow these steps:
 
 ## See Also
 [Setting Up Value Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

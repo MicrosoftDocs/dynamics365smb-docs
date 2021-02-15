@@ -42,3 +42,6 @@ If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Microsoft 365 admin center](https://admin.microsoft.com/)  
 [How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

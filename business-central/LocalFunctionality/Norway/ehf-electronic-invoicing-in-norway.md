@@ -57,3 +57,6 @@ Make sure you set up the correct value in the **VAT Scheme** field on the **Coun
 
 ## See Also  
 [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ You can make corrections to posted VAT entries without posting the correction in
  [Belgian VAT](belgian-vat.md)   
  [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
  [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

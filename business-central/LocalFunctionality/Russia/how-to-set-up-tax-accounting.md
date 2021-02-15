@@ -48,3 +48,6 @@ For more information about how to set up and customize tax registers, see [Creat
 [Tax Registers](Tax-Registers.md)  
 [Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Tax Differences](Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

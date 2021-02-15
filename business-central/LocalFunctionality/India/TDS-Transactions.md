@@ -245,3 +245,6 @@ In this scenario, vendor issued an invoice for INR 100000 towards professional s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

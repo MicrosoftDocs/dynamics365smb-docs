@@ -48,3 +48,6 @@ You can now invoice and collect advance payments from customers and post the pay
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

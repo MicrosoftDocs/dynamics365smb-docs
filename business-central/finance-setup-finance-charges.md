@@ -69,3 +69,6 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
 [Setting Up Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,3 +55,6 @@ The **General Ledger Entries** page opens where you can see the entries that the
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Find Entries](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -21,3 +21,6 @@
 
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
 [Belgium Local Functionality](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ When you create a new customer or vendor in [!INCLUDE[prod_short](../../includes
 
 ## See Also  
  [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

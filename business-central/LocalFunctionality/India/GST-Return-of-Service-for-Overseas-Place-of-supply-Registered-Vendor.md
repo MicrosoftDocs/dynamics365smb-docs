@@ -90,3 +90,6 @@ For example, if a service recipient has a GSTIN for West Bengal and the Vendor h
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

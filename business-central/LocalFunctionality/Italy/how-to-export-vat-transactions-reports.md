@@ -56,3 +56,6 @@ It is only possible to change the lines and fields when the document has the sta
 
 ## See Also  
 [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

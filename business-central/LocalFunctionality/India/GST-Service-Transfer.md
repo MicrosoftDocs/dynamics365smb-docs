@@ -110,3 +110,6 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

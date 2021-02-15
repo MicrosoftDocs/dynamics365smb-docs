@@ -43,3 +43,6 @@ You can view any errors on the **Export Check Error Logs** page.
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Print Payment Files](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

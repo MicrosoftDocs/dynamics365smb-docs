@@ -195,3 +195,6 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

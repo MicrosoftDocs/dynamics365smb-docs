@@ -19,3 +19,6 @@ The standard functionality of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] 
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

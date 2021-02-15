@@ -153,3 +153,6 @@ Fill the fields in Vendor Card.
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

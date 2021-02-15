@@ -22,3 +22,6 @@
 ## See Also  
  [Finland Local Functionality](finland-local-functionality.md)   
  [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

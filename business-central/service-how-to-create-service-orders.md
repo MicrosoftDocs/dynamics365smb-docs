@@ -106,3 +106,6 @@ Service orders are not deleted automatically, however, if the total quantity on 
 [Setting Up Service Management](service-setup-service.md)  
 [Work on Service Tasks](service-how-to-work-on-service-tasks.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

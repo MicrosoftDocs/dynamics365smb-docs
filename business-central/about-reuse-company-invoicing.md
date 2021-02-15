@@ -47,3 +47,6 @@ If you use both Invoicing and [!INCLUDE[prod_short](includes/prod_short.md)], th
 ## See Also
 [Frequently Asked Questions](across-faq.md)  
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

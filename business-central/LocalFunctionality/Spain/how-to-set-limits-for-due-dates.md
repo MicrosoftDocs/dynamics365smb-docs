@@ -33,3 +33,6 @@ Next, you must make sure that you specify the appropriate payment terms for your
 
 ## See Also  
  [Calculating Due Dates](calculating-due-dates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

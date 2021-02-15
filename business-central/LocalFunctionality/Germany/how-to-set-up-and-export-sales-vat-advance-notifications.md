@@ -66,3 +66,6 @@ To create valid sales VAT advance notifications, you must set up the following:
 [VAT Reporting](vat-reporting.md)  
 [Germany Local Functionality](germany-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

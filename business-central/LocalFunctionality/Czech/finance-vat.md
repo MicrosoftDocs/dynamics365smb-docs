@@ -104,3 +104,6 @@ To fulfil the requirements in legislation reporting and local reporting practice
 ## See Also
 
 [Czech Local Functionality](czech-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

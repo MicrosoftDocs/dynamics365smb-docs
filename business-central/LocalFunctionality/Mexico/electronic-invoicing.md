@@ -73,3 +73,6 @@ The PAC returns an XML document that has the original string, but this file also
  [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
  [Set Up PAC Web Services](how-to-set-up-pac-web-services.md)   
  [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

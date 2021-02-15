@@ -40,3 +40,6 @@ Before you can file a non-euro SEPA payment you must complete the following admi
  [File SEPA Payments](how-to-file-sepa-payments.md)   
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
  [SEPA Payments](sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

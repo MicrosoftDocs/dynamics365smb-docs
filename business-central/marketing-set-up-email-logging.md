@@ -107,3 +107,6 @@ If you are not using Azure Active Directory to manage identities and access, you
 ## See Also
 [Managing Relationships](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

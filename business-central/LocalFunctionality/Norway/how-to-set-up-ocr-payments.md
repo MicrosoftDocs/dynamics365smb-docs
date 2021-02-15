@@ -52,3 +52,6 @@ You can process electronic payments from customers according to a predefined pay
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
  [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

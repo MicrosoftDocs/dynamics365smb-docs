@@ -211,3 +211,6 @@ Let us take the following example and check the GL entries of the posted transac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

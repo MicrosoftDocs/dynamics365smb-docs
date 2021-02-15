@@ -27,3 +27,6 @@ A warning message will be displayed when you post or batch post sales and purcha
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ You can cancel depreciation bonus transactions by running the **Cancel FA Ledger
 ## See Also
 
 [Fixed Assets](fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

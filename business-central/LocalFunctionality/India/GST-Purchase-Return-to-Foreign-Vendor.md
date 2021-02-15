@@ -98,3 +98,6 @@ For example, purchase credit memo or return order is issued for INR 10000, Custo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

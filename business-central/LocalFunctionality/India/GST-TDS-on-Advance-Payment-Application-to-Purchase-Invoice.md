@@ -136,3 +136,6 @@ GST and TDS will be calculated on the remaining amount, i.e. Invoice Amount - Ad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

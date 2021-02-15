@@ -23,3 +23,6 @@
 [Delivery Reminders](delivery-reminders.md)  
 [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ You can review the .xml file before sending it. To review and fix errors, you ca
 ## See Also
 
 [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

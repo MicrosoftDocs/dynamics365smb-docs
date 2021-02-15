@@ -53,3 +53,6 @@ The payment slips are archived.
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

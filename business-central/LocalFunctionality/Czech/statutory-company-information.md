@@ -29,3 +29,5 @@ Additional company registration numbers and other registration information can b
 [Czech Local Functionality](czech-local-functionality.md)  
 [Statutory statements](statutory-statements.md)
 [Finance](../../finance.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

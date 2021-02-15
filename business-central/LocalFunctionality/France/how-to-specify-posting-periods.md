@@ -38,3 +38,6 @@ If you enter dates here, the dates entered on the **General Ledger Setup** page 
 ## See Also
 
 [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

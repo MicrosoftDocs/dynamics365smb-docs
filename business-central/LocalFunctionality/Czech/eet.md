@@ -51,3 +51,6 @@ With posting of defined documents (and with defined payment method) is created E
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

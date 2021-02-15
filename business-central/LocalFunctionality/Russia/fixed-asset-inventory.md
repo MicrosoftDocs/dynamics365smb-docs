@@ -80,3 +80,6 @@ The following procedure shows how to begin inventory auditing by fixed asset loc
 ## See Also
 
 [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

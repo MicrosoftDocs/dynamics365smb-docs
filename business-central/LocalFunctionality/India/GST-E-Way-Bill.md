@@ -46,3 +46,6 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

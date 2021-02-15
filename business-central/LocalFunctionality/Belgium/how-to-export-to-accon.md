@@ -27,3 +27,6 @@ The **Link to Accon** report enables you to create a file that can be imported i
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

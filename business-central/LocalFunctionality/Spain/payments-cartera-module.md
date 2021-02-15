@@ -38,3 +38,6 @@ Payment confirmation is a service provided by a financial entity. With payment c
 ## See Also  
  [Cartera Module](cartera-module.md)   
  [Receivables Cartera Module](receivables-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

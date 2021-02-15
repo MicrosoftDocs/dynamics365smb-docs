@@ -36,3 +36,6 @@ The picking list includes only those items with a shipping quantity greater than
 
 [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)  
 [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

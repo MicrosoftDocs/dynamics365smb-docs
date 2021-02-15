@@ -35,3 +35,6 @@ This report shows the register of posted ingoing and outgoing cash orders during
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

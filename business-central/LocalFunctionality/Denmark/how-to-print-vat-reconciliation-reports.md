@@ -28,3 +28,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **VAT R
 
 ## See Also  
  [Denmark Local Functionality](denmark-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

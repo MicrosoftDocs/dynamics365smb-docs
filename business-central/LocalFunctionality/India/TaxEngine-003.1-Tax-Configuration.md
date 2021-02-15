@@ -133,3 +133,6 @@ Statistics Page, will show the tax information in Tax Summary Tab.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

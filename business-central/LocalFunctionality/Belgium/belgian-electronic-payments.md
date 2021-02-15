@@ -49,3 +49,6 @@ For more information, see [Manage Electronic Payment Lines](how-to-manage-electr
 [Test Electronic Payments](how-to-test-electronic-payments.md)   
 [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
 [Print Payment Files](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 ## See Also
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Value-Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Use the following procedure to enter custom declaration information.
 ## See Also
 
 [Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

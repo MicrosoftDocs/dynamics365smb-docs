@@ -23,3 +23,6 @@
 [Required Descriptions in G-L Entry](required-descriptions-in-g-l-entry.md)  
 [Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)  
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

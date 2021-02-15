@@ -178,3 +178,6 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ This effectuates the application by setting the **Letter** and **Letter Date** f
 ## See Also  
 [Unapply General Ledger Entries](how-to-unapply-general-ledger-entries.md)  
 [Apply Vendor Payments Manually](../../payables-how-apply-purchase-transactions-manually.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

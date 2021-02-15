@@ -26,3 +26,6 @@ You can import and export account schedules into other companies and databases.
 ## See Also
 
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

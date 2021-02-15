@@ -38,3 +38,6 @@ If you are an administrator or superuser, you can help others by looking up erro
 [Copy and Paste FAQ](faq-copy-paste.yml)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

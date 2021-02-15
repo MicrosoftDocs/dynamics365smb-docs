@@ -45,3 +45,5 @@ The defined template is applied to a new record created through the API if, and 
 [Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

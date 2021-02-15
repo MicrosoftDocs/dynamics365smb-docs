@@ -54,3 +54,6 @@ Before you can use electronic banking, you must set up export protocols. Export 
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

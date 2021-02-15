@@ -59,3 +59,6 @@ A payment history is nothing more than a proposal except for the fact that data 
  [Record Purchases](../../purchasing-how-record-purchases.md)   
  [Create Proposals](how-to-create-proposals.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

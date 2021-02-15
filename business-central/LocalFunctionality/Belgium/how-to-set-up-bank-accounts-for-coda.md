@@ -40,3 +40,6 @@ Before you can start to use the electronic banking functionality for CODA statem
  [CODA Bank Statements](coda-bank-statements.md)   
  [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Import CODA Statements](how-to-import-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

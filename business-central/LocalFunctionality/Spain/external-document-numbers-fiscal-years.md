@@ -21,3 +21,6 @@ In general [!INCLUDE[prod_short](../../includes/prod_short.md)] does not allow f
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

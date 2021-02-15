@@ -120,3 +120,6 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

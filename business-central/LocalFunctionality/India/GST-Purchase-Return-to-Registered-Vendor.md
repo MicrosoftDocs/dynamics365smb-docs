@@ -110,3 +110,6 @@ For example, purchase credit memo or return order is issued for INR 10000 on whi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

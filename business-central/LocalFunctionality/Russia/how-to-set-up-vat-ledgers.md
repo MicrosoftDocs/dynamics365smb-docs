@@ -58,3 +58,6 @@ Now, you can create VAT ledgers for purchases and sales.
 [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

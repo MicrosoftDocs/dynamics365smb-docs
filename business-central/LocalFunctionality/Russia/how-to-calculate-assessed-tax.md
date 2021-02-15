@@ -88,3 +88,6 @@ To work with the functionality of calculating assessed tax, you must specify the
 
 [Fixed Assets](../../fa-manage.md)  
 [Setting Up Fixed Assets](../../fa-setup.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

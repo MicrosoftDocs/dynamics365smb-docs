@@ -24,3 +24,6 @@ On the standard posted invoices (invoice and credit memo), legal text is inserte
 ## See Also
 
 [Setting Up Sales](../../sales-setup-sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

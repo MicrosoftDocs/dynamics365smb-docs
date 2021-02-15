@@ -58,3 +58,6 @@ The following articles describe some of the key tasks for analyzing the state of
 [Finance](finance.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

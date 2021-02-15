@@ -39,3 +39,6 @@ Use the following table to learn more about the fixed asset features that are av
 | [Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md)           | Enables you to post intangible asset transactions to a special intangible assets account. |
 | [Account for the Cost to Dispose a Fixed Asset](How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) | Enables you to account for the cost to dispose a fixed asset as an expense. |
 | [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)                            | Enables you to recognize the complete cost of a fixed asset at the time of acquisition. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

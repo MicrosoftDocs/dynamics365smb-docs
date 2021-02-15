@@ -30,3 +30,6 @@ Personal income tax is paid by forming a payment order to the tax authority.
 ## See Also
 
 [Tax Accounting](Tax-Accounting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

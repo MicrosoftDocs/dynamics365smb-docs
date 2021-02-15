@@ -45,3 +45,6 @@ If you select the Enable Red Storno field in the **Inventory Setup** window, the
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
 [Post Red Storno Corrections](How-to-Post-Red-Storno-Corrections.md)  
 [Use Item Charges to Account for Additional Trade Costs](../../payables-how-assign-item-charges.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

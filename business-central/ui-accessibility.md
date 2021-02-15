@@ -77,3 +77,6 @@ You can find additional information about accessibility with Microsoft products 
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

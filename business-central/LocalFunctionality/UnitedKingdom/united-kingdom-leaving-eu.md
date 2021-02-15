@@ -69,3 +69,6 @@ If you have questions regarding the localization of [!INCLUDE[prod_short](../../
 ## See Also
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

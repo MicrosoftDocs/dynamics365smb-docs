@@ -32,3 +32,6 @@ The following steps show how to create a report for unrealized VAT amounts:
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)   
  [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)   
  [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ This report displays the statement lines of a cash journal and bank journal or g
 ## See Also  
  [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Enter and Post Cash and Bank/Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ For more information, see [To set up background posting with job queues](ui-batc
 [Setting Up Business Central](setup.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

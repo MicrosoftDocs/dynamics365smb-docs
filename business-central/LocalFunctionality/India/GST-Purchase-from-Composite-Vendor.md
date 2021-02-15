@@ -76,3 +76,6 @@ For example, invoice will be issued for INR 10000 on which there is no GST is ch
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

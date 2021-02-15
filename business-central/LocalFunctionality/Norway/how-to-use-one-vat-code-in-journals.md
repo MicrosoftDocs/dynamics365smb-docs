@@ -56,3 +56,6 @@ For example, the VAT rate posted in the journal is defined by the setup that you
 
 ## See Also  
  [Norwegian VAT Codes](norwegian-vat-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

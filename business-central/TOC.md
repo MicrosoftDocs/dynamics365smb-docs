@@ -437,6 +437,7 @@
 ##### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finance
 ### [Finance Overview](finance.md)
+### [Financial Reports](finance-reports.md)
 ### Managing Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
 #### Applying Payments Automatically and Reconciling Bank Accounts
@@ -560,8 +561,9 @@
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
 
-## Business Intelligence
-### [BI Overview](bi.md)
+## Business Intelligence and Financial Reporting
+### [Business Intelligence and Financial Reporting Overview](bi.md)
+### [Financial Reports](finance-reports.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)

@@ -4,7 +4,7 @@ description: Post employees' expenses with the general journal to the employee's
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

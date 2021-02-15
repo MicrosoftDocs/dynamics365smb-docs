@@ -4,7 +4,7 @@ description: Learn about entering a report into a job queue and scheduling it to
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

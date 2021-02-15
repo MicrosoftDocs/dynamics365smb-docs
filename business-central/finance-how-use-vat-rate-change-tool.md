@@ -3,7 +3,7 @@ title: Managing VAT Rate changes | Microsoft Docs
 description: learn how to sue the VAT Rate Change tool for Dynamics 365 Business Central.
 author: andregu
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax

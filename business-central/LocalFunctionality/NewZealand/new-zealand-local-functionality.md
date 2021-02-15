@@ -4,7 +4,7 @@ description: The following topics describe the local functionality in the New Ze
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 10/01/2020
 ms.author: bholtorf

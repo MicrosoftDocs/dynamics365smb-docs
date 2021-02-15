@@ -4,7 +4,7 @@ description: Improvements of the standard Account Schedules feature (common list
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 10/01/2020
 ms.reviewer: v-pejano

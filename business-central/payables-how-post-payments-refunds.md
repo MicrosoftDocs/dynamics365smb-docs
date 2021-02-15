@@ -4,7 +4,7 @@ description: Describes how to record payments that you make to vendors and refun
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

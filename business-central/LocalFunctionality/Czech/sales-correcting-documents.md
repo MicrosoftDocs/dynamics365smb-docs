@@ -4,7 +4,7 @@ description: This section describes local functionality - Sales correcting docum
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano

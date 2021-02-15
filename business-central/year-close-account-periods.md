@@ -4,7 +4,7 @@ description: Describes how to close the accounting periods that make up the fisc
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

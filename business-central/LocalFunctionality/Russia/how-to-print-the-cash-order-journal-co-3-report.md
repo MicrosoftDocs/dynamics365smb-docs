@@ -4,7 +4,7 @@ description: Russian enhancements include support for the cash order journal CO-
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont

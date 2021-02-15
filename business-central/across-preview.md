@@ -4,7 +4,7 @@ description: Learn about how to get a trial version of Business Central, how to 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 10/01/2020

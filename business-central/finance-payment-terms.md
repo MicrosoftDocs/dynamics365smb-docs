@@ -4,7 +4,7 @@ description: In the base version of Business Central, use payment terms to manag
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 01/21/2021
 ms.author: edupont

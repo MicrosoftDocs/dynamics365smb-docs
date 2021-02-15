@@ -4,7 +4,7 @@ description: You reclassify a fixed asset to transfer it to a different departme
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

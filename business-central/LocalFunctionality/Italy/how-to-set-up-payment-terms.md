@@ -4,7 +4,7 @@ description: In the Italian version of Business Central, for each payment term, 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 11/17/2020
 ms.author: edupont

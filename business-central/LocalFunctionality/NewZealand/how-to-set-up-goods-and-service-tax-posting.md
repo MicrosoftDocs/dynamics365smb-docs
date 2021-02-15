@@ -3,7 +3,7 @@
     description: Describes how to set up posting for goods and services tax (GST) in New Zealand.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

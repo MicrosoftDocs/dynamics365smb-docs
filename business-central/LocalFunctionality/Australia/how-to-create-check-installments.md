@@ -3,7 +3,7 @@
     description: Describes how to create check installments for postdated checks, define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created in the Australian version.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

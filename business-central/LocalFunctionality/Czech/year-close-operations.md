@@ -4,7 +4,7 @@ description: This section describes local functionality Year closing operations
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, closing operations
 ms.date: 12/01/2020
 ms.reviewer: v-pejano

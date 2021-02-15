@@ -29,3 +29,6 @@ In addition, you can also specify how the fixed asset will be depreciated. You c
 [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)  
 [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)  
 [Setting Up Fixed Assets](../../fa-setup.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

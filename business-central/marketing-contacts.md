@@ -33,3 +33,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

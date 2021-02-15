@@ -29,3 +29,6 @@ Bank payment orders must be used if a bank payment is for the official state bud
 ## See Also
 
  [Bank Management](Bank-Management.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

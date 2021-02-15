@@ -35,3 +35,6 @@ Financial journals are used to register bank account transactions. A financial j
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

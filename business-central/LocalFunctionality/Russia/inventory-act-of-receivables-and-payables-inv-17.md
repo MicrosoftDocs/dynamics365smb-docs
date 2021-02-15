@@ -105,3 +105,6 @@ The following procedure shows how to print the INV-17 form and the Supplement to
 
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

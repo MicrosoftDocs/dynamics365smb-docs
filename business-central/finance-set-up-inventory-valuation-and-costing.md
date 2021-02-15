@@ -43,3 +43,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)  
 [Working with Business Central](ui-work-product.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Create a depreciation book to keep record of the fixed assets quantities that wi
 
 [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)  
 [Fixed Assets](fixed-assets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

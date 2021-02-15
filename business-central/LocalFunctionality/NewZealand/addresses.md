@@ -31,3 +31,6 @@ Contact your Microsoft partner for information on how to obtain AMAS software.
 
 ## See Also  
  [New Zealand Local Functionality](new-zealand-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

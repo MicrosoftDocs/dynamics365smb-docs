@@ -33,3 +33,6 @@ In the Russian version, prepayments work in a different way compared to the stan
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

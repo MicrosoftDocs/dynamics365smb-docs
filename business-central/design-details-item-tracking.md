@@ -27,3 +27,6 @@ An item tracking system should provide a company with easy handling of serial an
 [Design Details: Item Tracking and Planning](design-details-item-tracking-and-planning.md)  
 [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

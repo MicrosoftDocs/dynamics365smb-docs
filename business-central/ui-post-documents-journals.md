@@ -34,3 +34,6 @@ The following table describes related tasks, with links to the topics that descr
 [Edit Posted Documents](across-edit-posted-document.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

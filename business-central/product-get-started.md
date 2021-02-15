@@ -89,3 +89,6 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

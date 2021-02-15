@@ -33,3 +33,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export the Intr
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)   
  [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

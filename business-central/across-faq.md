@@ -143,3 +143,6 @@ The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.author: bholtorf
 > For a graphical, print-friendly version, choose the following image and download the PDF file.
 >
 > [![Icon that opens a PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

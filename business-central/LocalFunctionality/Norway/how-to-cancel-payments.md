@@ -49,3 +49,6 @@
  [Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

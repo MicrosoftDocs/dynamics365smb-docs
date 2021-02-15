@@ -59,3 +59,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can specify which r
 ## See Also  
 [Export and Print Intrastat Reports](how-to-export-and-print-intrastat-reports.md)  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

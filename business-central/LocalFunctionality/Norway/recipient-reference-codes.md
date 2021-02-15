@@ -39,3 +39,6 @@ The recipient reference codes are described in the following table.
 
 ## See Also  
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

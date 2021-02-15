@@ -30,3 +30,6 @@ In order to process electronic payments, you must set up transaction codes accor
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

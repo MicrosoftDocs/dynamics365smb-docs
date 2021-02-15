@@ -26,3 +26,6 @@ Having a unique sequential transaction number, ordered by date, allows you to id
 ## See Also  
  [Post and Print All Transactions for a Period](how-to-post-and-print-all-transactions-for-a-period.md)   
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

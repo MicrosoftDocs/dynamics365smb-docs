@@ -29,3 +29,6 @@ ms.author: soalex
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
 [Account Schedules Overview](account-schedules-overview.md)  
 [Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

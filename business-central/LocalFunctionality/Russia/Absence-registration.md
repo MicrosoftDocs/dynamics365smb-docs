@@ -56,3 +56,6 @@ The considered order can be cancelled. The function is available in the form of 
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

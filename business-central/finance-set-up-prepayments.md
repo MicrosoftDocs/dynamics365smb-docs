@@ -90,3 +90,6 @@ In other words, the prepayment percentage on the customer card will only apply i
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

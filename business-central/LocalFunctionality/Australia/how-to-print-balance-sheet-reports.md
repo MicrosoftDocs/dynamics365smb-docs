@@ -23,3 +23,6 @@
 [Print Income Statements](how-to-print-income-statements.md)   
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)   
 [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

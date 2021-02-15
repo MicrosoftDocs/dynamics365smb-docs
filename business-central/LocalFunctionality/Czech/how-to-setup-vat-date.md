@@ -41,3 +41,5 @@ The system filters VAT entries by the **VAT Date** field (instead of **Posting D
 [VAT statement](vat-statement.md)
 [Finance](../../finance.md)
 [Czech Local Functionality](czech-local-functionality.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

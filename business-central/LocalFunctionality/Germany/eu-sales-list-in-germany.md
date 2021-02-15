@@ -25,3 +25,6 @@ In order to increase security, all types of taxes and tax reports must be submit
 [Create VAT-VIES Reports](how-to-create-vat-reports.md)  
 [Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
 [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

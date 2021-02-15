@@ -28,3 +28,6 @@ You can explicitly validate a .dtd file after you import one in order to address
 ## See Also
 
 [Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

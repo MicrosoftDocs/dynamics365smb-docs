@@ -48,3 +48,6 @@ The enterprise number is set up in the following locations:
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

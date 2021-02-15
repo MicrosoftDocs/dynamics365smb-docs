@@ -42,3 +42,6 @@ The code of obligatory compensation payment is also linked to the reason of term
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

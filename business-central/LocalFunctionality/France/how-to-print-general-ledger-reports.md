@@ -47,3 +47,6 @@ General ledger reports meet financial accounting standards, and they contain inf
 
 ## See Also  
  [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

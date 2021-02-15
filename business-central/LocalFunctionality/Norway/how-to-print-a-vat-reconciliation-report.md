@@ -32,3 +32,6 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
 ## See Also  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

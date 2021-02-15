@@ -99,3 +99,6 @@ If your business scenario requires workflow events or responses that are not sup
 [Setting Up Workflows](across-set-up-workflows.md)   
 [Using Workflows](across-use-workflows.md)   
 [Workflow](across-workflow.md)      
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

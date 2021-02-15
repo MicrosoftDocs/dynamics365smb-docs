@@ -193,3 +193,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 [Local functionality in Business Central](about-localization.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

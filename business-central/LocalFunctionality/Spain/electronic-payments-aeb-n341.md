@@ -33,3 +33,6 @@ Before you can transfer payments electronically to a vendor, you will need to se
 ## See Also  
  [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

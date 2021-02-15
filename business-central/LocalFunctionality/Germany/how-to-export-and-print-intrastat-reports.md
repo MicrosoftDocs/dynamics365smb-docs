@@ -59,3 +59,6 @@ The Intrastat information is exported, and you can either save the data to a fil
 ## See Also  
  [VAT Reporting](vat-reporting.md)  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

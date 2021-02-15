@@ -36,3 +36,6 @@ Account schedules are set up in the **Account Schedules** window.
 [Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
 [Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

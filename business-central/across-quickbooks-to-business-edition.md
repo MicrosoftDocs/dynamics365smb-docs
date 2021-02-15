@@ -35,3 +35,6 @@ If you are ready to get started now, choose the ![Lightbulb that opens the Tell 
 ## See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing Business Central Using Extensions](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

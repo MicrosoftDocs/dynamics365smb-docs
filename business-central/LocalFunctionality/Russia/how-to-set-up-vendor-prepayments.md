@@ -46,3 +46,6 @@ You can now track and record advance payments on purchase invoices.
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

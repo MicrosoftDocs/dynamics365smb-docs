@@ -30,3 +30,6 @@ You can calculate VAT amounts for specific types of expenses that can be partial
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
  [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

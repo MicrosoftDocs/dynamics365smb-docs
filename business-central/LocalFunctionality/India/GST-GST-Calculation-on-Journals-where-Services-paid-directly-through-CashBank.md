@@ -97,3 +97,6 @@ For example, there is an expense of INR 10,000 and 18% GST (i.e. 9% CGST and 9% 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
  [Proportional VAT](proportional-vat.md)   
  [Norway Local Functionality](norway-local-functionality.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

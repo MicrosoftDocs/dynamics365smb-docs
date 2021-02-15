@@ -115,3 +115,6 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

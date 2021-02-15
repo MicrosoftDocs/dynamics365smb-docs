@@ -30,3 +30,6 @@ Upload of KLADR can be carried out on separate regions as required.
 ## See Also
 
 [Tax Accounting](Tax-Accounting.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

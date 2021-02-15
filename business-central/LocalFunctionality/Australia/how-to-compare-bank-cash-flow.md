@@ -23,3 +23,6 @@
 
 [Create Check Installments](how-to-create-check-installments.md)   
 [Australia Local Functionality](australia-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

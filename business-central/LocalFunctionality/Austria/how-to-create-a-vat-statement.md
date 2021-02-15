@@ -47,3 +47,6 @@ If your VAT statement does not contain errors, you can now submit the FDF file t
 
 ## See Also  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

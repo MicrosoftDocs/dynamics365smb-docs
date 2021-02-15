@@ -20,3 +20,6 @@ In Iceland, in accordance with legislation, you cannot delete sales and purchase
 
 ## See Also  
 [Invoice Sales](../../sales-how-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

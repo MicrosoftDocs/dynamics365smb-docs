@@ -58,3 +58,6 @@ Posting gratuitous receipt of fixed assets operation is registered in one of the
 ## See Also
 
 [Fixed Assets](fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

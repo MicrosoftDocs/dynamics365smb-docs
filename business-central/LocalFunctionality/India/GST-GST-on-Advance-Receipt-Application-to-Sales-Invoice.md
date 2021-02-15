@@ -77,3 +77,6 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > In case of Inter-State Sale, IGST will be calculated.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

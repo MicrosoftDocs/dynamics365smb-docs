@@ -27,3 +27,6 @@ The following procedure describes how to display VAT summary information on a sa
 
 ## See Also  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

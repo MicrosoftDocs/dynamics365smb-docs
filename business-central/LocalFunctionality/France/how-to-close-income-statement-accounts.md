@@ -34,3 +34,6 @@ Before you can run the **Close Income Statement** batch job, you must close the 
 ## See Also
 
 [Fiscally Close Years](how-to-fiscally-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

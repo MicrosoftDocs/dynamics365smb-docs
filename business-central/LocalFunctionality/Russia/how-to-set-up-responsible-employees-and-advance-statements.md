@@ -203,3 +203,6 @@ The following procedure shows how to print the posted **Advance Statement**.
 ## See Also
 
 [Human Resources](../../hr-manage-human-resources.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

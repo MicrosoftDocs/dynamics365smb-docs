@@ -41,3 +41,6 @@ The report is based on the VAT Entry table.
 
 ## See Also  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

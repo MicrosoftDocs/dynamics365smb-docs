@@ -55,3 +55,6 @@ You can choose to have application automatically search for duplicates each time
 ## See Also
 [Managing Contacts](marketing-contacts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

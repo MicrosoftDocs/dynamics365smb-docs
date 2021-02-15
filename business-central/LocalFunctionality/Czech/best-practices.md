@@ -29,3 +29,6 @@ Smaller regulatory features and local practices of Czech companies include the f
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

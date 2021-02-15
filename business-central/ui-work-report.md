@@ -159,3 +159,6 @@ The fields under **Advanced** set limitations on the generated report to control
 [Working with Calendar Dates and Times](ui-enter-date-ranges.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

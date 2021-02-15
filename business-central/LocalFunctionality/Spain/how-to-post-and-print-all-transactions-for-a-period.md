@@ -48,3 +48,6 @@ Companies must submit their business transaction entries, grouped by transaction
 
 ## See Also  
  [Transaction Numbers](transaction-numbers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

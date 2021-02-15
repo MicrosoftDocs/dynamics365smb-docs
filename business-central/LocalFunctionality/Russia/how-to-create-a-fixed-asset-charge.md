@@ -36,3 +36,6 @@ The following procedure shows how to create a new fixed asset charge.
 ## See Also
 
 [Setting Up Fixed Assets](../../fa-setup.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

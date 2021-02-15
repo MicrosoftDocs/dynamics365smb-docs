@@ -302,3 +302,6 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [Save and Personalize List Views](ui-views.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

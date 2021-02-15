@@ -72,3 +72,6 @@ Finally, you must add information about your customers and vendors. The followin
 [Electronic Invoicing](electronic-invoicing.md)  
 [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
 [Mexico Local Functionality](mexico-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

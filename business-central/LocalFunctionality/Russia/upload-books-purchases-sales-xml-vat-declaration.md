@@ -83,3 +83,6 @@ The generated file will be located in the folder specified in the configuration 
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

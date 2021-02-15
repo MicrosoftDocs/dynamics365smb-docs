@@ -85,3 +85,6 @@ We are planning to add capabilities to the QR-Bill Management extension in the c
 
 ## See Also
 [Switzerland Local Functionality](switzerland-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

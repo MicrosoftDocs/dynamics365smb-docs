@@ -35,3 +35,6 @@ You cannot create an invoice without a customer number. This is true, even if yo
 [Register New Customers](sales-how-register-new-customers.md)    
 [Finance](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

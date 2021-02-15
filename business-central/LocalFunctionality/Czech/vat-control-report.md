@@ -31,3 +31,6 @@ To process the control report, you must set up the VAT control report sections, 
 [Czech Local Functionality](czech-local-functionality.md)  
 [VAT Statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

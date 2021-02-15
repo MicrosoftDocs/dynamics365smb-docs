@@ -26,3 +26,6 @@ User can run batch application by using the **G/L Entry Applying** report .
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use electronic 
 [Belgian Electronic Payments](belgian-electronic-payments.md)  
 [CODA Bank Statements](coda-bank-statements.md)  
 [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

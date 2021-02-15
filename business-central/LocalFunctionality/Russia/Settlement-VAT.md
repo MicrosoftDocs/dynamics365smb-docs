@@ -61,3 +61,6 @@ It is possible to consider only part of the amount of the VAT and write off the 
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

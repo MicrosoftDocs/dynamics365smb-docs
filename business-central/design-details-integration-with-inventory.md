@@ -44,3 +44,5 @@ The Warehouse Management application area and the Inventory application area int
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

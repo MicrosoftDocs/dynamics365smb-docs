@@ -77,3 +77,5 @@ It is required to identify the payment or invoice transaction against which TDS 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Cash Receipt Journal**, **Bank Receipt Voucher**, **Cash Receipt Voucher** or **Sales Invoice**, and then choose the related link.
 2. **TDS Certificate Receivable** should be marked true on **Journal** line or **Sales Invoice** header.
 3. **TDS Certificate Receivable** identification will flow into Customer Ledger Entry on posting of the document.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

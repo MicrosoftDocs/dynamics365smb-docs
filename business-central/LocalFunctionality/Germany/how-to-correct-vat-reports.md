@@ -57,3 +57,6 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
 
 ## See Also  
  [Set Up VAT Reports](how-to-set-up-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

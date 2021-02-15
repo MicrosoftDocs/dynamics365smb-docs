@@ -44,3 +44,6 @@ When you add an operation code to the general product posting group, that associ
 
 ## See Also  
  [Create Report 340](how-to-create-report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

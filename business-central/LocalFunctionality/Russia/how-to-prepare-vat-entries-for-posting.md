@@ -38,3 +38,6 @@ The entries are copied to the appropriate VAT settlement journals. You can now r
 ## See Also
 
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

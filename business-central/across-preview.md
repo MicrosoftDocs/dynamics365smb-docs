@@ -97,3 +97,6 @@ The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and you
 [Preparing Demonstration Environments (as a partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

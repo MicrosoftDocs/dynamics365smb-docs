@@ -23,3 +23,6 @@ The extension is free, you just need to install it.
 
 ## See Also
 [Customizing Business Central Using Extensions](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

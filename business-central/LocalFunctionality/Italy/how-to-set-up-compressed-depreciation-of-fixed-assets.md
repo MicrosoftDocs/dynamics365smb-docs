@@ -38,3 +38,6 @@ When you calculate depreciation, one line is generated for each fixed asset. For
  [Set Up Alternate Depreciation Methods](how-to-set-up-alternate-depreciation-methods.md)   
  [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
  [Print Depreciation Book Reports](how-to-print-depreciation-book-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

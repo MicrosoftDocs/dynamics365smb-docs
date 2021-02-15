@@ -301,3 +301,6 @@ Then you must create various purchase, production, and sales transactions with t
 [Find Entries](ui-find-entries.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

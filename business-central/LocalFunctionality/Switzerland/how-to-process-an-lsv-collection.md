@@ -59,3 +59,6 @@ All related lines are transferred to the LSV journal. After processing the LSV c
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   
  [Export Payments Using LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

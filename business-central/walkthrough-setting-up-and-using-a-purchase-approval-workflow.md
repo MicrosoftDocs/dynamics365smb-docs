@@ -126,3 +126,6 @@ If a business scenario requires a workflow event or response that is not support
 [Use Approval Workflows](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
 [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

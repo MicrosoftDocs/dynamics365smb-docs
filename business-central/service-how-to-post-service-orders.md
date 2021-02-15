@@ -128,3 +128,6 @@ The following procedure describes shipment posting directly from a service order
 ## See Also  
 [Posting in Service Management](service-service-posting.md)  
 [Create a Service Order](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

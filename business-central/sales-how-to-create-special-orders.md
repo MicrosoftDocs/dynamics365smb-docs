@@ -45,3 +45,6 @@ A purchase order created as a special order for a sales order is respected by th
 [Make Drop Shipments](sales-how-drop-shipment.md)   
 [Design Details: Reordering Policies](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

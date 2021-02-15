@@ -22,19 +22,22 @@ On the **Payment Application Rules** page, you set up rules to govern how paymen
 
 - Automatically match bank transactions with their related, internal bank account ledger entries when you choose the **Match Automatically** action on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
+   > [!NOTE]
+   > Text matching is only possible for texts with more than four characters.
+
 You set up new payment application rules by choosing which types of data on a payment reconciliation journal line must match with data on one or more open entries before the related payment is automatically applied to the open entries. The quality of each automatic application is shown as a value of **Low** to **High** in the **Match Confidence** field on the **Payment Reconciliation Journal** page according to the payment application rule that was used.
 
 Each row on the **Payment Application Rules** page represents a payment application rule. Rules are applied in the order specified by the **Sorting Order** field. If multiple rules are used simultaneously, then the match confidence of the highest sorted rule is used.
 
 The automatic application function is based on prioritized matching criteria. First the function tries, in prioritized order, to match text in the five **Related-Party** fields on a journal line with text in the bank account, name, or address of customers or vendors with unpaid documents representing open entries. Then, the function tries to match text in the **Transaction Text** and **Additional Transaction Info** fields on a journal line with text in the **External Document No.** and **Document No.** fields on open entries. Last, the function tries to match the amount in the **Statement Amount** field on a journal line with the amount on open entries.
 
-> [!NOTE]
-> Text matching is only possible for text longer than four characters.
-
 In addition to the matching criteria, the following applies concerning the sign of the payment amount:
 
 - For negative amounts, a match is made first against open entries representing customer invoices and then against vendor credit memos.
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
+
+> [!NOTE]
+> If you have a lot of open ledger entries, automatic application and matching might take time. To optimize performance, use the **Payment Application Settings** page. For more information, see [Optimizing Performance for Automatic and Manual Matching](receivables-how-set-up-payment-application-rules.md#optimizing-performance-for-automatic-and-manual-matching).
 
 ## To set up a payment application rule
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
@@ -80,6 +83,19 @@ The following table describes the standard payment application rules in [!INCLUD
 | Low              | 3        | Partially             | No                             | No Matches                     |
 | Low              | 4        | No                    | No                             | One Match                      |
 | Low              | 5        | No                    | No                             | Multiple Matches               |
+
+## Optimizing Performance for Automatic and Manual Matching
+Automatic application and matching are great if you do not have a lot of open ledger entries. However, if you do, it might take [!INCLUDE[d365fin](includes/d365fin_md.md)] a while to find matches that meet the confidence criteria. If you often match entries, the waiting time can add up. To optimize performance for automatic and manual matching, use the **Payment Application Settings** page to fine-tune how, and what, [!INCLUDE[d365fin](includes/d365fin_md.md)] will apply and match. 
+
+The following table describes the options on on the **Payment Application Settings** page.
+
+|Setting  |Description  |
+|---------|---------|---------|
+|**Disable Suggestions for Apply Manually**     |Do not suggest lines when you open the Payment Application page. This can make the page open faster.        |
+|**Enable Apply Immediately Rules**     |Apply payments to the first match that is found according to the payment application rules. To use this, on the **Payment Application Rules** page you must choose the **Apply Immediately** check box for each rule.         |
+|**Related Party Name Matching**     |Determine who made the payment by matching names in the **Transaction Text** field on payment reconciliation journals. The options are as follows:<br><br> * **String Nearness** will allow for names that are not spelled exactly the same. For example, it will allow for typos, abbreviations, permutations, and so on. This is often the most accurate option, however, it is also the slowest.<br><br> * **Exact Match with Permutations** will look for names entered as First Name Last Name, and vice versa, Last Name First Name. For example, John Doe and Doe, John. This is the recommended option. <br><br> * **Disabled** indicates that you do not want to match names. Use this option if you do not include names in transaction texts.  |
+|**Enable Customer Ledger Entries Matching**, **Enable Vendor Ledger Entries Matching**, and **Enable Bank Ledger Entries Matching**     |Turn matching on or off for specific types of ledger entries. For example, if you do not need to match vendor ledger entries, you can save system resources by turning that off.        |
+|**Match Closing Document No. on Bank Ledger Entries**    |If possible, leave this option turned off. This option will increase the confidence in matching, however, it will slow down the process.        |
 
 ## See Related Training at [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 

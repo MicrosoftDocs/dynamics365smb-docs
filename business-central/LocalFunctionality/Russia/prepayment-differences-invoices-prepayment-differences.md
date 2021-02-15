@@ -4,7 +4,7 @@ description: Russian enhancements include managing prepayment differences.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Prepayment Differences
 
-When you apply a prepayment to an invoice in a foreign currency, [!INCLUDE[prodshort](../../includes/prodshort.md)] calculates the difference in the amounts based on currency exchange rates between the invoice and the prepayment and create a prepayment difference entry for the invoice.  
+When you apply a prepayment to an invoice in a foreign currency, [!INCLUDE[prod_short](../../includes/prod_short.md)] calculates the difference in the amounts based on currency exchange rates between the invoice and the prepayment and create a prepayment difference entry for the invoice.  
 
 ### Setup for Purchases
 

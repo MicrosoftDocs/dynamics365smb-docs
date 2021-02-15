@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Print General Ledger Setup Information
-Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
+Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
 
 ## To print general ledger setup information  
 

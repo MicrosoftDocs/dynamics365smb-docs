@@ -4,7 +4,7 @@ description: Russian enhancements include support for statutory reports.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Statutory Reports
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] lets you set up statutory reports so that you can import and export data for electronic tax reporting and other required documents.
 
 After you have set up a report and specified the required information, you can export the report to Excel, and then print the report.
 

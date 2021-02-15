@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -32,7 +32,7 @@ In simple processes, the inventory items already carry serial or lot numbers, fo
 In special situations for serial- or lot-numbered inventory, specific serial or lot numbers are defined on the source document, such as a sales order, which the warehouse worker must respect during the outbound warehouse handling. This may be because the customer requested a specific lot during the order process. When the inventory pick or warehouse pick document is created from an outbound source document where serial or lot numbers are already defined, then all fields on the **Item Tracking Lines** page under the inventory pick are locked for writing, except the **Qty. to Handle** field. In that case, the inventory pick lines specify the item tracking numbers on individual take and place lines. The quantity is already split into unique serial or lot number combinations because the sales order specifies the item tracking numbers to ship.  
 
 ## Item Tracking Availability
-When you work with serial and lot numbers, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
+When you work with serial and lot numbers, [!INCLUDE[prod_short](includes/prod_short.md)] calculates availability information for lot and serial numbers and shows it in the various item tracking pages. This lets you see how much of a lot or serial number is currently being used on other documents. This reduces errors and uncertainty caused by double allocations.
 
 On the **Item Tracking Lines** page, a warning icon is shown in the **Availability, Lot No.** or **Availability, Serial No.** field if some or all of the quantity you have selected is already being used in other documents or if the lot or serial number is not available.
 
@@ -222,9 +222,9 @@ If you need to link special information to a specific item tracking number, for 
 5. Choose the **Comment** action to create a separate comment record.  
 6. Select the **Blocked** check box to exclude the serial or lot number from any transactions.  
 
-If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Alternativelly you can create an information card when you post journals or documents, on the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 You can modify created serial or lot information cards later.
 
@@ -270,4 +270,4 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 [Design Details: Item Tracking](design-details-item-tracking.md)
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -14,7 +14,7 @@
 
 ---
 # Date Calculation for Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
+[!INCLUDE[prod_short](includes/prod_short.md)] automatically calculates the earliest possible date that an item on a sales order line can be shipped.
 
 If the customer has requested a specific delivery date, then the date on which the items must be available to pick to meet that delivery date is calculated.
 
@@ -41,4 +41,4 @@ If you do not specify a requested delivery date on the sales order line, or if t
 ## See Also  
  [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
  [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

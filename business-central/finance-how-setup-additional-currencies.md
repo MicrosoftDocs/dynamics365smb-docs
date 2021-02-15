@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -18,7 +18,7 @@ ms.author: edupont
 # Set Up an Additional Reporting Currency
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
 > The Additional Reporting Currency functionality should not be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
@@ -55,7 +55,7 @@ To set up an additional reporting currency, you must follow these steps:
 |**Residual Losses Account**|The general ledger account to which residual amounts that are losses are posted if you post in the general ledger application area in both LCY and an additional reporting currency.|
 
 > [!NOTE]  
->  Residual amounts can occur when [!INCLUDE[d365fin](includes/d365fin_md.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
+>  Residual amounts can occur when [!INCLUDE[prod_short](includes/prod_short.md)] rounds debit and credit amounts that have been converted from LCY to an additional reporting currency.  
 
 For each general ledger account, you must specify how general ledger amounts for that account will be adjusted for exchange rate fluctuations between LCY and the additional reporting currency.  
 
@@ -94,7 +94,7 @@ For each general ledger account, you must specify how general ledger amounts for
 ### To activate the additional reporting currency  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
-3. When you leave the field, [!INCLUDE[d365fin](includes/d365fin_md.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
+3. When you leave the field, [!INCLUDE[prod_short](includes/prod_short.md)] displays a confirmation message describing the effects of activating the additional reporting currency.  
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
@@ -122,4 +122,4 @@ In addition, all future entries of the same type will have amounts recorded in b
 ## See Also
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

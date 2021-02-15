@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -14,7 +14,7 @@
 
 ---
 # Design Details: Supply Planning
-This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This documentation provides detailed technical insight to the concepts and principles that are used within the Supply Planning features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 It explains how the planning system works and how to adjust the algorithms to meet planning requirements in different environments. It first introduces central solution concepts and then describes the logic of the central mechanism, supply balancing, before proceeding to explain how inventory planning is performed with the use of reordering policies.  
 

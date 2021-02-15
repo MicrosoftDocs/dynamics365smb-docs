@@ -4,7 +4,7 @@ description: Describes how to create a sales order to record your agreement with
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -18,7 +18,7 @@ ms.author: edupont
 You create a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
 > [!NOTE]  
-> Use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you use sales invoices, then [!INCLUDE [prodshort](includes/prodshort.md)] assumes that you ship the full quantity when you post the invoice. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
+> Use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you use sales invoices, then [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you ship the full quantity when you post the invoice. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales order when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
@@ -128,4 +128,4 @@ The related item and customer ledger entries are now created in your system, and
 [Print the Picking List](sales-how-print-picking-list.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

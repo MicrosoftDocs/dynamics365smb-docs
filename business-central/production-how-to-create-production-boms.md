@@ -1,22 +1,23 @@
 ---
-    title: How to Create Production BOMs | Microsoft Docs
+    title: How to Create Production BOMs
     description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 01/05/2020
     ms.author: edupont
 
 ---
 # Create Production BOMs
+
 A production bill of material (BOM) holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)]  also support assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Before you can set up a routing, the following must be in place:  
 
@@ -44,7 +45,7 @@ Before you can set up a routing, the following must be in place:
 12.  You can now attach the new production BOM to the card of the parent item in question. For more information, see [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  To recalculate the item’s standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] To recalculate the item's standard cost from the item card, choose the **Manufacturing** action, and then choose the **Calc. Standard Cost** action.  
 
 ## To create a new versions of a production BOM
 New versions of production BOMs are used when, for example, an item is replaced by another item, or when a customer requires a special version of a product. The version principle enables various versions of a production BOM to be managed. The structure of the production BOM version corresponds to the structure of the production BOM. The basic difference is in the time validity of the versions. The validity is defined by the starting date.  
@@ -92,4 +93,4 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 [Planning](production-planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -4,7 +4,7 @@ description: Russian enhancements include VAT on purchase orders.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Register VAT on Purchase Orders
 
-In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
+In Russia, organizations are required to keep a journal of received and issued VAT invoices. [!INCLUDE[prod_short](../../includes/prod_short.md)] enables you to register VAT on purchase orders so that the information is tracked in the VAT invoices journal.
 
 ## To register VAT on a purchase order
 

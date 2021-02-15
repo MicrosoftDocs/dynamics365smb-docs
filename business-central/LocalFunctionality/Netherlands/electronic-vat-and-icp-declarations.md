@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -75,7 +75,7 @@ The electronic declaration is submitted to the tax authorities.
 
 ## To import a response message from the tax authorities
 For each electronic declaration, the tax authorities will send a response message. These messages must be received from the server of the tax authorities
-and be processed. The first step is to import the response message into [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+and be processed. The first step is to import the response message into [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
 2. Choose the **Receive Response Messages** action.  

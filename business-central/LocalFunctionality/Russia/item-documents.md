@@ -4,7 +4,7 @@ description: Russian enhancements include item documents.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Item Documents
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes several documents that you can use to manage your warehouse. This also includes reports that you must submit for official reporting, such as the Item Report TORG-29, Items Receipt Act TORG-1, and Receipt Deviations TORG-2 reports.
 
 The following types of documents are useful for managing your warehouse:
 
@@ -86,7 +86,6 @@ The following functions are available in the **Item Receipt** window.
 | -------------------------------- | ----------------------------|
 | Changing document status         | Documents can be open or released for the next processing stage. Choose the **Release** or the **Reopen** action. |
 | Reservation of document lines    | Items can be reserved from the document line. Choose the **Reserve** action. |
-| Warehouse adjustment calculation | Refers only to item quantity corrections in the warehouse bins. This is accessible only if advanced picking and placing is used in the warehouse. |
 | Document posting                 | Choose the **Post** action to perform the following:   -   **Post** Post the item receipt. The posted item receipt is created. -   **Post and Print** Post the receipt and print the test report. |
 
 ## Analysis of a Posted Document Item Receipt Without a Vendor

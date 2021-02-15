@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -56,7 +56,7 @@ The application does not keep separate records about items that have been cross-
 2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
 3.  Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
-    Outbound source documents requesting the items that are scheduled to leave the warehouse within the date formula time period are identified.  [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates quantities so that you can cross-dock as much as possible and avoid having to put items away, without piling up too many items in the cross-dock area. The value in the **Qty. to Cross-Dock** field is thus the sum of all the outbound lines requesting the item within the look-ahead period minus the quantity of the items that have already been placed in the cross-dock area, or it is the value in the **Qty. to Receive** field on the receipt line, whichever is smaller. You cannot cross-dock more than you have received.  
+    Outbound source documents requesting the items that are scheduled to leave the warehouse within the date formula time period are identified.  [!INCLUDE[prod_short](includes/prod_short.md)] calculates quantities so that you can cross-dock as much as possible and avoid having to put items away, without piling up too many items in the cross-dock area. The value in the **Qty. to Cross-Dock** field is thus the sum of all the outbound lines requesting the item within the look-ahead period minus the quantity of the items that have already been placed in the cross-dock area, or it is the value in the **Qty. to Receive** field on the receipt line, whichever is smaller. You cannot cross-dock more than you have received.  
 
 4.  If you want to cross-dock the quantity as suggested, post the receipt. You can also decide to change the quantity to cross-dock to a higher or lower value and then post the receipt.  
 
@@ -100,4 +100,4 @@ If you are not using bins, you must remember to check the cross-dock area from t
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

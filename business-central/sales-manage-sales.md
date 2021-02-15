@@ -4,7 +4,7 @@ description: Describes how to manage sales activities.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -22,7 +22,7 @@ You can negotiate with the customer by first creating a sales quote, which you c
 
 You can easily correct or cancel a posted sales invoice before it is paid. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale.
 
-Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction. For more information, see [Relationship Management](marketing-relationship-management.md).
+Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction. For more information, see [Relationship Management](marketing-relationship-management.md).
 
 If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using Business Central for backend activities such as processing orders, managing inventory, and doing your finances. For more information, see [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -62,7 +62,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Project Management](projects-manage-projects.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

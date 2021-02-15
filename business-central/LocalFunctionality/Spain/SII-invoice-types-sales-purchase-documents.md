@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,9 +16,9 @@
 ---
 # SII - Invoice and Credit Memo Types in Sales and Purchase Documents
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] supports the Spanish SII requirements for VAT reporting (Immediate Information Supply).  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the Spanish SII requirements for VAT reporting (Immediate Information Supply).  
 
-The following table shows the output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+The following table shows the output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Sales Invoices
 |Type|Description|Implementation|
@@ -26,7 +26,7 @@ The following table shows the output of the various types that are used for invo
 |F1|Invoice|Normal invoice|
 |F2|Simplified invoice (ticket)|Implemented as for F1, except a non-existing block is called "Contraparte" and additional nodes are called "ImporteTotal" and "Macrodato".|
 |F3|Invoice issued to replace simplified invoices issued and filed|Same as Normal invoice|
-|F4|Invoice summary entry|Possible, but the XML file is same as for F1 because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not support Summary invoices. <br /><br />Submissions will result in known error: Missing "NumSerieFacturaEmisorResumenFin" element.|
+|F4|Invoice summary entry|Possible, but the XML file is same as for F1 because [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Summary invoices. <br /><br />Submissions will result in known error: Missing "NumSerieFacturaEmisorResumenFin" element.|
 |R1|Corrected invoice (Error based on Art. 80.1, 80.2, and 80.6 LIVA)|Not supported. Only used for credit memos.|
 |R2|Corrected invoice (Art. 80.3)|Not supported. Only used for credit memos|
 |R3|Corrected invoice (Art. 80.4)|Not supported. Only used for credit memos|
@@ -52,7 +52,7 @@ The following table shows the output of the various types that are used for invo
 |F1|Invoice|Normal invoice|
 |F2|Simplified invoice (ticket)|Implemented as for F1, except a non-existing block is called "Contraparte" and additional nodes are called "ImporteTotal" and "Macrodato".|
 |F3|Invoice issued to replace simplified invoices issued and filed|Sames as for Normal invoice|
-|F4|Invoice summary entry|Possible, but the XML file is same as for F1 because [!INCLUDE[d365fin](../../includes/d365fin_md.md)] does not support Summary invoices. <br /><br />Submissions will result in known error: Missing "NumSerieFacturaEmisorResumenFin" element.|
+|F4|Invoice summary entry|Possible, but the XML file is same as for F1 because [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support Summary invoices. <br /><br />Submissions will result in known error: Missing "NumSerieFacturaEmisorResumenFin" element.|
 |F5|Imports (DUA)|Same as for Normal invoice|
 |F6|Accounting support material|Sames as for Normal invoice|
 |R1|Corrected invoice (Error based on Art. 80.1, 80.2, and 80.6 LIVA)|Not supported. Only used for credit memos|

@@ -4,7 +4,7 @@ description: Use a batch job to settle VAT entries according to the government e
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont

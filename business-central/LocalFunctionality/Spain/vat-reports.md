@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
     ms.author: edupont
 
 ---
-# VAT Reports
+# VAT Reports in the Spanish Version
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
 
 ## Equivalence Charge  

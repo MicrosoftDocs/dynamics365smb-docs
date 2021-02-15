@@ -7,12 +7,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ---
 
 # Handling Missing Option Values
-[!INCLUDE[d365fin](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[d365fin](includes/d365fin_md.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[d365fin](includes/d365fin_md.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] contains only three option set fields that contain option values that you can map to [!INCLUDE[prod_short](includes/prod_short.md)] fields of Option type<!-- Option type, not enum? @Onat can you vertify this? --> for automatic synchronization. During synchronization, non-mapped options are ignored and the missing options are appended to the related [!INCLUDE[prod_short](includes/prod_short.md)] table and added to the **CDS Option Mapping** system table to handle manually later. For example, by adding the missing options in either product and then updating the mapping. This section describes how that works.
 
 The **Integration Table Mapping** page contains three maps for fields that contain one or more mapped option values. After a full synchronization, the **CDS Option Mapping** page contains the non-mapped options in the three fields respectively.
 
@@ -32,7 +34,7 @@ The **Integration Table Mapping** page contains three maps for fields that conta
 | Shipping Agent: FULLLOAD   | 6            | Full Load            |
 | Shipping Agent: WILLCALL   | 7            | Will Call            |
 
-The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[d365fin](includes/cds_long_md.md)], the following fields on the account entity are mapped to fields on the customer and vendor records:
+The content of the **CDS Option Mapping** page is based on enum values in the **CDS Account** table. In [!INCLUDE[prod_short](includes/cds_long_md.md)], the following fields on the account table are mapped to fields on the customer and vendor records:
 
 - **Address 1: Freight Terms** of data type Enum, where values are defined as follow:
 
@@ -78,9 +80,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-All of the [!INCLUDE[d365fin](includes/d365fin_md.md)] enums above are mapped to option sets in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+All of the [!INCLUDE[prod_short](includes/prod_short.md)] enums above are mapped to option sets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Extending Option Sets in [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### Extending Option Sets in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Create a new AL extension.
 
 2. Add an Enum extension for the options that you want to extend. Be sure that you use the same value. 
@@ -94,16 +96,16 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> You must use the same option ID values from [!INCLUDE[d365fin](includes/cds_long_md.md)] when you extend the [!INCLUDE[d365fin](includes/d365fin_md.md)] enum. Otherwise synchronization will fail.
+> You must use the same option ID values from [!INCLUDE[prod_short](includes/cds_long_md.md)] when you extend the [!INCLUDE[prod_short](includes/prod_short.md)] enum. Otherwise synchronization will fail.
 
 > [!IMPORTANT]  
-> Do not use character "," in the Enum values and captions. This is currently not supported by the [!INCLUDE[d365fin](includes/d365fin_md.md)] runtime.
+> Do not use the ","  character in the enum values and captions. This is currently not supported by the [!INCLUDE[prod_short](includes/prod_short.md)] runtime.
 
 > [!NOTE]
 > The first ten characters of the new option value names and captions must be unique. For example, two options named "Transfer 20 working days" and "Transfer 20 calendar days" will cause an error because both have the same first 10 characters, "Transfer 2". Name them, for example, "TRF20 WD" and "TRF20 CD."
 
-### Update [!INCLUDE[d365fin](includes/cds_long_md.md)] Option Mapping
-Now you can recreate the mapping between [!INCLUDE[d365fin](includes/cds_long_md.md)] options and [!INCLUDE[d365fin](includes/d365fin_md.md)] records.
+### Update [!INCLUDE[prod_short](includes/cds_long_md.md)] Option Mapping
+Now you can recreate the mapping between [!INCLUDE[prod_short](includes/cds_long_md.md)] options and [!INCLUDE[prod_short](includes/prod_short.md)] records.
 
 On the **Integration Table Mapping** page, choose the line for the **Payment Terms** map, and then choose the **Synchronize Modified Records** action. The **CDS Option Mapping** page is updated with the additional records below.
 
@@ -116,7 +118,7 @@ On the **Integration Table Mapping** page, choose the line for the **Payment Ter
 | **Payment Terms: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Payment Terms: TRANSFER**    | **779800002**  | **Transfer**         |
 
-The **Payment Terms** table in [!INCLUDE[d365fin](includes/d365fin_md.md)] will then have new records for the [!INCLUDE[d365fin](includes/cds_long_md.md)] options. In the following table new options are in bold font . Italic rows represent all options that can now be synchronized. Remaining rows represent options are not in use and will be ignored during synchronization. You can remove them or extend CDS options with the same names.)
+The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] will then have new records for the [!INCLUDE[prod_short](includes/cds_long_md.md)] options. In the following table new options are in bold font . Italic rows represent all options that can now be synchronized. Remaining rows represent options are not in use and will be ignored during synchronization. You can remove them or extend CDS options with the same names.)
 
 | Code       | Due Date Calculation | Discount Date Calculation | Discount % | Calc. Pmt. Disc. on Cr. Memos | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -139,3 +141,4 @@ The **Payment Terms** table in [!INCLUDE[d365fin](includes/d365fin_md.md)] will 
 | ***TRANSFER*** |                      |                           | 0.         | FALSE                         |                   |
 
 ## See Also
+[Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)

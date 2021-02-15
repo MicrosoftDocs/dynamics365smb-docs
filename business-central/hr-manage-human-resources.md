@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,7 +16,7 @@ ms.author: edupont
 
 ---
 # Manage Human Resources
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
+In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
 You can also register employee absences, which allows you to analyze registered absences as necessary.
 
@@ -31,5 +31,5 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)        

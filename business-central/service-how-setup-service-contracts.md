@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -20,7 +20,7 @@ Before you can work with contracts, you must set up the following:
 * **Service contract groups**, which gather service contracts that are related in some way.
 * **Service contract account groups**, which are used to group the service contract accounts together for service invoices created for service contracts. You assign these groups to service contracts.  
 * **Contract templates** that define contract layouts of contracts that include the most commonly used service contract details. When you create service contract quotes, you can create them by using templates. When you create a contract quote, the fields automatically contain the contents of the template fields.
-* **Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Customer templates** that let you create quotes for contacts or potential customers who are not registered as customers in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## To set up a service contract group  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Contract Groups**, and then choose the related link.  

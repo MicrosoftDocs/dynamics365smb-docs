@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -17,17 +17,17 @@
 # EHF Electronic Invoicing in Norway
 Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on Universal Business Language (UBL). If a company does not send these documents electronically, the authorities can deny payment. The standard supported format for electronic exchange between parties is the Ehandel.no format. For more information on EHF electronic invoicing, see [Anskaffelser.no](https://www.anskaffelser.no).  
 
-## Implementation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 From January, 2019, the requirements for sending electronic invoices are based on the PEPPOL BIS Billing 3.0 standard. For more information, see the [EHF Billing 3.0](https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/) page from the Agency of Public Management and eGovernment. Companies that are already sending electronic documents in the pre-2019 format can continue to do so during 2019.
 
 To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. For more information, see [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md). These numbers are included when you create, post, or issue documents. After documents are posted or issued, you can create electronic versions to send to customers.  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] exports certain electronic documents in EHF version 3.0, which uses UBL version 2.1. You can submit the following types of documents:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] exports certain electronic documents in EHF version 3.0, which uses UBL version 2.1. You can submit the following types of documents:  
 
 - Sales and service invoices
 - Sales and service credit memos
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] exports other electronic documents in version 1.6, which uses UBL version 2.0. You can submit the following types of documents:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] exports other electronic documents in version 1.6, which uses UBL version 2.0. You can submit the following types of documents:  
 
 - Finance charge memo  
 - Reminder  

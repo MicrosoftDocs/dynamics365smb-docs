@@ -4,7 +4,7 @@ description: This section describes local functionality - General ledger entries
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
 ms.date: 10/01/2020
 ms.reviewer: v-pejano

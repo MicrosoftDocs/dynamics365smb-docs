@@ -4,7 +4,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
 # India Local Functionality
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
-The following topics describe the local functionality in the Indian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe the local functionality in the Indian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -109,6 +109,6 @@ The following topics describe the local functionality in the Indian version of [
 
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

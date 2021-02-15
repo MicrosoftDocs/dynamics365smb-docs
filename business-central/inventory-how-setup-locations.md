@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -43,6 +43,6 @@ You can now transfer inventory items between two locations. For more information
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)

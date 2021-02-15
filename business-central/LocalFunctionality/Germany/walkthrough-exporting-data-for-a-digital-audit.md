@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -17,7 +17,7 @@
 
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
 
-The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data for a digital audit (GoBD/GDPdU) in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The sample implementation illustrates a scenario where the auditor has requested that you export data from your general ledger, and information about your customers and vendors. This is not an example that is based on actual requirements from a tax auditor, but it serves to illustrate how to export data for a digital audit (GoBD/GDPdU) in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## About This Walkthrough
 
@@ -31,7 +31,7 @@ This walkthrough illustrates the following tasks:
 
 To complete this walkthrough, you will need:  
 
-- The German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)] with the CRONUS AG demonstration company.
+- The German version of [!INCLUDE[prod_short](../../includes/prod_short.md)] with the CRONUS AG demonstration company.
 - The .DTD file that is required according to the GDPdU. In this scenario, **gdpdu-01-08-2002.dtd**.  
 
 ## Story

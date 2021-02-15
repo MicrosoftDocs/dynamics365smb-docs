@@ -6,7 +6,7 @@ ms.topic: include
 ms.date: 10/01/2020
 ms.author: edupont
 ---
-In [!INCLUDE[d365fin](../../../includes/d365fin_md.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders on the **Purchases & Payables Setup** page.  
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can use purchase delivery reminders to remind vendors about overdue deliveries. To create delivery reminders for vendors, you must set up base data for delivery reminder creation and number series for the delivery reminders on the **Purchases & Payables Setup** page.  
 
 ## To set up delivery reminders  
 

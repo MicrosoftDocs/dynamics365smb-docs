@@ -4,7 +4,7 @@ description: Post employees' expenses with the general journal to the employee's
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Record and Reimburse Employees' Expenses
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports transactions for employee in a similar way as for vendors. Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.
 
 > [!NOTE]  
 > Employee transactions can be posted in the local currency only. Reimbursement payments to employees do not support discounts and payment tolerances.
@@ -55,4 +55,4 @@ You apply employee payments to their related open employee ledger entries in the
 [Working with General Journals](ui-work-general-journals.md)  
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

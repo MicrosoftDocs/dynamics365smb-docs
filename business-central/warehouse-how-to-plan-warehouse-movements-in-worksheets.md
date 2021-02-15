@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -22,7 +22,7 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
 
     > [!NOTE]  
     >  A movement is suggested according to FEFO when you activate the **Create Movement** function if the following conditions are met for an item:  
@@ -67,4 +67,4 @@ You can also use the movement worksheet to plan other movement of inventory with
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

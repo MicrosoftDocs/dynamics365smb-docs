@@ -4,7 +4,7 @@ description: Get an summary view of the financial health across your business un
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,11 +16,11 @@ ms.author: edupont
 
 # Consolidating Financial Data from Multiple Companies
 
-Some organizations use [!INCLUDE [prodshort](includes/prodshort.md)] in multiple business units or legal entities. Others use [!INCLUDE [prodshort](includes/prodshort.md)] in subsidiaries that must report into parent organizations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. In both cases, the accountants use built-in tools to help consolidate the financial data.  
 
 You can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company. Each individual company involved in a consolidation is called a business unit. The combined company is called the consolidated company.  
 
-You can import data into the consolidated company from other companies in the same [!INCLUDE [prodshort](includes/prodshort.md)] tenant, from tenants, or from files.  
+You can import data into the consolidated company from other companies in the same [!INCLUDE [prod_short](includes/prod_short.md)] tenant, from tenants, or from files.  
 
 If the financial statements of a business unit are in a different currency than those of the consolidated company, you must set up exchange rates for consolidation.  
 
@@ -39,7 +39,7 @@ You set up the consolidated company in the same way that you set up other compan
 
 ## Trial balance
 
-If you have more than one company in [!INCLUDE[d365fin](includes/d365fin_md.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
+If you have more than one company in [!INCLUDE[prod_short](includes/prod_short.md)], the **Consolidated Trial Balance** report can give you an overview of the financial health of your overall business.  
 
 The report combines general ledger entries from each of your companies in a new company that you create to contain the consolidated data. This company is typically referred to as the "consolidated company". The consolidated company is just a container for the consolidated data, and does not have any live business data. The companies that you include in the consolidated company become **Business Units** in the report. For more information, see [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md).  
 
@@ -49,7 +49,7 @@ The process of transferring the figures from the business units to the consolida
 
 ### To test the data before you consolidate
 
-You can test your data before you transfer it to the consolidated company. [!INCLUDE[d365fin](includes/d365fin_md.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
+You can test your data before you transfer it to the consolidated company. [!INCLUDE[prod_short](includes/prod_short.md)] looks for differences in the information in the business units and the consolidated company. For example, whether account numbers or dimension codes are different. You must correct errors before you can run the report. You can test the database or, if you are importing data from an XML file, you can test the file.  
 
 1. Open the consolidated company.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
@@ -115,5 +115,5 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 
 [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)  
 [Managing Intercompany Transactions](intercompany-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)

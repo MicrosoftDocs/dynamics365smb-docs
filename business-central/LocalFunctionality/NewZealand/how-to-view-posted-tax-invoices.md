@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 ---
 # View Posted Tax Invoices in the New Zealand Version
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
 
 The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
 

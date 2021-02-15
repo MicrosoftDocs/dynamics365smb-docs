@@ -4,7 +4,7 @@ description: You must define how you will write-down, depreciate, or amortize ea
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -21,7 +21,7 @@ Depreciation is used to allocate the cost of fixed assets, such as machinery and
 * Automatically, by running the **Calculate Depreciation** batch job.  
 * Manually, by using the fixed asset G/L journal.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] can calculate daily depreciation, which allows you to calculate depreciation for any period. You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis. The calculation uses a standard year of 360 days and a standard month of 30 days. For more information, see [Depreciation Methods](fa-depreciation-methods.md).  
 
 If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
@@ -107,4 +107,4 @@ The copied lines are created in either the fixed asset G/L journal or the fixed 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -59,7 +59,7 @@ You can import a configuration package that has been exported from a database th
 5. Choose the **Get Tables** action. The **Get Package Tables** batch job page opens.  
 6. Choose the **Select Tables** field. The **Config. Selection** page opens.  
 7. Choose the **Select All** action to add all tables to the package, or select the **Selected** check box for each table in the list that you want to add.
-8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[d365fin](includes/d365fin_md.md)] tables are added to the lines of the **Config. Package** page.  
+8. Choose the **OK** button. The count of tables that you have selected is indicated in the **Select Tables** field. Specify additional options, and then choose the **OK** button. [!INCLUDE[prod_short](includes/prod_short.md)] tables are added to the lines of the **Config. Package** page.  
 
     > [!NOTE]  
     >  You can also do this in the configuration worksheet. Select the tables you want to include in the package, and then choose the **Assign Package** action.
@@ -147,7 +147,7 @@ As you create a configuration package for a solution, you can view and customize
 2. In the configuration worksheet, identify the tables whose data that you want to view or customize.  
 
     > [!NOTE]  
-    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
+    >  Make sure that each table has a page ID assigned to it. For standard [!INCLUDE[prod_short](includes/prod_short.md)] tables, this value is automatically filled in. For custom tables, you must provide the ID.
 
 3. Choose the **Database Data** action. The page for the related page opens.
 4. Review the available information. Modify it as necessary by deleting records that are not relevant or by adding new ones.  
@@ -170,3 +170,4 @@ After you have vetted and tested all your setup information, you can proceed to 
 [Set Up Company Configuration](admin-set-up-company-configuration.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
+[Analyzing Configuration Package Trace Telemetry](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

@@ -4,7 +4,7 @@ description: You can add extra lines to extend the standard text that describes 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -39,4 +39,4 @@ You can now add this extended text to documents. The following procedure explain
 ## See Also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

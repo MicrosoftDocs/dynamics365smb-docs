@@ -1,10 +1,10 @@
 ---
-title: Special codes for company information, customers, and vendors in Russia
+title: Special codes for company information, customers, and vendors (RU)
 description: Russian enhancements include additional information about your company and each customer and vendor.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Special codes for Company information, Customers, and Vendors
 
-The Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)] adds special classified codes that are needed in some printing forms and reports.
+The Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] adds special classified codes that are needed in some printing forms and reports.
 
 ## Company Information
 

@@ -5,7 +5,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -24,10 +24,10 @@ You can view the availability of all items per location, and you can view the av
 
 If you use warehousing functionality, availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows. For more information see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are typically shown in two different fields, each with a different definition:
+In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typically shown in two different fields, each with a different definition:
 
 * The **Quantity on Hand** field, in some places named **Inventory**, shows the actual quantity today according to posted item ledger entries.
-* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
+* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[prod_short](includes/prod_short.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
 >   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** pages because they contain the date dimension.  

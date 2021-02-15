@@ -4,7 +4,7 @@ description: Russian enhancements include account schedule constants.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -13,7 +13,7 @@ ms.author: soalex
 
 # Define an Account Schedule Constant
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] enables you to define a constant for an account schedule line. Constants are useful if an account schedule value does not change.
 
 ## To define an account schedule constant
 

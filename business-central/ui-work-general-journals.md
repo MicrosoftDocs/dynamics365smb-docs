@@ -1,21 +1,21 @@
 ---
-title: Using General Journals to Post Directly to G/L| Microsoft Docs
-description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
+title: Working with General Journals to Post Directly to G/L
+description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts. Use recurring journals to post accruals and allocate balances by dimension values.
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
 
 ---
 # Working with General Journals
 
-Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, using recurring journals to post accruals, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Most financial transactions are posted to the general ledger through dedicated business documents, such as purchase invoices and sales orders. But you can also process business activities such as purchasing, paying, using recurring journals to post accruals, or refunding employee expenses by posting journal lines in the various journals in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Most journals are based on the *General Journal*, and you can process all transactions on the **General Journal** page. For more information, see [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md).  
 
@@ -37,15 +37,15 @@ There are several general journal templates. Each journal template is represente
 For each journal template, you can set up your own personal journal as a journal batch. For example, you can define your own journal batch for the payment journal that has your personal layout and settings. The following tip is an example of how to personalize a journal.
 
 > [!TIP]  
-> If you select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[d365fin](includes/d365fin_md.md)] Suggest Values](ui-let-system-suggest-values.md).
+> If you select the **Suggest Balancing Amount** check box on the line for your batch on the **General Journal Batches** page, then the **Amount** field on, for example, general journal lines for the same document number is automatically prefilled with the value that is required to balance the document. For more information, see [Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > To add or remove fields in journals, use the **Personalizing** banner. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ### Validating General Journal Batches
-To help prevent delays when posting, you can turn on a background check that will notify you when there is a mistake in the financial journal you're working on that will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[d365fin](includes/d365fin_md.md)] validate finance journals, such as general or payment journals, while you're working on them. 
+To help prevent delays when posting, you can turn on a background check that will notify you when there is a mistake in the financial journal you're working on that will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them. 
 
-When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[d365fin](includes/d365fin_md.md)] found, and you can choose it to open an overview the issues. 
+When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview the issues. 
 
 You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.     
 
@@ -70,24 +70,27 @@ If you have set up default balancing accounts for the journal batches on the **G
 >   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
 ## Working with Recurring Journals
-A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).
 
 With a recurring journal, entries that will be posted regularly need to be typed in only once. That is, the accounts, dimensions and dimension values and so on that you enter will be remain in the journal after posting. If any adjustments are necessary, you can make them with each posting.
 
 ### Recurring Method field
+
 This field determines how the amount on the journal line is treated after posting. For example, if you will use the same amount every time you post the line, you can let the amount remain. If you will use the same accounts and text on the line but the amount will vary every time you post, you can choose to delete the amount after posting.
 
 | To | See |
 | --- | --- |
-|Fixed|The amount on the journal line will remain after posting.|
-|Variable|The amount on the journal line will be deleted after posting.|
-|Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field on the **Allocations** page. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|
-|Reversing Variable|The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.|
-|Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line on the **Allocations** page. The balance on the account will be set to zero, and a balancing entry is posted on the next day.|
+|F Fixed|The amount on the journal line will remain after posting.|
+|V Variable|The amount on the journal line will be deleted after posting.|
+|B Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will thus be set to zero. Remember to fill in the **Allocation %** field on the **Allocations** page. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).|
+|RF Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|
+|RV Reversing Variable|The amount on the journal line will be deleted after posting, and a balancing entry will be posted on the next day.|
+|RB Reversing Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line on the **Allocations** page. The balance on the account will be set to zero, and a balancing entry is posted on the next day.|
+|BD Balance by Dimension|The journal line allocates costs based on a G/L account's balance by dimension. You'll be prompted to set the dimension filters to be used to calculate the source G/L account's balance by dimension from which you want to allocate costs. Alternatively, choose the **Set Dimension Filters** action later.|
+|RBD Reversing Balance by Dimension|The journal line allocates costs based on a G/L account's reversing balance by dimension. You'll be prompted to set the dimension filters to be used to calculate the source G/L account's balance by dimension from which you want to allocate costs. Alternatively, choose the **Set Dimension Filters** action later.|
 
 > [!NOTE]  
->  The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
+> The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
 
 ### Recurring Frequency field
 This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
@@ -109,11 +112,19 @@ The advantage of using the field is that the line will not be deleted from the j
 If the field is blank, the line will be posted every time you post until it is deleted from the journal.
 
 ### Allocating Recurring Journal Amounts to Several Accounts
+
 On the **Recurring General Journal** page, you can choose the **Allocations** action to see or manage how amounts on the recurring journal line are allocated to several accounts and dimensions. Note that an allocation functions as balancing account line to the recurring journal line.
 
 Just as in a recurring journal, you need to enter an allocation only once. The allocation will remain in the allocation journal after posting, so you do not need to enter amounts and allocations every time you post the recurring journal line.
 
-If the recurring method in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code on the **Allocations** page. If you do, the dimension values will be incorrect.
+If the *recurring method* in the recurring journal is set to **Balance** or **Reversing Balance**, then any dimension value codes in the recurring journal are disregarded when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then only one reversing entry will be created. Therefore, if you allocate a recurring journal line that contains a dimension value code, then you must not enter the same code on the **Allocations** page. If you do, the dimension values will be incorrect.  
+
+To allocate recurring journal amounts based on dimensions, set the **Recurring Method** field to **Balance by Dimension** or **Reversing Balance by Dimension** instead. If the recurring method in the recurring journal is set to **Balance by Dimension** or **Reversing Balance by Dimension**, then any dimension value codes in the recurring journal are considered when the account is set to zero. So if you allocate a recurring line to various dimension values on the **Allocations** page, then a number of reversing entries that matches the number of dimension value combinations that the balance is comprised of, are created. If you allocate account balance through the recurring journal that contains a dimension value code, remember to use **Balance by Dimension** or **Reversing Balance by Dimension** to make sure that the dimension values are correctly balanced or reversed from the source account.  
+
+For example, your company has a couple of business units and a handful of departments that your controllers have set up as dimensions. To speed up the purchase invoice entry process, you decide to require the accounts payable clerks to enter only business unit dimensions. Since each business unit has specific allocation keys for the Department dimension, such as based on the number of employees, you can use the **BD Balance by Dimension** or **RBD Reversing Balance by Dimension** recurring methods to re-allocate expenses for each business unit to the right departments based on the allocation keys.  
+
+> [!NOTE]
+> Dimensions that you set on allocation lines are not automatically calculated, and you must specify which dimension values must be set on the allocation accounts. In case you want to preserve the link between the source account dimension and the allocation account dimension, we recommend that you use the [Cost Accounting](finance-about-cost-accounting.md) capabilities instead.
 
 #### Example: Allocating Rent Payments to Different Departments
 You pay rent every month, so you have entered the rent amount on the cash account on a recurring journal line. On the **Allocations** page, you can divide the expense among several departments (Department dimension) according to the number of square feet that each one occupies. The calculation is based on the allocation percentage on each line. You can enter various accounts on different allocation lines (if rent will also be divided among several accounts), or you can enter the same account but with various dimension value codes for the Department dimension on each line.
@@ -163,7 +174,7 @@ When you have finished saving the standard item journal, the Item Journal page i
 
     Now the item journal is filled with the lines you saved as the standard item journal. If journal lines already existed in the item journal, the inserted lines will be placed under the existing journal lines.
 
-    If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item’s current value, copied from the **Unit Cost** field on the item card.
+    If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item's current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
     >   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
@@ -199,7 +210,7 @@ Values in the **Document No.** field are changed, where required, so that the do
 [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
 [Allocate Costs and Income](year-allocate-costs-income.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Revalue Inventory in the Revaluation Journal](inventory-how-revalue-inventory.md)  
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  

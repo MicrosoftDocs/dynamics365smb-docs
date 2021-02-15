@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -15,7 +15,7 @@
 
 ---
 # Set Up Automatic Payments and Automatic Bills
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic payments and bills.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic payments and bills.  
 
 To use automatic payments and automatic bills, you must set up the relevant information.  
 

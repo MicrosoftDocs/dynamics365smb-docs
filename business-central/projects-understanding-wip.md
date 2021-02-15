@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -20,7 +20,7 @@ As a job progresses, materials, resources, and other expenses are consumed and m
 
 To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] supports the following methods of calculating and recording the value of work in process.
+[!INCLUDE[prod_short](includes/prod_short.md)] supports the following methods of calculating and recording the value of work in process.
 
 | WIP Method | Calculation Formula | Calculation Description |
 | --- | --- | --- |
@@ -35,4 +35,4 @@ To track the value in the general ledger, you can calculate WIP and post the val
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

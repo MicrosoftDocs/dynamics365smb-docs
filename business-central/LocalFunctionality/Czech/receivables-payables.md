@@ -4,7 +4,7 @@ description: This section describes local functionality in the Czech version - P
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
 ms.date: 10/01/2020
 ms.reviewer: v-pejano
@@ -47,7 +47,7 @@ On standard report Adjust Exchange Rates is now possible to:
 
 The Adjust Exchange Rate report feature also modifies the calculation principle for implemented gains and losses based on the Income Tax Act. This feature calculates the implemented gain or loss against the recently adjusted amount.
 
-This feature in the standard version of Microsoft [!INCLUDE[d365fin](../../includes/d365fin_md.md)] reverses the non-implemented gain or loss first, and calculates the implemented gain or loss afterwards. The calculation is expressed against the amount in the initial exchange rate during the application of the payment and the invoice.
+This feature in the standard version of Microsoft [!INCLUDE[prod_short](../../includes/prod_short.md)] reverses the non-implemented gain or loss first, and calculates the implemented gain or loss afterwards. The calculation is expressed against the amount in the initial exchange rate during the application of the payment and the invoice.
 
 The new calculation principle is implemented for fluctuation in the already adjusted exchange rate.
 The Adjust Exchange Rates batch job has been for Czech Advance Payments has also been extended.
@@ -58,7 +58,7 @@ Users often post transactions like bad debt or other types of Receivable/Payable
 
 ## Customers/Vendors Reconciliations
 
-At the end of each fiscal year (or another period, when requested), companies send a statement of balances to Customers and Vendors in order to reconcile them with Customer and Vendor records. Customers and Vendors either confirm the statement or not and send it back with corrections, based on their own information. This feature allows users to prepare such report in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+At the end of each fiscal year (or another period, when requested), companies send a statement of balances to Customers and Vendors in order to reconcile them with Customer and Vendor records. Customers and Vendors either confirm the statement or not and send it back with corrections, based on their own information. This feature allows users to prepare such report in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Sales Correcting Documents
 
@@ -75,7 +75,7 @@ This Credit Memo Type defines how is handled Postponed VAT on Sales Credit-Memo 
 ARES stands for Access to Register of Economic Subjects. ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.  
 
 The user can fill in ARES Http in Reg. No. Validation Service Setup.
-It is possible to run ARES actualization from Contact, Vendor and Customer Card. It is possible to search the company and decide which fields can be updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)](Name, Address, City, Post Code).
+It is possible to run ARES actualization from Contact, Vendor and Customer Card. It is possible to search the company and decide which fields can be updated in [!INCLUDE[prod_short](../../includes/prod_short.md)](Name, Address, City, Post Code).
 
 ## New Design of Output Documents
 

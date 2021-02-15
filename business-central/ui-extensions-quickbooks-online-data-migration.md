@@ -4,7 +4,7 @@ description: Describes how to use the extension to migrate customers, vendors, i
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -16,11 +16,11 @@ ms.author: bholtorf
 
 # The QuickBooks Online Data Migration Extension
 
-This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[d365fin](includes/d365fin_md.md)].
+This extension is included in the **Data Migration** assisted setup guide to help you migrate important business data from QuickBooks Online to [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this is useful when your business is growing, and you've decided to upgrade your business management app by starting to use [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What data can I import from QuickBooks Online?
 
-You can import the following data from QuickBooks Online to [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+You can import the following data from QuickBooks Online to [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Customers
 * Vendors
@@ -43,9 +43,9 @@ An important part of the migration process is to specify the accounts to migrate
 * The purchase of items or services from vendors.  
 * Adjustments in the general ledger.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
+[!INCLUDE[prod_short](includes/prod_short.md)] requires that general ledger accounts have account numbers assigned to them. Make sure that account numbers are assigned to your accounts in QuickBooks Online.
 
-If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[d365fin](includes/d365fin_md.md)] before you can post transactions.
+If transactions in QuickBooks Online have tax amounts, you must set up a tax account for your tax jurisdictions in [!INCLUDE[prod_short](includes/prod_short.md)] before you can post transactions.
 
 ## How do I start using the extension?
 
@@ -60,11 +60,11 @@ After you migrate data, transactions have the status **Unposted**, so you can re
 
 There are a few things in particular that you should do:
 
-* If the transactions in QuickBooks Online had markup or discount amounts, you must manually add the amounts to the related transactions in [!INCLUDE[d365fin](includes/d365fin_md.md)] before you post them.
+* If the transactions in QuickBooks Online had markup or discount amounts, you must manually add the amounts to the related transactions in [!INCLUDE[prod_short](includes/prod_short.md)] before you post them.
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
 ## See Also
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  

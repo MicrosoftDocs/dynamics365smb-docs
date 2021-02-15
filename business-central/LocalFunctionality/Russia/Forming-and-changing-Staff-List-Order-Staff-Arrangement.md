@@ -4,7 +4,7 @@ description: Russian enhancements include forming and changing staff.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -47,7 +47,7 @@ The HR Manager No. and Chief Accountant No. fields are filled automatically acco
 
 ## Forming of staff list
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], there is a concept of archive staffing. Archive staffing allows you to save the status of the staff list at the time of its creation.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there is a concept of archive staffing. Archive staffing allows you to save the status of the staff list at the time of its creation.
 
 Staff list for any date you can see: **Human Resources > Organization > Staff List**.
 

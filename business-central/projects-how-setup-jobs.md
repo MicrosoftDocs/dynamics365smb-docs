@@ -4,7 +4,7 @@ description: Describes how to set up general jobs information, and set up prices
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
@@ -13,7 +13,7 @@ ms.author: edupont
 ---
 # Set Up Jobs
 
-As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prodshort](includes/prodshort.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
+As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
 
 For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
 
@@ -117,4 +117,4 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

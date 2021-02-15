@@ -6,7 +6,7 @@ documentationcenter: ''
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -35,5 +35,5 @@ To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

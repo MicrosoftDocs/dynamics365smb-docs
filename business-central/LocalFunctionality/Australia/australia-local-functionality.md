@@ -3,7 +3,7 @@ title: Australia Local Functionality
 description: The following topics describe the local functionality in the Australian version of Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -13,7 +13,7 @@ ms.author: soalex
 
 ---
 # Australia Local Functionality
-The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -52,7 +52,7 @@ The following topics describe local functionality that is unique to the Australi
 
 ## See Also
 
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]

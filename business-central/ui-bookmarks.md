@@ -80,3 +80,6 @@ When you add a new action, any translated text that was available at the time is
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

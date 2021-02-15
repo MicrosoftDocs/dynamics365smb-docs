@@ -45,3 +45,6 @@ When you use the **Copy from Document** function to create new documents based o
 ## See Also  
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

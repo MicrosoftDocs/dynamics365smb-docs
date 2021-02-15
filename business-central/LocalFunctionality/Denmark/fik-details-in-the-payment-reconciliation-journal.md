@@ -30,3 +30,6 @@ The **Transaction Text** field on the **Payment Reconciliation Journal** page sh
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

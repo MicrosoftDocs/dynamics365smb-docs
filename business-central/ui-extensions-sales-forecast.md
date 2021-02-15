@@ -60,3 +60,6 @@ You can also create your own predictive web service based on a public model name
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

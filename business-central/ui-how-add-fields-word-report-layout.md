@@ -119,3 +119,6 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 ## See Also  
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Sometimes you must provide a customer a loaner item for use when your customer s
 [Setting Up Service Management](service-setup-service.md)  
 [Delivering Service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

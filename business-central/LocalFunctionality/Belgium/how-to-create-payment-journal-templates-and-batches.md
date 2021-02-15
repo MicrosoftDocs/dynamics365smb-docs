@@ -50,3 +50,6 @@ If you assign a bank account to the payment journal template, the bank account w
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

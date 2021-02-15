@@ -30,3 +30,6 @@ You must print the Factura-Invoice document as part of customs declaration.
 ## See Also
 
 [Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

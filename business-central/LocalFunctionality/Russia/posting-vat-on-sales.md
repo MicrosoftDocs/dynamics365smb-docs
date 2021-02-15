@@ -52,3 +52,5 @@ In the **Trans. VAT Account** field, enter Subaccount 90-3 Gain VAT or Subaccoun
 ## See Also
 
 [VAT Ledgers](VAT-Ledgers.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

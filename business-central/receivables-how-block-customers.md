@@ -35,3 +35,6 @@ The following table describes the options for blocking customers.
 [Register New Customers](sales-how-register-new-customers.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

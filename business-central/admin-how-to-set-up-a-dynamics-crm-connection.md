@@ -141,3 +141,6 @@ If you are not using Azure Active Directory to manage identities and access, you
 ## See Also
 
 [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -72,3 +72,6 @@ FastTab **Payments**:
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Additionally to standardization, Dynamics NAV documents were extended according 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

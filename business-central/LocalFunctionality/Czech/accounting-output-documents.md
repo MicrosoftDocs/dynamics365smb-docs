@@ -37,3 +37,6 @@ In order to comply with the legislation, reporting features, and local reporting
 [Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

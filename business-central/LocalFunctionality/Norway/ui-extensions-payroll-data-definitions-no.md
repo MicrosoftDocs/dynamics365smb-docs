@@ -31,3 +31,6 @@ After you install the extension, the next step is to specify the format for the 
 
 ## See Also
 [Norway Local Functionality](norway-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

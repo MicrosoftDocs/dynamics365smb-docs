@@ -34,3 +34,6 @@ The corrective invoice must meet the following requirements:
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

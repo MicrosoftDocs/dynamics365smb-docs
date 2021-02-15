@@ -34,3 +34,6 @@ To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

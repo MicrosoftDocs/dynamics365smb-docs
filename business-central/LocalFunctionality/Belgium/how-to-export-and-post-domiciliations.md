@@ -75,3 +75,6 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank 
  [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
  [Test Domiciliations](how-to-test-domiciliations.md)   
  [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

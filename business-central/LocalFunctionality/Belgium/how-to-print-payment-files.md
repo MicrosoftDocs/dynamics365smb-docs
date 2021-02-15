@@ -54,3 +54,6 @@ In the payment journal, the **Status** field on the exported lines will be set t
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

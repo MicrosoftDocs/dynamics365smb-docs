@@ -124,3 +124,6 @@ Use the following table to learn more about the additional finance features that
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

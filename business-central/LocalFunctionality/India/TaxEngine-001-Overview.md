@@ -76,3 +76,6 @@ Tax Engine extension is a combination of 6 smaller extensions or modules. Extens
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

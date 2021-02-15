@@ -58,3 +58,6 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,3 +33,6 @@ The following are some examples of the settings that you can apply to service ma
 [Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

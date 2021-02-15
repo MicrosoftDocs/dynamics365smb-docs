@@ -45,3 +45,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

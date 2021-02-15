@@ -107,3 +107,6 @@ If the vendor advance needs to be corrected or the entry is wrongly posted, in s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

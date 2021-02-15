@@ -28,3 +28,6 @@ If you need to fix an error on a fixed asset charge of an invoice, you can post 
 
 [Fixed Assets](../../fa-manage.md)  
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -20,3 +20,6 @@
 ## See Also
 
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ The Adjust Exchange Rates batch job was extended to include the Czech Advance Pa
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

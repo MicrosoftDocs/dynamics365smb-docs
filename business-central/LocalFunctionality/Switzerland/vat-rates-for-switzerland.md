@@ -22,3 +22,6 @@ For more information, see [Report VAT to Tax Authorities](../../finance-how-repo
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [Print Swiss VAT Statements (older version)](how-to-print-swiss-vat-statements-older-version-.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

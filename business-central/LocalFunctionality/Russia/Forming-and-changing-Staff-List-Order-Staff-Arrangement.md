@@ -74,3 +74,6 @@ Click OK to generate the report.
 ## See Also
 
 [Human Resources](Human-Resources.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

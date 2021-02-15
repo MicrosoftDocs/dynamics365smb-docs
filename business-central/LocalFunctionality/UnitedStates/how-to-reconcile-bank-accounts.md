@@ -106,3 +106,6 @@ You can print the following bank reconciliation reports:
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

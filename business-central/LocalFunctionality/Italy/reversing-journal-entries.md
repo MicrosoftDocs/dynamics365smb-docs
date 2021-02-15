@@ -25,3 +25,6 @@ Controls have been added to the **Reverse Transaction Entries** page to comply w
 ## See Also  
   [Italy Local Functionality](italy-local-functionality.md)  
   [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

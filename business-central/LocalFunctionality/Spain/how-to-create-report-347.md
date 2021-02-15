@@ -39,3 +39,6 @@ When you send the Report 347 declaration, you must include 347 declaration label
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

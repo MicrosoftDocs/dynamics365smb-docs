@@ -71,3 +71,6 @@ This setup is required for calculation of GST TDS and GST TCS on payment to vend
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

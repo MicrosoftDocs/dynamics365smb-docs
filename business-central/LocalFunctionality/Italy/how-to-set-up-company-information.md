@@ -33,3 +33,6 @@ Fiscal documents must contain all company information. You can enter all relevan
 
 ## See Also  
  [Italy Local Functionality](italy-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

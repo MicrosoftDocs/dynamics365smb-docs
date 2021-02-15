@@ -138,3 +138,6 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

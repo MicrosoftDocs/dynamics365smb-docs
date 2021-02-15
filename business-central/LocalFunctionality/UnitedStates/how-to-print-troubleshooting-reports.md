@@ -22,3 +22,6 @@
 [United States Local Functionality](united-states-local-functionality.md)  
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

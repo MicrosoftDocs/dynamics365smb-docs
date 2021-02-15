@@ -44,3 +44,6 @@ For more information, see the entry on OIOUBL profiles in the frequently asked q
  [Set Up OIOUBL](how-to-set-up-oioubl.md)  
  [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)  
  [Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

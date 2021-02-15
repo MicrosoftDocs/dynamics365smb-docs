@@ -49,3 +49,6 @@ This video shows how to set up an workflow that will require someone to request 
  [Workflow](across-workflow.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -23,3 +23,6 @@ For more information, see [Encrypting Data in Dynamics 365 Business Central](/dy
 
 ## See Also  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

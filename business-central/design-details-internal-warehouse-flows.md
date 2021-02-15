@@ -114,3 +114,6 @@ The flow of items between bins at a company location centers on picking componen
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

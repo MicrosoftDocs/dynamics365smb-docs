@@ -25,3 +25,6 @@ It is possible to run ARES actualization from Contact, Vendor and Customer Card.
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

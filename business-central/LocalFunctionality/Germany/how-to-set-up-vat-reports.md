@@ -37,3 +37,6 @@ Information from various invoice types is used to feed data into the EU Sales Li
 ## See Also  
  [VAT Reporting](vat-reporting.md)   
  [Create VAT Reports](how-to-create-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

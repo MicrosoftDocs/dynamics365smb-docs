@@ -38,3 +38,6 @@ Any workflow template that you create with Power Automate is added to the list o
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

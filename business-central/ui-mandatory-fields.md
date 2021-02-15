@@ -26,3 +26,6 @@ On the **Item Card** page, the red asterisk appears in the **Description** field
 
 ## See Also
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

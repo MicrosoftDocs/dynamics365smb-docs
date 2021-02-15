@@ -44,3 +44,6 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 ## See Also  
  [Fixed Assets](../../fa-manage.md)  
  [Italian Fixed Assets](italian-fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

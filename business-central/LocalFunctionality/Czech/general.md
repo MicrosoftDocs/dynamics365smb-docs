@@ -35,3 +35,6 @@ New functionality on the **User Setup** page in combination with the new **User 
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

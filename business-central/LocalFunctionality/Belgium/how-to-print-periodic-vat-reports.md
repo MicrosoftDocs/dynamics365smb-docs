@@ -65,3 +65,6 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
  [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

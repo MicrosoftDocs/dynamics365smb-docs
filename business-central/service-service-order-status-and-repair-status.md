@@ -90,3 +90,6 @@ For example, if one service item has the repair status **Initial**, linked to th
 
 [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

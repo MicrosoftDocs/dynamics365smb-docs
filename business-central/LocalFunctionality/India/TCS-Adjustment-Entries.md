@@ -58,3 +58,6 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

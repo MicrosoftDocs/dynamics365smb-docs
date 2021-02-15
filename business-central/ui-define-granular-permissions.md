@@ -260,3 +260,6 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes th
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

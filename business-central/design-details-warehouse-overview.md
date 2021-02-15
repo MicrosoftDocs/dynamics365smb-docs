@@ -75,3 +75,6 @@ To align with the financial concepts of purchases and sales, [!INCLUDE[prod_shor
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ From the **Report Settings** page, you can:
 
 ## See Also
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

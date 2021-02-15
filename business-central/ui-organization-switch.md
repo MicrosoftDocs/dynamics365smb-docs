@@ -45,3 +45,6 @@ When you are signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you ca
 
 [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

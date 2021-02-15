@@ -34,3 +34,6 @@ Contact your Microsoft partner for information on how to obtain AMAS software.
 
 ## See Also  
  [Australia Local Functionality](australia-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

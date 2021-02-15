@@ -42,3 +42,6 @@ The **Payment History List** page displays the payment history that you just cre
 
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

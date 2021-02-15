@@ -25,3 +25,6 @@
 [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
 [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

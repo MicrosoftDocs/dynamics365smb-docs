@@ -67,3 +67,6 @@ Administrators have the option to set or change these settings for users in each
 [Getting Started](product-get-started.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Changing Language and Locale](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

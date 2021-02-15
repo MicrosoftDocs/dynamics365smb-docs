@@ -28,3 +28,6 @@ You can set up the general ledger to use the work date as the posting date for c
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
  [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

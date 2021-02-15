@@ -167,3 +167,6 @@ Following are few examples of accounting entries.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

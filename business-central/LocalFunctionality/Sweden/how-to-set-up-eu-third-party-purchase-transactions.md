@@ -27,3 +27,6 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 ## See Also  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)   
  [Sweden Local Functionality](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

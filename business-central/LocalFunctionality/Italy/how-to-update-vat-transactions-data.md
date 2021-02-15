@@ -41,3 +41,6 @@ When you run the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] pr
 [Set Up VAT](../../finance-setup-vat.md)  
  [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

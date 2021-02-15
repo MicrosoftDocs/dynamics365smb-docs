@@ -72,3 +72,6 @@ In the process of posting a journal line of this type, the specified entry is mo
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ To comply with legal requirements, statutory information is available on the **S
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

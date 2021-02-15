@@ -36,3 +36,6 @@ Additional information, such as VAT rate and original currency amount, is transf
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
  [Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

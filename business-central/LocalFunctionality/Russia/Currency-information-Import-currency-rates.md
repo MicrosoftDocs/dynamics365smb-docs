@@ -47,3 +47,6 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 
 [Adjust Exchange Rates](Adjust-Exchange-Rates.md)  
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

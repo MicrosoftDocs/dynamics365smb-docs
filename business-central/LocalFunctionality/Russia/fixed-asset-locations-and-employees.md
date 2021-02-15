@@ -63,3 +63,6 @@ When posting the documents and journals, the values of these fields are transfer
 ## See Also
 
 [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

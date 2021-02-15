@@ -46,3 +46,6 @@ The statutory reports are based on account schedules and tax registers. For each
 
 [Tax Accounting](Tax-Differences.md)  
 [Tax Differences](Tax-Accounting.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

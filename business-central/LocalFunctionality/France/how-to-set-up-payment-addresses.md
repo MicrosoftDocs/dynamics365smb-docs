@@ -49,3 +49,6 @@ The following procedure describes how to set up a payment address for a vendor, 
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)   
  [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)s
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

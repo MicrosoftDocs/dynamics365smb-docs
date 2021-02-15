@@ -74,3 +74,6 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Item Application](design-details-item-application.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

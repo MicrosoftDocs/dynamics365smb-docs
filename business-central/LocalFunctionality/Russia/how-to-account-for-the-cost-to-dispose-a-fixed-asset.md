@@ -56,3 +56,6 @@ After the fixed asset write-off report is posted, it becomes the posted fixed as
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

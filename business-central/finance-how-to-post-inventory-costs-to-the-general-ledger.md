@@ -83,3 +83,6 @@ The following table describes them.
 [Sales](sales-manage-sales.md)    
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

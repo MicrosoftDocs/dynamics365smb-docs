@@ -38,3 +38,6 @@ This report shows the opening balance of all the posted ingoing and outgoing cas
 ## See Also
 
 [Setting Up Inventory](../../inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

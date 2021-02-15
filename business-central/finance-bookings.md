@@ -39,3 +39,6 @@ The support for invoicing appointments from Bookings is simpler than the fuller 
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

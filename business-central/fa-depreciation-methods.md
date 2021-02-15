@@ -353,3 +353,6 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 [Finance](finance.md)  
 [Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

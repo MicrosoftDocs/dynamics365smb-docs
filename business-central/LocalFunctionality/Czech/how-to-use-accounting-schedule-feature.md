@@ -24,3 +24,6 @@ As one of the most extensively used features for analysis and reporting, Eastern
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

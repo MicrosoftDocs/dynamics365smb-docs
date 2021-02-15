@@ -28,3 +28,6 @@ You can unapply general ledger entries in a very straightforward way.
 
 ## See Also  
 [Apply General Ledger Entries](how-to-apply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

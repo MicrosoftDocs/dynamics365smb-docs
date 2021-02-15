@@ -81,3 +81,6 @@ The organization and principle of calculation of both types of documents is the 
 ## See Also
 
 [Human Resources](Human-Resources.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

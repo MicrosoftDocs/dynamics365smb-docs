@@ -128,3 +128,6 @@ After you create a payment slip, you can generate payment files and send them to
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)   
  [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

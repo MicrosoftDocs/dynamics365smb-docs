@@ -46,3 +46,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

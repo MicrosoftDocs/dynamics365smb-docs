@@ -30,3 +30,6 @@ To fulfil the requirements in legislation reporting and local reporting practice
 [VAT date](how-to-setup-vat-date.md)  
 [VAT statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

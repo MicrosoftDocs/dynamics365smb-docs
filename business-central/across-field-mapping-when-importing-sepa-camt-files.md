@@ -64,3 +64,6 @@
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

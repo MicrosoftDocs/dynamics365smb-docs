@@ -36,3 +36,6 @@ The following procedure shows how to process a normalization function.
 [Tax Difference Registers](Tax-Difference-Registers.md)  
 [Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
 [Post Tax Differences](How-to-Post-Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

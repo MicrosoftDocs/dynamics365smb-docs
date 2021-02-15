@@ -64,3 +64,6 @@ The following procedure is based on a customer card. The steps are similar for a
 [Sales](sales-manage-sales.md)  
 [Set Up Contacts](marketing-setup-contacts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

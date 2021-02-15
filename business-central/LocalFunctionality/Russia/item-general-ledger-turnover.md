@@ -100,3 +100,6 @@ On the **Options** FastTab, you can specify the format options listed in the fol
 ## See Also
 
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

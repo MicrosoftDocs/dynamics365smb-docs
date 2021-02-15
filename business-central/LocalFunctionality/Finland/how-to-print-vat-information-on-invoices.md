@@ -30,3 +30,6 @@ You can use posting groups to print VAT information for each item on the sales i
  [Electronic Banking in Finland](electronic-banking-in-finland.md)  
  [Setting Up Posting Groups](../../finance-posting-groups.md)   
  [Setting Up Value-Added Tax](../../finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

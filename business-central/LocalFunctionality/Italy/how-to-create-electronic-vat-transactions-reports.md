@@ -39,3 +39,6 @@ Now that you have created the VAT report, you must submit it to the tax authorit
 
 ## See Also  
  [Italian VAT](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

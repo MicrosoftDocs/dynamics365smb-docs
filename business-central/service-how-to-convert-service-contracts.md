@@ -64,3 +64,6 @@ The following procedure describes how to create a new credit memo using the **Ge
 [Finance](finance.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

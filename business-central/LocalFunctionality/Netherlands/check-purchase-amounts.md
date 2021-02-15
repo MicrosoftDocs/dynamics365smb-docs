@@ -29,3 +29,6 @@ Before posting a purchase invoice or credit memo, application checks if the amou
 
 ## See Also  
  [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

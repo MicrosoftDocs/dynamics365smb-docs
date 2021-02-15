@@ -69,3 +69,6 @@ The amount entered in the **Amount** field will be transferred from the Future E
 ## See Also
 
 [Fixed Assets](fixed-assets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

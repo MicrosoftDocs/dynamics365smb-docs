@@ -41,3 +41,6 @@ If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.m
 
 ## See Also  
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

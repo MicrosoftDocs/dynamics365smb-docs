@@ -105,3 +105,6 @@ This validates the list of fields against the keys for the tables. If you select
 
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

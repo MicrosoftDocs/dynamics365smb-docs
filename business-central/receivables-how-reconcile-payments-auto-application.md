@@ -18,7 +18,7 @@ ms.author: edupont
 The **Payment Reconciliation Journal** page specifies payments, either incoming or outgoing, that have been recorded as transactions on your online bank account and that you can apply to their related open customer, vendor, and bank account ledger entries. The lines in the journal are filled by importing a bank statement as a bank feed or file.
 
 > [!NOTE]
-> The page offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries. Note that you can overwrite the suggested automatic applications, and you can choose to not use automatic application at all. For more information, see step 7.
+> The page offers automatic matching functionality that applies payments to their related open entries based on a matching of text on a bank statement line (journal line) with text on one or more open entries. You can overwrite the suggested automatic applications. For more information, see step 7 in [To reconcile payments using automatic application](receivables-how-reconcile-payments-auto-application.md#to-reconcile-payments-using-automatic-application). You can also choose not to use automatic application for a bank account by turning on the **Disable Automatic Payment Matching** toggle on the bank account card. In that case, you can manually match payments. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually). 
 
 A payment reconciliation journal is related to one bank account in [!INCLUDE[prod_short](includes/prod_short.md)] that reflects the online bank account where the payment transactions are recorded. Any open bank account ledger entries related to the applied customer or vendor ledger entries will be closed when you choose the **Post Payments and Reconcile Bank Account** action. This means that the bank account is automatically reconciled for payments that you post with the journal.
 
@@ -71,4 +71,5 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).

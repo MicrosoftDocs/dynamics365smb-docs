@@ -74,8 +74,9 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 5. Choose the **OK** button.
 
 ## To match bank statement lines with bank account ledger entries automatically
+The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). You can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all by turning on the **Disable Automatic Payment Matching** toggle on the bank account. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually). 
 
-The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). Note that you can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+If you're curious, you can explore why the matches were made by choosing a matched statement line, and then choosing **Match Details**. The **Match Details** page will show the bank account ledger entry that the statement line is matched to, and the fields that were matched. 
 
 1. On the **Bank Acc. Reconciliation** page, choose the **Match Automatically**. **The Match Bank Entries** page opens.
 2. In the **Transaction Date Tolerance (Days)** field, specify the span of days before and after the bank account ledger entry posting date within which the function will search for matching transaction dates in the bank statement.

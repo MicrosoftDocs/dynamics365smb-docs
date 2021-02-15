@@ -98,7 +98,7 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app doesn't support location
 
 Some browsers, such as the new Microsoft Edge, allow you to choose which device camera to use when your device supports multiple cameras. 
 
-## Teams displays mixed languages for my cards and card details 
+## Teams displays mixed languages for my cards and card details
 
 For cards and card details to display consistently in the same language in Teams, the language of your Teams client and the language you use in [!INCLUDE [prod_short](includes/prod_short.md)] Web client must match.
 
@@ -111,6 +111,21 @@ For more information on how languages work between Teams and [!INCLUDE [prod_sho
 ## I edited a field in the details window, but my change wasn't saved
 
 Changes you make to a field in the details windows are automatically saved when you leave the field. Before you close the window after changing a field, be sure to press the Tab key or click/tap outside the field.
+
+## A new tile appeared in the App Launcher. How do I remove it?
+
+When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" will appear after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
+
+As an administrator, who has Azure Active Directory admin permissions, you can hide the tile by doing the following steps:
+
+1. Sign in to the [Azure Active Directory admin center](https://aad.portal.azure.com/).
+2. Select **Enterprise apps**, then select **Business Central Teams Integration Service Connector**.
+3. Select **Properties**, then set the **Visible To Users** switch to **No**.
+4. Select **Save**.
+
+> [!NOTE]
+> It will be a while before this change takes effect.
+
 
 ## See Also
 

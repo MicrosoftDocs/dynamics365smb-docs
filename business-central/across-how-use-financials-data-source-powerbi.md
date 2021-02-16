@@ -3,7 +3,7 @@ title: Building Reports in Power BI Desktop to Display Business Central Data | M
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -133,3 +133,6 @@ There are a couple ways to get reports to your coworkers and others:
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

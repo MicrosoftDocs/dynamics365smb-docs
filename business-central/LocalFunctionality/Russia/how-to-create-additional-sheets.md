@@ -4,7 +4,7 @@ description: Russian enhancements include additional sheets for VAT purchase led
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -91,3 +91,6 @@ Processing of corrective documents for sales book is similar to processing for p
 ## See Also
 
 [VAT Ledgers](VAT-Ledgers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,3 +34,6 @@ The create recurring orders process will find all of the recurring orders based 
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

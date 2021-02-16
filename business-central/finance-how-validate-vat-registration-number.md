@@ -3,7 +3,7 @@ title: Validate VAT Registration Numbers
 description: Let Business Central use the VIES service to validate VAT registration numbers for you automatically.
 author: kielkenny
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
@@ -45,3 +45,6 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

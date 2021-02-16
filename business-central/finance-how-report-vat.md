@@ -4,7 +4,7 @@ description: Learn how to prepare reports that lists VAT from sales during a per
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -118,3 +118,6 @@ The following table describes the codeunits that you must create for your report
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

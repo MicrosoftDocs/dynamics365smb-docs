@@ -4,7 +4,7 @@ description: This section describes local functionality - Reverse charge in the 
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -21,3 +21,6 @@ It is used to set the regime of transferred tax liability and its reporting. The
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

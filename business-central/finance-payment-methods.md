@@ -4,7 +4,7 @@ description: You use payment methods, for example, check, bank transfer, cash, o
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -45,3 +45,6 @@ Optionally, add payment terms to your payment method. For more information, see 
 [Set Up Payment Terms](finance-payment-terms.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

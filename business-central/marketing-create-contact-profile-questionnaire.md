@@ -4,7 +4,7 @@ description: 'Set up profile questionnaires to help classify your business conta
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -154,3 +154,6 @@ When you assign the profile questionnaire containing this question to a contact,
 
 ## See Also
 [Creating Contacts](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

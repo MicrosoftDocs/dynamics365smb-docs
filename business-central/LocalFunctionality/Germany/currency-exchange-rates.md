@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ German companies must use the **BilMoG (Germany)** option when they run the **Ad
 ## See Also  
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

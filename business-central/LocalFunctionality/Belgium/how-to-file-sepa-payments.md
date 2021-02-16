@@ -4,7 +4,7 @@ description: In Business Central, you can use Single Euro Payments Area (SEPA) c
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -42,3 +42,6 @@ Before you can file a SEPA payment, you must complete the following administrati
  [Set Up Export Protocols](how-to-set-up-export-protocols.md)   
  [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

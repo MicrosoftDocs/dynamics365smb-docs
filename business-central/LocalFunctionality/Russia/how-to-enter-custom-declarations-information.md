@@ -4,7 +4,7 @@ description: Russian enhancements include custom declarations.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -35,3 +35,6 @@ Use the following procedure to enter custom declaration information.
 ## See Also
 
 [Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

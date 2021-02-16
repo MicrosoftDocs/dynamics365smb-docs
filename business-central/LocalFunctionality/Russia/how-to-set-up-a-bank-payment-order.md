@@ -4,7 +4,7 @@ description: Russian enhancements include bank payment orders.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -29,3 +29,6 @@ Bank payment orders must be used if a bank payment is for the official state bud
 ## See Also
 
  [Bank Management](Bank-Management.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

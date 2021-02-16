@@ -4,7 +4,7 @@ description: Russian enhancements include importing and exporting account schedu
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -26,3 +26,6 @@ You can import and export account schedules into other companies and databases.
 ## See Also
 
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -66,3 +66,6 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 [Closing the Books](year-close-books.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [How to Work with Account Schedules](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

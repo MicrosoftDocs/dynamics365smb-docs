@@ -3,7 +3,7 @@ title: Business users learning catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
 ---
 
@@ -43,3 +43,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Return items in Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Do you need to return items to vendors and accept returns from customers? This path will help you learn how to process returns.                                                                                                                                                                         | Free, self-paced online learning path | 1 hour 25 minutes  |
 | [Replenish items in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Do you need to replenish inventory items in your business? This learning path will show you options you can use to efficiently replenish items in Business Central.                                                                                                                                     | Free, self-paced online learning path | 1 hour 46 minutes  |
 | [Assemble items in Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Do you sell assembled items? This learning path provides the information you need to assembly management and items. It also provides steps to produce assembled items to stock or order.                                                                                                                | Free, self-paced online learning path | 2 hours 26 minutes |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

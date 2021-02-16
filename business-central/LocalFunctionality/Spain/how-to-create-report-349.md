@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -66,3 +66,6 @@ For corrections to amounts that were included in an earlier 349 declaration, the
 
 ## See Also  
 [Report 349](report-349.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

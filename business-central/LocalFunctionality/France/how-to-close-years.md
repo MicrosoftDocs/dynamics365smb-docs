@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ After a fiscal year is fiscally closed, it cannot be opened again, and general l
  [Year End Processes Overview](year-end-processes-overview.md)   
  [Post the Year-End Closing Entry](how-to-post-the-year-end-closing-entry.md)   
  [Closing Years and Periods](../../year-close-years-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: The majority of companies in the Czech Republic request the followi
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -36,3 +36,6 @@ This feature in User Setup in combination with new User Setup Lines table allows
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

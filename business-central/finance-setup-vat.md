@@ -3,7 +3,7 @@ title: About Setting Up Value-Added Tax | Microsoft Docs
 description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -193,3 +193,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 [Local functionality in Business Central](about-localization.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

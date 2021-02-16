@@ -4,7 +4,7 @@ description: Learn how to set up Business Central so that you can inform custome
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -69,3 +69,6 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Reminder Terms and Levels](finance-setup-reminders.md)  
 [Setting Up Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

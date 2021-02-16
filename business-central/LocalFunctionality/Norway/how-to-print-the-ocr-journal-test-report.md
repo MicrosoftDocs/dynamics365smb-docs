@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ You can print the **OCR Journal – Test** report to test the imported payment t
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
  [Working with General Journals](../../ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

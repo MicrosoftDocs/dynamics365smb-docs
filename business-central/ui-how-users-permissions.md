@@ -4,7 +4,7 @@ description: Describes how to add users to Business Central online or on-premise
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -153,3 +153,6 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  
 [Security and Protection in Business Central (administration content)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn how to manage users and Role Centers in Business Central.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
@@ -141,3 +141,6 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage s
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

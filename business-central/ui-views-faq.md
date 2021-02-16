@@ -3,7 +3,7 @@ title: Frequently Asked Questions about List Views
 description: Detailed information about saving filters as list views.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -110,3 +110,6 @@ Expressions that only use symbols, such as `|` or `..` are considered safe for u
 [Save and Personalize List Views](ui-views.md)  
 [Finding Features and Information](ui-search.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

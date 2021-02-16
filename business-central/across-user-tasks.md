@@ -1,10 +1,10 @@
 ---
-title: Assigning and managing tasks| Microsoft Docs
-description: Learn how to assign tasks to users, including your accountant, in Business Central
+title: Assigning and managing tasks
+description: Learn how to assign tasks to users, including your accountant, in Business Central, and how you pick up and complete tasks.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -44,3 +44,6 @@ If you want to bulk delete all or some user tasks, you can use the **Delete User
 
 [Searching for a Page or Report](ui-search.md)  
 [Accountant Experiences in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

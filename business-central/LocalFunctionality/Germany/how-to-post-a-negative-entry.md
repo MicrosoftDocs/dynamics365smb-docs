@@ -4,7 +4,7 @@ description: You can use the Correction field to post a negative debit instead o
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -24,3 +24,6 @@ You can use the **Correction** field to post a negative debit instead of a credi
 ## See Also  
 [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)  
 [Germany Local Functionality](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

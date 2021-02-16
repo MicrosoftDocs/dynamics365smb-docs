@@ -4,7 +4,7 @@ description: This section describes Czech local functionality - General Function
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
 ms.date: 10/01/2020
 ms.reviewer: v-pejano
@@ -35,3 +35,6 @@ New functionality on the **User Setup** page in combination with the new **User 
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

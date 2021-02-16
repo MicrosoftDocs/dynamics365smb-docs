@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -39,3 +39,6 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
  [Print Payment Files](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

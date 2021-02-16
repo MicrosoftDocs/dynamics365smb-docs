@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -23,3 +23,6 @@
 [Delivery Reminders](delivery-reminders.md)  
 [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

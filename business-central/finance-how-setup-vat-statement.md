@@ -3,7 +3,7 @@ title: Set Up a VAT Statement | Microsoft Docs
 description: Set Up a VAT Statement
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -46,3 +46,6 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Local functionality in Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -51,3 +51,6 @@ This generates an XML file that is stored at the default download location on yo
  [Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

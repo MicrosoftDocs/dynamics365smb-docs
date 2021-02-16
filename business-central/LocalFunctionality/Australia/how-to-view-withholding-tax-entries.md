@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,3 +31,6 @@ You can view the posted WHT entries on the **WHT Entry** page.
  [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
  [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

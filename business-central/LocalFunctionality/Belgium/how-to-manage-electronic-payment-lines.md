@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -33,3 +33,6 @@ You can have [!INCLUDE[prod_short](../../includes/prod_short.md)] suggest paymen
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

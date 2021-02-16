@@ -84,3 +84,5 @@ You can create retention policies to delete unneeded data in logs after a period
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Define Retention Policies](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

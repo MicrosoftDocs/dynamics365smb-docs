@@ -3,7 +3,7 @@
     description: Describes how to print a periodic goods and services tax (GST) settlement in the Australian version of Business Central.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -20,3 +20,6 @@
 
 [Set Up Goods and Service Tax Posting](how-to-set-up-goods-and-service-tax-posting.md)   
 [Australian Local Functionality](australia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

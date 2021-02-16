@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -101,3 +101,6 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

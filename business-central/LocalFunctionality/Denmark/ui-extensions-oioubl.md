@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ For more information, see [Set Up the OIOUBL Extension](how-to-set-up-oioubl.md)
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [Set Up the OIOUBL Extension](how-to-set-up-oioubl.md)  
 [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

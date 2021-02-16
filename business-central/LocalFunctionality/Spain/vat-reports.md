@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -48,3 +48,6 @@ With VAT-VIES declaration you can run a batch file to generate European Union (E
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 340](report-340.md)   
  [Report 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

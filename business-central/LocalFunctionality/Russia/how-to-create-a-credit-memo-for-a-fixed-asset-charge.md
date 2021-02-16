@@ -4,7 +4,7 @@ description: Russian enhancements include credit memos for fixed assets charges.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -28,3 +28,6 @@ If you need to fix an error on a fixed asset charge of an invoice, you can post 
 
 [Fixed Assets](../../fa-manage.md)  
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: This section describes Czech local functionality - Bank feature
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 10/01/2020
 ms.reviewer: v-pejano
@@ -65,3 +65,6 @@ This allows you to create payment orders and bank statements. An unlimited numbe
 [Czech Local Functionality](czech-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

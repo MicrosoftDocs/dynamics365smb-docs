@@ -4,7 +4,7 @@ description: Learn about the company hub in Dynamics 365 Business Central that y
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/29/2020
 ms.author: edupont
@@ -90,3 +90,6 @@ Administrators can use the same assisted setup guide to add you to their [!INCLU
 [Accountant Experiences in Business Central](finance-accounting.md)  
 [The Company Hub for Business Central Extension](ui-extensions-company-hub.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

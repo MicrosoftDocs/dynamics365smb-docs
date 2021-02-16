@@ -4,7 +4,7 @@ description: In the Norwegian version of Business Central, VAT processing inform
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -71,3 +71,6 @@ The general posting type will be handled in two ways, depending on the value in 
 
 ## See Also  
  [Norwegian VAT Reporting](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

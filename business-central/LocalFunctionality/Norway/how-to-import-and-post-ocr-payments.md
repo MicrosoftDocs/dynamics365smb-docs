@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -49,3 +49,6 @@ The OCR payment files are posted to the cash receipt journal.
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [Work With General Journals](../../ui-work-general-journals.md)   
  [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

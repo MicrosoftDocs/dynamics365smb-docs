@@ -4,7 +4,7 @@ description: Russian enhancements include charges and deductions.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -72,3 +72,6 @@ In the process of posting a journal line of this type, the specified entry is mo
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

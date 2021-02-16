@@ -4,7 +4,7 @@ description: Russian enhancements include calculation of tax differences for fix
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -36,3 +36,6 @@ The following procedure shows how to process a normalization function.
 [Tax Difference Registers](Tax-Difference-Registers.md)  
 [Set Up Norm Jurisdictions](How-to-Set-Up-Norm-Jurisdictions.md)  
 [Post Tax Differences](How-to-Post-Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

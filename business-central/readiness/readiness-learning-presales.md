@@ -3,7 +3,7 @@ title: Partner pre-sales learning catalog
 description: Find all the available learning for Business Central pre--sales consultants.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
 ---
 
@@ -74,3 +74,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Demo: Automate Accounts Payable - Summer 2019](https://youtu.be/RB3_7UTpEjo) | Join Craig as he shows you one way in which you can automate accounts payable process using Business Central. | YouTube video | 3 minutes 51 seconds |
 | [Demo: Setting up a new company](https://youtu.be/ZHg4UXTOEp8) | Join Craig as he shows you how to set up a new company using Business Central | YouTube video | 4 minutes 48 seconds |
 -->
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

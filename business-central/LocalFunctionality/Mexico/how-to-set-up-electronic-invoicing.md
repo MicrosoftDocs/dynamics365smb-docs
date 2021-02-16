@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -72,3 +72,6 @@ Finally, you must add information about your customers and vendors. The followin
 [Electronic Invoicing](electronic-invoicing.md)  
 [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
 [Mexico Local Functionality](mexico-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

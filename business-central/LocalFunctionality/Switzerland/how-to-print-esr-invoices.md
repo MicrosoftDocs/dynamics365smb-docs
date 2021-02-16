@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -48,3 +48,6 @@ You can also reprint the sales invoice ESR report or sales ESR coupon report.
 ## See Also  
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Import ESR Payments](how-to-import-esr-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ After you create a recurring group, you can set up recurring orders on the blank
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)   
  [Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

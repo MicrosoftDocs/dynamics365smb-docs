@@ -4,7 +4,7 @@ description: Learn about how to get a trial version of Business Central, how to 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 10/01/2020
@@ -97,3 +97,6 @@ The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and you
 [Preparing Demonstration Environments (as a partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

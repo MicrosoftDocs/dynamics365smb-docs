@@ -4,7 +4,7 @@ description: Describes how to use the extension to import customers, vendors, it
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -67,3 +67,6 @@ Verify the beginning balances for accounts in the general ledger. QuickBooks doe
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

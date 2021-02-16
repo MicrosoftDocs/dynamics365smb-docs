@@ -4,7 +4,7 @@ description: Learn how to create your own views of filtered lists.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -46,3 +46,6 @@ As the number of views on a page grows, you may need more control over how views
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

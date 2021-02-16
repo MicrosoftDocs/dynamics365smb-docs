@@ -4,7 +4,7 @@ description: Russian enhancements include cash accounts.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -36,3 +36,6 @@ Cash accounts are similar to bank accounts and are created identically. You can 
 
 [Petty Cash Management](Petty-Cash-Management.md)  
 [Bank and Cash Management](bank-and-cash-management.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

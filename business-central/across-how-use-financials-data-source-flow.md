@@ -4,7 +4,7 @@ description: You can make your Business Central data available as a data source 
 author: bmeier90
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -84,3 +84,6 @@ For more information, see the [Power Automate Documentation](/power-automate/get
 [Approval User Setup](across-how-to-set-up-approval-users.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

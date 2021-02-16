@@ -4,7 +4,7 @@ description: The format of files for exchange of data in bank files, electronic 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -62,3 +62,6 @@ For all exchanges of data in XML files, you can prepare the data exchange setup 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

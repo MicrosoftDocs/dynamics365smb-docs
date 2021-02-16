@@ -4,7 +4,7 @@ description: Russian enhancements include books of purchases and sales VAT in XM
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -83,3 +83,6 @@ The generated file will be located in the folder specified in the configuration 
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

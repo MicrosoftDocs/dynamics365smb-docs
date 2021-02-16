@@ -4,7 +4,7 @@ description: This extensions lets you analyze images of contact persons and item
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -101,3 +101,6 @@ You can view the number of analyses you've done, and how many you can still do, 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

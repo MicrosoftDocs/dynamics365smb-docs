@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -24,3 +24,5 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
   
 ## See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

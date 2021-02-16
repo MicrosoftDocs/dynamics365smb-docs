@@ -4,7 +4,7 @@ description: Russian enhancements include locations and employees for fixed asse
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -63,3 +63,6 @@ When posting the documents and journals, the values of these fields are transfer
 ## See Also
 
 [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

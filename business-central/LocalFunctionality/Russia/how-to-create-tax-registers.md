@@ -4,7 +4,7 @@ description: Describes how to create tax registers in Russia.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -62,3 +62,6 @@ The following procedure shows how to create tax registers.
 [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
 [Find Entries](../../ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

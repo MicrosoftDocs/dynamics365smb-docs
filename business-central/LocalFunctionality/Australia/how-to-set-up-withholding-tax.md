@@ -4,7 +4,7 @@
  author: edupont04
 
  ms.service: dynamics365-business-central
- ms.topic: article
+ ms.topic: conceptual
  ms.devlang: na
  ms.tgt_pltfrm: na
  ms.workload: na
@@ -38,3 +38,6 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)  
 [Withholding Tax](withholding-tax.md)  
 [Australian Taxation Office (ATO)](https://www.ato.gov.au/)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

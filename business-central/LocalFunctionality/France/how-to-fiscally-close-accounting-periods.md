@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -33,3 +33,6 @@ When the period is fiscally closed, the Fiscally Closed field is selected, and t
  [Fiscally Close Years](how-to-fiscally-close-years.md)   
  [Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
  [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

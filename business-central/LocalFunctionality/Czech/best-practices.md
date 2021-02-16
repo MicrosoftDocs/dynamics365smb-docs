@@ -4,7 +4,7 @@ description: This section describes local functionality - Small Regulatory Featu
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
 ms.date: 10/01/2020
 ms.reviewer: v-pejano
@@ -29,3 +29,6 @@ Smaller regulatory features and local practices of Czech companies include the f
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

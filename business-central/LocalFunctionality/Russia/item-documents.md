@@ -4,7 +4,7 @@ description: Russian enhancements include item documents.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -174,3 +174,6 @@ The following procedure shows how to create a report based on a posted transfer 
 [Inventory Setup](Inventory-Setup.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

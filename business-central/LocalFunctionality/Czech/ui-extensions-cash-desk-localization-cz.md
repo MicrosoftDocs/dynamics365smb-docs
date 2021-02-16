@@ -4,7 +4,7 @@ description: The application covers the requirements of Czech legislation and be
 author: v-pejano
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -40,3 +40,6 @@ You can run the apply entries feature from the cash document rows to select cust
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

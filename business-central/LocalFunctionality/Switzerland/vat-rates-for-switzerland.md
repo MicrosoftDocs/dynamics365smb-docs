@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -22,3 +22,6 @@ For more information, see [Report VAT to Tax Authorities](../../finance-how-repo
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)   
  [Print Swiss VAT Statements (older version)](how-to-print-swiss-vat-statements-older-version-.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

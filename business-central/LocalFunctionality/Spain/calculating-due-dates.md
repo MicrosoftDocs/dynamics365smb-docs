@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -67,3 +67,6 @@ Each section has a summary section with the following information.
 [Managing Payables](../../payables-manage-payables.md)  
 [Managing Receivables](../../receivables-manage-receivables.md)  
  [Defining Payment Methods](../../finance-payment-methods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

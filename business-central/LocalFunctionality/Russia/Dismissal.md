@@ -4,7 +4,7 @@ description: Russian enhancements include dismissal of employees.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -42,3 +42,6 @@ The code of obligatory compensation payment is also linked to the reason of term
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -86,3 +86,6 @@ For example, there is a sales credit memo for INR 10,000 and 18% IGST has to be 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,3 +34,6 @@ The following procedure describes how to set up product posting groups for WHT, 
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
 [Withholding Tax](withholding-tax.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

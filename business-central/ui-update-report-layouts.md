@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -63,3 +63,6 @@ After you modify the layout, try to update the layout again.
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
  [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

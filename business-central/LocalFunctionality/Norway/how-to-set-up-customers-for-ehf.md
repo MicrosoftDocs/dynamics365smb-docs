@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -39,3 +39,6 @@ These fields are specific to EHF. The values are used in all EHF documents that 
 ## See Also  
  [Create Electronic Documents for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Set Up EHF](how-to-set-up-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -178,3 +178,6 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 ## See Also  
 [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   
 [Report VAT to a Tax Authority](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

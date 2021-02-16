@@ -4,7 +4,7 @@
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -51,3 +51,6 @@ The report will have the following name: <taxpayername>FEC<YYYYMMDD>
 
 ## See Also  
  [Close Years](how-to-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

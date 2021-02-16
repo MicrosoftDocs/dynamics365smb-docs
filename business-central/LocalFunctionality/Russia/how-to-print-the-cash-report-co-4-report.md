@@ -4,7 +4,7 @@ description: Russian enhancements include support for teh cash report CO-4 repor
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -38,3 +38,6 @@ This report shows the opening balance of all the posted ingoing and outgoing cas
 ## See Also
 
 [Setting Up Inventory](../../inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

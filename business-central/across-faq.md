@@ -4,7 +4,7 @@ description: Answers common questions about how to sign up for or buy Business C
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
@@ -143,3 +143,6 @@ The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

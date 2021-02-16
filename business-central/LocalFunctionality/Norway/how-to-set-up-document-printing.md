@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -54,3 +54,6 @@ The Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] co
 ## See Also  
   [Norwegian Giro and OCR-B Font](norwegian-giro-and-ocr-b-font.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

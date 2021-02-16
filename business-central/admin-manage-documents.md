@@ -4,7 +4,7 @@ description: Learn how you can keep your historical data by compressing ledger e
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
 
@@ -89,3 +89,6 @@ The following table lists the fields on the **Options** FastTab that are availab
 ## See Also
 
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

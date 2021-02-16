@@ -4,7 +4,7 @@
     author: jswymer
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -60,3 +60,6 @@ To set up the indicator, you specify up to two threshold values that define thre
     |**Subordinate**|Gray|  
 
 ## See Also
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

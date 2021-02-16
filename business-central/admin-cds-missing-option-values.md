@@ -7,7 +7,7 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ---
 
@@ -142,3 +142,5 @@ The **Payment Terms** table in [!INCLUDE[prod_short](includes/prod_short.md)] wi
 
 ## See Also
 [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

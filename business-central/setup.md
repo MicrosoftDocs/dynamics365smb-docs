@@ -4,7 +4,7 @@ description: Outlines tasks to set up, initialize, and configure Business Centra
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -72,3 +72,6 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

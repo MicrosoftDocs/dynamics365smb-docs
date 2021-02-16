@@ -4,7 +4,7 @@ description: Outlines tasks to set up rules and values to define your sales poli
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -40,3 +40,6 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 ## See Also
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,7 +3,7 @@
     description: Describes how to set up posting for goods and services tax (GST) in New Zealand.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -21,3 +21,6 @@ Goods and services tax (GST) is the tax that is applied on most goods and servic
 ## See Also
 
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -185,3 +185,5 @@ Script extension contains UI elements and tables which are used in scripting of 
   |--------------------|-----------------------|
   |Message|Message that is to be displayed.
   |Throw Error|Check this flag to throw error message.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

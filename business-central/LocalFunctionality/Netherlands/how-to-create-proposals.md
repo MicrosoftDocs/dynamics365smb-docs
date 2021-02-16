@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -69,3 +69,6 @@ Proposals can be generated manually or automatically based on either vendor or c
  [Invoice Sales](../../sales-how-invoice-sales.md)   
  [Record Purchases](../../purchasing-how-record-purchases.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ Use the disregard payment discount at full payment feature to accept payments wh
 [Defining Payment Methods](../../finance-payment-methods.md)  
 [Work with Payment Tolerances and Payment Discount Tolerances](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
 [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

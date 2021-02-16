@@ -35,3 +35,6 @@ The VAT Statement report contains many improvements which enable the user to:
 [VAT Control Report](how-to-create-vat-control-report.md)  
 [VAT Date](how-to-setup-vat-date.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

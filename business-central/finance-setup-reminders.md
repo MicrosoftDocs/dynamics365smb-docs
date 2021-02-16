@@ -4,7 +4,7 @@ description: Learn how to set up Business Central so that you can send a reminde
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -99,3 +99,6 @@ After you have set up the reminder terms, with additional levels and text, enter
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Setting Up Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

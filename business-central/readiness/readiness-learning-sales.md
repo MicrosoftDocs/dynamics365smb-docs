@@ -3,7 +3,7 @@ title: Partner sales and marketing learning catalog
 description: Find all the available learning for partner sales and marketing roles in Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
 ---
 
@@ -41,3 +41,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Cloud Solution Provider program - compare partner support programs](https://partner.microsoft.com/support/partnersupport) | Watch this video to see how to pick the right partner support plan for your business. Then see a side-by-side comparison below.    | Website                               |                       |
 | [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Partners-only) The Cloud SureStep Accelerated Sales Process is built around the needs of the modern buyer and endeavors to trigger an emotional, experience-driven Strategic Tipping Point early in the selling process. This series of videos and resources explain a prescriptive selling process that is specifically designed to counter the traditional resource intensive, "demo-oriented" solution sales approach that typically leads to highly customized product demonstrations, complex sales cycles and long implementation projects. The library of resources includes a number of customizable templates so you may create your own set of sales assets to support accelerated selling. | Website     |                       |
 | [Supplement to the Transition Partner Playbook (July 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | This supplement to the Transition Partner playbook provides some updated and new guidance to partners for securing their existing customer base from competition and new SaaS entrants.  | PowerPoint slideshow | 15 slides |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ The following procedure describes how to generate electronic invoices for sales 
  [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
   [Electronic Invoicing](electronic-invoicing.md)  
   [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

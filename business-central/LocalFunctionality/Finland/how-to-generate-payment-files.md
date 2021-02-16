@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,3 +31,6 @@ To send electronic payments to vendors, you must first generate a payment file f
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
  [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
  [Disregard Payment Discounts](how-to-disregard-payment-discounts.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

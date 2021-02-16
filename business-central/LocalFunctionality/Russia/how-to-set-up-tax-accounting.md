@@ -4,7 +4,7 @@ description: Russian enhancements include tax accounting.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -48,3 +48,6 @@ For more information about how to set up and customize tax registers, see [Creat
 [Tax Registers](Tax-Registers.md)  
 [Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Tax Differences](Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

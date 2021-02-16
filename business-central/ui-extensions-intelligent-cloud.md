@@ -5,7 +5,7 @@ author: edupont04
 manager: edupont
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,3 +26,6 @@ Once the connection is configured, you can migrate data or manage data replicat
 [Intelligent Insights](about-intelligent-cloud.md)  
 [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligent Cloud Extensions for Cloud Migration](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

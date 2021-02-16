@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -24,3 +24,6 @@ On the standard posted invoices (invoice and credit memo), legal text is inserte
 ## See Also
 
 [Setting Up Sales](../../sales-setup-sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

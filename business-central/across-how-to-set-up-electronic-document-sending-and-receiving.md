@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -145,3 +145,6 @@ The topic contains the following procedures:
 [Exchanging Data Electronically](across-data-exchange.md)   
 [Invoice Sales](sales-how-invoice-sales.md)   
 [Record Purchases](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

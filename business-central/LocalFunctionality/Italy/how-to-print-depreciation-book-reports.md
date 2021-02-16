@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -39,3 +39,6 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
  [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
  [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

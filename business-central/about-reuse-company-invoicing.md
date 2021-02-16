@@ -4,7 +4,7 @@ description: Workaround for accessing Microsoft Invoicing when you have signed u
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -47,3 +47,6 @@ If you use both Invoicing and [!INCLUDE[prod_short](includes/prod_short.md)], th
 ## See Also
 [Frequently Asked Questions](across-faq.md)  
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

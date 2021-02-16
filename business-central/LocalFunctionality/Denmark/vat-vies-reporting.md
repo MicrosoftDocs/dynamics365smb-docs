@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -22,3 +22,6 @@ Danish companies must submit VAT declarations for trade of goods or services wit
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
  [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

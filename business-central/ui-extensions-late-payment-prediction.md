@@ -4,7 +4,7 @@ description: Use our predictive model to predict whether an invoice will be paid
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -107,3 +107,6 @@ You can also create your own predictive web service based on a public model name
 [Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

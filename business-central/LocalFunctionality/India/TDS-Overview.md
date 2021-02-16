@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -287,3 +287,6 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

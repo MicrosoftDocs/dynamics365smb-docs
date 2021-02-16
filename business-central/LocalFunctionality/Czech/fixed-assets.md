@@ -117,3 +117,6 @@ The following standard reports have been adjusted for the Czech Republic (new Gr
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Use this extension to setup and generate DIOT declarations in Busin
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -70,3 +70,6 @@ When the report runs without errors, you will be prompted to save the file **Dio
 ## See Also
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 [Getting Started](../../product-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

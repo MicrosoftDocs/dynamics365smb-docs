@@ -4,7 +4,7 @@ description: Russian enhancements include payables reports.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -199,3 +199,6 @@ On the **Vendor** FastTab of the request page, you can define the vendor number 
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Set Up Customer and Vendor Agreements](How-to-Set-Up-Customer-and-Vendor-Agreements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

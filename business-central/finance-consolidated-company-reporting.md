@@ -4,7 +4,7 @@ description: Get an summary view of the financial health across your business un
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -117,3 +117,6 @@ The exported entries contain the following fields: **Account No.**, **Posting Da
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: The online version of Business Central contains pre-installed fonts
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -48,3 +48,6 @@ For more information, see [Select a Check Layout](finance-how-define-check-layou
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Select a Check Layout](finance-how-define-check-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

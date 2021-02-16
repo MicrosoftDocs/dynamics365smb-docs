@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -45,3 +45,6 @@ The proposal lines populate on the **Telebank Proposal** page.
 ## See Also  
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
  [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

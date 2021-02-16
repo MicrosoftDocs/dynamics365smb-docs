@@ -4,7 +4,7 @@
     author: jswymer
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -119,3 +119,6 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
 ## See Also  
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

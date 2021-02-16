@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -52,3 +52,6 @@ When you post the sales invoice, [!INCLUDE[prod_short](../../includes/prod_short
 
 ## See Also  
  [Create Report 349](how-to-create-report-349.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

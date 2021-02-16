@@ -3,7 +3,7 @@ title: "Business decision maker learning catalog"
 description: "Business decision maker learning catalog"
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
 ---
 
@@ -28,3 +28,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Work like a pro with data in Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.                                                                                                  | Free, self-paced online learning path | 2 hours 27 minutes |
 | [Business Central YouTube playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube landing page for Dynamics 365 Business Central videos                                                                                                                                                                                                                                    | Video                                 |                    |
 | [Explore Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Explore Dynamics 365 Business Central Capabilities                                                                                                                                                                                                                                               | Website                               |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

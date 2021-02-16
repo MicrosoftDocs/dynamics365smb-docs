@@ -4,7 +4,7 @@ description: Describes how to give users access to objects by assigning permissi
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -260,3 +260,6 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes th
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

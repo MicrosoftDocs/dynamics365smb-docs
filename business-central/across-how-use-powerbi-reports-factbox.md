@@ -4,7 +4,7 @@ description: You can use Power BI reports to gain additional insight into data i
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -84,3 +84,6 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 [Getting Started](product-get-started.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

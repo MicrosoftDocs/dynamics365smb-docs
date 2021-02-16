@@ -4,7 +4,7 @@ description: Russian enhancements include prepayments from customers.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -48,3 +48,6 @@ You can now invoice and collect advance payments from customers and post the pay
 
 [Invoicing Prepayments](../../finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](../../walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

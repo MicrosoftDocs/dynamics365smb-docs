@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -38,3 +38,6 @@ This also works if the transaction with this VAT combination is posted through a
 ## See Also  
  [Calculate Proportional VAT](how-to-calculate-proportional-vat.md)   
  [Norwegian VAT Reporting](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

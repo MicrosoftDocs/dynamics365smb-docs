@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -25,3 +25,6 @@ The Single Euro Payments Area (SEPA) unifies payment methods in participating Eu
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
  [File SEPA Payments](how-to-file-sepa-payments.md)   
  [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

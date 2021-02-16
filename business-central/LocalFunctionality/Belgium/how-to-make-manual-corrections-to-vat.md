@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ You can make corrections to posted VAT entries without posting the correction in
  [Belgian VAT](belgian-vat.md)   
  [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
  [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

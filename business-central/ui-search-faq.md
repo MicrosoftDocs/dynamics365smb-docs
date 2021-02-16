@@ -4,7 +4,7 @@ description: This article provides answers to questions that our partners and cu
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -46,3 +46,6 @@ The bookmark icon is not displayed in the Tell Me window when personalization is
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
 [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

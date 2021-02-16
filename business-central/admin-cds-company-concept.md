@@ -4,7 +4,7 @@ description: Companies are both a legal and business constructs, and they are us
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -74,3 +74,5 @@ When you couple salespersons in [!INCLUDE[prod_short](includes/prod_short.md)] t
 
 ## See Also
 [About [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

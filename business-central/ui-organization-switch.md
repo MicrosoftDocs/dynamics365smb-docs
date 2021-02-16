@@ -4,7 +4,7 @@ description: If you do work for multiple organizations, you can quickly switch b
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 10/01/2020
 ms.author: bholtorf
@@ -45,3 +45,6 @@ When you are signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you ca
 
 [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

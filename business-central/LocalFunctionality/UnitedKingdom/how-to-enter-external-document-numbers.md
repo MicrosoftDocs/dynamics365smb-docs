@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -36,3 +36,6 @@ The following procedure explains how to specify an external document number on a
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [Sell Products](../../sales-how-sell-products.md)  
 [Purchasing](../../purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

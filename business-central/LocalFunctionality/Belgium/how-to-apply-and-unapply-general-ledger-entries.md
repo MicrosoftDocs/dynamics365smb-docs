@@ -4,7 +4,7 @@
     author: edupont04
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -21,3 +21,6 @@
 
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
 [Belgium Local Functionality](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

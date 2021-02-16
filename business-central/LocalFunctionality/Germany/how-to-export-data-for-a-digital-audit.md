@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.m
 
 ## See Also  
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

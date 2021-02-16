@@ -4,7 +4,7 @@ description: Russian enhancements include payables and receivables in the Russia
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -34,3 +34,6 @@ Use the following table to learn more about the payables and receivables feature
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

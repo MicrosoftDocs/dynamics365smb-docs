@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -42,3 +42,6 @@ The **Payment History List** page displays the payment history that you just cre
 
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

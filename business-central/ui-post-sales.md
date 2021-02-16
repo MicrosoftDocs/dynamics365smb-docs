@@ -4,7 +4,7 @@ description: Learn about the different posting functions to post sales documents
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -61,3 +61,6 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

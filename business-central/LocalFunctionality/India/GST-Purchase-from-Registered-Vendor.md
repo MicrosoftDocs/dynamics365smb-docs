@@ -6,7 +6,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -225,3 +225,6 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

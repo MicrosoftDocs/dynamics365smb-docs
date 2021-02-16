@@ -4,7 +4,7 @@ description: You can receive notifications that inform you about status changes 
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -36,3 +36,6 @@ Turning notifications on or off, and specifying conditions, applies only to you.
 ## See Also
 
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

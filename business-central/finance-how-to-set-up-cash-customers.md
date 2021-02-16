@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ You cannot create an invoice without a customer number. This is true, even if yo
 [Register New Customers](sales-how-register-new-customers.md)    
 [Finance](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -127,3 +127,6 @@ In the **Tariff Numbers** page, add all the codes that you use. You must enter t
 
 ## See Also
 [Financial Management](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

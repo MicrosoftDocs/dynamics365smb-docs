@@ -5,7 +5,7 @@ author: bholtorf
 manager: annbe
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -112,3 +112,6 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 ## See Also
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Value-Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

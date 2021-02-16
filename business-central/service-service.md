@@ -4,7 +4,7 @@ description: Learn to use features designed to support repair shop and field ser
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -45,3 +45,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

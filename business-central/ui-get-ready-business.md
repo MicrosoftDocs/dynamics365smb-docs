@@ -4,7 +4,7 @@ description: Outlines the assisted setup guides, videos, help topics, and pages 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -69,3 +69,6 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Resources for Help and Support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

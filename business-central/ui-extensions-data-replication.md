@@ -4,7 +4,7 @@ description: Use the cloud migration extensions to migrate your on-premises data
 author: jenolson
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -42,3 +42,6 @@ If you are using Dynamics SL, get the **Intelligent Cloud Base** extension, the 
 
 [Intelligent Insights](about-intelligent-cloud.md)  
 [Intelligent Cloud Base Extension](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

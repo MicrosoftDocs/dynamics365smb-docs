@@ -4,7 +4,7 @@ description: Get connected to intelligent insights with Business Central from yo
 author: bmeier94
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -48,3 +48,6 @@ When your Dynamics 365 reselling partner has acquired the right license for your
 [Welcome to Business Central](index.md)  
 [Intelligent Cloud Extensions for Cloud Migration](ui-extensions-data-replication.md)  
 [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

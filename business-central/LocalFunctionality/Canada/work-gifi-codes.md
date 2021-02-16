@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -62,3 +62,6 @@ You can export balance information using GIFI codes and save the exported file i
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)   
 [Setting Up Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

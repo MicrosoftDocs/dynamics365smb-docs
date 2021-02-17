@@ -35,7 +35,9 @@ The actions that open pages are organized under nodes named after the features o
 
 - To expand/collapse a node, choose the node. This applies to top-level nodes and sub nodes.
 - To expand/collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner.
-- To expand/collapse a top-level node and all sub nodes under it, press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
+- To expand/collapse all top-levels node and all sub nodes under it, do one of the following steps:
+    - Press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
+    - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
 ## See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  

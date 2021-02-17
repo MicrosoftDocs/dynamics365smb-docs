@@ -53,7 +53,7 @@ The following table describes the values of the **Status** field.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]
-> With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can also view the status of job queue entries by using Application Insights in Microsoft Azure. For more information, see [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro help.
+> With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can also view the status of job queue entries by using Application Insights in Microsoft Azure. For more information, see [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and Administration content.
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
@@ -88,7 +88,7 @@ For more information, see [To set up background posting with job queues](ui-batc
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

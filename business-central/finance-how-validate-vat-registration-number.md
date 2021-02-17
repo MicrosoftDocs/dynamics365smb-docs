@@ -28,8 +28,6 @@ When you use our service connection, we record a history of VAT numbers and veri
 
 You can view the VAT Registration log on the Customer, Vendor, or Contact cards, on the **Invoicing** FastTab, by choosing the lookup button in the **VAT Registration No.** field.  
 
-Our service can also save you time when you create a customer or vendor. If you know the customer's VAT number, you can enter it in the **VAT Registration No.** field on the Customer or Vendor cards, and we will fill out the customer name for you. Some countries also provide company addresses in a structured format. In those countries, we fill in the address too.  
-
 There are a couple of things to note about the VIES VAT Number Validation service:
 
 * The service uses the http protocol, which means that data transferred through the service is not encrypted.  

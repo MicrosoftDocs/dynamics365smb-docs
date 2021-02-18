@@ -44,9 +44,10 @@ By default, the status of new price lists is Draft. When you're done adding line
 To review price lists and prices that apply for specific customers or vendors, on the **Customer** page, choose **Sales Price Lists** or, on the **Vendor** page, choose **Purchase Price Lists**. You can view price list lines in various price lists by choosing **Sales Prices** or **Purchase Prices** from the **Item** and **Resource** pages.
 
 ## To set up a sales price for a customer
-These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
-#### [Current Experience](#tab/current-experience/)  
+These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update.  
+
+#### [Current Experience](#tab/current-experience/)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.

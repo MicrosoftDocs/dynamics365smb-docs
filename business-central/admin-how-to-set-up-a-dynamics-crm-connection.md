@@ -24,7 +24,7 @@ This topic describes how to set up a connection between [!INCLUDE[prod_short](in
 There are a few pieces of information to have ready before you create the connection:  
 
 * The URL for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment that you want to connect to. If you use the **Common Data Service Connection Setup** assisted setup guide to create the connection we will discover your environments, but you can also enter the URL of another environment in your tenant.  
-* The user name and password of an account that has administrator permissions in [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] (has System Administrator security role in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]).  
+* The user name and password of an account that has administrator permissions in [!INCLUDE[prod_short](includes/prod_short.md)] and the *System Administrator* security role in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]).  
 * If you have an on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 release wave 1, version 16.5, read the [Some Known Issues](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) article. You'll have to complete the described workaround before you can create your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 > [!Note]
@@ -40,7 +40,7 @@ For all authentication types other than Microsoft 365 authentication, you set up
 >
 > * **Access [!INCLUDE[cds_long_md](includes/cds_long_md.md)] as you** permission is needed so [!INCLUDE[prod_short](includes/prod_short.md)] can, on behalf of administrator, automatically create non-licensed non-interactive [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user, assign security roles to this user and to deploy [!INCLUDE[prod_short](includes/prod_short.md)] Base CDS Integration Solution to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. This permission is used only once during set up of connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 > * **Have full access to Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]** permission is needed so automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user can access [!INCLUDE[prod_short](includes/prod_short.md)] data that will be synchronized.  
-> * **Sign in and read your profile** permission is needed to verify user logging in actually has System Administrator security role assigned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+> * **Sign in and read your profile** permission is needed to verify that the user who is logging in actually has the *System Administrator* security role assigned in [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 >
 > By giving consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronize data using automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user's credentials.
 
@@ -83,7 +83,7 @@ The following procedure describes how to set up the connection manually on the *
    <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
+    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 
 4. To test the connection settings, choose **Connection**, and then **Test Connection**.  
 

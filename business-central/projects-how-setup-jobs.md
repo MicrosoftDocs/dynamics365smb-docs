@@ -45,7 +45,7 @@ When the **Apply Usage Link by Default** check box is selected, and the job plan
 
 ## To set up prices for resources, items, and general ledger accounts for jobs
 > [!NOTE]
-> In 2020 release wave 2 we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
+> In 2020 release wave 2 we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 You can set up prices for the items, resources, and general ledger accounts related to a job. 
 
@@ -59,7 +59,7 @@ The following table shows how the information in the optional fields will be use
 |Column1  |Column2  |
 |---------|---------|
 |**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered. Note that this price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.|
-|**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. Note that this price will always override the regular customer price (the “best price” mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.|
+|**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. Note that this price will always override the regular customer price (the "best price" mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.|
 |**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.|
 
 ---

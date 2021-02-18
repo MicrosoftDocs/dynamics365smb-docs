@@ -15,7 +15,7 @@ You can define the dimensions and dimension values to categorize journals and do
 
 You also set up values for dimensions. For example, values might be departments in your company. Dimension values can be set up in a hierarchical structure similar to the chart of accounts, so that data can be broken down into various levels of granularity, and subsets of dimension values can be totaled. You can define as many dimensions and dimension values as you need, and everyone in your company can use them.
 
-When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, and ledger entries, without having to open the **Dimensions** page first. For more information, see [To set up global and shortcut dimensions](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
+When dimensions and values are set up, you can define global and shortcut dimensions on the **General Ledger Setup** page that will always be available to select as fields on journal and document lines, and ledger entries, without having to open the **Dimensions** page first. For more information, see the [To set up global and shortcut dimensions](#to-set-up-global-and-shortcut-dimensions) section.
 
 * **Global Dimensions** are used as filters, for example, on reports, batch jobs, and XMLports. You can use only two global dimensions, so choose dimensions you will use often.
 * **Shortcut Dimensions** are available as fields on journals, document lines, and ledger entries. You can create up to eight of these.  
@@ -85,7 +85,7 @@ Global and shortcut dimensions can be used as filters in [!INCLUDE[prod_short](i
 > [!Important]  
 > Changing a global or shortcut dimension requires that all entries posted with the dimension are updated. To change a global dimension, use the **Change Global Dimensions** function, but it can be time-consuming and may affect performance and tables may be locked during the update. Therefore, choose your global and shortcut dimensions carefully so that you do not have to change them later. To change a shortcut dimension, use the **Change Dimensions** action.
 >
-> For more information, see [To change global dimensions](finance-dimensions.md#to-change-global-dimensions).
+> For more information, see the [To change global dimensions](#to-change-global-dimensions) section.
 
 > [!Note]
 > When you add or change a global or shortcut dimension, you are automatically signed out and back in so that the new value is prepared for use.

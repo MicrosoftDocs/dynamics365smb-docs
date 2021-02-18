@@ -1,5 +1,5 @@
 ---
-title: Set Up Prices and Discounts | Microsoft Docs
+title: Set Up Prices and Discounts
 description: Describes how to define standard and special price and discount agreements for sales and purchases.
 author: bholtorf
 
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.date: 10/01/2020
+ms.date: 02/18/2021
 ms.author: bholtorf
 
 ---
 # Set Up Prices and Discounts
 > [!NOTE]
-> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update on the **Feature Management** page. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management.md).
+> In 2020 release wave 2, we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update on the **Feature Management** page. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Price and discount strategies for the purchase and sale of items and services are fundamental tools for successful businesses. After you set up the items and services your company buys and sells, you can define what you pay or charge for them, and those amounts will be automatically added to sales and purchase documents. 
 

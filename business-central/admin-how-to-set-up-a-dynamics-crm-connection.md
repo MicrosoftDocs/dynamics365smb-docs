@@ -24,7 +24,7 @@ This topic describes how to set up a connection between [!INCLUDE[prod_short](in
 There are a few pieces of information to have ready before you create the connection:  
 
 * The URL for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment that you want to connect to. If you use the **Common Data Service Connection Setup** assisted setup guide to create the connection we will discover your environments, but you can also enter the URL of another environment in your tenant.  
-* The user name and password of an account that has administrator permissions in [!INCLUDE[prod_short](includes/prod_short.md)] and the *System Administrator* security role in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]).  
+* The user name and password of an account that has administrator permissions in [!INCLUDE[prod_short](includes/prod_short.md)] and the *System Administrator* security role in [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * If you have an on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 release wave 1, version 16.5, read the [Some Known Issues](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) article. You'll have to complete the described workaround before you can create your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 > [!Note]
@@ -124,14 +124,16 @@ The following steps assume that you use Azure AD to manage identities and access
 6. Choose **Overview**, and then find the **Application (client) ID** value. This is the Client ID of your application. You must enter it either on the **Common Data Service Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], on the **Common Data Service Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment.
 8. To enable the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], turn on the **Enabled** toggle.
-9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
+9. Sign in with your administrator account for Azure Active Directory.
+
+  This account must have a valid license for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
 
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
 #### Using Another Idtable and Access Management Service
 
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetCDSConnectionClientId and OnGetCDSConnectionClientSecret events in codeunit 7201 "CDS Integration Impl."
+If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the `OnGetCDSConnectionClientId` and `OnGetCDSConnectionClientSecret` events in codeunit 7201 `CDS Integration Impl.`. For more information, see [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer content.  
 
 ### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

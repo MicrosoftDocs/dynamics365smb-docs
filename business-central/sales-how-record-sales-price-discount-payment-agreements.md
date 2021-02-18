@@ -35,13 +35,13 @@ Because sales prices and sales line discounts are based on a combination of item
 > [!TIP]  
 > If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
 
-The **Applies-to Type** and **Applies-to No.** fields let you choose what this price list will apply to, such as customer or customer price group. Using **View Columns for, you can show or hide columns relevant for setting prices, discounts or prices and discounts.
+The **Applies-to Type** and **Applies-to No.** fields let you choose what this price list will apply to, such as customer or customer price group. Using **View Columns for**, you can show or hide columns relevant for setting prices, discounts or prices and discounts.
 
-You can set up Price List lines manually or you can use, for example, the Suggest Lines action to create new prices for selected items, item discount groups, resources, and other product types. If you choose Suggest Lines, the Price Lines - Create New page allows you to set filters to select products for which you want to create new price list lines. You can also specify whether to consider a Minimum quantity when calculating prices, the adjustment factor to apply for new price list lines, and the rounding method to apply for prices. The Copy Lines action allows you to copy existing price list lines between price lists.
+You can set up price list lines manually or you can use, for example, the **Suggest Lines** action to create new prices for selected items, item discount groups, resources, and other product types. If you choose Suggest Lines, the Price Lines - Create New page allows you to set filters to select products for which you want to create new price list lines. You can also specify whether to consider a minimum quantity when calculating prices, the adjustment factor to apply for new price list lines, and the rounding method to apply for prices. The **Copy Lines** action allows you to copy existing price list lines between price lists.
 
 By default, the status of new price lists is Draft. When you're done adding lines and want the price calculation engine to include it, you can change the status to Active.
 
-To review price lists and prices that apply for specific customers or vendors, on the Customer page, choose Sales Price Lists or, on the Vendor page, choose Purchase Price Lists. You can view price list lines set in various price lists by choosing Sales Prices or Purchase Prices from the Item and Resource pages.
+To review price lists and prices that apply for specific customers or vendors, on the **Customer** page, choose **Sales Price Lists** or, on the **Vendor** page, choose **Purchase Price Lists**. You can view price list lines in various price lists by choosing **Sales Prices** or **Purchase Prices** from the **Item** and **Resource** pages.
 
 ## To set up a sales price for a customer
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
@@ -64,11 +64,8 @@ These steps differ, depending on whether your administrator has turned on the **
    * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. To start using the price list, in the **Status** field, choose **Active**.  
 
-## Sales invoice discounts and service charges
-
-When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted.  
-
-On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
+## Sales Invoice Discounts and Service Charges
+When you use invoice discounts the total amount on the invoice determines the size of the discount that is granted. On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
 Before you can use invoice discounts with sales, you must specify certain information. You must decide the following:  
 
@@ -122,13 +119,13 @@ These steps differ, depending on whether your administrator has turned on the **
     > [!NOTE]  
     > Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms. To set up customer-specific invoice discount terms, set the **Invoice Disc. Code** field to the customer's customer code, and then proceed to the next step.
 
-4. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-5. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
-6. Optionally, in the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
-7. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
-8. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
+8. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
+9. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
+10. Optionally, in the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
+11. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
+12. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
-The invoice discount is now set up and assigned to the customer in question. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
+The invoice discount is now set up and assigned to the customer. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
 ## To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.

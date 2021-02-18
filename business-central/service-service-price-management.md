@@ -25,11 +25,13 @@ Before adjusting the price of a service item on a service order, you are provide
 Finally, service price group statistics and standard reports let you keep track of the profitability of each service price group.  
   
 ## Service Price Adjustment Groups  
-You use service price adjustment groups to set up the different types of price adjustments. For example, you can set up a service price adjustment group that adjusts prices for spare parts, one that adjust prices for labor, one that adjusts prices for costs, and so on. You can also specify whether the service price adjustment should be applied to just one specific item or resource, or to all items or resources.  
+You use service price adjustment groups to set up the different types of price adjustments for service lines. For example, you can set up a service price adjustment group that adjusts prices for spare parts, one that adjusts prices for labor, one that adjusts prices for costs, and so on. You can also specify whether the service price adjustment should be applied to just one specific item or resource, or to all items or resources.  
   
-Each service price adjustment group holds the information about the adjustments that you want to make on the service lines.  
-  
-The service price adjustment function does not apply to service items that belong to service contracts. You can only adjust the service prices of items that are part of a service order. You cannot adjust the price of a service item if it has a warranty. You cannot adjust the price of a service item on a service order if the service line linked to it has been posted as invoice, either fully or in part.  
+The service price adjustment function does not apply to service items under the following conditions:
+
+* The item belongs to service contracts. You can only adjust the service prices of items that are part of a service order. 
+* If the service item has a warranty. 
+* If the service line has been posted as invoice, either fully or partially.  
   
 When you run the service price adjustment function, all of the discounts in the order will be replaced by the values of the service price adjustment.  
   
@@ -44,6 +46,12 @@ When you assign a service price group to a service item, all the special service
 You set up the actual types of service pricing (price adjustment type and price) for a combination of service price groups and customer price groups. For each type of service pricing, you select a service price adjustment group. You also specify the service price adjustment type, fixed, maximum, or minimum, and the actual price.  
   
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labor, which is the labor price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labor, the same labor price adjustment group.  
+
+#### [Current Experience](#tab/current-experience)
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
+3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
+
   
 ## Service Price Adjustment  
 Service price adjustment lets you adjust the price of an item, resource, general ledger account, or cost on a service order.  

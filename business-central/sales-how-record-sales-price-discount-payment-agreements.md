@@ -65,6 +65,8 @@ These steps differ, depending on whether your administrator has turned on the **
    * To add items manually, in the grid, in the **Product Type** field, choose the type of product that the price list is for. Depending on your selection, fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 6. To start using the price list, in the **Status** field, choose **Active**.  
 
+---
+
 ## Sales Invoice Discounts and Service Charges
 When you use invoice discounts the total amount on the invoice determines the size of the discount that is granted. On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
@@ -128,6 +130,8 @@ These steps differ, depending on whether your administrator has turned on the **
 
 The invoice discount is now set up and assigned to the customer. When you select the customer code in the **Invoice Disc. Code** field on other customer cards, the same invoice discount is assigned to those customers.
 
+---
+
 ## To set up an invoice discount for a customer
 When you have decided which customers are eligible for invoice discounts, enter the invoice discount code on the customer cards and set up the terms for each code.
 
@@ -174,6 +178,8 @@ The status of the price list must be **Draft**.
    > [!NOTE]
    > You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
   
+---
+
 ## To bulk update item prices
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
@@ -198,6 +204,8 @@ To update prices for multiple items, you must create a new price list, and then 
 
 > [!NOTE]
 > You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
+
+---
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

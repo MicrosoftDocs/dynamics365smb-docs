@@ -109,6 +109,9 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 > [!NOTE]
 > VAT group members can correct submitted VAT returns as long as the group representative has not released the VAT return for the group. To make a correction, the VAT group member must create a new VAT return for the VAT return period and submit it to the VAT group representative. On the VAT group representative's side, the latest VAT return will be included on the **VAT Returns** page. 
 
+> [!NOTE]
+> The VAT Group functionality will only work in countries that uses the VAT Framework consisting of VAT Return periods and VAT Returns. Therefore, it is not intended for use in countries such as Germany, Italy, Switzerland, Spain and Austria that have other implementations of local VAT reporting. 
+
 ## See Also
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Value-Added Tax](finance-setup-vat.md)

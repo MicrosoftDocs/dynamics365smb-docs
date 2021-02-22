@@ -74,13 +74,13 @@ For this example, the fixed asset ledger entry looks like this:
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation |180 |-6,250.00 |93,750.00 |
-| 12/31/10 |Depreciation |180 |-6,250.00 |87,500.00 |
-| 06/30/11 |Depreciation |180 |-6,250.00 |81,250.00 |
-| 12/31/11 |Depreciation |180 |-6,250.00 |75,000.00 |
-| 06/30/17 |Depreciation |180 |-6,250.00 |6,250.00 |
-| 12/31/17 |Depreciation |180 |-6,250.00 |0 |
+| 01/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 06/30/20 |Depreciation |180 |-6,250.00 |93,750.00 |
+| 12/31/20 |Depreciation |180 |-6,250.00 |87,500.00 |
+| 06/30/21 |Depreciation |180 |-6,250.00 |81,250.00 |
+| 12/31/21 |Depreciation |180 |-6,250.00 |75,000.00 |
+| 06/30/27 |Depreciation |180 |-6,250.00 |6,250.00 |
+| 12/31/27 |Depreciation |180 |-6,250.00 |0 |
 
 ## Declining-Balance 1 Depreciation
 
@@ -102,25 +102,25 @@ The following table shows how the fixed asset ledger entries look.
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation |180 |-12,500.00 |87,500.00 |
-| 12/31/10 |Depreciation |180 |-12,500.00 |75,000.00 |
-| 06/30/11 |Depreciation |180 |-9,375.00 |65,625.00 |
-| 12/31/11 |Depreciation |180 |-9,375.00 |56,250.00 |
-| 06/30/12 |Depreciation |180 |-7,031.25 |49,218.75 |
-| 12/31/12 |Depreciation |180 |-7,031.25 |42,187.50 |
-| 06/30/13 |Depreciation |180 |-5,273.44 |36,914.06 |
-| 12/31/13 |Depreciation |180 |-5,273.44 |31,640.62 |
-| 06/30/14 |Depreciation |180 |-3,955.08 |27,685.54 |
-| 12/31/14 |Depreciation |180 |-3,955.08 |23,730.46 |
+| 01/01/20 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 06/30/20 |Depreciation |180 |-12,500.00 |87,500.00 |
+| 12/31/20 |Depreciation |180 |-12,500.00 |75,000.00 |
+| 06/30/21 |Depreciation |180 |-9,375.00 |65,625.00 |
+| 12/31/21 |Depreciation |180 |-9,375.00 |56,250.00 |
+| 06/30/22 |Depreciation |180 |-7,031.25 |49,218.75 |
+| 12/31/22 |Depreciation |180 |-7,031.25 |42,187.50 |
+| 06/30/23 |Depreciation |180 |-5,273.44 |36,914.06 |
+| 12/31/23 |Depreciation |180 |-5,273.44 |31,640.62 |
+| 06/30/24 |Depreciation |180 |-3,955.08 |27,685.54 |
+| 12/31/24 |Depreciation |180 |-3,955.08 |23,730.46 |
 
 Calculation Method:  
 
-* 1st Year: *25% of 100,000 = 25,000 = 12,500 + 12,500*
+* Year 1: *25% of 100,000 = 25,000 = 12,500 + 12,500*
 
-* 2nd Year: *25% of 75,000 = 18,750 = 9,375 + 9,375*
+* Year 2: *25% of 75,000 = 18,750 = 9,375 + 9,375*
 
-* 3rd Year: *25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*
+* Year 3: *25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*
 
 The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.  
 
@@ -134,11 +134,11 @@ A fixed asset has an acquisition cost of LCY 100,000. The **Declining-Balance %*
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Costs |(Depreciation starting date)|100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation |180 |-13,397.46 |86,602.54 |
-| 12/31/10 |Depreciation |180 |-11,602.54 |75,000.00 |
-| 06/30/11 |Depreciation |180 |-10,048.09 |64,951.91 |
-| 12/31/11 |Depreciation |180 |-8,701.91 |56,250.00 |
+| 01/01/20 |Acquisition Costs |(Depreciation starting date)|100,000.00 |100,000.00 |
+| 06/30/20 |Depreciation |180 |-13,397.46 |86,602.54 |
+| 12/31/20 |Depreciation |180 |-11,602.54 |75,000.00 |
+| 06/30/21 |Depreciation |180 |-10,048.09 |64,951.91 |
+| 12/31/21 |Depreciation |180 |-8,701.91 |56,250.00 |
 
 Calculation Method:  
 
@@ -156,10 +156,10 @@ The depreciation values are:
 
 | Date | Calculation |
 | --- | --- |
-| 06/30/10 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46 |
-| 12/31/10 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54 |
-| 06/30/11 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09 |
-| 12/31/11 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91 |
+| 06/30/20 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46 |
+| 12/31/20 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54 |
+| 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09 |
+| 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91 |
 
 ## DB1/SL Depreciation
 
@@ -179,29 +179,29 @@ The fixed asset ledger entries look like this:
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 06/30/10 |Depreciation |180 |-12,500.00 |87,500.00 |
-| 12/31/10 |Depreciation |180 |-12,500.00 |75,000.00 |
-| 06/30/11 |Depreciation |180 |-9,375.00 |65,625.00 |
-| 12/31/11 |Depreciation |180 |-9,375.00 |56,250.00 |
-| 06/30/12 |Depreciation |180 |-7,031.25 |49,218.75 |
-| 12/31/12 |Depreciation |180 |-7,031.25 |42,187.50 |
-| 06/30/13 |Depreciation |180 |-5,273.44 |36,914.06 |
-| 12/31/13 |Depreciation |180 |-5,273.44 |31,640.62 |
-| 06/30/14 |Depreciation |180 |-3,955.08 |27,685.54 |
-| 12/31/14 |Depreciation |180 |-3,955.08 |23,730.46 |
-| 06/30/15 |Depreciation |180 |-3,955.08 |19,775.38 SL |
-| 12/31/15 |Depreciation |180 |-3,955.08 |15,820.30 SL |
-| 06/30/16 |Depreciation |180 |-3,955.08 |11,865.22 SL |
-| 12/31/16 |Depreciation |180 |-3,955.07 |7,910.15 SL |
-| 06/30/17 |Depreciation |180 |-3,955.08 |3,955.07 SL |
-| 12/31/17 |Depreciation |180 |-3,955.07 |0.00 SL |
+| 01/01/20 |Acquisition Costs |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 06/30/20 |Depreciation |180 |-12,500.00 |87,500.00 |
+| 12/31/20 |Depreciation |180 |-12,500.00 |75,000.00 |
+| 06/30/21 |Depreciation |180 |-9,375.00 |65,625.00 |
+| 12/31/21 |Depreciation |180 |-9,375.00 |56,250.00 |
+| 06/30/22 |Depreciation |180 |-7,031.25 |49,218.75 |
+| 12/31/22 |Depreciation |180 |-7,031.25 |42,187.50 |
+| 06/30/23 |Depreciation |180 |-5,273.44 |36,914.06 |
+| 12/31/23 |Depreciation |180 |-5,273.44 |31,640.62 |
+| 06/30/24 |Depreciation |180 |-3,955.08 |27,685.54 |
+| 12/31/24 |Depreciation |180 |-3,955.08 |23,730.46 |
+| 06/30/25 |Depreciation |180 |-3,955.08 |19,775.38 SL |
+| 12/31/25 |Depreciation |180 |-3,955.08 |15,820.30 SL |
+| 06/30/26 |Depreciation |180 |-3,955.08 |11,865.22 SL |
+| 12/31/26 |Depreciation |180 |-3,955.07 |7,910.15 SL |
+| 06/30/27 |Depreciation |180 |-3,955.08 |3,955.07 SL |
+| 12/31/27 |Depreciation |180 |-3,955.07 |0.00 SL |
 
 `SL` after the book value means that the straight-line method has been used.  
 
 Calculation method:  
 
-* 1st year:  
+* Year 1:  
 
     *Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*  
 
@@ -209,7 +209,7 @@ Calculation method:
 
     The declining-balance amount is used because it is the greater amount.  
 
-* 6th year (2015):  
+* Year 5 (2025):  
 
     *Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*  
 
@@ -221,7 +221,7 @@ Calculation method:
 
 The application has a facility that allows you to set up user-defined depreciation methods.  
 
-With a user-defined method, you use the **Depreciation Tables** page, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).  
+With a user-defined method, you use the **Depreciation Tables** page, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period). Then, when you assign a depreciation book with a user-defined method to a fixed asset, you must set the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields on the **FA Depreciation Books** page for the specific fixed asset.  
 
 The formula for calculating the depreciation amounts is:  
 
@@ -266,25 +266,25 @@ The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation |360 |-25,000.00 |75,000.00 |
-| 12/31/11 |Depreciation |360 |-38,000.00 |37,000.00 |
-| 12/31/12 |Depreciation |360 |-37,000.00 |0 |
-| 12/31/13 |Depreciation |None |None |0 |
-| 12/31/14 |Depreciation |None |None |0 |
+| 01/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 12/31/20 |Depreciation |360 |-25,000.00 |75,000.00 |
+| 12/31/21 |Depreciation |360 |-38,000.00 |37,000.00 |
+| 12/31/22 |Depreciation |360 |-37,000.00 |0 |
+| 12/31/23 |Depreciation |None |None |0 |
+| 12/31/24 |Depreciation |None |None |0 |
 
-If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in on the **FA Depreciation Books** page. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field on the **Depreciation Tables** page are used to determine the time intervals to be used for depreciation calculations. This ensures that application will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
+If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in on the **FA Depreciation Books** page for the specific fixed asset. The **First User-Defined Depr. Date** field and the contents in the **Period Length** field on the **Depreciation Tables** page are used to determine the time intervals to be used for depreciation calculations. This ensures that application will start using the specified percentage on the same day for all assets. The **Depreciation Starting Date** field is used to calculate the number of depreciation days.  
 
-In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01. If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:  
+In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields would be set to 01/01/20 in the **FA Depreciation Books** page for the specific fixed asset. If, however, the **First User-Defined Depr. Date** field contained 01/01/20 and the **Depreciation Starting Date** field contained 04/01/20, the result would be:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation |270 |-18,750.00 |81,250.00 |
-| 12/31/11 |Depreciation |360 |-38,000.00 |42,250.00 |
-| 12/31/12 |Depreciation |360 |-37,000.00 |6,250.00 |
-| 12/31/13 |Depreciation |90 |-6,250.00 |0 |
-| 12/31/14 |Depreciation |None |None |0 |
+| 01/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 12/31/20 |Depreciation |270 |-18,750.00 |81,250.00 |
+| 12/31/21 |Depreciation |360 |-38,000.00 |42,250.00 |
+| 12/31/22 |Depreciation |360 |-37,000.00 |6,250.00 |
+| 12/31/23 |Depreciation |90 |-6,250.00 |0 |
+| 12/31/24 |Depreciation |None |None |0 |
 
 ## Half-Year Convention Depreciation
 
@@ -303,49 +303,49 @@ When you apply the Half-Year Convention, a fixed asset has six months of depreci
 
 ### Example - Half-Year Convention Depreciation
 
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 03/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 03/01/10 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation |270 |-10,000.00 |90,000.00 |
-| 12/31/11 |Depreciation |360 |-20,000.00 |70,000.00 |
-| 12/31/12 |Depreciation |360 |-20,000.00 |50,000.00 |
-| 12/31/13 |Depreciation |360 |-20,000.00 |30,000.00 |
-| 12/31/14 |Depreciation |360 |-20,000.00 |10,000.00 |
-| 12/31/15 |Depreciation |180 |-10,000.00 |0.00 |
+| 03/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 12/31/20 |Depreciation |270 |-10,000.00 |90,000.00 |
+| 12/31/21 |Depreciation |360 |-20,000.00 |70,000.00 |
+| 12/31/22 |Depreciation |360 |-20,000.00 |50,000.00 |
+| 12/31/23 |Depreciation |360 |-20,000.00 |30,000.00 |
+| 12/31/24 |Depreciation |360 |-20,000.00 |10,000.00 |
+| 12/31/25 |Depreciation |180 |-10,000.00 |0.00 |
 
 ## Example - DB1/SL Depreciation Using Half-Year Convention
 
-A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/10. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
+A fixed asset has an acquisition cost of LCY 100,000. The **Depreciation Starting Date** is 11/01/20. The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/25. On the **FA Depreciation Books** page, the **Declining-Balance %** field contains 40. The **Calculate Depreciation** batch job is run annually. This example is based on a calendar fiscal year.  
 
 The fixed asset ledger entries look like this:  
 
 | Date | FA Posting Type | Days | Amount | Book Value |
 | --- | --- | --- | --- | --- |
-| 11/01/10 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
-| 12/31/10 |Depreciation |60 |-20,000.00 |80,000.00 |
-| 12/31/11 |Depreciation |360 |-32,000.00 |48,000.00 |
-| 12/31/12 |Depreciation |360 |-19,200.00 |28,800.00 |
-| 12/31/13 |Depreciation |360 |-11,520.00 |17,280.00 |
-| 12/31/14 |Depreciation |360 |-11,520.00 |5,760.00 SL |
-| 12/31/15 |Depreciation |180 |-5,760.00 |0.00 SL |
+| 11/01/20 |Acquisition Cost |(Depreciation starting date) |100,000.00 |100,000.00 |
+| 12/31/20 |Depreciation |60 |-20,000.00 |80,000.00 |
+| 12/31/21 |Depreciation |360 |-32,000.00 |48,000.00 |
+| 12/31/22 |Depreciation |360 |-19,200.00 |28,800.00 |
+| 12/31/23 |Depreciation |360 |-11,520.00 |17,280.00 |
+| 12/31/24 |Depreciation |360 |-11,520.00 |5,760.00 SL |
+| 12/31/25 |Depreciation |180 |-5,760.00 |0.00 SL |
 
 `SL` after the book value means that the straight-line method has been used.  
 
 Calculation method:  
 
-* 1st year:  
+* Year 1:  
 
-    *Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000*  
+    *Declining-balance amount = Full year amount = 40% of 100,000 = 40,000.* Thus, for half a year 40,000 / 2 = 20,000  
 
-    *Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000*  
+    *Straight-line amount = Full year amount = 100,000 / 5 = 20,000.* Thus, for half a year = 20,000 / 2 = 10,000  
 
     The declining-balance amount is used because it is the greater amount.  
 
-* 5th year (2004):  
+* Year 5 (2024):  
 
     *Declining-balance amount = 40% of 17,280.00 = 6,912.00*  
 

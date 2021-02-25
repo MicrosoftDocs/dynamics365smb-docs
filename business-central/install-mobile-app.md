@@ -15,7 +15,7 @@ ms.author: edupont
 
 # Getting Business Central on Your Mobile Device
 
-Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
+Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile device. You can navigate through your business data, use features such as send to Excel or Microsoft 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera. Follow the steps below to download the app and get started.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

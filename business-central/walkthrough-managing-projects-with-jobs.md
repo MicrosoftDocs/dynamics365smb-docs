@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 02/25/2021
     ms.author: edupont
 
 ---
@@ -179,53 +179,25 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### To create planning lines  
 
-1.  Select line 1010, and then choose the **Job Planning Lines** action. Enter the following information:  
+1. Select line 1010, and then choose the **Job Planning Lines** action.  
 
-     **Line 1**  
+2. Create planning lines with the following information:  
 
-    - **Line Type**: **Both Budget and Billable**  
-    - **Planning Date**: **(today's date)**  
-    - **Type**: **Resource**  
-    - **No.**: **Tricia**  
-    - **Quantity**: **40**  
+    | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|----------------|-------------|-------|----------|------------|
+    | 1    | Both Budget and Billable | (today's date) | Resource | Tricia | 40        |     |
+    | 2    | Both Budget and Billable | (today's date) | Resource | Timothy | 40        |     |
+    | 3    | Both Budget and Billable | (today's date) | G/L Account | 8430 (Travel) | 2 | 400    |
 
-     **Line 2**  
+     Close the page. The totals are updated on the **Job Task Lines** page.  
+3. Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
 
-    - **Line Type**: **Both Budget and Billable**  
-    - **Planning Date**: **(today's date)**  
-    - **Type**: **Resource**  
-    - **No.**: **Timothy**  
-    - **Quantity**: **40**  
+    | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
+    |------|-----------|----------------|-------------|-------|----------|------------|
+    | 1    | Both Budget and Billable | (today's date) | Resource | Tricia | 80        |     |
+    | 2    | Both Budget and Billable | (today's date) | Item | 80201 (Graphic program) | 1 |     |
 
-     **Line 3**  
-
-    - **Line Type**: **Both Budget and Billable**  
-    - **Planning Date**: **(today's date)**  
-    - **Type**: **G/L Account**  
-    - **No.**: **8430 (Travel)**  
-    - **Quantity**: **2**  
-    - **Unit Cost**: **400**  
-
-2.  Close the page. The totals are updated on the **Job Task Lines** page.  
-3.  Select line 1020, and then choose the **Job Planning Lines** action. Enter the following information:  
-
-     **Line 1**  
-
-    - **Line Type**: **Both Budget and Billable**  
-    - **Planning Date**: **(today's date)**  
-    - **Type**: **Resource**  
-    - **No.**: **Tricia**  
-    - **Quantity**: **80**  
-
-     **Line 2**  
-
-    - **Line Type**: **Both Budget and Billable**  
-    - **Planning Date**: **(today's date)**  
-    - **Type**: **Item**  
-    - **No.**: **80201 (Graphic program)**  
-    - **Quantity**: **1**  
-
-4.  Close the page. Totals are updated on the **Job Task Lines** page.  
+4. Close the page. Totals are updated on the **Job Task Lines** page.  
 
 ## Calculating Remaining Usage  
  Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
@@ -282,30 +254,28 @@ The lines are now posted.
 
 ### To manage fixed pricing in jobs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2.  Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
-3.  Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
+3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
      By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
 
-4.  On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action.  
-5.  Choose the **New** to create a new line with the following information:  
+4. On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action. Create a planning line with the following information:  
 
-    - **Line Type**: **Both Budget and Billable**  
-    - **Type**: **Resource**  
-    - **No.**: **Tricia**  
-    - **Quantity**: **30**  
+    | Line | Line Type | Type        | No.   | Quantity |
+    |------|-----------|-------------|-------|----------|
+    | 1    | Both Budget and Billable  | Resource | Tricia | 30 |
 
-7.  Close the page.  
-8.  In the **Budget (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
-9. Close the pages.  
+     Close the page.  
+5. In the **Budget (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
+6. Close the pages.  
 
 After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
 
 ### To enter hours in the Job Journal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2.  On a new line, enter the following information:  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+2. On a new line, enter the following information:  
 
     - **Line Type**: **(blank)**  
     - **Posting Date**: **(today's date)**  
@@ -316,17 +286,17 @@ After Tricia has been added to the schedule for this task line, she works 25 hou
     - **No.**: **Tricia**  
     - **Quantity**: **25**  
 
-3.  Choose the **Post** action.  
+3. Choose the **Post** action.  
 
      A few days later, Tricia works for another 10 hours on the job. She has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours she worked to the schedule.  
 
-4.  On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
-5.  On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
+4. On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
+5. On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
 
     - **Document No.**: **J00003**  
     - **Posting Date**: **(today's date)**  
 
-6.  On the **Job Task** FastTab, enter the following information:  
+6. On the **Job Task** FastTab, enter the following information:  
 
     - **Job No.**: **Guildford**  
     - **Job Task No.**: **1120**  
@@ -335,7 +305,7 @@ After Tricia has been added to the schedule for this task line, she works 25 hou
 
     There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work has already been scheduled.  
 
-8.  In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
+8. In the **Job Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
 
     - **Line Type**: **Budget**  
     - **Job No.**: **Guildford**  
@@ -346,21 +316,22 @@ After Tricia has been added to the schedule for this task line, she works 25 hou
 
      By using the **Budget** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
 
-9.  Choose the **Post** action. Choose the **OK** button to close the page.  
+9. Choose the **Post** action. Choose the **OK** button to close the page.  
 10. Open the **Jobs** list.  
 11. Select the GUILDFORD job, and then, in the **Job Task Lines** section, select line 1120 and in the **Budget (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Job Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
-13. Choose the **Close** button to close the page.  
-14. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
+12. Choose the **Close** button to close the page.  
+13. Right-click the amount in the **Contract (Total Cost)** field and choose **DrillDown** to view the information.  
 
 In the total price for the contract, only the original contracted 30 hours are included, because this is what was agreed upon with the customer.  
 
-## Copying Jobs  
- Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
+## Copying Jobs
 
- On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
+Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
+
+On the **Copy Job** page, you can select the job and task lines that you want to copy. You can also select to copy the source job ledger entries, which creates planning lines based on actual usage, or you can copy the source job planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
 
 ### To copy a job  
 
@@ -472,7 +443,8 @@ The following procedures show how to create a new job, set pricing, and then set
 ## Next Steps  
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See Also  
+## See Also
+
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Setting Up Project Management](projects-setup-projects.md)   
  [Use Resources](projects-how-use-resources.md)   

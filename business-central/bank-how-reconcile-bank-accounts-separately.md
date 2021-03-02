@@ -36,11 +36,11 @@ When the value in the **Total Balance** field in the **Bank Statement Lines** pa
 
 Any lines that cannot be matched, indicated by a value in the **Difference** field, will remain on the **Bank Acc. Reconciliation** page after posting. They represent some kind of discrepancy that you must resolve before you can complete the bank account reconciliation. Typical business situations that may cause differences:
 
-|Difference|Reason|Resolution|
-|-|-|
-|A transaction in the internal bank account is not on the bank statement.|The bank transaction did not occur although a posting was made in [!INCLUDE[prod_short](includes/prod_short.md)].|Make the missing money transaction (or prompt a debitor to make it), and then reimport the bank statement file or enter the transaction manually.|
-|A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[prod_short](includes/prod_short.md)].|A bank transaction was made without a corresponding posting in [!INCLUDE[prod_short](includes/prod_short.md)], for example a journal line posting for an expense.|Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match.|Information, such as the amount or the customer name, was entered differently in connection with the bank transaction or the internal posting.|Review the information, and then manually match the two. Optionally, correct the information mismatch.||
+| Difference | Reason | Resolution |
+|------------|--------|------------|
+| A transaction in the internal bank account is not on the bank statement. | The bank transaction did not occur although a posting was made in [!INCLUDE[prod_short](includes/prod_short.md)]. | Make the missing money transaction (or prompt a debitor to make it), and then reimport the bank statement file or enter the transaction manually. |
+| A transaction on the bank statement does not exist as a document or journal line in [!INCLUDE[prod_short](includes/prod_short.md)]. | A bank transaction was made without a corresponding posting in [!INCLUDE[prod_short](includes/prod_short.md)], for example a journal line posting for an expense. | Create and post the missing entry. For information on a quick way to initiate this, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match. | Information, such as the amount or the customer name, was entered differently in connection with the bank transaction or the internal posting. | Review the information, and then manually match the two. Optionally, correct the information mismatch. |
 
 You must resolve the differences, for example by creating missing entries and correcting non-matching information, or by making missing money transactions, until the bank account reconciliation is completed and posted.
 

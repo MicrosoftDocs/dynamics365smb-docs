@@ -22,7 +22,7 @@ The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pr
 
 ## Document Fonts
 
-The following fonts are installed and available to use in Word and RDLC document reports:
+The following fonts are installed and available to use in both Word and RDLC report layouts:
 
 * Arial
 * Consolas
@@ -42,6 +42,17 @@ Magnetic Ink Character Recognition (MICR) fonts are installed and available to u
 In addition to MICR fonts, special security fonts are available to generate text, names, amounts, and the currency symbols Dollar, Euro, Pound, and Yen, which are hard to tamper with once a check has been printed.  
 
 For more information, see [Select a Check Layout](finance-how-define-check-layouts.md).  
+
+## Fonts for Barcodes
+Fonts to generate one-dimensional barcodes are installed and available to use in both Word and RDLC report layouts.
+
+The following barcode symbologies are supported:
+* Code 3 of 9 (Code 39)
+* Code 128
+* Code 93
+* Codabar
+* MSI
+* Interleaved 2 of 5
 
 ## See Also
 

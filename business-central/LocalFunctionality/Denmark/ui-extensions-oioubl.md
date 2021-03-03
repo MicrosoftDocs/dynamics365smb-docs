@@ -1,6 +1,6 @@
 ---
-    title: OIOUBL Extension for Electronic Invoicing | Microsoft Docs
-    description: This extension makes it easy to send electronically send sales and service invoices, credit memos, finance charge memos, and reminders to customers in the Danish public sector in an Offentlig Information Online UBL (OIOUBL) format.
+    title: OIOUBL Extension for Electronic Invoicing
+    description: This extension makes it easy to send sales documents electronically to customers in the Danish public sector in the OIOUBL format.
     author: bholtorf
 
     ms.service: dynamics365-business-central

@@ -16,7 +16,10 @@
 # Work with VAT on Sales and Purchases
 If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
-There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.
+There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
+
+> [!TIP]
+> You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate VAT registration numbers and other company information when you create or update documents. For more information, see [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md).
 
 ## Calculating and Displaying VAT Amounts in Sales and Purchase Documents  
 You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated VAT amount to match the VAT amount calculated by your vendor on a given transaction.  
@@ -169,15 +172,16 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
     > [!NOTE]  
     >  You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
-    >   
+    >
     > * To manually create a certificate of supply certificate  
     > * To print a certificate of supply.
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## See Also  
-[Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)   
-[Report VAT to a Tax Authority](finance-how-report-vat.md)   
+## See Also
 
+[Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
+[Report VAT to a Tax Authority](finance-how-report-vat.md)  
+[Validate a VAT Registration Number](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -28,7 +28,7 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
+> Unless otherwise specified, the content on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/) site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
 The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -65,6 +65,10 @@ The following sections point to key articles that can help you get familiar with
 - [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## Learn
+
+Find free e-learning content on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## Community Resources
 

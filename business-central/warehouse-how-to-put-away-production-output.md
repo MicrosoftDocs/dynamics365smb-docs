@@ -45,8 +45,8 @@ When you post an inventory put-away, it is assumed that all the operations are p
 
 If you only need to post setup or run time on the last operation, then set the output quantity on the last operation to 0. Alternatively, you can choose not to post the last line at all by simply deleting it  
 
-## To put assembly and production output away with a warehouse internal put-away
-When you post the output of production or assembly order in the  warehouse location that is set up to use directed put-away and pick, the output is placed in the bin defined in the production or assembly order. 
+## To put assembly and production output away in advanced warehouse configurations
+When you post the output of production or assembly order in the  warehouse that is set up to use directed put-away and pick, the output is placed in the bin defined in the production or assembly order. 
 
 The following table describes different ways of moving items within the warehouse with advanced configurations where all warehouse activities must be performed in a directed workflow. 
 

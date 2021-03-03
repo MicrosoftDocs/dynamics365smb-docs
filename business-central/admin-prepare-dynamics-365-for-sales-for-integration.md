@@ -40,7 +40,6 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Product Availability User
 
 ### Connection Settings in the Setup Guide
-
 You can use an assisted setup guide to quickly set up the connection and specify advanced features, such as coupling between records.
 
 1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.

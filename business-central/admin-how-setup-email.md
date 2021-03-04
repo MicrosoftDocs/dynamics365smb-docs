@@ -49,7 +49,8 @@ If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have 
 > If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
 
 > [!IMPORTANT]
-> If you choose the OAuth option for authentication, you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> If you are using [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use the OAuth 2.0 authentication method.<br> 
+> If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use the OAuth 2.0 for authentication but you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## Add Email Accounts
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
@@ -59,6 +60,7 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
+
 
 <!--
 > [!NOTE]

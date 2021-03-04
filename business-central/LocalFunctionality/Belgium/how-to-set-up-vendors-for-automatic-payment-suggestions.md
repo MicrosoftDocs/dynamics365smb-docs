@@ -26,8 +26,6 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
 3.  Select the **Suggest Payments** check box.  
 
     If this field is not selected, no payment suggestions will be generated for the vendor.  
-
-4.  Choose the **OK** button.  
   
 ## See Also  
  [Belgian Electronic Banking](belgian-electronic-banking.md)   

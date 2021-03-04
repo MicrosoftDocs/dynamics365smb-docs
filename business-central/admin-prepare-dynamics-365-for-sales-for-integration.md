@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, integrating
+ms.search.keywords: sales, CRM, integration, integrating
 ms.date: 10/01/2020
 ms.author: bholtorf
 
@@ -22,7 +22,7 @@ The sales person role is often considered as one the most outward-facing jobs in
 > This topic describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## Integrating Through Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] also integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, we recommend that you do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] also integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)], which makes it easy to connect and synchronize data with other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you are integrating for the first time, you must do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
 
 If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to synchronize data using your setup. However, if you upgrade or turn off your [!INCLUDE[crm_md](includes/crm_md.md)] integration, to turn it on again you must connect through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Upgrading an Integration with Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -40,7 +40,6 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Product Availability User
 
 ### Connection Settings in the Setup Guide
-
 You can use an assisted setup guide to quickly set up the connection and specify advanced features, such as coupling between records.
 
 1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.
@@ -51,10 +50,7 @@ You can use an assisted setup guide to quickly set up the connection and specify
 | Field | Description |
 |--|--|
 | **Import Dynamics 365 Sales Solution** | Enable this to install and configure the integration solution in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
-| **Publish Item Availability Web Service** | Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[prod_short](includes/prod_short.md)]. This requires a [!INCLUDE[prod_short](includes/prod_short.md)] user account with a web services access key. Assigning the key is a two-step process. On the user account in [!INCLUDE[prod_short](includes/prod_short.md)] you must choose the **Change Web Service Key** action. In the Set Up Dynamics 365 Sales Connection assisted setup guide, you must specify the Dynamics 365 Business Central OData web service URL, and provide [!INCLUDE[prod_short](includes/prod_short.md)] user credentials for accessing the service. For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **Business Central OData Web Service URL** | If you enable the web service for viewing item availability, the URL for the OData Web service is provided for you. |
-| **Business Central OData Web Service Username** | The name of the [!INCLUDE[prod_short](includes/prod_short.md)] user account that [!INCLUDE[crm_md](includes/crm_md.md)] uses to retrieve information about item availability in [!INCLUDE[prod_short](includes/prod_short.md)] through the OData web service. |
-| **Business Central OData Web Service Accesskey** | The access key for the user account that [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[prod_short](includes/prod_short.md)] through the OData web service. The key is assigned to the user chosen in the **Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**. |
+|**Automatically Synchronize Item Availability**|Specifies that the item availability job queue must be scheduled. The job queue runs every 30 minutes and updates the availability of the coupled items.|
 | **Enable Sales Order Integration** | When people create sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] and fullfill orders in [!INCLUDE[prod_short](includes/prod_short.md)], this integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). This requires that you provide credentials for an administrator user account in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Handling Sales Order Data](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
 | **Enable CDS Connection** | Enable the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
 | **Dynamics 365 SDK Version** | This is relevant only if you are integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)]. |
@@ -67,10 +63,7 @@ Enter the following information for the connection from [!INCLUDE[crm_md](includ
 |--|--|
 | **Dynamics 365 Sales URL** | The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This enables users to open corresponding records in [!INCLUDE[prod_short](includes/prod_short.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[prod_short](includes/prod_short.md)] records open in [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**Dynamics 365 Sales URL**|The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This enables users to open corresponding records in [!INCLUDE[prod_short](includes/prod_short.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[prod_short](includes/prod_short.md)] records open in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|**Item Availability Web Service Enabled**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[prod_short](includes/prod_short.md)]. If you enable this, you must also provide a user name and an access key for the [!INCLUDE[crm_md](includes/crm_md.md)] to use to query OData Web Service for availablity of items (products). For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
-|**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you. Set this field to the URL of the [!INCLUDE[prod_short](includes/prod_short.md)] instance to use.<br /><br /> To reset the field to the default URL for the [!INCLUDE[prod_short](includes/prod_short.md)], choose **Reset Web Client URL** action.<br /><br /> This field is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] Integration Solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Dynamics 365 Business Central OData Web Service Username**|The name of the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[prod_short](includes/prod_short.md)] through OData Web service.|
-|**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[prod_short](includes/prod_short.md)] through OData Web service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
+|**Automatically Synchronize Item Availability**|Specifies that the item availability job queue must be scheduled. The job queue runs every 30 minutes and updates the availability of the coupled items.|
 |**Dynamics 365 SDK Version**|If you are integrating with an on-premesis version of [!INCLUDE[crm_md](includes/crm_md.md)], this is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version that you select must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)]. This version equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)].|-->
 
 In addition to the settings above, enter the following settings for [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -91,18 +84,28 @@ Entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as orders, are integrat
 
 The following table lists the standard mapping between tables in [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that [!INCLUDE[prod_short](includes/prod_short.md)] provides.
 
-| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Synchronization Direction | Default Filter |
-|--|--|--|--|
-| Unit of Measure | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
-| Resource | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
-| Customer Price Group | Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Price | Product Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group** |
-| Opportunity | Opportunity | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
-| Sales Invoice Header | Invoice | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Invoice Line | Invoice Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Order Header | Sales Order | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sales Header filter: **Document Type** is Order, **Status** is Released |
-| Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Prerequisite | Synchronization Direction | Default Filter |
+|--|--|--|--|--|
+| Unit of Measure | Unit Group | None | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Item | Product | Unit of Measure | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
+| Resource | Product | Unit of Measure | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
+| Customer Price Group | Price List | | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Sales Price | Product Price List | | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group** |
+| Opportunity | Opportunity | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+| Posted Sales Invoice Header | Invoice | Opportunity, Customer, Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Posted Sales Invoice Line | Invoice Product | Posted Sales Invoice Header, Item, Resource | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Sales Order Header | Sales Order | Opportunity, Customer, Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sales Header filter: **Document Type** is Order, **Status** is Released |
+| Sales Order Notes | Sales Order Notes | Sales Order Header | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+|Price List Header | Price List | Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Business Central Price List Header filter: Price Type is Sale, Defines is Price, and Allow Updating Defaults is not enabled |
+| Price List Line | Product Price List | Price List Header, Item, Resource | | Business Central Price List Line filter: Price Type is Sale, Defines is Price, Product Type is Item or Resource, and the Minimum Quantity is zero. |
+
+> [!NOTE]
+> There are a few things to note about the standard entity mappings listed in the table above.
+> * If you are using a Person ownership model, for the **Opportunity** to **Opportunity**, **Posted Sales Invoice Header** to **Invoice**, and **Sales Order Header** to **Sales Order** mappings you must also have the **Salesperson/Purchaser** prerequisite.
+> * If the new sales pricing experience is enabled, the Customer Price Group and Sales Price mappings are replaced with the Price List Header and Price List Line mappings.
+
+> [!TIP]
+> Information about prerequisites is available through personalization. On the **Dynamics Connection Setup** page, when you choose **Run Full Synchronization** you can add the **Dependency** filter field to the **Dataverse Full Synch. Review** page.
 
 ### Synchronization Rules
 

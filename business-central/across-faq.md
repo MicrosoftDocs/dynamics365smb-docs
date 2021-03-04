@@ -128,7 +128,7 @@ The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [List Views FAQ](ui-views-faq.md)  

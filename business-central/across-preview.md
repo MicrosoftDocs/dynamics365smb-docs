@@ -85,7 +85,7 @@ The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and you
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  

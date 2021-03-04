@@ -44,3 +44,6 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

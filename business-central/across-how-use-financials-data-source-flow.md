@@ -84,3 +84,6 @@ For more information, see the [Power Automate Documentation](/power-automate/get
 [Approval User Setup](across-how-to-set-up-approval-users.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

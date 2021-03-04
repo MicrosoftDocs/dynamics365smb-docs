@@ -34,7 +34,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, it m
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
-## Connect to Power BI - one time only
+## <a name="connect"></a>Connect to Power BI - one time only
 
 When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you might see an empty Power BI part on some page, as shown in the previous figure. The first thing to do is to connect to your Power BI account. Once connected, you can see reports. You only have to do this step once.
 
@@ -47,7 +47,7 @@ During the connecting process, [!INCLUDE [prod_short](includes/prod_short.md)] c
 
 ##### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you'll be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
+Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
 
 Once connected, you can select a report from the Power BI part on pages.
 
@@ -127,3 +127,6 @@ This message appears if the default report failed to deploy to your Power BI wor
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

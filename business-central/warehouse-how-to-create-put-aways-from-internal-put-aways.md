@@ -1,5 +1,5 @@
 ---
-    title: How to Create Put-aways from Internal Put-aways | Microsoft Docs
+    title: Create Put-aways from Internal Put-aways
     description: After items have been put away and before they are picked to fulfill the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.
     author: SorenGP
 
@@ -31,15 +31,21 @@ The **Internal Put-aways** enables you to perform put-aways without having to re
 
 ## To create an internal pick  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
-2.  Fill in the **No.** field and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin from which you want to get the items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a To Bin Code of a bin type that is not used for picking, most likely a staging, shipping or special purpose bin.  
-3.  Select an item in the **Item No.** field, and fill in the quantities you want to pick.  
-4. Choose the **Create Pick** action. A warehouse pick instruction is now ready for a warehouse employee to perform.  
+2. Choose the **New** action.
+3. Fill in the **No.** field, **Location Code** field, and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin where you want to place the picked items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a bin code of a bin type that is not used for picking, most likely a staging, shipping, or special purpose bin.  
+4.  Select an item in the **Item No.** field, and fill in the quantities you want to pick.  
+5. Choose the **Create Pick** action. A warehouse pick instruction is now ready for a warehouse employee to perform. Alternatively you can choose the **Release** action and create warehouse picks using the **Picks worksheet**. For more information see,  [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## To create an internal put-away  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
-2.  Fill in the **No.** and **From Bin Code** fields on the **General** FastTab. The **From Bin Code** field specifies the bin where the items being returned to the warehouse, perhaps from production, are located.  
-3.  Fill in the item numbers and quantities on the lines.  
-4.  Choose the **Create Put-away** action. A warehouse put-away instruction is now ready for a warehouse employee to perform.  
+2. Choose the **New** action.
+3. Fill in the header of a new internal put-away with at least the **No.** and **Location Code**.
+4. Fill in a line for each item you wish to move to the warehouse. You only have to fill in the **Item No.** and the **Quantity** fields.
+
+  > [!NOTE]  
+  > When you choose the **Item No.** field, the **Bin Contents List** opens instead of the **Item List**. This is because you want to put away an item that is in a particular bin - *bin content* - not just an item, and you already know the bin the item should be taken from.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+5. To fill the lines with the entire bin content or the filtered bin content of bins in the location, choose the **Get Bin Content** action.  
+6. Choose the **Create Put-away** action. A warehouse put-away instruction is now ready for a warehouse employee to perform. Alternatively you can choose the **Release** action and create warehouse put-aways using the **Put-away worksheet**. For more information see,  [Plan Put-aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
@@ -48,3 +54,6 @@ The **Internal Put-aways** enables you to perform put-aways without having to re
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

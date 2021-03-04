@@ -112,3 +112,6 @@ For example, there is a sales credit memo for INR 10,000 and 18% GST (i.e. 9% CG
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

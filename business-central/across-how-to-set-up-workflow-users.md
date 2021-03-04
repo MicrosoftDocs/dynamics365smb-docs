@@ -48,3 +48,6 @@ Workflow users that function as approval users, both approval requesters and app
 [Using Workflows](across-use-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

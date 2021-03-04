@@ -62,3 +62,6 @@ When you have set up a task, you can assign it to a sales opportunity and thereb
 [Processing Sales Opportunities](marketing-processing-sales-opportunities.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

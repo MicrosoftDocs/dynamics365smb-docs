@@ -57,3 +57,6 @@ The following video covers the basics of fixed assets.
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

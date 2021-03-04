@@ -30,3 +30,6 @@ A test report is a document that lets you review and modify a delivery reminder 
  [Delivery Reminders](delivery-reminders.md)   
  [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)   
  [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

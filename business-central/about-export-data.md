@@ -78,3 +78,6 @@ For more information, see [To get an overview of a user's permissions](ui-define
 [Finance](finance.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

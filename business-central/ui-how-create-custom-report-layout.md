@@ -115,3 +115,6 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

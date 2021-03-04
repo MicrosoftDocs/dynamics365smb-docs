@@ -51,3 +51,6 @@ The report will have the following name: <taxpayername>FEC<YYYYMMDD>
 
 ## See Also  
  [Close Years](how-to-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

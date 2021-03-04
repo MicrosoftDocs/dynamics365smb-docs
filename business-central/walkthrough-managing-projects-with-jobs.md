@@ -485,3 +485,6 @@ By comparing prices, job task lines, and job planning lines for the two jobs, yo
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
  [Invoice Jobs](projects-how-invoice-jobs.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

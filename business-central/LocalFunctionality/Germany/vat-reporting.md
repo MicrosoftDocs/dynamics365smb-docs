@@ -30,3 +30,6 @@ You can print the following local VAT reports.
 [Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
 [Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

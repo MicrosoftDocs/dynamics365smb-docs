@@ -23,3 +23,6 @@ General ledger accounts are mapped to predefined government account codes and th
 
 ## See Also
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

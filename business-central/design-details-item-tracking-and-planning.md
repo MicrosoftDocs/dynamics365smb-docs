@@ -52,3 +52,6 @@ For more information, see [Design Details: Balancing Demand and Supply](design-d
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Design Details: Supply Planning](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

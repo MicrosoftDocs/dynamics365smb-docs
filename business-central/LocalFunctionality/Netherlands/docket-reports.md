@@ -24,3 +24,6 @@ When generating payment proposals using the **Get Proposal Entries** batch job t
 
 ## See Also  
  [Telebanking](telebanking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@
 
 ## See Also  
  [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ You can use bill groups for the following:
 ## See Also  
  [Cartera Module](cartera-module.md)   
  [Payments Cartera Module](payments-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

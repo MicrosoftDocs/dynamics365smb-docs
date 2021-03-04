@@ -37,3 +37,6 @@ When you run the report, you must specify the name and location of the exported 
 
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

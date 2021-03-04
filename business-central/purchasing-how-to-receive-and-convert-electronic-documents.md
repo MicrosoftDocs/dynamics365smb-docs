@@ -61,3 +61,6 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Exchanging Data Electronically](across-data-exchange.md)   
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -62,3 +62,6 @@ When you work with service items and service orders, you may need to register ad
 ## See Also
 [Setting Up Service Management](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

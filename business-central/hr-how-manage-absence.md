@@ -69,3 +69,6 @@ You can register employee absences on a daily basis or at some other interval th
 [Finance](finance.md)  
 [Working With [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

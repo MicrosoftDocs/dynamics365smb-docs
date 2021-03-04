@@ -35,3 +35,6 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] for daily bu
 
 ## See Also  
 [Setting Up Finance](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

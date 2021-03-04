@@ -53,3 +53,6 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 [Getting Ready for Doing Business](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

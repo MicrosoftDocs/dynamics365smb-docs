@@ -43,3 +43,6 @@ The application adds legislation requirements of Czechia as well as reporting fe
 ## See Also  
 
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

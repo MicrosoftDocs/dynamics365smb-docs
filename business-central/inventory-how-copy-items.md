@@ -35,3 +35,6 @@ When you add a new item, to save time, you can use the **Copy Item** function to
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Inventory](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -87,5 +87,7 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 ## See Also
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

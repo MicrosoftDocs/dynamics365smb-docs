@@ -107,3 +107,6 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

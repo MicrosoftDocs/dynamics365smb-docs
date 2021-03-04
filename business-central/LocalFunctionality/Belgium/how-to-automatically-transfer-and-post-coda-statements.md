@@ -41,3 +41,6 @@ After transferring the statement lines to the journal, you can post the statemen
  [Apply CODA Statements](how-to-apply-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

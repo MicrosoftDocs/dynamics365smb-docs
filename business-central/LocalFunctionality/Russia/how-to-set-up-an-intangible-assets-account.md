@@ -27,3 +27,6 @@ The procedure for posting an intangible asset account is similar to the procedur
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

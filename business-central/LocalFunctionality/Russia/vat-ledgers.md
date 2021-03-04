@@ -50,3 +50,6 @@ These marked documents will be reflected in the purchase book or in the sales bo
 [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
 [Posting VAT on Sales](Posting-VAT-on-Sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

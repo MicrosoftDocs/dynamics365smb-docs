@@ -25,3 +25,6 @@ In the Calculate and Post VAT Settlement functionality, the posted document numb
 [VAT date](how-to-setup-vat-date.md)  
 [VAT statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

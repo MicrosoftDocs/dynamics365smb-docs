@@ -78,3 +78,6 @@ The correction is posted, and any general ledger account correspondence that you
 ## See Also
 
 [Setting Up Inventory](Inventory-Setup.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

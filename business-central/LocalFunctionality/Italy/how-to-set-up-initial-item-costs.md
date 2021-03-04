@@ -31,3 +31,6 @@ The entries in this page will be used to calculate the average year cost. For mo
 ## See Also  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

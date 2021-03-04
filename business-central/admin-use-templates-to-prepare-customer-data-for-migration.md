@@ -154,3 +154,6 @@ The default values from the chosen customer template are inserted on the custome
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Register New Customers](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

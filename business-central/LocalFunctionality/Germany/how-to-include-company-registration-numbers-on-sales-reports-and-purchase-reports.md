@@ -31,3 +31,6 @@ When generating certain sales reports and purchase reports, you can print regist
 
 ## See Also  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

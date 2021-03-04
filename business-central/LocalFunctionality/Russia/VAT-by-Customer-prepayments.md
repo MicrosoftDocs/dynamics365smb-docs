@@ -56,3 +56,6 @@ Click "OK". The system will automatically create corrective entries.
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

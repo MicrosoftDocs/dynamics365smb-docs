@@ -67,3 +67,6 @@ Each section has a summary section with the following information.
 [Managing Payables](../../payables-manage-payables.md)  
 [Managing Receivables](../../receivables-manage-receivables.md)  
  [Defining Payment Methods](../../finance-payment-methods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -28,3 +28,5 @@ The rules for entering data on the **Item Tracking Lines** page also support the
   
 ## See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

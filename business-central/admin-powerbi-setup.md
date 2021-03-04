@@ -10,7 +10,6 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-
 ---
 # Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,26 +30,33 @@ For more information, see [Licensing the Power BI service for users in your orga
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
-1. OData web services and the ODataV4 endpoint are enabled.
+1. Configure either NavUserPassword or Azure Active Directory Authentication for the deployment.
+
+    Power BI integration doesn't support Windows authentication.  
+
+2. Enable OData web services and the ODataV4 endpoint.
 
     OData web service must be enabled on the [!INCLUDE[server](includes/server.md)], and OData port opened in firewall. For more information, see [Configuring Business Central Server - OData Web Services](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
-    
+
     The local server must be accessible from the Internet.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)] user accounts have web service access key.
+3. Give [!INCLUDE[prod_short](includes/prod_short.md)] user accounts a web service access key.
 
-    A web service access key is needed to view [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI. You can assign a web service access key to each user account. Or instead, create a specific account with a web service access key for use by all users. For more information, see [Web Services Authentication](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    A web service access key is only needed to view [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI. You can assign a web service access key to each user account. Or instead, create a specific account with a web service access key for use by all users. For more information, see [Web Services Authentication](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
-3. NavUserPassword or Azure Active Directory Authentication is configured.
+4. Create an application registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-4. To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
-
-    The registered application needs permission to Power BI services. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure The registered application needs permission to Power BI services. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > If your deployment uses NavUserPassword authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the same Power BI service for all users. You'll specify this service account as part of registering the application. With Azure AD authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Power BI service associated with the individual user accounts.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
+5. Make the initial connection from Business Central to Power BI.
+
+    Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
+
+    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the role center. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
 ## Publish data as web services
 
@@ -60,9 +66,6 @@ For more information about publishing web services, see [Publish a Web Service](
 
 > [!TIP]
 > To learn about what you can do to ensure the best performance of web services, as seen from the Business Central server (the endpoint) and from the consumer (the client), read [Writing efficient Web Services](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
-
-
-
 
 ## See Related Training at [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -83,3 +86,6 @@ For more information about publishing web services, see [Publish a Web Service](
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,3 +33,6 @@ The following fields are required for reporting DEB:
 
 ## See Also  
 [France Local Functionality](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 [New Zealand Business Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md)  
 [New Zealand Local Functionality](new-zealand-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

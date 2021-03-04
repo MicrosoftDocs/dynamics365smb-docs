@@ -42,3 +42,6 @@ Before you can file a SEPA payment, you must complete the following administrati
  [Set Up Export Protocols](how-to-set-up-export-protocols.md)   
  [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)   
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

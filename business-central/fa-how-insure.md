@@ -115,3 +115,6 @@ The fixed asset will be detached from the incorrect insurance policy, on the sec
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

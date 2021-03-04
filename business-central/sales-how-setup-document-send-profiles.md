@@ -39,3 +39,6 @@ When you choose the **Post and Send** action on a sales document, the **Post and
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

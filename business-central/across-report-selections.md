@@ -64,3 +64,6 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

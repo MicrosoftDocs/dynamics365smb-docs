@@ -93,3 +93,6 @@ The bank statement containing our payment to Jannet Carter will be sent to us by
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

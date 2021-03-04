@@ -21,3 +21,6 @@ Templates can be used in a function that creates new stockkeeping unit of items.
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

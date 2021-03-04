@@ -22,3 +22,6 @@ The user can define the http service address and other exchange rate update para
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

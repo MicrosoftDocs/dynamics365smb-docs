@@ -45,3 +45,6 @@ The following Intrastat reports are available:
 
 ## See Also  
  [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

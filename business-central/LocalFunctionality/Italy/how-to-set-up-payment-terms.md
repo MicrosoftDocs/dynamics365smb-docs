@@ -42,3 +42,6 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 [Set Up Payment Terms in the Italian Version](../../finance-payment-terms.md)  
 [Defining Payment Methods](../../finance-payment-methods.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,6 +29,10 @@ You can have [!INCLUDE[prod_short](../../includes/prod_short.md)] suggest paymen
 
 ## See Also
 
-[Belgian Electronic Payments](belgian-electronic-payments.md)  
-[Suggest Vendor Payments](../../payables-how-suggest-vendor-payments.md)  
-[Test Electronic Payments](how-to-test-electronic-payments.md)  
+## See Also  
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [Test Electronic Payments](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

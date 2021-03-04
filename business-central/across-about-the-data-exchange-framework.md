@@ -62,3 +62,6 @@ For all exchanges of data in XML files, you can prepare the data exchange setup 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

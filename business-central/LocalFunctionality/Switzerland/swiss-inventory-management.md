@@ -32,3 +32,6 @@ If multiple shipments have been posted for a customer, then you can create a com
 ## See Also  
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
  [Set Up Locations](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ If two depreciation methods are used, Finnish tax legislation requires that the 
 ## See Also  
 [Finland Local Functionality](finland-local-functionality.md)  
 [Fixed Assets](../../fa-manage.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

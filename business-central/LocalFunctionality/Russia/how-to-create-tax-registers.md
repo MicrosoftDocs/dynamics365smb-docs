@@ -62,3 +62,6 @@ The following procedure shows how to create tax registers.
 [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
 [Find Entries](../../ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

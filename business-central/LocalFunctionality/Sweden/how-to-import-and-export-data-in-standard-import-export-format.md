@@ -53,3 +53,6 @@ You can import and export general ledger data according to the standard import e
 ## See Also  
  [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Sweden Local Functionality](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

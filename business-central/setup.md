@@ -72,3 +72,6 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

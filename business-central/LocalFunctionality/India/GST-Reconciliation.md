@@ -84,3 +84,6 @@ This topic explains the setups and process of GST reconciliation.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

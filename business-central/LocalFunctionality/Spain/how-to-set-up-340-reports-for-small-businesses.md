@@ -34,3 +34,6 @@ After VAT posting is set up to handle unrealized VAT, any printed sales order, p
 
 ## See Also  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

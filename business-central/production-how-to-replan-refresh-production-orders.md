@@ -89,3 +89,6 @@ If you have amended production order lines, components, or routing lines, you mu
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

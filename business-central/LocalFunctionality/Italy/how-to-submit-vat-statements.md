@@ -47,3 +47,6 @@ The exported file can now be submitted to the tax authorities.
 
 ## See Also  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

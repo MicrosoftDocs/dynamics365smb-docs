@@ -31,3 +31,6 @@ You can print remittance advice before posting a payment journal and after posti
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

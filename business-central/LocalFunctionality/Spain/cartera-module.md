@@ -33,3 +33,6 @@ The Cartera module contains the Receivables Cartera module and the Payments Cart
  [Receivables Cartera Module](receivables-cartera-module.md)   
  [Payments Cartera Module](payments-cartera-module.md)   
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

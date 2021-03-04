@@ -40,6 +40,9 @@ Next, add the templates to journal batches.
     |**Status**|Specifies the status of the batch.|  
 
 ## See Also  
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
 
-[Belgian Electronic Payments](belgian-electronic-payments.md)  
-[Electronic Banking in the Belgian Version](belgian-electronic-banking.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ If your PAC offers the service of canceling signed documents, you must specify t
  [Electronic Invoicing](electronic-invoicing.md)   
  [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
  [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

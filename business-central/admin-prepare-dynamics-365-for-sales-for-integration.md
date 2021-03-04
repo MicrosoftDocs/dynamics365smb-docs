@@ -201,3 +201,6 @@ You must have a Microsoft Azure subscription. A trial account will work for appl
 [Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Synchronizing Business Central and [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -135,3 +135,6 @@ If you own only part of a company, you can include a percentage of each transact
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

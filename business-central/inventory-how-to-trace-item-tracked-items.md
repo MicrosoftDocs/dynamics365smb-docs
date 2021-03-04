@@ -68,3 +68,6 @@ These features can be particularly useful in quality control when you need to fi
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)  
 [Find Entries](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

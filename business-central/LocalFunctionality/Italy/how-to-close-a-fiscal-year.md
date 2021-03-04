@@ -67,3 +67,6 @@ An entry is posted to each income statement account so that it has a zero balanc
 ## See Also  
  [Closing Years and Periods](../../year-close-years-periods.md)   
  [Italy Local Functionality](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

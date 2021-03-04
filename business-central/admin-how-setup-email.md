@@ -33,7 +33,7 @@ The following table describes the email extensions that are available by default
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Office 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
@@ -43,7 +43,7 @@ The following table describes the email extensions that are available by default
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## Legacy SMTP Settings and the Email - SMTP Connector Extension
-If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[prod_short](includes/prod_short.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
+If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[prod_short](includes/prod_short.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
 
 > [!NOTE]
 > If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
@@ -153,7 +153,7 @@ The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure po
 > * Redirect URI (optional)
 > * Client secret
 
-For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). 
+For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to Your App Registration
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
@@ -195,3 +195,6 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

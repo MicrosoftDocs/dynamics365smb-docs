@@ -34,3 +34,6 @@ You can run the apply entries feature from the cash document rows to select cust
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

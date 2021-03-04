@@ -34,3 +34,6 @@ Use the following table to learn more about the payables and receivables feature
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

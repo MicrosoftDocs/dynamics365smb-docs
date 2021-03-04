@@ -154,3 +154,6 @@ When the electronic payment is successfully processed by the bank, post the paym
 [Managing Payables](payables-manage-payables.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

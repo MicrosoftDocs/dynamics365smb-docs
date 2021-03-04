@@ -76,3 +76,6 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

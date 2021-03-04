@@ -25,10 +25,14 @@ When you receive a CODA statement from your bank, you must import it into [!INCL
 
 This imports the CODA statement. Next, you must process the CODA statement lines. For more information, see [Apply CODA Statements](how-to-apply-coda-statements.md).  
 
-## See Also
+## See Also  
+ [CODA Bank Statements](coda-bank-statements.md)   
+ [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)   
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Apply CODA Statements](how-to-apply-coda-statements.md)   
+ [Create Financial Journals](how-to-create-financial-journals.md)   
+ [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   
+ [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
 
-[CODA Bank Statements](coda-bank-statements.md)  
-[Apply CODA Statements](how-to-apply-coda-statements.md)  
-[Create Financial Journals](how-to-create-financial-journals.md)  
-[Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)  
-[Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

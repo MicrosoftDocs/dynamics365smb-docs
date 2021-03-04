@@ -140,3 +140,6 @@ You can cancel resource allocations for service tasks without reallocating the t
 ## See Also
 [Set Up Resource Allocation](service-how-setup-resource-allocation.md)  
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

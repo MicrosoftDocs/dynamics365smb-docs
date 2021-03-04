@@ -80,3 +80,6 @@ If you want to change the skill codes assigned to items, for example from **PC**
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

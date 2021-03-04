@@ -82,3 +82,6 @@ The default configuration package supports the following tables:
 [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ To set up and view tax difference entries, you will use the following tables, wh
 [Tax Difference Registers](Tax-Difference-Registers.md)  
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ When you run the report for a location, the **Last Goods Report No.** and **Last
 ## See Also
 
 [Setting Up Inventory](../../inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

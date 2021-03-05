@@ -60,3 +60,6 @@ You have now signed up for the AMC Banking 365 Fundamentals extension. Proceed t
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

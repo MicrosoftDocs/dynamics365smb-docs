@@ -58,3 +58,6 @@ If a contact person's age is below the age of legal consent according to the law
 [Exporting your Business Data to Excel](about-export-data.md)  
 [Logging Changes](across-log-changes.md)  
 [Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

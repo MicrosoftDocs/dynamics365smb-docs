@@ -44,3 +44,6 @@ You can activate this option only if the purchase invoice or purchase credit mem
 ## See Also  
 [Netherlands Local Functionality](netherlands-local-functionality.md)  
 [Setting Up Purchases](../../sales-how-work-standard-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

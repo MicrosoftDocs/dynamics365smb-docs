@@ -54,3 +54,6 @@ If you do not set up specific service hours for the service contract, the defaul
 [Understanding Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Understanding Service Order and Repair Status](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

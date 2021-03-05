@@ -68,3 +68,6 @@ For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST 
     |**IGST TCS Payable Account**|-10|  
     |**Bank Account**|-990| 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

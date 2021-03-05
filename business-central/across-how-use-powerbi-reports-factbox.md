@@ -84,3 +84,6 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

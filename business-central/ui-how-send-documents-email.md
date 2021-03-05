@@ -64,3 +64,6 @@ The **Email Outbox** is where you'll find the emails that you saved as drafts, a
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

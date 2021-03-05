@@ -82,3 +82,6 @@ For example, there is a sales invoice and a sales credit memo for INR 10,000.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

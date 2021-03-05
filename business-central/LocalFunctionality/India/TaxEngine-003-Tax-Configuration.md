@@ -100,3 +100,6 @@ Tax rates can be defined for a combination of tax parameters defined as part of 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

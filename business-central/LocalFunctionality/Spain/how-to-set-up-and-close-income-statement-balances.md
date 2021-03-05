@@ -60,3 +60,6 @@ You can use income statement balancing accounts to balance and track several acc
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

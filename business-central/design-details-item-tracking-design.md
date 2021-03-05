@@ -41,3 +41,6 @@ For more information, see [Design Details: Item Tracking Posting Structure](desi
 
 ## See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -86,3 +86,6 @@ The following procedure shows how to remove a tax register from the register lis
 [Tax Registers](Tax-Registers.md)  
 [Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Collecting Profit Tax Information for Tax Declaration](Collecting-Profit-Tax-Information-for-Tax-Declaration.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

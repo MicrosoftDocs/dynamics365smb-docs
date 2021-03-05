@@ -36,7 +36,9 @@ Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] res
 ## Why can't I find that capability in my [!INCLUDE[prod_short](includes/prod_short.md)]?
 Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[prod_short](includes/prod_short.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[prod_short](includes/prod_short.md)] is based on in the [Help and Support](product-help-and-support.md) page.  
 
-Also, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource.  
+This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises.  
+
+Also, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
 
 ## Are there any differences between an on-premises deployment and the cloud version of Business Central?
 Yes. Some Cloud-based features may run on premises in certain cases and others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -61,8 +63,9 @@ If your Experience setting on the **Company Information** page is set to **Essen
 
 There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.
 
-## <a name="email"></a>What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)]?
-[!INCLUDE[prod_short](includes/prod_short.md)] requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
+## <a name="email"></a>What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)] online?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
 
 If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address. For more information, see [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
 
@@ -143,3 +146,5 @@ The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

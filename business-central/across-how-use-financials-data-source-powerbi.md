@@ -133,3 +133,6 @@ There are a couple ways to get reports to your coworkers and others:
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

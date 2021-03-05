@@ -28,3 +28,6 @@ General ledger functionality for France is described in the below topics.
 
 [France Local Functionality](france-local-functionality.md)  
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

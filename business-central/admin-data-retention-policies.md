@@ -101,3 +101,5 @@ After a developer has added tables to the list, an administrator can include the
 [Filtering](ui-enter-criteria-filters.md#filtering)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

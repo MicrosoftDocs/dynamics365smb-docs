@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/21/2021
+ms.date: 01/25/2021
 ms.author: edupont
 
 ---
@@ -54,7 +54,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by cash or by PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales invoice. If you select CASH, then the payment is recorded in a specified balancing account.
 
-    You are now ready to fill in the sales invoice lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.   
+    You are now ready to fill in the sales invoice lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.  
 
     If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.  
 4. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
@@ -130,3 +130,6 @@ You can even create directly-paid invoices for non-registered customers by first
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central](finance-bookings.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

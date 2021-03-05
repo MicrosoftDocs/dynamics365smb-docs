@@ -77,3 +77,6 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax will be coll
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ The completed entries can be sent in a file to the Intrastat authorities, or you
 
 ## See Also  
  [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

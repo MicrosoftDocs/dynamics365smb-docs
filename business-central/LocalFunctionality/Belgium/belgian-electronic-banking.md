@@ -64,7 +64,6 @@ In order to process electronic payments, you must set up transaction codes accor
 [Belgian Electronic Payments](belgian-electronic-payments.md)  
 [CODA Bank Statements](coda-bank-statements.md)  
 [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md)
-[Belgium Local Functionality](belgium-local-functionality.md)  
-[Setting Up Banking](../../bank-setup-banking.md)  
-[Managing Payables](../../payables-manage-payables.md)  
-[Isabel website](https://go.microsoft.com/fwlink/?LinkId=210323)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

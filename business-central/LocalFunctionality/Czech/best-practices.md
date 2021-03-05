@@ -1,6 +1,6 @@
 ---
-title: Czech Local Functionality - Small Regulatory Features and Best Practices | Microsoft Docs
-description: This section describes local functionality - Small Regulatory Features and Best Practices
+title: Small Regulatory Features and Best Practices in the Czech Version
+description: Learn about built-in support for best practices and small regulatory features in the Czech version of Business Central.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Small Regulatory Features and Best Practices
+# Small Regulatory Features and Best Practices in the Czech Version
 
 Smaller regulatory features and local practices of Czech companies include the following features:
 - G/L account groups – for multi-circuit accounting
@@ -29,3 +29,6 @@ Smaller regulatory features and local practices of Czech companies include the f
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

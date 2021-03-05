@@ -63,3 +63,6 @@ Yes, you can! It's a slightly different way to signing in, that's all. For more 
 
 [Getting Business Central on Your Mobile Device](install-mobile-app.md)  
 [Install the Business Central App for Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

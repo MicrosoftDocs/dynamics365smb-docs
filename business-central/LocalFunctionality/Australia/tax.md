@@ -29,3 +29,6 @@ For information about tax in Australia, see the following topics:
 ## See Also
 
 [Australia Local Functionality](australia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

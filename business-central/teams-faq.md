@@ -44,7 +44,6 @@ The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't restr
 Yes. The app is intended to work with any localization of [!INCLUDE [prod_short.md](includes/prod_short.md)], whether that localization is offered directly from Microsoft or through a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="language"></a>Which languages does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app support?
-<!--TODO Run by Mike -->
 
 Two things determine the language used for cards and card details in Teams:
 
@@ -60,9 +59,13 @@ The following table explains how the experience differs for message authors and 
 
 For the list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### Does the Business Central app work with industry solutions?
+
+Yes. The app works with links based on the **\*.bc.dynamics.com** pattern that's typically used with [Embed apps](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### Where can I find Teams integration inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client? 
 
-There's currently no embedding of Teams controls or presence of Teams features inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client or other clients.  
+There's currently no embedding of Teams controls or presence of Teams features inside the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client or other clients.
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
@@ -101,6 +104,19 @@ If you're a reselling partner, you might want to have an environment that you ca
 The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams can display cards for links to customer pages and tables in [!INCLUDE [prod_short.md](includes/prod_short.md)], such as those pages and tables originating from your own custom extensions or from AppSource.
 
 The fields shown on a card in Teams can also be affected by [!INCLUDE [prod_short.md](includes/prod_short.md)] customizations installed for your organization. Cards don't consider any role-specific customizations or user personalization. However, the card details window shows record details as you would see them in [!INCLUDE [prod_short.md](includes/prod_short.md)], including any extensions, role customizations, and user personalization.
+
+### How do the permissions required by the app affect my privacy?
+
+Before installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, you can review the minimum permissions required for the app to function. By installing the app, you agree that the app has permission to receive messages and data that you provide it, and Teams has permission to store and process those messages.
+
+Also, some [!INCLUDE [prod_short.md](includes/prod_short.md)] features require opening external links or access to your camera or geographic location. For example, suppose you wanted to capture a photo of a purchase invoice for processing. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app doesn't use these capabilities without your consent and they're only used by specific features in the **Details** window. When you use one of these features for the first time, Teams will display a dialog box asking you to grant access to the required device capabilities.
+
+- In Teams desktop, you review and adjust app permissions from the **Settings** window. Select your profile picture at the top of the app, select **Settings** > **Permissions**, then select the [!INCLUDE [prod_short.md](includes/prod_short.md)] app.
+
+- For Teams in the browser and Teams for iOS or Android, you can review or adjust permissions from your browser or device settings.
+
+> [!NOTE]
+> Exactly which [!INCLUDE [prod_short.md](includes/prod_short.md)] features prompt you for permissions depends on the add-on apps and customizations applied to the [!INCLUDE [prod_short.md](includes/prod_short.md)] environment that you connect to.
 
 ### Where can I learn about my privacy? 
 
@@ -204,3 +220,6 @@ Guests don't have access to the app marketplace to install apps themselves. Howe
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

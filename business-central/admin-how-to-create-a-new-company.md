@@ -72,3 +72,6 @@ In addition to setup data tables, [!INCLUDE[prod_short](includes/prod_short.md)]
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

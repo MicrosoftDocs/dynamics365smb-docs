@@ -39,3 +39,6 @@ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** r
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

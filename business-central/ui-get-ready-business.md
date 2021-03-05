@@ -78,3 +78,6 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Resources for Help and Support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

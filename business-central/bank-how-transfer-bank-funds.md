@@ -54,3 +54,6 @@ To transfer funds between bank accounts that use different currencies, you must 
 [Setting Up Banking](bank-setup-banking.md)  
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

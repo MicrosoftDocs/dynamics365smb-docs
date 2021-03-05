@@ -37,4 +37,7 @@ If you are an administrator or superuser, you can help others by looking up erro
 [Searching and Filtering FAQ](ui-search-filter-faq.md)  
 [Copy and Paste FAQ](faq-copy-paste.yml)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

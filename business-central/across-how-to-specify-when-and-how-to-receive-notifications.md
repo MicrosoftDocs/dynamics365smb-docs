@@ -61,3 +61,6 @@ When you set up users in approval workflows, you must specify in the **Notificat
  [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
  [Using Workflows](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

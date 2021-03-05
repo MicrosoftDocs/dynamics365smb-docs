@@ -39,3 +39,6 @@ The GetAddress.io UK Postcodes extension uses the getAddress API to find address
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

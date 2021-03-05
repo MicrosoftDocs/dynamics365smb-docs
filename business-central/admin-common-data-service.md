@@ -63,3 +63,6 @@ During connection setup, integration table mappings that are needed to synchroni
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

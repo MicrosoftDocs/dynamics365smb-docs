@@ -131,3 +131,6 @@ Use caution when correcting large sets of entries, for example, sets that includ
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Setting Up Dimensions](finance-setup-dimensions.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

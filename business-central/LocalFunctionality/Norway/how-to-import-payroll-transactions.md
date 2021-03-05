@@ -30,3 +30,6 @@ You can import payroll transactions into a general journal from the leading Norw
 
 [The Payroll Data Definitions (NO) Extension](ui-extensions-payroll-data-definitions-no.md)  
 [Norway Local Functionality](norway-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

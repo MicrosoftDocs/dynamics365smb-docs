@@ -67,3 +67,6 @@ The agreements are fully synchronized with dimensions. You can post transactions
 
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

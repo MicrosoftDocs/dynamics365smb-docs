@@ -27,3 +27,6 @@ You can use recurring groups to define a range of parameters that show how you m
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)   
  [Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

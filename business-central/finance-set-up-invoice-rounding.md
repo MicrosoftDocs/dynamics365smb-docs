@@ -59,3 +59,6 @@ To ensure that sales and purchase invoices are rounded automatically, you must a
 ## See Also  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Administrators have the option to set or change these settings for users in each
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Changing Language and Locale](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

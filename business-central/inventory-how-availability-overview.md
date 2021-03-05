@@ -125,3 +125,6 @@ If one or more assembly components are not available, then this is reflected in 
 [Sell Products](sales-how-sell-products.md)      
 [Working with Business Central](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

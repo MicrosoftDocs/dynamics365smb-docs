@@ -62,3 +62,6 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 [Mobile Apps FAQ](ui-mobile-faq.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

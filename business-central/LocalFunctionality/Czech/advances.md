@@ -111,3 +111,6 @@ Internal Documents:
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

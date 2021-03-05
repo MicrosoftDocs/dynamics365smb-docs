@@ -30,3 +30,6 @@ There is also a print-out of the Agreement on Mutual Settlement of Receivables a
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

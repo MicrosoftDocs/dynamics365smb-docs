@@ -34,3 +34,6 @@ You can print balance sheet reports and income statement reports to submit to ba
 ## See Also  
  [Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)   
  [Sweden Local Functionality](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

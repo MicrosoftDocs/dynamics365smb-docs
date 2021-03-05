@@ -35,3 +35,6 @@ The following table describes the information provided for each table:
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

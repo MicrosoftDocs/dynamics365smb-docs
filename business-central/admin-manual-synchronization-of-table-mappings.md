@@ -82,3 +82,6 @@ You can use the **Integration Table Mappings** page to run a synchronization job
 ## See Also  
 [Synchronizing Business Central and Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Setting Up User Accounts for Integrating with Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

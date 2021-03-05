@@ -29,3 +29,6 @@ In the **Chart of Accounts** window, the following fields are available:
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

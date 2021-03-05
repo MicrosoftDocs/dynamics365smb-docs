@@ -33,3 +33,6 @@ The **Withholding Taxes** report displays a list of withholding taxes that are p
 
 ## See Also  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

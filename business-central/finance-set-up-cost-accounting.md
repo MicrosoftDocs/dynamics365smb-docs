@@ -179,3 +179,6 @@ For each general ledger account, you can define default dimension values in the 
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

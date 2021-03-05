@@ -36,3 +36,6 @@ You can enter NACE codes on the **Company Information** page. NACE codes are uni
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

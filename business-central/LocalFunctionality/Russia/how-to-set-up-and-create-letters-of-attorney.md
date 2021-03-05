@@ -55,3 +55,6 @@ The following procedure shows how to create a Letter of Attorney.
 ## See Also
 
 [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

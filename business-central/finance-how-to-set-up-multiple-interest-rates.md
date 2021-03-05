@@ -33,3 +33,6 @@ When you issue a finance charge memo, the memo shows the finance charges with mu
 ## See Also  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Setting Up Finance](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,4 +40,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See also
 [Service Management](service-service.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

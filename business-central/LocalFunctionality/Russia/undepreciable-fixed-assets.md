@@ -41,3 +41,6 @@ Create a depreciation book to keep records of the quantities of fixed assets tha
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

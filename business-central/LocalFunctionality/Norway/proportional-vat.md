@@ -38,3 +38,6 @@ This also works if the transaction with this VAT combination is posted through a
 ## See Also  
  [Calculate Proportional VAT](how-to-calculate-proportional-vat.md)   
  [Norwegian VAT Reporting](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

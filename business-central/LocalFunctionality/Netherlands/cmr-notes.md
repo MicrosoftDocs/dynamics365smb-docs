@@ -41,3 +41,6 @@ The following details the standard life cycle of a CMR note:
 
 ## See Also  
  [Netherlands Local Functionality](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

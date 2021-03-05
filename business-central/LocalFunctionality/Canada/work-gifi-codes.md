@@ -62,3 +62,6 @@ You can export balance information using GIFI codes and save the exported file i
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)   
 [Setting Up Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

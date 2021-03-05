@@ -33,3 +33,6 @@ The following table provides the list of reports and how to print the reports.
 
 [Item Documents](Item-Documents.md)  
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

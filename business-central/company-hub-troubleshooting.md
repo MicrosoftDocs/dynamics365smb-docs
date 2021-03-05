@@ -46,3 +46,6 @@ If you've added a company but it is not displaying in the list, you can also use
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

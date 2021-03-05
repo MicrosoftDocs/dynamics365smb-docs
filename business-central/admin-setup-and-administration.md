@@ -60,3 +60,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

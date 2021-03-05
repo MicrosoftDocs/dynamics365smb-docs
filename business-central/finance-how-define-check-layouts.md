@@ -89,3 +89,6 @@ Fonts for other purposes are also available in [!INCLUDE[prod_short](includes/pr
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

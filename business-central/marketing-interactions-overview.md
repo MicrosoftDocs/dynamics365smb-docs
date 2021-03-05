@@ -27,3 +27,6 @@ The following table describes a sequence of tasks, with links to the topics that
 | Set up your system to record interactions. |[Set Up Contacts](marketing-setup-contacts.md) |
 |Create interactions to record all the interactions and communications you have with your contacts and segments, such as emailing.|[Create Interactions on Contacts and Segments](marketing-how-create-interactions.md)|
 |Set up your system to automatically record interactions for sales, purchase, and service documents, such as when a documented is created, posted, or printed.|[Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

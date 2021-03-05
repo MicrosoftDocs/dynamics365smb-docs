@@ -25,3 +25,6 @@ You can view posted tax difference transactions with all the income or expense c
 [Setting up Tax Difference Calculation](Setting-up-Tax-Difference-Calculation.md)  
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

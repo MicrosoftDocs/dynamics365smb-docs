@@ -47,3 +47,6 @@
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

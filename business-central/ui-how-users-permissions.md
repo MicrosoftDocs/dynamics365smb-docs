@@ -153,3 +153,6 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365](https://aka.ms/CreateOffice365Users)  
 [Security and Protection in Business Central (administration content)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

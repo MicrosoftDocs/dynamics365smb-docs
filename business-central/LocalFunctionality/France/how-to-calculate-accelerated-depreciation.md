@@ -49,3 +49,6 @@ The accelerated depreciation for the fixed asset is calculated.
  [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md)   
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
  [Fixed Assets](../../fa-manage.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ The general posting type will be handled in two ways, depending on the value in 
 
 ## See Also  
  [Norwegian VAT Reporting](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

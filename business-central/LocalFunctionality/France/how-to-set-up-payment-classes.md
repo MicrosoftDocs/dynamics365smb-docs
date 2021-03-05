@@ -47,3 +47,6 @@ To use payment management, you must set up payment classes to define operation t
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

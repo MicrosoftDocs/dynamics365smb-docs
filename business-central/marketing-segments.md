@@ -35,3 +35,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Managing Contacts](marketing-contacts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

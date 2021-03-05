@@ -56,3 +56,6 @@ However, the lead time value on the vendor card is used only if a lead time is n
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

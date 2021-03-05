@@ -36,3 +36,6 @@ When using the extended declaration, you will also need to set up an Incoterm in
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,5 @@ You can use a service quote as a preliminary draft for a service order, and then
 [Work on Service tasks](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

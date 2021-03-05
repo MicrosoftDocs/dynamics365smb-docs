@@ -42,3 +42,6 @@ You can now map the VAT statement data directly to an XML element.
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
  [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ When you update the **General Ledger Setup** page or the **VAT Registers** page 
 
 ## See Also  
 [Italy Local Functionality](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

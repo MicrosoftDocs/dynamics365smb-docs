@@ -89,3 +89,7 @@ You must print the customs declaration number on Factura-Invoice documents.
 [Russia Local Functionality](russia-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  
 
+[Print the Factura-Invoice](How-to-Print-the-Factura-Invoice.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

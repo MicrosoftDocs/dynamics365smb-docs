@@ -100,3 +100,6 @@ You can post the salvage value together with the acquisition cost from a fixed a
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

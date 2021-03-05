@@ -46,3 +46,6 @@ You can post payments after you have received Lastschrift Verfahren (LSV+) payme
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Export Payments Using LSV](how-to-export-payments-using-lsv.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

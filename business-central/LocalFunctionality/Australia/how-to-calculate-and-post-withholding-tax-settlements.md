@@ -29,3 +29,6 @@ The sum of all withheld amounts is reported as a truncated whole number to the A
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
  [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
  [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

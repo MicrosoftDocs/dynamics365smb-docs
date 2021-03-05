@@ -41,3 +41,6 @@ For the file that contains journal transactions:
 
 ## See Also
 [Mexico Local Funcationality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

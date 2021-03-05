@@ -22,3 +22,6 @@ You can view all posted fixed asset entries for each fixed asset charge code. Th
 ## See Also
 
 [Create a Fixed Asset Charge](How-to-Create-a-Fixed-Asset-Charge.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

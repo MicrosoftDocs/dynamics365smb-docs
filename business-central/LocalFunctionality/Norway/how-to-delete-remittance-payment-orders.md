@@ -45,3 +45,6 @@ Orders can be deleted if they are managed in full and are in a closed financial 
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
  [Cancel Payments](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ On the **Sales & Receivables Setup** page, the **Shipment on Ship and Invoice** 
  [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)   
  [Print an Inventory Picking List from a Sales Order](how-to-print-an-inventory-picking-list-from-a-sales-order.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

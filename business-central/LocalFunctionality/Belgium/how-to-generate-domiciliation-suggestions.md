@@ -42,3 +42,6 @@ When the batch job is finished, the domiciliation journal contains all open cust
  [Test Domiciliations](how-to-test-domiciliations.md)   
  [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
  [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

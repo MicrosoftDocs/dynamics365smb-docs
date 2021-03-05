@@ -49,3 +49,6 @@ Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 [VAT Ledgers](VAT-Ledgers.md)  
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

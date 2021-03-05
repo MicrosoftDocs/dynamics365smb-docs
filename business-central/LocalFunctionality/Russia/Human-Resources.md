@@ -26,3 +26,6 @@ In This Section:
 [Forming and changing Staff List Order, Staff Arrangement](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 
 [Vacation planning](Vacation-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

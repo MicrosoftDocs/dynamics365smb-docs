@@ -27,12 +27,16 @@ You can set up each vendor so that unpaid invoices from that vendor are automati
 
     If this field is not selected, no payment suggestions will be generated for the vendor.  
   
-## See Also
+## See Also  
+ [Belgian Electronic Banking](belgian-electronic-banking.md)   
+ [Belgian Electronic Payments](belgian-electronic-payments.md)   
+ [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
+ [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
+ [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
+ [Test Electronic Payments](how-to-test-electronic-payments.md)   
+ [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [Print Payment Files](how-to-print-payment-files.md)
 
-[Belgian Electronic Banking](belgian-electronic-banking.md)  
-[Belgian Electronic Payments](belgian-electronic-payments.md)  
-[Suggest Vendor Payments](../../payables-how-suggest-vendor-payments.md)  
-[Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)  
-[Test Electronic Payments](how-to-test-electronic-payments.md)  
-[Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)  
-[Print Payment Files](how-to-print-payment-files.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

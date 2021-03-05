@@ -44,3 +44,6 @@ After you set up the discrete LIFO cost calculation, you can post sales and purc
  [Italy Local Functionality](italy-local-functionality.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
  [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

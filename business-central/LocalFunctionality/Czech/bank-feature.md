@@ -65,3 +65,6 @@ This allows you to create payment orders and bank statements. An unlimited numbe
 [Czech Local Functionality](czech-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

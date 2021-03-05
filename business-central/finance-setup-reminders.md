@@ -99,3 +99,6 @@ After you have set up the reminder terms, with additional levels and text, enter
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Setting Up Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

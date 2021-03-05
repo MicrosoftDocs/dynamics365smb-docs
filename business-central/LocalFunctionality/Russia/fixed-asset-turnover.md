@@ -69,3 +69,6 @@ The **Fixed Asset G/L Turnover** report is similar to the **FA G/L Turnover** wi
 [Fixed Assets](fixed-assets.md)
 
 [Fixed Asset Inventory](Fixed-Asset-Inventory.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

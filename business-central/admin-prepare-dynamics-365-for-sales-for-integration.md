@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, integrating
+ms.search.keywords: sales, CRM, integration, integrating
 ms.date: 10/01/2020
 ms.author: bholtorf
 
@@ -40,7 +40,6 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Product Availability User
 
 ### Connection Settings in the Setup Guide
-
 You can use an assisted setup guide to quickly set up the connection and specify advanced features, such as coupling between records.
 
 1. Choose **Setup and Extensions**, and then choose **Assisted Setup**.
@@ -85,18 +84,28 @@ Entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as orders, are integrat
 
 The following table lists the standard mapping between tables in [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that [!INCLUDE[prod_short](includes/prod_short.md)] provides.
 
-| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Synchronization Direction | Default Filter |
-|--|--|--|--|
-| Unit of Measure | Unit Group | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Item | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
-| Resource | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
-| Customer Price Group | Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Price | Product Price List | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group** |
-| Opportunity | Opportunity | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
-| Sales Invoice Header | Invoice | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Invoice Line | Invoice Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Sales Order Header | Sales Order | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sales Header filter: **Document Type** is Order, **Status** is Released |
-| Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Prerequisite | Synchronization Direction | Default Filter |
+|--|--|--|--|--|
+| Unit of Measure | Unit Group | None | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Item | Product | Unit of Measure | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Sales Inventory** |
+| Resource | Product | Unit of Measure | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales contact filter: **Product Type** is **Services** |
+| Customer Price Group | Price List | | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Sales Price | Product Price List | | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] contact filter: **Sales Code** is not blank, **Sales Type** is **Customer Price Group** |
+| Opportunity | Opportunity | Contact | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+| Posted Sales Invoice Header | Invoice | Opportunity, Customer, Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Posted Sales Invoice Line | Invoice Product | Posted Sales Invoice Header, Item, Resource | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Sales Order Header | Sales Order | Opportunity, Customer, Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Sales Header filter: **Document Type** is Order, **Status** is Released |
+| Sales Order Notes | Sales Order Notes | Sales Order Header | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+|Price List Header | Price List | Currency | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | Business Central Price List Header filter: Price Type is Sale, Defines is Price, and Allow Updating Defaults is not enabled |
+| Price List Line | Product Price List | Price List Header, Item, Resource | | Business Central Price List Line filter: Price Type is Sale, Defines is Price, Product Type is Item or Resource, and the Minimum Quantity is zero. |
+
+> [!NOTE]
+> There are a few things to note about the standard entity mappings listed in the table above.
+> * If you are using a Person ownership model, for the **Opportunity** to **Opportunity**, **Posted Sales Invoice Header** to **Invoice**, and **Sales Order Header** to **Sales Order** mappings you must also have the **Salesperson/Purchaser** prerequisite.
+> * If the new sales pricing experience is enabled, the Customer Price Group and Sales Price mappings are replaced with the Price List Header and Price List Line mappings.
+
+> [!TIP]
+> Information about prerequisites is available through personalization. On the **Dynamics Connection Setup** page, when you choose **Run Full Synchronization** you can add the **Dependency** filter field to the **Dataverse Full Synch. Review** page.
 
 ### Synchronization Rules
 
@@ -192,3 +201,6 @@ You must have a Microsoft Azure subscription. A trial account will work for appl
 [Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Synchronizing Business Central and [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

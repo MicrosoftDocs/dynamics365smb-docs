@@ -155,3 +155,6 @@ Due to a limitation at HMRC, it is not possible to send test submissions of VAT 
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
 [Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

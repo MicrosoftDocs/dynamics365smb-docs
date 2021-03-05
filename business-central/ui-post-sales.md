@@ -61,3 +61,6 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

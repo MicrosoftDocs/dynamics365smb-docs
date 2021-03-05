@@ -67,3 +67,6 @@ Verify the beginning balances for accounts in the general ledger. QuickBooks doe
 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

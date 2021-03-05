@@ -107,3 +107,6 @@ The following procedure shows how to create a report based on a posted transfer 
 [Inventory Setup](Inventory-Setup.md)  
 [Item Obligatory Acts](Item-Obligatory-Acts.md)  
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ You can print the following required bank management documents.
 ## See Also 
 
 [Set Up a Bank Payment Order](How-to-Set-Up-a-Bank-Payment-Order.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,15 +29,19 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
 
 * Banking & Payments
+    * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
     * [Apply CODA Statements](how-to-apply-coda-statements.md) **Available Now**
     * [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md) **Available Now**
     * [CODA Bank Statements](coda-bank-statements.md) **Available Now**
     * [Belgian Electronic Banking](belgian-electronic-banking.md) **Available Now**
+    * [Set Up Electronic Banking](how-to-set-up-electronic-banking.md) **Available Now**
     * [Set Up Export Protocols](how-to-set-up-export-protocols.md) **Available Now**
     * [Belgian Electronic Payments](belgian-electronic-payments.md) **Available Now**
+    * [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) **Available Now**
     * [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md) **Available Now**
     * [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md) **Available Now**
     * [Test Electronic Payments](how-to-test-electronic-payments.md) **Available Now**
+    * [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**

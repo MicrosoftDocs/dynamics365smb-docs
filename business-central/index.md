@@ -23,7 +23,7 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 ## Overview
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. On the Docs.microsoft.com site, in the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
 
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
@@ -34,7 +34,7 @@ The following sections point to key articles that can help you get familiar with
 
 ## Business Processes
 
-- [Getting Ready for Doing Business](ui-get-ready-business.md)
+- [Getting Started](product-get-started.md)
 - [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Administration](admin-setup-and-administration.md)

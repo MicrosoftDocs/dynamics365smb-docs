@@ -1,5 +1,5 @@
 ---
-title: Administrative tasks in Business Central
+title: Administrative tasks in Business Central | Microsoft Docs
 description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
 author: SorenGP
 
@@ -31,7 +31,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |**To**|**See**|  
 |------------|-------------|  
 |Define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)] by creating users on the Microsoft 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)|
-|Define steps for the **Get Started** checklist |[Onboard Users with Checklists](admin-checklist.md)|
 |Assign permissions to users, modify permission sets, and group users for easy permission management.|[Assign Permissions to Users and Groups](ui-how-users-permissions.md)|
 |Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
 |Manage user settings, such as company, role, language, region and time zone.|[User Settings](admin-manage-user-settings-preferences.md)|
@@ -48,7 +47,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Connect Dynamics 365 Sales with [!INCLUDE[prod_short](includes/prod_short.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 |Monitor usage and troubleshoot sessions.|[Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Manage user sessions, including canceling a session if the user is blocked.|[Managing Sessions in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
+|Manage user sessions, including canceling a session if the user is blocked.|[Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
@@ -57,7 +56,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

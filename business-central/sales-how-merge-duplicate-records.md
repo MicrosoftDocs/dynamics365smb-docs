@@ -1,8 +1,6 @@
 ---
-title: Merge Duplicate Customer or Vendor Records | Microsoft Docs
-description: Describes how to create a customer card to register information about each new customer or client that you sell to.
-services: project-madeira
-documentationcenter: ''
+title: Merge Duplicate Customer or Vendor Records
+description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: SorenGP
 
 ms.service: dynamics365-business-central

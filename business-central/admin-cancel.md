@@ -37,7 +37,7 @@ User accounts and licenses are managed in the [Microsoft 365 admin center](https
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  
 
 ## See Also
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Creating New Companies](about-new-company.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Microsoft 365 admin center](https://admin.microsoft.com/)  

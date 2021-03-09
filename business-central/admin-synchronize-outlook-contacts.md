@@ -45,7 +45,7 @@ In both cases, contacts are only synchronized from Outlook if they have the requ
 In Outlook, the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] are shown in a folder under **Other contacts** in the **People**  view. If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.  
 
 ## See Also
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

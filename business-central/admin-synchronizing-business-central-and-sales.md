@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Dataverse, integration, sync, synchronize
+ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 10/01/2020
 ms.author: bholtorf
 

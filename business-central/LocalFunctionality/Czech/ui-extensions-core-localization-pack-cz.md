@@ -72,7 +72,8 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Check of output in inventory – time sequence](check-output-inventory-time-sequence.md) **2021 release wave 1**
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
-## See Also  
+
+## See Also
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

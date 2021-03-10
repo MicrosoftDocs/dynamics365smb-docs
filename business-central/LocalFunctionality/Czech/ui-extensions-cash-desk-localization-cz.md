@@ -35,5 +35,6 @@ Cash documents are receipt or withdrawal, and can be in different currencies acc
 You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for off-setting backup invoices.  
 
 ## See Also
+
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)

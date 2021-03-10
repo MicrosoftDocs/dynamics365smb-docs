@@ -936,6 +936,7 @@
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
 ##### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+##### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)

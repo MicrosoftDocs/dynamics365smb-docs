@@ -102,7 +102,7 @@ Users with the Device license cannot perform the following tasks in [!INCLUDE[pr
 
 1. In the Microsoft 365 Admin Center, go to the **Groups** page.
 2. Choose the **Add a group** action.
-3. On the **Choose a group type** page, choose the **Security** action, and then choose the **Add** action.
+3. On the **Choose a group type** page, choose the **Security** option, and then choose the **Add** action.
 4. On the **Basics** page, enter **Dynamics 365 Business Central Device Users** as the name of the group.
   
    >[!NOTE]

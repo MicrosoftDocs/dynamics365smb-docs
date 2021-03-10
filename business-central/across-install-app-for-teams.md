@@ -46,7 +46,7 @@ This option is the quickest way to install the app.
 2. In the left side, select **Apps**.
 3. Search for **Business Central**.
 4. Select the app when you find it.
-5. Select **Add for me**.
+5. Select **Add**.
 
 ## Next step
 

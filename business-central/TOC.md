@@ -910,6 +910,8 @@
 
 ### Czech Republic
 #### [Local Functionality in the Czech Version](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Core Finance  
 ##### [Finance](LocalFunctionality/Czech/finance.md)
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
@@ -935,8 +937,6 @@
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
-##### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-##### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)

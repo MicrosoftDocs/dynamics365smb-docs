@@ -42,7 +42,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
 
 - **Banking and Payments**
-  - [Electronic registration of sales (EET)](eet.md) **February 2021**
+  - [Electronic registration of sales (EET)](eet.md) **Available Now**
   - Local Banking Feature - symbols and payments  **2021 release wave 1**
 
 - **Payables and Receivables**

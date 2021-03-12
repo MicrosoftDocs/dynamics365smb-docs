@@ -922,7 +922,7 @@
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 #### Fixed Assets
 ##### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
-##### [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)
+##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)

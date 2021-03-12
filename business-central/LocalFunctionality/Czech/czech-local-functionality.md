@@ -18,7 +18,7 @@ The following topics describe the local functionality in the Czech version of [!
 ## Feature Availability
 
 * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
-* [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
+* [Advanced Localization Pack for Czech (Extension)](ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
 
 * General
   * [General](general.md) **Available Now**

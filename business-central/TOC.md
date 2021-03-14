@@ -110,6 +110,7 @@
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
+#### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
@@ -243,11 +244,13 @@
 #### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 #### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 #### [Using Business Central Without Outlook](admin-no-outlook.md)
-### Microsoft Teams Integration
+### Using Microsoft Teams with Business Central
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 #### [Working with Business Central Data in Teams](across-working-with-teams.md)
+#### [Teams FAQ](teams-faq.md)
+#### [Troubleshooting](admin-teams-troubleshooting.md)
 ### Using Power BI with Business Central
 #### [Introduction](admin-powerbi.md)
 #### Administrator
@@ -271,6 +274,7 @@
 ### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Set Up Email](admin-how-setup-email.md)
 ### [Create Number Series](ui-create-number-series.md)
+### [Report Selection](across-report-selections.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 
 ## Frequently Asked Questions
@@ -278,8 +282,10 @@
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ### [List Views FAQ](ui-views-faq.md)
-### [Copy and Paste FAQ](ui-copy-paste.md)
+### [Copy and Paste FAQ](faq-copy-paste.yml)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Teams FAQ](teams-faq.md)
+### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
 
 ## Help and Support
@@ -310,7 +316,7 @@
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ## [Searching and Filtering FAQ](ui-search-filter-faq.md)
 ## [Entering Data](ui-enter-data.md)
-## [Copy and Paste FAQ](ui-copy-paste.md)
+## [Copy and Paste FAQ](faq-copy-paste.yml)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
@@ -432,6 +438,7 @@
 ##### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finance
 ### [Finance Overview](finance.md)
+### [Financial Reports](finance-reports.md)
 ### Managing Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
 #### Applying Payments Automatically and Reconciling Bank Accounts
@@ -555,8 +562,9 @@
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
 
-## Business Intelligence
-### [BI Overview](bi.md)
+## Business Intelligence and Financial Reporting
+### [Business Intelligence and Financial Reporting Overview](bi.md)
+### [Financial Reports](finance-reports.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 ### [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -578,8 +586,8 @@
 ### [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
-### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
+### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
@@ -624,7 +632,7 @@
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
 ### [Create Jobs](projects-how-create-jobs.md)
-## [Use Resources for Jobs](projects-how-use-resources.md)
+### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
 ### [Manage Job Budgets](projects-how-manage-budgets.md)
 ### [Record Usage for Jobs](projects-how-record-job-usage.md)
@@ -1530,7 +1538,7 @@
 
 # Security, Privacy, Compliance
 ## Security and Protection
-### [Security and Protection Overview](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
 ### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Compliance
@@ -1538,6 +1546,7 @@
 ### [Application Compliance](compliance/compliance-application-compliance.md)
 ### [Service Compliance](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
+## [Service Overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Development and Administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

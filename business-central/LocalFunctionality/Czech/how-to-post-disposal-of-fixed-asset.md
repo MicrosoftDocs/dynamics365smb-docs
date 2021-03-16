@@ -21,5 +21,5 @@ On the **Depreciation Book** page, select the **Corresponding G/L Entries on Dis
 
 ## See also
 
-[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

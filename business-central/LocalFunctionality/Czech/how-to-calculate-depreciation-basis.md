@@ -19,5 +19,5 @@ Changes have been made in the calculation of depreciation amounts by the CZ decl
 
 ## See also
 
-[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

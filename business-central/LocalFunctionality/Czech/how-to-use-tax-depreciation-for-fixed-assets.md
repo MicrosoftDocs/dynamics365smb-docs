@@ -25,5 +25,5 @@ Each long-term fixed asset belongs to a depreciation group. These groups determi
 
 ## See also
 
-[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)
-[Czech Local Functionality](czech-local-functionality.md)
+[Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md)  
+[Czech Local Functionality](czech-local-functionality.md)  

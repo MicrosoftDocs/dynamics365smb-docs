@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# E-Way Bill
+# E-Invoice
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

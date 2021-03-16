@@ -1127,6 +1127,7 @@
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
+###### [GST E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)

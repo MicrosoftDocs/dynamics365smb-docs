@@ -71,6 +71,7 @@ The following topics describe the local functionality in the Indian version of [
     * [GST E-Way Bill](GST-E-Way-Bill.md) **Available Now**  
     * [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md) **Available Now**
     * [GST Settelement](GST-Settelement.md) **Available Now**
+    * [GST E-Invoice](GST-E-Invoice.md) **Available Now**
 
 * TDS
     * [TDS Overview](TDS-Overview.md) **Available Now**

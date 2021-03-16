@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
  [Proportional VAT](proportional-vat.md)   
  [Norway Local Functionality](norway-local-functionality.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

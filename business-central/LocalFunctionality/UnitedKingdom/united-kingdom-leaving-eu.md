@@ -3,7 +3,7 @@ title: Brexit Impact on Business Central - United Kingdom leaving the European U
 description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -69,3 +69,6 @@ If you have questions regarding the localization of [!INCLUDE[prod_short](../../
 ## See Also
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

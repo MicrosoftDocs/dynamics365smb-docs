@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -40,6 +40,8 @@ This walkthrough demonstrates the following tasks.
 -   Creating and posting a warehouse receipt document for multiple purchase order lines from specific vendors.  
 -   Registering a warehouse put-away for the received items.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 ## Roles  
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
@@ -63,7 +65,7 @@ To complete this walkthrough, you will need:
 Ellen, the warehouse manager at CRONUS International Ltd., creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
 ## Reviewing the WHITE Location Setup  
-The setup of the **Location Card** page defines the company’s warehouse flows.  
+The setup of the **Location Card** page defines the company's warehouse flows.  
 
 ### To review the location setup  
 
@@ -147,7 +149,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
 
 7.  Choose the **Register Put-Away** action, and then choose the **Yes** button.  
 
-    The received accessories are now put-away in the items’ default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
+    The received accessories are now put-away in the items' default bins, and 40 hinges are placed in the assembly department. The received items are now available for picking to internal demand, such as assembly orders, or to external demand, such as sales shipments.  
 
 ## See Also  
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
@@ -155,3 +157,6 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

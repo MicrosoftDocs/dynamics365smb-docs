@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -42,3 +42,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Planning Service](service-plan-service.md)  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Managing Projects](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

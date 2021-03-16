@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -36,3 +36,6 @@ For information about how to automatically transfer statements, see [Automatical
  [Apply CODA Statements](how-to-apply-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

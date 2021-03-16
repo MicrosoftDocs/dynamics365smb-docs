@@ -4,7 +4,7 @@
     author: edupont04
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -23,3 +23,6 @@
 [File SEPA Payments](how-to-file-sepa-payments.md)  
 [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)  
 [Set Up Export Protocols](how-to-set-up-export-protocols.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

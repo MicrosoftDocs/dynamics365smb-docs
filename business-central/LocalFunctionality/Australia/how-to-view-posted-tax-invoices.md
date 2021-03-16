@@ -4,7 +4,7 @@ description: In the Australian version of Business Central, you can use the Post
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.search.keywords:
 ms.date: 10/01/2020
@@ -34,3 +34,6 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 ## See Also  
  [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: SorenGP
     services: project-madeira
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -91,3 +91,6 @@ The bank statement containing our payment to Olek Johansson will be sent to us b
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

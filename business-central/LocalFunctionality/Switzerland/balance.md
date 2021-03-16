@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -21,3 +21,6 @@ Specifies a temporary general ledger balance. When you choose the **Balance** ac
 
 ## See Also  
  [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

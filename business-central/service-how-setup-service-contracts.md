@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -53,3 +53,5 @@ Before you can work with contracts, you must set up the following:
 
 ## See Also
 [Setting Up Service Management](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

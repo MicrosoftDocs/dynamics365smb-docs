@@ -4,7 +4,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -110,3 +110,6 @@ For example, purchase credit memo or return order is issued for INR 10000 on whi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

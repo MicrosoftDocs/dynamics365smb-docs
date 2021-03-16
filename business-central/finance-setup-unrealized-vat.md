@@ -4,7 +4,7 @@ description: If you're using cash-based accounting, you can specify how to handl
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -46,4 +46,6 @@ To use accounts for unrealized VAT, follow these steps:
 > The VAT amount will be posted to this account, and stay there until the customer payment is posted. The amount is then transferred to the account for purchase VAT.
 
 ## See Also
-[Setting Up Value Added Tax](finance-setup-vat.md)
+[Set Up Calculations and Posting Methods for Value Added Tax](finance-setup-vat.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

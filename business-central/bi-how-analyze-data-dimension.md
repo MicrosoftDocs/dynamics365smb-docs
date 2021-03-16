@@ -6,7 +6,7 @@ documentationcenter: ''
 author: edupont
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -79,3 +79,6 @@ The following procedure is for updating an analysis view from the **Analysis by 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

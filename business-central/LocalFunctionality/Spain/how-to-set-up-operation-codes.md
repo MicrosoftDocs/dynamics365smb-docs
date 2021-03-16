@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ When you add an operation code to the general product posting group, that associ
 
 ## See Also  
  [Create Report 340](how-to-create-report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

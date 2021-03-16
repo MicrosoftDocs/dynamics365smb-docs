@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -42,3 +42,6 @@ You can manually create a service order for a service item that is registered in
 ## See Also  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

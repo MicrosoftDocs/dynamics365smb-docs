@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -89,3 +89,6 @@ Before creating the **Report 340** report, you should consider the following fil
  [Create Report 340](how-to-create-report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

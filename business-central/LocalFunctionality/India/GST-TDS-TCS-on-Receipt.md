@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -119,3 +119,6 @@ For example, INR 1000 received from customer and 2% GST TDS (1% CGST, 1% SGST fo
     |**Customer Account**|-1000|  
     |**IGST TDS Receivable Account**|20|  
     |**Bank Account**|980| 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

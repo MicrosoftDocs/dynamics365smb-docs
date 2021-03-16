@@ -4,7 +4,7 @@
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ If you are interested in the complete list of compliance offerings from Microsof
 [Certifications](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

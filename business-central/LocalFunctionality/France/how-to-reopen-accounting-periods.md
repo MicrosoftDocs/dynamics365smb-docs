@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ When the period is reopened, the **Fiscally Closed** field is cleared, and the *
  [Close Years](how-to-close-years.md)   
  [Fiscally Close Years](how-to-fiscally-close-years.md)   
  [Fiscally Close Accounting Periods](how-to-fiscally-close-accounting-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

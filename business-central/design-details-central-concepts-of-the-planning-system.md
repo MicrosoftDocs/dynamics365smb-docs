@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -72,7 +72,7 @@ In contrast, the planning system deals with all demand and supply for a particul
 
 After the planning run, no action messages remain in the Action Message Entry table, because they have been replaced by the suggested actions in the planning worksheet  
 
-For more information, see Order Tracking Links during Planning in [Balancing Supply with Demand](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+For more information, see [Order Tracking Links during Planning](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## Sequence and Priority in Planning  
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritization of requirements and resources play an important role in obtaining the best results.  
@@ -84,7 +84,7 @@ In a manufacturing environment, the demand for a finished, sellable item will re
 
 ![Planning for bills of material](media/NAV_APP_supply_planning_1_BOM_planning.png "Planning for bills of material")  
 
-The figures illustrates in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
+The figures illustrate in which sequence the system makes suggestions for supply orders at the top level and, assuming that the user will accept these suggestions, for any lower-level items as well.  
 
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
@@ -117,7 +117,7 @@ Forecasts and blanket orders both represent anticipated demand. The blanket orde
 
 ![Planning with forecasts](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning with forecasts")  
 
-For more information, see the “Forecast Demand is Reduced by Sales Orders” section in [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## Planning Assignment  
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
@@ -175,7 +175,7 @@ Serial/lot-numbered items without specific item tracking setup may carry serial/
 
 Demand-supply with serial/lot numbers, specific or non-specific, are considered high priority and are therefore exempt from the frozen zone, meaning that they will be part of planning even if they are due before the planning starting date.  
 
-For more information, see the “Serial/Lot Numbers are Loaded by Specification Level” section in [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+For more information, see [Serial/Lot Numbers are Loaded by Specification Level](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 For more information about how the planning system balances attributes, see [Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -266,7 +266,7 @@ The field can be manually set by the user, however, in some cases it will be set
 For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
 ## Order Planning  
-The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information on the Order Planning feature, refer to Help in [!INCLUDE[prod_short](includes/prod_short.md)].  
+The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information, see [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** page may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning page.  
@@ -291,3 +291,6 @@ This completes the outline of central concepts relating to supply planning in [!
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

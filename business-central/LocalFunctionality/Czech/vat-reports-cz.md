@@ -4,7 +4,7 @@ description: This feature provides VAT reports to fulfil the requirements in leg
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# VAT Reports
+# VAT Reports in the Czech Version
 
 To fulfil the requirements in legislation reporting and local reporting practices of Czech companies, this feature provides the following reports:
 
@@ -30,3 +30,6 @@ To fulfil the requirements in legislation reporting and local reporting practice
 [VAT date](how-to-setup-vat-date.md)  
 [VAT statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

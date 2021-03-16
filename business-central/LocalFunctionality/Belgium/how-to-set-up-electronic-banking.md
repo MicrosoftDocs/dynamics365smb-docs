@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ With electronic banking, you can make electronic payments to domestic, internati
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
  [Print Payment Files](how-to-print-payment-files.md)
  [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

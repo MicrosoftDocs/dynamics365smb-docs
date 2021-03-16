@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -65,3 +65,6 @@ An XML file is created and stored at the location that was defined on the **Sale
 
 ## See Also  
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

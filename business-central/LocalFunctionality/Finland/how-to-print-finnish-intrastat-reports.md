@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -30,3 +30,6 @@ The completed entries can be sent in a file to the Intrastat authorities, or you
 
 ## See Also  
  [Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

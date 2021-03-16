@@ -4,7 +4,7 @@ description: In the Belgian version of Business Central, payment suggestions are
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -50,3 +50,6 @@ If you assign a bank account to the payment journal template, the bank account w
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

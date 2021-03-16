@@ -4,7 +4,7 @@ description: Set up the data exchange framework in Business Central.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -38,3 +38,6 @@ Before you can send and receive electronic documents or import and export bank f
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

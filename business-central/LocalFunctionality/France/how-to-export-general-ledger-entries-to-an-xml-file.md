@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -38,3 +38,6 @@ You can save the generated file to a specified location, or you can open the fil
 
 ## See Also  
 [Print General Ledger Reports](how-to-print-general-ledger-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

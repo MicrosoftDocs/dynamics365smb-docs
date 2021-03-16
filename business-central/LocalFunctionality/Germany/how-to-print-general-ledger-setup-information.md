@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -36,3 +36,6 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily
 
 ## See Also  
 [Setting Up Finance](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

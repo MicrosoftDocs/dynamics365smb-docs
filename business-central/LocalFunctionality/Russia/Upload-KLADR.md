@@ -4,7 +4,7 @@ description: Russian enhancements include the KLADR format.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -30,3 +30,6 @@ Upload of KLADR can be carried out on separate regions as required.
 ## See Also
 
 [Tax Accounting](Tax-Accounting.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

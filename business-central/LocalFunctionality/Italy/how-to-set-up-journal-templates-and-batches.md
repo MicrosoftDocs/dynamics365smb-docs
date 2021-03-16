@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -57,3 +57,6 @@ You can print Intrastat reports on the **Intrastat Jnl. Batches** page based on 
 ## See Also  
   [Italy Local Functionality](italy-local-functionality.md)   
  [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

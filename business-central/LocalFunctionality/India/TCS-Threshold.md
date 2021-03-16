@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -77,3 +77,6 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax will be coll
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

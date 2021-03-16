@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -40,3 +40,6 @@ When posting VAT, the corresponding VAT period is created and marked as closed i
 
 ## See Also  
  [Norway Local Functionality](norway-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

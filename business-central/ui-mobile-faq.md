@@ -4,7 +4,7 @@ description: See answers to frequently asked questions about using Business Cent
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,3 +63,6 @@ Yes, you can! It's a slightly different way to signing in, that's all. For more 
 
 [Getting Business Central on Your Mobile Device](install-mobile-app.md)  
 [Install the Business Central App for Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

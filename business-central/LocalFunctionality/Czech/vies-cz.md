@@ -4,7 +4,7 @@ description: The VIES report is used for sales declaration to tax authorities in
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, VIES, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -30,3 +30,6 @@ The VIES functionality allows you to:
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

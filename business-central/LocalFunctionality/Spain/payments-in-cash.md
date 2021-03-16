@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -40,3 +40,6 @@ You use the **Make 340 Declaration** batch job to report 340 payments in cash de
 ## See Also  
 [Managing Receivables](../../receivables-manage-receivables.md)     
  [Report 340](report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

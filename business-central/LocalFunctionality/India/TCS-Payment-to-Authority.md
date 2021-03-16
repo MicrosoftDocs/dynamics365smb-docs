@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -59,3 +59,6 @@ The TCS that have been collected from various transactions, need to be deposited
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

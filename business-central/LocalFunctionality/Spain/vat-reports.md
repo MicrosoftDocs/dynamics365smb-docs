@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -16,7 +16,7 @@
     ms.author: edupont
 
 ---
-# VAT Reports
+# VAT Reports in the Spanish Version
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
 
 ## Equivalence Charge  
@@ -48,3 +48,6 @@ With VAT-VIES declaration you can run a batch file to generate European Union (E
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 340](report-340.md)   
  [Report 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

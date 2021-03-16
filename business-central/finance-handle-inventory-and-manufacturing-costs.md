@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,3 +34,6 @@ Although much of the cost accounting functionality is expressed in underlying pr
 ## See Also  
 [Manage Inventory Costs](finance-manage-inventory-costs.md)
 [Design Details: Inventory Costing](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -53,3 +53,6 @@ To process electronic payments, you must first set up bank reference files to de
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
  [Generate Payment Files](how-to-generate-payment-files.md)   
  [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

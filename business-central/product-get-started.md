@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Learn about capabilities and work scenarios in Business Central so that you can get off to a good start.
+description: Get to know Business Central's capabilities and work scenarios so that you can get off to a good start.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -89,3 +89,6 @@ Navigate to content about the other Dynamics 365 apps by choosing the [Dynamics 
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

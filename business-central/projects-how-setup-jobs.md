@@ -4,7 +4,7 @@ description: Describes how to set up general jobs information, and set up prices
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
@@ -43,44 +43,31 @@ When the **Apply Usage Link by Default** check box is selected, and the job plan
 1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.
 2. Select the **Apply Usage Link by Default** check box.
 
-## To set up prices for job resources
-You can set up specific prices for resources for a job. You use the **Job Resource Prices** page to do this.
+## To set up prices for resources, items, and general ledger accounts for jobs
+> [!NOTE]
+> In 2020 release wave 2 we released new processes for setting up and managing prices and discounts. If you're a new customer, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+You can set up prices for the items, resources, and general ledger accounts related to a job. 
+
+#### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **Resource** action.
-3. On the **Job Resource Prices** page, fill in the fields as necessary.
+2. Select the job, and then choose the **Resource**, **Item**, or **G/L Account** action.
+3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
 
-The optional information in the **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields will be used on the job planning lines and usage journals when this resource is entered and added to the job.  
+The following table shows how the information in the optional fields will be used on job planning lines and journals when the resource, item, or general ledger account are chosen for the job.
 
-The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered.  
+|Column1  |Column2  |
+|---------|---------|
+|**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered. Note that this price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.|
+|**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. Note that this price will always override the regular customer price (the "best price" mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.|
+|**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.|
 
-> [!NOTE]  
->   This price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.
-
-## To set up prices for job items
-You can set up specific prices for items for a job. You use the **Job Item Prices** page to do this.
-
+---
+#### [New Experience](#tab/new-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **Item** action.
-3. On the **Job Item Prices** page, fill in the fields as necessary.
+2. Select the relevant job, and then choose the **Sales Price Lists** action.
 
-The optional information in the **Job Task No.**, **Currency Code**, and **Line Discount %** fields will be used in the job planning lines and job journals when this item is entered or added to the job.  
-
-The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered.  
-
-> [!NOTE]  
->   This price will always override the regular customer price (the “best price” mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.
-
-## To set up prices for job general ledger accounts
-You can set up specific prices for general ledger expenses for a job. You use the **Job G/L Account Prices** page to do this.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the relevant job, and then choose the **G/L Account** action.  
-3. On the **Job G/L Account Prices** page, fill in the fields as necessary.
-
-The optional information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job.  
-
-The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.
+---
 
 ## To set up job posting groups
 One aspect of planning jobs is deciding which posting accounts to use for job costing. To be able to post jobs, you set up accounts for posting for each job posting group. A posting group represents a link between the job and how it should be treated in the general ledger. When you create a job, you specify a posting group, and by default, each task you create for the job is associated with that posting group. However, as you create tasks, you can override the default and select a posting group that is more appropriate.  
@@ -118,3 +105,6 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

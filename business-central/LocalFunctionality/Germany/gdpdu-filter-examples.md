@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -84,3 +84,6 @@ Results of the export:
 ## See Also
 
 [Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

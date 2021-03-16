@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -103,3 +103,6 @@ After repairing a service item, you can register both the fault code and the res
 [Set Up Fault Reporting](service-how-setup-fault-reporting.md)
 [Allocation Status and Repair Status](service-allocation-status-and-repair-status.md)  
 [Service Posting](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

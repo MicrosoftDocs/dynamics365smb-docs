@@ -4,7 +4,7 @@ description: Learn about how you can open the financial statements in Microsoft 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2020
 ms.author: edupont
@@ -52,3 +52,6 @@ With the add-in, you can get fresh data from [!INCLUDE [prod_short](includes/pro
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

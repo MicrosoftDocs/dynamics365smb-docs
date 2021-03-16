@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -50,3 +50,6 @@ When the collection is complete, the current collection number is assigned in th
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   
  [Export Payments Using LSV](how-to-export-payments-using-lsv.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

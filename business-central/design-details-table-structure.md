@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -182,3 +182,6 @@ Field 480 exists in the following buffer tables.
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

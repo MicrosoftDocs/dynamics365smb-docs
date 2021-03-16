@@ -4,7 +4,7 @@ description: You can print monthly and quarterly Intrastat reports and submit th
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -45,3 +45,6 @@ The following Intrastat reports are available:
 
 ## See Also  
  [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

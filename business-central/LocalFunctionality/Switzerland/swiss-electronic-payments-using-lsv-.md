@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ You can download payment credit transactions in Einzahlungsschein mit Referenznu
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Making Payments](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

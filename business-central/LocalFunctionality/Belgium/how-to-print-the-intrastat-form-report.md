@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
  [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

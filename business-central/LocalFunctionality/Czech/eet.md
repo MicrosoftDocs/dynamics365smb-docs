@@ -4,7 +4,7 @@
     author: v-pejano
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.search.keywords: CZ, Czech, local, VAT, Control Report
     ms.date: 10/01/2020
     ms.reviewer: v-pejano
@@ -51,3 +51,6 @@ With posting of defined documents (and with defined payment method) is created E
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-    title: How to Move Components to an Operation Area in Basic Warehouse Configurations | Microsoft Docs
-    description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents, such as production, assembly, or service orders at the location.
+    title: Move Components to an Operation Area in Basic Warehouse Configurations
+    description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,7 +31,7 @@ In basic warehouse configurations, which are locations that use the **Bin Mandat
 
 For detailed information about inventory movements, see the Inventory Movement page.  
 
-Two different roles can create the initial inventory movement. An assembly worker, for example, can create it from a released assembly order so that it shows up in the warehouse worker’s list of work to do. To create an inventory movement for assembly order lines that are ready to have components moved to their specified bins, the assembly worker uses the **Create Inventory Movement** function.  
+Two different roles can create the initial inventory movement. An assembly worker, for example, can create it from a released assembly order so that it shows up in the warehouse worker's list of work to do. To create an inventory movement for assembly order lines that are ready to have components moved to their specified bins, the assembly worker uses the **Create Inventory Movement** function.  
 
 Alternatively, a warehouse worker can create it by pointing to the released assembly order in question. This is described in the following procedure.  
 
@@ -73,3 +73,6 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

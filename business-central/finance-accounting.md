@@ -4,7 +4,7 @@ description: Learn about the Accountant Role Center and the Company Hub that sup
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -105,3 +105,6 @@ If you want to give access to multiple companies, then you must log into each co
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

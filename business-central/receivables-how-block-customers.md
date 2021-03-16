@@ -3,7 +3,7 @@
     description: If needed, you can block a customer from being included on sales documents and other sales transactions.
     author: SorenGP
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ The following table describes the options for blocking customers.
 [Register New Customers](sales-how-register-new-customers.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

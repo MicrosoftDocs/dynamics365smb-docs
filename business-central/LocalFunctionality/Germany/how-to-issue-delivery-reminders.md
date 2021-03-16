@@ -1,10 +1,10 @@
 ---
     title: Issue Delivery Reminders in the German Version
-    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors in the German version. Before you issue the delivery reminders, you can print a test report.
+    description: Read about how you issue and print delivery reminders so that you can send reminders to vendors in the German version of Business Central.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -23,3 +23,6 @@
 [Delivery Reminders](delivery-reminders.md)  
 [Generate Delivery Reminders](how-to-generate-delivery-reminders.md)  
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: You can use the Posted Sales Tax Credit Memo page and Posted Purch.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -34,3 +34,6 @@ The following procedure describes how to view posted sales tax credit memos, but
 ## See Also  
  [View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
  [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

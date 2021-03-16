@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -54,3 +54,6 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 ## See Also  
 [Set Up Bank Accounts](../../bank-how-setup-bank-accounts.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

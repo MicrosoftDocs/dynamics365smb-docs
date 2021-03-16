@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -36,3 +36,5 @@ When you perform typical service, you often have to create service documents tha
 ## See Also
 
 [Service Management](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

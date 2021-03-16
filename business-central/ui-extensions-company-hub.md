@@ -1,10 +1,10 @@
-﻿---
-title: Using the Company Hub | Microsoft Docs
-description: Provides information about the Company Hub extension.
+---
+title: Using the Company Hub
+description: Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -30,3 +30,6 @@ When you install the extension in your [!INCLUDE [prod_short](includes/prod_shor
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Accountant Experiences in Business Central ](finance-accounting.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

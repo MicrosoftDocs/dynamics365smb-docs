@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -28,3 +28,6 @@ You can set up the general ledger to use the work date as the posting date for c
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
  [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

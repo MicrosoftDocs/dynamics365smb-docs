@@ -4,7 +4,7 @@ description: Learn about entering a report into a job queue and scheduling it to
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -159,3 +159,6 @@ The fields under **Advanced** set limitations on the generated report to control
 [Working with Calendar Dates and Times](ui-enter-date-ranges.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

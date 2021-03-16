@@ -4,7 +4,7 @@ description: You set up all external entities that you have a business relations
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -33,3 +33,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

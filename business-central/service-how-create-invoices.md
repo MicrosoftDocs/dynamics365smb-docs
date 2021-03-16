@@ -4,7 +4,7 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -95,3 +95,6 @@ A service credit memo document is typically used when a customer returns an item
 [Post Service Invoices](service-how-to-post-service-orders.md)  
 [Setting Up Service Management](service-setup-service.md)  
 [Service Posting](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

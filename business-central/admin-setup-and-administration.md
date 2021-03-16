@@ -4,7 +4,7 @@ description: Some tasks in Business Central requires central administration and 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -59,3 +59,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

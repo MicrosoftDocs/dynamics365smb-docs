@@ -4,7 +4,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -100,3 +100,6 @@ Tax rates can be defined for a combination of tax parameters defined as part of 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

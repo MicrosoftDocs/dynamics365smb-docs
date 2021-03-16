@@ -4,7 +4,7 @@ description: Russian enhancements include VAT ledgers.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -58,3 +58,6 @@ Now, you can create VAT ledgers for purchases and sales.
 [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md)  
 [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: This section describes local functionality Year closing operations
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, closing operations
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -30,3 +30,6 @@ To comply with accounting legislation (Accounting Law 563/1991 §17) at the end 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

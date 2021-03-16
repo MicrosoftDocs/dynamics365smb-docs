@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -46,3 +46,6 @@ For more information, see [Import and Reconcile Bank Statements](how-to-import-a
 [Telebanking](telebanking.md)  
 [Enter and Post Cash and Bank/Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
 [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

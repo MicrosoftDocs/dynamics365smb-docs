@@ -4,7 +4,7 @@ description: Easily exchange data with your banks by transforming data into the 
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -84,3 +84,6 @@ Using this extension is just a matter of exporting data on the **Payment Journal
 ## See Also
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Started](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

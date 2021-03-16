@@ -4,7 +4,7 @@ description: This topic describes how to use search to find actions, pages, repo
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -64,3 +64,6 @@ We have shown Tell Me to a range of stakeholders, noted the questions that they 
 ## See Also
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

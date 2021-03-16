@@ -4,7 +4,7 @@ description: For a new project, you create a job card that contains job tasks an
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2020
@@ -70,3 +70,6 @@ A job planning line can have one of the following types.
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

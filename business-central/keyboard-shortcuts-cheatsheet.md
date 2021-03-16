@@ -3,7 +3,7 @@ title: PC Keyboard Shortcuts Quick Reference
 description: "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users."
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -54,3 +54,6 @@ ms.author: bholtorf
 > For a graphical, print-friendly version, choose the following image and download the PDF file.
 >
 > [![Icon that opens a PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

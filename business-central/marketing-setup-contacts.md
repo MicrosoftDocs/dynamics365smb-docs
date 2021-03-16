@@ -6,7 +6,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -157,3 +157,6 @@ When you have found a duplicate contact, you can use the **Merge Duplicate** pag
 [Create Contacts](marketing-create-contact-companies.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

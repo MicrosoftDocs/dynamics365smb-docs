@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -139,3 +139,6 @@ This topic shows an example of how to define allocations by using the dynamic al
  [Accounting for Costs](finance-manage-cost-accounting.md)   
  [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
  [About Cost Accounting](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

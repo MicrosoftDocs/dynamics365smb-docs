@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 [Australian Business Numbers and Adjustment Notes](australian-business-numbers-and-adjustment-notes.md)   
 [Australia Local Functionality](australia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

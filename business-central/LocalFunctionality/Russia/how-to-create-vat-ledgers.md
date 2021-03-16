@@ -4,7 +4,7 @@ description: Russian enhancements include VAT ledgers.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -49,3 +49,6 @@ Now, you can print the VAT ledger as a VAT ledger or as an additional sheet.
 [VAT Ledgers](VAT-Ledgers.md)  
 [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

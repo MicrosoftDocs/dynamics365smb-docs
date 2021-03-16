@@ -3,7 +3,7 @@
     description: Describes how to view the company's annual income statement in the Australian version.
     author: SorenGP
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,3 +34,6 @@ This is a legal report that is required for auditing accounts. This report displ
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md)   [Print Balance Sheet Reports](how-to-print-balance-sheet-reports.md)   
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

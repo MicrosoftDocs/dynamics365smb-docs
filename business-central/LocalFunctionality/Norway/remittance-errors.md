@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -54,3 +54,6 @@ If there is a rejection, the error code from the bank and an explanation is disp
  [Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
  [Cancel Payments](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

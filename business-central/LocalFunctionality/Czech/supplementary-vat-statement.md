@@ -4,7 +4,7 @@ description: This feature allows calculation and printing VAT statement for diff
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -25,3 +25,6 @@ In the Calculate and Post VAT Settlement functionality, the posted document numb
 [VAT date](how-to-setup-vat-date.md)  
 [VAT statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

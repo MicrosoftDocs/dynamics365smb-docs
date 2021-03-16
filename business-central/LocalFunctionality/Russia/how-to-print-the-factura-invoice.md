@@ -4,7 +4,7 @@ description: Russian enhancements include the Factura-Invoice document.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -30,3 +30,6 @@ You must print the Factura-Invoice document as part of customs declaration.
 ## See Also
 
 [Enter Custom Declarations Information](How-to-Enter-Custom-Declarations-Information.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

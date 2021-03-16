@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -107,3 +107,6 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: The following topics describe Internal Financial Documents - the lo
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -26,3 +26,6 @@ For the reasons above, this feature provides the following reports:
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

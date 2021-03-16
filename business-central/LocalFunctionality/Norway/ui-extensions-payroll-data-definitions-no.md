@@ -5,7 +5,7 @@ author: edupont04
 manager: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -31,3 +31,6 @@ After you install the extension, the next step is to specify the format for the 
 
 ## See Also
 [Norway Local Functionality](norway-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

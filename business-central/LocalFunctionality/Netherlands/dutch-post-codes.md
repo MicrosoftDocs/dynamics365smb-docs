@@ -4,7 +4,7 @@
     author: edupont04
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -22,3 +22,6 @@ In the Netherlands, you can subscribe to getting post codes and post code update
  [Import Post Codes](how-to-import-post-codes.md)  
  [Import Post Code Updates](how-to-import-post-code-updates.md)  
  [PostNL post code tables](https://www.postnl.nl/zakelijke-oplossingen/procesoptimalisatie-met-dataoplossingen/postcodetabel/aanvragen)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

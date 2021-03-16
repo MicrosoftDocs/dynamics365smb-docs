@@ -1,6 +1,6 @@
 ---
 title: Introduction to Business Central and Power BI| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,7 +11,6 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-
 ---
 # [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
@@ -19,15 +18,14 @@ Getting insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data i
 
 ![Power BI and Business Central](media/power-bi-intro.png)
 
-
 ## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. Some things you can do from Power BI, while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 
 |Feature|Description|Online|On-premises|More information|
 |-------|-----------|--------------|-----------|----------------|
-|View [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI|You can view your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online includes some predefined Power BI reports. Or your organization might have made some custom reports available to you.|![Works online](media/check.png)|![Works on-premises](media/check.png)|[See...](across-working-with-powerbi.md)|
-|View Power BI reports in the [!INCLUDE[prod_short](includes/prod_short.md)] client.| Power BI reports that display [!INCLUDE[prod_short](includes/prod_short.md)] data can be embedded directly in parts [!INCLUDE[prod_short](includes/prod_short.md)] pages. You can switch the part to display any report that is made available to you. |![works online](media/check.png)|![Works on-premises](media/check.png)<sup>[*](#onprem)</sup>|[See...](across-working-with-business-central-in-powerbi.md).|
+|View [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI|You can view your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online includes some predefined Power BI reports. Or your organization might have made some custom reports available to you.|![Works online](media/check.png)|![Works on-premises](media/check.png)|[See...](across-working-with-business-central-in-powerbi.md)|
+|View Power BI reports in the [!INCLUDE[prod_short](includes/prod_short.md)] client.| Power BI reports that display [!INCLUDE[prod_short](includes/prod_short.md)] data can be embedded directly in parts [!INCLUDE[prod_short](includes/prod_short.md)] pages. You can switch the part to display any report that is made available to you. |![works online](media/check.png)|![Works on-premises](media/check.png)<sup>[*](#onprem)</sup>|[See...](across-working-with-powerbi.md).|
 |Create reports and dashboards in Power BI that display [!INCLUDE[prod_short](includes/prod_short.md)] data.|Use Power BI Desktop to create your own reports and dashboards. You can publish the reports to your own Power BI Service or share them with others within your organization.|![Works online](media/check.png)|![works on-premises](media/check.png)|[See...](across-how-use-financials-data-source-powerbi.md)
 |[!INCLUDE[prod_short](includes/prod_short.md)] apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. Available apps include: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Works online](media/check.png)||[See...](across-powerbi-business-central-apps.md)
 
@@ -42,7 +40,7 @@ There are a few tasks that must be done before you can start using Power BI with
 2. Publish data as web services.
 
     Codeunits, pages, and queries that you want to use as the data source in Power BI reports must be published as web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)].
-    
+
     For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
 3. Get a Power BI account.
@@ -70,3 +68,6 @@ There are a few tasks that must be done before you can start using Power BI with
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

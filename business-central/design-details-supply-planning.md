@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -27,3 +27,6 @@ It explains how the planning system works and how to adjust the algorithms to me
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
 [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

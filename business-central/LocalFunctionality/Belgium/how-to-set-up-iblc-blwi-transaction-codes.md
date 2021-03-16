@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -30,3 +30,6 @@ In order to process electronic payments, you must set up transaction codes accor
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

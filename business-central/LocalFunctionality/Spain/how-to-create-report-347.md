@@ -4,7 +4,7 @@ description: All companies in Spain must provide an annual declaration, Report 3
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -39,3 +39,6 @@ When you send the Report 347 declaration, you must include 347 declaration label
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

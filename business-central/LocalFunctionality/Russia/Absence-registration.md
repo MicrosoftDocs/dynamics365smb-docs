@@ -4,7 +4,7 @@ description: Russian enhancements include absence registration.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -56,3 +56,6 @@ The considered order can be cancelled. The function is available in the form of 
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

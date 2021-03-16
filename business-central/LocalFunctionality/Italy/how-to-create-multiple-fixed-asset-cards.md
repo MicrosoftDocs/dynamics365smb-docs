@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -44,3 +44,6 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 ## See Also  
  [Fixed Assets](../../fa-manage.md)  
  [Italian Fixed Assets](italian-fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

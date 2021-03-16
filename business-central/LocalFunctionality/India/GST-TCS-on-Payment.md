@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -68,3 +68,6 @@ For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST 
     |**IGST TCS Payable Account**|-10|  
     |**Bank Account**|-990| 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

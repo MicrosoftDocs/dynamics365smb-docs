@@ -4,7 +4,7 @@ description: Russian enhancements include depreciation.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -49,3 +49,6 @@ You can cancel depreciation bonus transactions by running the **Cancel FA Ledger
 ## See Also
 
 [Fixed Assets](fixed-assets.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

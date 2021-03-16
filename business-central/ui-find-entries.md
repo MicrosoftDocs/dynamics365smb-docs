@@ -3,7 +3,7 @@ title: Finding entries | Microsoft Docs
 description: This article describes how to documents and entries that are related
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -70,3 +70,6 @@ After you make a selection, enter the relevant search information in the fields 
 [Working with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

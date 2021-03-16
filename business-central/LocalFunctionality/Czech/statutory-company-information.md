@@ -4,7 +4,7 @@ description: This feature allows users to define company officials and designate
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -29,3 +29,5 @@ Additional company registration numbers and other registration information can b
 [Czech Local Functionality](czech-local-functionality.md)  
 [Statutory statements](statutory-statements.md)
 [Finance](../../finance.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

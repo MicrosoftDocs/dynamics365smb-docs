@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,7 +31,7 @@ The flow of items between bins at a company location centers on picking componen
 
  The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work center cards define default flows to and from production areas.  
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the “Flushing Production Components in the Warehouse” section in this topic.  
+ For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
 
 ### Flows to and from Assembly  
  The main integration between assembly orders and basic warehouse activities is represented by the ability to move assembly components to the assembly area.  
@@ -68,7 +68,7 @@ The flow of items between bins at a company location centers on picking componen
 
  The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work center cards define default flows to and from production areas.  
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the “Flushing Production Components in the Warehouse” section in this topic.  
+ For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
 
 ### Flows to and from Assembly  
  The main integration between assembly orders and advanced warehouse activities is represented by the ability to pick assembly components, both with the **Warehouse Pick** page and the **Pick Worksheet** page. This functionality works just like when picking components for production orders.  
@@ -86,7 +86,7 @@ The flow of items between bins at a company location centers on picking componen
 ## Flushing Production Components in the Warehouse  
  If set up on the item card, components picked with warehouse picks are posted as consumed by the production order when the warehouse pick is registered. By using the **Pick + Forward** method and the **Pick + Backward** flushing method, the pick registration triggers the related consumption posting when the first operation starts or when the last operation finishes, respectively.  
 
- Consider the following scenario based on the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database, WHITE location.  
+ Consider the following scenario based on the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database.  
 
  A production order for 15 PCS of item LS-100 exists. Some of the items on the component list must be flushed manually in a consumption journal, and other items on the list can be picked and flushed automatically using the **Pick + Backward** flushing method.  
 
@@ -114,3 +114,6 @@ The flow of items between bins at a company location centers on picking componen
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

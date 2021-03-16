@@ -4,7 +4,7 @@ description: Russian enhancements include fixes asset charges.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -29,3 +29,6 @@ In addition, you can also specify how the fixed asset will be depreciated. You c
 [Create a Credit Memo for a Fixed Asset Charge](How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)  
 [View Posted Entries on a Fixed Asset Charge](How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)  
 [Setting Up Fixed Assets](../../fa-setup.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

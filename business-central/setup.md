@@ -1,15 +1,15 @@
 ---
-title: Overview of Tasks to Set Up Business Central | Microsoft Docs
+title: Overview of Tasks to Set Up Business Central
 description: Outlines tasks to set up, initialize, and configure Business Central to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2020
+ms.date: 01/18/2021
 ms.author: edupont
 
 ---
@@ -30,6 +30,7 @@ Some functionality, either general or for specific business processes, can be se
 | Configure the rules and values that define your company's sales policies, register new customers, and set up how you communicate with customers. |[Setting Up Sales](sales-setup-sales.md) |
 | Configure the rules and values that define your company's purchasing policies, register new vendors, and prioritize your vendors for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
 | Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorize your items to improve searching and sorting . |[Setting Up Inventory](inventory-setup-inventory.md) |
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 | Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets, and how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and the specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
@@ -47,7 +48,7 @@ Some functionality, either general or for specific business processes, can be se
 |Do bulk invoicing of appointments created in Bookings.|[Bulk Invoicing for Microsoft Bookings](finance-bookings.md)|
 |Set up an SMTP server to enable e-mail communication in and out of [!INCLUDE[prod_short](includes/prod_short.md)]| [Set Up Email Manually or Using the Assisted Setup](admin-how-setup-email.md)|
 | Set up unique identification codes for records, such as cards, documents, and journal lines, to track them in the system. |[Create Number Series](ui-create-number-series.md) |
-|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar’s specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|  
+|Set up and assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are then calculated according to the calendar's specified working days.|[Set Up Base Calendars](across-how-to-assign-base-calendars.md)|
 
 Some areas require you to be an administrator in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see [Administration](admin-setup-and-administration.md).  
 
@@ -71,3 +72,6 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 [Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

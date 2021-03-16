@@ -3,7 +3,7 @@
     description: This topic describes how to show the account-schedule KPI data based on specific account schedules.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -50,3 +50,6 @@ On the **Account Schedule KPI Web Service Setup** page, you set up how to show t
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

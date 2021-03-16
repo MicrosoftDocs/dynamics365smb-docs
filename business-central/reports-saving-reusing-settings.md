@@ -4,7 +4,7 @@ description: Describes using predefined options and filters to customize a repor
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -52,3 +52,6 @@ From the **Report Settings** page, you can:
 
 ## See Also
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

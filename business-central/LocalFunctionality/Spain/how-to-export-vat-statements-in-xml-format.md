@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -50,3 +50,6 @@ You can open or save the generated XML file. You can now submit the VAT statemen
 ## See Also  
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

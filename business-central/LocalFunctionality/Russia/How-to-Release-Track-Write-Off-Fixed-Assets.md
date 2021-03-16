@@ -4,7 +4,7 @@ description: You can manage your fixed assets utilizing the fixed assets acts fe
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -138,3 +138,6 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

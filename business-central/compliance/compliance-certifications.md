@@ -5,7 +5,7 @@
     documentationcenter: ''
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -42,3 +42,6 @@ Business Central as a cloud service also has achieved certifications, such as IS
 [Service Compliance](compliance-service-compliance.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

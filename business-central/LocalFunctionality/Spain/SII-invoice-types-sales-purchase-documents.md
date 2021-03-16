@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -80,3 +80,6 @@ The following table shows the output of the various types that are used for invo
 
 [Spain Local Functionality](spain-local-functionality.md)
 [Setup and user guide for electronic VAT information under SII in the Spanish version of Dynamics NAV](https://aka.ms/SIISetup)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,14 +1,12 @@
 ### YamlMime:FAQ
 metadata:
   title: Copy and paste data FAQ
-  description: Get answers about copying fields and rows from Business Central pages and pasting the data somewhere else.
-  author: SorenGP
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 11/20/2020
-  ms.author: edupont
+  description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
 title: Copy and Paste FAQ
-summary: You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email). In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
+summary: |
+  You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
+
+  In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
 sections:
   - name: General
     questions:
@@ -71,7 +69,7 @@ sections:
 
 
 additionalContent: |
-  ## Additional Content
+  ## Next steps
   Find related information here: 
     - [Assistive Features](ui-accessibility.md)  
     - [Getting Started](product-get-started.md)  

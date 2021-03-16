@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,3 +31,6 @@ The entries in this page will be used to calculate the average year cost. For mo
 ## See Also  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

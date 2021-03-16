@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -164,3 +164,5 @@ It is required to pay the TDS and TCS to government authorities through Bank/Cas
 
 > [!NOTE]
 > Details are available in respective TDS and TCS documents.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

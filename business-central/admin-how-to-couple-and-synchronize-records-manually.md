@@ -6,7 +6,7 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -56,3 +56,6 @@ You can uncouple one or more records from list pages or the **Coupled Data Synch
 
 ## See Also  
 [Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

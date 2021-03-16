@@ -4,7 +4,7 @@ description: Russian enhancements include account schedule constants.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -29,3 +29,6 @@ ms.author: soalex
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
 [Account Schedules Overview](account-schedules-overview.md)  
 [Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

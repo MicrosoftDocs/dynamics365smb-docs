@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See also
 [Service Management](service-service.md)  
 [Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

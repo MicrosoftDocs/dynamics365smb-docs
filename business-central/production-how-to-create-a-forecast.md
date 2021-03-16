@@ -1,15 +1,15 @@
 ---
-    title: How to Create a Demand Forecast | Microsoft Docs
+    title: How to Create a Demand Forecast
     description: You can create sales and production forecasts with the **Demand Forecast** page.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 01/12/2021
     ms.author: edupont
 
 ---
@@ -43,7 +43,41 @@ As the component forecast is designed to define options for a parent item, the c
  The forecast period is valid from its starting date until the date the next forecast starts. The time interval page gives you multiple choices to insert the demand at a specific date in a period. It is therefore recommended not to change the forecast period scope unless you want to move all forecast entries to the starting date of this period.  
 
 ## Forecast by Locations  
-It can be stated in the manufacturing setup if you want filter forecast according to location when calculating a plan. Note, though, that if location-based forecasts are viewed in isolation, the overall forecast may not be representative.
+
+It can be stated in the **Manufacturing Setup** page how you want to deal with locations that are defined on forecasts when you calculate a plan. 
+
+### Use forecast by locations
+
+If you choose the **Use Forecast by Location** field, then [!INCLUDE[prod_short](includes/prod_short.md)] will respect any location codes that are specified for each Demand Forecast entry and calculate the remaining forecast for each location.  
+
+Consider this example: Your company purchases and sells items on two locations: EAST and WEST. For both locations, you have configured a lot-to-lot reordering policy. You create a forecast for the two locations:
+
+- 10 pieces for location EAST
+- 4 pieces for location WEST
+
+Then, you create a sales order with a quantity of 12 on location WEST. The planning system will suggest that you do the following:
+
+- Replenish 10 pieces for location EAST, based on data from the forecast.  
+- Replenish 12 pieces for location WEST, based on sales order. The 4 pieces that were specified in the forecast are fully consumed by the actual demand pf the sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  If location-based forecasts are viewed in isolation, the overall forecast might not be representative.
+
+### Do not use forecast by locations
+If you disable **Use Forecast by Location**, then [!INCLUDE[prod_short](includes/prod_short.md)] will ignore location codes that are specified for each Demand Forecast entry and agregate the forecasts into a forecast for empty locations.  
+
+Consider this example: Your company purchases and sells items on two locations: EAST and WEST. For both locations, you have configured a lot-to-lot reordering policy. You create a forecast for the two locations:
+
+- 10 pieces for location EAST
+- 4 pieces for location WEST
+
+Then, you create a sales order with a quantity of 12 on location WEST. The planning system will suggest that you do the following:
+
+- Replenish 12 pieces for location WEST, based on the sales order. 
+- Replenish 2 pieces for the empty location. The 10 and 4 pieces that were specified in the forecast are partially consumed by the actual demand of the sales order. [!INCLUDE[prod_short](includes/prod_short.md)] ignored the location codes that were specified by the user and uses a blank location instead.
+
+> [!NOTE]  
+>  You can set a filter by locations, but location-based results might not match planning results without filters.
 
 ## To create a demand forecast
 
@@ -71,3 +105,6 @@ It can be stated in the manufacturing setup if you want filter forecast accordin
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

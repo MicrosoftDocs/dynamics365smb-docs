@@ -4,7 +4,7 @@ description: This topic describes where inventory quantity and value are recorde
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -201,30 +201,30 @@ The following example, which illustrates how transfer entries are applied, is ba
 
 1. The user purchases the item at a cost of LCY 10.00.  
 2. The user purchases the item again at a cost of LCY 20.00.  
-3. The user transfers the item from BLUE to RED location.  
+3. The user transfers the item from EAST to WEST location.  
 
 The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|01-01-20|Purchase|BLUE|1|20.00|2|  
-|02-01-20|Transfer|BLUE|-1|15.00|3|  
-|02-01-20|Transfer|RED|1|15.00|4|  
+|01-01-20|Purchase|EAST|1|10.00|1|  
+|01-01-20|Purchase|EAST|1|20.00|2|  
+|02-01-20|Transfer|EAST|-1|15.00|3|  
+|02-01-20|Transfer|WEST|1|15.00|4|  
 
 ### Example – Standard Costing Method  
 The following example, which illustrates how transfer entries are applied, is based on the following scenario for an item using Standard costing method and an average cost period of Day.  
 
 1. The user purchases the item at a standard cost of LCY 10.00.  
-2. The user transfers the item from BLUE to RED location at a standard cost of LCY 12.00.  
+2. The user transfers the item from EAST to WEST location at a standard cost of LCY 12.00.  
 
 The following table shows the effect of the transfer on the item's value entries.  
 
 |Posting Date|Item Ledger Entry Type|Location Code|Valued Quantity|Cost Amount (Actual)|Entry No.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|BLUE|1|10.00|1|  
-|02-01-20|Transfer|BLUE|-1|10.00|2|  
-|02-01-20|Transfer|RED|1|10.00|3|  
+|01-01-20|Purchase|EAST|1|10.00|1|  
+|02-01-20|Transfer|EAST|-1|10.00|2|  
+|02-01-20|Transfer|WEST|1|10.00|3|  
 
 Since the value of the original inventory increase is LCY 10.00, the transfer is valued at that cost, not at LCY 12.00.  
 
@@ -247,3 +247,6 @@ Because of the way an item's unit cost is calculated, an incorrect item applicat
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

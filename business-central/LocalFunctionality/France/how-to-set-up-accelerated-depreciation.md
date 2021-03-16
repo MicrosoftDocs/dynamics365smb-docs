@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -68,3 +68,6 @@ The **Used with Derogatory Book** field in the accounting depreciation book is u
  [Accelerated Depreciation](accelerated-depreciation.md)   
  [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
 [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

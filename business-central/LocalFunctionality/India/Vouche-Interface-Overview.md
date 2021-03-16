@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -109,3 +109,5 @@ Voucher setup is done to define the type of voucher, related transaction directi
       |**Type**|Specifies the structure and functions of the journal page, i.e. Cash Receipt Voucher, Bank Payment Voucher etc.| 
       |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
       |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

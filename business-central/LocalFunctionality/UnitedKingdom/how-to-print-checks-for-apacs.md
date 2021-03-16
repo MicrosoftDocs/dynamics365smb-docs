@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ The Association for Payment Clearing Services (APACS) specification defines a st
 
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

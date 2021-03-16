@@ -4,7 +4,7 @@ description: In Germany, the German EU sales list is submitted to the Bundeszent
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -25,3 +25,6 @@ In order to increase security, all types of taxes and tax reports must be submit
 [Create VAT-VIES Reports](how-to-create-vat-reports.md)  
 [Correct VAT-VIES Reports](how-to-correct-vat-reports.md)  
 [Declare VAT-VIES Tax](how-to-declare-vat-vies-tax.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

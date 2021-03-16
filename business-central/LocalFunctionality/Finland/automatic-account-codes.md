@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -22,3 +22,6 @@
 [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)   
 [Setting Up Posting Groups](../../finance-posting-groups.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

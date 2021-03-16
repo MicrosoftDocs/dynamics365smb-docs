@@ -4,7 +4,7 @@ description: In the electronic banking module in the Belgian version of Business
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -49,3 +49,6 @@ For more information, see [Manage Electronic Payment Lines](how-to-manage-electr
 [Test Electronic Payments](how-to-test-electronic-payments.md)   
 [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
 [Print Payment Files](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

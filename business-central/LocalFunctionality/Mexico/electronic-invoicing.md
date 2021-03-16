@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -73,3 +73,6 @@ The PAC returns an XML document that has the original string, but this file also
  [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)   
  [Set Up PAC Web Services](how-to-set-up-pac-web-services.md)   
  [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

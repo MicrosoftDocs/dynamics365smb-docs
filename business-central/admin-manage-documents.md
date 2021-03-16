@@ -4,7 +4,7 @@ description: Learn how you can keep your historical data by compressing ledger e
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
 
@@ -43,7 +43,13 @@ You can compress the following types of data in [!INCLUDE [prod_short](includes/
   After the compression, with the **Retain Field Contents** facility, you can retain the contents of the **Document No., Our Contact**, **Global Dimension 1 Code**, and **Global Dimension 2 Code** fields.
 * Vendor ledger entries
 
-  After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
+> [!NOTE]
+> Compressed entries for customers, vendors, bank, and FA subledgers are posted slightly differently than standard posting. This is to reduce the number of new general ledger entries created by date compression, and is especially important when you keep information such as dimensions and document numbers. Date compression creates new entries as follows:
+>* On the **General Ledger Entries** page, new entries are created with new entry numbers for the compressed entries. The **Description** field contains **Date Compressed** so that the compressed entries are easy to identify. 
+>* On ledger pages, such as the **Customer Ledger Entries** page, one or more entries are created with new entry numbers. 
+> The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. Those numbers are assigned to the entries on the ledger pages only. The number range that was assigned to the entries is available on the **G/L Register page**  in the **From Entry No.** and **To Entry No.** fields. 
+
+After the compression, the contents of the following fields are always retained: **Posting Date**, **Vendor No.**, **Document Type**, **Currency Code**, **Posting Group**, **Amount**, **Remaining Amount**, **Original Amt. (LCY)**, **Remaining Amt. (LCY)**, **Amount (LCY)**, **Purchase (LCY)**, **Inv. Discount (LCY)**, **Pmt. Disc. Given (LCY)**, and **Pmt. Disc. Possible**.
 
   With the **Retain Field Contents** facility, you can also retain the contents of these additional fields: **Document No.**, **Buy-from Vendor No.**, **Purchaser Code**, **Global Dimension 1 Code**, and **Global Dimension 2 Code**.
 
@@ -89,3 +95,6 @@ The following table lists the fields on the **Options** FastTab that are availab
 ## See Also
 
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

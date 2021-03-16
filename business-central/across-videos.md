@@ -4,7 +4,7 @@ description: Provides access to getting-started videos that illustrate how to do
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -28,3 +28,6 @@ You can also view our "how to" videos, plus a lot of other content, on the YouTu
 
 [Getting Started](product-get-started.md)  
 [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

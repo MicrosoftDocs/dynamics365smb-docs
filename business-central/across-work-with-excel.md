@@ -3,7 +3,7 @@ title: Viewing and Editing in Excel From Business Central
 description: Learn about how you can open the pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -57,3 +57,6 @@ If you make changes to the add-in, you must reload it to update the connection. 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Working with Business Central](ui-work-product.md)  
 [Enhancements to Excel integration in 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

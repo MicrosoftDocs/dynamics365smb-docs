@@ -5,7 +5,7 @@ author: bholtorf
 manager: annbe
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -109,6 +109,12 @@ When the VAT Group representative's VAT Return has been submitted to the authori
 > [!NOTE]
 > VAT group members can correct submitted VAT returns as long as the group representative has not released the VAT return for the group. To make a correction, the VAT group member must create a new VAT return for the VAT return period and submit it to the VAT group representative. On the VAT group representative's side, the latest VAT return will be included on the **VAT Returns** page. 
 
+> [!IMPORTANT]
+> The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in other markets that have other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland. 
+
 ## See Also
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Set Up Value-Added Tax](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

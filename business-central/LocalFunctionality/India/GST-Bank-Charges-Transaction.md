@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -211,3 +211,6 @@ Let us take the following example and check the GL entries of the posted transac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

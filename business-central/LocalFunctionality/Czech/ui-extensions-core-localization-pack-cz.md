@@ -4,7 +4,7 @@ description: This section describes Core Localization Application Pack for Czech
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -77,3 +77,6 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

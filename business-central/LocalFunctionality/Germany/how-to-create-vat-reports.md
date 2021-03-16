@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -68,3 +68,6 @@ After you create the VAT report, you have to submit it to the tax authorities.
 ## See Also  
  [Correct VAT Reports](how-to-correct-vat-reports.md)   
  [Set Up VAT Reports](how-to-set-up-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

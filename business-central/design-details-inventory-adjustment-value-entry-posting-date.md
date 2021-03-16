@@ -4,7 +4,7 @@ description: Learn how the Adjust Cost - Item Entries batch job identifies and a
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -361,3 +361,6 @@ The **Adjust Cost – Item Entries** batch job determines if the initial Posting
 ## See Also  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Item Application](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

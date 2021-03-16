@@ -3,7 +3,7 @@
     description: Learn about IRD numbers and adjustment notes and how they are supported in the New Zealand version of Business Central.
     author: bholtorf
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 [Enter New Zealand IRD Numbers](how-to-enter-new-zealand-business-numbers.md)   
 [New Zealand Local Functionality](new-zealand-local-functionality.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

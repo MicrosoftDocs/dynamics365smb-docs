@@ -4,7 +4,7 @@ description: Describes how to record payments that you make to vendors and refun
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -53,3 +53,6 @@ The payment journal is a general journal that is optimized for making payments. 
 [Working with General Journals](ui-work-general-journals.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

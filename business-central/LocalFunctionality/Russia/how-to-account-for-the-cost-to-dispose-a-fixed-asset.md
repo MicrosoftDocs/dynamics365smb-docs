@@ -4,7 +4,7 @@ description: Russian enhancements include accounting for the cost of disposing o
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -56,3 +56,6 @@ After the fixed asset write-off report is posted, it becomes the posted fixed as
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

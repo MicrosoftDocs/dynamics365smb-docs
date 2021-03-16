@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -35,3 +35,6 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 
 ## See Also  
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

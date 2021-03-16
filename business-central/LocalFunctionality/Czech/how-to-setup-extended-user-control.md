@@ -4,14 +4,14 @@ description: The majority of companies in the Czech Republic request the followi
 author: v-pejano
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Extended User Control
+# Extended User Control in the Czech Version
 
 This feature in User Setup in combination with new User Setup Lines table allows setting and providing the following control:
 
@@ -29,10 +29,13 @@ This feature in User Setup in combination with new User Setup Lines table allows
 - Check the usage of Whse. Net Change Templates at posting in Item Journals
 - Allow Posting to Closed Period
 - Allow Complete Job
-- Allow Item Unapply functionality
+- Allow Item Un-apply functionality
 
 
 ## See Also
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -31,3 +31,6 @@ Backdated transactions or cost adjustments often affect balances and stock valua
  [Managing Inventory Costs](finance-manage-inventory-costs.md)
  [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

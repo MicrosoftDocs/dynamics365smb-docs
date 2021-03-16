@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -34,3 +34,6 @@ Information about the imported post code will be saved in the Post Code Update L
 
 ## See Also  
 [Dutch Post Codes](dutch-post-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: The following topics describe the local functionality in the Mexica
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.author: edupont
@@ -43,3 +43,6 @@ The following topics describe local functionality that is unique to the Mexican 
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

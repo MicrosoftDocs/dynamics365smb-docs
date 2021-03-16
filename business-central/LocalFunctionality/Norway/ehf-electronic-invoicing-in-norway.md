@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -57,3 +57,6 @@ Make sure you set up the correct value in the **VAT Scheme** field on the **Coun
 
 ## See Also  
 [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: v-debapd
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -227,3 +227,6 @@ For example, sales return from customer for INR 10,000 on which 1% TCS is applic
 
 > [!NOTE]
 > If Credit Memo is created before remittance of Tax to government, then TCS entries will get reversed proportionately, on the basis of the quantity returned. In case TCS amount has been remitted to Income Tax department, TCS Payable account will not be reversed.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

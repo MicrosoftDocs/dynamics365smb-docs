@@ -8,7 +8,7 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
+ms.topic: conceptual
 ---
 
 # Responding to Requests About Personal Data  
@@ -58,3 +58,6 @@ If a contact person's age is below the age of legal consent according to the law
 [Exporting your Business Data to Excel](about-export-data.md)  
 [Logging Changes](across-log-changes.md)  
 [Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

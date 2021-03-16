@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -65,3 +65,6 @@ The VAT reporting feature enables you to print VAT transaction details. You must
 ## See Also  
  [Belgian VAT](belgian-vat.md)   
  [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

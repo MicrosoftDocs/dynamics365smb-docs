@@ -4,7 +4,7 @@ description: Russian enhancements include managing tax differences.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -38,3 +38,6 @@ To set up and view tax difference entries, you will use the following tables, wh
 [Tax Difference Registers](Tax-Difference-Registers.md)  
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

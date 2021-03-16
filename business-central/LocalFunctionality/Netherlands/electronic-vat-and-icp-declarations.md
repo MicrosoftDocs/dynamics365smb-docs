@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -105,3 +105,6 @@ When a response message is imported, it must be processed by validating its cont
 [Set Up VAT Categories](how-to-set-up-vat-categories.md)  
 [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)  
 [Netherlands Local Functionality](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

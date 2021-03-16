@@ -4,7 +4,7 @@ description: ARES is an information system allowing retrieval of information on 
 author: v-makune
 
 ms-service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 12/01/2020
 ms.reviewer: v-pejano
@@ -25,3 +25,6 @@ It is possible to run ARES actualization from Contact, Vendor and Customer Card.
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

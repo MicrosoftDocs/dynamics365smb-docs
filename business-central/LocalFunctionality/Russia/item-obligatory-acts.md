@@ -4,7 +4,7 @@ description: Russian enhancements include item obligatory acts.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/01/2020
 ms.reviewer: edupont
@@ -33,3 +33,6 @@ The following table provides the list of reports and how to print the reports.
 
 [Item Documents](Item-Documents.md)  
 [Item General Ledger Turnover](Item-General-Ledger-Turnover.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

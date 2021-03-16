@@ -4,7 +4,7 @@ description: It's easy to create a new, blank company in Business Central. An as
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -74,3 +74,6 @@ Once a company has been created, you can't change it's name. But you can change 
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Started](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

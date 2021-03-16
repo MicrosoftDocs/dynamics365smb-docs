@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -52,3 +52,6 @@ You can now submit the VAT statement to the tax authorities.
  [VAT Reports](vat-reports.md)   
  [Create Templates for Telematic VAT Statements in Text File Format](how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)   
  [Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

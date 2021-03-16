@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ The report is based on the VAT Entry table.
 
 ## See Also  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

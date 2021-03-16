@@ -3,7 +3,7 @@ title: Functional consultants learning catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
 ---
 
@@ -63,3 +63,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|
 | [The future is in the Trusted Cloud](https://www.microsoft.com/trust-center)                                                                                                                                                              | About the Trusted Cloud                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Website                                                                        |                    |
 | [Data Protection Resources](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5fa41da9-69b2-47ea-8413-4a91345b299b&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) | Information about how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization.                                                                                                                                                                                                                                                                                                                                                | White paper download                                                           |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

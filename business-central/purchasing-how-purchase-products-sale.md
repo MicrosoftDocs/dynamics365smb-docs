@@ -4,7 +4,7 @@ description: From a sales invoice, to purchase products, you can create a purcha
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -66,3 +66,6 @@ To create a single purchase invoice for one or more lines on a sales document by
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

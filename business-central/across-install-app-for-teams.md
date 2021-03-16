@@ -14,13 +14,19 @@ ms.author: jswymer
 
 # Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
 In this article, you learn how to install the [!INCLUDE [prod_short](includes/prod_short.md)] App for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
 ## Prerequisites
 
-- Your organization's policies must allow you to install apps in Microsoft Teams.
+- A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
+
+    If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
+
+- Access to the Teams desktop app or Teams in the browser. You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.
+
+- Your organization's policies allow you to install apps in Microsoft Teams.
 
 ## Add the Business Central app to Teams
 
@@ -53,7 +59,11 @@ You're now ready to use the app in Teams to share Business Central data. For mor
 ## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
+[Teams FAQ](teams-faq.md)  
+[Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Getting Started](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: To avoid manual calculations and complete tasks quickly and accurat
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -40,3 +40,6 @@ You main actions on the page are to fill in the **Payment Made** check box and t
 ## See Also
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

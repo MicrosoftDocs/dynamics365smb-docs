@@ -4,7 +4,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
 [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 [Design Details: Revaluation](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

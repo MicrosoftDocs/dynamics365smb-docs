@@ -1,13 +1,10 @@
 ---
-    title: How to Create Templates for Telematic VAT Statements in Text File Format
-    description: In order to submit VAT statements electronically, you must create templates to generate the required files. You can submit files in text format and in XML format. This procedure describes how to create templates for text files.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Create Templates for Telematic VAT Statements in Text Format (ES)
+    description: To submit VAT statements electronically in text format in the Spanish version of Business Central, create templates to manage the formats.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -52,3 +49,6 @@ This creates the template. Now, you can create a file that you can then submit t
 ## See Also  
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)   
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

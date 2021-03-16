@@ -4,7 +4,7 @@ description: Learn about general features that help you enter data in fields.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -116,7 +116,7 @@ You can copy one or more rows from a list or a single field on a page. Then past
 
 In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
 
-For more information, see [Copying and Pasting FAQ](ui-copy-paste.md).
+For more information, see [Copying and Pasting FAQ](faq-copy-paste.yml).
 
 ## Filtering Line Items
 
@@ -291,3 +291,6 @@ Here are some examples.
 ## See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,7 +7,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -41,3 +41,6 @@ Before you can use electronic banking for domiciliations, you must enter the cus
  [Test Domiciliations](how-to-test-domiciliations.md)   
  [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md)   
  [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

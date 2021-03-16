@@ -4,7 +4,7 @@ description: Learn about synchronizing data between Business Central and Dataver
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -98,3 +98,6 @@ For example, by default, the CURRENCY job queue entry, which synchronizes curren
 [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)  
 [Scheduling a Synchronization between Business Central and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [About Integrating Dynamics 365 Business Central with [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

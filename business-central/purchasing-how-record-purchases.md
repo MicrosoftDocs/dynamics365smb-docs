@@ -5,7 +5,7 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -96,3 +96,6 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Prepare Drop Shipments](sales-how-drop-shipment.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

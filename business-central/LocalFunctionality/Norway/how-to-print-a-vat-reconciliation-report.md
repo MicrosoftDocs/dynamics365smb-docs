@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -32,3 +32,6 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
 ## See Also  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

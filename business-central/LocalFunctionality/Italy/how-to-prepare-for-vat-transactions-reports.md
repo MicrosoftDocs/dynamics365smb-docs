@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -54,3 +54,6 @@ You must submit periodic reports to the tax authorities to list all transactions
  [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,7 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
@@ -37,3 +37,6 @@ Before creating **Report 347**, the following file format restrictions will be c
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)   
  [Create Report 347](how-to-create-report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

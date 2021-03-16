@@ -38,4 +38,4 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 ## See Also
 
 [Czech Local Functionality](czech-local-functionality.md)  
-[Finance](../../finance.md)
+[Finance](../../finance.md)  

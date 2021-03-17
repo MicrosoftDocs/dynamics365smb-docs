@@ -100,7 +100,7 @@ The following topics describe the local functionality in the Indian version of [
     * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
 
-* Fixed Asset **Comming Soon**
+* Fixed Asset
     * [Fixed Asset Overview](FA_Overview.md) **Available Now**
     * [Fixed Asset Depreciation](FA_Depreciation.md) **Available Now**
 

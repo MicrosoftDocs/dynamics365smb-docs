@@ -72,6 +72,9 @@ The following topics describe the local functionality in the Indian version of [
     * [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md) **Available Now**
     * [GST Settelement](GST-Settelement.md) **Available Now**
     * [GST E-Invoice](GST-E-Invoice.md) **Available Now**
+    * [GST Cess Basic Setup](GST-Cess-Basic-Setup.md) **Available Now**
+    * [GST Cess Calculation](GST-Cess-Calculations.md) **Available Now**
+    * [GST on Serviec Management](GST-Service-Management.md) **Available Now**
 
 * TDS
     * [TDS Overview](TDS-Overview.md) **Available Now**
@@ -98,6 +101,8 @@ The following topics describe the local functionality in the Indian version of [
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
 
 * Fixed Asset **Comming Soon**
+    * [Fixed Asset Overview](FA_Overview.md) **Available Now**
+    * [Fixed Asset Depreciation](FA_Depreciation.md) **Available Now**
 
 * Subcontracting **Comming Soon**
 

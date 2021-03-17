@@ -1128,6 +1128,11 @@
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
 ###### [GST E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST Cess
+###### [GST Cess Basic Setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST Cess Calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST on Service Management
+###### [GST on Serviec Management](LocalFunctionality/India/GST-Service-Management.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1148,6 +1153,9 @@
 #### Voucher Interface
 ##### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Fixed Asset
+###### [Fixed Asset Overview](LocalFunctionality/India/FA_Overview.md)
+###### [Fixed Asset Depreciation](LocalFunctionality/India/FA_Depreciation.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)

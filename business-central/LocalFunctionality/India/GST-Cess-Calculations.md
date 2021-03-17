@@ -35,7 +35,7 @@ There are five different calculation types for cess calculation
 
 ### Method of calculation for type Cess %
 
-If the Cess is applicable for any commodity, based on the GST group code then system will pick the Cess % defined on it.
+If the Cess is applicable for any commodity, based on the GST group code then system will pick the Cess% defined on it.
 
 In this scenario, invoice has been issued for INR 800 on which 18% IGST (9% CGST and 9% SGST/UTGST in case of Intra-State or Intra-Union Territory transaction or 18% IGST in case of Inter-State transaction), 10% Cess has to be charged.
 

@@ -23,7 +23,7 @@
 
 Business Central has included Fixed Asset Depreciation Calculation Feature to Indian Localization.
 
-Computation of Depreciation on Block of Assets under the Income Tax Act, 1961 and computation of Depreciation under Companies Act, 2013.
+Computation of Depreciation on Block of Assets under the Income Tax Act, 1961 and computation of Depreciation under Companies Act,2013.
 
 ### Setting up Fixed Asset for Depreciation Calculation
 

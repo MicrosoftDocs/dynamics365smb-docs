@@ -106,7 +106,7 @@ Users with the Device license cannot perform the following tasks in [!INCLUDE[pr
 4. On the **Basics** page, enter **Dynamics 365 Business Central Device Users** as the name of the group.
   
    >[!NOTE]
-   >The name of the group must be spelled in English exactly as shown in step 4, even if you are using another language.
+   >The name of the group must be spelled in English exactly as shown in step 4, even if you are using another language. If you have copied the name of the group from a document, such as a PDF, verify that the name does not contain extra spaces.
 5. Choose the **Close** button.
 
 > [!NOTE]

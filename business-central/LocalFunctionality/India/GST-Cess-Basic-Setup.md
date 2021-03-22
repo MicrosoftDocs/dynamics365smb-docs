@@ -38,7 +38,7 @@ For more information about Automatic Setup, see **Tax Engine** information.
 Below is the list of setups, that are required to be configured manually
 
 - [Tax Rate](gst-cess-basic-setup.md#to-set-up-gst-rates)
-- [HSN/SAC](gst-cess-basic-setup.md#to-set-up-hsn/sac)
+- [HSN/SAC](gst-cess-basic-setup.md#to-set-up-hsnsac)
 - [GST Groups](gst-cess-basic-setup.md#to-set-up-gst-groups)
 - [GST Posting Setup](gst-cess-basic-setup.md#to-set-up-gst-posting-setup)
 

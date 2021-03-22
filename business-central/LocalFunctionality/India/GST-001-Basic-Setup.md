@@ -46,7 +46,7 @@ Below is the list of Manual Setups, that are required to be configured manually
 - [Tax Accounting Period](gst-001-basic-setup.md#to-set-up-tax-accounting-period)
 - [States](gst-001-basic-setup.md#to-set-up-states)
 - [GST Groups](gst-001-basic-setup.md#to-set-up-gst-groups)
-- [HSN/SAC](gst-001-basic-setup.md#to-set-up-hsn/sac)
+- [HSN/SAC](gst-001-basic-setup.md#to-set-up-hsnsac)
 - [GST Posting Setup](gst-001-basic-setup.md#to-set-up-gst-posting-setup)
 - [GST on Company Information](gst-001-basic-setup.md#to-set-up-gst-in-company-information)
 - [GST on Location](gst-001-basic-setup.md#to-set-up-gst-in-location)

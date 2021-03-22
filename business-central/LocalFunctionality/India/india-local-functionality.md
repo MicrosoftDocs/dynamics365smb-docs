@@ -75,6 +75,9 @@ The following topics describe the local functionality in the Indian version of [
     * [GST Cess Basic Setup](GST-Cess-Basic-Setup.md) **Available Now**
     * [GST Cess Calculation](GST-Cess-Calculations.md) **Available Now**
     * [GST on Serviec Management](GST-Service-Management.md) **Available Now**
+    * [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md) **Available Now**
+    * [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md) **Available Now**
+    * [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md) **Available Now**
 
 * TDS
     * [TDS Overview](TDS-Overview.md) **Available Now**

@@ -1133,6 +1133,10 @@
 ###### [GST Cess Calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
 ##### GST on Service Management
 ###### [GST on Serviec Management](LocalFunctionality/India/GST-Service-Management.md)
+##### GST Input Service Distribution
+###### [GST Input Service Distribution Overview](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [GST Input Service Distribution Process](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [GST Input Service Distribution Transaction](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)

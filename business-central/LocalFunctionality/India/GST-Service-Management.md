@@ -22,7 +22,7 @@ Business Central has included GST on Service Management feature to Indian Locali
 
 Service Management has been designed to streamline your organization’s service operations, enhancing efficiency and profitability. Easily manage customer calls and queries, track support tickets, allocate resources, create reports. GST is a integral part of the service management and in this document we will discuss the process of GST calculation on **Service Order**, **Service Invoice** and **Service Credit Memo**.
 
-## GST on Service Order
+## GST on Service Orders
 
 - Create Service Order
 

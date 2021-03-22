@@ -77,6 +77,8 @@ These Parameters can be of following types:
 |**Component**|Components are used to define distribution of tax calculated. For example, 50% of GST will go to CGST and remaining will be SGST.|
 |**Output Information**|Numeric values that are part of rate setup. (Example – Threshold Amount)|
 
+> [!NOTE]
+> A new field Allow Blank has been introduced to create blank setup for tax attribute. For example, provision has been made to create tax rate for GST without HSN/SAC code, as there are scenarios where rates are common for multiple HSN/SAC code of a single GST Group.
 
 
 ## Tax rates

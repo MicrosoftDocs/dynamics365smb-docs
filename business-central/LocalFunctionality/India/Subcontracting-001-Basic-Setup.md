@@ -2,7 +2,7 @@
     title: Setting up Subcontracting
     description: Setting up Subcontracting
 
-    author: v-rat
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -45,7 +45,7 @@ Following setups are required for Subcontracting:
 - [Subcontracting Item setup](subcontracting-001-basic-setup.md#setting-up-subcontracting-item)
 - [Job Work Return Period](subcontracting-001-basic-setup.md#setting-up-job-work-return-period)
 - [Source Code Setup](subcontracting-001-basic-setup.md#setting-up-source-code)
-- [General Ledger Setup](subcontracting-001-basic-setup.md#setting-up-general-ledger)
+- [General Ledger Setup](subcontracting-001-basic-setup.md#setting-up-general-ledger-setup)
 - [Work Center](subcontracting-001-basic-setup.md#setting-up-work-center)
 - [Routing](subcontracting-001-basic-setup.md#setting-up-routing)
 

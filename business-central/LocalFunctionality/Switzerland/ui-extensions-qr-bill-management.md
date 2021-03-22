@@ -81,7 +81,7 @@ You can scan or import QR-bills directly into a **Purchase Journal**. This is us
 When importing bank transactions (camt) on the Payment Reconciliation Journal page, the file is assumed to include the payment reference, which will automatically find the corresponding **Customer Ledger Entries** to settle.    
 
 ## Upcoming Capabilities for QR-Bills
-We are planning to add capabilities to the QR-Bill Management extension in the coming updates to 2020 release wave 1. For example, you will be able to receive QR-bills through purchase documents and purchase journals. This will provide additional validations and allow you to automate and streamline receipt processes. For information about when that will happen, keep an eye on our [Release Plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
+We are planning to add capabilities to the QR-Bill Management extension in the coming updates to 2020 release wave 1. For example, you will be able to receive QR-bills through purchase documents and purchase journals. This will provide additional validations and allow you to automate and streamline receipt processes. For information about when that will happen, keep an eye on our [Release Plan](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## See Also
 [Switzerland Local Functionality](switzerland-local-functionality.md)  

@@ -1,5 +1,5 @@
 ---
-title: Warnings and Error Messages | Microsoft Docs
+title: Warnings and Error Messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
 author: edupont04
 
@@ -15,7 +15,7 @@ During your work day, you might see notifications in [!INCLUDE [prod_short](incl
 
 ## In-product user assistance
 
-The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with descriptive captions and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
+The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes descriptions for most fields, columns, and actions that can be accessed when you choose the name. In combination with teaching tips for important pages, descriptive captions, and instructional text, these tooltips, or callouts, are our current implementation of *embedded user assistance*, which is an important principle in today's world of software design.  
 
 If you have a question about a field or another element of the user interface, choose the name, and a short description will appear. Choose the *Learn more* link if that is not enough.  
 

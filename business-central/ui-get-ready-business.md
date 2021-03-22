@@ -20,7 +20,9 @@ To help you get ready for doing business, follow the steps in the **Get started*
 
 ## Checklist
 
-The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
+
+When you launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 The checklist helps you set up key information in [!INCLUDE [prod_short](includes/prod_short.md)] with assisted setup guides. For an overview of other configurations and areas to set up, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md). If you want to migrate existing data, such as vendors, customers, and items from your existing financial system, you can find guidance in the [Migrate Customer Data](admin-migrate-customer-data.md) article.
 
@@ -34,6 +36,8 @@ The checklist helps you set up key information in [!INCLUDE [prod_short](include
 When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
 
 ## Teaching tips and tours
+
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
 
@@ -62,7 +66,7 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## Getting Help
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes teaching tips for pages and tooltips for fields and actions that can help guide you through the various business processes. For each tooltip or teaching tip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## Next Steps
 

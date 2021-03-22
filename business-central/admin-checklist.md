@@ -11,7 +11,7 @@ ms.author: edupont
 ---
 # Onboard Users with Checklists
 
-The first time a user signs into a [!INCLUDE [prod_short](includes/prod_short.md)] company, they can see a banner that encourages them to start the **Get started** checklist to help them set up key information and get ready for business. As the administrator or reselling partner, you can customize the predefined checklists, and you can set up your own.
+The first time a user signs into a new [!INCLUDE [prod_short](includes/prod_short.md)] company, they can see a banner that encourages them to start the **Get started** checklist to help them set up key information and get ready for business. As the administrator or reselling partner, you can customize the predefined checklists, and you can set up your own steps.
 
 ## To add an item to the checklist
 

@@ -25,6 +25,8 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. On the Docs.microsoft.com site, in the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
 
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
@@ -83,7 +85,7 @@ Find free e-learning content on [Microsoft Learn](/learn/dynamics365/business-ce
 ## See Also
 
 [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Getting Started with Business Central](product-get-started.md)  
+[Getting Started with Business Central](ui-get-ready-business.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as my Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  

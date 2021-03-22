@@ -32,9 +32,9 @@ This option is used when configuration pertaining to one or more-use cases is to
 - **Importing Use Cases in a new company**
 
 This is required to import the use cases in a new company.
-1. Go to ‘Setting’ -> 'Assisted Setup' -> 'Setup Tax Engine', a 'Tax Engine Setup' wizard will be opened.
-2. Select ‘Append’ and click on 'Next'.
-3. Click on 'Finish' and system will import all the pre-configured use cases from the configuration file in the new company.
+1. Go to **Setting** -> **Assisted Setup** -> **Setup Tax Engine**, a **Tax Engine Setup* wizard will be opened.
+2. Select **Append** and click on **Next**.
+3. Click on **Finish** and system will import all the pre-configured use cases from the configuration file in the new company.
 
 
 

@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 03/22/2020
+    ms.date: 03/22/2021
     ms.author: v-debapd
 
 ---
@@ -144,7 +144,7 @@ List of GST groups need to be defined, group can be of two types **Goods** or **
     |**Code**|Specifies the group code.| 
     |**Description**|Specifies the name of the group.|
     |**GST Group Type**|Specifies whether the group is defined as goods or service.|  
-    |**GST Place of Supply**|Specifies GST place of supply of the group.|
+    |**GST Place of Supply**|Specifies GST place of supply of the GST group.|
     |**Reverse Charge**|Specifies whether the group is defined as reverse charge or not.|
 
 ## To set up HSN/SAC
@@ -227,6 +227,7 @@ GST registration number can be assigned to company for their multiple locations.
 
     |Field|Description| 
     |---------------------------------|  ---------------------------------------| 
+    |**State Code - Kerala**|Specifies state code Kerala.|
     |**GST Distribution Nos.**|Specifies the number series code for distribution document.| 
     |**GST Credit Adj. Jnl Nos.**|Specifies the number series code for credit adjustment journal.|
     |**GST Settlement Nos.**|Specifies the number series code for settlement document.|

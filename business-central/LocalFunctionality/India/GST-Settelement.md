@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 03/22/2020
+    ms.date: 03/22/2021
     ms.author: v-debapd
 
 ---
@@ -96,7 +96,7 @@ The net credit from below sources is shown in Credit Availed for Settlement.
     |----------------------------------|---------------------------------------|  
     |**GST Registration No.**|Specify the GST registration number for which settlement to be done.|
     |**Posting Date**|Specify the posting date of the settlement.|
-    |**Account Type**|Select the account type as per the payment option.|
+    |**Account Type**|Select the account type as per the payment option, e.g G/L Account, Bank Account.|
     |**Account No.**|Specify the relevant account number as per the selected account type.|
     |**Bank Reference No.**|Specify the bank reference number.|
     |**Bank Reference Date**|Specify the bank reference date.|

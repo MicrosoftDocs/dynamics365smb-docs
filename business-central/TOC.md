@@ -1158,6 +1158,15 @@
 #### Fixed Asset
 ##### [Fixed Asset Overview](LocalFunctionality/India/FA_Overview.md)
 ##### [Fixed Asset Depreciation](LocalFunctionality/India/FA_Depreciation.md)
+#### Gate Entry
+##### [Gate Entry Overview](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Gate Entry Inward Transaction](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Gate Entry Outward Transaction](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Subcontracting
+##### [Subcontracting Overview](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Create GST Liability](LocalFunctionality/India/Subcontracting-Create GST Liability.md)
+##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)

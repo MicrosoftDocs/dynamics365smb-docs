@@ -30,7 +30,7 @@ Computation of Depreciation on Block of Assets under the Income Tax Act, 1961 an
 
 ### Following is the list of Setups, user needs to configure for Fixed Assets in **Business Central**
 
-- [Depreciation Book](fa_overview.md#to-set-up-fa-depreciation-book)
+- [Depreciation Book](fa_overview.md#to-set-up-fa-depreciation-books)
 - [FA Accounting Period Income Tax](fa_overview.md#to-set-up-fa-accounting-period-for-income-tax)
 - [FA Block Code](fa_overview.md#to-set-up-fa-block-code)
 - [Setup for Additional Depreciation](fa_overview.md#to-set-up-additional-depreciation)

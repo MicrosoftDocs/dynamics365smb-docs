@@ -2,7 +2,7 @@
     title: Gate Entry Outward Transactions
     description: Gate Entry Outward Transactions.
 
-    author: v-rat
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 03/03/2021
-    ms.author: v-rat
+    ms.author: v-debapd
 
 ---
 # Create and Attach Outward Gate Entries
@@ -53,6 +53,7 @@ The following processes describe how to create and attach an Outward Gate Entry.
     |**Vehicle No.**|Enter the vehicle number in which goods are being dispatched.|
 
 3.  On the **Onward gate entry** FastTab, fill in the fields as described in the following table.
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Challan No.**|Enter the challan number received.|

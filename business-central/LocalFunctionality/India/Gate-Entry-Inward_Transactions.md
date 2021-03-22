@@ -2,7 +2,7 @@
     title: Gate Entry Inward Transactions
     description: Gate Entry Inward Transactions.
 
-    author: v-rat
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 03/03/2021
-    ms.author: v-rat
+    ms.author: v-debapd
 
 ---
 # Create and Attach Inward Gate Entries
@@ -53,6 +53,7 @@ The following processes describe how to create and attach an Inward Gate Entry.
     |**Vehicle No.**|Enter the vehicle number in which goods are coming.|
 
 3. On the **Inward gate entry** FastTab, fill in the fields as described in the following table.
+
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Challan No.**|Enter the challan number received.|

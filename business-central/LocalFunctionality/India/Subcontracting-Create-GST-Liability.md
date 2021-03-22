@@ -3,7 +3,7 @@
     description: Create GST Liability
 
     
-    author: v-rat
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -12,10 +12,10 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 03/08/2021
-    ms.author: v-rat
+    ms.author: v-debapd
 ---
 
-## Create GST Liability
+# Create GST Liability
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

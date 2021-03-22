@@ -1150,8 +1150,8 @@
 ##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
-##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md.md)
-##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md.md)
+##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher Interface
 ##### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)

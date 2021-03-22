@@ -248,6 +248,7 @@
 #### [Overview](across-teams-overview.md)
 #### [Managing Teams Integration](admin-teams-integration.md)
 #### [Installing Business Central App for Teams](across-install-app-for-teams.md)
+#### [Searching for Contacts From Teams](across-search-contacts-teams.md)
 #### [Working with Business Central Data in Teams](across-working-with-teams.md)
 #### [Teams FAQ](teams-faq.md)
 #### [Troubleshooting](admin-teams-troubleshooting.md)

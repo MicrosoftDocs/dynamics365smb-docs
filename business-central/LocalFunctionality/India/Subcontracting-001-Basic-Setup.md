@@ -14,9 +14,10 @@
     ms.author: v-debapd
 
 ---
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 # Setting Up Subcontracting
+
+[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included **Subcontracting** Feature to Indian Localization.
 

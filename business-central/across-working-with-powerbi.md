@@ -119,7 +119,7 @@ This message appears if the default report failed to deploy to your Power BI wor
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI documentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  

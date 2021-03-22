@@ -44,8 +44,8 @@ As a Teams administrator, you can manage all apps for your organization, includi
 
 For more information, see the following articles in the Microsoft Teams documentation:
 
-- [Manage your apps in the Microsoft Teams admin center](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps)
+- [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## In [!INCLUDE [prod_short](includes/prod_short.md)]
 

@@ -128,7 +128,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  

@@ -48,7 +48,8 @@
       "search.audienceType": "enduser, admin",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
       "ms.service": "dynamics365-business-central",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "recommendations": "true"
     },
     "fileMetadata": {
       "searchScope":{ 

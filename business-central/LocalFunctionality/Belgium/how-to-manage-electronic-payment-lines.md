@@ -27,7 +27,7 @@ You can have [!INCLUDE[prod_short](../../includes/prod_short.md)] suggest paymen
 
     To delete the selected line, choose the **Delete** action.  
 
-## See Also
+4.  Choose the **OK** button.  
 
 ## See Also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   

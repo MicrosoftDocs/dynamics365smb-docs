@@ -1,5 +1,5 @@
 ---
-title: Create Users According to Licenses  | Microsoft Docs
+title: Create Users According to Licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: edupont04
 
@@ -30,7 +30,7 @@ In the online version of [!INCLUDE[prod_short](includes/prod_short.md)], the num
 
 To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you must assign product licenses to users according to the roles that they will perform in [!INCLUDE[prod_short](includes/prod_short.md)]. This can be done in the following ways:
 
-- Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). For more information, see [Add users individually or in bulk to Microsoft 365](https://aka.ms/CreateOffice365Users).  
+- Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). For more information, see [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - A Microsoft partner can assign licenses in the Microsoft 365 Admin Center or in the Microsoft Partner Center. For more information, see [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Center Help.
 
 For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
@@ -102,11 +102,11 @@ Users with the Device license cannot perform the following tasks in [!INCLUDE[pr
 
 1. In the Microsoft 365 Admin Center, go to the **Groups** page.
 2. Choose the **Add a group** action.
-3. On the **Choose a group type** page, choose the **Security** action, and then choose the **Add** action.
+3. On the **Choose a group type** page, choose the **Security** option, and then choose the **Add** action.
 4. On the **Basics** page, enter **Dynamics 365 Business Central Device Users** as the name of the group.
   
    >[!NOTE]
-   >The name of the group must be spelled in English exactly as shown in step 4, even if you are using another language.
+   >The name of the group must be spelled in English exactly as shown in step 4, even if you are using another language. If you have copied the name of the group from a document, such as a PDF, verify that the name does not contain extra spaces.
 5. Choose the **Close** button.
 
 > [!NOTE]
@@ -151,7 +151,7 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
-[Add Users to Microsoft 365](https://aka.ms/CreateOffice365Users)  
+[Add Users to Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
 [Security and Protection in Business Central (administration content)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

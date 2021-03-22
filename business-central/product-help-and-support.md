@@ -15,9 +15,11 @@ In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the questio
 
 This page outlines the resources available to you in the different sections of the **Help and Support** page.  
 
-The **Help & Support** page includes sections that can help you find answers in the **Find it** section. The links fall into different categories, and some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner. The following sections provide insights into the different types of information that you can find in the **Help & Support** page.  
+## Finding Answers
 
-## Product Help
+The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
+
+### Product Help
 
 The **Find it** section includes two links to product Help:
 
@@ -26,23 +28,30 @@ The **Find it** section includes two links to product Help:
   This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Community
+### Community
 
 In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
 If you are using a trial version of [!INCLUDE[prod_short](includes/prod_short.md)], and you do not yet have a partner, the Community can help you get unblocked if you have questions.  
 
-## Blog
+### Blog
 
 We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including when they are made available, and if there are special considerations.  
 
-## Capabilities Coming Soon
+### Capabilities Coming Soon
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](/dynamics365/release-plans/).  
 
 For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
+
+## Do More with Your Trial
+
+This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
+
+> [!NOTE]
+> This section is only available in trial experiences. If you already bought [!INCLUDE[prod_short](includes/prod_short.md)], the section is not longer visible.
 
 ## Give Feedback
 
@@ -52,7 +61,7 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 ## Troubleshooting
 
-The **Troubleshooting** section in the **Help & Support** page shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
+The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
 As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) and [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the administration content.  
 
@@ -65,7 +74,7 @@ Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help 
 
 ### Support contacts
 
-The **Report a problem** section in the **Help & Support** page displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
 

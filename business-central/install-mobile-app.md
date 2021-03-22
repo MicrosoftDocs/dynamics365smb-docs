@@ -60,7 +60,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 ## See Also
 
 [Mobile Apps FAQ](ui-mobile-faq.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

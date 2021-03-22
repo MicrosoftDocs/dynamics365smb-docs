@@ -34,6 +34,7 @@ The default role is **Business Manager**, but you can select another role to use
 3. Choose the **OK** button.
 
 ## <a name="company"></a>Company
+
 A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
@@ -44,11 +45,11 @@ The company name is always displayed at the top left corner and works as an acti
 
 1. Choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
-3. Leave the page. The system restarts and displays the new company in the top left corner.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### To display a company badge for quick access to company information
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-You can add a customized badge in the top right corner, which you can choose to quickly view company name and tenant information in a pop-up box.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -63,24 +64,25 @@ The most commonly used work date is today's date. You may have to temporarily ch
 > In all date fields, type **t** to quickly enter today's date, and type **w** to quickly enter the work date, which is the value in the **Work Date** field on the **My Settings** page.
 
 > [!IMPORTANT]  
->  After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
+> After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
 
 ### Work date indication
 
-Whenever the work date is not set to today's date, then two types of indicators will appear on pages that can be edited and where the work date is therefore critical:
+The work date is critical on pages that can be edited. Whenever the work date isn't set to today's date on an editable page, then two types of indicators appear on the page:
 
 * A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in.
 
 * If you dismiss the reminder, the work date will appear in the title of the page.  
 
-If the work date is not set to the current day (today), then on all pages where you can edit data, the current work date is shown in the upper-left corner of the page.
+If the work date isn't set to the current day (today), then on all pages where you can edit data, the current work date appears in the upper-left corner.
 
 ## <a name="region"></a> Region
 
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
 ## <a name="language"></a> Language
-Changes the display language. This field appears only when there is more than one language to choose from.
+
+Changes the display language. This field appears only when there's more than one language to choose from.
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 

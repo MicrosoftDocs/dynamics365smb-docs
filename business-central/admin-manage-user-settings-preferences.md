@@ -77,7 +77,7 @@ This deletes the personalization, and the user's experience of the relevant page
 
 ## See Also
 
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Changing Language and Locale](about-locale-language.md)  
 

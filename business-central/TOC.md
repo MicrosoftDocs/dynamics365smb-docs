@@ -89,33 +89,31 @@
 
 ## Try
 ### [Trials and Subscriptions](across-preview.md)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Getting Started with Business Central](product-get-started.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
 
 <!--setup-->
 ## Setting Up Business Central
 ### [Setting Up Business Central](setup.md)
 ### Setting Up Finance
-#### [Set Up Finance](finance-setup-finance.md)
+#### [Setting Up Finance](finance-setup-finance.md)
 #### [Set Up Payment Methods](finance-payment-methods.md)
 #### [Set Up Payment Terms](finance-payment-terms.md)
-#### [Set Up Posting Groups](finance-posting-groups.md)
+#### [Setting Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
+#### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
 #### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
-#### [Set Up Dimensions](finance-setup-dimensions.md)
-#### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
-#### [Set Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
+#### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
 #### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
@@ -301,10 +299,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](index.md)
+#### [Documentation](product-get-started.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](index.md)
+#### [Documentation](product-get-started.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -856,7 +854,7 @@
 ### Belgium
 #### [Local Functionality in the Belgian Version](LocalFunctionality/Belgium/belgium-local-functionality.md)
 #### VAT
-##### [VAT](LocalFunctionality/Belgium/belgian-vat.md)
+##### [Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)
 ##### [Set Up Non-Deductible VAT](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 ##### [Make Manual Corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
 ##### [Print Periodic VAT Reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
@@ -867,14 +865,15 @@
 ##### [Set Up Declaration Types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Export Intrastat Third-Party Declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & Payments
-##### [Electronic Banking (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Electronic Payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-<!--TOC cleanup stopped here-->
 ##### [Set Up Bank Accounts for CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
 ##### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 ##### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Belgian Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Set Up Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Set Up Export Protocols](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
+##### [Belgian Electronic Payments](LocalFunctionality/Belgium/belgian-electronic-payments.md)
+##### [Set Up IBLC-BLWI Transaction Codes](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
 ##### [Set Up Vendors for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
@@ -919,6 +918,8 @@
 
 ### Czech Republic
 #### [Local Functionality in the Czech Version](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Core Finance  
 ##### [Finance](LocalFunctionality/Czech/finance.md)
 ##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
@@ -929,6 +930,7 @@
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 #### Fixed Assets
 ##### [Fixed Assets](LocalFunctionality/Czech/fixed-assets.md)
+##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
@@ -944,7 +946,6 @@
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Best Practices](LocalFunctionality/Czech/best-practices.md)
-##### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Denmark
 #### [Local Functionality in the Danish Version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1555,7 +1556,6 @@
 ### [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
 ### [Manage Profiles](admin-users-profiles-roles.md)
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
-### [Onboard Users with Checklists](admin-checklist.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)
 ### [Responding to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)

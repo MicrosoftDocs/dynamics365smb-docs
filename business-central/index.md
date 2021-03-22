@@ -23,20 +23,20 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 ## Overview
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. On the Docs.microsoft.com site, in the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company.  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Unless otherwise specified, the content on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/) site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
+> Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.md).
 
 The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## Business Processes
 
-- [Getting Ready for Doing Business](ui-get-ready-business.md)
+- [Getting Started](product-get-started.md)
 - [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 - [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Administration](admin-setup-and-administration.md)
@@ -76,7 +76,7 @@ Find free e-learning content on [Microsoft Learn](/learn/dynamics365/business-ce
 
 - [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)
 - [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- [Microsoft Dynamics 365 Release Plans](https://go.microsoft.com/fwlink/?linkid=2047422)
+- [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)
 - [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
@@ -97,7 +97,7 @@ Find free e-learning content on [Microsoft Learn](/learn/dynamics365/business-ce
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Introducing docs.microsoft.com (original blog post)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
+[Introducing docs.microsoft.com (original blog post)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

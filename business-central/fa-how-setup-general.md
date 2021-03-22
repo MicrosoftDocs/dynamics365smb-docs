@@ -118,7 +118,7 @@ If the fixed assets are not integrated with the general ledger, skip step 6 and 
 [Setting Up Fixed Assets](fa-setup.md)  
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Started](product-get-started.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

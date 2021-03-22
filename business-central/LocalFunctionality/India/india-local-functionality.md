@@ -109,14 +109,14 @@ The following topics describe the local functionality in the Indian version of [
 
 * Subcontractin
     * [Subcontracting Overview](Subcontracting-001-Basic-Setup.md) **Available Now**
-    * [Subcontracting Transactions](Subcontracting-Transactions.md) **Available Now**
-    * [Create GST Liability](Subcontracting-Create GST Liability.md) **Available Now**
-    * [Subcontracting Report](Subcontracting-Reports.md) **Available Now**
+    * [Subcontracting Transactions](Subcontracting-Transactions.mdown) **Available Now**
+    * [Create GST Liability](Subcontracting-Create-GST-Liability.mdown) **Available Now**
+    * [Subcontracting Report](Subcontracting-Reports.mdown) **Available Now**
 
 * Gate Entry
     * [Gate Entry Overview](Gate-Entry-001-Basic-Setup.md) **Available Now**
-    * [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md) **Available Now**
-    * [Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.md) **Available Now**
+    * [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.mdown) **Available Now**
+    * [Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.mdown) **Available Now**
 
 * Stale Cheque **Comming Soon**
 

@@ -1,16 +1,14 @@
 ---
-title: Work with Dimensions| Microsoft Docs
-description: You use dimensions to categorize entries, for example, by department or project, so you can easily track and analyze data.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Work with Dimensions
+description: You use dimensions to categorize entries, for example by department or project, so you can easily track and analyze data to help you make good business decisions.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, history, track
+ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 10/01/2020
 ms.author: edupont
 
@@ -214,7 +212,7 @@ When you post documents or journal lines that contain dimensions, various errors
 |Blocked dimension|%1 %2 is blocked.|-Find non-posted documents containing the dimension set with the blocked dimension and unblock it.<br />-Remove the dimension set line for the blocked dimension.|
 |Deleted dimension|%1 %2 can't be found.|-Restore the missing dimension.<br />-Find non-posted documents containing the dimension set with the missing dimension and add it.<br />-Remove the dimension set line for the missing dimension.|
 |Blocked dimension value|%1 %2 - %3 is blocked.|-Find non-posted documents containing the dimension set with the blocked dimension value and unblock it.<br />-Remove the dimension set line for the blocked dimension value.|
-|Deleted dimension value|	%1 for %2 is missing.|-Restore the missing dimension value.<br />-Find non-posted documents containing the dimension set with the missing dimension value and add it.<br />-Remove the dimension set line for the missing dimension value.|
+|Deleted dimension value|    %1 for %2 is missing.|-Restore the missing dimension value.<br />-Find non-posted documents containing the dimension set with the missing dimension value and add it.<br />-Remove the dimension set line for the missing dimension value.|
 |Disallowed dimension value|Dimension Value Type for %1 %2 - %3 must not be %4.|-Change the **Dimension Value Type** field on the **Dimension Values** page to **Standard** or **Begin-Total**.<br />-Remove the dimension set line for the blocked dimension value.|
 |Blocked dimension combination|Dimensions %1 and %2 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension combination.|
 |Blocked dimension value Combination|Dimension combinations %1 - %2 and %3 - %4 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension value combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension value combination.|

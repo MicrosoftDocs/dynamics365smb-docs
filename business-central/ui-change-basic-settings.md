@@ -18,32 +18,37 @@ ms.author: edupont
 On the **My Settings** page, you can see and change basic settings for [!INCLUDE[prod_short](includes/prod_short.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
 
 ## <a name="role-center"></a> Role Center
-The Role Center represents the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.
 
--   At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the Role Center.
+The Role Center represents the home page or starting screen. It's designed for the needs of a specific role in an organization. Depending on your role, the Role Center gives you an overview of the business, your department, or your personal tasks. The Role Center also helps you navigate to your daily tasks and find work that is assigned to you.
 
--   In the center, you find the **Activities** area, which shows current data and can be clicked or tapped to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the Role Center for business accounts that you do business with often or need to pay special attention to.
+- At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to start tasks, such as create a new sales invoice, directly from the Role Center.
+
+- In the center, you find the **Activities** area, which shows current data. You can select or tap the data to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the Role Center for business accounts that you do business with often or need to pay special attention to.
 
 ### To change the role
+
 The default role is **Business Manager**, but you can select another role to use a role center that fits your needs better.
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
+1. In the top-right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
 2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
 3. Choose the **OK** button.
 
 ## <a name="company"></a>Company
+
 A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
 
 ## To change the company name
-The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
+
+The company name is always displayed at the top-left corner. It works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
 1. Choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2. In the **Name** field, enter the new company name.
-3. Leave the page. The system restarts and displays the new company in the top left corner.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-## To display a company badge for quick access to company information  
-You can add a customized badge in the top right corner, which you can choose to quickly view company name and tenant information in a pop-up box.
+## <a name="badge"></a>To display a company badge for quick access to company information
+
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
 2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -52,7 +57,8 @@ You can add a customized badge in the top right corner, which you can choose to 
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)
 
 ## <a name="work-date"></a>Work Date
-The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today's date.
+
+The most commonly used work date is today's date. You may have to temporarily change the work date to be able to do tasks, such as completing transactions for a date that isn't today's date.
 
 > [!TIP]  
 > In all date fields, type **t** to quickly enter today's date, and type **w** to quickly enter the work date, which is the value in the **Work Date** field on the **My Settings** page.
@@ -60,28 +66,31 @@ The most commonly used work date is today's date. You may have to temporarily ch
 > [!IMPORTANT]  
 >  After you change the work date, if you sign out or switch to another company, the work data reverts to the default work date. So the next time you sign in or switch back to the original company, you may have to set the work date again.
 
-### Work Date Indication
-Whenever the work date is not set to today's date, then two types of indicators will appear on pages that can be edited and where the work date is therefore critical:
+### Work date indication
 
-* A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in.
+The work date is critical on pages that can be edited. Whenever the work date isn't set to today's date on an editable page, then two types of indicators appear on the page:
 
-* If you dismiss the reminder, the work date will appear in the title of the page.  
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in.
 
-If the work date is not set to the current day (today), then on all pages where you can edit data, the current work date is shown in the upper-left corner of the page.
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+
+If the work date isn't set to the current day (today), then on all pages where you can edit data, the current work date appears in the upper-left corner.
 
 ## <a name="region"></a> Region
 
 The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
 
 ## <a name="language"></a> Language
-Changes the display language. This field appears only when there is more than one language to choose from.
+
+Changes the display language. This field appears only when there's more than one language to choose from.
 
 The initial language is either determined by the administrator or by your browser settings when you sign up for [!INCLUDE[prod_short](includes/prod_short.md)]. The language that you set will be used on all devices that you sign in from, such as a phone or tablet.
 
-Additional languages for [!INCLUDE[prod_short](includes/prod_short.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the releant language app to the tenant before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
+More languages for [!INCLUDE[prod_short](includes/prod_short.md)] can be installed from AppSource. While all supported display languages are shown in the list, the administrator must install the relevant language app before users can switch to the new language in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Changing When I Receive Notifications
-Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
+
+Choose this link to view or change the notifications that you get about certain events or changes in status. You could, for example, get a notification when you're about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you're about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
 
 ## See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 

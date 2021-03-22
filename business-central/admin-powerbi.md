@@ -1,6 +1,6 @@
 ---
 title: Introduction to Business Central and Power BI| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,14 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-
 ---
 # [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 
 Getting insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data is easy with [Power BI](https://powerbi.microsoft.com) - a data visualization system from Microsoft. Power BI retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data allowing you to build dashboards and reports based on that data. Power BI provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some Power BI reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the Power BI web site.
 
 ![Power BI and Business Central](media/power-bi-intro.png)
-
 
 ## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,7 +40,7 @@ There are a few tasks that must be done before you can start using Power BI with
 2. Publish data as web services.
 
     Codeunits, pages, and queries that you want to use as the data source in Power BI reports must be published as web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)].
-    
+
     For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
 3. Get a Power BI account.

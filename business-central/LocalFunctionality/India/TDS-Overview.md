@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 03/22/2020
     ms.author: v-debapd
 
 ---
@@ -153,6 +153,11 @@ TDS Section represents the various sections under which tax deduction takes plac
     |**Code**|Enter the valid TDS Section applicable as per the Income Tax Act, 1961.|  
     |**Description**|Enter the description of the mentioned TDS Section.|
     |**e-TDS**|Specifies the section code to be used in the TDS return.|
+
+> [!TIP]
+>
+> User can create any number of sub-sections for a section using **Add Sub Section** function.
+
 
 ## To set up concessional codes
 

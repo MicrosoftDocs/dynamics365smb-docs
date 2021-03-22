@@ -144,6 +144,7 @@ List of GST groups need to be defined, group can be of two types **Goods** or **
     |**Code**|Specifies the group code.| 
     |**Description**|Specifies the name of the group.|
     |**GST Group Type**|Specifies whether the group is defined as goods or service.|  
+    |**GST Place of Supply**|Specifies GST place of supply of the group.|
     |**Reverse Charge**|Specifies whether the group is defined as reverse charge or not.|
 
 ## To set up HSN/SAC

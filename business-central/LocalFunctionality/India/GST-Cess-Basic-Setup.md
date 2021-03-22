@@ -87,7 +87,7 @@ List of GST Cess groups need to be defined, group can be of two types, **Goods**
     |**Code**|Specifies the group code.|
     |**Description**|Specifies the name of the group.|
     |**GST Group Type**|Specifies whether the group is defined as goods or service.|
-    |**GST Place of Supply**|Specifies whether the group is defined as goods or service.|
+    |**GST Place of Supply**|Specifies GST place of supply of the GST group.|
     |**Component Calculation Type**|Specifies the calculation method of Cess.|
     |**Cess UOM**|Specifies the unit of measure to be considered for this group.|
     |**Cess Credit**|Specifies whether the input credit for cess of this group is availment or non availment.|

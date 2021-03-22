@@ -23,7 +23,7 @@ Before you can register new customers, you must set up various sales codes that 
 
 ## Adding new customers
 
-To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates.  
+To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates. You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  

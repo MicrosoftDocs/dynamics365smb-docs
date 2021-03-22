@@ -28,7 +28,7 @@ The most often through journal recorded:
 
 - orders on allocation to the employee of financial assistance, a gift.
 
-> [!NOTE
+> [!NOTE]
 > The employee journal has no restrictions on the registration of certain types of charges and deductions, but the essential working conditions should be changed by supplementing the employment contract. This ensures the possibility of forming the necessary printed forms of documents for the employee.
 
 The list of fields that must be filled on the employee journal line is determined by the payroll element code.

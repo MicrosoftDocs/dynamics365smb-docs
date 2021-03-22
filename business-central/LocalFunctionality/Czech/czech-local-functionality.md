@@ -13,12 +13,14 @@ ms.author: v-pejano
 
 # Czech Local Functionality  
 
-The following topics describe the local functionality in the Czech version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
 ## Feature Availability
 
+* [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
+* [Advanced Localization Pack for Czech (Extension)](ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
+
 * General
-  * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
   * [General](general.md) **Available Now**
   * [Best Practices](best-practices.md) **Available Now**
 
@@ -34,6 +36,7 @@ The following topics describe the local functionality in the Czech version of [!
 
 * Fixed Assets
   * [Fixed Assets](fixed-assets.md) **Available Now**
+  * [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md) **2021 release wave 1**
 
 * Banking and Payments
   * [Bank Feature](bank-feature.md) **Available Now**

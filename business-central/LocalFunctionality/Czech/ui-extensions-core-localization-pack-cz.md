@@ -20,7 +20,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 - **Finance**
   - [Corrections Posting (red storno)](how-to-use-corrections-posting.md) **2021 release wave 1**
   - [Statutory Company Information](statutory-company-information.md) **Available Now**
-  - [Internal Financial Documents](internal-financial-documents) **Available Now**
+  - [Internal Financial Documents](internal-financial-documents.md) **Available Now**
   - [Accounting Output Documents](accounting-output-documents.md) **Available Now**
   - [Account Schedule feature](how-to-use-accounting-schedule-feature.md) **July 2021**
   - [Statutory Statements](statutory-statements.md) **Available Now**
@@ -42,12 +42,12 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **2021 release wave 1**
 
 - **Banking and Payments**
-  - [Electronic registration of sales (EET)](eet.md) **February 2021**
+  - [Electronic registration of sales (EET)](eet.md) **Available Now**
   - Local Banking Feature - symbols and payments  **2021 release wave 1**
 
 - **Payables and Receivables**
   - [Exchange Rates Adjustment feature](how-to-use-exchange-rates-adjustment-feature.md) **2021 release wave 1**
-  - [Multiple payables/receivables accounts](how-to-use-multiple-payables-receivables-accounts) **2021 release wave 1**
+  - [Multiple payables/receivables accounts](how-to-use-multiple-payables-receivables-accounts.md) **2021 release wave 1**
   - [Customers/Vendors Reconciliations](customers-vendors-reconciliations.md) **Available Now**
   - [Sales correcting documents](sales-correcting-documents.md) **Available Now**
   - [Contacts Actualization from ARES](how-to-update-contacts-from-ares.md) **Available Now**
@@ -72,7 +72,8 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Check of output in inventory – time sequence](check-output-inventory-time-sequence.md) **2021 release wave 1**
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
-## See Also  
+
+## See Also
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

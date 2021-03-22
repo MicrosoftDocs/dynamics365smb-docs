@@ -1,5 +1,5 @@
 ---
-title: Posting Sales Documents | Microsoft Docs
+title: Posting Sales Documents
 description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
 author: SorenGP
 
@@ -24,8 +24,8 @@ Under the **Posting** menu in a sales document, you can choose between the follo
 * **Post Batch**
 * **Test Report**
 
-> [NOTE!]
-> For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md). 
+> [!NOTE]
+> For sales orders, you can also see options related to the prepayments functionality. For more information, see [Invoicing Prepayments](finance-invoice-prepayments.md).
 
 When you have completed all the lines and entered all the information on the sales order, you can post it. This creates a shipment and an invoice.
 
@@ -62,5 +62,4 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

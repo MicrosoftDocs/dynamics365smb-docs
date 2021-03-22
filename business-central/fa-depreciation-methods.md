@@ -150,16 +150,16 @@ Calculation Method:
 
 The formula for calculating the depreciation amounts is:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 The depreciation values are:  
 
 | Date | Calculation |
 | --- | --- |
-| 06/30/20 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46 |
-| 12/31/20 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54 |
-| 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09 |
-| 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91 |
+| 06/30/20 |DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5</sup>) = 13,397.46 |
+| 12/31/20 |DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5</sup>) = 11,602.54 |
+| 06/30/21 |DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5</sup>) = 10,048.09 |
+| 12/31/21 |DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5</sup>) = 8,701.91 |
 
 ## DB1/SL Depreciation
 
@@ -201,7 +201,7 @@ The fixed asset ledger entries look like this:
 
 Calculation method:  
 
-* Year 1:  
+* Year 1 (2020):  
 
     *Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*  
 

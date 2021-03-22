@@ -20,6 +20,10 @@ In this article, you learn how to install the [!INCLUDE [prod_short](includes/pr
 
 ## Prerequisites
 
+- A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
+
+    If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
+
 - Access to the Teams desktop app or Teams in the browser. You can't install the [!INCLUDE [prod_short](includes/prod_short.md)] by using Teams mobile app.
 
 - Your organization's policies allow you to install apps in Microsoft Teams.

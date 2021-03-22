@@ -28,7 +28,7 @@ The **Find it** section includes two links to product Help:
   This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] cannot find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, this can happen if the page was part of an app that did not add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)].  
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#using-the-docsmicrosoftcom-site-to-learn-more) section. In addition to the default version, you can extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### Community
 
@@ -42,7 +42,7 @@ We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.mic
 
 ### Capabilities Coming Soon
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](/dynamics365/release-plans/).  
 
 For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
 

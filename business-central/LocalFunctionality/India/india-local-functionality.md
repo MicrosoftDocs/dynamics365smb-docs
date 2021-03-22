@@ -94,6 +94,7 @@ The following topics describe the local functionality in the Indian version of [
     * [TCS Transactions](TCS-Transactions.md) **Available Now**
     * [TCS Threshold](TCS-Threshold.md) **Available Now**
     * [TCS Adjustment Entry](TCS-Adjustment-Entries.md) **Available Now**
+    * [TCS Payment to Authority](TCS-Payment-to-Authority.md) **Available Now**
     * [TCS 206C-1H-Overview](TCS-206C-1H-Overview.md) **Available Now**
     * [TCS 206C-1H-Transaction](TCS-206C-1H-Transactions.md) **Available Now**
 

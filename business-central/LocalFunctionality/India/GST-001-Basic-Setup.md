@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# Setting Up Goods and Service Tax
+# Setting Up Goods and Services Tax
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

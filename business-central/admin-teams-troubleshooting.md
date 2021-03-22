@@ -44,8 +44,8 @@ If you're experiencing this problem, here are a few things to try:
 A link won't expand into a card in the following situations:
 
 - The link targets a page of a type that doesn't represent a record. For example, it could be a link to [!INCLUDE [prod_short](includes/prod_short.md)]’s Role Center. You can check the page type using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
-- The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md). 
-- Teams doesn't support link previews in some features. For example, when you pop out a chat, you're in a meeting, or you're a guest to another organization.
+- The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
+- Teams doesn't support link previews in some features. For example, when you pop out a chat, or you're a guest to another organization.
 - Teams silently abandons trying to display the card after 15 seconds, for example, because of network issues.
 - Teams may not expand the link if you've already pasted a link into the same message compose box and deleted the card.
 

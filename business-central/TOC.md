@@ -1154,8 +1154,8 @@
 ##### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)
 #### Fixed Asset
-###### [Fixed Asset Overview](LocalFunctionality/India/FA_Overview.md)
-###### [Fixed Asset Depreciation](LocalFunctionality/India/FA_Depreciation.md)
+##### [Fixed Asset Overview](LocalFunctionality/India/FA_Overview.md)
+##### [Fixed Asset Depreciation](LocalFunctionality/India/FA_Depreciation.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)

@@ -355,7 +355,6 @@
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 ## [Your Access to the Intelligent Cloud with Business Central](about-intelligent-cloud.md)
-## [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
 # Business Functionality
 ## [Overview of Business Functionality](across-business-functionality.md)
 <!--general-->

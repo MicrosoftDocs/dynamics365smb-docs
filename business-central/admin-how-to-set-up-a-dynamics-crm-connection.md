@@ -109,7 +109,7 @@ To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLU
 
 If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database. 
 
-## Prerequisites
+### Prerequisites
 
 Dataverse must use one of the following authentication types:
 

@@ -23,9 +23,7 @@ Attachments, links, and notes stay attached as the card or document is processed
 > [!NOTE]
 > When you partially ship and invoice a sales or purchase order, the attachment will only be attached to the final invoice of the order. Similarly, when you invoice using the Deferrals feature, the attachment is attached to the G/L entries for the document but not for the deferral entries.
 >
-> If you delete an order before it is invoiced, the attachment is removed.
-> 
-> When you invoice purchase orders usint the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
+> If you delete an order before it is invoiced, the attachment is also removed. When you invoice purchase orders using the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
 
 ## To attach a file to a purchase invoice
 You can attach any type of file, containing text, image, or video, to a card or document. This is useful, for example, when you want to store a vendor's invoice as a PDF file on the related purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)].

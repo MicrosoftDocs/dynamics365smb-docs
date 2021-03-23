@@ -114,6 +114,9 @@ If you want to connect using an Azure Active Directory (Azure AD) account, you m
 Dataverse must use one of the following authentication types:
 
 - Office365 (legacy)
+
+  > [!IMPORTANT]
+  > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 - Office365 (modern)
 - OAuth
 

@@ -16,9 +16,6 @@
 ---
 # Setting Up Fixed Asset for Depreciation Calculation
 
-
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 ### Overview
 
 Business Central has included Fixed Asset Depreciation Calculation Feature to Indian Localization.

@@ -16,8 +16,6 @@
 ---
 # FA Depreciation Calculation
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 ## FA Depreciation Calculation with FA Block and Additional Depreciation
 
 ### FA Block

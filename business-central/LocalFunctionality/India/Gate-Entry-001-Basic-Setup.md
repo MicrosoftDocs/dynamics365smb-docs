@@ -16,8 +16,6 @@
 ---
 # Setting up Gate Entry Tracking
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 A process in any organization, used to keep track of entrance and exit of materials or other entities, to and from the organization’s premises, is termed as Gate Entry.
 
 This functionality provides the facility to keep the record of the gate entries (Inward/Outward) of the goods and also helps in relating these entries with the Purchase Order / Transfer Order / Sales Order / Return Orders.

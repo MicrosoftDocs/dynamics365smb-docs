@@ -16,9 +16,6 @@
 ---
 # Create and Attach Inward Gate Entries
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
-
 
 Gate Entry Inward is used to track the entry of goods into the organization.
 

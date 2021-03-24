@@ -17,7 +17,7 @@
 # Setting Up Tax Collected at Source (TCS), for the Section 206C(1H)
 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 Business Central has included Tax Collected at Source (TCS) Section 206C(1H) Feature in Indian Localization.
 

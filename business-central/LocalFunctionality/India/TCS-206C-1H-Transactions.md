@@ -16,7 +16,7 @@
 ---
 # TCS Calculation and Transactions as per Section 206C(1H)
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 As per new TCS rules, TCS is to be collected on receipt of payment that is over and above the threshold amount, the threshold amount is INR 50,00,000. User will receive payment from customer for sales of goods and services, TCS is to be calculated on receipt of payment for sale of goods.
 

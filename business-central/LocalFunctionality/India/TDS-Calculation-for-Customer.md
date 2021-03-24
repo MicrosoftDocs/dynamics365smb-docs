@@ -78,4 +78,24 @@ It is required to identify the payment or invoice transaction against which TDS 
 2. **TDS Certificate Receivable** should be marked true on **Journal** line or **Sales Invoice** header.
 3. **TDS Certificate Receivable** identification will flow into Customer Ledger Entry on posting of the document.
 
+
+
+
+
+
+## See Also 
+[TDS Certificate Update](TDS-Certificate-Update.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

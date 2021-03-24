@@ -225,7 +225,8 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 
 
-
+## See Also 
+[TDS Calculation for Customer](TDS-Calculation-for-Customer.md)
 
 
 

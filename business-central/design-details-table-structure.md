@@ -177,11 +177,7 @@ Field 480 exists in the following buffer tables.
 |5637|**FA G/L Posting Buffer**|  
 |7136|**Item Budget Buffer**|  
 
-## See Also  
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
- [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
- [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
- 
+## See Also
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
+[Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   

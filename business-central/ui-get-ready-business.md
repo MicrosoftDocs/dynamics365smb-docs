@@ -73,7 +73,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  

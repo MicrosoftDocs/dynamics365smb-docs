@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# TCS calculation and transactions as per Section 206C(1H)
+# TCS Calculation and Transactions as per Section 206C(1H)
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 

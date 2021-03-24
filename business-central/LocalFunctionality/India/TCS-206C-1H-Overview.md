@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# Setting Up Tax Collected at Source (TCS), for the section 206C(1H)
+# Setting Up Tax Collected at Source (TCS), for the Section 206C(1H)
 
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]

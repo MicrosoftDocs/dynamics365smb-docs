@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# Setting up Fixed Asset for depreciation calculation
+# Setting Up Fixed Asset for Depreciation Calculation
 
 
 [!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]

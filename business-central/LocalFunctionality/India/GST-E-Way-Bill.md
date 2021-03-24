@@ -43,7 +43,8 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
      |**Source No.**|Specify the relevant source number.|
 
 
-
+## See Also 
+[GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md)
 
 
 

@@ -68,5 +68,8 @@ For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST 
     |**Bank Account**|-990| 
 
 
+## See Also 
+[GST TDS TCS on Receipt](GST-TDS-TCS-on-Receipt.md)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

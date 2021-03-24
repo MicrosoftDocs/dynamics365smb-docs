@@ -114,7 +114,8 @@ For example, vendor issued invoice for INR 10000, in an Intra-State or Intra-Uni
 
 
 
-
+## See Also 
+[GST TDS TCS Overview](GST-TDS-TCS-Overview.md)
 
 
 

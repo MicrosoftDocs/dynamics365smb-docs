@@ -179,7 +179,8 @@ Let us take the following example and check the GL entries of the posted transac
 
 
 
-
+## See Also 
+[GST Bank Charges Overview](GST-Bank-Charges-Overview.md)
 
 
 

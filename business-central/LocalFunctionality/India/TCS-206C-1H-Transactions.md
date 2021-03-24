@@ -96,3 +96,21 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
     |**TCS Payable Account**|-55|
     |**GST Receivable**|15,254.24|
     |**GST Payable**|-15,254.24|
+
+
+
+
+
+
+## See Also 
+[TCS 206C-1H-Overview](TCS-206C-1H-Overview.md)
+
+
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

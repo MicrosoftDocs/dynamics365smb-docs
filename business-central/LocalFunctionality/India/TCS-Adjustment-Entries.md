@@ -45,7 +45,8 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 
 
-
+## See Also 
+[TCS Payment to Authority](TCS-Payment-to-Authority.md)
 
 
 

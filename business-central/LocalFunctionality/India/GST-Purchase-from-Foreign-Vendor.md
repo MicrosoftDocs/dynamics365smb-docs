@@ -151,4 +151,16 @@ For example, purchase invoice is issued for INR 10000, (IGST @18%) has to be cha
 >
 > Import Transaction should be in Foreign Currency.
 
+
+
+
+## See Also 
+[Purchase from Vendor with Overseas Place of Supply](GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
+
+
+
+
+
+
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

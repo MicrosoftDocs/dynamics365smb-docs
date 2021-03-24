@@ -355,7 +355,8 @@ Below is the list of masters requiring setup of GST
 
 
 
-
+## See Also 
+[Purchase from Composite Vendor](GST-Purchase-from-Composite-Vendor.md)
 
 
 

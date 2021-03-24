@@ -57,7 +57,8 @@ For example, the service recipient has a GSTIN in West Bengal and the Vendor als
 
 
 
-
+## See Also 
+[GST and TDS on Purchase Transaction](GST-TDS-and-GST-on-Purchase.md)
 
 
 

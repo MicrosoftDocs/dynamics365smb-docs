@@ -88,7 +88,8 @@ For example, purchase credit memo or return order is issued for INR 10000 on whi
 
 
 
-
+## See Also 
+[Purchase Return to Unregistered Vendor (Reverse Charge)](GST-Purchase-Return-to-Unregistered-Vendor-RCM.md)
 
 
 

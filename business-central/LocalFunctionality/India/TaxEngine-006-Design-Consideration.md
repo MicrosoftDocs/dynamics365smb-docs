@@ -15,7 +15,6 @@
 ---
 # Tax Engine - Design Consideration
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This section contains the factors that shall be considered while configuring Taxes using tax engine.
 

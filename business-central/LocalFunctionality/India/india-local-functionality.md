@@ -14,7 +14,7 @@
 
 ---
 # India Local Functionality
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 The following topics describe the local functionality in the Indian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

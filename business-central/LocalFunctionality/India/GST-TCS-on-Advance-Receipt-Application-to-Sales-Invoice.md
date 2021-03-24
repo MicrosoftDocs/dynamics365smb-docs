@@ -16,7 +16,6 @@
 ---
 # GST and TCS on Advance Customer Payments 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Assessee is liable for paying GST and TCS at the time of receiving advance payment from customer.
 

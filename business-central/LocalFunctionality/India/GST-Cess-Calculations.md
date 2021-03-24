@@ -16,7 +16,6 @@
 ---
 # Cess Calculation
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 - GST Compensation Cess is leviable on both interstate and intrastate supply of goods. It is also applicable on imports and goods transactions which are subject to reverse charge.
 - It is applicable only on notified goods. These goods as on date are pan masala, tobbaco and tobacco products, coal, aerated waters, motor cars & motor vehicles and any other supplies.

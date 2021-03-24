@@ -16,7 +16,6 @@
 ---
 # Purchase of Services for Overseas Place of Supply from Registered Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce.
 

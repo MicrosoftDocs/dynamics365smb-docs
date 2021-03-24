@@ -16,7 +16,6 @@
 ---
 # Purchase of Goods from SEZ Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A special economic zone (SEZ) is a dedicated zone wherein businesses enjoy simpler tax and easier legal compliances. The transactions with SEZ’s are deemed  exports and imports. The SEZ supply of goods can be made with cover of bill of entry or without cover of bill of entry.
  

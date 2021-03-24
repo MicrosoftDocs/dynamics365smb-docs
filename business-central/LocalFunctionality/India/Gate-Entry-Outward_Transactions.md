@@ -16,7 +16,6 @@
 ---
 # Create and Attach Outward Gate Entries
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 
 Gate Entry Outward is used to track the exist of goods from the organization.

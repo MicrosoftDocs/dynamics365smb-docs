@@ -16,7 +16,6 @@
 ---
 # GST Exempted Sales
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Sales made to an exempted customer are known as exempt sales. GST customer type shall be selected as Exempted. No GST is computed on such transactions. 
 

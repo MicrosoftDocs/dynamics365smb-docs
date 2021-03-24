@@ -16,7 +16,6 @@
 ---
 # Input Service Distribution Process
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST Input Service Distribution functionality is used to distribute CGST & SGST/IGST paid on Input services (Input Tax Credit) to other locations.
 

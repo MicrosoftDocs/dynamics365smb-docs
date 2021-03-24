@@ -17,7 +17,6 @@
 ---
 # Tax Engine - Lookup
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Lookup is a utility to fetch value from the system or from a variable.
 

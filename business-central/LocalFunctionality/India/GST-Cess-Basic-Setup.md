@@ -16,7 +16,6 @@
 ---
 # Setting Up GST Compensation Cess
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included GST Compensation Cess feature to Indian Localization.
 

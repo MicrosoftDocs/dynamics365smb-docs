@@ -18,7 +18,6 @@
 
 # Sub Contracting Reports
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 There are following reports for Subcontracting in Business Center:
 

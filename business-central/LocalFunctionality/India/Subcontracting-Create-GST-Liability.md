@@ -17,8 +17,6 @@
 
 # Create GST Liability
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 
 If the subcontracting vendor does not return the material within specified period, you need to create the GST liability for the delivery challans that are liable to create the GST liability.
 

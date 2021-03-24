@@ -16,7 +16,6 @@
 ---
 # GST Input Service Distribution Overview
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 ## Overview
 

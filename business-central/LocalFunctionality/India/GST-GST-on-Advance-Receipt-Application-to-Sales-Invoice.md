@@ -17,7 +17,6 @@
 
 # GST on Advance Payment and Application with Sales Invoice
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST can also be liable at the time of receiving advance payment from customer. If advance payment is applied to an invoice in the same month, then such applications need not be disclosed in GSTR-1. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application needs to be reported in GSTR-1.
 

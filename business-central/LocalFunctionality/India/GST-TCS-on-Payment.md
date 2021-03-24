@@ -16,7 +16,6 @@
 ---
 # GST TCS on Vendor Payment
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST TCS can be applicable for Registered Vendor. On posting of GST TCS transaction against Vendor, system updates 'Liable to Pay' field in GST TDS/TCS Entry table as 'TRUE'. The GST TCS entries that have 'Liable to Pay' field 'TRUE' will be shown on settlement page. The GST TCS Liability can only be paid through Cash or Bank. It cannot be set off against any available credit.
 

@@ -17,7 +17,6 @@
 
 # GST on Advance Payment Received from Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 The advance payments received from the customers may need to be reported in GSTR-1 along with GST Rates.
 

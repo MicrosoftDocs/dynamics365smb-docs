@@ -16,7 +16,6 @@
 ---
 # GST Settlement of Net Payment Liability
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 ## Settlement refers to discharge of tax liability to the government. Tax liability arises for scenarios mentioned below:
 - Outward Supplies (Sales, Transfers)

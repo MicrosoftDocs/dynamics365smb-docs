@@ -16,7 +16,6 @@
 ---
 # Export of Goods and Services to Foreign Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Export of goods is defined as taking goods out of India to a place outside India. Export of services means the supply of services where the supplier of service is located in India, recipient of service is located outside India and the place of supply is outside India. Exports can be without Payment of duty or with payment of duty.
  

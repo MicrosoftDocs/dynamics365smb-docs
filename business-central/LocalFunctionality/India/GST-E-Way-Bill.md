@@ -16,7 +16,6 @@
 ---
 # E-Way Bill
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 An electronic way bill or e-Way Bill is essential for the transport of goods that are worth more than INR 50,000. There are also some goods for which an e-way bill is essential even if the amount does not exceed INR 50,000. E-Way Bill Template is designed to meet the formats or requirements provided by government. 
 

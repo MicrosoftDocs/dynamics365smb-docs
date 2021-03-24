@@ -16,7 +16,6 @@
 ---
 # E-Invoice
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 E-invoice does not mean that an invoice should be generated from a software on the computer or point of sales (POS) machine, central portal of tax department, as any such centralization will bring unnecessary restriction on the way trade is conducted.
 

@@ -16,7 +16,6 @@
 ---
 # Setup for GST TDS and GST TCS 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement and the process of setting up GST TDS and GST TCS.
 

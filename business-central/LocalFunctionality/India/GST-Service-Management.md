@@ -16,7 +16,6 @@
 ---
 # GST on Service Management
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included GST on Service Management feature to Indian Localization.
 

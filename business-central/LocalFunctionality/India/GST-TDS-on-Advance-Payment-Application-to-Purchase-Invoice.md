@@ -16,7 +16,6 @@
 ---
 # GST and TDS on Vendor Advance Payments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Liability of paying GST and TDS arises at the time of advance payment to vendor.
 

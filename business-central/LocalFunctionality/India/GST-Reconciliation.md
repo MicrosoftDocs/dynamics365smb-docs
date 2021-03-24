@@ -16,7 +16,6 @@
 ---
 # GST Reconciliation
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the setups and process of GST reconciliation.
 

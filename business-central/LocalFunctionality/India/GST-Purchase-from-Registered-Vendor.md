@@ -16,7 +16,6 @@
 ---
 # Purchase from Registered Vendors
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A registered vendor is a person registered with GST authorities. For a registered vendor, on the vendor card, update the following fields:
   - GST Vendor Type as Registered. 

@@ -14,7 +14,6 @@
 ---
 # Purchase Return to Registered Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A registered vendor is a person who is registered with GST authorities. 
 For purchases from registered vendors for services attracting reverse charge, purchasers themselves has to pay tax to the government.

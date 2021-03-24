@@ -14,7 +14,6 @@
 ---
 # Tax Engine - Configuration of Tax Type and Tax Rates
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic provides information about tax types that a tax authority can levy in the same jurisdiction or a different jurisdiction. Calculation and posting of this type of tax to G/L Accounts.
 

@@ -16,7 +16,6 @@
 ---
 # Transactions for Input Service Distributor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 In this document we are going to discuss the process and entries of input service distribution.
 

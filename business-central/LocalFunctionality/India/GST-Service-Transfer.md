@@ -16,7 +16,6 @@
 ---
 # Service Transfer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy. Service transferred from one state to another state, then IGST will be levied.
 

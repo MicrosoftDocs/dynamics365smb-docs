@@ -16,7 +16,6 @@
 ---
 # Setting Up Goods and Services Tax
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included GST Feature to Indian Localization.
 

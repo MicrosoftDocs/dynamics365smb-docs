@@ -16,8 +16,6 @@
 ---
 # Subcontracting Order Creation
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 
 You cannot create a subcontracting order directly and a released production order is required to be created first.
 

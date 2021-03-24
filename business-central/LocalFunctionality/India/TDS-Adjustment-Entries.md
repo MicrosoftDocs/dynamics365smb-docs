@@ -37,7 +37,8 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 
 
-
+## See Also 
+[TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md)
 
 
 

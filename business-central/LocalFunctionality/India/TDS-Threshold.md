@@ -70,7 +70,8 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
-
+## See Also 
+[TDS Provisional Entry](TDS-Provisional-Entries.md)
 
 
 

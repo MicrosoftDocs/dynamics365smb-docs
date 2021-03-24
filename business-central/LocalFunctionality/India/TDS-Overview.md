@@ -274,6 +274,9 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 **State Code for eTDS/TCS** needs to be defined on States master.
 
 
+## See Also 
+[TDS Transactions](TDS-Transactions.md)
+
 
 
 

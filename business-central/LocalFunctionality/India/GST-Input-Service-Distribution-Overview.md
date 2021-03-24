@@ -24,7 +24,7 @@ Input Service Distributor (ISD) is an office of the supplier which distributes c
 System does not allow posting any sales transactions for a location if it contains a registration number which has **GST Input Service Distribution** activated.
 
 
-### Following is the lists of Setups that are required to be configured.
+### Following is the lists of setups that are required to be configured.
 
 - Locations
 - General Ledger Setup
@@ -32,7 +32,7 @@ System does not allow posting any sales transactions for a location if it contai
 - GST Posting Setup
 - GST Component Distribution
 
-## To set up ISD on Location
+## To set up ISD on location
 
 This setup is required to identify that this location is applicable for Input Service Distribution.
 
@@ -43,7 +43,7 @@ This setup is required to identify that this location is applicable for Input Se
     |---------------------------------|  ---------------------------------------| 
     |**GST Registration No.**|Select the relevant GST registration number, which should be marked true as **Input Service Distributor**.|
 
-## To set up ISD on General Ledger Setup
+## To set up ISD on general ledger setup
 
 This setup is required to define the number series for distribution.
 
@@ -54,7 +54,7 @@ This setup is required to define the number series for distribution.
     |---------------------------------|  ---------------------------------------| 
     |**GST Distribution Nos.**|Specify the number series code for GST Distribution.|
 
-## To set up ISD on Source Code Setup
+## To set up ISD on source code setup
 
 This setup is required to define the source code for distribution.
 
@@ -65,7 +65,7 @@ This setup is required to define the source code for distribution.
     |---------------------------------|  ---------------------------------------| 
     |**GST Distribution**|Specify the relevant source code for GST Distribution    .|
 
-## To set up ISD on GST Posting Setup
+## To set up ISD on GST posting setup
 
 This setup is required to define the general ledger accounts for distribution.
 
@@ -77,7 +77,7 @@ This setup is required to define the general ledger accounts for distribution.
     |**Receivable Acc. Interim (Dist)**|Specify the relevant general ledger account.|
     |**Receivable Acc. (Dist)**|Specify the relevant general ledger account.|
     
-## To set up ISD on GST Component Dist. List
+## To set up ISD on GST component dist. list
 
 This setup is required to define the GST components for distribution functionality.
 

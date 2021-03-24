@@ -38,7 +38,7 @@ This tax liability on both interstate transactions (IGST) and intrastate transac
     |**SGST**|SGST|1| 
     |**SGST**|IGST|2|
 
-## Setup Return & Reco. Component for Settlement
+## Setup return & reco. component for settlement
 
 User needs to setup components for settlement. Select relevant information in the following fields in **Return & Reco Components** 
 

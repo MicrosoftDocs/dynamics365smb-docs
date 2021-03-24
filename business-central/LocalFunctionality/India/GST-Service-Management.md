@@ -21,7 +21,7 @@ Business Central has included GST on Service Management feature to Indian Locali
 
 Service Management has been designed to streamline your organization’s service operations, enhancing efficiency and profitability. Easily manage customer calls and queries, track support tickets, allocate resources, create reports. GST is a integral part of the service management and in this document we will discuss the process of GST calculation on **Service Order**, **Service Invoice** and **Service Credit Memo**.
 
-## GST on Service Order
+## GST on service order
 
 - Create Service Order
 
@@ -29,7 +29,7 @@ Service Management has been designed to streamline your organization’s service
   2. Select relevant **Customer Code** in **Customer No.** field. **GST Customer Type** field should have a value on Customer Card.
   3. Then go to Service Order **Line** Tab click on **Order** > **Service Lines**, Select Item Code for Goods, G/L Account for Service Sales, Resource or Service Cost on **Service line**. **GST Group Code**, **HSN/SAC** Code should not be blank on the Item, G/L Account, Resource or Service Cost.
 
-## GST on Service Invoice
+## GST on service invoice
 
 - Create Service Invoice
 
@@ -38,7 +38,7 @@ Service Management has been designed to streamline your organization’s service
   3. Select Item Code for goods, G/L Account for service sales, Resource or Service Cost on Service Invoice line. **GST Group Code**, **HSN/SAC** Code should not be blank on the Item, G/L Account, Resource or Service Cost.
   
 
-## GST on Service Credit Memos
+## GST on service credit memos
 
 - Create Service Credit Memos
 

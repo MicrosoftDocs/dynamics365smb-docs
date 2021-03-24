@@ -19,7 +19,7 @@
 
 In this document we are going to discuss the process and entries of input service distribution.
 
-## Purchase Transaction with Input Service Distribution location
+## Purchase transaction with input service distribution location
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header.
@@ -98,7 +98,7 @@ In this document we are going to discuss the process and entries of input servic
     |**IGST Expense Account**|1800|
     |**Vendor Account**|-11800|
 
-## Purchase Return Transaction with Input Service Distribution location
+## Purchase return transaction with input service distribution location
 
 1. Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
 2. Select **Vendor** on **Purchase Return Order** or **Purchase Credit Memo** header

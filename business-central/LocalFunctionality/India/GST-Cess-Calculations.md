@@ -22,7 +22,7 @@
 - GST Compensation Cess is calculated on taxable value. Though it is coined as Cess, it is similar to tax. It is independent of IGST, CGST and SGST.
 - Input Tax Credit availed on GST Compensation Cess can be utilized only towards discharging Output tax liability of Compensation Cess and not otherwise.
 
-## Calculation Types of Cess
+## Calculation types of Cess
 
 There are five different calculation types for cess calculation
 

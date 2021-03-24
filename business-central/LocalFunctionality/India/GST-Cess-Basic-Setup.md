@@ -36,12 +36,12 @@ For more information about Automatic Setup, see **Tax Engine** information.
 
 Below is the list of setups, that are required to be configured manually
 
-- [Tax Rate](gst-cess-basic-setup.md#to-set-up-gst-rates)
+- [Tax Rate](gst-cess-basic-setup.md#to-set-up-tax-rates)
 - [HSN/SAC](gst-cess-basic-setup.md#to-set-up-hsnsac)
 - [GST Groups](gst-cess-basic-setup.md#to-set-up-gst-groups)
 - [GST Posting Setup](gst-cess-basic-setup.md#to-set-up-gst-posting-setup)
 
-## To set up GST rates
+## To set up tax rates
 
 Rate of GST is defined in combination of GST Group Code, HSN/SAC. States and Date.
 

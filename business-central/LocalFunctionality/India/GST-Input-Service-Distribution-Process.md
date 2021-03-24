@@ -19,7 +19,7 @@
 
 GST Input Service Distribution functionality is used to distribute CGST & SGST/IGST paid on Input services (Input Tax Credit) to other locations.
 
-## GST Distribution Process
+## GST distribution process
 
 1. Choose the ![img](image/search.jpg)icon, enter **GST Distribution List**, and then choose the related link.
 2. Following fields should be filled on the General Tab
@@ -51,7 +51,7 @@ GST Input Service Distribution functionality is used to distribute CGST & SGST/I
 
 4. After selecting all relevant values, click on Related on ribbon -> Apply Entries -> select the relevant entries for distribution ->  select relevant dimensions and post.
 
-## Inter-State and Intra-State Distribution of GST under Input Service Distribution
+## Inter-state and intra-state distribution of GST under input service distribution
 
 1. GL Entries for an Intra-state Distribution of Invoice to Recipient location (GST Credit is available for both the distributor and recipient locations). For example, service invoice issued for INR 1000 and CGST 9% and SGST 9% has been charged on the invoice, and the input service credit has been distributed to the recipient location.
 

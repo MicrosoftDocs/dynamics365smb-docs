@@ -33,7 +33,7 @@ The Income Tax Act, 1961 specifies that tax deduction is to be made, for the spe
 - Automatic - These setup are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-#### Following is the list of Setups which will be pre-configured with help of **Tax Engine**
+#### Following is the list of setups which will be pre-configured with help of **Tax Engine**
 
 - Tax Types
 - Tax Entities

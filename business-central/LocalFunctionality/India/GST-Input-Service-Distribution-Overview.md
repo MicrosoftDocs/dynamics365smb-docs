@@ -94,7 +94,7 @@ This setup is required to define the GST components for distribution functionali
 
 ## See Also
 [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
-[GST on Serviec Management](GST-Service-Management.md)
+
 
 
 

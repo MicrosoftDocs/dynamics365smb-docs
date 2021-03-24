@@ -115,7 +115,7 @@ The following topics describe the local functionality in the Indian version of [
     * [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md) **Available Now**
     * [Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.md) **Available Now**
 
-* Subcontractin
+* Subcontracting
     * [Subcontracting Overview](Subcontracting-001-Basic-Setup.md) **Available Now**
     * [Subcontracting Transactions](Subcontracting-Transactions.md) **Available Now**
     * [Create GST Liability](Subcontracting-Create-GST-Liability.md) **Available Now**

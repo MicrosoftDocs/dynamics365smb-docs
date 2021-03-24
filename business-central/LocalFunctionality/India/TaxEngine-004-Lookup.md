@@ -20,7 +20,7 @@
 
 Lookup is a utility to fetch value from the system or from a variable.
 
-## Source Type
+## Source type
 
 Source type is to specify the source of value.
 

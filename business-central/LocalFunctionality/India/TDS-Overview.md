@@ -26,7 +26,7 @@ Income from several sources is subjected to TDS. Presently this concept of TDS i
 
 The Income Tax Act, 1961 specifies that tax deduction is to be made, for the specified incomes, on credit or on payment, whichever is earlier.
 
-## Setting Up TDS
+## Setting up TDS
 
 ### TDS has two different types of setups
 

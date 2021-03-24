@@ -107,7 +107,7 @@ TCS which has been calculated on advance payment can be adjusted while creating 
 > TCS is calculated after adjusting the TCS amount which was earlier calculated on advance payment.
 
 
-## TCS to be calculated on non-resident customer invoice in FCY
+## TCS to be calculated on non-resident customer invoice in foreign currency
 
 For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection 'Scrap'. All foreign currency amounts will get converted into INR based on currency exchange rates. Exchange rate considered for this example is 1 USD = 65 INR.
 

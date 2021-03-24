@@ -14,7 +14,7 @@
     ms.author: v-debapd
 
 ---
-# TDS calculation on Purchase and Payment Transactions
+# TDS Calculation on Purchase and Payment Transactions
 
 
 
@@ -83,7 +83,7 @@ On receiving the invoice from the vendor, TDS will be calculated on the differen
 > [!NOTE]
 > Advance payment needs to be applied with the invoice before posting. Otherwise TDS will be calculated on the whole invoice amount.
 
-### TDS to be calculated on non-resident vendor invoice in FCY
+### TDS to be calculated on non-resident vendor invoice in foreign currency
 
 In the given scenario, vendor issued an invoice for USD 10000 on which 2% TDS is applicable under TDS Section 195. All USD amounts will get converted into INR based on currency exchange rates. For this example exchange rate has been considered as USD 1 = INR 65.
 

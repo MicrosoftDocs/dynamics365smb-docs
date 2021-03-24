@@ -23,7 +23,7 @@ Business Central has included Tax Collected at Source (TCS) Section 206C(1H) Fea
 
 A new TCS section 206C (1H) has been introduced in finance bill 2020. As per new section, a seller has to collect TCS from buyer on any sales of Goods, where aggregate value of sales exceeds INR 50,00,000 (Threshold Amount) within same financial year. TCS to be collected on amount that is over & above INR 50,00,000, for example: Threshold amount is INR 50,00,000, TCS to be collected on amount that is more than INR 50,00,000. TCS % varies for PAN and Non-PAN customers. A Seller whose turnover is more than INR 10,00,00,000 Crore in previous financial year is eligible to collect TCS under section 206C(1H).
 
-## Setting Up TCS Section 206C(1H)
+## Setting up TCS Section 206C(1H)
 
 ### Following is the list of setups that will be required
 

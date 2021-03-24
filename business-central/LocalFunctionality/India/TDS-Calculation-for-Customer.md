@@ -70,7 +70,7 @@ TDS certificate will be receivable from customer on receiving the advance paymen
     |**Bank Account**|49000|
 
 
-#### TDS Certificate is receivable against payment received from customer or against customer sales invoice
+#### TDS certificate is receivable against payment received from customer or against customer sales invoice
 
 It is required to identify the payment or invoice transaction against which TDS certificate is receivable while receiving the payment from customer who has deducted TDS or issuing the sales invoice on which TDS has been deducted, it is required to identify the payment or invoice transaction against which TDS certificate is receivable.
 

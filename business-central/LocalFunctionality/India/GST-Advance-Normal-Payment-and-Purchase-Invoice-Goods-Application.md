@@ -112,7 +112,7 @@ If this is found that the payment and invoice was wrongly applied and the applic
     |**CGST Payable (Interim) Account**|-900| 
     |**SGST/UTGST Payable (Interim) Account**|-900|
 
-## Normal Payment to vendor and application with purchase invoice
+## Normal payment to vendor and application with purchase invoice
 
 For unregistered, import vendor and reverse charge purchase of service from registered vendor, user has to post a separate invoice for goods and services in the system. No GST calculation is done at the time of application.
 In ordinary course, when a normal payment is applied to the invoice, system proportionately posts the liability from Payable Interim Account to Payable Account and credit (if applicable) from Receivable Interim Account to Receivable Account. 

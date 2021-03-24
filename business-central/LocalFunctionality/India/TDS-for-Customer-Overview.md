@@ -24,7 +24,7 @@ TDS is a withholding tax, where tax is deducted by the customer, at the time of 
 If the TDS is deducted by the customer (deductor), then the user (deductee) has to calculate TDS on the invoice or revenue and keep a track of TDS deducted. The deductor has to provide the deductee a TDS certificate.
 
 
-## Setting Up TDS
+## Setting up TDS
 
 ### TDS has two types of setup.
 

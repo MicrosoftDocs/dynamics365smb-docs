@@ -27,6 +27,8 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
 You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]

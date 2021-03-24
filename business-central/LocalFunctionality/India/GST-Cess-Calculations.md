@@ -153,3 +153,18 @@ Suppose, **Cess Amount per Unit Factor** is INR 140 and  **Cess Factor Quantity*
     |**SGST**|900 (10000*9/100)|
     |**IGST**|1800 (10000*18/100)|
     |**CESS**|280 (140x2)|
+
+
+
+## See Also 
+[GST Cess Basic Setup](GST-Cess-Basic-Setup.md)
+
+
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -177,3 +177,16 @@ In this document we are going to discuss the process and entries of input servic
     |**Service Account**|-10000|
     |**IGST Expense Account**|-1800|
     |**Vendor Account**|11800|
+
+## See Also 
+[GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
+
+
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

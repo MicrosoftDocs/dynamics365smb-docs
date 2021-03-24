@@ -92,6 +92,9 @@ This setup is required to define the GST components for distribution functionali
     |**Interstate Distribution**|Specify whether this is applicable for interstate distribution or not.|
 
 
+## See Also
+[GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md)
+[GST on Serviec Management](GST-Service-Management.md)
 
 
 
@@ -107,5 +110,4 @@ This setup is required to define the GST components for distribution functionali
 
 
 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

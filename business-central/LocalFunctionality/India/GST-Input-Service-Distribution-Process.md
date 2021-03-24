@@ -116,4 +116,16 @@ GST Input Service Distribution functionality is used to distribute CGST & SGST/I
     |----------------------------------|---------------------------------------|  
     |**Postage**|-180|
     |**CGST Expense Account**|180|
-   
+
+
+
+## See Also 
+[GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md)
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,7 +16,7 @@
 ---
 # Setting Up Tax Deducted at Source (TDS) by Customer, as per the Provisions of the Income Tax Act, 1961
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 Business Central has included Tax Deducted at Source (TDS) by Customer Feature to Indian Localization.
 

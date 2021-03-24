@@ -17,7 +17,7 @@
 ---
 # TDS for Customer 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the process of calculating TDS on customer payments.
 

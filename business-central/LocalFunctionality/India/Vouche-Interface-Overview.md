@@ -17,7 +17,7 @@
 
 # Overview of Voucher Interface
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 Business Central has included Voucher Interface Feature to Indian Localization.
 

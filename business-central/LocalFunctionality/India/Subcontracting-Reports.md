@@ -3,7 +3,7 @@
     description: Sub Contracting Reports
 
     
-    author: v-rat
+    author: v-debapd
 
     ms.service: dynamics365-business-central
     ms.topic: article
@@ -12,7 +12,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 03/08/2021
-    ms.author: v-rat
+    ms.author: v-debapd
 ---
 
 

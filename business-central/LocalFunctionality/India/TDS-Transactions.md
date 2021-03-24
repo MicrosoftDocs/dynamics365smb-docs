@@ -16,7 +16,7 @@
 ---
 # TDS calculation on Purchase and Payment Transactions
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted on purchase order, invoice received from vendor or advance payment made to vendor. TDS calculations can be done on following document types:
 

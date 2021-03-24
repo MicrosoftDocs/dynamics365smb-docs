@@ -16,7 +16,7 @@
 ---
 # TCS Calculation on Sales and Receipt Transactions
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 TCS can be collected on goods (Items) and services (G/L Account) transactions. TCS calculations can be done through following documents:
 

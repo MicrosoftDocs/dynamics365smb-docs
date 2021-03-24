@@ -17,7 +17,7 @@
 ---
 # Voucher Transaction
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the process of recording day-to-day transactions through voucher interface.
 

@@ -17,7 +17,6 @@
 # Setting Up Tax Collected at Source (TCS), as per the Provisions of the Income Tax Act, 1961
 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
 

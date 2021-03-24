@@ -16,7 +16,7 @@
 ---
 # TDS with Threshold
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the requirement of threshold amount in TDS and  the process of calculating TDS for such transactions.
 

@@ -17,7 +17,7 @@
 ---
 # TDS Certificate Tracking
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains how to track and update the TDS certificate receivable or received from a customer.
 

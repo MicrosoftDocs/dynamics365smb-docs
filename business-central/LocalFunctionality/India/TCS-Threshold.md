@@ -16,7 +16,6 @@
 ---
 # TCS with Threshold
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement of threshold amount in TCS and  the process of calculating TCS for such transactions.
 

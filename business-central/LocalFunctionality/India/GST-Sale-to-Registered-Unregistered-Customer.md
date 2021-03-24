@@ -82,7 +82,8 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
-
+## See Also 
+[Sale to Foreign Customer](GST-Sale-to-Foreign-Customer-Service.md)
 
 
 

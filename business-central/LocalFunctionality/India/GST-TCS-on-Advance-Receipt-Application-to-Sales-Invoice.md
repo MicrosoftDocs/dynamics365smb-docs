@@ -86,6 +86,8 @@ GST and TCS will be calculated on the remaining amount, i.e. Invoice Amount - Ad
 > [!TIP]
 > In case of Intra-State Sale, CGST and SGST/UTGST will be calculated.
 
+## See Also 
+[GST and TDS on Vendor Advance](GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

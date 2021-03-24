@@ -67,7 +67,8 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-
+## See Also 
+[GST and TCS on Sales Transaction](GST-TCS-and-GST-on-Sales-Transaction.md)
 
 
 

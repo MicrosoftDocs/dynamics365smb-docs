@@ -65,7 +65,8 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
-
+## See Also 
+[Sale to Registered Customer with Overseas POS](GST-Sale-to-Registered-Customer-Overseas-POS.md)
 
 
 

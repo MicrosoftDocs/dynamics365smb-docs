@@ -76,6 +76,7 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > In case of Inter-State Sale, IGST will be calculated.
 
-
+## See Also 
+[GST and TCS on Customer Advance](GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

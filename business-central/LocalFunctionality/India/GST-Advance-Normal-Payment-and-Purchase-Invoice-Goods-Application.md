@@ -169,6 +169,8 @@ If this is found that the payment and invoice was wrongly applied and the applic
 
 
 
+## See Also 
+[GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md)
 
 
 

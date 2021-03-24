@@ -87,3 +87,17 @@ Setup needs to be done to calculate additional depreciation for Fixed Assets.
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link. Then select relevant Fixed Asset -> Click on **Add. Depr. Applicable**.
  
  
+
+
+
+## See Also 
+[Fixed Asset Depreciation](FA_Depreciation.md)
+
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

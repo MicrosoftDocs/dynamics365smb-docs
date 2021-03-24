@@ -64,3 +64,18 @@ Shift depreciation is used when manufacturing companies have multiple production
 5. Run the Calculate Depreciation batch job, fill the necessary fields and click ok to calculate depreciation.
 6. The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.
 7. Choose the Post action.
+
+
+
+
+
+
+## See Also 
+[Fixed Asset Overview](FA_Overview.md)
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,17 @@ For a Subcontracting order, it is required to create the **Released Production O
 16. Click **Yes** to post the receipt.
 
 Program will update the **Qty. Consumed** and **Quantity at Vendor Location** field on the Sub Order Comp. lines. Program will also update the **Quantity Received** field in the general tab.
+
+
+
+
+
+## See Also 
+[Create GST Liability](Subcontracting-Create-GST-Liability.md)
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

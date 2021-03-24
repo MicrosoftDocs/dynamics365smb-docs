@@ -101,3 +101,15 @@ The following processes describe how to create and attach an Inward Gate Entry.
 > - Same steps also apply for attaching an **Inward Gate Enry** to a **Sales Credit Memo**.
 > - Source Type  blank is applicable only if the goods are received against **Purchase Invoice** or **Sales Credit Memo**.
 
+
+
+## See Also 
+[Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.md)
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

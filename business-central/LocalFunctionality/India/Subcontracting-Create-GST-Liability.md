@@ -47,3 +47,15 @@ If the subcontracting vendor does not return the material within specified perio
 
 4.	Click on **Create GST Liability**.
 5.	On the **GST Liability Line**, click **Post**.
+
+
+
+
+
+## See Also 
+[Subcontracting Report](Subcontracting-Reports.md)
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

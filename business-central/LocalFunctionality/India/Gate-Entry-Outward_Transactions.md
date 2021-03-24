@@ -93,3 +93,18 @@ System will automatically attach the Outward Gate Entry with the source number y
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Return Shipment**, and then choose the related link.
 2. Select the required posted return shipment and click on **Related** -> **Return Shpt.** -> **Attached Gate Entry**.
 3. On this page you can view the attached gate entry with the purchase return shipment.
+
+
+
+
+
+## See Also 
+[Gate Entry Overview](Gate-Entry-001-Basic-Setup.md)
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

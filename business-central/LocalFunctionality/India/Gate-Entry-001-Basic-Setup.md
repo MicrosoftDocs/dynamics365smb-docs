@@ -61,3 +61,16 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
     |**Condition**|Choose the relevant entry type and location code from the lookup list and assign no. series for applied conditions.|  
     |**Posting No. Series**|Choose the posted number series from the lookup list.| 
 
+
+
+
+
+
+
+## See Also 
+[Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md)
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

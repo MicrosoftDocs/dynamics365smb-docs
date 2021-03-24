@@ -110,4 +110,14 @@ Voucher setup is done to define the type of voucher, related transaction directi
       |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
       |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
 
+
+
+
+## See Also 
+[Voucher Interface Transaction](Voucher-Interface-Transactions.md)
+
+
+
+
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

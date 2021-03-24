@@ -114,3 +114,18 @@ You need to create a Routing for finished item. Routing defines the sequence of 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Routing**, and then choose the related link.
 2. On the Lines tab, select **subcontracting work center no.** in the **Work Center No.** field. 
 3. On the  Lines tab, enter the job work charges in the **Unit Cost Per** field.
+
+
+
+
+
+## See Also 
+[Subcontracting Transactions](Subcontracting-Transactions.md)
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

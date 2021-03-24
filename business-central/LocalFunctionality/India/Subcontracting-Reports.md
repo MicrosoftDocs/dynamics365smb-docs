@@ -56,3 +56,17 @@ Stock Register for Job Work report will give the details of transfer, consumptio
     |**Company Location**|Choose the company location for which you want to generate the report.|
     
 3. Click Preview to run the report.
+
+
+
+
+
+## See Also 
+[Subcontracting Overview](Subcontracting-001-Basic-Setup.md)
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

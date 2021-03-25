@@ -100,7 +100,7 @@ This is a bit complicated, but it looks like your administrator didn't change yo
 Yes, but depending on how you signed up to [!INCLUDE[prod_short](includes/prod_short.md)], your data can be deleted or preserved. For more information, see [Canceling [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## Can I use multi-factor authentication?
-Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Multi-factor authentication for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="findpartner"></a>How do I find a reselling partner?
 

@@ -19,7 +19,7 @@ Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/ad
 
 ## See also
 
-[New and planned features](https://aka.ms/Dynamics365ReleasePlan)  
+[New and planned features](/dynamics365-release-plan/2021wave1/)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

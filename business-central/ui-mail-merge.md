@@ -19,13 +19,10 @@ Microsoft Word templates can make it easier to mass communicate with entities su
 
 You can use entities in [!INCLUDE[prod_short](includes/prod_short.md)] as the data source for the template, and add merge fields to personalize documents for each entity. The merge fields come from the entity in [!INCLUDE[prod_short](includes/prod_short.md)]. When you apply a Word template to an entity, data from the merge fields is inserted in the document.
 
+On the **Word Templates** page, you can use an assisted setup guide to download a ZIP file that contains a DataSource.txt and a Word template file for an entity. After you set up the template and add merge fields, you use the same guide to upload the template. You can only use the Word template and data source files that you download from [!INCLUDE[prod_short](includes/prod_short.md)], and you must store the files in the same location.
+
 > [!NOTE]
 > When you choose an entity for which to create a template, the list shows all entities in [!INCLUDE[prod_short](includes/prod_short.md)]. However, you cannot create templates for all entities. If the name of an entity contains special characters, such as **/**, **.**, **_**, or **-**, you cannot create a template for it. The name of the entity is shown in the **Object Caption** column.
-
-On the **Word Templates** page, you can use an assisted setup guide to download a ZIP file that contains a DataSource.txt and a Word template file for an entity. After you set up the template and add merge fields, you use the same guide to upload the template.  
-
-> [!NOTE]
-> You can only use the Word template and data source files that you download from [!INCLUDE[prod_short](includes/prod_short.md)], and you must store the files in the same location.
 
 When you are setting up the template in Word, on the **Mailings** tab you can add merge fields by choosing **Insert Merge Field**.
 
@@ -39,4 +36,4 @@ When your Word template is ready, on the **Word Templates** page you can choose 
 2. Follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also
-[Managing Report and Document Layouts](ui-manage-report-layouts.md)
+[Managing Report and Document Layouts](ui-manage-report-layouts.md)  

@@ -117,7 +117,7 @@ Dataverse must use one of the following authentication types:
 
   > [!IMPORTANT]
   > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-- Office365 (modern)
+- Office365 (modern, OAuth2 client secret based)
 - OAuth
 
 ### To register an application in Azure AD for connecting from Business Central to Dataverse

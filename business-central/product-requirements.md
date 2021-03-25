@@ -24,11 +24,17 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 ## Mobile devices
 
+**Windows:** Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).
+**Android (tablet and phone):** One of the latest three major versions and their updates.
+**iOS (iPad and iPhone):** One of the latest three major versions and their updates.
+
+<!--
+
 **Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
 **iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
 **Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
 **Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
-
+-->
 ## Outlook
 
 **Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  

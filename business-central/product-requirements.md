@@ -70,12 +70,12 @@ The administration center is designed to work with the current version of the fo
 
 ## Using Business Central on-premises
 
-If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## See Also
 
 [Getting Started](product-get-started.md)  
-[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+[System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

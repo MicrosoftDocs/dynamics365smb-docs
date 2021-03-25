@@ -193,12 +193,6 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 The **Printer Management** page shows you the printers that are currently set up. The page also gives you access the **Settings** page for each printer to edit an existing setup or set up a new printer.
 
-<!--
-The following procedure describes how to set up the existing **Email Printer** printer, which is a preinstalled extension.
-
-> [!NOTE]
-> To use email printing, email functionality must be set up. For more information, see [Set Up Email](admin-how-setup-email.md).
--->
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
 2. Select **Email Print**, and then choose **Add an email printer**.
 3. On the **Email Printer Settings** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -207,48 +201,13 @@ The following procedure describes how to set up the existing **Email Printer** p
     > You must manually select the appropriate paper size for a printer as no local printer or user settings can be stored.
     >
     > Beware that the Email Printer extension is set to **A4** paper size by default, which isn't suited in North America, for example.
-<!--
-4. To make a printer your default, On the **Printer Management** page, choose the **Set as my default printer**.
--->
+
 ### Privacy Notice
 
 If you use the Email Printer extension, then all or some print jobs will be sent to the email address configured for the printer. We strongly recommend that a unique email ID is tied to a printer device using only the official services provided by the hardware manufacturer, such as HP ePrint, KonicaMinolta EveryonePrint, or Epson Email Print.
 
 Take all necessary privacy precautions, including ensuring that the email printing solution has properly configured permissions, privacy settings, and retention policies. It is your responsibility to provide a correct, verified, and operational email address. For more information, see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-<!--
-## To select which printers print which reports
-
-On the **Printer Selections** page, you can set up for your user account which reports are printed by which printer. This is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
-
-> [!IMPORTANT]
-> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Printer Selections** page can only be used for printers defined by printer extensions. It can't be used for local printers.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Alternatively, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
-2. Choose the **New** action to add a printer selection for a specific report.
-3. Fill in the fields as necessary.
-
-The specified report is now set up to print to the selected printer by default.
-
-> [!NOTE]
-> When you print the report in question, you can override this setup by selecting another printer on the **Print Settings** request page.
-
-> [!NOTE]
-> If you do not set a report up for a specific printer on the **Printer Selections** page, then it will be printed to the default printer of the company, as defined from the **Printer Management** page.
-
-You or the administrator can also use the **Printer Selections** page to define other variations of printing for users and reports. The following table describes the combination of values to specify different printing setup for a report.
-
-|To                                                 |Set the following values                                             |
-|---------------------------------------------------|---------------------------------------------------------------------|
-|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
-|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
-|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user's default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
-|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
-
-> [!NOTE]
-> More specific printer selections take precedence over a more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
--->
 
 ## <a name="default"></a>Set up default printers
 

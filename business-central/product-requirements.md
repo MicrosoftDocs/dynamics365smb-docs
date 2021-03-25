@@ -18,14 +18,18 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 ## Browsers
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of the new Microsoft Edge.  
-**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of the new Microsoft Edge.
+  
+**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 
 ## Mobile devices
 
 **Windows:** Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).
+
 **Android (tablet and phone):** One of the latest three major versions and their updates.
+
 **iOS (iPad and iPhone):** One of the latest three major versions and their updates.
 
 <!--
@@ -37,8 +41,10 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 -->
 ## Outlook
 
-**Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises.  
-**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.  
+**Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises. 
+ 
+**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article. 
+ 
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Teams

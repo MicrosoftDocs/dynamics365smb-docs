@@ -32,6 +32,9 @@ ms.author: jswymer
 The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app.
 
 1. In the command box, type **@Business Central**, then select the Business Central app from the results.
+
+    The Business Central appears for searching contacts.
+
 2. In the **Business Central** box, start typing search text, like name, address, or phone number.
 
     As you type, results will appear.
@@ -46,6 +49,11 @@ For more information about the command box in Teams, see [Teams - Use the comman
 The advantage of using the message compose box is that you can add a contact card to directly to conversation.
 
 1. Beneath to message compose box, select the **Business Central** icon to launch the app.
+
+    If you don't see the **Business Central** icon, select **Messaging extensions** (...).
+
+    The **Business Central** app appears for searching contacts.
+
 2. In the **Business Central** box, start typing search text, like name, address, or phone number.
 
     As you type, results will appear.

@@ -22,11 +22,15 @@ ms.author: jswymer
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
-- Look up customers, vendors or other contacts.  
-- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
-- Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
+- Look up customers, vendors or other contacts.
 
-[![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+   ![Teams contacts with Business Central](media/teams-contacts.png)
+- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
+
+   [![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+
+Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
+
 
 The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 

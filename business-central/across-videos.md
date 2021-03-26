@@ -26,7 +26,7 @@ You can also view our "how to" videos, plus a lot of other content, on the YouTu
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Dynamics 365 channel on YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
 
 

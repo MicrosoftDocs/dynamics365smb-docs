@@ -69,7 +69,7 @@ When the report runs without errors, you will be prompted to save the file **Dio
 
 ## See Also
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Getting Started](../../product-get-started.md)
+[Getting Ready for Doing Business](../../ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

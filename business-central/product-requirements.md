@@ -74,8 +74,7 @@ If you want to deploy Business Central on-premises, you should check the system 
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -20,6 +20,9 @@ To help you get ready for doing business, you can visit the **Assisted Setup** p
 
 Alternatively, to open the list of assisted setup guides for any role, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
+
+When you launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
 If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
@@ -29,7 +32,15 @@ If an area is not covered by an assisted setup, choose the ![Sprocket icon to op
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. To run the assisted setup guide, you choose the three dots, and then choose the **Start Setup** action.
+When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
+
+## Teaching tips and tours
+
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
+
+[!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
+
+Teaching tips are short messages that inform, remind, or teach you about important and new capabilities that launch automatically when you open a page. For example, to see the teaching tip for the **Sales Invoice** card, choose the link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour. The *Learn more* link takes you to the product Help for the page.
 
 ## Role Center
 
@@ -54,7 +65,7 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## Getting Help
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] you will find tooltips that can help guide you through the various business processes. For each tooltip, choose the **Learn more** link to open Help for the page in question. On all pages, use Ctrl+F1 on your keyboard to open Help for the page in question. The question mark in the upper right corner open the **Help and Support** page, and you can get to product Help from there as well.
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## Next Steps
 
@@ -62,7 +73,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  

@@ -22,6 +22,7 @@ ms.author: jswymer
 - Share a contact as a card during conversations in Microsoft Teams.
 - View contact information, history of interactions, and other insights such as outstanding payments or open documents, in the details window in Teams.
 
+![Teams contacts with Business Central](media/teams-contacts.png)]
 ## Prerequisites
 
 - You have access to Microsoft Teams.

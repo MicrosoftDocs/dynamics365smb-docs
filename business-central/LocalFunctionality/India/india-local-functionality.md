@@ -14,7 +14,7 @@
 
 ---
 # India Local Functionality
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 The following topics describe the local functionality in the Indian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
@@ -71,6 +71,13 @@ The following topics describe the local functionality in the Indian version of [
     * [GST E-Way Bill](GST-E-Way-Bill.md) **Available Now**  
     * [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md) **Available Now**
     * [GST Settelement](GST-Settelement.md) **Available Now**
+    * [GST E-Invoice](GST-E-Invoice.md) **Available Now**
+    * [GST Cess Basic Setup](GST-Cess-Basic-Setup.md) **Available Now**
+    * [GST Cess Calculation](GST-Cess-Calculations.md) **Available Now**
+    * [GST on Serviec Management](GST-Service-Management.md) **Available Now**
+    * [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md) **Available Now**
+    * [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md) **Available Now**
+    * [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md) **Available Now**
 
 * TDS
     * [TDS Overview](TDS-Overview.md) **Available Now**
@@ -91,20 +98,32 @@ The following topics describe the local functionality in the Indian version of [
     * [TCS Threshold](TCS-Threshold.md) **Available Now**
     * [TCS Adjustment Entry](TCS-Adjustment-Entries.md) **Available Now**
     * [TCS Payment to Authority](TCS-Payment-to-Authority.md) **Available Now**
+    * [TCS 206C-1H-Overview](TCS-206C-1H-Overview.md) **Available Now**
+    * [TCS 206C-1H-Transaction](TCS-206C-1H-Transactions.md) **Available Now**
+
 
 * Voucher Interface
     * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
 
-* Fixed Asset **Comming Soon**
+* Fixed Asset
+    * [Fixed Asset Overview](FA_Overview.md) **Available Now**
+    * [Fixed Asset Depreciation](FA_Depreciation.md) **Available Now**
 
-* Subcontracting **Comming Soon**
+* Gate Entry
+    * [Gate Entry Overview](Gate-Entry-001-Basic-Setup.md) **Available Now**
+    * [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md) **Available Now**
+    * [Gate Entry Outward Transaction](Gate-Entry-Outward_Transactions.md) **Available Now**
 
-* Gate Entry **Comming Soon**
-
+* Subcontracting
+    * [Subcontracting Overview](Subcontracting-001-Basic-Setup.md) **Available Now**
+    * [Subcontracting Transactions](Subcontracting-Transactions.md) **Available Now**
+    * [Create GST Liability](Subcontracting-Create-GST-Liability.md) **Available Now**
+    * [Subcontracting Report](Subcontracting-Reports.md) **Available Now**
+    
 * Stale Cheque **Comming Soon**
 
-* Capital Work In Progress **Comming Soon**
+
 
 
 

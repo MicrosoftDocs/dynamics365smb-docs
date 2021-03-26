@@ -16,7 +16,7 @@
 ---
 # TCS Calculation on Sales and Receipt Transactions
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 TCS can be collected on goods (Items) and services (G/L Account) transactions. TCS calculations can be done through following documents:
 
@@ -107,7 +107,7 @@ TCS which has been calculated on advance payment can be adjusted while creating 
 > TCS is calculated after adjusting the TCS amount which was earlier calculated on advance payment.
 
 
-## TCS to be calculated on non-resident customer invoice in FCY
+## TCS to be calculated on non-resident customer invoice in foreign currency
 
 For example, invoice has been raised to foreign customer for USD 10,000 on which 1% TCS is applicable for Nature of collection 'Scrap'. All foreign currency amounts will get converted into INR based on currency exchange rates. Exchange rate considered for this example is 1 USD = 65 INR.
 
@@ -227,6 +227,12 @@ For example, sales return from customer for INR 10,000 on which 1% TCS is applic
 
 > [!NOTE]
 > If Credit Memo is created before remittance of Tax to government, then TCS entries will get reversed proportionately, on the basis of the quantity returned. In case TCS amount has been remitted to Income Tax department, TCS Payable account will not be reversed.
+
+
+## See Also 
+[TCS Threshold](TCS-Threshold.md)
+
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

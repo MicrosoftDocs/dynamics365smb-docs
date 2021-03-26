@@ -17,13 +17,12 @@
 # Setting Up Tax Collected at Source (TCS), as per the Provisions of the Income Tax Act, 1961
 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Business Central has included Tax Collected at Source (TCS) Feature in Indian Localization.
 
 **TCS** means **Tax Collected at Source** is one of the methods for tax collection by the government. It follows the principle of ‘You pay while you earn’. While ‘Tax Deducted at Source’ (TDS) requires the payer to deduct tax at source and remit the tax to the Government, ‘Tax Collected at Source’ (TCS) requires the receiver or seller to collect tax at source and remit it to the Government. The purpose of this provision is to eliminate tax evasion in certain trades.
 
-## Setting Up TCS
+## Setting up TCS
 
 ### TCS has two types of setup.
 
@@ -227,7 +226,8 @@ TCS nature of collection and concessional codes need to be defined for each cust
 
 
 
-
+## See Also 
+[TCS Transactions](TCS-Transactions.md)
 
 
 

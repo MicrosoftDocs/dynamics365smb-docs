@@ -37,6 +37,8 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
     The Business Central appears for searching contacts.
 
+    ![Teams contacts command with Business Central](media/teams-contacts-commnd.png)
+
 2. In the **Business Central** box, start typing search text, like name, address, or phone number.
 
     As you type, results will appear.

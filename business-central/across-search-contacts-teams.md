@@ -22,8 +22,6 @@ ms.author: jswymer
 - Share a contact as a card during conversations in Microsoft Teams.
 - View contact information, history of interactions, and other insights such as outstanding payments or open documents, in the details window in Teams.
 
-![Teams contacts with Business Central](media/teams-contacts.png)
-
 ## Prerequisites
 
 - You have access to Microsoft Teams.
@@ -57,6 +55,8 @@ The advantage of using the message compose box is that you can add a contact car
     If you don't see the **Business Central** icon, select **Messaging extensions** (...).
 
     The **Business Central** app appears for searching contacts.
+
+    ![Teams contacts with Business Central](media/teams-contacts.png)
 
 2. In the **Business Central** box, start typing search text, like name, address, or phone number.
 

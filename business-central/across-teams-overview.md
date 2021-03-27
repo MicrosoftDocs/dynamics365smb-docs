@@ -18,21 +18,29 @@ ms.author: jswymer
 
 [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you connect with others, collaborate seamlessly, and simplify work. [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)] so you can quickly share details across team members, lookup contacts, and respond faster to inquiries.
 
-## Overview
+The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
 
-The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
+## Features overview
 
-- Look up customers, vendors or other contacts.
+The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the following features.
 
-   ![Teams contacts with Business Central](media/teams-contacts.png)
-- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
+### Search for and share customers, vendors or other contacts
+
+Look up contacts in [!INCLUDE [prod_short](includes/prod_short.md)] directly from Teams, and share the details in a conversation. From there, participants have access to even more details about the contact.   
+
+ ![Teams contacts with Business Central](media/teams-contacts.png)
+
+For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
+
+### Share records in conversations
+
+Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
    [![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
-
-The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
+For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams).
 
 ## Get Started
 

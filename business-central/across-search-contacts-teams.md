@@ -16,7 +16,7 @@ ms.author: jswymer
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduced in 2021 release wave 1.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] offers a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to lookup, call, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. Specifically, the app lets you:
+[!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to lookup, call, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. Specifically, the app lets you:
 
 - Look up Business Central contacts from the Microsoft Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
 - Share a contact as a card during conversations in Microsoft Teams.

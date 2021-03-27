@@ -12,7 +12,7 @@ ms.date: 03/22/2021
 ms.author: jswymer
 ---
 
-# Searching for Contacts from Microsoft Teams
+# Changing Sign-In and Other Settings in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduced in 2021 release wave 1.
 

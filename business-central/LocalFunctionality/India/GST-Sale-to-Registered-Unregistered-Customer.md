@@ -16,7 +16,6 @@
 ---
 # Sales to Registered or Unregistered Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Sales to a registered customer are known as B2B sales, sales to an unregistered customer are known as B2C sales. There is no difference in computation of tax for a B2B and B2C sales. However, they are required to be reported separately in GSTR-1.
 
@@ -83,7 +82,8 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
-
+## See Also 
+[Sale to Foreign Customer](GST-Sale-to-Foreign-Customer-Service.md)
 
 
 

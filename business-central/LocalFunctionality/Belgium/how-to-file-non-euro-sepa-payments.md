@@ -18,7 +18,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 - Set up a new export protocol for a non-euro SEPA.  
 - In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
-- Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
+- Verify that the vendor's **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
 
 ## To file a non-euro SEPA payment  
 
@@ -36,10 +36,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 
 3.  Choose the **OK** button.  
 
-## See Also  
- [File SEPA Payments](how-to-file-sepa-payments.md)   
- [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
- [SEPA Payments](sepa-payments.md)
+## See Also
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[File SEPA Payments](how-to-file-sepa-payments.md)  
+[Activate SEPA Payments](how-to-activate-sepa-payments.md)  

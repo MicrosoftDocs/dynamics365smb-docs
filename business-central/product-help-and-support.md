@@ -82,9 +82,11 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prod_short](includes/prod_short.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), free [learning paths and e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
 
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
 ### Content on the site
 
-The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
+The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips and teaching tips, or by using the *Ctrl+F1* keyboard shortcut.  
 
 The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 

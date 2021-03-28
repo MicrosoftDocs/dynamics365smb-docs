@@ -16,7 +16,7 @@
 ---
 # TDS with Threshold
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the requirement of threshold amount in TDS and  the process of calculating TDS for such transactions.
 
@@ -70,7 +70,8 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
-
+## See Also 
+[TDS Provisional Entry](TDS-Provisional-Entries.md)
 
 
 

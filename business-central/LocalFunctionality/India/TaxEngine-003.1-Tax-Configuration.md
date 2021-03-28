@@ -14,7 +14,6 @@
 ---
 # Tax Engine - Use Case Configuration
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic provides information about use case configuration.
 
@@ -96,7 +95,8 @@ Statistics Page, will show the tax information in Tax Summary Tab.
 
 
 
-
+## See Also 
+[Tax Engine Lookup](TaxEngine-004-Lookup.md)
 
 
 

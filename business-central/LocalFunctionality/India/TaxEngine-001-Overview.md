@@ -15,7 +15,7 @@
 
 ---
 # Tax Engine Overview
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 In a country, where tax reforms are happening at a fast pace, it is natural to expect frequent changes. These changes may pertain to change in rate of tax, calculation method, tax     filing or reporting etc. To manage such changes with least effort, it is necessary to manage, as much as possible through configuration. 
 
@@ -38,6 +38,9 @@ Tax Engine extension is a combination of 6 smaller extensions or modules. Extens
 > [!NOTE]
 > The Tax engine functionality is only available for legal entities with a primary address in India.
 
+
+## See Also  
+ [Tax Engine Import Export Configuration](TaxEngine-002-Import-Export-Configuration.md)
 
 
 

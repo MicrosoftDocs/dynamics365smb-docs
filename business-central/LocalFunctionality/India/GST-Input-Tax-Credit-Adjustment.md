@@ -16,7 +16,6 @@
 ---
 # GST Input Tax Credit Adjustments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement and process of GST credit adjustment.
 
@@ -132,7 +131,8 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
-
+## See Also 
+[GST Settlement](GST-Settelement.md)
 
 
 

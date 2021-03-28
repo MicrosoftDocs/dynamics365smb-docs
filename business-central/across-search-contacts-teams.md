@@ -48,7 +48,7 @@ For more information about the command box in Teams, see [Teams - Use the comman
 
 ## Look up contacts from the message compose box
 
-The advantage of using the message compose box is that you can add a contact card directly to conversation.
+The advantage of using the message compose box is that you can add a contact card directly to a conversation.
 
 1. Beneath to message compose box, select the **Business Central** icon to launch the app.
 

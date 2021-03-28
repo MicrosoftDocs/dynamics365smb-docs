@@ -22,14 +22,13 @@ There are two ways to open the **Settings** page
 
 1. Beneath the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-  ![Settings for Business Central from message box](media/teams-settings-command-box.png)
+  ![Settings for Business Central from command box](media/teams-settings-message-box.png)
 
   Or,
 
 2. From the command box at the top, search for @Business Central, select **... (More options)**, then select **Settings**.
 
-  ![Settings for Business Central from command box](media/teams-settings-message-box.png)
-
+  ![Settings for Business Central from message box](media/teams-settings-command-box.png)
 
 ## See Also
 

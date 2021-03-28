@@ -126,7 +126,7 @@ Contact your administrator to learn how your organization handles the privacy of
 
 ### How do I uninstall the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 
-To remove the app that you installed for yourself, go to any chat compose box, find the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, right-click the icon and choose Uninstall.  
+To remove the app that you installed for yourself, go to any chat compose box, find the [!INCLUDE [prod_short.md](includes/prod_short.md)] icon underneath, right-click the icon and choose **Uninstall**.  
 
 ### Will Microsoft continue to improve the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams?
 

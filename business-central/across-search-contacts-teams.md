@@ -16,11 +16,11 @@ ms.author: jswymer
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduced in 2021 release wave 1.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to lookup, call, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. Specifically, the app lets you:
+[!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to look up, call, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. The app lets you:
 
-- Look up Business Central contacts from the Microsoft Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
-- Share a contact as a card during conversations in Microsoft Teams.
-- View contact information, history of interactions, and other insights such as outstanding payments or open documents, in the details window in Teams.
+- Look up [!INCLUDE [prod_short](includes/prod_short.md)] contacts from the Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
+- Share a contact as card in a Teams conversation.
+- View details about contact information, interaction history, and other insights like outstanding payments or open documents.
 
 ## Prerequisites
 
@@ -46,9 +46,9 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 For more information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## Look up a contacts from the message compose box
+## Look up contacts from the message compose box
 
-The advantage of using the message compose box is that you can add a contact card to directly to conversation.
+The advantage of using the message compose box is that you can add a contact card directly to conversation.
 
 1. Beneath to message compose box, select the **Business Central** icon to launch the app.
 

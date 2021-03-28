@@ -24,7 +24,7 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the following features.
 
-### Search for and share customers, vendors or other contacts
+### Search for and share customers, vendors, or other contacts
 
 Look up contacts in [!INCLUDE [prod_short](includes/prod_short.md)] directly from Teams, and share the details in a conversation. From there, participants have access to even more details about the contact.   
 

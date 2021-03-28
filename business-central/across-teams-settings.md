@@ -1,13 +1,13 @@
 ---
-title: Searching for Contacts from Microsoft Teams 
-description: Learn how to look up contacts in Business Central from Microsoft Teams.
+title: Changing Sign-In and Other Settings in Teams 
+description: Learn about how to change Business Central connection settings from Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 03/22/2021
 ms.author: jswymer
 ---
@@ -22,13 +22,13 @@ There are two ways to open the **Settings** page
 
 1. Beneath the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-  ![Teams contacts with Business Central](media/teams-settings-command-box.png)
+  ![Settings for Business Central from message box](media/teams-settings-command-box.png)
 
   Or,
 
 2. From the command box at the top, search for @Business Central, select **... (More options)**, then select **Settings**.
 
-  ![Teams contacts with Business Central](media/teams-settings-message-box.png)
+  ![Settings for Business Central from command box](media/teams-settings-message-box.png)
 
 
 ## See Also

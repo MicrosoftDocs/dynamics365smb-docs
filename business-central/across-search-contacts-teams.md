@@ -33,13 +33,13 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 1. In the command box, type **@Business Central**, then select the Business Central app from the results.
 
-    ![Teams contacts command with Business Central](media/teams-contacts-command-1.png)
+    ![Open Business Central app  to search for contacts from command box](media/teams-contacts-command-1.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, results will appear.
 
-    ![Teams contacts command search text with Business Central](media/teams-contacts-command-2.png)
+    ![Search Business Central contacts from command box in Teams](media/teams-contacts-command-2.png)
 3. Select a contact from the results.
 
     The contact card appears beneath the command box.
@@ -54,7 +54,7 @@ The advantage of using the message compose box is that you can add a contact car
 
     If you don't see the **Business Central** icon, select **Messaging extensions** (...).
 
-    ![Teams contacts with Business Central](media/teams-contacts.png)
+    ![Open Business Central app to search for contacts from message box](media/teams-contacts.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
@@ -65,7 +65,7 @@ The advantage of using the message compose box is that you can add a contact car
 
 ## Viewing contact details
 
-Contact card in Teams works just like cards for records, like items, customers, or sales orders. You can view more information or even modify a contact by selecting **Details** or **Pop-out** on the card. For more information, see [View card details](across-working-with-teams#view-card-details).
+Contact card in Teams works just like cards for records, like items, customers, or sales orders. You can view more information or even modify a contact by selecting **Details** or **Pop-out** on the card. For more information, see [View card details](across-working-with-teams.md#view-card-details).
 
 > [!NOTE]
 > All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).

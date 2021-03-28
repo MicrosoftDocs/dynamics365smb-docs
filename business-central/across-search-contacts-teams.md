@@ -54,11 +54,13 @@ The advantage of using the message compose box is that you can add a contact car
 
     If you don't see the **Business Central** icon, select **Messaging extensions** (...).
 
-    ![Open Business Central app to search for contacts from message box](media/teams-contacts.png)
+    ![Open Business Central app to search for contacts from message box](media/teams-contacts-message-box.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, results will appear.
+
+    ![Search for Business Central contacts from message box](media/teams-contacts.png)
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.

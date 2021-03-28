@@ -18,17 +18,16 @@ ms.author: jswymer
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams includes **Settings** page that lets you view and change information about your connection to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you switch the [!INCLUDE [prod_short](includes/prod_short.md)] environment and company you're connected. Or, sign out of [!INCLUDE [prod_short](includes/prod_short.md)] and sign in using another account.
 
-There are two ways to open the **Settings** page
+There are two ways to open the **Settings** page: 1) from the message compose box or 2) from the command box.
 
 1. Beneath the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-  ![Settings for Business Central from command box](media/teams-settings-message-box.png)
+    ![Settings for Business Central from command box](media/teams-settings-message-box.png)
 
-  Or,
-
+    
 2. From the command box at the top, search for @Business Central, select **... (More options)**, then select **Settings**.
 
-  ![Settings for Business Central from message box](media/teams-settings-command-box.png)
+   ![Settings for Business Central from message box](media/teams-settings-command-box.png)
 
 ## See Also
 

@@ -60,7 +60,7 @@ The advantage of using the message compose box is that you can add a contact car
 
     As you type, results will appear.
 
-    ![Search for Business Central contacts from message box](media/teams-contacts.png)
+    ![Search for Business Central contacts from message box](media/teams-contacts-5.png)
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.

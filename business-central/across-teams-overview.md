@@ -40,7 +40,7 @@ Copy a link to any Business Central record and paste it into a Teams conversatio
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
-For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams).
+For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).
 
 ## Get Started
 
@@ -59,7 +59,8 @@ For more information, see [Working with Business Central Data in Microsoft Teams
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+  
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 

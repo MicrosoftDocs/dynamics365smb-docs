@@ -52,7 +52,7 @@ The advantage of using the message compose box is that you can add a contact car
 
 1. Beneath to message compose box, select the **Business Central** icon to launch the app.
 
-    If you don't see the **Business Central** icon, select **Messaging extensions** (...).
+    If you don't see the **Business Central** icon, select **... (Messaging extensions)**.
 
     ![Open Business Central app to search for contacts from message box](media/teams-contacts-message-box.png)
 

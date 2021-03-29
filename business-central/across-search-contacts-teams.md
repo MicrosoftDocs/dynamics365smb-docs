@@ -44,6 +44,9 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
     The contact card appears beneath the command box.
 
+> [!TIP]
+> If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste in the message compose box of a conversation.  
+
 For more information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## Look up contacts from the message compose box

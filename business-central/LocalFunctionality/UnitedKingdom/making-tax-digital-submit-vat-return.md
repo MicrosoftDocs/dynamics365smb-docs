@@ -1,5 +1,5 @@
 ---
-title: 'Making Tax Digital - Submitting VAT Returns | Microsoft Docs'
+title: 'Making Tax Digital - Submitting VAT Returns'
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central

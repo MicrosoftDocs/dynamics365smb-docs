@@ -239,43 +239,45 @@
 #### [Migrate Customer Data](admin-migrate-customer-data.md)
 #### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Using Outlook with Business Central
-#### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-#### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Using Business Central Without Outlook](admin-no-outlook.md)
-### Using Microsoft Teams with Business Central
-#### [Overview](across-teams-overview.md)
-#### [Managing Teams Integration](admin-teams-integration.md)
-#### [Installing Business Central App for Teams](across-install-app-for-teams.md)
-#### [Working with Business Central Data in Teams](across-working-with-teams.md)
-#### [Teams FAQ](teams-faq.md)
-#### [Troubleshooting](admin-teams-troubleshooting.md)
-### Using Power BI with Business Central
-#### [Introduction](admin-powerbi.md)
-#### Administrator
-##### [Integration Overview](admin-powerbi-overview.md)
-##### [Enabling Power BI Integration](admin-powerbi-setup.md)
-#### Designer
-##### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
-##### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-#### Consumer
-##### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
-##### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
-##### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
-### Using Power Automate with Business Central
-#### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
-### Using Power Apps with Business Central
-#### [Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
-### [Getting Business Central on Your Mobile Device](install-mobile-app.md)
-### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
-### [Using the same Microsoft 365 account in Business Central and in Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-### [Set Up Email](admin-how-setup-email.md)
+### Setting Up Email
+#### [Set Up Email](admin-how-setup-email.md)
+#### Using Outlook with Business Central
+##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
+##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Using Business Central Without Outlook](admin-no-outlook.md)
+### Setting Up Reports
+#### [Report Selection](across-report-selections.md)
+### Setting Up Connections
+#### Using Microsoft Teams with Business Central
+##### [Overview](across-teams-overview.md)
+##### [Managing Teams Integration](admin-teams-integration.md)
+##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
+##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Teams FAQ](teams-faq.md)
+##### [Troubleshooting](admin-teams-troubleshooting.md)
+#### Using Power BI with Business Central
+##### [Introduction](admin-powerbi.md)
+##### Administrator
+###### [Integration Overview](admin-powerbi-overview.md)
+###### [Enabling Power BI Integration](admin-powerbi-setup.md)
+##### Designer
+###### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
+###### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
+##### Consumer
+###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
+###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+#### Using Power Automate with Business Central
+##### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
+#### Using Power Apps with Business Central
+##### [Connecting to Your Business Central Data to Build a Business App Using Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
+#### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
+#### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
 ### [Create Number Series](ui-create-number-series.md)
-### [Set Up Printers](ui-specify-printer-selection-reports.md)
-### [Report Selection](across-report-selections.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
+### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.md)

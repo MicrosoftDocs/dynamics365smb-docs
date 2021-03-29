@@ -1,5 +1,5 @@
 ---
-title: Create Users According to Licenses  | Microsoft Docs
+title: Create Users According to Licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: edupont04
 
@@ -40,7 +40,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
-3. Choose **Update Users from Office 365**.
+3. Choose **Update Users from Microsoft 365**.
 
 If you are adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you are updating user information, and the update includes a license change, the users will be assigned to the appropriate user group and their permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
@@ -57,16 +57,16 @@ For more information about synchronizing user information with Microsoft 365, se
 In online deployments, you can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]. All references to the user are kept, but the user cannot sign in and active sessions for the user are stopped.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. Open the **User Card** page for the relevant user, and then, in the **State** field, select **Disabled**.
-3. To give the user access again, set the **State** field to **Enabled**.
+2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
+3. To give the user access again, set the **Status** field to **Enabled**.
 
-You can also remove the license from a user in the Microsoft 365 Admin Center. The user is then unable to sign in. For more information, see [Remove licenses from users](/office365/admin/manage/remove-licenses-from-users).
+You can also remove the license from a user in the Microsoft 365 Admin Center. The user is then unable to sign in. For more information, see [Remove licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ### <a name="m365"></a>Synchronization with Microsoft 365
 
 When you assign a license for [!INCLUDE[prod_short](includes/prod_short.md)] to a user in Microsoft 365, there are two ways to create the user in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- The administrator can add the user by choosing the **Update Users from Office 365** action on the **Users** page as described in the [To add a user or update user information in Business Central](#adduser) section.
+- The administrator can add the user by choosing the **Update Users from Microsoft 365** action on the **Users** page as described in the [To add a user or update user information in Business Central](#adduser) section.
 - The license information will update automatically when the user signs in for the first time.
 
 In both cases, a number of settings are made automatically. These are listed in the second and third columns in the table below.
@@ -74,13 +74,13 @@ In both cases, a number of settings are made automatically. These are listed in 
 If you change user information in Microsoft 365 you can update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change. Depending on what you want to update, use one of the actions on the **Users** page. The actions are described in the last three columns in the table below.
 
 > [!NOTE]
-> The actions described in the following table are accurate, however, the only one that you need is **Update Users from Office 365**, which was added to simplify the process. The other actions will be removed in a future version of [!INCLUDE[prod_short](includes/prod_short.md)].
+> The actions described in the following table are accurate, however, the only one that you need is **Update Users from Microsoft 365**, which was added to simplify the process. The other actions will be removed in a future version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |What happens when:|First user, first sign-in|Get Users from Microsoft 365|Update Users from Microsoft 365|Restore User Default User Groups|Refresh User Groups|Update user information from Microsoft 365|
 |-|-|-|-|-|-|-|
 |Scope:|Current user|New users in Microsoft 365|Multiple selected users|Single selected user (except current)|Multiple selected users|Multiple selected users|
 |Create the new user and assign SUPER permission set.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Update the user based on information in Microsoft 365: State, Full Name, Contact Email, Authentication Email.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
+|Update the user based on information in Microsoft 365: Status, Full Name, Contact Email, Authentication Email.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
 |Synchronize user plans (licenses) with licenses and roles assigned in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Add the user to user groups according to the current user plans. Remove the SUPER permission set for all users other than the first user to sign in and [administrators](/dynamics365/business-central/dev-itpro/administration/tenant-administration). At least one SUPER is required.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Removes manually assigned user groups and permissions.|**X**<br /><br />Update user group assignments.| |
 
@@ -110,7 +110,7 @@ Users with the Device license cannot perform the following tasks in [!INCLUDE[pr
 5. Choose the **Close** button.
 
 > [!NOTE]
-> You can also create a group of type Microsoft 365. For more information, see [Compare Groups](/office365/admin/create-groups/compare-groups)
+> You can also create a group of type Microsoft 365. For more information, see [Compare Groups](/microsoft-365/admin/create-groups/compare-groups)
 
 ### To add members to the group
 

@@ -19,7 +19,7 @@ The article provides details for setting up Microsoft Edge, but the requirements
 
 ## Use a supported browser
 
-Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#recommended-browsers).  
+Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).  
 
 ## Allow JavaScript from Business Central
 

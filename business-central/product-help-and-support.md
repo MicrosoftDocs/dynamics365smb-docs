@@ -15,6 +15,9 @@ In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the questio
 
 This page outlines the resources available to you in the different sections of the **Help and Support** page.  
 
+> [!TIP]
+> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
 ## Finding Answers
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
@@ -82,9 +85,11 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 The docs.microsoft.com site is the default location for learning about capabilities of [!INCLUDE[prod_short](includes/prod_short.md)]. The site hosts [conceptual content about business functionality](index.md), [documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), free [learning paths and e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) across multiple user profiles, and much more. In this section, you can learn about how to navigate the business functionality content.  
 
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
 ### Content on the site
 
-The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips, or by using the *Ctrl+F1* keyboard shortcut.  
+The content that Microsoft publishes under the user assistance concept of *Learn more* is in part intended to answer those questions that the user interface cannot answer, such as where that page fits into the bigger workflow, or what comes next, or what would be the alternative, and so on. From inside the product, you can access this content either through the *Learn more* link in tooltips and teaching tips, or by using the *Ctrl+F1* keyboard shortcut.  
 
 The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there is also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,8 +131,12 @@ We welcome your contributions, both as pull requests with suggestions or correct
 
 ### Navigating to other parts of the site
 
-The docs.microsoft.com hosts content for other products as well as other types of content. Use the links at the top of the site to navigate to the [Learn](/learn/) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You  can also find a link to the
+The docs.microsoft.com hosts content for other products as well as other types of content. Use the links at the top of the site to navigate to the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
 [Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
+
+## Apps and other solutions
+
+If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality that is not provided by Microsoft, then the provider of that functionality also provides *Learn more* content on their own website. You can access this content in the same way as in the default version of [!INCLUDE [prod_short](includes/prod_short.md)], such as by using the *Ctrl+F1* keyboard shortcut.  
 
 ## See Also
 
@@ -137,6 +146,6 @@ The docs.microsoft.com hosts content for other products as well as other types o
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
-
+[Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

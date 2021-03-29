@@ -16,7 +16,6 @@
 ---
 # GST on Journals where Services are Paid Directly through Cash or Bank
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Invoice and credit memo can be posted from journals. GST calculation logic for journals will be same as GST calculation for documents. 
 
@@ -72,7 +71,8 @@ For example, there is an expense of INR 10,000 and 18% GST (i.e. 9% CGST and 9% 
 
 
 
-
+## See Also 
+[GST on Advance Payment to Vendor](GST-GST-on-Advance-Payment-made-to-Vendor.md)
 
 
 

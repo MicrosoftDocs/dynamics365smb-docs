@@ -1,5 +1,5 @@
 ---
-title: Create a Sales Invoice or Sales Order
+title: Invoice Sales
 description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 author: SorenGP
 
@@ -27,23 +27,20 @@ In all other aspects, sales orders and sales invoices work in the same way. For 
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. For more information, see [Make Sales Quotes](sales-how-make-offers.md).
 
+## Create sales invoices
+
 If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the invoice and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md). When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. For more information, see the [Registering Payments](#registering-payments) section.  
 
-
-You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).
-
-The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
+Items cards can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
 You can fill customer fields on the sales invoice in two ways depending on whether the customer is already registered. See step 2 in the following procedure.
 
-## To create a sales invoice
+### To create a sales invoice
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
-    Other fields on the **Sales Invoice** page contain standard information about the selected customer.  
-
-    If the customer is not registered, follow these steps:
+   Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:
 
     1. In the **Customer** field, enter the name of the new customer.
     2. In the dialog box about registering the new customer, choose the **Yes** button.
@@ -76,18 +73,16 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
     The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.  
 
     The price and line amounts are with or without sales tax, depending on what you selected in the **Prices Including Tax** field on the customer card.  
-7. If you want to give a discount on the sales line, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
+7. If you want to give a discount, enter a percentage in the **Line Discount %** field. The value in the **Line Amount** field updates accordingly.  
 
-    If special item prices are set up on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
+    If special item prices are set up on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, the price and amount on the sales line automatically update if the price criteria is met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Repeat steps 9 through 12 for every product or charge that you want to invoice the customer for.  
 
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 
     > [!NOTE]
-    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.
-    >
-    > To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
-9. Optionally, in the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts that will actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+9. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).  
 10. When the sales invoice lines are completed, choose the **Post and Send** action.  
@@ -99,6 +94,14 @@ The related item and customer ledger entries are now created in your system, and
 ### Calculating invoice discounts on sales
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
+## Posted invoices
+
+[!INCLUDE [posted-invoices](includes/posted-invoices.md)]
+
+You can easily correct or cancel a posted sales invoice before it is paid. For example, this is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. For more information, see [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md). If the posted sales invoice is paid, then you must create a sales credit memo to reverse the sale. For more information, see [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md).  
+
+[Open the **Posted Sales Invoices** list](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Registering payments
 
@@ -125,7 +128,7 @@ You can even create directly-paid invoices for non-registered customers by first
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
-[Bulk Invoicing from Microsoft Bookings in Business Central ](finance-bookings.md)  
+[Bulk Invoicing from Microsoft Bookings in Business Central](finance-bookings.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

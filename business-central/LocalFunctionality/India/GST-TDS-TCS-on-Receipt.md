@@ -16,8 +16,6 @@
 ---
 # GST TCS on Customer Payments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
-
 GST TCS can be liable on cash or bank payment from customer. The GST TCS entries which are not reversed will be part of settlement. Business user can reverse the GST TCS entries before settlement is posted. The GST TCS entries which have Credit Availed field 'TRUE' will be shown on settlement page. User can manually enter amount in GST TCS Credit Utilized field for utilizing against the liability.
  
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
@@ -119,6 +117,12 @@ For example, INR 1000 received from customer and 2% GST TDS (1% CGST, 1% SGST fo
     |**Customer Account**|-1000|  
     |**IGST TDS Receivable Account**|20|  
     |**Bank Account**|980| 
+
+
+## See Also 
+[GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
+
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

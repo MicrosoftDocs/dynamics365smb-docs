@@ -16,7 +16,6 @@
 ---
 # GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the process of adjusting GST Credit and GST Liability for open reverse charge goods and services invoices.
 
@@ -115,7 +114,8 @@ For example, vendor issued invoice for INR 10000, in an Intra-State or Intra-Uni
 
 
 
-
+## See Also 
+[GST TDS TCS Overview](GST-TDS-TCS-Overview.md)
 
 
 

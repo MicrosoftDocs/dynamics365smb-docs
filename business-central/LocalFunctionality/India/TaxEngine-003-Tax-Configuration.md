@@ -14,7 +14,6 @@
 ---
 # Tax Engine - Configuration of Tax Type and Tax Rates
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic provides information about tax types that a tax authority can levy in the same jurisdiction or a different jurisdiction. Calculation and posting of this type of tax to G/L Accounts.
 
@@ -77,6 +76,8 @@ These Parameters can be of following types:
 |**Component**|Components are used to define distribution of tax calculated. For example, 50% of GST will go to CGST and remaining will be SGST.|
 |**Output Information**|Numeric values that are part of rate setup. (Example – Threshold Amount)|
 
+> [!NOTE]
+> A new field, Allow Blank, has been added to create blank setup for tax attribute. For example, provision has been made to create tax rate for GST without HSN/SAC code, as there are scenarios where rates are common for multiple HSN/SAC code of a single GST Group.
 
 
 ## Tax rates
@@ -84,6 +85,8 @@ Tax rates can be defined for a combination of tax parameters defined as part of 
 
 
 
+## See Also 
+[Tax Engine Configuration of Use Case](TaxEngine-003.1-Tax-Configuration.md)
 
 
 

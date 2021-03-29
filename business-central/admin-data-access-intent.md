@@ -50,7 +50,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
 [Business Functionality](across-business-functionality.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Getting Started](product-get-started.md)    
+[Getting Ready for Doing Business](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

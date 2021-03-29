@@ -1,5 +1,5 @@
 ---
-title: 'Making Tax Digital - Submitting VAT Returns | Microsoft Docs'
+title: 'Making Tax Digital - Submitting VAT Returns'
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
@@ -43,7 +43,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
     > [!Note]
-    > If you use an on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)] you will also need to provide a client ID and client secret. If you are not sure what these are, contact your partner. They can get the information for you on [PartnerSource](https://mbs.microsoft.com/partnersource/global/deployment/downloads/tax-regulatory-updates/365dynamicsbctaxdigitsupinfo).
+    > If you use an on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)], you must also provide [a client ID and client secret](/dynamics/s-e/365business/365dynamicsbctaxdigitsupinfo_173).  
 
 3. To open a GOV.UK website and request an authorization code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**.  
 4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.

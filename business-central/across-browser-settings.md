@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: jswymer
 ---
 # Setting Up and Troubleshooting Your Browser to Work With Business Central Web Client

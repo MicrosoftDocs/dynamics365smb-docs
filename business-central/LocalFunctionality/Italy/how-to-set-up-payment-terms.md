@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 11/17/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 # Set Up Payment Terms in the Italian Version

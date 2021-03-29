@@ -6,7 +6,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: mikebc
 ---
 

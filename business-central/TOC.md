@@ -1121,6 +1121,16 @@
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST Input Cedit Adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST Settlement](LocalFunctionality/India/GST-Settelement.md)
+###### [GST E-Invoice](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST Cess
+###### [GST Cess Basic Setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST Cess Calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST on Service Management
+###### [GST on Serviec Management](LocalFunctionality/India/GST-Service-Management.md)
+##### GST Input Service Distribution
+###### [GST Input Service Distribution Overview](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [GST Input Service Distribution Process](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [GST Input Service Distribution Transaction](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS Overview](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS Transactions](LocalFunctionality/India/TDS-Transactions.md)
@@ -1138,9 +1148,23 @@
 ##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher Interface
 ##### [Voucher Interface Overview](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Voucher Interface Transaction](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Fixed Asset
+##### [Fixed Asset Overview](LocalFunctionality/India/FA_Overview.md)
+##### [Fixed Asset Depreciation](LocalFunctionality/India/FA_Depreciation.md)
+#### Gate Entry
+##### [Gate Entry Overview](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Gate Entry Inward Transaction](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Gate Entry Outward Transaction](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Subcontracting
+##### [Subcontracting Overview](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Create GST Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)

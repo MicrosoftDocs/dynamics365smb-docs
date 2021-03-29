@@ -16,7 +16,6 @@
 ---
 # GST on Bank Charges Transaction
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 As per Rule 54(2) of CGST Rules, 2017, Banks shall issue a tax invoice or any other document in lieu of tax invoice. In case if an invoice is not provided by the bank, then the bank statement shall be deemed to be an invoice. Such document shall be construed as Tax invoice even if it is not serially numbered and whether or not it contains the address of recipient of taxable service.
 
@@ -180,7 +179,8 @@ Let us take the following example and check the GL entries of the posted transac
 
 
 
-
+## See Also 
+[GST Bank Charges Overview](GST-Bank-Charges-Overview.md)
 
 
 

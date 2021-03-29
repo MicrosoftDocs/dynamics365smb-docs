@@ -16,7 +16,6 @@
 ---
 # Purchase Credit Memo or Return Order to Foreign Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor are subject to reverse charge i.e. the person importing goods or services is required to remit tax to the Government.
 
@@ -74,7 +73,8 @@ For example, purchase credit memo or return order is issued for INR 10000, Custo
 
 
 
-
+## See Also 
+[Purchase Return to Vendor with Overseas Place of Supply](GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
 
 
 

@@ -10,13 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 03/22/2021
     ms.author: v-debapd
 
 ---
 # Setting Up Tax Deducted at Source (TDS), as per the Provisions of the Income Tax Act, 1961
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 Business Central has included Tax Deducted at Source (TDS) Feature to Indian Localization.
 
@@ -26,14 +26,14 @@ Income from several sources is subjected to TDS. Presently this concept of TDS i
 
 The Income Tax Act, 1961 specifies that tax deduction is to be made, for the specified incomes, on credit or on payment, whichever is earlier.
 
-## Setting Up TDS
+## Setting up TDS
 
 ### TDS has two different types of setups
 
 - Automatic - These setup are done through Tax Engine.
 - Manual - These setups are done manually by the business users.
 
-#### Following is the list of Setups which will be pre-configured with help of **Tax Engine**
+#### Following is the list of setups which will be pre-configured with help of **Tax Engine**
 
 - Tax Types
 - Tax Entities
@@ -154,6 +154,11 @@ TDS Section represents the various sections under which tax deduction takes plac
     |**Description**|Enter the description of the mentioned TDS Section.|
     |**e-TDS**|Specifies the section code to be used in the TDS return.|
 
+> [!TIP]
+>
+> User can create any number of sub-sections for a section using **Add Sub Section** function.
+
+
 ## To set up concessional codes
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government.
@@ -268,6 +273,9 @@ TDS Section and concessional codes need to be defined for each vendor that is li
 
 **State Code for eTDS/TCS** needs to be defined on States master.
 
+
+## See Also 
+[TDS Transactions](TDS-Transactions.md)
 
 
 

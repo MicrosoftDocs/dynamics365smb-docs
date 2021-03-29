@@ -16,7 +16,6 @@
 ---
 # TCS with Threshold
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement of threshold amount in TCS and  the process of calculating TCS for such transactions.
 
@@ -49,7 +48,8 @@ If a payment under TCS Type A is below Threshold INR 20,000, no tax will be coll
 
 
 
-
+## See Also 
+[TCS Adjustment Entry](TCS-Adjustment-Entries.md)
 
 
 

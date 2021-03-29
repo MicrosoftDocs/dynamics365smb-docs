@@ -1,22 +1,22 @@
 ---
 title: Searching for Contacts from Microsoft Teams 
-description: Learn how to look up contacts in Business Central from Microsoft Teams.
+description: Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 03/22/2021
 ms.author: jswymer
 ---
 
-# Searching for Contacts from Microsoft Teams
+# Searching for Customers, Vendors, and Other Contacts from Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduced in 2021 release wave 1.
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to look up, call, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. From within Teams, you can:
+[!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to look up, meet, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. From within Teams, you can:
 
 - Look up [!INCLUDE [prod_short](includes/prod_short.md)] contacts from the Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
 - Share a contact as card in a Teams conversation.
@@ -68,9 +68,13 @@ The advantage of using the message compose box is that you can add a contact car
 
     The contact card appears in the message compose box.
 
-## Viewing contact details
+## Viewing contact card details
 
-Contact card in Teams works just like cards for records, like items, customers, or sales orders. You can view more information or even modify a contact by selecting **Details** or **Pop-out** on the card. For more information, see [View card details](across-working-with-teams.md#view-card-details).
+The contact card in Teams gives you a quick overview of the customer, vendor, or contact. The card is interactive&mdash;meaning you can view more information or even modify a contact by using the **Details** or **Pop-out** buttons.
+
+The **Details** button opens a window within Teams that displays more information about the contact, but not as much as you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. To see all the information about a contact in the [!INCLUDE [prod_short](includes/prod_short.md)].
+
+The contact card works just like cards for records, like items, customers, or sales orders. For more information about cards, see [View card details](across-working-with-teams.md#view-card-details).
 
 > [!NOTE]
 > All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).

@@ -19,7 +19,7 @@ ms.author: jswymer
 [!INCLUDE [prod_short](includes/prod_short.md)] has a comprehensive business contact management system that is essential for users in sales, operations, or other departmental roles. If you're a user in one of these roles, you'll often need to look up, meet, or start a conversation with your vendors, customers, and other contacts. With the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, you can do these tasks directly from Teams, without having to switch to [!INCLUDE [prod_short](includes/prod_short.md)]. From within Teams, you can:
 
 - Look up [!INCLUDE [prod_short](includes/prod_short.md)] contacts from the Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
-- Share a contact as card in a Teams conversation.
+- Share a contact as a card in a Teams conversation.
 - View details about contact information, interaction history, and other insights like outstanding payments or open documents.
 
 ## Prerequisites
@@ -35,6 +35,9 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
     ![Open Business Central app  to search for contacts from command box](media/teams-contacts-command-1.png)
 
+    > [!NOTE]
+    > You may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
+
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, results will appear.
@@ -44,10 +47,10 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
     The contact card appears beneath the command box.
 
-> [!TIP]
-> If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste the copy in the message compose box of a conversation.  
+4. If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste the copy in the message compose box of a conversation.  
 
-For more information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+For more general information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+
 
 ## Look up contacts from the message compose box
 
@@ -59,6 +62,9 @@ The advantage of using the message compose box is that you can add a contact car
 
     ![Open Business Central app to search for contacts from message box](media/teams-contacts-message-box.png)
 
+    > [!NOTE]
+    > You may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
+
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, results will appear.
@@ -67,6 +73,8 @@ The advantage of using the message compose box is that you can add a contact car
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.
+
+    The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
 ## Viewing contact card details
 

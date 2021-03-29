@@ -97,7 +97,7 @@
 
 <!--setup-->
 ## Setting Up Business Central
-### [Setting Up Business Central](setup.md)
+### [Overview of Tasks](setup.md)
 ### Setting Up Finance
 #### [Setting Up Finance](finance-setup-finance.md)
 #### [Set Up Payment Methods](finance-payment-methods.md)

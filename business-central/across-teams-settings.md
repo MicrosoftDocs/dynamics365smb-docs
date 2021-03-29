@@ -1,5 +1,5 @@
 ---
-title: Changing Sign-In and Other Settings in Teams 
+title: Changing Company and Other Settings in Teams 
 description: Learn about how to change Business Central connection settings from Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -12,11 +12,11 @@ ms.date: 03/22/2021
 ms.author: jswymer
 ---
 
-# Changing Sign-In and Other Settings in Teams
+# Changing Company and Other Settings in Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams includes **Settings** page that lets you view and change information about your connection to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you switch the [!INCLUDE [prod_short](includes/prod_short.md)] environment and company you're connected. Or, sign out of [!INCLUDE [prod_short](includes/prod_short.md)] and sign in again using another account.
+The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams includes **Settings** page that lets you view and change information about your connection to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, you switch the [!INCLUDE [prod_short](includes/prod_short.md)] environment and company you're connected. <!-- Or, sign out of [!INCLUDE [prod_short](includes/prod_short.md)] and sign in again using another account.-->
 
 There are two ways to open the **Settings** page: 1) from the message compose box or 2) from the command box.
 

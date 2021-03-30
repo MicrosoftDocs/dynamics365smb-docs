@@ -25,7 +25,7 @@ You can also set the system up to automatically post (*flush*) components when y
 
     You can use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you have reported) or on the expected output (the quantity of finished goods that you expect to produce).
 > [!NOTE]
-> If you configured location card to require warehouse pick processing, then only quantities that are already picked through a warehouse activity, can be entered in the Quantity field in the Consumption Journal window, not any calculated quantity. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing)
+> If you configured location card to require warehouse pick processing, then only quantities that are already picked through a warehouse activity, can be entered in the Quantity field in the Consumption Journal window, not any calculated quantity. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3.  Choose the **Post** action to post the consumption. The related inventories are reduced.
 

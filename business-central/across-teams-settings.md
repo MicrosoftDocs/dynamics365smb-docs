@@ -24,8 +24,7 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
     ![Settings for Business Central from command box](media/teams-settings-message-box.png)
 
-    
-2. From the command box at the top, search for @Business Central, select **... (More options)**, then select **Settings**.
+2. From the command box at the top, search for **@Business Central**, select **... (More options)**, then select **Settings**.
 
    ![Settings for Business Central from message box](media/teams-settings-command-box.png)
 

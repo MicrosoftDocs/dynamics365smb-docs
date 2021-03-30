@@ -39,9 +39,6 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
     ![Open Business Central app  to search for contacts from command box](media/teams-contacts-command-1.png)
 
-    > [!NOTE]
-    > You may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
-
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.

@@ -83,7 +83,7 @@ The advantage of using the message compose box is that you can add a contact car
 
 The contact card in Teams gives you a quick overview of the customer, vendor, or contact. The card is interactive&mdash;meaning you can view more information or even modify a contact by using the **Details** or **Pop-out** buttons.
 
-The **Details** button opens a window within Teams that displays more information about the contact, but not as much as you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. To see all the information about a contact in the [!INCLUDE [prod_short](includes/prod_short.md)].
+The **Details** button opens a window within Teams that displays more information about the contact, but not as much as you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. To see all the information about a contact in [!INCLUDE [prod_short](includes/prod_short.md)], select **Pop-out**.
 
 The contact card works just like cards for records, like items, customers, or sales orders. For more information about cards, see [View card details](across-working-with-teams.md#view-card-details).
 

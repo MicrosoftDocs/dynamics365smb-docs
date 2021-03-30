@@ -18,7 +18,7 @@ How you put away your pick components for production or assembly orders depends 
 
 
 ## Pick for Production in Basic Warehouse Configurations
-Flushishing method also affects the flow of components in production. For more information, see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output).
+Flushishing method also affects the flow of components in production. For more information, see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
 
 In advanced warehouse configurations where locations require both picks and shipments, you must use the **Warehouse Pick** page to bring components with flushing method set to *Manual*, *Pick + Forward*, *Pick + Backward* to production orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 

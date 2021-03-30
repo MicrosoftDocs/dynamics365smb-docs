@@ -42,7 +42,7 @@ This option is the quickest way to install the app.
 
     ![Install Business Central app in Teams](media/teams-install-app.png)
 
-3. Select **Add for me**.
+3. Select **Add**.
 
 **Option 2**
 
@@ -51,6 +51,9 @@ This option is the quickest way to install the app.
 3. Search for **Business Central**.
 4. Select the app when you find it.
 5. Select **Add**.
+
+> [!NOTE]
+> With either option, You may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)]. Select the **sign in** link, and follow the instructions to enter sign-in name and password for [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Next step
 

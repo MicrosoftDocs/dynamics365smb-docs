@@ -26,10 +26,14 @@ ms.author: jswymer
 
 - You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- [!INCLUDE [prod_short](includes/prod_short.md)] account with access to contacts in at least one company.
+
+> [!NOTE]
+> Whether you searching from the command box or message compaose box, you may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
 
 ## Look up contacts from the command box
 
-The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app.
+The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app. Searching from the command box is great for quickly looking up contacts and their related data for your own use. For example, suppose you may want to look up an email address of a vendor to set up a calendar meeting. Or maybe you want to look up interaction history during a meeting with a customer.
 
 1. In the command box, type **@Business Central**, then select the Business Central app from the results.
 
@@ -40,7 +44,7 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
-    As you type, results will appear.
+    As you type, matching results will appear.
 
     ![Search Business Central contacts from command box in Teams](media/teams-contacts-command-2.png)
 3. Select a contact from the results.
@@ -51,10 +55,9 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 For more general information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-
 ## Look up contacts from the message compose box
 
-The advantage of using the message compose box is that you can add a contact card directly to a conversation.
+The advantage of using the message compose box is that you can add a contact card directly to a conversation, for others to see.
 
 1. Beneath to message compose box, select the **Business Central** icon to launch the app.
 
@@ -62,12 +65,9 @@ The advantage of using the message compose box is that you can add a contact car
 
     ![Open Business Central app to search for contacts from message box](media/teams-contacts-message-box.png)
 
-    > [!NOTE]
-    > You may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).
-
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
-    As you type, results will appear.
+    As you type, matching results will appear.
 
     ![Search for Business Central contacts from message box](media/teams-contacts-5.png)
 3. Select a contact from the results.
@@ -75,6 +75,12 @@ The advantage of using the message compose box is that you can add a contact car
     The contact card appears in the message compose box.
 
     The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
+
+### Here's another way
+
+1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
+2. Enter your search terms in the box.
+3. Use the arrow up and down arrow keys on the keyboard to choose a contact, then press Enter to select it.
 
 ## Viewing contact card details
 

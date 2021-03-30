@@ -37,8 +37,7 @@ The system filters VAT entries by the **VAT Date** field (instead of **Posting D
 ## See Also
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
-[VAT control report](how-to-create-vat-control-report.md)  
-[VAT statement](vat-statement.md)
+[VAT Control Report](vat-control-report.md)[VAT statement](vat-statement.md)
 [Finance](../../finance.md)
 [Czech Local Functionality](czech-local-functionality.md)
 

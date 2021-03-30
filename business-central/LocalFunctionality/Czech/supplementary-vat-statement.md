@@ -21,8 +21,7 @@ In the Calculate and Post VAT Settlement functionality, the posted document numb
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech local functionality](czech-local-functionality.md)  
-[VAT control report](how-to-create-vat-control-report.md)  
-[VAT date](how-to-setup-vat-date.md)  
+[VAT Control Report](vat-control-report.md)[VAT date](how-to-setup-vat-date.md)  
 [VAT statement](vat-statement.md)  
 [Finance](../../finance.md)  
 

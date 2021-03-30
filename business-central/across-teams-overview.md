@@ -28,11 +28,11 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contact. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
- ![Teams contacts with Business Central(media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Teams contacts with Business Central](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- ![Teams contacts with Business Central](media/teams-contacts.png)
+ [![Teams contacts with Business Central](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 

@@ -71,7 +71,8 @@ The advantage of using the message compose box is that you can add a contact car
 
     The contact card appears in the message compose box.
 
-    The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
+    > [!NOTE]
+    > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
 ### Here's another way
 

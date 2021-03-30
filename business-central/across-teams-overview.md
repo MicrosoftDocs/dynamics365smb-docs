@@ -24,9 +24,11 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the following features.
 
-### Search for and share customers, vendors, or other contacts
+### Look up details of customers, vendors, and other contacts
 
-Look up contacts in [!INCLUDE [prod_short](includes/prod_short.md)] directly from Teams, and share the details in a conversation. From there, participants have access to even more details about the contact.   
+No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contact. This feature not only lets you view general information about contacts, but also access gives to interaction history, related documents, and more.
+
+You can also share contact details the details in a conversation. From there, participants have access to even more details about the contact as well.
 
  ![Teams contacts with Business Central](media/teams-contacts.png)
 

@@ -22,11 +22,11 @@ Flushishing method also affects the flow of components in production. For more i
 
 In advanced warehouse configurations where locations require both picks and shipments, you must use the **Warehouse Pick** page to bring components with flushing method set to *Manual*, *Pick + Forward*, *Pick + Backward* to production orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
-In basic warehouse configurations where the location requires pick processing but not shipment processing, you can also use the **Inventory Pick** page to organize and record the picking of components with flushing method set to *Manual*. When you register an inventory pick for an internal operation, such as production, the consumption of the picked components is posted at the same time. Alternatevely you can use **Inventory Movement** with reference to a source document to bring components with flushing method set to *Manual*, *Pick + Forward*, *Pick + Backward* to production orders.
+In basic warehouse configurations where the location requires pick processing but not shipment processing, you can also use the **Inventory Pick** page to organize and record the picking of components with flushing method set to *Manual*. When you register an inventory pick for an internal operation, such as production, the consumption of the picked components is posted at the same time. Alternatively you can use **Inventory Movement** with reference to a source document to bring components with flushing method set to *Manual*, *Pick + Forward*, *Pick + Backward* to production orders.
 
 When production operations are integrated with warehouse processes, either by bins or by directed put-aways and picks, the bin from which the components are consumed is the bin that is defined on each production order component line. All required components must be available in that bin. Otherwise, the manual or flushed consumption posting is stopped for that component.
 
-**Inventory Movement** with references to the source document and **Warehouse pick** can not be used to pick components with flushimg methods *Forward* and *Backward*. **Inventory Pick** can not be used to pick components with any flushing method but *Manual*. To handle remaining components use **Inventory Movement** without reference to a source document. For more information, see [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+**Inventory Movement** with references to the source document and **Warehouse pick** cannot be used to pick components with flushing methods *Forward* and *Backward*. **Inventory Pick** cannot be used to pick components with any flushing method but *Manual*. To handle remaining components, use **Inventory Movement** without reference to a source document. For more information, see [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 > [!NOTE]  
 >  The following important differences exist between inventory picks, inventory movements, and wareshouse picks:  
@@ -46,7 +46,7 @@ In basic warehouse configurations where the location is set up to use picking on
 
 You can also create an **Inventory Pick** directly from the released production order. Choose the **Create Inventory Put-away/Pick/Movement** action, select the **Create Invt. Pick** check box, and then choose the **OK** button.
 
-Alternatively, you can use the **Inventory Movement** with reference to the source document to move items between bins. Note that you will need to register consumption sepately. For more information, see [Batch Post Production Consumption](production-how-to-post-consumption.md)
+Alternatively, you can use the **Inventory Movement** with reference to the source document to move items between bins. You will need to register consumption separately. For more information, see [Batch Post Production Consumption](production-how-to-post-consumption.md)
 
 ## Pick for Assembly in Basic Warehouse Configurations
 In advanced warehouse configurations where locations require both picks and shipments, you must use the **Warehouse Pick** page to bring components to assembly orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).

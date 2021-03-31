@@ -241,13 +241,17 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Using Outlook with Business Central
+#### Set Up Your Business Inbox in Outlook 
 ##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Using Business Central Without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Setting Up Connections
+#### Using Business Central as Your Business Inbox in Outlook 
+##### [Overview](admin-outlook.md)
+##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Using Business Central Without Outlook](admin-no-outlook.md)
 #### Using Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
 ##### [Managing Teams Integration](admin-teams-integration.md)
@@ -292,7 +296,6 @@
 
 ## Help and Support
 ### [Resources for Help and Support](product-help-and-support.md)
-### [Help System](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Visit Our Video Library](across-videos.md)
 ### [Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn

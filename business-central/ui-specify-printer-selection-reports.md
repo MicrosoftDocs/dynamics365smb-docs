@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Set Up Printers
 
-Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. Users will typically want to send print jobs directly to one of your organization's printers&mdash;no matter which [!INCLUDE[prod_short](includes/prod_short.md)] client or app their using. Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't directly reach local printers connected to users' devices, but it can connect to cloud-enabled printers.
+Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. Users will typically want to send print jobs directly to one of your organization's printers&mdash;no matter which [!INCLUDE[prod_short](includes/prod_short.md)] client or app they're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but it can connect to cloud-enabled printers.
 
 To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offers the following features:
 
@@ -108,7 +108,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
 
-1. Share the printers.
+6. Share the printers.
 
     Any printer that you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will have to be shared in Universal Print.
 

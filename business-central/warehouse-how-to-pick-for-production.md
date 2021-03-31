@@ -29,7 +29,7 @@ When production operations are integrated with warehouse processes, either by bi
 **Inventory Movement** with references to the source document and **Warehouse pick** cannot be used to pick components with flushing methods *Forward* and *Backward*. **Inventory Pick** cannot be used to pick components with any flushing method but *Manual*. To handle remaining components, use **Inventory Movement** without reference to a source document. For more information, see [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 > [!NOTE]  
->  The following important differences exist between inventory picks, inventory movements, and wareshouse picks:  
+>  The following important differences exist between inventory picks, inventory movements, and warehouse picks:  
 >   
 >  -   When you register an inventory pick for an internal operation, such as production, the consumption of the picked components is posted at the same time. When you register an inventory movement or warehouse pick for an internal operation, you only record the physical movement of the required components to a bin in the operation area without posting the consumption.  
 > -   When you use inventory picks, the **Bin Code** field on a production order component line defines the *take* bin from where components are decreased when posting consumption. When you use inventory movements or warehouse pick, the **Bin Code** field on production order component lines defines the *place* bin in the operation area where the warehouse worker must place the components.  
@@ -53,7 +53,7 @@ In advanced warehouse configurations where locations require both picks and ship
 
 In basic warehouse configurations, you can also pick for assembly orders with the **Inventory Movement** page. 
 
-In basic warehouse configurations where the location requires pick processing but not shipment processing, the **Inventory Pick** page is also used to pick, assemble, and ship for sales order where items must be assembled before they can be shipped. For more information, see [Handling Assemble-to-Order Item with Inventory Picks](#handling-assemble-to-order-items-with-inventory-picks).  
+In basic warehouse configurations where the location requires pick processing but not shipment processing, the **Inventory Pick** page is also used to pick, assemble, and ship for sales order where items must be assembled before they can be shipped. For more information, see [Handling Assemble-to-Order Item with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## Handling Assemble-to-Order Items with Inventory Picks
 The **Inventory Pick** page is also used to pick and ship for sales where items must be assembled before they can be shipped. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).

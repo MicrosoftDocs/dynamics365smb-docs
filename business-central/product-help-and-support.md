@@ -18,7 +18,7 @@ This page outlines the resources available to you in the different sections of t
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Finding Answers
+## Find Answers
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
 
@@ -45,7 +45,7 @@ We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.mic
 
 ### Capabilities Coming Soon
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in the release plan across Dynamics 365 at [https://aka.ms/businessappsreleasenotes](/dynamics365/release-plans/).  
+[!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every 6 months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in [the release plans across Dynamics 365](/dynamics365/release-plans/).  
 
 For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
 
@@ -142,6 +142,7 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality t
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [How do I find a reselling partner?](across-faq.md#findpartner)  
+[Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  

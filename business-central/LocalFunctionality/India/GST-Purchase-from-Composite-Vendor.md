@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A composite vendor is a vendor whose aggregate turnover in a financial year does not exceed fifty lakh rupees and has opted for composition scheme. A composite vendor neither collects tax from the recipient of supplies nor passes on any credit of input tax. Hence, no GST is computed if the purchases are made from a composite vendor. 
 
@@ -46,7 +45,8 @@ For example, invoice will be issued for INR 10000 on which there is no GST is ch
 
 
 
-
+## See Also 
+[Purchase from Registered Vendor](GST-Purchase-from-Registered-Vendor.md)
 
 
 

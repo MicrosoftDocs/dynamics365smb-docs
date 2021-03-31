@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Purchase of Services for Overseas Place of Supply from Registered Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce.
 
@@ -58,7 +57,8 @@ For example, the service recipient has a GSTIN in West Bengal and the Vendor als
 
 
 
-
+## See Also 
+[GST and TDS on Purchase Transaction](GST-TDS-and-GST-on-Purchase.md)
 
 
 

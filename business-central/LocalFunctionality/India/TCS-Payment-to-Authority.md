@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Payment of TCS to Government Authorities
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 The TCS that have been collected from various transactions, need to be deposited to the government. Payment of TCS will be handled through Payment Journal/Bank Payment Voucher. Provision to select the TCS Entries which assessee needs to pay to the government authorities depends on the basis of filters, for example, T.C.A.N, Assesses, Date etc.
 
@@ -49,7 +48,8 @@ The TCS that have been collected from various transactions, need to be deposited
 
 
 
-
+## See Also 
+[TCS Overview](TCS-Overview.md)
 
 
 

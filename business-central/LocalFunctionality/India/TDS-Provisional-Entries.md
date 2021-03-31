@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 
 # TDS on Provisional Entries
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 As per TDS rules, tax (TDS) has to be deducted at source, when amount is paid or credited to the account of the payee whichever is earlier. When the amount is credited to suspense account or any provisional account, then it is treated as amount is credited to the account of the payee and tax has to be deducted at source. Hence, Tax has to be deducted at source even on provisions made in the books of accounts to which TDS provisions are applicable.
 
@@ -97,7 +97,8 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 
 
-
+## See Also 
+[TDS Adjustment Entry](TDS-Adjustment-Entries.md)
 
 
 

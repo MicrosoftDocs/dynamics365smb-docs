@@ -3,10 +3,10 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
 ---
-When all the items have been entered on the sales lines, you can calculate the invoice discount for the entire document by choosing the **Calculate Invoice Discount** action.
+When all the items have been entered as lines, you can calculate the invoice discount for the entire sales document by choosing the **Calculate Invoice Discount** action.
 
 The discount is calculated based on all the lines in the sales document for items where the **Allow Invoice Disc.** field on the sales order line contains **Yes**. This is the default setting for items. Lines with item charges, for example, are not included in the calculation of the invoice discount. If you want to apply a discount to such lines, you must set the **Line Discount %** field on the relevant lines.  
 

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 
@@ -76,7 +76,7 @@ For more information, see the [Power Automate Documentation](/power-automate/get
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Workflow](across-workflow.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  

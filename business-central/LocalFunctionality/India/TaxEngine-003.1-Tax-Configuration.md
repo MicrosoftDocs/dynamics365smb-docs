@@ -9,12 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 ---
 # Tax Engine - Use Case Configuration
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic provides information about use case configuration.
 
@@ -96,7 +95,8 @@ Statistics Page, will show the tax information in Tax Summary Tab.
 
 
 
-
+## See Also 
+[Tax Engine Lookup](TaxEngine-004-Lookup.md)
 
 
 

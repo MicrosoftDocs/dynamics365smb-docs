@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST Input Tax Credit Adjustments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement and process of GST credit adjustment.
 
@@ -132,7 +131,8 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 
 
-
+## See Also 
+[GST Settlement](GST-Settelement.md)
 
 
 

@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST TCS on Vendor Payment
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST TCS can be applicable for Registered Vendor. On posting of GST TCS transaction against Vendor, system updates 'Liable to Pay' field in GST TDS/TCS Entry table as 'TRUE'. The GST TCS entries that have 'Liable to Pay' field 'TRUE' will be shown on settlement page. The GST TCS Liability can only be paid through Cash or Bank. It cannot be set off against any available credit.
 
@@ -68,6 +67,9 @@ For example, INR 1000 paid to the vendor and 1% GST TCS (0.50% CGST, 0.50% SGST 
     |**IGST TCS Payable Account**|-10|  
     |**Bank Account**|-990| 
 
+
+## See Also 
+[GST TDS TCS on Receipt](GST-TDS-TCS-on-Receipt.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

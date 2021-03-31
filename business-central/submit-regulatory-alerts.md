@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
@@ -72,7 +72,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 [Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Welcome to Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

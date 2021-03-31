@@ -3,7 +3,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.  

@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 
 ---
 # TDS Certificate Tracking
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains how to track and update the TDS certificate receivable or received from a customer.
 
@@ -48,5 +48,17 @@ This topic explains how to track and update the TDS certificate receivable or re
    2. Select relevant customer code in **Customer No.** field then Acton -> Function -> Rectify TDS Cert. Details, system will open the customer ledger entry for which TDS certificate details are updated. 
    3. Select and update the relevant documents by marking 'TDS Certificate Receivable' field false. Marked document will be removed from the 'Rectify TDS Cert. Details' page and will be added in 'Update TDS Cert. Details' page.
    4. System will remove the details related to TDS certificate from Customer Ledger Entry.
+
+
+
+
+
+## See Also 
+[TDS for Customer Overview](TDS-for-Customer-Overview.md)
+
+
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

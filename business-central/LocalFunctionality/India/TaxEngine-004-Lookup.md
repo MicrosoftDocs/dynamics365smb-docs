@@ -10,18 +10,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
     
 
 ---
 # Tax Engine - Lookup
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Lookup is a utility to fetch value from the system or from a variable.
 
-## Source Type
+## Source type
 
 Source type is to specify the source of value.
 
@@ -100,7 +99,8 @@ To get the helpers that can be used in posting of a document. (Ex- Dimension Set
 
 
 
-
+## See Also 
+[Tax Engine Script](TaxEngine-005-Script-Activities.md)
 
 
 

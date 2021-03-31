@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -61,14 +61,14 @@ Here's a short video about how to get around in [!INCLUDE[prod_short](includes/p
 
 - Where possible, avoid older browsers such as Internet Explorer, and switch to one of our recommended modern browsers, such as the [new Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer is still supported, but since the new Edge browser is available for Windows Server now, we see a declining rate of usage for Internet Explorer. You can also get [a pilot of Edge in IE mode](https://www.microsoft.com/edge/business). For more information, see [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer is no longer supported. For more information, see [Microsoft Edge documentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Keep your browser always updated to the latest version.
 
 ## See Related Training at [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up Business Central](setup.md)  
 [General Business Functionality](ui-across-business-areas.md)  
 [Performance Tips for Business Users](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

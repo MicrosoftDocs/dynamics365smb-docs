@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -17,12 +17,7 @@ ms.author: bholtorf
 # Data Ownership Models
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Entity ownership](/powerapps/maker/common-data-service/types-of-tables#table-ownership) in the Power Apps documentation. When you set up integration between [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] you must choose one of two ownership models for records that are synchronized:
-
-* Team 
-* Person (user)
-
-Actions that can be performed on these records can be controlled on a user level. For more information, see [User and team tables](/powerapps/developer/common-data-service/user-team-tables). We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Types of tables](/powerapps/maker/data-platform/types-of-entities) in the Power Apps documentation. When you set up integration between [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] you must choose the **User or team** ownership for records that are synchronized. Actions that can be performed on these records can be controlled on a user level. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## Team Ownership
 In [!INCLUDE[prod_short](includes/prod_short.md)], a company is a legal and business table that offers ways to secure and visualize business data. Users always work in the context of a company. The closest that [!INCLUDE[prod_short](includes/cds_long_md.md)] comes to this concept is the business unit table, which does not have legal or business implications.

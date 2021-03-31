@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -70,7 +70,7 @@ The add-ins are designed to be used with Microsoft 365. If you use [!INCLUDE[pro
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Finance](finance.md)  

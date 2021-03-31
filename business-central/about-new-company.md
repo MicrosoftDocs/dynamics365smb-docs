@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -73,7 +73,7 @@ Once a company has been created, you can't change it's name. But you can change 
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

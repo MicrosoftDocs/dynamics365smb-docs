@@ -6,7 +6,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: mikebc
 ---
 
@@ -54,7 +54,7 @@ At Microsoft, we're constantly listening to feedback from our diverse community 
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Finding Pages with the Role Explorer](ui-role-explorer.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

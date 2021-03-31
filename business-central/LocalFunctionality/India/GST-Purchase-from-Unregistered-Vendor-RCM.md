@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Purchase of Goods from an Unregistered Vendor (Reverse Charge)
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Persons whose aggregate turnover in a financial year does not exceed forty lakh rupees are not required to be registered with the GST authorities. Such persons are called unregistered vendors. Any purchases from unregistered vendors do not attract GST. However, there are some notified services under GST, on supply of such services GST is applicable under reverse charge mechanism i.e. the purchasers are required to pay GST tax to the Government.
 
@@ -113,7 +112,8 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
-
+## See Also 
+[Purchase from SEZ Vendor](GST-Purchase-from-SEZ-Vendor.md)
 
 
 

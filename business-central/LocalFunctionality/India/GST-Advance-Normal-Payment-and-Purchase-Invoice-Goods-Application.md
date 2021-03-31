@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST on Advance Payment or Normal Payment Application with Purchase Invoice
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 An advance payment made to vendor for a transaction that is subject to reverse charge is to be reported in GSTR-2. 
 
@@ -113,7 +112,7 @@ If this is found that the payment and invoice was wrongly applied and the applic
     |**CGST Payable (Interim) Account**|-900| 
     |**SGST/UTGST Payable (Interim) Account**|-900|
 
-## Normal Payment to vendor and application with purchase invoice
+## Normal payment to vendor and application with purchase invoice
 
 For unregistered, import vendor and reverse charge purchase of service from registered vendor, user has to post a separate invoice for goods and services in the system. No GST calculation is done at the time of application.
 In ordinary course, when a normal payment is applied to the invoice, system proportionately posts the liability from Payable Interim Account to Payable Account and credit (if applicable) from Receivable Interim Account to Receivable Account. 
@@ -170,6 +169,8 @@ If this is found that the payment and invoice was wrongly applied and the applic
 
 
 
+## See Also 
+[GST on Advance Receipt from Customer](GST-GST-on-Advance-Payment-received-from-Customer.md)
 
 
 

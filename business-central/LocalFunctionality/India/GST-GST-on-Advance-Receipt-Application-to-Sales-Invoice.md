@@ -10,14 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 
 # GST on Advance Payment and Application with Sales Invoice
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST can also be liable at the time of receiving advance payment from customer. If advance payment is applied to an invoice in the same month, then such applications need not be disclosed in GSTR-1. However, if advance payment is paid in a month and is applied to invoice in the subsequent month, then this application needs to be reported in GSTR-1.
 
@@ -77,6 +76,7 @@ If this is found that the payment and invoice was wrongly applied  and the appli
 > [!TIP]
 > In case of Inter-State Sale, IGST will be calculated.
 
-
+## See Also 
+[GST and TCS on Customer Advance](GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

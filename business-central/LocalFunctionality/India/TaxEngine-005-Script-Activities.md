@@ -9,13 +9,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Tax Engine - Script Activity
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Script extension contains UI elements and tables which are used in scripting of Business logics within a use case.
 
@@ -185,5 +184,15 @@ Script extension contains UI elements and tables which are used in scripting of 
   |--------------------|-----------------------|
   |Message|Message that is to be displayed.
   |Throw Error|Check this flag to throw error message.
+
+
+
+## See Also 
+[Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md)
+
+
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,12 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 ---
 # Purchase Return to Registered Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A registered vendor is a person who is registered with GST authorities. 
 For purchases from registered vendors for services attracting reverse charge, purchasers themselves has to pay tax to the government.
@@ -89,7 +88,8 @@ For example, purchase credit memo or return order is issued for INR 10000 on whi
 
 
 
-
+## See Also 
+[Purchase Return to Unregistered Vendor (Reverse Charge)](GST-Purchase-Return-to-Unregistered-Vendor-RCM.md)
 
 
 

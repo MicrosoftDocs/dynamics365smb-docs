@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

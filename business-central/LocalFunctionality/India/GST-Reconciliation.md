@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST Reconciliation
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the setups and process of GST reconciliation.
 
@@ -82,6 +81,8 @@ This topic explains the setups and process of GST reconciliation.
 - GST Reconciliation Lines shown in the selected month are having purchase transaction (Invoice & Credit Memo) till the End Date for selected month.
 - Once the GST Reconciliation lines are posted, system will not generate any accounting entries. 'Reconciled', 'Reconciliation Month' and 'Reconciliation Year' will be updated in Detailed GST Ledger Entries. GST Reconciliation lines with status 'Reconciled' will not be considered again for reconciliation.
 
+## See Also 
+[GST E-Way Bill](GST-E-Way-Bill.md)
 
 
 

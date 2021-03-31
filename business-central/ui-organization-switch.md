@@ -6,7 +6,7 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 03/04/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---

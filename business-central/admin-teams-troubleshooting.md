@@ -18,6 +18,26 @@ ms.author: jswymer
 
 This article provides information on how to identify and fix problems you may experience when using Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)], as a typical user or administrator.
 
+## The sign-in link does not work
+
+If you try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams immediately after installing the app, and the sign-in link does not react, this may be because the app has not fully completed installation. Try to sign out and sign in again to your Teams client to resolve the issue.
+
+## The Settings page is empty
+
+You must first sign in to reach your settings. To sign into the app, either paste a link to a [!INCLUDE [prod_short.md](includes/prod_short.md)] record, or try to search for contacts. Both of these actions will lead you through a sign-up experience, after which you can use the **Settings** page.
+
+## I changed company but it didn't work
+
+When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.
+
+## "Something went wrong" error when searching for contacts
+
+You may experience this error when searching for contacts in a company that hasn't been initialized or is in an unresponsive state. For example, you can't search in a new trial company that hasn't yet accepted the terms of use. To resolve this issue, try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client, and act on or dismiss any initial dialogs that appear.
+
+## "The contacts API was not found" error when searching for contacts
+
+If you’re experiencing this problem, it may be because of customizations or industry solutions that affect, modify, or don't provide a contact API in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the problem continues, contact your administrator or supporting partner.
+
 ## None of my links expand into a card 
 
 If you're experiencing this problem, here are a few things to try:
@@ -31,7 +51,7 @@ If you're experiencing this problem, here are a few things to try:
 
 2. Next, check that you've signed in with the correct identity.
 
-    In Teams, go to any chat, and under the message compose box, choose the [!INCLUDE [prod_short](includes/prod_short.md)] icon. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 
@@ -43,9 +63,8 @@ If you're experiencing this problem, here are a few things to try:
 
 A link won't expand into a card in the following situations:
 
-- The link targets a page of a type that doesn't represent a record. For example, it could be a link to [!INCLUDE [prod_short](includes/prod_short.md)]’s Role Center. You can check the page type using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
 - The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
-- Teams doesn't support link previews in some features. For example, when you pop out a chat, or you're a guest to another organization.
+- Teams doesn't support link previews in some of its features. For example, when you pop out a chat, or you're a guest to another organization.
 - Teams silently abandons trying to display the card after 15 seconds, for example, because of network issues.
 - Teams may not expand the link if you've already pasted a link into the same message compose box and deleted the card.
 
@@ -61,10 +80,6 @@ For example:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 For technical details about [!INCLUDE [prod_short](includes/prod_short.md)] URLs, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) in the [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro Help.
-
-## The card is displayed in the message compose box, but selecting the Details button does nothing 
-
-After a link gets expanded into a card in the message compose box, you must send the message to the chat before you can use the **Details** button.
 
 ## The details window opens, but shows an error before details are shown
 

@@ -193,44 +193,44 @@ To search for contacts stored in a different [!INCLUDE [prod_short.md](includes/
 
 ### Are [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts different to those in the Teams contacts screen?
 
-Yes. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] represent business contacts available to your organization with which you have an established and well-defined business relationship, or contacts that represent prospective customers. These are typically external contacts. On the other hand, the contacts shown in the Microsoft Teams Calling contacts list are your own contacts that are not necessarily shared with others in your organization and typically represent contacts internal to your organization.
+Yes. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] represent business contacts available to your organization with which you have an established and well-defined business relationship, or contacts that represent prospective customers. These are typically external contacts. On the other hand, the contacts shown in the Teams Calling contacts list are your own contacts that aren't necessarily shared with others in your organization and typically represent contacts internal to your organization.
 
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] synchronize contacts with Teams?
 
-No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in your Microsoft Teams.
+No. Contacts stored in [!INCLUDE [prod_short.md](includes/prod_short.md)] remain separate from your contacts stored in Teams.
 There are currently no plans to synchronize the two lists together.
 
-### What is the minimum version of [!INCLUDE [prod_short.md](includes/prod_short.md)] for Contact search?
+### What is the minimum version of [!INCLUDE [prod_short.md](includes/prod_short.md)] for contact search?
 
-Contact search requires that you have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams version 1.0.4 or later, and are connecting to [!INCLUDE [prod_short.md](includes/prod_short.md)] environments of version 18 or later.
+Contact search requires that you have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams version 1.0.4 or later, and you're connecting to [!INCLUDE [prod_short.md](includes/prod_short.md)] environments of version 18 or later.
 
 ### Can I search from my mobile device?
 
-Contact search is not available from Teams for iOS and Teams for Android at this time.
+Contact search isn't available from Teams for iOS and Teams for Android at this time.
 
 ### Which permissions do I need for contact search?
 
-To search for contacts, you need object-level permission to the contacts table within that [!INCLUDE [prod_short.md](includes/prod_short.md)] company. To view the details window for a contact, you need at least read permission to the Contact page within that [!INCLUDE [prod_short.md](includes/prod_short.md)] company, and any other related objects.
+To search for contacts, you need object-level permission to the **Contacts** table within the [!INCLUDE [prod_short.md](includes/prod_short.md)] company being searched. To view the details window for a contact, you need at least read permission to the **Contact** page within that [!INCLUDE [prod_short.md](includes/prod_short.md)] company, and any other related objects.
 
-### Can I use Contact Search if I am a Delegated Admin?
+### Can I use Contact Search if I am a delegated admin?
 
-Yes, you can also look up contacts and contact details if you have a Delegated Admin role in an organization.
+Yes. You can also look up contacts and contact details if you have a delegated admin role in an organization.
 
 ### Is contact search affected by API limits?
 
-Yes. Searching for contacts from Microsoft Teams is based on [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 APIs and is subject to any API limits that manage usage. You can learn more here: https://docs.microsoft.com/en-us/dynamics-nav/api-reference/v2.0/dynamics-current-limits 
+Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 APIs and subject to any API limits that manage usage. You can learn more about the limits at [Current API Limits](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
 
 ### Why does it sometimes ask me to set up the app?
 
-After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams for the first time, the app will attempt to determine your preferred company in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If this cannot be determined, for example because you have access to multiple companies across environments in your organization, the app may require you to go to the Settings window and choose the company you wish to search in. You must choose a company before you are able to search.  
+After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams for the first time, the app will attempt to determine your preferred company in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the company can't be determined, for example, because you have access to multiple companies across environments in your organization, the app may require you to go to the **Settings** and choose the company you wish to search in. You must choose a company before you are able to search.  
 
-The app may also ask you to visit the settings page if you do not appear to have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account does not have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
+The app may also ask you to visit the **Settings** if you don't appear to have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
 
-### I’d like to search for Items or records from other tables. Can I do this from Teams?
+### I’d like to search for items or records from other tables. Can I do this from Teams?
 
-Searching in other tables is not possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list which may include vendors, customers and other contacts.
+Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams searches only in the [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts list, which may include vendors, customers, and other contacts.
 
-If you would like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
+If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
 ---
 
@@ -275,13 +275,13 @@ If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies,
 
 ### If I choose to view details for a card, will other users see my details window?
 
-No. While everyone in the chat can view the card itself, the details window only appears for you on your device when you choose **Details**. Other users must choose **Details** if they would like to view the details window on their device.
+No. While everyone in the chat or meeting can view the card itself, the details window only appears for you on your device when you choose **Details**. Other users must choose **Details** if they would like to view the details window on their device.
 
 ### Can I start a Teams call from the details window in Teams?
 
-Yes. You can start a call by choosing the linked dialing number in a phone number field, such as the **Mobile Phone No.** field on the **Contact** card. Teams must be your designated dialing app.
+Yes. If you are using the Teams desktop app,you can start a call by choosing the linked dialing number in a phone number field, such as the **Mobile Phone No.** field on the **Contact** card. Teams must be your designated dialing app.
 
-To call local or international landlines and mobile phones from Teams, you must have a Teams license for enterprise calling. Also, you must set up Teams as your call solution. To learn more, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) in the Teams documentation.
+To call local or international landlines and mobile phones, Teams requires that you have a Business Voice license for enterprise calling. Also, you must set up Teams as your call solution. To learn more, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) in the Teams documentation.
 
 ### Can I print documents from the details window in Teams?
 
@@ -305,7 +305,7 @@ Yes. When you compose and send a message that includes a card, all recipients in
 
 ### Is the experience any different for users that are guests?
 
-Yes. Inviting guest users from outside your organization to participate in chat or a channel gives them a similar, but not identical experience compared to users within your organization. When a guest receives a message that includes a card, they can view it. Guests can also open the details window if they have been granted permissions to access that data in [!INCLUDE [prod_short.md](includes/prod_short.md)] and assigned a [!INCLUDE [prod_short.md](includes/prod_short.md)] license within your organization. When a guest composes a message, links to your [!INCLUDE [prod_short.md](includes/prod_short.md)] won't expand into cards.
+Yes. Inviting guest users from outside your organization to participate in chat or a channel gives them a similar, but not identical experience compared to users within your organization. When a guest receives a message that includes a card, they can view it. Guests can also open the details window if they have been granted permissions to access that data in [!INCLUDE [prod_short.md](includes/prod_short.md)] and assigned a [!INCLUDE [prod_short.md](includes/prod_short.md)] license within your organization. When a guest composes a message, links to their or your [!INCLUDE [prod_short.md](includes/prod_short.md)] won't expand into cards.
 
 To learn about other similarities and differences between guests and team members, see [Guest experience in Teams](/MicrosoftTeams/guest-experience) in the Teams documentation.
 

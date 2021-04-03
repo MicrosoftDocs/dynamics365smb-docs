@@ -99,7 +99,7 @@ This problem can be caused by a couple things: lack of permissions in [!INCLUDE 
 
     For more information about minimum browser requirements, see [Minimum Requirements for Using [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## I'm having problems with the camera or location in Teams 
+## I'm having problems with the camera or location in Teams
 
 When using [!INCLUDE [prod_short](includes/prod_short.md)] features in the details window that require access to your location or device camera, you must first give your consent for Teams to access these device capabilities.  
 

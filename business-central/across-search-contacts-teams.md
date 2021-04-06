@@ -26,7 +26,7 @@ ms.author: jswymer
 
 - You have access to Microsoft Teams.
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
-- [!INCLUDE [prod_short](includes/prod_short.md)] account with access to contacts in at least one company.
+- You've got a [!INCLUDE [prod_short](includes/prod_short.md)] account with access to contacts in at least one company.
 
 > [!NOTE]
 > Whether you searching from the command box or message compose box, you may be asked to sign in or set up the app the first time. This step is necessary to search for contacts in the right Business Central company. For information about setting up the app to choose your company, see [Changing Company and Other Settings in Teams](across-teams-settings.md).

@@ -26,7 +26,7 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 ### Look up details of customers, vendors, and other contacts
 
-No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contact. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
+No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
  [![Look up Business Central contacts from Teams command box](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 

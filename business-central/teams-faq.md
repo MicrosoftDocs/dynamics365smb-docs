@@ -140,8 +140,6 @@ At Microsoft, we're constantly listening to feedback from our diverse user commu
 
 If you want to participate in improving the app for Teams, or have an idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
----
-
 ## [Searching for Contacts](#tab/contacts)
 
 ### Which tables does the app search in?
@@ -234,8 +232,6 @@ Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short
 
 If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
----
-
 ## [Working with cards](#tab/cards)
 
 ### Which types of links does the app support?
@@ -298,8 +294,6 @@ Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the deta
 ### <a name="location"></a>Can I access my location from the details window in Teams?
 
 If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app. 
-
----
 
 ## [Collaborating with guests ](#tab/collaborating)
 

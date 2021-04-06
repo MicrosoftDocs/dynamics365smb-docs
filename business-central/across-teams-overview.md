@@ -32,7 +32,7 @@ No matter where you are in Teams, you can look up details about customers, vendo
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- [![Look up Business Central contacts from Teams compose box]](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Look up Business Central contacts from Teams compose box](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 

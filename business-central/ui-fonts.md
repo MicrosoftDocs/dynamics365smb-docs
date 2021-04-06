@@ -54,11 +54,13 @@ The following barcode symbologies are supported:
 * MSI
 * Interleaved 2 of 5
 
+For more information, see [Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+
 ## See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Select a Check Layout](finance-how-define-check-layouts.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

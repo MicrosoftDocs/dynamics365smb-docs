@@ -26,7 +26,7 @@ Synchronization uses the following elements:
 * Synchronization rules
 * Coupled records
 
-When synchronization is set up you can couple [!INCLUDE[prod_short](includes/prod_short.md)] records to [!INCLUDE[prod_short](includes/cds_long_md.md)] rows to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides on overview of the ways you can synchronize.  
+When synchronization is set up you can couple [!INCLUDE[prod_short](includes/prod_short.md)] records to [!INCLUDE[prod_short](includes/cds_long_md.md)] rows to synchronize their data. You can start a synchronization manually, or based on a schedule. The following table provides an overview of the ways you can synchronize.  
 
 |  Type  |  Method  |  See  |  
 |--------|----------|-------|  

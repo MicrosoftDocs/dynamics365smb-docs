@@ -28,7 +28,7 @@ You must first sign in to reach your settings. To sign into the app, either past
 
 ## I changed company but it didn't seem to work
 
-After you change the company on the **Settings** page, you may notice the command box drop-down indicates that you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. For the drop-down accurately reflect the company you'll search in, close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again.
+After you change the company on the **Settings** page, you might notice that the command box drop-down indicates you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. For the drop-down accurately reflect the company you'll search in, close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again.
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->

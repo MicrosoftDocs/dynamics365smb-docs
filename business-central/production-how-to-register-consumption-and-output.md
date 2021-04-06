@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -33,15 +33,15 @@ This execution task is performed on the **Production Journal** page. The journal
     > [!NOTE]  
     >  Posting dates entered on individual lines will override this field.  
 
-4.  In the **Flushing Method Filter** field at the top of the journal, you can choose to also view consumption and output that is posted automatically according to the flushing methods defined for the item and resource respectively.  
+4.  In the **Flushing Method Filter** field at the top of the journal, you can choose to also view consumption and output that is posted automatically according to the flushing methods defined for the item and resource respectively. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Proceed to enter the relevant consumption and output quantities in the editable fields.  
+  
     On each type of line in the journal, only the relevant fields are shown. The rest are blank and write-protected.  
 
     When the journal is opened, it is preset with the quantities to be posted. If nothing is posted so far, all quantity fields will show by default the expected quantities carried from the production order. If partial postings have been made, the quantity fields on the lines will show the remaining quantities. The quantities and times already posted for the order are displayed at the bottom of the journal as actual entries.  
 
     Concerning the quantities in the **Output Quantity** field, you have the option to set up which values to preset when the journal is first opened. This is done from the **Manufacturing Setup** page, **General** FastTab, in the **Preset Output Quantity** field.
-
-5.  Proceed to enter the relevant consumption and output quantities in the editable fields.  
 
     > [!NOTE]  
     >  Only the output quantity on the last journal line of entry type **Output** will adjust the inventory level when posting the journal. Therefore, do not to post the journal, with the expected output quantity preset on the last output line, until all end items are actually produced.  

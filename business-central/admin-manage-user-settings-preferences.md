@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---

@@ -6,7 +6,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 02/25/2021
+ms.date: 04/01/2021
 ms.author: andregu
 
 ---

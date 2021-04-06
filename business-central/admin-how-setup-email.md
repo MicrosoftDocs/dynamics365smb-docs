@@ -1,5 +1,5 @@
 ---
-title: Set up email in Business Central | Microsoft Docs
+title: Set up email in Business Central
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -213,6 +213,6 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on My Mobile Device](install-mobile-app.md)
-[Analyzing Email Telemetry (administration content)](/dynamics365/dev-itpro/administration/telemetry-email-trace)  
+[Analyzing Email Telemetry (administration content)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

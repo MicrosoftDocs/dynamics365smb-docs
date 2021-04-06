@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andregu
 
 ---

@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -74,6 +74,27 @@ Microsoft provides the following extensions:
 
 > [!NOTE]  
 > You can keep an eye out for new extensions from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+
+
+## Extensions and data transfer
+
+As the following extensions are communicating with other services they may transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
+
+* AMC Banking 365 Fundamentals Extension
+* Image Analyzer
+* Late Payment Prediction
+* PayPal Payments Standard
+* Sales and Inventory Forecast
+* WorldPay Payments Standard
+
+This also applies to some functionality in the base application, such as the following capabilities:
+
+* Cash Flow Forecast
+* Document Exchange Service
+* Dataverse connections
+* OCR Service
+* Online Map
+* EU VAT Reg. No. Service
 
 ## See Also
 

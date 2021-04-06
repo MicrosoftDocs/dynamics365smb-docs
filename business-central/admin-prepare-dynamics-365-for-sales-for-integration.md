@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -67,7 +67,7 @@ Enter the following information for the connection from [!INCLUDE[crm_md](includ
 |--|--|
 | **Dynamics 365 Sales URL** | The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This enables users to open corresponding records in [!INCLUDE[prod_short](includes/prod_short.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[prod_short](includes/prod_short.md)] records open in [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**Dynamics 365 Sales URL**|The URL of your [!INCLUDE[crm_md](includes/crm_md.md)] instance. This enables users to open corresponding records in [!INCLUDE[prod_short](includes/prod_short.md)] from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as an account or product. The [!INCLUDE[prod_short](includes/prod_short.md)] records open in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|**Item Availability Web Service Enabled**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[prod_short](includes/prod_short.md)]. If you enable this, you must also provide a user name and an access key for the [!INCLUDE[crm_md](includes/crm_md.md)] to use to query OData Web Service for availablity of items (products). For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
+|**Item Availability Web Service Enabled**|Enable people who are using [!INCLUDE[crm_md](includes/crm_md.md)] to view the availability of items (products) in inventory in [!INCLUDE[prod_short](includes/prod_short.md)]. If you enable this, you must also provide a user name and an access key for the [!INCLUDE[crm_md](includes/crm_md.md)] to use to query OData Web Service for availability of items (products). For more information, see [OData Web Services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Dynamics 365 Business Central OData Web Service URL**|If you enable the Item Availability Web Service, the URL for the OData Web service is provided for you. Set this field to the URL of the [!INCLUDE[prod_short](includes/prod_short.md)] instance to use.<br /><br /> To reset the field to the default URL for the [!INCLUDE[prod_short](includes/prod_short.md)], choose **Reset Web Client URL** action.<br /><br /> This field is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] Integration Solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 Business Central OData Web Service Username**|The name of the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[prod_short](includes/prod_short.md)] through OData Web service.|
 |**Dynamics 365 Business Central OData Web Service Accesskey**|The access key for the user account that the [!INCLUDE[crm_md](includes/crm_md.md)] uses to get information about item availability from [!INCLUDE[prod_short](includes/prod_short.md)] through OData Web service. The key is assigned to the user chosen in the **Dynamics 365 Business Central OData Web Service Username** field. To get the key, choose the **Look up value** button next to the user name, choose the user, choose **Manage**, and then **Edit**. On the user card, choose **Actions**, **Authentication**, and then choose **Change Web Service Key**.|
@@ -150,10 +150,20 @@ The following table describes the default synchronization jobs for Sales.
 ## Connecting Business Central On-Premises Versions Earlier Than Version 16
 The Microsoft Power Platform team has [announced](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) that it is deprecating the Office365 authentication type. If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises that is earlier than version 16, you must use the OAuth authentication type to connect to [!INCLUDE[crm_md](includes/crm_md.md)] online. The steps in this section describe how to make the connection.
 
-### Requirements
-You must have a Microsoft Azure subscription. A trial account will work for application registration.
+### Prerequisites
+
+- You must have a Microsoft Azure subscription. A trial account will work for application registration.
+- [!INCLUDE[crm_md](includes/crm_md.md)] is configured to use one of the following authentication types:
+
+   - Office365 (legacy)
+
+     > [!IMPORTANT]
+     > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+
+   - OAuth
 
 ### To connect a version of Business Central earlier than version 16
+
 1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your Business Central installation DVD. There are multiple versions of the solution, such as DynamicsNAVIntegrationSolution_v8 or DynamicsNAVIntegrationSolution_v9 or DynamicsNAVIntegrationSolution_v91. The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
 2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. For more information, see [Create a non-interactive user account](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
@@ -163,7 +173,7 @@ You must have a Microsoft Azure subscription. A trial account will work for appl
    > [!Important]
    > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
 
-3.  In Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For the steps, see [Register an application in Azure Active Directory](/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). The settings that are specific to connecting to [!INCLUDE[crm_md](includes/crm_md.md)] are the delegated permissions. The following table lists and describes the permissions.
+3.  In Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For the steps, see [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). The settings that are specific to connecting to [!INCLUDE[crm_md](includes/crm_md.md)] are the delegated permissions. The following table lists and describes the permissions.
 
    |API / Permission Name |Type  |Description  |
    |---------|---------|---------|

@@ -256,7 +256,9 @@
 ##### [Overview](across-teams-overview.md)
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
+##### [Searching for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
 #### Using Power BI with Business Central

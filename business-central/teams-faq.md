@@ -189,7 +189,7 @@ You can enter search criteria using almost any unicode characters. However, [!IN
 ### How can I search contacts stored in a different company?
 
 The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams is able to search for customers, vendors, and other contacts in one company at a time.  
-To search for contacts stored in a different [!INCLUDE [prod_short.md](includes/prod_short.md)] company, open [Settings](across-team-settings.md), then change the environment and company from there.
+To search for contacts stored in a different [!INCLUDE [prod_short.md](includes/prod_short.md)] company, open [Settings](across-teams-settings.md), then change the environment and company from there.
 
 ### Are [!INCLUDE [prod_short.md](includes/prod_short.md)] contacts different to those in the Teams contacts screen?
 

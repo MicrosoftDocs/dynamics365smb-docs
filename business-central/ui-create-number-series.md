@@ -26,6 +26,9 @@ If you want to allow gaps in certain number series, then first consult with your
 
 You create a numbering system by setting up one or more codes for each type of master data or document. For example, you can set up one code for numbering customers, another code for numbering sales invoices, and another code for numbering documents in general journals. After you have set up a code, you must set up at least one number series line. The number series line contains information such as the first and last number in the series and the starting date. You can set up more than one number series line per number series code, with a different starting date for each line. The series will be used consecutively, starting each series on the respective starting date.
 
+> [!NOTE]
+> The maximum length of a number in a number series is 20 characters. There are some situations where [!INCLUDE[prod_short](includes/prod_short.md)] will append a number with a system-generated ID. For example, when documents such as invoices are used to apply transactions, such as payments, [!INCLUDE[prod_short](includes/prod_short.md)] generates identifiers for the applied transactions. The identifier is comprised of a number from a number series and a six character system-assigned ID, such as -12345. If you expect to process more than 9999 documents in bank or GIRO journals, or cash receipt journals, set up number series for those types of documents to include fewer than 14 characters.
+
 You typically set up your number series to automatically insert the next consecutive number on new cards or documents that you create. However, you can also set a number series up to allow that you manually enter the new number. You specify this with the **Manual Nos.** check box.
 
 If you want to use more than one number series code for one type of master data - for example, if you want to use different number series for different categories of items - you can use number series relationships.

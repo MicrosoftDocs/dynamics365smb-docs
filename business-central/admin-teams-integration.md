@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
@@ -30,6 +30,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     |What|Teams license|[!INCLUDE [prod_short](includes/prod_short.md)] license|
     |----|---|---|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
     |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
     |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")||
     |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
@@ -53,7 +54,7 @@ For more information, see the following articles in the Microsoft Teams document
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release wave 2, update 17.3, or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 release wave 1 or later. Teams integration is only supported for [!INCLUDE [prod_short](includes/prod_short.md)] online; not on-premises.
 
 - Codeunit **2718 Page Summary Provider** is published as a web service:
 
@@ -61,8 +62,9 @@ For more information, see the following articles in the Microsoft Teams document
 
 - <a name="permissions"></a>User permissions:
 
-    For the most part, the pages and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
+    For the most part, the contact search, pages, and data that users can view and edit in a Teams conversation is controlled by their permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - To search for contacts, users must have at least read permission to the **Contacts** table. 
     - To paste a [!INCLUDE [prod_short](includes/prod_short.md)] link into a Teams conversation and have it expand into a card, users must have at least read permission on the page and its data.
     - Once a card is submitted into a conversation, any user in that conversation can view that card without permission to [!INCLUDE [prod_short](includes/prod_short.md)].
     - To view more details for a card or open the record in [!INCLUDE [prod_short](includes/prod_short.md)], users must have read permission on the page and its data.
@@ -87,13 +89,13 @@ You prevent specific users or groups from sending cards to chats or channels by 
 
 You can also use information barriers to prevent individuals or groups from communicating with each other. To learn more, see [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Data loss prevention features in the Microsoft 365 Security & Compliance Center can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards. To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Data loss prevention features in the Microsoft 365 Security & Compliance Center can't be applied specifically to cards. But they can be applied to the chat messages that contain the cards. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### Responding to data requests
 
 You allow team members and team owners to delete messages that contain sensitive cards by setting up messaging policies, like: **Owners can delete sent messages** and **Users can delete sent messages**. For more information, see [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).
 
-Content search and eDiscovery compliance features in the Microsoft 365 Security & Compliance Center can't be applied specifically to cards. But they can be applied to the chat messages that contain cards. To track upcoming compliance features for cards, see [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Content search and eDiscovery compliance features in the Microsoft 365 Security & Compliance Center can also be applied to cards.
 
 Because card data in Teams is a copy of data in [!INCLUDE [prod_short](includes/prod_short.md)], you can also use [!INCLUDE [prod_short](includes/prod_short.md)] features to export a customer’s data if requested. For more information about privacy in [!INCLUDE [prod_short](includes/prod_short.md)], see [Privacy FAQ for Business Central Customers](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

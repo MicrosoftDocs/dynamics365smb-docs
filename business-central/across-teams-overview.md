@@ -16,18 +16,35 @@ ms.author: jswymer
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you connect with others, collaborate seamlessly, and simplify work. [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)] so you can quickly share details across team members and respond faster to inquiries.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) is a Microsoft 365 product that lets you connect with others, collaborate seamlessly, and simplify work. [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)] so you can quickly share details across team members, look up contacts, and respond faster to inquiries.
 
-## Overview
+The app is available on the Teams marketplace, and you can use it with the Teams desktop, mobile app, or web.
 
-The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
+## Features overview
 
-- Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
-- Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
+The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the following features.
+
+### Look up details of customers, vendors, and other contacts
+
+No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
+
+ [![Look up Business Central contacts from Teams command box](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+
+You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
+
+ [![Look up Business Central contacts from Teams compose box](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+
+For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
+
+### Share records in conversations
+
+Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
 [![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
-The app is available on the Teams marketplace, and you can use it with the Teams web, desktop, or mobile app.
+Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
+
+For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).
 
 ## Get Started
 
@@ -46,7 +63,8 @@ The app is available on the Teams marketplace, and you can use it with the Teams
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
-[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+  
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 

@@ -705,6 +705,8 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
@@ -745,8 +747,6 @@
 #### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
 #### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Moving Items
 #### [Move Items](warehouse-move-items.md)
 #### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +770,6 @@
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 
 ## Service Management
 ### [Service Management](service-service.md)

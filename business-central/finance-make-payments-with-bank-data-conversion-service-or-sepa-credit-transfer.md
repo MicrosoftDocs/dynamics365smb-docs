@@ -1,5 +1,5 @@
 ---
-    title: Make Payments with AMC Banking  (US) or SEPA Credit Transfer (EU)
+    title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
     description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
     author: bholtorf
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 04/13/2021
     ms.author: bholtorf
 
 ---
@@ -42,6 +42,9 @@ Before you can process payment electronically by exporting payment files in the 
 * Set up the related general journal batch to enable payment export from the **Payment Journal** page  
 * Connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 
+> [!TIP]
+> This article applies to the generic version of [!INCLUDE [prod_short](includes/prod_short.md)]. In your country or region, additional required fields may have been added to the various pages. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### To set up a bank account for SEPA Credit Transfer
 
 1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
@@ -60,15 +63,14 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
+     If you have not yet set up a bank for this vendor, you can do so now. For more information, see [To set up vendor bank accounts for export of bank files](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files
 
 1. In the **Search** box, enter **Payment Journals**, and then choose the related link.  
-2. Open the payment journal that you use to process payments by exporting files in the SEPA Credit Transfer format.  
-3. In the **Batch Name** field, choose the drop\-down button.  
-4. On the **General Journal Batches** page, choose the **Edit List** action.  
-5. On the line for the payment journal that you will use to export payments, select the **Allow Payment Export** check box.  
+2. In the **Batch Name** field, choose the drop\-down button.  
+3. On the **General Journal Batches** page, choose the **Edit List** action.  
+4. On the line for the payment journal that you will use to export payments, select the **Allow Payment Export** check box.  
 
 ### To connect the data exchange definition for one or more payment types with the relevant payment method or methods
 

@@ -47,7 +47,6 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print Payment Files](how-to-print-payment-files.md) **Available Now**
     * [Activate SEPA Payments](how-to-activate-sepa-payments.md) **Available Now**
     * [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) **Available Now**
-    * [File SEPA Payments](how-to-file-sepa-payments.md) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
     * [Set Up Domiciliations](how-to-set-up-domiciliations.md) **Available Now**
     * [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) **Available Now**

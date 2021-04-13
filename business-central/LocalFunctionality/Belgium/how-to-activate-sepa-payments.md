@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 04/13/2021
     ms.author: edupont
 
 ---
@@ -17,11 +17,13 @@
 
 [!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
+You can now make SEPA payments. For more information, see [Exporting Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
+
 ## See Also  
 
-[File SEPA Payments](how-to-file-sepa-payments.md)  
 [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)  
 [Set Up Export Protocols](how-to-set-up-export-protocols.md)  
+[Make Payments with SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Febelfin website](https://go.microsoft.com/fwlink/?LinkId=275119)  
 [ISO 20022 website](https://go.microsoft.com/fwlink/?LinkId=275120)  
 

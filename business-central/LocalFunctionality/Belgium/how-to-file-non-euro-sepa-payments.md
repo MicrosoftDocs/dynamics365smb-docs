@@ -38,5 +38,5 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 
 ## See Also
 
-[File SEPA Payments](how-to-file-sepa-payments.md)  
 [Activate SEPA Payments](how-to-activate-sepa-payments.md)  
+[Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

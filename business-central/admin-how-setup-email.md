@@ -90,10 +90,10 @@ You can use reports to include key information from sales and purchase documents
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
-5. Choose the **Email Body Layout Code** field, and then select a layout from the drop-down list.
+5. Choose the **Email Body Layout Description** field, and then select a layout from the list.
 
-    Report layouts define both the style and the content of the text in the email, including texts such as a greeting or instructions that precede the document information. You can see all available report layouts if you choose the **Select from full list**.
-6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Edit Layout** action.
+    Report layouts define both the style and the content of the text in the email, including texts such as a greeting or instructions that precede the document information. If your organization has many layouts, you can see all available report layouts if you choose the **Select from full list**.
+6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Update Layout** action.
 7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and link inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 

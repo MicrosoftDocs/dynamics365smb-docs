@@ -881,7 +881,6 @@
 ##### [Print Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Activate SEPA Payments](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [File Non-Euro SEPA Payments](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [File SEPA Payments](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Direct Debit Using Domiciliation](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Set Up Domiciliations](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Edit and Delete Domiciliation Lines](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)

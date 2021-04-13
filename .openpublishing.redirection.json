@@ -618,6 +618,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-file-sepa-payments.md",
+            "redirect_url": "how-to-activate-sepa-payments",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "business-central/design-details-dimension-set-entries.md",
             "redirect_url": "design-details-dimension-set-entries-overview",
             "redirect_document_id": false

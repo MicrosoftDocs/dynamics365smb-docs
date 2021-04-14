@@ -15,20 +15,11 @@
 ---
 
 # Business Central for Multi-Site and International Organizations
-
 Organizations that have multiple sites often use a hub-and-spoke business model where a parent company, or headquarters, manages the overall operations of the business while each site functions as a single, standalone entity. Sites are often geographically distributed and have different needs for sharing information with the headquarter company. Additionally, sites typically don't need the same level of complexity, and often lack the resources to maintain a large system.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
 
-This article introduces some of the ways in which [!INCLUDE[prod_short](includes/prod_short.md)] supports a hub and spoke business model.
-
-* Integrate the headquarter company and the sites.
-* Meet the needs of individual sites.
-* Consolidate financial information.
-* Share business insight with integrated analytics.
-* Exchange data using APIs and XMLports.
-* Promote an efficient intercompany supply chain.
-* Respond proactively to new business conditions.
+This article introduces some of the ways in which [!INCLUDE[prod_short](includes/prod_short.md)] supports a hub-and-spoke business model.
 
 ## Integrating the Headquarter Company and the Sites
 

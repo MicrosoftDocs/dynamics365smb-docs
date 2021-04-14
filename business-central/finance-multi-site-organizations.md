@@ -106,7 +106,7 @@ The headquarter company must be able to react quickly to business changes at eac
 | Use standard or custom alerts. | Use 12 different templates included for Business Central or set up your own alerts to suit your business. | [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md) |
 
 ## See Also
-[Administration of Business Central Online](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
+[Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -20,7 +20,6 @@ The following table describes some of the key reports in financial reporting.
 
 |Report |Description  |
 |---------|---------|
-|**Adjust Cost - Item Entries** | Adjusts inventory values in value entries so that you use the correct adjusted cost for updating the general ledger and so that sales and profit statistics are up to date. The cost adjustment forwards any cost changes from inbound entries, such as those for purchases or production output, to the related outbound entries, such as sales or transfers.  |
 |**Trial Balance**| Shows the chart of accounts with balances and net changes. You can choose to see a trial balance for selected dimensions. You can use the report at the close of an accounting period or fiscal year. |
 |**Trial Balance by Period**  | Shows the opening balance by general ledger account, the movements in the selected period of month, quarter, or year, and the resulting closing balance.         |
 |**Trial Balance/Budget** | Shows a trial balance in comparison to a budget. You can choose to see a trial balance for selected dimensions. You can use the report at the close of an accounting period or fiscal year.        |

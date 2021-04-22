@@ -1,8 +1,7 @@
 ---
 title: Power BI Integration Component and Architecture Overview for Business Central| Microsoft Docs
-description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
+description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
-
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
@@ -76,8 +75,6 @@ The following diagram illustrates the basic workflow for users when connecting [
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
 [Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -273,6 +273,7 @@
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
 #### Using Power Automate with Business Central
 ##### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 #### Using Power Apps with Business Central

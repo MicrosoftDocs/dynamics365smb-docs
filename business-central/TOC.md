@@ -273,6 +273,7 @@
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
 #### Using Power Automate with Business Central
 ##### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 #### Using Power Apps with Business Central
@@ -567,6 +568,7 @@
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
+### [Multi-Site and International Organizations](finance-multi-site-organizations.md)
 
 ## Business Intelligence and Financial Reporting
 ### [Business Intelligence and Financial Reporting Overview](bi.md)
@@ -705,6 +707,8 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
+### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
@@ -745,8 +749,6 @@
 #### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
 #### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Moving Items
 #### [Move Items](warehouse-move-items.md)
 #### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +772,6 @@
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
 
 ## Service Management
 ### [Service Management](service-service.md)

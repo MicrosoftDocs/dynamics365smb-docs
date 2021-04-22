@@ -20,7 +20,7 @@ ms.author: jswymer
 
 - Look up [!INCLUDE [prod_short](includes/prod_short.md)] contacts from the Teams command box or from the message compose area. Contacts can include prospects, vendors, customers, or other business relationships.
 - Share a contact as a card in a Teams conversation.
-- View details about contact information, interaction history, and other insights like outstanding payments or open documents.
+- View details about the contact, interaction history, and other insights like outstanding payments or open documents.
 
 ## Prerequisites
 

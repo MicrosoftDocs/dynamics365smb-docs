@@ -24,6 +24,8 @@ The following list provides information about the latest versions of [!INCLUDE [
 
 You can also explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/) site.  
 
+[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation
+
 ## See Also
 
 [Visit Our Video Library](across-videos.md)  

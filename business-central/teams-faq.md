@@ -224,7 +224,7 @@ Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](inc
 
 After you sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams for the first time, the app will attempt to determine your preferred company in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the app can't determine the company, you might have to go to the **Settings** and choose the company you wish to search in. This situation happens, for example, if you have access to multiple companies across environments in your organization. In this case, you'll have to choose a company before you can start searching.  
 
-The app may also ask you to visit the **Settings** if you don't appear to have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
+The app may also ask you to visit the **Settings** if you don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] subscription, there are no [!INCLUDE [prod_short.md](includes/prod_short.md)] environments, or your account doesn't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license.
 
 ### I’d like to search for items or records from other tables. Can I do this from Teams?
 

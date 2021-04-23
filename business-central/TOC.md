@@ -701,7 +701,6 @@
 ### [Planning With or Without Locations](production-planning-with-without-locations.md)
 ### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
-### [Plan Project Orders](production-how-to-plan-project-orders.md)
 ### [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)

@@ -1,6 +1,6 @@
 ---
-    title: How to Create Production Orders from Sales Orders | Microsoft Docs
-    description: You can create production orders from sales orders in the Sales & Marketing department.
+    title: How to Create Production Orders from Sales Orders
+    description: You can create production orders from sales orders.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -23,9 +23,21 @@ You can create production orders for produced items directly from sales orders.
 3.  Choose the **Planning** action. On the **Sales Order Planning** page, you can view the availability of the sales order item.  
 4.  Choose the **Create Prod. Order** action.  
 5.  Select the status and order type.  
-6.  Choose the **Yes** button to create the production order.
+6.  Choose the **Yes** button to create one or more production orders for the lines that have **Prod. Order** in their **Replenishment System** field.
 
-You can also choose to make a project production order. For more information, see [Plan Project Orders](production-how-to-plan-project-orders.md).   
+
+> [!NOTE]  
+>  Demand lines in the created production order that have **Prod. Order** in their **Replenishment System** field represent underlying production orders. After you have generated these production orders, remember to identify any unfulfilled component demand for them using **Order Planning** page or **Replan** function from created orders. 
+
+## Order type  
+You can select to create the production order(s) in the following ways.
+
+|Option|Description|
+|------|-----------|
+|Item Order|One production order is created for each needed production order that is represented by a line in the **Sales Order Planning** window.|
+|Project Order|One production order is created for all needed production orders order that are represented by lines in the **Sales Order Planning** window. <br>Notice that the **Source Type** field of the production order contains **Sales Header** and the order has multiple lines, one for each sales line item that must be produced.|
+
+
 
 ## See Also  
 [Setting Up Manufacturing](production-configure-production-processes.md)  

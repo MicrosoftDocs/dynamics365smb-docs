@@ -53,13 +53,13 @@
     },
     "fileMetadata": {
       "searchScope":{ 
-	  "fa-**.md": ["BusinessCentral","fixed asset","depreciation"], 
-	  "bank**.md": ["BusinessCentral","bank","banking"], 
-	  "bi**.md": ["BusinessCentral","report","analysis","dimensions"], 
-	  "finance**.md": ["BusinessCentral","finance","financials","general ledger","cost accounting"], 
-	  "inventory**.md": ["BusinessCentral","inventory","stock", "warehouse"], 
-	  "across-how-to-**workflow**.md": ["BusinessCentral","workflow","approval"], 
-	  "across-how-to-**approval**.md": ["BusinessCentral","approval","workflow"], 
+	  "fa-**.md": ["fixed asset","depreciation","BusinessCentral"], 
+	  "bank**.md": ["Dynamics365","bank","banking","BusinessCentral"], 
+	  "bi**.md": ["Dynamics365","report","analysis","dimensions","BusinessCentral"], 
+	  "finance**.md": ["Dynamics365","finance","financials","general ledger","cost accounting","BusinessCentral"], 
+	  "inventory**.md": ["Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
+	  "across-how-to-**workflow**.md": ["Dynamics365","workflow","approval","BusinessCentral"], 
+	  "across-how-to-**approval**.md": ["Dynamics365","approval","workflow","BusinessCentral"], 
       }
     },
     "template": [],

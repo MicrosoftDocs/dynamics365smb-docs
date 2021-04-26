@@ -42,7 +42,7 @@ When you post documents or journal lines that contain dimensions various errors 
 If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. That will help keep your financial reports and analyses accurate.
 
 > [!IMPORTANT]
-> The features for correcting dimensions are intended only to help make financial reporting accurate. Dimension corrections apply only to the G/L entries. They do not change the dimensions assigned to transactions. There will be a mismatch between the dimensions assigned in the general ledger and the sub-ledgers.
+> The features for correcting dimensions are intended only to help make financial reporting accurate. Dimension corrections apply only to the G/L entries. They do not change the dimensions assigned to the entries in other ledgers for the same transaction. There will be a mismatch between the dimensions assigned in the general ledger and the sub-ledgers.
 
 ### Setting Up Dimension Corrections
 There are two things to consider when setting up dimension corrections:

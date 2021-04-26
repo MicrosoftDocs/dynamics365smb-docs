@@ -56,13 +56,13 @@
     },
     "fileMetadata": {
       "searchScope":{ 
-	  "fa-**.md": ["fixed asset","depreciation","BusinessCentral"], 
-	  "bank**.md": ["Dynamics365","bank","banking","BusinessCentral"], 
-	  "bi**.md": ["Dynamics365","report","analysis","dimensions","BusinessCentral"], 
-	  "finance**.md": ["Dynamics365","finance","financials","general ledger","cost accounting","BusinessCentral"], 
-	  "inventory**.md": ["Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
-	  "across-how-to-**workflow**.md": ["Dynamics365","workflow","approval","BusinessCentral"], 
-	  "across-how-to-**approval**.md": ["Dynamics365","approval","workflow","BusinessCentral"], 
+	  "fa-**.md": ["dynamics365-bc-app","fixed asset","depreciation","BusinessCentral"], 
+	  "bank**.md": ["dynamics365-bc-app","Dynamics365","bank","banking","BusinessCentral"], 
+	  "bi**.md": ["dynamics365-bc-app","Dynamics365","report","analysis","dimensions","BusinessCentral"], 
+	  "finance**.md": ["dynamics365-bc-app","Dynamics365","finance","financials","general ledger","cost accounting","BusinessCentral"], 
+	  "inventory**.md": ["dynamics365-bc-app","Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
+	  "across-how-to-**workflow**.md": ["dynamics365-bc-app","Dynamics365","workflow","approval","BusinessCentral"], 
+	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"], 
       }
     },
     "template": [],

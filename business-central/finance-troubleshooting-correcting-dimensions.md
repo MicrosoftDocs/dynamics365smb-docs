@@ -15,10 +15,10 @@ ms.author: bholtorf
 ---
 
 # Troubleshooting and Correcting Dimensions
-
+Financial reporting and analysis views often rely on data from dimensions. Despite the safeguards that are available, sometimes a mistake happens that can lead to inaccuracies. This topic describes some of the typical errors, and explains how to correct dimension assignments on posted transactions so that financial reports are accurate.
 
 ## Troubleshooting Dimensions Errors
-When you post documents or journal lines that contain dimensions, various errors may occur that are typically related to wrong dimension setup or assignment.
+When you post documents or journal lines that contain dimensions various errors may occur, however, they're typically related to an incorrect dimension setup or assignment.
 
 > [!NOTE]
 > In the following list of potential error messages, the *%X* codes are placeholders for the data variables that the actual message will contain in the UI depending on the context. For example, *%1 %2 is blocked.* could appear in the UI as "Dimension Code AREA is blocked.".  
@@ -76,13 +76,13 @@ You can manually select one or more general ledger entries, or use filters to se
    |Manage Selection Criteria     |Keep track of the selection process, and undo selections if needed.         |
 
 4. On the **Dimension Correction Changes** FastTab, choose the dimension that you want to change in the **Dimension Code** field, and the new value in the **New Dimension Value Code** field.
-5. To validate that the correction, choose **Validate Dimension Changes**. For more information, see [Validating Dimension Corrections](finance-dimensions.md#validating-dimension-corrections).
+5. To validate that the correction, choose **Validate Dimension Changes**. For more information, see [Validating Dimension Corrections](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Choose **Run**.
 
 ### Validating Dimension Corrections
 Before you run a correction, it's a good idea to validate it first. Validation checks for restrictions on value posting for the G/L accounts, restrictions for dimensions, and whether the dimension values are blocked. During validation, the status of the correction is set to **Validation in Process**. After you validate a correction, the result is shown in the **Validation Status** field. If errors were found, you can use the **View Errors** action to investigate them. After you correct an error, you must use the **Reopen** action to run the correction or a new validation.
 
-You can either run a correction immediately, or schedule it to run a later time. If you are running corrections on a large data set, we recommend that you schedule it to run outside business hours. For more information, see [Dimension Corrections on Large Data Sets](finance-dimensions.md#dimension-corrections-on-large-data-sets).
+You can either run a correction immediately, or schedule it to run a later time. If you are running corrections on a large data set, we recommend that you schedule it to run outside business hours. For more information, see [Dimension Corrections on Large Data Sets](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
 ### Undoing a Correction
 After you correct a dimension, if you don't like what you see you can use the **Undo** action to reset the previous value. However, you can only undo the most recent correction. Before you undo a correction, you can validate the changes that the undo will make. For example, this is useful if dimension restrictions have changed after the correction was made.

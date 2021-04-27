@@ -284,7 +284,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 
 ## See Also
 
-[Trace Item-Tracked Items] (inventory-how-to-trace-item-tracked-items.md)  
+[Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Item Tracking](design-details-item-tracking.md)  
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  

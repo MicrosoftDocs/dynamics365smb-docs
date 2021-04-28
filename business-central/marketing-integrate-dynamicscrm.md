@@ -117,13 +117,14 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
 The new pricing experience synchronizes price lists that meet the following criteria:
 
 * ***Allow Updating Defaults** is turned off.
-* The status is Active. 
+* The price type is Sale.
+* The amount type is Price.
+* The product type on the lines must be Item or Resource. 
 * A minimum quantity is not specified.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that: 
+[!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
 
-* Apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
-* Are added to an active price list for which the **Allow Updating Defaults** toggle is turned off, and a minimum quantity is not specified. To synchronize active price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
+To synchronize price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
 
 :::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page":::
 

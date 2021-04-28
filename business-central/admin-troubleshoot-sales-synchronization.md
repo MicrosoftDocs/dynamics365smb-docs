@@ -52,7 +52,7 @@ These records are now moved to the "Skipped Synch. Records" page, which you open
 ## Remove Couplings Between Records
 When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
 
-If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/cds_long_md.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronization Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
+If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/prod_short.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronization Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
 
 ## See Also
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

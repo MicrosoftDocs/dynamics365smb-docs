@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tiles
-ms.date: 02/26/2020
+ms.date: 04/29/2021
 ms.author: jswymer
 ---
 

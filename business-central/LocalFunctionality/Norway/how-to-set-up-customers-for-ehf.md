@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -39,3 +39,6 @@ These fields are specific to EHF. The values are used in all EHF documents that 
 ## See Also  
  [Create Electronic Documents for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Set Up EHF](how-to-set-up-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

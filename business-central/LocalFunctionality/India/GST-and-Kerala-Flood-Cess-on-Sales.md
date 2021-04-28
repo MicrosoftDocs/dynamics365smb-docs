@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST and Kerala Flood Cess on Sales Transaction
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/or services, made by taxable person to an unregistered person i.e. B2C supplies. Kerala Flood CESS is required to be shown separately on the invoice.
 
@@ -65,6 +64,8 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
+## See Also 
+[Exempted Sales](GST-Exempted-Sales.md)
 
 
 
@@ -89,3 +90,5 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

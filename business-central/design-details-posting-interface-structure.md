@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: posting, interface, design
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -24,3 +24,5 @@ In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structur
   
 ## See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

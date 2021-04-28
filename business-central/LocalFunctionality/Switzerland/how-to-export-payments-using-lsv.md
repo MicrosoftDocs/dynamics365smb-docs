@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -38,3 +38,6 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

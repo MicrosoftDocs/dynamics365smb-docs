@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
 
 ---
@@ -32,3 +32,6 @@ You can schedule when a batch job runs. For more information, see [Use Job Queue
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

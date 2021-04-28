@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -41,3 +41,6 @@ You can download payment credit transactions in Einzahlungsschein mit Referenznu
  [Swiss Electronic Payments](swiss-electronic-payments.md)   
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Making Payments](../../payables-make-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

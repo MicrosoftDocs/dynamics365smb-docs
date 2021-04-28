@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -41,3 +41,6 @@ The report is based on the VAT Entry table.
 
 ## See Also  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

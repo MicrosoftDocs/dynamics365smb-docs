@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -41,3 +41,6 @@ For most organizations, VAT payments are required to be submitted no later than 
 [VAT by customer prepayments](VAT-by-Customer-prepayments.md)  
 [VAT reinstatement](VAT-reinstatement.md)  
 [Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

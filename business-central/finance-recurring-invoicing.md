@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andreipa
 
 ---
@@ -118,3 +118,6 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 [Demand Forecasts and Blanket Orders](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)  
 [Recurring Orders (Norway)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

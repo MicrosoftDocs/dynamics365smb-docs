@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -29,3 +29,6 @@ Before you can process bills, you must add your bank information to the **Compan
 ## See Also  
  [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
   [Issue Vendor Payments and Customer Bills](how-to-issue-vendor-payments-and-customer-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

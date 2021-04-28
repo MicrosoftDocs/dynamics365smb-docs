@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -47,3 +47,6 @@ To use payment management, you must set up payment classes to define operation t
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

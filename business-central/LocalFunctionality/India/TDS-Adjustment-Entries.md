@@ -10,13 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # TDS Adjustments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 TDS adjustment can be required, for any corrections in the TDS amount, TDS rate or TDS base amount already deducted but not paid to the government authorities. The revised TDS amount will be updated in the relevant GL Accounts for TDS Payable and Vendor Account. Existing TDS entry will be updated with revised TDS percentages, TDS amount and TDS base amount.
 
@@ -37,6 +37,8 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 
 
+## See Also 
+[TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md)
 
 
 
@@ -55,3 +57,5 @@ TDS adjustment can be required, for any corrections in the TDS amount, TDS rate 
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

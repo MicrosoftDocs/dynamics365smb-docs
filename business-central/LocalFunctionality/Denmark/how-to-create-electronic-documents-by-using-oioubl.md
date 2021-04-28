@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -51,3 +51,6 @@ This generates an XML file that is stored at the default download location on yo
  [Set Up OIOUBL](how-to-set-up-oioubl.md)   
  [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

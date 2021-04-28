@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -263,3 +263,6 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

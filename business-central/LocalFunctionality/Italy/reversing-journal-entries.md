@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -25,3 +25,6 @@ Controls have been added to the **Reverse Transaction Entries** page to comply w
 ## See Also  
   [Italy Local Functionality](italy-local-functionality.md)  
   [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

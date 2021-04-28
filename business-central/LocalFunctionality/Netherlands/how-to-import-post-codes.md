@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ Information about the imported post code will be saved in the Post Code Update L
 ## See Also  
  [Dutch Post Codes](dutch-post-codes.md)   
  [Import Post Code Updates](how-to-import-post-code-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

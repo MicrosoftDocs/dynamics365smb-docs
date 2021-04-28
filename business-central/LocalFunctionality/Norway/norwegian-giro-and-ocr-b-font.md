@@ -8,7 +8,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -22,3 +22,6 @@ The OCR-B-10 BT font is generally available from software vendors. In [!INCLUDE[
 You can use any OCR-B font, but if other fonts are used, the sales documents must be updated by a Microsoft Certified Partner. Contact your partner for more information.  
 
 ## See Also
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

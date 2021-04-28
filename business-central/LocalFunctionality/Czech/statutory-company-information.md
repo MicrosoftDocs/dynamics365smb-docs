@@ -6,7 +6,7 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 12/01/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -29,3 +29,5 @@ Additional company registration numbers and other registration information can b
 [Czech Local Functionality](czech-local-functionality.md)  
 [Statutory statements](statutory-statements.md)
 [Finance](../../finance.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

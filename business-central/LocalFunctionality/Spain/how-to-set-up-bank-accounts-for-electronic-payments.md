@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -47,3 +47,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## See Also  
  [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

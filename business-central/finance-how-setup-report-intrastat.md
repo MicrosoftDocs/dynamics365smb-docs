@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -127,3 +127,6 @@ In the **Tariff Numbers** page, add all the codes that you use. You must enter t
 
 ## See Also
 [Financial Management](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

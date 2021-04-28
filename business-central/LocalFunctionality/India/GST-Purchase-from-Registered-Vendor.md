@@ -11,12 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 ---
 # Purchase from Registered Vendors
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A registered vendor is a person registered with GST authorities. For a registered vendor, on the vendor card, update the following fields:
   - GST Vendor Type as Registered. 
@@ -193,6 +192,8 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
+## See Also 
+[Purchase from Unregistered Vendor (Reverse Charge)](GST-Purchase-from-Unregistered-Vendor-RCM.md)
 
 
 
@@ -225,3 +226,5 @@ For example, invoice will be issued for INR 10,000 on which 18% GST (9% CGST and
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -57,3 +57,6 @@ You can print Intrastat reports on the **Intrastat Jnl. Batches** page based on 
 ## See Also  
   [Italy Local Functionality](italy-local-functionality.md)   
  [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

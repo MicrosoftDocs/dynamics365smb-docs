@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -90,3 +90,6 @@ Now you can copy and paste your budget statement into a spreadsheet.
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

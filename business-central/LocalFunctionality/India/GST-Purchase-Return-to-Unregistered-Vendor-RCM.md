@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Purchase Return to Unregistered Vendor (Reverse Charge)
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Persons whose aggregate turnover in a financial year does not exceed forty lakh rupees are not required to be registered with the GST authorities. Such persons are called unregistered vendors. Any purchases from unregistered vendors do not attract GST. However, there are some notified services under GST, on supply of such services GST is applicable under reverse charge i.e. the purchasers are required to  pay GST to the Government.
 
@@ -79,6 +78,8 @@ For example, purchase credit memo or return order is issued for INR 10,000 on wh
 
 
 
+## See Also 
+[Purchase Return to Foreign Vendor](GST-Purchase-Return-to-Foreign-Vendor.md)
 
 
 
@@ -100,3 +101,5 @@ For example, purchase credit memo or return order is issued for INR 10,000 on wh
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

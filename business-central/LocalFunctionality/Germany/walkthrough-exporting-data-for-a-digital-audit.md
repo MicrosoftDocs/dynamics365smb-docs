@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -282,3 +282,6 @@ The next time the tax auditors request new data, Cassie and Sean can collaborate
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)  
 [Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
 [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

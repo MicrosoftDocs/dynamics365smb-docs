@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -30,3 +30,6 @@ In order to process electronic payments, you must set up transaction codes accor
  [Belgian Electronic Banking](belgian-electronic-banking.md)   
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

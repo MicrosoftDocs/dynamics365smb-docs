@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -124,3 +124,6 @@ Use the following table to learn more about the additional finance features that
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

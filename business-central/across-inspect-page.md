@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ---
 
 # Inspecting Pages in Business Central
@@ -41,3 +41,6 @@ Users who are not granted permissions on **System object 5330** can still access
 ## See Also
 
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ However, the reservation system does take warehouse activities into consideratio
 [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)  
 [Design Details: Warehouse Availability](design-details-availability-in-the-warehouse.md)  
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

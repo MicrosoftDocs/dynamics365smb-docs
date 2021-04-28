@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -44,3 +44,6 @@ After you create a recurring group, you can set up recurring orders on the blank
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)   
  [Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

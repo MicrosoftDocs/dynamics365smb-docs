@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -68,3 +68,6 @@ The **Used with Derogatory Book** field in the accounting depreciation book is u
  [Accelerated Depreciation](accelerated-depreciation.md)   
  [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
 [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

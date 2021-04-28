@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,3 +42,6 @@ You can manually create a service order for a service item that is registered in
 ## See Also  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

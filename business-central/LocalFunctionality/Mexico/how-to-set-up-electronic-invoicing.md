@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/06/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -72,3 +72,6 @@ Finally, you must add information about your customers and vendors. The followin
 [Electronic Invoicing](electronic-invoicing.md)  
 [Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
 [Mexico Local Functionality](mexico-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

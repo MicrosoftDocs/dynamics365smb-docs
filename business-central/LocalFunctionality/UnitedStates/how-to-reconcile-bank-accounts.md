@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -106,3 +106,6 @@ You can print the following bank reconciliation reports:
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
 [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

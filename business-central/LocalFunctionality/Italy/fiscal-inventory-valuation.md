@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -44,3 +44,6 @@ After you set up the discrete LIFO cost calculation, you can post sales and purc
  [Italy Local Functionality](italy-local-functionality.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
  [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

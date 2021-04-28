@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -158,3 +158,6 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
 ## See Also  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Service Management](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

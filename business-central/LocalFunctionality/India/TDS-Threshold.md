@@ -10,13 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # TDS with Threshold
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the requirement of threshold amount in TDS and  the process of calculating TDS for such transactions.
 
@@ -70,6 +70,8 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
+## See Also 
+[TDS Provisional Entry](TDS-Provisional-Entries.md)
 
 
 
@@ -101,3 +103,5 @@ In the example given below, four transactions of INR 29,000 took place in a fina
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

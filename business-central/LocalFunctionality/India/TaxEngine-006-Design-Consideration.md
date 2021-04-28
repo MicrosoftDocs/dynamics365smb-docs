@@ -10,12 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 ---
 # Tax Engine - Design Consideration
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This section contains the factors that shall be considered while configuring Taxes using tax engine.
 
@@ -102,3 +101,14 @@ A new tax type should be created if it has unique attributes which are used in d
 - Enable or Disable Use Case
 
   By default, a Use case is enabled. If a use case is not applicable, then it can be disabled and that use case will not get executed.
+
+
+## See Also
+[Overview](TaxEngine-001-Overview.md)
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

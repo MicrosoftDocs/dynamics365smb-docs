@@ -5,7 +5,7 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: mikebc
 ---
 
@@ -19,4 +19,7 @@ Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/ad
 
 ## See also
 
-[New and planned features](https://aka.ms/Dynamics365ReleasePlan)  
+[New and planned features](/dynamics365-release-plan/2021wave1/)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

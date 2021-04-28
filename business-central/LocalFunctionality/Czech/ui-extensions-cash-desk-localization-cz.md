@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: v-pejano
 ---
@@ -34,9 +34,10 @@ Cash documents are receipt or withdrawal, and can be in different currencies acc
 
 You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for off-setting backup invoices.  
 
-> [!NOTE]
-> The Cash Desk application (extension) in the current version does not support Electronic Registration of Sales (EET) and Advance Payments. If necessary, you need to use the existing Cash Desk (Base Application).
-
 ## See Also
+
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

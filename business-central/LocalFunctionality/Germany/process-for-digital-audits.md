@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -63,3 +63,6 @@ For more information, see [GDPdU Filter Examples](gdpdu-filter-examples.md).
  [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md)   
  [Walkthrough: Exporting Data for a Digital Audit](walkthrough-exporting-data-for-a-digital-audit.md)   
  [Germany Local Functionality](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

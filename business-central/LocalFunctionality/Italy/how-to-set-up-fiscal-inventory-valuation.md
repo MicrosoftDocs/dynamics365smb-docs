@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -40,3 +40,6 @@ To use fiscal inventory valuation, you must set up inventory valuation methods.
 
 ## See Also  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

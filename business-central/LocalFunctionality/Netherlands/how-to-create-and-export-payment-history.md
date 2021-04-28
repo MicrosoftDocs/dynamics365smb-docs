@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,3 +42,6 @@ The **Payment History List** page displays the payment history that you just cre
 
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

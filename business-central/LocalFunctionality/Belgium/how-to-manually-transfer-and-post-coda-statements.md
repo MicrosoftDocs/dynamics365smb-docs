@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -36,3 +36,6 @@ For information about how to automatically transfer statements, see [Automatical
  [Apply CODA Statements](how-to-apply-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -53,3 +53,6 @@ The payment slips are archived.
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -69,3 +69,6 @@ Proposals can be generated manually or automatically based on either vendor or c
  [Invoice Sales](../../sales-how-invoice-sales.md)   
  [Record Purchases](../../purchasing-how-record-purchases.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

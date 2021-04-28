@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -28,15 +28,15 @@ Once this synchronization has been set up, any changes to that you make to the c
 Each of your coworkers can also set up their own Exchange synchronization and set their own filter on which contacts to synchronize.  
 
 ## Synchronize Contacts
-If you are used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], then you will find it easy to start the synchronization manually whenever it suits you from the **Contacts** list. Simply choose the **Sync with Office 365** action, and then decide if you want to change the filter that you have set up. When you choose the OK button, the synchronization starts immediately, and the latest changes are applied to your contacts in Outlook.  
+If you are used to working with contacts in [!INCLUDE[prod_short](includes/prod_short.md)], then you will find it easy to start the synchronization manually whenever it suits you from the **Contacts** list. Simply choose the **Sync with Microsoft 365** action, and then decide if you want to change the filter that you have set up. When you choose the OK button, the synchronization starts immediately, and the latest changes are applied to your contacts in Outlook.  
 
 In the **Contacts** list, you can synchronize contacts in two ways:
 
-* **Sync with Office 365**
+* **Sync with Microsoft 365**
 
   This action synchronizes all changes from [!INCLUDE[prod_short](includes/prod_short.md)] to Microsoft 365 since the previous synchronization, based on the last modified date. Any new contacts from Microsoft 365 will be synchronized back to [!INCLUDE[prod_short](includes/prod_short.md)] as well. This is typically faster than doing a full sync.  
 
-* **Full Sync with Office 365**
+* **Full Sync with Microsoft 365**
 
   This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.  
 
@@ -45,8 +45,11 @@ In both cases, contacts are only synchronized from Outlook if they have the requ
 In Outlook, the contacts from [!INCLUDE[prod_short](includes/prod_short.md)] are shown in a folder under **Other contacts** in the **People**  view. If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.  
 
 ## See Also
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Using contacts (People) in Outlook on the web](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

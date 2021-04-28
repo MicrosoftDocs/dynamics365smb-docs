@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -38,3 +38,6 @@ You can save the generated file to a specified location, or you can open the fil
 
 ## See Also  
 [Print General Ledger Reports](how-to-print-general-ledger-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

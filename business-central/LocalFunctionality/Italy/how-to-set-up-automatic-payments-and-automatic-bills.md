@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -69,3 +69,6 @@ Now, you can process customer bills and vendor bills so that they are handled au
 ## See Also  
  [Defining Payment Methods](../../finance-payment-methods.md)     
   [Italy Local Functionality](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

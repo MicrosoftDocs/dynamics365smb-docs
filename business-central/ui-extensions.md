@@ -1,26 +1,26 @@
 ---
 title: Installing Extensions to Customize Business Central
-description: Learn about adding functionality and customizing Business Central  by installing extensions.
+description: Learn about adding functionality and customizing Business Central by installing extensions.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Customizing Business Central Using Extensions
+# Customizing Business Central Online Using Extensions
 
-You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
+You can change [!INCLUDE[prod_short](includes/prod_short.md)] online by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.
 
 > [!NOTE]
-> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the D365 EXTENSION MGMT user group or you must have the D365 EXTENSION MGMT permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
+> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the D365 EXTENSION MGT user group or you must have the D365 EXTENSION MGT permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
 
 To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
 > [!IMPORTANT]  
-> The upload of per-tenant extensions and the installation of AppSource extensions is not supported through the **Extension Management** page for on-premise installations.
+> The upload of per-tenant extensions and the installation of AppSource extensions is not supported through the **Extension Management** page for on-premise installations. You cannot install AppSource extensions on-premises, including in Docker-based deployments.
 
 When you first launch [!INCLUDE[prod_short](includes/prod_short.md)], some extensions are already installed for you. Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.
 
@@ -33,7 +33,7 @@ You manage the extensions on the **Extension Management** page. You can access t
 > If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** page - if the extension is not listed there, you can install it as described in the following section.  
 
 > [!NOTE]  
-> Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)]. Use the same email account for other services and products for a smooth experience.  
+> Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)] online. Use the same email account for other services and products for a smooth experience.  
 
 You can also get to the marketplace from inside [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -73,7 +73,28 @@ Microsoft provides the following extensions:
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> New extensions are not available in AppSource immediately after we announce an update. You can keep an eye out for the extensions at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> You can keep an eye out for new extensions from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+
+
+## Extensions and data transfer
+
+As the following extensions are communicating with other services they may transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
+
+* AMC Banking 365 Fundamentals Extension
+* Image Analyzer
+* Late Payment Prediction
+* PayPal Payments Standard
+* Sales and Inventory Forecast
+* WorldPay Payments Standard
+
+This also applies to some functionality in the base application, such as the following capabilities:
+
+* Cash Flow Forecast
+* Document Exchange Service
+* Dataverse connections
+* OCR Service
+* Online Map
+* EU VAT Reg. No. Service
 
 ## See Also
 
@@ -84,6 +105,9 @@ Microsoft provides the following extensions:
 [Migrating Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up the GetAddress.io UK Postal Code extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensions by Other Providers](ui-extensions-other.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

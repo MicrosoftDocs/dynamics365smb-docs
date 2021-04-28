@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
@@ -91,4 +91,7 @@ Finally, for both online and on-premises, for very large exports with many trans
 
 ## See Also
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Getting Started](../../product-get-started.md)
+[Getting Ready for Doing Business](../../ui-get-ready-business.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

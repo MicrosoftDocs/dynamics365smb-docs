@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, service item, service order, repairs, maintenance
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -36,3 +36,5 @@ When you perform typical service, you often have to create service documents tha
 ## See Also
 
 [Service Management](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

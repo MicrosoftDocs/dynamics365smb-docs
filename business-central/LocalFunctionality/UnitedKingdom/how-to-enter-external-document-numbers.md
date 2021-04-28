@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -36,3 +36,6 @@ The following procedure explains how to specify an external document number on a
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [Sell Products](../../sales-how-sell-products.md)  
 [Purchasing](../../purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

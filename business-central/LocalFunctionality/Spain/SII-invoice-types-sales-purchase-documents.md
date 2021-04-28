@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -80,3 +80,6 @@ The following table shows the output of the various types that are used for invo
 
 [Spain Local Functionality](spain-local-functionality.md)
 [Setup and user guide for electronic VAT information under SII in the Spanish version of Dynamics NAV](https://aka.ms/SIISetup)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

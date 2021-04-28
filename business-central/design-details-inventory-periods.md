@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -31,3 +31,6 @@ Backdated transactions or cost adjustments often affect balances and stock valua
  [Managing Inventory Costs](finance-manage-inventory-costs.md)
  [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

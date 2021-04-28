@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -31,3 +31,6 @@ You can view the posted WHT entries on the **WHT Entry** page.
  [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
  [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

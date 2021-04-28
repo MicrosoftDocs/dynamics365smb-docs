@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -58,3 +58,6 @@ The email address of the contact is now inserted on the document layout line so 
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Iceland, post, invoice, credit memo
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -20,3 +20,6 @@ In Iceland, in accordance with legislation, you cannot delete sales and purchase
 
 ## See Also  
 [Invoice Sales](../../sales-how-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

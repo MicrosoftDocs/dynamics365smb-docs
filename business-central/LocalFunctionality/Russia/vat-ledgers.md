@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -50,3 +50,6 @@ These marked documents will be reflected in the purchase book or in the sales bo
 [Create VAT Ledgers](How-to-Create-VAT-Ledgers.md)  
 [Create Additional Sheets](How-to-Create-Additional-Sheets.md)  
 [Posting VAT on Sales](Posting-VAT-on-Sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

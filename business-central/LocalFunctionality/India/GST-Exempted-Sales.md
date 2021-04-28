@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST Exempted Sales
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Sales made to an exempted customer are known as exempt sales. GST customer type shall be selected as Exempted. No GST is computed on such transactions. 
 
@@ -52,6 +51,8 @@ For example, there is a sales invoice and a sales credit memo for INR 10,000.
 
 
 
+## See Also 
+[Sale to Registered and Unregistered Customer](GST-Sale-to-Registered-Unregistered-Customer.md)
 
 
 
@@ -82,3 +83,5 @@ For example, there is a sales invoice and a sales credit memo for INR 10,000.
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

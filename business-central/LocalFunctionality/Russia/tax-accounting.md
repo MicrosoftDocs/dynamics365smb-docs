@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -53,3 +53,6 @@ Transactions are processed using specific tax accounting principles that are app
 [Tax Differences](Tax-Differences.md)  
 [Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md)  
 [Upload KLADR](Upload-KLADR.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

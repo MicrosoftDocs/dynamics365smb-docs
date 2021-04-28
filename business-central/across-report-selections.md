@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -64,3 +64,6 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

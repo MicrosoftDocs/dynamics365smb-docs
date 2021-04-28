@@ -7,7 +7,7 @@
     ms.topic: conceptual
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/14/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -55,3 +55,6 @@ You set up different aspects of workflow notifications in the following places:
 [Set up Email](admin-how-setup-email.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

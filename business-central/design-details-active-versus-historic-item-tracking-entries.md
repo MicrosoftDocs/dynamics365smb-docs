@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -58,3 +58,6 @@ When parts of a document line quantity are posted, only that particular quantity
 ## See Also  
  [Design Details: Item Tracking](design-details-item-tracking.md)   
  [Design Details: Item Tracking Lines Page](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

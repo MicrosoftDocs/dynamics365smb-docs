@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 # Managing Marketing Campaigns
@@ -46,3 +46,6 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Working with Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

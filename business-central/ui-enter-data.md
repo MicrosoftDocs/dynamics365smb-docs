@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 
@@ -238,34 +238,9 @@ The following table lists the various ways in which times can be entered and how
 
  You enter two digits for each unit of time if you don't enter a separator.  
 
-## Entering Datetimes
+## Entering Combined Datetimes
 
-When you enter datetimes, you must enter a space between the date and the time.  
-
-The following table lists the various ways in which you can enter datetimes and how they're interpreted.  
-
-|Entry|Interpretation|  
-|---------------|------------------------|  
-|`131202` 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-current month-current year 12:00:00|  
-|1112 12|11-12-current year 12:00:00|  
-|t or today|today's date 00:00:00|  
-|t time|today's date actual time|  
-|t 10:30|today's date 10:30:00|  
-|t 3:3:3|today's date 03:03:03|  
-|w or workdate|the working date 00:00:00|  
-|m or Monday|Monday of the current week 00:00:00|  
-|tu or Tuesday|Tuesday of the current week 00:00:00|  
-|we or Wednesday|Wednesday of the current week 00:00:00|  
-|th or Thursday|Thursday of the current week 00:00:00|  
-|f or Friday|Friday of the current week 00:00:00|  
-|s or Saturday|Saturday of the current week 00:00:00|  
-|su or Sunday|Sunday of the current week 00:00:00|  
-|tu 10:30|Tuesday of the current week 10:30:00|  
-|tu 3:3:3|Tuesday of the current week 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## Entering Duration
 
@@ -291,3 +266,6 @@ Here are some examples.
 ## See Also  
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

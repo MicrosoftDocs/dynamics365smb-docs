@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -35,3 +35,6 @@
 
 [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
 [Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

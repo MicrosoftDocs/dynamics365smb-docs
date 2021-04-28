@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, supply, planning, reordering, replenishment
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ It explains how the planning system works and how to adjust the algorithms to me
 [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
 [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

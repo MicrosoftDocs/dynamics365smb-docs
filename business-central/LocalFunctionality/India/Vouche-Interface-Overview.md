@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 
 # Overview of Voucher Interface
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 Business Central has included Voucher Interface Feature to Indian Localization.
 
@@ -30,7 +30,7 @@ Feature required to provide the voucher interface as per Indian business require
 - Cash Payment Voucher - Used for transactions that will credit the Cash Account.
 - Contra Voucher - Entries which are affecting the Cash and Bank Account together, are termed as Contra Vouchers. For example, Withdrawal from bank.
 
-## Setting Up Voucher Interface
+## Setting up voucher interface
 
 ### The following setups are required for voucher interface
 
@@ -109,3 +109,15 @@ Voucher setup is done to define the type of voucher, related transaction directi
       |**Type**|Specifies the structure and functions of the journal page, i.e. Cash Receipt Voucher, Bank Payment Voucher etc.| 
       |**Posting No. Series**|Identifies the document number used to assign to ledger entries posted from journal batches created using this type.|
       |**Transaction Direction**|Specifies the direction of the transaction, if debit then select the type and account number in **Debit Account** else in **Credit Account**.|
+
+
+
+
+## See Also 
+[Voucher Interface Transaction](Voucher-Interface-Transactions.md)
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

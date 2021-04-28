@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ You can add VAT setup information to journal lines if needed in the British vers
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

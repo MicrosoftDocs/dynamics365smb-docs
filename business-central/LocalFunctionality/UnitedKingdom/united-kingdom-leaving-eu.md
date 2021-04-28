@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
-ms.date: 01/01/2021
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
@@ -69,3 +69,6 @@ If you have questions regarding the localization of [!INCLUDE[prod_short](../../
 ## See Also
 
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

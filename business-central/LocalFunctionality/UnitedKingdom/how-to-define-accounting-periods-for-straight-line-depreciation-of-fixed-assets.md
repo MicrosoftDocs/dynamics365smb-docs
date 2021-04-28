@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ You can define 13 accounting periods to calculate straight line depreciation. Yo
 ## See Also  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)   
 [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
 ---
 
@@ -35,3 +35,6 @@ The following table describes the information provided for each table:
 
 [Inspecting Pages](across-inspect-page.md)  
 [Performance Articles For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

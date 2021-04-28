@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -44,3 +44,6 @@ With electronic banking, you can make electronic payments to domestic, internati
  [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
  [Print Payment Files](how-to-print-payment-files.md)
  [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

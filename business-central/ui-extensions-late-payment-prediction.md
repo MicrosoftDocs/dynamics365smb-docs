@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -104,6 +104,9 @@ You can also create your own predictive web service based on a public model name
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
 ## See Also  
-[Azure Machine Learning Studio Documentation](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

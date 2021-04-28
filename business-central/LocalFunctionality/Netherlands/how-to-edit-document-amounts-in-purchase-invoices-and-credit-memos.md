@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ If you use the **Get Recurring Purchase Lines** action to insert lines based on 
 ## See Also  
 [Create Recurring Sales and Purchase Lines](../../sales-how-work-standard-lines.md)   
 [Netherlands Local Functionality](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

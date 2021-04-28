@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -29,3 +29,6 @@ Before posting a purchase invoice or credit memo, application checks if the amou
 
 ## See Also  
  [Set Up Validation of Purchase Amounts](how-to-set-up-validation-of-purchase-amounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

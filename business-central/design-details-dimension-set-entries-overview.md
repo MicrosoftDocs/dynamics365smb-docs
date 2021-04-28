@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: dimension
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,7 +42,10 @@ Codeunit 408, Dimension Management, is a function library that handles common ta
 ## Performance Improvement  
 By storing dimension sets once in the database, database space is preserved and overall performance is improved.  
 
-## See Also  
+## See Also
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
 [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

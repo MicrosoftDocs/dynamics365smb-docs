@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -33,3 +33,6 @@ When the period is fiscally closed, the Fiscally Closed field is selected, and t
  [Fiscally Close Years](how-to-fiscally-close-years.md)   
  [Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
  [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

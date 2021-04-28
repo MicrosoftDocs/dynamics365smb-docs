@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 GST is destination based tax i.e consumption tax, which means tax will be levied where goods and services are consumed and will accrue to that state.  The supply of goods or services or both when the supplier is located in India and the place of supply is outside India shall be treated to be a supply of goods or services or both in the course of inter-state trade or commerce. 
 
@@ -60,6 +59,8 @@ For example, there is a sales credit memo for INR 10,000 and 18% IGST has to be 
 
 
 
+## See Also 
+[Sale Return from Registered and Unregistered Customer](GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 
 
 
@@ -86,3 +87,5 @@ For example, there is a sales credit memo for INR 10,000 and 18% IGST has to be 
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

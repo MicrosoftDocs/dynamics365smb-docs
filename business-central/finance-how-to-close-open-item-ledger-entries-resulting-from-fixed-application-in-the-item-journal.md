@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/14/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,3 +42,6 @@ The following procedure shows how to close such entries by performing two correc
 [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

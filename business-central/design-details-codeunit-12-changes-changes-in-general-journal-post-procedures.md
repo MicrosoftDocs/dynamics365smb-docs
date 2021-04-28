@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/28/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -187,3 +187,6 @@ The following changes have been implemented in versions of [!INCLUDE [navnow_md]
 
 ## See Also  
  [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

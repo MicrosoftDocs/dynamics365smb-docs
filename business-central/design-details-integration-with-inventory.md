@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -44,3 +44,5 @@ The Warehouse Management application area and the Inventory application area int
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -45,3 +45,6 @@ The proposal lines populate on the **Telebank Proposal** page.
 ## See Also  
  [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
  [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

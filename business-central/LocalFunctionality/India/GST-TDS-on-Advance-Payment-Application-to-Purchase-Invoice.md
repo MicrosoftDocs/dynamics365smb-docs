@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # GST and TDS on Vendor Advance Payments
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Liability of paying GST and TDS arises at the time of advance payment to vendor.
 
@@ -110,6 +109,8 @@ GST and TDS will be calculated on the remaining amount, i.e. Invoice Amount - Ad
 
 
 
+## See Also 
+[GST on Journals](GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
 
 
 
@@ -136,3 +137,5 @@ GST and TDS will be calculated on the remaining amount, i.e. Invoice Amount - Ad
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

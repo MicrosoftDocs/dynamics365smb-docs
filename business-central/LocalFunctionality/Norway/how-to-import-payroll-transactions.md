@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -30,3 +30,6 @@ You can import payroll transactions into a general journal from the leading Norw
 
 [The Payroll Data Definitions (NO) Extension](ui-extensions-payroll-data-definitions-no.md)  
 [Norway Local Functionality](norway-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

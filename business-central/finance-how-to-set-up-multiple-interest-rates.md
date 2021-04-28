@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -33,3 +33,6 @@ When you issue a finance charge memo, the memo shows the finance charges with mu
 ## See Also  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Setting Up Finance](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

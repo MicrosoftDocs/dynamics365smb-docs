@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -22,3 +22,6 @@
 ## See Also  
  [Finland Local Functionality](finland-local-functionality.md)   
  [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

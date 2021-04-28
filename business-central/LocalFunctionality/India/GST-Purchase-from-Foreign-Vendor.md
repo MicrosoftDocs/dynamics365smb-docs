@@ -10,12 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 ---
 # Import from Foreign Vendor
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Purchasing goods in India from a place outside India is import of goods. For services, if the supplier is located outside India, the recipient is located in India and the place of supply is in India, then it is called Import of services. Purchase of goods and/or services from a foreign vendor is subject to reverse charge i.e. the person importing goods or services has to remit tax to the government. 
 
@@ -151,3 +150,17 @@ For example, purchase invoice is issued for INR 10000, (IGST @18%) has to be cha
 > [!NOTE]
 >
 > Import Transaction should be in Foreign Currency.
+
+
+
+
+## See Also 
+[Purchase from Vendor with Overseas Place of Supply](GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

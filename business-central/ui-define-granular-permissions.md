@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -258,5 +258,8 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes th
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
-[Add Users to Microsoft 365 for business](https://aka.ms/CreateOffice365Users)  
+[Add Users to Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
 [Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

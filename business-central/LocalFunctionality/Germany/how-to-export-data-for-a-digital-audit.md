@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -41,3 +41,6 @@ If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.m
 
 ## See Also  
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

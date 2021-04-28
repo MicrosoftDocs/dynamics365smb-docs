@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -49,3 +49,6 @@ The OCR payment files are posted to the cash receipt journal.
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [Work With General Journals](../../ui-work-general-journals.md)   
  [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

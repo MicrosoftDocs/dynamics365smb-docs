@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -68,3 +68,6 @@ The following table lists the fields in [!INCLUDE[prod_short](includes/prod_shor
 [Exchanging Data Electronically](across-data-exchange.md)
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

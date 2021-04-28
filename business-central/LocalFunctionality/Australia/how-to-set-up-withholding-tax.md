@@ -9,7 +9,7 @@
  ms.tgt_pltfrm: na
  ms.workload: na
  ms.search.keywords:
- ms.date: 10/01/2020
+ ms.date: 04/01/2021
  ms.author: edupont
 
 ---
@@ -38,3 +38,6 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)  
 [Withholding Tax](withholding-tax.md)  
 [Australian Taxation Office (ATO)](https://www.ato.gov.au/)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

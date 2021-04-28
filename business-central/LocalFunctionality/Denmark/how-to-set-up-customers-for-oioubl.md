@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -39,3 +39,6 @@ To create Offentlig Information Online UBL (OIOUBL) documents for customers in t
 [Set Up OIOUBL](how-to-set-up-oioubl.md)   
 [Create Electronic Documents by Using OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

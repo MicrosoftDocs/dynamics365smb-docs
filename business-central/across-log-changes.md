@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -18,6 +18,11 @@ A common challenge in many business management applications is avoiding unwanted
 
 ## About the Change Log 
 The change log lets you track all direct modifications a user makes to data in the database. You must specify each table and field that you want the system to log, and then you must activate the change log.  
+
+Tracking changes can impact performance, which can cost you time, and increase the size of your database, which might cost you money. To reduce those costs, consider the following:
+- Use caution when choosing the tables and operations.
+- Do not add ledger entries and posted documents. Instead, prioritize system fields such as Created By and Created Date.
+- Do not use the All Fields tracking type. Instead, choose Some Fields and track only the most important fields.
 
 The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify.
 
@@ -84,3 +89,5 @@ You can create retention policies to delete unneeded data in logs after a period
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Define Retention Policies](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

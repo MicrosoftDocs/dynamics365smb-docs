@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -70,3 +70,6 @@ In the United Kingdom, all vendors must export the data required for auditing in
 [Working with Reports, Batch Jobs, and XMLports](../../ui-work-report.md)  
 [Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

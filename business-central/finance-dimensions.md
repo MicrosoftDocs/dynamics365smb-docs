@@ -1,17 +1,15 @@
 ---
-title: Work with Dimensions| Microsoft Docs
-description: You use dimensions to categorize entries, for example, by department or project, so you can easily track and analyze data.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Working with Dimensions to Track and Analyze Data Easily
+description: You use dimensions to categorize entries, for example by department or project, so you can easily track and analyze data to help you make good business decisions.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, history, track
-ms.date: 10/01/2020
+ms.search.keywords: analysis, history, track, business intelligence
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -32,6 +30,9 @@ Dimensions play an important role in business intelligence, such as when definin
 
 > [!TIP]
 > A quick way to analyze transactional data by dimensions is to use the **Set Dimension Filter** action filter totals by dimensions in the chart of accounts and on pages for entries.
+
+> [!NOTE]
+> Analysis views often use data from dimensions. If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. That will help keep your financial reports and analyses accurate. For more information, see [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## Dimension Sets
 <!--we describe what they are, but not their value.-->
@@ -203,26 +204,6 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 >  The **Ledger Entry Dimensions** page displays the dimensions for one ledger entry at a time. As you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## Troubleshooting Dimensions Errors
-When you post documents or journal lines that contain dimensions, various errors may occur that are typically related to wrong dimension setup or assignment.
-
-> [!NOTE]
-> In the following list of potential error messages, the *%X* codes are placeholders for the data variables that the actual message will contain in the UI depending on the context. For example, *%1 %2 is blocked.* could appear in the UI as "Dimension Code AREA is blocked.".  
-
-|Issue|Error Message|Possible Solution|
-|-----|-------------|-----------------|
-|Blocked dimension|%1 %2 is blocked.|-Find non-posted documents containing the dimension set with the blocked dimension and unblock it.<br />-Remove the dimension set line for the blocked dimension.|
-|Deleted dimension|%1 %2 can't be found.|-Restore the missing dimension.<br />-Find non-posted documents containing the dimension set with the missing dimension and add it.<br />-Remove the dimension set line for the missing dimension.|
-|Blocked dimension value|%1 %2 - %3 is blocked.|-Find non-posted documents containing the dimension set with the blocked dimension value and unblock it.<br />-Remove the dimension set line for the blocked dimension value.|
-|Deleted dimension value|	%1 for %2 is missing.|-Restore the missing dimension value.<br />-Find non-posted documents containing the dimension set with the missing dimension value and add it.<br />-Remove the dimension set line for the missing dimension value.|
-|Disallowed dimension value|Dimension Value Type for %1 %2 - %3 must not be %4.|-Change the **Dimension Value Type** field on the **Dimension Values** page to **Standard** or **Begin-Total**.<br />-Remove the dimension set line for the blocked dimension value.|
-|Blocked dimension combination|Dimensions %1 and %2 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension combination.|
-|Blocked dimension value Combination|Dimension combinations %1 - %2 and %3 - %4 can't be used concurrently.|-Find non-posted documents containing the dimension set with the blocked dimension value combination and unblock it.<br />-Modify one of the conflicting permission set line for the dimension value combination.|
-|Blank dimension value code for default dimension where the **Value Posting** field contains **Code Mandatory**|-Select a %1 for the %2 %3.<br />-Select a %1 for the %2 %3 for %4 %5.|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter a non-blank dimension value for the conflicting dimension in the dimension set.|
-|Wrong dimension value code for default dimension where the **Value Posting** field contains **Same Code**|-Select %1 %2 for the %3 %4.<br />-Select %1 %2 for the %3 %4 for %5 %6|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter the required dimension value for the conflicting dimension in the dimension set.|
-|Non-blank dimension value code for blank default dimension where the **Value Posting** field contains **Same Code**|-%1 %2 must be blank.<br />-%1 %2 must be blank for %3 %4.|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Enter a blank dimension value code for the conflicting dimension in the dimension set.|
-|Unexpected dimension value for default dimension where the **Value Posting** field contains **No Code**|-%1 %2 must not be mentioned.<br />-%1 %2 must not be mentioned for %3 %4|-Change the **Value Posting** field on the **Default Dimension** page.<br />-Remove the conflicting line from the dimension set.|
-
 ## See Related Training at [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## See Also
@@ -230,3 +211,6 @@ When you post documents or journal lines that contain dimensions, various errors
 [Finance](finance.md)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: na
 ms.topic: conceptual
 ---
@@ -58,3 +58,6 @@ If a contact person's age is below the age of legal consent according to the law
 [Exporting your Business Data to Excel](about-export-data.md)  
 [Logging Changes](across-log-changes.md)  
 [Data Subject Requests for the GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

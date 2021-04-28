@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 11/17/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 # Set Up Payment Terms in the Italian Version
@@ -42,3 +42,6 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 [Set Up Payment Terms in the Italian Version](../../finance-payment-terms.md)  
 [Defining Payment Methods](../../finance-payment-methods.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

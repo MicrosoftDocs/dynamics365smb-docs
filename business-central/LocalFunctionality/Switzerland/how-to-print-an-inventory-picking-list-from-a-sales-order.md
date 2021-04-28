@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -36,3 +36,6 @@ The picking list includes only those items with a shipping quantity greater than
 
 [Swiss Purchase Documents and Sales Documents](swiss-purchase-documents-and-sales-documents.md)  
 [Import Swiss Post Codes](how-to-import-swiss-post-codes.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

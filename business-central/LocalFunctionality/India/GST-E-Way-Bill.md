@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # E-Way Bill
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 An electronic way bill or e-Way Bill is essential for the transport of goods that are worth more than INR 50,000. There are also some goods for which an e-way bill is essential even if the amount does not exceed INR 50,000. E-Way Bill Template is designed to meet the formats or requirements provided by government. 
 
@@ -44,5 +43,9 @@ An electronic way bill or e-Way Bill is essential for the transport of goods tha
      |**Source No.**|Specify the relevant source number.|
 
 
+## See Also 
+[GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md)
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

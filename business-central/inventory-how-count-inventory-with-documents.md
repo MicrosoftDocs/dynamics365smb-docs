@@ -1,6 +1,6 @@
 ---
-title: Count Inventory With Document-Based Functionality
-description: Describes how to perform physical inventory counting using the Physical Order Inventory and Physical Inventory Recording pages.
+title: Count and Adjust Inventory
+description: Describes how to perform physical inventory counting using the Physical Inventory Orders and Physical Inventory Recording pages and make negative or positive adjustments with inventory documents.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Count Inventory Using Documents
+# Count and Adjust Inventory Using Documents
 
-You can take a physical inventory of your items by using physical inventory order and physical inventory recording documents. The **Physical Inventory Order** page is used to organize the complete inventory counting project, for example one per location. The **Physical Inventory Recording** page is used by to communicate and capture the actual counting of items. You can create multiple recordings for one order, for example to distribute groups of items to different employees.
+You can take a physical inventory of your items by using physical inventory order and physical inventory recording documents. The **Physical Inventory Order** page is used to organize the complete inventory counting project, for example one per location. The **Physical Inventory Recording** page is used to communicate and capture the actual count of items. You can create multiple recordings for one order, for example to distribute groups of items to different employees.
 
 The **Physical Inventory Recording** report can be printed from each recording and contains empty quantity fields for entering the counted inventory. When a user is done counting, and the quantities are entered on the **Physical Inventory Recording** page, you choose the **Finish** action. This transfers the quantities to the related lines on the **Physical Inventory Order** page. Functionality ensures that no item count can be recorded twice.  
 
 > [!NOTE]
-> This article describes how to perform a physical inventory using documents, a method that provides more control and supports distributing the counting to multiple employees. You can also perform the task by using journals, such as the **Phys. Inventory Journals** and **Whse. Phys. Inventory Journals** pages. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Note that if you use the Zones functionality, then you cannot use physical inventory orders. Instead, use **Whse. Phys. Inventory Journal** page to count your warehouse entries before synchronizing them with item ledger entries.
+> Using documents to perform a physical inventory provides more control and supports distributing the counting to multiple employees. You can also perform the task by using journals, such as the **Phys. Inventory Journals** and **Whse. Phys. Inventory Journals** pages. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md). This article describes how to perform a physical inventory using documents.
+>
+> If you are using zones, then you cannot use physical inventory orders. Instead, use the **Whse. Phys. Inventory Journal** page to count your warehouse entries before synchronizing them with item ledger entries.
 
 Counting inventory by using documents consist of the following overall steps:
 
@@ -73,7 +74,6 @@ In case of manual counting, you can print a list, the **Phys. Invt. Recording** 
 9. Choose the **Print** action to prepare the physical document that employees will use to write down the counted quantities.
 
 ## To finish a physical inventory recording
-
 When employees have counted the inventory quantities, you must prepare to record them in the system.
 
 1. From the **Phys. Inventory Recording List** page, select the physical inventory recording that you want to finish, and then choose the **Edit** action.
@@ -181,8 +181,52 @@ A lot-tracked item is stored in inventory with the "LOT" number series.
 
 On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field will contain *8*. For the order line in question, the **Phys. Invt. Item Track. List** page will contain the positive or negative quantities for the individual lot numbers.
 
-## See Also
+## Inventory Documents
+The following types of documents are useful for managing your warehouse:
 
+- Use **Inventory receipts** to register positive adjustments of items based on the quality, quantity, and cost.
+- Use **Inventory shipments** to write off missing or damaged goods.
+
+You can print these documents at any stage, release and reopen them, and assign common values, including dimensions, in the header. If you want to reprint the documents after they have been posted, you can do that on the **Posted Inventory Receipt** and **Posted Inventory Shipment** pages.
+
+> [!NOTE]
+> Before you can use these documents you must specify a number series to create their identifiers. For more information, see the next section.
+
+### To set up numbering for inventory documents
+The following procedure shows how to set up numbering for inventory documents.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
+2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
+   - **Inventory Receipt Nos.**  
+   - **Posted Inventory Receipt Nos.**  
+   - **Inventory Shipment Nos.**  
+   - **Posted Inventory Shipment Nos.**  
+
+### To create and post an inventory document
+The following procedure shows how to create, print, and post an inventory receipt. The steps are similar for inventory shipments.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Receipts**, and then choose the related link.  
+2. In the header of the **Inventory Receipt** page, choose the location in the **Location Code** field, and then fill in the remaining fields as necessary.
+3. On the **Lines** FastTab, in the **Item** field, choose the inventory item. In the **Quantity** field, enter the number of items to add. 
+4. To print an **Inventory Receipt** report from the **Inventory Receipt** page, choose the **Print** action.
+
+The following functions are available on the **Inventory Receipt** page:
+
+- Choose the **Release** or **Reopen** actions to set the status for the next processing stage  
+- Choose the **Post** action to post the inventory receipt, or choose **Post and Print** to post the receipt and print the test report  
+
+## Printing Inventory Documents
+You can specify the reports that must be printed at different stages by choosing one of the following options in **Usage** field the **Report Selection - Inventory** page:
+
+- Inventory Receipt
+- Inventory Shipment
+- Posted Inventory Receipt
+- Posted Inventory Shipment
+
+> [!NOTE]
+> The available reports may vary based on your country's localization. The base application doesn't include any layouts.
+
+## See Also
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)  
@@ -190,3 +234,6 @@ On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field will co
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

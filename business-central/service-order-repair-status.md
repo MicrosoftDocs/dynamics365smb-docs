@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/15/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -48,3 +48,6 @@ Repeat these steps for each of the repair status options you want to create.
 
 [Service Order Status and Repair Status](service-service-order-status-and-repair-status.md)  
 [Setting Up Service Management](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

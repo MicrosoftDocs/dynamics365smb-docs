@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
@@ -30,3 +30,6 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 ## See Also
 [Set Up the GetAddress.io UK Postal Code Extension](uk-setup-postal-code-service.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

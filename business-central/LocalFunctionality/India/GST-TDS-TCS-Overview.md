@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Setup for GST TDS and GST TCS 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 This topic explains the requirement and the process of setting up GST TDS and GST TCS.
 
@@ -40,16 +39,20 @@ The calculation of GST TCS is provided on Bank or Cash Payment and Receipt Vouch
 
 This setup is required for calculation of GST TDS and GST TCS on payment to vendor or receipt from customer.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST TDS/TCS Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type**-> **GST TDS TCS**-> **Action** -> **Tax Rates**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
-    |---------------------------------|  ---------------------------------------| 
-    |**Type**|Specify the relevant type, for example: TDS, TCS.|
-    |**GST Component**|Specify the relevant GST component, for example: CGST, SGST, IGST etc.|
+    |---------------------------------|  ---------------------------------------|
+    |**GST TDS TCS Type**|Specify the relevant type, for example: TDS, TCS.|
     |**GST Effective Date**|Specify the effective date.|
-    |**GST TDS/TCS %**|Specify the relevant TDS or TCS percentage.|
-    |**GST Jurisdiction**|Specify the relevant jurisdiction type.|
+    |**CGST**|Specify the relevant percentage for component CGST.|
+    |**SGST**|Specify the relevant percentage for component SGST.|
+    |**IGST**|Specify the relevant percentage for component IGST.|
+
+
+## See Also 
+[GST TCS on Payment](GST-TCS-on-Payment.md)
 
 
 
@@ -70,4 +73,4 @@ This setup is required for calculation of GST TDS and GST TCS on payment to vend
 
 
 
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -32,3 +32,6 @@ If multiple shipments have been posted for a customer, then you can create a com
 ## See Also  
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
  [Set Up Locations](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 
 ---
 # TDS for Customer 
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the process of calculating TDS on customer payments.
 
@@ -70,10 +70,32 @@ TDS certificate will be receivable from customer on receiving the advance paymen
     |**Bank Account**|49000|
 
 
-#### TDS Certificate is receivable against payment received from customer or against customer sales invoice
+#### TDS certificate is receivable against payment received from customer or against customer sales invoice
 
 It is required to identify the payment or invoice transaction against which TDS certificate is receivable while receiving the payment from customer who has deducted TDS or issuing the sales invoice on which TDS has been deducted, it is required to identify the payment or invoice transaction against which TDS certificate is receivable.
 
 1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Cash Receipt Journal**, **Bank Receipt Voucher**, **Cash Receipt Voucher** or **Sales Invoice**, and then choose the related link.
 2. **TDS Certificate Receivable** should be marked true on **Journal** line or **Sales Invoice** header.
 3. **TDS Certificate Receivable** identification will flow into Customer Ledger Entry on posting of the document.
+
+
+
+
+
+
+## See Also 
+[TDS Certificate Update](TDS-Certificate-Update.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

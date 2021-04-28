@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,3 +42,6 @@ The **Suggest Domiciliations** batch job creates domiciliation suggestions for a
  [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md)   
  [Test Domiciliations](how-to-test-domiciliations.md)   
  [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -55,3 +55,6 @@ The following procedure shows how to create a Letter of Attorney.
 ## See Also
 
 [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

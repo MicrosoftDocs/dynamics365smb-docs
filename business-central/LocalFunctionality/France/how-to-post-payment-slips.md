@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -37,3 +37,6 @@ The payment slip is posted.
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

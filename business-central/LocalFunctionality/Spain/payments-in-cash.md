@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -40,3 +40,6 @@ You use the **Make 340 Declaration** batch job to report 340 payments in cash de
 ## See Also  
 [Managing Receivables](../../receivables-manage-receivables.md)     
  [Report 340](report-340.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

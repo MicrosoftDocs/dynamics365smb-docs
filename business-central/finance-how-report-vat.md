@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -118,3 +118,6 @@ The following table describes the codeunits that you must create for your report
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

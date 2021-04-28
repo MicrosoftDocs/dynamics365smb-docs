@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/21/2021
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -99,3 +99,6 @@ After you have set up the reminder terms, with additional levels and text, enter
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Setting Up Finance](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

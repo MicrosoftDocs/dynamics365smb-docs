@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -66,3 +66,6 @@ A new allocation entry that contains the new resource is created that has the st
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,14 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 
 # GST on Advance Payment Received from Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 The advance payments received from the customers may need to be reported in GSTR-1 along with GST Rates.
 
@@ -72,6 +71,8 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 
 
 
+## See Also 
+[GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 
 
 
@@ -107,3 +108,5 @@ If the customer advance needs to be corrected or the entry is wrongly posted, in
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

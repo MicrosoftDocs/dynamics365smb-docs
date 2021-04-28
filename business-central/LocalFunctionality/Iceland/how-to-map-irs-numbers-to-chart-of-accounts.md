@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -35,3 +35,6 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 
 ## See Also  
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

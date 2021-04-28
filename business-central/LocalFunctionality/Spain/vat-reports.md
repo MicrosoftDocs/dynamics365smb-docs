@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -48,3 +48,6 @@ With VAT-VIES declaration you can run a batch file to generate European Union (E
  [Spain Local Functionality](spain-local-functionality.md)   
  [Report 340](report-340.md)   
  [Report 347](report-347.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

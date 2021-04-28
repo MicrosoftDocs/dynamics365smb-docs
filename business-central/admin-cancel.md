@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -37,8 +37,11 @@ User accounts and licenses are managed in the [Microsoft 365 admin center](https
 If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher, you can quite simply unpin it. This does not remove any data, and it does not cancel your subscription.  
 
 ## See Also
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Creating New Companies](about-new-company.md)  
 [Exporting Your Business Data to Excel](about-export-data.md)  
 [Microsoft 365 admin center](https://admin.microsoft.com/)  
 [How long is the trial period and how do I cancel?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -56,3 +56,6 @@ For example, the VAT rate posted in the journal is defined by the setup that you
 
 ## See Also  
  [Norwegian VAT Codes](norwegian-vat-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

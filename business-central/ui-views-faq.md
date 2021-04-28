@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: mikebc
 
 ---
@@ -110,3 +110,6 @@ Expressions that only use symbols, such as `|` or `..` are considered safe for u
 [Save and Personalize List Views](ui-views.md)  
 [Finding Features and Information](ui-search.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

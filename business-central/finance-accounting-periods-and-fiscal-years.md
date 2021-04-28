@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -66,3 +66,6 @@ Although a fiscal year is closed, you can still post general ledger entries to i
 [Closing the Books](year-close-books.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [How to Work with Account Schedules](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

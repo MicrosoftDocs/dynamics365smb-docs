@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -35,3 +35,6 @@ The following table describes the options for blocking customers.
 [Register New Customers](sales-how-register-new-customers.md)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -33,3 +33,6 @@ When you create a new customer or vendor in [!INCLUDE[prod_short](../../includes
 
 ## See Also  
  [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

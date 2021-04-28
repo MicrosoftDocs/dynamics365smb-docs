@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, cost, service order
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -53,3 +53,5 @@ Before you can work with contracts, you must set up the following:
 
 ## See Also
 [Setting Up Service Management](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

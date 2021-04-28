@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -50,3 +50,6 @@ You can open or save the generated XML file. You can now submit the VAT statemen
 ## See Also  
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Business Central Learning Catalog
 description: Business Central Learning Catalog
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
 ---
@@ -72,3 +72,6 @@ Find the right online training, in person workshops, and events for your role as
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

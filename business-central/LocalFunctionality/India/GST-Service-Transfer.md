@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Service Transfer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Service transfers between locations, branches or divisions having different registration numbers are taxable under GST. In such a case, if services transferred within the state from one location to another, then CGST and SGST/UTGST will be levied, other-wise, where the registration number is same, there shall be no levy. Service transferred from one state to another state, then IGST will be levied.
 
@@ -76,6 +75,8 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
 
 
 
+## See Also 
+[GST Stock Transfer](GST-Stock-Transfer.md)
 
 
 
@@ -110,3 +111,5 @@ For example, service for INR 10000 is being transferred on which 18% GST (9% CGS
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

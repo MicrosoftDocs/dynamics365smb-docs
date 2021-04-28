@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -54,3 +54,6 @@ You must submit periodic reports to the tax authorities to list all transactions
  [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

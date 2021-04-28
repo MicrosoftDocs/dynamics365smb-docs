@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -22,3 +22,6 @@ The user can define the http service address and other exchange rate update para
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

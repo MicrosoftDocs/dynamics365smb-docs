@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -29,3 +29,6 @@ When posting the journal lines, the system will check if all the **Description**
 [Apply Customer Payments Manually](../../receivables-how-apply-sales-transactions-manually.md)  
 [Create an Audit File for the Tax Authority](how-to-create-an-audit-file-for-the-tax-authority.md)  
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

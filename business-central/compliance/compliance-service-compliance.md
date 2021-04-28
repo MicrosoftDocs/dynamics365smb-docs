@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.reviewer: edupont
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: soalex
 
 ---
@@ -35,3 +35,6 @@ If you are interested in the complete list of compliance offerings from Microsof
 [Certifications](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

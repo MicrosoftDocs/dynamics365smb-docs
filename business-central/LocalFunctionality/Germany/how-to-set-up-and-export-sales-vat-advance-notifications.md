@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: soalex
 
 ---
@@ -66,3 +66,6 @@ To create valid sales VAT advance notifications, you must set up the following:
 [VAT Reporting](vat-reporting.md)  
 [Germany Local Functionality](germany-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

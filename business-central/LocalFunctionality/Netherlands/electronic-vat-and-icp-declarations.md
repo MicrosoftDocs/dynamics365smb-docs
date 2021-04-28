@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -105,3 +105,6 @@ When a response message is imported, it must be processed by validating its cont
 [Set Up VAT Categories](how-to-set-up-vat-categories.md)  
 [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)  
 [Netherlands Local Functionality](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

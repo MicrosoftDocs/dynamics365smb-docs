@@ -41,16 +41,30 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics365smb-docs",
       "feedback_product_url": "https://experience.dynamics.com/ideas/categories/?forum=e288ef32-82ed-e611-8101-5065f38b21f1&forumName=Dynamics%20365%20Business%20Central",
-      "searchScope": ["Dynamics 365", "BusinessCentral"],
+      "searchScope": [
+        "dynamics365-bc-app",
+        "Dynamics 365",
+        "BusinessCentral"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Business Central",
       "search.app": "businesscentral",
       "search.audienceType": "enduser, admin",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
       "ms.service": "dynamics365-business-central",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "recommendations": "true"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope":{ 
+	  "fa-**.md": ["dynamics365-bc-app","fixed asset","depreciation","BusinessCentral"], 
+	  "bank**.md": ["dynamics365-bc-app","Dynamics365","bank","banking","BusinessCentral"], 
+	  "bi**.md": ["dynamics365-bc-app","Dynamics365","report","analysis","dimensions","BusinessCentral"], 
+	  "finance**.md": ["dynamics365-bc-app","Dynamics365","finance","financials","general ledger","cost accounting","BusinessCentral"], 
+	  "inventory**.md": ["dynamics365-bc-app","Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
+	  "across-how-to-**workflow**.md": ["dynamics365-bc-app","Dynamics365","workflow","approval","BusinessCentral"], 
+	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"], 
+      }
+    },
     "template": [],
     "dest": "d365businesscentral",
     "markdownEngineName": "markdig"

@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ Before you can run the **Close Income Statement** batch job, you must close the 
 ## See Also
 
 [Fiscally Close Years](how-to-fiscally-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

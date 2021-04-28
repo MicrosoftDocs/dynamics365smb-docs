@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: costing methods, costing, item cost
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -180,3 +180,6 @@ We recommend the following:
 
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Overview](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

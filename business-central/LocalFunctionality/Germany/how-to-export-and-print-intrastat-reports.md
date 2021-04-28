@@ -1,6 +1,6 @@
 ---
-    title: How to Export and Print Intrastat Reports
-    description: Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries.
+    title: Export and Print Intrastat Reports (DE)
+    description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -59,3 +59,6 @@ The Intrastat information is exported, and you can either save the data to a fil
 ## See Also  
  [VAT Reporting](vat-reporting.md)  
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

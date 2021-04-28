@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ The following procedure describes how to set up product posting groups for WHT, 
 [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)   
 [Calculate and Post Withholding Tax Settlements](how-to-calculate-and-post-withholding-tax-settlements.md)   
 [Withholding Tax](withholding-tax.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -41,3 +41,6 @@ The payments information is imported to the journal lines. The payments are auto
 ## See Also  
  [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)   
  [Print ESR Invoices](how-to-print-esr-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

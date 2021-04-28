@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -74,3 +74,6 @@ The value in the **Exchange Rate** field on the **Currencies** page is updated w
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

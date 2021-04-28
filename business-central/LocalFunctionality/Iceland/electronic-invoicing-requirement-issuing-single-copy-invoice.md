@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -24,3 +24,6 @@ On the standard posted invoices (invoice and credit memo), legal text is inserte
 ## See Also
 
 [Setting Up Sales](../../sales-setup-sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

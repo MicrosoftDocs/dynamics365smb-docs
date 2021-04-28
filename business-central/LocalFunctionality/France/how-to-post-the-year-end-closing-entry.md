@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ Once posted, an entry is posted to each income statement account so that its bal
 [Year End Processes Overview](year-end-processes-overview.md)   
 [Close Years](how-to-close-years.md)   
 [Fiscally Close Years](how-to-fiscally-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

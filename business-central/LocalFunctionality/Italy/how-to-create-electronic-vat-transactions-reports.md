@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -39,3 +39,6 @@ Now that you have created the VAT report, you must submit it to the tax authorit
 
 ## See Also  
  [Italian VAT](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

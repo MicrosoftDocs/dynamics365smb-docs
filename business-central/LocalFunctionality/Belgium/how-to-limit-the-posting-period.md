@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -42,3 +42,6 @@ When you post on the **General Journal Templates** page, the contents of the **A
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
  [Specify Posting Periods](../../finance-how-specify-posting-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

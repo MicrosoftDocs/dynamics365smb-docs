@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -48,3 +48,6 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
 ## See Also  
  [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md)   
  [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

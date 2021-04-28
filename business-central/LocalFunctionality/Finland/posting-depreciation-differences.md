@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ If two depreciation methods are used, Finnish tax legislation requires that the 
 ## See Also  
 [Finland Local Functionality](finland-local-functionality.md)  
 [Fixed Assets](../../fa-manage.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

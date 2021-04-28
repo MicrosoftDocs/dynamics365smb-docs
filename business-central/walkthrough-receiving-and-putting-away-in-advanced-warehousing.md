@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -157,3 +157,6 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

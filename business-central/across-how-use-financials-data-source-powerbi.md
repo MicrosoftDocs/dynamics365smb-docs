@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
 ---
 
@@ -45,7 +45,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
     For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
-## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
+## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
 The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop. Once connected, you can start to build the report.
 
@@ -128,8 +128,11 @@ There are a couple ways to get reports to your coworkers and others:
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

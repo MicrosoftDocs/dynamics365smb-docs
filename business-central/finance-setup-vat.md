@@ -1,5 +1,5 @@
 ---
-title: About Setting Up Value-Added Tax | Microsoft Docs
+title: Set Up Value-Added Tax
 description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,12 +8,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
 
-# Set Up Value-Added Tax
+# Set Up Calculations and Posting Methods for Value-Added Tax
 
 Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[prod_short](includes/prod_short.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
 
@@ -193,3 +193,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 [Local functionality in Business Central](about-localization.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

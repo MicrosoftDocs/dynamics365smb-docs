@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.reviewer: edupont
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: soalex
 
 ---
@@ -31,3 +31,6 @@ In this section you can read more about our approach to compliance from the pers
 |Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

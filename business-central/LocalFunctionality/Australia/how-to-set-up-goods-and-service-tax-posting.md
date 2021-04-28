@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -21,3 +21,6 @@ Goods and services tax (GST) is the tax that is applied on most goods and servic
 
 [Australian Local Functionality](australia-local-functionality.md)  
 [Print Goods and Service Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

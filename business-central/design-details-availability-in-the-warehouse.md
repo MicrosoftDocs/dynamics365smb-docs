@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -73,3 +73,6 @@ If one or more conditions are not met, different error messages can be shown, in
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)  
  [View the Availability of Items](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

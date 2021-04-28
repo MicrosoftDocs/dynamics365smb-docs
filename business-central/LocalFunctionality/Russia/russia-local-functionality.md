@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
@@ -108,3 +108,6 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

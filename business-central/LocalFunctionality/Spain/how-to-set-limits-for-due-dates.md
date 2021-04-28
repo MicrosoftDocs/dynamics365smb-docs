@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -33,3 +33,6 @@ Next, you must make sure that you specify the appropriate payment terms for your
 
 ## See Also  
  [Calculating Due Dates](calculating-due-dates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

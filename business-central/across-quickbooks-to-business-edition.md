@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -35,3 +35,6 @@ If you are ready to get started now, choose the ![Lightbulb that opens the Tell 
 ## See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing Business Central Using Extensions](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

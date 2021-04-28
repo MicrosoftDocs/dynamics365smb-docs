@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -40,3 +40,6 @@ In the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)], 
 
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

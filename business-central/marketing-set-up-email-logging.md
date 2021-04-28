@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -61,7 +61,7 @@ The following steps assume that you use Azure Active Directory to manage identit
     > If you do not specify the redirect URL, you can do so later by choosing **Add a platform**, and then choosing **Web** to add the web application and the redirect URL. 
 
 3. Under **Manage**, choose **Manifest**.
-4. Locate the **requiredResourceAccess** property in the manifest, and add the following code in the brackets ([]) to add the required permissions. For more information, see [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Locate the **requiredResourceAccess** property in the manifest, and add the following code in the brackets ([]) to add the required permissions. For more information, see [Register your application](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {
@@ -107,3 +107,6 @@ If you are not using Azure Active Directory to manage identities and access, you
 ## See Also
 [Managing Relationships](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

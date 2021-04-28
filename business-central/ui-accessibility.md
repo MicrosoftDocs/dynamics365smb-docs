@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/26/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -74,6 +74,9 @@ You can find additional information about accessibility with Microsoft products 
 
 ## See Also
 
-[Getting Started](product-get-started.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

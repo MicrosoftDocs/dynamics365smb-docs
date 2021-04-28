@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -30,3 +30,6 @@ There are two types of tax registers that are used for tracking taxable profits 
 [Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Tax Differences](Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

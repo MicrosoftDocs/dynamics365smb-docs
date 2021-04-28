@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -39,3 +39,6 @@ Once a year has been fiscally closed you will not be able to post in this fiscal
 [Fiscally Close Years](how-to-fiscally-close-years.md)  
 [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)  
 [Closing Years and Periods](../../year-close-years-periods.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

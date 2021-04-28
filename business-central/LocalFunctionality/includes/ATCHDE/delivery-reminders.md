@@ -3,7 +3,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries. To create delivery reminders, you must set up the following:

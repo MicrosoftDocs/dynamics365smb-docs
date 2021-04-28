@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -37,3 +37,6 @@ German companies must use the **BilMoG (Germany)** option when they run the **Ad
 ## See Also  
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

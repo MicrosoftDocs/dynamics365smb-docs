@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -26,3 +26,6 @@ To differentiate the different complexity levels of the warehousing, this docume
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
 [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

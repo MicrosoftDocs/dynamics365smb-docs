@@ -5,7 +5,7 @@
     ms.topic: conceptual
     ms.service: dynamics365-business-central
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -22,3 +22,6 @@
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
 [Issue Delivery Reminders](how-to-issue-delivery-reminders.md)  
 [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

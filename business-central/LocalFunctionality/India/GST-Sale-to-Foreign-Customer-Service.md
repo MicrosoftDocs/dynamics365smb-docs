@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Export of Goods and Services to Foreign Customer
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 Export of goods is defined as taking goods out of India to a place outside India. Export of services means the supply of services where the supplier of service is located in India, recipient of service is located outside India and the place of supply is outside India. Exports can be without Payment of duty or with payment of duty.
  
@@ -66,6 +65,8 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
+## See Also 
+[Sale to Registered Customer with Overseas POS](GST-Sale-to-Registered-Customer-Overseas-POS.md)
 
 
 
@@ -94,3 +95,5 @@ For example, there is a sales invoice for INR 10,000 and 18% IGST has to be char
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

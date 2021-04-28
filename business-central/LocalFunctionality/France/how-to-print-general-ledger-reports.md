@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -47,3 +47,6 @@ General ledger reports meet financial accounting standards, and they contain inf
 
 ## See Also  
  [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

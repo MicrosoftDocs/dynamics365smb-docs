@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/21/2021
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 # Set Up Payment Terms
@@ -42,3 +42,6 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ author: DianaMalina
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -203,3 +203,6 @@ The following procedure shows how to print the posted **Advance Statement**.
 ## See Also
 
 [Human Resources](../../hr-manage-human-resources.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

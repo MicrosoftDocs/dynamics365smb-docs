@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -27,3 +27,6 @@ You can send an item to a subcontractor and have the subcontractor return it as 
 ## See Also  
  [Subcontract Manufacturing](../../production-how-to-subcontract-manufacturing.md)   
  [Italy Local Functionality](italy-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

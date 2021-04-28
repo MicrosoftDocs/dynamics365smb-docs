@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/05/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -94,3 +94,6 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

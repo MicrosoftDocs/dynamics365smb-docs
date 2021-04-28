@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -128,3 +128,6 @@ The following procedure describes shipment posting directly from a service order
 ## See Also  
 [Posting in Service Management](service-service-posting.md)  
 [Create a Service Order](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

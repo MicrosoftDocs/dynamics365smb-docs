@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -30,3 +30,6 @@ Withholding Tax (WHT) is calculated for local vendors who do not have an Austral
 ## See Also  
  [Withholding Tax](withholding-tax.md)   
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

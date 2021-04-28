@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -63,3 +63,6 @@ Finally, you must specify EAN numbers and account codes for the relevant custome
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
 [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

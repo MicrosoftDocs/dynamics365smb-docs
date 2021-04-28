@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
-ms.date: 12/01/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -31,3 +31,6 @@ To process the control report, you must set up the VAT control report sections, 
 [Czech Local Functionality](czech-local-functionality.md)  
 [VAT Statement](vat-statement.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

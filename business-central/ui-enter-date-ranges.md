@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 
@@ -72,7 +72,7 @@ Enter the word for today, in the language set by **Language** setting, that will
 
 ### Period
 
-To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/20**, then p1, or just p, filters on the first accounting period of the fiscal year 2020 (such as 01/01/20..01/31/20). p15 filters on the fifteenth accounting period from the start of fiscal year 2020 (such as 03/01/21..03/31/21).
+To filter on a specific accounting period, in a date field enter the letter p, or the word period, followed by a number that identifies the accounting period, like p2 or period4. The accounting period is relative to the fiscal year of the current work date that set in your Role Center. For example, if the work date is **03/21/22**, then p1, or just p, filters on the first accounting period of the fiscal year 2022 (such as 01/01/22..01/31/22). p15 filters on the fifteenth accounting period from the start of fiscal year 2022 (such as 03/01/23..03/31/23).
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
@@ -98,12 +98,12 @@ The following table contains examples of dates using all the formats. It assumes
 
 |**Entry**      |**Interpretation**      |
 |---------------|------------------------|
-|2018.12.31.|2018.12.31.|
-|181231|2018.12.31.|
-|18.12.31.|2018.12.31.|
-|18.12.31.|2018.12.31.|
-|20181231|2018.12.31.|
-|18/12,31|2018.12.31.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|work date year.work date month.11.|
 |1112|work date year.11.12.|
 |t or today|today's date|
@@ -190,7 +190,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, 1W  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, 1W  means seven working days.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -310,36 +310,9 @@ You cannot use 24:00 to mean midnight, or use any value greater than 24:00.
 
 The word for 'time' in the language used by [!INCLUDE[prod_short](includes/prod_long.md)] will be evaluated to the current time on your computer or mobile device. You can enter any part of the word, starting from the beginning, such as t or TIM.
 
-## Entering combined Dates and Times
-When you enter datetimes, which are a date and time combined into one field, you must enter a space between the date and the time. The date part can only contain spaces in the form of the official date separator of your region settings. The time can contain spaces around the AM/PM indicator.
+## Entering Combined Dates and Times
 
-It is also possible to enter only a date in a datetime field, but it is not possible to enter only a time.
-
-The following table lists some examples of date/time combinations. The region settings in the examples displays dates in the day\-month\-year format, using AM/PM designators, English language, and Sunday as the start of the week.
-
-|**Entry**      |**Interpretation**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 PM|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01\-12\-2002 10:00:00|
-|1.12.02 5|01\-12\-2002 05:00:00|
-|1.12.02|01\-12\-2002 00:00:00|
-|11 12|11\-work date month\-work date year 12:00:00|
-|1112 12|11\-12\-work date year 12:00:00|
-|t or today|today's date 00:00:00|
-|t 10:30|today's date 10:30:00|
-|t 3:3:3|today's date 03:03:03|
-|w or workdate|the working date 00:00:00|
-|m or Monday|Monday of the work date week 00:00:00|
-|tu or Tuesday|Tuesday of the work date week 00:00:00|
-|sa or Saturday|Saturday of the work date week 00:00:00|
-|s or Sunday|Sunday of the work date week 00:00:00|
-|tu 10:30|Tuesday of the work date week 10:30:00|
-|tu 3:3:3|Tuesday of the work date week 03:03:03|
-|t23 t|Tuesday of week 23 of the work date year, current time of day|
-|t23|Tuesday of week 23 of the work date year|
-|t 23|Today 23:00:00|
-|t-1|Tuesday of week 1 of the work date year|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## Entering Duration
 Some fields in the application represent a duration, or amount of elapsed time, instead of a specific date or time. You enter a duration as a number followed by its unit of measure.
@@ -365,3 +338,6 @@ For example, if the unit of measure is hours, the number 5 is converted to 5 hrs
 [Working with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters ](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

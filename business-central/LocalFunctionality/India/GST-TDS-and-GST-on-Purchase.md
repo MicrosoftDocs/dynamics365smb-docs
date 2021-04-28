@@ -10,14 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 
 # Calculation of Income Tax TDS and GST on Purchase Transactions
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 There are certain services on which GST applies along with the provisions of TDS under income tax. TDS should not be calculated on GST amount, in some cases where payment terms is set as 100% advance, full order value has to be paid as advance payment. In such cases, amount paid to vendor will be inclusive of GST and if TDS has to deducted while paying amount to vendor, then TDS is deducted only on the base amount and not on GST amount.
 
@@ -100,6 +99,8 @@ For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGS
 
 
 
+## See Also 
+[Purchase Return to Composite Vendor](GST-Purchase-Return-to-Composite-Vendor.md)
 
 
 
@@ -119,3 +120,5 @@ For example, there is a purchase invoice for INR 10,000 and 18% GST (i.e. 9% CGS
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

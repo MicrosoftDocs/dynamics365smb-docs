@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -56,3 +56,6 @@ You can use bill groups for the following:
 ## See Also  
  [Cartera Module](cartera-module.md)   
  [Payments Cartera Module](payments-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

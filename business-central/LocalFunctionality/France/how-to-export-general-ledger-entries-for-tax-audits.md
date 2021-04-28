@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -51,3 +51,6 @@ The report will have the following name: <taxpayername>FEC<YYYYMMDD>
 
 ## See Also  
  [Close Years](how-to-close-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: components, service item, service
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -26,3 +26,5 @@ The following table describes a sequence of tasks, with links to the topics that
   
 ## See Also  
 [Setting Up Service Management](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

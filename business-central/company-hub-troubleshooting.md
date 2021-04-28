@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -46,3 +46,6 @@ If you've added a company but it is not displaying in the list, you can also use
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
 [Add companies to your company hub](company-hub-add-company.md)  
 [Accountant Experiences in Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

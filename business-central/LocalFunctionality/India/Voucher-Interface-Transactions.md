@@ -10,14 +10,14 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 
 ---
 # Voucher Transaction
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
+
 
 This topic explains the process of recording day-to-day transactions through voucher interface.
 
@@ -164,3 +164,15 @@ It is required to pay the TDS and TCS to government authorities through Bank/Cas
 
 > [!NOTE]
 > Details are available in respective TDS and TCS documents.
+
+
+
+
+## See Also 
+[Voucher Interface Overview](Vouche-Interface-Overview.md)
+
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

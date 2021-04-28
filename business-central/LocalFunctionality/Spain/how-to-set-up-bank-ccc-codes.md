@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -54,3 +54,6 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 ## See Also  
 [Set Up Bank Accounts](../../bank-how-setup-bank-accounts.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

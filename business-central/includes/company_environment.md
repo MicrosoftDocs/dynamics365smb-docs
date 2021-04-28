@@ -3,7 +3,7 @@ author: edupont04
 
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 People sometimes support more than one company and need to easily switch from working in one company to another in [!INCLUDE [prod_short](prod_short.md)]. For example, a business might have sales offices in cities and multiple countries, so it has created a separate business unit for each office. The offices that are in the same country are set up as separate companies in a shared environment. Other offices are created as companies in separate environments because they are geographically based in other countries.<br><br>  

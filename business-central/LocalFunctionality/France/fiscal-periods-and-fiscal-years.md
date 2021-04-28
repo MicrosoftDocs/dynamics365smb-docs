@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -56,3 +56,6 @@ At the end of the year, you must do the following:
 [Specify Posting Periods](../../finance-how-specify-posting-periods.md)  
 [Understanding the General Ledger and the COA](../../finance-general-ledger.md)  
 [France Local Functionality](france-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

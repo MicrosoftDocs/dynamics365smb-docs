@@ -10,13 +10,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: v-debapd
 
 ---
 # Purchase Return of Goods and Services to Composite Vendor or Purchase Return of Exempted Goods and Services with no GST Impact
 
-[!INCLUDE[vnext_preview](../../includes/vnext_preview.md)]
 
 A composite vendor is a vendor whose aggregate turnover in a financial year does not exceed fifty lakh rupees and has opted for composition scheme. A composite vendor neither collects tax from the recipient of supplies nor passes on any credit of Input Tax. Hence, no GST is computed if the purchases are made from a composite vendor. 
 
@@ -56,6 +55,8 @@ For example, Purchase Return Order or Credit Memo has been issued for INR 10000 
 
 
 
+## See Also 
+[Purchase Return to Registered Vendor](GST-Purchase-Return-to-Registered-Vendor.md)
 
 
 
@@ -80,3 +81,5 @@ For example, Purchase Return Order or Credit Memo has been issued for INR 10000 
 
 
 
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
 ---
 
@@ -63,3 +63,6 @@ Yes, you can! It's a slightly different way to signing in, that's all. For more 
 
 [Getting Business Central on Your Mobile Device](install-mobile-app.md)  
 [Install the Business Central App for Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

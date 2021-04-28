@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -34,3 +34,6 @@ The next time you make a payment that is based on this payment step, the payment
 ## See Also  
  [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
  [Set Up Payment Steps](how-to-set-up-payment-steps.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

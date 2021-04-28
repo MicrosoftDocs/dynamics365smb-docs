@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
@@ -154,3 +154,6 @@ When you assign the profile questionnaire containing this question to a contact,
 
 ## See Also
 [Creating Contacts](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

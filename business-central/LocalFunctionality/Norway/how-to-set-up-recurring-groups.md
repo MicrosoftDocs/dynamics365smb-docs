@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2020
+    ms.date: 04/01/2021
     ms.author: edupont
 
 ---
@@ -49,3 +49,6 @@ The **Recurring Group Code** field on the **Blanket Sales Order** page defines d
  [Recurring Orders](recurring-orders.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

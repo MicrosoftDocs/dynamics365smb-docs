@@ -6,7 +6,7 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
@@ -43,13 +43,10 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Test Electronic Payments](how-to-test-electronic-payments.md) **Available Now**
     * [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
-    * [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
     * [Print Payment Files](how-to-print-payment-files.md) **Available Now**
-    * [SEPA Payments](sepa-payments.md) **Available Now**
     * [Activate SEPA Payments](how-to-activate-sepa-payments.md) **Available Now**
     * [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) **Available Now**
-    * [File SEPA Payments](how-to-file-sepa-payments.md) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
     * [Set Up Domiciliations](how-to-set-up-domiciliations.md) **Available Now**
     * [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) **Available Now**
@@ -74,3 +71,6 @@ The following topics describe local functionality that is unique to the Belgian 
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

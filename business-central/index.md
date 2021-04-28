@@ -106,5 +106,6 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

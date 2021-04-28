@@ -273,6 +273,7 @@
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+##### [FAQ](power-bi-faq.md)
 #### Using Power Automate with Business Central
 ##### [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 #### Using Power Apps with Business Central
@@ -550,6 +551,7 @@
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
 ### [Working with Dimensions](finance-dimensions.md)
+### [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)

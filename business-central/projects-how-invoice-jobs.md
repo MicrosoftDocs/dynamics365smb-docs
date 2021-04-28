@@ -57,21 +57,6 @@ You can create an invoice from a job planning lines, and indicate at that time t
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
-## To calculate and post job completion entries
-When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select an open job, and then choose the **Edit** action.
-3. In the **Status** field, select **Completed**.
-4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
-5. Choose the **Calculate WIP** action.
-6. On the **Job Calculate WIP** page, fill in the fields as necessary.  
-
-     The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.  
-7. Choose the **Job Post WIP to G/L** action.
-8. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
-
-     The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
 
 ## See Also
 [Managing Projects](projects-manage-projects.md)  

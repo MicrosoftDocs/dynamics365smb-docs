@@ -65,19 +65,21 @@ When you have calculated WIP, you can post it to balance sheet accounts for the 
 2. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 
-## To view job usage estimates and post updates
-You can view job usage up to the completion of a project in one step. To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.  
+## To calculate and post job completion entries
+When you have completed all activities for a job, including usage posting and invoicing, you must update the job to have a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
 
-This lets you track and compare your original estimates against actual results and make modifications or new entries as needed. For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours. You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type. The appropriate cost and price are calculated, and you can then post to the journal.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+2. Select an open job, and then choose the **Edit** action.
+3. In the **Status** field, select **Completed**.
+4. Follow the assistance steps to calculate and post WIP. Alternatively, follows steps 5 and 6 to do so manually.  
+5. Choose the **Calculate WIP** action.
+6. On the **Job Calculate WIP** page, fill in the fields as necessary.  
 
-> [!NOTE]  
->   Item entries create item ledger entries and reduce the inventory quantity. The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger. Resource entries create resource ledger entries.  
+     The job WIP entries created by running the batch job will have the **Job Complete** check box selected to show that they are completion entries.  
+7. Choose the **Job Post WIP to G/L** action.
+8. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2. Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.  
-3. On the **Job Calc. Remaining Usage** page, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.  
-4. Update the journal with any modifications that may be needed.  
-5. Choose the **Post**.
+     The job WIP general ledger entries created by running the batch job will have the **Job Complete** check box selected to show they are completion entries.
 
 ## To view job ledger entries
 All job-related entries are recorded in job registers and are numbered sequentially, starting with 1. From the job register, you can get an overview of all job ledger entries.    

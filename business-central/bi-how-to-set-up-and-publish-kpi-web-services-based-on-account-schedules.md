@@ -15,6 +15,9 @@
 # Set Up and Publish KPI Web Services Based on Account Schedules
 On the **Account Schedule KPI Web Service Setup** page, you set up how to show the account-schedule KPI data and which specific account schedules to base the KPIs on. When you choose the **Publish Web Service** button, the specified account-schedule KPI data is added to the list of published web services on the **Web Services** page.  
 
+> [!NOTE]
+> When you use this web service, closing dates are not included in your data set. This lets you use filters in Power BI to analyze various time periods.
+
 ## To set up and publish a KPI web service that is based on account schedules  
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule KPI Web Service Setup**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  

@@ -90,7 +90,46 @@ When you choose **Process** in [!INCLUDE[prod_short](includes/prod_short.md)] fo
 ## Handling Posted Sales Invoices, Customer Payments, and Statistics
 After fulfilling a sales order, invoices will be created for it. When you invoice a sales order, you can transfer the posted sales invoice to [!INCLUDE[crm_md](includes/crm_md.md)] if you select the **Create Invoice in [!INCLUDE[crm_md](includes/crm_md.md)]** check box on the **Posted Sales Invoice** page. Posted invoices are transferred to [!INCLUDE[crm_md](includes/crm_md.md)] with the status, **Billed**.
 
-When the customer payment is received for the sales invoice in [!INCLUDE[prod_short](includes/prod_short.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial**, if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[prod_short](includes/prod_short.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[prod_short](includes/prod_short.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background.
+When the customer payment is received for the sales invoice in [!INCLUDE[prod_short](includes/prod_short.md)], the sales invoice status will be changed to **Paid** with the **Status Reason** field set to **Partial**, if partially paid, or **Complete** if completely paid, when you choose the **Update Account Statistics** action on the customer page in [!INCLUDE[prod_short](includes/prod_short.md)]. The **Update Account Statistics** function will also refresh values, such as the **Balance** and **Total Sales** fields in the **[!INCLUDE[prod_short](includes/prod_short.md)] Account Statistics** FactBox in [!INCLUDE[crm_md](includes/crm_md.md)]. Alternatively, you can have the scheduled jobs, Customer Statistics and POSTEDSALESINV-INV automatically run both of these processes in the background. 
+
+## Handling Sales Prices
+> [!NOTE]
+> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+The steps to complete this process differ, depending on whether your administrator has enabled the new pricing experience. 
+
+> [!NOTE]
+> If the standard price synchronization does not work for you, we recommend using integration customization capabilities. For more information, see [Customizing an Integration with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### [Current Experience](#tab/current-experience/)
+In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that: 
+
+* Apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
+* Apply to a specific customer price group. For example, sales prices for your retail or wholesale customers. To synchronize prices based on a customer price group, do the following:
+
+    1. Couple the items for which prices are set by the customer price group.
+    2. On the **Customer Price Groups** page, couple the customer price group by choosing **Related**, then **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. The coupling will create an active price list in [!INCLUDE[prod_short](includes/prod_short.md)] with the same name as the customer price group in [!INCLUDE[crm_md](includes/crm_md.md)], and automatically synchronize all items for which the customer price group defines the price.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page":::
+
+#### [New Experience](#tab/new-experience/)  
+
+The new pricing experience synchronizes price lists that meet the following criteria:
+
+* **Allow Updating Defaults** is turned off.
+* The price type is Sale.
+* The amount type is Price.
+* The product type on the lines must be Item or Resource. 
+* A minimum quantity is not specified.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that apply to all customers. Default sales price lists are created based on the price in the **Unit Price** field on the **Item Card** page for the items.
+
+To synchronize price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page":::
+
+---
+
 
 ## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

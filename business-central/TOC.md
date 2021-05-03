@@ -357,10 +357,11 @@
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
-## Using Keyboard Shortcuts
-### [Accessibility and Keyboard Shortcuts](ui-accessibility.md)
+## Accessibility, Keyboard Shortcuts, and Touch Gestures
+### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
 ### [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)
+### [Touch and Pen Gestures](touch-gestures.md)
 ## [Troubleshooting: Accessing Camera and Location](ui-troubleshooting-camera-location.md)
 ## [Intelligent Insights (online only)](about-intelligent-cloud.md)
 # Business Functionality

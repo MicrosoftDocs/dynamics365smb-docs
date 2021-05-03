@@ -99,7 +99,7 @@ When the customer payment is received for the sales invoice in [!INCLUDE[prod_sh
 The steps to complete this process differ, depending on whether your administrator has enabled the new pricing experience. 
 
 > [!NOTE]
-> If the standard price synchronization does not work for you, we recommend using integration customization capabilities. For more information, see []/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+> If the standard price synchronization does not work for you, we recommend using integration customization capabilities. For more information, see [Customizing an Integration with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
 
 #### [Current Experience](#tab/current-experience/)
 In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)] synchronizes sales prices that: 
@@ -116,7 +116,7 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
 
 The new pricing experience synchronizes price lists that meet the following criteria:
 
-* ***Allow Updating Defaults** is turned off.
+* **Allow Updating Defaults** is turned off.
 * The price type is Sale.
 * The amount type is Price.
 * The product type on the lines must be Item or Resource. 

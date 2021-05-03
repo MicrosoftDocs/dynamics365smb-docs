@@ -30,7 +30,7 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralized printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
-![Universal Print setup](media/Universal-Print-arch.png "Universal Print setup")
+![Universal Print setup](media/Universal-Print-arch.png)
 
 The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://posrtal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
 

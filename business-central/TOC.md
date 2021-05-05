@@ -431,9 +431,10 @@
 ##### [Set Up the Bank Statement Service](bank-how-setup-bank-statement-service.md)
 ##### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 ##### [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Exchanging Data
 ##### [Exchange Data](across-exchange-data.md)
+##### [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Send Electronic Documents](sales-how-to-send-electronic-documents.md)
 ##### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
 ##### [Receive and Convert Electronic Documents](purchasing-how-to-receive-and-convert-electronic-documents.md)

@@ -98,7 +98,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Resources for Help and Support](product-help-and-support.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-[Major Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
+[Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  

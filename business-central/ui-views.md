@@ -31,7 +31,7 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 If you don't give it a name, it will be named **All (Copy)**.
 
 > [!TIP]
-> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](ui-views-faq.yml#save).
+> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
 
 ## To rename or remove a view
 1. For the view that currently displays the list, choose the ![Show more options](media/show-more-options-icon.png "Show more options") icon to see which options are available.

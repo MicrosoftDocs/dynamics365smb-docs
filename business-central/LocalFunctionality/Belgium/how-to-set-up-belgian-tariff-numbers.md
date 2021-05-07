@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up Belgian Tariff Numbers
@@ -21,7 +21,7 @@ The Belgian customs and tax authorities have established an eight-digit item cod
 
 ### To set up tariff numbers  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Tariff Numbers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Tariff Numbers** page, fill in the fields as described in the following table.  
 
@@ -39,3 +39,6 @@ The Belgian customs and tax authorities have established an eight-digit item cod
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

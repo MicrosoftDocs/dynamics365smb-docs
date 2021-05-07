@@ -1,20 +1,20 @@
 ---
 title: Russia Local Functionality
-description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].
+description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 author: AliiaSalikhova
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont
-ms.date: 10/04/2019
+ms.date: 04/01/2021
 ms.author: soalex
 
 ---
 # Russia Local Functionality
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prodshort](../../includes/prodshort.md)] to calculate VAT due based on Russian VAT rates and regulations.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prod_short](../../includes/prod_short.md)] to calculate VAT due based on Russian VAT rates and regulations.
 
 ## Feature Availability
 
@@ -107,3 +107,7 @@ In [!INCLUDE[prodshort](../../includes/prodshort.md)], there are Russian-specifi
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

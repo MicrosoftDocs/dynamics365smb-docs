@@ -5,13 +5,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 03/10/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Defer Revenues and Expenses
@@ -89,4 +89,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

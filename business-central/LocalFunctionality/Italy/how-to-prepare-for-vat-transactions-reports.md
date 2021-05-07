@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Prepare for VAT Transactions Reports
@@ -19,7 +19,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
 ## To set up VAT transaction amounts  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  Choose the **VAT Transaction Report Amount** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -39,7 +39,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
 ### To specify a tax representative for a non-resident customer  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Select a customer.
 2.  On the **Foreign Trade** FastTab, fill in the fields as described in the following table.  
 
@@ -48,9 +48,12 @@ You must submit periodic reports to the tax authorities to list all transactions
     |**Tax Representative Type**|Specifies if the tax representative is a customer or a contact. You must set this field to **Contact**.|  
     |**Tax Representative No.**|Specify the contact that is the tax representative for this customer.|  
 
-    You have set up information so that [!INCLUDE[d365fin](../../includes/d365fin_md.md)] will track new transactions with VAT that meet the thresholds that are specified by the tax authorities. Before you create the first VAT transaction report, you should prepare the existing data. For more information, see [Update VAT Transactions Data](how-to-update-vat-transactions-data.md). You can then create VAT transactions reports. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).
+    You have set up information so that [!INCLUDE[prod_short](../../includes/prod_short.md)] will track new transactions with VAT that meet the thresholds that are specified by the tax authorities. Before you create the first VAT transaction report, you should prepare the existing data. For more information, see [Update VAT Transactions Data](how-to-update-vat-transactions-data.md). You can then create VAT transactions reports. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).
 
 ## See Also  
  [Update VAT Transactions Data](how-to-update-vat-transactions-data.md)   
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)   
  [Italian VAT](italian-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

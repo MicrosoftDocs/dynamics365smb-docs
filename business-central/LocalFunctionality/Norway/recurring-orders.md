@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Recurring Orders
@@ -27,3 +27,6 @@ You can use recurring groups to define a range of parameters that show how you m
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Recurring Orders](how-to-create-recurring-orders.md)   
  [Work with Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

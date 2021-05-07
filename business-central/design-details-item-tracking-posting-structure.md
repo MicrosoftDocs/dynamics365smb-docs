@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, item tracking, posting, inventory
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Item Tracking Posting Structure
@@ -44,3 +44,5 @@ Codeunit 22 loops through the item tracking numbers and splits the posting into 
 ## See Also  
 [Design Details: Item Tracking](design-details-item-tracking.md)   
 [Design Details: Item Tracking Design](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

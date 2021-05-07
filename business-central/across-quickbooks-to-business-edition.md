@@ -5,21 +5,21 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
 
 
 # Changing from a QuickBooks App to Dynamics 365 Business Central
-More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[d365fin](includes/d365fin_md.md)], which also supports larger, more complex organizations. 
+More and more growing businesses are changing from finance apps like QuickBooks Desktop and QuickBooks Online, which are designed for startups and other small businesses, to [!INCLUDE[prod_short](includes/prod_short.md)], which also supports larger, more complex organizations. 
 
-As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[d365fin](includes/d365fin_md.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
+As they transition, companies typically want to bring their business data with them so they don't start from scratch. To help transfer data, [!INCLUDE[prod_short](includes/prod_short.md)] offers built-in extensions that migrate data such as customers, vendors, inventory items, and general ledger accounts. The following extensions are installed and ready to go as an integrated part of the **Data Migration** assisted setup guide:
 
 * QuickBooks Data Migration 
 * QuickBooks Online Data Migration
@@ -35,3 +35,6 @@ If you are ready to get started now, choose the ![Lightbulb that opens the Tell 
 ## See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Customizing Business Central Using Extensions](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

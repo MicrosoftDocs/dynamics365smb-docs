@@ -4,12 +4,12 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -27,13 +27,13 @@ The default profile for all customers is the Simpel fakturaproces profile, which
 ##To set up payment terms
 If you set up payment terms for customers, the electronic documents will include discounts you give for early payments.
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2.  In the **OIOXML Code** field, choose a code for each payment term that you will use for electronic invoices.  
 
 ### To set up customers for OIOUBL  
 You can use the **Offentlig kunde (OIOXML)** customer template to apply standard settings for OIOUBL to a new customer, or the **Apply Template** function to apply the settings in the template to an existing customer. The following steps describe how to manually complete the required fields for OIOUBL. <!--need to check whether this overwrites anything for existing customers-->
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the customer that you want to enable for OIOUBL.  
 3.  Enter the customer's address. Make sure that you specify a country/region code, and the contact information for the sell-to contact.  
 4.  In the **Document Sending Profile** field, choose the **OIOUBL** profile.
@@ -45,7 +45,7 @@ You can use the **Offentlig kunde (OIOXML)** customer template to apply standard
     |Field|Description|  
     |---------------------------------|---------------------------------------|
     |**GLN**|Enter the Global Location Number for the customer. |  
-    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the OIOUBL documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. In accordance with **Lov om Offentlige Betalinger** and related statutes, the customer is entitled to withhold payment until they receive an invoice with the relevant account code. |  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the OIOUBL documents that you create in [!INCLUDE[prod_short](../../includes/prod_short.md)]. In accordance with **Lov om Offentlige Betalinger** and related statutes, the customer is entitled to withhold payment until they receive an invoice with the relevant account code. |  
     |**Profile Code**|Specifies the profile that this customer requires for electronic documents if this is different from the default profile that you specified on the **Sales & Receivables Setup** page.|  
     |**Profile Code Required**|Specifies if this customer requires a profile code for electronic documents.<br /><br /> **Tip** <br /> If the **Profile Code Required** field is selected, you cannot post a sales document for this customer unless you have specified a profile.|  
 
@@ -54,7 +54,7 @@ You can use the **Offentlig kunde (OIOXML)** customer template to apply standard
 For more information about how to set up a customer, see [Register New Customers](../../sales-how-register-new-customers.md).
 
 ## To set up item charges  
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.  
 2.  For each item charge, in the **Charge Category** field, select a category.  
 
 Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
@@ -63,3 +63,6 @@ Finally, you must specify EAN numbers and account codes for the relevant custome
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
 [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

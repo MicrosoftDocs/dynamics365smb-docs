@@ -4,17 +4,17 @@ description: Outlines how to use resources, time sheets, and jobs to manage proj
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Project Management
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
+In [!INCLUDE[prod_short](includes/prod_short.md)], you can perform common project management tasks, such as configuring a job and scheduling a resource, as well as providing the information needed to manage budgets and monitor progress. You can track machine and employee hours on the project by using time sheets. As a project manager, you have a good overview, not only of individual jobs, but also of the allocation of employees, machinery and other resources being used in all projects.
 
-Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
+Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs. For more information, see [Setting Up Project Management](projects-setup-projects.md).  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## Get started with projects
 
-Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE [prodshort](includes/prodshort.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE [prodshort](includes/prodshort.md)] YouTube channel.  
+Project management is complicated enough in itself, and learning how to create jobs and managing work in process in a new tool can be another complication. To help you get started with project management in [!INCLUDE[prod_short](includes/prod_short.md)], you can see [a video about creating jobs](https://www.youtube.com/watch?v=VqaPWr7BWmw) on the [!INCLUDE[prod_short](includes/prod_short.md)] YouTube channel.  
 
 ## See Also
 
@@ -42,6 +42,9 @@ Project management is complicated enough in itself, and learning how to create j
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

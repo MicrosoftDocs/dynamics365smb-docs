@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Payment Scenario 3 - Foreign Payment (LCY  to FCY)
@@ -91,3 +91,6 @@ The bank statement containing our payment to Hernandez Ortiz will be sent to us 
 ## See Also  
  [Create Proposals](how-to-create-proposals.md)   
  [Create and Export Payment History](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,9 +4,9 @@ description: Russian enhancements include absence registration.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -15,7 +15,7 @@ ms.author: soalex
 
 All types of absence which are paid according to the legislation on average earnings shall be registered by the corresponding types of orders. 
 
-There are four types of orders in [!INCLUDE[prodshort](../../includes/prodshort.md)]:
+There are four types of orders in [!INCLUDE[prod_short](../../includes/prod_short.md)]:
 
 - Vacation; 
 - Travel; 
@@ -56,3 +56,6 @@ The considered order can be cancelled. The function is available in the form of 
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

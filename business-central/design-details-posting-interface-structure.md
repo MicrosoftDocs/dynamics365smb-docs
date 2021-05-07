@@ -4,17 +4,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: posting, interface, design
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Posting Interface Structure
-In the [!INCLUDE[d365fin](includes/d365fin_md.md)] posting interface structure, there are several global procedures that use the same structure:  
+In the [!INCLUDE[prod_short](includes/prod_short.md)] posting interface structure, there are several global procedures that use the same structure:  
   
 * RunWithCheck and RunWithoutCheck call procedure Code – generic posting interface for Gen. Jnl Line.  
 * CustPostApplyCustLedgEntry – post customer application, called from codeunit 226 CustEntry-Apply Posted Entries.  
@@ -24,3 +24,5 @@ In the [!INCLUDE[d365fin](includes/d365fin_md.md)] posting interface structure, 
   
 ## See Also  
 [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

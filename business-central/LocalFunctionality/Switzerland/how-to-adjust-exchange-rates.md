@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Adjust Exchange Rates
@@ -28,11 +28,11 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
 
 ## To adjust an exchange rate  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Currencies**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.  
 2.  Choose the **Exch. Rates** action.  
 3.  On the **Currency Exchange Rates** page, enter the official VAT rate per period for each currency in the **VAT Exch. Rate Amount** and the **Relational VAT Exch. Rate Amt** fields.  
 4.  Choose the **OK** button.  
-5.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Exchange Rates**, and then choose the related link.  
 6.  On the **Options** FastTab, fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -48,3 +48,6 @@ For more information about VAT and foreign currencies, see the [ESTV](https://go
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
 [Update Currency Exchange Rates](../../finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](../../finance-how-setup-additional-currencies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

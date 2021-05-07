@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Swiss Inventory Management
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Swiss enhancements to inventory management. This includes the following:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swiss enhancements to inventory management. This includes the following:  
 
 - Detailed reporting.  For more information, see the Inventory - Sales Statistics report and the Inventory - List report.  
 - The ability to track an invoice with multiple shipments.  
@@ -32,3 +32,6 @@ If multiple shipments have been posted for a customer, then you can create a com
 ## See Also  
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
  [Set Up Locations](../../inventory-how-setup-locations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

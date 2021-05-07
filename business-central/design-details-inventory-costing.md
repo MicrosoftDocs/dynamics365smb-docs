@@ -4,17 +4,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, inventory, costing
-    ms.date: 11/25/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Inventory Costing
-This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.  
 
@@ -37,3 +37,6 @@ Inventory costing, also referred to as cost management, is concerned with record
 [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)  
 [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 [Design Details: Revaluation](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

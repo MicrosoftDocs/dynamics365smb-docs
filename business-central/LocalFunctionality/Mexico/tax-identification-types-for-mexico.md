@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Tax Identification Types for Mexico
@@ -29,7 +29,10 @@ This tax identification type can be applied to companies and to people. An RFC n
 ### Cédula de identification fiscal con clave única de registro de población (CURP)  
 This tax identification type can only be applied to people. A CURP number is 18 characters.  
 
-When you create a new customer or vendor in [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
+When you create a new customer or vendor in [!INCLUDE[prod_short](../../includes/prod_short.md)], you specify whether the customer or vendor is a company or a person, and then you specify the tax identification type. The tax identification type and the tax identification number are included in any reports that reference tax information about a customer or vendor.  
 
 ## See Also  
  [Mexico Local Functionality](mexico-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

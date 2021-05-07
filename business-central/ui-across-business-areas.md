@@ -6,17 +6,17 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # General Business Functionality
-[!INCLUDE[d365fin](includes/d365fin_md.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] provides dedicated functionality for typical business areas, such as finance and sales. For more information, see [Business Functionality](across-business-functionality.md).
 
 To support those business area-specific tasks, you can use a variety of general business functionality, such as defining extended text for document lines and organizing connecting business tasks in workflows.
 
@@ -46,7 +46,10 @@ The following table lists these general business areas with links to topics that
 | Set up data exchange definitions so you can send and receive electronic documents. |[Exchanging Data Electronically](across-data-exchange.md) |
 
 ## See Also
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,21 +5,21 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up VAT Reports
-Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you need to set up report parameters.  
+Information from various invoice types is used to feed data into the EU Sales List report. To file a VAT report under the ELMA5 system from [!INCLUDE[prod_short](../../includes/prod_short.md)], you need to set up report parameters.  
 
 ## To set up a VAT report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Report Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
 2.  On the **General** FastTab, select the **Modify Submitted Reports** check box to let users modify VAT reports that have been submitted to the tax authorities.  
 
     If the field is left blank, users must create a corrective VAT report instead.  
@@ -37,3 +37,6 @@ Information from various invoice types is used to feed data into the EU Sales Li
 ## See Also  
  [VAT Reporting](vat-reporting.md)   
  [Create VAT Reports](how-to-create-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

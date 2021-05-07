@@ -4,9 +4,9 @@ description: Russian enhancements include the chart of accounts.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -29,3 +29,6 @@ In the **Chart of Accounts** window, the following fields are available:
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

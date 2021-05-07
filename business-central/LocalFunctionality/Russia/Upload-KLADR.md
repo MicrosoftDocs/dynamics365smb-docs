@@ -4,16 +4,16 @@ description: Russian enhancements include the KLADR format.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
 # Upload KLADR
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] supports work with the classifier of addresses of the Russian Federation **KLADR** – the departmental classifier created for distribution of territories between tax inspections and the automated mailing of correspondence.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports work with the classifier of addresses of the Russian Federation **KLADR** – the departmental classifier created for distribution of territories between tax inspections and the automated mailing of correspondence.
 
 Upload of KLADR can be carried out on separate regions as required.  
 
@@ -30,3 +30,6 @@ Upload of KLADR can be carried out on separate regions as required.
 ## See Also
 
 [Tax Accounting](Tax-Accounting.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

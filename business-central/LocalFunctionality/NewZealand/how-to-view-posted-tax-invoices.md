@@ -1,24 +1,26 @@
 ---
-    title: How to View Posted Tax Invoices
-    description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices.
+    title: View Posted Tax Invoices in the New Zealand version
+    description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices in the New Zealand version.
     author: bholtorf
+
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
-# View Posted Tax Invoices
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
+# View Posted Tax Invoices in the New Zealand Version
+
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
 
 The following procedure describes how to view the posted sales tax invoice, but the same steps also apply to viewing posted purchase tax invoices.  
 
 ## To view a posted sales tax invoice  
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Tax Invoice**, and then choose the related link.  
 2. View the FastTabs as described in the following table.  
 
     |FastTab|Description|  
@@ -33,3 +35,6 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 ## See Also  
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

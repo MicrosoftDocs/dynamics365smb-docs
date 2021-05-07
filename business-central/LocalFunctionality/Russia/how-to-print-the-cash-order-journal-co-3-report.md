@@ -4,9 +4,9 @@ description: Russian enhancements include support for the cash order journal CO-
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -35,3 +35,6 @@ This report shows the register of posted ingoing and outgoing cash orders during
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

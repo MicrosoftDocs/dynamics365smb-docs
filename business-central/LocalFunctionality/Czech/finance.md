@@ -6,20 +6,21 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Finance
+# Finance in the Czech Version
 
-In the Czech Republic, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your finances.
+In the Czech Republic, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your finances.
 
 ## Corrections Posting (Red Storno)
 
 According to legal requirements, costs and revenues are usually posted only to either the debit or the credit side of a G/L account. Companies in Eastern Europe usually enforce accounting policies to post certain inventory and GL transactions as corrections. The reason for this is that auditors and revenue authorities conduct accounting controls against this rule.  
 
 The purpose of the feature is:  
+
 - To allow the accounting manager to enforce corrective posting on desired G/L accounts  
 - To allow the accounting manager to enforce corrective posting in inventory postings (negative transfer entries, expected costs posting)  
 - To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
@@ -28,8 +29,9 @@ The purpose of the feature is:
 ## Statutory Company Information
 
 Many documents are circulating within and outside company structures. The minimum necessary requirements of such documents are set by local legislations. It is possible to divide such requirements roughly into three groups:
+
 - Company officials' names must be present on some internal and external documents.
-- Document footers – The majority of external documents must contain basic company information in document footers, usually in the company’s partner language.
+- Document footers – The majority of external documents must contain basic company information in document footers, usually in the company's partner language.
 - Registration numbers must be visible in internal and external documents.
 
 This feature allows users to define company officials and designate them as General Manager, Accounting, and Finance Managers for usage in internal and external documents.
@@ -122,3 +124,6 @@ Use the following table to learn more about the additional finance features that
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
 title: Close a Fiscal Year and Accounting Periods | Microsoft Docs
 description: Outlines the tasks to close a fiscal year or accounting period, for example, making sure documents and journals are posted and verifying bank balances.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: jswymer
 
 ---
 # Closing Years and Periods
+
 At the end of a fiscal year, there are a number of administrative tasks that you have to perform, like making sure all documents and journals are posted, making sure currency data are up-to-date, closing the books, and more. The actual tasks will depend your company.
 
 The following table provides an overview of tasks that you typically perform to close a year and period.
@@ -35,7 +34,11 @@ The following table provides an overview of tasks that you typically perform to 
 ## See Related Training at [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## See Also
-[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

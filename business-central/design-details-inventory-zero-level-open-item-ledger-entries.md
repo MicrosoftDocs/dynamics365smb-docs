@@ -4,17 +4,17 @@ description: Learn why the inventory level is zero although open item ledger ent
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Design Details: Known Item Application Issue
-This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+This article addresses an issue where the inventory level is zero although open item ledger entries exist in  [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 The article starts by listing typical symptoms of the issue, followed by the basics of item application to support the described reasons for this issue. At the end of the article is a workaround to address such open item ledger entries.  
 
@@ -147,3 +147,6 @@ The following diagram shows how cost applications are made.
 ## See Also  
 [Design Details: Item Application](design-details-item-application.md)   
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Configure New Companies
@@ -27,7 +27,7 @@ Before you import a configuration package it is a good idea to verify that the f
 * The user who imports the configuration package has Insert and Modify effective permissions to all of the tables that the package will update. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) 
 
 ## To import a configuration package  
-1. Open the new company in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database.  
+1. Open the new company in the [!INCLUDE[prod_short](includes/prod_short.md)] database.  
 2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then select the related link.  
 3. Choose the **Import Package** action.  
 4. Navigate to the location where you have saved the .rapidstart configuration package file, and then choose the **Open** button.  
@@ -77,3 +77,6 @@ There are certain types of errors that may occur when you apply data to a databa
 [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)  
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

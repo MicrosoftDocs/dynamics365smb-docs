@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Setting Up Cost Accounting
@@ -83,8 +83,8 @@ There is an n:1 relationship between general ledger accounts and cost types. Sev
 A cost type may not have a relationship to general ledger accounts if one of the following conditions is true:  
 
 * Accounts for operational accounting, such as Calc. Interest and Depreciation, only take costs from the operational accounting.  
-* Helping cost types, such as cost types 9901, 9902, and 9903 in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database, are used as credit and debit accounts for allocations.  
-* The helping account, 9920 in the [!INCLUDE[d365fin](includes/d365fin_md.md)] database, contains actual accruals that show the difference between costs and the expense from the general ledger.
+* Helping cost types, such as cost types 9901, 9902, and 9903 in the [!INCLUDE[prod_short](includes/prod_short.md)] database, are used as credit and debit accounts for allocations.  
+* The helping account, 9920 in the [!INCLUDE[prod_short](includes/prod_short.md)] database, contains actual accruals that show the difference between costs and the expense from the general ledger.
 
 ## Setting Up Cost Centers
 Cost centers are departments that are responsible for costs and income. The chart of cost centers is similar to the dimension information for the general ledger. You can set up the chart of cost centers in the following ways:  
@@ -153,7 +153,7 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 >  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.
 
 ## Defining Cost Centers and Cost Objects for Chart of Accounts
-You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[d365fin](includes/d365fin_md.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centers and cost objects are correctly defined.  
+You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[prod_short](includes/prod_short.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centers and cost objects are correctly defined.  
 
 ### Defining Default Dimension Values for General Ledger Accounts  
 For each general ledger account, you can define default dimension values in the **Default Dimension** table. The following example shows how to define that there should always be a DEPARTMENT cost center, but never be a PROJECT cost object when posting to a general ledger account.  
@@ -178,4 +178,7 @@ For each general ledger account, you can define default dimension values in the 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

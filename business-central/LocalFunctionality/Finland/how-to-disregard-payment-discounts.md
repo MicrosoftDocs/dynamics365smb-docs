@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Disregard Payment Discounts
@@ -24,7 +24,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
 
 ## To disregard a payment discount  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Terms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2.  Select the line with the payment term for which you want to activate or deactivate payment discounts.  
 3.  Select the **Disreg. Pmt. Disc. at Full Pmt** check box to initiate activation for this feature. To deactivate, clear the check box.  
 
@@ -37,3 +37,6 @@ Use the disregard payment discount at full payment feature to accept payments wh
 [Defining Payment Methods](../../finance-payment-methods.md)  
 [Work with Payment Tolerances and Payment Discount Tolerances](../../finance-payment-tolerance-and-payment-discount-tolerance.md)     
 [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

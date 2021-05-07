@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print the Intrastat Form Report
@@ -21,7 +21,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
 
 ## To print the Intrastat form report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat – Form**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat – Form**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -44,3 +44,6 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
  [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

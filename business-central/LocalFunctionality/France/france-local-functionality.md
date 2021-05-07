@@ -4,17 +4,18 @@ description: The following topics describe the local functionality in the French
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: soalex
 ---
 
 # France Local Functionality
-The following topics describe local functionality that is unique to the French version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+
+The following topics describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -58,6 +59,11 @@ The following topics describe local functionality that is unique to the French v
     * [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) **Available Now**
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)     
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

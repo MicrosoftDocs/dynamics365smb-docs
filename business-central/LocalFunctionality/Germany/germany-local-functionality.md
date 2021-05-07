@@ -5,17 +5,18 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Germany Local Functionality
-The following topics describe local functionality that is unique to the German version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+
+The following topics describe local functionality that is unique to the German version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -37,12 +38,10 @@ The following topics describe local functionality that is unique to the German v
     * [Post a Negative Entry](how-to-post-a-negative-entry.md) **Available Now**
     * [Process for Digital Audits](process-for-digital-audits.md) **Available Now**
     * [Set Up Data Exports for Digital Audits](how-to-set-up-data-exports-for-digital-audits.md) **Available Now**
-    * [Set Up Data Exports for GDPDU](how-to-set-up-data-exports-for-gdpdu.md) **Available Now**
     * [Export Data for a Digital Audit](how-to-export-data-for-a-digital-audit.md) **Available Now**
     * [GDPDU Filter Examples](gdpdu-filter-examples.md) **Available Now**
     * [Upgrade a .DTD Definition File](how-to-upgrade-a-.dtd-definition-file.md) **Available Now**
     * [Walkthrough: Exporting Data for a Digital Audit](walkthrough-exporting-data-for-a-digital-audit.md) **Available Now**
-    * [Walkthrough: Exporting GDPDU Data](walkthrough-exporting-gdpdu-data.md) **Available Now**
 
 * Purchasing
     * [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**
@@ -59,7 +58,12 @@ The following topics describe local functionality that is unique to the German v
     * [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Available Now**
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
 ## See Also
-[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

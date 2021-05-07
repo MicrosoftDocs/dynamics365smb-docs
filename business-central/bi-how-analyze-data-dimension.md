@@ -3,16 +3,16 @@ title: Analyze Data by Dimensions| Microsoft Docs
 description: Describes how to analyze various business data by dimensions.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 #  Analyze Data by Dimensions
@@ -22,6 +22,9 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 
 > [!TIP]
 > As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.
+
+> [!NOTE]
+> If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. For more information, see [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
@@ -78,4 +81,7 @@ The following procedure is for updating an analysis view from the **Analysis by 
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Working with Dimensions](finance-dimensions.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

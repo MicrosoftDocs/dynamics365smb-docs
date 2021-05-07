@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print Depreciation Book Reports
@@ -19,7 +19,7 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
 
 ## To print depreciation book reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2.  Choose the **Reports and Analysis** action, and then choose the **Depreciation Book** action.  
 3.  Expand the **Options** FastTab.  
 4.  Fill in the fields as described in the following table.  
@@ -39,3 +39,6 @@ The **Depreciation Book** is a fiscal report that is sorted by year and item cla
  [Create Multiple Fixed Asset Cards](how-to-create-multiple-fixed-asset-cards.md)   
  [Set Up Compressed Depreciation of Fixed Assets](how-to-set-up-compressed-depreciation-of-fixed-assets.md)  
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

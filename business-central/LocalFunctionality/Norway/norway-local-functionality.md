@@ -4,17 +4,18 @@ description: The following topics describe the local functionality in the Norweg
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Norway Local Functionality
-The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].  
+
+The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -73,10 +74,14 @@ The following topics describe local functionality that is unique to the Norwegia
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  
-  [Norwegian Sales Documents](norwegian-sales-documents.md)  
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->
 
 ## See Also
-[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    
+
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,12 +4,12 @@ description: Outlines tasks to manage accounts payable, for example, paying cred
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: edupont
 
 ---
@@ -38,6 +38,9 @@ The following table describes a sequence of tasks within accounts payable, with 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

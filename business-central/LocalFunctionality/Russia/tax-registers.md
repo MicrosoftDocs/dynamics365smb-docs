@@ -4,16 +4,16 @@ description: Russian enhancements include tax registers.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
 # Tax Registers
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up tax registers to track and manage taxable profits and losses in accordance with Russian tax accounting principles. Tax registers allow you to group taxable transactions into logical categories and apply tax accounting rules for the recognition of revenue and expenditures.
 
 ## Types of Tax Registers
 
@@ -30,3 +30,6 @@ There are two types of tax registers that are used for tracking taxable profits 
 [Create Tax Registers](How-to-Create-Tax-Registers.md)  
 [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md)  
 [Tax Differences](Tax-Differences.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

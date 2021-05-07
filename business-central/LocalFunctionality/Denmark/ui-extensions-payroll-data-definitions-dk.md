@@ -4,12 +4,12 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -23,8 +23,11 @@ The first step is to map the types of payroll transactions to the general ledger
 After you install the extension, the next step is to specify the format for the payroll data file from the payroll service provider. To do that, go to the **General Ledger Setup** page and choose the provider in the **Payroll Trans. Import Format** field.
 
 ## To import a payroll file
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
 2.  Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.
 
 ## See Also
 [Denmark Local Functionality](denmark-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

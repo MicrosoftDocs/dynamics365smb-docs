@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Swiss Value Added Tax
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes the following enhancements to Swiss VAT reporting:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes the following enhancements to Swiss VAT reporting:  
 
 - Automatic adjustment of VAT amounts for invoices, according to payment discounts.  
 - Additional VAT exchange rates for invoices in foreign currencies.  
@@ -36,3 +36,6 @@ Additional information, such as VAT rate and original currency amount, is transf
  [VAT Rates for Switzerland](vat-rates-for-switzerland.md)   
  [Create and Print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md)   
  [Switzerland Local Functionality](switzerland-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

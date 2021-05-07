@@ -4,14 +4,11 @@ description: Russian enhancements include vendor tax agent schemes.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
-<<<<<<< HEAD
-=======
 ms.author: soalex
->>>>>>> repo_sync_working_branch
 ---
 
 # Vendor Tax Agent Scheme
@@ -36,7 +33,7 @@ Fill in the fields on the vendor card.
 
 1. Create and release an invoice
 
-Agreement No. (with settings for Vendor with VAT Payment from internal funds) should be specified.
+    Agreement No. (with settings for Vendor with VAT Payment from internal funds) should be specified.
 
 2. Create a line in Payment Journal:
 
@@ -76,13 +73,13 @@ Fill the fields in Vendor Card.
     - VAT Agent Prod. Posting Group
     - VAT Payment Source Type - Vendor Funds
 
-## Prepayment and Payment VAT
+## Post Prepayment and Payment VAT
 
 1. Create and release an invoice.
 
 2. For the payment in the currency for the bank and in rubles for the vendor it is necessary to create two lines in the **payment journal**.
 
-    **For vendor:**
+    - **For vendor:**
 
         - Posting Date,
         - Document Type - Payment
@@ -91,12 +88,12 @@ Fill the fields in Vendor Card.
         - Account No.
         - Agreement No.
         - Bal. Account Type - G/L Account
-        - Bal. Account - “ ”
-        - Currency Code - “ “
+        - Bal. Account - " "
+        - Currency Code - " "
         - Prepayment Document No. is required
         - Amount - in rubles
 
-    **For Bank:**
+    - **For Bank:**
 
         - Posting Date,
         - Document Type - Payment
@@ -105,7 +102,7 @@ Fill the fields in Vendor Card.
         - Account No.
         - Agreement No.
         - Bal. Account Type -  G/L Account
-        - Bal. Account - “ ”
+        - Bal. Account - " "
         - Currency Code
         - Amount - in USD/EUR
 
@@ -126,7 +123,7 @@ Fill the fields in Vendor Card.
 
     For the payment in the currency for the bank and in rubles for the vendor it is necessary to create two lines in the payment journal.
 
-    **For vendor:**
+    - **For vendor:**
 
         - Posting Date
         - Document Type - Payment
@@ -136,12 +133,12 @@ Fill the fields in Vendor Card.
         - Internal Document No.
         - Agreement No.
         - Bal. Account Type - G/L Account
-        - Bal. Account - “ ”
-        - Currency Code - “ “
+        - Bal. Account - " "
+        - Currency Code - " "
         - Prepayment Document No. is required
         - Amount - in rubles
 
-    **For Bank:**
+    - **For Bank:**
 
         - Posting Date,
         - Document Type - Payment
@@ -149,10 +146,13 @@ Fill the fields in Vendor Card.
         - Account No.
         - Agreement No.
         - Bal. Account Type -  G/L Account
-        - Bal. Account - “ ”
+        - Bal. Account - " "
         - Currency Code
         - Amount - in USD/EUR
 
 ## See Also
 
 [Russia Local Functionality](russia-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

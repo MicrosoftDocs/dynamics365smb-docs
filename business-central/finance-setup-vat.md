@@ -1,20 +1,21 @@
 ---
-title: About Setting Up Value-Added Tax | Microsoft Docs
+title: Set Up Value-Added Tax
 description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
 
-# Set Up Value-Added Tax
-Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[d365fin](includes/d365fin_md.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
+# Set Up Calculations and Posting Methods for Value-Added Tax
+
+Consumers and businesses pay value-added tax (VAT) when they purchase goods or services. The amount of VAT to pay can vary, depending on several factors. In [!INCLUDE[prod_short](includes/prod_short.md)], you set up VAT to specify the rates to use to calculate tax amounts based on the following:
 
 * Who you sell to  
 * Who you buy from  
@@ -24,22 +25,26 @@ Consumers and businesses pay value-added tax (VAT) when they purchase goods or s
 You can set up VAT calculations manually, but that can be tricky and time consuming. To make it easy, we provide an assisted setup guide named **VAT Setup** that will help you with the steps. We recommend that you use the assisted setup guide to set up VAT.
 
 > [!NOTE]  
->   You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
+> You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
 
 If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.
 
 ## To use the VAT Setup assisted setup guide to set up VAT (recommended)
-We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+We recommend that you use the VAT Setup assisted setup guide to set up VAT in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 To start the assisted setup guide, follow these steps:
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
 2. Choose **Set up VAT** and complete the steps.
-3. When you have completed the assisted setup, visit the **Vat Posting Setup** page and check if you have to fill in additional fields according to your local country version. For more information, see [Local functionality in Business Central](about-localization.md)  
+3. When you have completed the assisted setup, visit the **Vat Posting Setup** page and check if you have to fill in additional fields according to the local requirements in your version pf [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Local functionality in Business Central](about-localization.md)  
 
 ## To set up VAT registration numbers for your country or region
-To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[d365fin](includes/d365fin_md.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
+
+To help ensure that people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message when someone makes a mistake or uses a format that is incorrect for the country or region.
 
 To setup VAT registration numbers, follow these steps:
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**.
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
@@ -61,7 +66,7 @@ To set up a VAT business posting group, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Business Posting Group**, and then choose the related link.  
 2. Fill in the fields as necessary.
 
-You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[d365fin](includes/d365fin_md.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
+You set up default VAT business posting groups by linking them to general business posting groups. [!INCLUDE[prod_short](includes/prod_short.md)] automatically assigns the VAT business posting group when you assign the business posting group to a customer, vendor, or general ledger account.
 
 ## To set up VAT product posting groups
 VAT product posting groups represent the items and resources you buy or sell, and determine how to calculate and post VAT according to the type of item or resource that is being bought or sold.  
@@ -73,7 +78,7 @@ To set up a VAT business posting group, follow these steps:
 2. Fill in the fields as necessary.
 
 ## To combine VAT posting groups in VAT posting setups
-[!INCLUDE[d365fin](includes/d365fin_md.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
+[!INCLUDE[prod_short](includes/prod_short.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
 Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
 
@@ -83,7 +88,7 @@ To combine VAT posting setups, follow these steps:
 2. Fill in the fields as necessary.
 
 ## To assign VAT posting groups by default to multiple entities
-If you want to apply the same VAT posting groups to multiple entities, you can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to do so by default. There are a couple of ways to do this:
+If you want to apply the same VAT posting groups to multiple entities, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to do so by default. There are a couple of ways to do this:
 
 * You can assign VAT business posting groups to general business posting groups, or customer or vendor templates
 * You can assign VAT product posting groups on general product posting groups  
@@ -119,7 +124,7 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 
 When non-standard VAT rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (VAT clause) stating why a reduced VAT or zero VAT rate has been calculated. You can define different VAT clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **VAT Clauses by Doc. Type** page.
 
-You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[d365fin](includes/d365fin_md.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
+You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### To set up VAT clauses
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
@@ -160,7 +165,7 @@ Some companies must use reverse charge VAT when trading with other companies. Fo
 > This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
 
 > [!TIP]  
-> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
+> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see the section titled _Verify VAT registration numbers_ in this topic.
 
 ### Sales to EU Countries or Regions
 VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.  
@@ -188,3 +193,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 [Local functionality in Business Central](about-localization.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,18 +4,18 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: resource, skill, service, zones
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
 
 # Set Up Resource Allocation
-To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[d365fin](includes/d365fin_md.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
+To ensure that a service task is performed well, it's important to find a resource who is qualified to do the work. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] so that it's easy to allocate someone who has the right skills for the job. In [!INCLUDE[prod_short](includes/prod_short.md)], we call this _resource allocation_. You can allocate resources based on their skill, availability, or whether they are in the same service zone as the customer. 
 
 To use resource allocation, you must set up:  
   
@@ -46,7 +46,7 @@ To use resource allocation, you must set up:
     * For resources, choose the **Service Zones** action.  
 
 ## To specify what to show when a resource is chosen
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Setup**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Management Setup**, and then choose the related link. 
 2. In the **Resource Skills Option** field, choose one of the options described in the following table.  
   
     |**Option**|**Description**|  
@@ -80,3 +80,6 @@ If you want to change the skill codes assigned to items, for example from **PC**
 [Set Up Codes for Standard Services](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

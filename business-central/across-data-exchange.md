@@ -4,20 +4,20 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/30/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 
 # Exchanging Data Electronically
 You can use the Data Exchange Framework to manage the exchange of business documents, bank files, currency exchange rates, and any other data files with your business partners.
 
-In the standard version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the Data Exchange Framework is used in features, such as Electronic Documents, Bank File Import/Export, and Currency Exchange Rates Update. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
+In the standard version of [!INCLUDE[prod_short](includes/prod_short.md)], the Data Exchange Framework is used in features, such as Electronic Documents, Bank File Import/Export, and Currency Exchange Rates Update. For more information, see [About the Data Exchange Framework](across-about-the-data-exchange-framework.md).
 
 As an administrator or Microsoft partner, you can use the framework in new integration features by setting up which data to exchange and how. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
@@ -36,3 +36,6 @@ The following table describes a sequence of tasks, with links to the topics that
 [Exchanging Data](across-exchange-data.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

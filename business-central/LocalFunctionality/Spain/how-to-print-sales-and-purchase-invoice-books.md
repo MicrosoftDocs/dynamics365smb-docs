@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print Sales and Purchase Invoice Books
@@ -27,7 +27,7 @@ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** r
 
 ## To print sales invoice book and purchase invoice book reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoice Book** or enter **Purchases Invoice Book**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Option|Description|  
@@ -39,3 +39,6 @@ You can print the **Sales Invoice Book** report and **Purchases Invoice Book** r
 
 ## See Also  
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

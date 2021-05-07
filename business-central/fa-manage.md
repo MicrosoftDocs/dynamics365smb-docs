@@ -5,21 +5,21 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Fixed Assets
-The Fixed Assets functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
+The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. Then you can begin to acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. This makes it possible to include any anticipated acquisitions and sales in reports.
 
-To keep track of fixed asset depreciations as well as other financial transactions related to fixed assets, you set up one or more depreciation books for each fixed asset in your company. Depreciation is done by running a report to calculate periodic depreciation and fill in a journal with the resulting entries, ready to be posted. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports several depreciation methods. For more information, see [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books per fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
+To keep track of fixed asset depreciations as well as other financial transactions related to fixed assets, you set up one or more depreciation books for each fixed asset in your company. Depreciation is done by running a report to calculate periodic depreciation and fill in a journal with the resulting entries, ready to be posted. [!INCLUDE[prod_short](includes/prod_short.md)] supports several depreciation methods. For more information, see [Depreciation Methods](fa-depreciation-methods.md). You can set up multiple depreciation books per fixed asset for different purposes, such as one for tax reporting and another for internal reporting.
 
 For each asset, you can record maintenance costs and the next service date. Keeping track of maintenance expenses can be important for budgeting purposes and for making decisions about whether to replace a fixed asset.
 
@@ -43,12 +43,20 @@ The following table describes a sequence of tasks, with links to the topics that
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
 | Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 
+## Video Overview
+The following video covers the basics of fixed assets.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Finance](finance.md)  
-[Getting Started](product-get-started.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,9 +4,9 @@ description: Russian enhancements include account schedules overview.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -36,3 +36,6 @@ Account schedules are set up in the **Account Schedules** window.
 [Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md)  
 [Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md)  
 [Work with Account Schedules](How-to-Work-with-Account-Schedules.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,29 @@
 ---
-title: Purchase Items or Services for a Job and Manage Supplies| Microsoft Docs
+title: Manage Job Supplies
 description: Describes how to manage the supply and purchase of material and services to jobs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Manage Job Supplies
 Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all jobs. You can use inventory quantities or make job-specific purchases using purchase orders or purchase invoices. For example, a service job on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the job that it will be used on.
 
-If the purchase process does not require that the physical transaction be recorded separately, then a purchase may be processed on the **Job G/L Journal** page. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+If the purchase process does not require that the physical transaction be recorded separately, then a purchase may be processed on the **Job G/L Journal** page. For more information, see [To post a job-related expense](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## To purchase items or services for a job
 The following procedure shows how to use a purchase invoice to purchase products for a job. The same steps apply when using a purchase order.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
-3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+3. In the **Job No.** and **Job Task No.** fields, select the information of the job that you want to purchase items or services for. Use the personalization tools if a field is not visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
     The value that you select in the **Job Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then job planning lines that are ready to be invoiced to the customer are created. For more information, see [Invoice Jobs](projects-how-invoice-jobs.md).
 4. Choose the **Post** action.
@@ -51,4 +49,7 @@ If you incur extraordinary or one-time job expenses, you can use the **Job G/L J
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

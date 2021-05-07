@@ -4,23 +4,23 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Export Data for a Digital Audit
 You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU). You can also select various options to be included in an XML file.  
 
-If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates empty files.  
+If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.md)] creates empty files.  
 
 ### To export data for a digital audit
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
 
 2.  On the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -41,3 +41,6 @@ If there is no data to export, [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 ## See Also  
 [Process for Digital Audits (GoBD/GDPdU)](process-for-digital-audits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

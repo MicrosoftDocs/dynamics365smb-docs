@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Create Report 340
@@ -21,7 +21,7 @@ This report is generated in a format approved by the tax authorities. You should
 
 ## To create Report 340  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Make 340 Declaration**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
 2.  On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -57,3 +57,6 @@ If you print the posted document, for example, a posted sales invoice, it will i
  [Report 340](report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

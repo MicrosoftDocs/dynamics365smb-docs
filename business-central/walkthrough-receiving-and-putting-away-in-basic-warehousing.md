@@ -1,23 +1,23 @@
 ---
-    title: Walkthrough - Receiving and Putting Away in Basic Warehouse Configurations | Microsoft Docs
-    description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    title: Walkthrough - Receive and put away in basic warehouse configurations
+    description: In Business Central, the inbound processes for receiving and putting away can be performed in four different ways, depending on the warehouse complexity level.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 
-**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
 |Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -48,6 +48,9 @@ This walkthrough demonstrates the following tasks.
 -   Verifying that the put-away bins are inherited from the purchase order.  
 -   Registering the warehouse movement into the warehouse and at the same time posting the purchase receipt for the source purchase order.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## Roles  
 This walkthrough demonstrates tasks that are performed by the following user roles:  
 
@@ -70,7 +73,7 @@ To complete this walkthrough, you will need:
 Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase order for 10 units of item LS-75 and 30 units of item LS-81 from vendor 10000 to be delivered to SILVER Warehouse. When the delivery arrives at the warehouse, John, the warehouse worker, puts the items away in default bins defined for the items. When John posts the put-away, the items are posted as received into inventory and available for sale or other demand.  
 
 ## Setting up the Location  
- The setup of the **Location Card** page defines the company’s warehouse flows.  
+ The setup of the **Location Card** page defines the company's warehouse flows.  
 
 ### To set up the location  
 
@@ -104,7 +107,7 @@ Purchase orders are the most common type of inbound source document.
     |LS-81|SILVER|S-01-0001|30|  
 
     > [!NOTE]  
-    >  The bin code is entered automatically according to the setup that you performed in the “Setting up the Location” section.  
+    >  The bin code is entered automatically according to the setup that you performed in the "Setting up the Location" section.  
 
     Proceed to notify the warehouse that the purchase order is ready for warehouse handling when the delivery arrives.  
 
@@ -140,4 +143,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
  [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

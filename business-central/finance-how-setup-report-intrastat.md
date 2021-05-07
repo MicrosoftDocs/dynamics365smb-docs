@@ -6,12 +6,12 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -25,7 +25,7 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 * **Intrastat journal templates**: You must set up the Intrastat journal templates and batches you will use. Because Intrastat is reported monthly, you must create 12 Intrastat journal batches based on the same template.  
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You specify these codes on items.
 * **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on sales and purchase documents, and when you process returns.  
-* **Transport methods**: There are seven, one-digit codes for Intrastat transport methods. **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for post, **7** for fixed installations, and **9** for own propulsion (for eample, transporting a car by driving it). [!INCLUDE[d365fin](includes/d365fin_md.md)] does not require these codes, however, we recommend that the descriptions provide a similar meaning.  
+* **Transport methods**: There are seven, one-digit codes for Intrastat transport methods. **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for post, **7** for fixed installations, and **9** for own propulsion (for eample, transporting a car by driving it). [!INCLUDE[prod_short](includes/prod_short.md)] does not require these codes, however, we recommend that the descriptions provide a similar meaning.  
 
 Optionally, you can also set up:
 
@@ -38,13 +38,13 @@ The Intrastat batch jobs include only item entries, and not general ledger entri
 
 You can export the entries to a file that you can send to your Intrastat authorities. You can also print a report, manually enter the information on the forms from your authorities, and then submit the information.
 
->  [!Note]
+> [!Note]
 > We recommended that you set up an Intrastat journal batch for each month.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journal Templates**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use.  
 3. To create batches, choose the **Batches** action.  
-4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use..  
+4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Create a template for each Intrastat form you use. 
 
 > [!Note]
 > In the **Statistics Period** field, enter the statistics period as a four-digit number, where the first two digits represent the year and the next two digits represent the month. For example, enter 1706 for June, 2017.
@@ -117,7 +117,16 @@ Because you must submit an Intrastat report every month, and you create a new jo
 2. To view the options, choose the **Batch Name** field.  
 3. Choose the journal batches to deleted, and then choose the **Delete** button.  
 
+## Tariff numbers
+
+In many countries, the customs and tax authorities establish 8-digit item codes for various items. In order for item entries to contain the necessary information when the program imports them to the Intrastat journal line, you must have entered the information about the tariff number in the **Tariff Numbers** page. Find the codes for the items that your company deals with and enter them in the **Tariff Numbers** page.
+
+In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
+
 ## See Related Training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## See Also
 [Financial Management](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

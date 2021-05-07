@@ -6,7 +6,7 @@ author: ACMartinKunes
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, VAT
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
@@ -89,7 +89,7 @@ The exchange rate is located in documents, but Czech Republic requires the possi
 
 ## [VAT Control Report](vat-control-report.md)
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] functionality has been extended by the VAT Control Report. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. To process the control report, you must set up VAT control report sections, tariff numbers, VAT statement, stat. reporting setup, and extend the VAT posting setup.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] functionality has been extended by the VAT Control Report. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. To process the control report, you must set up VAT control report sections, tariff numbers, VAT statement, stat. reporting setup, and extend the VAT posting setup.  
 
 ## VAT Reports
 
@@ -104,3 +104,6 @@ To fulfil the requirements in legislation reporting and local reporting practice
 ## See Also
 
 [Czech Local Functionality](czech-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

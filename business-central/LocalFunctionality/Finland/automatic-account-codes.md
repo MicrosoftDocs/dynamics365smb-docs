@@ -1,29 +1,27 @@
 ---
-    title: Automatic Account Codes
-    description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Automatic Account Codes in the Finnish version
+    description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Finnish version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
-# Automatic Account Codes
-You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents. These posting groups can be used throughout [!INCLUDE[d365fin](../../includes/d365fin_md.md)] to trigger automatic postings and allocations across different accounts or dimensions.  
+# Automatic Account Codes in the Finnish Version
 
-Automatic account codes can be used to automate postings related to payroll overhead. For example, when posting total salary expenses at the end of the month, you can use automatic account codes to assign a percentage of the total salary to automatically post as overhead expenses.  
+[!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-You can also use automatic account codes to trigger cost or revenue allocations across different dimensions. For example, you can set up an automatic account group to divide total expenses across three departments when posting an invoice.  
+## See Also
 
-## See Also  
 [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)   
 [Setting Up Posting Groups](../../finance-posting-groups.md)  
 [Finance](../../finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

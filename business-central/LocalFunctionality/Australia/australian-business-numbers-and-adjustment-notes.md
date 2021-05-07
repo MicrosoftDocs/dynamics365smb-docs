@@ -4,10 +4,10 @@ description: An Australian Business Number (ABN) is a single identifier for all 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Australian Business Numbers and Adjustment Notes
@@ -44,3 +44,6 @@ Because credit memos are used for adjustment notes, each credit memo should sati
 ## See Also  
  [Enter Australian Business Numbers](how-to-enter-australian-business-numbers.md)   
  [Australia Local Functionality](australia-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
     title: Design Details - Inventory Valuation | Microsoft Docs
-    description: Inventory valuation XE "Inventory Valuation"  is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.
+    description: Inventory valuation is the determination of the cost of an inventory item.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Inventory Valuation
-Inventory valuation XE "Inventory Valuation"  is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.  
+Inventory valuation is the determination of the cost that is assigned to an inventory item, as expressed by the following equation.  
 
 Ending inventory = beginning inventory + net purchases – cost of goods sold  
 
-The calculation of inventory valuation uses the **Cost Amount (Actual)** field of the value entries for the item. The entries are classified according to the entry type XE "Entry Type"  that corresponds to the cost components, direct cost, indirect cost, variance, revaluation, and rounding. For more information, see [Design Details: Cost Components](design-details-cost-components.md).  
+The calculation of inventory valuation uses the **Cost Amount (Actual)** field of the value entries for the item. The entries are classified according to the entry type that corresponds to the cost components, direct cost, indirect cost, variance, revaluation, and rounding. For more information, see [Design Details: Cost Components](design-details-cost-components.md).  
 
-Entries are applied against each other, either by the fixed application XE "Application; Fixed" , or according to the general cost-flow assumption defined by the costing method XE "Method; Costing"  XE "Costing Method" . One entry of inventory decrease can be applied to more than one increase entry with different posting dates and possibly different acquisition cost XE "Acquisition Cost" s. For more information, see [Design Details: Item Application](design-details-item-application.md). Therefore, calculation of the inventory value XE "Inventory Value"  for a given date is based on summing up positive and negative value entries.  
+Entries are applied against each other, either by the fixed application or according to the general cost-flow assumption defined by the costing method. One entry of inventory decrease can be applied to more than one increase entry with different posting dates and possibly different acquisition costs. For more information, see [Design Details: Item Application](design-details-item-application.md). Therefore, calculation of the inventory value for a given date is based on summing up positive and negative value entries.  
 
 ## Inventory Valuation report  
 To calculate the inventory value in the **Inventory Valuation** report, the report begins by calculating the value of the item’s inventory at a given starting date. It then adds the value of inventory increases and subtracts the value of inventory decreases up to a given ending date. The end result is the inventory value on the ending date. The report calculates these values by summing the values in the **Cost Amount (Actual)** field in the value entries, using the posting dates as filters.  
@@ -54,4 +54,7 @@ The purpose of WIP inventory valuation is to determine the value of the items wh
 [Design Details: Production Order Posting](design-details-production-order-posting.md)
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print General Ledger Reports
@@ -19,7 +19,7 @@ General ledger reports meet financial accounting standards, and they contain inf
 
 ## To print general ledger reports  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger**, and then choose the relevant link.  
 2.  Choose the **Reports and Analysis** action, choose the **France** action, and then choose one of the following reports.  
 
     |Report|Description|  
@@ -47,3 +47,6 @@ General ledger reports meet financial accounting standards, and they contain inf
 
 ## See Also  
  [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

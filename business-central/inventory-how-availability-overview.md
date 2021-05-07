@@ -5,13 +5,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 01/25/2020
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # View the Availability of Items
@@ -24,16 +24,16 @@ You can view the availability of all items per location, and you can view the av
 
 If you use warehousing functionality, availability varies depending on allocations at the bin level when warehouse activities such as picks and movements occur and when the inventory reservation system imposes restrictions to comply with. A rather complex algorithm verifies that all conditions are met before allocating quantities to picks for outbound flows. For more information see [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)], availability figures are typically shown in two different fields, each with a different definition:
+In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typically shown in two different fields, each with a different definition:
 
 * The **Quantity on Hand** field, in some places named **Inventory**, shows the actual quantity today according to posted item ledger entries.
-* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[d365fin](includes/d365fin_md.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
+* The **Projected Available Balance** field is calculated and shows the quantity on hand plus scheduled receipts minus gross requirements. (In [!INCLUDE[prod_short](includes/prod_short.md)], scheduled receipts include quantities on purchase orders and inbound transfer orders. Gross requirements include quantities on sales orders and outbound transfer orders.)
 
 > [!TIP]  
->   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** pages as they contain the date dimension.  
+>   The projected available balance is especially relevant to view in the **Item Availability by Periods** and **Item Availability by Event** pages because they contain the date dimension.  
 
 > [!NOTE]  
->   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines, for the item on the line. For more information, see [Sell Products](sales-how-sell-products.md).
+>   The following procedures describe how to view advanced availability information from the items list and item card. You can also access the information from sales document lines for the item on the line. For more information, see [Sell Products](sales-how-sell-products.md).
 
 ## To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
@@ -76,9 +76,9 @@ You view the availability of all your items across all your locations on the **I
 3. Choose the value in the **Qty. on Hand** field to view the item ledger entries that make up the value.
 
 ## To view the availability of an item by its use in assembly or production BOMs
-If an item exists in assembly or production BOMs, either as a parent item or as a component, then you can view how many units of its are required on the **Item Availability by BOM Level** page. The page shows how many units of a parent you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown on the page as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
+If an item is part of assembly or production BOMs as either a parent item or a component, you can view how many units of it are required on the **Item Availability by BOM Level** page. The page shows how many units of a parent item you can make based on the availability of child items on underlying lines. Any item that has an assembly or production BOM is shown on the page as a collapsible line. You can expand this line to see the underlying components and lower-level subassemblies with their own BOMs.
 
-You can use the page to find out whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components. You can also use the page to identify bottlenecks in related BOMs.
+For example, you can use the page to determine whether you can fulfill a sales order for an item on a specified date by looking at its current availability and the quantities that can be supplied by its components. You can also use the page to identify bottlenecks in related BOMs.
 
 On each line on the page for both parent items and child items, the following key fields specify the availability figures. You can use these figures to promise how many units of a parent you can supply if you start the related assembly process.
 
@@ -95,8 +95,11 @@ The **Item Availability by BOM Level** page shows information for the item on th
 
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
-### To view the availability of an item by its units of measure
-The **Item Availability by Unit of Measure** page shows an items availability broken down in the different units of measure that it is stored in.
+## To view the availability of an item by its units of measure
+The **Item Availability by Unit of Measure** page shows the availability of an item in the units of measure that it is stored in.
+
+> [!NOTE]  
+> To keep this information accurate, you must convert item units of measure. For example, if you purchase an item in one unit of measure, such as boxes, and you sell items in another unit of measure, such as pieces, you must use an item journal to convert the units of measure, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measure, for example boxes, and a positive adjustment to increase inventory in the sales unit of measure, for example pieces. 
 
 ## Assembly Availability Page
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:
@@ -122,3 +125,6 @@ If one or more assembly components are not available, then this is reflected in 
 [Sell Products](sales-how-sell-products.md)      
 [Working with Business Central](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

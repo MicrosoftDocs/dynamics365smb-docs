@@ -5,17 +5,17 @@ description: In Business Central, you can export payment journal entries into a 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 ---
 
 # Export Electronic Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following pages to export according to the different payment standards.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment journal entries into a file format according to four different payment standards. You must use the following pages to export according to the different payment standards.  
 
 |Payment standard|Page to export from|  
 |----------------------|---------------------------|  
@@ -29,7 +29,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 ## To export electronic payments using the Payment Orders page  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
 3.  Choose THE **Export to File** action.  
 
@@ -59,9 +59,9 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 
 ## To export electronic payments using the Payment Journal page  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
-3.  On the **Navigate** tab, choose **Electronic Payments**, and then choose **Export**.  
+3.  Choose the **Related** > **Payments** > **Electronic Payments** > **Export**.  
 
     Payments of type SEPA will be exported to a file immediately.  
 
@@ -88,11 +88,11 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
     >  You can only post the payment order after you have successfully exported the electronic payments.  
 
     > [!NOTE]  
-    >  In the generic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Payment Journal** page is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+    >  In the generic version of [!INCLUDE[prod_short](../../includes/prod_short.md)], the **Payment Journal** page is used in a similar way to export electronic payments in the SEPA Credit Transfer format. For more information, see [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ## To export electronic payments from the Cartera module  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **PO - Export N34.1**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PO - Export N34.1**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -111,3 +111,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can export payment jou
 [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md)  
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)  
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

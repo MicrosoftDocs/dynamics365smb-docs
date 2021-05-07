@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Fiscally Close Accounting Periods
@@ -19,7 +19,7 @@ When a fiscal period is complete, you can fiscally close the period to make sure
 
 ## To fiscally close accounting periods  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the relevant link.  
 2.  On the **Accounting Periods** page, choose the **Close Fiscal Period** action.  
 
     If more than one fiscal period is not fiscally closed, the earliest one should be fiscally closed. A message appears to identify the period that should be closed and explains the consequences of closing it.  
@@ -33,3 +33,6 @@ When the period is fiscally closed, the Fiscally Closed field is selected, and t
  [Fiscally Close Years](how-to-fiscally-close-years.md)   
  [Reopen Accounting Periods](how-to-reopen-accounting-periods.md)   
  [Fiscal Periods and Fiscal Years](fiscal-periods-and-fiscal-years.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

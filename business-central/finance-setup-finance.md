@@ -1,18 +1,16 @@
 ---
 title: Set Up Financial Processes| Microsoft Docs
 description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/13/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Setting Up Finance
@@ -28,11 +26,13 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Choose how you pay your vendors. |[Defining Payment Methods](finance-payment-methods.md) |
+| Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |
+| Specify payment terms to manage due dates and to calculate possible payment discounts.|[Set Up Payment Terms](finance-payment-terms.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Setting Up Posting Groups](finance-posting-groups.md)|
 |Create account schedules and define account categories to define the contents of financial charts and reports, such as the Balance Sheet and Income Statement reports.|[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Set up fiscal periods. |[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md) |
+| Set up fiscal periods. |[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md) |
+|Set up reminder terms to help you collect for overdue payments.|[Set Up Reminder Terms and Levels](finance-setup-reminders.md)|
 | Define how you report value-added tax amounts that you have collected for sales to the tax authorities. |[Set Up Value-Added Tax (VAT)](finance-setup-vat.md)|
 |Prepare to handle unrealized VAT in connection with cash-based accounting methods.|[Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)|
 | Set your Sales and Purchases features up to handle payments in foreign currencies.|[Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -45,15 +45,24 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enable invoicing of a customer who is not set up in the system.|[Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)|
 | Set up Intrastat reporting, and submit the report to an authority | [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)|
 |Make sure an entry in a general journal is allocated to several different accounts when you post the journal, either quantity, percentage, or amount.|[Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)|
+|Set up source codes and reason codes that you can use to track audit trails|[Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
+
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## See Also
+
 [Finance](finance.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,12 +4,12 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -190,9 +190,12 @@ You may need to cancel a service contract when the contract has expired or has b
 6. If there are unposted invoices, credit memos, or opened prepaid entries for the contract, a confirmation message will appear. In the message box, choose **No** to return to the contract and post the documents, or **Yes** to continue the cancellation process.  
 
 ## Filing a service contract or contract quote  
-You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[d365fin](includes/d365fin_md.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action in the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
+You can file service contracts and contract quotes at any time to record and archive a copy of the contract or contract quote. [!INCLUDE[prod_short](includes/prod_short.md)] files service contracts automatically when you convert contract quotes to service contracts or cancel service contracts. You can file a contract or quote yourself by choosing the **File Contract** action in the **Service Contracts** or **Service Contract Quotes** pages. If you want to view your archived contracts of quotes by searching for **Filed Contracts**.
 
 ## See Also  
 [Set Up Service Contracts](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

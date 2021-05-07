@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Export Remittance Payments
@@ -32,7 +32,7 @@ The procedure for exporting payments using the **Remittance – Export** batch j
 
 ## To export remittance payments using the Remittance - Export batch jobs  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Prepare to export the payments from the journal. For more information, see [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 3.  Choose the **Export Payments** action.  
 4.  In the report page that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  
@@ -68,3 +68,6 @@ The payment journal is deleted and the transactions are transferred to the waiti
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
  [Cancel Payments](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

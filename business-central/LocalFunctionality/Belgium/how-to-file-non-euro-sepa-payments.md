@@ -4,25 +4,25 @@ description: In the Belgian version of Business Central, you can file non-euro S
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # File Non-Euro SEPA Payments
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can file non-euro SEPA payments with the bank. This is useful when you make payments to other countries that do not use SEPA and for currencies other than the euro.  
 
 Before you can file a non-euro SEPA payment you must complete the following administration tasks:  
 
 - Set up a new export protocol for a non-euro SEPA.  
 - In the **Country/Region** table, clear the **SEPA Allowed** field for each country that belongs to the EEA zone.  
 - Verify that the **Currency Euro** field in the **General Ledger Setup** table is not in euro currency.  
-- Verify that the vendor’s **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
+- Verify that the vendor's **Preferred Bank Account** field in the **Vendor** table contains the IBAN and SWIFT code.  
 
 ## To file a non-euro SEPA payment  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **File Non Euro SEPA Payments**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **File Non Euro SEPA Payments**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -36,7 +36,7 @@ Before you can file a non-euro SEPA payment you must complete the following admi
 
 3.  Choose the **OK** button.  
 
-## See Also  
- [File SEPA Payments](how-to-file-sepa-payments.md)   
- [Activate SEPA Payments](how-to-activate-sepa-payments.md)   
- [SEPA Payments](sepa-payments.md)
+## See Also
+
+[Activate SEPA Payments](how-to-activate-sepa-payments.md)  
+[Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

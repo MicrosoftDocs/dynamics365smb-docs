@@ -6,11 +6,11 @@ documentationcenter: ''
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: solsen
 
 ---
@@ -29,4 +29,7 @@ All parts of the purchase invoice are tested, and the result is presented in a r
 
 ## See Also
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

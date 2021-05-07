@@ -1,71 +1,120 @@
 ---
-title: Display Custom Power BI Reports| Microsoft Docs
-description: You can use Power BI reports to gain additional insight into data in lists.
-author: edupont04
+title: Display Custom Power BI Reports for Business Central data| Microsoft Docs
+description: You can use Power BI reports to gain extra insight into data in lists.
+author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 01/13/2020
-ms.author: edupont
-
+ms.date: 04/26/2021
+ms.author: jswymer
 ---
-# Viewing List Data in Power BI Reports in Business Central
+# Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] includes a FactBox control element on a number of key list pages that provides additional insight into the data in the list. As you move between rows in the list, the report is updated and filtered for the selected entry. You can create custom reports to display in this control, but there are a few rules to follow when creating the reports to ensure they provide the desired behavior.  
+[!INCLUDE[prod_long](includes/prod_long.md)] includes a Power BI FactBox control element on many key list pages. The purpose of this FactBox is to display Power BI reports that are related to records in the lists, providing extra insight into the data. The idea is that as you move between rows in the list, the report updates for the selected entry.
 
-> [!NOTE]  
-> You must have a valid account with [!INCLUDE[prodshort](includes/prodshort.md)] and with Power BI. Also, to build custom reports, you must download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).  
+[!INCLUDE[prod_long](includes/prod_long.md)] comes ready with some of these reports. You can also create your own custom reports that display in this FactBox. Creating these reports is similar to other reports. But there are a few design rules you'll have to follow to make sure the reports display as expected. These rules are explained in this article.
 
-## Report Data Set
-When you create the report in Power BI Desktop, specify the data source or web service that contains the data related to the list that you want to associate the report with. For example, if you want to create a report for the Sales List, ensure that the data set contains information related to sales.  
+> [!NOTE]
+> For general information about creating and publishing Power BI reports for Business Central, see [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md). 
 
-To filter data on the reports based upon the record selected from the list page, the primary key must be used as a report filter. The primary keys will need to be part of your data set in order for the reports to filter correctly. In most cases, the primary key for a list is the **No.** field.  
+## Prerequisites
 
-## Defining the Report Filter
-The report is required to have a basic report filter (not a page or visual filter and not advanced filter) to filter correctly in the Power BI Fact Box Control. The filter that is passed to the Power BI report from each list page will be based on the primary key as described in the previous section.  
+- A Power BI account.
+- Power BI Desktop.
 
-To define a filter for the report, select the primary key from the list of available fields, and then drag and drop that field into the **Report Filter** section.  
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+## Create a report for a list page
 
-## Report Size and color
-The size of the report must be set to 325 pixels by 310 pixels. This is required for the proper scaling of the report in the available space allowed by the Power BI Fact Box control. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
+1. Start Power BI Desktop.
+2. Select **Get Data**, and start choosing the data source for the report.
 
-![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+    Specify the Business Central list pages that contain the data that you want in the report. For example, to create a report for the **Sales Invoices** list, include pages related to sales.
+
+    For more information, follow the instructions [Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
+
+3. Set the report filter.
+
+    To make the data update to the selected record in the list, you add a filter to the report. The filter must include a field of the data source that's used to uniquely identify each record in the list. In developer terms, this field is the *primary key*. In most cases, the primary key for a list is the **No.** field.
+
+    To set the filter, do the following steps:
+
+    1. In the **Filters**, select the primary key field from the list of available fields.
+    2. Drag the field to **Filters** pane and drop it in the **Filters on all pages** box.
+    3. Set the **Filter type** to **Basic filtering**. It can't be page, visual, or advanced filter.
+
+    ![Setting the report filter for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Design the report layout.
+
+    Create the layout by dragging fields and adding visualizations. For more information, see, [Work with Report view in Power BI Desktop](/power-bi/create-reports/desktop-report-view) in the Power BI documentation.
+
+5. See the next sections about sizing the report and using multiple pages.
+
+6. Save and name the report.
+
+    Give the report a name that contains the name of the list page associated with the report, as it is in the client. The name isn't case-sensitive though. Suppose the report is for the **Sales Invoices** list page. In this case, include the words *sales invoices** somewhere in the name, like **my sales invoices.pbix** or **my_Sales Invoices_list.pbix**.
+
+    This naming convention isn't a requirement. However, it makes selecting reports in [!INCLUDE[prod_short](includes/prod_short.md)] quicker. When the report selection page opens from a list page, it's automatically applied a filter based on the page name. The filter has the syntax: `@*<caption>*`,  like `@*Sales Invoices*`. This filtering is done to limit the reports that are displayed. Users can clear the filter to get a full list of reports available in Power BI.
+
+7. When you're done, publish the report as usual.
+
+    For more information, see [Publishing a Report](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Test the report.
+
+    Once the report's been published to your workspace, it should be available from the Power BI FactBox on the list page in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+    To test it, do the following steps.
+
+    1. Open [!INCLUDE[prod_short](includes/prod_short.md)] and go to the list page.
+    2. If you don't see the Power BI FactBox, go the action bar, then select **Actions** > **Display** > **Show/Hide Power BI Reports**.
+    3. In the Power BI FactBox, select **Select Reports**, select the **Enable** box for the report, then select **OK**.
+
+    If designed correctly, the report displays.  
+
+## Set the report size and color
+
+The size of the report must be set to 325 pixels by 310 pixels. This size provides the proper scaling of the report in the available space of the Power BI FactBox control in [!INCLUDE[prod_short](includes/prod_short.md)]. To define the size of the report, place focus outside of the report layout area, and then choose the paint roller icon.
+
+![Setting the report width and height for the Sales Invoice Activity report](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 You can change the width and height of the report by choosing **Custom** in the **Type** field.
 
-Similarly, if you want to have the background of the report blend into the background color of the Power BI Fact Box control, define a custom report background color of *E5E5E5*. This is optional.  
+If you want the background of the report to blend with the background color of the Power BI FactBox control, set report background color to *#FFFFFF* (white). 
 
-## Reports with Multiple Pages
-With Power BI, you can create a single report with multiple pages. The visuals that you want to see in the [!INCLUDE[d365fin](includes/d365fin_md.md)] list pages must be on the first page of the report in Power BI.  
+> [!TIP]
+> Use the [!INCLUDE [prod_short](includes/prod_short.md)] theme file to build reports with the same color styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps. For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](across-how-use-financials-data-source-powerbi.md#theme).
 
-> [!NOTE]  
-> The Power BI Fact Box can show only the first page of your report; if you want to see other pages, you must expand the report and use tabs at the bottom of the report to navigate to other pages.  
+## Reports with multiple pages
 
-## Saving Your Report
+With Power BI, you can create a single report with multiple pages. However, for reports that will display with list pages, we recommend that they don't have more than one page. The Power BI FactBox will only show the first page of your report.
 
-When you save your report, it's a best practice that the name of the report contains the name of the list page that you want to display the report in. For example, the word *Vendor* must be contained somewhere in the report name for reports that you want to make available on the Vendor list.  
+## Fixing problems
 
-This is not a requirement; however, it will make the process of selecting reports quicker. When the report selection page is opened from a list page, we will pass in a filter based on the page name to limit the reports that are displayed.  You may remove the filter to get a full list of reports available to you in Power BI.  
+This section explains how to fix problems that you might run into when you try to view a Power BI report for a list page in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Troubleshooting
-This section provides a workaround for the most typical issues that can occur when you create the Power BI report.  
+### You can't see the Power BI FactBox on a list page
 
-**User does not see a report on the Select Report page they want to select**
-If you cannot select a report, a possible solution is to verify the name of the report to ensure it contains the name of the list page. You can also clear the filter to get a full list of Power BI reports available.  
+By default, the Power BI FactBox is hidden from view. To show the FactBox on a page, from the action bar, select **Actions** > **Display** > **Show/Hide Power BI Reports**.
 
-**Report is loaded but blank, not filtered or filtered incorrectly**
-Verify that the report filter contains the right primary key. In most cases, this is the **No.** field, but in the **G/L Entry** table, for example, you must use the **Entry No.** field  .
+### You can't see the report in the Select Report pane
 
-**Report is loaded, but it shows the page you have not expected**
+The report's name doesn't contain the name of the list page that's being shown. Clear the filter to get a full list of Power BI reports available.  
+
+### Report is loaded but blank, not filtered, or filtered incorrectly
+
+Verify the report filter contains the right primary key. In most cases, this field is the **No.** field, but in the **G/L Entry** table, for example, you must use the **Entry No.** field.
+
+### Report is loaded, but it shows a page you didn't expect
+
 Verify that the page you want displayed is the first page in your report.  
 
-**Report appears with unwanted gray boarders, is too small or too large**
+### Report appears with an unwanted gray boarder, or it's too small or too large
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
@@ -74,7 +123,10 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 ## See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
-[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Getting Started](product-get-started.md)  
-[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

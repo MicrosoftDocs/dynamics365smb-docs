@@ -5,21 +5,21 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Create and Print a Swiss VAT Statement
-Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
 ## To set up a Swiss VAT statement template  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Update VAT Statement Template**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Statement Template**, and then choose the related link.  
 2.  Select a template in the **VAT Statement Template Name** field.
 3.  Choose the **OK** button. Choose the **Yes** button to confirm that you want to create a new template.  
 4.  Check the resulting VAT Statement and adjust as needed.  
@@ -28,7 +28,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 
 ## To print the Swiss VAT statement  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Swiss VAT Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -48,3 +48,6 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 
 ## See Also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

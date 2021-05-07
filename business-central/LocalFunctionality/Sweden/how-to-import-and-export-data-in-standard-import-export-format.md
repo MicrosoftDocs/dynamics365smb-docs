@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Import and Export Data in Standard Import Export Format
@@ -19,7 +19,7 @@ You can import and export general ledger data according to the standard import e
 
 ## To import data in SIE format  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **SIE Import**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Import**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -35,7 +35,7 @@ You can import and export general ledger data according to the standard import e
 
 ## To export data in SIE format  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **SIE Export**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Export**, and then choose the related link.  
 2.  On the **G/L Account** FastTab, choose the appropriate filters.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -53,3 +53,6 @@ You can import and export general ledger data according to the standard import e
 ## See Also  
  [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Sweden Local Functionality](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

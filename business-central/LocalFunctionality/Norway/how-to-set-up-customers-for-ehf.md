@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up Customers for EHF
@@ -23,14 +23,14 @@ This topic only describes fields that apply to EHF. For more information on sett
 
 ## To set up a customer that uses Elektronisk Handelsformat  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the customer that you want to enable for EHF.  
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Required. Enter the Global Location Number (GLN) for the customer.|  
-    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For more information, see Account Code.|  
+    |**Account Code**|Enter the account code for the customer.<br /><br /> Customers in the public sector provide an account code when they place an order or requisition. Based on the value of this field, the account code is included in the EHF documents that you create in [!INCLUDE[prod_short](../../includes/prod_short.md)]. For more information, see Account Code.|  
     |**E-Invoice**|Select the check box to use electronic invoicing with this customer.|  
     |**Responsibility Center**|Make sure that the Responsibility Center that you have selected has a Country/Region Code specified.|  
 
@@ -39,3 +39,6 @@ These fields are specific to EHF. The values are used in all EHF documents that 
 ## See Also  
  [Create Electronic Documents for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Set Up EHF](how-to-set-up-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

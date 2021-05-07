@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/18/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up Bank Reference Files
@@ -19,7 +19,7 @@ To process electronic payments, you must first set up bank reference files to de
 
 ## To set up a bank reference file  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Reference File Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Reference File Setup**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -53,3 +53,6 @@ To process electronic payments, you must first set up bank reference files to de
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
  [Generate Payment Files](how-to-generate-payment-files.md)   
  [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

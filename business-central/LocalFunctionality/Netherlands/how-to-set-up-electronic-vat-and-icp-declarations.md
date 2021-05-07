@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Setting Up Electronic VAT and ICP Declarations
@@ -20,7 +20,7 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 
 ## To set up electronic declarations  
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
 2. On the **Elec. Tax Declaration Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. If you want the contact ID in the electronic declaration to be filled with the VAT registration number of the company, then select  **Tax Payer** in the **VAT Contact Type** field.
 4. If you want to send electronic ICP declarations for a subsidiary company of a fiscal entity, then select the select the **Part of Fiscal Entity** check box.  
@@ -37,3 +37,6 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  
  [Netherlands Local Functionality](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

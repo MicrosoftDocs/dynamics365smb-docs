@@ -4,9 +4,9 @@ description: This section describes local functionality - General ledger entries
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -26,3 +26,6 @@ User can run batch application by using the **G/L Entry Applying** report .
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

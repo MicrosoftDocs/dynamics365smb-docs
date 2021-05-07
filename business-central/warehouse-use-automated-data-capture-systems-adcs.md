@@ -3,19 +3,19 @@ title: Use Automated Data Capture Systems (ADCS) | Microsoft Docs
 description: You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 11/20/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Use Automated Data Capture Systems (ADCS)
 
 > [!NOTE]
-> The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[d365fin](includes/d365fin_md.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
+> The Automated Data Capture System (ADCS) solution provides a way for [!INCLUDE[prod_short](includes/prod_short.md)] to communicate with handheld devices through web services. You must work with a Microsoft partner who can provide the link between the web service and the specific handheld device. 
 
 You can use your automatic data capture system (ADCS) to register the movement of items in the warehouse and to register some journal activities, such as quantity adjustments in the warehouse item journal and physical inventories. ADCS typically involves scanning a barcode.
 
@@ -23,7 +23,7 @@ To use ADCS, you must give each item stored in the warehouse an item identifier.
 
 Based on the needs of your warehouse, you define the amount of information displayed in the miniform setup for the particular handheld device. The following are examples of information that you can display:  
 
-- Data from tables within [!INCLUDE[d365fin](includes/d365fin_md.md)], such as a list of pick documents from which the user can select.  
+- Data from tables within [!INCLUDE[prod_short](includes/prod_short.md)], such as a list of pick documents from which the user can select.  
 - Text information.  
 - Messages to show confirmations or errors about activities performed and registered by the handheld device user.
 
@@ -116,4 +116,7 @@ When you have created a miniform, the next steps are to create functions and to 
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

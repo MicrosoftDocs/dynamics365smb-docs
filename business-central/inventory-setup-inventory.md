@@ -6,13 +6,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/13/2020
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Setting Up Inventory
@@ -34,12 +34,17 @@ When you have set up your inventory, you can manage various processes related to
 |As a supplement to item cards, record information about your items in a specific location or of a specific variant.|[Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)|
 | Assign items to categories and give them attributes to help you and customers find items. |[Categorize Items](inventory-how-categorize-items.md) |
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
+
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

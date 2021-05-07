@@ -6,17 +6,20 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Iceland, post, invoice, credit memo
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Deleting Posted Invoices and Credit Memos
-In Iceland, in accordance with legislation, you cannot delete sales and purchase invoices and credit memos after they are posted. In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the **Delete** command is not available for these types of posted documents.
+In Iceland, in accordance with legislation, you cannot delete sales and purchase invoices and credit memos after they are posted. In [!INCLUDE[prod_short](../../includes/prod_short.md)], the **Delete** command is not available for these types of posted documents.
 
 ## See Also  
 [Invoice Sales](../../sales-how-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

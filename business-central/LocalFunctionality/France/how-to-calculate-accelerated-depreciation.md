@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Calculate Accelerated Depreciation
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
 
 If a fixed asset depreciation book is integrated with the general ledger, then it is called an *accounting depreciation book*. If a fixed asset depreciation book is not integrated with the general ledger, then it is called a *tax depreciation book*.  
 
@@ -25,7 +25,7 @@ Entries are transferred to the fixed asset general journal when you select an ac
 
 ## To calculate accelerated depreciation  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
 2.  On the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -49,3 +49,6 @@ The accelerated depreciation for the fixed asset is calculated.
  [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md)   
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
  [Fixed Assets](../../fa-manage.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Report 340
@@ -22,9 +22,9 @@ The reporting requirements for entrepreneurs and small businesses are modified t
 
 A company can use the cash accounting method if business sales do not exceed 2,000,000 euros per year. There is one exception to this rule for a business whose receipts in cash from any single customer exceeds the sum of 100,000 euros.  
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can set up posting groups for cash-based VAT accounting for purchases and sales.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up posting groups for cash-based VAT accounting for purchases and sales.  
 
- If you file a report under this regimen, the following label is applied to certain [!INCLUDE[d365fin](../../includes/d365fin_md.md)] reports: **Régimen especial del criterio de caja**. The modified reports are:  
+ If you file a report under this regimen, the following label is applied to certain [!INCLUDE[prod_short](../../includes/prod_short.md)] reports: **Régimen especial del criterio de caja**. The modified reports are:  
 
 |Report|Description|  
 |------------|---------------------------------------|  
@@ -89,3 +89,6 @@ Before creating the **Report 340** report, you should consider the following fil
  [Create Report 340](how-to-create-report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spain Local Functionality](spain-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

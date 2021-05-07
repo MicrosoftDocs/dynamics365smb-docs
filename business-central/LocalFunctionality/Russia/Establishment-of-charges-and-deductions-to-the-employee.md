@@ -4,9 +4,9 @@ description: Russian enhancements include charges and deductions.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -28,7 +28,7 @@ The most often through journal recorded:
 
 - orders on allocation to the employee of financial assistance, a gift.
 
-> [!NOTE
+> [!NOTE]
 > The employee journal has no restrictions on the registration of certain types of charges and deductions, but the essential working conditions should be changed by supplementing the employment contract. This ensures the possibility of forming the necessary printed forms of documents for the employee.
 
 The list of fields that must be filled on the employee journal line is determined by the payroll element code.
@@ -72,3 +72,6 @@ In the process of posting a journal line of this type, the specified entry is mo
 ## See Also
 
 [Human Resources](Human-Resources.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

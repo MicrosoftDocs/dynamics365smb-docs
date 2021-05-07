@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # About Calculating Standard Cost
@@ -101,3 +101,6 @@ The process of updating or calculating standard costs typically consists of the 
  [Work with Bills of Material](inventory-how-work-BOMs.md)   
  [Update Standard Costs](finance-how-to-update-standard-costs.md)   
  [Design Details: Inventory Costing](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

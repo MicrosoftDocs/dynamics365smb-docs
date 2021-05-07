@@ -6,13 +6,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up Contacts
@@ -145,7 +145,7 @@ The inheritance of fields overwrites the default values you have set up. For exa
 ## Synchronizing Contacts with Customers, Vendors, and Bank Accounts
 In order to synchronize the contact card with a linked customer, vendor, or bank account card, you must fill in the relevant field in the **Bus. Relation Code for** section on the **Interactions** FastTab on the **Marketing Setup** page.  
 
-For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+For more information, see [Synchronizing contacts with customers, vendors, and bank accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## Searching for Duplicate Contacts
 You can choose to have application automatically search for duplicates each time you create a contacts, or you can choose to search manually after you have created contacts. You can also choose to have application update the search strings automatically each time you modify contact information or create a contact. You can decide the search hit percentage, that is, the percentage of identical strings two contacts must have for application to consider them as duplicates. You set this up on the **Duplicates** FastTab on the **Marketing Setup** page.
@@ -156,4 +156,7 @@ When you have found a duplicate contact, you can use the **Merge Duplicate** pag
 [Managing Contacts](marketing-contacts.md)  
 [Create Contacts](marketing-create-contact-companies.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

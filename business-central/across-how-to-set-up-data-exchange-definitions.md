@@ -4,17 +4,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/13/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up Data Exchange Definitions
-You can set up [!INCLUDE[d365fin](includes/d365fin_md.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
+You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -33,7 +33,7 @@ This topic includes the following procedures:
 Creating a data exchange definition involves two tasks:  
 
 1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
-2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 This is described in the following procedures.  
 
@@ -51,7 +51,7 @@ This is described in the following procedures.
     |**Name**|Enter a name for the data exchange definition.|  
     |**File Type**|Specify what type of file that the data exchange definition is used for. You can select between four file types:<br /><br /> -   **XML**: Layered strings of content and markup surrounded by tags indicating function.<br />-   **Variable Text**: Records have variable length and are separated by a character, such as comma or semi\-colon. Also known as *delimited file*.<br />-   **Fixed Text**: Records have the same length, using pad characters, and each record is on a separate line. Also known as *fixed-width file*.<br />- **Json**: Layered strings of content in JavaScript.|  
     |**Type**|Specify what type of business activity the data exchange definition is used for, such as **Payment Export**.|  
-    |**Data Handling Codeunit**|Specify the codeunit that transfers data in and out of tables in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Data Handling Codeunit**|Specify the codeunit that transfers data in and out of tables in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Validation Codeunit**|Specify the codeunit that is used to validate data against pre-defined business rules.|  
     |**Reading/Writing Codeunit**|Specify the codeunit that processes imported data prior to mapping and exported data after mapping.|  
     |**Reading/Writing XMLport**|Specify the XMLport through which an imported data file or service enters prior to mapping and through which exported data exits when it is written to a data file or service after mapping.|  
@@ -91,22 +91,22 @@ This is described in the following procedures.
     |**Column No.**|Specify the number that reflects the column’s position on the line in the file.<br /><br /> For XML files, specify the number that reflects the type of element in the file that contains the data.|  
     |**Name**|Specify the name of the column.<br /><br /> For XML files, specify the markup that marks the data to be exchanged.|  
     |**Data Type**|Specify if the data to be exchanged is of type **Text**, **Date**, or **Decimal**.|  
-    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](https://go.microsoft.com/fwlink/?LinkID=323466). **Note:**  This field is only relevant for import.|  
+    |**Data Format**|Specify the format of the data, if any. For example, **MM-dd-yyyy** if the data type is **Date**. **Note:**  For export, specify the data format according to [!INCLUDE[prod_short](includes/prod_short.md)]. For import, specify the data format according to the .NET Framework. For more information, see [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Data Formatting Culture**|Specify the culture of the data format, if any. For example, **en-US** if the data type is **Decimal** to make sure that comma is used as the .000 separator, according to the US format. For more information, see [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Note:**  This field is only relevant for import.|  
     |**Length**|Specify the length of the fixed-width line that holds the column if the data file is of type **Fixed Text**.|  
     |**Description**|Enter a description of the column, for information.|  
     |**Path**|Specify the position of the element in the related XML schema.|  
     |**Negative-Sign Identifier**|Enter the value that is used in the data file to identify negative amounts, in data files that cannot contain negative signs. This identifier is then used to reverse the identified amounts to negative signs during import. **Note:**  This field is only relevant for import.|  
     |**Constant**|Specify any data that you want to export in this column, such as extra information about the payment type. **Note:**  This field is only relevant for export.|  
 
-9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Repeat step 8 for every column or XML element in the data file that has data that you want to exchange with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[d365fin](includes/d365fin_md.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### To map columns in the data file to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.,"
 but in the other it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -117,13 +117,13 @@ but in the other it's "US." That means you must transform the value when you exc
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table ID**|Specify the table that holds the fields to or from which data is exchanged according to the mapping.|  
-    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md).|  
+    |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Exchanging Data Electronically](across-data-exchange.md).|  
     |**Name**|Enter a name for the mapping setup.|  
-    |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data.|  
-    |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] and external data. **Note:**  When using the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[d365fin](includes/d365fin_md.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data.|  
+    |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:**  When using the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] by filling the fields as described in the following table.  
+3.  On the **Field Mapping** FastTab, specify which columns map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)] by filling the fields as described in the following table.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -197,3 +197,6 @@ When you have created the data exchange definition for a specific data file, you
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Incoming Documents](across-income-documents.md)  
 [General Business Functionality](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

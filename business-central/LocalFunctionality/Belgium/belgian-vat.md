@@ -7,17 +7,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Belgian VAT
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Belgian enhancements to the VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Belgian enhancements to the VAT reporting feature that enables you to print VAT transaction details. You must send the following reports to the Belgian tax authorities:  
 
 -   Monthly/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.  
 
@@ -38,3 +38,6 @@ You are also required to provide a printed statement detailing the VAT transacti
  [Belgium Local Functionality](belgium-local-functionality.md)   
  [Print Periodic VAT Reports](how-to-print-periodic-vat-reports.md)   
  [Set Up Non-Deductible VAT](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

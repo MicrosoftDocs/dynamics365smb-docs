@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Fiscal Inventory Valuation
@@ -23,10 +23,10 @@ You must submit an annual report that shows the monetary value of inventory item
 - Last in, First Out (LIFO) cost  
 - Discrete LIFO cost  
 
-## Fiscal Inventory Valuation in [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## Fiscal Inventory Valuation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 Initially, you must set up the fiscal inventory valuation for all cost types on the **Item Costing Setup** page and the **Item Card** page. For more information, see [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md).  
 
-When you set up [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the Before Start Item Cost page.  
+When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)], you must enter the inventory item ledger entries for the first year in order to calculate the item’s valuation. You can do this in the Before Start Item Cost page.  
 
 To calculate discrete LIFO cost, you must set up information on the **Item Card** page and the **Subcontracting Prices** page.
 
@@ -44,3 +44,6 @@ After you set up the discrete LIFO cost calculation, you can post sales and purc
  [Italy Local Functionality](italy-local-functionality.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
  [Set Up Initial Item Costs](how-to-set-up-initial-item-costs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

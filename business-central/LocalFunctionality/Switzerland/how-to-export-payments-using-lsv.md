@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Export Payments Using LSV
@@ -21,7 +21,7 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
 
 ## To export payments using LSV  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  On the **LSV Journal List** page, select the required LSV journal.  
 3.  Choose the **Write LSV File** action.  
 4.  On the **Write LSV File** page, on the **Options** FastTab, fill in the fields as described in the following table.  
@@ -38,3 +38,6 @@ You can export or write Lastschrift Verfahren (LSV+) files that contain payments
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

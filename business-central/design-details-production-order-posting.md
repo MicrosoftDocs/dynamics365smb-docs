@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Production Order Posting
@@ -107,3 +107,6 @@ In standard-cost environments, the costing of a production order is based on the
  [Managing Inventory Costs](finance-manage-inventory-costs.md)
  [Finance](finance.md)  
  [Working with Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,10 +4,10 @@ description: You can use the CBG Posting - Test report to edit the statement lin
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Print the Test Reports for Cash and Bank or Giro Journals
@@ -17,7 +17,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 
 ## To print the test report for cash journal  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Journal**, and then choose the related link.  
 2.  On the **Cash Journal** page, choose the **Test Report** action.  
 3.  To include the information on applied entries for the statement lines, select the **Show Applied Entries** check box.  
 
@@ -30,7 +30,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 
 ## To print the test report for bank or giro journal  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then choose the related link  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link  
 2.  Choose the **General Ledger** action.  
 3.  On the **General Journal Template List** page, Choose the **OK** button.  
 4.  On the **Bank/Giro Journal** page, choose the **Test Report** action.  
@@ -44,3 +44,6 @@ This report displays the statement lines of a cash journal and bank journal or g
 ## See Also  
  [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Enter and Post Cash and Bank/Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

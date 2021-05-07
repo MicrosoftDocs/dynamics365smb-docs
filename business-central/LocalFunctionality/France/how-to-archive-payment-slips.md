@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Archive Payment Slips
@@ -26,7 +26,7 @@ You can archive the payment slip by using the following methods:
 
 ## To archive a payment slip  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slips**, and then choose the relevant link.  
 2.  Select the relevant payment slip, and then choose the **Edit** action.  
 3.  On the **Payment Slip** page, choose the **Archive** action.  
 4.  Choose the **Yes** button to archive the payment slip.  
@@ -36,7 +36,7 @@ You can archive the payment slip by using the following methods:
 
 ## To archive a batch of payment slips  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Archive Payment Slips**, and then choose the relevant link.  
 2.  On the **Archive Payment Slips** page, on the **Payment Header** FastTab, select the appropriate filters.  
 3.  Choose the **OK** button.  
 
@@ -53,3 +53,6 @@ The payment slips are archived.
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

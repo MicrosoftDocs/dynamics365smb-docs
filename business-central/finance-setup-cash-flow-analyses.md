@@ -6,12 +6,12 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
@@ -26,7 +26,7 @@ If you want some help to decide what to do with your cash, have a look at the ch
 This topic describes where the data in the charts comes from and, if necessary, what to do to start using the charts.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
 ## The Cash Cycle and Income & Expense charts
 The **Cash Cycle** and **Income & Expense** charts are ready to go, based on the Chart of Accounts and account schedules. The accounts are where the data comes from, and account schedules calculate the relationship between sales and receivables. Some accounts and account schedules are provided. You can use them as-is, change them, and add new ones. If you add G/L accounts to your chart of accounts, for example, by importing them from QuickBooks, you'll need to map to the accounts on the **Account Schedules** page for the following account schedule names:  
@@ -57,7 +57,7 @@ To set these up, search for **cash flow accounts**, choose the link, and then fi
 ## Set up cash flow forecasts
 The **Cash Flow Forecast** chart uses cash flow accounts, cash flow setups, and cash flow forecasts. Some are provided, however, you can set up your own by using an assisted setup guide. The guide helps you specify things like how often to update the forecast, the accounts to base it on, information about when you pay taxes, and whether to turn on [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Cash flow forecasts can use Azure AI to include documents with a due date in the future. The result is a more comprehensive prediction. The connection to Azure AI is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Azure AI, you can use the assisted setup guide, or a manual process.  
+Cash flow forecasts can use Azure AI to predict future documents. The result is a more comprehensive forecast. The connection to Azure AI is already set up for you. You just need to turn it on. When you sign in to [!INCLUDE[prod_short](includes/prod_short.md)], a notification displays in a blue bar, and provides a link to the default cash flow setup. The notification displays only once. If you close it, but decide to turn on Azure AI, you can use the assisted setup guide, or a manual process.  
 
 > [!NOTE]  
 >   Alternatively, you can use your own predictive web service. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText).  
@@ -79,6 +79,38 @@ To use a manual process:
 > [!TIP]  
 >   Consider the length of the periods that the service will use in its calculations. The more data you provide, the more accurate the predictions will be. Also, watch out for large variances in periods. They will also impact predictions. If Azure AI does not find enough data, or the data varies a lot, the service will not make a prediction.  
 
+## Design details
+Subscriptions for [!INCLUDE[prod_short](includes/prod_short.md)] come with access to several predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) website. 
+
+These web services are stateless, meaning they use data only to calculate predictions on demand. They do not store data.
+
+> [!NOTE]  
+>   You can use your own predictive web service instead of ours. For more information, see [Create and use your own predictive web service for cash flow forecasts](#AnchorText). 
+
+### Data required for forecast
+To make predictions about future revenue and expenses, web services require historical data from receivables, payables, and taxes.
+
+#### Receivables:
+**Due Date**, **Amount (LCY)** fields of the **Customer Ledger Entries** page, where:
+- The document type is Invoice or Credit Memo.
+- The due date is between date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
+
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
+
+#### Payables:
+**Due Date**, **Amount (LCY)** fields on the **Vendor Ledger Entries** page, where:
+- The document type is "Invoice" or "Credit Memo."
+- The due date is between date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
+
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Due Date** based on the value in the **Period Type** field on the **Cash Flow Setup** page.
+
+#### Tax:
+**Document Date**, **Amount** fields on the **VAT (Tax) Ledger Entries** page, where:
+- The document type is "sales."
+- The document date is between the date that is calculated based on values in the **Historical Periods** and **Period Type** fields on the **Cash Flow Setup** page and the work date.
+
+Before using the predictive web-service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Document Date** based on value in the **Period Type** field in the **Cash Flow Setup** page.
+
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for cash flow forecasts
 You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
 
@@ -95,4 +127,7 @@ You can also create your own predictive web service based on a public model name
 ## See Also
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

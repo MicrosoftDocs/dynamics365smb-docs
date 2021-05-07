@@ -4,12 +4,12 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -34,7 +34,7 @@ When you convert a service quote to a service order, the service order, the serv
 * There is a search for allocation entries for all the service items in the service order that have the status **Active**. If such allocation entries are found, their allocation status is changed from **Active** to **Reallocation Needed**.  
   
 ## Canceling Allocations  
-When you cancel an allocation for a service item, [!INCLUDE[d365fin](includes/d365fin_md.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
+When you cancel an allocation for a service item, [!INCLUDE[prod_short](includes/prod_short.md)] updates the allocation status of the corresponding allocation entry from **Active** to **Reallocation Needed**.
 
 The repair status of the service item in the allocation entry is updated in the following ways:  
   
@@ -66,3 +66,6 @@ A new allocation entry that contains the new resource is created that has the st
 [Set Up Resource Allocations](service-how-setup-resource-allocation.md)  
 [Allocate Resources](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

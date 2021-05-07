@@ -6,14 +6,15 @@ author: ACMartinKunes
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Fixed Assets
+# Fixed Assets in the Czech Version
 
-## Fixed Assets Tax Depreciation  
+## Fixed Assets Tax Depreciation
+
 The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation in compliance with the Income Tax Act (Law 586/1992 §26 - §33). This feature has a special setup for tax depreciation groups to enable entering rates and coefficients for new depreciation methods with fixed assets tax depreciation.
 
 Each long-term tangible fixed asset belongs to a depreciation group. These groups determine minimal depreciation periods and parameters used for calculating depreciation. The following depreciation methods are provided for long-term tangible fixed asset (FA) depreciations for tax purposes:
@@ -113,5 +114,9 @@ The following standard reports have been adjusted for the Czech Republic (new Gr
 - **Maintenance – Analysis**
 
 ## See Also
+
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

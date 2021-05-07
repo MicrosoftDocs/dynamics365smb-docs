@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Test Remittance Payments
@@ -25,7 +25,7 @@ If a warning is printed in the test report, you cannot transfer the payments to 
 
 ## To print a remittance test report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Choose the **Test Report** action.  
 3.  On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
@@ -46,3 +46,6 @@ If a warning is printed in the test report, you cannot transfer the payments to 
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
  [Cancel Payments](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

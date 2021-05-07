@@ -566,6 +566,66 @@
             "source_path": "business-central/LocalFunctionality/unitedkingdom/how-to-print-direct-sales-and-purchase-details-reports.md",
             "redirect_url": "united-kingdom-local-functionality",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/about-develop-extensions.md",
+            "redirect_url": "ui-customizing-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/product-sell.md",
+            "redirect_url": "index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-gdpdu.md",
+            "redirect_url": "how-to-set-up-data-exports-for-digital-audits",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Germany/walkthrough-exporting-gdpdu-data.md",
+            "redirect_url": "walkthrough-exporting-data-for-a-digital-audit",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-extensions-getaddressio.md",
+            "redirect_url": "/LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-extensions-accountant-portal.md",
+            "redirect_url": "finance-accounting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/finance-report-costs-and-reconcile-with-the-general-ledger.md",
+            "redirect_url": "finance-how-to-post-inventory-costs-to-the-general-ledger",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/ui-copy-paste.md",
+            "redirect_url": "faq-copy-paste",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/product-get-started.md",
+            "redirect_url": "ui-get-ready-business",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md",
+            "redirect_url": "belgian-electronic-payments",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-file-sepa-payments.md",
+            "redirect_url": "how-to-activate-sepa-payments",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-dimension-set-entries.md",
+            "redirect_url": "design-details-dimension-set-entries-overview",
+            "redirect_document_id": false
         }
 
     ]

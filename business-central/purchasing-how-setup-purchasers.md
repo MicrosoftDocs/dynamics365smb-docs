@@ -6,18 +6,18 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 ---
 # Set Up Purchasers
 If several purchasers work at your company, you can set them up in a page and assign them each a code. You can then use the codes to prepare statistics and to filter information in printed reports.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## To set up purchasers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.
@@ -32,4 +32,7 @@ If several purchasers work at your company, you can set them up in a page and as
 ## See Also
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

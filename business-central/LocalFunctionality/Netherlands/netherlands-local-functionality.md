@@ -5,17 +5,18 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Netherlands Local Functionality
-The following topics describe local functionality that is unique to the Dutch version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+
+The following topics describe local functionality that is unique to the Dutch version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability  
 
@@ -44,7 +45,6 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md) **Available Now**
 
 * Core Finance
-    * [General Ledger](general-ledger.md) **Available Now**
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Required Descriptions in G/L Entries](required-descriptions-in-g-l-entry.md) **Available Now**
 
@@ -60,6 +60,11 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Import Postal Code Updates](how-to-import-post-code-updates.md) **Available Now**  
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Archive Documents
@@ -18,7 +18,7 @@ You can archive sales and purchase orders, quotes, return orders, and blanket or
 
 For archived documents where the original still exists and is not posted, you can use the **Restore** function to overwrite the original with the archived version of the document. This is practical if you need to restore the contents of a document to an earlier state.
 
-For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy Document** function.   
+For archived documents where the original is deleted, you can only reuse the content by copying the data, for example with the **Copy from Document** function.   
 
 ## To set up automatic document archiving  
 You can set up automatic archiving of sales and purchase orders, quotes, blanket orders, and return orders, before you delete documents.
@@ -61,4 +61,7 @@ The following procedure describes how to delete archived sales orders. The steps
 [Track Document Lines](across-how-to-track-document-lines.md)  
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

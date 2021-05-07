@@ -7,17 +7,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Types of Payment Returns Files
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes two types of payment return files that can be imported:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes two types of payment return files that can be imported:  
 
 - Receipt returns  
 - Settlement returns  
@@ -66,3 +66,6 @@ When the settlement return is imported, warnings can occur. Payment journal line
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)   
  [Cancel Payments](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,20 +6,20 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # The Microsoft Pay Extension
 
 > [!IMPORTANT]
-> Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[d365fin](includes/d365fin_md.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
+> Effective February 8 2020, changes in the Microsoft Pay service will affect the Microsoft Pay extension in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Due to the changes, after February 8, the **Pay now** payment links that the Microsoft Pay extension generates for invoices in [!INCLUDE[prod_short](includes/prod_short.md)] will not open Microsoft Pay. Customers who are using the extension should change their Payment Services setup to start using the PayPal extension instead.<br /></br>
 >
-> From January 8, we will display a notification in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The notification will contain a link to the settings that you need to change and to more information. After February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> From January 8, we will display a notification in [!INCLUDE[prod_short](includes/prod_short.md)]. The notification will contain a link to the settings that you need to change and to more information. After February 8, the Microsoft Pay extension will no longer be available in [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > The changes impact the following versions of Business Central:
 > - Microsoft Dynamics 365 Business Central October 2018
@@ -38,9 +38,12 @@ The Microsoft Pay extension provides the following benefits:
 - The Microsoft Pay link can be embedded automatically on every invoice document or by the user.
 - Because this functionality is built as an extension, it gives you full control to enable it when and if your business processes require it.
 
-Enabling payment service extensions is free in [!INCLUDE[d365fin](includes/d365fin_md.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
+Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
 ## See Also
-[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

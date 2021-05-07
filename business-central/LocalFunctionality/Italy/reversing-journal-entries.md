@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 12/16/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Reversing Journal Entries
@@ -25,3 +25,6 @@ Controls have been added to the **Reverse Transaction Entries** page to comply w
 ## See Also  
   [Italy Local Functionality](italy-local-functionality.md)  
   [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

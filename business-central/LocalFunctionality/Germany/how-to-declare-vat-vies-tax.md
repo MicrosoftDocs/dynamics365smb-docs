@@ -4,17 +4,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Declare VAT-VIES Tax
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
 
 Depending on the volume of sales of goods or services to other EU countries/regions, you must submit monthly, bi-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. For more information, see the [BZSt website](https://go.microsoft.com/fwlink/?LinkId=204368).  
 
@@ -22,7 +22,7 @@ The report is based on the VAT Entry table.
 
 ## To declare VAT-VIES tax  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT-Vies Declaration Tax – DE**, and then choose the related link.  
 2.  On the **VAT-Vies Declaration Tax – DE** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -41,3 +41,6 @@ The report is based on the VAT Entry table.
 
 ## See Also  
 [VAT Reporting](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

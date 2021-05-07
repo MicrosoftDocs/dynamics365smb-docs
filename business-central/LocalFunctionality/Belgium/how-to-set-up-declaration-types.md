@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set Up Declaration Types
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are two types of declaration:  
 
 - Simplified declaration  
 - Extended declaration  
@@ -26,7 +26,7 @@ When using the extended declaration, you will also need to set up an Incoterm in
 
 ## To set up declaration types  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  Select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
 3.  Choose the **OK** button.  
 
@@ -36,3 +36,6 @@ When using the extended declaration, you will also need to set up an Incoterm in
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

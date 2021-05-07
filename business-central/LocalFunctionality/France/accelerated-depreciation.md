@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Accelerated Depreciation
@@ -61,3 +61,6 @@ After you set up the tax depreciation book and the accounting depreciation book,
  [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)   
 [Fixed Assets](../../fa-manage.md)  
  [France Local Functionality](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print VAT Information on Invoices
@@ -21,12 +21,15 @@ You can use posting groups to print VAT information for each item on the sales i
 
 ## To print VAT information on an invoice  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Posting Group**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Group**, and then choose the related link.  
 2.  Enter an item code and description.  
 3.  Select **Print VAT info on Invoice** to print the VAT information for each item on the respective sales invoice.  
 4.  Create and post a sales invoice. Choose the **Preview** button to review the invoice and verify that it contains VAT information for each row from the posting group.  
 
-## See Also  
- [Electronic Banking in Finland](electronic-banking-in-finland.md)  
- [Setting Up Posting Groups](../../finance-posting-groups.md)   
- [Setting Up Value-Added Tax](../../finance-setup-vat.md)
+## See Also
+
+[Electronic Banking in Finland](electronic-banking-in-finland.md)  
+[Set Up Posting Groups](../../finance-posting-groups.md)  
+[Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

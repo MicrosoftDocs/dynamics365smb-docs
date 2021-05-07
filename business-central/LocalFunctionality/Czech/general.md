@@ -4,14 +4,14 @@ description: This section describes Czech local functionality - General Function
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Extended User Control
+# Extended User Control in the Czech Version
 
 The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 
@@ -30,8 +30,11 @@ New functionality on the **User Setup** page in combination with the new **User 
 - Check usage of warehouse net change templates at posting in item journals
 - Allow posting to closed periods
 - Allow complete job
-- Allow item unapply functionality
+- Allow item un-apply functionality
 
 
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

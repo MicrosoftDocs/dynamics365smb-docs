@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 01/13/2020
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Import and Export Custom Report Layouts
@@ -51,3 +51,6 @@ You can import and export an existing custom report layout as a file to and from
  [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md)   
  [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
  [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

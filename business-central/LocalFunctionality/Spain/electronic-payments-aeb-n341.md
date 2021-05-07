@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Electronic Payments – AEB N34.1
@@ -28,8 +28,11 @@ You can create electronic payments from the payment journals or from the Cartera
 > [!NOTE]  
 >  Partners may need to modify this report to meet their customer’s bank individual requirements.  
 
-Before you can transfer payments electronically to a vendor, you will need to set up a bank account for the vendor. You will also need to set up the electronic payment links with your bank and set up the bank account card in [!INCLUDE[d365fin](../../includes/d365fin_md.md)] for your own bank to handle the electronic payments. The bank should provide the transmission program.  
+Before you can transfer payments electronically to a vendor, you will need to set up a bank account for the vendor. You will also need to set up the electronic payment links with your bank and set up the bank account card in [!INCLUDE[prod_short](../../includes/prod_short.md)] for your own bank to handle the electronic payments. The bank should provide the transmission program.  
 
 ## See Also  
  [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)   
  [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

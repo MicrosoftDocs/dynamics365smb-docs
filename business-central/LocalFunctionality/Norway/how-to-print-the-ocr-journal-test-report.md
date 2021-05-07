@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Print the OCR Journal - Test Report
@@ -19,7 +19,7 @@ You can print the **OCR Journal – Test** report to test the imported payment t
 
 ## To print the OCR Journal – Test report  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Journal - Test**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Journal - Test**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -35,3 +35,6 @@ You can print the **OCR Journal – Test** report to test the imported payment t
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
  [Working with General Journals](../../ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

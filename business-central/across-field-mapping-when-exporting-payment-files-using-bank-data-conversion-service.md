@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension
@@ -19,7 +19,7 @@ When you export payment files using the AMC Banking 365 Fundamentals extension, 
 > [!CAUTION]  
 >  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.md)] from which you can export data.  
+The following table lists the fields in [!INCLUDE[prod_short](includes/prod_short.md)] from which you can export data.  
 
 |Mapped Field|Field in Table|Table|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -68,3 +68,6 @@ The following table lists the fields in [!INCLUDE[d365fin](includes/d365fin_md.m
 [Exchanging Data Electronically](across-data-exchange.md)
 [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

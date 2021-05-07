@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Correct VAT Reports
@@ -39,7 +39,7 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
     **Suggest Lines** will create entries to account for the difference between the filters.  
 
     > [!NOTE]  
-    >  If the updated filters exclude a customer or vendor, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
+    >  If the updated filters exclude a customer or vendor, [!INCLUDE[prod_short](../../includes/prod_short.md)] creates a Cancellation line for the previous reported amount and a Correction entry with amount 0.
 
 ## To correct a VAT report  
 
@@ -57,3 +57,6 @@ The **Suggest Lines** action recalculates the values to report. The **Correct Li
 
 ## See Also  
  [Set Up VAT Reports](how-to-set-up-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

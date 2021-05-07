@@ -4,15 +4,15 @@ description: Russian enhancements include additional sheets for VAT purchase led
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
 # Create Additional Sheets
 
-In [!INCLUDE[prodshort](../../includes/prodshort.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
 ## To create entries for an additional sheet for a VAT purchase or sales ledger
 
@@ -91,3 +91,6 @@ Processing of corrective documents for sales book is similar to processing for p
 ## See Also
 
 [VAT Ledgers](VAT-Ledgers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Manage Employee Absence
@@ -67,5 +67,8 @@ You can register employee absences on a daily basis or at some other interval th
 ## See Also
 [Manage Human Resources](hr-manage-human-resources.md)  
 [Finance](finance.md)  
-[Working With [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working With [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,17 +4,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: design, general journal, posting, codeunit 12
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: General Journal Post Line
-This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[d365fin](includes/d365fin_md.md)]. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
+This documentation provides detailed technical insight into the concepts and principles that are used to redesign the general journal posting line feature in [!INCLUDE[prod_short](includes/prod_short.md)]. The redesign makes codeunit 12 simpler and more maintainable. The documentation starts by describing conceptual overviews of the redesign. Then it explains the technical architecture to show the changes that result from the redesign.  
 
 ## In This Section  
 [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
@@ -25,3 +25,6 @@ This documentation provides detailed technical insight into the concepts and pri
 
 ## See Also  
 [Working with General Journals](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

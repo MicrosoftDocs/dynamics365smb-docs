@@ -5,17 +5,18 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Spain Local Functionality
-The following topics describe local functionality that is unique to the Spanish version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+
+The following topics describe local functionality that is unique to the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability  
 
@@ -36,7 +37,6 @@ The following topics describe local functionality that is unique to the Spanish 
     * [Equivalence Charges](equivalence-charges-ec-.md) **Available Now**
 
 * Banking & Payments  
-    * [Electronic Payments AEB N34.1](electronic-payments-aeb-n34.1.md) **Available Now**
     * [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md) **Available Now**
     * [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md) **Available Now**
     * [Pay Vendors by Using Electronic Payments](how-to-pay-vendors-by-using-electronic-payments.md) **Available Now**
@@ -70,6 +70,10 @@ The following topics describe local functionality that is unique to the Spanish 
     * [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md) **Available Now**
 
 ## See Also
-[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

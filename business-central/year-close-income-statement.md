@@ -1,17 +1,15 @@
 ---
 title: Close Income Statement Accounts | Microsoft Docs
 description: At year closing, you must run the Close Income Statement batch job to close the accounting periods that make up the fiscal year.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: jswymer
 
 ---
@@ -33,7 +31,11 @@ The date on the lines that the batch job inserts in the journal is always a clos
 The **Close Income Statement** batch job can be used several times. You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the batch job again.
 
 ## See Also
+
 [Closing Books](year-close-books.md)  
 [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Open a New Fiscal Year](finance-how-open-new-fiscal-year.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

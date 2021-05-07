@@ -1,16 +1,16 @@
 ---
-    title: Using Workflows | Microsoft Docs
-    description: You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
+    title: Using Workflows
+    description: You can set up and use workflows that connect business-process tasks performed by different users. Learn about the different steps you must take to start using workflows.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Using Workflows
@@ -34,4 +34,7 @@ You can set up and use workflows that connect business-process tasks performed b
 ## See Also  
 [Setting Up Workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

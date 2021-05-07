@@ -1,20 +1,21 @@
 ---
-    title: How to Create Blanket Sales Orders | Microsoft Docs
-    description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time.
+    title: Work with Blanket Sales Orders or Purchase Orders
+    description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. The same applies to purchasing.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
-# Work with Blanket Sales Orders
-A blanket sales order represents a framework for a long-term agreement between you and your customer.
+# Work with Blanket Sales Orders or Blanket Purchase Orders
+
+A blanket sales order represents a framework for a long-term agreement between you and your customer. Similarly, you use blanket purchase orders to manage long-term agreements between you and your vendor.
 
 A blanket order is typically made when a customer has committed to purchasing large quantities that are to be delivered in several smaller shipments over a certain period of time. Often blanket orders cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.
 
@@ -25,20 +26,21 @@ An example of when a blanket sales order could be used is if a customer calls an
 > [!NOTE]
 > Blanket purchase orders work in a similar way as blanket sales orders. This documentation covers blanket sales orders only.
 
-## To create a blanket sales order  
+## To create a blanket sales order
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
-5. On the **Lines** FastTab, create separate lines for each shipment. For instance, if your customer wants 1000 units split out equally between four weeks, you would enter four separate lines of 250 units each.   
+4. Leave the **Order Date** field blank. When the separate sales orders are created from the blanket order, the order date of the sales order is set to equal the actual work date.
+5. On the **Lines** FastTab, create separate lines for each shipment. For instance, if your customer wants 1000 units split out equally between four weeks, you would enter four separate lines of 250 units each.  
 
 ## To create a sales order from a blanket sales order  
 
-1.  To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
-2.  When you are ready to create orders, choose the **Make Order** action, and then choose the **Yes** button. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
-3.  Choose the **OK** button.  
-4.  To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
-5.  On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
+1. To create an order for any of the lines in the blanket sales order, remove the quantity in the **Qty. to Ship** field on all the lines that you do not wish to ship at this time.  
+2. When you are ready to create orders, choose the **Make Order** action, and then choose **Yes**. A message appears informing you that the blanket order has been assigned an order number. Note that the blanket order has not been deleted.  
+3. Choose the **OK** button.  
+4. To see the results of the preceding steps, choose the **Line** action, choose the **Unposted Lines** action, and then choose the **Orders** action.  
+5. On the **Sales Lines** page, select the appropriate sales order, choose the **Line** action, and then choose the **Show Document** action.  
 
 The following applies to sales orders after they have been created from blanket sales orders:  
 
@@ -89,7 +91,11 @@ The link between the blanket sales order and the originating sales order, and an
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
 ## See Also
-[Sales](sales-manage-sales.md)
+
+[Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,13 +4,13 @@ description: Describes how to move inventory from one place or warehouse to anot
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2019
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Transfer Inventory Between Locations
@@ -59,6 +59,9 @@ To transfer items, locations and transfer routes must be set up. For more inform
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Set Up Locations](inventory-how-setup-locations.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,23 +5,23 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # View Ledger Reconciliations
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes two reports that can help you reconcile general ledger entries with customer ledger entries and vendor ledger entries. The reports print a separate page for each customer or vendor that sums up amounts from general ledger transactions based on payments and posted invoices.  
 
 The following procedure applies to viewing reconciliation between the general ledger and the customer ledger, but the same steps apply to reconciliation with the vendor ledger.  
 
 ## To view general ledger reconciliation with the customer ledger  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger**, and then choose the related link in **General Ledger**.  
 2.  Choose the **Reports** action, choose the **France** action, and then choose the **GL/Cust. Ledger Reconciliation** action.  
 3.  On the **GL/Cust. Ledger Reconciliation** page, set the appropriate filters.  
 
@@ -34,3 +34,6 @@ You can now view the debit and credit amounts for each customer, and you can see
 
 ## See Also  
 [France Local Functionality](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

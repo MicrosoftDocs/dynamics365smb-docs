@@ -7,12 +7,12 @@
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: soalex
 
 ---
@@ -22,7 +22,7 @@ In Belgium, you must have a third-party declarant fill out the Intrastat declara
 ## To export the third-party declaration  
 Before you export the file, it's a good idea to preview the report. For more information, see [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md).  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  Choose the **Create File** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -42,3 +42,6 @@ Next, submit the declaration to the OneGate portal.
  [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
  [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,18 +4,18 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Walkthrough: Planning Supplies Manually
 
-**Note**: This walkthrough must be performed on a demonstration company with the **Full Evaluation - Complete Sample Data** option, which is available in the Sandbox environment. For more information, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 This walkthrough demonstrates the process of planning supply orders to fulfill new demand. You can initiate supply planning at fixed intervals, for example, every morning or every Monday, or when you are notified by sales or production, depending on the type of demand. In this walkthrough you will use the **Order Planning** page, a simple supply planning tool that is based on manual decision-making instead of parameter-based automatic planning.  
 
@@ -34,10 +34,10 @@ This walkthrough demonstrates the process of planning supply orders to fulfill n
 -   Sales Order Processor  
 
 ## Prerequisites  
- Before you begin this walkthrough, you must install the [!INCLUDE[d365fin](includes/d365fin_md.md)]. The following modifications must be made to the database:  
+ Before you begin this walkthrough, you must install the [!INCLUDE[prod_short](includes/prod_short.md)]. The following modifications must be made to the database:  
 
 -   Delete all existing sales orders for bicycles.  
--   Create one sales order for 10 bicycles at BLUE location.  
+-   Create one sales order for 10 bicycles at EAST location.  
 -   Delete all planned and firm planned production orders. Do not delete started orders with entries that are already posted.  
 
  As a rule, use the suggested data in this walkthrough because this data has the necessary records.  
@@ -135,7 +135,7 @@ The **Order Planning** page can be accessed from several different locations:
 
      Sales order **2008** is for ten loudspeakers, item **LS-120**, ordered by John Haddock Insurance Co.  
 
-     The item’s defined replenishment system and default vendor will display.  
+     The item's defined replenishment system and default vendor will display.  
 
     > [!NOTE]  
     >  At the bottom of the page, there are four information fields. In the **Earliest Date Available** field, the ten pieces that are needed will be available, on an inbound supply order, nine days later than the current due date. If this is too late for the customer, the **Available for Transfer** field shows 13 pieces of the item at another location. You will want to plan for this stock.  
@@ -144,7 +144,7 @@ The **Order Planning** page can be accessed from several different locations:
 4.  Choose the **OK** button to book the ten items that are available.  
 
     > [!NOTE]  
-    >  In the demand line, the suggested purchase has been exchanged with a transfer from GREEN location. The **Make Orders** function creates a transfer order from GREEN to the demanded location. The **Substitutes Exists** field works in the same way.  
+    >  In the demand line, the suggested purchase has been exchanged with a transfer from MAIN location. The **Make Orders** function creates a transfer order from MAIN to the demanded location. The **Substitutes Exists** field works in the same way.  
 
 5.  Choose the **Make Orders** action. The **Make Supply Orders** page opens.  
 6.  On the **Order Planning** FastTab, in the **Make Orders for** field, choose the **The Active Order** option.  
@@ -228,3 +228,6 @@ The **Order Planning** page can be accessed from several different locations:
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
 # The GetAddress.io UK Postcodes Extension
-The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[d365fin](../../includes/d365fin_md.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
+The GetAddress.io UK Postcodes extension can save time and prevent mistakes when you enter addresses for entities like customers, vendors, bank accounts, and employees. For example, when you're creating a customer, you just choose a postcode and [!INCLUDE[prod_short](../../includes/prod_short.md)] shows a list of addresses. Pick the address you want, and presto, the address fields are filled out.  
 
 ##To use the GetAddress.io UK Postcodes extension when you enter an address
 1. Under **Address**, choose **Look up address from postcode**.  
@@ -30,3 +30,6 @@ The GetAddress.io UK Postcodes extension can save time and prevent mistakes when
 
 ## See Also
 [Set Up the GetAddress.io UK Postal Code Extension](uk-setup-postal-code-service.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

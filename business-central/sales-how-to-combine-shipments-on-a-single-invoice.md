@@ -4,19 +4,19 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Combine Shipments on a Single Invoice
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
 
- Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have filled in two or more sales orders and posted them as shipped, but not invoiced. To combine shipments, the **Combine Shipments** check box must be selected on the **Shipping** FastTab of the **Customer** card.  
+Before you can create a combined shipment, more than one sales shipment for the same customer in the same currency must be posted. In other words, you must have create two or more sales orders and post them as shipped, but not invoiced. 
 
 ## To manually combine shipments on a single invoice  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
@@ -32,10 +32,12 @@ If you want to invoice more than one shipment at a time, you can use the combine
 7. To post the invoice, choose the **Post** action.  
 
 ## To automatically combine shipments on a single invoice  
+[!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Combine Shipments**, and then choose the related link. The batch job request page opens.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Select the **Post Invoices** check box.  
-4.  Choose the **OK** button.  
+3. Choose the **Post Invoices** check box.  
+4. Choose the **OK** button.  
 
 > [!NOTE]  
 >  You will need to manually post the invoices if the **Post Invoices** check box was not selected on the batch job.  
@@ -55,4 +57,7 @@ Repeat steps 1 through 3 for any other affected documents, such as blanket sales
 
 ## See Also  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

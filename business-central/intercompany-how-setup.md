@@ -1,24 +1,25 @@
 ---
-title: Set Up Intercompany Transaction Posting| Microsoft Docs
+title: Set Up Intercompany Transaction Posting
 description: Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 02/26/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Set Up Intercompany
+# Set Up Intercompany Transaction Posting
+
 To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
 You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
 
-If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Cross Reference** function: To map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the intercompany partner.  
+If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Cross Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the intercompany partner. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). 
 
 If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md).
 
@@ -29,7 +30,10 @@ If you will make intercompany sales transactions that include resources, you mus
 ## To set intercompany partners
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
-3. On the **Intercompany Partner** page, fill in the fields as necessary.
+3. On the **Intercompany Partner** page, fill in the fields as necessary.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
 ## To set up intercompany vendors and intercompany customers
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
@@ -83,7 +87,11 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 3. Repeat step 2 for each account that you often enter in the **Bal. Account No.** field on a line in an intercompany journal or document.
 
 ## To set up intercompany dimensions
+
 If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
+
+> [!NOTE]
+> Each company in [!INCLUDE [prod_short](includes/prod_short.md)] must map dimensions to intercompany dimensions for outgoing documents, and map intercompany dimensions to their own dimensions for incoming documents. This mapping helps assure consistency across the companies. For more information, see the [To map intercompany dimensions to your company's dimensions](#to-map-intercompany-dimensions-to-your-companys-dimensions) section.
 
 If your company is the parent company and has the defining set of intercompany dimensions that your group will use as a common reference, follow the [To define the intercompany dimensions](intercompany-how-setup.md#to-define-the-intercompany-dimensions) procedure.
 
@@ -106,9 +114,11 @@ When a file exists for the defining intercompany dimensions, intercompany partne
 The lines on the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
-When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on incoming transactions will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on outgoing transactions.
+When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on *incoming transactions* will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on *outgoing transactions*.
 
-If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.
+If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.  
+
+In the following steps, you first map intercompany dimensions to dimensions for incoming documents in the **Intercompany Dimensions** page. Then, you map dimensions to intercompany dimensions for outgoing documents in the **Dimensions** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
 2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.'
@@ -126,8 +136,12 @@ If any of the intercompany dimensions have the same code as the corresponding di
 10. On the **Dimension Values** page, fill in the **Map-to IC Dimension Value Code** field.
 
 ## See Also
+
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

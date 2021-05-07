@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Create Recurring Orders
@@ -19,7 +19,7 @@ The create recurring orders process will find all of the recurring orders based 
 
 ## To create recurring orders  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Recurring Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Orders**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -34,3 +34,6 @@ The create recurring orders process will find all of the recurring orders based 
  [Set Up Recurring Groups](how-to-set-up-recurring-groups.md)   
  [Set Up Recurring Orders](how-to-set-up-recurring-orders.md)   
  [Create Blanket Sales Orders](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

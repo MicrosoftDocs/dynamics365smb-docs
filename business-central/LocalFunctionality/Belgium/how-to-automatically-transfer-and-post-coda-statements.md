@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Automatically Transfer and Post CODA Statements
@@ -25,7 +25,7 @@ Alternatively, you can manually transfer and post CODA statements. For informati
 
 ## To automatically transfer statement lines  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  Choose the **Transfer to General Ledger** action.  
@@ -41,3 +41,6 @@ After transferring the statement lines to the journal, you can post the statemen
  [Apply CODA Statements](how-to-apply-coda-statements.md)   
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

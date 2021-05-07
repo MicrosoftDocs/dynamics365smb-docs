@@ -6,13 +6,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 10/01/2019
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up Locations
@@ -21,7 +21,7 @@ If you buy, store, or sell items at more than one place or warehouse, you must s
 You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. For more information, see [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## To create a location card
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
@@ -43,6 +43,9 @@ You can now transfer inventory items between two locations. For more information
 ## See Also
 [Manage Inventory](inventory-manage-inventory.md)  
 [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)    
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

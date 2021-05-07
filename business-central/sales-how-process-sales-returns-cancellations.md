@@ -4,13 +4,13 @@ description: Describes how to create a sales credit memo, directly or through a 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Process Sales Returns or Cancellations
@@ -27,7 +27,7 @@ In addition to the original posted sales invoice, you can apply the sales credit
 
 You can send the posted sales credit memo to the customer to confirm the return or cancellation and communicate that the related value will be reimbursed, for example when the items are returned.
 
-The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item’s value entries are the same as before the item charge was assigned.
+The credit memo posting will also revert any item charges that were assigned to the posted document, so that the item's value entries are the same as before the item charge was assigned.
 
 > [!NOTE]
 > The bookkeeping aspects of sales returns, such as the payments to customers as reimbursement, is considered bookkeeping work and not described here. For more information, see [Managing Payables](payables-manage-payables.md).
@@ -40,7 +40,7 @@ Two functions exist to assign exact cost reversing automatically.
 |Function|Description|  
 |------------------|---------------------------------------|  
 |**Get Posted Document Lines to Reverse** function on the **Sales Return Order** page|Copies lines of one or more posted documents to be reversed into the sales return order. For more information, see [To create a sales return order based on one or more posted sales documents](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|**Copy Document** function in the **Sales Credit Memo** and **Sales Return Order** pages|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected on the **Sales & Receivables Setup** page.|
+|**Copy from Document** function in the **Sales Credit Memo** and **Sales Return Order** pages|Copies both the header and lines of one posted document to be reversed.<br /><br /> Requires that the **Exact Cost Reversing Mandatory** check box is selected on the **Sales & Receivables Setup** page.|
 
 To assign exact cost reversing manually, you must choose the **Appl.-from Item Entry** field on any type of return document line, and then select the number of the original sales entry. This links the sales credit memo or sales return order to the original sales entry and ensures that the item is valued at the original unit cost.
 
@@ -72,7 +72,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Credit Memos**, and then choose the related link.
 2. Choose the **New** action to open a new empty sales credit memo.
 3. In the **Customer** field, enter the name of an existing customer.
-4. Choose the **Copy Document** action.
+4. Choose the **Copy from Document** action.
 5. On the **Copy Sales Document** page, in the **Document Type** field, select **Posted Invoice**.
 6. Choose the **Document No.** field to open the **Posted Sales Invoices** page, and then select the posted sales invoice that contains lines that you want to reverse.
 7. Select the **Recalculate Lines** check box if you want the copied posted sales invoice lines to be updated with any changes in item price and unit cost since the invoice was posted.
@@ -86,7 +86,7 @@ The posted sales documents that you applied the credit memo to are now reversed,
 4. On the **Lines** FastTab, fill the lines manually, or copy information from other documents to fill the lines automatically:
 
     - Use the **Get Posted Document Lines to Reverse** function to copy one or more posted document lines from one or more posted documents. This function always exactly reverses the costs from the posted document line. This function is described in the following steps.    
-    - Use the **Copy Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales and Receivables Setup** page.  
+    - Use the **Copy from Document** function to copy an existing document to the return order. Use this function to copy the entire document. It can be either a posted document or a document that is not yet posted. This function only enables exact cost reversing when the **Exact Cost Reversing Mandatory** check box is selected on the **Sales and Receivables Setup** page.  
 
 5. Choose the **Get Posted Document Lines to Reverse** action.
 6. At the top of the **Posted Sales Document Lines** page, select the **Show Reversible Lines Only** check box if you want to see only lines that have quantities that have not yet been returned. For example, if a posted sales invoice quantity has already been returned, you may not want to return that quantity on a new sales return document.
@@ -212,13 +212,18 @@ When return receipts are combined on a credit memo and posted, a posted sales cr
 2.  Specify in the **No.** filter field which return orders to delete.  
 3.  Choose the **OK** button.  
 
-Alternatively, delete individual sales return orders manually.   
+Alternatively, delete individual sales return orders manually.  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
+
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

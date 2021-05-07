@@ -1,25 +1,26 @@
 ---
-    title: How to Print General Ledger Setup Information
-    description: Before you use Business Central in the daily business, you can run the G/L Setup Information report to display the master data that you have set up.
+    title: Print General Ledger Setup Information [DE]
+    description: Before you use the German version of Business Central in the daily business, you can run the G/L Setup Information report to display the master data that you have set up.
 
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
-# Print General Ledger Setup Information
-Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
+# Print General Ledger Setup Information in the German Version
+
+Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
 
 ## To print general ledger setup information  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
 
     |Option|Description|  
@@ -35,3 +36,6 @@ Before you use [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in the daily bu
 
 ## See Also  
 [Setting Up Finance](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

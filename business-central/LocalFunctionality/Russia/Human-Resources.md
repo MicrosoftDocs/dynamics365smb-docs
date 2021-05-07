@@ -4,9 +4,9 @@ description: Russian enhancements include a human resources module.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -26,3 +26,6 @@ In This Section:
 [Forming and changing Staff List Order, Staff Arrangement](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 
 [Vacation planning](Vacation-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

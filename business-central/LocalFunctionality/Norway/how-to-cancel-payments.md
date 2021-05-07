@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Cancel Payments
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
 
 - A payment order can be canceled if the payments are not received by the bank and a new remittance must be made. You can also cancel a payment order if you do not want to transfer the payments to the bank, for example if the payments are incorrect. Only open payment orders can be canceled.  
 
@@ -23,13 +23,13 @@
 
 ## To cancel a payment order  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Remittance Payment Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Payment Order**, and then choose the related link.  
 2.  Select the payment order, choose the **Export** action, and then choose the **Cancel Payment Order** action.  
 3.  Choose the **Yes** button.  
 
 ## To cancel a payment  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Waiting Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Waiting Journal**, and then choose the related link.  
 2.  Select the payment, and then choose the **Cancel Payment** action.  
 3.  Choose the **Yes** button.  
 
@@ -49,3 +49,6 @@
  [Delete Remittance Payment Orders](how-to-delete-remittance-payment-orders.md)   
  [Remittance Errors](remittance-errors.md)   
  [View Remittance Error Codes](how-to-view-remittance-error-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

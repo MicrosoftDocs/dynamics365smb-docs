@@ -4,9 +4,9 @@ description: Russian enhancements include profit tax information for declaring t
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -36,3 +36,5 @@ In the tax accounting module, the following synthetic registers of the Profit Ta
  [Create Tax Registers](How-to-Create-Tax-Registers.md)
 
 [Tax Differences](Tax-Differences.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

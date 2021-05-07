@@ -7,17 +7,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Electronic Banking in Norway
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  
 
 - Receive electronic payments based on an optical character recognition (OCR) payment ID.  
 - Print Kunde ID (KID) numbers on sales and receivables documents.  
@@ -47,3 +47,6 @@
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Print the OCR Journal - Test Report](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

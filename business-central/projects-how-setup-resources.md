@@ -6,13 +6,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up Resources
@@ -21,6 +21,10 @@ To correctly manage resource activities, you must set up your resources and the 
 When resources are used or sold in a job, the prices and costs associated with them are retrieved from the information that you set up.
 
 You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a job for five hours, the job would be calculated based on the amount per hour.
+
+> [!NOTE]
+> You can purchase external resources, for example to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).<br /><br />
+> In that case, it is recommended that you name or group such external resources to indicate their purpose so they are not confused with your internal resources.
 
 ## To set up a resource
 Create a card for each resource that you want to use in projects.
@@ -72,4 +76,7 @@ In addition to price specified on the resource card, you can set up alternate pr
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

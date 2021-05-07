@@ -7,17 +7,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Payment Management
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to manage bills of exchange, electronic payments, and vendor payments using the payment management function.  
 
 You can manage customer and vendor payments using payment slips. Before you create a payment slip, you must set up the following prerequisites:  
 
@@ -55,3 +55,6 @@ You can separate a fully processed payment slip from the active payment slips by
  [Archive Payment Slips](how-to-archive-payment-slips.md)   
  [Export or Import Payment Management Setup Parameters](how-to-export-or-import-payment-management-setup-parameters.md)   
  [France Local Functionality](france-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

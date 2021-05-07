@@ -4,13 +4,13 @@ description: Learn how to customize the user interface to suit your way of worki
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Personalize Your Workspace
@@ -24,6 +24,11 @@ Depending on the type of page and what it includes, you can make various changes
 > Administrators can perform the same layout changes as users can by customizing the workspace for a profile that multiple users are assigned. For more information, see [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
+## Video Overview
+The following video shows some of the ways in which you can personalize your Role Center.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## To change the width of a column
 You can easily resize columns on any list by dragging the boundary between two columns to the left or the right.
 1. In the header of a list, select and drag the boundary between two columns.
@@ -31,7 +36,7 @@ You can easily resize columns on any list by dragging the boundary between two c
 
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
-## To personalize a page through the **Personalizing** banner
+## To start personalizing a page through the **Personalizing** banner
 1. Open any page that you want to personalize.
 2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
 
@@ -56,16 +61,17 @@ As for other personalization, the changes you make to column width are stored on
 |Hide something, like a field, column in list, tile, action, or part.|Choose the arrowhead, choose <b>Hide</b>.|The element is grayed when you are in personalizing mode. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field will no longer appear there.|
 |Show hidden actions and parts.|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
 |Add a field or column.|In the <b>Personalizing</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right. It lists the fields that you can add to the page.<br /><br />To add a field, drag it from the pane to the position that you want it. The position is indicated by either a thick horizontal or vertical line.|Each page includes a predefined set of fields that you can display. Use this procedure to add fields or columns that have not been previously displayed or to show fields that you have hidden.|
-|Display a field in the heading of a Fastab when the FastTab is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
+|Display a field in the heading of a FastTab when it is collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you do not see this option, then it is already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab will open and focus on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If the is only one FastTab, it cannot be collapsed, so the <b>Show when collapsed</b> option is not available.|
 |Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>. <br /> <br />If you do not see the <b>Show under "Show More"</b> option, then it is already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.||
 |Change the freeze pane in a list to another column. |Choose the arrowhead of the column that you want as the last column of the freeze pane, and then choose <b>Set Freeze Pane</b>.<br /><br/>If you want to set the freeze pane back to its original designed position, choose the arrowhead for the current freeze pane column, and choose <b>Clear Freeze Pane</b>. Note: You cannot remove this freeze pane.|The freeze pane specifies the columns that always appear on the left, even as you scroll horizontally.|  
 |Skip over a field when pressing Enter.|Choose the arrowhead next to the field, or column heading in a list, and choose **Exclude from Quick Entry**. <br /><br /> If you do not see this option, then the field is already set to be skipped. In this case, to stop skipping the field, choose **Include in Quick Entry**. |See [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry)|
 |Reorder and remove views representing filtered lists.|Choose the arrowhead next to a view, and then choose **Move**, **Remove**, or **Hide**.|See [Save and Personalize List Views](ui-views.md)|  
 |Add a new action to a page or report on your Role Center.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Center Role Center](ui-bookmarks.md)|
+|Always start a list as expanded or collapsed|Choose the Expand All or Collapse All button in the top-left corner of the list, or choose the Expand All or Collapse All action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
 ## <a name="Actions"></a>Personalizing Actions
 
-Personalization lets you decide which actions to show on the action bar and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the action bar is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
+Personalization lets you decide which actions to show on the navigation and action bars and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 
@@ -83,9 +89,9 @@ When you want to show or hide an action, the options under the arrowhead define 
 
 |Option|What it does|
 |------|------------
-|**Remove**|This option appears if the selected action is also shown somewhere else on the action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
-|**Hide**|This option appears if the action or action group is not located anywhere else on the action bar. Like **Remove**, choosing this option will make the action or action group disappear from the action bar. However, in personalizing mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
-|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the action bar.|
+|**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group will remain in the other locations. |
+|**Hide**|This option appears if the action or action group is not located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option will make the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group will still be shown in the current position, except that it appears dimmed.|
+|**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option will make the action or action group appear on the navigation bar or action bar.|
 
 ### To move actions and action groups
 Where you can drop actions or actions groups is indicated by a horizontal line between two actions or a border around an action group. The following limitations exist:
@@ -96,6 +102,18 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
+
+## <a name="Parts"></a>Personalizing Parts
+
+Parts are areas on a page that are typically composed of multiple fields, charts or other content, and can be identified by a colored border when setting focus to the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part as well as its' contents.
+
+- To move a part, drag and drop it to the desired position. A colored line indicates valid positions on the screen. For example, FactBoxes can only be moved next to other FactBoxes in the FactBox pane.
+- You can hide a part by choosing the **Hide** option under the arrowhead.
+- When you start personalizing or navigate to a new page, any parts that are currently hidden will appear on the page with distinctive visuals to indicate they are hidden. You can unhide that part by choosing the **Show** option under the arrowhead.
+
+You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
+
+
 ## To clear personalization
 At some point, you might want to undo some or all of the personalization changes that you have made to a page over time.
 
@@ -105,9 +123,9 @@ At some point, you might want to undo some or all of the personalization changes
 |Option|What it does|
 |------|------------
 |**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. This includes any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
-|**Only Actions**|Clears any personalization changes that you have ever made on the action bar on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the action bar. This includes changes to fields, columns, parts, and tiles. |
-|**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to action bar, fields, columns, parts, and tiles.|
+|**Only Actions**|Clears any personalization changes that you have ever made on the navigation or action bars on the page.|
+|**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except those on the navigation or action bar. This includes changes to fields, columns, parts, and tiles. |
+|**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. This includes changes to navigation and action bars, fields, columns, parts, and tiles.|
 
 ## Additional Points of Interest
 To help you better understand personalization, here are some pointers.
@@ -121,6 +139,9 @@ To help you better understand personalization, here are some pointers.
 
 ## See Also
 [Customize Pages for Profiles](ui-personalization-manage.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,16 @@
 ---
 title: Overview of Tasks to Set Up Purchasing | Microsoft Docs
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Setting Up Purchasing
@@ -30,9 +28,17 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
 | Set up purchasers |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
+|Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See Related Training at [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+> [!TIP]
+> Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
+
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Multiple Contracts
@@ -34,7 +34,7 @@ You can manually create a service contract or contract quote for service items a
 When you add a service item on a contract line that is registered in other service contracts or contract quotes, a warning message is displayed stating that the service item already belongs to one or more service contracts or contract quotes. If you confirm this message, all relevant service item information is copied to a newly created contract line.  
   
 ## Copying Documents  
-You can automatically create a service contract or contract quote for service items that are already registered in other service contracts or contract quotes by using the **Copy Document** action.  
+You can automatically create a service contract or contract quote for service items that are already registered in other service contracts or contract quotes by using the **Copy from Document** action.  
   
 ## Creating Service Orders for Multiple Contracts  
 You can manually create a service order for a service item that is registered in multiple active contracts. A service contract is active when it is signed and not expired.  
@@ -42,3 +42,6 @@ You can manually create a service order for a service item that is registered in
 ## See Also  
 [Fulfilling Service Contracts](service-fulfill-service-contracts.md)  
 [Create Service Orders](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

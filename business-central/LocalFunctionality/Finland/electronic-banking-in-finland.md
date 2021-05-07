@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Electronic Banking in Finland
-The [!INCLUDE[d365fin](../../includes/d365fin_md.md)] electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
+The [!INCLUDE[prod_short](../../includes/prod_short.md)] electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  
 
 ## Customer Payments  
 Domestic customer payments can be imported from the bank and linked to the associated accounts receivable entry with a reference number. This type of automation enables incoming payments to be linked directly to open receivables without a delay in manual processing. The following steps explain how to import customer payments into a file from the bank and how to link these payments to invoices through their reference numbers.  
@@ -43,3 +43,6 @@ To send electronic bank payments to vendors, you can export domestic or foreign 
  [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
  [Generate Payment Files](how-to-generate-payment-files.md)   
  [Disregard Payment Discounts](how-to-disregard-payment-discounts.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

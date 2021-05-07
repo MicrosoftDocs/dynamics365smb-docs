@@ -1,19 +1,16 @@
 ---
-    title: How to Create Templates for Telematic VAT Statements in Text File Format
-    description: In order to submit VAT statements electronically, you must create templates to generate the required files. You can submit files in text format and in XML format. This procedure describes how to create templates for text files.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Create Templates for Telematic VAT Statements in Text Format (ES)
+    description: To submit VAT statements electronically in text format in the Spanish version of Business Central, create templates to manage the formats.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Create Templates for Telematic VAT Statements in Text File Format
@@ -23,7 +20,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 ## To create a template for VAT statements in text file format  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Design txt file** action.  
 3.  On the **Transference Format** page, fill in the fields as described in the following table.  
 
@@ -52,3 +49,6 @@ This creates the template. Now, you can create a file that you can then submit t
 ## See Also  
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)   
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

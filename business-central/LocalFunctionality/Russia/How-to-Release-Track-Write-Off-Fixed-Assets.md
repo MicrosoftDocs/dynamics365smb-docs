@@ -1,19 +1,19 @@
 ---
 title: Releasing, tracking, and writing off fixed assets in Russia
-description: You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[prodshort](../../includes/prodshort.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
+description: You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
 # Release, Track, and Write off Fixed Assets
 
-You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[prodshort](../../includes/prodshort.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
+You can manage your fixed assets utilizing the fixed assets acts features in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Fixed assets acts allow you to release, track, and write-off the fixed assets of your organization.
 
 The first step to managing your fixed assets is to set up fixed assets numbering and source codes.
 
@@ -138,3 +138,6 @@ During the sale or disposal of a fixed asset, you may want to write-off the rema
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

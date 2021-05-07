@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Export VAT Statements in XML Format
@@ -23,13 +23,13 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 ## To export a VAT statement in XML format  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Generate XML file** action.  
 
     > [!IMPORTANT]  
     >  The VAT statement name must be of the template type **One Column Report**.  
     >   
-    >  In the standard version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)], the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
+    >  In the standard version of [!INCLUDE[prod_short](../../includes/prod_short.md)], the VAT statement name for the 392 telematic statement is of the type **One Column Report**.  
 
 3.  On the **XML VAT Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
   
@@ -50,3 +50,6 @@ You can open or save the generated XML file. You can now submit the VAT statemen
 ## See Also  
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

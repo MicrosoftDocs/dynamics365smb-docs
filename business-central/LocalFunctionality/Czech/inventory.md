@@ -4,14 +4,14 @@ description: This section describes local functionality - Inventory
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
-ms.date: 01/08/2020
+ms.date: 04/01/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Inventory
+# Inventory in the Czech Version
 
 ## Posting Groups in Transfer Orders
 Czech posting rules require location transfers to be posted with the defined Inventory Adjmt. Account different from other item Journal postings.
@@ -43,7 +43,7 @@ For the reasons above, this feature provides the following reports:
 - Posted Inventory Document Report is used to print posted inventory operations.
 
 ## Inventory Counting Document
-At the end of the period, users perform physical inventory counting to reconcile the actual (physical) value of inventory with the one registered in the system. At the end of the counting process, accounting department needs to archive final Inventory Counting Document containing posted values with names of company officials who under liability confirm with their signature that the quantities and amounts stated in the document correspond to ones physically present in company’s inventory locations.
+At the end of the period, users perform physical inventory counting to reconcile the actual (physical) value of inventory with the one registered in the system. At the end of the counting process, accounting department needs to archive final Inventory Counting Document containing posted values with names of company officials who under liability confirm with their signature that the quantities and amounts stated in the document correspond to ones physically present in company's inventory locations.
 
 For the reasons above, this feature provides the following reports:
 
@@ -53,3 +53,6 @@ For the reasons above, this feature provides the following reports:
 ## See Also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

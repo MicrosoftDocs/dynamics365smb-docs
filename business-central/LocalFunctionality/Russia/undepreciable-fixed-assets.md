@@ -4,9 +4,9 @@ description: Russian enhancements include managing fixed assets that cannot be d
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -41,3 +41,6 @@ Create a depreciation book to keep records of the quantities of fixed assets tha
 ## See Also
 
 [Fixed Assets](../../fa-manage.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

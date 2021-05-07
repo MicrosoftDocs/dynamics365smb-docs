@@ -4,9 +4,9 @@ description: Russian enhancements include additional functionality around accoun
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -15,7 +15,7 @@ ms.author: soalex
 
 Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Home page, such as the Cash Flow chart. 
 
-[!INCLUDE[prodshort](../../includes/prodshort.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.
+[!INCLUDE[prod_short](../../includes/prod_short.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.
 
 Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create Budgets](../../finance-how-create-budgets.md).
 
@@ -90,3 +90,6 @@ Now you can copy and paste your budget statement into a spreadsheet.
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

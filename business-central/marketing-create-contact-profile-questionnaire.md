@@ -4,13 +4,13 @@ description: 'Set up profile questionnaires to help classify your business conta
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
@@ -42,7 +42,7 @@ You can automatically classify your contacts according to customer, vendor, and 
 > [!NOTE]
 > Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data. The automatic classification is not updated automatically. Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.  
 
-After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically assign the right answers for the contact.  
+After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.  
 
 ## Example
 You can classify your contacts according to how much they bought from you:
@@ -154,3 +154,6 @@ When you assign the profile questionnaire containing this question to a contact,
 
 ## See Also
 [Creating Contacts](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

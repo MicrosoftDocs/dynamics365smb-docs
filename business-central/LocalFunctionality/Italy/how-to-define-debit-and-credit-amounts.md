@@ -4,10 +4,10 @@ description: The Debit Amount and Credit Amount fields are included in multiple 
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Define Debit and Credit Amounts
@@ -15,7 +15,7 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
 
 ## To define debit and credit amounts  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -30,3 +30,6 @@ The **Debit Amount** and **Credit Amount** fields are included in multiple journ
 
 ## See Also  
 [Italy Local Functionality](italy-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

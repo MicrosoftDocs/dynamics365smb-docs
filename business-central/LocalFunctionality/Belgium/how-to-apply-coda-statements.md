@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Apply CODA Statements
@@ -24,7 +24,7 @@ Statement amounts can be applied to outstanding ledger entries by:
 
 ## To manually apply the CODA statement lines  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  For each statement line, fill in the fields as described in the following table.  
@@ -32,13 +32,13 @@ Statement amounts can be applied to outstanding ledger entries by:
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account No.**|Enter the number of the general ledger account, bank, customer, vendor, or fixed asset that the bank account statement line is linked to.|  
-    |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
+    |**Description**|[!INCLUDE[prod_short](../../includes/prod_short.md)] automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.|  
 
 5.  Choose the **OK** button.  
 
 ## To automatically apply the CODA statement lines  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  Choose the **Process CODA Statement Lines** action.  
@@ -61,3 +61,6 @@ Statement amounts can be applied to outstanding ledger entries by:
  [Create Financial Journals](how-to-create-financial-journals.md)   
  [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md)   
  [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # FIK Details in the Payment Reconciliation Journal
@@ -30,3 +30,6 @@ The **Transaction Text** field on the **Payment Reconciliation Journal** page sh
 ## See Also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

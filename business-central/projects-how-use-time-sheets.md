@@ -4,16 +4,17 @@ description: Describes how to create a time sheet for a job, copy planning lines
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Use Time Sheets for Jobs
+
 You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. You must have permissions to be able to create time sheets.
 
 You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct.
@@ -23,16 +24,16 @@ After you have approved time sheet entries for a job, you can post them to the r
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## To create a time sheet
+
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
 2. On the **Time Sheet List** page, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
-
-1. Choose the **OK** button.  
+    > [!NOTE]  
+    > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+4. Choose the **OK** button.  
 
 You can view the time sheets that you have created on the **Time Sheet list** page.
 
@@ -109,6 +110,27 @@ After you have approved or rejected a time sheet, it cannot be modified unless i
 3. On the **Time Sheet** page, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button. The status of the time sheets line or lines is changes to **Submitted**.  
 
+## To view and approve time sheets by job
+
+On a job, you can specify a person who is responsible for the job. That information is linked to time sheet lines, and can be used to provide a list of the time sheets that a project manager is required to review and approve. For example, the team project manager may be responsible for certain jobs in your company. In that case, the manager should be designated as the **Person Responsible** on the job card. In this view of time sheet information, you can see the job tasks associated with a job and the quantity of hours used.
+
+> [!NOTE]
+> To be able to approve time sheets in the **Manager Time Sheet by Job** window, you must first select a **Time Sheet by Job Approval** option in the **Resources Setup** page. For more information, see [Set Up Resources](projects-how-setup-resources.md).
+
+### To approve or reject a time sheet by job
+
+1. In the **Search** box, enter **Manager Time Sheet by Job**, and then choose the related link. Microsoft Dynamics NAV displays a list of time sheet lines associated with the jobs for which you have responsibility.
+2. On the **Home** tab, choose **Approve**. Choose **All** to approve all lines. Choose **Selected** to approve only selected lines.
+
+    > [!NOTE]
+    > You can only approve time sheets that have the status of **Submitted**.
+
+3. To provide additional information about the approval or rejection, select a time sheet line, and on the **Navigate** tab, select **Comments**. In the **Date** field, enter a date, and then enter a comment in the **Comment** field.
+4. Choose the **OK** button.
+
+> [!NOTE]
+> After you have approved or rejected a time sheet line by job, it cannot be reopened or modified in the **Time Sheet** window.
+
 ## To post time sheet lines in a resource journal
 After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.
 
@@ -148,4 +170,7 @@ After you have posted time sheets, you can archive them for future reference. Al
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

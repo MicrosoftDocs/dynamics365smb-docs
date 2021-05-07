@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Track Document Lines
@@ -25,7 +25,12 @@ The following procedure describes how to track from a sales order line. The step
 4. On the **Document Lines Tracking** page, select the document that you want to view, and then choose the **Show** action to see the related line.
 5. To view the entire document for the selected document line, choose the **Show Document** action.
 
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
+
 ## See Also
 [Sales](sales-manage-sales.md)  
 [General Business Functionality](ui-across-business-areas.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

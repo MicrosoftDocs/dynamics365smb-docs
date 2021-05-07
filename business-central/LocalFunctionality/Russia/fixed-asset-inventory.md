@@ -4,9 +4,9 @@ description: Russian enhancements include fixed asset inventory.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
@@ -80,3 +80,6 @@ The following procedure shows how to begin inventory auditing by fixed asset loc
 ## See Also
 
 [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

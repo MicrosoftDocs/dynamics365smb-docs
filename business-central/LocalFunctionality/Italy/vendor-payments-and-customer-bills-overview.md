@@ -5,17 +5,17 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Vendor Payments and Customer Bills Overview
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can manage automatic bills to customers and from vendors.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic bills to customers and from vendors.  
 
 In addition, the bill pay feature supports the issuance of payment in many formats, including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.  
 
@@ -29,3 +29,6 @@ Before you can process bills, you must add your bank information to the **Compan
 ## See Also  
  [Set Up Automatic Payments and Automatic Bills](how-to-set-up-automatic-payments-and-automatic-bills.md)   
   [Issue Vendor Payments and Customer Bills](how-to-issue-vendor-payments-and-customer-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

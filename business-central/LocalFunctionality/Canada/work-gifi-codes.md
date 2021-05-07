@@ -6,13 +6,13 @@ documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 10/01/2019
-ms.author: SorenGP
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Work With GIFI Codes
@@ -25,30 +25,30 @@ When an account is associated with a GIFI code, it is reported to the revenue ag
 You can export balance information by GIFI code and save the exported file in Excel, which is useful for transferring information to your tax preparation software.
 
 ## To set up GIFI codes
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and statements of retained earnings.
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up GIFI codes for general ledger accounts, reports, balance sheets, income sheets, and statements of retained earnings.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **GIFI Codes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **GIFI Codes**, and then choose the related link.
 2. On the **GIFI Codes** page, choose the **New** action.
 3. Set up GIFI codes by filling the fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## To associate GIFI codes with G/L accounts
 To report financial information by GIFI code, each GIFI code must be associated with the appropriate accounts in the chart of accounts.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
 2. Select a relevant general ledger account, and then choose the **Edit** action.
 3. On the **Cost Accounting** FastTab, in the **GIFI Code** field, select an appropriate GIFI code.
 
 ## To view account balances using the GIFI code report
 You can review your account balances by GIFI code by using the **Account Balances by GIFI Code** report.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Balances by GIFI Code**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Balances by GIFI Code**, and then choose the related link.
 2. Specify what to include in the report by filling the fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Choose the **Print** or the **Preview** button.
 
 ## To export balance information using GIFI codes
 You can export balance information using GIFI codes and save the exported file in Excel. You can modify, save, or delete the file. You can use the file to transfer information to your tax preparation software.
 
-1. Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export GIFI Info. to Excel**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export GIFI Info. to Excel**, and then choose the related link.
 2. Specify what to export to Excel by filling the fields. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Choose the **OK** button.
 
@@ -62,3 +62,6 @@ You can export balance information using GIFI codes and save the exported file i
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)   
 [Setting Up Finance](../../finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

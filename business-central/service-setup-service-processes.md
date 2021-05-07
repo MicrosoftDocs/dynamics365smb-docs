@@ -4,12 +4,12 @@
     author: bholtorf
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-    ms.date: 10/01/2019
+    ms.date: 04/01/2021
     ms.author: bholtorf
 
 ---
@@ -33,3 +33,6 @@ The following are some examples of the settings that you can apply to service ma
 [Set Up Additional Costs for Services](service-how-setup-service-costs-pricing.md)  
 [Set Up Troubleshooting](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

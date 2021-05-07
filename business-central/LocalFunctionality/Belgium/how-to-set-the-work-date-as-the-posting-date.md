@@ -7,13 +7,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Set the Work Date as the Posting Date
@@ -21,10 +21,13 @@ You can set up the general ledger to use the work date as the posting date for c
 
 ## To set the work date as the posting date  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2.  Select the **Use Workdate for Appl./Unappl.** field.  
 3.  Choose the **OK** button.  
 
 ## See Also  
  [Belgium Local Functionality](belgium-local-functionality.md)   
  [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

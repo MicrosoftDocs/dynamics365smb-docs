@@ -4,10 +4,10 @@ description: The Payments Cartera module allows you to manage payables documents
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Payments Cartera Module
@@ -38,3 +38,6 @@ Payment confirmation is a service provided by a financial entity. With payment c
 ## See Also  
  [Cartera Module](cartera-module.md)   
  [Receivables Cartera Module](receivables-cartera-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

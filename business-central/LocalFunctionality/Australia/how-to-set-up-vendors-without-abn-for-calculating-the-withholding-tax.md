@@ -1,27 +1,25 @@
 ---
-    title: How to Set Up Vendors Without ABN for Calculating the Withholding Tax
-    description: Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.
-
-    services: project-madeira 
-    documentationcenter: ''
+    title: Set Up Vendors Without ABN for Calculating WHT
+    description: In Business Central, Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
-# Set Up Vendors Without ABN for Calculating the Withholding Tax
+# Set Up Vendors Without ABN for Calculating the Withholding Tax in the Australian Version
+
 Withholding Tax (WHT) is calculated for local vendors who do not have an Australian Business Number (ABN), as required by tax law.  
 
 ## To set up vendors without ABN for calculating the withholding tax  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Choose the required vendor, and then choose the **Edit** action.  
 3.  On the **Vendor Card** page, make sure the **ABN** field and the **Foreign Vend** field are empty.  
 4.  Choose the **OK** button.  
@@ -32,3 +30,6 @@ Withholding Tax (WHT) is calculated for local vendors who do not have an Austral
 ## See Also  
  [Withholding Tax](withholding-tax.md)   
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

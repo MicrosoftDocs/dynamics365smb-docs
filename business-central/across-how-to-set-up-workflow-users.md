@@ -1,20 +1,20 @@
 ---
 title: How to Set Up Workflow Users | Microsoft Docs
 description: Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up Workflow Users
+
 Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.  
 
 On the **Workflow User Group** page, you set up users under workflow user groups, and you specify the users’ number in a process sequence, such as an approver chain.  
@@ -22,11 +22,11 @@ On the **Workflow User Group** page, you set up users under workflow user groups
 Workflow users that function as approval users, both approval requesters and approvers, must also be set up on the **Approval User Setup** page. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]  
->  To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up on the **Approval User Setup** page. For approver type, **Workflow User Group**, set approvers up on the **Workflow User Groups** page and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md) and this topic.  
->   
->  To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hierarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers on the **Workflow User Groups** page and assign the same number to each approver in the **Sequence No.** field. For more information, see this topic.  
+> To define that an approval request is not approved until multiple approvers in an approval chain have approved it, set up approvers in a hierarchy. For approver type **Approver**, set approvers up on the **Approval User Setup** page. For approver type, **Workflow User Group**, set approvers up on the **Workflow User Groups** page and define the hierarchy by assigning incremental numbers to each approver in the **Sequence No.** field. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md) and the following section.  
+>
+> To define that an approval request is not approved until multiple equal approvers have approved it, regardless of a hierarchy, set up a flat workflow user group. For approver type, **Workflow User Group**, set up approvers on the **Workflow User Groups** page and assign the same number to each approver in the **Sequence No.** field. For more information, see the following section.  
 
-### To set up a workflow user  
+## To set up a workflow user
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
@@ -41,9 +41,13 @@ Workflow users that function as approval users, both approval requesters and app
 6. Repeat step 5 to add more workflow users to the user group.  
 7. Repeat steps 2 through 6 to add more workflow user groups.  
 
-## See Also  
-[Set Up Approval Users](across-how-to-set-up-approval-users.md)   
-[Setting Up Workflows](across-set-up-workflows.md)   
-[Using Workflows](across-use-workflows.md)   
-[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+## See Also
+
+[Set Up Approval Users](across-how-to-set-up-approval-users.md)  
+[Setting Up Workflows](across-set-up-workflows.md)  
+[Using Workflows](across-use-workflows.md)  
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,21 @@
 ---
-    title: Design Details - Codeunit 12 Changes in Mapping Global Variables for General Journal Post Line | Microsoft Docs
-    description: The following changes have been implemented in this release of Business Central.
+    title: Changes in Mapping Global Variables for Posting in Codeunit 12
+    description: In earlier versions, codeunit 12 was changed to help improve performance in posting from the general journal. Learn about the changes to the global variables.
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
-# Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line
-The following changes have been implemented in this release of [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# Historical Changes to Codeunit 12: Mapping Global Variables for General Journal Post Line
+
+The following changes have been implemented in versions of [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Comment**|  
 |----------------------------------------|----------------------------------------|-----------------|  
@@ -105,3 +106,6 @@ The following changes have been implemented in this release of [!INCLUDE[d365fin
 
 ## See Also  
  [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

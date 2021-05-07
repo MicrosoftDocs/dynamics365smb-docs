@@ -6,17 +6,17 @@ documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 01/13/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
 # Analyzing Cash Flow in Your Company
-As they say, cash is king. The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash.  
+The charts on the Accountant Role Center provide insights that can help you make solid decisions about what to do with your cash.  
 
 | To answer questions like these | Use this chart |
 | --- | --- |
@@ -49,5 +49,8 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 
 ## See Also
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

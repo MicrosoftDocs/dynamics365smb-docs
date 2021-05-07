@@ -4,13 +4,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Design Details: Integration with Inventory
@@ -44,3 +44,5 @@ The Warehouse Management application area and the Inventory application area int
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)   
  [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

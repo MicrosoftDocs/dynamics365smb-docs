@@ -4,16 +4,16 @@ description: Russian enhancements include fixed assets.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.reviewer: edupont
 ms.author: soalex
 ---
 
 # Overview - Fixed Assets
 
-In Russia, there are specific [!INCLUDE[prodshort](../../includes/prodshort.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
+In Russia, there are specific [!INCLUDE[prod_short](../../includes/prod_short.md)] features that you can use to track and manage your fixed assets. You can use fixed assets functionality to manage depreciation and maintenance costs, track the movement of fixed assets, manage the sale or disposal of fixed assets, and generate various reports and statistics.
 
 ## Getting Started with Fixed Assets
 
@@ -39,3 +39,6 @@ Use the following table to learn more about the fixed asset features that are av
 | [Set Up an Intangible Assets Account](How-to-Set-Up-an-Intangible-Assets-Account.md)           | Enables you to post intangible asset transactions to a special intangible assets account. |
 | [Account for the Cost to Dispose a Fixed Asset](How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) | Enables you to account for the cost to dispose a fixed asset as an expense. |
 | [Undepreciable Fixed Assets](Undepreciable-Fixed-Assets.md)                            | Enables you to recognize the complete cost of a fixed asset at the time of acquisition. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,13 +5,13 @@
     author: SorenGP
 
     ms.service: dynamics365-business-central
-    ms.topic: article
+    ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 10/01/2019
-    ms.author: sgroespe
+    ms.date: 04/01/2021
+    ms.author: edupont
 
 ---
 # Enter and Post Cash and Bank/Giro Journals
@@ -19,7 +19,7 @@ The cash journal and the bank/giro journal help you post transactions into the s
 
 In conjunction with Telebanking, they allow you to import electronic bank statements into the **Bank/Giro Journal** page. The system can automatically reconcile these statements during the import process and determine whether a statement can be applied to open ledger entries for the relevant vendor/customer.
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using the **Cash Book** and **Bank Book** types.  
 
 You can enter increases or decreases to the cash account on the **Cash Journal** page. For example, you can use this journal for paying out petty cash or receiving transfers from a different bank account.  
 
@@ -29,7 +29,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 
 ## To post cash journals  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Journal**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Cash Journal** page, on the **Lines** FastTab, fill in the required fields as described in the following table.  
 
@@ -52,7 +52,7 @@ You can apply the payments from customers to the open invoices from accounts rec
 
 ## To post bank or giro journals  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank/Giro Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the relevant journal template, and then choose the **OK** button.  
 4.  On the **Bank/Giro Journal** page, fill in the fields as described in the following table.  
@@ -86,3 +86,6 @@ The entries are posted to the general ledger. For more information, see General 
  [Telebanking](telebanking.md)   
  [Enter and Post Cash and Bank or Giro Journals](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
  [Applying Payments Automatically and Reconciling Bank Accounts](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

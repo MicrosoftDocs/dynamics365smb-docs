@@ -4,10 +4,10 @@ description: You can use the Correction field to post a negative debit instead o
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/01/2019
-ms.author: sgroespe
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Post a Negative Entry
@@ -15,7 +15,7 @@ You can use the **Correction** field to post a negative debit instead of a credi
 
 ## To post a negative entry  
 
-1.  Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link  
 2.  In the **Batch Name** field, select the required batch name.  
 3.  Enter information into the relevant fields.  
 4.  In the journal line that you want to activate for negative entries, select the **Correction** check box.  
@@ -24,3 +24,6 @@ You can use the **Correction** field to post a negative debit instead of a credi
 ## See Also  
 [Reverse Journal Postings and Undo Receipts/Shipments](../../finance-how-reverse-journal-posting.md)  
 [Germany Local Functionality](germany-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

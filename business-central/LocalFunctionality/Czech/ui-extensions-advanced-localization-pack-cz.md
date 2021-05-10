@@ -18,12 +18,10 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
 ## Feature Availability
 
 - **Finance**
-  - [WIP Extended Posting](wip-extended-posting.md) **July 2021**
   - [General Ledger Entries Application](general-ledger-entries-application.md) **June 2021**
 
 - **Inventory**
   - [Posting groups in transfer orders](how-to-use-posting-groups-in-transfer-orders.md) **2021 release wave 1**
-  - [Rounding Account in Inventory](how-to-setup-round-account-in-inventory.md) **July 2021**
 
 - **Small regulatory features and best practices**
   - [Mandatory returning of exact costs in Manufacturing](how-to-setup-mandatory-return-exact-costs-manufacturing.md) **June 2021**

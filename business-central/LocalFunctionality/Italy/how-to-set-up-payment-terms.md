@@ -11,7 +11,7 @@ ms.author: edupont
 ---
 # Set Up Payment Terms in the Italian Version
 
-Payment terms determine how you whelp you manage due dates and payment discounts. For each payment term, you can specify if the payment can be made in installments. For example, you can define that a payment can be made in three installments with a third of the payment due after 30, 60, and 90 days.  
+Payment terms determine how you manage due dates and payment discounts. For each payment term, you can specify if the payment can be made in installments. For example, you can define that a payment can be made in three installments with a third of the payment due after 30, 60, and 90 days.  
 
 If a payment term must be paid in one installment, you must still specify how the due date will be calculated.  
 

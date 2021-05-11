@@ -37,9 +37,9 @@ After you change the company on the **Settings** page, you might notice that the
 
 You may experience this error when you search in a company that hasn't been initialized or is in an unresponsive state. For example, you can't search in a new trial company that hasn't yet accepted the terms of use. To resolve this issue, try to sign in to the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client, and act on or dismiss any initial dialogs that appear.
 
-## "The contacts API was not found" error when searching for contacts
+## "Cannot find the contact/contact summary API" error when searching for contacts
 
-This problem may be because of customizations or industry solutions that affect, modify, or don't provide a contact API in [!INCLUDE [prod_short.md](includes/prod_short.md)]. If the problem continues, contact your administrator or supporting partner.
+This problem can be caused by customizations or industry solutions that affect or modify [!INCLUDE [prod_short.md](includes/prod_short.md)], or they don't provide a contact or contact summary API. If the problem continues, contact your administrator or supporting partner.
 
 ## None of my links expand into a card 
 

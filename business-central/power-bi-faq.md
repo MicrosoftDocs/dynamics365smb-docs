@@ -103,7 +103,7 @@ Here are other pages that contain the larger, non-filtered **Power BI Reports** 
 |9027|Accountant Role Center|
 
 > [!TIP]
-> We don't have plans to add it to all list pages at the moment. However, you can create a simple page extension that adds the **Power BI Reports** part in a FactBox. <!-- For more information, see [Adding Power BI Report Parts to Pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) -->
+> We don't have plans to add it to all list pages at the moment. However, you can create a simple page extension that adds the **Power BI Reports** part in a FactBox. For more information, see [Adding Power BI Report Parts to Pages](/dynamics365/business-central/dev-itpro/developer/devenv-power-bi-report-parts) in the Developer and IT Pro help.
 
 <!-- 5 -->
 ### Is there any way to filter a dataset from Business Central *before* I pull it into Power BI, instead of applying filters afterwards?

@@ -35,6 +35,9 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 5. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
 6. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
+   > [!IMPORTANT]
+   > Using the **Use Default Synchronization Setup** action will apply the default integration table mappings. All custom mappings will be overwritten. If you have custom mappings that you want to keep, we recommend that you export them to Excel or talk to your Microsoft partner about other ways to keep your custom mappings.    
+
 ## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)

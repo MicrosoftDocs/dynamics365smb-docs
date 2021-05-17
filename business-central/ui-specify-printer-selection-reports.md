@@ -104,7 +104,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     After a printer is registered, you can view and modify printer properties, like default preferences.
 
-    For more information, see [Manage printer metadata settings](/universal-print/fundamentals/universal-print-printer-property-settings).
+    For more information, see [Managing Printer Settings using the Universal Print portal](/universal-print/portal/configure-printer-settings).
 
 5. Give users permission to the printers.
 

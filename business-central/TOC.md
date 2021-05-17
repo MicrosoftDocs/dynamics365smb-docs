@@ -241,9 +241,10 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Outlook 
+#### Set Up Your Business Inbox in Microsoft Outlook 
 ##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Using Business Central Without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)

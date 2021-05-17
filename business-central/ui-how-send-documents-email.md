@@ -52,7 +52,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field that specifies how many times the document has been printed. The number in that field <!--"that field?" need a name...--> is also updated if you send the document by email because a PDF file is generated for it. The number is updated even if you don't send the email. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## Sent Emails and Your Email Outbox
-[!INCLUDE[prod_short](includes/prod_short.md)]] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
+[!INCLUDE[prod_short](includes/prod_short.md)] stores the emails that you send on the **Sent Items** page. That's to let you resend emails, or forward them to someone else. If you can't find an email in your sent items, look for it on the **Email Outbox** page. 
 
 > [!NOTE]
 > Depending on the extension that your company uses for email, administrators can see a list of messages that everyone has sent, but not the content of the messages

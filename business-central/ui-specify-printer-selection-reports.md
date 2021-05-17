@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
 ---
 # Set Up Printers
@@ -32,7 +32,7 @@ Universal Print is a Microsoft 365 subscription-based service that runs entirely
 
 ![Universal Print setup](media/Universal-Print-arch.png)
 
-The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://posrtal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
+The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://portal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### Supported printers
 
@@ -72,7 +72,7 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
 Before you can start managing Universal Print printers in Business Central, there are several tasks you'll need to go through to get Universal Print up and running in Azure with the printers you want use.
 
-For detailed instructions on how to get set up, see [Get started: Set up Universal Print](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in the Universal Print documentation. Here's an overview of the steps you'll need to complete. Most of these steps are done in the Azure portal.
+For detailed instructions on how to get set up, see [Get started: Set up Universal Print](/universal-print/fundamentals/universal-print-getting-started) in the Universal Print documentation. Here's an overview of the steps you'll need to complete. Most of these steps are done in the Azure portal.
 
 1. Assign Universal Print licenses to yourself and other users.
 
@@ -98,29 +98,34 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     - For other printers, register the printers by using the Universal Print connector. 
 
-      For more information, see [Printer registration](/universal-print-connector-printer-registration).
+      For more information, see [Printer registration](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Change printer properties (optional)
 
     After a printer is registered, you can view and modify printer properties, like default preferences.
 
-    For more information, see [Manage printer metadata settings](/universal-print/fundamentals/universal-print-printer-property-settings).
+    For more information, see [Managing Printer Settings using the Universal Print portal](/universal-print/portal/configure-printer-settings).
 
-5. Give users permission to the printers.
-
-    For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Share the printers.
+5. Share the printers.
 
     Any printer that you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will have to be shared in Universal Print.
 
-    For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    For more information, see [Share a Printer](/universal-print/portal/share-printers).
+
+6. Give users permission to the shared printers.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    For more information, see [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Enable document conversion.
 
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdash;in many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
-    For more information, see [Document Conversion Overview](/universal-print/fundamentals/universal-print-document-conversion).
+    For more information, see [Document Conversion Overview](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > If none of your printers require PDF content rendering format, we recommend that you don't enable document conversion because it might affect the print output quality.

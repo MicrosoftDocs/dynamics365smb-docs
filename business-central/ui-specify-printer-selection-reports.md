@@ -98,7 +98,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     - For other printers, register the printers by using the Universal Print connector. 
 
-      For more information, see [Printer registration](/universal-print-connector-printer-registration).
+      For more information, see [Printer registration](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Change printer properties (optional)
 

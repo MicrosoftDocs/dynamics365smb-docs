@@ -144,10 +144,6 @@ The following steps assume that you use Azure AD to manage identities and access
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
 
-#### Using Another Identity and Access Management Service
-
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the `OnGetCDSConnectionClientId` and `OnGetCDSConnectionClientSecret` events in codeunit 7201 `CDS Integration Impl.`.
-
 ### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.

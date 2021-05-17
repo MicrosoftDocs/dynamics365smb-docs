@@ -118,7 +118,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
-    For more information, see [Printer Permissions](/universal-print/portal/share-printers##configure-user-permissions-for-a-printer-share).
+    For more information, see [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 
 7. Enable document conversion.

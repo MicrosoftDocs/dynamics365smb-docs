@@ -32,7 +32,7 @@ Universal Print is a Microsoft 365 subscription-based service that runs entirely
 
 ![Universal Print setup](media/Universal-Print-arch.png)
 
-The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://posrtal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
+The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://portal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### Supported printers
 
@@ -72,7 +72,7 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
 Before you can start managing Universal Print printers in Business Central, there are several tasks you'll need to go through to get Universal Print up and running in Azure with the printers you want use.
 
-For detailed instructions on how to get set up, see [Get started: Set up Universal Print](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in the Universal Print documentation. Here's an overview of the steps you'll need to complete. Most of these steps are done in the Azure portal.
+For detailed instructions on how to get set up, see [Get started: Set up Universal Print](/universal-print/fundamentals/universal-print-getting-started) in the Universal Print documentation. Here's an overview of the steps you'll need to complete. Most of these steps are done in the Azure portal.
 
 1. Assign Universal Print licenses to yourself and other users.
 

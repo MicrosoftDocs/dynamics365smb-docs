@@ -42,7 +42,10 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 ## Outlook
 
 **Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises. 
- 
+
+> [!IMPORTANT]
+> Starting with Business Central 2021 release wave 2, you will no longer be able to sign in to the Business Central add-in from Outlook versions earlier than 2012.
+  
 **Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article. 
  
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -58,6 +61,9 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 ## Excel
 
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[prod_short](includes/prod_short.md)], you need Excel 2019 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  
+
+> [!IMPORTANT]
+> Starting with Business Central 2021 release wave 2, the Excel add-in feature will only support Excel version 2012 or later.
 
 ## <a name="TAC"></a> Using the Business Central Administration Center
 

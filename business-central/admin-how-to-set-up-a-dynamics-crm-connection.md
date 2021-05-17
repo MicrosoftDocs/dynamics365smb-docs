@@ -123,7 +123,7 @@ Dataverse must use one of the following authentication types:
 
 ### To register an application in Azure AD for connecting from Business Central to Dataverse
 
-The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure AD, see [Using Another Identity and Access Management Service](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Dataverse Connection Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -143,10 +143,6 @@ The following steps assume that you use Azure AD to manage identities and access
 
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.
-
-#### Using Another Identity and Access Management Service
-
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the `OnGetCDSConnectionClientId` and `OnGetCDSConnectionClientSecret` events in codeunit 7201 `CDS Integration Impl.`.
 
 ### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

@@ -258,7 +258,7 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
-##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Sharing Records in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
@@ -1600,6 +1600,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
+### [Onboard Users with Checklists](admin-checklist.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

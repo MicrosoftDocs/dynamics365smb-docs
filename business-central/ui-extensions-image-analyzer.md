@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 # The Image Analyzer Extension
 
-The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Microsoft Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
+The Image Analyzer extension uses powerful image analytics provided by the Computer Vision API for Azure Cognitive Services to detect attributes in the images that you import for items and contact persons, so you can easily review and assign them. For items, attributes could be whether the item is a table or a car, and whether it is red or blue. For contact persons, attributes can be gender or age.
 
 Image Analyzer suggests attributes based on tags that the Computer Vision API finds, and a confidence level. By default, it suggests attributes only if it is at least 80% sure that the attribute is correct. You can set another confidence level, if needed. To learn more about how the tags and confidence level are determined, see [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
@@ -26,7 +26,7 @@ After you enable the extension, Image Analyzer runs each time you import an imag
 
 ## Privacy Notice
 
-This extension uses the Computer Vision API from Microsoft Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[prod_short](includes/prod_short.md)]. When you enable the Image Analyzer extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyzer extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
+This extension uses the Computer Vision API from Azure Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[prod_short](includes/prod_short.md)]. When you enable the Image Analyzer extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension, you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyzer extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## Requirements
 
@@ -38,12 +38,12 @@ There are a few requirements for the images:
 
 ## To enable Image Analyzer
 
-The Image Analyzer extension is built-in to [!INCLUDE[prod_short](includes/prod_short.md)]. You just need to turn it on.
+The Image Analyzer extension is built in to [!INCLUDE[prod_short](includes/prod_short.md)]. You just need to turn it on.
 
 > [!NOTE]  
 > To enable the Image Analyzer extension, you must be an administrator. Make sure that you are assigned the **SUPER** user permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-1. To enable the Image Analyzer extension, do one of the following:
+1. To enable the Image Analyzer extension, do one of the following actions:
 
 * Open an item or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
 * Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  
@@ -70,7 +70,7 @@ The **Action to perform** action has following options:
   * *Use as a category*
 
     The selected value is added as a category. For more information, see [Categorize Items](inventory-how-categorize-items.md)
-  * *Add to block list*
+  * *Add to blacklist*
 
     If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, choose **View Blacklisted Attributes**, and then delete the attribute from the list.
   
@@ -119,7 +119,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analyzer Setup**.  
 2. Clear the **Enable Image Analyzer** check box.  
 
-Alternatively, uninstall the extension completelly. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
+Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
 
 ## See Also
 

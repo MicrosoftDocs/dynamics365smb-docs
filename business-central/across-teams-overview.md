@@ -44,7 +44,7 @@ Copy a link to any Business Central record and paste it into a Teams conversatio
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
-For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).
+For more information, see [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## Get Started
 
@@ -57,7 +57,7 @@ For more information, see [Working with Business Central Data in Microsoft Teams
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
-4. Once the app is installed, you're ready to go. See [Working with Business Central Data in Teams](across-working-with-teams.md). 
+4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md). 
 
 ## See Also
 

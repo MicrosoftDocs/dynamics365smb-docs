@@ -1,5 +1,5 @@
 ---
-title: Using the Image Analyzer Extension | Microsoft Docs
+title:The Image Analyzer Extension
 description: This extensions lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 04/01/2021
+ms.date: 05/19/2021
 ms.author: bholtorf
 
 ---
@@ -59,14 +59,23 @@ The following steps describe how to analyze an image that was imported before yo
 2. Choose the item, and then choose the **Analyze Picture** action.  
 3. The **Image Analyzer Attributes** page displays the detected attributes, the confidence level, and other details about the attribute. Use the **Action to perform** options to specify what to do with the attribute or choose **Add to item description** to add the name of the attribute to the item description. For example, this can be useful for quickly adding detail. 
 
-The **Action to perform** has following options:
-  * *Ignore* - no actions will be performed
-  * *Use as attribute* - system will add value to item attributes. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md)
-  * *Use as a category* - system will assign selected value as category. For more information, see [Categorize Items](inventory-how-categorize-items.md)
-  * *Add to block list* - if the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, you can choose **View Blacklisted Attributes**, and then delete the attribute from the list.
+The **Action to perform** action has following options:
+
+  * *Ignore*
+
+    No actions will be performed
+  * *Use as attribute*
+
+    The value is added to the item attributes. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md)
+  * *Use as a category*
+
+    The selected value is added as a category. For more information, see [Categorize Items](inventory-how-categorize-items.md)
+  * *Add to block list*
+
+    If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, choose **View Blacklisted Attributes**, and then delete the attribute from the list.
   
     > [!NOTE]  
-    > By default **Item Attributes** displays attributes where **Confidence Score** is above **Confidence Score Threshold %** defined in the **Image Analyzer Setup**. Choose **View All Attributes** action if you want to see all detected attributes.
+    > By default **Item Attributes** displays attributes where **Confidence Score** is above **Confidence Score Threshold %** defined in the **Image Analyzer Setup**. To see all detected attributes, choose the **View All Attributes** action.
 
 ## To analyze a picture of a contact person
 
@@ -74,12 +83,17 @@ The following steps describe how to analyze an image that was imported before yo
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.  
 2. Choose the contact person, and then choose the **Analyze Picture** action.  
-3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed.  For more information, see [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)
+3. On the **Profile Questionnaire** FastTab, review the suggestions, and make corrections if needed. For more information, see [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > Computer Vision API returns following attributes:
-    > * *age* - an estimated "visual age" number in years. It is how old a person looks like rather than the actual biological age.
-    > * *gender* - male or female.
+    > 
+    > The Computer Vision API returns following attributes:
+    > * *age*
+    >
+    >     An estimated "visual age" in years. It is how old a person looks as opposed to the actual biological age.
+    > * *gender*
+    >
+    >    Male or female.
     > 
     > The Computer Vision API doesn't return confidence level for age and gender attributes.
   
@@ -105,7 +119,7 @@ You can view the number of analyses you've done, and how many you can still do, 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analyzer Setup**.  
 2. Clear the **Enable Image Analyzer** check box.  
 
-Alternatively you can completelly uninstall extension. You can always install it back from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension)
+Alternatively, uninstall the extension completelly. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
 
 ## See Also
 

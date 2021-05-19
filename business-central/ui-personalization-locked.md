@@ -1,6 +1,6 @@
 ---
 title: Why Can't I Personalize a Page | Microsoft Docs
-description: Explains why you cannot personlaize a page and what yoo can do to unlock it so you can personalize it.
+description: Explains why you cannot personlize a page and what you can do to unlock it so you can personalize it.
 author: SorenGP
 
 ms.service: dynamics365-business-central

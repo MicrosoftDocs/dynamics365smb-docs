@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 04/12/2021
+ms.date: 05/19/2021
 ms.author: jswymer
 ---
 # Teams FAQ
@@ -148,7 +148,9 @@ When searching for contacts from the [!INCLUDE [prod_short.md](includes/prod_sho
 
 ### Which fields in the contacts table can I search?
 
-As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address** fields, **Phone No.** or **Mobile Phone No.**, and **Email**.  
+As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address** fields, **Phone No.** or **Mobile Phone No.**, and **Email**. 
+
+Search terms aren't matched against any custom fields added to the **Contacts** table by apps and extensions.
 
 ### Do search results include companies and persons?
 

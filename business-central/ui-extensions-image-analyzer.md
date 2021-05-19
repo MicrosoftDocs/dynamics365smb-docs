@@ -43,7 +43,7 @@ The Image Analyzer extension is built in to [!INCLUDE[prod_short](includes/prod_
 > [!NOTE]  
 > To enable the Image Analyzer extension, you must be an administrator. Make sure that you are assigned the **SUPER** user permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 
-1. To enable the Image Analyzer extension, do one of the following actions:
+To enable the Image Analyzer extension, take one of the following actions:
 
 * Open an item or contact card. In the notification bar, choose **Analyze Images**, and then follow the steps in the assisted setup guide.  
 * Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose **Image Analysis Setup**. Choose the **Enable Image Analyzer** check box, and then complete the steps in the assisted setup guide.  

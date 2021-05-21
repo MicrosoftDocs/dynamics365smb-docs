@@ -1,5 +1,5 @@
 ---
-title: Display Custom Power BI Reports for Business Central data| Microsoft Docs
+title: Display Custom Power BI Reports for Business Central data
 description: You can use Power BI reports to gain extra insight into data in lists.
 author: jswymer
 
@@ -57,7 +57,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Save and name the report.
 
-    Give the report a name that contains the name of the list page associated with the report, as it is in the client. The name isn't case-sensitive though. Suppose the report is for the **Sales Invoices** list page. In this case, include the words *sales invoices** somewhere in the name, like **my sales invoices.pbix** or **my_Sales Invoices_list.pbix**.
+    Give the report a name that contains the name of the list page associated with the report, as it is in the client. The name isn't case-sensitive though. Suppose the report is for the **Sales Invoices** list page. In this case, include the words **sales invoices** somewhere in the name, like **my sales invoices.pbix** or **my_Sales Invoices_list.pbix**.
 
     This naming convention isn't a requirement. However, it makes selecting reports in [!INCLUDE[prod_short](includes/prod_short.md)] quicker. When the report selection page opens from a list page, it's automatically applied a filter based on the page name. The filter has the syntax: `@*<caption>*`,  like `@*Sales Invoices*`. This filtering is done to limit the reports that are displayed. Users can clear the filter to get a full list of reports available in Power BI.
 

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -67,7 +67,7 @@ To allow journals to be copied to posted general journals, on the **General Jour
 If you have set up default balancing accounts for the journal batches on the **General Journals** page, the balancing account will be filled in automatically when you fill in the **Account No.** field. Otherwise, fill in both the **Account No.** field and the **Bal. Account No.** field manually. A positive amount in the **Amount** field is debited to the main account and credited to the balancing account. A negative amount is credited to the main account and debited to the balancing account.
 
 > [!NOTE]  
->   VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
+> VAT is calculated separately for the main account and the balancing account, so they can use different VAT percentage rates.
 
 ## Working with Recurring Journals
 A recurring journal is a general journal with specific fields for managing transactions that you post frequently with few or no changes, such as rent, subscriptions, electricity, and heat. Using these fields for recurring transactions, you can post both fixed and variable amounts. You can also specify automatic reversal entries for the day after the posting date. You can also use allocation keys to divide the recurring entries among various accounts. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -163,6 +163,7 @@ When you have created journal lines which you know you are likely to create agai
 When you have finished saving the standard item journal, the Item Journal page is displayed so you can proceed to post it, knowing that it can easily be recreated next time you need to post the same or similar lines.
 
 ### To reuse a standard journal
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Choose the **Get Standard Journals** action.
 
@@ -177,23 +178,26 @@ When you have finished saving the standard item journal, the Item Journal page i
     If you did not check the **Save Unit Amount** field when you used the **Save as Standard Item Journal** function job, then the **Unit Amount** field on lines that are inserted from the standard journal is automatically filled with the item's current value, copied from the **Unit Cost** field on the item card.
 
     > [!NOTE]  
-    >   If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
+    > If you selected the **Save Unit Amount** or **Save Quantity** fields, you should now make sure the inserted values are correct for this particular inventory adjustment before you post the item journal.
 
     If the inserted item journal lines contain saved unit amounts that you do not want to post, you can quickly adjust it to the current value of the item as follows.
 
-6. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
-7. Choose the **post** action.
+5. Select the item journal lines you want to adjust, and then choose the **Recalculate Unit Amount** action. This will update the Unit Amount field with the current unit cost of the item.
+6. Choose the **post** action.
 
 ## To renumber document numbers in journals
+
 To make sure that you do not receive posting errors because of the document number order, you can use the **Renumber Document Numbers** function before you post a journal.
 
 In all journals that are based on the general journal, the **Document No.** field is editable so that you can specify different document numbers for different journal lines or the same document number for related journal lines.
 
-If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. To make sure that you do not receive posting errors because of the document number order, you can use the **Renumber Document Numbers** function before you post the journal. If related journal lines were grouped by document number before you used the function, they will remain grouped but may be assigned a different document number.
+If the **No. Series** field on the journal batch is filled, then the posting function in general journals requires that the document number on individual or grouped journal lines be in sequential order. Just choose the **Renumber Document Numbers** action, and relevant **Document No.** fields are then updated. If related journal lines were grouped by document number before you used the function, they will remain grouped but may be assigned a different document number.  
 
 This function also works on filtered views.
 
 Any renumbering of document numbers will respect related applications, such as a payment application that has been made from the document on the journal line to a vendor account. Accordingly, the **Applies-to ID** and **Applies-to Doc. No.** fields on the affected ledger entries may be updated.
+
+### To renumber documents in journals
 
 The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
 

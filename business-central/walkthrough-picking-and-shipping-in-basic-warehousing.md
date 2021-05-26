@@ -61,14 +61,16 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
-- You must have a Location with the name SOUTH. On the **Warehouse** FastTab choose both the **Require Pick** and **Bin Mandatory** checkboxes. For more information see https://review.docs.microsoft.com/en-us/dynamics365/business-central/inventory-how-setup-locations?branch=main  
-- To make yourself a warehouse employee at the location SOUTH by following these steps
-
+- On the Locations Card you must have a Location with the Code name SOUTH. Then, on the **Warehouse** FastTab choose both the **Require Pick** and **Bin Mandatory** checkboxes. You also need to perform the Inventory Posting Setup for location SOUTH with Inventory Posting Group Code RESALE. For more information see [Set Up Locations](inventory-how-setup-locations.md).
+- Once you have the Location setup you need to add two Bin Codes as follows:
+    1. Select the Bins action. 
+    1. Create two bins, with the codes S-01-0001 and S-01-0002.
+- To make yourself a warehouse employee at location SOUTH follow these steps
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
-  3. In the **Location Code** field, enter SOUTH.  
-  4. Select the **Default** field.  
+  3. In the **Location Code** field, choose SOUTH.  
+  4. Select the **Default** field,and then select the **Yes** button.  
 
 - Make item 1928-S available at the SOUTH location by following these steps:  
 
@@ -82,11 +84,11 @@ To complete this walkthrough, you will need:
 
         By default, the Bin Code field on the sales line are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-  3. Choose the **Post** action, and then select the **Yes** button.  
+  3. Choose the Actions -> Posting -> **Post** action, and then select the **Yes** button.  
 
 ## Story
 
-Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item LS-81 to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where LS-81 is stored.  
+Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.  
 
 ## Setting Up the Location
 

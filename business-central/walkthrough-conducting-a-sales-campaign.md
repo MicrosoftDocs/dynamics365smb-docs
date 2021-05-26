@@ -88,7 +88,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 The **Segment** page now contains a list of contacts based on the filter you entered. On the **General** FastTab, in the **No. of Lines** field, you can see at a glance the number of contacts that meet these criteria.  
 
 > [!NOTE]  
- You can save your segmentation criteria to be reused at a later stage.
+> You can save your segmentation criteria to be reused at a later stage.
 
 ### To save your segmentation criteria
 

@@ -1,5 +1,5 @@
 ---
-    title: Setting Up and Using a Purchase Approval Workflow | Microsoft Docs
+    title: Setting Up and Using a Purchase Approval Workflow
     description: You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question. Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they are qualified to approve. Approval requests and other notifications can be sent as email or internal note. For each approval user setup, you can also set up when they receive notifications.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 05/26/2021
     ms.author: edupont
 
 ---
@@ -26,11 +26,11 @@ You can automate the process of approving new or changed records, such as docume
 
 This walkthrough illustrates the following tasks:  
 
-- Setting up approval users.  
-- Setting up notifications for approval users.  
-- Modifying and enabling an approval workflow.  
-- Requesting approval of a purchase order, as Alicia.  
-- Receiving a notification and then approving the request, as Sean.  
+- Setting up approval users  
+- Setting up notifications for approval users  
+- Modifying and enabling an approval workflow  
+- Requesting approval of a purchase order, as Alicia  
+- Receiving a notification and then approving the request, as Sean  
 
 ## Story
 

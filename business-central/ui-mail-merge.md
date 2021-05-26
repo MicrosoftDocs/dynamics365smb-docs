@@ -17,6 +17,9 @@ ms.author: bholtorf
 # Using Word Templates for Bulk Communication
 Microsoft Word templates can make it easier to mass communicate with entities such as customers and vendors. For example, you can create brochures to alert customers about a sales campaign, letters to inform vendors about a new purchasing policy, or invitations to attract contacts to an upcoming event.
 
+> [!NOTE]
+> You can use Word templates only on devices with Microsoft Word 2019 and the Windows operating system installed.
+
 You can use entities in [!INCLUDE[prod_short](includes/prod_short.md)] as the data source for the template, and add merge fields to personalize documents for each entity. The merge fields come from the entity in [!INCLUDE[prod_short](includes/prod_short.md)]. When you apply a Word template to an entity, data from the merge fields is inserted in the document.
 
 On the **Word Templates** page, you can use an assisted setup guide to download a ZIP file that contains a DataSource.txt and a Word template file for an entity. After you set up the template and add merge fields, you use the same guide to upload the template. You can only use the Word template and data source files that you download from [!INCLUDE[prod_short](includes/prod_short.md)], and you must store the files in the same location.

@@ -26,11 +26,11 @@ You can automate the process of approving new or changed records, such as docume
 
 This walkthrough illustrates the following tasks:  
 
-- Setting up approval users.  
-- Setting up notifications for approval users.  
-- Modifying and enabling an approval workflow.  
-- Requesting approval of a purchase order, as Alicia.  
-- Receiving a notification and then approving the request, as Sean.  
+- Setting up approval users  
+- Setting up notifications for approval users  
+- Modifying and enabling an approval workflow  
+- Requesting approval of a purchase order, as Alicia  
+- Receiving a notification and then approving the request, as Sean  
 
 ## Story
 

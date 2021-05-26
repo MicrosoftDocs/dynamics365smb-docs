@@ -6,15 +6,49 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
 
 ---
 # Update Currency Exchange Rates
 
-As companies operate in increasingly more countries/regions, it becomes more important that they be able to trade and report financials in more than one currency. You must set up a code for each currency you use if you buy or sell in currencies other than your local currency, have receivables or payables in other currencies, or record G/L transactions in different currencies.
+As companies operate in more countries/regions, it becomes essential that they are able to trade and report financial information in more than one currency. The local currency (LCY) is defined in the **General Ledger Setup** page as described in the article [Setting Up Finance](finance-setup-finance.md). Once the local currency (LCY) has been defined, it will be represented as a blank currency, so when the **Currency** field is blank, it means that the currency is LCY.  
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+Next, you must set up currency codes for each currency that you use if you buy or sell in currencies other than your local currency (LCY). Also bank accounts can be created using currencies. It is possible to record G/L transactions in different currencies, however, the G/L transaction will always be posted in the local currency (LCY).
+
+> [!Important]
+> Do not create the local currency code both in the **General Ledger Setup** and in the **Currencies** page. This will create confusion between the blank currency and the LCY code in the currency table, and bank accounts, customers or vendors might accidentally be created, some with the blank currency and some with the LCY code.
+
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).
+
+## Exchange Rates
+
+The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
+
+|Field|Description|  
+|---------------------------------|---------------------------------------|  
+|**Starting Data**|The date when the currency rate was effectuated|  
+|**Currency Code**|The currency code related to this exchange rate|  
+|**Relational Currency Code**|If this currency is part of a triangular currency calculation, then the related currency code can be set up here|  
+|**Exchange Rate Amount**|The exchange rate amount is the rate to use for the currency code selected on the line. Normally 1 or 100|  
+|**Relational Exch. Rate Amount**|The relational exchange rate amount relates to the rate to use for the relational currency code|  
+|**Adjustment Exch. Rate Amount**|The adjustment exchange rate amount is the rate to use for the currency code selected on the line for use of the **Adjust Exchange Rates** batch job|  
+|**Relational Adjmt Exch. Rate Amt**|The relational adjustment exchange rate amount is the rate to use for the currency code selected on the line for use of the **Adjust Exchange Rates** batch job|  
+|**Fix Exchange Rate Amount**|Specifies if the currency's exchange rate can be changed on invoices and journal lines.|  
+
+In general, the values of the **Exchange Rate Amount** and **Relational Exchange Rate Amount** fields are used as the default currency rate on all new receivables and payables documents that are created going forward. The document is assigned the currency rate according to the current working date.  
+
+> [!Note]
+> The actual currency rate will be calculated using this formula:
+> 
+> `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
+
+The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivable or payable transactions.  
+
+> [!Note]
+> The actual currency rate will be calculated using this formula:
+> 
+> `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## Adjusting Exchange Rates
 

@@ -39,7 +39,7 @@ In basic warehouse configurations where your location is set up to require pick 
 
 This walkthrough demonstrates the following tasks:  
 
-- Setting up MAIN location for inventory picks.  
+- Setting up SOUTH location for inventory picks.  
 - Creating a sales order for customer 10000 for 30 Amsterdam Lamps.  
 - Releasing the sales order for warehouse handling.  
 - Creating an inventory pick based on a released source document.  

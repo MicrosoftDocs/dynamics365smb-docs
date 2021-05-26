@@ -106,3 +106,15 @@ If a correction does not complete, a warning will display on the correction card
 
 ### Using Cost Accounting with Corrected G/L Entries
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centers and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. Identifing where dimension corrections will impact cost accounting and where updates are needed is a manual process. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
+
+## Correcting Number Assignments for Global Dimensions
+In the Dimension Set Entry table, global dimensions are assigned **0** in the Global Dimension No. field, and shortcut dimensions are assigned their short cut dimension number, which can be 1 through 8. Some reports use these number assignments to determine the values to use in calculations.
+
+When dimension values are imported by using configuration packages that were created without running validation triggers, or by using custom code to call the Insert or Modify methods without running the OnInsert or OnModify validation triggers, sometimes global dimensions are are assigned a number that is not 0. When this occurs, calculations will be incorrect for dimensions on recurring general journals that use the BD Balance by Account or BD Balance by Dimensions recurring methods. 
+
+If an incorrect number is assigned, when you open the General Ledger Entries page we will display a notification that includes a link to the Error Messages page. From the Error Messages page, you can choose the link in the **X** field to run a report that will correct global dimension number assignments. Alternatively, you can also search for **Update Global Dimension No. for Dimension Set Entries** to run the report.
+
+## See Also
+[Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
+[Working with Dimensions](finance-dimensions.md)
+[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)

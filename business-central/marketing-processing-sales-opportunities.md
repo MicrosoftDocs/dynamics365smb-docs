@@ -40,7 +40,8 @@ You can close opportunities when the negotiations are over. When closing an oppo
    In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code. To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**. On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.
 
 ## To create quotes for opportunities
-You can create sales quotes for contacts that are not recorded as customers.
+> [!NOTE]
+> You can only create sales quotes from opportunities where the contact type is Company.
 
 1. On the **Opportunity List** page, select the opportunity, and then choose the **Assign Sales Quote** action. The **Sales Quote** page opens.
 2. Fill in the relevant fields.

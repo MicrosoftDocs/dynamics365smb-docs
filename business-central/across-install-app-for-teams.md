@@ -57,7 +57,7 @@ This option is the quickest way to install the app.
 
 ## Next step
 
-You're now ready to use the app in Teams to share Business Central data. For more information, see [Working with Business Central Data in Microsoft Teams](across-working-with-teams.md).
+You're now ready to use the app in Teams to search for contacts or share Business Central records. For more information, see [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) or [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## See Also
 

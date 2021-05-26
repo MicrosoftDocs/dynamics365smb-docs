@@ -254,7 +254,7 @@ There may be cases where field values contain the one of the following symbols:
 - =
 - &#124;
 
-If you want to filter on any of these symbols, place the filter expression in quotation marks (''). For example, if you wanted to filter on records that start with the text *J & V*, the filter expression would be `'J & V*'`.
+If you want to filter on any of these symbols, place the filter expression in single quotes (`'<expression with symbol>'`). For example, if you wanted to filter on records that start with the text *J & V*, the filter expression would be `'J & V*'`.
 
 This requirement isn't necessary for other symbols.
 
@@ -299,7 +299,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 ## See Also
 
-[Searching and Filtering FAQ](ui-search-filter-faq.md)  
+[Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalize List Views](ui-views.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

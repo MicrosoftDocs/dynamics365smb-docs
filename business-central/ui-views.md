@@ -31,7 +31,7 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 If you don't give it a name, it will be named **All (Copy)**.
 
 > [!TIP]
-> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](ui-views-faq.md#save).
+> Not seeing the ![Save View](media/save_view_icon.png "Save View") icon? For more information, see [Why don't I have a Save icon](/dynamics365/business-central/ui-views-faq#save).
 
 ## To rename or remove a view
 1. For the view that currently displays the list, choose the ![Show more options](media/show-more-options-icon.png "Show more options") icon to see which options are available.
@@ -41,7 +41,7 @@ If you don't give it a name, it will be named **All (Copy)**.
 As the number of views on a page grows, you may need more control over how views are presented in the filter pane. With the **Personalizing** banner, you can hide unwanted views or reorder your views to get the perfect sequence. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## See Also
-[List Views FAQ](ui-views-faq.md)  
+[List Views FAQ](ui-views-faq.yml)  
 [Personalize Your Workspace](ui-personalization-user.md)    
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  

@@ -241,9 +241,10 @@
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Outlook 
+#### Set Up Your Business Inbox in Microsoft Outlook 
 ##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
-##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Using Business Central Without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
@@ -257,7 +258,7 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
-##### [Working with Business Central Data in Teams](across-working-with-teams.md)
+##### [Sharing Records in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
@@ -289,8 +290,8 @@
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
-### [Searching and Filtering FAQ](ui-search-filter-faq.md)
-### [List Views FAQ](ui-views-faq.md)
+### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
+### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
 ### [Mobile Apps FAQ](ui-mobile-faq.md)
 ### [Teams FAQ](teams-faq.md)
@@ -322,7 +323,7 @@
 ## [Finding Pages with the Role Explorer](ui-role-explorer.md)
 ## [Tell Me FAQ](ui-search-faq.md)
 ## [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
-## [Searching and Filtering FAQ](ui-search-filter-faq.md)
+## [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ## [Entering Data](ui-enter-data.md)
 ## [Copy and Paste FAQ](faq-copy-paste.yml)
 ## [Working with Calendar Dates and Times](ui-enter-date-ranges.md)
@@ -1599,6 +1600,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
+### [Onboard Users with Checklists](admin-checklist.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

@@ -1,7 +1,7 @@
 ---
-    title: Picking and Shipping in Basic Warehouse Configurations | Microsoft Docs
+    title: Picking and Shipping in Basic Warehouse Configurations
     description: In Business Central, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
-    author: SorenGP
+    author: jill-kotel-andersson
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
@@ -63,14 +63,16 @@ Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick h
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### Setting Up the Bin Codes
-Once you have the Location setup you need to add two Bin Codes as follows.
+Once you have the location set up, you must add two bins.
 
 #### To setup the bin codes
 
-1. Select the Bins action.
-2. Create two bins, with the codes S-01-0001 and S-01-0002.
+1. Select the **Bins** action.
+2. Create two bins, with the codes *S-01-0001* and *S-01-0002*.
 
 ### Making Yourself a Warehouse Employee at Location SOUTH
+
+In order to use this functionality, you must add yourself to the location as a warehouse worker. 
 
 #### To make yourself a warehouse employee
 
@@ -91,7 +93,7 @@ To make item 1928-S available at the SOUTH location follow these steps:
         |Positive Adjmt.|1928-S|SOUTH|S-01-0001|20|  
         |Positive Adjmt.|1928-S|SOUTH|S-01-0002|20|  
 
-        By default, the Bin Code field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
   3. Choose **Actions**, then **Posting**, and then choose **Post**.  
   4. Select the **Yes** button.  

@@ -1,7 +1,7 @@
 ---
 title: External Document Numbers on Purchase Documents
 description: You can include information about the numbers that your vendors assign to documents that they send you by using the External Document Number field or the Your Reference field. Learn about the difference between the two fields here.
-author: SorenGP
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 05/27/2021
 ms.author: edupont
 
 ---
@@ -21,6 +21,7 @@ You can also specify external document numbers on sales documents. For more info
 
 ## See Also
 
+[Purchasing](purchasing-manage-purchasing.md)  
 [External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  
 [General Business Functionality](ui-across-business-areas.md)  
 

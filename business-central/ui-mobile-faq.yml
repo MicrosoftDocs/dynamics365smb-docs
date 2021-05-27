@@ -60,7 +60,7 @@ sections:
       - question: |
           Is it the same experience on tables and phones?
         answer: |
-          Almost, but not quite. See the list in the [Is it the same experience in the apps as in the browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser) section.  
+          Almost, but not quite. See the list in the [Is it the same experience in the apps as in the browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) section.  
           
       - question: |
           Can I connect the app to our on-premises solution?

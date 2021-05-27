@@ -1,12 +1,11 @@
 ### YamlMime:FAQ
 metadata:
   title: FAQ About Using Business Central
-  description: Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support.
+  description: "Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support."
   author: edupont04
-  
   ms.service: dynamics365-business-central
   ms.topic: conceptual
-  ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+  ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
   ms.date: 04/01/2021
   ms.author: edupont
     
@@ -159,12 +158,7 @@ sections:
           Is the Windows client supported?
         answer: |
           The first releases of [!INCLUDE[prod_short](includes/prod_short.md)] on premises included an installed client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", will no longer be available for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [FAQ About the Windows Client and Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
-          
-      - question: |
-          
-        answer: |
-          
-
+ 
 additionalContent: |
 
   ## See Also

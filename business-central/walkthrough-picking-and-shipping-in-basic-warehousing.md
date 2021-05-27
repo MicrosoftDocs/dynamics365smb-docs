@@ -79,7 +79,7 @@ Once you have the Location setup you need to add two Bin Codes as follows.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
 
-### Making Item 1928-S available
+### Making Item 1928-S Available
 
 To make item 1928-S available at the SOUTH location follow these steps:  
 

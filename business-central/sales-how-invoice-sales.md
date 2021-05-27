@@ -118,6 +118,10 @@ You can even create directly-paid invoices for non-registered customers by first
 > [!TIP]
 > If you want to send your customers reminders of overdue payments, you must set up reminder levels and terms. For more information, see [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
+## External document numbers
+
+[!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
 ## See Related Training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## See Also

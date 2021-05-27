@@ -288,12 +288,12 @@
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 
 ## Frequently Asked Questions
-### [Frequently Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.yml)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
-### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Mobile Apps FAQ](ui-mobile-faq.yml)
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)

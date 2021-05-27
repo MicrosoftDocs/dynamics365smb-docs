@@ -55,16 +55,22 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+- 
 - [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+- 
+- ####To setup the bin codes
+- 
 - Once you have the Location setup you need to add two Bin Codes as follows:
     1. Select the Bins action. 
     1. Create two bins, with the codes S-01-0001 and S-01-0002.
 - To make yourself a warehouse employee at location SOUTH follow these steps:
 
+#### To make yourself a warehouse employee at location South
+
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
-  4. Select the **Default** field,and then select the **Yes** button.  
+  4. Select the **Default** field, and then select the **Yes** button.  
 
 - To make item 1928-S available at the SOUTH location follow these steps:  
 
@@ -76,7 +82,7 @@ To complete this walkthrough, you will need:
         |Positive Adjmt.|1928-S|SOUTH|S-01-0001|20|  
         |Positive Adjmt.|1928-S|SOUTH|S-01-0002|20|  
 
-        By default, the Bin Code field on the sales line are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        By default, the Bin Code field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
   3. Choose the Actions -> Posting -> **Post** action, and then select the **Yes** button.  
 

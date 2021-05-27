@@ -55,24 +55,33 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
-- 
-- [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
-- 
-- ####To setup the bin codes
-- 
-- Once you have the Location setup you need to add two Bin Codes as follows:
-    1. Select the Bins action. 
-    1. Create two bins, with the codes S-01-0001 and S-01-0002.
-- To make yourself a warehouse employee at location SOUTH follow these steps:
 
-#### To make yourself a warehouse employee at location South
+## Story
+
+Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.
+
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### Setting Up the Bin Codes
+Once you have the Location setup you need to add two Bin Codes as follows.
+
+#### To setup the bin codes
+
+1. Select the Bins action.
+2. Create two bins, with the codes S-01-0001 and S-01-0002.
+
+### Making Yourself a Warehouse Employee at Location SOUTH
+
+#### To make yourself a warehouse employee
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
 
-- To make item 1928-S available at the SOUTH location follow these steps:  
+### Making Item 1928-S available
+
+To make item 1928-S available at the SOUTH location follow these steps:  
 
   1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
@@ -84,21 +93,8 @@ To complete this walkthrough, you will need:
 
         By default, the Bin Code field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-  3. Choose the Actions -> Posting -> **Post** action, and then select the **Yes** button.  
+  3. Choose **Actions**, then **Posting**, and then choose **Post**.  Select the **Yes** button.  
 
-## Story
-
-Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick handling where warehouse workers process outbound orders individually. Susan, the order processor, creates a sales order for 30 units of item 1928-S to be shipped to customer 10000 from the SOUTH Warehouse. John, the warehouse worker must make sure that the shipment is prepared and delivered to the customer. John manages all involved tasks on the **Inventory Pick** page, which automatically points to the bins where 1928-S is stored.  
-
-## Setting Up the Location
-
-The setup of the **Location Card** page defines the company's warehouse flows.  
-
-### To set up the location
-
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
-2. Open the SOUTH location card.  
-3. On the **Warehouse** FastTab, choose the **Require Pick** check box.  
 
 ## Creating the Sales Order
 
@@ -139,7 +135,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
     Alternatively, in the **Qty. to Handle** field, enter 10 and 20 respectively on the two inventory pick lines.  
 6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
-    The 30 loudspeakers are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
+    The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
 ## See Also
 

@@ -29,7 +29,7 @@ sections:
           
           To help you get ready for doing business in [!INCLUDE[prod_short](includes/prod_short.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
           
-          When you are ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#findpartner).  
+          When you are ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
           
       - question: |
           Where do I go if I have questions?
@@ -38,7 +38,7 @@ sections:
           
           From the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
           
-          Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#hdigetsupport) and [How do I find a reselling partner?](#findpartner) sections.  
+          Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#hdigetsupport) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  
           
       - question: |
           Why can't I find that capability in my [!INCLUDE[prod_short](includes/prod_short.md)]?
@@ -57,17 +57,17 @@ sections:
       - question: |
           Can I get training in [!INCLUDE[prod_short](includes/prod_short.md)]?
         answer: |
-          Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#findpartner) section.  
+          Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
           For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
           
           Additional content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
           
-      - question: <a name="hdigetsupport"></a>How do I get technical support for [!INCLUDE[prod_short](includes/prod_short.md)]?
+      - question: How do I get technical support for [!INCLUDE[prod_short](includes/prod_short.md)]?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
           
-          For more information, see [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#findpartner) section.  
+          For more information, see [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
       - question: |
           Where is the save button?
@@ -92,7 +92,7 @@ sections:
           
           We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
           
-      - question: <a name="email"></a>What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)] online?
+      - question: What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)] online?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
           
@@ -122,7 +122,7 @@ sections:
           > [!NOTE]
           > It may take up to two business days to complete the trial extension process.  
           
-          For more information about finding a partner, see [How do I find a reselling partner?](#findpartner).  
+          For more information about finding a partner, see [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
           
       - question: |
           What are the service level agreements for the cloud?
@@ -144,7 +144,7 @@ sections:
         answer: |
           Sure. If you do, you might need an app password in order to send email messages. App passwords give an app or a device access to your email account. The steps for getting an app password vary, depending on your email provider. For more information, see the help from your provider. For example, if you're using Outlook, see [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
           
-      - question: <a name="findpartner"></a>How do I find a reselling partner?
+      - question: How do I find a reselling partner?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. For more information, see the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
           

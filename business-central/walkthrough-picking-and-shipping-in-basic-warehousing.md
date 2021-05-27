@@ -93,8 +93,8 @@ To make item 1928-S available at the SOUTH location follow these steps:
 
         By default, the Bin Code field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-  3. Choose **Actions**, then **Posting**, and then choose **Post**.  Select the **Yes** button.  
-
+  3. Choose **Actions**, then **Posting**, and then choose **Post**.  
+  4. Select the **Yes** button.  
 
 ## Creating the Sales Order
 

@@ -74,7 +74,7 @@ Once you have the Location setup you need to add two Bin Codes as follows.
 
 #### To make yourself a warehouse employee
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature first](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
@@ -83,7 +83,7 @@ Once you have the Location setup you need to add two Bin Codes as follows.
 
 To make item 1928-S available at the SOUTH location follow these steps:  
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature second](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
@@ -102,7 +102,7 @@ Sales orders are the most common type of outbound source document.
 
 ### To create the sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature third](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
@@ -122,7 +122,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
 ### To pick and ship items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature fourth](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Make sure that the **No.** field on the **General** FastTab is filled in.

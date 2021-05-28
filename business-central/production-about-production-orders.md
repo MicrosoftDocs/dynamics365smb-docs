@@ -1,5 +1,5 @@
 ---
-    title: About Production Orders | Microsoft Docs
+    title: About Production Orders
     description: Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders (job or work orders) route work through various facilities (work or machine centers) on the shop floor.
     author: SorenGP
 
@@ -47,17 +47,17 @@ Production orders are created using information from:
 ## Limitations on Production Order Creation  
 Production orders are automatically reserved and tracked to their source when:  
 
--   Created from the **Planning Worksheet**  
--   Created with the Order function on the **Sales Order Planning** page  
--   Created from the **Order Planning** page  
--   Using the **Replan** function on production orders  
+-   Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
+-   Created from the **[Sales Order Planning](production-how-to-create-production-orders-from-sales-orders.md)** page  
+-   Created from the **[Order Planning](production-how-to-plan-for-new-demand.md)** page  
+-   Using the **[Replan](production-how-to-replan-refresh-production-orders.md)** function on production orders  
 
 For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
 
 Production orders created through other means are not automatically reserved and tracked.   
 
 ## Production Order Status  
-The production order status controls how the production order behaves within application. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function.  
+The production order status controls how the production order behaves within application. The form and content of the production are dictated by the order's status. The production orders are displayed in different pages according to their status. You cannot change the status of a production order manually; you must use the **Change Status** function in the individual production order or in the **Change Production Order Status** window.  
 
 ### Simulated Production Order  
 The Simulated Production Order is unique based on the following characteristics:  
@@ -106,12 +106,12 @@ Once a production order has been created and scheduled, it has to be released to
 - How much time was spent working on the order  
 - Quantity of the parent item produced  
 
-This information can be recorded manually or through automatic reporting, according to the items setup in the Flushing Method field.  
+This information can be recorded manually or through automatic reporting, according to the setup in the Flushing Method field of item and work center.  
 
 ### Material Consumption  
 The application offers a variety of options for how a manufacturing company might want to record material consumption. For example, material consumption may be recorded manually, which might be desirable if there are frequent component substitutions or greater than expected scrap.  
 
-Consumption of materials may be processed through the consumption journal, but also may be recorded automatically by application, known as automatic reporting. The reporting methods are:  
+Consumption of materials may be processed through the [consumption journal](production-how-to-post-consumption.md), but also may be recorded automatically by application, known as automatic reporting (flushing). The reporting methods are:  
 
 -   Manual  
 -   Forward  
@@ -126,62 +126,14 @@ Forward consumption reporting assumes the expected quantity of all materials for
 
 Backward consumption reporting records the actual quantity of all material picked or consumed when the status of a production order is changed to *Finished,* unless using routing link codes. When using routing link codes, the material is consumed after a quantity of the parent item is recorded for the operational step in the Output Journal.  
 
-When the Production Order is refreshed, the flushing method is copied from the item card. Because the flushing method for each production order component controls how and when the consumption is recorded, it is important to note that you can change flushing method for specific items directly on the Production Order.  
+When the Production Order is refreshed, the flushing method is copied from the item card. Because the flushing method for each production order component controls how and when the consumption is recorded, it is important to note that you can change flushing method for specific items directly on the Production Order. 
 
-#### Automatic Consumption Posting (Flushing)  
-The advantage of automatic flushing is that it greatly reduces data entry. With the ability to automatically flush an operation, the entire consumption and output recording process can be automated. The disadvantage of using automatic flushing is that you may not be accurately recording, or even aware of, scrap. The Automatic Reporting methods are:  
-
-- Forward Flush the Entire Order  
-- Forward Flushing by Operation  
-- Back Flushing by Operation  
-- Back Flushing the Entire Order  
-
-#### Automatic Reporting - Forward Flush the Entire Order  
-If you forward flush the production order at the start of the job, the behavior of application is very similar to a manual consumption. The major difference is that consumption happens automatically.  
-
-- The entire contents of the production BOM are consumed and deducted from inventory at the time the released production order is refreshed.  
-- The consumption quantity is the quantity per assembly stated on the production BOM, multiplied by the number of parent items you are building.  
-- There is no need to record any information in the consumption journal if all of the items are to be flushed.  
-- When consuming items from inventory, it does not matter when output journal entries are made, because the output journal has no effect on this mode of consumption posting.  
-- No routing link codes can be set.  
-
-Forward flushing an entire order is suited in production environments with:  
-
--   A low number of defects  
--   A low number of operations  
--   High component consumption in early operations  
-
-#### Automatic Reporting - Forward Flushing by Operation  
-Flushing by operation allows you to deduct inventory during a specific operation in the routing of the parent item. Material is tied to the routing using routing link codes, which correspond to routing link codes applied to components in the production BOM.  
-
-The flush takes place when the operation that has the same routing link code is started. Started means that some activity is recorded in the output journal for that operation. And that activity might just be that a setup time is entered.  
-
-The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items being built (expected quantity).  
-
-This technique is best employed when there are many operations and certain components are not needed until late in the assembly sequence. In fact, a Just-in-Time (JIT) setup might not even have the items on hand when the RPO is begun.  
-
-Material can be consumed during operations by using routing link codes. Some components may not be used until final assembly operations and should not be withdrawn from stock until that time.  
-
-#### Automatic Reporting - Back Flushing by Operation  
-Back flushing by operation records consumption after the operation is posted in the output journal.  
-
-The advantage of this method is that the number of parent parts finished in the operation is known.  
-
-Material in the production BOM is linked to the routing records using routing link codes. The back flush takes place when an operation with a particular routing link code is posted with a finished quantity.  
-
-The amount of the flush is for the quantity per assembly stated on the production BOM multiplied by the number of parent items that were posted as output quantity at that operation. This might be different from the expected quantity.  
-
-#### Automatic Reporting - Back Flushing the Entire Order  
-This reporting method does not consider routing link codes.  
-
-No components are picked until the released production order status is changed to *Finished*. The amount of the flush is the quantity per assembly stated on the production BOM multiplied by the number of parent items that were finished and placed into inventory.  
-
-Backward flushing the entire production order requires the same setup as for forward flushing: The reporting method must be set to backward on each item card for all items within the parent BOM to be reported. In addition, all routing link codes must be removed from the production BOM.  
+For more information, see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md)
 
 ### Production Output  
 The application provides you with the capability to track how much time is spent working on a production order, in addition to recording the quantity produced. This information can help you more accurately determine the costs of production. Also, manufacturers using a standard costing system may want to record actual information in order to help them develop better standards.  
 
-Output may be processed through the output journal, but also may be recorded automatically by application. The application copies the flushing method from the machine center or work center card to the production order routing when refreshing. As with material consumption, there are three reporting methods for output:  
+Output may be processed through the [output journal](production-how-to-post-output-quantity.md), but also may be recorded automatically by application. The application copies the flushing method from the machine center or work center card to the production order routing when refreshing. As with material consumption, there are three reporting methods for output:  
 
 - Manual  
 - Forward  
@@ -199,7 +151,7 @@ You can use any combination of automatic flushing and manually recorded informat
 Finally, if you enter consumption and output manually, you need to determine the sequence in which you are going to record this information. You can record consumption first and use a shortcut method to enter the information, which is based on expected quantity of output. Or, you can enter output first, using the **Explode Routing** function. You would then record consumption based on actual quantity of output.  
 
 ### Production Journal  
-The Production Journal combines the functions of the Consumption Journal and Output Journals into one journal, which is accessed directly from the Released Production Order.  
+The [Production Journal](production-how-to-register-consumption-and-output.md) combines the functions of the Consumption Journal and Output Journals into one journal, which is accessed directly from the Released Production Order.  
 
 The purpose of the Production Journal is to provide a single interface for you to register consumption and output from a Production Order.  
 

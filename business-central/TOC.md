@@ -622,6 +622,7 @@
 ### [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
+### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)

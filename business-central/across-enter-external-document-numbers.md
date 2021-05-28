@@ -34,7 +34,7 @@ The following procedure explains how to specify an external document number on a
 ## See Also
 
 [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)  
-[External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)
+[External Document Numbers on Sales Documents](sales-how-invoice-sales.md#external-document-numbers)  
 [Sell Products](sales-how-sell-products.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 

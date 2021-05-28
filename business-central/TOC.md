@@ -607,6 +607,7 @@
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
@@ -623,6 +624,8 @@
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
+
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
@@ -1544,7 +1547,6 @@
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

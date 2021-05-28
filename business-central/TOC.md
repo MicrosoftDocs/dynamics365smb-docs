@@ -288,12 +288,12 @@
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 
 ## Frequently Asked Questions
-### [Frequently Asked Questions](across-faq.md)
+### [Frequently Asked Questions](across-faq.yml)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [List Views FAQ](ui-views-faq.yml)
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
-### [Mobile Apps FAQ](ui-mobile-faq.md)
+### [Mobile Apps FAQ](ui-mobile-faq.yml)
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic Invoicing FAQ](faq-electronic-invoicing.yml)
 ### [Minimum Requirements](product-requirements.md)
@@ -607,6 +607,7 @@
 ### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
@@ -622,6 +623,9 @@
 ### [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
+### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
+### [Enter External Document Numbers](across-enter-external-document-numbers.md)
+
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
@@ -702,11 +706,9 @@
 ## Planning
 ### [Production Planning](production-planning.md)
 ### [About Planning Functionality](production-about-planning-functionality.md)
-### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ### [Planning With or Without Locations](production-planning-with-without-locations.md)
 ### [Create a Forecast](production-how-to-create-a-forecast.md)
 ### [Create Production Orders from Sales Orders](production-how-to-create-production-orders-from-sales-orders.md)
-### [Plan Project Orders](production-how-to-plan-project-orders.md)
 ### [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md)
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
@@ -1545,7 +1547,6 @@
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Enter External Document Numbers](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

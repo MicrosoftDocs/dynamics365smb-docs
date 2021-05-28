@@ -626,6 +626,16 @@
             "source_path": "business-central/design-details-dimension-set-entries.md",
             "redirect_url": "design-details-dimension-set-entries-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/production-how-to-plan-project-orders.md",
+            "redirect_url": "production-how-to-create-production-orders-from-sales-orders",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/localfunctionality/unitedkingdom/how-to-enter-external-document-numbers.md",
+            "redirect_url": "across-enter-external-document-numbers",
+            "redirect_document_id": false
         }
 
     ]

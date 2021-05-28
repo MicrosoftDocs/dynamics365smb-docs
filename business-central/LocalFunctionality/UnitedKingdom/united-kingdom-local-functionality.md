@@ -38,7 +38,6 @@ The following topics describe local functionality that is unique to the United K
     * [Enter Statutory Information](how-to-enter-statutory-information.md) **Available Now**
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
-    * [Enter External Document Numbers](how-to-enter-external-document-numbers.md) **Available Now**
 
 ## See Also
 

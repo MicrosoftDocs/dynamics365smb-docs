@@ -97,6 +97,10 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 [Open the **Posted Purchase Invoices** list](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
+## External document number
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
 ## See Related Training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## See Also

@@ -18,12 +18,12 @@ sections:
   - name: Ignored
     questions:
       - question: |
-          Is [!INCLUDE[prod_short](includes/prod_short.md)] available in my country/region?
+          Is Business Central available in my country/region?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of markets, but new countries are added through Microsoft-led localization or through partner-led localization on a quarterly basis. For more information, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (available in English only).  
           
       - question: |
-          How do I get [!INCLUDE[prod_short](includes/prod_short.md)]?
+          How do I get Business Central?
         answer: |
           You can sign up for a free trial to explore [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] If you want more time to explore, [you can extend your trial period](#can-i-extend-my-30-day--new-company--trial-period-).  
           
@@ -41,7 +41,7 @@ sections:
           Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#hdigetsupport) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  
           
       - question: |
-          Why can't I find that capability in my [!INCLUDE[prod_short](includes/prod_short.md)]?
+          Why can't I find that capability in my Business Central?
         answer: |
           Did you read about a new capability in the release plan or on our blog recently? In that case, your [!INCLUDE[prod_short](includes/prod_short.md)] might not have been upgraded to the latest version yet. You can check which version your [!INCLUDE[prod_short](includes/prod_short.md)] is based on in the [Help and Support](product-help-and-support.md) page.  
           
@@ -55,7 +55,7 @@ sections:
           Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimized for online deployment, and some capabilities may run on premises only under certain circumstances, while others are not supported at all. For more information, see [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
           
       - question: |
-          Can I get training in [!INCLUDE[prod_short](includes/prod_short.md)]?
+          Can I get training in Business Central?
         answer: |
           Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
@@ -63,7 +63,7 @@ sections:
           
           Additional content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
           
-      - question: How do I get technical support for [!INCLUDE[prod_short](includes/prod_short.md)]?
+      - question: How do I get technical support for Business Central?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
           
@@ -92,7 +92,7 @@ sections:
           
           We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
           
-      - question: What email address can I use with [!INCLUDE[prod_short](includes/prod_short.md)] online?
+      - question: What email address can I use with Business Central online?
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
           
@@ -130,7 +130,7 @@ sections:
           [!INCLUDE [service-terms](includes/service-terms.md)]
           
       - question: |
-          Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in [!INCLUDE[prod_short](includes/prod_short.md)]?
+          Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?
         answer: |
           This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
           

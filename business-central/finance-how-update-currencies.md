@@ -149,7 +149,11 @@ You can use an external service to keep your currency exchange rates up to date,
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Enabled** check box to enable the service.
+4. Turn on the **Enabled** toggle to enable the service.
+
+> [!NOTE]
+> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be **/gesmes:Envelope/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

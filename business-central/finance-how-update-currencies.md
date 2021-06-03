@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 05/27/2021
+ms.date: 06/03/2021
 ms.author: edupont
 
 ---
@@ -79,6 +79,21 @@ Here there is an unrealized transaction, and therefore it will be reversed toget
 
 Finally, the payment is registered and the actual loss is posted to the realized losses account.
 
+## Available Currency Functions
+
+the following table outlines key actions on the ***Currencies** page. some of the actions are explained in the next sections.  
+
+|Menu|Action|Description|
+|-------------|--------------|------------------------------|
+|**Process**|**Suggest Accounts**|Use accounts from the other currencies. The most frequently used accounts will be inserted.|
+||Change Payment Tolerance|Change either or both the maximum payment tolerance and the payment tolerance percentage, and filter by currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+||**Exch. Rates**|View updated exchange rates for the currencies that you use.|
+||**Adjust Exch. Rates**|Adjust general ledger, customer, vendor, and bank account entries to reflect a more updated balance if the exchange rate has changed since the entries were posted.|
+||**Exchange Rate Adjust. Register**|View the results of running the **Adjust Exchange Rates** batch job. One line is created for each currency or each combination of currency and posting group that is included in the adjustment.|
+|**Exchange Rate Service**|**Exchange Rate Services**|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the **Update Exchange Rates** action.|
+||**Update Exchange Rates**|Get the latest currency exchange rates from a service provider.|
+|**Reports**|**Foreign Currency Balance**|View the balances for all customers and vendors in both foreign currencies and in local currency (LCY). The report displays two LCY balances. One is the foreign currency balance converted to LCY by using the exchange rate at the time of the transaction. The other is the foreign currency balance converted to LCY by using the exchange rate of the work date.|
+
 ## Exchange Rates
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
@@ -149,7 +164,11 @@ You can use an external service to keep your currency exchange rates up to date,
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Enabled** check box to enable the service.
+4. Turn on the **Enabled** toggle to enable the service.
+
+> [!NOTE]
+> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be **/gesmes:Envelope/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

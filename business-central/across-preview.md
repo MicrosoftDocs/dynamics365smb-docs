@@ -27,6 +27,10 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar 
 
 If you encounter difficulties, the [Frequently Asked Questions](across-faq.yml) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](/dynamics365/business-central/across-faq#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
 
+If you decide not to use [!INCLUDE [prod_short](includes/prod_short.md)], you can let the trial expire.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ### Try Out Your Own Company
 
 If you want to try out [!INCLUDE[prod_short](includes/prod_short.md)] with your own data, you can switch to a free 30 day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE[prod_short](includes/prod_short.md)] with your own data. However, we recommend that you do not use a free trial to help run your business. Contact [a reselling partner](/dynamics365/business-central/across-faq#findpartner) to learn more about how to get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,6 +86,8 @@ Right now, all customers can use a sandbox, including organizations who have sig
 > Sandboxes created this way contain demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.  
 
 The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and your reselling partner can create additional environments in the administration center. For more information, see [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+
 
 ## See Also
 

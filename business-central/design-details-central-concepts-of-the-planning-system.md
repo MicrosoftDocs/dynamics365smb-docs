@@ -17,7 +17,7 @@
 
 The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 
-![Contents of the Planning Worksheet page](media/NAV_APP_supply_planning_1_planning_worksheet.png "Contents of the Planning Worksheet page")  
+![Contents of the Planning Worksheets page](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contents of the Planning Worksheets page")  
 
 The planner of a company, such as a purchaser or a production planner is presumed to be the user of the planning system. The planning system assists the user by performing the extensive but rather straightforward calculations of a plan. The user can then concentrate on solving the more difficult problems, such as when things differ from normal.  
 

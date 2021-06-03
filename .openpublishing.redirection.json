@@ -636,6 +636,11 @@
             "source_path": "business-central/localfunctionality/unitedkingdom/how-to-enter-external-document-numbers.md",
             "redirect_url": "across-enter-external-document-numbers",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/assembly-setup-assembly-locations.md",
+            "redirect_url": "assembly-assemble-items",
+            "redirect_document_id": false
         }
 
     ]

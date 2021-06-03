@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 05/27/2021
+ms.date: 06/03/2021
 ms.author: edupont
 
 ---
@@ -81,16 +81,18 @@ Finally, the payment is registered and the actual loss is posted to the realized
 
 ## Available Currency Functions
 
-|Menu|Function|Description|
+the following table outlines key actions on the ***Currencies** page. some of the actions are explained in the next sections.  
+
+|Menu|Action|Description|
 |-------------|--------------|------------------------------|
-|**Process**|Suggest Accounts|Use accounts from the other currencies. The most frequently used accounts will be inserted.|
-||Change Payment Tolerance|Change either or both the maximum payment tolerance and the payment tolerance percentage and filters by currency. See [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||Exch. Rates|View updated exchange rates for the currencies that you use. See description below|
-||Adjust Exch. Rates|Adjust general ledger, customer, vendor, and bank account entries to reflect a more updated balance if the exchange rate has changed since the entries were posted. See description below|
-||Exchange Rate Adjust. Register|View the results of running the Adjust Exchange Rates batch job. One line is created for each currency or each combination of currency and posting group that is included in the adjustment. See description below|
-|**Exchange Rate Service**|Exchange Rate Services|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the Update Exchange Rates action. See description below|
-||Update Exchange Rates|Get the latest currency exchange rates from a service provider. See description below|
-|**Reports**|Foreign Currency Balance|View the balances for all customers and vendors in both foreign currencies and in local currency (LCY). The report displays two LCY balances. One is the foreign currency balance converted to LCY by using the exchange rate at the time of the transaction. The other is the foreign currency balance converted to LCY by using the exchange rate of the work date.|
+|**Process**|**Suggest Accounts**|Use accounts from the other currencies. The most frequently used accounts will be inserted.|
+||Change Payment Tolerance|Change either or both the maximum payment tolerance and the payment tolerance percentage, and filter by currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+||**Exch. Rates**|View updated exchange rates for the currencies that you use.|
+||**Adjust Exch. Rates**|Adjust general ledger, customer, vendor, and bank account entries to reflect a more updated balance if the exchange rate has changed since the entries were posted.|
+||**Exchange Rate Adjust. Register**|View the results of running the **Adjust Exchange Rates** batch job. One line is created for each currency or each combination of currency and posting group that is included in the adjustment.|
+|**Exchange Rate Service**|**Exchange Rate Services**|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the **Update Exchange Rates** action.|
+||**Update Exchange Rates**|Get the latest currency exchange rates from a service provider.|
+|**Reports**|**Foreign Currency Balance**|View the balances for all customers and vendors in both foreign currencies and in local currency (LCY). The report displays two LCY balances. One is the foreign currency balance converted to LCY by using the exchange rate at the time of the transaction. The other is the foreign currency balance converted to LCY by using the exchange rate of the work date.|
 
 ## Exchange Rates
 

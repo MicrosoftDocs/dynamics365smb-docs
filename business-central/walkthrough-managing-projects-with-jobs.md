@@ -442,7 +442,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
 ## Next Steps  
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
-
+ For general introduction to methods for handling missing information, see [Sarkari Result Jobs ](https://sarkariresult.com.co/).  
 ## See Also
 
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
@@ -451,6 +451,6 @@ The following procedures show how to create a new job, set pricing, and then set
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
  [Invoice Jobs](projects-how-invoice-jobs.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+ For general introduction to methods for handling missing information, see [Sarkari Result Jobs ](https://sarkariresult.com.co/).  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

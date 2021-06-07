@@ -587,6 +587,7 @@
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
+### [Sales Reports](sales-reports.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
@@ -611,6 +612,7 @@
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
+### [Purchasing Reports](purchase-reports.md)
 ### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
@@ -629,6 +631,7 @@
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
@@ -647,6 +650,7 @@
 
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
+### [Project Reports](project-reports.md)
 ### [Create Jobs](projects-how-create-jobs.md)
 ### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -719,6 +723,7 @@
 
 ## Assembly Management
 ### [Assemble Items](assembly-assemble-items.md)
+### [Assembly Reports](assembly-reports.md)
 ### [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
@@ -732,6 +737,7 @@
 
 ## Manufacturing
 ### [Manufacturing Overview](production-manage-manufacturing.md)
+### [Production Reports](production-reports.md)
 ### [About Production Orders](production-about-production-orders.md)
 ### [Create Production Orders](production-how-to-create-production-orders.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -746,6 +752,7 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Putting Items Away

@@ -15,7 +15,7 @@
 ---
 # Walkthrough: Planning Supplies Automatically
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Phrases like "run planning" and "run MRP" refer to the calculation of the master production schedule (MPS) and the material requirements plan (MRP) based on actual and forecasted demand.  
 
@@ -261,7 +261,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ## See Also  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Design Details: Supply Planning](design-details-supply-planning.md)
 
 

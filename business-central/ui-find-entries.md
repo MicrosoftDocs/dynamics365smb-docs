@@ -61,7 +61,7 @@ You can search for entries based on information about either the document, busin
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 > [!TIP]
-> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

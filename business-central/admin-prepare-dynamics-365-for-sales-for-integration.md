@@ -145,12 +145,11 @@ The following table describes the default synchronization jobs for Sales.
 |POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[prod_short](includes/prod_short.md)] posted sales invoices.|From [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
 |Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[prod_short](includes/prod_short.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[prod_short](includes/prod_short.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. |Not applicable|Not applicable|30|Not applicable| 
 
-## Connecting to On-Premises Versions of Business Central 2019 release wave 1, Microsoft Dynamics NAV 2018, and Microsoft Dynamics NAV 2018
+## Connecting to On-Premises Versions of Business Central 2019 release wave 1 and Microsoft Dynamics NAV 2018
 The Microsoft Power Platform team has [announced](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) that it is deprecating the Office365 authentication type. If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises that is earlier than version 16, you must use the OAuth authentication type to connect to [!INCLUDE[crm_md](includes/crm_md.md)] online. The steps in this section describe how to connect the following product versions:
 
-* Business Central 2019 release wave 1
+* Business Central 2020 release wave 1
 * Microsoft Dynamics NAV 2018
-* Microsoft Dynamics NAV 2017
 
 ### Prerequisites
 
@@ -164,12 +163,12 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 
    - OAuth
 
-### To connect a version of Business Central earlier than version 16
+### To connect Business Central 2020 release wave 1 and NAV 2018
 
-1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your Business Central installation DVD. Depending on your product version, import one of the following:
+1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your Business Central or NAV 2018 installation DVD. Depending on your product version, import one of the following:
 
-   * For [!INCLUDE[prod_short](includes/prod_short.md)], there are multiple versions of the solution, such as DynamicsNAVIntegrationSolution_v8 or DynamicsNAVIntegrationSolution_v9 or DynamicsNAVIntegrationSolution_v91. The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
-   * For NAV 2017 and NAV 2018
+   * For [!INCLUDE[prod_short](includes/prod_short.md)], the folder contains the DynamicsNAVIntegrationSolution_v9 and DynamicsNAVIntegrationSolution_v91. solution The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
+   * For NAV 2018, install the DynamicsNAVIntegrationSolution solution.
 
 2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. For more information, see [Create a non-interactive user account](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
@@ -180,16 +179,16 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
    > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
 
 3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
-
+  
    > [!NOTE]
    > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to > Azure AD using the administrator account for your Dataverse environment and give consent.
    >
    > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central release wave 1 and later.
-
+  
 4. Depending on your product version, do one of the following:
 
     * In [!INCLUDE[prod_short](includes/prod_short.md)], search for **Microsoft Dynamics 365 Connection Setup**, and then choose the related link. 
-    * In NAV 2017 and NAV 2018, search for **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.
+    * In NAV 2018, search for **Microsoft Dynamics 365 for Sales Connection Setup**, and then choose the related link.
 
 5. In the **Authentication Type** field, choose the option for OAuth. 
 6. Choose the CRM SDK version that matches solution version you imported in step 1.
@@ -200,7 +199,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 7. Enter the URL of your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and then enter the user name and password for the integration user. 
 
    * In [!INCLUDE[prod_short](includes/prod_short.md)], use the **Server Address** field.
-   * In NAV 2017 and NAV 2018, use the **Dynamics 365 Sales URL** field.
+   * In NAV 2018, use the **Dynamics 365 Sales URL** field.
 
 8. In the **Connection String** field, specify the ID of the app registration. This field has two tokens in which the ID of your application should be specified.
 

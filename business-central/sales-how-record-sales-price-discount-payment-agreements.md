@@ -123,7 +123,7 @@ These steps differ, depending on whether your administrator has turned on the **
     > Invoice discount codes are represented by existing customer cards. This enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms. To set up customer-specific invoice discount terms, set the **Invoice Disc. Code** field to the customer's customer code, and then proceed to the next step.
 
 8. On the **Customer Card** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-9. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
+9. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in your local currency.
 10. Optionally, in the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 11. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 12. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
@@ -145,7 +145,7 @@ When you have decided which customers are eligible for invoice discounts, enter 
 Proceed to set up new the sales invoice discount terms.
 
 1. On the **Customers** page, choose the **Invoice Discounts** action. The **Cust. Invoice Discounts** page opens.
-2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in USD.
+2. In the **Currency Code** field, enter the code for a currency that the invoice discount terms on the line applies to. Leave the field blank to set up invoice discount terms in your local currency.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.

@@ -14,9 +14,10 @@
 
 ---
 # General Journal Post Line Overview
+
 Codeunit 12, **Gen. Jnl.-Post Line**, is the major application object for general ledger posting and is the only place to insert general ledger, VAT, and customer and vendor ledger entries. This codeunit is also used for all Apply, Unapply and Reverse operations.  
   
-While the codeunit has been improved in each release over the last ten years, its architecture remained essentially unchanged. The codeunit became very large, with approximately 7,600 code lines. With this release of [!INCLUDE[prod_short](includes/prod_short.md)], the architecture is changed and the codeunit has been made simpler and more maintainable. This documentation introduces the changes and provides information that you will need for upgrade.  
+In Microsoft Dynamics NAV 2013 R2, the codeunit was redesigned because it had become very large, with approximately 7,600 code lines. The architecture was changed and the codeunit has been made simpler and more maintainable. This documentation describes the changes and provides information that you will need for upgrade.  
   
 ## Old Architecture  
 The old architecture had the following features:  
@@ -39,9 +40,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], codeunit 12 has had the follo
 * Many helper functions have been transferred to corresponding customer and vendor ledger entry tables.  
 * The use of global variables has been minimized, so that each procedure uses parameters and encapsulates its own application logic.  
   
-## See Also  
-[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)   
-[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)
+## See Also
+
+[Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
+[Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
+[Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

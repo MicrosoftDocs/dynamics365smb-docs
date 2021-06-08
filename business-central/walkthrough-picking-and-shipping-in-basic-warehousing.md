@@ -15,7 +15,7 @@
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -50,11 +50,12 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 - Order Processor  
 - Warehouse Worker  
 
-## Prerequisites
+<!-- ## Prerequisites
 
 To complete this walkthrough, you will need:  
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
 ## Story
 
@@ -110,7 +111,7 @@ Sales orders are the most common type of outbound source document.
 
     |Item|Location Code|Quantity|  
     |----|-------------|--------|  
-    |LS_81|SOUTH|30|  
+    |1928-S|SOUTH|30|  
 
      Proceed to notify the warehouse that the sales order is ready for warehouse handling.  
 

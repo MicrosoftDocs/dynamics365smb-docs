@@ -641,6 +641,16 @@
             "source_path": "business-central/assembly-setup-assembly-locations.md",
             "redirect_url": "assembly-assemble-items",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md",
+            "redirect_url": "/dynamics-nav-app/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md",
+            "redirect_url": "/dynamics-nav-app/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line",
+            "redirect_document_id": false
         }
 
     ]

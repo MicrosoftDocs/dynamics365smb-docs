@@ -533,6 +533,10 @@
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Managing Cash Flow
+#### [Cash Flow Overview](finance-cash-flow-overview.md)
+#### [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
 #### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
@@ -565,7 +569,6 @@
 ### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ### [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
-### [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)

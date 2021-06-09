@@ -49,6 +49,7 @@ The following topics describe local functionality that is unique to the Australi
     * [Addresses](addresses.md) **Available Now**
     * [Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md) **Available Now**
     * [Enter Australian Business Numbers](australian-business-numbers-and-adjustment-notes.md) **Available Now**
+    * [Payment Times Reporting](payment-times-reporting.md) **Available Now**
 
 ## See Also
 

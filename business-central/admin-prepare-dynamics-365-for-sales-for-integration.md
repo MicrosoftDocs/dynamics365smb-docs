@@ -183,7 +183,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
    > [!NOTE]
    > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to > Azure AD using the administrator account for your Dataverse environment and give consent.
    >
-   > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2019 release wave 2 and later.
+   > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2020 release wave 1 and later.
   
 4. Depending on your product version, do one of the following:
 

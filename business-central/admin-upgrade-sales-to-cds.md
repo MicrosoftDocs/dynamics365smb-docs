@@ -22,8 +22,8 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
 > Reconnecting through [!INCLUDE[prod_short](includes/cds_long_md.md)] will apply default synchronization settings, and will overwrite any configurations you have. For example, the default table mappings will be applied.
 
 ## To upgrade your connection to use Dataverse
-1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enabled** toggle to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Open the **Dataverse Connection Setup** page, and choose the **Enabled** toggle to turn on the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)].
+1. Open the **Microsoft Dynamics 365 Connection Setup** page, and then turn off the **Enabled** toggle. Then close the page to disconnect from [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Open the **Dataverse Connection Setup** page, and in the **Ownership Model** field, choose **Person**. Then choose the **Enabled** toggle to turn on the connection to [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
    > [!NOTE]
    > After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.

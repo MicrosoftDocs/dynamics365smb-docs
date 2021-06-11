@@ -167,7 +167,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 
 1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your [!INCLUDE[prod_short](includes/prod_short.md)] or Dynamics NAV 2018 installation DVD. Depending on your product version, import one of the following:
 
-   * For [!INCLUDE[prod_short](includes/prod_short.md)], the folder contains the DynamicsNAVIntegrationSolution_v9 and DynamicsNAVIntegrationSolution_v91. solution The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
+   * For [!INCLUDE[prod_short](includes/prod_short.md)], the folder contains the DynamicsNAVIntegrationSolution_v9 and DynamicsNAVIntegrationSolution_v91. solutions. The solution you should import depends on the version of [!INCLUDE[crm_md](includes/crm_md.md)] you're connecting to. [!INCLUDE[crm_md](includes/crm_md.md)] online requires the DynamicsNAVIntegrationSolution_v91 integration solution.
    * For Dynamics NAV 2018, install the DynamicsNAVIntegrationSolution solution.
 
 2. Create a non-interactive integration user in your [!INCLUDE[crm_md](includes/crm_md.md)] environment, and assign the user the following security roles. For more information, see [Create a non-interactive user account](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
@@ -181,7 +181,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
-   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to > Azure AD using the administrator account for your Dataverse environment and give consent.
+   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Azure AD using the administrator account for your Dataverse environment and give consent.
    >
    > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2020 release wave 1 and later.
   

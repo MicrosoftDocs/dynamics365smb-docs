@@ -69,7 +69,7 @@ The next time you generate account schedules, your balance statement will show a
 
 ## Access to create and edit accounts and account categories
 
-In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER license. However, in larger organizations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER license. However, in larger organizations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## See Also
 

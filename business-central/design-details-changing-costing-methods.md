@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: costing methods, costing, item cost
-    ms.date: 04/01/2021
+    ms.date: 06/08/2021
     ms.author: bholtorf
 
 ---

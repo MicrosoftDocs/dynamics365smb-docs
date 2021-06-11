@@ -22,7 +22,7 @@ These features can be particularly useful in quality control when you need to fi
 
  On the **Find Entries** page, you cannot see the sequence of transactions, but you can see all records of the serial or lot number, both posted entries and open records.  
 
- The two features can be used in combination by transferring a traced serial or lot number to the **Find Entries** page to finish a complete trace scenario. For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).  
+ The two features can be used in combination by transferring a traced serial or lot number to the **Find Entries** page to finish a complete trace scenario. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
 ## To trace item-tracked items  
 
@@ -68,7 +68,7 @@ These features can be particularly useful in quality control when you need to fi
 [Design Details - Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)  
+<!-- [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)   -->
 [Find Entries](ui-find-entries.md)  
 
 

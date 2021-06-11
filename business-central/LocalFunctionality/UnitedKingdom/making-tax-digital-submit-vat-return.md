@@ -14,12 +14,14 @@ ms.author: soalex
 ---
 # Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) is implementing the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April, 2019, the following requirements took effect:
+Her Majesty's Revenue and Customs (HMRC) has implemented the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April 2019, the following requirements took effect:
 
 * Keeping records digitally
 
-  Businesses must now keep all their records digitally. For users of ERP systems this will not have any impact since they already keep their records digitally in these systems.  
+  Businesses must now keep all their records digitally. For users of ERP systems, this requirement will not have any impact since they already keep their records digitally in these systems.  
 * Submit VAT return electronically using [software recognized by HMRC](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).  
+
+Starting in 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
@@ -62,7 +64,7 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
     a. Create a new configuration, and choose the VAT Return type.  
     b. Give the configuration a descriptive name, such as **HMRC MTD**.  
     c. In the **Suggest Lines Codeunit ID** field, choose codeunit **745**.  
-    d. In the **Content Coneunit ID** field, choose codeunit **10531**.  
+    d. In the **Content Codeunit ID** field, choose codeunit **10531**.  
     e. In the **Submission Codeunit ID** field, choose codeunit **10532**.  
     f. In the **Validate Codeunit ID** field, choose codeunit **10533**.  
     g. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
@@ -96,7 +98,7 @@ The VAT obligations are now retrieved from HMRC and you can view them on the **V
 
 ## VAT Returns
 
-Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders,invoices, and credit memos.
+Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders, invoices, and credit memos.
 
 ### To create and submit a VAT return
 
@@ -107,10 +109,10 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 5. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
   VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
-6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
+6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return, you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
 7. To submit the VAT return to HMRC, choose **Process**, and then choose the **Submit** action.  
 
-A successful submission of the VAT Return will result in a Status = Accepted on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to Approved a previously submitted VAT Return can be retrieved from the HMRC.
+A successful submission of the VAT Return will result in a status of *Accepted* on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to *Approved*, a previously submitted VAT Return can be retrieved from the HMRC.
 
 ### To receive previously submitted VAT Returns from HMRC
 
@@ -144,21 +146,24 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 
 * Group VAT scenarios
 
-  While it is possible that your [!INCLUDE[prod_short](../../includes/prod_short.md)] submits VAT on behalf of a group of companies that share a VAT registration number (Group VAT) there is no built in mechanism for retrieving VAT entries from other companies in the group. There are currently no plans to support Group VAT and we refer to Microsoft partners to add this functionality.
+  If your [!INCLUDE[prod_short](../../includes/prod_short.md)] submits VAT on behalf of a group of companies that share a VAT registration number (Group VAT), there is no built in mechanism for retrieving VAT entries from other companies in the group. There are currently no plans to support Group VAT, and we refer to Microsoft partners to add this functionality.
 * Agent services
 
   Agents can submit VAT returns on behalf of their customers and HMRC has solutions for that. This is currently not supported by [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Connection errors with HMRC
 
-If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[prod_short](../../includes/prod_short.md)] please check your firewall settings that may be blocking the communication to and from HMRC.
+If you experience "The operation has timed out" errors on an on-premises installation of [!INCLUDE[prod_short](../../includes/prod_short.md)], check any firewall settings that may be blocking the communication to and from HMRC.
 
 ## Testing the integration to HMRC in a sandbox
 
-Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns. Certain online documentation at HMRC refers to the term *Sandbox*. This refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
+Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns.  
+
+Certain online documentation at HMRC refers to the term *Sandbox*. This term refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
 ## See Also
 
+[Send Fraud Prevention Data](fraud-prevention-data.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [The VAT Group Management Extension](../../ui-extensions-vat-group.md)  

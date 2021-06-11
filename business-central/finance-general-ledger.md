@@ -1,5 +1,5 @@
 ---
-title: Learn About General Ledger and COA| Microsoft Docs
+title: Understanding the General Ledger and COA
 description: Describes the general ledger, the chart of accounts, and account categories.
 author: edupont04
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/09/2021
 ms.author: edupont
 
 ---
@@ -54,19 +54,29 @@ You create a category group by indenting other subcategories under a line on the
 
 You can specify whether the accounts in each subcategory must be included in specific types of reports. The account categories help define the layout of your financial statements.  
 
-For example, the default balance statement has a subcategory for Cash under Current Assets. If you want the balance statement consider petty cash and checking, you can:  
+### Example
 
-1. Add two new subcategories. One for petty cash, and one for your checking account.  
+For example, the default balance statement has a subcategory for *Cash* under *Current Assets*. You want the balance statement consider petty cash and checking, so you take the following steps:  
+
+1. Add two new subcategories:
+
+    * One for petty cash  
+    * One for your checking account  
 2. Specify the additional report definition **Cash Accounts** for these subcategories.  
 3. Indent them under the **Cash** subcategory.  
 
-The next time you generate account schedules your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.  
+The next time you generate account schedules, your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.  
+
+## Access to create and edit accounts and account categories
+
+In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER license. However, in larger organizations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ## See Also
 
 [Finance](finance.md)  
 [Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

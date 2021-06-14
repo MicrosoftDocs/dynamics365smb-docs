@@ -62,6 +62,8 @@ You specify the currency codes in the **Currencies**, including extra informatio
 
 ### Example of a receivable currency transaction
 
+Receiving an invoice from a company in a foreign currency, it is fairly easy to calculate the local currency (LCY) value of the invoice based on todays currency rate. However, the invoice very often comes with payment terms, allowing us to delay the payment to a later date implying a potential different currency rate. This and the fact that bank currency rates always differs from the official currency rates, makes it is impossible to anticipate the exact local currency (LCY) amount necessary to cover the invoice. If the due date of the invoice extends to the next month, it might also be necessary to revaluate the local currency (LCY) amount at the end of the month. The currency adjustment is necessary because the new local currency (LCY) value needed to cover the invoice amount might be different and the company debt to the vendor has potentially changed. The new local currency (LCY) amount might be higher or lower than the previous amount and will therefore represent a win or a loss. However, since the invoice has not been paid yet, the win or loss is considered **unrealized**. Later the invoice is paid and the bank has returned with the actual currency rate for the payment. It is not until now the **realized** win or loss is calculated. This unrealized win or loss is then reversed and the realized win or loss is posted instead.
+
 In the following example, an invoice is received on january 1st with the currency amount of 1000. At the time the currency rate is 1.123.
 
 |Date|Action|Currency Amount|Document Rate|LCY Amount on document|Adjustment Rate|Unrealized Gains Amount|Payment Rate|Realized Losses Amount|  

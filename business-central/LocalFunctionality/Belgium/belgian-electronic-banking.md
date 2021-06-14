@@ -1,9 +1,6 @@
 ---
     title: Belgian Electronic Banking
-    description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. Data can be exchanged either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). This way you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.
-
-    services: project-madeira 
-    documentationcenter: ''
+    description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. This way, you can benefit from a faster processing time and avoid errors caused by manual data entry or processing.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -17,15 +14,28 @@
 
 ---
 # Belgian Electronic Banking
-Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel). This speeds up processing time and helps avoid errors caused by manual data entry or processing.  
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use electronic banking to perform the following functions:  
+In the Belgian version of [!INCLUDE [prod_short](../../includes/prod_short.md)], you can exchange data with Belgian financial institutions  electronically. This speeds up processing time and helps avoid errors caused by manual data entry or processing.  
+
+You can use electronic banking to perform the following functions:  
 
 - Send electronic payments.  
 - Process bank statements with CODA.  
 - Process direct debits with domiciliations.  
 
-## See Also  
+## Setup
+
+Before you can process electronic payments and statements, you must set up electronic banking in the **Electronic Banking Setup** page as described in the following table.
+
+|Field|Description |
+|-----|------------|
+|**Summarize Gen. Jnl. Lines**| Select to indicate if you want to group the payment journal lines for each vendor.  |
+|**Cut off Payment Message Texts** |Select to indicate if you want to truncate long payment messages. Messages will be truncated if greater than 106 characters for domestic payments and less than 140 characters for international payments. |
+
+For information about the impact of the two fields on how payment journal lines are transferred to the general journal, see [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md).  
+
+## See Also
+
 [Belgium Local Functionality](belgium-local-functionality.md)  
 [Belgian Electronic Payments](belgian-electronic-payments.md)  
 [CODA Bank Statements](coda-bank-statements.md)  

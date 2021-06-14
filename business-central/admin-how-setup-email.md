@@ -203,6 +203,8 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
+## See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## See Also
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

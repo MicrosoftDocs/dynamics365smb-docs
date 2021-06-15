@@ -1,7 +1,7 @@
 ---
 title: Set Up Bank Accounts| Microsoft Docs
 description: You can reconcile bank accounts with statements from the bank.
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual

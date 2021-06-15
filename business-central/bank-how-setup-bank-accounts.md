@@ -69,6 +69,9 @@ The better mapping information that you do in the payment reconciliation journal
 
 <br><br>
 
+> [!NOTE]
+> Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+
 ## To set up bank accounts
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -78,14 +81,9 @@ The better mapping information that you do in the payment reconciliation journal
 > [!TIP]
 > Some fields are hidden until you choose the **Show more** action, typically because they are used rarely. Others must be added through personalization. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
-> [!NOTE]
-> Some fields contain sensitive data. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
-
+You can create as many bank accounts as you need for your business. For each bank account, you must specify information that makes the bank account uniquely identifiable. This information includes the bank's geographical address, number series for different types of transactions, such as direct debit and credit transfers, the currency that amounts are specified in, and information that is used for importing bank statements. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 <!--
 The following table explains key fields.
-
-
-
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -145,6 +143,7 @@ The following table explains key fields.
 > To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) or for creating opening balances in [!INCLUDE[prod_short](includes/prod_short.md)] see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
 
 ## To set up your bank account for import or export of bank files
+
 Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
@@ -152,7 +151,7 @@ Fields on the **Transfer** FastTab on the **Bank Account Card** page are related
 3. On the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Different file export services and their formats require different setup values on the **Bank Account Card** page. You will be informed about wrong or missing setup values as you try to export the file. So read the short descriptions of the fields carefully or refer to the related procedure topics. For example, exporting a payment file for North American electronic funds transfer (EFT) requires that both the **Last Remittance Advice No.** field and the **Transit No.** field are filled in. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Different file export services and their formats require different setup values on the **Bank Account Card** page. You will be informed about wrong or missing setup values as you try to export the file. So read the short descriptions of the fields carefully or refer to the related procedure topics. For example, exporting a payment file for North American electronic funds transfer (EFT) requires that both the **Last Remittance Advice No.** field and the **Transit No.** field are filled in. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 ## To set up vendor bank accounts for export of bank files
 
@@ -164,7 +163,8 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Changing Your Bank Account
+## Changing your bank account
+
 If you want to use a different bank account for your business, you must create the new bank account in [!INCLUDE[prod_short](includes/prod_short.md)]. We recommend that you do not simply replace the information about the account you are currently using because that can cause incorrect data. For example, your opening balance might be incorrect or your bank feed might stop working correctly. It's important that you keep the current and new accounts separate.
 
 After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
@@ -176,6 +176,8 @@ For financial reporting, you can use the Begin-Total and End-Total accounts in y
 [Setting Up Banking](bank-setup-banking.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
+[Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
+[SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

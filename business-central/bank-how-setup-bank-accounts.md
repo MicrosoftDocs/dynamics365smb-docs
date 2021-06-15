@@ -1,5 +1,5 @@
 ---
-title: Set Up Bank Accounts| Microsoft Docs
+title: Set Up Bank Accounts
 description: You can reconcile bank accounts with statements from the bank.
 author: SorenGP
 
@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
 # Set Up Bank Accounts
+
 You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bank Reconciliation](bank-how-reconcile-bank-accounts-separately.md) and import/export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L account.  
 
 Bank accounts work differently depending on whether a currency code is specified:
@@ -38,7 +39,7 @@ Another task is to import the vendor currency payments with the realized currenc
 - Recurring vendor payments and subscriptions  
 - Bank charges and interests  
 
-Payment reconcilation provides massive time savings in posting incoming and outgoing payments. However, the transactions on the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] is not considered 100% correct until you run a bank reconciliation.  
+Payment reconciliation provides massive time savings in posting incoming and outgoing payments. However, the transactions on the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] is not considered 100% correct until you run a bank reconciliation.  
 
 Bank reconciliation is how you make sure that the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] matches the external account at the bank.  
 
@@ -48,13 +49,13 @@ In the illustration above, the left side represents the bank account in [!INCLUD
 
 From the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], most transactions should be known to the physical bank. The only exceptions include the following cases:  
 
-- Corrections posted in [!INCLUDE[prod_short](includes/prod_short.md)] 
-- Checks issued that has not been cashed yet 
-- Vendor payments that have not been approved by the bank.
+- Corrections posted in [!INCLUDE[prod_short](includes/prod_short.md)]  
+- Checks issued that has not been cashed yet  
+- Vendor payments that have not been approved by the bank  
 
 From the physical account in the bank, unknown transactions that were not identified in the payment reconciliation journal arrive all the time, such as the following:  
 
-- New vendor subscriptions 
+- New vendor subscriptions  
 - Customer payments without description
 - Bank interests
 - Bank Charges
@@ -72,18 +73,27 @@ The better mapping information that you do in the payment reconciliation journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] or refer to the table below for an explanation.
-<br><br> 
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 > [!TIP]
-> Some of the fields might only be visible clicking the **Show More fields** or by retrieving the fields by Personalizing the page. |PERSONALIZATION Personalize the User Interface.
+> Some fields are hidden until you choose the **Show more** action, typically because they are used rarely. Others must be added through personalization. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+
+> [!NOTE]
+> Some fields contain sensitive data. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+
+<!--
+The following table explains key fields.
+
+
+
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
 |**General FastTab**||
 |No.|Specifies the number of the bank account, according to the specified number series. If the number series allow manual numbering, any alphanumeric code up to 20 characters can be used.|
 |Name|The Name of the bank holding the bank account.|
-|Bank Branch No.|The Bank Branch No. is usually used to identify the bank branch in domestic payments. The Bank Branch No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|Bank Account No.|Bank Account No. is usually used to identify the bank account no. in domestic payments. The Bank Account No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
+|Bank Branch No.|The Bank Branch No. is usually used to identify the bank branch in domestic payments. The Bank Branch No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).|
+|Bank Account No.|Bank Account No. is usually used to identify the bank account no. in domestic payments. The Bank Account No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).|
 |Balance|Shows the Balance of the bank account in the account currency.|
 |Balance (LCY)|Shows the Balance of the bank account in the local currency (LCY).|
 |Our Contact Code|Specifies a code to specify the employee who is responsible for this bank account. The employee must be created in the **Salesperson/Purchaser** table.|
@@ -103,7 +113,7 @@ The better mapping information that you do in the payment reconciliation journal
 |**Hidden Fields**||
 |Search Name|Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field.|
 |Min. Balance|Specifies a minimum balance for the bank account. This field is for information purposes only.|
-|Positive Pay Export Code|Specifies a code for the data exchange definition that manages the export of positive-pay files. Read more in [ Export Positive Pay Files](finance-how-positive-pay.md).|
+|Positive Pay Export Code|Specifies a code for the data exchange definition that manages the export of positive-pay files. Read more in [Export Positive Pay Files](finance-how-positive-pay.md).|
 |**Communication FastTab**||
 |Address|The address of the bank branch.|
 |Address 2|An additional address field for the bank branch.|
@@ -126,11 +136,11 @@ The better mapping information that you do in the payment reconciliation journal
 |Bank Acc. Posting Group|Specifies a code for the bank account posting group for the bank account. The Bank Acc. Posting Group connects the bank account to the G/L Account in the balance sheet.|
 |**Transfer**||
 |Transit No.|Specifies a bank identification number of your own choice.|
-|SWIFT Code|Specifies the international bank identifier code (SWIFT) of the bank where you have the account. The SWIFT Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|IBAN|Specifies the bank account's international bank account number. The IBAN Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
+|SWIFT Code|Specifies the international bank identifier code (SWIFT) of the bank where you have the account. The SWIFT Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).|
+|IBAN|Specifies the bank account's international bank account number. The IBAN Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).|
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
-
+-->
 > [!NOTE]
 > To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) or for creating opening balances in [!INCLUDE[prod_short](includes/prod_short.md)] see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
 

@@ -16,11 +16,11 @@ ms.author: edupont
 # Set Up Bank Accounts
 You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bank Reconciliation](bank-how-reconcile-bank-accounts-separately.md) and import/export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the Bank Account Posting Group.
 Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L Account.<br><br>
-The bank accounts handle differently weather the currency code is filled or not.
+The bank accounts handle differently whether the currency code is filled or not.
 If the currency code is blank, all transactions in the bank account will be in the local currency (LCY). This also applies to currency transactions made to the account. In that case, they will be posted to the account in local currency (LCY) amount using the currency rate used in the transaction. Any checks issued from this account must be issued in the local currency (LCY) though. Using the bank account in a journal will automatically default the blank currency code.<br><br>
-If a currency code has been applied to the account, all transactions made to this account must be in the same currency. All checks issued from this account, must also follow the same currency.
+If a currency code has been applied to the account, all transactions made to this account must be in the same currency. All checks issued from this account, must also have this currency.
 <br><br>
-A bank account is usually monitored daily to ensure that any new payments from customers are registered as quickly as possible. This is to ensure that the actual status of the customer is reflected in [!INCLUDE[prod_short](includes/prod_short.md)], and it helps to provide relevant and up-to-date information to sales people, accountants and other employees. This also prevents unnecessary calls to the customer regarding overdue invoices or delay in shipments. Likewise, it is necessary to import the vendor currency payments with the realized currency rates, to ensure that the actual status of the vendors is up-to-date. The easiest way to ensure that the bank account is updated is using the [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md). In the Payment Reconciliation Journal it is possible to import bank transactions directly from the on-line bank application and have them posted more or less automatically. The Payment Reconciliation Journal is able to automatically identify and post the following:
+A bank account is usually monitored daily to ensure that any new payments from customers are registered as quickly as possible. This is to ensure that the actual status of the customers is reflected in [!INCLUDE[prod_short](includes/prod_short.md)], and it helps to provide relevant and up-to-date information to sales people, accountants and other employees. This also prevents unnecessary calls to the customer regarding overdue invoices or delay in shipments. Likewise, it is necessary to import the vendor currency payments with the realized currency rates, to ensure that the actual status of the vendors is up-to-date. The easiest way to ensure that the bank account is updated is using the [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md). In the Payment Reconciliation Journal it is possible to import bank transactions directly from the on-line bank application and have them posted more or less automatically. The Payment Reconciliation Journal is able to automatically identify and post the following:
 <br>
 
 - Direct Debit Payments from customers
@@ -38,12 +38,12 @@ The bank reconciliation is the way to ensure that the bank account in [!INCLUDE[
 
  ![Bank Account Reconciliation](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-Above the left side represents the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] and the right side represents the transactions imported from the account in the bank through the on-line bank application. The bank reconciliation window in the middle shows the transactions from both sides.
+Above, the left side represents the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] and the right side represents the transactions imported from the account in the bank through the on-line bank application. The bank reconciliation window in the middle shows the transactions from both sides.
 <br><br>
 From the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], most transactions should be known to physical bank. The only exceptions (marked in red) could be:
 - Corrections posted in [!INCLUDE[prod_short](includes/prod_short.md)] 
 - Checks issued that has not been cashed yet 
-- or vendor payments that been approved by the bank.
+- or vendor payments that hasn't been approved by the bank.
 
 From the physical Account in the bank unknown transactions ,that wasn't identified in the Payment Reconciliation journal, come all the time:
 - New vendor subscriptions 
@@ -51,7 +51,7 @@ From the physical Account in the bank unknown transactions ,that wasn't identifi
 - Bank interests
 - Bank Charges
 - Credit card charges that hasn't been reported yet
-- 
+
 The better mapping information in the payment reconciliation journal, the more transactions are posted automatically and the easier the periodic bank reconciliation becomes.
 
 <br><br>

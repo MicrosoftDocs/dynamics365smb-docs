@@ -1,7 +1,7 @@
 ---
 title: Set Up Bank Accounts
 description: You can reconcile bank accounts with statements from the bank.
-author: SorenGP
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -163,6 +163,13 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 3. Choose the **Bank Accounts** action.
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## Changing Your Bank Account
+If you want to use a different bank account for your business, you must create the new bank account in [!INCLUDE[prod_short](includes/prod_short.md)]. We recommend that you do not simply replace the information about the account you are currently using because that can cause incorrect data. For example, your opening balance might be incorrect or your bank feed might stop working correctly. It's important that you keep the current and new accounts separate.
+
+After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
+
+For financial reporting, you can use the Begin-Total and End-Total accounts in your chart of accounts, Totaling rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
 
 ## See Also
 

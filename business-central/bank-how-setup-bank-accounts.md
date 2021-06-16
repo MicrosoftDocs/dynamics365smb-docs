@@ -45,7 +45,7 @@ Bank reconciliation is how you make sure that the bank account in [!INCLUDE[prod
 
  ![Illustration of bank account reconciliation](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-In the illustration above, the left side represents the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], and the right side represents the transactions imported from the account in the bank through the online bank application. The bank reconciliation page in the middle shows the transactions from both sides.
+In the illustration above, the left side represents the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], and the right side represents the transactions imported from the bank through the online bank application. The diagram in the middle shows the transactions from both sides, which is the bank reconciliation.
 
 From the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], most transactions should be known to the physical bank. The only exceptions include the following cases:  
 
@@ -169,7 +169,7 @@ If you want to use a different bank account for your business, you must create t
 
 After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
 
-For financial reporting, you can use the Begin-Total and End-Total accounts in your chart of accounts, Totaling rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
+For financial reporting, you can use the **Begin-Total** and **End-Total** accounts in your chart of accounts, **Totaling** rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
 
 ## See Also
 
@@ -178,6 +178,11 @@ For financial reporting, you can use the Begin-Total and End-Total accounts in y
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md)  
+[To set up your bank account for SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md#to-set-up-your-bank-account-for-sepa-direct-debit)  
+[To set up a bank account for SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-set-up-a-bank-account-for-sepa-credit-transfer)  
+[Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

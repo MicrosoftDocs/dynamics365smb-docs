@@ -179,7 +179,7 @@ For financial reporting, you can use the **Begin-Total** and **End-Total** accou
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md)  
 [To set up your bank account for SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md#to-set-up-your-bank-account-for-sepa-direct-debit)  
-[To set up a bank account for SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer#to-set-up-a-bank-account-for-sepa-credit-transfer)  
+[To set up a bank account for SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-set-up-a-bank-account-for-sepa-credit-transfer)  
 [Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  

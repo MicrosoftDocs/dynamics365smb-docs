@@ -56,7 +56,6 @@ From the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], most tr
 From the physical account in the bank, unknown transactions that were not identified in the payment reconciliation journal arrive all the time, such as the following:  
 
 - New vendor subscriptions  
-
 - Customer payments without description
 - Bank interests
 - Bank Charges
@@ -70,7 +69,6 @@ The better mapping information that you do in the payment reconciliation journal
 
 <br><br>
 
-
 > [!NOTE]
 > Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
 
@@ -78,64 +76,7 @@ The better mapping information that you do in the payment reconciliation journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] or refer to the table below for an explanation.
-<br><br> 
-> [!TIP]
-> Some of the fields might only be visible clicking the **Show More fields** or by retrieving the fields by Personalizing the page. |PERSONALIZATION Personalize the User Interface.
-
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**General FastTab**||
-|No.|Specifies the number of the bank account, according to the specified number series. If the number series allow manual numbering, any alphanumeric code up to 20 characters can be used.|
-|Name|The Name of the bank holding the bank account.|
-|Bank Branch No.|The Bank Branch No. is usually used to identify the bank branch in domestic payments. The Bank Branch No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|Bank Account No.|Bank Account No. is usually used to identify the bank account no. in domestic payments. The Bank Account No. is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|Balance|Shows the Balance of the bank account in the account currency.|
-|Balance (LCY)|Shows the Balance of the bank account in the local currency (LCY).|
-|Our Contact Code|Specifies a code to specify the employee who is responsible for this bank account. The employee must be created in the **Salesperson/Purchaser** table.|
-|Blocked|Specifies that the related record is blocked from being posted in transactions, for example the account is obsolete after a bank change.|
-|SEPA Direct Debit Exp. Format|Specifies the SEPA format of the bank file that will be exported when you choose the **Create Direct Debit File** button in the **Direct Debit Collect. Entries** window. Read more in [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md).|
-|Credit Transfer Msg. Nos.|Specifies the number series for bank instruction messages that are created with the export file that you create from the Direct Debit Collect. Entries window. Read more in [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md).|
-|Direct Debit Msg. Nos.|Specifies the number series that will be used on the direct debit file that you export for a direct-debit collection entry in the Direct Debit Collect. Entries window. Read more in [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md).|
-|Creditor No.|Specifies your company as the creditor in connection with payment collection from customers using SEPA Direct Debit. Read more in [SEPA Direct Debit in Business Central](finance-collect-payments-with-sepa-direct-debit.md).|
-|Bank Clearing Standard|The national bank names register used for the sender bank account.|
-|Bank Clearing Code|Specifies the code for bank clearing that is required according to the format standard that you selected in the Bank Clearing Standard field. The bank clearing code can be used as an alternative to SWIFT and IBAN to identify your bank as sender of a bank transfer.|
-|Last Date Modified|Date of the latest modification of the bank account.|
-|**Payment Matching**||
-|Disable Automatic Payment Matching|Specifies whether to disable automatic payment matching after importing bank transactions for this bank account. Read more in [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md).|
-|**Payment Match Tolerance**||
-|Match Tolerance Type|Specifies by which tolerance the automatic payment application function will apply the Amount Incl. Tolerance Matched rule for this bank account. Read more in [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md).|
-|Match Tolerance Value|Specifies if the automatic payment application function will apply the Amount Incl. Tolerance Matched rule by Percentage or Amount. Read more in [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md).|
-|**Hidden Fields**||
-|Search Name|Specifies an alternate name that you can use to search for the record in question when you cannot remember the value in the Name field.|
-|Min. Balance|Specifies a minimum balance for the bank account. This field is for information purposes only.|
-|Positive Pay Export Code|Specifies a code for the data exchange definition that manages the export of positive-pay files. Read more in [ Export Positive Pay Files](finance-how-positive-pay.md).|
-|**Communication FastTab**||
-|Address|The address of the bank branch.|
-|Address 2|An additional address field for the bank branch.|
-|Post Code|The post code of the bank branch.|
-|City|The city of the bank branch.|
-|Country/Region Code|The Country/Region Code of the bank branch.|
-|Phone No.|The Phone No. of the bank branch.|
-|Mobile Phone No.|The Mobile Phone No. of the bank branch.|
-|Contact|The main contact in the bank branch. Additional contacts can be created in the Contacts module.|
-|Fax No.|The Fax No. of the bank branch.|
-|Email|The Email of the bank branch.|
-|Home Page|The Home Page of the bank branch.|
-|**Posting FastTab**||
-|Currency Code|Specifies the relevant currency code for the bank account. Applying a currency code to a bank account will limit all transactions to only use the applied currency code. Leaving the currency code blank will allow transactions in all currencies, however, the amount will be converted to the local currency (LCY) using the applied currency rate. Checks issued from this account will also follow the same rules.|
-|Last Check No.|The number of the latest check issued from this account.|
-|Transit No.|Specifies a bank identification number of your own choice.|
-|Last Statement No.|The number of the latest bank reconciliation posted to this account. Read more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).|
-|Last Payment Statement No.|The number of the latest payment reconciliation posted to this account. Read more in [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md).|
-|Last Bank Statement|The ending-balance of the last bank statement. Read more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).|
-|Bank Acc. Posting Group|Specifies a code for the bank account posting group for the bank account. The Bank Acc. Posting Group connects the bank account to the G/L Account in the balance sheet.|
-|**Transfer**||
-|Transit No.|Specifies a bank identification number of your own choice.|
-|SWIFT Code|Specifies the international bank identifier code (SWIFT) of the bank where you have the account. The SWIFT Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|IBAN|Specifies the bank account's international bank account number. The IBAN Code is very often considered a sensitive field. Read more about [Monitoring Sensitive Fields](across-log-changes#monitoring-sensitive-fields).|
-|Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
-|Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > Some fields are hidden until you choose the **Show more** action, typically because they are used rarely. Others must be added through personalization. For more information, see [Personalize Your Workspace](ui-personalization-user.md).

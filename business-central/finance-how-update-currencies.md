@@ -86,7 +86,7 @@ Finally, the payment is registered and the actual loss is posted to the realized
 
 ## Available Currency Functions
 
-the following table outlines key actions on the ***Currencies** page. some of the actions are explained in the next sections.  
+The following table outlines key actions on the **Currencies** page. Some of the actions are explained in the next sections.  
 
 |Menu|Action|Description|
 |-------------|--------------|------------------------------|
@@ -118,14 +118,14 @@ In general, the values of the **Exchange Rate Amount** and **Relational Exchange
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivable or payable transactions.  
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## Adjusting Exchange Rates

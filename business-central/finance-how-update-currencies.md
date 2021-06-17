@@ -65,9 +65,9 @@ You specify the currency codes in the **Currencies**, including extra informatio
 
 ### Example of a receivable currency transaction
 
-When you receive an invoice from a company in a foreign currency, it is fairly easy to calculate the local currency (LCY) value of the invoice based on today's currency rate. However, the invoice very often comes with payment terms so you can delay the payment to a later date, which implies a potentially different currency rate. This issue in combination with the fact that bank currency rates always differ from the official currency rates makes it impossible to anticipate the exact local currency (LCY) amount that is required to cover the invoice. If the due date of the invoice extends to the next month, you might also have to revaluate the local currency (LCY) amount at the end of the month. The currency adjustment is necessary because the new LCY value that is required to cover the invoice amount might be different, and the company debt to the vendor has potentially changed. The new LCY amount might be higher or lower than the previous amount and will therefore represent a gain or a loss. However, since the invoice has not been paid yet, the gain or loss is considered *unrealized*. Later, the invoice is paid, and the bank has returned with the actual currency rate for the payment. It is not until now the *realized* gain or loss is calculated. This unrealized gain or loss is then reversed, and the realized gain or loss is posted instead.
+When you receive an invoice from a company in a foreign currency, it is fairly easy to calculate the local currency (LCY) value of the invoice based on today's currency rate. However, the invoice often comes with payment terms so you can delay the payment to a later date, which implies a potentially different currency rate. This issue in combination with the fact that bank currency rates always differ from the official currency rates makes it impossible to anticipate the exact local currency (LCY) amount that is required to cover the invoice. If the due date of the invoice extends to the next month, you might also have to revaluate the local currency (LCY) amount at the end of the month. The currency adjustment is necessary because the new LCY value that is required to cover the invoice amount might be different, and the company debt to the vendor has potentially changed. The new LCY amount might be higher or lower than the previous amount and will therefore represent a gain or a loss. However, since the invoice has not been paid yet, the gain or loss is considered *unrealized*. Later, the invoice is paid, and the bank has returned with the actual currency rate for the payment. It is not until now the *realized* gain or loss is calculated. This unrealized gain or loss is then reversed, and the realized gain or loss is posted instead.
 
-In the following example, an invoice is received on january 1st with the currency amount of 1000. At the time the currency rate is 1.123.
+In the following example, an invoice is received on January 1 with the currency amount of 1000. At the time, the currency rate is 1.123.
 
 |Date|Action|Currency Amount|Document Rate|LCY Amount on document|Adjustment Rate|Unrealized Gains Amount|Payment Rate|Realized Losses Amount|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
@@ -76,7 +76,7 @@ In the following example, an invoice is received on january 1st with the currenc
 |2/15|**Adjustment Reversal on payment**|1000||||-2|||
 |2/15|**Payment**|1000||1120|||1.120|-3|
 
-At the end of the month a currency adjustment is performed where the adjustment currency rate has been set to 1.125, which triggers an unrealized gain of 2.
+At the end of the month, a currency adjustment is performed where the adjustment currency rate has been set to 1.125, which triggers an unrealized gain of 2.
 
 At the time of payment, the actual currency rate registered on the bank transaction shows a currency rate of 1.120.
 
@@ -86,7 +86,7 @@ Finally, the payment is registered and the actual loss is posted to the realized
 
 ## Available Currency Functions
 
-the following table outlines key actions on the ***Currencies** page. some of the actions are explained in the next sections.  
+The following table outlines key actions on the **Currencies** page. Some of the actions are explained in the next sections.  
 
 |Menu|Action|Description|
 |-------------|--------------|------------------------------|
@@ -118,21 +118,21 @@ In general, the values of the **Exchange Rate Amount** and **Relational Exchange
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivable or payable transactions.  
+The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivables, or payables transactions.  
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## Adjusting Exchange Rates
 
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
 
-The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, vendor and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
+The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, vendor, and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
@@ -141,15 +141,18 @@ The **Adjust Exchange Rates** batch job is used to manually adjust the exchange 
 
 For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry which reflects the adjusted amount on the customer or vendor ledger entry.
+The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry, which reflects the adjusted amount on the customer or vendor ledger entry.
 
 #### Dimensions on Customer and Vendor Ledger Entries
+
 The adjustment entries are assigned the dimensions from the customer/vendor ledger entries, and the adjustments are posted per combination of dimension values.
 
 ### Effect on Bank Accounts
+
 For bank accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realized Gains Acc.** field or the **Realized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
 
 #### Dimensions on Bank Account Entries
+
 The adjustment entries for the bank account's general ledger account and for the gain/loss account are assigned the bank account's default dimensions.
 
 ### Effect on G/L Accounts

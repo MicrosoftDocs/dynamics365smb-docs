@@ -21,7 +21,7 @@ ROBOTS: NOINDEX
 [!INCLUDE[prod_short](includes/prod_short.md)] Online includes the **Troubleshooting Connectivity** page that you can use to identify problems with your connection to the online service. There are several things that affect connectivity to Business Central, like the firewall settings of your network or domain name service configuration. The page lets you run a list of checks that will diagnose common Business Central connectivity issues. You can use the information to try to fix the problems yourself, or pass it on to your support representative.
 
 > [!NOTE]
-> The **Troubleshooting Connectivity** page doesn't test network performance or reliability, like the speed of your connection. It only verifies connectivity to different resources. 
+> The **Troubleshooting Connectivity** page doesn't test network performance or reliability, like the speed of your connection. It only verifies connectivity to different resources.
 
 ## Start the connectivity check 
 

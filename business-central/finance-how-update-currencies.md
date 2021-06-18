@@ -175,7 +175,7 @@ You can use an external service to keep your currency exchange rates up to date,
 4. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
-> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be **/gesmes:Envelope/Code/Code/Code**.
+> The following video shows an example of how to connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  will only return the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   

@@ -22,7 +22,7 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 > [!Warning]
 > The Additional Reporting Currency functionality should not be used as a basis for financial statement translation unless you understand the limitations. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company's local currency.
 >
-> For example, if you have a large amount of account receivables in a given currency, such as GBP, and you have set up your additional reporting currency (ACY) to be GBP, then the currency exchange gains/losses will not be recorded for ACY for the accounts receivables in GBP, only for the other currencies. That means that if you use ACY to report your financial statements, it might result in understated or overstated outstanding balances of accounts receivable.
+> For example, you have a large amount of accounts receivable in British pounds (GBP), and you have set up your additional reporting currency (ACY) to be GBP. In this scenario, amounts in the accounts receivable that use GBP will not be adjusted for currency exchange gains/losses in the ACY, only amounts in the accounts receivable that are in other currencies. That means that if you use ACY to report your financial statements, it might result in understated or overstated outstanding balances of accounts receivable.
 
 ## Displaying Reports and Amounts in the Additional Reporting Currency
 Using an additional reporting currency can assist the reporting process for a company in the following cases:

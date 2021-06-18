@@ -1,6 +1,6 @@
 ---
-title: Financial Reports in Business Central
-description: See which financial reports are available in the standard version of Business Central so that you can keep track of your business.
+title: Financial Reports and Analytics
+description: See which financial reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Financial Reports in Business Central
+# Financial Reports and Analytics in Business Central
 
 Financial reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows financial and business professionals to create, maintain, deploy, and view financial statements. It moves beyond traditional reporting constraints to help you efficiently design various types of reports. [!INCLUDE [prod_short](includes/prod_short.md)] includes several reports, tracing functions, and tools that help auditors or controllers who are responsible for reporting to the finance department. Financial reporting includes support for dimensions, so account segments or dimensions are immediately available. No additional tools or configuration steps are required.  
 

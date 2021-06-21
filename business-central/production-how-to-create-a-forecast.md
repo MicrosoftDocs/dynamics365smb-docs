@@ -58,7 +58,7 @@ Consider this example: Your company purchases and sells items on two locations: 
 Then, you create a sales order with a quantity of 12 on location WEST. The planning system will suggest that you do the following:
 
 - Replenish 10 pieces for location EAST, based on data from the forecast.  
-- Replenish 12 pieces for location WEST, based on sales order. The 4 pieces that were specified in the forecast are fully consumed by the actual demand pf the sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Replenish 12 pieces for location WEST, based on the sales order. The four pieces that were specified in the forecast are fully consumed by the actual demand of the sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  If location-based forecasts are viewed in isolation, the overall forecast might not be representative.

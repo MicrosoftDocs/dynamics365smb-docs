@@ -26,11 +26,11 @@ Bank accounts work differently depending on whether a currency code is specified
 
   All transactions that are made to this account must be in the same currency as is specified on the account. All checks that are issued from this account must also have this currency.  
 
-A Bank Account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and have an influence on many other capabilities. The scheme below shows the most important relations:
+A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
 
 ![Illustration of bank account relations](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-This means that creating a bank account, makes it available in all the places shown above besides being mirrored in the G/L Account and Company Information.
+This means that creating a bank account, makes it available in all the places shown above as well as being mirrored in for the relevant G/L account and in the **Company Information** page.
 
 A bank account is usually monitored daily to make sure that any new payments from customers are registered as quickly as possible. This helps make sure that the actual status of the customers is reflected in [!INCLUDE[prod_short](includes/prod_short.md)] so that sales people, accountants, and other employees have access to relevant and up-to-date information. This way, they avoid unnecessary calls to the customer regarding overdue invoices or delay in shipments.  
 

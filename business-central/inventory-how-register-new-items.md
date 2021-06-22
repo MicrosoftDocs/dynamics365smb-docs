@@ -1,5 +1,5 @@
 ---
-title: Create Item Cards for Goods or Services| Microsoft Docs
+title: Create Item Cards for Goods or Services
 description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
 author: SorenGP
 
@@ -96,6 +96,10 @@ When you register a new item, you will see fields that are related to warehouse 
 
 If your organization later sets up warehouse management, in most cases, you must then go back to each existing item to make sure that it has the right information in the various fields, so that the warehouse processes can run as expected. This information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
 
+## Planning
+
+When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
+
 ## See Also
 
 [Inventory](inventory-manage-inventory.md)  
@@ -106,6 +110,10 @@ If your organization later sets up warehouse management, in most cases, you must
 [Setting Up Posting Groups](finance-posting-groups.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
+[About Planning Functionality](production-about-planning-functionality.md)  
+[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
+[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
+
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

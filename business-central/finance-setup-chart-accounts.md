@@ -9,29 +9,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---
 # Setting Up or Changing the Chart of Accounts
+
 The chart of accounts shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 However, you can change the default accounts, and you can add new accounts.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-
 ## Adding or Changing Accounts
+
 From the chart of accounts, you can open each G/L account and add or change settings.
 
 > [!NOTE]  
->   You can delete a general ledger account. However, before you delete it, the following must be true:  
+> You can delete a general ledger account. However, before you delete it, the following must be true:  
 >  
->   * The balance on the account must be zero.  
->   * The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
->   * If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
+> * The balance on the account must be zero.  
+> * The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
+> * If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
+
+[!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -42,6 +45,11 @@ From the chart of accounts, you can open each G/L account and add or change sett
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Close Income Statement Accounts in the French Version](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
+[Print Income Statements in the Australian Version](LocalFunctionality/Australia/how-to-print-income-statements.md)  
+[Print Income Statements in the New Zealand Version](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  
+[Set Up and Close Income Statement Balances in the Spanish Version](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
+[Indent and Validate the Chart of Accounts in the Spanish Version](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

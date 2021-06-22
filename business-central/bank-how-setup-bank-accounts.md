@@ -1,6 +1,6 @@
 ---
 title: Set Up Bank Accounts
-description: You can reconcile bank accounts with statements from the bank.
+description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/15/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---
 # Set Up Bank Accounts
 
-You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bank Reconciliation](bank-how-reconcile-bank-accounts-separately.md) and import/export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L account.  
+You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bank reconciliation](bank-how-reconcile-bank-accounts-separately.md), and the import and export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L account.  
 
 Bank accounts work differently depending on whether a currency code is specified:
 
@@ -26,7 +26,15 @@ Bank accounts work differently depending on whether a currency code is specified
 
   All transactions that are made to this account must be in the same currency as is specified on the account. All checks that are issued from this account must also have this currency.  
 
+A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
+
+![Illustration of bank account relations](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
+
+This means that creating a bank account, makes it available in all the places shown above as well as being mirrored in for the relevant G/L account and in the **Company Information** page.
+
 A bank account is usually monitored daily to make sure that any new payments from customers are registered as quickly as possible. This helps make sure that the actual status of the customers is reflected in [!INCLUDE[prod_short](includes/prod_short.md)] so that sales people, accountants, and other employees have access to relevant and up-to-date information. This way, they avoid unnecessary calls to the customer regarding overdue invoices or delay in shipments.  
+
+![Illustration of bank payment](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
 Another task is to import the vendor currency payments with the realized currency rates to make sure that the actual status of the vendors is up-to-date. The easiest way to make sure that the bank account is updated is using the [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md) capability. In the **Payment Reconciliation Journal**, you can import bank transactions directly from an online bank application and have them posted more or less automatically. The journal automatically identifies and posts the following:  
 
@@ -69,7 +77,7 @@ The better mapping information that you do in the payment reconciliation journal
 
 <br><br>
 
-> [!NOTE]
+> [!WARNING]
 > Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
 
 ## To set up bank accounts
@@ -140,7 +148,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) or for creating opening balances in [!INCLUDE[prod_short](includes/prod_short.md)] see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
+> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md). To learn about how to create opening balances in [!INCLUDE[prod_short](includes/prod_short.md)], see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
 
 ## To set up your bank account for import or export of bank files
 
@@ -153,6 +161,48 @@ Fields on the **Transfer** FastTab on the **Bank Account Card** page are related
 > [!NOTE]  
 > Different file export services and their formats require different setup values on the **Bank Account Card** page. You will be informed about wrong or missing setup values as you try to export the file. So read the short descriptions of the fields carefully or refer to the related procedure topics. For example, exporting a payment file for North American electronic funds transfer (EFT) requires that both the **Last Remittance Advice No.** field and the **Transit No.** field are filled in. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
+The fields on the **Transit** FastTab on the bank account serve different purposes, depending on whether the payment is inbound or outbound.
+
+The illustration shows the route of inbound payments:
+
+:::row:::
+    :::column:::
+        1. The transactions are exported from the bank account in either a human-readable .csv format or the bank's own format.
+        <br><br>
+2. The *data exchange definition* maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md)
+<br><br>
+3. The *data export/import setup* defines the export or import, and it links to the data exchange definition.
+<br><br>
+4. The *bank statements import format* links the import setup to the bank account.
+<br><br>
+5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Account Reconciliation** page.
+    :::column-end:::
+    :::column:::
+        ![Illustration of payments received from the bank into bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
+    :::column-end:::
+:::row-end:::
+
+Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Account Reconciliation** page. In contrast, outgoing payments can originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the relevant payment journal batch must be selected.
+
+The illustration shows the route of outbound payments:
+
+:::row:::
+    :::column:::
+        6. The transactions populated in a payment journal that has been prepared for exporting payments to file.
+        <br><br>
+        7. The *bank statements import format* links the import setup to the bank account
+        <br><br>
+        8. The *data export/import setup* defines the export or import and links to the data exchange definition.
+        <br><br>
+        9. The *data exchange definition* maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md)
+        <br><br>
+        10. The payments are exported from the payment journal and imported into the bank account
+    :::column-end:::
+    :::column:::
+        ![Illustration of payments from bank accounts that are sent to the bank](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)
+    :::column-end:::
+:::row-end:::
+
 ## To set up vendor bank accounts for export of bank files
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -163,13 +213,19 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+> [!WARNING]
+> Some fields on the vendor bank account contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+
 ## Changing your bank account
 
 If you want to use a different bank account for your business, you must create the new bank account in [!INCLUDE[prod_short](includes/prod_short.md)]. We recommend that you do not simply replace the information about the account you are currently using because that can cause incorrect data. For example, your opening balance might be incorrect or your bank feed might stop working correctly. It's important that you keep the current and new accounts separate.
 
 After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
 
-For financial reporting, you can use the **Begin-Total** and **End-Total** accounts in your chart of accounts, **Totaling** rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
+> [!NOTE]
+> Remember that the bank account information on open sales invoices still shows the original bank account. Accordingly, payments are likely to still be posted to that account. We recommend that you keep both accounts active for a period of time after the change.
+
+To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totaling** rows in account schedules, or G/L account categories. For more information, see the [Business Intelligence and Financial Reporting](bi.md) section.
 
 ## See Also
 

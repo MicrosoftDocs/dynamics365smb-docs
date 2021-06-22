@@ -69,7 +69,10 @@ To modify a report layout, you must first export the report layout as a file to 
 
 4.  Return to the **Custom Report Layouts** page, select the report layout that you exported and modified, and then choose the **Import Layout** action.  
 
-5. In the **Import** dialog box, select **Choose** to find and select the report layout document, and then choose **Open**.
+5. In the **Import** dialog box, select **Choose** to find and select the modified report layout document, and then choose **Open**.
+
+> [!IMPORTANT]
+> Remember to import the report layout document that you modified. Otherwise, the new report layout will not be available.
 
 ##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 

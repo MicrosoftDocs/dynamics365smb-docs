@@ -21,24 +21,31 @@ However, you can change the default accounts, and you can add new accounts.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Adding or Changing Accounts
+## Adding or changing accounts
 
-From the chart of accounts, you can open each G/L account and add or change settings.
+From the chart of accounts, you can open each G/L account and add or change settings. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!NOTE]  
-> You can delete a general ledger account. However, before you delete it, the following must be true:  
->  
-> * The balance on the account must be zero.  
-> * The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
-> * If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
+If necessary, you can use more than one line for a general ledger account name. In the **G/L Account Card** page, in the **Account** group, choose **Extended Texts**, and then fill in one or more lines with the text that is to be copied and the account name.  
+
+For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you have set up all the accounts, choose the **Process** action,and then choose **Indent Chart of Accounts**.  
+
+> [!IMPORTANT]
+> If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
+
+## Deleting accounts
+
+You can delete a general ledger account. However, before you delete it, the following must be true:  
+
+* The balance on the account must be zero.  
+* The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
+* If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
-
-[!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## See Also
+
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Working with Dimensions](finance-dimensions.md)  

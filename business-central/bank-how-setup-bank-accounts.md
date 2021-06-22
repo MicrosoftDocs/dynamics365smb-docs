@@ -1,6 +1,6 @@
 ---
 title: Set Up Bank Accounts
-description: Learn how bank accounts are used in Business Central, and how  with statements from the bank.
+description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: bholtorf
 
 ms.service: dynamics365-business-central

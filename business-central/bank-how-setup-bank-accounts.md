@@ -178,7 +178,7 @@ The illustration shows the route of inbound payments:
 5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Account Reconciliation** page.
     :::column-end:::
     :::column:::
-        ![Illustration of payments in and out of bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
+        ![Illustration of payments received from the bank into bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
     :::column-end:::
 :::row-end:::
 
@@ -199,7 +199,7 @@ The illustration shows the route of outbound payments:
         10. The payments are exported from the payment journal and imported into the bank account
     :::column-end:::
     :::column:::
-        ![Illustration of payments in and out of bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)
+        ![Illustration of payments from bank accounts that are sent to the bank](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)
     :::column-end:::
 :::row-end:::
 

@@ -148,7 +148,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) or for creating opening balances in [!INCLUDE[prod_short](includes/prod_short.md)] see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
+> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md). To learn about how to create opening balances in [!INCLUDE[prod_short](includes/prod_short.md)], see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
 
 ## To set up your bank account for import or export of bank files
 
@@ -175,23 +175,22 @@ The illustration shows the route of inbound payments:
 <br><br>
 4. The *bank statements import format* links the import setup to the bank account.
 <br><br>
-5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Reconciliation** page.
+5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Account Reconciliation** page.
     :::column-end:::
     :::column:::
         ![Illustration of payments in and out of bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
     :::column-end:::
 :::row-end:::
 
-<br><br>
-Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Reconciliation** page. In contrast, outgoing payments can originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the relevant payment journal batch must be selected.
- 
+Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Account Reconciliation** page. In contrast, outgoing payments can originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the relevant payment journal batch must be selected.
+
 The illustration shows the route of outbound payments:
 
 :::row:::
     :::column:::
-        6. The transactions populated in a payment journal that has been prepared for exposting payments to file.
+        6. The transactions populated in a payment journal that has been prepared for exporting payments to file.
         <br><br>
-        7. The *bank statements import format** links the import setup to the bank account
+        7. The *bank statements import format* links the import setup to the bank account
         <br><br>
         8. The *data export/import setup* defines the export or import and links to the data exchange definition.
         <br><br>
@@ -224,9 +223,9 @@ If you want to use a different bank account for your business, you must create t
 After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
 
 > [!NOTE]
-> Remember that the bank account information on open sales invoices still shows the original bank account. Accordingly, payments are likely to still be posted to that account. We recommend that you have both accounts active for a period of time after the change.
+> Remember that the bank account information on open sales invoices still shows the original bank account. Accordingly, payments are likely to still be posted to that account. We recommend that you keep both accounts active for a period of time after the change.
 
-For financial reporting, you can use the **Begin-Total** and **End-Total** accounts in your chart of accounts, **Totaling** rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
+To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totaling** rows in account schedules, or G/L account categories. For more information, see the [Business Intelligence and Financial Reporting](bi.md) section.
 
 ## See Also
 

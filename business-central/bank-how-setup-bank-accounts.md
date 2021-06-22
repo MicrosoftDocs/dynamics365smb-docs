@@ -1,6 +1,6 @@
 ---
 title: Set Up Bank Accounts
-description: You can reconcile bank accounts with statements from the bank.
+description: Learn how bank accounts are used in Business Central, and how  with statements from the bank.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/15/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---
 # Set Up Bank Accounts
 
-You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bank Reconciliation](bank-how-reconcile-bank-accounts-separately.md) and import/export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L account.  
+You use bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] to keep track of your banking transactions. Accounts can be denominated in your local currency or in a foreign currency. After you have set up bank accounts, you can also use the check printing option. The bank accounts includes extra functionality for [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bank reconciliation](bank-how-reconcile-bank-accounts-separately.md), and the import and export of bank files. The bank accounts can also be included in transactions in the general journals. Each bank account is linked to an account in the chart of accounts through the assigned bank account posting group. Using a bank account in a payment transaction will automatically create an entry in both the bank account and the connected G/L account.  
 
 Bank accounts work differently depending on whether a currency code is specified:
 

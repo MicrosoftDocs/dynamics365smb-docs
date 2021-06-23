@@ -49,6 +49,9 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
     The setup of DIOT is now finished.
 9. Choose the **Finish** button.
 
+> [!Note]
+> Note that for the DIOT report the vendor’s operation type will be used for all operations with that vendor unless you specifically change the DIOT Type Of Operation in the document before posting. This means that the DIOT Operation Type set on the vendor will not be inherited to purchase documents automatically. If you want to use a type different to the one set on the vendor, change the field on the purchase document manually.
+
 ## Optional Setup for Reporting Witholding Tax with the DIOT Extension
 The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
 

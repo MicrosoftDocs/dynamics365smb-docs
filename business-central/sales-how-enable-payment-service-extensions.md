@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Enable Customer Payments Through Payment Services
-As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as PayPal, or WorldPay.  
+As an alternative to collecting payments through bank transfer or credit cards, your customers can pay you through their account with payment services, such as PayPal or WorldPay.  
 
 After you enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)], a link to the service is available on sales documents that you send by email to your customers. Customers can use the link to go to the payment service and pay the bill, directly from the sales document. If you don't want to include the link, for example, if a customer will pay with cash, you can remove the payment service from the invoice before posting.  
 

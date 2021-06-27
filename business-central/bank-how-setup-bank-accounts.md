@@ -26,11 +26,11 @@ Bank accounts work differently depending on whether a currency code is specified
 
   All transactions that are made to this account must be in the same currency as is specified on the account. All checks that are issued from this account must also have this currency.  
 
-A Bank Account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and have an influence on many other capabilities. The scheme below shows the most important relations:
+A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
 
 ![Illustration of bank account relations](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-This means that creating a bank account, makes it available in all the places shown above besides being mirrored in the G/L Account and Company Information.
+This means that creating a bank account, makes it available in all the places shown above as well as being mirrored in for the relevant G/L account and in the **Company Information** page.
 
 A bank account is usually monitored daily to make sure that any new payments from customers are registered as quickly as possible. This helps make sure that the actual status of the customers is reflected in [!INCLUDE[prod_short](includes/prod_short.md)] so that sales people, accountants, and other employees have access to relevant and up-to-date information. This way, they avoid unnecessary calls to the customer regarding overdue invoices or delay in shipments.  
 
@@ -161,21 +161,21 @@ Fields on the **Transfer** FastTab on the **Bank Account Card** page are related
 > [!NOTE]  
 > Different file export services and their formats require different setup values on the **Bank Account Card** page. You will be informed about wrong or missing setup values as you try to export the file. So read the short descriptions of the fields carefully or refer to the related procedure topics. For example, exporting a payment file for North American electronic funds transfer (EFT) requires that both the **Last Remittance Advice No.** field and the **Transit No.** field are filled in. For more information, see [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-The different fields in the Transit FastTab on the bank account serves different purposes whether the payment is inbound or outbound.
+The fields on the **Transit** FastTab on the bank account serve different purposes, depending on whether the payment is inbound or outbound.
 
 The illustration shows the route of inbound payments:
 
 :::row:::
     :::column:::
-        1. The transactions are exported from the bank account in either a readable csv format or the banks own format
+        1. The transactions are exported from the bank account in either a human-readable .csv format or the bank's own format.
         <br><br>
-2. The **Data Exchange definition** is used to map the information in the file into the fields of [!INCLUDE[prod_short](includes/prod_short.md)]. See more in [Set Up Data Exchange](across-set-up-data-exchange.md)
+2. The *data exchange definition* maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md)
 <br><br>
-3. The **Data Export/Import Setup** defines the export or import and links to the Data Exchange.
+3. The *data export/import setup* defines the export or import, and it links to the data exchange definition.
 <br><br>
-4. The **Bank Statements Import Format** links the import setup to the bank account
+4. The *bank statements import format* links the import setup to the bank account.
 <br><br>
-5. The payments are imported into the **Payment Reconciliation Journal** or the **Bank Reconciliation**.
+5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Reconciliation** page.
     :::column-end:::
     :::column:::
         ![Illustration of payments in and out of bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
@@ -183,7 +183,7 @@ The illustration shows the route of inbound payments:
 :::row-end:::
 
 <br><br>
-Where the incoming payments always are imported to the Payment Reconciliation Journal or directly into the Bank Reconciliation, The outgoing payments originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the selected **Payment Journal Batch** must be set to true.
+Incoming payments are always imported through the **Payment Reconciliation Journal** or directly in the **Bank Reconciliation** page. In contrast, outgoing payments can originate from any payment journal. The only prerequisite is that the **Allow Payment Export** field in the relevant payment journal batch must be selected.
  
 The illustration shows the route of outbound payments:
 
@@ -191,11 +191,11 @@ The illustration shows the route of outbound payments:
     :::column:::
         6. The transactions populated in a payment journal that has been prepared for exposting payments to file.
         <br><br>
-        7. The **Bank Statements Import Format** links the import setup to the bank account
+        7. The *bank statements import format** links the import setup to the bank account
         <br><br>
-        8. The **Data Export/Import Setup** defines the export or import and links to the Data Exchange.
+        8. The *data export/import setup* defines the export or import and links to the data exchange definition.
         <br><br>
-        9. The **Data Exchange definition** is used to map the information in the file into the fields of [!INCLUDE[prod_short](includes/prod_short.md)]. See more in [Set Up Data Exchange](across-set-up-data-exchange.md)
+        9. The *data exchange definition* maps the information in the file to the fields in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Set Up Data Exchange](across-set-up-data-exchange.md)
         <br><br>
         10. The payments are exported from the payment journal and imported into the bank account
     :::column-end:::
@@ -215,7 +215,7 @@ Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are 
 5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!WARNING]
-> Some fields in the Vendor Bank Accounts contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+> Some fields on the vendor bank account contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
 
 ## Changing your bank account
 
@@ -224,7 +224,7 @@ If you want to use a different bank account for your business, you must create t
 After you create the new bank account, you should also create a new bank posting group and assign it to a new general ledger account. You can reuse an existing bank posting group, and bank transactions will be posted to the same general ledger accounts as the other bank accounts that share the bank posting group. However, we recommend that you create a new bank posting group and general ledger account so that reconciliations are easier to do.
 
 > [!NOTE]
-> Remember that the bank account information on open sales invoices still shows the old bank account, and it is therefore likely that payments will still be posted to that account. It is therefore normal procedure to have both two accounts active for a period of time after the change.
+> Remember that the bank account information on open sales invoices still shows the original bank account. Accordingly, payments are likely to still be posted to that account. We recommend that you have both accounts active for a period of time after the change.
 
 For financial reporting, you can use the **Begin-Total** and **End-Total** accounts in your chart of accounts, **Totaling** rows in account schedules, or G/L account categories to get a more condensed view of your cash accounts, if needed.
 

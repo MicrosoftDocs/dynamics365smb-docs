@@ -20,10 +20,27 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
 When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The code for workflow templates that are added by Microsoft are prefixed with “MS-“, such as in “MS-PIW”. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
-If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by customizing the application code.  
+If your business scenario requires workflow events or responses that are not supported, a Microsoft partner must implement them by creating an extension that implements the desired workflow event.  
 
 > [!NOTE]  
 >  All notifications about workflow steps are sent through a job queue. Make sure that the job queue in your installation is set up to handle workflow notifications, and that the **Start Automatically From NAS** check box is selected. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
+
+![Illustration of a workflow example](media/Workflows/workflow-example.png)
+
+The workflow is devided into three sections:
+1) **When Event**
+    This is where the trigger is selected.
+    Examples of trigger could be:
+    - A master data record is changed
+    - A journal line is created
+    - an Incoming document is created or released
+    - Approval of a document is requested
+    The Events are system defined and new events must be added through development of an extension
+2) **On Condition of**
+    The **conditions** are related to the event and opens for creating filters for when the event is triggered
+3) **Then Response**
+    The **Responses** responds to what the next step(s) in the work are.
+    The responses are system defined and new events must be added through development of an extension
 
 ## To create a workflow  
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
@@ -88,6 +105,43 @@ If your business scenario requires workflow events or responses that are not sup
 
 > [!TIP]  
 >  To see relations between tables that are used in workflows, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter **Workflow – Table Relations**.  
+
+## Example of creating a new workflow using existing events
+
+In the following example a new workflow is made to approve changes to the name of en existing vendor:
+
+ Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1. Choose the **New** action. The **Workflow** page opens.
+1. In the **Code** field, enter **VENDAPN-01**.  
+1. In the **Description** field, enter **Vendor Name Change Approval**.  
+1. In the **Category** field, **PURCH**.  
+1. In the **When Event** field, select **A vendor record is changed**.
+1. In the **On Condition** field, click the **On Always**.
+1. In the  **Condition** part, create a new filter for **Name: <>''**.
+1. Click the **Add a condition for when a field value changes**.
+1. Select the **Name** field and the is **Changed** option
+1. In the **Then Response** field, click the **Select Response** and choose **Revert the value of the **Field** field on the record and save the change.** and select the **Name** field below.
+1. Then click the **Add More Responses** and select **Create an approval request for the record using approver type <%1> and <%2>.**
+1. Change the Approver type to Workflow User Group, click the Workflow User Group field and create a new group consisting of two users
+1. Add a new response **Send approval request for the record and create a notification.**
+1. Add a new response **Show message "%1"** and add **An approval Request has been sent** in the Message field
+1. In the next line select **An approval request is approved.** then click the line menu and click **Increase Indent**
+1. In the **On Condition** field, add dd the filter **Pending Approvals:0** to indicate that this is the last approver
+1. In the **Then Response** field, select **Apply the new values.**
+1.  In the next line select **An approval request is approved.** again
+1. In the **On Condition** field, add dd the filter **Pending Approvals>0** to indicate that this is not the last approver
+1. In the **Then Response** field, select **Send approval request for the record and create a notification.**
+1.  In the next line select **An approval request is rejected.** again
+1. In the **On Condition** field, leave the **Always** value
+1. In the **Then Response** field, select **Discard the new values.**
+1. Click Add More Responses and select **Reject the approval request for the record and create a notification.**
+1. In the next line select **An approval request is rejected.**
+1. In the **On Condition** field, leave the **Always** value
+1. In the **Then Response** field select **Send approval request for the record and create a notification.**
+1. Enable the workflow and test the workflow by opening an existing vendor and change the name. 
+1. Verify that an approval request is made on changing the vendor name
+
+![Illustration of the Vendor Name Approval workflow](media/Workflows/workflow-example-2.png)
 
 ## See Also  
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)   

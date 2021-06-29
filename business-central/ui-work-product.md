@@ -71,9 +71,14 @@ Inside [!INCLUDE [prod_short](includes/prod_short.md)], you do most of your work
 
 But the actions can also look differently, or even not be present, depending on how you open the page. Specifically for list pages, the list page that you open from the home page and the page that renders when you search for it using the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon are not identical.  
 
-When you search for an open a list page, such as the **Sales Orders** list, it is in view mode. The actions for editing, viewing, or deleting an individual entity, such as a sales order, are hidden under the **Manage** menu. If you know that you will use those three actions often, you can pin the action bar. Pinning the action bar makes the actions under the various menus immediately discoverable.  
+When you search for an open a list page, such as the **Sales Orders** list, it is in view mode. The actions for editing, viewing, or deleting an individual entity, such as a sales order, are shown when you choose the **Manage** action.  
 
-But when you open the same list page from your home page, the **Manage** menu is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
+> [!TIP]
+> If you know that you will use actions on this second level of the action bar often, choose the :::image type="icon" source="media/pin.png" border="false"::: icon to pin the action bar and make the actions under the various menus immediately discoverable.
+>
+> To make the second level of the action bar disappear again, choose the :::image type="icon" source="media/unpin.png" border="false"::: icon.
+
+But when you open the same list page from your home page, the **Manage** action is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

@@ -70,7 +70,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     The **Permissions** part lists all the database objects that the user has access to. You cannot edit this section.
 
-    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
+    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extent the different access types are permitted.
 
     For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.
 

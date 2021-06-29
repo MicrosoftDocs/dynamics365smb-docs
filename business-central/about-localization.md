@@ -47,6 +47,7 @@ To learn about the local functionality for each country/region, choose the relat
 |        | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacific |       |  |
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
+|        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### Other Countries

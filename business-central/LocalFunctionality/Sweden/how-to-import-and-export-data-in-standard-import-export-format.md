@@ -1,6 +1,6 @@
 ---
-    title: How to Import and Export Data in Standard Import Export Format
-    description: You can import and export general ledger data according to the standard import export (SIE) format.
+    title: How to Import and Export Data in SIEE [SE]
+    description: You can import and export general ledger data according to the standard import export (SIE) format explained in this topic.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
-# Import and Export Data in Standard Import Export Format
+# Import and Export Data in Standard Import Export Format in the Swedish Version
 You can import and export general ledger data according to the standard import export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## To import data in SIE format  

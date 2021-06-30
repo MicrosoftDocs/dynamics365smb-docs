@@ -6,13 +6,13 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# Accounting Output Documents
+# Accounting Output Documents in the Czech Version
 
 In order to comply with the legislation, reporting features, and local reporting practices of Czech companies, this feature provides the following reports:
 

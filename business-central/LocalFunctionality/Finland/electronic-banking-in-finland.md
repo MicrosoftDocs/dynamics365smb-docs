@@ -1,16 +1,14 @@
 ---
     title: Electronic Banking in Finland
-    description: The Business Central electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.
+    description: The Business Central electronic banking feature allows you to process electronic customer and vendor payments.
+    author: edupont04
 
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

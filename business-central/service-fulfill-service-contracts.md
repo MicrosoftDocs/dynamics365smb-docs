@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Fulfill Service Contracts | Microsoft Docs
-description: Outlines tasks to manage service contracts with customers.
+title: Overview of Tasks to Fulfill Service Contracts
+description: Outlines tasks involved in fulfilling service contracts with your customers like setting up standard contractual agreements with customizable templates and more.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
 
 ---

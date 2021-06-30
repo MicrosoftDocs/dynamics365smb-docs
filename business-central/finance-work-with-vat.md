@@ -1,6 +1,6 @@
 ---
-    title: How to work With VAT on Sales and Purchases | Microsoft Docs
-    description: This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
+    title: How to work With VAT on Sales and Purchases
+    description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: VAT, sales, purchases,
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: bholtorf
 
 ---

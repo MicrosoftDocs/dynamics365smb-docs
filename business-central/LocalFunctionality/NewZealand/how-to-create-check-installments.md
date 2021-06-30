@@ -1,5 +1,5 @@
 ---
-    title: Create Check Installments in the New Zealand version
+    title: Create Check Installments [NZ]
     description: Describes how to create check installments for post-dated checks in the New Zealand version.
     author: bholtorf
     ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: bholtorf
 
 ---

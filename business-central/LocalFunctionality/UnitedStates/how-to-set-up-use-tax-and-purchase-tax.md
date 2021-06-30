@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Use Tax and Purchase Tax [US]
-    description: Sales tax includes taxes that companies pay for using items in the US version
+    description: This topic explains how sales tax includes taxes that companies pay for using items in the US version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---
-# Set Up Use Tax and Purchase Tax in the US version
+# Set Up Use Tax and Purchase Tax in the US Version
 
 [!INCLUDE [use-tax-purchase-tax-setup](../includes/CAMXUS/use-tax-purchase-tax-setup.md)]
 

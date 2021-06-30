@@ -1,6 +1,6 @@
 ---
-    title: How to Issue Delivery Reminders in the Swiss Version
-    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.
+    title: How to Issue Delivery Reminders [CH]
+    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

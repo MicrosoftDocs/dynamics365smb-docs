@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Electronic Banking
+    title: How to Set Up Electronic Banking [BE]
     description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
 
     author: SorenGP
@@ -14,7 +14,7 @@
     ms.author: edupont
 
 ---
-# Set Up Electronic Banking
+# Set Up Electronic Banking in the Belgian Version
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers. Before you can use electronic banking, you must set up the following information:  
 
 - Electronic banking setup.  

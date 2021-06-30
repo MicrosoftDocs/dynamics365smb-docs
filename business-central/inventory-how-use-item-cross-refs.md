@@ -1,6 +1,6 @@
 ---
 title: Use Item Cross-References
-description: Set up references between the descriptions that you and your vendor use for an item so you can insert the vendor's item description on purchase documents.
+description: Set up cross-references between the descriptions that you and your vendor use for an item to insert the vendor's item description on purchase documents.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

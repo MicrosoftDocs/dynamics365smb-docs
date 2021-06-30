@@ -1,6 +1,6 @@
 ---
-title: Entering dates and times in Business Central  | Microsoft Docs
-description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges. Filter lists or reports down to specific date or time periods.
+title: Entering dates and times in Business Central
+description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 ---
 

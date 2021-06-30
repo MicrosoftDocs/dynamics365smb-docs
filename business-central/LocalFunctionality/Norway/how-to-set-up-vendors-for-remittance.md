@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Vendors for Remittance
-    description: Norwegian enhancements include automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.
+    title: How to Set Up Vendors for Remittance [NO]
+    description: Norwegian enhancements include automatically making payments to vendors to reduce errors that occur from manual data entry.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Set Up Vendors for Remittance
+# Set Up Vendors for Remittance in the Norwegian Version
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
 
 ## To set up a vendor for remittance  

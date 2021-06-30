@@ -1,6 +1,6 @@
 ---
     title: Dutch Post Codes
-    description: In the Netherlands, you can subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
+    description: Subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
     author: edupont04
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

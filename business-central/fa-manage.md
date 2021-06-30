@@ -1,6 +1,6 @@
 ---
-title: Manage Fixed Assets| Microsoft Docs
-description: Learn about the fixed assets functionality and get an overview of how to work with fixed assets.
+title: Manage Fixed Assets
+description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
-# Fixed Assets
+# Managing Fixed Assets
 The Fixed Assets functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides an overview of your fixed assets and ensures correct periodic depreciation. It also enables you to keep track of your maintenance costs, manage insurance policies, post fixed asset transactions, and generate various reports and statistics.
 
 For each fixed asset, you must set up a card containing information about the asset. You can set up buildings or production equipment as a main asset with a component list, and you can group them in various ways, such as by class, department, or location. Then you can begin to acquire, maintain, and sell the fixed assets. You can also set up budgeted assets. This makes it possible to include any anticipated acquisitions and sales in reports.

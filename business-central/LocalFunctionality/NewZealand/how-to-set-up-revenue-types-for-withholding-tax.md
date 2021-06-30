@@ -1,5 +1,5 @@
 ---
-    title: Set Up Revenue Types for Withholding Tax in the New Zealand version
+    title: Set Up Revenue Types for Withholding Tax [NZ]
     description: Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates in the New Zealand version.
     author: bholtorf
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: bholtorf
 
 ---

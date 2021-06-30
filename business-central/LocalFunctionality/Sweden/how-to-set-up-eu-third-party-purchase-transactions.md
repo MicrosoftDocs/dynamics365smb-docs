@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up EU Third-Party Purchase Transactions
-    description: European Union (EU) third-party trade occurs when you receive a purchase invoice from a customer in one EU country/region and the products are sent to a different EU country/region without entering Sweden.
+    title: EU Third-Party Purchase Transactions [SE]
+    description: The following topic explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Set Up EU Third-Party Purchase Transactions
+# Set Up EU Third-Party Purchase Transactions in the Swedish Version
 European Union (EU) third-party trade occurs when you receive a purchase invoice from a customer in one EU country/region and the products are sent to a different EU country/region without entering Sweden. The transaction amount must be identified and reported separately to comply with Swedish VAT reporting and VAT Information Exchange System (VIES) requirements. [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swedish enhancements that allow purchase transactions to be set up as EU third-party trade. Posted EU third-party transactions can then be filtered in VAT statements and excluded from the amount in the **Sales to Customer** column in the **VAT- VIES Declaration Tax Auth** report.  
 
 ## To set up EU third-party purchase transactions  

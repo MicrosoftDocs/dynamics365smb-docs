@@ -1,6 +1,6 @@
 ---
-title: Display Custom Power BI Reports for Business Central data
-description: You can use Power BI reports to gain extra insight into data in lists.
+title: Display Custom Power BI Reports
+description: You can use Power BI FactBox to display Power BI reports and gain extra insight into records data in key lists.
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
 ---
 # Creating Power BI Reports for Displaying List Data in [!INCLUDE[prod_short](includes/prod_short.md)]

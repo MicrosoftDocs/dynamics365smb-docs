@@ -1,6 +1,6 @@
 ---
-    title: How to Prepare a Configuration Package | Microsoft Docs
-    description: Learn now to configure a RapidStart configuration package that can help set up new companies based on existing data.
+    title: How to Prepare a Configuration Package
+    description: Learn now to prepare a RapidStart configuration package that can help you set up new companies based on existing data.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 ---

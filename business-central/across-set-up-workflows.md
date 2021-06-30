@@ -1,6 +1,6 @@
 ---
     title: Set Up Workflows
-    description: You can set up and use workflows that connect business-process tasks performed by different users. Learn about the different steps you must take.
+    description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/11/2021
     ms.author: edupont
 
 ---

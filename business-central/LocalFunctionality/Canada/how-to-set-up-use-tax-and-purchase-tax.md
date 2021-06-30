@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Use Tax and Purchase Tax [CA]
-    description: Sales tax includes taxes that companies pay for using items in the Canadian version.
+    description: Sales and purchase tax includes taxes that companies pay for using items in the Canadian version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---

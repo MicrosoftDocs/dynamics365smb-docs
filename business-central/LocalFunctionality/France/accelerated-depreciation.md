@@ -1,7 +1,6 @@
 ---
-    title: Accelerated Depreciation
-    description: Accelerated depreciation is calculated based on the differences between the accounting depreciation book and the tax depreciation book fixed asset, during the life of the fixed asset.
-
+    title: Accelerated Depreciation [FR]
+    description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria.
     services: project-madeira 
     documentationcenter: ''
     author: SorenGP
@@ -12,11 +11,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Accelerated Depreciation
+# Accelerated Depreciation in the Finnish Version
 Accelerated depreciation is calculated based on the differences between the accounting depreciation book and the tax depreciation book fixed asset, during the life of the fixed asset.  
 
 Fixed assets that have higher tax depreciation and lower accounting depreciation are depreciated using the accelerated depreciation method, as allowed by the tax authorities.  

@@ -1,6 +1,6 @@
 ---
-    title: Handle Inventory and Manufacturing Costs | Microsoft Docs
-    description: Although much of the cost accounting functionality is expressed in underlying processes with no user interaction, such as entry application and automatic cost adjustment, a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
+    title: Handle Inventory and Manufacturing Costs
+    description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

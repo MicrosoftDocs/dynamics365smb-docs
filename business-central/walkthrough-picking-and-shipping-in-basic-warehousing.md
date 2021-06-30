@@ -1,6 +1,6 @@
 ---
-    title: Picking and Shipping in Basic Warehouse Configurations
-    description: In Business Central, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    title: Picking and Shipping in Basic Warehouse Config
+    description: In Business Central, the outbound processes for picking and shipping can be performed in the following four ways depending on the warehouse complexity level.
     author: jill-kotel-andersson
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/27/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

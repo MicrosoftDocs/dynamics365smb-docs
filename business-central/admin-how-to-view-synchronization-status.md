@@ -1,6 +1,6 @@
 ---
-    title: View the Status of Synchronization Jobs | Microsoft Docs
-    description: Learn how to view the status after synchronizing coupled records.
+    title: View the Status of Synchronization Jobs
+    description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: sales, crm, integration, sync, synchronize
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 ---

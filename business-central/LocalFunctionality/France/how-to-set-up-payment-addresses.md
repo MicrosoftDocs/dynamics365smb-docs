@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Payment Addresses
-    description: To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.
+    title: How to Set Up Payment Addresses [FR]
+    description: To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Set Up Payment Addresses
+# Set Up Payment Addresses in the French Version
 To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement. The payment address can differ from the default address.  
 
 The following procedure describes how to set up a payment address for a vendor, but the same steps apply to setting up a payment address for a customer.  

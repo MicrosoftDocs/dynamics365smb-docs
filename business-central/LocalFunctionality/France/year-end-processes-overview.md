@@ -1,6 +1,6 @@
 ---
-    title: Year End Processes Overview
-    description: Year end closing in Business Central involves three steps.
+    title: Year End Processes Overview [FR]
+    description: This is an overview of the processes involved in the fiscal year end closing entry in Business Central.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Year End Processes Overview
+# Year End Processes Overview in the French Version
 
 Year end closing in [!INCLUDE[prod_short](../../includes/prod_short.md)] involves three steps:  
 

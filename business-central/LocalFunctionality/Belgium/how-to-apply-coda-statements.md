@@ -1,6 +1,6 @@
 ---
-    title: How to Apply CODA Statements
-    description: After a CODA statement has been imported, the statement lines can be accessed from the Bank Account Card page. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.
+    title: How to Apply CODA Statements [BE]
+    description: After a CODA statement has been imported, the statement lines can be accessed from the Bank Account Card page. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Apply CODA Statements
+# Apply CODA Statements in the Belgian Version
 After a CODA statement has been imported, the statement lines can be accessed from the **Bank Account Card** page. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.  
 
 Statement amounts can be applied to outstanding ledger entries by:  

@@ -1,6 +1,6 @@
 ---
-    title: Electronic Invoicing
-    description: Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
+    title: Electronic Invoicing [MX]
+    description: Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Electronic Invoicing
+# Electronic Invoicing in the Mexican Version
 Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
 
 The CFDI file is an XML file that contains:  

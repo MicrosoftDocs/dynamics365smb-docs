@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Electronic Invoicing
-    description: Before you can send electronic documents, you must set up Business Central to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors.
+    title: How to Set Up Electronic Invoicing [MX]
+    description: Before you can send electronic documents, you must set up Business Central to ensure that the required identification numbers are in place.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Set Up Electronic Invoicing
+# Set Up Electronic Invoicing in the Mexican Version
 
 Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
 

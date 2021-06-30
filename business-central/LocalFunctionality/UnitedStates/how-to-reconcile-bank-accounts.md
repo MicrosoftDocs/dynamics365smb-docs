@@ -1,6 +1,6 @@
 ---
-    title: Reconciling Bank Accounts | Microsoft Docs
-    description: This topic describes how to reconcile bank account ledger entries with bank statements.
+    title: Reconciling Bank Accounts [US]
+    description: This topic describes how to reconcile bank account ledger entries with bank statements in the North American version.
     author: bholtorf
     ms.service: dynamics365-business-central
     ms.topic: conceptual
@@ -8,11 +8,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: bholtorf
 
 ---
-# Reconciling Bank Accounts in the US
+# Reconciling Bank Accounts in the US Version
 
 Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries with bank statements.
 

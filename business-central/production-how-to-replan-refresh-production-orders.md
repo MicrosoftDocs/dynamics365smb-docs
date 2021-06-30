@@ -1,6 +1,6 @@
 ---
-    title: How to Replan or Refresh Production Orders Directly| Microsoft Docs
-    description: The production order lines contain the items that are to be produced in the production order.
+    title: Replan or Refresh Production Orders Directly
+    description: This topic outlines the procedures for how to replan production orders and refresh production orders directly.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -66,7 +66,7 @@ If you have amended production order lines, components, or routing lines, you mu
 3.  Choose the **Refresh** action.
 4. On the **Refresh Production Order** page, select one of the following options:
 
-    |Option|Description|  
+    |Option||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Scheduling Direction**|**Forward**|Scheduling starts from the starting date and proceeds forward to the finishing date. You must fill in the starting date to use this option.|  
     ||**Backward**|Scheduling starts from the ending date and proceeds backward to the starting date.|  

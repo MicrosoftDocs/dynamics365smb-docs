@@ -1,12 +1,12 @@
 ---
-title: Small Regulatory Features and Best Practices in the Czech Version
+title: Small Regulatory Features and Best Practices [CZ]
 description: Learn about built-in support for best practices and small regulatory features in the Czech version of Business Central.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

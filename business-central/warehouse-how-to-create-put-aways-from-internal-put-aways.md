@@ -1,6 +1,6 @@
 ---
     title: Create Put-aways from Internal Put-aways
-    description: After items have been put away and before they are picked to fulfill the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.
+    description: This topic covers how to pick and put away without a source document, both how to create an internal pick, and how to create an internal put-away. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

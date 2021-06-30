@@ -1,6 +1,6 @@
 ---
-    title: How to Edit Document Amounts in Purchase Invoices and Credit Memos
-    description: You can easily edit document amounts in purchase invoices and credit memos.
+    title: Edit Doc Amounts Purch Invoices Credit Memos
+    description: You can easily edit document amounts in purchase invoices and credit memos with the Dutch version of Business Central.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
-# Edit Document Amounts in Purchase Invoices and Credit Memos
+# Edit Document Amounts in Purchase Invoices and Credit Memos in the Dutch Version
 [!INCLUDE[prod_short](../../includes/prod_short.md)] lets you easily edit document amounts in purchase invoices and credit memos.  
 
 ## To edit document amounts  

@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Intrastat Establishment Numbers
+    title: How to Set Up Intrastat Establishment Numbers [BE]
     description: The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.
 
     services: project-madeira 
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Set Up Intrastat Establishment Numbers
+# Set Up Intrastat Establishment Numbers in the Belgian Version
 The Intrastat establishment number is a company identification number that is printed on the Intrastat declaration.  
 
 ## To set up an Intrastat establishment number  

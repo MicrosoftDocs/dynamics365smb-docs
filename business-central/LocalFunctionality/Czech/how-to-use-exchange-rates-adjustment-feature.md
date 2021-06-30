@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Exchange Rates Adjustment Feature (Recalculation of Receivables and Payables)
+# Exchange Rates Adjustment Feature (Recalculation of Receivables and Payables) 
 
 The majority of companies in the Czech Republic request the following improvements to be implemented in Exchange Rates Adjustment:
 

@@ -1,6 +1,6 @@
 ---
-title: Get an Availability Overview| Microsoft Docs
-description: You can get information about the availability of items or stock across locations, per sales or purchase events, by a time period, or by the item's position on an assembly or production BOM.
+title: Get an Availability Overview
+description: You can get information about the availability of items or stock across locations, per sales or purchase events, by time period, and more.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
 # View the Availability of Items
 From the context of a business task, you can get advanced information about when and where an item is available, such as when talking to a customer about a delivery date.
 
-You can view the availability of all items per location, and you can view the availability of each item by event, by period, or by location. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
+You can view the availability of all items per location, and you can view the availability of each item by event or by period as well. An event is any scheduled item transaction, such as a sales shipment or an inbound transfer receipt.
 
 > [!NOTE]  
 >   Availability views by location require that you maintain inventory at more than one location. For more information, see [Set Up Locations](inventory-how-setup-locations.md).

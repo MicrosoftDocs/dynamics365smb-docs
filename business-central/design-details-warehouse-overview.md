@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Warehouse Overview | Microsoft Docs
-    description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.
+    title: Design Details - Warehouse Overview
+    description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

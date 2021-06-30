@@ -1,12 +1,12 @@
 ---
     title: Italian VAT
-    description: Companies must pay VAT to the state for most purchased goods and services. VAT can be deducted if the goods or services purchased by a company are used in the production of its income.
+    description: In the Italian version VAT can be deducted if the goods or services purchased by the company are used in the production of its income.
     author: edupont04
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

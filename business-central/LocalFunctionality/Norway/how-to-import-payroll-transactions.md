@@ -1,6 +1,6 @@
 ---
-title: How to Import Payroll Transactions
-description: You can import payroll transactions into a general journal from two external payroll solutions.
+title: How to Import Payroll Transactions [NO]
+description: You can use Business Central to import payroll transactions into a general journal from two external payroll solutions.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
 
 ---

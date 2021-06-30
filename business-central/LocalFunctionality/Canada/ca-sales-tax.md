@@ -1,6 +1,8 @@
 ---
-title: Reporting Sales Tax in Canada
-description: Learn about how sales tax is set up, and how tax groups, tax areas (provinces, cities, and localities), tax jurisdictions, and tax details work in the Canadian version of Business Central.
+title: Reporting Sales Tax [CA]
+description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 04/27/2021
+ms.date: 06/29/2021
 ms.author: edupont
 
 ---

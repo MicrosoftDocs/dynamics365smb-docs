@@ -1,6 +1,6 @@
 ---
     title: Create Production Orders from Sales Orders
-    description: You can create production orders from sales orders.
+    description: Learn the different ways to create production orders for produced items directly from sales orders.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/28/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---

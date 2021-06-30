@@ -1,6 +1,6 @@
 ---
-    title: How to Import Swiss Bank Clearing Numbers
-    description: Bank clearing numbers are unique numbers used to identify each bank agency or branch in the bank directory. This information is required for electronic payment. The file can be downloaded from the SIX Interbank Clearing website.
+    title: How to Import Swiss Bank Clearing Numbers [CH]
+    description: This topic tells you how to import Swiss Bank Clearing Numbers using the Swiss version of Business Central. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Import Swiss Bank Clearing Numbers
+# Import Swiss Bank Clearing Numbers in the Swiss Version
 Bank clearing numbers are unique numbers used to identify each bank agency or branch in the bank directory. This information is required for electronic payment. The file can be downloaded from the [SIX Interbank Clearing](https://go.microsoft.com/fwlink/?LinkId=145121) website.  
 
 You can import the BC Bank Master file—the official Swiss bank clearing number file—to update the bank clearing number information in the bank directory. When you import the bank clearing number file, the data is imported to the **Bank Directory** table, and the existing data is overwritten. After importing the bank clearing number file, you can define the updated bank branch number for customers and vendors. For more information, see the Customer Bank Account table and the Vendor Bank Account table.  

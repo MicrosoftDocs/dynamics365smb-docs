@@ -1,6 +1,6 @@
 ---
-title: 'Manage Employee Absence| Microsoft Docs'
-description: Describes how to record employees' absence and analyze absence statistics.
+title: Manage Employee Absence
+description: Describes how to record employees' absence and analyze absence statistics using the Absence Registration and Employee Absences pages.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

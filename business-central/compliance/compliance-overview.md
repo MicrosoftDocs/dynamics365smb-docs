@@ -1,6 +1,6 @@
 ---
-    title: Compliance | Microsoft Docs
-    description: This content contains information about compliance in relation to Business Central.
+    title: Compliance Overview 
+    description: Overview of how Business Central functionality is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
     author: sorenfriisalexandersen
     documentationcenter: ''
 
@@ -11,11 +11,11 @@
     ms.workload: na
     ms.search.keywords:
     ms.reviewer: edupont
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: soalex
 
 ---
-# Compliance
+# Compliance Overview
 
 This content contains information about compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

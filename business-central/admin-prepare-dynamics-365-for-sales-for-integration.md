@@ -1,6 +1,6 @@
 ---
-title: Integrating with Dynamics 365 Sales| Microsoft Docs
-description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
+title: Integrating with Dynamics 365 Sales
+description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales to see what is happening on the backend.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
 
 ---

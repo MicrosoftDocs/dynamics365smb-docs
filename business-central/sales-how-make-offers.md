@@ -1,6 +1,6 @@
 ---
 title: Make a Sales Offer to a Customer
-description: Describes how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
+description: Read about how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer to sell products under certain terms.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Count, Adjust, and Reclassify Inventory| Microsoft Docs
-description: Describes how to perform physical counting, make negative or positive adjustments, and how to change information, such as location or lot number, on item ledger entries or warehouse entries.
+title: Count, Adjust, and Reclassify Inventory
+description: Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger or warehouse entries.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

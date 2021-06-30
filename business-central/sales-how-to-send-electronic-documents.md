@@ -1,6 +1,6 @@
 ---
     title: Send Electronic Documents
-    description: learn how to send invoices electronically.
+    description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

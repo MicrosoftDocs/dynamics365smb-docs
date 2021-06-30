@@ -1,6 +1,6 @@
 ---
-    title: Service Price Management | Microsoft Docs
-    description: This topic describes how to apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
+    title: Service Price Management
+    description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: bholtorf
 
 ---

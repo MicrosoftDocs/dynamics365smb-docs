@@ -1,6 +1,6 @@
 ---
-    title: Add Attachments, Links, and Notes on Records| Microsoft Docs
-    description: Attach a hyperlink to a document or website to a specific record, such as a customer or document.
+    title: Add Attachments, Links, and Notes on Records
+    description: Attach a hyperlink to a document, or a website to a specific record, such as a customer or document.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 ---
 # Manage Attachments, Links, and Notes on Cards and Documents

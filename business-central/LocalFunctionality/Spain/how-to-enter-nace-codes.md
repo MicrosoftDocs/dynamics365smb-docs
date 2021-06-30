@@ -1,6 +1,6 @@
 ---
-    title: How to Enter NACE Codes
-    description: Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes represent the statistical classification of economic activities within the European Union (EU).
+    title: How to Enter NACE Codes [ES]
+    description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Enter NACE Codes
+# Enter NACE Codes in the Spanish Version
 Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes represent the statistical classification of economic activities within the European Union (EU).  
 
 A NACE code serves as a basis to compile statistics for many things, including:  

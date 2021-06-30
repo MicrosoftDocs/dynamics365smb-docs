@@ -1,6 +1,6 @@
 ---
-    title: How to Enter Australian Business Numbers
-    description: You can enter an Australian Business Number (ABN) in certain pages.
+    title: How to Enter Australian Business Numbers in the Australian version
+    description: You can enter an Australian Business Number (ABN) in both the Company Information and the Vendor Card pages.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---
-# Enter Australian Business Numbers
+# Enter Australian Business Numbers in the Australian version
 
 You can enter an Australian Business Number (ABN) in the following pages:  
 

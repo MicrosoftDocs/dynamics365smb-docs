@@ -1,6 +1,6 @@
 ---
-title: Analyze Data by Dimensions| Microsoft Docs
-description: Describes how to analyze various business data by dimensions.
+title: Analyze Data by Dimensions
+description: This topic describes how to analyze various business data by dimensions. Dimensions give you greater insight into your business so you can evaluate information.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---

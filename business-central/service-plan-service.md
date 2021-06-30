@@ -1,6 +1,6 @@
 ---
-title: Planning Service Processes | Microsoft Docs
-description: Outlines tasks to set up rules and values to define your service policies and processes.
+title: Planning Service Processes
+description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
 
 ---

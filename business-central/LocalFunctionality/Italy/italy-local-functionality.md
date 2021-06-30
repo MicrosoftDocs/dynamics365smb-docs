@@ -1,6 +1,6 @@
 ---
     title: Italy Local Functionality
-    description: The following topics describe the local functionality in the Italian version of Business Central.
+    description: The following outlined topics describe the local functionality in the Italian version of Business Central.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

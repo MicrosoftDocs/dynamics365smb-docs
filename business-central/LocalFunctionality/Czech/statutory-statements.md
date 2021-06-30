@@ -1,5 +1,5 @@
 ---
-title: Czech Local Functionality - Statutory Statements
+title: Czech Local Functionality - Statutory Statements [CZ]
 description: This feature provides the reports - Balance Sheet, Income Statement.
 author: v-makune
 
@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# Statutory Statements
+# Statutory Statements in the Czech Version
 
 Companies must create financial statements according to the Accounting Law 563/1991. They must create the balance sheet and the profit and loss statement.
 This feature provides the following reports:

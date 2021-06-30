@@ -1,18 +1,18 @@
 ---
-title: Czech Local Functionality - Setup VAT date
+title: Czech Local Functionality - Setup VAT Date
 description: This section describes Czech local functionality - VAT Date and Setup of the VAT Date Feature.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# VAT Date
+# VAT Date in the Czech Version
 
 The VAT date is important for tax documents according to §28 of VAT Law 235/2004. The VAT date can be different from the posting date or the document date. The VAT date is an important field for the VAT reporting.  
 

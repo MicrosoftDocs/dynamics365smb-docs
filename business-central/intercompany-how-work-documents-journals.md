@@ -1,6 +1,6 @@
 ---
-title: Post Intercompany Documents and Journals| Microsoft Docs
-description: Use intercompany documents to post transactions with your intercompany partners.
+title: Post Intercompany Documents and Journals
+description: This topic explains how you use intercompany documents or journals to post transactions with your intercompany partners.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

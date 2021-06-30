@@ -1,6 +1,6 @@
 ---
-title: How to Enter Data in Business Central| Microsoft Docs
-description: Learn about general features that help you enter data in fields.
+title: How to Enter Data in Business Central
+description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 ---
 

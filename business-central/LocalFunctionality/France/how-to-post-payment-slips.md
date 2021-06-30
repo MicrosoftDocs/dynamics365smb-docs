@@ -1,6 +1,6 @@
 ---
-    title: How to Post Payment Slips
-    description: You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's Action Type is set to Ledger.
+    title: How to Post Payment Slips [FR]
+    description: You must post payment slips to complete a payment transaction and to create the related financial data. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Post Payment Slips
+# Post Payment Slips in the French Version
 You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**.  
 
 Before you post a payment slip, you must create the payment slip. For more information, see [Create Payment Slips](how-to-create-payment-slips.md).  

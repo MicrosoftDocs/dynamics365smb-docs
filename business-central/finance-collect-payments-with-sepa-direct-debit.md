@@ -1,6 +1,6 @@
 ---
-    title: SEPA Direct Debit in Business Central | Microsoft Docs
-    description: You can collect payments directly from the customer's bank account according to the SEPA format.
+    title: SEPA Direct Debit in Business Central
+    description: With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

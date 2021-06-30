@@ -1,16 +1,16 @@
 ---
-title: How to Create Report 347
-description: All companies in Spain must provide an annual declaration, Report 347, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
+title: How to Create Report 347 [ES]
+description: Read about how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
 
 ---
-# Create Report 347
+# Create Report 347 in the Spanish Version
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  
 
 The Report 347 declaration is generated in a format that is approved by the tax authorities for upload to their Virtual Office website or submission on CD-ROM.  

@@ -43,6 +43,9 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
     On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
 
+> [!NOTE]
+> Known limitation: If you set Use Force No. of Days= Yes and Force No. of Days is set to a value that result in Posting Date - (minus) Number of Days = a date in the previous calendar year, the system will not let you post the depreciation. You can avoid it by reducing the Force No. of Days to no more than than the calculated days until posting date using 30days/month OR set the flag "Fiscal Year 365 Days" in the Depreciation Book. We recommend the first option as you may not want to change the use of 30days/months for depreciation. For more information, see [Fiscal Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 ## To post depreciation manually from the fixed asset G/L journal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
 2. Create an initial journal line and fill in the fields as necessary.  

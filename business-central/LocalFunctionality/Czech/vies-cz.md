@@ -6,13 +6,13 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, VIES, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# VIES
+# VIES in the Czech Version
 
 The VIES report is used for sales declaration to tax authorities in EU (European Union) countries. According to §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the tax authorities electronically.
 The VIES functionality allows you to:

@@ -1,6 +1,6 @@
 ---
-title: Depreciate or Amortize FA| Microsoft Docs
-description: You must define how you will write-down, depreciate, or amortize each of your fixed assets.
+title: Depreciate or Amortize FA
+description: You must define how you will write-down, depreciate, or amortize each of your fixed assets, such as machinery and equipment, over their depreciable life.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---

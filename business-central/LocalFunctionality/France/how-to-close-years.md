@@ -1,6 +1,6 @@
 ---
-    title: How to Close Years
-    description: When a fiscal year is over, you must close the periods that it comprises.
+    title: How to Close Years [FR]
+    description: When a fiscal year is over, close the periods that it comprises using the Accounting Periods feature.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Close Years
+# Close Years in the French Version
 When a fiscal year is over, you must close the periods that it comprises.  
 
 ## To close a year  

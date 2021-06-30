@@ -1,6 +1,6 @@
 ---
-    title: How to Split Warehouse Activity Lines | Microsoft Docs
-    description: In warehouse put-aways, movements, or picks, and in inventory put-aways and inventory picks, bins are suggested for the picking or putting away of items. The actual quantity in the bin suggested may not be sufficient, or there is not enough room in the suggested bin to put away the required quantity. In these cases, you need to split the line, so that the items for one line are either taken from or placed into more than one bin.
+    title: How to Split Warehouse Activity Lines
+    description: Read how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

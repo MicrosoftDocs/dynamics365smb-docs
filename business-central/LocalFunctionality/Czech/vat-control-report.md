@@ -1,5 +1,5 @@
 ---
-title: VAT Control Report
+title: VAT Control Report [CZ]
 description: Czech companies registered for VAT in the Czech Republic (with assigned CZ VAT ID number) have the obligation to submit the VAT Control Report.
 author: v-pejano
 
@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# VAT Control Report
+# VAT Control Report in the Czech Version
 
 The [!INCLUDE[prod_short](../../includes/prod_short.md)] functionality has been extended with the VAT Control Report feature. The basic page is the **VAT Control Report Card** page. VAT items are loaded by the VAT date or posting date (according to the general ledger setup) into the page for the selected period. The basic setup, i.e. distribution of combinations of VAT posting groups into the individual sections of control report, is determined by the VAT statement.
 

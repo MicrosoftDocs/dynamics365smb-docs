@@ -1,12 +1,12 @@
 ---
 title: Australian Tax overview
-description: Tax functionality in Australia is described in several topics.
+description: This topic is an overview of articles that cover how to set up and use the tax functionality in Australia.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
 
 ---

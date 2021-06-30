@@ -1,17 +1,17 @@
 ---
-title: Advanced Localization Pack for Czech (Extension) 
+title: Advanced Localization Pack for Czech (Extension) [CZ]
 description: This section describes Advanced Localization Application Pack for Czech extension functionality.
 author: v-pejano
 
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Advanced Localization Pack for Czech (Extension)
+# Advanced Localization Pack for Czech (Extension) in the Czech Version
 
 This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] that help companies meet the requirements of Czech accounting and tax legislation and best practices.
 

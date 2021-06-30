@@ -1,6 +1,6 @@
 ---
 title: France Local Functionality
-description: The following topics describe the local functionality in the French version of Business Central.
+description: The following topics describe the various local functionality in the French version of Business Central.
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: soalex
 ---
 

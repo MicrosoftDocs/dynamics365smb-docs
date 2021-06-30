@@ -1,6 +1,6 @@
 ---
-    title: Pick Items | Microsoft Docs
-    description: The warehouse activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured. The setup complexity can rank from no warehouse features, through basic warehouse configurations for order-by-order handling in one or more activities only, to advanced configurations where all warehouse activities must be performed in a directed workflow.
+    title: Pick Items
+    description: The activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

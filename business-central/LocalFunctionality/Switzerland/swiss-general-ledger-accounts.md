@@ -1,6 +1,6 @@
 ---
-    title: Swiss General Ledger Accounts
-    description: Swiss enhancements include special general ledger account features.
+    title: Swiss General Ledger Accounts [CH]
+    description: This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---

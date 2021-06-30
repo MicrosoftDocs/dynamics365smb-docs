@@ -1,6 +1,6 @@
 ---
-title: How to Post Multiple Documents at the Same Time | Microsoft Docs
-description: Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for batch posting, either for immediate posting or scheduled to, for example, the end of the day.
+title: Post Multiple Documents at the Same Time
+description: Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate or scheduled batch posting.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-    title: How to Print General Ledger Setup Information
-    description: Before you use Business Central in the daily business, you can run the G/L Setup Information report to display the master data that you have set up.
+    title: Print General Ledger Setup Information [CH]
+    description: Before you use Business Central in your daily business, you can run the G/L Setup Information report to display the master data that you have set up.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Print General Ledger Setup Information
+# Print General Ledger Setup Information in the Swiss Version
 Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily business, you can run the **G/L Setup Information** report to display the master data that you have set up. You can look over this master data so that you have a baseline to compare to, and then verify that you have set up posting groups correctly, for example.  
 
 ## To print general ledger setup information  

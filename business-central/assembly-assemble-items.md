@@ -1,6 +1,6 @@
 ---
-    title: Assembly Management | Microsoft Docs
-    description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality but with features to assemble items that integrate with existing features, such as sales, planning, reservations, and warehousing.
+    title: Assembly Management
+    description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

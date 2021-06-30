@@ -1,6 +1,6 @@
 ---
     title: How to Block Purchases from to Vendors
-    description: You can block vendors from being included in any transactions, or just block new payments to them.
+    description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
 
     author: bholtorf
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: bholtorf
 
 ---

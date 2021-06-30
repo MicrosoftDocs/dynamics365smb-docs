@@ -1,6 +1,6 @@
 ---
-    title: Exchange Data | Microsoft Docs
-    description: You can exchange data between Business Central and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.
+    title: Exchanging Data
+    description: Exchange electronic business documents, for example bank files, between Business Central and external parties. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+    ms.date: 06/10/2021
     ms.author: edupont
 
 ---

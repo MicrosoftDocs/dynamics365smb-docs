@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Making Cash Flow Forecasts by Using Account Schedules
-    description: Learn how you can use account schedules to make cash flow forecasts.
+    title: Cash Flow Forecasts by Using Account Schedules
+    description: This walkthrough describes how you can use account schedules to make cash flow forecasts in Business Central. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
-description: Describes how to close the accounting periods that make up the fiscal year.
+title: Close Accounting Periods for a Fiscal Year
+description: This article describes how to close the accounting periods that make up the fiscal year for year end closing.
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
 
 ---

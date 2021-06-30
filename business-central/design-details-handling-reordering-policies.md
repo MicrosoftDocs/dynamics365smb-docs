@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Handling Reordering Policies | Microsoft Docs
-    description: Overview of tasks for defining a reorder policy in supply planning.
+    title: Design Details - Handling Reordering Policies
+    description: This article gives an overview of tasks involved in handling reordering policies and defining the reorder policy in supply planning.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

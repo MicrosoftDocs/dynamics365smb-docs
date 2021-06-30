@@ -1,6 +1,6 @@
 ---
-title: How Do I Videos on Using Business Central | Microsoft Docs
-description: Provides access to getting-started videos that illustrate how to do common tasks.
+title: Visit our video library
+description: Visit our video library for assistance from getting-started videos that illustrate common "how to" tasks to subject matter product videos. 
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: bholtorf
 
 ---

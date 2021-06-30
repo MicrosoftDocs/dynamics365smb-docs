@@ -1,6 +1,6 @@
 ---
     title: Electronic Accounting Regulations in Mexico
-    description: Learn how Business Central helps you comply with electronic accounting requirements in Mexico.
+    description: In this topic you learn how Business Central helps you comply with electronic accounting requirements in Mexico.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: bholtorf
 
 ---

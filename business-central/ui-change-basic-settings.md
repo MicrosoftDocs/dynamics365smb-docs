@@ -1,6 +1,6 @@
 ---
 title: Change basic settings for the current user
-description: Learn how to change some basic settings, for example, your Role Center, company, or work date.
+description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

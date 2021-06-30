@@ -1,6 +1,6 @@
 ---
-    title: How to Print VAT Reports | Microsoft Docs
-    description: Learn about the reports that you can use to report VAT information.
+    title: How to Print VAT Reports [GB]
+    description: This topic explains the different reports that you can use to report VAT information and how to print each one.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Print VAT Reports
+# Print VAT Reports in the British Version
 You can use the following reports for VAT reporting:  
 
 -   **Day Book VAT Entry** – Displays the daily total for VAT entries for a specific period.  

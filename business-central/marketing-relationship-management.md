@@ -1,6 +1,6 @@
 ---
-title: Relationship Management| Microsoft Docs
-description: The relationship management features in Business Central support your sales efforts and let you access information about contacts and prospects so you can serve customers efficiently.
+title: Relationship Management
+description: The relationship management features support your sales efforts and let you access information about contacts and prospects to serve customers efficiently.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---

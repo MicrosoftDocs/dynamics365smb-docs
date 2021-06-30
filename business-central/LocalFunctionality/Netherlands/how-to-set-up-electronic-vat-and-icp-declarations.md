@@ -1,6 +1,6 @@
 ---
-    title: Set Up Electronic VAT and ICP Declarations
-    description: To get your Digipoort communications to work, you may have to adjust your network settings. Digipoort uses a secure communication protocol and requires using TCP port 443.
+    title: Electronic VAT and ICP Declarations [NL]
+    description: The following topic describes how to Set Up Electronic VAT and ICP Declarations in the Dutch Version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Setting Up Electronic VAT and ICP Declarations
+# Setting Up Electronic VAT and ICP Declarations in the Dutch Version
 To create electronic VAT and ICP declarations and communicate with the tax authorities, you must first set up general information about electronic tax declarations. Your company must be registered with the tax authorities before you can send electronic declarations.
 
 When electronic declarations are set up, you can begin to declare VAT and ICP to the tax authorities. For more information, see [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).  

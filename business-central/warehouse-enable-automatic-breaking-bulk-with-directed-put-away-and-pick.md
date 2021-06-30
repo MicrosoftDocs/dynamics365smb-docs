@@ -1,6 +1,6 @@
 ---
-    title: Automatic Breaking Bulk with Directed Put-away and Pick | Microsoft Docs
-    description: For locations that use directed put-away and pick, you can break a larger unit of measure into smaller units of measure, when it creates warehouse instructions that fulfill the needs of source documents, production orders, or internal picks and put-aways.
+    title: Breaking Bulk with Directed Put-away and Pick
+    description: Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, putaways, movements, and more.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

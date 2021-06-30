@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Fixed assets Depreciation Holiday | Microsoft Docs
+title: Czech Local Functionality - Fixed assets Depreciation Holiday
 description: This function enables user to discontinue depreciation for selected fixed assets and for specified periods.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Fixed Assets Depreciation Holidays
+# Fixed Assets Depreciation Holidays in the Czech Version
 
 The Fixed Asset Depreciation Holidays feature (according to the Income Tax Act – Law 586/1992 §26 part 8) enables user to discontinue depreciation for selected fixed assets and for specified periods. The system determines the depreciation schedule after the break period ends.
 The list of depreciation methods for which the discontinuing of depreciation has been implemented is as follows:

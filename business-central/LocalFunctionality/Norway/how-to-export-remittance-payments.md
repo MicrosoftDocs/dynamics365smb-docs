@@ -1,6 +1,6 @@
 ---
-    title: How to Export Remittance Payments
-    description: You can use the export remittance payments process to export the payments file to your computer.
+    title: How to Export Remittance Payments [NO]
+    description: This topic explains how you can use the export remittance payments process to export the payments file to your computer.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Export Remittance Payments
+# Export Remittance Payments in the Norwegian Version
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
 
 > [!IMPORTANT]  

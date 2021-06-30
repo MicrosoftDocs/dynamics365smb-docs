@@ -1,6 +1,6 @@
 ---
     title: Walkthrough Conducting a Sales Campaign
-    description: A campaign is any kind of activity that involves several contacts. An important part of setting up a campaign involves selecting the target audience for your campaign. For this purpose, in Business Central, you create a segment, or a group of contacts using filters.
+    description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/25/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

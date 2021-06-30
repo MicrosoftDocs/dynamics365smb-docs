@@ -1,7 +1,6 @@
 ---
-    title: How to Set Up Unrealized Sales Tax and Sales Payment Discounts [MX]
-    description: You can use the General Ledger Setup page to set up unrealized sales tax in the Mexican version. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.
-
+    title: Unrealized Sales Tax & Sales Payment Discounts [MX]
+    description: You can use the General Ledger Setup page to set up unrealized sales tax and Sales Payment Discounts in the Mexican version. 
 
     author: SorenGP
 
@@ -11,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

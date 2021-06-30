@@ -1,6 +1,6 @@
 ---
-title: Consolidate Data from Multiple Companies | Microsoft Docs
-description: Get an summary view of the financial health across your business units.
+title: Consolidate Data from Multiple Companies
+description: This topic explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

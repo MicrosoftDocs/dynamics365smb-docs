@@ -1,6 +1,6 @@
 ---
 title: Create Item Cards for Goods or Services
-description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, components, or raw material, that you sell from your inventory.
+description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

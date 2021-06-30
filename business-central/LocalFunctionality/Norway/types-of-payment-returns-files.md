@@ -1,6 +1,6 @@
 ---
-    title: Types of Payment Returns Files
-    description: Norwegian enhancements include two types of payment return files that can be imported.
+    title: Types of Payment Returns Files [NO]
+    description: Norwegian enhancements include two types of payment return files that can be imported -  receipt returns and settlement returns.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Types of Payment Returns Files
+# Types of Payment Returns Files in the Norwegian Version
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes two types of payment return files that can be imported:  
 
 - Receipt returns  

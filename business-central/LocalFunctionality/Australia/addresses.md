@@ -1,6 +1,6 @@
 ---
     title: Addresses in Australia
-    description: A single postal code can include multiple cities in the same region.
+    description: Use the Post Code feature to improve accuracy for cases in which a single postal code can include multiple cities in the same region.
     ms.custom: en-AU
     author: SorenGP
 
@@ -10,15 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---
-# Addresses in the Australian Version
+# About addresses in the Australian Version
 
-A single postal code can include multiple cities in the same region.  
-
-At the same time, cities with the same name are sometimes located in different states.  
+A single postal code can include multiple cities in the same region. At the same time, cities with the same name are sometimes located in different states.  
 
 For example, Australian postal code 4069 covers the cities of Chapel Hill and Kenmore in the state of Queensland. However, there is also a city named Chapel Hill in the state of South Australia, located in postal code 5153.  
 

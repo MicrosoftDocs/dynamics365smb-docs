@@ -1,6 +1,6 @@
 ---
-    title: Submit Electronic VAT and ICP Declarations
-    description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined in the Elec. Tax Declaration Setup page.
+    title: Submit Electronic VAT & ICP Declarations [NL]
+    description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Submitting Electronic VAT and ICP Declarations
+# Submitting Electronic VAT and ICP Declarations in the Dutch Version
 Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) declarations to the tax authorities.  
 
 VAT declarations must be submitted on a monthly or quarterly basis.

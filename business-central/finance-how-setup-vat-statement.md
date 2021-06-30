@@ -1,6 +1,6 @@
 ---
-title: Set Up a VAT Statement | Microsoft Docs
-description: Set Up a VAT Statement
+title: Set Up a VAT Statement
+description: This topic tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
 
 ---

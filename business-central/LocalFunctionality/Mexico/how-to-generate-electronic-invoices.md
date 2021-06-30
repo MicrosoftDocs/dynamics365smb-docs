@@ -1,6 +1,6 @@
 ---
-    title: How to Generate Electronic Invoices
-    description: In Business Central, after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.
+    title: How to Generate Electronic Invoices [MX]
+    description: In Business Central, after you post a sales invoice you must generate an electronic invoice that will be sent to the customer.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Generate Electronic Invoices
+# Generate Electronic Invoices in the Mexican Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.  
 
 The following procedure describes how to generate electronic invoices for sales invoices, but the same steps also apply to service invoices and credit memos.  

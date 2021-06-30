@@ -1,12 +1,12 @@
 ---
-title: Czech Local Functionality - Fixed Assets | Microsoft Docs
-description: This section describes Czech local functionality - Fixed Assets
+title: Czech Local Functionality - Fixed Assets
+description: This section describes the Czech local functionality namely the Fixed Assets Tax Depreciation feature.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---

@@ -1,6 +1,6 @@
 ---
-    title: How to Modify Planning Suggestions in a Graphical View | Microsoft Docs
-    description: A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the Carry out Action Message function. An alternative to doing this in the planning worksheet is to use a graphical view.
+    title: Modify Planning Suggestions in Graphical View
+    description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

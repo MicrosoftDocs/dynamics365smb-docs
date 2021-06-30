@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Outbound Warehouse Flow | Microsoft Docs
-    description: The outbound flow in the warehouse begins with a request from released source documents to bring the items out of the warehouse location, either to be shipped to an external party or to another company location. From the storage area, warehouse activities are performed at different complexity levels to bring the items out to the shipping docks.
+    title: Design Details - Outbound Warehouse Flow
+    description: This topic talks about the sequence of the outbound warehouse flow from released source documents to ready-to-ship items.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

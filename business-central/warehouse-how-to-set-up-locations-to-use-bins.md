@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Locations to Use Bins | Microsoft Docs
-    description: Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. When you have created your bins, you can define very specifically the contents that you want to place in each bin, or the bin can function as a floating bin without specified contents.
+    title: How to Set Up Locations to Use Bins
+    description: Bins represent the basic warehouse structure and are used to make suggestions about the placement and location of items. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

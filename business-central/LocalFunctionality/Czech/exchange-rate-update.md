@@ -1,12 +1,12 @@
 ---
-title: Czech Local Functionality - Exchange rate update | Microsoft Docs
-description: This section describes local functionality - Exchange rate update
+title: Exchange Rate Update [CZ]
+description: This section describes local functionality for updating exchange rates. Companies can automatically update currency exchange rates using exchange rate service.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

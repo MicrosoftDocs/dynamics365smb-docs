@@ -1,6 +1,6 @@
 ---
-    title: How to Specify When and How to Receive Notifications | Microsoft Docs
-    description: When you set up users in approval workflows, you must specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications about approval workflow steps. Individual users can also change their notification setup by choosing the Change Notification Settings button on any notification.
+    title: Specify When and How to Receive Notifications
+    description: When you set up users in approval workflows, specify in the Notification Setup and Notification Schedule pages how and when each user receives notifications.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/11/2021
     ms.author: edupont
 ---
 # Specify When and How to Receive Notifications

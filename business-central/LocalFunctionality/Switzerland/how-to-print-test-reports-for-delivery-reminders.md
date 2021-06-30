@@ -1,6 +1,6 @@
 ---
-    title: How to Print Test Reports for Delivery Reminders
-    description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
+    title: Print Test Reports for Delivery Reminders [CH]
+    description: After you have created delivery reminders and made needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,12 +12,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/29/2021
     ms.author: edupont
 
 ---
-# Print Test Reports for Delivery Reminders
-After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.  
+# Print Test Reports for Delivery Reminders in the Swiss Version
+After you have created delivery reminders and made any needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.  
 
 A test report is a document that lets you review and modify a delivery reminder before you issue it.  
 

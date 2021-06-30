@@ -1,6 +1,6 @@
 ---
     title: Archive Sales and Purchase Documents
-    description: You can archive sales and purchase orders, quotes, return orders, and blanket orders, and you can use the archived document to recreate the document that it was archived from.
+    description: You can archive sales and purchase orders, quotes, return orders, and blanket orders so that you can use the archived document to recreate the document that it was archived from.
     author: SorenGP
 
     ms.service: dynamics365-business-central

@@ -1,11 +1,11 @@
 ---
 title: Manage storage by deleting documents or compressing data
-description: Learn how you can keep your historical data by compressing ledger entries, or delete it.
+description: Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---

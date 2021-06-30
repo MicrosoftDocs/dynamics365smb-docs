@@ -1,6 +1,6 @@
 ---
     title: Connect to Microsoft Dataverse
-    description: You can integrate other apps with Business Central through Microsoft Dataverse. This article provides tips and tricks for setting up the connections.
+    description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/26/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 

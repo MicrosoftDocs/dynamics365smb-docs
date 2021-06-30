@@ -1,6 +1,6 @@
 ---
-    title: Service Statistics | Microsoft Docs
-    description: Get a quick overview of the contents of service documents such as orders, quotes, invoices, or credit memos, the details on the specific service lines, and the service items.
+    title: Service Statistics
+    description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: bholtorf
 
 ---

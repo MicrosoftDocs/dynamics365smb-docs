@@ -1,6 +1,6 @@
 ---
-title: Local functionality in Business Central
-description: Learn about local availability and regulatory compliance of Business Central for the countries where Microsoft provides the local functionality.
+title: Local functionality and localization strategy
+description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
 
 ---

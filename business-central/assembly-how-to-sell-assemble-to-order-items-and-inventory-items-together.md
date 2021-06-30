@@ -1,6 +1,6 @@
 ---
-    title: Sell Assemble-to-Order Items and Inventory Items Together | Microsoft Docs
-    description: If an assembly item is set up for assemble-to-stock, then the default sales order process assumes that the item is already assembled and can be picked from inventory, if it is available. But if a part (or all) of the quantity is not available, then you have the flexibility to create an assembly order for the remaining quantity on the fly.
+    title: Sell Assemble-to-Order Items and Inventory Items Together
+    description: If a part of an assembly item set up for assemble-to-stock is not available, you have the flexibility to create an assembly order for the remaining quantity.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

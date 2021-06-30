@@ -1,6 +1,6 @@
 ---
-    title: How to Submit VAT Statements
-    description: Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.
+    title: How to Submit VAT Statements [IT]
+    description: VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income. 
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Submit VAT Statements
+# Submit VAT Statements in the Italian Version
 Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.  
 
 You must submit periodic VAT statements to the tax authorities to list transactions that include VAT with amounts over a specific threshold. Before you submit your VAT statement, you should review the VAT statement, and then settle and post the VAT transactions.  

@@ -1,6 +1,6 @@
 ---
-title: About the Data Exchange Framework | Microsoft Docs
-description: The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.
+title: About the Data Exchange Framework
+description: This topic explains how to use the Data Exchange Framework to manage the exchange of data in business documents like invoices with your business partners.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-    title: Gather Customer Setup Values | Microsoft Docs
-    description: You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in Business Central and then provide it to your customer as an Excel (.xlsx) or XML file.
+    title: Gather Customer Setup Values
+    description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

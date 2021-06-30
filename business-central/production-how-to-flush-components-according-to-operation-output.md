@@ -1,6 +1,6 @@
 ---
     title: Flush Components According to Operation Output
-    description: For items that are set up with backward flushing method, the default behavior is to calculate and post component consumption when you change the status of a released production order to Finished.
+    description: This topic describes how to flush components according to operation output as well as other flushing methods involved.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---

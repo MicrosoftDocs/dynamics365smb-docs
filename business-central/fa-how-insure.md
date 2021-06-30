@@ -1,6 +1,6 @@
 ---
-title: Insure Fixed Assets| Microsoft Docs
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+title: Insure Fixed Assets
+description: You can assign one or multiple fixed assets to one insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-    title: Creating Cost Budgets | Microsoft Docs
-    description: This topic provides an overview of where to create and analyze cost budgets.
+    title: Creating Cost Budgets
+    description: This topic provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

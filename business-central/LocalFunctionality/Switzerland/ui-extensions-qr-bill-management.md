@@ -1,6 +1,6 @@
 ---
-title: 'QR-Bill Management | Microsoft Docs'
-description: Set up the QR-Bill Management extension extension and easily generate, send, and import QR-bills.
+title: QR-Bill Management [CH]
+description: This article describes the enhancements for QR-Bill Management extension and how you can use Business Central to easily generate, send, and import your QR-bills.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: soalex
 
 ---
-# QR-Bill Management in [!INCLUDE[prod_short](../../includes/prod_short.md)]
+# QR-Bill Management in the Swiss Version of Business Central
 From July 1st 2020, companies in Switzerland must be able to receive QR-bills. QR-bills are payment slips that follow invoices, and are a country-wide initiative to streamline payment processes. QR-bills replace all existing payment slips and ESR-related functionality. They contain all of the information needed to make payments, and a QR code on the payment slip makes it easy to import the information into [!INCLUDE[prod_short](../../includes/prod_short.md)]. All relevant information is imported and used to generate payments for the vendor who sent the QR-bill, including the payment reference, which automatically gets included in Vendor Ledger Entries and exported in payment files to the bank.
 
 ## Get started with the QR-Bill Management Extension

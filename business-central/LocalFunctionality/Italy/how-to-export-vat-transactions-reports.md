@@ -1,6 +1,6 @@
 ---
-    title: How to Export VAT Transactions Reports
-    description: After you create a report, you can release it, and then export it for the authorities.
+    title: How to Export VAT Transactions Reports [IT]
+    description: The following topic explains how to export VAT Transactions Reports. After you create a report, you can release it, and then export it for the authorities.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Export VAT Transactions Reports
+# Export VAT Transactions Reports in the Italian Version
 After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup page. If it is not, to change the report when you want to correct an error, you will have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md).  
 
 It is only possible to change the lines and fields when the document has the status Open. In the Released status, only the receipt no. is available for change. In the Submitted status, all fields are locked.  

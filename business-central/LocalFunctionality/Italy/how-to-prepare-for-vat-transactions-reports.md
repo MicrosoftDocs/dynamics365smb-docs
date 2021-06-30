@@ -1,6 +1,6 @@
 ---
-    title: How to Prepare for VAT Transactions Reports
-    description: You must submit periodic reports to the tax authorities to list all transactions that include VAT.
+    title: Prepare for VAT Transactions Reports [IT]
+    description: The following topic explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Prepare for VAT Transactions Reports
+# Prepare for VAT Transactions Reports in the Italian Version
 You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.  
 
 ## To set up VAT transaction amounts  

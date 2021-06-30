@@ -1,6 +1,6 @@
 ---
 title: Understanding the General Ledger and COA
-description: Describes the general ledger, the chart of accounts, and account categories.
+description: Describes general ledger, the chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/09/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

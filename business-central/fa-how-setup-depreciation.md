@@ -1,12 +1,12 @@
 ---
 title: Set Up FA Depreciation
-description: You specify in a depreciation book how you want fixed assets to be depreciated or written-down.
+description: There are various methods of depreciation. In Business Central you define an asset's depreciation method on the **Fixed Asset Card** page.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 ---
 

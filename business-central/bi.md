@@ -1,6 +1,6 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Capture and analyze business data, such as sales figures, purchases, operational expenses, employee salaries, and budgets, that can be valuable information for business intelligence or for decision making.
+title: Business Intelligence
+description: Business Central contains a number of features that help you gather, analyze, and share valuable company data for business intelligence and decision making.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---

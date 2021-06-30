@@ -1,6 +1,6 @@
 ---
-    title: How to Create Special Orders | Microsoft Docs
-    description: You can create a special order for a specific catalog item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.
+    title: How to Create Special Orders
+    description: Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

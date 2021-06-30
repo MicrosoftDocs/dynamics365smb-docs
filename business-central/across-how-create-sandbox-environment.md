@@ -1,6 +1,6 @@
 ---
 title: Create a sandbox environment
-description: Create an environment for exploring, learning, demoing, developing, and testing from inside Business Central.
+description: Create a sandbox "test" environment for safely exploring, learning, demoing, developing, troubleshooting and testing from inside Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central

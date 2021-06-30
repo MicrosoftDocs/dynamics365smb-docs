@@ -1,6 +1,6 @@
 ---
-    title: Swiss Inventory Management
-    description: Swiss enhancements include special inventory management features.
+    title: Swiss Inventory Management [CH]
+    description: This article describes Swiss enhancements to special inventory management features in Business Central.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---

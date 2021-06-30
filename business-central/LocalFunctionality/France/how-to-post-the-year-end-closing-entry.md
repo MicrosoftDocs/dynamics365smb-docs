@@ -1,6 +1,6 @@
 ---
-    title: How to Post the Year-End Closing Entry
-    description: After you use the Close Income Statement batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.
+    title: How to Post the Year-End Closing Entry [FR]
+    description: This article tells you how to post the year-end closing entries after you use the Close Income Statement batch job.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

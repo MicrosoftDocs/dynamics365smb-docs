@@ -1,13 +1,13 @@
 ---
-title: Submit Regulatory Alerts | Microsoft Docs
-description: If you know about new legislation that you think requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
+title: Submit Regulatory Alerts
+description: If you know about new legislation that requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
 
 ---

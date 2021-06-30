@@ -1,6 +1,6 @@
 ---
-    title: How to Unapply General Ledger Entries
-    description: You can unapply general ledger entries in a very straightforward way.
+    title: How to Unapply General Ledger Entries [FR]
+    description: This article explains how to unapply general ledger entries in a very straightforward way with the Chart of Accounts feature.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Unapply General Ledger Entries
+# Unapply General Ledger Entries in the French Version
 You can unapply general ledger entries in a very straightforward way.  
 
 ## To unapply general ledger entries  

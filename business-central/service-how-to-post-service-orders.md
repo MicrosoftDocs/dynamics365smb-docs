@@ -1,6 +1,6 @@
 ---
-    title: How to Post Service Orders | Microsoft Docs
-    description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.
+    title: How to Post Service Orders
+    description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

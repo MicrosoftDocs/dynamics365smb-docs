@@ -1,6 +1,6 @@
 ---
-title: Record and Reimburse Employees' Business-Related Expenses
-description: Post employees' expenses with the general journal to the employee's account and later post a payment to the employee's bank account to reimburse for the business-related expense.
+title: Record and Reimburse Employees' Expenses
+description: Post employees' expenses with the general journal to the employee's account  then post a payment to their bank account to reimburse the business-related expense.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

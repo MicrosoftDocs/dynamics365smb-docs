@@ -1,6 +1,6 @@
 ---
 title: Assistive features
-description: Keyboard shortcuts and other assistive features.
+description: This article provides information about keyboard shortcuts and other assistive features in Business Central for people with disabilities.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.date: 04/29/2021
+ms.date: 06/23/2021
 ms.author: jswymer
 
 ---

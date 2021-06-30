@@ -1,12 +1,12 @@
 ---
 title: How to Print Intrastat Reports for Italy
-description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central. Information regarding the receipt and the delivery of goods is included automatically.
+description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
 
 ---

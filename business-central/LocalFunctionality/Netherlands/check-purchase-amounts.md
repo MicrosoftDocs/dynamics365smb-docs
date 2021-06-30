@@ -1,6 +1,6 @@
 ---
-    title: Check Purchase Amounts
-    description: Before posting a purchase invoice or credit memo, application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of the inserted purchase lines.
+    title: Check Purchase Amounts [NL]
+    description: The application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of inserted purchase lines.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Check Purchase Amounts
+# Check Purchase Amounts in the Dutch Version
 Before posting a purchase invoice or credit memo, application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of the inserted purchase lines. To do this, the **Doc. Amount Incl. VAT** and **Doc. Amount VAT** fields must be filled in in the **Purchase Invoice** or **Purchase Credit Memo** page.  
 
  In case there is only one purchase line or in case all lines are subject to the same VAT %, the correct **Doc. Amount VAT Field** will be calculated automatically when you have inserted the purchase lines and the **Doc. Amount Incl. VAT Field**. In case several lines exist with different VAT percentages, the **Doc. Amount VAT Field** must be changed manually.  

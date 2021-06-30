@@ -1,6 +1,6 @@
 ---
-    title: GDPdU Filter Examples
-    description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.
+    title: GDPdU Filter Examples [DE]
+    description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# GDPdU Filter Examples
+# GDPdU Filter Examples in the German Version
 
 The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports. By setting filters appropriately, you can improve performance.  
 

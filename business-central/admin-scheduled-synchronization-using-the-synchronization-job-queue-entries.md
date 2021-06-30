@@ -1,5 +1,5 @@
 ---
-title: Synchronizing Business Central and Dataverse | Microsoft Docs
+title: Synchronizing Business Central and Dataverse
 description: Learn about synchronizing data between Business Central and Dataverse.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
 
 ---

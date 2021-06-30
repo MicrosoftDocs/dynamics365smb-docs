@@ -1,6 +1,6 @@
 ---
-title: Managing Inventory| Microsoft Docs
-description: Describes how to manage the physical products that you trade in, for example, handling the stock in your warehouse.
+title: Managing Inventory
+description: This topic describes how to manage the physical products that you trade in by creating an Inventory item card.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 ---
 
-# Inventory
+# How to Manage Inventory
 For each physical product that you trade in, you must create an item card of type **Inventory**. Items that you offer to customers but do not keep in inventory you can register as catalog items, which you can convert to inventory items when necessary. You can increase or decrease the quantity of an item in inventory by posting directly to the item ledger entries, for example, after a physical count or if you do not record purchases.
 
 Inventory increases and decreases are naturally also recorded when you post purchase and sales documents respectively. For more information, see [Record Purchases](purchasing-how-record-purchases.md), [Sell Products](sales-how-sell-products.md), and [Invoice Sales](sales-how-invoice-sales.md). Transfers between locations changes inventory quantities across your company's warehouses.   

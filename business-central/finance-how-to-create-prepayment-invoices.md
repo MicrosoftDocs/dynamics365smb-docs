@@ -1,6 +1,6 @@
 ---
-    title: How to Create Prepayment Invoices | Microsoft Docs
-    description: Learn how to handle situations where you require prepayment, or your vendor does.
+    title: How to Create Prepayment Invoices
+    description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
     author: edupont04
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

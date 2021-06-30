@@ -1,17 +1,17 @@
 ---
-    title: Registration of Sales (EET)
-    description: The entrepreneur who realizes sales to be registered has the obligation to register sales. A sale to be registered is a payment in cash, by card, or by similar means, which entails a business income and which is not exempt from registration.
+    title: Registration of Sales (EET) [CZ]
+    description: Registration of sales (EET) is registration of sales coming from business activities and paid in cash.
     author: v-pejano
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.search.keywords: CZ, Czech, local, VAT, Control Report
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.reviewer: v-pejano
     ms.author: v-pejano
 ---
 
-# Registration of Sales (EET)
+# Registration of Sales (EET) in the Czech Version
 
 Registration of sales (EET) is registration of sales coming from business activities and paid in cash. Information about these transactions are sent to the tax authorities. At the time of payment is created data message and sent online to the server of Tax office. As answer from the server is message with unique transaction ID, which has to be printed on the receipt for customer.
 

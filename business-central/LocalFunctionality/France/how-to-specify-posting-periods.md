@@ -1,5 +1,5 @@
 ---
-    title: How to Specify Posting Periods
+    title: How to Specify Posting Periods [FR]
     description: When you specify posting periods, you limit the period in which posting is allowed.
 
     author: SorenGP
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

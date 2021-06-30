@@ -1,6 +1,6 @@
 ---
-    title: Application Compliance | Microsoft Docs
-    description: This content contains information about application compliance in relation to Business Central.
+    title: Application Compliance
+    description: This topic explains application compliance in relation to Business Central like the International Financial Reporting Standards, local functionality, and GDPR.
     author: sorenfriisalexandersen
     documentationcenter: ''
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: soalex
 
 ---

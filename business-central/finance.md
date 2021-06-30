@@ -1,6 +1,6 @@
 ---
 title: Financial Management
-description: Learn about how Business Central supports your needs for financial management, accounting, auditing, or bookkeeping.
+description: Learn about how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
-# Finance
+# Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 

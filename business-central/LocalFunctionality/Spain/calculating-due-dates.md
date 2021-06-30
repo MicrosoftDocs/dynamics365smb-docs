@@ -1,6 +1,6 @@
 ---
-    title: Calculating Due Dates
-    description: In Spain, there is a legal limit for the number of days that a payment can be delayed. You must submit an annual report of purchases and sales for payments that were made before or after the due date.
+    title: Calculating Due Dates [ES]
+    description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Calculating Due Dates
+# Calculating Due Dates in the Spanish Version
 In Spain, there is a legal limit for the number of days that a payment can be delayed. You must submit an annual report of purchases and sales for payments that were made before or after the due date. The legal requirements depend on whether the customer is a private company or a public administration. For more information, see the official declaration [BOE-A-2010-10708](https://go.microsoft.com/fwlink/?LinkId=224630) on the Boletín Oficial del Estado website.  
 
 ## Payment Terms  

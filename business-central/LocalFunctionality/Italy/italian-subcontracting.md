@@ -1,6 +1,6 @@
 ---
     title: Italian Subcontracting
-    description: Companies contracted for production often outsource the production of components to subcontractors.
+    description: Master Production Scheduling (MPS) and Material Requirements Planning (MRP)enable contractors to manage their outsourced and subcontracted components.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

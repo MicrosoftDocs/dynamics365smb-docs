@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Costing Methods | Microsoft Docs
-    description: This topic describes how the costing method affects how actual or a budgeted values are capitalized and used in the cost calculation.
+    title: Design Details - Costing Methods
+    description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 ---

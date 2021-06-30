@@ -1,6 +1,6 @@
 ---
-    title: Denmark Local Functionality | Microsoft Docs
-    description: This section describes local functionality in Denmark.
+    title: Denmark Local Functionality
+    description: The following topic refers you to linked information that describes local functionality in Denmark.
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: soalex
 
 ---

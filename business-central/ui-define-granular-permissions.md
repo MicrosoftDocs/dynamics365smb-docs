@@ -1,6 +1,6 @@
 ---
-title: Define Granular Permissions  | Microsoft Docs
-description: Describes how to give users access to objects by assigning permission sets to them.
+title: Define Granular Permissions
+description: This topic describes how to define granular permissions by giving certain users access to objects and assigning permission sets to them.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@ ms.author: edupont
 
 The [!INCLUDE[prod_short](includes/prod_short.md)] security system allows you to control which objects a user can access within each database or environment. You can specify for each user whether they are able to read, modify, or enter data in the selected database objects. For detailed information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the Developer and ITPro help for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Before you assign permissions to users and user groups, you must define who can sign in to by creating users according to the license as defined in the Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+Before you assign permissions to users and user groups, you must define who can sign in by creating users according to the license as defined in the Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permissions to database objects:
 
@@ -70,7 +70,7 @@ Any permission sets that are already assigned to the user are displayed in the *
 
     The **Permissions** part lists all the database objects that the user has access to. You cannot edit this section.
 
-    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extend the different access types are permitted.
+    The **By Permission Set** part shows the assigned permission sets through which the permissions are granted to the user, the source and type of the permission set, and to which extent the different access types are permitted.
 
     For each row that you select in the **Permissions** section, the **By Permission Set** section shows which permission set or sets that the permission is granted through. In this section, you can edit the value in each of the five access type fields, **Read Permission**, **Insert Permission**, **Modify Permission**, **Delete Permission**, **Execute Permission**.
 

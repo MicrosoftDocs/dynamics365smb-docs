@@ -1,6 +1,6 @@
 ---
-    title: Reporting Sales Tax in the US
-    description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in the US version of Business Central.
+    title: Reporting Sales Tax in the US Version
+    description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
     author: edupont04
 
     ms.service: dynamics365-business-central

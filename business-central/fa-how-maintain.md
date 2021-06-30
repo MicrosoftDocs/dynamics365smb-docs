@@ -1,6 +1,6 @@
 ---
-title: Maintain Fixed Assets| Microsoft Docs
-description: You keep a maintenance record of any repairs and service on a fixed asset.
+title: Maintain Fixed Assets
+description: You keep a maintenance record of any repairs and service on a fixed asset to preserve the value of that fixed asset.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---

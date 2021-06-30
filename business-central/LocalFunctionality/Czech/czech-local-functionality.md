@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality | Microsoft Docs
-description: The following topics describe the local functionality in the Czech version of Business Central.
+title: Czech Local Functionality [CZ]
+description: The following topics describe the local functionality and features for the Czech version of Business Central.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Czech Local Functionality  
+# Czech Local Functionality in the Czech Version
 
 The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 

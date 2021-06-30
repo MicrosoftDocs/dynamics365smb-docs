@@ -1,6 +1,6 @@
 ---
-    title: Swiss Value Added Tax
-    description: Swiss enhancements include special VAT reporting features.
+    title: Swiss Value Added [CH]
+    description: This article explains several enhancements that have been made to the Swiss VAT reporting features.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

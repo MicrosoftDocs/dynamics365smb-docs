@@ -1,6 +1,6 @@
 ---
-title: Create Sales Opportunities| Microsoft Docs
-description: Describes how to create opportunities from a salesperson or a contact in Business Central.
+title: Create Sales Opportunities
+description: This article describes how to create opportunities from a salesperson or a contact in Business Central.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
 
 ---

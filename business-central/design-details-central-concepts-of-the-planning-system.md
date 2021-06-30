@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Central Concepts of the Planning System| Microsoft Docs
-    description: The planning functions are contained in a batch job that first selects the relevant items and period to plan for and then suggests possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
+    title: Design Details Ctrl Concepts of Planning Syst
+    description: The planning functions suggest possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

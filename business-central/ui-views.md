@@ -1,6 +1,6 @@
 ---
-title: Save and Personalize List Views | Microsoft Docs
-description: Learn how to create your own views of filtered lists.
+title: Save and Personalize List Views
+description: Learn how to create your own views for filtered lists as well as how to save, rename and manage those Views.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

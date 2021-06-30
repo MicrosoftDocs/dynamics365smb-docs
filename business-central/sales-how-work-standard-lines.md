@@ -1,6 +1,6 @@
 ---
-title: Setup Standard Lines for Recurring Sales and Purchases| Microsoft Docs
-description: You can set up sales lines and purchase lines that you frequently make and then insert them on sales and purchase documents to quickly fill the lines with standard information.
+title: Standard Recurring Sales and Purchase Lines
+description: Set up frequently used sales lines and purchase lines to insert them on sales and purchase documents and quickly fill the lines with standard information.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

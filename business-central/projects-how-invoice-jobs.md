@@ -1,6 +1,6 @@
 ---
-title: Create a Job Sales Invoice to Invoice a Job| Microsoft Docs
-description: Describes how to invoice customers for job expenses as a project progresses.
+title: Create a Job Sales Invoice to Invoice a Job
+description: Describes how to invoice customers for job expenses as a project progresses and costs accumulate.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---

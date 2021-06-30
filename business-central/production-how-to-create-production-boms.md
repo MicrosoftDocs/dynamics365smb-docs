@@ -1,6 +1,6 @@
 ---
     title: How to Create Production BOMs
-    description: A production BOM holds master data that describes the components and subassemblies used in the production of a parent item. Once a production order is created for that parent item, its production BOM will govern the calculation of material requirements as represented on the **Prod. Order Components** page.
+    description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: Bookmark a link to a page or report on your Role Center | Microsoft Docs
-description: Learn how to add a link to your Role Center.
+title: Bookmark link to page or report on Role Center
+description: Using the bookmark icon, you can add an action that opens a page or report from the navigation menu of your Role Center.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 ---
 

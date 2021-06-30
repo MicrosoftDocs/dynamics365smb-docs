@@ -1,6 +1,6 @@
 ---
-title: How to Move Items in advanced warehouse configurations | Microsoft Docs
-description: In advanced warehouse configurations, that is, locations with directed put-away and pick, warehouse movements between bins are performed by a senior employee preparing warehouse movements in the movement worksheet and then creating the warehouse movements for warehouse employees to perform.
+title: Move Items in Advanced Warehouse Configuration
+description: This topic explains how a senior employee can arrange moving items in advanced warehouse configurations - applicable to locations with directed put-away and pick.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

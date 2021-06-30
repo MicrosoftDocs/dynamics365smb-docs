@@ -1,6 +1,6 @@
 ---
-    title: How to Restructure Warehouses | Microsoft Docs
-    description: You may want to restructure your warehouse with new bin codes and new bin characteristics.
+    title: How to Restructure Warehouses
+    description: Learn how to restructure your warehouse with new bin codes and new bin characteristics to achieve or maintain a more efficient operation.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

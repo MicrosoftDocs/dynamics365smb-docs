@@ -1,6 +1,6 @@
 ---
-title: Frequently Asked Questions about Tell Me | Microsoft Docs
-description: This article provides answers to questions that our partners and customers often ask about Tell Me.
+title: Frequently Asked Questions about Tell Me
+description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
 
 ---

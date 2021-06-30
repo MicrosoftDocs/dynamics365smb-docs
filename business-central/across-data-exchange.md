@@ -1,6 +1,6 @@
 ---
-    title: Electronic documents in Business Central   | Microsoft Docs
-    description: Introduction to sending and receiving electronic documents in Business Central.
+    title: Electronic documents in Business Central
+    description: This is an overview of how to use the Data Exchange Framework to manage the exchange of data in business documents like bank files and currency exchange rates.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+    ms.date: 06/10/2021
     ms.author: edupont
 
 ---

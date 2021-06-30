@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Advance payments and invoices | Microsoft Docs
-description: This section describes Czech local functionality - Advance payments and invoices
+title: Advance Payments and Invoices [CZ]
+description: This section describes Czech local functionality and document types in the Advance payments and invoices feature.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Advance Payments and Invoices  
+# Advance Payments and Invoices in the Czech Version
 
 The Advance Invoices and Payments feature is used to generate invoices and to make payments before goods or services have been delivered or before the production has begun. The Advance Invoices and Payments feature includes advance invoices, advance payments, advance payments subject to VAT, and tax documents. The document types and document requirements for this feature are listed below:
 

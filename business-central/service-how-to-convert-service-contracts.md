@@ -1,6 +1,6 @@
 ---
-    title: How to Convert Service Contracts | Microsoft Docs
-    description: Because the VAT rate change tool cannot convert service contracts, these contracts must be converted manually. This topic describes several alternative methods that you can use for service contract conversion.
+    title: How to Convert Service Contracts
+    description: This topic describes several alternative methods that you can use to convert service contracts that include VAT amounts.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

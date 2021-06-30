@@ -1,6 +1,6 @@
 ---
-    title: Receive and Convert Electronic Documents | Microsoft Docs
-    description: You can receive electronic documents directly from trading partners or from an OCR service.
+    title: Receive and Convert Electronic Documents
+    description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

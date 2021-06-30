@@ -1,6 +1,6 @@
 ---
     title: How to Create Delivery Reminders Manually [DE]
-    description: Remind customers of late delivery in the German version.
+    description: The following topic provides examples of how to create delivery reminders manually in the German version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

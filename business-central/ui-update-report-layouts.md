@@ -1,6 +1,6 @@
 ---
-    title: Keeping a Report Layout Up-to-date | Microsoft Docs
-    description: You may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set.
+    title: Keeping a Report Layout Up-to-date
+    description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

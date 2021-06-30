@@ -1,6 +1,6 @@
 ---
-    title: Put Items Away | Microsoft Docs
-    description: The warehouse activity of putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.
+    title: Put Items Away
+    description: Putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

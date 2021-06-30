@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Multiple Payables/Receivables Accounts
+# Multiple Payables/Receivables Accounts in the Czech Version
 
 Users often post transactions like bad debt or other types of Receivable/Payable transactions that need to be recorded in Customer and Vendor Ledgers, but at same time posted to different Receivable/Payable GL Account, other than the one specified on Customer or Vendor posting groups. The easiest way to enable such functionality is to allow users to change Customer and Vendor posting groups in the moment of posing a particular transaction.
 

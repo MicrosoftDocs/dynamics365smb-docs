@@ -1,5 +1,5 @@
 ---
-title: Brexit Impact on Business Central - United Kingdom leaving the European Union
+title: Brexit Impact on Business Central [GB]
 description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
 
 ---

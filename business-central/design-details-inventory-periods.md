@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Inventory Periods | Microsoft Docs
-    description: Backdated transactions or cost adjustments often affect balances and stock valuations for accounting periods that may be considered closed. This can have adverse effects on accurate reporting, especially within global corporations. The Inventory Periods feature can be used to avoid such problems by opening or closing inventory periods to limit posting in a set period of time.
+    title: Design Details - Inventory Periods
+    description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

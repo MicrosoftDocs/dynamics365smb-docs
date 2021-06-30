@@ -1,6 +1,6 @@
 ---
-title: Specify the Layout of a Check| Microsoft Docs
-description: You can design and print your checks in different formats to conform with standards.
+title: Specify the Layout of a Check
+description: You can design and print your checks in different formats to conform with standards set by your local authorities.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -68,7 +68,7 @@ The following summarizes specifications for the MICR CMC-7 fonts that may be use
 ![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
 
 ### Delimiter characters
-![Delimiter characters](media/font-cmc7-letters.png "Delimiter characters")
+![Delimiter characters for CMC-7](media/font-cmc7-letters.png "Delimiter characters for CMC-7")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 

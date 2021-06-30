@@ -1,6 +1,6 @@
 ---
-    title: Reversing Journal Entries
-    description: Controls have been added to the Reverse Transaction Entries page to comply with local laws.
+    title: Reversing Journal Entries [IT]
+    description: In this feature, controls have been added to the Reverse Transaction Entries page to comply with local laws.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Reversing Journal Entries
+# Reversing Journal Entries in the Italian Version
 Controls have been added to the **Reverse Transaction Entries** page to comply with local laws. These controls ensure the following:  
 
 - You cannot reverse an invoice, credit note, or document involving VAT management.  

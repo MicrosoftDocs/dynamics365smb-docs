@@ -1,6 +1,6 @@
 ---
-    title: Recipient Reference Codes
-    description: The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account.
+    title: Recipient Reference Codes [NO]
+    description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Recipient Reference Codes
+# Recipient Reference Codes in the Norwegian Version
 The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
 
 The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  

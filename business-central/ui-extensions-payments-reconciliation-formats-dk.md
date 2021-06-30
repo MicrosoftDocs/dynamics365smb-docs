@@ -1,5 +1,5 @@
 ---
-title: Using the Payments and Reconciliations (DK) Extension | Microsoft Docs
+title: Payments and Reconciliations (DK) Extension
 description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
 
 ---

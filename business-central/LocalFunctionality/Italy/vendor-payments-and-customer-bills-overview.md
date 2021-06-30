@@ -1,6 +1,6 @@
 ---
-    title: Vendor Payments and Customer Bills Overview
-    description: In Business Central, you can manage automatic bills to customers and from vendors.
+    title: Vendor Payments Customer Bills Overview [IT]
+    description: In the Italian version of Business Central, you can manage automatic bills to customers and from vendors.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Vendor Payments and Customer Bills Overview
+# Vendor Payments and Customer Bills Overview in the Italian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic bills to customers and from vendors.  
 
 In addition, the bill pay feature supports the issuance of payment in many formats, including SEPA Credit Transfer, SEPA Direct Debit, and Italian bill formats.  

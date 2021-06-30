@@ -1,6 +1,6 @@
 ---
-    title: How to Receive Items | Microsoft Docs
-    description: When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt.
+    title: How to Receive Items
+    description: This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

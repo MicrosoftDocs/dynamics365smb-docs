@@ -1,6 +1,6 @@
 ---
-    title: Set Up for Service Items and Service Item Components | Microsoft Docs
-    description: Learn about the things you must set up before you can use service items, including default values such as response time, contract discount percent, and service price group.
+    title: Service Items and Service Item Components
+    description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

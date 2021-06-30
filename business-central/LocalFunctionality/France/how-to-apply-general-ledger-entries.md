@@ -1,5 +1,5 @@
 ---
-    title: How to Apply General Ledger Entries
+    title: How to Apply General Ledger Entries [FR]
     description: You apply general ledger entries to justify ledger balances on asset and liability accounts.
 
     author: SorenGP
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Apply General Ledger Entries
+# Apply General Ledger Entries in the French Version
 You apply general ledger entries to justify ledger balances on asset and liability accounts. For example, you can apply transactions on the bill of exchange accounts to get a clear picture of which bills make up the balance of the account.  
 
 ## To apply general ledger entries  

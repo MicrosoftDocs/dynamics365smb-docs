@@ -1,5 +1,5 @@
 ---
-    title: How to Limit the Posting Period
+    title: How to Limit the Posting Period [BE]
     description: You can limit the period by which posting is permitted on three different levels, by company, by user, and by template.
 
     author: SorenGP
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Limit the Posting Period
+# Limit the Posting Period in the Belgian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  
 
 Limiting posting periods can be useful when a company closes its sales journal at the end of each month. This keeps salespeople from registering sales documents from the previous month. At the same time, the purchase journal may stay open to register incoming purchase invoices from the previous month.  

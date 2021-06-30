@@ -1,6 +1,6 @@
 ---
-    title: Direct Debit Using Domiciliation
-    description: A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices through a preferred bank account. Domiciliations can only be processed for domestic customers with domestic bank accounts. 
+    title: Belgian Direct Debit Using Domiciliation [BE]
+    description: A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---

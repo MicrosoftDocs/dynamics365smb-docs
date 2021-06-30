@@ -1,6 +1,6 @@
 ---
-    title: Set Up Invoice Rounding | Microsoft Docs
-    description: You can round invoice amounts when you create invoices. Additionally, local regulations or custom may require you to round in a specific way, for example, to an amount divisible by 0.05.
+    title: Set Up Invoice Rounding
+    description: If you need to round invoice amounts when you create invoices, you can use the automatic rounding function explained here.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: bholtorf
 
 ---

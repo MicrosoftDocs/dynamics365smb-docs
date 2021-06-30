@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - accounting schedule feature
+title: Czech Local Functionality - Accounting Schedule Feature
 description: Improvements of the standard Account Schedules feature (common list of expressions, saving results, formulas drill-down, additional data sources).
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Account Schedule Feature
+# Account Schedule Feature in the Czech Version
 
 As one of the most extensively used features for analysis and reporting, Eastern European countries often ask for the following improvements of the standard Account Schedules feature:
 

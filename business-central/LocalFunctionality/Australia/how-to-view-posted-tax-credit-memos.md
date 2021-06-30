@@ -1,12 +1,12 @@
 ---
-title: View Posted Tax Credit Memos in the Australian version
-description: You can use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos that have been posted in the Australian version.
+title: View Posted Tax Credit Memos [AU]
+description: You use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---

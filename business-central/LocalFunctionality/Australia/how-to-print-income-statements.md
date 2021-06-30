@@ -1,5 +1,5 @@
 ---
-    title: Print Income Statements in the Australian version
+    title: Print Income Statements [AU]
     description: Describes how to view the company's annual income statement in the Australian version.
     author: SorenGP
     ms.service: dynamics365-business-central
@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

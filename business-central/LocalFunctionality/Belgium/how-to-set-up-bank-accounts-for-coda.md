@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Bank Accounts for CODA
+    title: How to Set Up Bank Accounts for CODA [BE]
     description: Before you can start to use the electronic banking functionality for CODA statements, you must set up certain codes.
 
     services: project-madeira 
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Set Up Bank Accounts for CODA
+# Set Up Bank Accounts for CODA in the Belgian Version
 Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:  
 
 - Protocol number  

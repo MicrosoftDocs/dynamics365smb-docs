@@ -1,6 +1,6 @@
 ---
-    title: Planning With or Without Locations | Microsoft Docs
-    description: Planning with or without location codes on demand lines is important to understand.
+    title: Planning With or Without Locations
+    description: In this topic learn about production and manufacturing, including supply planning, in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---

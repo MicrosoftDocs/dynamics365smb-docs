@@ -1,6 +1,6 @@
 ---
-title: Microsoft Pay Standard| Microsoft Docs
-description: Provides information about the Microsoft Pay extension
+title: Microsoft Pay Standard
+description: The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP

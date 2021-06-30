@@ -1,6 +1,6 @@
 ---
-    title: How to Upgrade a .DTD Definition File
-    description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of Business Central.
+    title: How to Upgrade a .DTD Definition File [DE]
+    description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues in the German version.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Upgrade a .DTD Definition File for Digital Audits
+# Upgrade a .DTD Definition File for Digital Audits in the German Version
 
 You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

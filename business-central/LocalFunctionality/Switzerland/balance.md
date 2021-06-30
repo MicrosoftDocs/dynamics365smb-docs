@@ -1,6 +1,6 @@
 ---
-    title: Balance
-    description: Specifies a temporary general ledger balance.
+    title: Balance [CH]
+    description: This topic explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Balance
+# Balance in the Swiss Version
 Specifies a temporary general ledger balance. When you choose the **Balance** action on the **G/L Accounts** page, the **G/L Acc. Provisional Balance** page opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
 
 ## See Also  

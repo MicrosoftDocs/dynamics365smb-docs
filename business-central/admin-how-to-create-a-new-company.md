@@ -1,6 +1,6 @@
 ---
     title: How to Create a New Company | Microsoft Docs
-    description: To use RapidStart Services tables and pages are created, but there is no data in them.
+    description: Use RapidStart Services tables and pages to create a new company for which you want to perform a customer implementation.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

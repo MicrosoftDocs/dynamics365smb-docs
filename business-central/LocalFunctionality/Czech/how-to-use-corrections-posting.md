@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - corrections posting | Microsoft Docs
+title: Czech Local Functionality - corrections posting
 description: This local function is used to force corrective posting.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Corrections Posting (Red Storno)
+# Corrections Posting (Red Storno) in the Czech Version
 
 According to legal requirements, costs and revenues are usually posted only to either the debit or the credit side of a G/L account. Companies in Eastern Europe usually enforce accounting policies to post certain inventory and GL transactions as corrections. The reason for this is that auditors and revenue authorities conduct accounting controls against this rule.  
 

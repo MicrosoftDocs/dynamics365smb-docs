@@ -1,6 +1,6 @@
 ---
-title: United Kingdom Local Functionality | Microsoft Docs
-description: Get an overview of local functionality in the United Kingdom version of Business Central.
+title: United Kingdom Local Functionality [GB]
+description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
 
 ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: soalex
 
 ---
-# United Kingdom Local Functionality
+# United Kingdom Local Functionality in the British Version
 
 The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

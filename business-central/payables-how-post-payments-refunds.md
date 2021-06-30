@@ -1,6 +1,6 @@
 ---
-title: Apply Payments to Related Documents and Post Them| Microsoft Docs
-description: Describes how to record payments that you make to vendors and refunds that you make to customers.  
+title: Record Payments and Refunds in Payment Journal
+description: Read about how to record payments that you make to vendors and refunds that you make to customers on the Payment Journal page.  
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---

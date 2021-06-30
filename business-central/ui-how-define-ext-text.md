@@ -1,5 +1,5 @@
 ---
-title: Add Extra Lines to Define Extended Descriptions
+title: Add Extended Text
 description: You can add extra lines to extend the standard text that describes an item, a G/L account, and other data.
 author: SorenGP
 
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

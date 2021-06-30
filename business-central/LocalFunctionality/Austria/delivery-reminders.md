@@ -1,5 +1,5 @@
 ---
-    title: Delivery Reminders [AT]
+    title: Delivery Reminders in the Austrian Version
     description: Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries in the Austrian version.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---

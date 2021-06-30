@@ -1,6 +1,6 @@
 ---
-    title: How to Create and Print a Swiss VAT Statement
-    description: Based on the information that you have specified on the VAT Posting Setup page, Business Central can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.
+    title: Create and Print a Swiss VAT Statement [CH]
+    description: This topic explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Create and Print a Swiss VAT Statement
+# Create and Print a Swiss VAT Statement in the Swiss Version
 Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
 ## To set up a Swiss VAT statement template  

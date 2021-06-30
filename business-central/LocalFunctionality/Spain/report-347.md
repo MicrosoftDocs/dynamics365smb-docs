@@ -1,6 +1,6 @@
 ---
-    title: Report 347
-    description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. This report also includes entries such as payment in cash that was received in the period.
+    title: Report 347 [ES]
+    description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Report 347
+# Report 347 in the Spanish Version
 The **Report 347** report is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. This report also includes entries such as payment in cash that was received in the period. The **Report 347** report is generated in a format that is approved by the tax authorities. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml) website.  
 
 ## File Format for Report 347  

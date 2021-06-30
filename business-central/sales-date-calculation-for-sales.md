@@ -1,6 +1,6 @@
 ---
-    title: Date Calculation for Sales | Microsoft Docs
-    description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date. This is the date on which you can expect items ordered on a particular date to be available for picking.
+    title: Date Calculation for Sales
+    description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

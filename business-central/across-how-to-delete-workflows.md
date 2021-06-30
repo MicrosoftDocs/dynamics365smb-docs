@@ -1,6 +1,6 @@
 ---
-    title: How to Delete Workflows | Microsoft Docs
-    description: If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances that are defined in the workflow must have status **Completed**.
+    title: How to Delete Workflows
+    description: If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must be status **Completed**.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/11/2021
     ms.author: edupont
 
 ---

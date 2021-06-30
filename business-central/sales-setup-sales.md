@@ -1,6 +1,6 @@
 ---
-title: Overview of Tasks to Configure Sales Processes | Microsoft Docs
-description: Outlines tasks to set up rules and values to define your sales policies and processes.
+title: Overview of Tasks to Configure Sales Processes
+description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

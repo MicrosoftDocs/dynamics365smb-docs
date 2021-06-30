@@ -1,6 +1,6 @@
 ---
     title: Electronic Banking in Norway
-    description: Norwegian enhancements include electronic banking.
+    description: This topic explains the Business Central Norwegian enhancements for handling electronic banking with a number of operations.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

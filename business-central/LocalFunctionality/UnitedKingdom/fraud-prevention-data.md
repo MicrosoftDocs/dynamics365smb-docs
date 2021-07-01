@@ -11,7 +11,7 @@ ms.author: edupont
 ---
 # Send Fraud Prevention Data in the United Kingdom
 
-Communication with Her Majesty's Revenue and Customs (HMRC) without fraud prevention headers is not allowed. [!INCLUDE [prod_short](../../includes/prod_short.md)] communicates with HMRC through Making Tax Digital and supports the requirement to submit data that can help prevent fraud.  
+Communication with Her Majesty's Revenue and Customs (HMRC) without fraud prevention headers is not allowed, starting in 2021. [!INCLUDE [prod_short](../../includes/prod_short.md)] communicates with HMRC through Making Tax Digital and supports the requirement to submit data that can help prevent fraud.  
 
 > [!IMPORTANT]
 > Make sure that you have the latest version of the Making Tax Digital app. For more information, see [Making Tax Digital in the United Kingdom](making-tax-digital-submit-vat-return.md).
@@ -23,7 +23,7 @@ The admin of the company that transmits VAT data together with fraud prevention 
 
 ## Fraud prevention headers
 
-Set up the headers in the **HMRC Fraud Prevention Headers Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Choose the **Get Current Headers** action to see which headers cannot be retrieved automatically. Find tips for how to find the missing information in the [Identify values for missing headers](#identify-values-for-missing-headers) section.  
+[!INCLUDE [prod_short](../../includes/prod_short.md)] online generates fraud prevention headers for you. For on-premises, you can verify the headers in the **HMRC Fraud Prevention Headers Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Choose the **Get Current Headers** action to see which headers cannot be retrieved automatically. Find tips for how to find the missing information in the [Identify values for missing headers](#identify-values-for-missing-headers) section.  
 
 Fraud prevention headers are sent to HMRC whenever there is communication with the APIs at HMRC. In other words, this information is sent when one of the following actions are chosen in [!INCLUDE [prod_short](../../includes/prod_short.md)]:
 
@@ -34,11 +34,11 @@ Fraud prevention headers are sent to HMRC whenever there is communication with t
 When you start one of these processes, you are presented with the current header content and asked for consent before the any data is sent. If you choose to cancel, no information is sent to HMRC.
 
 > [!NOTE]
-> The **Get Current Headers** action fetches data based on the current user. That means that if you are not the user who will submit the final data to HMRC, you will see different data for those  headers that include person identifiable information (PII).
+> The **Get Current Headers** action fetches data based on the current user. That means that if you are not the user who will submit the final data to HMRC, you will see different data for those headers that include person identifiable information (PII).
 
 ### Headers
 
-In this section, we provide a list of fraud prevention headers. The content is intended to help you set up fraud prevention headers for your company.  
+In this section, we provide a list of fraud prevention headers. The content is intended to help you identify any issues with fraud prevention headers for your company.  
 
 The set of HTTP headers that must be transmitted for fraud prevention varies, depending on the architecture of the environment that is used by the company that is interoperating with MTD for VAT. The **Gov-Client-Connection-Method** header must represent the connection method that is used for the request that the company makes. It's assumed that most companies that use [!INCLUDE [prod_short](../../includes/prod_short.md)] online use the **WEB\_APP\_VIA\_SERVER** connection method.  
 

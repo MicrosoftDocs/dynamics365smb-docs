@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/11/2021
+    ms.date: 06/30/2021
     ms.author: edupont
 
 ---
@@ -35,11 +35,11 @@ The workflow is devided into three sections:
     - A journal line is created
     - an Incoming document is created or released
     - Approval of a document is requested
-    The Events are system defined and new events must be added through development of an extension
+    The events are system-defined. New events must be added through the development of an extension
 2) **On Condition of**
     The **conditions** are related to the event and opens for creating filters for when the event is triggered
 3) **Then Response**
-    The **Responses** responds to what the next step(s) in the work are.
+    The **Responses** responds to what the next step in the work are.
     The responses are system defined and new events must be added through development of an extension
 
 ## To create a workflow  
@@ -70,7 +70,7 @@ The workflow is devided into three sections:
         |Field|Description|  
         |----------------------------------|---------------------------------------|  
         |**Notify Sender**|Specify if the approval requestor is notified instead of the approval request recipient. If you select the check box, the **Recipient User ID** field is disabled because the requestor of the approval, the sender, will be notified instead. The name of the workflow response changes accordingly, to **Create Notification for &lt;Sender&gt;**. If the check box is not selected, the name of the workflow response is **Create Notification for &lt;User&gt;**.
-        |**Recipient User ID**|Specify the user who the notification must be sent to. Note: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.|  
+        |**Recipient User ID**|Specify the user who the notification must be sent to. **Note**: This option is only available for workflow responses with a placeholder for a specific user. For workflow responses without placeholders for users, the notification recipient is typically defined by the approval user setup.|  
         |**Notification Entry Type**|Specifies if the workflow notification is triggered by a record change, an approval request, or a passed due data.|
         |**Link Target Page**|Specify another page in [!INCLUDE[prod_short](includes/prod_short.md)] that the link in the notification opens instead of the default page.<br /><br />Note that the page must have the same source table as the record involved.|  
         |**Custom Link**|Specify the URL of a link that is added to the notification in addition to the link to page in [!INCLUDE[prod_short](includes/prod_short.md)].|  

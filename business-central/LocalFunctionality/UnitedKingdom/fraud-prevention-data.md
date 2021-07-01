@@ -18,9 +18,12 @@ Communication with Her Majesty's Revenue and Customs (HMRC) without fraud preven
 
 The admin of the company that transmits VAT data together with fraud prevention parameters must consent one time for each web application that is used for interoperation with the HMRC VAT APIs. Otherwise, data that is collected from the user devices that are used to submit the VAT requests cannot be transmitted.
 
+> [!NOTE]
+> We recommend that it's always the same person who submits data to HMRC from the same device. This way, the fraud prevention headers contain consistent information about the device.
+
 ## Fraud prevention headers
 
-Set up the headers in the **HMRC Fraud Prevention Headers Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Choose the **Get Current Headers** action to see which headers cannot be retrieved automatically.  
+Set up the headers in the **HMRC Fraud Prevention Headers Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] Choose the **Get Current Headers** action to see which headers cannot be retrieved automatically. Find tips for how to find the missing information in the [Identify values for missing headers](#identify-values-for-missing-headers) section.  
 
 Fraud prevention headers are sent to HMRC whenever there is communication with the APIs at HMRC. In other words, this information is sent when one of the following actions are chosen in [!INCLUDE [prod_short](../../includes/prod_short.md)]:
 

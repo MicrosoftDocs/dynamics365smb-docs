@@ -81,19 +81,19 @@ For both types of events, the events are system-defined. New events must be adde
 
     2. To specify options for a workflow response that involves creating an approval request, fill the fields as described in the following table.  
 
-      |Field|Description|  
-      |-----|-----------|  
-      |**Due Date Formula**|Specify in how many days the approval request must be resolved from the date when it was sent.|
-      |**Delegate After**|Specify if and when an approval request will automatically be delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested.|
-      |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users. When the field is set to **Salesperson/Purchaser**, that setting specifies that the user who is set up in the **Salespers./Purch. Code** field on the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field. For more information, see [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|
-      |**Show Confirmation Message**|Specify if a confirmation message is shown to users after they request an approval.|
-      |**Approver Limit Type**|Specify how approvers' approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the request being made.The following options exist: <ol><li>**Approver Chain** specifies that approval request entries are created for all the requester's approvers up to and including the first qualified approver</li><li>**Direct Approver** specifies that an approval request entry is only created for the requester's immediate approver, regardless of the approver's approval limit.</li><li>**First Qualified Approver** specifies that an approval request entry is only created for the requester's first qualified approver.</li></ol>|
+        |Field|Description|  
+        |-----|-----------|  
+        |**Due Date Formula**|Specify in how many days the approval request must be resolved from the date when it was sent.|
+        |**Delegate After**|Specify if and when an approval request will automatically be delegated to the relevant substitute. You can select to automatically delegate one, two, or five days after the date when the approval was requested.|
+        |**Approver Type**|Specify who the approver is, according to the setup of approval users and workflow users. When the field is set to **Salesperson/Purchaser**, that setting specifies that the user who is set up in the **Salespers./Purch. Code** field on the **Approval User Setup** page determines the approver. Approval request entries are then created according to the value in the **Approver Limit Type** field. For more information, see [Set Up Approval Users](across-how-to-set-up-workflow-users.md).|
+        |**Show Confirmation Message**|Specify if a confirmation message is shown to users after they request an approval.|
+        |**Approver Limit Type**|Specify how approvers' approval limits affect when approval request entries are created for them. A qualified approver is an approver whose approval limit is above the value on the request being made.The following options exist: <ol><li>**Approver Chain** specifies that approval request entries are created for all the requester's approvers up to and including the first qualified approver</li><li>**Direct Approver** specifies that an approval request entry is only created for the requester's immediate approver, regardless of the approver's approval limit.</li><li>**First Qualified Approver** specifies that an approval request entry is only created for the requester's first qualified approver.</li></ol>|
     3. To specify options for a workflow response that involves creating journal lines, fill the fields as described in the following table.  
 
-      |Field|Description|  
-      |----------------------------------|---------------------------------------|  
-      |**General Journal Template Name**|Specify the name of the general journal template that the specified journal lines are created in.|  
-      |**General Journal Batch Name**|Specify the name of the general journal batch that the specified journal lines are created in.|  
+        |Field|Description|  
+        |-----|-----------|  
+        |**General Journal Template Name**|Specify the name of the general journal template that the specified journal lines are created in.|  
+        |**General Journal Batch Name**|Specify the name of the general journal batch that the specified journal lines are created in.|  
 
 11. Choose the **Increase Indent** and **Decrease Indent** buttons to indent the event name in the **When** field to define the step's position in the workflow.  
 

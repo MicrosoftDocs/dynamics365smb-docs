@@ -15,31 +15,34 @@
 ---
 # Using Workflows
 
-A workflow is a sequence of tasks that are triggered by an action, a condition or a rule. Workflows are usually implemented to integrate business logic to an organization like separation of duties, unifying processes, or to increase trust and responsibilities.
-The workflows are designed to create requests for approval of a new value while keeping the old value in case the request is not approved. The new value will not be implemented until the last request is approved.
-<br><br>
+A workflow is a sequence of tasks that are triggered by an action, a condition or a rule. Workflows are usually implemented to integrate business logic to an organization, such as the separation of duties, unifying processes, or to increase trust and responsibilities.  
+
+The workflows are designed to create requests for approval of a new value while keeping the old value in case the request is not approved. The new value will not be implemented until the last request is approved.  
+
 The business logic could be approval of:
 
 - New master data like G/L Accounts, customers, vendors, or items
-- Changes to fields in existing records containing sensible information, like **Vendor Bank Account No.** or **Customer Credit Limit**
-- Changes to fields in existing records containing business critical information like **Item Sales Prices**
+- Changes to fields in existing records containing sensible information, such as **Vendor Bank Account No.** or **Customer Credit Limit**
+- Changes to fields in existing records containing business critical information, such as **Item Sales Prices**
 - New users or changes to user permissions
 - Purchase documents
 - Sales documents
 - Incoming documents
 - Finance journals prior to posting
 
-Below is an example of a workflow with sequential approval triggered by a user. By triggering the workflow, an approval request is created for the first approver.
+The following illustration shows an example of a workflow with sequential approval triggered by a user. By triggering the workflow, an approval request is created for the first approver.  
 
 ![Illustration of a workflow with sequential approval](media/Workflows/approval-flow.png)
 
-Above the request must be approved by the first approver before the request is sent on to the next approver. If the request is not approved by the first approver, the request will never go to the next approver.
-<br><br>
-The route taken from the initial triggering of the workflow can vary depending on the nature of the approval.
+In this example, the request must be approved by the first approver before the request is sent on to the next approver. If the request is not approved by the first approver, the request will never go to the next approver.  
+
+The route taken from the initial triggering of the workflow can vary depending on the nature of the approval.  
+
+The following illustration shows a parallel approval that is triggered by the user. By triggering the workflow, an approval request is sent to all approvers simultaneously.  
 
 ![Illustration of a workflow with parallel approval](media/Workflows/approval-flow-2.png)
 
-Above shows an illustration with parallel approval triggered by a user. By triggering the workflow, an approval request is sent to all approvers simultaneously. However, the workflow is not approved until all requests have been approved by the approvers. As shown below:
+However, the workflow is not approved until all requests have been approved by the approvers, as shown in the following illustration:  
 
 ![Illustration of a rejected workflow with parallel approval](media/Workflows/approval-flow-3.png)
 

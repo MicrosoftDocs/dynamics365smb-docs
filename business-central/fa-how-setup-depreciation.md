@@ -6,7 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 06/15/2021
+ms.date: 06/28/2021
 ms.author: edupont
 ---
 
@@ -78,6 +78,13 @@ For each depreciation book, you define a default setup of templates and batches.
 2. Select the depreciation book that you want to define default journals for, and then choose the **FA Journal Setup** action.  
 3. If you want to have a default setup for each user, choose the **User ID** field to select from the **Users** page.  
 4. In the other fields, select the journal template or journal batch that must be used by default.  
+
+## Fiscal Year 365 Days Field Depreciation
+
+When the Calculate Depreciation batch job calculates depreciations, the batch job normally uses a standardized year of 360 days where each of the 12 months has 30 days.
+
+If you select this field, the Calculate Depreciation batch job uses the calendar year of 365 days instead, where each month is calculated with the same number of days as in the calendar. The only exception is February in leap years, which the batch job will treat as having 28 days and not 29. Because of that, all years, also leap years, are considered to have 365 days.
+
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

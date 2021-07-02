@@ -113,11 +113,13 @@ In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating 
 To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March, 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
 
 ### To upgrade your Business Central online connection to use certificate-based authentication
+> [!NOTE]
+> Certificate-based authentication is available in Business Central 2021 release wave 1 and later. If you are using an earlier version, you must schedule an update to Business Central 2021 release wave 1 before March, 2022. For more information, see [Scheduling updates](/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). If you experience issues, contact your partner or support.
 
-1. In the [Business Central administration center](../dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later.
+1. In the [Business Central administration center](../dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
 2. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
    * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
-   * If you do not, open the **Dataverse Connection Setup** page.
+   * If you don't, open the **Dataverse Connection Setup** page.
 3. Choose **Connection**, and then **Use Certificate Authentication** to upgrade the connection to use certificate based authentication.
 4. Sign in with administrator credentials for Dataverse. Sign in should take less than a minute.
 

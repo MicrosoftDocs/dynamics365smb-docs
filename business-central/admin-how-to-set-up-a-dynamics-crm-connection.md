@@ -116,7 +116,7 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 > [!NOTE]
 > Certificate-based authentication is available in Business Central 2021 release wave 1 and later. If you are using an earlier version, you must schedule an update to Business Central 2021 release wave 1 before March, 2022. For more information, see [Scheduling updates](/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). If you experience issues, contact your partner or support.
 
-1. In the [Business Central administration center](../dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
+1. In the [Business Central administration center](/business-central/dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
 2. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
    * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
    * If you don't, open the **Dataverse Connection Setup** page.

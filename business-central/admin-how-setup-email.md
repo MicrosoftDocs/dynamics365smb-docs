@@ -19,6 +19,8 @@ People in businesses send information and documents, such as sales and purchase 
 The email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox page in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> You can use the email capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] online only with Exchange Online. We do not support hybrid scenarios, such as connecting [!INCLUDE[prod_short](includes/prod_short.md)] online to an on-premises version of Exchange.
+> 
 > If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal. The app registration will enable [!INCLUDE[prod_short](includes/prod_short.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, we handle this for you.
 
 ## Required Permissions

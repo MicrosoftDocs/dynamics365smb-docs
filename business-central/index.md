@@ -84,6 +84,15 @@ You can also view videos of new and commonly used capabilities in our video libr
 - [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## Get notified about changes through an RSS feed
+
+To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the content on docs.microsoft.com across the business functionality content for [!INCLUDE [prod_short](includes/prod_short.md)], use the following link:
+
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
+
+> [!NOTE]
+> The RSS feed returns a list of the 100 articles most recently updated. The list is not sorted by date.  
+
 ## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
@@ -105,7 +114,5 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Introducing docs.microsoft.com (original blog post)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

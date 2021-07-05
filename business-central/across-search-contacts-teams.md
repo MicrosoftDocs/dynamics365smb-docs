@@ -96,6 +96,8 @@ The contact card works just like cards for records, like items, customers, or sa
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
+[Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

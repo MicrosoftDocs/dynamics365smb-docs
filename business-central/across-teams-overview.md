@@ -63,6 +63,7 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

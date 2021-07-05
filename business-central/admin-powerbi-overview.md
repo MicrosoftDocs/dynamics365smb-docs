@@ -37,11 +37,11 @@ The following table describes available features.
 |Embedded experience for viewing a given report inside a FactBox in [!INCLUDE[prod_short](includes/prod_short.md)]|Both. Requires configuration to display reports for on-premises.|
 |Power BI report management from [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Default Power BI reports on role centers deployed to Power BI|Online|
-|Power BI Apps on Microsoft AppSource|Online.|
+|Power BI Apps on Microsoft AppSource|Online|
 
 ## Architecture
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as OData web services.
+[!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
 
 ![Power BI architecture for integration with Business Central](./media/power-bi-architecture.png)
 

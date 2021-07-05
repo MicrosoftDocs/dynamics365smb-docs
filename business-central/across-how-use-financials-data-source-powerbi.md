@@ -22,28 +22,28 @@ This article describes how to get started using Power BI Desktop to create repor
 
 - Sign up for the Power BI service.
 
-    If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
+  If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop is a free application you install on your local computer. For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop is a free application you install on your local computer. For more information, see [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Make sure the data you want in the report is published as a web service.
-    
-    There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure the **Publish** field is selected. This task is typically an administrative task.
-    
-    For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+- Make sure the data you want in the report is available as an API page or published as a web service.
+
+  For more information, see [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
-    - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)]. Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC160/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
+  - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC160/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-      To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
-    For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+  For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
 ## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
@@ -53,26 +53,46 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 2. Select **Get Data**.
 
     If you don't see **Get Data**, select the **File** menu, then **Get Data**.
-2. On the **Get Data** page, select **Online Services**.
-3. In the **Online Services** pane, do one of the following steps:
+3. On the **Get Data** page, select **Online Services**.
+4. In the **Online Services** pane, do one of the following steps:
 
-    1. If you're connecting to [!INCLUDE [prod_short](includes/prod_short.md)] online, choose **Dynamics 365 Business Central**, then **Connect**.
-    2. If you're connecting to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, choose **Dynamics 365 Business Central (on-premises)**, then **Connect**.
+    - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
+    - To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.
 
-4. Power BI displays a wizard that will guide you through the connection process, including signing into [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
-    For online, choose **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)].
-    
-    For on-premises, enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], and optionally the company name. Then, when prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key.
+    If you haven't signed in to [!INCLUDE [prod_short](includes/prod_short.md)] from Power BI desktop before, you're prompted to sign in.
+
+    - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)]. When done, select **Connect**.
+
+    - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.
 
     > [!NOTE]  
-    > Once you have successfully connected to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in.
-    
-5. Choose **Connect** to continue.
+    > Once you have successfully connected to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    The Power BI wizard shows a list of Microsoft [!INCLUDE[prod_short](includes/prod_short.md)] environments, companies, and data sources. These data sources represent all the web services that you've published from [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Specify the data you want to add to your data model, and then choose the **Load** button.
-7. Repeat the previous steps to add more [!INCLUDE [prod_short](includes/prod_short.md)] data, or other data, to your Power BI data model.
+6. Once connected, Power BI contacts to the Business Central service. The **Navigator** windows appears and displays available data sources for building reports. Select a folder to expand it and see the available data sources. 
+
+   These data sources represent all the web services and API pages that are published for [!INCLUDE [prod_short](includes/prod_short.md)]. The data sources are grouped by the Business Central environments and companies. With Business Central online, **Navigator** has the following structure:
+
+    - **Environment name**
+      - **Company name**
+        - **Advanced APIs**
+
+          This folder lists advanced API pages published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and [custom API pages for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Custom API pages are further grouped in folders by [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API page source code.
+
+        - **Standard APIs v2.0**
+
+          This folder lists the API pages exposed by the [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+        - **Web services \(legacy)**
+
+          This folder lists pages, codeunits, and queries that are published as web services in Business Central.
+
+    > [!NOTE]
+    > The structure for Business Central on-premises is different because it doesn't support API pages.
+
+7. Select the data source or sources that you want to add to your data model, and then select the **Load** button.
+8. If later you want to add more Business Central data, you can repeat the previous steps.
 
 Once the data is loaded, you can see it in the right navigation on the page. At this point, you've successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data, and you can begin building your Power BI report.  
 

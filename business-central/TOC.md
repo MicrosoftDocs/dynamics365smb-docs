@@ -265,10 +265,10 @@
 ##### Administrator
 ###### [Integration Overview](admin-powerbi-overview.md)
 ###### [Enabling Power BI Integration](admin-powerbi-setup.md)
-##### Designer
+##### Report Creator
 ###### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
 ###### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-##### Consumer
+##### Business User
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
@@ -1571,7 +1571,7 @@
 ## Security and Protection
 ### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
-### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance
 ### [Compliance Overview](compliance/compliance-overview.md)
 ### [Application Compliance](compliance/compliance-application-compliance.md)

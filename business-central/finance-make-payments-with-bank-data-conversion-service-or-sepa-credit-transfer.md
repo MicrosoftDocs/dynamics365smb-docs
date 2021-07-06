@@ -1,6 +1,6 @@
 ---
     title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
-    description: Process payments to your vendors by exporting a file together with the payment information from the journal lines.
+    description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/13/2021
+    ms.date: 07/06/2021
     ms.author: bholtorf
 
 ---

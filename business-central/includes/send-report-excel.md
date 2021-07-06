@@ -1,0 +1,2 @@
+> [!TIP]
+> **What about reports?** Well, you can export the report results to an Excel file for viewing the full dataset, including all columns. The Excel file can help you validate that the report returns the expected data. To export a report, run the report and select the **Send to** > **Microsoft Excel Document (data only)**  on the request page. For more information, see [Working with Reports - Send to Excel](../ui-work-report.md#send-to-excel).

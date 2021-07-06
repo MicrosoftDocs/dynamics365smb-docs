@@ -46,6 +46,9 @@ For example, if you dispose of a fixed asset where the depreciation book does no
     > [!NOTE]  
     >   When you use the manual depreciation method, you must enter depreciation manually in the fixed asset G/L journal. The **Calculate Depreciation** function omits fixed assets that use the manual depreciation method. You can use this method for assets that are not subject to depreciation, such as land.
 
+    > [!NOTE]  
+    > When you use the user-defined depreciation method, you need to assign the depreciation book in a different way. For more information, see [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
+
 ## To assign a depreciation book to multiple fixed assets with a batch job
 If you want to assign a depreciation book to several fixed assets, you can use the **Create FA Depreciation Books** batch job to create fixed asset depreciation books.  
 

@@ -54,8 +54,8 @@ To set this up, you assign responsibility centers to users in three functional a
 ## See Also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)
-[Inventory](inventory-manage-inventory.md)[Warehouse Management](warehouse-manage-warehouse.md)  
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Inventory](inventory-manage-inventory.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

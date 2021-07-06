@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Viewing and Editing in Excel From Business Central
 
-With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel. To do this, you have two options. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. The differences between the two actions are as follows:  
+With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel. To do this, you have two options. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the differences between the two actions.
 
 ## Open in Excel
 
@@ -26,6 +26,8 @@ With pages that display a list of records in rows and columns, like a list of cu
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
 
 ## Edit in Excel
 

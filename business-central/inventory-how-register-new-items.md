@@ -100,6 +100,8 @@ If your organization later sets up warehouse management, in most cases, you must
 
 When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
 
+For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
+
 ## See Also
 
 [Inventory](inventory-manage-inventory.md)  
@@ -111,9 +113,11 @@ When your company uses the supply planning processes in [!INCLUDE [prod_short](i
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [About Planning Functionality](production-about-planning-functionality.md)  
+[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)  
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-
+[Design Details: Planning Parameters](design-details-planning-parameters.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

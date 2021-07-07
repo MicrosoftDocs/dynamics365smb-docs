@@ -14,15 +14,17 @@ ms.author: jswymer
 ---
 # Viewing and Editing in Excel From Business Central
 
-With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel. To do this, you have two options. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the differences between the two actions.
+With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can also view the records using Microsoft Excel. Depending on the page, you have two options for viewing in Excel. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the differences between the two actions.
 
 ## Open in Excel
 
+With the **Open in Excel** action, you can make changes to the records in Excel, but you can't publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. You can only save the changes to Excel file on your computer.
+
 - With this action, Excel respects any filters on the page that limit the records shown. The Excel workbook will contain the same rows and columns that appear on the page in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- You can make changes to the records in Excel, but you cannot publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]. You can only save the changes to Excel file on your computer.
-
 - This action works on both on Windows and macOS.
+
+- Starting with update 18.3, you can also view lists that are shown in page parts, like the lines in a sales order. For now, this capability is an optional feature, which requires that you enable **Export any list part to Excel** in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
@@ -31,9 +33,9 @@ With pages that display a list of records in rows and columns, like a list of cu
 
 ## Edit in Excel
 
-- With this action, Excel respects most filters on the page that limit the records shown, so the Excel workbook will contain almost the same records and columns.
+With the **Edit in Excel** action, you make changes to records in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- The advantage of the **Edit in Excel** action is that it lets you make changes to records in Excel and then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)].
+- With this action, Excel respects most filters on the page that limit the records shown, so the Excel workbook will contain almost the same records and columns.
 
 - It only works on Windows; not macOS.
 

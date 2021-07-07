@@ -658,6 +658,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "business-central/LocalFunctionality/France/how-to-set-up-payment-statuses.md",
+            "redirect_url": "how-to-set-up-payment-classes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/France/how-to-set-up-payment-steps.md",
+            "redirect_url": "how-to-set-up-payment-classes",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "business-central/design-details-dimension-set-entries.md",
             "redirect_url": "design-details-dimension-set-entries-overview",
             "redirect_document_id": false

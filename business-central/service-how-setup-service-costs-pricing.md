@@ -1,6 +1,6 @@
 ---
-    title: Set Up Pricing and Costs for Services | Microsoft Docs
-    description: Learn how to set up prices and additional costs for services.
+    title: Set Up Pricing and Costs for Services
+    description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: service, cost, service order
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

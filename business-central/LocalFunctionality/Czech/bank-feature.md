@@ -1,18 +1,18 @@
 ---
-title: Czech Local Functionality - Bank feature| Microsoft Docs
-description: This section describes Czech local functionality - Bank feature
+title: Czech Local Functionality - Bank feature
+description: This feature provides improved efficiency and prevents users from making mistakes when entering the customer and vendor bank account data.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Local Banking Feature
-This feature provides improved efficiency and prevents user from making mistakes during entering the customer and vendor bank account data by capturing the bank specific information and eliminating the need to re-enter it every time. Such functionality is needed even more as more bank transactions are executed electronically.
+# Local Banking Feature in the Czech Version
+This feature provides improved efficiency and prevents users from making mistakes when entering the customer and vendor bank account data by capturing the bank specific information and eliminating the need to re-enter it every time. Such functionality is needed even more as more bank transactions are executed electronically.
 
 ## Banking Setup
 The new banking setup introduces:

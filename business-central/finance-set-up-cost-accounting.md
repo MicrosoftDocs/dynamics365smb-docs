@@ -1,6 +1,6 @@
 ---
-    title: Setting Up Cost Accounting | Microsoft Docs
-    description: Before you start working with cost accounting, you must perform setup tasks.
+    title: Setting Up Cost Accounting
+    description: Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

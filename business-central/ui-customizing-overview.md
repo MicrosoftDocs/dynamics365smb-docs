@@ -1,6 +1,6 @@
 ---
-title: Customizing Business Central | Microsoft Docs
-description: Learn about customizing Business Central and adding functionality.
+title: Customizing Business Central
+description: Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

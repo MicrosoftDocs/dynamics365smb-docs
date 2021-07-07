@@ -1,6 +1,6 @@
 ---
-title: Reconcile Bank Accounts| Microsoft Docs
-description: Describes how your inventory value is reconciled with the general ledger.
+title: Reconcile Bank Accounts
+description: This describes how to perform bank reconciliation with the **Bank Acc. Reconciliation** page; how your inventory value is reconciled with the general ledger.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---

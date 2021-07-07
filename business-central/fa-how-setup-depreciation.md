@@ -1,12 +1,12 @@
 ---
 title: Set Up FA Depreciation
-description: You specify in a depreciation book how you want fixed assets to be depreciated or written-down.
+description: There are various methods of depreciation. In Business Central you define an asset's depreciation method on the **Fixed Asset Card** page.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
 ---
 
@@ -46,6 +46,9 @@ For example, if you dispose of a fixed asset where the depreciation book does no
     > [!NOTE]  
     >   When you use the manual depreciation method, you must enter depreciation manually in the fixed asset G/L journal. The **Calculate Depreciation** function omits fixed assets that use the manual depreciation method. You can use this method for assets that are not subject to depreciation, such as land.
 
+    > [!NOTE]  
+    > When you use the user-defined depreciation method, you need to assign the depreciation book in a different way. For more information, see [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
+
 ## To assign a depreciation book to multiple fixed assets with a batch job
 If you want to assign a depreciation book to several fixed assets, you can use the **Create FA Depreciation Books** batch job to create fixed asset depreciation books.  
 
@@ -78,6 +81,13 @@ For each depreciation book, you define a default setup of templates and batches.
 2. Select the depreciation book that you want to define default journals for, and then choose the **FA Journal Setup** action.  
 3. If you want to have a default setup for each user, choose the **User ID** field to select from the **Users** page.  
 4. In the other fields, select the journal template or journal batch that must be used by default.  
+
+## Fiscal Year 365 Days Field Depreciation
+
+When the Calculate Depreciation batch job calculates depreciations, the batch job normally uses a standardized year of 360 days where each of the 12 months has 30 days.
+
+If you select this field, the Calculate Depreciation batch job uses the calendar year of 365 days instead, where each month is calculated with the same number of days as in the calendar. The only exception is February in leap years, which the batch job will treat as having 28 days and not 29. Because of that, all years, also leap years, are considered to have 365 days.
+
 
 ## See Also
 [Setting Up Fixed Assets](fa-setup.md)  

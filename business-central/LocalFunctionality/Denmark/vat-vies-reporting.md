@@ -1,6 +1,6 @@
 ---
-    title: VAT-VIES Reporting | Microsoft Docs
-    description: Danish companies must submit VAT declarations for trade of goods or services with other EU countries/regions. You can create the required file by using the VAT- VIES Declaration Disk batch job.
+    title: VAT-VIES Reporting [DK]
+    description: You can create the required VAT declarations for trade of goods or services file by using the VAT- VIES Declaration Disk batch job.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# VAT-VIES Reporting
+# VAT-VIES Reporting in the Danish Version
 Danish companies must submit VAT declarations for trade of goods or services with other EU countries/regions. You can create the required file by using the **VAT- VIES Declaration Disk** batch job.  
 
 ## Reporting EU Sales  

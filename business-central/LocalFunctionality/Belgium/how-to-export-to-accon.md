@@ -1,5 +1,5 @@
 ---
-    title: How to Export to Accon
+    title: How to Export to Accon [BE]
     description: The Link to Accon report lets you create a file that can be imported into ACCON Plus to generate an annual income statement.
 
     services: project-madeira 
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Export to Accon
+# Export to Accon in the Belgian Version
 The **Link to Accon** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  
 
 ## To export the Link to Accon report  

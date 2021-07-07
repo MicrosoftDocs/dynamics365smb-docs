@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Inbound Warehouse Flow | Microsoft Docs
-    description: The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.
+    title: Design Details - Inbound Warehouse Flow
+    description: Inbound warehouse flow begins when items arrive in the warehouse company location. Items are registered and eventually matched to inbound source documents.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

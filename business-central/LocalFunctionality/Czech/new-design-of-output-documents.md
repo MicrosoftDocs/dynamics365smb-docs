@@ -6,13 +6,13 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# New Design of Output Documents
+# New Design of Output Documents in the Czech Version
 
 A new set of printed reports for external documents is created. All documents have the same layout design (headers, footers, font type and size, etc.).
 Additionally to standardization, Dynamics NAV documents were extended according to all requirements required by the Czech legislation:  

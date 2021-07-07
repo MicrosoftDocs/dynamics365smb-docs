@@ -1,6 +1,6 @@
 ---
-title: Set Up Employees and Modify Information| Microsoft Docs
-description: Describes how to register new personnel or edit information for existing staff.
+title: Set Up Employees and Modify Information
+description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Skip Update SKU on Posting
+# Skip Update SKU on Posting in the Czech Version
 
 Skip Update SKU on Posting
 

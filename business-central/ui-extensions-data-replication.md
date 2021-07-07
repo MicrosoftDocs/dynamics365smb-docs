@@ -1,6 +1,6 @@
 ---
 title: Cloud Migration Extensions
-description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud so you can use Business Central online with your existing data.
+description: Use the cloud migration extensions to migrate your on-premises data to Business Central online. These extensions move your on-premises data to the cloud.
 author: jenolson
 
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

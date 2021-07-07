@@ -1,6 +1,6 @@
 ---
-    title: How to Subcontract Manufacturing | Microsoft Docs
-    description: When the purchase order has been created from the subcontractor worksheet, then it can be posted.
+    title: How to Subcontract Manufacturing
+    description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work center fields and routing.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---

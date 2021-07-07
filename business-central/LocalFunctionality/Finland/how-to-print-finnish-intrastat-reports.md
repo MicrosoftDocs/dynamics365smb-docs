@@ -1,6 +1,6 @@
 ---
     title: How to Print Finnish Intrastat Reports
-    description: Companies in the European Union (EU) must report the extent of their trade with other EU countries/regions according to specific rules. You must report the movement of goods to the Intrastat authorities in their respective countries/regions.
+    description: The following topic explains how to print Finnish Intrastat Reports to report the movement of goods to the Intrastat authorities.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

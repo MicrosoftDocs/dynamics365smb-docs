@@ -1,6 +1,6 @@
 ---
-    title: How to Manage Company Configuration in a Worksheet | Microsoft Docs
-    description: The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.
+    title: How to Manage Company Configuration in a Worksheet
+    description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

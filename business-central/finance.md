@@ -1,6 +1,6 @@
 ---
 title: Financial Management
-description: Learn about how Business Central supports your needs for financial management, accounting, auditing, or bookkeeping.
+description: Learn about how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
-# Finance
+# Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration of most financial processes, but you can change the configuration to suit your business. For more information, see [Setting Up Finance](finance-setup-finance.md).
 
@@ -40,14 +40,14 @@ The following table describes a sequence of tasks, with links to the topics that
 | Assign extra costs, such as freight and physical handling that you incur during trade, to the involved items so that the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 |Post employees' personal expenses for business-related activities and reimburse employees by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 | Recognize revenues and expenses in other periods than when the transactions were posted. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
-| Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Recurring (subscription) Revenue](finance-recurring-invoicing.md)|
+| Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 |Use functions to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to the tax authorities.|[Work with VAT on Sales and Purchases](finance-work-with-vat.md)|
 |Prepare a report that lists VAT from sales, and submit the report to tax authorities in the EU. | [Report VAT to Tax Authorities](finance-how-report-vat.md)|
 |Manually convert service contracts to change their VAT rate.|[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)|
 | Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
-|Follow and end-to-end procedure on using use account schedules to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Follow an end-to-end procedure on how to use account schedules to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Work with financial statements and overviews in Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 |Learn how to use the Accountant Role Center, invite an external accountant, and use the Company Hub to manage accounts for multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
 

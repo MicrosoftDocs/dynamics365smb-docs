@@ -1,6 +1,6 @@
 ---
-    title: Understanding Assemble to Order and Assemble to Stock | Microsoft Docs
-    description: Assembly items can be supplied either by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
+    title: Understanding Assemble to Order and Assemble to Stock
+    description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: bholtorf
 
 ---

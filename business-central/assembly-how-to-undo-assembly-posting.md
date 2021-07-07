@@ -1,6 +1,6 @@
 ---
-    title: How to Undo Assembly Posting | Microsoft Docs
-    description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected, or because it should not have been posted in the first place and must be rolled back.
+    title: How to Undo Assembly Posting
+    description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: kit, kitting
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

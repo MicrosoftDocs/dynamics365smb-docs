@@ -1,6 +1,6 @@
 ---
-    title: Create Invoices or Credit Memos for Services | Microsoft Docs
-    description: Learn how to create invoices, so you can get paid for your service.
+    title: Create Invoices or Credit Memos for Services
+    description: Learn how to use Business Central to seamlessly create credit invoices and credit memos for your services.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: bholtorf
 
 ---

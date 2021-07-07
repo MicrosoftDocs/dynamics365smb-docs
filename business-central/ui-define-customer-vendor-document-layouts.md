@@ -1,6 +1,6 @@
 ---
-title: Assign Special Document Layouts to Customers or Vendors| Microsoft Docs
-description: When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question.
+title: Assign Customers or Vendors Document Layouts
+description: When custom report layouts are defined, you can select them from customer and vendor cards to specify they aer used for the customer or vendor in question.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

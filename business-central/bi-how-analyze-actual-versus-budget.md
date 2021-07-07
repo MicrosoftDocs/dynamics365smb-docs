@@ -1,6 +1,6 @@
 ---
-title: Analyze Actual Versus Budget| Microsoft Docs
-description: Describes how to analyze actual amounts versus budgeted amounts.
+title: Analyze Actual Versus Budget
+description: This topic describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,14 +11,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
 # Analyze Actual Amounts Versus Budgeted Amounts
 As a part of gathering, analyzing, and sharing your company data, you view actual amounts compared to budgeted amounts for all accounts and for several periods.
 
-To analyze budgeted amounts, you must first create G(L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
+To analyze budgeted amounts, you must first create G/L budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
 ## To view a G/L budget
 In a budget with dimensions, you can filter the entries and see specific budgets.

@@ -1,6 +1,6 @@
 ---
-title: Setting up Cash Flow Analysis| Microsoft Docs
-description: Set up the charts on the Accounts Role Center to help analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
+title: Setting up Cash Flow Analysis
+description: Use Accounts Role Center charts to analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
 
 ---

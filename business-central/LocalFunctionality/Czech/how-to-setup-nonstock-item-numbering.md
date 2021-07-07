@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Nonstock Item Numbering
+# Nonstock Item Numbering in the Czech Version
 
 Nonstock Item Numbering
 

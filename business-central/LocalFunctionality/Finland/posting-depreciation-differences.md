@@ -1,6 +1,6 @@
 ---
-    title: Posting Depreciation Differences
-    description: In Finland, certain depreciation methods are commonly used for fixed assets.
+    title: Posting Depreciation Differences [FI]
+    description: How to post the difference in accumulated depreciation between the different depreciation methods be calculated and posted to the general ledger.  
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Posting Depreciation Differences
+# Posting Depreciation Differences in the Finnish Version
 In Finland, the following depreciation methods are commonly used for fixed assets:  
 
 - Straight-line depreciation which posts fixed assets to the general ledger.  

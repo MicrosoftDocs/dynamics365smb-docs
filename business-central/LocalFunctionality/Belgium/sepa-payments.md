@@ -1,6 +1,6 @@
 ---
-    title: SEPA Payments
-    description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries. This makes international payments as easy to process as domestic payments. Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.
+    title: SEPA Payments [BE]
+    description: Single Euro Payments Area (SEPA) unifies payment methods in participating European countries and international payments as easy to process as domestic payments. 
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# SEPA Payments
+# SEPA Payments in the Belgian Version
 The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries. This makes international payments as easy to process as domestic payments. Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.  
 
 ## See Also

@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Inventory – G/L Reconciliation Enhancements
+# Inventory – G/L Reconciliation Enhancements in the Czech Version
 
 Since the Czech localized application contains modifications in the inventory posting (special Account for rounding functionalities and special intermediate WIP accounts), this must also be included in the **Inventory – G/L Reconciliation** matrix form.  
 These modifications have been introduced to the interface and the calculation procedures have been modified.

@@ -1,6 +1,6 @@
 ---
-title: Create and Manage Interactions with Contacts| Microsoft Docs
-description: In Business Central, interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.
+title: Create and Manage Interactions with Contacts
+description: In Business Central, interactions are all types of communications between your company and your contacts. Read about the ways to create and manage your contacts.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,11 +11,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---
-# Managing Interactions
+# Managing Interactions with your Contacts
 In [!INCLUDE[prod_short](includes/prod_short.md)], interactions are all types of communications between your company and your contacts. For example, communications can be email, letter, telephone, meetings, and so on.
 
 You can record all the interactions that you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.

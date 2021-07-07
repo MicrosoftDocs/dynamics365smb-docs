@@ -1,5 +1,5 @@
 ---
-    title: How to Calculate Proportional VAT
+    title: How to Calculate Proportional VAT [NO]
     description: You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT.
 
     services: project-madeira 
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Calculate Proportional VAT
+# Calculate Proportional VAT in the Norwegian Version
 You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT. Because it is difficult to know where and how an item is used, you will have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  
 
 ### To calculate proportional VAT  

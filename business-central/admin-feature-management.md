@@ -5,11 +5,11 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: mikebc
 ---
 
-# Enabling Upcoming Features Ahead of Time
+# Enabling New and Upcoming Features Ahead of Time
 
 Some new features can be enabled ahead of time, letting you take advantage of them as early as possible. Enabling features early gives you the time to test and prepare your organization for change.
 

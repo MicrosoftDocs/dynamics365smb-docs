@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Managing Projects with Jobs | Microsoft Docs
-    description: This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.
+    title: Walkthrough - Managing Projects with Jobs
+    description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
 # Walkthrough: Managing Projects with Jobs
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 This walkthrough introduces you to the project management features in jobs. Jobs are a way for you to schedule the usage of your company's resources and to keep track of the various costs associated with the resources on a specific project. Jobs involves the consumption of employee hours, machine hours, inventory items, and other types of usage that you may want to track as a job progresses.  
 
@@ -60,11 +60,11 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 ## Prerequisites  
  Before you can perform the tasks in the walkthrough, you must do the following:  
 
-- Install the CRONUS International Ltd. demonstration database.
+- Install the CRONUS demonstration database.
 - Create sample data by using the steps in the following section.  
 
 ## Story  
-This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
+This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
 

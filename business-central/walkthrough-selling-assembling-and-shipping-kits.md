@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Selling, Assembling, and Shipping Kits | Microsoft Docs
-    description: To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.
+    title: Selling, Assembling, and Shipping Kits
+    description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
 # Walkthrough: Selling, Assembling, and Shipping Kits
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 To support just-in-time inventory and the ability to customize products to customer requests, assembly orders can be automatically created and linked as soon as the sales order line is created. The link between the sales demand and the assembly supply enables sales order processors to customize the assembly item and promise delivery dates according to component availability. In addition, assembly consumption and output are posted automatically with the shipment of the linked sales order.  
 
@@ -103,7 +103,7 @@ Remove the default lead time for internal processes by following these steps:
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manufacturing Setup**, and then choose the related link.  
 2.  On the **Manufacturing Setup** page, on the **Planning** FastTab, remove the value in the **Default Safety Lead Time** field.  
 
-Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## Story  
 On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
@@ -439,7 +439,7 @@ When the sales order is later posted as fully invoiced, the sales order and the 
  [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)   
  [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   
  [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   
- [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

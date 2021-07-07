@@ -1,6 +1,6 @@
 ---
-title: Dispose or Retire FA| Microsoft Docs
-description: You must post a disposal value when you scrap, sell, or retire a fixed asset.
+title: Dispose or Retire FA
+description: When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss. 
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---

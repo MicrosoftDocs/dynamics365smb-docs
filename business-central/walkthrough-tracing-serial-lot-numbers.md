@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Tracing Serial-Lot Numbers | Microsoft Docs
-    description: This topic describes the actions to take to stop selling a defective item.
+    title: Walkthrough - Tracing Serial-Lot Numbers
+    description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: bholtorf
 
 ---
 # Walkthrough: Tracing Serial/Lot Numbers
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 When product defects occur, the errors must be identified and affected items must be prevented from leaving the company. If defective items have already been shipped, you must trace who received them and, if you need to, recall the items.  
 
@@ -47,7 +47,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 To complete this walkthrough, you will need:  
 
 - The [!INCLUDE[prod_short](includes/prod_short.md)] company.  
-- To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data)..  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## Story
 

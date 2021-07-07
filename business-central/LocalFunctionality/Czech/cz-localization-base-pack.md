@@ -1,21 +1,21 @@
 ---
-title: Core Localization Base Pack for Czech
-description: This section describes Core Localization Base Pack for Czech extension functionality.
+title: Core Localization Base Pack [CZ]
+description: This section describes Core Localization Base Pack for Czech extension that helps companies meet their requirements.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: edupont
 ms.author: v-pejano
 ---
 
-# Core Localization Pack for Czech (Base)
+# Core Localization Pack for Czech (Base) in the Czech Version
 
-Solution helps companies with the requirements of Czech accounting and tax legislation and best practices.  
+The solution helps companies meet the requirements in Czech accounting, tax legislation and best practices.  
 
-The application adds legislation requirements of Czechia as well as reporting features to Business Central in the following areas:
+The application adds legislation requirements as well as reporting features to Business Central in the following areas:
 
 - Finance  
 - VAT  

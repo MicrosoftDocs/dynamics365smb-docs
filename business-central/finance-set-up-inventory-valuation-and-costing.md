@@ -1,12 +1,12 @@
 ---
-    title: Set Up Inventory Valuation and Costing | Microsoft Docs
-    description: The following table describes a sequence of tasks, with links to the topics that describe them.
+    title: Set Up Inventory Valuation and Costing
+    description: To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.
     author: SorenGP
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
     title: Withholding Tax in the New Zealand version
-    description: Describes how withholding tax (WHT) works in New Zealand.
+    description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: bholtorf
 
 ---

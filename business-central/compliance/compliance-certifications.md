@@ -1,6 +1,6 @@
 ---
     title: Certifications of the service
-    description: This content contains information about certifications in relation to Business Central.
+    description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
     author: sorenfriisalexandersen
     
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: soalex
 
 ---

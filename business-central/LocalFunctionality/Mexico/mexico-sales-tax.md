@@ -1,6 +1,6 @@
 ---
-title: Setting Up Tax Groups, Areas, and Jurisdictions in Mexico
-description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
+title: Reporting Sales Tax in Mexico
+description: Learn how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Mexico.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
 
 ---

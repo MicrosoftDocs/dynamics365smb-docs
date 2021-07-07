@@ -1,6 +1,6 @@
 ---
     title: Swiss Purchase Documents and Sales Documents
-    description: Swiss enhancements include special purchase and sales document features.    
+    description: This article describes enhancements made to the Swiss version of Business Central including special Swiss purchase document and sales document features.    
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---

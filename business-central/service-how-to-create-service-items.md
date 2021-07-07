@@ -1,6 +1,6 @@
 ---
-    title: How to Create Service Items | Microsoft Docs
-    description: When you receive an unregistered item for servicing, you can register it as a service item.
+    title: How to Create Service Items
+    description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---

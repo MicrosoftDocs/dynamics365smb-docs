@@ -1,6 +1,6 @@
 ---
     title: How to Set Up Multiple Interest Rates
-    description: You can calculate finance charges with multiple interest rates for a specific period. The interest calculation is similar for all financial charges, with variation only in the rate of interest for a specific period.
+    description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period. 
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---

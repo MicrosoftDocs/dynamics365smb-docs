@@ -1,9 +1,7 @@
 ---
-title: Setting Up Additional Currencies| Microsoft Docs
+title: Set Up Additional Currencies
 description: Your general ledger is set up to use your local currency (LCY), and another currency is set up as an additional currency, with a current exchange rate assigned.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -16,12 +14,15 @@ ms.author: edupont
 
 ---
 # Set Up an Additional Reporting Currency
+
 As companies operate in increasingly more countries/regions, it becomes more important that they are able to review and report financial data in more than one currency.
 
 Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
-> The Additional Reporting Currency functionality should not be used as a basis for financial statement translation. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company’s local currency.
+> The Additional Reporting Currency functionality should not be used as a basis for financial statement translation unless you understand the limitations. It is not a tool that can perform translation of foreign subsidiary financial statements as part of a company consolidation. The additional reporting currency can only be used to prepare reports in another currency, as if that currency was the company's local currency.
+>
+> For example, you have a large amount of accounts receivable in British pounds (GBP), and you have set up your additional reporting currency (ACY) to be GBP. In this scenario, amounts in the accounts receivable that use GBP will not be adjusted for currency exchange gains/losses in the ACY, only amounts in the accounts receivable that are in other currencies. That means that if you use ACY to report your financial statements, it might result in understated or overstated outstanding balances of accounts receivable.
 
 ## Displaying Reports and Amounts in the Additional Reporting Currency
 Using an additional reporting currency can assist the reporting process for a company in the following cases:

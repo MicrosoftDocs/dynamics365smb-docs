@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Basic Warehouses with Operations Areas | Microsoft Docs
-    description: If internal operation areas such as production or assembly exist in basic warehouse configurations where locations use the **Bin Mandatory** setup field and possibly the **Require Pick** and **Require Put-away** setup fields, then you use three basic warehouse documents to record your warehouse activities for internal operation areas.
+    title: Set Up Basic Warehouses with Operations Areas
+    description: Set up warehouse operations areas and use inventory movements, picks and put-aways to move goods between them.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

@@ -1,7 +1,6 @@
 ---
-    title: How to Print the Intrastat Form Report
-    description: The Intrastat - Form report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.
-
+    title: How to Print the Intrastat Form Report [BE]
+    description: The Intrastat - Form report must be used for reporting to Intrastat to report the movement of goods.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -10,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Print the Intrastat Form Report
+# Print the Intrastat Form Report in the Belgian Version
 The **Intrastat - Form** report must be used for reporting to Intrastat. In Belgium, you must report the movement of goods to the statistics authorities every month, and the report must be sent to the tax authorities.  
 
 Before you print the **Intrastat - Form** report, you can also print the **Intrastat Checklist** report to verify the contents of the report.  

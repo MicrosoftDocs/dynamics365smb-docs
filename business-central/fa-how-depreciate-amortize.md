@@ -1,6 +1,6 @@
 ---
-title: Depreciate or Amortize FA| Microsoft Docs
-description: You must define how you will write-down, depreciate, or amortize each of your fixed assets.
+title: Depreciate or Amortize FA
+description: You must define how you will write-down, depreciate, or amortize each of your fixed assets, such as machinery and equipment, over their depreciable life.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
 
 ---
@@ -42,6 +42,9 @@ Once a month, or whenever you choose, you can run the **Calculate Depreciation**
 
     On the **Fixed Asset G/L Journal** page, in the **No. of Depreciation Days** field, you can see how many days of depreciation have been calculated.  
 5. Choose the **Post** action.  
+
+> [!NOTE]
+> If you select the **Use Force No. of Days** field, and the **Force No. of Days** field is set to a value that result in the posting date minus the value of the **Number of Days** fields is a date in the previous calendar year, you cannot post the depreciation. The workaround is to reduce the value of the **Force No. of Days** to no more than than the calculated days until posting date using 30 days/month OR select the **Fiscal Year 365 Days** field on the depreciation book. We recommend the first option as you may not want to change the use of 30 days/months for depreciation. For more information, see [Fiscal Year 365 Days Field Depreciation](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 ## To post depreciation manually from the fixed asset G/L journal
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  

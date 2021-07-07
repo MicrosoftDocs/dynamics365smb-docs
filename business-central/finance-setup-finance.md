@@ -1,6 +1,6 @@
 ---
-title: Set Up Financial Processes| Microsoft Docs
-description: Learn about the tasks to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
+title: Set Up Financial Processes
+description: Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---

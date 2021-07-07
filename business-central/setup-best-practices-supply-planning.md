@@ -1,6 +1,6 @@
 ---
-    title: Setup Best Practices - Supply Planning | Microsoft Docs
-    description: Supply planning is a critical business area. When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
+    title: Setup Best Practices - Supply Planning
+    description: When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

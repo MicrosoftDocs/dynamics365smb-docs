@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Planning Parameters | Microsoft Docs
-    description: This topic describes the different planning parameters that you can use in Business Central.
+    title: Design Details - Planning Parameters
+    description: This topic describes the different planning parameters that you can use and how they affect the planning system.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: planning, design
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

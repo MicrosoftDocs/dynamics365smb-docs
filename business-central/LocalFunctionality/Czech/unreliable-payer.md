@@ -1,5 +1,5 @@
 ---
-title: Czech Local Functionality - Unreliable payer
+title: Czech Local Functionality - Unreliable payer [CZ]
 description: This feature uses treasury department service to obtain published information and indicate payer status on vendor cards and purchase documents.
 author: v-pejano
 
@@ -12,7 +12,7 @@ ms.author: v-pejano
 ---
 
 
-# Unreliable Payer
+# Unreliable Payer in the Czech Version
 
 The amendment of VAT Law 235/2004 (§106a) introduced the concept of *Unreliable Payer*. The treasury department is obliged to publish the names of unreliable payers.
 

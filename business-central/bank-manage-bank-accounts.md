@@ -1,5 +1,5 @@
 ---
-title: Manage Bank Accounts| Microsoft Docs
+title: Manage Bank Accounts
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
 author: SorenGP
 
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---
-# Reconciling Bank Accounts
+# Manage and Reconcile Your Bank Accounts
 
 A bank reconciliation should be completed at regular intervals for all your bank accounts to ensure that the company's cash records are correct. You do this by comparing and matching entries in your internal bank accounts with bank transactions at your bank, and then posting the balances to your internal bank accounts to make totals available to finance managers. Bank reconciliation is also a practical way to discover and resolve missing payments and bookkeeping errors.
 

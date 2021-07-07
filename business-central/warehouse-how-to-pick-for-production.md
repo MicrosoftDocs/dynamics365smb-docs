@@ -1,6 +1,6 @@
 ---
-    title: Pick for Production or Assembly in Basic Warehouse Configurations
-    description: When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** page to organize and record the picking of components.
+    title: Pick Production or Assembly in Basic Warehouse
+    description: When your warehouse location requires pick processing but not shipment processing, use the Inventory Pick page to organize and record picking the components.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---

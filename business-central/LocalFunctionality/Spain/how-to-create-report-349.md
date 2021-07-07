@@ -1,6 +1,6 @@
 ---
-    title: How to Create Report 349
-    description: You must submit a periodic report of trade with other EU countries/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD-ROM.
+    title: How to Create Report 349 [ES]
+    description: Read about how to use the Spanish version of Business Central to electronically submit the Report 349 declaration to the tax authorities.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Create Report 349
+# Create Report 349 in the Spanish Version
 You must submit a periodic report of trade with other EU countries/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD-ROM. For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website.  
 
 ## To create Report 349  

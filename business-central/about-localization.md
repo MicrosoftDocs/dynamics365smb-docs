@@ -1,6 +1,6 @@
 ---
-title: Local functionality in Business Central
-description: Learn about local availability and regulatory compliance of Business Central for the countries where Microsoft provides the local functionality.
+title: Local functionality and localization strategy
+description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
 
 ---
@@ -47,6 +47,7 @@ To learn about the local functionality for each country/region, choose the relat
 |        | United States|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia Pacific |       |  |
 |        | Australia | [Australia Local Functionality](localfunctionality/australia/australia-local-functionality.md) |
+|        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### Other Countries

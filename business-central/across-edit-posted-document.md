@@ -1,6 +1,6 @@
 ---
-title: Edit Posted Sales and Purchase Documents | Microsoft Docs
-description: Learn about the different posting functions to post purchase documents, and how you can update posted documents.
+title: Edit Posted Sales and Purchase Documents
+description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed. 
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
 
 ---

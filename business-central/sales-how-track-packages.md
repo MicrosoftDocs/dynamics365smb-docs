@@ -1,12 +1,12 @@
 ---
-title: How to Track Packages | Microsoft Docs
-description: Use the shipping agents tracking service to see the progress of a delivery.
+title: How to Track Packages
+description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

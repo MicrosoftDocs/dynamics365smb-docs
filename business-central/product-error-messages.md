@@ -32,7 +32,7 @@ If you are an administrator or superuser, you can help others by looking up erro
 ## See Also
 
 [Resources for Help and Support](product-help-and-support.md)  
-[Frequently Asked Questions](across-faq.md)  
+[Frequently Asked Questions](across-faq.yml)  
 [Tell Me FAQ](ui-search-faq.md)  
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Copy and Paste FAQ](faq-copy-paste.yml)  

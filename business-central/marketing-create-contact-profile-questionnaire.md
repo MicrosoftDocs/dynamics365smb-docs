@@ -1,6 +1,6 @@
 ---
-title: 'Use profiles to classify contacts'
-description: 'Set up profile questionnaires to help classify your business contacts'
+title: Use profiles to classify contacts
+description: Red about how to set up profile questionnaires to help classify your business contacts' profiles.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts

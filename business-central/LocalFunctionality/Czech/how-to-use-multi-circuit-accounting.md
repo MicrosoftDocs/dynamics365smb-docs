@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Localization, Finance  
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# G/L Account Group – Multi-circuit Accounting 
+# G/L Account Group – Multi-circuit Accounting in the Czech Version
 
 According to accounting standards, an accounting entity can post transactions within multiple internal accounting areas (Financial, Off-Balance, and Intercompany Accounting).
 To set up accounting areas in the system, the G/L Account Group field on the CoA account card is used. The system stops posting when it is posted to financial accounts with different accounting areas in a single accounting transaction.

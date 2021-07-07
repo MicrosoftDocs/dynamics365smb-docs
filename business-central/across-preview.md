@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2021
+ms.date: 06/07/2021
 ms.author: edupont
 
 ---
@@ -15,21 +15,25 @@ ms.author: edupont
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is available in an increasing number of countries across the world. If you want to learn about [!INCLUDE[prod_short](includes/prod_short.md)], you can sign up for a free trial. Then, when you are ready, you can talk to a reselling partner about getting a subscription.  
 
-If you are not already working with a partner, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+If you are not already working with a partner, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## Getting Started with a Trial
 
-You can sign up for a free trial [here](https://go.microsoft.com/fwlink/?linkid=847861). We recommend that you work with [a reselling partner](across-faq.md#findpartner) to help your organization get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
+You can sign up for a free trial [here](https://go.microsoft.com/fwlink/?linkid=847861). We recommend that you work with [a reselling partner](/dynamics365/business-central/across-faq#findpartner) to help your organization get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Depending on your country or region, the trial includes the languages and functionality that your country or region requires. For more information, see [Changing Language and Locale](about-locale-language.md).  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started page with links to assisted setup guides that can help you get started. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
-If you encounter difficulties, the [Frequently Asked Questions](across-faq.md) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](across-faq.md#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
+If you encounter difficulties, the [Frequently Asked Questions](across-faq.yml) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](/dynamics365/business-central/across-faq#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
+
+If you decide not to use [!INCLUDE [prod_short](includes/prod_short.md)], you can let the trial expire.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### Try Out Your Own Company
 
-If you want to try out [!INCLUDE[prod_short](includes/prod_short.md)] with your own data, you can switch to a free 30 day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE[prod_short](includes/prod_short.md)] with your own data. However, we recommend that you do not use a free trial to help run your business. Contact [a reselling partner](across-faq.md#findpartner) to learn more about how to get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
+If you want to try out [!INCLUDE[prod_short](includes/prod_short.md)] with your own data, you can switch to a free 30 day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE[prod_short](includes/prod_short.md)] with your own data. However, we recommend that you do not use a free trial to help run your business. Contact [a reselling partner](/dynamics365/business-central/across-faq#findpartner) to learn more about how to get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 If 30 days are not enough for you to decide, you can extend your trial. For more information, see [Need More Time to Decide Whether to Subscribe?](admin-extend-trial.md).  
 
@@ -64,7 +68,7 @@ If you have added data to your [!INCLUDE[prod_short](includes/prod_short.md)] fr
 
 ## Getting Started with a Subscription
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online uses Microsoft 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.  
 
@@ -79,17 +83,19 @@ If you are a developer, a sandbox lets you safely build and test extensions and 
 Right now, all customers can use a sandbox, including organizations who have signed up for a trial. For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
-> Sandboxes created this way contain demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.  
+> Sandboxes created this way contain demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.   
 
 The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and your reselling partner can create additional environments in the administration center. For more information, see [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+
 
 ## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Frequently Asked Questions](across-faq.md)  
-[How do I find a reselling partner?](across-faq.md#findpartner)  
+[Frequently Asked Questions](across-faq.yml)  
+[How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Choosing Your Dynamics 365 Business Central Development Sandbox Environment](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Extending trials (as an administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

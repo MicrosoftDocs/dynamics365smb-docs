@@ -33,6 +33,10 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 > [!TIP]
 > Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
+## External document number
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
 ## See Related Training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also

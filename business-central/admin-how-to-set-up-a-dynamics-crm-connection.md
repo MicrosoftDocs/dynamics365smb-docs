@@ -1,6 +1,6 @@
 ---
     title: Connect to Microsoft Dataverse
-    description: You can integrate other apps with Business Central through Microsoft Dataverse. This article provides tips and tricks for setting up the connections.
+    description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/26/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 
@@ -103,6 +103,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## Upgrade Connections from Business Central Online to Use Certificate-Based Authentication
+> [!NOTE]
+> This section is relevant only for Business Central online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
+
+In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March, 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants, and will require the use of certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online tenants that are hosted by ISVs, and on-premises installations, can continue to use the Office365 authentication that is set up by their Microsoft partner.
+
+To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March, 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
+
+### To upgrade your Business Central online connection to use certificate-based authentication
+> [!NOTE]
+> Certificate-based authentication is available in Business Central 2021 release wave 1 and later. If you are using an earlier version, you must schedule an update to Business Central 2021 release wave 1 before March, 2022. For more information, see [Scheduling updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). If you experience issues, contact your partner or support.
+
+1. In the [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
+2. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
+   * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
+   * If you don't, open the **Dataverse Connection Setup** page.
+3. Choose **Connection**, and then **Use Certificate Authentication** to upgrade the connection to use certificate based authentication.
+4. Sign in with administrator credentials for Dataverse. Sign in should take less than a minute.
+
+> [!NOTE]
+> You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## Connecting On-Premises Versions
 

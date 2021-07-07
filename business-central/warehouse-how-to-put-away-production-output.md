@@ -1,6 +1,6 @@
 ---
     title: Put Away Production Output
-    description: How you put away your output from production depends on how your warehouse is set up as a location.
+    description: How you put away your output from production depends on how your warehouse is set up as a location. Inventory put-away can be performed in the following ways.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

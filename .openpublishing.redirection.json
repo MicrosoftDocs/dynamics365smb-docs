@@ -619,12 +619,72 @@
         },
         {
             "source_path": "business-central/LocalFunctionality/Belgium/how-to-file-sepa-payments.md",
-            "redirect_url": "how-to-activate-sepa-payments",
+            "redirect_url": "belgian-electronic-payments",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md",
+            "redirect_url": "belgian-electronic-payments",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-activate-sepa-payments.md",
+            "redirect_url": "belgian-electronic-payments",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-set-up-domiciliations.md",
+            "redirect_url": "direct-debit-using-domiciliation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md",
+            "redirect_url": "direct-debit-using-domiciliation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-test-domiciliations.md",
+            "redirect_url": "direct-debit-using-domiciliation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md",
+            "redirect_url": "direct-debit-using-domiciliation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md",
+            "redirect_url": "direct-debit-using-domiciliation",
             "redirect_document_id": false
         },
         {
             "source_path": "business-central/design-details-dimension-set-entries.md",
             "redirect_url": "design-details-dimension-set-entries-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/production-how-to-plan-project-orders.md",
+            "redirect_url": "production-how-to-create-production-orders-from-sales-orders",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/localfunctionality/unitedkingdom/how-to-enter-external-document-numbers.md",
+            "redirect_url": "across-enter-external-document-numbers",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/assembly-setup-assembly-locations.md",
+            "redirect_url": "assembly-assemble-items",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md",
+            "redirect_url": "/dynamics-nav-app/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md",
+            "redirect_url": "/dynamics-nav-app/design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line",
             "redirect_document_id": false
         }
 

@@ -1,5 +1,5 @@
 ---
-    title: Print Payment Files in the Belgian Version
+    title: Export Payment Files in the Belgian Version
     description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file in the Belgian Version of Business Central.
     author: edupont04
 
@@ -10,11 +10,11 @@
     ms.author: edupont
 
 ---
-# Print Payment Files
+# Export Payment Files in the Belgian Version
 
-After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file.  
+After you have printed a test report and corrected all errors, you can export the payment journal lines to a payment file.  
 
-A payment file contains either domestic, international, SEPA, or non-euro SEPA payments. The file can be sent to a bank either on disk, by modem, or via Interbanks Standards Association Belgium (Isabel). You can create only one file for each posting date and each currency code. When you export the payments to a file, an accompanying note is printed, which can also be sent to the bank.  
+A payment file contains either domestic, international, SEPA, or non-euro SEPA payments. The file can be sent to a bank electronically. You can create only one file for each posting date and each currency code. When you export the payments to a file, an accompanying note is printed, which can also be sent to the bank.  
 
 In the payment journal, the **Status** field on the exported lines will be set to **Posted**.  
 
@@ -34,9 +34,7 @@ In the payment journal, the **Status** field on the exported lines will be set t
 
 5. If there are no errors, choose the **Export Payment Lines** action.  
 
-    The report that you specified in the **Test Report ID** field in the **EB Payment Journal Templates** will open.  
-
-6. Choose the **Print** button.  
+    The report that you specified in the relevant export protocol will process the payment lines and generate the file.  
 
 ## See Also
 

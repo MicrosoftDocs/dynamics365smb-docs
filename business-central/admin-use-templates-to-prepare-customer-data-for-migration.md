@@ -1,6 +1,6 @@
 ---
-    title: Prepare Customer Data Migration with Templates | Microsoft Docs
-    description: Learn how to use configuration templates to structure existing customer data before you migrate the data to the new company in Business Central.
+    title: Prepare Customer Data Migration with Templates
+    description: Learn how to use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

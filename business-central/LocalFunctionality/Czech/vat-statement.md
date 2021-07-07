@@ -6,13 +6,13 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# VAT Statement
+# VAT Statement in the Czech Version
 
 The VAT Statement report contains many improvements which enable the user to:
 

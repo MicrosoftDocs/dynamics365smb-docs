@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# VAT correction in Local Currency
+# VAT correction in Local Currency in the Czech Version
 
 The current system allows you to adjust input VAT only in the currency of the document, not in the local currency. According to domestic legislation, the conversion of the VAT amount to CZK must be stated on domestic documents issued in a foreign currency, and the recipient of the invoice is obliged to comply with these amounts. Therefore, the option to make a VAT correction in the local currency is added to the process of posting a purchase invoice, or to post this correction from an already posted document.
 

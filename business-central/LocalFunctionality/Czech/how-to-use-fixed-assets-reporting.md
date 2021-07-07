@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Fixed Assets Reporting | Microsoft Docs
+title: Czech Local Functionality - Fixed Assets Reporting
 description: This feature provides the following reports in order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies.
 author: v-pejano
 
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Fixed Assets Reporting
+# Fixed Assets Reporting in the Czech Version
 
 In order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies, this feature provides the following reports:
 

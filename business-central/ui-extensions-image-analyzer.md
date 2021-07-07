@@ -70,9 +70,9 @@ The **Action to perform** action has following options:
   * *Use as a category*
 
     The selected value is added as a category. For more information, see [Categorize Items](inventory-how-categorize-items.md)
-  * *Add to blacklist*
+  * *Add to blocklist*
 
-    If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, choose **View Blacklisted Attributes**, and then delete the attribute from the list.
+    If the analysis suggests an attribute that you do not want to see, you can block the attribute. Use caution, however. Blocked attributes are not suggested for other items either. If you regret blocking an attribute, choose **View Blocked Attributes**, and then delete the attribute from the list.
   
     > [!NOTE]  
     > By default **Item Attributes** displays attributes where **Confidence Score** is above **Confidence Score Threshold %** defined in the **Image Analyzer Setup**. To see all detected attributes, choose the **View All Attributes** action.

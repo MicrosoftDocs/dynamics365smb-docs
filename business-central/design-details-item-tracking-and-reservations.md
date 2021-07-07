@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Item Tracking and Reservations | Microsoft Docs
-    description: This topic talks about item tracking and reservations, and describes the concepts behind the two.
+    title: Design Details - Item Tracking and Reservations
+    description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

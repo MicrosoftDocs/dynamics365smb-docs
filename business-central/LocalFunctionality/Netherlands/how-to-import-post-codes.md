@@ -1,6 +1,6 @@
 ---
-    title: How to Import Post Codes
-    description: You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the Post Code Range table.
+    title: How to Import Post Codes [NL]
+    description: You can import a file that specifies post codes for marketing and relationship management activities. The data will be saved in the Post Code Range table.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Import Post Codes
+# Import Post Codes in the Dutch Version
 You can import a file that specifies post codes for marketing and relationship management activities. The post code data that you import will be saved in the **Post Code Range** table.  
 
 ## To import a post code file  

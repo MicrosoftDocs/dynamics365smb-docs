@@ -6,13 +6,13 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# Inventory Movement Templates
+# Inventory Movement Templates in the Czech Version
 
 Movements of items from item journals must be posted with the defined Inventory Adjmt. Account, that corresponds to the given type of movement.
 

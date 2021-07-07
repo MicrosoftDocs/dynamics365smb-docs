@@ -66,14 +66,18 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
+To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the additional telemetry in [Application Insights](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry#appinsights).  
+
 As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) and [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the administration content.  
 
 ## Report a Problem
 
-Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they have submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft. For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they have submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
+
+For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> This section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](across-faq.md#findpartner).  
+> This section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you do not have a reselling partner, and you cannot contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### Support contacts
 
@@ -159,7 +163,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 ## See Also
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[How do I find a reselling partner?](across-faq.md#findpartner)  
+[How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  

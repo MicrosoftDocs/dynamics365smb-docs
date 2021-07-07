@@ -1,6 +1,6 @@
 ---
-    title: How to Create Recurring Orders
-    description: The create recurring orders process will find all of the recurring orders based on the options selected on the Create Recurring Orders page and will create the new sales orders.
+    title: How to Create Recurring Orders [NO]
+    description: The create recurring orders process finds all recurring orders based on the options selected on the Create Recurring Orders page.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Create Recurring Orders
+# Create Recurring Orders in the Norwegian Version
 The create recurring orders process will find all of the recurring orders based on the options selected on the **Create Recurring Orders** page and will create the new sales orders. This is a periodic activity that you must run regularly.  
 
 ## To create recurring orders  

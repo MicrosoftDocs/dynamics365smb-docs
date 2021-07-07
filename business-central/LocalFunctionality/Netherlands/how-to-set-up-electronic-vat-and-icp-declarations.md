@@ -1,6 +1,6 @@
 ---
-    title: Set Up Electronic VAT and ICP Declarations
-    description: To get your Digipoort communications to work, you may have to adjust your network settings. Digipoort uses a secure communication protocol and requires using TCP port 443.
+    title: Electronic VAT and ICP Declarations [NL]
+    description: The following topic describes how to Set Up Electronic VAT and ICP Declarations in the Dutch Version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,16 +9,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/30/2021
     ms.author: edupont
 
 ---
-# Setting Up Electronic VAT and ICP Declarations
-To create electronic VAT and ICP declarations and communicate with the tax authorities, you must first set up general information about electronic tax declarations. Your company must be registered with the tax authorities before you can send electronic declarations.
+# Setting Up Electronic VAT and ICP Declarations in the Dutch Version
+To create electronic VAT and ICP declarations and communicate with the tax authorities, you must first set up general information about electronic tax declarations. Your company must be registered with the tax authorities before you can send electronic declarations. 
 
 When electronic declarations are set up, you can begin to declare VAT and ICP to the tax authorities. For more information, see [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).  
 
 ## To set up electronic declarations  
+
+First, make sure you have uploaded the certificates you need to communicate with Digipoort. This is done on the **Certificates** page. You will need a client and a service certificate. When they have been added to the list of certificates you can continue with setting up electronics declarations.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Declaration Setup**, and then choose the related link.  
 2. On the **Elec. Tax Declaration Setup** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
@@ -33,6 +35,8 @@ When electronic declarations are set up, you can begin to declare VAT and ICP to
 
 5. In the **Digipoort Delivery URL** field, specify the URL for the production version of the Digipoort Aanlever service. For more information, see [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
 6. In the **Digipoort Status URL** field, specify the URL for the status information that is coming from the Digipoort Statusinformatie service. For more information, see [Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md).
+7. In the **Client Certificate Code** field, specify the client certificate from list of certificates.
+8. In the **Service Certificate Code** field, specify the service certificate from the list of certificates.
 
 ## See Also  
  [Submitting Electronic VAT and ICP Declarations](electronic-vat-and-icp-declarations.md)  

@@ -39,7 +39,7 @@ With the **Edit in Excel** action, you make changes to records in Excel and then
 
 - It only works on Windows; not macOS.
 
-- You can switch the company that you are working with. To switch company, select the **Options** icon ![Excel add-in options](media/cogwheel.png "Excel add-in options") in the Excel Add-in pane, then select the company from the **Company** field.  
+- You can switch the company that you are working with. To switch company, select the **Options** icon ![Excel add-in options.](media/cogwheel.png "Excel add-in options") in the Excel Add-in pane, then select the company from the **Company** field.  
 
     > [!IMPORTANT]
     > When changing the company, make sure that the **Environment** field is not empty. If it is, then set it to one of the available options; otherwise, the add-in will not work correctly.  

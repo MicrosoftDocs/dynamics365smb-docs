@@ -17,7 +17,7 @@ In Russia, organizations are required to keep a journal of received and issued V
 
 ## To register VAT on a purchase order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Order**, and then choose the related link. Select the relevant purchase order.
 
 2. On the **Shipping** FastTab, fill in the fields as described in the following table.
 

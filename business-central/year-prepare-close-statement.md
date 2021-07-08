@@ -28,7 +28,7 @@ The following table describes a number of reports that may be useful in this pro
 | Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries. |**Account Schedule** |
 | Check whether customer and vendor ledger entries balance with corresponding general ledger entries. |**Reconcile Cust. and Vend. Accs** |
 
-To see a report, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
+To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, type the name as it appears in the table, and then choose the related link.
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  

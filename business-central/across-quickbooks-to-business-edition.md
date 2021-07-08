@@ -30,7 +30,7 @@ For more information, read about the extension that suits your QuickBooks app:
 * [The QuickBooks Online Data Migration Extension](ui-extensions-quickbooks-online-data-migration.md)
 
 ## Ready now?
-If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
+If you are ready to get started now, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link. Choose **Migrate business data**, and then follow the steps in the guide.
 
 ## See Also
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

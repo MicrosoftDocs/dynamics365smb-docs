@@ -18,7 +18,7 @@
 
 GST TCS can be liable on cash or bank payment from customer. The GST TCS entries which are not reversed will be part of settlement. Business user can reverse the GST TCS entries before settlement is posted. The GST TCS entries which have Credit Availed field 'TRUE' will be shown on settlement page. User can manually enter amount in GST TCS Credit Utilized field for utilizing against the liability.
  
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Fill in the fields as described on **Bank Receipt Voucher** or **Cash Receipt Voucher**.
     
     |Field|Description| 
@@ -73,7 +73,7 @@ User can reverse the GST TDS entries before certificate is received. An addition
 
 User can manually enter amount in GST TDS Credit Utilized field for utilizing against the liability.
  
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Fill in the fields as described on **Bank Receipt Voucher** or **Cash Receipt Voucher**.
     
     |Field|Description| 

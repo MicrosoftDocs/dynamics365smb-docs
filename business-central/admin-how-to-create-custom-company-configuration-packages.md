@@ -33,7 +33,7 @@ Another approach would be to create a package that includes the tables that defi
 -   VAT Posting Setup  
 -   Inventory Posting Setup  
 
-To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
+To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
 
 > [!IMPORTANT]
 > Use caution if you choose tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.

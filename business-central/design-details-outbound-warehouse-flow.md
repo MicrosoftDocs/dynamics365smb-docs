@@ -50,7 +50,7 @@ In addition, the following internal source documents exist that function like ou
 
  The following diagram illustrates the outbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
- ![Outbound flow in basic warehouse configurations](media/design_details_warehouse_management_outbound_basic_flow.png "Outbound flow in basic warehouse configurations")  
+ ![Outbound flow in basic warehouse configurations.](media/design_details_warehouse_management_outbound_basic_flow.png "Outbound flow in basic warehouse configurations")  
 
 ### 1: Release Source Document / Create Inventory Pick or Movement
 
@@ -77,7 +77,7 @@ In addition, the following internal source documents exist that function like ou
 
  The following diagram illustrates the outbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
- ![Outbound flow in advanced warehouse configurations](media/design_details_warehouse_management_outbound_advanced_flow.png "Outbound flow in advanced warehouse configurations")  
+ ![Outbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_outbound_advanced_flow.png "Outbound flow in advanced warehouse configurations")  
 
 ### 1: Release Source Document
 

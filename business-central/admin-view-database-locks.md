@@ -18,7 +18,7 @@ Users may be blocked from completing transactions on the locked data. They'll ty
 
 ## To view database locks
 
-Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
+Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Database Locks**, and then choose the related link.
 
 The **Database Locks** page gives snapshot of all current database locks.
 

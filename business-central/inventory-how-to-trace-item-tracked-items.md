@@ -26,7 +26,7 @@ These features can be particularly useful in quality control when you need to fi
 
 ## To trace item-tracked items  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  In the filter fields at the top of the page, enter the specific item numbers or a filter on the item numbers that you would like to trace.  
 3.  In the **Show Components** field, select whether you would like to also see where the components for the items came from. Your options in this field are as follows.  
 
@@ -55,7 +55,7 @@ These features can be particularly useful in quality control when you need to fi
 
 ## To find item-tracked items with Find Entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then select the related link.  
 2. Choose **Actions** > **Find by** > **Find by Item Reference**.
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  

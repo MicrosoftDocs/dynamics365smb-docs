@@ -18,7 +18,7 @@ Fiscal documents must contain all company information. You can enter all relevan
 
 ## To set up company information  
 
-1.  Choose the ![Sprocket icon to open the Settings menu](../../media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+1.  Choose the ![Sprocket icon to open the Settings menu.](../../media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
 2.  Enter the information into the FastTabs as described in the following table.
 
     |Field|Description|  

@@ -21,14 +21,14 @@ You can create multiple fixed asset cards automatically during purchase invoice 
 
 ## To create multiple fixed asset cards  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2.  Choose the **Lists** action, and then choose the **Fixed Assets** action.  
 3.  On the **Fixed Asset List** page, choose the **New** action.  
 4.  On the **Fixed Asset Card** page, fill in the relevant fields.  
 
     You will use the value of the **No.** field when you generate the remaining fixed assets later.  
 
-5.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 6.  Create a new purchase order, or open the existing purchase order.  
 7.  Expand the **Lines** FastTab.  
 8.  Fill in the fields as described in the following table.  

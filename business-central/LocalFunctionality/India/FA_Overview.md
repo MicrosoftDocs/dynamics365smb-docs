@@ -38,7 +38,7 @@ Computation of Depreciation on Block of Assets under the Income Tax Act, 1961 an
 Fixed assets must have a depreciation book to record depreciations for the fixed assets.
 
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -54,7 +54,7 @@ Fixed assets must have a depreciation book to record depreciations for the fixed
 
 Fixed Asset Income Tax Accounting Period needs to be created for depreciation calculation.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **FA Accounting Period for Inc. Tax**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **FA Accounting Period for Inc. Tax**, and then choose the related link. 
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -67,7 +67,7 @@ Fixed Asset Income Tax Accounting Period needs to be created for depreciation ca
 
 Fixed Asset Block Code is required for depreciation calculation for Income Tax Act.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **FA Classes** -> select relevant class and click on **Blocks**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **FA Classes** -> select relevant class and click on **Blocks**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -84,7 +84,7 @@ Fixed Asset Block Code is required for depreciation calculation for Income Tax A
 
 Setup needs to be done to calculate additional depreciation for Fixed Assets.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link. Then select relevant Fixed Asset -> Click on **Add. Depr. Applicable**.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link. Then select relevant Fixed Asset -> Click on **Add. Depr. Applicable**.
  
  
 

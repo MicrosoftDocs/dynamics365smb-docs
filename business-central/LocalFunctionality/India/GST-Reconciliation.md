@@ -41,7 +41,7 @@ This topic explains the setups and process of GST reconciliation.
 
 - Mapping GST reconciliation fields with GST components is a pre-requisite for GST Reconciliation. Unless it is done, reconciliation can not happen in the system.
 
-   1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Component Mapping Recon.**, and then choose the related link.
+   1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Component Mapping Recon.**, and then choose the related link.
    2. Fill in the fields as described in the following table.
     
         |Field|Description| 
@@ -56,7 +56,7 @@ This topic explains the setups and process of GST reconciliation.
 
 - Reconciliation feature enables the user to reconcile the posted purchase transactions with GSTR-2A downloaded from GSTN portal.
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Reconciliation List.**, and then choose the related link, and click **New** to create a new reconciliation document.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Reconciliation List.**, and then choose the related link, and click **New** to create a new reconciliation document.
   2. Select relevant GST registration number in **GSTIN No.** field for which reconciliation needs to be done. **Month**, **Year**, **Posting Date** fields should not be blank.
   3. **GST Recon. Tolerance** field will be updated with the value mentioned on **General Ledger Setup**.
   4. **Input Service Distributor** field will be marked true if the GSTIN is assigned for input service distribution location.

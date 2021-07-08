@@ -21,8 +21,8 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 
 |Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prod_short](includes/prod_short.md)] Apps|
 |-------------|--------||
-|Power BI free|![a checkmark](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
-|Power BI Pro|![yet another checkmark](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
+|Power BI free|![a checkmark.](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
+|Power BI Pro|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
 For more information, see [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

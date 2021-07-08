@@ -20,19 +20,19 @@ The bookmark icon is shown in the top-right corner of a page and also in the **T
 
 ## To bookmark the target page
 1. Open any page that you want a link for on your Role Center.
-2. Choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page is now added to the navigation menu on your Role Center.
 
 ## To bookmark the target report
 1. Open any report request page that you want a link for on your Role Center.
-2. Choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+2. Choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the report is now added to the navigation menu on your Role Center.
 
 ## To bookmark a page or report from the Tell Me window
 1. Open the **Tell Me** window and enter, for example, **Sales Orders**.
-2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark](media/ui_bookmark_icon.png "Bookmark") icon.
+2. Hover over the search result for the **Sales Orders** page or report, and then choose the ![Bookmark.](media/ui_bookmark_icon.png "Bookmark") icon.
 
 An action named after the page or report is now added to the navigation menu on your Role Center.
 
@@ -75,7 +75,7 @@ No. At this time, adding actions to open XMLports isn't possible from the user i
 When you add a new action, any translated text that was available at the time is used when bookmarking. If new translated text is added later, then the new action will not include the newer translations.
 
 - **Why can't I add text in a page right after opening it with the bookmark?**<br> 
-When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon ![Shows the pencil icon for editing the page](media/edit-pencil.png) will let you add text in the fields that are editable.
+When a page is bookmarked, the page will always open in the view mode from the bookmark&mdash;even if it was in the edit mode when it was bookmarked. Selecting the **Make changes on the page** icon ![Shows the pencil icon for editing the page.](media/edit-pencil.png) will let you add text in the fields that are editable.
 
 
 ## See Also

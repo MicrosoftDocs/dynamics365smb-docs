@@ -18,7 +18,7 @@ The following procedure describes how to view posted sales tax credit memos, but
 
 ## To view a posted sales tax credit memo  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Tax Credit Memo**, and then choose the related link.  
 2.  View the FastTabs as described in the following table.  
 
     |FastTab|Description|  

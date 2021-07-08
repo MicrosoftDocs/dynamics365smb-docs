@@ -19,7 +19,7 @@ This topic describes how Tell Me can help you quickly go to things like actions,
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-When you need help finding something, use the ![Tell me what you want to do](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use ALT+Q to start using Tell Me.
+When you need help finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use ALT+Q to start using Tell Me.
 
 When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word "product" and the results include **Items** that's because Tell Me uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 

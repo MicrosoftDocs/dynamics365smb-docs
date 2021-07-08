@@ -19,7 +19,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## To set up bank accounts for electronic payments  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
 2.  On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
 
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## To set up vendor bank accounts for electronic payments  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

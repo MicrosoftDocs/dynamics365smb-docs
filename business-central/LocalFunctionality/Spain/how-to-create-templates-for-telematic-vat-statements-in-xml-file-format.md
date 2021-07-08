@@ -20,7 +20,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 ## To create a template for VAT statements in XML file format  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Design XML file** action.  
 3.  On the **XML Transference Format** page, fill in the fields as described in the following table.  
 

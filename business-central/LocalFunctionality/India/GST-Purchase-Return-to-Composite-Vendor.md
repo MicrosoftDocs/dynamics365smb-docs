@@ -28,7 +28,7 @@ Process for purchase returns to a composite vendor has been explained in this do
 
 ## Create a purchase return order or credit memo
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order or Credit Memo**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Return Order or Credit Memo**, and then choose the related link.
 2. Select **Vendor** on **Purchase Credit Memo** header, GST vendor type should be **Composite** or **Exempted**.
 3. Select **Item Code** for goods, **G/L Account** for Service purchase, **Fixed Asset** for Fixed Asset purchase and **Charge (Item)** for Item Charge on **Purchase Credit Memo** line. 
 

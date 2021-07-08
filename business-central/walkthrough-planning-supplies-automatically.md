@@ -70,7 +70,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### To change selected planning parameters  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
 2.  Open the EAST stockkeeping unit card for item 1100, Front Wheel.  
 3.  On the **Planning** FastTab, fill in the fields as described in the following table.  
 
@@ -87,7 +87,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### To create the sales order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Sales Order** page, fill in the fields as described in the following table.  
 
@@ -99,7 +99,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### To create a regenerative plan to fulfill demand at location EAST  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -122,7 +122,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 ### To calculate MRP to include underlying component needs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Regenerative Plan** action.  
 3.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 
@@ -216,7 +216,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 
 3.  Accept the availability warning and choose the **Yes** button to record the demand quantity.  
 4.  Proceed to replan to adjust the current supply plan.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 6.  Choose the **Calculate Net Change Plan** action.  
 7.  On the **Calculate Plan - Plan. Wksh.** page, fill in the fields as described in the following table.  
 

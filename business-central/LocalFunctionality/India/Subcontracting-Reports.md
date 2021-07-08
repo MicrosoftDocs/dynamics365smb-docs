@@ -30,7 +30,7 @@ There are following reports for Subcontracting in Business Center:
 
 The Delivery Challan report includes the details of raw material components sent to subcontracting vendor against subcontracting order. The report also includes the details of delivery challan created against multiple subcontracting orders.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Delivery Challan Report**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Delivery Challan Report**, and then choose the related link. 
 2. Fill in the fields as described in the following table.
 
     |Field|Description| 
@@ -45,7 +45,7 @@ The Delivery Challan report includes the details of raw material components sent
 
 Stock Register for Job Work report will give the details of transfer, consumption and output entries of Subcontracting Order with value of GST liability created and credit taken.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Stock Register for Job work**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Stock Register for Job work**, and then choose the related link. 
 2. Fill in the fields as described in the following table.
 
     |Field|Description| 

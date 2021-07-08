@@ -60,7 +60,7 @@ For more information about Automatic Setup, see **Tax Engine** Information.
 
 Rate of TDS is defined in combination of TDS section and assessee code.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TDS** -> **Action** -> **Tax Rates**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TDS** -> **Action** -> **Tax Rates**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -85,7 +85,7 @@ Rate of TDS is defined in combination of TDS section and assessee code.
 
 Tax Accounting period and quarters need to be defined for TDS calculation.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Acc. Period Setup**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -106,7 +106,7 @@ Tax Accounting period and quarters need to be defined for TDS calculation.
 
 Tax Deduction Account Number (T.A.N) allotted to a legal entity can be more than one, depending on the number of branch locations from where the legal entity files its TDs returns. All the account numbers allotted to a legal entity need to be captured here.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **T.A.N Nos.**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **T.A.N Nos.**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -119,7 +119,7 @@ Tax Deduction Account Number (T.A.N) allotted to a legal entity can be more than
 
 Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other sum of money is payable under this Act. The rates of TDS are different for different types of Assessee.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Assessee Codes**, and then choose the related link. 
 2. Fill in the fields as described in the following table.   
 
     |Field|Description|  
@@ -133,7 +133,7 @@ Income Tax Act 1961 defines 'Assessee' as a person by whom any tax or any other 
 
 TDS Section represents the various sections under which tax deduction takes place as per the Income Tax Act 1961.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Sections**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Sections**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -146,7 +146,7 @@ TDS Section represents the various sections under which tax deduction takes plac
 
 Concessional codes are used for cases authorized for concessional rates exclusively defined by the government. 
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Concessional Codes**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -158,7 +158,7 @@ Concessional codes are used for cases authorized for concessional rates exclusiv
 
 Specifies the general ledger account for each TDS Section defined in the system. System will update the tds receivable amount in the defined general ledger account.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Posting Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TDS Posting Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -173,7 +173,7 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 - To define the TDS Sections on the Customer Card.
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** -> **Customer** -> **Customer Allowed Sections** and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** -> **Customer** -> **Customer Allowed Sections** and then choose the related link.
   2. **Assessee Code** needs to be filled on the customer master.
   3. **PAN** needs to be filled on customer master, PAN is mandatory for TDS calculation for customer.
   4. Fill in the fields as described in the following table.
@@ -188,7 +188,7 @@ TDS Section and concessional codes need to be defined for each customer, who is 
 
 - To define the concessional code on customer card
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** -> **Customer** -> **TDS Customer Concessional Codes** and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Customer** -> **Customer** -> **TDS Customer Concessional Codes** and then choose the related link.
   2. Fill in the fields as described in the following table.
 
       |Field|Description|  

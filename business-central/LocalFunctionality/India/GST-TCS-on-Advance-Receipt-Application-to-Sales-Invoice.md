@@ -21,7 +21,7 @@ Assessee is liable for paying GST and TCS at the time of receiving advance payme
 
 ### Mandatory fields in cash or bank receipt voucher
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Bank Receipt Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Select **Customer** in **Account Type** field and select relevant customer code in **Account No.** field.
 3. Select **G/L Account** for cash or **Bank Account** for bank in **Bal. Account Type** field, and select relevant cash or bank account in **Bal. Account No.** field.
 4. Select relevant TCS Nature of Collection, GST Group Code, HSN/SAC Code, Location Code on journal line.
@@ -53,7 +53,7 @@ Later sales invoice for services is issued to the customer for INR 20,000, 18% I
 
 ### Mandatory fields on sales invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 2. Select **Customer** on **Sales Invoice** header.
 3. Select **G/L Account** for service or **Item** for goods on **Sales Invoice** line.
 4. Select relevant TCS Nature of Collection on **Sales Invoice** line.

@@ -32,7 +32,7 @@ The business logic could be approval of:
 
 The following illustration shows an example of a workflow with sequential approval triggered by a user. By triggering the workflow, an approval request is created for the first approver.  
 
-![Illustration of a workflow with sequential approval](media/Workflows/approval-flow.png)
+![Illustration of a workflow with sequential approval.](media/Workflows/approval-flow.png)
 
 In this example, the request must be approved by the first approver before the request is sent on to the next approver. If the request is not approved by the first approver, the request will never go to the next approver.  
 
@@ -40,11 +40,11 @@ The route taken from the initial triggering of the workflow can vary depending o
 
 The following illustration shows a parallel approval that is triggered by the user. By triggering the workflow, an approval request is sent to all approvers simultaneously.  
 
-![Illustration of a workflow with parallel approval](media/Workflows/approval-flow-2.png)
+![Illustration of a workflow with parallel approval.](media/Workflows/approval-flow-2.png)
 
 However, the workflow is not approved until all requests have been approved by the approvers, as shown in the following illustration:  
 
-![Illustration of a rejected workflow with parallel approval](media/Workflows/approval-flow-3.png)
+![Illustration of a rejected workflow with parallel approval.](media/Workflows/approval-flow-3.png)
 
 > [!NOTE]  
 > It is not possible to create a workflow with multiple approvers and expect the whole workflow to be approved after the first request has been approved. All requests must be approved for the workflow to be approved.

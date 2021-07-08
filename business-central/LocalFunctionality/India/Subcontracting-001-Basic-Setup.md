@@ -54,14 +54,14 @@ Following setups are required for Subcontracting:
 
 You need to create a set up for subcontracting location. Raw item needs to be transferred from company location to subcontracting location.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
 2. On the **Tax Information** FastTab, enable the boolean in the **Subcontracting Location** field to make this location as a **Subcontracting Location**.
 
 ## Setting up subcontracting vendor 
 
 You need to set up a vendor as a subcontractor. Same vendor can be the prime vendor as well as a subcontracting vendor. Each subcontracting vendor needs to be attached with the subcontracting location.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Vendor**, and then choose the related link.
 2. On the **Tax Information** FastTab, enable the boolean in the **Subcontractor** field to make this vendor as a **Subcontractor**.
 3. Select the subcontracting location by clicking on **Vendor Location** look up field. 
 4. Enter the Commissioner’s Permission No. which is mandatory for the subcontractor. 
@@ -70,7 +70,7 @@ You need to set up a vendor as a subcontractor. Same vendor can be the prime ven
 
 The finished item needs to be identified as a subcontracting item.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Item**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Item**, and then choose the related link.
 2. On the **Cost & Posting** FastTab, enable the boolean in the **Subcontracting** field to make this Item as a subcontracting item.
 3. Select the subcontracting location by clicking on **Sub. Comp. Location** look up field. This is the location from where you will send the raw material to the subcontractor. 
 
@@ -79,7 +79,7 @@ The finished item needs to be identified as a subcontracting item.
 
 As per statutory requirement, if the taxable item does not return within a specified period, then GST liability should be created against the subcontractor. Therefore, GST liability exists only after the completion of job work Return period. 
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, enter the return period for which you want to create GST liability in the **Job Work Return Period** field.
 3. Select the **Sub. Component Location** from lookup list. This sub component location will be used to transfer the raw items to the subcontracting location through delivery challan.
 
@@ -87,7 +87,7 @@ As per statutory requirement, if the taxable item does not return within a speci
 
 As per statutory requirement, you need to define the source code in the source code set up window. This source code is mandatory if subcontractor does not Return the item within job work Return period, then to create the GST liability. Source code is also required if any subcontracting item is received after the job work Return period.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Source Code setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Source Code setup**, and then choose the related link.
 2. On the **General** FastTab, select Source code in the **GST Receipt – Job Work** field. 
 3. Select Source code in the **GST Liability – Job Work** field.
 
@@ -96,7 +96,7 @@ As per statutory requirement, you need to define the source code in the source c
 
 You need to create a new account in the chart of account which will be used for booking GST expenses while creating the GST liability in case of non-receipt of subcontracting items within the job work return period.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Ledger setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Ledger setup**, and then choose the related link.
 2. On the **Tax Information** FastTab, select **GST Expense –Job Work** account in the **GST Expense Acc. - Job Work** field.
         
 
@@ -104,14 +104,14 @@ You need to create a new account in the chart of account which will be used for 
 
 You need to setup the work center for the subcontracting vendor. On the work center, you can also set up the unit cost of job work.
 
-1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Work Center**, and then choose the related link.
+1.  Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Work Center**, and then choose the related link.
 2. On the Posting tab, select **subcontracting vendor** in the **Subcontractor No.** field.
 
 ## Setting up routing
 
 You need to create a Routing for finished item. Routing defines the sequence of the operations required to manufacture the finished item.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Routing**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Routing**, and then choose the related link.
 2. On the Lines tab, select **subcontracting work center no.** in the **Work Center No.** field. 
 3. On the  Lines tab, enter the job work charges in the **Unit Cost Per** field.
 

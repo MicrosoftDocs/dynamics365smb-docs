@@ -23,7 +23,7 @@ You can fill customer fields on the sales quote in two ways depending on whether
 
 ## To create a sales quote
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quotes**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Quote** page contain standard information of the selected customer.  

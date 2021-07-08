@@ -19,14 +19,14 @@
 
 ## To enable transaction modes for SEPA  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Modes**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transaction Modes**, and then choose the related link.  
 2. Select the transaction mode that you want to enable for SEPA, and then choose the **Edit** action.  
 3. On the **Transaction Mode Card** page, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
 4. Choose the **OK** button.  
 
 ## To verify vendor payment transaction modes for SEPA  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. Select the vendor that you want to verify the transaction mode for, and then choose the **View** action.  
 3. On the **Payments** FastTab, in the **Transaction Mode Code** field, verify that the vendor payment transaction mode is one that has been enabled for SEPA.  
 4. Choose the **OK** button.  

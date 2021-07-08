@@ -30,7 +30,7 @@ To register a new customer, you must fill in a customer card. You can establish 
 
 ### To create a new customer card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. On the **Customers** page, choose the **New** action.
 
     If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
@@ -72,7 +72,7 @@ You can choose not to have warnings telling you that the customer's credit limit
 
 ### To specify credit limit warnings
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 
 2. On the **General** FastTab, in the **Credit Warnings** field, choose the relevant option as described in the following table:
 

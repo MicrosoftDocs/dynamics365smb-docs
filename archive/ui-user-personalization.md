@@ -58,11 +58,11 @@ To help you better understand personalization, here are some pointers.
 
 ## To personalize a page
 
-1. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
+1. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then **Personalize**.
 
     The **Personalizing** bar appears at the top to indicate that you can start making changes.
 
-    ![Personalize mode](media/ui_personalize_mode.png "Personalize mode")
+    ![Personalize mode.](media/ui_personalize_mode.png "Personalize mode")
 
     Choose **More** to see additional personalization actions.
 
@@ -84,12 +84,12 @@ To help you better understand personalization, here are some pointers.
         </table>
 
     > [!IMPORTANT]  
-    >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
+    >   You cannot make changes to a list if the list is shown as tiles. You must first switch the page to the list view by selecting the ![Show as list.](media/ui_show_as_list_icon.png "Show as list arrow left") icon.
 
 5.  You can continue to make changes on the same page or move to another page. Your changes are automatically saved as you make them. When you are done, in the **Personalizing** bar, choose **I'm Done**.
 
 ## Undo personalization and restore a page to its original layout
-At some point, you might want to undo all the personalization changes that you have made over time to a page so that page looks like it originally. To do this, choose the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Undo All**. You will not see the changes, until you close and open the page again.
+At some point, you might want to undo all the personalization changes that you have made over time to a page so that page looks like it originally. To do this, choose the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, **Personalize**, and then **Undo All**. You will not see the changes, until you close and open the page again.
 
 ## See Also
 [Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

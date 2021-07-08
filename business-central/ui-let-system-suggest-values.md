@@ -21,7 +21,7 @@ Functionality that enters field values for you is typically offered for tasks wh
 When, for example, you are entering general journal lines for multiple expenses that must all be posted to the same bank account, then each time you enter a new journal line for an expense, you can have the **Amount** field on the bank account line automatically updated to the amount that balances the expenses. For more information about working with general journals, see [Working with General Journals](ui-work-general-journals.md).
 
 ### To have the **Amount** field on balancing general journal lines filled automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. On the line for your preferred general journal batch, choose the **Suggest Balancing Amount** check box.
 3. Open the general journal and proceed to register and post transactions using the described functionality for automatic entry of a field value.       
 
@@ -33,7 +33,7 @@ The **Payment Registration** page shows outstanding incoming payments as lines t
 You main actions on the page are to fill in the **Payment Made** check box and the **Date Received** field. You can set [!INCLUDE[prod_short](includes/prod_short.md)] up to automatically enter work date in the **Date Received** field when you select the **Payment Made** check box.
 
 ### To have the **Date Received** field on the **Payment Registration** page filled automatically
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
 2. Select the **Automatically Fill Date Received** check box.
 3. Open the **Payment Registration** page and proceed to process incoming customer payments using the described functionality for automatic entry of a field value.
 

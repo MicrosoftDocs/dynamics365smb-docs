@@ -27,7 +27,7 @@ To use the accelerated depreciation calculation, you must set up the following d
 
 ## To set up the accounting depreciation book  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
 2.  On the **Depreciation Book List** page, choose ¨the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
 
@@ -47,7 +47,7 @@ To use the accelerated depreciation calculation, you must set up the following d
 
 ## To set up the tax depreciation book  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
 2.  On the **Depreciation Book List** page, choose the **New** action.  
 3.  On the **General** FastTab, fill in the required fields as described in the following table.  
 

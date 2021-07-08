@@ -38,7 +38,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], availability figures are typi
 ## To view the availability of an item according to when it will be received or shipped
 You view the availability of an item according to scheduled item transactions on the **Availability by Event** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Event** action.
 
@@ -48,7 +48,7 @@ You view the availability of an item according to scheduled item transactions on
 ## To view the availability of an item in different periods
 You view the availability of an item over time for specified time periods on the **Item Availability by Periods** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Period** action.
 
@@ -58,7 +58,7 @@ You view the availability of an item over time for specified time periods on the
 ## To view the availability of an item at the locations where it is stored
 You view the availability of an item at the different places where it is stored on the **Item Availability by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of an item that you want to view availability for.
 3. Choose the **Item Availability by** action, and then choose the **Location** action.
 
@@ -69,7 +69,7 @@ You view the availability of an item at the different places where it is stored 
 ## To view the availability of all items by the location where they are stored
 You view the availability of all your items across all your locations on the **Items by Location** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Choose the **Items by Location** action.
 
     The **Items by Location** page shows for all your items how many are available at each location.

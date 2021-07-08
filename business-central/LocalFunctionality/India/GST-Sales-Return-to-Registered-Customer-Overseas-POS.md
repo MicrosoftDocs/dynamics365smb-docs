@@ -25,7 +25,7 @@ Process of sale return from a registered customer with overseas place of supply 
 
 ## Create a sales return order or credit memo
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order** or **Sales Credit Memo**, and then choose the related link. 
 2. Select **Customer** on **Sales Return Order** or **Sales Credit Memo** header, GST customer type should be **Registered**.
 3. Select **G/L Account** on **Sales Return Order** or **Sales Credit Memo** line. GST Group Code, HSN/SAC Code should not be blank on the G/L Account.
 4. **POS Out of India** field on **Sales Return Order** or **Sales Credit Memo** header should be marked as True. 

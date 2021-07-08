@@ -17,7 +17,7 @@ The following procedure shows how to create a new fixed asset charge.
 
 ## To create a fixed asset charge
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Charge Card**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Charge Card**, and then choose the related link.
 
 2. On the **General** FastTab, fill in the fields as described in the following table.
 

@@ -13,7 +13,7 @@ Sales tax includes taxes that companies pay for using items:
 - Purchase tax (Canada) – Purchase tax is a Canadian sales tax that is paid by a company on items that are purchased from a vendor. When a company purchases items for use by the company itself, the vendor charges the appropriate sales tax for the items.  
 
 ## To set up use tax for a purchase order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  On the **Purchase Orders** page, choose the **New** action.  
 3.  On the **Lines** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../../includes/tooltip-inline-tip_md.md)]  
 4.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
@@ -27,7 +27,7 @@ Sales tax includes taxes that companies pay for using items:
 5.  Choose the **OK** button.  
 
 ## To set up use tax details  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
 2.  On the **Tax Details** page, choose the **New** action.  
 3.  On the **New - Tax Details** page, fill in the fields as described in the following table.  
 
@@ -39,7 +39,7 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
 
 ## To set up purchase tax for a company  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -50,7 +50,7 @@ Sales tax includes taxes that companies pay for using items:
 3.  Choose the **OK** button.  
 
 ## To set up purchase tax for a location  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  On the **Locations** page, select the required location, and then choose the **Edit** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 
@@ -63,7 +63,7 @@ Sales tax includes taxes that companies pay for using items:
 4.  Choose the **OK** button.  
 
 ## To set up purchase tax for non-recoverable tax  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Details**, and then choose the related link.  
 2.  On the **Tax Details** page, choose the **New** action.  
 3.  Select the **Expense/Capitalize** check box.  
 

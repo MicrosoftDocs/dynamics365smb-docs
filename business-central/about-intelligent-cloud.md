@@ -33,7 +33,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Intelligent Clou
 Next to the KPI charts, you get insights into potential areas of concern, including overdue payments. Choose each insight to drill into the data.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloud insights](media/across-intelligent-cloud/intelligentcloudApril19.png "Shows the Intelligent Cloud Insights page in Business Central online")
+> ![Intelligent cloud insights.](media/across-intelligent-cloud/intelligentcloudApril19.png "Shows the Intelligent Cloud Insights page in Business Central online")
 
 The page also connects to Power BI for even more insights. Optionally, connect to Azure AI for even more intelligent insights. For more information, see [The Sales and Inventory Forecast Extension](ui-extensions-sales-forecast.md).  
 

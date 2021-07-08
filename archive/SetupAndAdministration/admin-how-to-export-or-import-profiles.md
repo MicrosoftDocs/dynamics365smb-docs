@@ -25,7 +25,7 @@ You can export a profile, for example to reuse UI configurations in other [!INCL
   
 ### To export a profile  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
   
 2.  In the **Export Profiles** window, on the **Profile** FastTab, set a filter for the profile ID that you want to export, and then choose **OK**.  
   
@@ -33,7 +33,7 @@ You can export a profile, for example to reuse UI configurations in other [!INCL
   
 ### To import a profile  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
   
 2.  In the **Import from XML File** window, select the profile that you want to import.  
   

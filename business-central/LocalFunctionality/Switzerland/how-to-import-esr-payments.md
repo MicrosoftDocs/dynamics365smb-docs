@@ -23,7 +23,7 @@ You can import the Einzahlungsschein mit Referenznummer (ESR) invoice data from 
 
 ## To import ESR payments  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch.  
 
     > [!NOTE]  

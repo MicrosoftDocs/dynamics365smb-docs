@@ -19,7 +19,7 @@
 
 ## To set up a vendor for remittance  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2.  Choose the **Edit** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 

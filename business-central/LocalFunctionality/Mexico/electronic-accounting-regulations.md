@@ -36,7 +36,7 @@ For the file that contains journal transactions:
 * On the **Payment Method** page, in the **SAT Method of Payment** field you must specify how payment was made.
 
 ## To generate the XML files
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Elect. Accounting**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Elect. Accounting**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
 ## See Also

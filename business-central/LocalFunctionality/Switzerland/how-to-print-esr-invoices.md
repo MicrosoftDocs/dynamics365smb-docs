@@ -31,7 +31,7 @@ The following procedure describes how to print ESR sales invoices, but the same 
 
 ## To print ESR invoices  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoice ESR**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoice ESR**, and then choose the related link.  
 2.  In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -38,7 +38,7 @@ The Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] co
 
 ## To set up paper trays  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then choose the related link.  
 2.  Select the report.  
 3.  Choose the **Sales Document Paper Tray Setup** action.  
 4.  Select a paper source from the **First Page - Paper Source** field.  

@@ -24,7 +24,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 
 ## To create proposals manually  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
 2.  Select the relevant bank account and then choose the **Proposal** action.  
 3.  At a minimum, you must fill in the **Account Type**, **Account No.**, **Transaction Mode**, **Bank Account No.**, and **Amount** fields.  
 
@@ -36,7 +36,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 2. Create a sales invoice or credit memo, enter the customer and relevant items and post the invoice.
 3. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice/credit memo contain appropriate values. By default, they will be copied from the customer card.  
 
-4.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
+4.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
 5.  Select the relevant bank account, and then choose the **Proposal** action.  
 6.  Choose the **Get Entries** action.  
 
@@ -53,7 +53,7 @@ Proposals can be generated manually or automatically based on either vendor or c
 2.  Create a purchase invoice or credit memo, enter the vendor and relevant items.
 3. Post the invoice.
 4. Check whether the **Currency Code**, **Transaction Mode**, and **Bank Account** fields of the invoice/credit memo contain appropriate values. By default, they will be copied from the vendor card.  
-5.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
+5.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
 6.  Select the relevant bank account, and then choose the **Proposal** action.  
 7.  Choose the **Get Entries** action.  
 

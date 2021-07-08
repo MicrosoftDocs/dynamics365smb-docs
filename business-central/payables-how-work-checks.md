@@ -35,7 +35,7 @@ You can print up to 10 invoices on a page for a check stub. If a check applies t
 ## To pay a vendor invoice with a computer check
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 3. In the **Payment Method Code** field, select **Check**.
 4. In the **Bank Payment Type** field, select **Computer Check**.
@@ -63,7 +63,7 @@ When check payment have been posted, you can only cancel (void) checks from the 
 > [!IMPORTANT]
 > If the check is applied to an invoice, unapply the check first so that the invoice can be repaid, and then void the check. If the check was printed and did not pay an invoice, then choose **Void Check Only** as described in this section.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the relevant bank account, choose the **Edit** action, and then choose the **Check Ledger Entries** action.
 3. On the **Check Ledger Entries** page, choose the **Void Check** action.
 4. Select the **Void Check Only** check box.
@@ -71,7 +71,7 @@ When check payment have been posted, you can only cancel (void) checks from the 
 
 ## To view a summary of posted checks
 If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
 ## See Also

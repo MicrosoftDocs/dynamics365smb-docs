@@ -22,7 +22,7 @@ With electronic banking, you can make electronic payments to domestic, internati
 
 ## To set up electronic banking  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Banking Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic Banking Setup**, and then choose the related link.  
 2.  On the **Electronic Banking Setup** page, fill in the fields as described in the following table.   
 
     |Field|Description|  

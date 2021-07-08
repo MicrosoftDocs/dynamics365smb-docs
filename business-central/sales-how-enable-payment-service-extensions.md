@@ -21,7 +21,7 @@ After you enable a payment service in [!INCLUDE[prod_short](includes/prod_short.
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[prod_short](includes/prod_short.md)], and are ready for you to enable.  
 
 ## To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  
 2. On the **Payment Services** page, choose the **New** action.  
 3. Select the payment service, and then close the page.  
 4. On the **Payment Services** page, choose the **Setup** action.  
@@ -29,7 +29,7 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 6. Close the page.  
 
 ## To select a payment service on a sales invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. Open the sales invoice that you want to pay by using the payment service.  
 3. In the **Payment Service** field, choose the payment service.  
 

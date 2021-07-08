@@ -21,7 +21,7 @@ The following procedure describes how to generate electronic invoices for sales 
 
 ## To generate electronic invoices for sales invoices  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.  
 2.  Select the posted invoice.  
 3.  Choose the **Send Electronic Document** action. An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field on the **General Ledger Setup** page, a PDF will be included with the XML file.  
 4.  Optionally, choose the **Export E-Document as XML** action. Select the location where you want to save the electronic invoice as an XML file.  

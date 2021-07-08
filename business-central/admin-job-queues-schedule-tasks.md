@@ -49,7 +49,7 @@ The following table describes the values of the **Status** field.
 | Finished | Indicates that the job queue entry is complete. |
 
 ### To view status for any job
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]

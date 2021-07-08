@@ -20,7 +20,7 @@ You can export or import payment management setup parameters to an external disk
 
 ## To export or import payment management setup parameters  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2. On the **Payment Class** page, choose the **Export Parameters** action.  
 
     To import a parameter, choose the **Import Parameter** action, select the file, and then choose the **Open** button.  

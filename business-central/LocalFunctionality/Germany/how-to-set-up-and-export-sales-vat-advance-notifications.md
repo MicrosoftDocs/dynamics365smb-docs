@@ -30,12 +30,12 @@ To create valid sales VAT advance notifications, you must set up the following:
 - The VAT statement.  
 
 ### To set up company information  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. On the **Company Information** page, in the **VAT Representative** field, enter the contact person for VAT related information.  
 3. Choose the **OK** button.  
 
 ### To set up the Electronic VAT Decl. Setup
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Decl. Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Decl. Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
 |Field|Description|
@@ -45,7 +45,7 @@ To create valid sales VAT advance notifications, you must set up the following:
 |**XML File Default Name**|Enter the name of the file.|
 
 ### To set up a VAT statement for sales VAT advance notifications  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
 2.  On the **VAT Statement** page, in the **Name** field, choose the drop-down arrow.  
 3.  On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** check box.
 
@@ -55,7 +55,7 @@ To create valid sales VAT advance notifications, you must set up the following:
 4. Choose the **OK** button.  
 
 ## To create an XML document for Sales VAT advance notification  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
 2. On the **Sales Vat Advanced Notification List** page, choose the **New** action.  
 3. On the **Sales VAT Adv. Notif. Card** page, fill in the fields.
 4. Choose **Process**, and then choose the **Create XML-File** action.  

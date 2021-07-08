@@ -17,7 +17,7 @@ ms.author: soalex
 
 ## To define an account schedule extension
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedule**, and then choose the related link.
 2. Select the account schedule for which you want to define an extension.
 3. Select **Edit account schedule**.
 4. In the **Row No.** field, select the number of the account schedule row for which you want to define an extension.

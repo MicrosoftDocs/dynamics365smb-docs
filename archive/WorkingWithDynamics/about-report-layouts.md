@@ -41,7 +41,7 @@ A report layout is a document that acts as a template that defines the appearanc
 ##  <a name="WordLayout"></a> Word Report Layout Overview  
  A Word report layout is a based on Word document (.docx file type). Word report layouts enable you to design report layouts by using Microsoft Word 2013. A Word report layout determines the report's content - controlling how that content elements are arranged and how they look. A Word report layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures. For example, the following figure illustrates the Word report layout document that is used on sales invoice report as it appears when opened in Word for editing.  
   
- ![Example of a word report layout document for NAV](../FullExperience/media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+ ![Example of a word report layout document for NAV.](../FullExperience/media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
   
  In the example, the tables are set up to show the gridlines. Showing the gridlines is useful when you are editing the Word report layout so that you can see table cell boundaries. However, you should hide the gridlines when you are finished editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.  
   
@@ -50,14 +50,14 @@ A report layout is a document that acts as a template that defines the appearanc
   
  The following figure illustrates the previous sales invoice report as it appears when you preview it from the ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
- ![Shows report 1306 run from the client](../FullExperience/media/nav_wordreportlayout_example_from_client.png "NAV_WordReportLayout_Example_From_Client")  
+ ![Shows report 1306 run from the client.](../FullExperience/media/nav_wordreportlayout_example_from_client.png "NAV_WordReportLayout_Example_From_Client")  
   
  Notice that the label and data fields have been replaced with actual data for the customer.  
   
 ### Label and Data Fields  
  The label and data fields are defined by *content controls*. Content controls act as placeholders for the actual report data. In the Word report layout document, the content controls only include a reference to a field in the report dataset, as shown in the following figure.  
   
- ![Content control for field in Word report layout](../FullExperience/media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](../FullExperience/media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
   
  It is only when the report is run from the ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client that actual data appears.  
   

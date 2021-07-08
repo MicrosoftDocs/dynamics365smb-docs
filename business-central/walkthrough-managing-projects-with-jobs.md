@@ -73,7 +73,7 @@ This walkthrough focuses on CRONUS, a design and consultancy firm that designs a
 
 ### To prepare the sample data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
 2.  Choose the **New** action to create a new resource card.  
 3.  On the **General** FastTab, enter the following information:  
 
@@ -96,7 +96,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### To create a Job Journal batch  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, choose the **Batch Name** field. The **Job Journal Batches** page opens.  
 3.  Choose the **New** action to create a new line with the following information:  
 
@@ -111,7 +111,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### To set up a job  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **New** action to create a new card.  
 3.  On the **General** FastTab, enter the following information:  
 
@@ -204,7 +204,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ### To calculate remaining usage  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2.  On the **Job Journal** page, in the **Batch Name** field, open the **Job Journals Batches** list. Select the **Tricia** job journal batch.  
 3.  Choose the **Calc. Remaining Usage** action.  
 4.  On the **Job Calc. Remaining Usage** page, on the **Job Task** FastTab, choose the **Job No.** field, and select the relevant job number, typically job J00010.  
@@ -221,7 +221,7 @@ The lines are now posted.
 
 ### To create a job sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
 3.  On the **Job Task** FastTab, clear any filter on **Job Task No.** in order to invoice the job. In the **Job No.** field, select the relevant job.  
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
@@ -231,7 +231,7 @@ The lines are now posted.
 
 ### To post a new sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the invoice for Customer No. 01445544. You can see the information that was entered from the planning lines.  
 3.  Choose the **Post** action. Choose **Yes** to confirm the posting.  
 
@@ -245,7 +245,7 @@ The lines are now posted.
 
 ### To open the Statistics page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 3.  Choose the **Close** button to close the **Job Statistics** page.  
 
@@ -254,7 +254,7 @@ The lines are now posted.
 
 ### To manage fixed pricing in jobs  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
 3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
@@ -274,7 +274,7 @@ After Tricia has been added to the schedule for this task line, she works 25 hou
 
 ### To enter hours in the Job Journal  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. On a new line, enter the following information:  
 
     - **Line Type**: **(blank)**  
@@ -335,7 +335,7 @@ On the **Copy Job** page, you can select the job and task lines that you want to
 
 ### To copy a job  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Choose the **New** action to create a new job. Enter the following information:  
 
     - **Description**: **Setting up 10 Conference Rooms**  
@@ -361,7 +361,7 @@ CRONUS has just landed a large project that will take a year to be completed. Be
 
 ### To set up a new account  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. On the **Chart of Accounts** page, choose the **New** action to create a new card.  
 3. On the **New G/L Account** card, enter the following information:  
 

@@ -27,9 +27,9 @@ You can change the value of the **Type** field later. Alternatively, use the fie
 When a contact is converted to a customer, for example, the contact person or contact company becomes the name of the customer. The record for the contact is kept, and you can link the contact and the customer so that their data is synchronized going forward.
 
 > [!NOTE]
-> If you switch on the [feature update for conversion templates](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), then you can also create business contacts from vendors or employees, and you can create vendors and employees without a contact.
+> If you switch on the [feature update for conversion templates](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), then you can also create  vendors or employees from business contacts.
 >
-> However, if you are already using the built-in functionality for creating customers or items automatically, then this feature update does not support custom fields, and newly created contacts will not include such data.
+> However, if you are already using the built-in functionality for creating customers or items automatically, then this feature update does not support custom fields, and newly created customers or items will not include such data.
 
 ## To create a contact manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

@@ -34,7 +34,7 @@ You can access SmartList Designer in two ways:
 
     At this point, the minimum amount of information to create a query has been defined. You can preview the results, create the query, or extend the query definition as described below.  
 
-* Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SmartList Designer**.
+* Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SmartList Designer**.
 
     The **SmartList Designer** page opens, but because it is not associated with a data source yet, you must specify the data source that you want to use as the primary data source.
 

@@ -17,7 +17,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 
 ## To print the test report for cash journal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Journal**, and then choose the related link.  
 2.  On the **Cash Journal** page, choose the **Test Report** action.  
 3.  To include the information on applied entries for the statement lines, select the **Show Applied Entries** check box.  
 
@@ -30,7 +30,7 @@ This report displays the statement lines of a cash journal and bank journal or g
 
 ## To print the test report for bank or giro journal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link  
 2.  Choose the **General Ledger** action.  
 3.  On the **General Journal Template List** page, Choose the **OK** button.  
 4.  On the **Bank/Giro Journal** page, choose the **Test Report** action.  

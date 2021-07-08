@@ -35,7 +35,7 @@ A new TCS section 206C (1H) has been introduced in finance bill 2020. As per new
 
 TCS Nature of Collection represents the various types of payments received for which TCS rates have been specified under the provisions of section 206C(1H) of the Income Tax Act 1961. A new field 'TCS On Recpt Of Pmt.' has been added on the setup.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Nature of Collection**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -46,7 +46,7 @@ TCS Nature of Collection represents the various types of payments received for w
 
 Rate of TCS is defined in combination of TCS nature of collection and assessee code. A new field 'Calc. Over & Above Threshold' has been added on the setup.
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TCS** -> **Action** -> **Tax Rates**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Tax Type** -> **TCS** -> **Action** -> **Tax Rates**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|

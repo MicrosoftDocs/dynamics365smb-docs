@@ -24,7 +24,7 @@ After you have created a proposal and made any modifications, you can process th
 
 ## To create a payment history for a proposal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank - Bank Overview**, and then choose the related link.  
 
     If you want to print the proposal before you process it, choose the **Print** button.  
 

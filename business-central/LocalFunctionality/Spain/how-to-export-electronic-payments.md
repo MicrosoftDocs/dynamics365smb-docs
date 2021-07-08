@@ -29,7 +29,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## To export electronic payments using the Payment Orders page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Orders**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
 3.  Choose THE **Export to File** action.  
 
@@ -59,7 +59,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## To export electronic payments using the Payment Journal page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the documents that you want to pay.  
 3.  Choose the **Related** > **Payments** > **Electronic Payments** > **Export**.  
 
@@ -92,7 +92,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can export payment 
 
 ## To export electronic payments from the Cartera module  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PO - Export N34.1**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PO - Export N34.1**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -37,7 +37,7 @@ You can fill customer fields on the sales invoice in two ways depending on wheth
 
 ### To create a sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2. In the **Customer** field, enter the name of an existing customer.
 
    Other fields on the **Sales Invoice** page contain standard information about the selected customer. If the customer is not registered, follow these steps:

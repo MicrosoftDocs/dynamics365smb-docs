@@ -34,7 +34,7 @@ The following processes describe how to create and attach an Outward Gate Entry.
 
 ### To create an outward gate entry
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Outward Gate Entry List**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Outward Gate Entry List**, and then choose the related link.
 2. Fill in the fields as described in the following table on the **Onward Gate Entry** header.
 
     |Field|Description|  
@@ -69,7 +69,7 @@ The following processes describe how to create and attach an Outward Gate Entry.
 
 ### View posted outward gate entry
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Outward Gate Entry**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Outward Gate Entry**, and then choose the related link.
 2. In the **Posted Outward Gate Entry**, the **Status** field on the line level has the value as **Open**, it means **Posted Gate Entry – Outward** is still open for attachment. 
 3. **Status** field will be updated once source document gets posted.  
 
@@ -77,20 +77,20 @@ System will automatically attach the Outward Gate Entry with the source number y
 ### To view attached outward gate entry if the source type is sales shipment
 
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Sales Shipment**, and then choose the related link.
 2. Select the required posted sales shipment and click on **Related** -> **Shipment** -> **Attached Gate Entry** and click.
 
 
 ### To view attached outward gate entry if the source type is transfer shipment
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Transfer Shipment**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Transfer Shipment**, and then choose the related link.
 2. Select the required posted transfer shipment and click on **Related** -> **Shipment** -> **Attached Gate Entry**.
 3. On this page you can view the attached gate entry with the transfer shipment.
 
 
 ### To view an outward gate entry if the source type is purchase return shipment
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Return Shipment**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Return Shipment**, and then choose the related link.
 2. Select the required posted return shipment and click on **Related** -> **Return Shpt.** -> **Attached Gate Entry**.
 3. On this page you can view the attached gate entry with the purchase return shipment.
 

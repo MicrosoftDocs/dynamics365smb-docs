@@ -16,7 +16,7 @@ ROBOTS: NOINDEX
 
 > **APPLIES TO:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
-> This feature is currently in preview. The functionality and documentation may change in later releases. If you would like to contribute to the documentation based on your own findings, please select ![Edit article in GitHub](media/github-edit-pencil.png) **Edit**, and propose changes. Then we'll take a look!
+> This feature is currently in preview. The functionality and documentation may change in later releases. If you would like to contribute to the documentation based on your own findings, please select ![Edit article in GitHub.](media/github-edit-pencil.png) **Edit**, and propose changes. Then we'll take a look!
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Online includes the **Troubleshooting Connectivity** page that you can use to identify problems with your connection to the online service. There are several things that affect connectivity to Business Central, like the firewall settings of your network or domain name service configuration. The page lets you run a list of checks that will diagnose common Business Central connectivity issues. You can use the information to try to fix the problems yourself, or pass it on to your support representative.
 
@@ -35,9 +35,9 @@ ROBOTS: NOINDEX
 
     A series of checks is run, and the result of each check is shown:
 
-    - ![Connectivity check succeeded](media/connectivity-check.png) indicates the check succeeded.
-    - ![Connectivity check failed](media/connectivity-failed.png) indicates the check failed. Review the message below the check for more details.
-    - ![Connectivity check was not run](media/connectivity-blocked.png) indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
+    - ![Connectivity check succeeded.](media/connectivity-check.png) indicates the check succeeded.
+    - ![Connectivity check failed.](media/connectivity-failed.png) indicates the check failed. Review the message below the check for more details.
+    - ![Connectivity check was not run.](media/connectivity-blocked.png) indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
 
 3. To run the check again, choose **Restart check**.
 

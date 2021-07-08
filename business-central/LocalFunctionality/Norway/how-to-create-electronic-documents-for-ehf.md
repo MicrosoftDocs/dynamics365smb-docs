@@ -24,7 +24,7 @@ Electronic documents can only be created after a document has been posted or iss
 
 ## To post a sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Select the sales invoice that you want to post, and then choose the **Edit** action.  
 3.  On the **General** FastTab, make sure that the following fields contain values:  
 
@@ -51,7 +51,7 @@ Electronic documents can only be created after a document has been posted or iss
 
 ## To create an electronic sales invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  Select the relevant sales invoice.  
 3.  Choose the **Create Electronic Invoice** action.  
 

@@ -18,7 +18,7 @@ The following procedure shows how to track a package from a posted sales shipmen
 
 ## To track a package
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipment**, and then choose the related link.
 2. Open the relevant shipment.
 3. Choose the **Update Document** action.
 4. In the **Package Tracking No.** field, enter the package number you have received from the shipping agent. Update **Shipping Agent** if needed and close the page.

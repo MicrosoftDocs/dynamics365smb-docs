@@ -24,7 +24,7 @@ Process of GST calculation on advance payment from customer has been explained i
 
 ### Create a general journal or a bank or cash receipt voucher
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Receipt Voucher**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Bank Payment Voucher** or **Cash Receipt Voucher**, and then choose the related link.
 2. Select **Customer** in account type and select relevant **Customer Code**, GST customer type and registration number should not be blank on customer master.
 3. Select **G/L Account** or **Bank Account** in balancing account type, and select the cash or bank account. 
 4. GST on Advance Payment field needs to be activated in General Journal Line for computation of GST on Advance Payment. In addition, GST Group code and GST Place of Supply are to be entered for computation of GST.

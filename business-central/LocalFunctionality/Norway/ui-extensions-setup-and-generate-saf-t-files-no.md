@@ -28,7 +28,7 @@ This extension provides the following capabilities:
 ## Setup of the Norwegian SAF-T extension
 Set up the SAF-T extension through Assisted Setup, which provides an easy, step-by-step guide for get started with SAF-T in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until you finish the setup.
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Assisted Setup**.  
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Assisted Setup**.  
 2. Choose **Set up SAF-T**.
 3. The first page in the setup guide explains what you are about to set up. Choose **Next**.
 4. In the in **Mapping Type** field, choose the type of Chart of Accounts you want to SAF-T accounts, and then choose **Next**. 
@@ -56,7 +56,7 @@ Set up the SAF-T extension through Assisted Setup, which provides an easy, step-
 To export SAF-T files from [!INCLUDE[prod_short](../../includes/prod_short.md)], you must first create and set up a **SAF-T Export** to define the mapping range. For example, you can define a mapping and export the entire year of 2019, and another mapping for just the month of April 2019 if the authorities ask you to provide this data specifically.
 
 ### To create an export of SAF-T files  
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **SAF-T Exports**, and then choose **SAF-T Exports**.  
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **SAF-T Exports**, and then choose **SAF-T Exports**.  
 2. On the **SAF-T Exports** page, choose **Create**.
 3. On the **SAF-T Export** page, in the **Mapping Range Code** field, choose the mapping range for which to define an export.
 5. To start the SAF-T export, do one of the following: 

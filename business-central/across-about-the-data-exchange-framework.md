@@ -21,9 +21,9 @@ As an administrator or Microsoft partner, you can use the framework in new integ
 
  The following diagrams show the architecture of the data exchange framework.  
 
- ![Data Exchange Framework &#45; Import](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Data Exchange Framework &#45; Import.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Data Exchange Framework &#45; Export](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Data Exchange Framework &#45; Export.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## Electronic Documents
 

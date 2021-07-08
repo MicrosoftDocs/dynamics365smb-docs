@@ -24,7 +24,7 @@ You can use income statement balancing accounts to balance and track several acc
 
 ## To set up the income statement balance account  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2.  Select an existing general ledger account, and then choose the **Edit** action to open the **G/L Account Card** page.  
 3.  Expand the **General** FastTab.  
 4.  In the **Income Stmt. Bal. Acc.** field, select the adjustment account for the auxiliary commercial account.  
@@ -36,7 +36,7 @@ You can use income statement balancing accounts to balance and track several acc
 
 ## To close income statement balances  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Close Income Statement**, and then choose the related link.  
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

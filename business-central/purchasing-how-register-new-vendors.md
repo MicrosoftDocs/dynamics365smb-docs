@@ -36,7 +36,7 @@ To register a new vendor, you must fill in a vendor card. You can establish temp
 
 ### To create a new vendor card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. On the **Vendors** page, Choose **New**.
 
     If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.

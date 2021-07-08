@@ -21,7 +21,7 @@ This process is similar to how computer checks are processed.
 
 ## To pay a vendor electronically  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Fill in the fields as described in the following table.  
 
     |Field|Description|  

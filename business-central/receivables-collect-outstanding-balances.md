@@ -25,7 +25,7 @@ From the customer card, you can create a statement with that customer's transact
 
 ### To send the Customer Statement report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Statement**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Statement**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Output Options**, select how to send the report to the customer.
 
@@ -48,7 +48,7 @@ After you have created reminders and made any needed modifications, you can eith
 
 A reminder is similar to an invoice. When you create a reminder, a reminder header as well as one or more reminder lines must be filled in. You can use a function to create reminders for all customers automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. On the **Reminder** page, choose the **Create Reminders** action.
 3. On the **Create Reminders** page, fill in the fields to define how and to whom the reminders are created.
 4. Choose the **OK** button.
@@ -57,7 +57,7 @@ A reminder is similar to an invoice. When you create a reminder, a reminder head
 
 On the **Reminder** page, you can fill in the **General** FastTab manually and then have the lines filled in automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **General** FastTab, fill in the fields as necessary.
 4. Choose the **Suggest Reminder Lines** action.
@@ -74,7 +74,7 @@ On the **Reminder** page, you can fill in the **General** FastTab manually and t
 
 There are several ways you can determine the text that appears on the printed reminder. In some cases, you may want to replace the beginning and ending texts that have been defined for the current level with those from a different level.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Open the relevant reminder, and then choose the **Update Reminder Text** action.
 3. On the **Update Reminder Text** page, enter the required level in the **Reminder Level** field.
 4. Choose the **OK** button to update the beginning and ending texts.
@@ -97,7 +97,7 @@ If the **Post Interest** or the **Post Additional Fee** check boxes are selected
 
 In addition, issuing the reminder may result in VAT entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminders**, and then choose the related link.
 2. Select the relevant reminder, and then choose the **Issue** action.
 3. On the **Issue Reminders** page, fill in the fields as necessary.
 4. Choose the **OK** button
@@ -130,7 +130,7 @@ After you have created finance charge memos and made any needed modifications, y
 
 A finance charge memo is similar to an invoice. You can fill in a header manually and have the lines filled in for you, or you can create finance charge memos for all customers automatically.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary.  
 3. Choose **Suggest Fin. Charge Memo Lines** action.
 4. On the **Suggest Finance Charge Memo Lines** page, set a filter on the **Cust. Ledger Entry** FastTab if you want to create finance charge memos only for specific entries.
@@ -142,7 +142,7 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 ### To update finance charge memo texts  
 In some cases, you may want to modify the beginning and ending text that you have set up for the finance charge terms. If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
 2. open the finance charge memo that you want to change text for, and then choose the **Update Finance Charge Text** action.
 3. On the **Update Finance Charge Text** page, you can set a filter if you want to update several memos.
 4. Choose the **OK** button to update the beginning and ending texts.  
@@ -162,7 +162,7 @@ If the **Post Interest** or the **Post Additional Fee** check boxes are selected
 
 In addition, issuing the finance charge memo may result in VAT entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memos**, and then choose the related link.
 2. Select the relevant memo, and then choose the **Issue** action.
 3. On the **Issue Finance Charge Memos** page, fill in the fields as necessary.
 4. Choose the **OK** button
@@ -176,7 +176,7 @@ If finance charge memos were issued in error, you can cancel them before they ar
 
 ### To view reminder and finance charge entries  
 When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Charge Entries** page for each reminder line that contains a customer ledger entry. You can then get an overview of the created reminder entries for a specific customer.    
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Open the relevant customer card, and then choose the **Ledger Entries** action.
 3. On the **Customer Ledger Entries** page, select the line with the ledger entry you want to see the reminder entries for, and then choose the **Reminder/Fin. Charge Entries** action.
 

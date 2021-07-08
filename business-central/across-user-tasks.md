@@ -23,7 +23,7 @@ The **User Tasks** page shows all tasks, and you can easily create and assign ne
 
 For example, you can create a task for yourself or a coworker to view all posted sales invoices. In that case, you link the task to page 143, **Posted Sales Invoices**. In the following screenshot, someone is creating a task for MeganB to review the posted sales invoices.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Example of a user task":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Example of a user task.":::
 
 > [!TIP]  
 > Use the look-up in the **Page** field and then use the **Search** field to find the page that you want.  

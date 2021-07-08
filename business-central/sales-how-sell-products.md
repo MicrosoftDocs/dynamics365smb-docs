@@ -40,7 +40,7 @@ You can fill customer fields on the sales order in two ways depending on whether
 
 ## To create a sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. In the **Customer** field, enter the name of an existing customer.
 
     Other fields on the **Sales Order** page are now filled with the standard information of the selected customer.  

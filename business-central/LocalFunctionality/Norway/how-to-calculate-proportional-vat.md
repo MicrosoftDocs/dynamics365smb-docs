@@ -21,7 +21,7 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
 
 ### To calculate proportional VAT  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  On the **VAT Posting Setup** page, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -17,7 +17,7 @@ You may want to periodically remit the net VAT from sales and purchase transacti
 
 ## To prepare VAT entries for posting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Settlement Worksheet**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Settlement Worksheet**, and then choose the related link.
 
 2. Select the filters that define the VAT related transactions that you want to include in the VAT settlement.
 

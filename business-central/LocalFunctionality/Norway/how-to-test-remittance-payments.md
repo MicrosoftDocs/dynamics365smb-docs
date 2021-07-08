@@ -25,7 +25,7 @@ If a warning is printed in the test report, you cannot transfer the payments to 
 
 ## To print a remittance test report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Choose the **Test Report** action.  
 3.  On the **Options** FastTab, select the **Show Dimensions** field to print dimensions on the test report.  
 4.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  

@@ -22,7 +22,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
 
 ## To print the VAT audit report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the relevant VAT statement template, and then choose OK.
 3. On the **VAT Statement** page, choose **VAT Audit Report**.
 4. On the **VAT Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
@@ -45,7 +45,7 @@ In the United Kingdom, all vendors must export the data required for auditing in
 
 ## To print the VAT entry exception report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the relevant VAT statement template, and then choose OK.
 3. On the **VAT Statement** page, choose **VAT Entry Exception Report**.  
 4. On the **VAT Entry Exception Report** page, on the **Options** FastTab, fll in the fields as described in the following table.  

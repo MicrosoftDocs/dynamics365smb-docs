@@ -26,7 +26,7 @@ When custom report layouts are defined, you can select them from customer and ve
 > Document reports (not lists) that use a Word report layout are typically faster than those that use an RDLC report layout. So if you have the option to choose between a Word or RDLC report layout for a document report, use the Word report layout for the best performance.
 
 ## To change which report layout to use for a report or document
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
    The **Report Layout Selection** page lists all the reports that are available for the company that is specified in the **Company** field at the top of the page. The **Selected Layout** field specifies the layout that is currently used on the report.
 2. Set the **Company** field at the top of the page to the company that includes the report.
 3. To change the layout that is used by a report, on the row for the report, set the **Selected Layout** field to one of the following options:

@@ -28,7 +28,7 @@ When custom report layouts are defined, you can select them from customer and ve
 
 ## To create a custom layout
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
 
     The **Report Layout Selection** page lists all the reports that are available in the company that is specified in the **Company Name** field at the top of the page.
 2. Set the **Company** field to the company in which you want to create the report layout.
@@ -93,7 +93,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Content control for field in Word report layout](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 

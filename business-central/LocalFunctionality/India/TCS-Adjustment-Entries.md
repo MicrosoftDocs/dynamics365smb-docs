@@ -21,7 +21,7 @@ TCS adjustment is applicable for any correction of the TCS amount, TCS rate and 
 
 ## TCS adjustment process
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Adjustment Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **TCS Adjustment Journal**, and then choose the related link.
 2. Select the relevant transaction number in **Transaction No.** field from the drop down, and the selected line, will get populated with the posted record. Following information can be changed, in the adjustment journal as per the requirements:
   
     |Field Name|Use|

@@ -25,7 +25,7 @@ The import bank statement is supported by the following protocols:
 
 ## To import and reconcile bank statements  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank/Giro Journal**, and then choose the related link.  
 2.  Choose the **Import Bank Statement** action, select the required import protocol, and then choose the **OK** button.  
 3.  To reconcile the bank statements automatically when importing, on the **Options** FastTab, select the **Automatic Reconciliation** check box.  
 

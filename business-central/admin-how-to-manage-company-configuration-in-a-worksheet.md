@@ -24,7 +24,7 @@ The following procedures demonstrate how to add and customize table information 
 
 ## To open the configuration worksheet  
 1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
 1.  On the **Config. Worksheet** page, choose the **Edit List** action.  

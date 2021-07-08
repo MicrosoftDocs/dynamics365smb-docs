@@ -98,7 +98,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 2.  Choose the **Sales Order - Open** tile.  
 
-3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
+3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Customize Ribbon**.  
 
 4.  In the **Available actions** list, expand **Help**, and then choose **Page Notes**. Alternatively, use the **Search** box above the list.  
 
@@ -118,11 +118,11 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To add the Links FactBox to a FactBox pane  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.  
 
 2.  Select a customer, and then, on the **Navigate** tab, in the **Documents** group, choose **Orders**.  
 
-3.  In the **Sales Orders** window, on the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Choose FactBoxes**.  
+3.  In the **Sales Orders** window, on the **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Choose FactBoxes**.  
 
 4.  From the **Available FactBoxes** pane, select **Notes**, and then choose the **Add** button.  
 
@@ -141,7 +141,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 2.  Choose the **Sales Order - Open** tile.  
 
-3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Restore Defaults**.  
+3.  In the **Sales Orders** window, on **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Restore Defaults**.  
 
 4.  Choose the **OK** button to save and close the **Customize** window.  
 
@@ -155,7 +155,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 #### To export a profile  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Export Profiles**, and then choose the related link.  
 
 2.  In the **Export Profiles** window, on the **Profile** FastTab, enter **Order Processor** as a filter value for profile ID, and then choose **OK**.  
 
@@ -165,7 +165,7 @@ Administrators configure the user interface by customizing the user interface fo
 
 1.  Logon to a database where you want to implement the Order Processor profile that you have configured in the previous procedures.  
 
-2.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
+2.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Import Profiles**, and then choose the related link.  
 
 3.  In the **Import from XML File** window, select the profile that you want to import.  
 

@@ -19,7 +19,7 @@ Plan movements in the worksheet using a bin replenishment function or manually p
 ## To calculate a replenishment movement  
 As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Calculate Bin Replenishment** action.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] creates lines that indicate precisely how you should move items from the low-ranking bins to the higher-ranking bins.  
@@ -40,7 +40,7 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 ## To move the entire contents of one or more bins by using the Get Bin Content function  
 You can also use the movement worksheet to plan other movement of inventory within the warehouse. For example, when you want to place items in a bin for quality control, you can use the movement worksheet to plan this action and then create a movement to make instructions for an employee.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
 2.  Choose the **Get Bin Content** action. Use the request page to filter which bins and items you want to appear on the movement worksheet lines.  
 3.  Fill in the relevant fields in the batch job request page. For example, if you want to see the bin content of all the bins in a certain zone at the location, fill in the **Zone Code** field. If you want to retrieve lines for each bin that contains a particular item, fill in the **Item No.** field.  
 

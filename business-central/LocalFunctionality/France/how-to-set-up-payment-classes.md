@@ -21,7 +21,7 @@ For each operation type, you then define the various statuses that the operation
 
 ## To set up a payment class  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Slip Setup**, and then choose the relevant link.  
 2. On the **Payment Slip Setup** page, choose the **New** action.  
 3. Fill in the fields as described in the following table.  
 

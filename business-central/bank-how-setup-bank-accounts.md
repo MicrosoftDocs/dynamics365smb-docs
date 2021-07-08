@@ -28,13 +28,13 @@ Bank accounts work differently depending on whether a currency code is specified
 
 A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
 
-![Illustration of bank account relations](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
+![Illustration of bank account relations.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
 This means that creating a bank account, makes it available in all the places shown above as well as being mirrored in for the relevant G/L account and in the **Company Information** page.
 
 A bank account is usually monitored daily to make sure that any new payments from customers are registered as quickly as possible. This helps make sure that the actual status of the customers is reflected in [!INCLUDE[prod_short](includes/prod_short.md)] so that sales people, accountants, and other employees have access to relevant and up-to-date information. This way, they avoid unnecessary calls to the customer regarding overdue invoices or delay in shipments.  
 
-![Illustration of bank payment](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
+![Illustration of bank payment.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
 Another task is to import the vendor currency payments with the realized currency rates to make sure that the actual status of the vendors is up-to-date. The easiest way to make sure that the bank account is updated is using the [payment reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md) capability. In the **Payment Reconciliation Journal**, you can import bank transactions directly from an online bank application and have them posted more or less automatically. The journal automatically identifies and posts the following:  
 
@@ -51,7 +51,7 @@ Payment reconciliation provides massive time savings in posting incoming and out
 
 Bank reconciliation is how you make sure that the bank account in [!INCLUDE[prod_short](includes/prod_short.md)] matches the external account at the bank.  
 
- ![Illustration of bank account reconciliation](media/Set-Up-Bank-Accounts/BankReconciliation.png)
+ ![Illustration of bank account reconciliation.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
 In the illustration above, the left side represents the bank account in [!INCLUDE[prod_short](includes/prod_short.md)], and the right side represents the transactions imported from the bank through the online bank application. The diagram in the middle shows the transactions from both sides, which is the bank reconciliation.
 
@@ -82,7 +82,7 @@ The better mapping information that you do in the payment reconciliation journal
 
 ## To set up bank accounts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -154,7 +154,7 @@ The following table explains key fields.
 
 Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for.
 3. On the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -178,7 +178,7 @@ The illustration shows the route of inbound payments:
 5. The payments are imported through the **Payment Reconciliation Journal** or the **Bank Account Reconciliation** page.
     :::column-end:::
     :::column:::
-        ![Illustration of payments received from the bank into bank accounts](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
+        ![Illustration of payments received from the bank into bank accounts.](media/Set-Up-Bank-Accounts/payments-in-and-out-1.png)
     :::column-end:::
 :::row-end:::
 
@@ -199,7 +199,7 @@ The illustration shows the route of outbound payments:
         10. The payments are exported from the payment journal and imported into the bank account
     :::column-end:::
     :::column:::
-        ![Illustration of payments from bank accounts that are sent to the bank](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)
+        ![Illustration of payments from bank accounts that are sent to the bank.](media/Set-Up-Bank-Accounts/payments-in-and-out-2.png)
     :::column-end:::
 :::row-end:::
 
@@ -207,7 +207,7 @@ The illustration shows the route of outbound payments:
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
 3. Choose the **Bank Accounts** action.
 4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  

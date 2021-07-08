@@ -27,7 +27,7 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
   
 #### To start customizing a FactBox Pane  
   
-1.  On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
+1.  On the **Application** menu ![Microsoft Dynamics NAV Application menu.](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), select **Customize**, and then choose **Customize This Page**.  
   
 2.  In the **Customize <Page Name>** dialog box, select **FactBoxes**.  
   
@@ -58,7 +58,7 @@ You can add or remove FactBoxes in the FactBox pane with the **Customize** dialo
   
 #### To start customizing a FactBox  
   
-1.  Pause on the FactBox with the pointer until the **Actions**![Action Menu icon](../media/actionmenuicon.png "actionMenuIcon") menu is displayed.  
+1.  Pause on the FactBox with the pointer until the **Actions**![Action Menu icon.](../media/actionmenuicon.png "actionMenuIcon") menu is displayed.  
   
 2.  Choose **Actions**, and then choose **Customize**.  
   

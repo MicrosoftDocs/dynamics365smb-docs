@@ -71,7 +71,7 @@ A new tax type should be created if it has unique attributes which are used in d
 
 - Execution Flow of Tax Engine
 
-  ![img](image/executionflow.png)
+  ![img.](image/executionflow.png)
 
 ## Deployment
 

@@ -24,7 +24,7 @@ Batch jobs and XMLports do more or less the same as reports, but are used more f
 
 ## Getting Started
 
-You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
+You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 
 When you open a report, batch job, or XMLport, you're typically presented with a request page where you set various options and filters that determine what to include in the report. The following sections explain how to use the request page to build, preview, and print a report.
 

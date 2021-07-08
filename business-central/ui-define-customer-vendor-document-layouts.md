@@ -27,7 +27,7 @@ Before you can define which document layout to use for which processes, and whic
 The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a vendor card.
 
 ## To enable all available sales documents for a customer
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer for whom you want to define document layouts per business process.
 3. On the **Customer Card** page, choose the **Document Layouts** page.
 4. On the **Document Layouts** page, choose the **Copy from Report Selection** action.

@@ -19,7 +19,7 @@ For a remittance error, the error code from the bank and an explanation of the e
 
 ## To view error codes  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Return Error**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Return Error**, and then choose the related link.  
 2.  On the **Return Error** page, fill in the fields as described in the following table.  
 
     |Field|Description|  

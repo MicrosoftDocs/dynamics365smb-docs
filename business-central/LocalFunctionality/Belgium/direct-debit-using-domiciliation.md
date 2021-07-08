@@ -37,7 +37,7 @@ Before you can use electronic banking for domiciliations, you must enter the cus
 
 ### To set up domiciliation  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Select the customer, and then choose the **Edit** action.  
 3. Fill in the fields as described in the following table.  
 
@@ -52,7 +52,7 @@ After you have set up domiciliations, you can start generating domiciliation sug
 
 ### To generate domiciliation suggestions  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch, and then choose the **Suggest Domiciliations** action.  
 3. Fill in the fields as displayed in the following table.  
 
@@ -82,13 +82,13 @@ The **Suggest Domiciliations** batch job creates domiciliation suggestions for a
 
 ### To edit a journal line  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch.  
 3. Select the journal line, and edit the fields.  
 
 ### To delete a journal line  
 
-1  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
+1  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch.  
 3. Select the journal line, and then choose the **Delete** action.  
 4. Choose the **Yes** button.  
@@ -99,7 +99,7 @@ To test the domiciliation journal lines, you can use the **Domiciliation Journal
 
 ### To print a domiciliation test report  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journal**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch.  
 3. Choose the **Test Report** action.  
 4. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  
@@ -115,7 +115,7 @@ Depending on setup of the **SEPA Direct Debit Exp. Format** field on the **Bank 
 
 ### To export and post domiciliations
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Domiciliation Journals**, and then choose the related link.  
 2. In the **Batch Name** field, select the required journal batch, and then choose the **File Domiciliations** action.  
 3. On the **Create Gen. Jnl. Lines** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 

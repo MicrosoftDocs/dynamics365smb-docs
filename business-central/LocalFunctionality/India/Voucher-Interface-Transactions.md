@@ -34,7 +34,7 @@ Following are the vouchers needed to record the transactions like Cash, Bank, an
 
 ## Mandatory fields for voucher entries through voucher interface
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher** or **Journal Voucher**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Voucher**, **Cash Payment Voucher**, **Bank Receipt Voucher**, **Bank Payment Voucher**, **Contra Voucher** or **Journal Voucher**, and then choose the related link. 
 2. Following are the mandatory fields for any type of voucher entry:
 
     |Field|Description|

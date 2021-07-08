@@ -27,7 +27,7 @@ An algorithm provided by the local tax office ensures that the number is in a va
 
 ## To enter IRD numbers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** or **Vendors**, and then choose the related link.  
 2. Select the required company or vendor.  
 3. Expand the **Registration** FastTab.  
 4. In the **IRD No.** field, enter the New Zealand Inland Revenue Number.  

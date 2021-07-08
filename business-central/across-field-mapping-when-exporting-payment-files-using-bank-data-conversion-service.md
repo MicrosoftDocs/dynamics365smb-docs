@@ -19,6 +19,9 @@ When you export payment files using the AMC Banking 365 Fundamentals extension, 
 > [!CAUTION]  
 >  When you export payment files by using the AMC Banking 365 Fundamentals extension, some of your business data will be exposed to the provider of the service. The service provider, AMC Consult A/S, is responsible for the privacy of this data. For more information, see [AMC Privacy Policy](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
+> [!NOTE]
+> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
+
 The following table lists the fields in [!INCLUDE[prod_short](includes/prod_short.md)] from which you can export data.  
 
 |Mapped Field|Field in Table|Table|Description|  

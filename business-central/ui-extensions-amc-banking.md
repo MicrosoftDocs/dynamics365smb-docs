@@ -20,6 +20,9 @@ The AMC Banking 365 Fundamentals extension makes it easier, and more accurate, t
 > [!Note]
 > AMC Banking has built additional extensions that work with [!INCLUDE[prod_short](includes/prod_short.md)]. This topic describes only the Fundamental extension.
 
+> [!NOTE]
+> In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a global provider of services to convert bank data to any file format that your bank requires is set up and connected. In North American versions, the same service can be used to send payment files as electronic funds transfer (EFT), for example the commonly used Automated Clearing House (ACH) network, however with a slightly different process.
+
 ## Using Our Demonstration Account
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with a demonstration account that lets you try out the AMC Banking 365 Fundamentals extension. We provide default settings for connecting to AMC Banking, specifying the bank accounts to get data from in [!INCLUDE[prod_short](includes/prod_short.md)], plus a few data exchange definitions. You can view the connection settings on the **AMC Banking Setup** page. For bank accounts, the extension applies values in the **Bank Name**, **Credit Transfer Msg. Nos.**, **Bank Statement Import Format**, and **Payment Export Format** fields on bank account cards.
 

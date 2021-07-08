@@ -25,7 +25,7 @@ Process for purchases from a composite vendor has been explained in this documen
 
 ## Create a purchase invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header, GST vendor type should be **Composite** or **Exempted**.
 3. Select **G/L Account**, **Item Code**, **Fixed Asset** or **Charge (Item)** on **Purchase Invoice** line.
 

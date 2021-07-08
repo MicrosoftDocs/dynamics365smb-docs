@@ -28,7 +28,7 @@ You can indent and validate the chart of accounts on the **G/L Account Card** pa
 
 ## To indent and validate the chart of accounts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, in the **No.** field, enter the number of the general ledger account that you are setting up.  
 4.  In the **Account type** field, select **Posting** or **Heading**. **Posting** implies that entries can be posted to the account. **Heading** implies that entries cannot be posted to the account.  

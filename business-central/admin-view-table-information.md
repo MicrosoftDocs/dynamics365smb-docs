@@ -19,7 +19,7 @@ This information is useful for troubleshooting performance problems, because let
 
 ## Viewing table information
 
-To open this page, select the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
+To open this page, select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Table Information**, and then choose the related link.
 
 The following table describes the information provided for each table:
 

@@ -23,7 +23,7 @@ You can customize the navigation pane with the **Customize Navigation Pane** win
   
 ### To start customizing the navigation pane window  
   
--   On the **Application** menu ![Microsoft Dynamics NAV Application menu](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Customize**, and then choose **Customize Navigation Pane**.  
+-   On the **Application** menu ![Microsoft Dynamics NAV Application menu.](../media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Customize**, and then choose **Customize Navigation Pane**.  
   
 ## Renaming or Rearranging Buttons in the Navigation Pane  
  You cannot move, rename, or remove the **Home** button. The **Departments** button can be removed from the navigation pane, but not renamed or moved. However, you can move, rename, or remove other menu buttons in your navigation pane.  

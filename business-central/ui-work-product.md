@@ -23,7 +23,7 @@ For example, you can adjust the size and position of any page, expand the width 
 > [!TIP]
 > For a print-friendly overview of the most used functions, choose the following image and download the PDF file.
 >
-> [ ![Icon for the PDF file](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
+> [ ![Icon for the PDF file.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Icon that opens a PDF")
 
 ## Links to Learn More
 
@@ -69,7 +69,7 @@ Here's a short video about how to get around in [!INCLUDE[prod_short](includes/p
 
 Inside [!INCLUDE [prod_short](includes/prod_short.md)], you do most of your work in a list, a document, or a card. All three types of pages have a bar with actions that are relevant to the particular page, and the actions are almost the same for the individual card or document and for the list of entities. This way, you can manage an individual sales order in the **Sales Order** page and in the **Sales Orders** list, including posting it and invoicing it.  
 
-But the actions can also look differently, or even not be present, depending on how you open the page. Specifically for list pages, the list page that you open from the home page and the page that renders when you search for it using the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon are not identical.  
+But the actions can also look differently, or even not be present, depending on how you open the page. Specifically for list pages, the list page that you open from the home page and the page that renders when you search for it using the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon are not identical.  
 
 When you search for an open a list page, such as the **Sales Orders** list, it is in view mode. The actions for editing, viewing, or deleting an individual entity, such as a sales order, are shown when you choose the **Manage** action.  
 

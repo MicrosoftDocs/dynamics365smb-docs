@@ -35,7 +35,7 @@ When you are setting up the template in Word, on the **Mailings** tab you can ad
 When your Word template is ready, on the **Word Templates** page you can choose **Apply** to generate the documents. You can either create one document that contains sections for each entity, or split the operation to create a new document for each entity.
 
 ## To create a Word template
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Word Templates**, and then choose the related link.
 2. Follow the steps in the assisted setup guide. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## See Also

@@ -47,7 +47,7 @@ For both types of events, the events are system-defined. New events must be adde
 
 ## To create a workflow
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. To create the workflow from a workflow template, on the **Workflows** page, choose the **Create Workflow from Template** action. For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -110,13 +110,13 @@ For both types of events, the events are system-defined. New events must be adde
 > Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
 
 > [!TIP]  
-> To see relations between tables that are used in workflows, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter **Workflow – Table Relations**.  
+> To see relations between tables that are used in workflows, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter **Workflow – Table Relations**.  
 
 ## Example of creating a new workflow using existing events
 
 In the following example a new workflow is made to approve changes to the name of en existing vendor:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow** page opens.
 3. In the workflow section, fill in the fields as described in the following table.
 

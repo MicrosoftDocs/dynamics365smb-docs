@@ -21,7 +21,7 @@ Power BI reports give you insight into your [!INCLUDE[prod_short](includes/prod_
 
 [!INCLUDE [prod_short](includes/prod_short.md)] works together with the Power BI service. Reports for displaying in [!INCLUDE [prod_short](includes/prod_short.md)] are stored in a Power BI service. In [!INCLUDE [prod_short](includes/prod_short.md)], you can switch the report displayed in the Power BI part to any Power BI report available in your Power BI service. The first time you sign into [!INCLUDE [prod_short](includes/prod_short.md)], and until you connect to a Power BI service, parts will be empty, as shown here:
 
-![Power BI part in Business Central](./media/power-bi-part.png)
+![Power BI part in Business Central.](./media/power-bi-part.png)
 
 ## Get Started
 

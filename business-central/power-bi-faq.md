@@ -72,7 +72,7 @@ The most commonly used line records are available in the [Business Central APIs 
 5. Scroll to the right until you find a column named as the lines, for example **SalesInvoiceLines**.
 6. Select the expand button in the header of the column, next to the column name.
 
-   :::image type="content" source="media/saleinvoicelines.png" alt-text="Shows the SalesInvoiceLines column in Power BI Desktop":::
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Shows the SalesInvoiceLines column in Power BI Desktop.":::
 <!-- 11 --> 
 ### Is it possible to choose which Business Central environment to get data from for Power BI, for example, like a sandbox or production environment? 
 

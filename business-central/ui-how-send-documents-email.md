@@ -28,7 +28,7 @@ To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], sta
 
 This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. <!--update this-->
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
 2. Select the invoice, and then choose the **Print/Send** action.
 3. In the **Email** field, choose **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
     
@@ -48,7 +48,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 
 ## To compose and send an email
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
 2. Choose the account to send the email from, and then choose the **Compose Email** action.
 
 ## Documents marked as printed when they are sent

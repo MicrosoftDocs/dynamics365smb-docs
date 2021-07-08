@@ -23,7 +23,7 @@ You must submit periodic VAT statements to the tax authorities to list transacti
 
 ## To review and print VAT statements  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2.  On the **VAT Statement** page, in the **Name** field, select the required VAT statement, and then choose the **Print** action.  
 3.  On the **Options** FastTab, enter a date interval to limit the period covered by the statement and define what type of VAT entries that you want to include.  
 4.  Choose the **Print** button to print the VAT statement.  
@@ -32,7 +32,7 @@ You can use the printed VAT statement to review the VAT entries to be submitted 
 
 ## To settle and post VAT transactions  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post VAT Settlement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calc. and Post VAT Settlement**, and then choose the related link.  
 2.  On the **Options** FastTab, enter a date interval to limit the period covered by the VAT settlement, select the correct VAT settlement account, and then select the **Post** action if you want to post the VAT amounts to the settlement account.  
 3.  Choose the **Print** button to print the VAT settlement and post the entries.  
 
@@ -40,7 +40,7 @@ After you calculate and post the VAT settlement, VAT amounts are transferred to 
 
 ## To submit VAT statements  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2.  On the **VAT Statement** page, in the **Name** field, select the required VAT statement, choose the **Print** action, and then choose the **PDF** option.  
 
 The exported file can now be submitted to the tax authorities.  

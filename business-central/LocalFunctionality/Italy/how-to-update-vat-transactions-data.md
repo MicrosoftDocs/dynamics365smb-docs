@@ -20,7 +20,7 @@ You can run the **Update VAT Transaction Data** report as a test before you chan
 
 ## To update VAT transaction data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Transaction Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Transaction Data**, and then choose the related link.  
 2.  Optionally, on the **VAT Entry** FastTab, set the appropriate filters.  
 3.  On the **Options** FastTab, fill in the fields as described in the following table.  
 

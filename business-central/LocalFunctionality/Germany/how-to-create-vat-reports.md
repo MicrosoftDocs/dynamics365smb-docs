@@ -18,7 +18,7 @@ You can configure different types of VAT reports based on requirements. Then, wh
 
 ## To create a VAT report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report**, and then choose the related link.  
 2.  Fill in the fields in the **General** FastTab, including the fields that are described in the following table.  
 
     |Field|Description|  

@@ -20,7 +20,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
 
 ## To print the German Intrastat checklist  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch name.
 3.  Choose the **Checklist Report** action.  
 4.  On the **Intrastat - Checklist DE** page, on the **Options** FastTab, select the **Show Intrastat Journal Lines** check box.  
@@ -34,7 +34,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
 
 ## To print the German Intrastat form  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch name.  
 3.  Choose the **Form** action.  
 4.  Optionally, on the **Intrastat Jnl. Batch** FastTab, select the appropriate filters.  
@@ -43,7 +43,7 @@ Intrastat reporting is required throughout the European Union (EU) and must foll
 
 ## To export Intrastat information to a disk  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  In the **Batch Name** field, select the required journal batch name.  
 3.  Choose the **Make Diskette** action.  
 4.  On the **Options** FastTab, in the **Path** field, enter the full path and the name of the file to which you want to write the information.  

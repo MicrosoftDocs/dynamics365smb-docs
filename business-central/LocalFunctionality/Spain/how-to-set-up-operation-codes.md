@@ -19,7 +19,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 ## To set up operation codes  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Operation Codes**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Operation Codes**, and then choose the related link.  
 2.  On the **Operation Codes** page, fill in the fields as described in the following table  
 
     |Field|Description|  
@@ -29,7 +29,7 @@ You can add as many operation codes as you want to the table. However, the opera
 
 ## To link operation codes to general product posting groups  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posting Groups**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posting Groups**, and then choose the related link.  
 2.  Choose the **General Product Posting Groups** action.  
 3.  On the **General Product Posting Groups** page, link each operation code to a general product posting group.  
 

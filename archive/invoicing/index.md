@@ -32,7 +32,7 @@ The home page also gives you easy access to key tasks, such as creating new invo
 Access your [!INCLUDE[d365inv](includes/d365inv.md)] data from your mobile device. Then start capturing invoices to send to your customers right there on your phone.
 
 Get the [!INCLUDE[d365inv](includes/d365inv.md)] app on your mobile device by downloading the app from the App Store, or Google Play.  
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?linkid=856735) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?linkid=856736)  
+[![App Store.](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?linkid=856735) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?linkid=856736)  
 
 ## See Also
 [Set up your business information](set-up-business-profile.md)  

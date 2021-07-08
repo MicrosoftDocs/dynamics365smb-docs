@@ -46,7 +46,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
 ### To set up the requirements for a data export  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **Data Exports** page, fill in the fields as described in the following table.  
 
@@ -252,7 +252,7 @@ Cassie wants to export data that she can then send to the tax auditors.
 
 ### To export data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
 2.  On the **Export Business Data** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

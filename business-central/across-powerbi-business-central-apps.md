@@ -57,7 +57,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 1. Open your browser, navigate to [https://powerbi.microsoft.com](https://powerbi.microsoft.com), and sign into your account.
 2. Select **Get Data** at the bottom of the left navigation pane.  
 
-    ![Navigating to Get Data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigating to Get Data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     You can also get starting from within [!INCLUDE [prod_short](includes/prod_short.md)]. From your Home page, navigate to **Report Selection** in the Power BI section. Select either **Service** or **My Organization** from the ribbon. Either the Organization gallery in Power BI or Microsoft AppSource opens, filtered to only display apps related to [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -83,7 +83,7 @@ Sign up for the Power BI service. If you haven't already signed up, go to [https
 5. When prompted, enter the user name and password for signing into [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Once connected, a dashboard and reports are added to your Power BI workspace. When completed, the tiles show data from your [!INCLUDE[prod_short](includes/prod_short.md)] company.
 
-    ![Select Dynamics 365 Business Central  and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Select Dynamics 365 Business Central  and select Get it now.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## Fixing problems
 

@@ -28,7 +28,7 @@ You can set up email logging for use with Exchange Server and with Exchange Onli
 If you decide to stop using email logging, you can undo all settings for the email logging setup by choossing the **Clear Email Logging Setup** action.  
   
 ## To set up email logging    
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
 2. Expand the **Email Logging** FastTab to enter information to enable email logging.  
 3. In the **Autodiscovery E-Mail Address** field, enter the email address that you want to use to enable the discovery and identification of your Exchange connection.  
 4. If you use Exchange Online, you must also specify the following fields:  

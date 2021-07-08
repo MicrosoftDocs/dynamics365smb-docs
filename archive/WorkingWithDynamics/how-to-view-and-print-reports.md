@@ -65,7 +65,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are many predefined 
 
 ### To modify the page setup  
 
--   You can specify the paper size or orientation, or the margins for a report. In the **Print Preview** window, choose **Page Setup**![Page Setup icon](../FullExperience/media/pagesetup.png "pageSetup"). Modify the settings in the **Page Setup** window.  
+-   You can specify the paper size or orientation, or the margins for a report. In the **Print Preview** window, choose **Page Setup**![Page Setup icon.](../FullExperience/media/pagesetup.png "pageSetup"). Modify the settings in the **Page Setup** window.  
 
 ### To print the report  
 
@@ -86,10 +86,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are many predefined 
 
 #### To save as a PDF, Word, or Excel file from the Print Preview Window  
 
--   From the **Print Preview** window, you can save the report as a PDF file, a Word file, or an Excel worksheet. To do so, choose **Save As**![Save icon](../FullExperience/media/save.gif "save"), and then choose **PDF**, **Word**, or **Excel**.  
+-   From the **Print Preview** window, you can save the report as a PDF file, a Word file, or an Excel worksheet. To do so, choose **Save As**![Save icon.](../FullExperience/media/save.gif "save"), and then choose **PDF**, **Word**, or **Excel**.  
 
     > [!NOTE]  
-    >  Printing is restricted on certain reports, such as posted sales and purchase documents. Therefore, the **Print Preview** window for these documents does not contain a **Save As ![Save icon](../FullExperience/media/printicon.png "printIcon")** button.  
+    >  Printing is restricted on certain reports, such as posted sales and purchase documents. Therefore, the **Print Preview** window for these documents does not contain a **Save As ![Save icon.](../FullExperience/media/printicon.png "printIcon")** button.  
 
 ## See Also  
  [Working with Product Name](../FullExperience/working-with-$-p_1-product-name-$-.md)

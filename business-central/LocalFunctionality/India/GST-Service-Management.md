@@ -25,7 +25,7 @@ Service Management has been designed to streamline your organization’s service
 
 - Create Service Order
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Order**, and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Order**, and then choose the related link.
   2. Select relevant **Customer Code** in **Customer No.** field. **GST Customer Type** field should have a value on Customer Card.
   3. Then go to Service Order **Line** Tab click on **Order** > **Service Lines**, Select Item Code for Goods, G/L Account for Service Sales, Resource or Service Cost on **Service line**. **GST Group Code**, **HSN/SAC** Code should not be blank on the Item, G/L Account, Resource or Service Cost.
 
@@ -33,7 +33,7 @@ Service Management has been designed to streamline your organization’s service
 
 - Create Service Invoice
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Invoice**, and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Invoice**, and then choose the related link.
   2. Select relevant **Customer Code** in **Customer No.** field. **GST Customer Type** field should have a value on Customer Card.
   3. Select Item Code for goods, G/L Account for service sales, Resource or Service Cost on Service Invoice line. **GST Group Code**, **HSN/SAC** Code should not be blank on the Item, G/L Account, Resource or Service Cost.
   
@@ -42,7 +42,7 @@ Service Management has been designed to streamline your organization’s service
 
 - Create Service Credit Memos
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Credit Memos**, and then choose the related link.
   2. Select relevant **Customer Code** in **Customer No.** field. **GST Customer Type** field should have a value on Customer Card.
   3. Select Item Code for goods, G/L Account for service sales, Resource or Service Cost on Service Credit Memo line. **GST Group Code**, **HSN/SAC** Code should not be blank on the Item, G/L Account, Resource or Service Cost.
 

@@ -29,7 +29,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
   
 2.  Choose the **Reset UI settings** button. Alternatively, choose the **Reset all** button to also cancel your decisions for handling files and automation objects.  
   
@@ -39,7 +39,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
   
 2.  Choose the **Reset file handling decision** button. Alternatively, choose the **Reset all** button to also cancel your view changes and decision for handling automation objects.  
   
@@ -49,7 +49,7 @@ You cancel you basic UI changes and decisions for handling of files and automati
   
 1.  Go to your Role Center.  
   
-     On the **Application** menu ![Application Menu button in menu bar](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
+     On the **Application** menu ![Application Menu button in menu bar.](../media/applicationmenuicon.png "ApplicationMenuIcon"), choose **Customize**, and then choose **Reset User-Specified Settings**.  
   
 2.  Choose the **Reset automation decisions** button. Alternatively, choose the **Reset all** button to also cancel your view changes and decision for running or saving external files.  
   

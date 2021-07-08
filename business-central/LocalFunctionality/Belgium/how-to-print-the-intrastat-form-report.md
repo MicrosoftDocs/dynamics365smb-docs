@@ -20,7 +20,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
 
 ## To print the Intrastat form report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat – Form**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat – Form**, and then choose the related link.  
 2.  Fill in the fields as described in the following table.  
 
     |Field|Description|  

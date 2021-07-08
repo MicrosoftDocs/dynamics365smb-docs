@@ -19,7 +19,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
 ## To set up VAT transaction amounts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  Choose the **VAT Transaction Report Amount** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -39,7 +39,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
 ### To specify a tax representative for a non-resident customer  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Select a customer.
 2.  On the **Foreign Trade** FastTab, fill in the fields as described in the following table.  
 

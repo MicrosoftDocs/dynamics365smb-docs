@@ -25,7 +25,7 @@ Entries are transferred to the fixed asset general journal when you select an ac
 
 ## To calculate accelerated depreciation  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
 2.  On the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

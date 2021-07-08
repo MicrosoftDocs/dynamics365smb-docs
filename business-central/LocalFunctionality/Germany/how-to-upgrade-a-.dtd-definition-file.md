@@ -20,7 +20,7 @@ You can explicitly validate a .dtd file after you import one in order to address
 
 ## To upgrade and validate a .dtd file  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exports**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exports**, and choose the related link.  
 2. Choose the **Record Definitions** action.  
 3. Set up a record definition, and choose the **Import** action.  
 4. Select a file to import, and then choose the **Validate** action.  

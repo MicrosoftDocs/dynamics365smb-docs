@@ -38,7 +38,7 @@ As for other personalization, the changes you make to column width are stored on
 
 ## To start personalizing a page through the **Personalizing** banner
 1. Open any page that you want to personalize.
-2. In the upper-right corner, select the ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
+2. In the upper-right corner, select the ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") icon, and then choose the **Personalize** action.
 
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 

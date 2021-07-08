@@ -17,7 +17,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 ## To activate tax accounting
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Register Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Register Setup**, and then choose the related link.
 
 2. On the **General** FastTab, select codes for the following dimensions.
 

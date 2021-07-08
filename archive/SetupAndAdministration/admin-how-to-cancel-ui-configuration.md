@@ -32,7 +32,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 
 ## To cancel all UI customization that you have made for a profile  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles**, and then choose the related link.  
 2.  Select the profile for which you want to cancel all UI customizations, and then choose the **Edit** action.  
 3.  In the **Profile Card** window, choose the **Clear Configured Pages** action.  
 
@@ -41,7 +41,7 @@ You can cancel UI customizations that you have made as configuration for a profi
 
 ## To cancel UI customization that you have made for specific page for a profile  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Profile Configuration**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Profile Configuration**, and then choose the related link.  
 2.  Select the profile/page set for which you want to cancel your UI customization, and then choose the **Delete** action.  
 
     > [!CAUTION]  

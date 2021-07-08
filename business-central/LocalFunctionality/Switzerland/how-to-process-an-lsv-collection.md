@@ -23,7 +23,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
 ## To create an LSV collection  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **LSV Journal List** page, fill in the required fields as described in the following table.  
 

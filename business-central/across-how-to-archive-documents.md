@@ -26,7 +26,7 @@ You can set up automatic archiving of sales and purchase orders, quotes, blanket
 
 The following procedure describes how to set up automatic archiving of sales documents. The steps are similar for purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.
 2. On the **Sales & Receivables Setup** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 Specifically for the **Archive Quotes** field, the following table outlines the difference between the options.
@@ -41,7 +41,7 @@ Specifically for the **Archive Quotes** field, the following table outlines the 
 
 The following procedure describes how to archive a sales order. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Open a sales order that you want to archive.  
 3. Choose the **Archive Document** action.
 
@@ -51,7 +51,7 @@ The sales order is archived. You can view it on the **Archived Sales Orders** pa
 
 The following procedure describes how to bring the contents of an archived sales order back to the original sales order. This is only possible when the original document has not been posted. The steps are similar for all orders, blanket orders, return orders, and quotes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.
 2. Select the archived sales order, or version of it, that you want to restore, and then choose the **Restore** action.  
 
 The contents of the original sales order is replaced with that of the selected archived version.
@@ -60,7 +60,7 @@ The contents of the original sales order is replaced with that of the selected a
 
 The following procedure describes how to delete archived sales orders. The steps are similar for other archived sales and purchase documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order Archives**, and then choose the related link.  
 2. Choose the **Delete Archived Sales Order Versions** action, and then, on the **Delete Archived Sales Order Versions** page, select the appropriate filters.  
 3. Choose the **OK** button.
 

@@ -20,7 +20,7 @@ Each element on the role explorer is an action that opens a page. Accordingly, y
 
 You can open the role explorer from the Role Center and all list pages and from the **Tell Me** window.
 
-- On your Role Center or any list page, choose the ![Menu button](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
+- On your Role Center or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
 - In the **Tell Me** window, choose the **exploring** action at the bottom.
 
 Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.

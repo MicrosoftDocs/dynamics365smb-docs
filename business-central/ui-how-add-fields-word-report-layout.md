@@ -107,7 +107,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
  The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
   
- ![Clip of the XML Mapping pane in word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip of the XML Mapping pane in word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
   

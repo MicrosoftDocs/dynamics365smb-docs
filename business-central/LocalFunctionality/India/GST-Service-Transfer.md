@@ -21,7 +21,7 @@ Service transfers between locations, branches or divisions having different regi
 
 ## Create a service transfer order
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link. 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Service Transfer Order**, and then choose the related link. 
 2. Select **Transfer-from Code** and **Transfer-to Code** on **Service Transfer Order** header. State Code and GST registration number should not be blank on **Location** card.
 3. Select **Ship Control Account** and **Receive Control Account** on **Service Transfer Order** header.
 

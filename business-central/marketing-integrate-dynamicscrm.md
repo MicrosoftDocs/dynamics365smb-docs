@@ -110,7 +110,7 @@ In the current pricing experience, [!INCLUDE[prod_short](includes/prod_short.md)
     1. Couple the items for which prices are set by the customer price group.
     2. On the **Customer Price Groups** page, couple the customer price group by choosing **Related**, then **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. The coupling will create an active price list in [!INCLUDE[prod_short](includes/prod_short.md)] with the same name as the customer price group in [!INCLUDE[crm_md](includes/crm_md.md)], and automatically synchronize all items for which the customer price group defines the price.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Customer Price Group page.":::
 
 #### [New Experience](#tab/new-experience/)  
 
@@ -126,7 +126,7 @@ The new pricing experience synchronizes price lists that meet the following crit
 
 To synchronize price lists, on the **Sales Price List** page, choose **Related**, **Dynamics 365 Sales**, **Coupling**, and then **Set up coupling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Sales Price List page.":::
 
 ---
 

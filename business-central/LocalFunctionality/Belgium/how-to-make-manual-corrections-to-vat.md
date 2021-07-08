@@ -18,7 +18,7 @@ You can make corrections to posted VAT entries without posting the correction in
 
 ## To make manual corrections to VAT  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement Preview**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement Preview**, and then choose the related link.  
 2.  Select the line that needs to be corrected. You can make the VAT correction on both the **Row Totaling** and **VAT Entry Totaling** row **Type**.  
 3.  To make the correction, choose the **Correction Amount** field. The **Manual VAT Correction List** page opens.  
 4.  Choose the **Edit List** action. On the **Manual VAT Correction List** page, fill in the fields as described in the following table.  

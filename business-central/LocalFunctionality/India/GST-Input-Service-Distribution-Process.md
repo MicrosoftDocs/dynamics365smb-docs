@@ -21,7 +21,7 @@ GST Input Service Distribution functionality is used to distribute CGST & SGST/I
 
 ## GST distribution process
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Distribution List**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **GST Distribution List**, and then choose the related link.
 2. Following fields should be filled on the General Tab
 
     |Field|Description|

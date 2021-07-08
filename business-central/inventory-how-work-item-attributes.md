@@ -22,7 +22,7 @@ You can also assign item attributes to item categories, which then apply to the 
 > If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them. The extension is ready to go. You just need to enable it. For more information, see [The Image Analyzer Extension](ui-extensions-image-analyzer.md).
 
 ## To create item attributes
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, choose the **New** action.
 3. On the **Item Attribute** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -30,12 +30,12 @@ You can also assign item attributes to item categories, which then apply to the 
 >   If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## To create values for item attributes of type Option
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Attributes**, and then choose the related link.
 2. On the **Item Attributes** page, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.
 3. On the **Item Attribute Values** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign item attributes to items
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
 3. On the **Item Attribute Values** page, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -44,7 +44,7 @@ You can also assign item attributes to item categories, which then apply to the 
 7. Repeat steps 4 through 6 for all item attributes that you want to assign to the item.
 
 ## To assign item attributes to item categories
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
 3. On the **Item Category Card** page, on the **Attributes** FastTab, choose the **New** action.
 4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#to-create-item-attributes).
@@ -55,7 +55,7 @@ You can also assign item attributes to item categories, which then apply to the 
 >   Item attributes for parent item categories will be inherited to child item categories. This is indicated by the **Inherited From** field on the **Attributes** FastTab. For more information, see [Categorize Items](inventory-how-categorize-items.md).
 
 ## To filter by item attributes
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, choose the **Filter by Attributes** action.
 3. On the **Filter Items by Attribute** page, choose the lookup button in the **Attribute** field and select an item attribute.
 4. In the **Value** field, choose the lookup button and select an attribute value to filter items by.

@@ -43,13 +43,13 @@ The following table describes available features.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integrates with Power BI through a connector using OData. The data source for Power BI reports is exposed as API pages and OData web services.
 
-![Power BI architecture for integration with Business Central](./media/power-bi-architecture.png)
+![Power BI architecture for integration with Business Central.](./media/power-bi-architecture.png)
 
 ## General Flow
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central](./media/power-bi-flow.png)
+![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].

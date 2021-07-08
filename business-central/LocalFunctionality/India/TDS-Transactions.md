@@ -29,13 +29,13 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 
 - Create General Journal or Purchase Journal
 
-  1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Purchase Journal**, and then choose the related link. 
+  1.  Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal** or **Purchase Journal**, and then choose the related link. 
   2. Select **Vendor** in Account Type and select relevant vendor code in Account No. field. Select **G/L Account** in Bal. Account Type and select relevant expense account in Bal. Account No. field.
   3. Select relevant **TDS Section** on journal line.  **Location Code** and **T.A.N No.** fields should not be blank.
 
 - Create Purchase Invoice or Purchase Order
 
-  1.  Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
+  1.  Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
   2. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
   3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
   s4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.

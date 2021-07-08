@@ -92,9 +92,9 @@ For more information, see [Public folders in Exchange Server 2013](http://go.mic
 After you have set up public mail folders in Microsoft Outlook, you next configure [!INCLUDE[d365fin](includes/d365fin_md.md)] to interact with them. One aspect of setup requires that you specify how you want interactions to be recorded in an interactions log. The other aspect is to identify the folders in which you log your activities. The following steps require that you be logged in as a SUPER user who has all permissions.  
 
 ### To configure email logging  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **E-Mails** field, select a template. For this walkthrough, select **EMAIL**. Choose the **OK** button. For more information, see [Managing Interactions With Contacts](marketing-interactions.md).  
-3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
+3. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Marketing Setup**, and then choose the related link.  
 4. Expand the **E-Mail Logging** FastTab, and in the **Autodiscovery E-mail Address** field, enter the email address of a user in your company who has an email account on a Microsoft Exchange Server.  
 5. In the **Queue Folder Path** field, choose the **AssistEdit** button. The **Exchange Public Folders** window opens.  
 6. Select a folder name for your public folder, and on the **Home** tab, choose **Get Subfolders**. Navigate to the queue folder that you created in Outlook.  
@@ -128,12 +128,12 @@ For your company, you set up a job queue that you want to run every day. You als
 <!--In order to set up the job queue for email logging, a ADD INCLUDE[!INCLUDE[navnow](includes/how-to-create-job-queue-entries.md).-->  
 
 ### To start the job queue  
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Category**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Category**, and then choose the related link.  
 2. Choose **New**, and create a new category code called LOGGING. In the **Description** field, enter **Email Logging**. Choose **OK**.  
-3. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
+3. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queues**, and then choose the related link.  
 4. Choose **New**, and create a new queue code called **ELQ**. In the **Description** field, enter **Email Logging Queue**.  
 5. In the **Job Queue Category Filter** field, choose **LOGGING**. Choose the **Start Automatically From NAS** check box, and then choose **OK**.  
-6. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link.  
+6. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Entries**, and then choose the related link.  
 7. Choose **New**, and fill in the **Job Queue Entry** card as follows.  
 
     ### General FastTab  
@@ -167,14 +167,14 @@ For your company, you set up a job queue that you want to run every day. You als
 <!--For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing%20Microsoft%20Dynamics%20NAV%20Server%20Instances.md).-->  
 
 3. Return to the RoleTailored client. 
-4. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working, note whether an entry is logged every five minutes.  
+4. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working, note whether an entry is logged every five minutes.  
 
 ## To test email logging  
 Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
 
 In your tests and in production, we recommend that you copy mail messages, and not move them. This makes sure that all mails from customers are seen, even if they contain invalid data that prevents email logging from processing them.  
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.  
 2. Open the card for the salesperson.
 3. Choose the **Contacts** action. Add your test contact to the salesperson's list. Create a new contact, if needed.  
 4. Choose **Edit** to open the contact card.  

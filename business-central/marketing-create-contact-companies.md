@@ -9,11 +9,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
 
 ---
 # Create Contacts
+
 When you develop a business relationship to someone in another company, add them as a contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Then, add any information about them, or their company, that can be useful for future communications. On the **Contact Card** page, you can create the following types of contacts:
 
 * **Person** - Typically, this is when you've had direct contact with someone and have their contact details.
@@ -24,6 +25,11 @@ The information that's relevant for each type of contact differs, so the fields 
 You can change the value of the **Type** field later. Alternatively, use the fields on the **Inheritance** FastTab on the **Marketing Setup** page to specify the data to share between a person and their company. For more information, see [Setting Up Contacts](marketing-setup-contacts.md).
 
 When a contact is converted to a customer, for example, the contact person or contact company becomes the name of the customer. The record for the contact is kept, and you can link the contact and the customer so that their data is synchronized going forward.
+
+> [!NOTE]
+> If you switch on the [feature update for conversion templates](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees), then you can also create  vendors or employees from business contacts.
+>
+> However, if you are already using the built-in functionality for creating customers or items automatically, then this feature update does not support custom fields, and newly created customers or items will not include such data.
 
 ## To create a contact manually
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.

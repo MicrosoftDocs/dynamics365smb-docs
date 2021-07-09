@@ -46,6 +46,7 @@ The payment journal is a general journal that is optimized for making payments. 
 
 
 ## To issue a refund check
+
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. In the **Document Type** field, select **Refund**.
 3. In the **External Document No.** field, use this as a reference for the refund check (for example, return order number).

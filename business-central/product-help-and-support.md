@@ -68,9 +68,9 @@ The **Troubleshooting** section shows technical information that your administra
 
 To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the additional telemetry in the administration center or Application Insights, for example.  
 
-As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. The following articles in the administration content can help you learn more:
+As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. The following articles in the administration content provide more information:
 
-- [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information  
+- [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
 - [Managing environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 - [Monitoring and analyzing telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Enable sending telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  

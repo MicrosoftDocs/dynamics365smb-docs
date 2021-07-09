@@ -56,7 +56,7 @@ The payment journal is a general journal that is optimized for making payments. 
 7. In the **Bal Account Type** field, select **Bank Account**.  
 8. In the **Bal Account No.** field, select the bank account the check will come out of.  
 9. In the **Applies To Doc. No.** field, select the documents requiring a refund.  
-10. When all payment journal lines are completed, choose the **Post/Print**, then **Post and Print** action, and select **Yes**.  
+10. When all payment journal lines are completed, choose the **Post/Print** action, then choose the **Post and Print** action, and select **Yes**.  
   
 
 ## See Also

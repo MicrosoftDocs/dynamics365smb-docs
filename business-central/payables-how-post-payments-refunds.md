@@ -42,30 +42,21 @@ The payment journal is a general journal that is optimized for making payments. 
 5. Alternatively, use the **Suggest Vendor Payments** function. All the applies-to information and amounts are then also entered on the journal lines. For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).
 
     Messages will guide you to fill in the required fields correctly.
-6.  When all payment journal lines are completed, choose the **Post** action.
+6. When all payment journal lines are completed, choose the **Post** action.
 
 
-## How to issue a refund check
-The following tells you how to issue a refund check. Fill in the payment journal lines as described below.
-
-### To issue a refund check
+## To issue a refund check
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
-    1. In the **Document Type** field, select **Refund**
-    2. In the **External Document No.** field, use this as a reference for the refund check (for example, return order number)
-    3. In the **Account Type** field, select **Customer**
-    4. In the **Account No.** field, select the customer's account number that the refund check is being issued to
-    5. In the **Payment Method Code**, select **Bank**
-    6. In the **Amount** field, enter the amount to be refunded
-    7. In the **Bal Account Type** field, select **Bank Account**
-    8. In the **Bal Account No.** field, select the bank account the check will come out of
-    9. In the **Applies to Doc. Type** field, select **Refund**
-    10. In the **Applies To Doc. No.** field, select the documents requiring a refund
-    11. In the **Transaction Type Code** field, select **Bus**
-    12. In the **Depart. Code** field, select Sales
-2. When all payment journal lines are completed, choose **Actions**, then **Posting**, and then **Post and Print** and select **Yes** 
-
-Note: the Payment Journal Amount field and Applies-to Doc. No. fields will be automatically populated  
-
+2. In the **Document Type** field, select **Refund**.
+3. In the **External Document No.** field, use this as a reference for the refund check (for example, return order number).
+4. In the **Account Type** field, select **Customer**.
+5. In the **Account No.** field, select the customer's account number that the refund check is being issued to.
+6. In the **Amount** field, enter the amount to be refunded.
+7. In the **Bal Account Type** field, select **Bank Account**.
+8. In the **Bal Account No.** field, select the bank account the check will come out of.
+9. In the **Applies To Doc. No.** field, select the documents requiring a refund.
+10. When all payment journal lines are completed, choose **Post/Print**, then **Post and Print**, and select **Yes**.
+  
 
 ## See Also
 [Make Check Payments](payables-how-work-checks.md)  

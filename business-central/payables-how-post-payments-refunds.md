@@ -1,6 +1,6 @@
 ---
 title: Record Payments and Refunds in Payment Journal
-description: Read about how to record payments that you make to vendors and refunds that you make to customers on the Payment Journal page.  
+description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.  
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -8,8 +8,8 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 06/25/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
 
 ---
@@ -35,7 +35,7 @@ The payment journal is a general journal that is optimized for making payments. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Open the journal batch that is dedicated to payments.
-3. If you know who to pay or refund, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. If you know who to pay, fill in the fields manually. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To also apply the payment to the related invoice or credit memo, choose the **Applies-to Doc No.** field, on the **Apply Vendor Entries** page, select the relevant invoice or credit memo, and then choose the **OK** button.
 
     Many fields, such as the **Document Amount** and **Due Date** fields, are now filled in with information from the selected document.
@@ -43,6 +43,29 @@ The payment journal is a general journal that is optimized for making payments. 
 
     Messages will guide you to fill in the required fields correctly.
 6.  When all payment journal lines are completed, choose the **Post** action.
+
+
+## How to issue a refund check
+The following tells you how to issue a refund check. Fill in the payment journal lines as described below.
+
+### To issue a refund check
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
+2. In the **Document Type** field, select **Refund**
+3. In the **External Document No.** field, use this as a reference for the refund check (for example, return order number)
+4. In the **Account Type** field, select **Customer**
+5. In the **Account No.** field, select the customer's account number to which the refund check is being issued
+6. In the **Payment Method Code**, select **Bank**
+7. In the **Amount** field, enter the amount to be refunded
+8. In the **Bal Account Type** field, enter **Bank Account**
+9. In the **Bal Account No.** field, select the bank account the check will come out of
+10. In the **Applies to Doc. Type** field, select **Refund**
+11. In the **Applies To Doc. No.** field, select the documents requiring a refund
+12. In the **Transaction Type Code** field, select **Bus**
+13. In the **Depart. Type** field, select
+14. In the menu bar go to **Actions**, then **Posting**, and then **Post and Print** 
+
+Note: the Payment Journal Amount field and Applies-to Doc. No. fields will be automatically populated  
+
 
 ## See Also
 [Make Check Payments](payables-how-work-checks.md)  

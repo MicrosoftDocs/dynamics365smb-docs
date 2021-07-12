@@ -15,7 +15,7 @@
 ---
 # Print Bank Account Reconciliation Reports in the New Zealand Version
 
-[!INCLUDE [print-balance-sheet-reports](../includes/AUNZ/print-balance-sheet-reports.md)]
+[!INCLUDE [print-bank-account-reconciliation-reports](../includes/AUNZ/print-bank-account-reconciliation-reports.md)]
 
 ## See Also
 

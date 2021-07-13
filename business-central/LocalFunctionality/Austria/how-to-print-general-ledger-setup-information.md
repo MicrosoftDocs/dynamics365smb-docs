@@ -1,6 +1,6 @@
 ---
     title: Print General Ledger Setup Information [AT]
-    description: Before you use the Austrian version of Business Central for daily business tasks, you can run the G/L Setup Information report to display the master data that you have set up.
+    description: Before you use the Austrian version for daily business tasks, you can run the G/L Setup Information report to display the master data that you have set up.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
@@ -19,7 +19,7 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] for daily bu
 
 ## To print general ledger setup information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
 2.  In the **Setup Information** field, select the master data area as described in the following table.  
 
     |Option|Description|  

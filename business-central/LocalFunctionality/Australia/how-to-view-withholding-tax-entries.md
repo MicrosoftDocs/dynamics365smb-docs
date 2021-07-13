@@ -1,5 +1,5 @@
 ---
-    title: View Withholding Tax Entries in the Australian version
+    title: View Withholding Tax Entries [AU]
     description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the Australian version.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ On the **WHT Entry** page, you can view details about the withholding tax, such 
 
 ## To view withholding tax entries  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
 2.  Select the general ledger register for which you want to view WHT entries, and then choose the **WHT Entry** action.  
 
 You can view the posted WHT entries on the **WHT Entry** page.  

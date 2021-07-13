@@ -21,7 +21,7 @@ In this document we are going to discuss the process and entries of input servic
 
 ## Purchase transaction with input service distribution location
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Purchase Invoice** header.
 3. **Location** code should not be blank on **Purchase Invoice** header, and Input Service Distribution should be marked True on **Location** master.
 4. Select **G/L Account** on **Purchase Invoice** line for service transaction.
@@ -100,7 +100,7 @@ In this document we are going to discuss the process and entries of input servic
 
 ## Purchase return transaction with input service distribution location
 
-1. Choose the ![img](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **Purchase Return Order** or **Purchase Credit Memo**, and then choose the related link.
 2. Select **Vendor** on **Purchase Return Order** or **Purchase Credit Memo** header
 3. **Location** code should not be blank on **Purchase Return Order** or **Purchase Credit Memo** header, and Input Service Distribution should be marked True on **Location** master.
 4. Select **G/L Account** on **Purchase Return Order** or **Purchase Credit Memo** line for service transaction.

@@ -1,6 +1,6 @@
 ---
-    title: How to Apply CODA Statements
-    description: After a CODA statement has been imported, the statement lines can be accessed from the Bank Account Card page. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.
+    title: How to Apply CODA Statements [BE]
+    description: After a CODA statement has been imported, the statement lines can be accessed from the Bank Account Card page. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Apply CODA Statements
+# Apply CODA Statements in the Belgian Version
 After a CODA statement has been imported, the statement lines can be accessed from the **Bank Account Card** page. The application status on each line will be blank because the statement amounts have not been applied to outstanding ledger entries.  
 
 Statement amounts can be applied to outstanding ledger entries by:  
@@ -24,7 +24,7 @@ Statement amounts can be applied to outstanding ledger entries by:
 
 ## To manually apply the CODA statement lines  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  For each statement line, fill in the fields as described in the following table.  
@@ -38,7 +38,7 @@ Statement amounts can be applied to outstanding ledger entries by:
 
 ## To automatically apply the CODA statement lines  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  Choose the **Process CODA Statement Lines** action.  

@@ -1,6 +1,6 @@
 ---
-    title: How to Pick Items for Warehouse Shipment | Microsoft Docs
-    description: When the location is set up to require warehouse pick processing as well as warehouse shipment processing, you use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.
+    title: Pick Items for Warehouse Shipment
+    description: Learn about how to use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -34,7 +34,7 @@ You can also create warehouse pick documents in a push fashion from the **Wareho
 >  For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).  
 
 ## To pick items for warehouse shipment  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 
     If you need to work on a particular pick, select the pick from the list or filter the list to find the picks that have been assigned to you specifically. Open the pick card.  
 2.  If the **Assigned User ID** field is empty, enter your ID to identify yourself if necessary.  

@@ -1,6 +1,6 @@
 ---
-title: Analyze Data by Dimensions| Microsoft Docs
-description: Describes how to analyze various business data by dimensions.
+title: Analyze Data by Dimensions
+description: This topic describes how to analyze various business data by dimensions. Dimensions give you greater insight into your business so you can evaluate information.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---
@@ -29,7 +29,7 @@ Analyzing data by dimensions gives you greater insight into your business, so yo
 ## To set up an analysis view  
 An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
 2. On the **Analysis View List** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.  
@@ -38,7 +38,7 @@ An analysis by dimensions displays a selected combination of dimensions. You can
 ## To analyze by dimensions
 You can use the **Analysis by Dimensions** matrix to view the amounts in your general ledger by using the analysis views that you have already set up. You fill on the **Analysis by Dimensions** page to define what will be shown in the matrix, and then you choose the **Show Matrix** action to view the matrix.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
 2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
 3. On the **Analysis by Dimensions** page, fill in the fields to define which data is shown and how.
 4. Choose the **Show Matrix** action to open the respective matrix page for the defined analysis view.
@@ -61,7 +61,7 @@ The amounts that are displayed on the **Analysis by Dimensions** page give you a
 
 The following procedure is for updating an analysis view from the **Analysis by Dimensions** page. The steps are similar from the **Analysis View Card** and the **Analysis View List** pages.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.
 2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
 2. On the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
 3. Select the line with the relevant analysis view.  

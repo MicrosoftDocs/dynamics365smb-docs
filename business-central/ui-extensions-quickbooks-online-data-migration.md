@@ -1,5 +1,5 @@
 ---
-title: QuickBooks Online Migration Extension | Microsoft Docs
+title: QuickBooks Online Data Migration Extension
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
 
 ---
@@ -51,7 +51,7 @@ If transactions in QuickBooks Online have tax amounts, you must set up a tax acc
 
 Getting started is easy. All you need to do is run the **Data Migration** assisted setup guide. Here's how:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose **Migrate business data**.
 2. Follow the instructions on each step in the assisted setup guide.
 
 ## What do I do after I migrate data?

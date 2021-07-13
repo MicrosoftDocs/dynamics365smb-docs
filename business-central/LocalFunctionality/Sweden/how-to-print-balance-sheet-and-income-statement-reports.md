@@ -19,14 +19,14 @@ You can print balance sheet reports and income statement reports to submit to ba
 
 ## To print a balance sheet report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Balance Sheet**, and then choose the related link.  
 2.  On the **G/L Account** FastTab, select the appropriate filters.  
 3.  On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.  
 4.  Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.  
 
 ## To print an income statement report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Income Statement**, and then choose the related link.  
 2.  On the **G/L Account** FastTab, select the appropriate filters.  
 3.  On the **Options** FastTab, select the **Show all Accounts** check box to include accounts without balances.  
 4.  Choose the **Print** action to print the report or choose the **Preview** action to view it on the screen.  

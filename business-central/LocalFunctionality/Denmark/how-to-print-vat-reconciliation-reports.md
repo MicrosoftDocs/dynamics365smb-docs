@@ -1,12 +1,12 @@
 ---
-title: How to Print VAT Reconciliation Reports | Microsoft Docs
-description: In Business Central, you can use the VAT Reconciliation report to view a list of general ledger accounts with their base amounts and VAT amounts. These amounts are grouped by VAT type to help with VAT settlement reconciliation.
+title: How to Print VAT Reconciliation Reports [DK]
+description: In Business Central, you can use the VAT Reconciliation report to view a list of general ledger accounts with their base amounts and VAT amounts.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---
@@ -15,7 +15,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **VAT R
 
 ### To print a VAT reconciliation report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reconciliation**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reconciliation**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

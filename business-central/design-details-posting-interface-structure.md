@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Posting Interface Structure | Microsoft Docs
-    description: This topic provides an overview of the global procedures in the posting interface structure.
+    title: Design Details - Posting Interface Structure
+    description: This topic provides an overview of the global procedures and design details in the posting interface structure.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: posting, interface, design
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

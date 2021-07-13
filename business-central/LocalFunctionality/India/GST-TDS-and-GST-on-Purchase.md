@@ -22,7 +22,7 @@ There are certain services on which GST applies along with the provisions of TDS
 
 ## Create a purchase invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Select **Vendor** on **Invoice Header**.
 3. Select **G/L Account** for Service purchase on **Purchase Invoice** line. GST Group Code, HSN/SAC Code should not be blank and GST Credit value should be selected as **Availment** if the tax input credit is available or else **Non-Availment** on the Item or G/L Account. 
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Add Fields to a Word Report Layout | Microsoft Docs
-    description: Describes how to add fields of a report dataset to an existing Word report layout for a report.
+    title: How to Add Fields to a Word Report Layout
+    description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
     author: jswymer
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: jswymer
 
 ---
@@ -107,7 +107,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
   
  The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
   
- ![Clip of the XML Mapping pane in word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip of the XML Mapping pane in word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   To add a label or field to the layout, you insert a content control that maps to the element in the **XML Mapping** pane.  
   

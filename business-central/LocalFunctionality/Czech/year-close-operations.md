@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Year closing operations
-description: This section describes local functionality Year closing operations
+title: Year Closing Operations [CZ]
+description: This section describes local functionality for handling the year closing operations in the Czech version.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, closing operations
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Year Closing Operations
+# Year Closing Operations in the Czech Version
 
 To comply with accounting legislation (Accounting Law 563/1991 §17) at the end of the fiscal year, the following account books must be closed or opened:
 

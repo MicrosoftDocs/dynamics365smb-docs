@@ -1,6 +1,6 @@
 ---
-    title: How to Create Routings | Microsoft Docs
-    description: A routing holds master data that captures the process requirements of a given produced item. Once a production order is created for that item, its routing will govern the scheduling of operations as represented on the Prod. Order Routing page under the production order.
+    title: How to Create Routings
+    description: This topic gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---
@@ -28,7 +28,7 @@ Before you can set up a routing, the following must be in place:
 
 ## To create a routing
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Type** field, select **Serial** to calculate the production routing according to the value in the **Operation No.** field.  
@@ -60,7 +60,7 @@ You can create routing links to connect components to specific operations in ord
 
 Another important benefit is that linked components and operations are displayed in a logical process structure when you use the **Production Journal** page for output and consumption posting.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Open the routing that contains the operations that you want to link.  
 
     Make sure the routing status is **Under Development**.  
@@ -92,7 +92,7 @@ The selected components will now be linked to the selected operations when you c
 
 If you require personnel with qualifications, special knowledge, or special authorization for an operation, you can assign these personnel to the operation. In addition, you can assign tools and quality requirements to the operation. This procedure describes how to assign personnel. The steps are similar for other types of operation information.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Open the relevant routing.  
 3. On the **Lines** FastTab, select the line that you want to process, choose the **Operations** action, and then choose the **Personnel** action.  
 4. Fill in the fields on the **Routing Personnel** page.  
@@ -102,7 +102,7 @@ If you require personnel with qualifications, special knowledge, or special auth
 
 The version principle enables you to manage several versions of a routing. The structure of the routing version corresponds to the structure of the routing consisting of the routing version header and the routing version lines. The basic difference is defined by the starting date.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.  
 2. Select the routing to be copied, and then choose the **Versions** action.  
 3. On the **Routing Versions** page, choose the **New** action.
 4. Fill in the fields as necessary.

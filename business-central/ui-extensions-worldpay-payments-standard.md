@@ -1,6 +1,6 @@
 ---
-title: WorldPay Payments Standard| Microsoft Docs
-description: Provides information about the WorldPay Payments Standard extension
+title: WorldPay Payments Standard
+description: The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
 
 ---

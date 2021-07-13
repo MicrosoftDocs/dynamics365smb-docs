@@ -1,6 +1,6 @@
 ---
-    title: How to Track Relations Between Demand and Supply | Microsoft Docs
-    description: From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
+    title: Track Relations Between Demand and Supply
+    description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ Order tracking shows how sales orders, production orders, and purchase orders ar
 
 The following describes how to track linked items on a firm planned production order. The steps are similar for all other order types, and from planning worksheet lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Order**, and then choose the related link.
 2. Open the relevant firm planned production order from the list.
 3. On the **Lines** FastTab, choose the **Functions** action, and then choose the **Order Tracking** action.
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Generate Delivery Reminders
-    description: In Business Central, you can create delivery reminders when a purchase has not been delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
+    title: How to Generate Delivery Reminders [CH]
+    description: In Business Central, you can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---

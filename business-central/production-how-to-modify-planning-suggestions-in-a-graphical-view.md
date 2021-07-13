@@ -1,6 +1,6 @@
 ---
-    title: How to Modify Planning Suggestions in a Graphical View | Microsoft Docs
-    description: A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the Carry out Action Message function. An alternative to doing this in the planning worksheet is to use a graphical view.
+    title: Modify Planning Suggestions in Graphical View
+    description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -33,7 +33,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 ## To modify suggested supply orders in the graphical view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
 

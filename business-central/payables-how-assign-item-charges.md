@@ -1,6 +1,6 @@
 ---
-title: Assign Item Charges to Sales and Purchases| Microsoft Docs
-description: 'If you want your inventory items to carry added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling items, you can use the Item Charges feature.'
+title: Assign Item Charges to Sales and Purchases
+description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling that you incur when purchasing or selling items.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ In addition to recording the added cost in you inventory value, you can use the 
 
 - Identify the landed cost of an item for making more accurate decisions on how to optimize the distribution network.
 - Break down the unit cost or unit price of an item for analysis purposes.
-- include purchase allowances into the unit cost and sales allowances into the unit price.
+- Include purchase allowances into the unit cost and sales allowances into the unit price.
 
 Before you can assign item charges, you must set up item charge numbers for the different types of item charges, including to which G/L accounts costs related to sales, purchases, and inventory adjustments are posted to. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the relevant G/L account is retrieved based on the setup of the item charge number and the information on the document.
 
@@ -41,14 +41,14 @@ This video shows how to handle an additional shipping cost as part of inventory 
 ## To set up item charge numbers
 You use item charge numbers to distinguish between the different kinds of item charges that are used in your company.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.
 2. On the **Item Charges** page, choose the **New** action to create a new line.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To assign an item charge directly to the purchase invoice for the item
 If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.

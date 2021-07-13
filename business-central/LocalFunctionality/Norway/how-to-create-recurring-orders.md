@@ -1,6 +1,6 @@
 ---
-    title: How to Create Recurring Orders
-    description: The create recurring orders process will find all of the recurring orders based on the options selected on the Create Recurring Orders page and will create the new sales orders.
+    title: How to Create Recurring Orders [NO]
+    description: The create recurring orders process finds all recurring orders based on the options selected on the Create Recurring Orders page.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Create Recurring Orders
+# Create Recurring Orders in the Norwegian Version
 The create recurring orders process will find all of the recurring orders based on the options selected on the **Create Recurring Orders** page and will create the new sales orders. This is a periodic activity that you must run regularly.  
 
 ## To create recurring orders  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Orders**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

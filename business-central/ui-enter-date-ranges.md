@@ -1,6 +1,6 @@
 ---
-title: Entering dates and times in Business Central  | Microsoft Docs
-description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges. Filter lists or reports down to specific date or time periods.
+title: Entering dates and times in Business Central
+description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 ---
 
@@ -44,7 +44,7 @@ To work more productively with dates and times, you can use any of the methods o
 
 Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.
 
-![Date fields](media/ui-date-field.png "Example of a date field")
+![Date fields.](media/ui-date-field.png "Example of a date field")
 
 See also [Keyboard Shortcuts in the calendar date picker](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -68,7 +68,7 @@ In a date field you can enter two, four, six, or eight digits:
 
 ### Today
 
-Enter the word for today, in the language set by **Language** setting, that will set the date to the current date. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as t or tod, as long as it is not also the start of another word.
+Enter the word for _today_, in the language specified on the **My Settings** page, to set the date on a record to today's date. Instead of entering the entire word, you can enter part of the word, starting from the beginning. For example, in English, you can enter _t_ or _tod_, as long as it is not also the start of another word.
 
 ### Period
 
@@ -76,15 +76,13 @@ To filter on a specific accounting period, in a date field enter the letter p, o
 
 The accounting periods are defined on the **Accounting Periods** page. To view or change the accounting periods, open the page [here](https://businesscentral.dynamics.com/?page=100).
 
-### Current work date
+### Work Date
 
-The work date feature allows you to record transactions using a date that is different from the current date.
+Use a work date to specify a date that is not today's date on records. For example, a work date is useful when you need to set a particular date for multiple records. You specify the work date on the **My Settings** page. 
 
-The word for 'workdate', in the language set by **Language** setting, will set the date to the currently set work date that is specified on the **My Settings** page. Instead of entering the entire word, you can enter part of the word, starting from the beginning, such as 'w' or 'work'.
+A fast way to enter the work date on records is to enter some or all of the word _work_, starting from the beginning of the word, in the language in which you're using [!INCLUDE[prod_short](includes/prod_long.md)]. For example, in English, you can enter _w_ or _work_. The language is also specified on the **My Settings** page.
 
-If you have not defined a work date, the current date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
-
-See also [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
+If you have not specified a work date, today's date will be used. For more information, see [Change Basic Settings, such as the Work Date](ui-change-basic-settings.md#work-date).
 
 ### Closing Date
 
@@ -195,7 +193,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

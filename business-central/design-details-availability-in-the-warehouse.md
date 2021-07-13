@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/08/2021
     ms.author: edupont
 
 ---
@@ -43,7 +43,7 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Available to pick with reservation overlap](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
+ ![Available to pick with reservation overlap.](media/design_details_warehouse_management_availability_2.png "Available to pick with reservation overlap")  
 
 ## Quantity Available to Reserve  
  Because the concepts of bin content and reservation co-exist, the quantity of items that are available to reserve must be aligned with allocations to outbound warehouse documents.  
@@ -68,7 +68,7 @@ If one or more conditions are not met, different error messages can be shown, in
 
  The following diagram shows the different elements of the calculation.  
 
- ![Avaliable to reserve per warehouse allocation](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
+ ![Avaliable to reserve per warehouse allocation.](media/design_details_warehouse_management_availability_3.png "Avaliable to reserve per warehouse allocation")  
 
 ## See Also  
  [Design Details: Warehouse Management](design-details-warehouse-management.md)  

@@ -1,6 +1,6 @@
 ---
-    title: How to Create an Audit File for the Tax Authority
-    description: During an examination of the books for a fiscal year, a tax inspector can ask for data about the basis transactions from the general ledger for that fiscal year. Basis transactions usually are processed via journal entries.
+    title: Create an Audit File for Tax Authority [NL]
+    description: The following article explains how to Create an Audit File for the Tax Authority with the Dutch version of Business Central. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Create an Audit File for the Tax Authority
+# Create an Audit File for the Tax Authority in the Dutch Version
 During an examination of the books for a fiscal year, a tax inspector can ask for data about the basis transactions from the general ledger for that fiscal year. Basis transactions usually are processed via journal entries. That is the reason why the journal entries are the basis for the audit file.  
 
  The tax authority stimulates companies to use the audit file but it is not prescribed.  
@@ -22,7 +22,7 @@ During an examination of the books for a fiscal year, a tax inspector can ask fo
 
 ## To make an Audit file  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Authority - Audit File**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Authority - Audit File**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

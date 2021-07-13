@@ -1,6 +1,6 @@
 ---
-    title: How to Create Remittance Accounts
-    description: You must create one remittance account for each bank account where payment is made.
+    title: How to Create Remittance Accounts [NO]
+    description: The following topic explains how you must create one remittance account for each bank account where payment is made.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Create Remittance Accounts
+# Create Remittance Accounts in the Norwegian Version
 You must create one remittance account for each bank account where payment is made. If an account is used to make payments to both domestic and foreign vendors, this account must be created two times—one time for domestic payments and one time for foreign payments.  
 
 > [!NOTE]  
@@ -24,7 +24,7 @@ You must create one remittance account for each bank account where payment is ma
 
 ## To create a remittance account  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Account Overview**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Account Overview**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **Remittance Account Card** page, on the **General** FastTab, fill in the fields as described in the following table.  
 

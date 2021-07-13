@@ -1,5 +1,5 @@
 ---
-    title: How to Generate Payment Suggestions
+    title: How to Generate Payment Suggestions [BE]
     description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
 
     services: project-madeira 
@@ -12,16 +12,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Generate Payment Suggestions
+# Generate Payment Suggestions in the Belgian Version
 After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
 
 ## To generate payment suggestions  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Select the appropriate journal batch, and then choose the **Suggest Vendor Payments** action.  
 3.  On the **Suggest Vendor Payments EB** page, fill in the fields as described in the following table.  
 

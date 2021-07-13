@@ -1,18 +1,18 @@
 ---
-title: Czech Local Functionality - Update contacts from ARES
+title: Czech Local Functionality - Update Contacts from ARES
 description: ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.
 author: v-makune
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
 
-# Updating Contacts from ARES
+# Updating Contacts from ARES in the Czech Version
 
 ARES stands for Access to Register of Economic Subjects. ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.  
 

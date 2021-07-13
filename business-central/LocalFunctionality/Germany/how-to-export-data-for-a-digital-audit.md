@@ -1,6 +1,6 @@
 ---
-    title: How to Export Data for a Digital Audit
-    description: You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. You can also select various options to be included in an XML file.
+    title: How to Export Data for a Digital Audit [DE]
+    description: You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,18 +9,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Export Data for a Digital Audit
+# Export Data for a Digital Audit in the German Version
 You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU). You can also select various options to be included in an XML file.  
 
 If there is no data to export, [!INCLUDE[prod_short](../../includes/prod_short.md)] creates empty files.  
 
 ### To export data for a digital audit
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
 
 2.  On the **Data Export** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 

@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/08/2021
     ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](
 ### Example 1  
  The following diagram represents a search tree with six dimension sets. Only the distinguishing dimension set entry is displayed in the diagram.  
 
- ![Example of dimension tree structure](media/nav2013_dimension_tree.png "Example of dimension tree structure")  
+ ![Example of dimension tree structure.](media/nav2013_dimension_tree.png "Example of dimension tree structure")  
 
  The following table describes a complete list of dimension set entries that make up each dimension set.  
 
@@ -41,7 +41,7 @@ When you close a page after you edit a set of dimensions, [!INCLUDE[prod_short](
 
  First, [!INCLUDE[prod_short](includes/prod_short.md)] also updates the **Dimension Set Tree Node** table to make sure that the search tree looks like the following diagram. Thus dimension set 7 becomes a child of the dimension set 5.  
 
- ![Example of dimension tree structure in NAV 2013](media/nav2013_dimension_tree_example2.png "Example of dimension tree structure in NAV 2013")  
+ ![Example of dimension tree structure in NAV 2013.](media/nav2013_dimension_tree_example2.png "Example of dimension tree structure in NAV 2013")  
 
 ### Finding Dimension Set ID  
  At a conceptual level, **Parent ID**, **Dimension**, and **Dimension Value**, in the search tree, are combined and used as the primary key because [!INCLUDE[prod_short](includes/prod_short.md)] traverses the tree in the same order as the dimension entries. The GET function (record) is used to search for dimension set ID. The following code example shows how to find the dimension set ID when there are three dimension values.  
@@ -69,8 +69,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## See Also
-
- [GET Function (Record)](/dynamics-nav/GET-Function--Record-)    
+    
  [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Table Structure](design-details-table-structure.md)   

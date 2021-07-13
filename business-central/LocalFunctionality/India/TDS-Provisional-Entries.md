@@ -25,7 +25,7 @@ A provisional entry should be posted before posting an actual entry, on posting 
 
 For example, provisional expense journal has to be created and posted for INR 10000 against professional expense and 10% TDS to be calculated on the expense amount.
 
-1.	Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
+1.	Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
 2.  Fill in the fields as described in the following table.
 
     |Field|Description|
@@ -61,7 +61,7 @@ For example, provisional expense journal has to be created and posted for INR 10
 
 •	Later invoice created against the provisional entry.
 
-1.	Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
+1.	Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Journal**, and then choose the related link.
 2.	Fill in the fields as described in the following table.
 
     |Field|Description|

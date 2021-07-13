@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Frequently Asked Questions about List Views
-  description: Detailed information about saving filters as list views.
+  description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,7 +9,7 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
   
     

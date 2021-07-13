@@ -1,6 +1,6 @@
 ---
     title: Switzerland Local Functionality
-    description: The following topics describe the local functionality in the Swiss version of Business Central.
+    description: The following topics describe all of the local functionality that is unique to the Swiss version of Business Central.
 
     author: sorenfriisalexandersen
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: soalex
 
 ---

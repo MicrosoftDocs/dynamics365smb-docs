@@ -1,6 +1,6 @@
 ---
 title: Setting Up Printers
-description: Learn about setting up printers that you can use for reports and documents. 
+description: Learn about setting up printers that you can use for reports and documents and the different print feature available to you in Business Central. 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
 ---
 # Set Up Printers
@@ -19,8 +19,8 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 
 |Feature|Description|Web client| Mobile app|App for Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universal Print|Universal Print is a printer management solution available as a cloud service from Microsoft. With this feature, you can set up your printers in Universal Print, then register them for use in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature requires a Universal print subscription and the **Universal Print Integration** extension|![works online](media/check.png)|![works online](media/check.png)|![works online](media/check.png)|
-|Email Print|This feature lets you set up email-enabled printers. [!INCLUDE[prod_short](includes/prod_short.md)] then sends print jobs to a printer using the printer's email address. This feature requires email-enabled printers, and the **Send to Email Printer** extension.|![works online](media/check.png)|![works online](media/check.png)|![works online](media/check.png)|
+|Universal Print|Universal Print is a printer management solution available as a cloud service from Microsoft. With this feature, you can set up your printers in Universal Print, then register them for use in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature requires a Universal print subscription and the **Universal Print Integration** extension|![works online.](media/check.png)|![works online.](media/check.png)|![works online](media/check.png)|
+|Email Print|This feature lets you set up email-enabled printers. [!INCLUDE[prod_short](includes/prod_short.md)] then sends print jobs to a printer using the printer's email address. This feature requires email-enabled printers, and the **Send to Email Printer** extension.|![works online.](media/check.png)|![works online](media/check.png)|![works online](media/check.png)|
 |Browser printing|Print jobs are handled by the print functionality of the user's browser. If a cloud printer isn't installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. The **Printer** field on the report request page will display *(Handled by the browser)*.|![works online](media/check.png)|||
 
 > [!NOTE]
@@ -30,7 +30,7 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralized printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
-![Universal Print setup](media/Universal-Print-arch.png)
+![Universal Print setup.](media/Universal-Print-arch.png)
 
 The complete setup requires you work in both Microsoft Azure, using the [Azure portal](https://portal.azure.com), and in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -140,7 +140,7 @@ Adding printers individually let's you set up the same Universal Print printer i
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
 2. Select **Universal Print**, and then choose one of the following options:
 
     - **Add all Universal Print printers** to add all printers that aren't already added. You can use this  option even if there are already printers added. 
@@ -200,7 +200,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 The **Printer Management** page shows you the printers that are currently set up. The page also gives you access the **Settings** page for each printer to edit an existing setup or set up a new printer.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
 2. Select **Email Print**, and then choose **Add an email printer**.
 3. On the **Email Printer Settings** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -224,7 +224,7 @@ There are a couple ways to set up printers that will be used by default for prin
 
 The **Printer Management** page lets you set up a printer as a default printer for all print jobs. You can specify the printer as default for you only or for all users.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, and then select the related link.
 
     > [!TIP]
     > You can also open the **Printer Management** page from the **Printer Selections** page by choosing **Printer Management**.  
@@ -240,7 +240,7 @@ The **Printer Selections** page let's you specify the printer that a report will
 > [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Printer Selections** page can only be used for cloud printers defined by printer extensions, like Email Print and Universal Print printers. It can't be used for local printers.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Instead, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, and then select the related link. Instead, from the **Printer Management** page, select a printer, and then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
 3. Fill in the fields as necessary.
 

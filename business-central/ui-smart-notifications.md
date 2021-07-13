@@ -28,7 +28,7 @@ Additionally, some notifications let you specify the conditions under which they
 
 Turning notifications on or off, and specifying conditions, applies only to you.  
 
-1. In the top right corner, choose the **Settings** icon ![Settings](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.  
+1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.  
 2. On the **My Settings** page, in the **Notifications** field, choose the *Change when I receive notifications.* link.  
 3. In the page that appears, turn on or turn off a notification by selecting or clearing the **Enabled** check box.  
 4. To specify conditions that trigger a notification, choose the **View filter details** link, and then fill in the fields.  

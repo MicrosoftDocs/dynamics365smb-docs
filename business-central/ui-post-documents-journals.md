@@ -1,6 +1,6 @@
 ---
-title: Overview of Posting Documents and Journals | Microsoft Docs
-description: Outlines posting actions and the ways you can post documents and journals.
+title: Overview of Posting Documents and Journals
+description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---

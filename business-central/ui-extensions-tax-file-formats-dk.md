@@ -1,6 +1,6 @@
 ---
-title: Using the Tax File Formats (DK) Extension | Microsoft Docs
-description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
+title: Using the Tax File Formats (DK) Extension
+description: The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
 
 ---

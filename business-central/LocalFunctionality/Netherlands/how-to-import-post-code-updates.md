@@ -1,6 +1,6 @@
 ---
-    title: How to Import Post Code Updates
-    description: Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the Post Code Range table.
+    title: How to Import Post Code Updates [NL]
+    description: The post code file can be imported and update the relevant data of the Post Code Range table.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Import Post Code Updates
+# Import Post Code Updates in the Dutch Version
 Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.  
 
 ## To import the update file  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Codes Updates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Codes Updates**, and then choose the related link.  
 2.  On the **Post Codes Updates** page, choose the **Import Post Codes Update** action.  
 3.  Specify the path and name of the post code update file, and then choose the **OK** button. If you do not want to import the file, choose the **Cancel** button to close the page.  
 

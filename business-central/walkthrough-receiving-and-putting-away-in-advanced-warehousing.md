@@ -1,6 +1,6 @@
 ---
-    title: Receiving and Putting Away in Advanced Warehousing | Microsoft Docs
-    description: In Business Central, the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    title: Receiving and Putting Away in Advanced Warehousing
+    description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -57,7 +57,7 @@ To complete this walkthrough, you will need:
 -   CRONUS installed.  
 -   To make yourself a warehouse employee at WHITE location by following these steps:  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select the **Default** field.  
@@ -72,7 +72,7 @@ The setup of the **Location Card** page defines the company's warehouse flows.
 
 ### To review the location setup  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the WHITE location card.  
 3.  Note on the **Warehouse** FastTab that the **Directed Put-away and Pick** check box is selected.  
 
@@ -88,7 +88,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### To create the purchase orders  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -119,9 +119,8 @@ Purchase orders are the most common type of inbound source document.
 
 On the **Warehouse Receipt** page, you can manage multiple inbound orders for source documents, such as a purchase order.  
 
-### To receive the items
-
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+### To receive the items  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  In the **Location Code** field, enter WHITE.  
 4.  Select **Actions** then **Functions** then choose the **Use Filters to Get Src. Docs.** action.  
@@ -139,10 +138,10 @@ On the **Warehouse Receipt** page, you can manage multiple inbound orders for so
 
 On the **Warehouse Put-away** page, you can manage put-aways for a specific warehouse receipt document covering multiple source documents. Like all warehouse activity documents, each item on the warehouse put-away is represented by a Take line and a Place line. In the following procedure, the bin code on the Take lines is the default receiving bin at WHITE location, W-08-0001.  
 
-### To put the items away
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Put-aways**, and then choose the related link.  
-2.  Select the only warehouse put-away document in the list.  
+### To put the items away  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-Aways**, and then choose the related link.  
+2.  Select the only warehouse put-away document in the list, and then choose the **Edit** action.  
 
     The warehouse put-away document opens with a total of eight Take or Place lines for the four purchase order lines.
 
@@ -165,7 +164,7 @@ On the **Warehouse Put-away** page, you can manage put-aways for a specific ware
  [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   
- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ <!-- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)    -->
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 
 

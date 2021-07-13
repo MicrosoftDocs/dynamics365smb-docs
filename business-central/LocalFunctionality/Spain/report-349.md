@@ -1,6 +1,6 @@
 ---
-    title: Report 349
-    description: You must submit a periodic report of trade with other EU countries/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra-community VAT Information Exchange System (VIES).
+    title: Report 349 [ES]
+    description: Use Business Central to submit a Report 349 declaration, the periodic report of trade with other EU countries/regions to the tax authorities. 
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Report 349
+# Report 349 in the Spanish Version
 You must submit a periodic report of trade with other EU countries/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra-community VAT Information Exchange System (VIES).  
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], the Report 349 declaration is based on VAT entries that are filtered by the EU country/region codes. You must create a 349 declaration and then submit the file to the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website or on CD-ROM.  

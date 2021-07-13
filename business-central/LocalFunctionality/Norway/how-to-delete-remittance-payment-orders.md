@@ -1,6 +1,6 @@
 ---
-    title: How to Delete Remittance Payment Orders
-    description: Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the Waiting Journal page have a status of Sent or Approved.
+    title: How to Delete Remittance Payment Orders [NO]
+    description: Orders can be deleted if they are managed in full and are in a closed financial year. 
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Delete Remittance Payment Orders
+# Delete Remittance Payment Orders in the Norwegian Version
 Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.  
 
 ## To delete a remittance payment order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete rem. payment order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete rem. payment order**, and then choose the related link.  
 2.  On the **Delete rem. payment order** page, fill in the fields as described in the following table.  
 
     |Field|Description|  

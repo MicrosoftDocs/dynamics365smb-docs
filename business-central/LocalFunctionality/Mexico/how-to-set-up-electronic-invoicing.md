@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Electronic Invoicing
-    description: Before you can send electronic documents, you must set up Business Central to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors.
+    title: How to Set Up Electronic Invoicing [MX]
+    description: Before you can send electronic documents, you must set up Business Central to ensure that the required identification numbers are in place.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Set Up Electronic Invoicing
+# Set Up Electronic Invoicing in the Mexican Version
 
 Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
 
@@ -25,7 +25,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
 ## To set up company information  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -37,7 +37,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
 ## To set up general ledger information  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, on the **Electronic Invoice** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -53,7 +53,7 @@ Optionally, you can ask your Microsoft Certified Partner to modify the text that
 
 Finally, you must add information about your customers and vendors. The following section section describes how to specify this information to customers, but the same fields must be specified for vendors.
 
-1. Choose the ![A third lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
 2. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields as described in the following table.
 
     |Field|Description|

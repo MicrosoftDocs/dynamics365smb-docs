@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Inbound Warehouse Flow | Microsoft Docs
-    description: The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. An employee registers the items, typically by scanning a bar code. From the receiving dock, warehouse activities are performed at different complexity levels to bring the items into the storage area.
+    title: Design Details - Inbound Warehouse Flow
+    description: Inbound warehouse flow begins when items arrive in the warehouse company location. Items are registered and eventually matched to inbound source documents.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---
@@ -47,7 +47,7 @@ In methods A, B, and C, the actions of receiving and putting away are combined i
 ## Basic Warehouse Configurations  
 The following diagram illustrates the inbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in basic warehouse configurations](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
+![Inbound flow in basic warehouse configurations.](media/design_details_warehouse_management_inbound_basic_flow.png "Inbound flow in basic warehouse configurations")  
 
 ### 1: Release Source Document / Create Inventory Put-Away  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory. Alternatively, the user creates inventory put-away documents for individual order lines, in a push fashion, based on specified bins and quantities to handle.  
@@ -66,7 +66,7 @@ Positive item ledger entries are created, warehouse entries are created, and the
 ## Advanced warehouse configurations  
 The following diagram illustrates the inbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-![Inbound flow in advanced warehouse configurations](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
+![Inbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inbound flow in advanced warehouse configurations")  
 
 ### 1: Release Source Document  
 When items are received in the warehouse, the user who is responsible for receiving releases the source document, such as a purchase order or an inbound transfer order, to signal to warehouse workers that the received items can be put away in inventory.  

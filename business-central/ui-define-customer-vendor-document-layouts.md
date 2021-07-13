@@ -1,6 +1,6 @@
 ---
-title: Assign Special Document Layouts to Customers or Vendors| Microsoft Docs
-description: When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you crate for the customer or vendor in question.
+title: Assign Customers or Vendors Document Layouts
+description: When custom report layouts are defined, you can select them from customer and vendor cards to specify they aer used for the customer or vendor in question.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
 
 ---
@@ -27,7 +27,7 @@ Before you can define which document layout to use for which processes, and whic
 The following describes how to define sales document layouts from a customer card. The steps are the same for purchase document layouts from a vendor card.
 
 ## To enable all available sales documents for a customer
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card of the customer for whom you want to define document layouts per business process.
 3. On the **Customer Card** page, choose the **Document Layouts** page.
 4. On the **Document Layouts** page, choose the **Copy from Report Selection** action.

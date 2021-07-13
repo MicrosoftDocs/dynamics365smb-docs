@@ -8,8 +8,8 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2021
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
 
 ---
@@ -31,6 +31,13 @@ You can send remittance advice in two different ways:
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-
+[Electronic Funds Transfer (EFT) in the Australian Version](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Make Electronic Payments (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Electronic Funds Transfer (EFT) in the New Zealand Version](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[United Kingdom Local Functionality in the British Version](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Print Remittance Advice in the British Version](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Make Electronic Payments (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

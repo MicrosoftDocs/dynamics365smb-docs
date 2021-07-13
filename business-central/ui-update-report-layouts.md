@@ -1,6 +1,6 @@
 ---
-    title: Keeping a Report Layout Up-to-date | Microsoft Docs
-    description: You may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set.
+    title: Keeping a Report Layout Up-to-date
+    description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ Not all report dataset changes can be automatically updated in the report layout
 
 ## To update one or more custom report layouts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.  
 
 2.  On the **Report Layouts** page, if you want to update a specific report, select the layout from the list, and then choose the **Update Layout** action. Or, if you want to update all custom report layouts for the company, choose the **Update All Layouts** action.  
 
@@ -32,7 +32,7 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 ## To test custom report layout updates  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.  
 
 2.  On the **Report Layout Selection** page, choose the **Test Layout Updates** action.  
 

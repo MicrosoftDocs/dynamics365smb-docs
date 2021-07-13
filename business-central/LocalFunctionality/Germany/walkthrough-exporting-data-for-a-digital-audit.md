@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Exporting Data for a Digital Audit
-    description: You can export business data for auditing purposes according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. The following walkthrough describes the end-to-end process, but it is an example only.
+    title: Exporting Data for a Digital Audit [DE]
+    description: You can export business data for auditing purposes according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,11 +9,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Walkthrough: Exporting Data for a Digital Audit
+# Walkthrough: Exporting Data for a Digital Audit in the German Version
 
 You can export business data for auditing purposes. How the data export is set up is different for all companies, and you should ask your tax advisor and the tax auditor. The following walkthrough describes the end-to-end process, but it is an example only.  
 
@@ -46,7 +46,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
 ### To set up the requirements for a data export  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Export**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **Data Exports** page, fill in the fields as described in the following table.  
 
@@ -252,7 +252,7 @@ Cassie wants to export data that she can then send to the tax auditors.
 
 ### To export data  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export Business Data**, and then choose the related link.  
 2.  On the **Export Business Data** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

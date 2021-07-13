@@ -1,6 +1,6 @@
 ---
-    title: How to Cancel Payments
-    description: Norwegian enhancements allow you to cancel payments.
+    title: How to Cancel Payments [NO]
+    description: This topic describes how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Cancel Payments
+# Cancel Payments in the Norwegian Version
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
 
 - A payment order can be canceled if the payments are not received by the bank and a new remittance must be made. You can also cancel a payment order if you do not want to transfer the payments to the bank, for example if the payments are incorrect. Only open payment orders can be canceled.  
@@ -23,13 +23,13 @@
 
 ## To cancel a payment order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Payment Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Payment Order**, and then choose the related link.  
 2.  Select the payment order, choose the **Export** action, and then choose the **Cancel Payment Order** action.  
 3.  Choose the **Yes** button.  
 
 ## To cancel a payment  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Waiting Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Waiting Journal**, and then choose the related link.  
 2.  Select the payment, and then choose the **Cancel Payment** action.  
 3.  Choose the **Yes** button.  
 

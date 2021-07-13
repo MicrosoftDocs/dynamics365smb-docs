@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, diot, authorities, export, compliance
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: soalex
 
 ---
@@ -27,7 +27,7 @@ The extension provides the following capabilities:
 ## Setup of the Mexican DIOT Extension
 You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until the setup is completed.
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
 2. Choose the **Set Up DIOT** action.
 3. The first page in the setup guide explains what you are about to set up. Choose the **Next** button.
 4. In the in **Default Vendor DIOT Type of Operation** field, choose the default type of operation that you want to be set on vendors in the system.
@@ -49,6 +49,9 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
     The setup of DIOT is now finished.
 9. Choose the **Finish** button.
 
+> [!Note]
+> Note that for the DIOT report, the vendor’s operation type will be used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor is not passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
+
 ## Optional Setup for Reporting Witholding Tax with the DIOT Extension
 The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
 
@@ -59,7 +62,7 @@ For example, if you have transactions that are supposed to be 10% VAT and 5% wit
 This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you must continue the existing workaround that you may have for calculating witholding tax, regardless of setting up the DIOT Report extension.
 
 ### To create an export of DIOT report files  
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
 2. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields to represent the period for which you wish to report.
 3. Choose the **OK** button.
 

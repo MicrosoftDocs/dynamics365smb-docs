@@ -1,6 +1,6 @@
 ---
-    title: Service Statistics | Microsoft Docs
-    description: Get a quick overview of the contents of service documents such as orders, quotes, invoices, or credit memos, the details on the specific service lines, and the service items.
+    title: Service Statistics
+    description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: bholtorf
 
 ---
@@ -81,7 +81,7 @@ A contract gain or loss entry is generated when a contract quote is converted to
 |**Contract Gain/Loss (Reasons)**|To view the contract gain/loss by reason code.|  
 |**Contract Gain/Loss (Resp.Ctr)**|To view the contract gain/loss by responsibility center.|  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the page to display, and then choose the related link.  
 2. Fill in the filter criteria you want to apply. For example, on the **Contract Gain/Loss (Reasons)** page, choose a value for **Reason Code Filter**.  
 3. Choose the **Show Matrix** action.
 

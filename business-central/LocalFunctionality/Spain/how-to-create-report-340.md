@@ -1,6 +1,6 @@
 ---
-    title: How to Create Report 340
-    description: Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.
+    title: How to Create Report 340 [ES]
+    description: Read about how to create report 340 for the tax authorities in the Spanish version of Business Central. 
 
     author: SorenGP
 
@@ -10,18 +10,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Create Report 340
+# Create Report 340 in the Spanish Version
 Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.  
 
 This report is generated in a format approved by the tax authorities. You should submit this report on a monthly or quarterly basis, depending on the size of your company.  
 
 ## To create Report 340  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Make 340 Declaration**, and then choose the related link.  
 2.  On the **Make 340 Declaration** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

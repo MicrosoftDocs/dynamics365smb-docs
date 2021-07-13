@@ -1,6 +1,6 @@
 ---
-    title: Apply Configuration to New Companies | Microsoft Docs
-    description: After you have created a configuration package, the next step is to deploy the package to your customer for implementation. You use the configuration with a new empty company.
+    title: Apply Configuration to New Companies
+    description: After you have created a configuration package, deploy the package to your customer for implementation. You use the configuration with a new empty company.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---

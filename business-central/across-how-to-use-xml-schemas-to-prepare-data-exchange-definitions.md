@@ -1,6 +1,6 @@
 ---
-    title: Use XML Schemas to Prepare Data Exchange Definitions
-    description: Use XML schemas to set up the document exchange framework.
+    title: XML Schemas to Prepare Data Exchange Definitions
+    description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/11/2021
     ms.author: edupont
 
 ---
@@ -31,7 +31,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 1. Make sure that the relevant XML schema file is available. The file extension is .xsd.  
 
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schemas**, and then choose the related link.  
 
 3. Choose the **New** action.  
 
@@ -53,7 +53,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### To select or clear nodes in an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XML Schema Viewer**, and then choose the related link.  
 
 2. Fill the fields on the header as described in the following table.  
 
@@ -91,7 +91,7 @@ To enable import/export of data in XML files through the data exchange framework
 
 ### To generate a data exchange definition that is based on an XML schema  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter  **XML Schemas**, and then choose the related link.  
 
 2. Select the relevant XML schema, and then choose the **Open XML Schema Viewer** action.  
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Payment Line Information
-    description: Payment journal line information for the remittance payment is set up on the Payment Info page.
+    title: How to Set Up Payment Line Information [NO]
+    description: Read about how payment journal line information for the remittance payment is set up on the Payment Info page.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Set Up Payment Line Information
+# Set Up Payment Line Information in the Norwegian Version
 Payment journal line information for the remittance payment is set up on the **Payment Info** page.  
 
 ## To set up payment line information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Choose the **Payment Info** action.  
 3.  On the **Payment Info** page, on the **General** FastTab, fill in the fields as described in the following table.  
 

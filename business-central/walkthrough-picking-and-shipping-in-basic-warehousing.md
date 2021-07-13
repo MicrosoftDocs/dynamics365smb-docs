@@ -1,6 +1,6 @@
 ---
-    title: Picking and Shipping in Basic Warehouse Configurations
-    description: In Business Central, the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.
+    title: Picking and Shipping in Basic Warehouse Config
+    description: In Business Central, the outbound processes for picking and shipping can be performed in the following four ways depending on the warehouse complexity level.
     author: jill-kotel-andersson
 
     ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 05/27/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -50,11 +50,12 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 - Order Processor  
 - Warehouse Worker  
 
-## Prerequisites
+<!-- ## Prerequisites
 
 To complete this walkthrough, you will need:  
 
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
 ## Story
 
@@ -76,7 +77,7 @@ In order to use this functionality, you must add yourself to the location as a w
 
 #### To make yourself a warehouse employee
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature first](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature first.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
   2. Choose the **User ID** field, and select your own user account on the **Warehouse Employees** page.
   3. In the **Location Code** field, choose SOUTH.  
   4. Select the **Default** field, and then select the **Yes** button.  
@@ -85,7 +86,7 @@ In order to use this functionality, you must add yourself to the location as a w
 
 To make item 1928-S available at the SOUTH location follow these steps:  
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature second](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
+  1. Choose the ![Lightbulb that opens the Tell Me feature second.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.  
   2. Open the default journal, and then create two item journal lines with the following information about the work date (January 23).  
 
         |Entry Type|Item Number|Location Code|Bin Code|Quantity|  
@@ -104,13 +105,13 @@ Sales orders are the most common type of outbound source document.
 
 ### To create the sales order
 
-1. Choose the ![Lightbulb that opens the Tell Me feature third](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature third.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Create a sales order for customer 10000 on the work date (January 23) with the following sales order line.  
 
     |Item|Location Code|Quantity|  
     |----|-------------|--------|  
-    |LS_81|SOUTH|30|  
+    |1928-S|SOUTH|30|  
 
      Proceed to notify the warehouse that the sales order is ready for warehouse handling.  
 
@@ -124,7 +125,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
 ### To pick and ship items
 
-1. Choose the ![Lightbulb that opens the Tell Me feature fourth](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature fourth.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Make sure that the **No.** field on the **General** FastTab is filled in.

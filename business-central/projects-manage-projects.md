@@ -1,13 +1,13 @@
 ---
-title: Job Tasks using Resources and Time Sheets| Microsoft Docs
-description: Outlines how to use resources, time sheets, and jobs to manage projects.
+title: Job Tasks using Resources and Time Sheets
+description: This topic outlines how to use resources, time sheets, and jobs to manage projects and their budgets.
 author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
 
 ---

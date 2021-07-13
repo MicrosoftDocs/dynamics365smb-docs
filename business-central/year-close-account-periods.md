@@ -1,6 +1,6 @@
 ---
-title: Close Accounting Periods for a Fiscal Year | Microsoft Docs
-description: Describes how to close the accounting periods that make up the fiscal year.
+title: Close Accounting Periods for a Fiscal Year
+description: This article describes how to close the accounting periods that make up the fiscal year for year end closing.
 author: jswymer
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
 
 ---
@@ -17,7 +17,7 @@ ms.author: jswymer
 When a fiscal year is over, you must close the periods that comprise it.
 
 ## To close accounting periods
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Accounting Periods**, and then choose the related link.
 2. On the **Accounting Periods** page, choose the **Close Year** action.
 
     If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message displays identifying the year that will close and the consequences of closing the year.

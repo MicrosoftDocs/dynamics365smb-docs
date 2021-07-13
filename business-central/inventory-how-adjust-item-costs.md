@@ -1,6 +1,6 @@
 ---
-title: Manually Adjust the Costs of Items| Microsoft Docs
-description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods, for example, when item costs change for reasons other than transactions.
+title: Manually Adjust the Costs of Items
+description: You can manually adjust the inventory valuation of an item using the FIFO or Average costing methods when the costs of products change.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -33,7 +33,7 @@ If you use the Average costing method, then an item’s unit cost is calculated 
 The cost adjustment function processes only value entries that have not yet been adjusted. If the function encounters a situation where changed inbound costs need to be forwarded to associated outbound entries, then new adjustment value entries are created, which are based on the information in the original value entries but contain the adjustment amount. The cost adjustment function uses the posting date of the original value entry in the adjustment entry, unless that date is in a closed inventory period. In that case, application uses the starting date of the next open inventory period. If inventory periods are not used, then the date in the **Allow Posting From** field on the **General Ledger Setup** page will define when the adjustment entry is posted.
 
 ## To adjust item costs manually
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost - Item Entries**, and then choose the related link.
 2. On the **Adjust Cost - Item Entries** page, specify which items to adjust costs for.
 3. Choose the **OK** button.
 
@@ -42,7 +42,7 @@ If you need to change the direct unit cost for several items, you can use the **
 
  The batch job changes the contents in the **Unit Price** field on the item card. The batch job changes the content of the field in the same way for all items or selected items. The batch job multiplies the value in the field by an adjustment factor that you specify.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices**, and then choose the related link.  
 2. In the **Adjust Field** field, specify which item or SKU card field you want to adjust.  
 3. In the **Adjustment Factor** field, specify the factor by which the value will be adjusted. For example, enter **1.5** to increase the value by 50%.  
 4. On the **Item** FastTab, set filters to specify, for example, which items to process with the batch job.  

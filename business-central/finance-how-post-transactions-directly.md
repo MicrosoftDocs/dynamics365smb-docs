@@ -1,6 +1,6 @@
 ---
-title: Record expenses or income directly in G/L| Microsoft Docs
-description: For business activities that are not represented by a document in, such as smaller expenses or cash receipts, you can create the related transactions by posting journal lines in the General Journal page.
+title: Record expenses or income directly in G/L
+description: For business activities that are not represented by a document you can create the related transactions by posting journal lines in the General Journal page.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ Unlike for entries that are posted with documents, which require a credit memo p
 
 ## To post a transaction directly to a general ledger account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. Open the relevant general journal batch. For more information, see [Working with General Journals](ui-work-general-journals.md).
 3. On a new journal line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

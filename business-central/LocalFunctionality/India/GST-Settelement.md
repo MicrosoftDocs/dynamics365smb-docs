@@ -86,7 +86,7 @@ The net credit from below sources is shown in Credit Availed for Settlement.
 
 ## Process of settlement
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Settlement**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Settlement**, and then choose the related link.
 2. **GST Settlement Nos.** should not be blank in **General Ledger Setup**.
 3. **GST Settlement** should not be blank in **Source Type Setup**.
 4. Select relevant information in the following fields in **GST Settlement**

@@ -1,6 +1,6 @@
 ---
-title: How to Set Up Workflow Users | Microsoft Docs
-description: Before you can create workflows, you must set up the users who take part in workflows. This is necessary, for example, to specify who will receive a notification to act on a workflow step.
+title: How to Set Up Workflow Users
+description: Before you can create workflows, you must set up the users who take part in them on the Workflow User Group page.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
 
 ---
@@ -28,7 +28,7 @@ Workflow users that function as approval users, both approval requesters and app
 
 ## To set up a workflow user
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow User Groups**, and then choose the related link.  
 2. Choose the **New** action. The **Workflow User Group** page opens.  
 3. In the **Code** field, enter a maximum of 20 characters to identify the workflow.  
 4. In the **Description** field, describe the workflow.  

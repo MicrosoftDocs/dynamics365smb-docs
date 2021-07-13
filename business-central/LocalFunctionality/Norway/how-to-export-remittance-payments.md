@@ -1,6 +1,6 @@
 ---
-    title: How to Export Remittance Payments
-    description: You can use the export remittance payments process to export the payments file to your computer.
+    title: How to Export Remittance Payments [NO]
+    description: This topic explains how you can use the export remittance payments process to export the payments file to your computer.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Export Remittance Payments
+# Export Remittance Payments in the Norwegian Version
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
 
 > [!IMPORTANT]  
@@ -32,7 +32,7 @@ The procedure for exporting payments using the **Remittance – Export** batch j
 
 ## To export remittance payments using the Remittance - Export batch jobs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Prepare to export the payments from the journal. For more information, see [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 3.  Choose the **Export Payments** action.  
 4.  In the report page that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  

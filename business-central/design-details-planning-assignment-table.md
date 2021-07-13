@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Planning Assignment Table | Microsoft Docs
-    description: This topic provides insight into what happens when you change how you plan for an item.
+    title: Design Details - Planning Assignment Table
+    description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

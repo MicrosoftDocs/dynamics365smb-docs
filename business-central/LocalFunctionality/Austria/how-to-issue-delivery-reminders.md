@@ -1,6 +1,6 @@
 ---
     title: How to Issue Delivery Reminders [AT]
-    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors in the Austrian version. Before you issue the delivery reminders, you can print a test report.
+    description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors in the Austrian version.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---

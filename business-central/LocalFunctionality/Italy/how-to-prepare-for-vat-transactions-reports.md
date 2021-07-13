@@ -1,6 +1,6 @@
 ---
-    title: How to Prepare for VAT Transactions Reports
-    description: You must submit periodic reports to the tax authorities to list all transactions that include VAT.
+    title: Prepare for VAT Transactions Reports [IT]
+    description: The following topic explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Prepare for VAT Transactions Reports
+# Prepare for VAT Transactions Reports in the Italian Version
 You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.  
 
 ## To set up VAT transaction amounts  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
 2.  Choose the **VAT Transaction Report Amount** action.  
 3.  Fill in the fields as described in the following table.  
 
@@ -39,7 +39,7 @@ You must submit periodic reports to the tax authorities to list all transactions
 
 ### To specify a tax representative for a non-resident customer  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Select a customer.
 2.  On the **Foreign Trade** FastTab, fill in the fields as described in the following table.  
 

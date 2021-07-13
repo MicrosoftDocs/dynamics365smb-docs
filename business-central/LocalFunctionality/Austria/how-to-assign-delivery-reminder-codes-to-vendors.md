@@ -1,5 +1,5 @@
 ---
-    title: How to Assign Delivery Reminder Codes to Vendors [AT]
+    title: Assign Delivery Reminder Codes to Vendors [AT]
     description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the Austrian version.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

@@ -1,6 +1,6 @@
 ---
-    title: How to Plan Order by Order | Microsoft Docs
-    description: This planning task can be performed on the **Order Planning** page, which displays all new demand along with availability information and suggestions for supply. It provides the visibility and tools needed to effectively plan demand from sales lines and component lines and then create different types of supply orders directly.
+    title: How to Plan Order by Order
+    description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---
@@ -20,14 +20,14 @@ You can enter the **Order Planning** page in two ways depending on your focus: F
 
 
 ## To plan for new production order demand  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  On the **Order Planning** page, choose the **Calculate Plan** action.  
 
 The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
 
 ## To plan for any new demand  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 2.  On the **Order Planning** page, choose the **Calculate Plan** action.
 3.  Choose the **Expand (+)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
 4.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the page.  
@@ -79,7 +79,7 @@ The page displays planning lines according to the view filter **Production Deman
 >  If you enter a date later than the demand date, you will receive a warning message.  
 
 ## To make supply orders  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  Place the cursor on a relevant planning line, and then choose the **Make Orders** action.  
 4.  On the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
@@ -105,7 +105,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 >  The supply orders you create may introduce new dependent demand, for example for underlying production orders, and you should therefore choose **Calculate Plan** again to find and resolve this before moving down the list.  
 
 ## See Also  
-[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planning](production-planning.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)    

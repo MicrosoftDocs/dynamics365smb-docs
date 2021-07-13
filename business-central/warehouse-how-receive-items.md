@@ -1,6 +1,6 @@
 ---
-    title: How to Receive Items | Microsoft Docs
-    description: When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt.
+    title: How to Receive Items
+    description: This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ When items arrive at a warehouse that is set up for warehouse receipt processing
 
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.
 2. Open an existing purchase order, or create a new one. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
@@ -39,7 +39,7 @@ The following describes how to receive items with a purchase order. The steps ar
 
 ## To receive items with a warehouse receipt
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2. Choose the **New** action.  
 
     Fill in the fields on **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.  
@@ -92,7 +92,7 @@ You must define a percentage by which you allow the ordered quantity to be excee
 
 The following describes how to set up and assign an over-receipt code to an item. The steps are similar for a vendor.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card for an item that you suspect may sometimes be delivered with a higher quantity than ordered.
 3. Choose the look-up button in the **Over-Receipt Code** field.
 4. Choose the **New** action.

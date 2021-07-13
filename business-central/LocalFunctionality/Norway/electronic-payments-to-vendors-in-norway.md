@@ -1,6 +1,6 @@
 ---
     title: Electronic Payments to Vendors in Norway
-    description: Norwegian enhancements include automatically making payments to vendors.
+    description: Norwegian enhancements include automatically making payments to vendors in the Norwegian version of Business Central.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---

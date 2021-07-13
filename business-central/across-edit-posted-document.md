@@ -1,6 +1,6 @@
 ---
-title: Edit Posted Sales and Purchase Documents | Microsoft Docs
-description: Learn about the different posting functions to post purchase documents, and how you can update posted documents.
+title: Edit Posted Sales and Purchase Documents
+description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed. 
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
 
 ---
@@ -37,7 +38,7 @@ The following additional documents can be edited in the specified countries or r
 
 The following explains how to edit a posted sales shipment. The steps are similar for the other supported documents.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.
 2. Select the document that you want to edit, and then choose the **Update Document** action. Alternatively, open the document and then choose the action.
 3. On the **Posted Sales Shipment - Update** page, edit the **Package Tracking No.** field, for example.
 4. Choose the **OK** button.

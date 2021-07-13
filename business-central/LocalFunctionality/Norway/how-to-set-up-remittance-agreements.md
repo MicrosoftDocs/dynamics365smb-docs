@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Remittance Agreements
-    description: You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks.
+    title: How to Set Up Remittance Agreements [NO]
+    description: You must sign an agreement of remittance with the bank when you set up electronic payments. 
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,16 +12,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Set Up Remittance Agreements
+# Set Up Remittance Agreements in the Norwegian Version
 You must sign an agreement of remittance with the bank when you set up electronic payments. You can create more than one remittance agreement if you have an agreement with two or more banks. For each agreement, you must specify one or more accounts from which the payment should be made. For each account, you must create a remittance account. For more information, see [Create Remittance Accounts](how-to-create-remittance-accounts.md).  
 
 ## To set up a remittance agreement  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Remittance Agreement Overview**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  On the **General** FastTab, fill in the fields as described in the following table.  
 

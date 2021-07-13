@@ -31,11 +31,11 @@ You must also specify a format on the **CD Number Format** page. The following t
 All other characters are an exact match.
 
 ### To set up item tracking codes
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.
 2. Create new item tracking codes that will be used for items that require custom declaration tracking.
 3. Set the **Package Specific Tracking** to **Yes** for the item tracking code.
 4. Choose **CD Tracking Location Setup**, where you can define rules for specific locations. For example, you can configure a foreign location to use temporary customs declaration tracking until the moment the goods cross the border and receive a real customs declaration number.
-5. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+5. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 6. Assign the item tracking code to all items that require customs declaration tracking. 
 
 <!-- 
@@ -44,7 +44,7 @@ All other characters are an exact match.
 -->
 
 ### To create a customs declaration
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Custom Declarations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Custom Declarations**, and then choose the related link.
 2. Create a new customs declaration, and fill in the following fields.
 
    | Field                      | Description                                                  |
@@ -75,12 +75,12 @@ The process of changing customs declaration numbers is similar to changing lot a
 You must print the customs declaration number on Factura-Invoice documents.
 
 ### To print the posted factura-invoice
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.
 2. Choose the **Print** action, and then choose **Posted Factura-Invoice**.
 3. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
 
 ### To print the factura-invoice before posting
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoice**, and then choose the related link.
 2. Choose the **Print** action, and then choose the **Order Factura-Invoice** action.
 3. Choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen. Choose the **Cancel** action to save the information without printing the report.
 

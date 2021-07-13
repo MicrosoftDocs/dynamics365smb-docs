@@ -1,6 +1,6 @@
 ---
-    title: Service Posting | Microsoft Docs
-    description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy. You can create and update posted documents, and create ledger entries both in the service area and in other modules to ensure the correct update.
+    title: Service Posting
+    description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---
@@ -45,7 +45,7 @@ When you post a service invoice, a service shipment, or a service credit memo, t
 
 The following procedure uses a posted service invoice as an example, but the same procedure can apply to posted service shipments and posted credit memos.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Service Invoice**, and then choose the related link.  
 2. Open the posted service invoice you want to view.  
 3. To get an overview of the posted invoice, choose the **Statistics** action.  
 

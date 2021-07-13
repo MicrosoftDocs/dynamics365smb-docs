@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Non-Deductible VAT
-    description: You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT.
+    title: How to Set Up Non-Deductible VAT [BE]
+    description: You can calculate the VAT amounts for specific types of expenses that can be partially declared as VAT.
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Set Up Non-Deductible VAT
+# Set Up Non-Deductible VAT in the Belgian Version
 You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT. For example, on the **G/L Account Card** page, if you enter 75 in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  
 
 > [!NOTE]  
@@ -22,7 +22,7 @@ You can calculate VAT amounts for specific types of expenses that can be partial
 
 ## To set up the non-deductible VAT percentage  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2.  Select a general ledger expense account that requires the partial deduction, and then choose the **Edit** action.  
 3.  Enter the amount in **% Non deductible VAT** field.  
 4.  Choose the **OK** button.  

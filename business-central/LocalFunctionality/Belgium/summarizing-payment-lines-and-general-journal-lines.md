@@ -1,16 +1,16 @@
 ---
-title: Summarizing Payment Lines and General Journal Lines
-description: Business Central summarizes payment lines and journal lines.
+title: Payment Lines and General Journal Lines [BE]
+description: Business Central summarizes payment lines and journal lines across domestic, international, SEPA and non-euro payments.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---
-# Summarizing Payment Lines and General Journal Lines
+# Summarizing Payment Lines and General Journal Lines in the Belgian Version
 Business Central summarizes payment lines and journal line across the following types of payments:  
 
 - Domestic payments  

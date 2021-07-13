@@ -1,7 +1,6 @@
 ---
-title: Set Up Rules for Automatic Application of Payments
-description: On the Payment Application Rules page, you set up rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the Apply Automatically function on the Payment Reconciliation Journal page.
-
+title: Rules for Automatic Application of Payments
+description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -10,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---
@@ -37,7 +36,7 @@ In addition to the matching criteria, the following applies concerning the sign 
 - For positive amounts, a match is made first against open entries representing vendor invoices and then against customer credit memos.
 
 ## To set up a payment application rule
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Application Rules**, and then choose the related link.
 2. Define a new or edited payment application rule by filling the fields on a line as described in the following table.
 
 |Field|Description|

@@ -26,7 +26,7 @@ If you use the **Company Hub** role, your home page shows a list of companies th
 > [!TIP]
 > To access a specific company in [!INCLUDE [prod_short](includes/prod_short.md)], choose the name of the company, or choose the **Go To Company** menu item - you are logged in automatically in a new browser tab.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub.":::
 
 You can add new companies, such as when you get a new client, or when your corporation adds a new subsidiary. For more information, see [Add Companies to Your Company Hub](company-hub-add-company.md).  
 

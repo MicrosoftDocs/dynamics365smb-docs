@@ -1,6 +1,6 @@
 ---
-title: Sales Tax in Canada| Microsoft Docs
-description: Learn about local sales tax and goods and services tax in Canada.
+title: Sales Tax in Canada
+description: Learn about how to report local sales tax, and goods and services tax in Canada.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales tax, local
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---

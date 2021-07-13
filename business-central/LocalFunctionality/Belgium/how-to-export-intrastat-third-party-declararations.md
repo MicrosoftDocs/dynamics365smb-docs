@@ -1,5 +1,5 @@
 ---
-    title: How to Export Intrastat Third-Party Declarations
+    title: How to Export Intrastat Third-Party Declarations [BE]
     description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
 
     services: project-madeira 
@@ -12,17 +12,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: soalex
 
 ---
-# Export Intrastat Third-Party Declarations
+# Export Intrastat Third-Party Declarations in the Belgian Version
 In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company. 
 
 ## To export the third-party declaration  
 Before you export the file, it's a good idea to preview the report. For more information, see [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md).  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Journals**, and then choose the related link.  
 2.  Choose the **Create File** action.  
 3.  Fill in the fields as described in the following table.  
 

@@ -1,5 +1,5 @@
 ---
-    title: Print Bank Account Reconciliation Reports in the Australian version
+    title: Print Bank Account Reconciliation Reports 
     description: The Bank Account Reconciliation report displays open bank ledger entries as unpresented checks or unrecorded deposits in the Australian version.
 
     author: SorenGP
@@ -10,13 +10,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
 # Print Bank Account Reconciliation Reports in the Australian Version
 
-[!INCLUDE [print-balance-sheet-reports](../includes/AUNZ/print-balance-sheet-reports.md)]
+[!INCLUDE [print-bank-account-reconciliation-reports](../includes/AUNZ/print-bank-account-reconciliation-reports.md)]
 
 ## See Also
 

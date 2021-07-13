@@ -1,6 +1,6 @@
 ---
     title: Service Compliance and SLA
-    description: This content contains information about service compliance in relation to Business Central online.
+    description: From a service perspective Business Central lives up to the strict requirements and SLA compliance in several ISO and industry specific certifications.
     author: sorenfriisalexandersen
 
     ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.reviewer: edupont
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: soalex
 
 ---

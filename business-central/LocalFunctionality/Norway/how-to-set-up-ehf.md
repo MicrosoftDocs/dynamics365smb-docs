@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up EHF
-    description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.
+    title: How to Set Up EHF [NO]
+    description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. 
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,16 +12,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Set Up EHF
+# Set Up EHF  in the Norwegian Version
 You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos. You must also define payment methods and set up relevant customers for EHF.  
 
 ## To set up EHF file locations for sales and receivables  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2.  On the **Sales & Receivables Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -35,7 +35,7 @@ You must define a location for storing Elektronisk Handelsformat (EHF) files whe
 
 ## To set up EHF file locations for service management  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Mgt. Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Mgt. Setup**, and then choose the related link.  
 2.  On the **Service Mgt. Setup** page, on the **E-Invoice** FastTab, in the **Output Paths** section, fill in the fields as described in the following table.  
 
     |Field|Description|  

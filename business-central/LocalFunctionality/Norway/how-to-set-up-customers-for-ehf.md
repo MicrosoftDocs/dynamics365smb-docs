@@ -23,7 +23,7 @@ This topic only describes fields that apply to EHF. For more information on sett
 
 ## To set up a customer that uses Elektronisk Handelsformat  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the customer that you want to enable for EHF.  
 3.  On the **Invoicing** FastTab, fill in the fields as described in the following table.  
 

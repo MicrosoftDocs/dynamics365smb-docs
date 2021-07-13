@@ -27,7 +27,7 @@ This article introduces some of the ways in which [!INCLUDE[prod_short](includes
 
 The following diagram is an example of different sites integrated with a headquarter company.
 
-![Diagram Description automatically generated](media/multisite-headquarter-sites.png)
+![Diagram Description automatically generated.](media/multisite-headquarter-sites.png)
 
 ## Meet the Needs of Domestic and International Sites
 
@@ -98,7 +98,7 @@ Sites often need access to the supply chain, and the ability to manage certain a
 
 The headquarter company must be able to react quickly to business changes at each site. Combined with Power Automate, [!INCLUDE[prod_short](includes/prod_short.md)] can serve as an early warning mechanism.
 
-![A screenshot of a social media post Description automatically generated](media/multisite-apps.png)
+![A screenshot of a social media post Description automatically generated.](media/multisite-apps.png)
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|

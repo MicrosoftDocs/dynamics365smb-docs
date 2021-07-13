@@ -1,6 +1,6 @@
 ---
     title: Print General Ledger Setup Information [DE]
-    description: Before you use the German version of Business Central in the daily business, you can run the G/L Setup Information report to display the master data that you have set up.
+    description: Before using the German version of Business Central, you can run the G/L Setup Information report to display the master data that you have set up.
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -20,7 +20,7 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] in the daily
 
 ## To print general ledger setup information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
 2.  On the **Options** FastTab, in the **Setup Information** field, select the master data area as described in the following table.  
 
     |Option|Description|  

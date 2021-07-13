@@ -1,6 +1,6 @@
 ---
     title: Create Put-aways from Internal Put-aways
-    description: After items have been put away and before they are picked to fulfill the needs of a production order or shipment, they are stored in the warehouse as part of available inventory.
+    description: This topic covers how to pick and put away without a source document, both how to create an internal pick, and how to create an internal put-away. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -30,14 +30,14 @@ The **Internal Put-aways** enables you to perform put-aways without having to re
 >  When the location uses directed put-away and pick, and therefore uses bin types, you cannot manually move items in or out of a bin of bin type RECEIVE, because items that are in a RECEIVE-type bin must be registered as being put away before they are part of available inventory.  
 
 ## To create an internal pick  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Pick**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the **No.** field, **Location Code** field, and the **To Bin Code** field on the **General** FastTab. The **To Bin Code** field specifies the bin where you want to place the picked items. For production purposes, this bin would be the inbound production bin or the open shop bin. For other purposes, choose a bin code of a bin type that is not used for picking, most likely a staging, shipping, or special purpose bin.  
 4.  Select an item in the **Item No.** field, and fill in the quantities you want to pick.  
 5. Choose the **Create Pick** action. A warehouse pick instruction is now ready for a warehouse employee to perform. Alternatively you can choose the **Release** action and create warehouse picks using the **Picks worksheet**. For more information see,  [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## To create an internal put-away  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Internal Put-away**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the header of a new internal put-away with at least the **No.** and **Location Code**.
 4. Fill in a line for each item you wish to move to the warehouse. You only have to fill in the **Item No.** and the **Quantity** fields.

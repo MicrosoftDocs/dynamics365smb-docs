@@ -1,6 +1,6 @@
 ---
-    title: Creating Cost Budgets | Microsoft Docs
-    description: This topic provides an overview of where to create and analyze cost budgets.
+    title: Creating Cost Budgets
+    description: This topic provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---
@@ -18,7 +18,7 @@ Budgeting in cost accounting resembles budgeting in the general ledger. A cost b
 
 A cost budget is created for a certain period of time, for example, a fiscal year. You can create as many cost budgets as needed. You can create a new cost budget manually, or by importing a cost budget, or by copying an existing cost budget as the budget base. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
-You use the following pages to create and analyze cost budgets. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon to find a page, and then read the tooltip for each.
+You use the following pages to create and analyze cost budgets. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon to find a page, and then read the tooltip for each.
 
 |To|See|  
 |--------|---------|  

@@ -30,7 +30,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
     |What|Teams license|[!INCLUDE [prod_short](includes/prod_short.md)] license|
     |----|---|---|
-    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark.](media/check.png "check")|![check mark](media/check.png "check")|
     |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
     |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")||
     |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|

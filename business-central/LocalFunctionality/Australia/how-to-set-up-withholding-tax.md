@@ -1,6 +1,6 @@
 ---
- title: Set Up Withholding Tax in the Australian version
- description: Withholding tax (WHT) is the tax withheld by a company when it makes a payment to a vendor, in which the full amount owed to the vendor is reduced by the tax withheld in the Australian version. The withheld tax is then remitted to the Australian Taxation Office (ATO) when the next Business Activity Statement (BAS) is submitted.
+ title: Set Up Withholding Tax [AU]
+ description: This topic explains how a company sets up withholding tax (WHT) when it makes a payment to a vendor using the General Ledger Setup page.
  author: edupont04
 
  ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
  ms.tgt_pltfrm: na
  ms.workload: na
  ms.search.keywords:
- ms.date: 04/01/2021
+ ms.date: 06/25/2021
  ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ If a supplier without an Australian Business Number (ABN) provides an invoice, a
 
 ## To enable withholding tax
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 
 2. On the **Local Functionalities** FastTab, choose the **Enable WHT** field.  
 

@@ -1,6 +1,6 @@
 ---
 title: Overview of Tasks to Set Up Business Central
-description: Outlines tasks to set up, initialize, and configure Business Central to suit your needs.
+description: Read an overview of the tasks to set up, initialize, and configure Business Central to suit your needs.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---
@@ -19,7 +19,7 @@ ms.author: edupont
 
 For example, your chart of accounts is prefilled with a number of posting accounts ready for use. You can, of course, change the chart of accounts to suit your needs. For more information, see [Finance](finance.md).
 
-From the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) menu, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+From the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. For information about how to access all assisted and manual setup pages, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

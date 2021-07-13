@@ -1,6 +1,6 @@
 ---
-    title: Apply and Unapply General Ledger Entries in the Belgian Version
-    description: Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger. Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.
+    title: Apply and Unapply General Ledger Entries [BE]
+    description: Applying temporary general ledger entries in Belgium allows companies to work with temporary and transfer accounts in the general ledger.
     author: edupont04
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/29/2021
     ms.author: edupont
 
 ---

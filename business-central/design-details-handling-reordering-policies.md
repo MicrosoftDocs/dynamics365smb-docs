@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Handling Reordering Policies | Microsoft Docs
-    description: Overview of tasks for defining a reorder policy in supply planning.
+    title: Design Details - Handling Reordering Policies
+    description: This article gives an overview of tasks involved in handling reordering policies and defining the reorder policy in supply planning.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---
@@ -63,7 +63,7 @@ The following sequence describes how the projected inventory level is determined
 
 The following shows a graphical illustration of this principle:  
 
-![Determining the Projected Inventory Level](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
+![Determining the Projected Inventory Level.](media/nav_app_supply_planning_2_projected_inventory.png "Determining the Projected Inventory Level")  
 
 1. Supply **Sa** of 4 (fixed) closes Demand **Da** of -3.  
 2. CloseDemand: Create a decrease reminder of -3 (not shown).  
@@ -90,7 +90,7 @@ For reordering policies that use a reorder point, you can define a time bucket. 
 
 The time-bucketed concept reflects the manual process of checking the inventory level on a frequent basis rather than for each transaction. The user needs to define the frequency (the time bucket). For example, the user gathers all item needs from one vendor to place a weekly order.  
 
-![Example of time bucket in planning](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
+![Example of time bucket in planning.](media/nav_app_supply_planning_2_reorder_cycle.png "Example of time bucket in planning")  
 
 The time bucket is generally used to avoid a cascade effect. For example, a balanced row of demand and supply where an early demand is canceled, or a new one is created. The result would be that every supply order (except the last one) is rescheduled.
 
@@ -99,7 +99,7 @@ When using the Maximum Qty. and Fixed Reorder Qty. policies, the planning system
 
 *Attention: The projected inventory [xx] is higher than the overflow level [xx] on the Due Date [xx].*  
 
-![Inventory overflow level](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
+![Inventory overflow level.](media/supplyplanning_2_overflow1_new.png "Inventory overflow level")  
 
 ###  Calculating the Overflow Level  
 The overflow level is calculated in different ways depending on planning setup.  
@@ -175,7 +175,7 @@ In this scenario, a customer changes a sales order from 70 to 40 pieces between 
 #### Resulting Planning Lines  
  One planning line (warning) is created to reduce the purchase with 30 from 90 to 60 to keep the projected inventory on 100 according to the overflow level.  
 
-![Plan according to overflow level](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
+![Plan according to overflow level.](media/nav_app_supply_planning_2_overflow2.png "Plan according to overflow level")  
 
 > [!NOTE]  
 >  Without the Overflow feature, no warning is created if the projected inventory level is above maximum inventory. This could cause a superfluous supply of 30.
@@ -189,7 +189,7 @@ The reorder point expresses the anticipated demand during the lead time of the i
 
  In the following illustration, supply D represents an emergency order to adjust for negative inventory.  
 
- ![Emergency planning suggestion to avoid negative inventory](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
+ ![Emergency planning suggestion to avoid negative inventory.](media/nav_app_supply_planning_2_negative_inventory.png "Emergency planning suggestion to avoid negative inventory")  
 
 1.  Supply **A**, initial projected inventory, is below reorder point.  
 2.  A new forward-scheduled supply is created (**C**).  

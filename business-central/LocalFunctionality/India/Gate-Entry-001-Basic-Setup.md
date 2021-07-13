@@ -42,7 +42,7 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
 
 ## Setting up no. series for gate entry in inventory setup
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  
@@ -52,7 +52,7 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
 
 ## Setting up posting no. series for gate entry in posting no. series setup
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posting No. Series Setup**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posting No. Series Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
     |Field|Description|  

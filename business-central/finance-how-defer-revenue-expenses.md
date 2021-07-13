@@ -1,6 +1,6 @@
 ---
-title: Defer Revenues and Expenses| Microsoft Docs
-description: To recognize revenues and expenses in periods other than the period in which the transaction was posted, you can automatically defer or postpone them over a specified schedule.
+title: Defer Revenues and Expenses
+description: To recognize revenues and expenses in periods when the transaction was not posted, you can automatically defer or postpone them over a specified schedule.
 documentationcenter: ''
 author: SorenGP
 
@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -20,7 +20,7 @@ To recognize a revenue or an expense in a period other than the period in which 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
 
 ## To set up a G/L account for deferral
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary to create a G/L account for deferred revenues. For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).
 4. Repeat steps 2 and 3 to create a new G/L account for deferred expenses.
@@ -28,7 +28,7 @@ To distribute revenues or expenses on the involved accounting periods, you set u
 For both types of deferral, select **Balance Sheet** in the **Type** field, and name the accounts appropriately, such as "Unearned Income" for deferred revenues and "Unpaid Expenses" for deferred expenses.
 
 ## To set up a deferral template
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deferral Templates**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary.
 4. In the **Calc. Method** field, specify how the **Amount** field for each period on the **Deferral Schedule** page is calculated. You can choose between the following options:
@@ -51,7 +51,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 ## To assign a deferral template to an item
 > [!NOTE]  
 >   The steps in this procedure are the same as when you assign a deferral template to a G/L account or a resource.
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
 2. Open the card for the item for which revenues or expenses must be deferred to the accounting periods when the item was sold or purchased.
 3. In the **Default Deferral Template** field, select the relevant deferral template.
 
@@ -59,7 +59,7 @@ Example: The posting date is 02/06/2016. If you enter “Expenses deferred for %
 > [!NOTE]  
 >   The steps in this procedure are the same as when you change a deferral schedule, for expenses, from a purchase invoice.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 2. Create a sales invoice for an item that has a deferral template assigned. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
     Notice that as soon as you enter the item (or resource or G/L account) on the invoice line, the **Deferral Code** field is filled with the code of the assigned deferral template.
@@ -81,7 +81,7 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 > [!NOTE]  
 >   The steps in this procedure are the same as when you review the Purchasing Deferral Summary report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Deferral Summary**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Deferral Summary**, and then choose the related link.
 2. On the **Sales Deferral Summary** page, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 

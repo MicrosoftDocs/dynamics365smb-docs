@@ -1,6 +1,6 @@
 ---
-    title: Create Electronic Documents in an OIOUBL format | Microsoft Docs
-    description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically. This topic describes how to do that.
+    title: Create Electronic Documents in an OIOUBL format
+    description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: bholtorf
 
 ---
@@ -19,7 +19,7 @@ When you sell goods or services to a customer in the public sector, you must sub
 You can create an electronic document after you post the sales or service document. The following sections describe how to post a sales invoice with the required information and then create an electronic sales invoice, but the same procedure applies to sales and service credit memos and reminders.  
 
 ## To post a sales invoice  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 2.  Open the sales invoice that you want to post.  
 3.  Make sure that the **External Document No.** field contains the document number that the customer supplied. OIOUBL electronic documents require this number.
 
@@ -35,7 +35,7 @@ You can create an electronic document after you post the sales or service docume
 ## To create an electronic sales invoice  
 After you post a document, you can create an electronic invoice in an OIOUBL format. The following steps describe the process for posted sales invoices, but the process is the same for other documents.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 2.  Open the relevant posted sales invoice.  
 3.  Choose the **Create Electronic <*document type*>** action.  
 4.  Optionally, in the **Create Electronic <*document type*>** page, set additional filters, and then choose the **OK** button.  

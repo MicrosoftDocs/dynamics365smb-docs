@@ -1,16 +1,16 @@
 ---
-title: Manage users and roles | Microsoft Docs
-description: Learn how to manage users and Role Centers in Business Central.
+title: Manage users and roles
+description: Learn how to manage user profiles and Role Centers in Business Central. Profiles allow administrators to centrally define and manage what users can see and do.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
 
 ---
-# Manage Profiles
+# Manage User Profiles
 
 All users of [!INCLUDE[prod_short](includes/prod_short.md)] are assigned a profile that reflects their business role, the department they work in, or another categorization. Profiles allow administrators to define and manage centrally what different user types can see and do in the user interface so they can perform their business tasks efficiently.
 
@@ -27,7 +27,7 @@ You can customize page layouts for a profile so that all users assigned the prof
 ## To create a profile
 If you cannot copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
 2. On the **Profiles (Roles)** page, choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -62,7 +62,7 @@ On the **My Settings** page, users can define basic behavior of their account, s
 
 As an administrator, you can define these setting for a profile and thereby apply the settings to all users of the related role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to change user settings for, and then choose the **User Personalizations List** action.
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
@@ -104,7 +104,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 ## To delete all personalizations made by a user
 You can delete all changes that a user has made to pages that make up their workspace. This may be useful, for example, if an employee has changed role and no longer needs the personalizations. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalizations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalizations**, and then choose the related link.
 
     The **User Personalizations** page lists all users who have made personalizations.
 
@@ -118,7 +118,7 @@ You can also delete all page customizations for a profile. For more information,
 ## To delete personalizations for specific pages
 You can delete personalizations that one or more users have made to specific pages that make up their workspace. This may be useful, for example, if a changed business process means that a personalization must no longer be used by users. Deleting users' personalizations changes the page layout back to what is defined by the profile.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalizations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Page Personalizations**, and then choose the related link.
 
     The **User Page Personalizations** page lists all the pages that have been personalized and the user that they belong to.
 

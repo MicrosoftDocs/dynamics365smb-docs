@@ -1,6 +1,6 @@
 ---
-    title: How to Calculate Accelerated Depreciation
-    description: In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.
+    title: How to Calculate Accelerated Depreciation [FR]
+    description: In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job. 
 
     author: SorenGP
 
@@ -10,11 +10,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Calculate Accelerated Depreciation
+# Calculate Accelerated Depreciation in the French Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  
 
 If a fixed asset depreciation book is integrated with the general ledger, then it is called an *accounting depreciation book*. If a fixed asset depreciation book is not integrated with the general ledger, then it is called a *tax depreciation book*.  
@@ -25,7 +25,7 @@ Entries are transferred to the fixed asset general journal when you select an ac
 
 ## To calculate accelerated depreciation  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Calculate Depreciation**, and then choose the relevant link.  
 2.  On the **Calculate Depreciation** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

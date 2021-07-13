@@ -24,7 +24,7 @@ You cannot delete a notification on the Role Center; you must delete the note on
   
 2.  If **Notes** is not visible on the page, go to the **Application** menu, and choose **Customize**, and then choose **Customize This Page** to display the **Notes** FactBox.  
   
-3.  In **Notes**, select the note that you want to delete, choose **Actions**![Action Menu icon](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), and then choose **Delete**.  
+3.  In **Notes**, select the note that you want to delete, choose **Actions**![Action Menu icon.](../FullExperience/media/actionmenuicon.png "actionMenuIcon"), and then choose **Delete**.  
   
 ## See Also  
  NOTES Write Notes   

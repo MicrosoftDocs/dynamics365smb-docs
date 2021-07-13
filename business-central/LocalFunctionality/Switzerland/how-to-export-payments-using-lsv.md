@@ -1,6 +1,6 @@
 ---
-    title: How to Export Payments Using LSV
-    description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.
+    title: How to Export Payments Using LSV [CH]
+    description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,16 +12,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Export Payments Using LSV
+# Export Payments Using LSV in the Swiss Version
 You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  
 
 ## To export payments using LSV  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **LSV Journal List**, and then choose the related link.  
 2.  On the **LSV Journal List** page, select the required LSV journal.  
 3.  Choose the **Write LSV File** action.  
 4.  On the **Write LSV File** page, on the **Options** FastTab, fill in the fields as described in the following table.  

@@ -1,6 +1,6 @@
 ---
-title: Using the PayPal Payments Standard Extension | Microsoft Docs
-description: Describes how to use the extension to enable customers to make payments with PayPal.
+title: Using the PayPal Payments Standard Extension
+description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---

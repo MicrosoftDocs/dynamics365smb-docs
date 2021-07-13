@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Automatic Payments and Automatic Bills
-    description: In Business Central, you can manage automatic payments and bills.
+    title: Automatic Payments and Automatic Bills [IT]
+    description: The following topic explains how to set up the relevant information in Business Central to manage automatic payments and bills.
 
     author: SorenGP
 
@@ -10,18 +10,18 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Set Up Automatic Payments and Automatic Bills
+# Set Up Automatic Payments and Automatic Bills in the Italian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic payments and bills.  
 
 To use automatic payments and automatic bills, you must set up the relevant information.  
 
 ## To add bank information for your company  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2.  On the **Payments** FastTab, fill in the key fields as described in the following table.  
 
     |Field|Description|  
@@ -43,7 +43,7 @@ The following procedure describes how to set up automatic bills for sales and re
 
 ## To set up automatic bills for sales and receivables  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2.  On the **Bills** FastTab, in the **Temporary Bill List No.** field, select the temporary bill list number. Fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -58,7 +58,7 @@ The following procedure describes how to set up automatic bills for sales and re
 
 ## To specify bill codes for a payment method  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
 2.  Select the payment method that you use for bank transfers to vendors, and then, in the **Bill Code** field, select a bill code.  
 
     1.  To create a bill code, in the **Bill Code** field, choose the field, and then choose the **New** action.  

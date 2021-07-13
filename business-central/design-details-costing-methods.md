@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Costing Methods | Microsoft Docs
-    description: This topic describes how the costing method affects how actual or a budgeted values are capitalized and used in the cost calculation.
+    title: Design Details - Costing Methods
+    description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: bholtorf
 
 ---
@@ -32,7 +32,7 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
  The following image shows how costs flow through the inventory for each costing method.  
 
- ![Costing methods](media/design_details_inventory_costing_7_costing_methods.png "Costing methods")  
+ ![Costing methods.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods")  
 
  Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 

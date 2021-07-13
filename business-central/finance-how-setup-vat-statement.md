@@ -1,6 +1,6 @@
 ---
-title: Set Up a VAT Statement | Microsoft Docs
-description: Set Up a VAT Statement
+title: Set Up a VAT Statement
+description: This topic tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
 
 ---
@@ -20,7 +20,7 @@ Tax authorities can, and do, change their requirements for posting VAT. VAT Stat
 ## To define a VAT statements
 VAT statements let you calculate your VAT settlement amount for a certain period, for example, a quarter.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statements**, and then choose the related link.  
 2. Choose the **Name** field, and then choose **New** on the **VAT Statement Names** page.
 3. Fill in the required fields. Usually you want to have a setting for each VAT Bus. Posting Group / VAT Prod. Posting Group combination. For Row numbers it does make sense to use equvalent numbers or codes as in your official VAT Statement [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

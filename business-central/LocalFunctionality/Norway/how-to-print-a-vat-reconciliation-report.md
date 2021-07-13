@@ -1,6 +1,6 @@
 ---
-    title: How to Print a VAT Reconciliation Report
-    description: The VAT Reconciliation report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.
+    title: How to Print a VAT Reconciliation Report [NO]
+    description: The VAT Reconciliation report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Print a VAT Reconciliation Report
+# Print a VAT Reconciliation Report in the Norwegian Version
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
 
 ## To print the VAT reconciliation report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reconciliation**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reconciliation**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

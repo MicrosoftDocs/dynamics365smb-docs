@@ -1,6 +1,6 @@
 ---
-title: Specify the Layout of a Check| Microsoft Docs
-description: You can design and print your checks in different formats to conform with standards.
+title: Specify the Layout of a Check
+description: You can design and print your checks in different formats to conform with standards set by your local authorities.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -19,7 +19,7 @@ You can design your checks to conform with the standards set by the local author
 Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.
 
 ## To select a check layout
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
 
@@ -48,10 +48,10 @@ In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are in
 ### MICR E-13B Specifications
 The following summarizes specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
-![MICR E-13B Specifications](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
+![MICR E-13B Specifications.](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
 ### Delimiter characters
-![Delimiter characters](media/font-micr-letters.png "Delimiter characters")
+![Delimiter characters.](media/font-micr-letters.png "Delimiter characters")
 
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -65,17 +65,17 @@ The following CMC-7 fonts are available in [!INCLUDE[prod_short](includes/prod_s
 
 The following summarizes specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
-![MICR CMC-7 Specifications](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
+![MICR CMC-7 Specifications.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
 
 ### Delimiter characters
-![Delimiter characters](media/font-cmc7-letters.png "Delimiter characters")
+![Delimiter characters for CMC-7.](media/font-cmc7-letters.png "Delimiter characters for CMC-7")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### Secure Font Specifications
 The following summarizes specifications for check security fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
-![Check Security Font Specifications](media/font_check-security-font_Specifications.png "Check Security Font Specifications")
+![Check Security Font Specifications.](media/font_check-security-font_Specifications.png "Check Security Font Specifications")
 
 The full specification of check security fonts can be found in the supplier's documentation here: (https://www.idautomation.com/security-fonts/).
 

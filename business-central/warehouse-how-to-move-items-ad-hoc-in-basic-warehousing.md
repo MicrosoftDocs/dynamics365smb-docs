@@ -1,6 +1,6 @@
 ---
-title: How to Move Items Ad Hoc in Basic Warehouse Configurations | Microsoft Docs
-description: You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.
+title: Move Items Ad Hoc in Basic Warehouse Configs
+description: This topic explains ad hoc movements performed when you need to move items between internal bins without a specific demand from a source document. 
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
 >  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** page or the **Internal Whse. Pick** or the **Internal Whse. Put-away** pages to move items ad hoc between bins.  
 
 ## To move items as an internal movement  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement takes place.  
 
@@ -54,7 +54,7 @@ In basic warehouse configurations, that is locations that use the **Bin Mandator
 
 ## To move items with the item reclassification journal
 In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).   
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
 2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
 
     1.  To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  

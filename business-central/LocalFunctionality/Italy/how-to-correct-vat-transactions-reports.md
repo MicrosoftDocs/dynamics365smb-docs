@@ -1,6 +1,6 @@
 ---
-    title: How to Correct VAT Transactions Reports
-    description: You can correct and resend VAT transaction reports.
+    title: How to Correct VAT Transactions Reports [IT]
+    description: The following topic is an explanation of how you can correct and resend electronic VAT transaction reports.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,13 +12,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Correct VAT Transactions Reports
+# Correct VAT Transactions Reports in the Italian Version
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports**, and then choose the related link.  
 2.  Create a new report. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
 3.  In the new report, change the **VAT Report Type** field to **Corrective** or **Cancellation**. In the **Original Report No.** field, select the report that you want to correct from the list of available reports. The **Start Date** and **End Date** fields are copied from the original report.  
 

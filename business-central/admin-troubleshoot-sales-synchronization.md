@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting Synchronization Errors | Microsoft Docs
-description: Provides some guidance for identifying and resolving synchronization errors.
+description: This topic provides some guidance for identifying, troubleshooting and resolving synchronization errors.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
 
 ---

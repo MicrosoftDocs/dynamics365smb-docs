@@ -1,6 +1,6 @@
 ---
     title: How to Create a Demand Forecast
-    description: You can create sales and production forecasts with the **Demand Forecast** page.
+    description: Learn about the forecasting feature in Business Central, and how you can create sales and production forecasts.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/22/2021
     ms.author: edupont
 
 ---
@@ -58,7 +58,7 @@ Consider this example: Your company purchases and sells items on two locations: 
 Then, you create a sales order with a quantity of 12 on location WEST. The planning system will suggest that you do the following:
 
 - Replenish 10 pieces for location EAST, based on data from the forecast.  
-- Replenish 12 pieces for location WEST, based on sales order. The 4 pieces that were specified in the forecast are fully consumed by the actual demand pf the sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Replenish 12 pieces for location WEST, based on the sales order. The four pieces that were specified in the forecast are fully consumed by the actual demand of the sales order. For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  If location-based forecasts are viewed in isolation, the overall forecast might not be representative.
@@ -81,7 +81,7 @@ Then, you create a sales order with a quantity of 12 on location WEST. The plann
 
 ## To create a demand forecast
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Demand Forecast**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Demand Forecast**, and then choose the related link.  
 2. On the **General** FastTab, select a forecast in the **Demand Forecast Name** field. Multiple forecasts can exist and are differentiated by name and forecast type.  
 3. In the **Location Filter** field, select the location to which this forecast will apply.
 4. In the **View by** field to change the period that is displayed in each column. You can select from the following intervals: **Day**, **Week**, **Month**, **Quarter**, **Year**, or the **Accounting Period** as set up in your finance area.    

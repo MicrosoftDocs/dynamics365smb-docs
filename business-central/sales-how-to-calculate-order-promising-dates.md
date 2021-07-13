@@ -1,7 +1,7 @@
 ---
     title: Calculate Order Promising Dates
-    description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. It also creates requisition lines for those dates that you accept.
-    author: SorenGP
+    description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
+    author: edupont04
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/29/2021
     ms.author: edupont
 
 ---
@@ -72,7 +72,7 @@ The order processor finishes the CTP process by accepting the dates. This means 
 In addition to the external order promising that you can perform on the **Order Promising Lines** page, you can also promise internal or external delivery dates for bill-of-material items. For more information, see [View the Availability of Items](inventory-how-availability-overview.md).
 
 ## To set up order promising  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Promising Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Promising Setup**, and then choose the related link.  
 2. Enter a number and time unit code in the **Offset(Time)** field. Select one of the following codes.  
 
     |Code|Description|  
@@ -90,14 +90,14 @@ In addition to the external order promising that you can perform on the **Order 
 
 ### To enter inbound warehouse handling time in the inventory setup page  
 If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory and for your location.    
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
 >  If you have filled in the **Inbound Whse. Handling Time** field on the **Location Card** for your location this field is used as the default inbound warehouse handling time.  
 
 ### To enter inbound warehouse handling time on location cards  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
 2.  Open the relevant location card.  
 3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to be included in the order promising calculation.  
 
@@ -107,14 +107,14 @@ If you want to include warehouse handling time in the order promising calculatio
 ### To enter outbound warehouse handling time in the inventory setup page  
 If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days you want to include in the order promising calculation.  
 
 > [!NOTE]  
 >  If you have filled in the **Outbound Whse. Handling Time** field on the Location card for your location, this field is used as the default outbound warehouse handling time.  
 
 ### To enter outbound warehouse handling time on location cards  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the relevant location card.  
 3.  On the **Warehouse** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
@@ -123,12 +123,12 @@ If you want to set up an outbound warehouse handling time to be included in the 
 
 ## To make an item critical  
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Open the relevant item card.  
 3.  On the **Planning** FastTab, select the **Critical** field.  
 
 ## To calculate an order promising date  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2.  Open the relevant sales order and select the sales order lines that you want application to calculate.  
 3.  Choose the **Order Promising** action, and then choose the **Order Promising Lines** action.  
 4.  Select a line, and then select one of the following options:  

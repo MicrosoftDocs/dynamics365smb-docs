@@ -1,6 +1,6 @@
 ---
-    title: Enterprise Numbers and Branch Numbers
-    description: Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises. These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.
+    title: Enterprise Numbers and Branch Numbers [BE]
+    description: Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Enterprise Numbers and Branch Numbers
+# Enterprise Numbers and Branch Numbers in the Belgian Version
 Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises. These numbers are used in all correspondence to simplify communication with the Belgian administrative and legal authorities.  
 
 ## Enterprise Numbers  

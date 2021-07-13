@@ -1,6 +1,6 @@
 ---
-    title: Payroll Data Definitions (DK) | Microsoft Docs
-    description: This extension makes it easy to exchange data with payroll service providers in Denmark.
+    title: Payroll Data Definitions [DK]
+    description: This topic explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: bholtorf
 
 ---
@@ -23,7 +23,7 @@ The first step is to map the types of payroll transactions to the general ledger
 After you install the extension, the next step is to specify the format for the payroll data file from the payroll service provider. To do that, go to the **General Ledger Setup** page and choose the provider in the **Payroll Trans. Import Format** field.
 
 ## To import a payroll file
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.  
 2.  Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.
 
 ## See Also

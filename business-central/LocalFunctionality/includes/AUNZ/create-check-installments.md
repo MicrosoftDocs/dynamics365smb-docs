@@ -9,7 +9,7 @@ ms.author: edupont
 You can create check installments for post-dated checks. You can define the number of installments that a payment will be divided into, the percent of interest, and the period in which the checks will be created.  
 
 ## To create a check installment  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Dated checks-Purchases**, and then choose the relevant link.  
 2.  Choose the relevant check, and then choose the **Edit** action.  
 3.  On the **Post Dated Checks-Purchase** page, choose the **Create Check Installments** action.  
 4.  On the **Options** FastTab, fill in the fields as described in the following table.  

@@ -1,6 +1,6 @@
 ---
-title: Create a Vendor Card to Register a New Vendor | Microsoft Docs
-description: Learn how to create a vendor card to register a new vendor or supplier.
+title: Create a Vendor Card to Register a New Vendor
+description: In this topic learn how to create a vendor card to register a new vendor or supplier and save vendor cards as a template.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 
 ---
@@ -36,7 +36,7 @@ To register a new vendor, you must fill in a vendor card. You can establish temp
 
 ### To create a new vendor card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. On the **Vendors** page, Choose **New**.
 
     If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.

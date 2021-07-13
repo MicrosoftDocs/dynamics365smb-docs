@@ -19,7 +19,7 @@ This report shows the register of posted ingoing and outgoing cash orders during
 
 ## To print the cash order journal CO-3 report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Order Journal CO-3**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Order Journal CO-3**, and then choose the related link.
 
 2. In the **Cash Order Journal CO-3** window, fill in the fields.
 

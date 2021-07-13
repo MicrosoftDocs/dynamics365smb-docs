@@ -1,6 +1,6 @@
 ---
-    title: Service Price Management | Microsoft Docs
-    description: This topic describes how to apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.
+    title: Service Price Management
+    description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: bholtorf
 
 ---
@@ -48,7 +48,7 @@ You set up the actual types of service pricing (price adjustment type and price)
 For example, you can set up types of service pricing for a radio service price group. For customers without a price group, you can decide to have service pricing with maximum price on labor, which is the labor price adjustment group. For customers with a particular price group, you can decide to have service pricing with a fixed price on labor, the same labor price adjustment group.  
 
 #### [Current Experience](#tab/current-experience)
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
 2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
 

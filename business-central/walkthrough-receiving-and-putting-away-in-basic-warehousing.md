@@ -15,7 +15,7 @@
 ---
 # Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
 
@@ -64,7 +64,7 @@ To complete this walkthrough, you will need:
 -   CRONUS International Ltd. installed.  
 -   To make yourself a warehouse employee at SILVER location by following these steps:  
 
-    1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+    1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
     2.  Choose the **User ID** field, and select your own user account on the **Users** page.  
     3.  In the **Location Code** field, enter SILVER.  
     4.  Select the **Default** field.  
@@ -77,7 +77,7 @@ Ellen, the warehouse manager at CRONUS International Ltd., creates a purchase or
 
 ### To set up the location  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
 2.  Open the SILVER location card.  
 3.  Select the **Require Put-away** check box.  
 
@@ -97,7 +97,7 @@ Purchase orders are the most common type of inbound source document.
 
 ### To create the purchase order  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Create a purchase order for vendor 10000 on the work date (January 23) with the following purchase order lines.  
 
@@ -120,7 +120,7 @@ On the **Inventory Put-away** page, you can manage all inbound warehouse activit
 
 ### To receive and put the items away  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-aways**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Select the **Source Document** field, and then select **Purchase Order**.  
 4.  Select the **Source No.** field, select the line for the purchase from vendor 10000, and then choose the **OK** button.  

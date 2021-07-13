@@ -36,7 +36,7 @@ To create pick requests, both for pull and for push scenarios, the source docume
 |Assembly Order|Change status to Released.|  
 
 ## To pick components using the pick worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2.  Choose the **Get Warehouse Documents** action, and then select the component lines from the released production order.  
 3.  Inspect the lines, sort them to ensure an efficient picking round, and combine them with other worksheet lines if necessary to make best use of employee time.  
 4.  Choose the **Create Pick** action.  
@@ -48,7 +48,7 @@ If the internal operation area, such as a production shop floor, is set up with 
 ## Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")  
+![Bin flow chart.](media/binflow.png "BinFlow")  
 
 ## See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  

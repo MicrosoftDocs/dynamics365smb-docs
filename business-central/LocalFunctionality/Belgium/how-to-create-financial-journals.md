@@ -1,6 +1,6 @@
 ---
-    title: How to Create Financial Journals
-    description: Financial journals are used to register bank account transactions. A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.
+    title: How to Create Financial Journals [BE]
+    description: This topic tells you how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,16 +12,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Create Financial Journals
+# Create Financial Journals in the Belgian Version
 Financial journals are used to register bank account transactions. A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.  
 
 ## To create a financial journal  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Journal Templates**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Journal Templates**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Fill in the fields as described in the following table.  
 

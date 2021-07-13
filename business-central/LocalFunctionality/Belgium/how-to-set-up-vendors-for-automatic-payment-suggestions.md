@@ -1,5 +1,5 @@
 ---
-    title: Set Up Vendors for Automatic Payment Suggestions (BE)
+    title: Set Up Vendors for Automatic Payment Suggestions [BE]
     description: You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions.
     author: SorenGP
 
@@ -9,17 +9,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/17/2021
     ms.author: edupont
 
 ---
-# Set Up Vendors for Automatic Payment Suggestions
+# Set Up Vendors for Automatic Payment Suggestions in the Belgian Version
 
 You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions. For each vendor, you must decide whether you want to automatically generate payment suggestions. If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box. This way the outstanding ledger entries for the vendor will not be included in payment suggestions.  
 
 ## To set up a vendor to be included in the payment suggestion batch  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. On the **Vendors** page, select a relevant vendor, and then choose the **Edit** action.  
 3. Select the **Suggest Payments** check box.  
 

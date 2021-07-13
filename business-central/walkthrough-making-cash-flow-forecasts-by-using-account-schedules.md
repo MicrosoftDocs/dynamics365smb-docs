@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Making Cash Flow Forecasts by Using Account Schedules
-    description: Learn how you can use account schedules to make cash flow forecasts.
+    title: Cash Flow Forecasts by Using Account Schedules
+    description: This walkthrough describes how you can use account schedules to make cash flow forecasts in Business Central. 
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -50,7 +50,7 @@ An account schedule consists of a cash flow account schedule name with a series 
 
 ### To set up a new account schedule name  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedule Names** page, choose the **New** to create a new cash flow account schedule name.  
 3. In the **Name** field, enter **Forecast**.  
 4. In the **Description** field, enter **Cash Flow Forecast**.  

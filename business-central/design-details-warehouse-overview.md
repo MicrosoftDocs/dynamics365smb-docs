@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Warehouse Overview | Microsoft Docs
-    description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse. This is managed in the **Warehouse Entry** table. Each transaction is stored in a warehouse register.
+    title: Design Details - Warehouse Overview
+    description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---
@@ -24,7 +24,7 @@ When item postings occur outside the warehouse module, a default adjustment bin 
 
 The following illustration outlines typical warehouse flows.  
 
-![Overview of warehouse processes](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
+![Overview of warehouse processes.](media/design_details_warehouse_management_overview.png "Overview of warehouse processes")  
 
 ## Basic or Advanced Warehousing  
 Warehouse functionality in [!INCLUDE[prod_short](includes/prod_short.md)] can be implemented in different complexity levels, depending on a company’s processes and order volume. The main difference is that activities are performed order-by-order in basic warehousing when they are consolidated for multiple orders in advanced warehousing.  

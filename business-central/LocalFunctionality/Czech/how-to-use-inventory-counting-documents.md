@@ -6,12 +6,12 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Inventory Counting Documents
+# Inventory Counting Documents in the Czech Version
 
 At the end of the period, users perform physical inventory counting to reconcile the actual (physical) value of inventory with the one registered in the system. At the end of the counting process, accounting department needs to archive final Inventory Counting Document containing posted values with names of company officials who under liability confirm with their signature that the quantities and amounts stated in the document correspond to ones physically present in company's inventory locations.
 

@@ -1,6 +1,6 @@
 ---
 title: Set Up a Location Card and Define Transfer Routes
-description: You create a location card for each place you store inventory items, for example, a warehouse or distribution center, and set up routes to transfer items between locations.
+description: If you buy, store, or sell items at more than one place or warehouse, you must set up each location with a location card and define transfer routes. 
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
 
 ---
@@ -34,7 +34,7 @@ Choose the **Zones** or **Bins** action to view information about zones and bins
 
 ### To create a location card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
@@ -48,7 +48,7 @@ Next, if you have multiple locations, you can define transfer routes between loc
 
 ### To create a transfer route
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer Routes**, and then choose the related link.
 2. Alternatively, from any **Location Card** page, choose the **Transfer Routes** action.
 3. Choose the **New** action.
 4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

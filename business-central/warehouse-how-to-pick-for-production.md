@@ -1,6 +1,6 @@
 ---
-    title: Pick for Production or Assembly in Basic Warehouse Configurations
-    description: When your warehouse location requires pick processing but does not require shipment processing, use the **Inventory Pick** page to organize and record the picking of components.
+    title: Pick Production or Assembly in Basic Warehouse
+    description: When your warehouse location requires pick processing but not shipment processing, use the Inventory Pick page to organize and record picking the components.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -39,7 +39,7 @@ A system precondition for picking, or moving, components for source documents is
 ## To pick production components in basic warehouse configurations using Inventory Pick
 In basic warehouse configurations where the location is set up to use picking only, you can pick components for production activities with the **Inventory Pick** page. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2.  To access the production order components, choose the **Get Source Documents** action, and then select the released production order.  
 3.  Perform the pick, and then record the actual picking information in the **Qty. to Handle** field.  
 4.  When the lines are ready for posting, choose the **Post** action. The posting creates the necessary warehouse entries and posts the consumption of the items.  
@@ -77,7 +77,7 @@ In combination scenarios, where a part of the quantity must first be assembled a
 ## Filling the Consumption Bin
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
-![Bin flow chart](media/binflow.png "BinFlow")
+![Bin flow chart.](media/binflow.png "BinFlow")
 
 ## See Also
 [Warehouse Management](warehouse-manage-warehouse.md)  

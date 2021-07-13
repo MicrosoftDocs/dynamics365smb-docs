@@ -1,6 +1,6 @@
 ---
-    title: How to Print VAT Information on Invoices
-    description: You can use posting groups to print VAT information for each item on the sales invoice.
+    title: How to Print VAT Information on Invoices [FI]
+    description: This topic explains how you can use posting groups to print VAT information for each item on the sales invoice.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ You can use posting groups to print VAT information for each item on the sales i
 
 ## To print VAT information on an invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Group**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Group**, and then choose the related link.  
 2.  Enter an item code and description.  
 3.  Select **Print VAT info on Invoice** to print the VAT information for each item on the respective sales invoice.  
 4.  Create and post a sales invoice. Choose the **Preview** button to review the invoice and verify that it contains VAT information for each row from the posting group.  

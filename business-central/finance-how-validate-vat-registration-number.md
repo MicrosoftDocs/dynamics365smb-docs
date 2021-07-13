@@ -1,12 +1,12 @@
 ---
 title: Validate VAT Registration Numbers
-description: Let Business Central validate VAT registration numbers and other company information for your contacts, customers, and vendors, based on the European Union VIES VAT Number Validation service.
+description: Let Business Central validate VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
 
 ---
@@ -39,8 +39,6 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 > It is your responsibility to check that the data is valid. On occasion, data with errors is returned by the VIES VAT Number Validation service. If validation fails, validate the VAT registration numbers on the [web site](https://ec.europa.eu/taxation_customs/vies/), print the result or save it to a shared location, and then add the link to the record for your customer, vendor, or contact. For more information, see [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md).
 
 ## Validation templates
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 You can use the VIES service to also check other company information, such as the address, as well as the VAT registration number. In the **VAT Reg. No. Validation Templates** page, create an entry for each country that you want to get further validation for, and then specify the information that you want to get validated automatically.  
 

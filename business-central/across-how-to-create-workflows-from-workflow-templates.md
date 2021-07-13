@@ -1,6 +1,6 @@
 ---
-title: How to Create Workflows from Workflow Templates | Microsoft Docs
-description: To save time when creating new workflows, you can create workflows from workflow templates.
+title: How to Create Workflows from Workflow Templates
+description: To save time when creating new workflows, you can create non-editable workflows from workflow templates prefixed with "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,7 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ To save time when creating new workflows, you can create workflows from workflow
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## To create a workflow from workflow template  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
 2.  Choose the **Create Workflow from Template** action. The **Workflow Templates** page opens.  
 3.  Select a workflow template, and then choose the **OK** button.  
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Print Depreciation Book Reports
-    description: The Depreciation Book is a fiscal report that is sorted by year and item class. The Depreciation Book report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The Depreciation Book report is run after the depreciation method has been set up and assets have been entered.
+    title: How to Print Depreciation Book Reports [IT]
+    description: The Depreciation Book report is run after the depreciation method has been set up and assets have been entered.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Print Depreciation Book Reports
+# Print Depreciation Book Reports in the Italian Version
 The **Depreciation Book** is a fiscal report that is sorted by year and item class. The **Depreciation Book** report shows changes in fixed asset stock in a given year by item class, rather than by the individual items. The **Depreciation Book** report is run after the depreciation method has been set up and assets have been entered.  
 
 ## To print depreciation book reports  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2.  Choose the **Reports and Analysis** action, and then choose the **Depreciation Book** action.  
 3.  Expand the **Options** FastTab.  
 4.  Fill in the fields as described in the following table.  

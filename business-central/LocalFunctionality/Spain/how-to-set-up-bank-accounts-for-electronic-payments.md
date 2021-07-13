@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Bank Accounts for Electronic Payments
-    description: In Business Central, you can set up bank accounts to make electronic payments.
+    title: Bank Accounts for Electronic Payments [ES]
+    description: Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Set Up Bank Accounts for Electronic Payments
+# Set Up Bank Accounts for Electronic Payments in the Spanish Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank accounts to make electronic payments.  
 
 ## To set up bank accounts for electronic payments  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Card**, and then choose the related link.  
 2.  On the **Transfer** FastTab, make sure that the **CCC Bank No.**, **CCC Bank Branch No.**, **CCC Control Digits**, and **CCC Bank Account No.** fields are filled in correctly.  
 3.  On the **Transfer** FastTab, fill in the fields as described in the following table.  
 
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can set up bank acc
 
 ## To set up vendor bank accounts for electronic payments  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Bank Account Card**, and then choose the related link.  
 2.  On the **General** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

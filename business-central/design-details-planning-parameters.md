@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Planning Parameters | Microsoft Docs
-    description: This topic describes the different planning parameters that you can use in Business Central.
+    title: Design Details - Planning Parameters
+    description: This topic describes the different planning parameters that you can use and how they affect the planning system.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: planning, design
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---
@@ -78,25 +78,25 @@ To obtain a rational supply plan, a planner will fine-tune planning parameters t
 
 The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
 
-![Time bucket elements](media/supply_planning_5_time_bucket_elements.png "Time bucket elements")  
+![Time bucket elements.](media/supply_planning_5_time_bucket_elements.png "Time bucket elements")  
 
 In the following examples, the black arrows represent existing supply (up) and demand (down). Red, green, and orange arrows are planning suggestions.  
 
 **Example 1**: The changed date is outside the rescheduling period, which causes the existing supply to be canceled. A new supply is suggested to cover the demand in the lot accumulation period.  
 
-![Rescheduling Period and Lot Accumulation Period](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Rescheduling Period and Lot Accumulation Period")  
+![Rescheduling Period and Lot Accumulation Period.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Rescheduling Period and Lot Accumulation Period")  
 
 **Example 2**: The changed date is in the rescheduling period, which causes the existing supply to be rescheduled. A new supply is suggested to cover the demand outside the lot accumulation period.  
 
-![Rescheduling Period, Lot Accumulation Period, and Reschedule](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Rescheduling Period, Lot Accumulation Period, and Reschedule")  
+![Rescheduling Period, Lot Accumulation Period, and Reschedule.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Rescheduling Period, Lot Accumulation Period, and Reschedule")  
 
 **Example 3**: There is a demand in the dampener period and the supply quantity in the lot accumulation period matches the supply quantity. The next demand is uncovered and a new supply is suggested.  
 
-![Dampener Period and Lot Accumulation Period](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dampener Period and Lot Accumulation Period")  
+![Dampener Period and Lot Accumulation Period.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dampener Period and Lot Accumulation Period")  
 
 **Example 4**: There is a demand in the dampener period and the supply remains on the same date. However, the current supply quantity is not enough to cover the demand in the lot accumulation period, so a change quantity action for the existing supply order is suggested.  
 
-![Dampener Period, Lot Accumulation Period, and Change Quantity](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dampener Period, Lot Accumulation Period, and Change Quantity")  
+![Dampener Period, Lot Accumulation Period, and Change Quantity.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dampener Period, Lot Accumulation Period, and Change Quantity")  
 
 **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Manufacturing Setup** page will be used.  
 

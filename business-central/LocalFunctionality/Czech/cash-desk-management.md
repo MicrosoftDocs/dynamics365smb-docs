@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - CashDesk management | Microsoft Docs
-description: This section describes Czech local functionality - CashDesk management
+title: Cash Desk Management [CZ]
+description: The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal.
 author: ACMartinKunes
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Cash Desk Management
+# Cash Desk Management in the Czech Version
 
 The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal. Each cash desk must have a separate number series of the cash documents. You can set up separate number series for the receipt cash documents and withdrawal cash documents. The cash desk cases are pre-defined cases to simplify data entry. You can specify individual user authorized to operate with the particular cash desk and transmit cash desks between users.  
 

@@ -65,7 +65,7 @@ To use email logging, you must have sufficient permissions. Consider using the p
     >  You can use Outlook rules to automate this process. For example, you can set up a rule to always copy mail from a certain contact to your public queue folder. For more information, search Outlook Help for a topic called "Manage messages by using rules."  
 
 4. After the email message in the queue folder is processed and validated, it is moved to the public storage folder.   
-5. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Log Entries**, and then choose the related link.  
+5. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Log Entries**, and then choose the related link.  
 
     > [!TIP]  
     >  To limit the log entries that you view to just those of the salesperson, you can open the **Interaction Log Entries** window from the salesperson card.  

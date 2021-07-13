@@ -1,6 +1,6 @@
 ---
-    title: How to work With VAT on Sales and Purchases | Microsoft Docs
-    description: This topic describes how perform tasks such as correcting posted VATIn EU countries/regions, every sales and purchase transaction is subject to VAT calculations. This topic describes how.
+    title: How to work With VAT on Sales and Purchases
+    description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
     author: bholtorf
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: VAT, sales, purchases,
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: bholtorf
 
 ---
@@ -92,14 +92,14 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 ### To set up purchasing for posting import VAT invoices  
 1. Set up a vendor card for the import authority that sends you the import VAT invoice. The **Gen. Bus. Posting Group** and **VAT Bus. Posting Group** must be set up in the same way as the general ledger account for the import VAT.  
 2. Create a **Gen. Product Posting Group** for the import VAT and set up an import VAT **Def. VAT Product Posting Group** for the related **Gen. Product Posting Group**.  
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 4. Select the import VAT general ledger account, and then choose the **Edit** action.  
 5. On the **Posting** FastTab, select the **Gen. Prod. Posting Group** setup for import VAT. [!INCLUDE[prod_short](includes/prod_short.md)] automatically fills in the **VAT Prod. Posting Group** field.  
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
+6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 7. Create a combination of the **Gen. Bus. Posting Group** for the VAT authority and the **Gen. Prod. Posting Group** for import VAT. For this new combination, in the **Purchase Account** field, choose the import VAT general ledger account.  
 
 ### To create a new invoice for the import authority vendor once you have completed the setup  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Create a new purchase invoice.  
 3. In the **Buy-from Vendor No.** field, choose the import authority vendor, and then choose the **OK** button.  
 4. In the purchase line, in the **Type** field, choose **G/L Account**, and in the **No.** field, choose the import VAT general ledger account.  
@@ -111,7 +111,7 @@ Instead of using journals to post an import VAT invoice, you can use a purchase 
 When you sell goods to a customer in another EU country/region, you must send the customer a certificate of supply that the customer must sign and return to you. The following procedures are for processing certificates of supply for sales shipments, but the same steps apply for service shipments of items, and return shipments to vendors.  
 
 ### To view certificate of supply details  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose **Certificate of Supply Details**.  
 4. By default, if the **Certificate of Supply Required** check box is selected for VAT Posting Group setup for the customer, the **Status** field is set to **Required**. You can update the field to indicate whether the customer has returned the certificate.  
@@ -130,7 +130,7 @@ When you sell goods to a customer in another EU country/region, you must send th
     >  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
 
 ### To print a certificate of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose the **Print Certificate of Supply** action.  
 
@@ -148,7 +148,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 8. Send the printed certificate of supply to the customer for signature.  
 
 ### To update the status of a certificate of supply for a shipment  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. In the **Status** field, choose the relevant option.  
 
@@ -161,7 +161,7 @@ When you sell goods to a customer in another EU country/region, you must send th
 To view a group of certificates, you start from the **Certificates of Supply** page, and then update the information about the status of outstanding certificates as you receive them back from your customers. This can be useful when you want to search for all certificates that have a certain status, for example, **Required**, for which you want to update their status to **Not Received**.  
 
 ### To update the status of a group of certificates of supply  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates of Supply**, and choose the related link.  
 2. Filter the **Status** field to the value that you want in order to create the list of certificates that you want to manage.  
 3. To update the status information, choose **Edit List**.  
 4. In the **Status** field, choose the relevant option.  

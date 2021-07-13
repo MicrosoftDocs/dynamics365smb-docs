@@ -1,13 +1,13 @@
 ---
-title: Managing VAT Rate changes | Microsoft Docs
-description: learn how to sue the VAT Rate Change tool for Dynamics 365 Business Central.
+title: Managing VAT Rate changes
+description: learn how to use the VAT Rate Change tool for Dynamics 365 Business Central for changing VAT rates based on local legislation.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
 
 ---
@@ -67,13 +67,13 @@ Before you set up the VAT rate change tool, you must make the following preparat
 
 ### To set up the VAT rate change tool
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **Master Data**, **Journals**, and **Documents** FastTabs, choose a posting group value from the option list for needed fields. For each group you can choose whether to convert VAT product posting groups or general product posting groups, or convert both values if they are available in the master data item. For some areas you can also set a filter to convert only a subset of values, for example, G/L accounts. 
 3. On the **Prices Incl. VAT** FastTab, choose which line types on orders for which you want to update unit prices. Unit prices on lines of type Item and Resource will always be updated.
 
 ### To set up product posting group conversion
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change Setup**, and then choose the related link.  
 2. On the **VAT Rate Change Setup** page, choose either the **VAT Prod. Posting Group Conv.** or **Gen Prod. Posting Group Conv.** action.  
 3. In the **From Code** field, enter the current posting group.  
 4. In the **To Code** field, enter the new posting group.  
@@ -88,7 +88,7 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 > [!IMPORTANT]  
 > Before you perform VAT rate change conversion, you can test the conversion. To do so, follow the steps below, but make sure to clear the **Perform Conversion** and **VAT Rate Change Tool Completed** check boxes. During test conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is cleared and the **Converted Date** field in the **VAT Rate Change Log Entry** table is blank. After the conversion is complete, choose **VAT Rate Change Log Entries** to view the results of the test conversion. Verify each entry before you perform the conversion. In particular, verify transactions that use an old VAT rate.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Rate Change**, and then choose the **VAT Rate Change Setup** link.  
 2. Verify that you have already set up the VAT product posting group conversion or general product posting group conversion.  
 3. Choose the **Perform Conversion** check box.  
 

@@ -1,6 +1,6 @@
 ---
-    title: How to Create Custom Company Configuration Packages | Microsoft Docs
-    description: As you grow your business, you will likely come to rely on a set of company types that you use with most of your customers. You can streamline your implementation process by turning these types into company configuration packages that are available for reuse.
+    title: How to Create Custom Company Configuration Packages
+    description: Streamline your implementation process by turning a set of company types you use with most customers into company configuration packages available for reuse.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---
@@ -33,7 +33,7 @@ Another approach would be to create a package that includes the tables that defi
 -   VAT Posting Setup  
 -   Inventory Posting Setup  
 
-To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
+To see a complete list of setup tables, Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manual Setup**, and then choose the related link.  
 
 > [!IMPORTANT]
 > Use caution if you choose tables or fields that have the same temporal name but are differentiated by special characters, such as %, &, <, >, (, and ). For example, table "XYZ" might contain the "Field 1" and "Field 1%" fields.

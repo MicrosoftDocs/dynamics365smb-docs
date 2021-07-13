@@ -19,7 +19,7 @@ This report shows the opening balance of all the posted ingoing and outgoing cas
 
 ## To print the cash report CO-4
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Report CO-4**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Report CO-4**, and then choose the related link.
 
 2. In the **Cash Report CO-4** window, fill in the fields.
 

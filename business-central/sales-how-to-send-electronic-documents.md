@@ -1,6 +1,6 @@
 ---
     title: Send Electronic Documents
-    description: learn how to send invoices electronically.
+    description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports s
 
 ### To send an electronic sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
 
 2. Create a new sales invoice.  
 

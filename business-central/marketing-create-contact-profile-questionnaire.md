@@ -1,6 +1,6 @@
 ---
-title: 'Use profiles to classify contacts'
-description: 'Set up profile questionnaires to help classify your business contacts'
+title: Use profiles to classify contacts
+description: Red about how to set up profile questionnaires to help classify your business contacts' profiles.
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
@@ -19,7 +19,7 @@ You can set up profile questionnaires that you want to use when entering informa
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## To add a profile questionnaire
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
 2.  Choose the **New** Action.  
 3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

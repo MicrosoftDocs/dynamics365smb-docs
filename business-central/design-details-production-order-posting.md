@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/08/2021
     ms.author: edupont
 
 ---
@@ -54,11 +54,11 @@ Posting production orders to WIP inventory involves output, consumption, and cap
 
 The following diagram shows the involved posting routines in codeunit 22.  
 
-![Production order posting routines](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
+![Production order posting routines.](media/design_details_inventory_costing_14_production_posting_1.png "Production order posting routines")  
 
 The following diagram shows the associations between the resulting entries and the cost objects.  
 
-![Production entry flow](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
+![Production entry flow.](media/design_details_inventory_costing_14_production_posting_2.png "Production entry flow")  
 
 The capacity ledger entry describes the capacity consumption in terms of time units, whereas the related value entry describes the value of the specific capacity consumption.  
 

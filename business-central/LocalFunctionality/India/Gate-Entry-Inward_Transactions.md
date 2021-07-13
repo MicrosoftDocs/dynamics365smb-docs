@@ -32,7 +32,7 @@ The following processes describe how to create and attach an Inward Gate Entry.
 
 ## To create an inward gate entry
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Inward Gate Entry List**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Inward Gate Entry List**, and then choose the related link.
 2. Fill in the fields as described in the following table on the **Inward Gate Entry** header.
 
     |Field|Description|  
@@ -67,14 +67,14 @@ The following processes describe how to create and attach an Inward Gate Entry.
 
 ### View posted inward gate entry
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Inward Gate Entry**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Posted Inward Gate Entry**, and then choose the related link.
 2. In the **Posted Inward Gate Entry**, the **Status** field on the line level has the value as **Open**, it means **Posted Gate Entry – Inward** is still open for attachment. 
 3. **Status** field will be updated once **Purchase Order** gets posted.  
 
 
 ### To attach an inward gate entry if the source type is purchase order
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Order**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Order**, and then choose the related link.
 2. Select the relevant purchase order and click on **Action** -> **Functions** -> **Get Gate Entry Lines**.
 3. To view the attached gate entry, click on **Action** -> **Functions** -> **Attached Gate Entry**.
 4. Post the purchase order document.
@@ -85,14 +85,14 @@ The following processes describe how to create and attach an Inward Gate Entry.
 
 ### To attach an inward gate entry if the source type is transfer receipt
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Transfer Order**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Transfer Order**, and then choose the related link.
 2. Select the required transfer order and click on **Action** -> **Functions** -> **Get Gate Entry Lines** and click.
 3. To view the attached gate entry, click on **Related** -> **Receipt** -> **Attached Gate Entry**.
 4. Post the transfer order document.
 
 ### To attach an inward gate entry if the source type is sales return order
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Return Order**, and then choose the related link.
 2. Select the required sales return order and click on **Action** -> **Functions** -> **Get Gate Entry Lines** and click.
 3. To view the attached gate entry, click on **Related** -> **Warehouse** -> **Attached Gate Entry**.
 4. Post the sales return order document.

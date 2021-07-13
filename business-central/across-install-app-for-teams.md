@@ -40,7 +40,7 @@ This option is the quickest way to install the app.
 
 2. Wait for the Business Central app to appear.
 
-    ![Install Business Central app in Teams](media/teams-install-app.png)
+    ![Install Business Central app in Teams.](media/teams-install-app.png)
 
 3. Select **Add**.
 
@@ -64,7 +64,9 @@ You're now ready to use the app in Teams to search for contacts or share Busines
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

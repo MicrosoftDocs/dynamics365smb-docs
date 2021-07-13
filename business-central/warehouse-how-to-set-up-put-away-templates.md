@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Put-away Templates | Microsoft Docs
-    description: With directed put-away and pick functionality, the most appropriate bin for your items at any given time is suggested, according to the put-away template that you have set up for the warehouse, the bin rankings you have given to the bins, and the minimum and maximum quantities that you have set up for fixed bins.
+    title: How to Set Up Put-away Templates
+    description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -21,7 +21,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 ## To set up put-away templates
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Enter a code that is the unique identifier of the template you are about to create.  
 4. Enter a short description, if you wish.  

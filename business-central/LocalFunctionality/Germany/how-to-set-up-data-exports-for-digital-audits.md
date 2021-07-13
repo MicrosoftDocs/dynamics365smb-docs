@@ -1,5 +1,5 @@
 ---
-    title: Set Up Data Exports for a Digital Audit
+    title: Set Up Data Exports for a Digital Audit [DE]
     description: You must set up data export record sources to be able to export data for a digital audit based on GDPdU.
     author: edupont04
 
@@ -9,17 +9,17 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/18/2021
     ms.author: edupont
 
 ---
-# Set Up Data Exports for a Digital Audit (GoBD/GDPdU)
+# Set Up Data Exports for a Digital Audit (GoBD/GDPdU) in the German Version
 
 You must set up data export record sources to be able to export data for a digital audit according to the Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU). For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
 
 ## To set up a data export  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exports**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exports**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **Data Exports** page, fill in the fields as described in the following table.  
 

@@ -1,6 +1,6 @@
 ---
-    title: Receive and Convert Electronic Documents | Microsoft Docs
-    description: You can receive electronic documents directly from trading partners or from an OCR service.
+    title: Receive and Convert Electronic Documents
+    description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/23/2021
     ms.author: edupont
 
 ---
@@ -37,7 +37,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 
 ### To receive and convert an electronic invoice to a purchase invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Incoming Documents**, and then choose the related link.  
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 

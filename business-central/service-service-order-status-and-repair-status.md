@@ -1,6 +1,6 @@
 ---
     title: Service Order Status and Repair Status
-    description: The Status field in the Service Order page and the service item repair status, which is represented by the Repair Status Code field in the Service Order page have a certain relationship in Service Management. The service order status reflects the repair status of all the service items in the service order.
+    description: The service order status reflects the repair status of all the service items in the service order.
     author: SorenGP
 
     ms.service: dynamics365-business-central

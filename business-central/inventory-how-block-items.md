@@ -1,6 +1,6 @@
 ---
     title: How to Block Items from Sales or Purchasing
-    description: You can prevent an item from being being used, for example, on sales or purchase documents.
+    description: You can block items from being entered on lines in sales or purchase documents, as well as from being posted in a transaction. 
 
     author: SorenGP
 
@@ -10,7 +10,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---
@@ -31,15 +31,15 @@ The following table describes what occurs when items are blocked.
 When you use the **Copy from Document** function to create new documents based on existing documents, you are notified if any items on the source document lines are blocked. The blocked document lines are excluded from the new document, and a notification shows an overview of all document lines that are blocked in the source document.
 
 ## To block an item from being entered on sales lines  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Select the item that you want to block, and then select the **Sales Blocked** check box.  
 
 ## To block an item from being entered on purchase lines  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2.  Select the item that you want to block, and then select the **Purchasing Blocked** check box.  
 
 ## To block an item from being posted
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Select the item that you want to block, and then select the **Blocked** check box.
 
 ## See Also  

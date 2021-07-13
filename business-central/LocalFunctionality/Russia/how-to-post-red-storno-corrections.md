@@ -25,7 +25,7 @@ You can set up inventory to use the same column for original and corrective post
 
 ## To post corrective entries in the item journal
 
-1. Choose the ![Search for Page or Report]() icon, enter **Item Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report.]() icon, enter **Item Journal**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 
@@ -43,9 +43,9 @@ The correction is posted, and any general ledger account correspondence that you
 
 ## To reverse item documents
 
-1. To reverse an item receipt, Choose the ![Search for Page or Report]() icon, enter **Item Receipt**, and then choose the related link.
+1. To reverse an item receipt, Choose the ![Search for Page or Report.]() icon, enter **Item Receipt**, and then choose the related link.
 
-   To reverse an item shipment, Choose the ![Search for Page or Report]() icon, enter **Item Shipment**, and then choose the related link.
+   To reverse an item shipment, Choose the ![Search for Page or Report.]() icon, enter **Item Shipment**, and then choose the related link.
 
 2. On the **General** FastTab, select the **Correction** check box.
 
@@ -61,9 +61,9 @@ The correction is posted, and any general ledger account correspondence that you
 
 ## To post item revaluation or item reclassification journals 
 
-1. To post an item revaluation, Choose the ![Search for Page or Report]() icon, enter **Revaluation Journal**, and then choose the related link.
+1. To post an item revaluation, Choose the ![Search for Page or Report.]() icon, enter **Revaluation Journal**, and then choose the related link.
 
-   To post an item reclassification, Choose the ![Search for Page or Report]() icon, enter **Item Reclass Journal**, and then choose the related link.
+   To post an item reclassification, Choose the ![Search for Page or Report.]() icon, enter **Item Reclass Journal**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 

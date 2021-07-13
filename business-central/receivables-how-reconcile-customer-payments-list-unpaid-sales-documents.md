@@ -26,14 +26,14 @@ Payments for different customers that have different payment dates must be poste
 ## To set up the payment registration journal
 Because you can post different payment types to different balancing accounts, you must select a balancing account on the **Payment Registration Setup** page before you start processing customer payments. If you always post to the same balancing account, you can set that account as the default and avoid this step every time that you open the **Register Customer Payments** page.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration Setup**, and then choose the related link.
 
     Alternatively, on the **Register Customer Payments** page, choose the **Setup** action.    
 2. Fill in the fields on the **Payment Registration Setup** page. Choose a field to read a short description of the field or link to related information.  
 
 ## To register customer payments individually
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Register Customer Payments**, and then choose the related link.  
 
     The **Register Customer Payments** page shows all posted documents for which a payment can be registered. The page can also be opened from the **Customers** and **Customer Card** pages where it is automatically filtered for the specified customer.  
 2. Select the **Payment Made** check box on the line that represents the posted document for which a payment has been made.
@@ -51,7 +51,7 @@ The payment information is posted for documents represented by lines where the *
 Payments entries are posted to general ledger, bank, and customer accounts. Each payment is applied to the related posted sales document.  
 
 ## To reconcile lump-sum payments
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
 2. Select the **Payment Made** check box on the lines that represent posted documents for the same customer for which a lump-sum payment has been made.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ The following procedures explains four different ways to post discounted payment
 * The payment amount is more than the remaining discounted amount. You post the payments as is. Only the remaining amount is posted. The additional amount is credited to the customer.  
 
 ### To process a payment amount that is equal to the discounted amount and where the payment date is before the discount date
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
@@ -95,7 +95,7 @@ The following procedures explains four different ways to post discounted payment
 5. Choose the **Post Payments** action to post the full payment to general ledger, bank, and customer accounts.
 
 ### To process a payment amount that is equal to the discounted amount but where the payment date is after the discount date
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is equal to the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.
@@ -113,7 +113,7 @@ The following procedures explains four different ways to post discounted payment
 The related document remains open.
 
 ### To process a payment that is lower than the remaining discounted amount
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is lower than the amount in the **Rem. Amt. after Discount** field.
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.  
@@ -124,7 +124,7 @@ The related document remains open.
 The related document remains open.
 
 ### To process a payment that is more than the remaining discounted amount
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 2. Enter the payment amount in the **Amount Received** field. The amount is more than the amount in the **Rem. Amt. after Discount** field.  
 
     The **Payment Made** check box is automatically selected, and the **Date Received** field is filled with the work date.    
@@ -146,7 +146,7 @@ On the **Document Search** page, you can search among documents that are not ful
 
 The following procedure explains how to find a specific document by using both search criteria.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.
 2. With the pointer on any line, Choose the **Search Documents** action.
 3. On the **Document Search** page, enter a search value in the **Document No.** field.  
 
@@ -167,7 +167,7 @@ If a payment in the bank is not represented by any document in [!INCLUDE[prod_sh
 ## To record or post a payment without a related document
 If a payment in the bank is not represented by any document in [!INCLUDE[prod_short](includes/prod_short.md)], then you can open a prefilled general journal line from the **Payment Registration** page to post the payment directly to the balancing account without applying the payment to a document. Alternatively, you may want to record the payment in the journal until the origin of the payment has been clarified.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Registration**, and then choose the related link.  
 
     Proceed to record an undocumented payment.  
 2. Choose the **General Journal** action.  

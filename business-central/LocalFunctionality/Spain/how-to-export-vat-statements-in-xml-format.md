@@ -23,7 +23,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 ## To export a VAT statement in XML format  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the appropriate link.  
 2.  Select the required VAT statement, and then choose the **Generate XML file** action.  
 
     > [!IMPORTANT]  

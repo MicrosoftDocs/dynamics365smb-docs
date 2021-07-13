@@ -35,7 +35,7 @@ The **Find Entries** page  includes all related documents and entries based on t
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -61,7 +61,7 @@ You can search for entries based on information about either the document, busin
 After you make a selection, enter the relevant search information in the fields at the top. Use the tooltips on the fields to help. When you're finished, choose **Find** to start the search. If you change any of the filters, you have to choose **Find** again.
 
 > [!TIP]
-> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).
+> For a couple examples about using **Find Entries**, see [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

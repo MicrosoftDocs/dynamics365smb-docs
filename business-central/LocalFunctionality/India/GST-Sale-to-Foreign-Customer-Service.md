@@ -23,7 +23,7 @@ Process of sale to foreign customer has been explained in this document.
 
 ## Create a sales invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Export** or **Deemed Export** or **SEZ Development** or **SEZ Unit**.
 3. Select **G/L Account** or **Item Code** on **Sales Invoice** line. GST Group Code, HSN/SAC Code should not be blank on the G/L Account or Item Card. 
 

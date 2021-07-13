@@ -1,6 +1,6 @@
 ---
-    title: How to Create and Print a Swiss VAT Statement
-    description: Based on the information that you have specified on the VAT Posting Setup page, Business Central can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.
+    title: Create and Print a Swiss VAT Statement [CH]
+    description: This topic explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
 
     author: SorenGP
 
@@ -10,16 +10,16 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
-# Create and Print a Swiss VAT Statement
+# Create and Print a Swiss VAT Statement in the Swiss Version
 Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
 ## To set up a Swiss VAT statement template  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Statement Template**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Statement Template**, and then choose the related link.  
 2.  Select a template in the **VAT Statement Template Name** field.
 3.  Choose the **OK** button. Choose the **Yes** button to confirm that you want to create a new template.  
 4.  Check the resulting VAT Statement and adjust as needed.  
@@ -28,7 +28,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 
 ## To print the Swiss VAT statement  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Swiss VAT Statement**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

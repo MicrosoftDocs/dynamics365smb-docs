@@ -1,5 +1,5 @@
 ---
-title: Using the Payments and Reconciliations (DK) Extension | Microsoft Docs
+title: Payments and Reconciliations (DK) Extension
 description: This extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
 author: bholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
 
 ---
@@ -52,7 +52,7 @@ Additionally, you must assign vendors to a domestic **Gen. Bus. Posting Group** 
 
 ### To allow [!INCLUDE[prod_short](includes/prod_short.md)] to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the related link.  
 2. On the **Edit Payment Journal** page, choose the **Bank** batch.  
 3. Choose the **Allow Payment Export** check box.  
 
@@ -66,19 +66,19 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 |Allows Message to Recipient? | Yes |No |No | Yes |
 |Contains Payment Reference number? | No | Yes, 16 digits. | Yes, 15 digits. | No|
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. Open the card, expand the **Payments** tab, in the **Payment Method** field choose the payment method.  
 3. Depending on your selection, you must complete other fields. See the table above for a description of the combinations.  
 
 ### To specify the format to use for a bank account
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the card for the bank account.  
 3. In the **Payment Export Format** field, choose the format for your export file.  
 
 ## Choosing the FIK or Giro payment information for vendor invoices
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Choose the vendor. Remember, this must be a Danish vendor with an address in Denmark.
 3. Create an invoice. The **Payment Method** and **Vendor Number** fields are filled in based on settings on the Vendor card. You can change them if you want.
 4. In the **Payment Reference** field, enter the 15-digit number from the vendor invoice.  
@@ -90,7 +90,7 @@ The following table shows the combinations of FIK and GIRO payment methods that 
 
 ## To use the extension to export payment data
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2. Choose the **Suggest Vendor Payment Journals** action.  
 
     > [!Tip]

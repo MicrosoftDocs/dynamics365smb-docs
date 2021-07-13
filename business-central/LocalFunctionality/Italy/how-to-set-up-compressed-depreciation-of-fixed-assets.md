@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Compressed Depreciation of Fixed Assets
+    title: Compressed Depreciation of Fixed Assets [IT]
     description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
 
     services: project-madeira 
@@ -12,7 +12,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/24/2021
     ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ When you calculate depreciation, one line is generated for each fixed asset. For
 
 ## To set up compressed depreciation of fixed assets  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
 2.  On the **Depreciation Book List** page, select the relevant depreciation book, and then choose the **Edit** action.  
 3.  To post only the depreciation totals of assets that are grouped by category, on the **Depreciation Book Card** page, on the **General** FastTab, select the **Compress Depreciation** check box.  
 

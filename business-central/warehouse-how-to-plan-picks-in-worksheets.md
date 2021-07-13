@@ -1,6 +1,6 @@
 ---
-    title: How to Plan Picks in Worksheets | Microsoft Docs
-    description: If your warehouse is set up to require both pick and shipment processing, the warehouse can choose to operate so that the lines on shipment documents are not automatically transformed into pick instructions, but are made available instead to the pick worksheet.
+    title: How to Plan Picks in Worksheets
+    description: Learn how the warehouse can choose to operate so that the lines on shipment documents are made available to the pick worksheet.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---
@@ -35,11 +35,11 @@ If you sort by due date, you can choose to delete from the worksheet all lines e
 
 ## To plan picks in the worksheet
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
 2. Choose the **Get Warehouse Documents** action.  
 3. Select the shipments for which you want to prepare a pick. You can now sort the lines to some degree, but the sorting you do here will not be carried through to the pick instruction. You can also delete some of the lines to make a more effective pick. For instance, if there are a number of lines with items in cross-dock bins, you might want to create a pick for all the lines associated with these lines. The cross-docked items will be shipped, along with the other items on the shipments, and the cross-dock bins will have space for more incoming items.  
 4. Choose the **Create Pick** action, and fill in the **Create Pick** request page. The sorting you request here will order the pick lines you create. For example, you can create one pick for each zone and sort the lines by bin ranking within each pick.  
-5. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks**, and then choose the related link. The **Warehouse Picks** page opens.  
+5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks**, and then choose the related link. The **Warehouse Picks** page opens.  
 6. You can now find the pick assignment you just created by selecting the pick with the highest number.  
 7. In the pick, you can still alter, if necessary, the assigned user ID and the way the lines are sorted.  
 8. Choose the **Print** action to print the pick instructions.  

@@ -1,6 +1,6 @@
 ---
-    title: How to Print ESR Invoices
-    description: You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in several ways.
+    title: How to Print ESR Invoices [CH]
+    description: This topic describes how you can print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Print ESR Invoices
+# Print ESR Invoices in the Swiss Version
 You can print an Einzahlungsschein mit Referenznummer (ESR) payment slip in the following ways:  
 
 - As part of the sales invoice ESR.  
@@ -31,7 +31,7 @@ The following procedure describes how to print ESR sales invoices, but the same 
 
 ## To print ESR invoices  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoice ESR**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Invoice ESR**, and then choose the related link.  
 2.  In the **Sales Invoice ESR** batch job, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

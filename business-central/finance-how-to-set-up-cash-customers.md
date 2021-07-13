@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Cash Customers | Microsoft Docs
-    description: This topic describes the steps to set up customer who pays in cash.
+    title: How to Set Up Cash Customers
+    description: This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/16/2021
     ms.author: edupont
 
 ---
@@ -17,7 +17,7 @@
 You cannot create an invoice without a customer number. This is true, even if you make a cash sale and do not have anything to record in a customer account.  
 
 ## To set up a cash customer  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.  
 2.  Create a new **Customer** card. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 3.  In the **No.** field, enter **Cash**, for example.  
 4.  In the **Name** field, enter **Cash Sale**, for example.  

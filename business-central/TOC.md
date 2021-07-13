@@ -11,15 +11,15 @@
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 #### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-#### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
-#### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
 #### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Design Details
@@ -79,8 +79,6 @@
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-##### [Design Details: Codeunit 12 Changes: Mapping Global Variables for General Journal Post Line](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Design Details: Codeunit 12 Changes: Changes in General Journal Post Procedures](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Design Details: Dimension Set Entries
 ##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
 ##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
@@ -167,6 +165,7 @@
 #### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 #### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 #### [Define Depreciation Methods](fa-depreciation-methods.md)
+#### [Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md)
 #### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Setting Up Warehouse Management
@@ -267,10 +266,10 @@
 ##### Administrator
 ###### [Integration Overview](admin-powerbi-overview.md)
 ###### [Enabling Power BI Integration](admin-powerbi-setup.md)
-##### Designer
+##### Report Creator
 ###### [Getting Started Building Reports](across-how-use-financials-data-source-powerbi.md)
 ###### [Creating Reports for Displaying List Data](across-how-use-powerbi-reports-factbox.md)
-##### Consumer
+##### Business User
 ###### [Working with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
@@ -451,6 +450,7 @@
 ### [Financial Reports](finance-reports.md)
 ### Managing Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
+#### [Accounts Receivable Reports and Analytics](receivables-reports.md)
 #### Applying Payments Automatically and Reconciling Bank Accounts
 ##### [Payment Application Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
@@ -468,6 +468,7 @@
 
 ### Managing Payables
 #### [Payables Overview](payables-manage-payables.md)
+#### [Accounts Payable Reports and Analytics](payables-reports.md)
 #### Making Payments
 ##### [Making Payments](payables-make-payments.md)
 ##### [Working with General Journals](ui-work-general-journals.md)
@@ -535,6 +536,10 @@
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Managing Cash Flow
+#### [Cash Flow Overview](finance-cash-flow-overview.md)
+#### [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
+
 ### Closing Years and Periods
 #### [Year Closing Overview](year-close-years-periods.md)
 #### [Working with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
@@ -567,7 +572,6 @@
 ### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ### [Managing VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
-### [Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md)
 ### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
@@ -587,6 +591,7 @@
 
 ## Sales
 ### [Sales Overview](sales-manage-sales.md)
+### [Sales Reports](sales-reports.md)
 ### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register New Customers](sales-how-register-new-customers.md)
@@ -611,6 +616,7 @@
 
 ## Purchasing
 ### [Purchasing Overview](purchasing-manage-purchasing.md)
+### [Purchasing Reports](purchase-reports.md)
 ### [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
@@ -629,6 +635,7 @@
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
@@ -647,6 +654,7 @@
 
 ## Project Management
 ### [Project Management Overview](projects-manage-projects.md)
+### [Project Reports](project-reports.md)
 ### [Create Jobs](projects-how-create-jobs.md)
 ### [Use Resources for Jobs](projects-how-use-resources.md)
 ### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
@@ -659,6 +667,7 @@
 
 ## Fixed Assets
 ### [Fixed Assets Overview](fa-manage.md)
+### [Fixed Assets Reports and Analytics](fa-reports.md)
 ### [Acquire Fixed Assets](fa-how-acquire.md)
 ### [Maintain Fixed Assets](fa-how-maintain.md)
 ### [Insure Fixed Assets](fa-how-insure.md)
@@ -713,12 +722,13 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
-### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)
-### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assembly Management
 ### [Assemble Items](assembly-assemble-items.md)
+### [Assembly Reports](assembly-reports.md)
 ### [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Quote an Assemble-to-Order Sale](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Assemble Items](assembly-how-to-assemble-items.md)
@@ -732,6 +742,7 @@
 
 ## Manufacturing
 ### [Manufacturing Overview](production-manage-manufacturing.md)
+### [Production Reports](production-reports.md)
 ### [About Production Orders](production-about-production-orders.md)
 ### [Create Production Orders](production-how-to-create-production-orders.md)
 ### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
@@ -746,6 +757,7 @@
 
 ## Warehouse Management
 ### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
 ### [Receive Items](warehouse-how-receive-items.md)
 ### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 ### Putting Items Away
@@ -776,8 +788,8 @@
 ### [Ship Items](warehouse-how-ship-items.md)
 ### [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -843,6 +855,7 @@
 ##### [Determine Sales Price by Cost Plus Percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australian Business Numbers and Adjustment Notes](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Enter Australian Business Numbers](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Payment Times Reporting](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Austria
 #### [Local Functionality in the Austrian Version](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -884,15 +897,8 @@
 ##### [Set Up Vendors for Automatic Payment Suggestions](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Create Payment Journal Templates and Batches](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Test Electronic Payments](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Print Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Activate SEPA Payments](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [File Non-Euro SEPA Payments](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Export Payment Files](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Direct Debit Using Domiciliation](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Set Up Domiciliations](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Edit and Delete Domiciliation Lines](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Test Domiciliations](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Export and Post Domiciliations](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Generate Domiciliation Suggestions](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA Bank Statements](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [Apply CODA Statements](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatically Transfer and Post CODA Statements](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -993,16 +999,14 @@
 ##### [Export General Ledger Entries to an XML File](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Requirements for Reporting Declaration of Trade in Goods](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Banking & Payments
+##### [Payment Management](LocalFunctionality/France/payment-management.md)
 ##### [Set Up Payment Addresses](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Set Up Payment Statuses](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Set Up Payment Steps](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Set Up Payment Classes](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Archive Payment Slips](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Create Payment Slips](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Export Payments](LocalFunctionality/France/how-to-export-payments.md)
-##### [Export or Import Payment Management Setup Parameters](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Payment Management](LocalFunctionality/France/payment-management.md)
 ##### [Post Payment Slips](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Archive Payment Slips](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Export or Import Payment Management Setup Parameters](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Core Finance
 ##### [General Ledger](LocalFunctionality/France/general-ledger.md)
 ##### [Apply General Ledger Entries](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1545,6 +1549,7 @@
 #### General
 ##### [Set Up a Posting Date Warning](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Enter Statutory Information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Send Fraud Prevention Data](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Set Up the GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1568,7 +1573,7 @@
 ## Security and Protection
 ### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
-### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Compliance
 ### [Compliance Overview](compliance/compliance-overview.md)
 ### [Application Compliance](compliance/compliance-application-compliance.md)

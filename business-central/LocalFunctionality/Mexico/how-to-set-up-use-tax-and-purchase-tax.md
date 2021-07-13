@@ -1,6 +1,6 @@
 ---
-    title: How to Set Up Use Tax and Purchase Tax [MX]
-    description: Sales tax includes taxes that companies pay for using items in the Mexican version
+    title: Set Up Use Tax and Purchase Tax [MX]
+    description: This topic explains how to set up and use the sales tax and purchase tax that companies pay for using items in the Mexican version.
 
 
     author: SorenGP
@@ -11,7 +11,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

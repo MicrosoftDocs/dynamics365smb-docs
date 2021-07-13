@@ -1,6 +1,6 @@
 ---
-    title: Design Details - Integration with Inventory | Microsoft Docs
-    description: The Warehouse Management application area and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
+    title: Design Details - Integration with Inventory
+    description: The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/15/2021
     ms.author: edupont
 
 ---

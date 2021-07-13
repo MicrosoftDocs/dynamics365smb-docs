@@ -1,6 +1,6 @@
 ---
-    title: Set Up Delivery Reminder Terms, Levels, and Text (CH)
-    description: To create delivery reminders int he Swiss version of Business Central, you must set up delivery reminder terms, delivery reminder levels, and delivery reminder text. messages
+    title: Delivery Reminder Terms, Levels, and Text [CH]
+    description: To create delivery reminders in the Swiss version of Business Central, you must set up delivery reminder terms, levels, and text messages.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/25/2021
     ms.author: edupont
 
 ---

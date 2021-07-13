@@ -1,6 +1,6 @@
 ---
-    title: How to Print Account Book Reports
-    description: Account book reports display all the general ledger entries created in a specific period.
+    title: How to Print Account Book Reports [ES]
+    description: Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
 
     services: project-madeira 
     documentationcenter: ''
@@ -12,11 +12,11 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/21/2021
     ms.author: edupont
 
 ---
-# Print Account Book Reports
+# Print Account Book Reports in the Spanish Version
 Account book reports display all the general ledger entries created in a specific period. The two account book reports are:  
 
 - **Official Account Book** report - Displays information for every general ledger entry, grouped by transaction.  
@@ -26,7 +26,7 @@ When sending these reports to the authorities or auditors, you can include addit
 
 ## To print an official account book report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account - Official Acc. Book**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account - Official Acc. Book**, and then choose the related link.  
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -41,7 +41,7 @@ When sending these reports to the authorities or auditors, you can include addit
 
 ## To print an official account summarized book report  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Official Acc.Summarized Book**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Official Acc.Summarized Book**, and then choose the related link.  
 2.  In the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  

@@ -1,6 +1,6 @@
 ---
     title: How to Create a New Company | Microsoft Docs
-    description: To use RapidStart Services tables and pages are created, but there is no data in them.
+    description: Use RapidStart Services tables and pages to create a new company for which you want to perform a customer implementation.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 06/14/2021
     ms.author: edupont
 
 ---
@@ -22,7 +22,7 @@ Example configuration packages, including country/region-specific files, are inc
 
 ## To use the sample BASICCONFIG configuration package  
 1. Open the CRONUS International Ltd. company. For more information, see [Change Basic Settings](ui-change-basic-settings.md).
-2. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Packages**, and then choose the related link.  
 3. Choose the BASICCONFIG package from the list, and then choose the **Export Package** action.  
 
 Use the following procedure to create a new company, and use the BASICCONFIG package as part of the process.  

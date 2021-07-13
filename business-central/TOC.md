@@ -450,6 +450,7 @@
 ### [Financial Reports](finance-reports.md)
 ### Managing Receivables
 #### [Receivables Overview](receivables-manage-receivables.md)
+#### [Accounts Receivable Reports and Analytics](receivables-reports.md)
 #### Applying Payments Automatically and Reconciling Bank Accounts
 ##### [Payment Application Overview](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)
@@ -467,6 +468,7 @@
 
 ### Managing Payables
 #### [Payables Overview](payables-manage-payables.md)
+#### [Accounts Payable Reports and Analytics](payables-reports.md)
 #### Making Payments
 ##### [Making Payments](payables-make-payments.md)
 ##### [Working with General Journals](ui-work-general-journals.md)
@@ -665,6 +667,7 @@
 
 ## Fixed Assets
 ### [Fixed Assets Overview](fa-manage.md)
+### [Fixed Assets Reports and Analytics](fa-reports.md)
 ### [Acquire Fixed Assets](fa-how-acquire.md)
 ### [Maintain Fixed Assets](fa-how-maintain.md)
 ### [Insure Fixed Assets](fa-how-insure.md)

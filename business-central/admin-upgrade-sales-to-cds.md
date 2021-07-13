@@ -27,12 +27,11 @@ If you have already integrated [!INCLUDE[crm_md](includes/crm_md.md)] with [!INC
   
    > [!NOTE]
    > After you enable the connection, the Business Central Integration Solution is deployed to Dataverse.
-3. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
-4. On the **Microsoft Dynamics 365 Connection Setup** page, turn on the **Enabled** toggle to reconnect to [!INCLUDE[crm_md](includes/crm_md.md)].
+4. On the **Microsoft Dynamics 365 Connection Setup** page, choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
+5. Turn on the **Enabled** toggle to reconnect to [!INCLUDE[crm_md](includes/crm_md.md)].
   
    > [!NOTE]
    > After you enable the connection, the Business Central Integration Solution is deployed to [!INCLUDE[prod_short](includes/prod_short.md)]. This enables integration with tables that are specific to [!INCLUDE[crm_md](includes/crm_md.md)], such as sales orders, quotes, and invoices.
-5. Choose **Redeploy Integration Solution** to reinstall the Business Central Integration Solution.
 6. On the **Sales Connection Setup** page, choose **Use Default Synchronization Setup** to initialize the integration table mappings for [!INCLUDE[crm_md](includes/crm_md.md)].
 
    > [!IMPORTANT]

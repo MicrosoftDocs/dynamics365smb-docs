@@ -1,12 +1,12 @@
 ---
-title: "Help and Support"
+title: Resources for Help and Support
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: "dynamics365-business-central"
 ms.author: edupont
-ms.date: 04/09/2021
+ms.date: 07/09/2021
 ---
 
 # Resources for Help and Support
@@ -66,9 +66,14 @@ Make sure that you search through the list of submitted suggestions. Chances are
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the additional telemetry in [Application Insights](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry#appinsights).  
+To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the additional telemetry in the administration center or Application Insights, for example.  
 
-As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) and [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the administration content.  
+As the internal administrator, you have access to the administration center where you can continue the troubleshooting. You can view telemetry, manage environments, and you can manage user sessions. The following articles in the administration content provide more information:
+
+- [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Managing environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Monitoring and analyzing telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Enable sending telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## Report a Problem
 

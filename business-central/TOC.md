@@ -722,6 +722,8 @@
 ### [Run Full Planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track Relations Between Demand and Supply](production-how-track-demand-supply.md)
+### [Requisition Worksheet](production-about-planning-functionality.md#requisition-worksheet)
+### [Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->

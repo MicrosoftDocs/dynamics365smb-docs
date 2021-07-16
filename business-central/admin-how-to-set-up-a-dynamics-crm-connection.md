@@ -115,7 +115,9 @@ The algorithm for matching records can be started from the following places in [
     Select multiple records, and then choose the **Related** action, choose **Dataverse**, choose **Coupling**, and then choose **Match-Based Coupling**.
 
     When the match-based coupling process is started from a master data list, a coupling job will be scheduled right after you have selected the coupling criteria.  
-* The **Dataverse Full Synch. Review** page. When the full synchronization process detects that you have uncoupled records both in [!INCLUDE [prod_short](includes/prod_short.md)] and in [!INCLUDE [cds_long_md](includes/cds_long_md.md)], a **Select Coupling Criteria** link appears for the relevant integration table.  
+* The **Dataverse Full Synch. Review** page.  
+
+    When the full synchronization process detects that you have uncoupled records both in [!INCLUDE [prod_short](includes/prod_short.md)] and in [!INCLUDE [cds_long_md](includes/cds_long_md.md)], a **Select Coupling Criteria** link appears for the relevant integration table.  
 
     You can start the **Run Full Synchronization** process from the **Dataverse Connection Setup** and **Dynamics 365 Connection Setup** pages, and it can be initiated as a step in the **Set up a connection to Dataverse** assisted setup guide when you choose to complete setup and run full synchronization at the end.  
 
@@ -134,7 +136,7 @@ In all three cases, the **Select Coupling Criteria** page opens so that you can 
 
 * Prioritize the order in which records are searched by specifying a *match priority* for the relevant mapping fields. The match priorities make the algorithm search for a match in a number of iterations as defined by the **Match Priority** field values in ascending order. A blank value in the **Match Priority** field is interpreted as priority 0, so fields with this value fill be considered first.  
 
-* Specify whether to create a new entity instance in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in case no unique uncoupled match can be found by using the match criteria. This setting is determined by the **Create New if Unable to Find a Match** action.  
+* Specify whether to create a new entity instance in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in case no unique uncoupled match can be found by using the match criteria. To activate this capability, choose the **Create New if Unable to Find a Match** action.  
 
 ### View the results of the coupling job
 

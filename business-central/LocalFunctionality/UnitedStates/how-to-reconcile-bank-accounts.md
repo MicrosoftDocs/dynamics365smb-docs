@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/22/2021
+    ms.date: 07/16/2021
     ms.author: bholtorf
 
 ---
@@ -57,7 +57,7 @@ You can post bank reconciliation if you have reconciled the bank accounts on the
     > [!NOTE]  
     >  On the **General** FastTab, the value in the **Difference** field be must be zero before you can post the bank reconciliation.  
 
-When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G/L Entry** table.  
+    When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G/L Entry** table.  
 
 3. Choose the **Post** action.  
 4. To review a preliminary draft of the bank reconciliation statement, choose the **Test Report** action. The **Bank Rec. Test Report** shows the entries that will result if you post.  
@@ -65,8 +65,12 @@ When the bank reconciliation is posted, all of the related files are posted to t
 ## To view the posted bank account reconciliations
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Choose the bank account that you want to view the posted reconciliations for, and then choose the **Statements** action.  
-3. Choose the **Close** button.  
+2. Choose the bank account that you want to view the posted reconciliations for, and then choose the **Related** action, choose the **Bank Acc.** action, and and then choose the **Posted Reconciliations** action.  
+3. Select the relevant statement that you want to view.  
+4. In the worksheet that appears, choose the **Print** action or the **Send** action, and make the relevant selections in the report options page.  
+
+    The bank reconciliation test report that was printed before you posted the reconciliation will be printed again. This can then be used for auditing purposes.  
+5. Close the report request page.  
 
 ## To print a bank reconciliation test report
 

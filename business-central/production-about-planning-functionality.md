@@ -1,6 +1,6 @@
 ---
-    title: About Planning Functionality | Microsoft Docs
-    description: The planning system takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
+    title: About Planning Functionality
+    description: The planning system in Dynamics 365 Business Central takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 07/16/2021
     ms.author: edupont
 
 ---
@@ -33,9 +33,12 @@ Another goal of the planning system is to ensure that the inventory does not gro
 
 ## Planning Calculation
 
-The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions (Action Messages) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
+The planning system is driven by anticipated and actual customer demand, as well as inventory reordering parameters. Running the planning calculation will result in application suggesting specific actions ([Action Messages](production-how-to-run-mps-and-mrp.md#action-messages)) to take concerning possible replenishment from vendors, transfers between warehouses, or production. If replenishment orders already exist, the suggested actions could be to increase or expedite the orders to meet the changes in demand.  
 
 The basis of the planning routine is in the gross-to-net calculation. Net requirements drive planned order releases, which are scheduled based on the routing information (manufactured items) or the item card lead time (purchased items). Planned order release quantities are based on the planning calculation, and are affected by the parameters set on the individual item cards.  
+
+> [!TIP]
+> The planning system relies on how your organization uses locations. For more information, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
 ## Planning with Manual Transfer Orders
 

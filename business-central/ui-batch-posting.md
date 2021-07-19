@@ -80,7 +80,7 @@ Alternatively, you can review on the **Job Queue Log Entries** page if the sales
 
 Alternatively, you can postpone postings for when it is convenient for your organization. For example, in your business it might make sense to run certain routines when most of the data entry for the day has concluded. You can achieve this by setting the job queue up to run various batch-posting reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and similar reports. [!INCLUDE[prod_short](includes/prod_short.md)] supports background posting for all sales, purchasing, and service documents.
 
-The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on week days.  
+The following procedure shows how to set the **Batch Post Sales Orders** report up to automatically post sales orders at 4 PM on weekdays.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -111,7 +111,7 @@ The following procedure shows how to set the **Batch Post Sales Orders** report 
 8. In the **Starting Time** field, enter 4 PM.
 9. Choose the **Set Status to Ready** action.
 
-Sales orders that are within defined filters will now be posted every week day at 4 PM.
+Sales orders that are within defined filters will now be posted every weekday at 4 PM.
 
 ## Monitor the job queue
 

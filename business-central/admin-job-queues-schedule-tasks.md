@@ -63,9 +63,9 @@ The **My Job Queue** part on your Role Center shows the job queues entries that 
 The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
 
 ### To view an error from the My Job Queue part
+
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
-
 
 ## Examples of what can be scheduled using job queue
 
@@ -84,6 +84,10 @@ If you have integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INC
 Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time.  
 
 For more information, see [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## Monitor the job queue with telemetry
+
+As an administrator, you can use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that you can use to identify problems. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
 
 ## See Also
 

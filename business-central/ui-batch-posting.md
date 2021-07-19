@@ -74,7 +74,7 @@ If the job queue cannot post the sales order, the status is changed to **Error**
 1. From the document that you have tried to post with background posting, choose the **Job Queue Status** field, which will contain **Error**.
 2. Review the error message and fix the problem.
 
-Alternativelly you can review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see [To view status or errors in the job queue](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Alternatively, you can review on the **Job Queue Log Entries** page if the sales order was posted successfully. For more information, see the [Monitor the job queue](#monitor-the-job-queue) section.
 
 ## To create a job queue entry for batch posting of sales orders
 
@@ -117,9 +117,7 @@ Sales orders that are within defined filters will now be posted every week day a
 
 If you set up background posting with job queues, make it a regular task to monitor the job queue to catch any issues. You can track the status in the **Job Queue Entries** page. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
-As an administrator, you can also use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that you can use to identify problems.  
-
-For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
+As an administrator, you can also use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that you can use to identify problems. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
 
 ## See Also
 

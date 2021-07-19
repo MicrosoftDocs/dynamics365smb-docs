@@ -1,6 +1,6 @@
 ---
 title: Create a sandbox environment
-description: Learn about how you can create an environment for safely exploring, learning, demoing, developing, troubleshooting, and testing from inside Business Central.
+description: Learn about how a dedicate environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
@@ -15,11 +15,13 @@ ms.author: solsen
 ---
 # Creating a Sandbox Environment in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily create a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
+With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily get a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
 Your administrator manages sandbox environments in the [administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
-For example, if you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration center. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the developer and administration content.
+For example, if you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration center. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the developer and administration content.  
+
+You can also safely use sandboxes for training, such as for following a learning path from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
 
 Once you're done, you can remove the sandbox, using the administration center.  
 

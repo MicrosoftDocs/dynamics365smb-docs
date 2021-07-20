@@ -45,6 +45,7 @@ You post a purchase order as received. The expected cost is LCY 95.00.
 |Posting Date|Entry Type|Cost Amount (Expected)|Expected Cost Posted to G/L|Expected Cost|Item Ledger Entry No.|Entry No.|  
 |------------------|----------------|------------------------------|----------------------------------|-------------------|---------------------------|---------------|  
 |01-01-20|Direct Cost|95.00|95.00|Yes|1|1|  
+
  **Relation Entries in the G/L – Item Ledger Relation Table**  
 
 |G/L Entry No.|Value Entry No.|G/L Register No.|  

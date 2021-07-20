@@ -29,9 +29,11 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
 To make it possible to post expected costs you need to do the following:
 1. On the **Inventory Setup** page, select the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box.
-2. Setup which interim accounts to use during the expected cost posting process. On the **Inventory Posting Setup** page, verify the **Inventory Account** and the **Inventory Account (Interim)** fields for the **Location Code and Invt. Posting Group Code** of the item you will be purchasing. To learn more about these accounts see [Design Details - Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).
+2. Set up which interim accounts to use during the expected cost posting process.  
+
+  On the **Inventory Posting Setup** page, verify the **Inventory Account** and the **Inventory Account (Interim)** fields for the **Location Code and Invt. Posting Group Code** of the item you will be purchasing. To learn more about these accounts see [Design Details - Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).
 3. On the **General Posting Setup** page, verify the **Invt. Accrual Acc. (Interim)** field for the **Gen. Bus. Posting Group** and the **Gen. Prod. Posting Group** you will be using.
-4. When you create a purchase order the default is that the Vendor Invoice No. field is required. You need to turn that off on the Purchase & Payables Setup page, by unselecting the **Ext. Doc. No. Mandatory** field.
+4. When you create a purchase order the default is that the **Vendor Invoice No.** field is required. You need to turn that off on the **Purchase & Payables Setup** page, by unselecting the **Ext. Doc. No. Mandatory** field.
 
 ## Example  
 

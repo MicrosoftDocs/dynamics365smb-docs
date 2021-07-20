@@ -79,7 +79,7 @@ You post a purchase order as received. The expected cost is LCY 95.00.
 
  **General Ledger Entries**  
 
-|Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (Examples only!)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Inventory Accrual Account (Interim)|5530|95.00|4|  
 |01-15-20|Inventory Account (Interim)|2131|-95.00|3|  

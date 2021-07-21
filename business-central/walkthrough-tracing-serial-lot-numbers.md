@@ -96,66 +96,7 @@ Then you must create various purchase, production, and sales transactions with t
     > [!NOTE]  
     >  To enter the base unit of measure, choose the **New** button, and then select **PSC** on the **Item Units of Measure** page.  
 
-    Next, define the item's manufacturing setup
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.
+    Next, define the item's manufacturing setup.
 
 8. On the **Replenishment** FastTab, in the **Routing No.** field, enter **1000**.  
 9. Choose the **Production BOM No.** field, and then choose **Advanced**.  

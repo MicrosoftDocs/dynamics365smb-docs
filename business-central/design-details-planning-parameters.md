@@ -112,10 +112,9 @@ If the **Make-to-Stock** option is used, the orders concern only the item in que
 
 If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.
 
-## Use Low-Level Codes
+## Use Low-Level Codes to manage derived demand
 
-Use Low-Level Codes to make derived demand for components progress through to the lower levels of the BOM. For a more thorough explanation of this, please see [Item Priority / Low-Level Code]
-(design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+Use Low-Level Codes to make derived demand for components progress through to the lower levels of the BOM. For a more thorough explanation of this, please see [Item Priority / Low-Level Code](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
 You can assign a low-level code to each part in the product structure or the indented BOM. The top final assembly level is denoted as level 0 - the end item. The higher the low-level code number, the lower the item is in the hierarchy. For example, end items have low-level code 0, and the item parts that go into the assembly of the end item have low-level codes 1, 2, 3, and so on. The result is the planning of component parts coordinated with the requirements of all higher-level part numbers. When you calculate a plan, the BOM is exploded in the planning worksheet, and the gross requirements for level 0 are passed down the planning levels as gross requirements for the next planning level.
 

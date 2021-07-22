@@ -120,6 +120,7 @@ Any record whose data is applied in this manner is complete, because it consists
 > [!NOTE]
 > If the data in the tables in the configuration package contains dates, for example, posting dates on invoices, the dates are considered in the time zone specified in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## To create a record from a configuration template
 
 You can use the structure of data that is contained in the data templates to convert your information into records in the database, one-by-one. To do so, you use the **Create Instance** function. This is a miniature version of the data migration process and can be useful for prototyping or treating smaller data creation tasks.  
@@ -133,6 +134,15 @@ The following steps illustrate how to create an item card from an item data temp
 5. To review the new item card, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 6. Open the new item card.  
 7. Expand various FastTabs, and verify that the information was created correctly on them.  
+
+## To use conversion templates
+
+You can convert contacts into customers, vendors and employees. 
+
+### To convert a contact into a customer, vendor or employee
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then select the correct contact. 
+2. On the Contact Card select **Actions**, then **Functions** and then select **Create as Customer, Vendor, Bank, or Employee**.
+
 
 ## To use a configuration template on a record
 
@@ -148,6 +158,9 @@ The following procedure is based on a new customer card.
 3. On the **Customer Templates** page, select one of the templates, and then choose the **OK** button.  
 
 The default values from the chosen customer template are inserted on the customer card.
+
+> [!NOTE]
+> You cannot use Apply Template to blank out fields on customers, suppliers, and the like. Instead you need to use the **Edit in Excel** functionality. For more information, see [Edit in Excel](across-work-with-excel.md#edit-in-excel).
 
 ## See Also
 

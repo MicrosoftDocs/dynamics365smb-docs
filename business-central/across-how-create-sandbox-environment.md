@@ -1,6 +1,6 @@
 ---
 title: Create a sandbox environment
-description: Create a sandbox "test" environment for safely exploring, learning, demoing, developing, troubleshooting and testing from inside Business Central.
+description: Learn about how a dedicate environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
@@ -9,51 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/08/2021
+ms.date: 07/19/2021
 ms.author: solsen
 
 ---
 # Creating a Sandbox Environment in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can easily create a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
+With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily get a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
-Your administrator manages sandbox environments in the [administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), but if you want to quickly test something, you can create a sandbox environment from inside [!INCLUDE[prod_short](includes/prod_short.md)]. Once you're done, you can remove the sandbox, using the administration center.  
+Your administrator manages sandbox environments in the [administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
-> [!NOTE]
-> Technically, sandbox environments are very different from production environments, even if your administrator creates a sandbox that includes production data. You cannot use a sandbox for benchmarking, and you cannot request a database export, for example. If you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration center. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types).
+For example, if you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration center. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the developer and administration content.  
 
-## To create a sandbox environment in your [!INCLUDE[prod_short](includes/prod_short.md)]
+You can also safely use sandboxes for training, such as for following a learning path from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
 
-1. Sign in to your production instance of [!INCLUDE[prod_short](includes/prod_short.md)].
-
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sandbox Environment**, and then choose the related link.
-    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Choose the **Create** button.  
-
-    Another tab with [!INCLUDE[prod_short](includes/prod_short.md)] opens where you can finish the setup of your sandbox environment.
-
-    > [!NOTE]  
-    >  If you have pop-up blocker enabled in your browser, change it to allow URLs from the *.businesscentral.dynamics.com address.
-
-When the sandbox environment is ready, you will be redirected to sandbox environment's Welcome wizard.
-<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
-
-You can choose the **Learn more** button to read about developer scenarios that you can try in a sandbox environment or choose the **Close** button to continue to the Role Center of your [!INCLUDE[prod_short](includes/prod_short.md)] sandbox instance.
-
-At the top of the Role Center, a notification appears to inform you that this is a sandbox environment. You can also see the type of the environment in the title bar of the client.
-    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+Once you're done, you can remove the sandbox, using the administration center.  
 
 > [!NOTE]
-> A sandbox environment created in this way only contains the default demonstration data for the CRONUS company. No data is copied or otherwise transferred from the production environment.
->
-> Alternatively, create a sandbox environment based on production data. You must do this through the administration center. For more information, see [Managing Environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in the developer and administration content.  
-
-<!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
-
-An administrator can limit or even block access for some users to the sandbox environment. This can be done by using the standard security features of the product, such as the User card, user groups, and permission sets. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
-
-<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
+> Technically, sandbox environments are very different from production environments. Your administrator can create a sandbox that includes production data, but it is still a sandbox, and you cannot request a database export, for example. For more information, see [Sandbox environments](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) in the developer and administration content.
 
 ## Advanced Functionality in the Sandbox Environment
 
@@ -74,7 +47,7 @@ After you have enabled the *Premium* user experience, you get access to all the 
 For situations where you need additional sample data, please talk to your reselling partner.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
-#### To create a company with complete sample data in a sandbox
+<!--#### To create a company with complete sample data in a sandbox
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
 2. Choose the **New** action, and then choose **Create New Company**.  
@@ -82,7 +55,7 @@ For situations where you need additional sample data, please talk to your resell
 4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  
 5. Complete the rest of the assisted setup guide.  
 
-When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
 ### Designer
 
@@ -97,6 +70,7 @@ For more information, see [Using Designer](/dynamics365/business-central/dev-itp
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
 [Managing Environments in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+[Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

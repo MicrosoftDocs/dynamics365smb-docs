@@ -1,5 +1,5 @@
 ---
-    title: Design Details - Expected Cost Posting | Microsoft Docs
+    title: Design Details - Expected Cost Posting
     description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/08/2021
+    ms.date: 07/20/2021
     ms.author: edupont
 
 ---
@@ -25,10 +25,22 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  To support reconciliation and traceability work, the invoiced value entry shows the expected cost amount that has been posted to balance the interim accounts.  
 
-## Example  
- The following example shows expected cost if the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box are selected on the **Inventory Setup** page.  
+## Prerequisites for posting expected costs
 
- You post a purchase order as received. The expected cost is LCY 95.00.  
+To make it possible to post expected costs you need to do the following:
+1. On the **Inventory Setup** page, select the **Automatic Cost Posting** check box and the **Expected Cost Posting to G/L** check box.
+2. Set up which interim accounts to use during the expected cost posting process.  
+
+  On the **Inventory Posting Setup** page, verify the **Inventory Account** and the **Inventory Account (Interim)** fields for the **Location Code and Invt. Posting Group Code** of the item you will be purchasing. To learn more about these accounts see [Design Details - Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md).
+3. On the **General Posting Setup** page, verify the **Invt. Accrual Acc. (Interim)** field for the **Gen. Bus. Posting Group** and the **Gen. Prod. Posting Group** you will be using.
+4. When you create a purchase order the default is that the **Vendor Invoice No.** field is required. You need to turn that off on the **Purchase & Payables Setup** page, by unselecting the **Ext. Doc. No. Mandatory** field.
+
+## Example  
+
+> [!NOTE]  
+> The account numbers used in this example are there for reference only, and will be different in your system. Set them up as directed in the Prerequisites above.
+
+You post a purchase order as received. The expected cost is LCY 95.00.  
 
  **Value Entries**  
 
@@ -69,7 +81,7 @@ Expected costs represent the estimation of, for example, a purchased item’s co
 
  **General Ledger Entries**  
 
-|Posting Date|G/L Account|Account No. (En-US Demo)|Amount|Entry No.|  
+|Posting Date|G/L Account|Account No. (Examples only!)|Amount|Entry No.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Inventory Accrual Account (Interim)|5530|95.00|4|  
 |01-15-20|Inventory Account (Interim)|2131|-95.00|3|  

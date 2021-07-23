@@ -1,5 +1,5 @@
 ---
-title: Undo a Posting by Posting a Reversing Entry| Microsoft Docs
+title: Undo a Posting by Posting a Reversing Entry
 description: If you have made an erroneous posting in the general journal, then you can use the Reverse Transaction function to undo the posting with a correct audit trail.
 services: project-madeira
 documentationcenter: ''
@@ -11,12 +11,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 07/22/2021
 ms.author: edupont
 
 ---
 # Reverse Journal Postings and Undo Receipts/Shipments
-To undo an erroneous journal posting, you select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
+Reverse journal postings are not only used for correcting errors but they can also be used for clearing out an old accruals entry before entering a new one, for example. You select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
 
 You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
 

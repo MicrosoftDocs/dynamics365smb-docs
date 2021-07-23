@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/14/2021
+    ms.date: 07/23/2021
     ms.author: bholtorf
 
 ---
@@ -70,14 +70,18 @@ Specify which fields are included in the package. By default, all fields are inc
     - To select just the fields you want to include, choose the **Clear Included** action. To add all fields, choose the **Set Included** action.  
     - To specify that the field data should not be validated, clear the **Validate Field** check box for the field.  
 
-10. Optionally, to add a codeunit with any code that you want to include in the package, choose the **Processing Rules** action.
+10. Optionally, to apply processing filters on table data, or to add a codeunit with any code that you want to include in the package, choose the line for the relevant table, and then choose the **Processing Rules** action.
 
     1. In the **Config. Table Processing Rules** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-        > [!NOTE]
-        > This codeunit must take table 8614 *Config. Package Record* as a parameter on the `OnRun` method.
-    2. Optionally, to apply filters on data, choose the **Processing Filters** action, and then fill in the fields.  
-    3. Close the page.
+        - To apply filters on data, specify the relevant action in the **Action** field, choose the **Processing Filters** action, and then fill in the fields.  
+
+            For example, Microsoft's configuration packages for the evaluation companies set processing filters on the **Sales Header** and **Purchase Header** tables.
+        - To add a processing codeunit, specify it in the **Custom Processing Codeunit ID** field.
+
+          > [!NOTE]
+          > This codeunit must take table 8614 *Config. Package Record* as a parameter on the `OnRun` method.
+    2. Close the page.
 11. Determine whether you have introduced potential errors, by choosing the **Validate Package** action. This can occur when you do not include tables that your configuration relies on.  
 12. Choose the **OK** button.  
 

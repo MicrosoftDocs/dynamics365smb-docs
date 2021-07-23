@@ -1,12 +1,12 @@
 ---
 title: Update Currency Exchange Rates
-description: Track amounts in different currencies using currency codes, and let Business Central help you adjust exchange rates of posted entries with an external service.
+description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
 
 ---
@@ -25,6 +25,9 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 > If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ## Currencies
+
+> [!NOTE]  
+> In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 You specify the currency codes in the **Currencies**, including extra information and settings that are necessary for each currency code.
 

@@ -1,8 +1,6 @@
 ---
-title: Analyze Actual Versus Budget
+title: Analyze Actual Amounts Versus Budgeted Amounts
 description: This topic describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central

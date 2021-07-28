@@ -1,5 +1,5 @@
 ---
-title: Adjust and Reconcile Inventory Cost with GL using Job Queue
+title: Adjust Reconcile Cost with G/L using Job Queue
 description: Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the GL to the background. For example, if your company runs many tasks or processes many transactions.
 author: AndreiPanko
 
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 12/12/2020
+ms.date: 07/28/2021
 ms.author: andreipa
 
 ---
-# How to Adjust and Reconcile Inventory Cost with General Ledger with Job Queue
+# Adjust and Reconcile Inventory Cost with General Ledger with Job Queue
 
-To optimize the experience, automatic cost adjustment and posting to the general ledgerare turned on by default. However, as data accumulates over time, that might impact performance. To reduce the load on the application, it is often helpful to use job queue entries to move tasks to run in the background.
+To optimize the experience, automatic cost adjustment and posting to the general ledger are turned on by default. However, as data accumulates over time, that might impact performance. To reduce the load on the application, it is often helpful to use job queue entries to move tasks to run in the background.
 
 ## Move the task of adjusting item costs to the background with the help of assisted setup
 

@@ -1,19 +1,20 @@
 ---
-title: Create a sandbox environment
+title: Sandbox environments
 description: Learn about how a dedicate environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
 author: SusanneWindfeldPedersen
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/19/2021
+ms.date: 07/27/2021
 ms.author: solsen
 
 ---
-# Creating a Sandbox Environment in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you can easily get a safe environment where you can test, train, or troubleshoot without disturbing your company's work processes or business data. Such a non-production environment is called a *sandbox*. Isolated from production, a sandbox environment is the place to safely explore, learn, demo, develop, and test the service without the risk of affecting the data and settings of your production environment.  
 
@@ -28,19 +29,17 @@ Once you're done, you can remove the sandbox, using the administration center.
 > [!NOTE]
 > Technically, sandbox environments are very different from production environments. Your administrator can create a sandbox that includes production data, but it is still a sandbox, and you cannot request a database export, for example. For more information, see [Sandbox environments](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) in the developer and administration content.
 
-## Advanced Functionality in the Sandbox Environment
-
 The sandbox environment is not least useful because it includes a couple of handy features:
 
 * [Advanced user experience](#advanced-user-experience)  
-* [Complete sample data](#complete-sample-data)  
+<!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-### Advanced user experience
+## Advanced user experience
 
 It is possible to enable and try the full functionality of the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] in a sandbox tenant by setting the **Experience** field on the **Company Information** page to *Premium*. Find the **Company Information** page in the :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Settings icon."::: menu.  
 
-After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centers in the standard version. You can also create an evaluation company that is fully set up, including demonstration data and access to the advanced areas of the product. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
+After you have enabled the *Premium* user experience, you get access to all the standard profiles (roles) and Role Centers in the standard version. Alternatively, contact a reselling partner for a demonstration of the capabilities. For more information, see [How do I find a reselling partner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### Complete sample data
 
@@ -57,7 +56,7 @@ For situations where you need additional sample data, please talk to your resell
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-### Designer
+## Designer
 
 In a sandbox environment, you will find the **Designer** enabled. You can activate Designer by selecting the design icon ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) on a page, or by choosing the **Design** menu item in the ![Settings](media/ui-experience/settings_icon_small.png) Settings menu.  
 

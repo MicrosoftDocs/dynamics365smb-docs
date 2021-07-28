@@ -1605,9 +1605,9 @@
 ### [Inspecting Pages](across-inspect-page.md)
 ### [Viewing Database Locks](admin-view-database-locks.md)
 ### [Viewing Table Information](admin-view-table-information.md)
-### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
+### [Sandbox Environments](across-how-create-sandbox-environment.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

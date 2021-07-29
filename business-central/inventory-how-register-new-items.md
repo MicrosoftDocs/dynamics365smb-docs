@@ -94,7 +94,7 @@ You can set up items to have substitutes, such as other items that can be used i
 4. Choose the **Substitute No.** field, and then select the replacement item from the list.
 5. Proceed to fill in or change other fields on the page as necessary.
 
-When the quantity requested, for example on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
+When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
 
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.

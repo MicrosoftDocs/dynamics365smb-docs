@@ -8,8 +8,8 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/22/2021
+    ms.search.keywords: Item substitution
+    ms.date: 07/29/2021
     ms.author: edupont
 
 ---
@@ -62,6 +62,9 @@ The page displays planning lines according to the view filter **Production Deman
     In case the item exists in another location, the **Qty. on Other Location** field at the bottom shows a value and you can then look up and select the location from which the item should be supplied when you make the transfer order.  
 
     If a substitute exists for the demanded item, the **Substitute Exists** field is set to **Yes**, and you can then look up to the **Item Substitution Entries** page and select the substitute.  
+
+    > [!NOTE]  
+    > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
 7.  Select the **Reserve** check box if you want to make a reservation between the supply order you are creating and the demand line that it is created for. It is empty by default.  
 

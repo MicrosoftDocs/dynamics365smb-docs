@@ -8,8 +8,8 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/14/2021
+    ms.search.keywords: kit, kitting, substitute items
+    ms.date: 07/29/2021
     ms.author: edupont
 
 ---
@@ -52,6 +52,9 @@ In this procedure, you process the sale of an item that will be assembled accord
 9. Close the **Assemble-to-Order Lines** page. The linked assembly order is now ready to start to assemble the customized items by the due date.  
 10. On the sales order, choose the **Release** action to notify the assembly department that the assembly process can start.  
 11. In the assembly department, perform the steps of assembling the items that are sold in this procedure. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
+
+> [!NOTE]  
+> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
 ## See Also  
 [Assembly Management](assembly-assemble-items.md)  

@@ -1,6 +1,6 @@
 ---
-    title: How to Plan Order by Order
-    description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply. 
+    title: Plan for New Demand Order by Order
+    description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -8,8 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/22/2021
+    ms.date: 07/29/2021
     ms.author: edupont
 
 ---
@@ -63,6 +62,9 @@ The page displays planning lines according to the view filter **Production Deman
 
     If a substitute exists for the demanded item, the **Substitute Exists** field is set to **Yes**, and you can then look up to the **Item Substitution Entries** page and select the substitute.  
 
+    > [!NOTE]  
+    > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
+
 7.  Select the **Reserve** check box if you want to make a reservation between the supply order you are creating and the demand line that it is created for. It is empty by default.  
 
     > [!NOTE]  
@@ -113,7 +115,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Register New Items](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

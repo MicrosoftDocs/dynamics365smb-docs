@@ -49,7 +49,7 @@ Intercompany Transactions uses a number of entries and documents in intercompany
 When you set up Intercompany Transactions, you create a list of intercompany partners, called IC Partners, and an intercompany chart of accounts. Following these steps, you can perform intercompany General Journal transactions. You set up dimensions – if needed – separately.  
 
 > [!NOTE]
-> Note that the General Journal by itself does not include currency functionality, but converts all amounts at the applicable rate to local currency.
+> The General Journal by itself does not include currency functionality, but converts all amounts at the applicable rate to the local currency.
 
 After you set up business partners as customers and vendors in the system, and assign them intercompany partner codes, it is possible to exchange intercompany purchase and sales documents, including items and item charges. [!INCLUDE [prod_short](includes/prod_short.md)] supports intercompany transactions between multiple databases, for example, in different countries/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
 

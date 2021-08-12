@@ -215,6 +215,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches **man** exactly and is case-sensitive.|  
+|`''`|Text that is empty.|  
 
 #### (@) Case insensitive  
 

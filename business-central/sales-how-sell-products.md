@@ -1,5 +1,5 @@
 ---
-title: Create a Sales Order and Sell Products | Microsoft Docs
+title: Create a Sales Order and Sell Products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: SorenGP
 
@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/01/2021
+ms.date: 08/16/2021
 ms.author: edupont
 
 ---
-# Sell Products
+# Sell Products with a Customer Sales Order  
 
 You create a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
@@ -36,19 +36,28 @@ You can easily correct or cancel a posted sales invoice resulting from a sales o
 
 The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales order process is the same for all three item types.
 
-You can fill customer fields on the sales order in two ways depending on whether the customer is already registered. See step 2 in the following procedure.
+## How to create a customer sales order  
+You use the **Sales Order** page to create a new customer sales order. If this order is for a new customer, you first register them by creating a customer card . Otherwise go directly to the procedure for creating a sales order below.
 
-## To create a sales order
+### To add a new customer  
+
+ Follow these steps to add a new customer and register their details. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.
+2. [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]  
+
+    Several fields on the sales order are now filled with information that you specified on the new customer card.
+
+
+### To create a sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
-2. In the **Customer** field, enter the name of an existing customer.
+2. Select **New** to create a new entry.
+3. In the **Customer** field, enter the name of an existing customer.
 
     Other fields on the **Sales Order** page are now filled with the standard information of the selected customer.  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]  
-
-    Several fields on the sales order are now filled with information that you specified on the new customer card.
-3. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Fill in the remaining fields on the **Sales Order** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > If you allow the customer to pay immediately, for example, by credit card or PayPal, then fill in the **Payment Method Code** field. The payment is then recorded as soon as you post the sales order as invoiced. If you select CASH, then the payment is recorded in a specified balancing account.
@@ -56,15 +65,15 @@ You can fill customer fields on the sales order in two ways depending on whether
     You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.
 
     If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.
-4. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
+5. On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.
 
-5. In the **No.** field, enter the number of an inventory item or service.
+6. In the **No.** field, enter the number of an inventory item or service.
 
     You leave the **No.** field empty in the following cases:
 
     * If the line is for a comment. Write the comment in the **Description** field.
     * If the line is for a catalog item. Choose the **Select Catalog Items** action. For more information, see [Work With Catalog Items](inventory-how-work-nonstock-items.md).
-6. In the **Quantity** field, enter the number of items to be sold.
+7. In the **Quantity** field, enter the number of items to be sold.
 
     > [!NOTE]  
     > For items of type *Resource* or *Service*, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line. For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).
@@ -72,11 +81,11 @@ You can fill customer fields on the sales order in two ways depending on whether
     The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.
 
     The price and line amounts are shown with or without sales tax depending on what you selected in the **Prices Including Tax** field on the customer card.
-7. In the **Line Discount %** field, enter a percentage if you want to grant the customer a discount on the product. The value in the **Line Amount** field is updated accordingly.
+8. In the **Line Discount %** field, enter a percentage if you want to grant the customer a discount on the product. The value in the **Line Amount** field is updated accordingly.
 
     If you have set up special item prices on the **Sales Prices and Sales Line Discounts** FastTab on the customer or item card, then the price and amount on the quote line are automatically updated if the agreed price criteria are met. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
-8. To add a comment about the quote line that the customer can see on the printed sales quote, write a text in the **Description** field on an empty line.  
-9. Repeat steps 4 through 8 for every item that you want to sell to the customer.
+9. To add a comment about the quote line that the customer can see on the printed sales quote, write a comment in the **Description** field on an empty line.  
+10. Repeat steps 4 through 8 for every item that you want to sell to the customer.
 
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
 
@@ -85,12 +94,12 @@ You can fill customer fields on the sales order in two ways depending on whether
     >
     > To check the amounts that will actually be posted, use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.  
 
-10. Optionally, in the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
+11. Optionally, in the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
-11. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
-12. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.  
-13. When the sales order lines are completed, choose the **Post and Send** action.
+12. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
+13. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.  
+14. When the sales order lines are completed, choose the **Post and Send** action.
 
 The **Post and Send Confirmation** dialog box displays the customer's preferred method of receiving documents. You can change the sending method by choosing the lookup button for the **Send Document to** field. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 

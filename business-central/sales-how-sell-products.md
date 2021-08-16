@@ -36,20 +36,11 @@ You can easily correct or cancel a posted sales invoice resulting from a sales o
 
 The item card can be of type **Inventory**, **Service**, and **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept on inventory. For more information, see [Register New Items](inventory-how-register-new-items.md). The sales order process is the same for all three item types.
 
-## How to create a customer sales order  
-You use the **Sales Order** page to create a new customer sales order. If this order is for a new customer, you first register them by creating a customer card . Otherwise go directly to the procedure for creating a sales order below.
-
-### To add a new customer  
-
- Follow these steps to add a new customer and register their details. 
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer**, and then choose the related link.
-2. [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]  
-
-    Several fields on the sales order are now filled with information that you specified on the new customer card.
+> [!NOTE]  
+> The following procedure assumes that the customer is already set up. For instructions on how to do this, please see [Register New Customers](sales-how-register-new-customers.md).
 
 
-### To create a sales order
+## To create a sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select **New** to create a new entry.

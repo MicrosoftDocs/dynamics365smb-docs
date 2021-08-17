@@ -1,5 +1,5 @@
 ---
-title: Create a Sales Order and Sell Products
+title: Create a Customer Sales Order and Sell Products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: SorenGP
 
@@ -8,14 +8,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade
-ms.date: 08/16/2021
+ms.search.keywords: trade, partial deliveries, customer sales order
+ms.date: 08/17/2021
 ms.author: edupont
 
 ---
 # Sell Products with a Customer Sales Order  
 
-Use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you use sales invoices, then [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you ship the full quantity when you post the invoice. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
+This article provides guidance to users on when to use a customer sales order rather than just an invoice. If your sales process requires that you can only ship parts of an order quantity, for example, because the full quantity is not available at once, then sell those products by making a customer sales order.  
+
+If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, sales orders work the same way as sales invoices. For more information, see [Invoice Sales](sales-how-invoice-sales.md).
 
 When you deliver the products, either fully or partially, you post the sales order as shipped or as shipped and invoiced to create the related item and customer ledger entries in your system. When you post the sales order, you can also email the document as a PDF attachment. You can have the email body prefilled with a summary of the order and payment information, such as a link to PayPal. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -23,10 +25,10 @@ In business environments where the customer pays immediately, for example by Pay
 
 You can even create directly-paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
+## To create a sales order
+
 > [!NOTE]  
 > The following procedure assumes that the customer is already set up. For instructions on how to do this, please see [Register New Customers](sales-how-register-new-customers.md).
-
-## To create a sales order
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Select **New** to create a new entry.

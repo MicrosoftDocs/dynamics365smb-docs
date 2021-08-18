@@ -206,6 +206,7 @@ Specifies the general ledger account for each TDS Section defined in the system.
     |**TDS Section**|Enter the valid TDS Section.|
     |**Effective Date**|Specifies the starting date.|
     |**TDS Account**|Specifies the general ledger account for posting of TDS payable amount.|
+    |**TDS Receivable Account**|Specifies the general ledger account for posting of TDS receivable amount.|
 
 ## To set up TDS rounding precision
 

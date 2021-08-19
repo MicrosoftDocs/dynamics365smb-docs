@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
 
 ---
@@ -90,7 +90,7 @@ First allowed posting date is the first day in the first open period. September 
 |Register Time:       |         |
 |Local Address Format:|   Post Code      |  
 
- First allowed posting date is the date stated in field Allow Posting From: September 1, 2020.  
+ First allowed posting date is the date stated in field Allow Posting From: September 10, 2020.  
  If both Inventory Periods and allowed posting dates in General Ledger Setup are defined, the later date of the two will define the allowed posting date range.  
 
  Step 3: Assignment of an allowed posting date;  
@@ -160,7 +160,7 @@ Sorting: User ID
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|<name> |  2020-09-10      |2020-09-30      |
 
  Assigning the user a wider (or same) allowed posting date range as in Inventory Period or General Ledger Setup, mentioned conflict will be avoided. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
 

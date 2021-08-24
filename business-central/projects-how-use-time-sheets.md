@@ -92,7 +92,9 @@ A time sheet must be submitted for approval before it can be used. You can appro
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Manager Time Sheets**, and then choose the related link.
 2. Select a time sheet from the list.  
-3. On the **Time Sheet** page, choose the **Process** action, then choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
+3. On the **Time Sheet** page, 
+    1. Choose the **Process** action, then choose the **Approve** action.
+    2. Choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
 4. Choose the **OK** button.  
 5. Alternatively, choose the **Reject** action and follow steps 4 through 5.  
 

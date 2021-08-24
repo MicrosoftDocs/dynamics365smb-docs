@@ -138,7 +138,7 @@ After you have approved time sheet entries for a resource, you can post them to 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
-3. In the **Suggest Res Jnl. Lines** page, in the fields as necessary.  
+3. On the **Suggest Res Jnl. Lines** page, in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the resource journal, where you can modify the information as needed.  
 5. Choose the **Post** action.  
 6. To verify the posting, choose the **Ledger Entries** action. The **Resource Ledger Entries** page opens showing the result of posting the resource journal.
@@ -148,7 +148,7 @@ After you have approved time sheet entries for a job, you can post them to the r
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
-3. In the **Suggest Job Jnl. Lines** page, fill in the fields as necessary.  
+3. On the **Suggest Job Jnl. Lines** page, fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the job journal, where you can modify the information as needed.  
 
     > [!NOTE]  

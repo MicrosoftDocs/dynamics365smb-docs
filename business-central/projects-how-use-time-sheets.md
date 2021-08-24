@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 08/20/2021
+ms.date: 08/24/2021
 ms.author: edupont
 
 ---
@@ -127,7 +127,7 @@ On a job, you can specify a person who is responsible for the job. That informat
     > [!NOTE]
     > You can only approve time sheets that have the status of **Submitted**.
 
-3. To provide additional information about the approval or rejection, select the **Related** action, then select **Line** and then **Comments** and enter comments.
+3. To provide additional information about the approval or rejection, select the **Related** action, then select **Comments** and then **Line Comments** and enter comments.
 4. Choose the **OK** button.
 
 > [!NOTE]
@@ -138,7 +138,7 @@ After you have approved time sheet entries for a resource, you can post them to 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
-3. Fill in the fields as necessary.  
+3. In the **Suggest Res Jnl. Lines** page, in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the resource journal, where you can modify the information as needed.  
 5. Choose the **Post** action.  
 6. To verify the posting, choose the **Ledger Entries** action. The **Resource Ledger Entries** page opens showing the result of posting the resource journal.
@@ -148,7 +148,7 @@ After you have approved time sheet entries for a job, you can post them to the r
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
-3. Fill in the fields as necessary.  
+3. In the **Suggest Job Jnl. Lines** page, fill in the fields as necessary.  
 4. Choose the **OK** button. Entries for usage are created in the job journal, where you can modify the information as needed.  
 
     > [!NOTE]  
@@ -163,9 +163,9 @@ After you have posted time sheets, you can archive them for future reference. Al
 >   When you archive a time sheet, it is removed from the lists in both the **Time Sheets** page and the **Manager Time Sheets** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
-1. Select the **Move Time Sheets to Archive** action.  
-1. Fill in the fields as necessary, and then choose the **OK** button.  
-1. To review archived time sheets, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
+2. Select the **Move Time Sheets to Archive** action.  
+3. On the **Move Time Sheets to Archive** page, fill in the fields as necessary, and then choose the **OK** button.  
+4. To review archived time sheets, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.
 
 ## See Also
 [Project Management](projects-manage-projects.md)  

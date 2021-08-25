@@ -160,7 +160,7 @@ Sorting: User ID
 
 |User ID  |Allow Posting From  | Allow Posting To  |
 |---------|---------|--------|
-|<name> |  2020-09-10      |2020-09-30      |
+|USERNAME |  2020-09-10      |2020-09-30      |
 
  Assigning the user a wider (or same) allowed posting date range as in Inventory Period or General Ledger Setup, mentioned conflict will be avoided. The Adjustment Value Entry with Posting Date September 10th will be posted successfully with this setup.
 

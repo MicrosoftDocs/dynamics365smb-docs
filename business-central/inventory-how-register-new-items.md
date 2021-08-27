@@ -8,8 +8,8 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
 
 ---
@@ -81,6 +81,23 @@ If you purchase the same item from more than one vendor, you must enter informat
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
 The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+
+## Set up item substitutions
+
+You can set up items to have substitutes, such as other items that can be used in place of the original item.
+
+### To make an item substitution
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. Find the relevant item, and then click on the **Item No.** to open the Item Card.  
+3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the the Item Substitution Entry page.  
+4. Choose the **Substitute No.** field, and then select the replacement item from the list.
+5. Proceed to fill in or change other fields on the page as necessary.
+
+When the quantity requested, such as on a sales line, exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
+
+> [!NOTE]  
+> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
 ## Categories, attributes, and variants
 

@@ -40,7 +40,7 @@ To register a new customer, you must fill in a customer card. You can establish 
 4. Choose the **OK** button. A new customer card opens with some fields filled with information from the template.  
 5. Proceed to fill or change fields on the customer card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-On the **Sales Prices** FastTab, you can view special prices or discounts that you grant for the customer if certain criteria are met, such as item, minimum order quantity, or ending date. Each row represents a special price or line discount. Each column represents a criterion that must apply to warrant the special price that you enter in the **Unit Price** field, or the line discount that you enter in the **Line Discount %** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
+The **Prices & Discounts** action provides options for managing special prices or discounts for the customer when an order meets certain criteria. For example, the criteria might be when they're purchasing a certain item, ordering a minimum quantity, or buying before a date, such as when a campaign ends. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
 The customer is now registered, and the customer card is ready to be used on sales documents.
 

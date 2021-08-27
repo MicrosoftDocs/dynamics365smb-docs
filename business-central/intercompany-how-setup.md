@@ -15,9 +15,9 @@ ms.author: edupont
 ---
 # Set Up Intercompany Transaction Posting
 
-To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions for use on intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
+To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions to use with intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
-You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign them to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
+You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
 
 If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Cross Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Cross References** action to set up cross-references between your item descriptions and those of the intercompany partner. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md). 
 
@@ -30,7 +30,7 @@ If you will make intercompany sales transactions that include resources, you mus
 ## To set intercompany partners
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
-3. On the **Intercompany Partner** page, fill in the fields as necessary.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. On the **Intercompany Partner** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
@@ -47,7 +47,7 @@ In order for a group of companies to make intercompany transactions, they must a
 
 If your company is the parent company and has the defining intercompany chart of accounts that your group will use as a common reference, follow the [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts) procedure.  
 
-If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the [To Import the intercompany chart of accounts](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) procedure.  
+If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the [To import the intercompany chart of accounts](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) procedure.  
 
 ### To set up the defining intercompany chart of accounts
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
@@ -61,7 +61,7 @@ To allow your intercompany partners to import the defining chart of accounts, yo
 3. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 
 ### To import the intercompany chart of accounts  
-When a file exists for the defining intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.  
+When a file exists for defining the intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. On the **Intercompany Chart of Accounts** page, choose the **Import** action.  
 3. Select the file name and location of the XML file, and then choose the **Open** button.  
@@ -78,7 +78,7 @@ If the accounts in the intercompany chart of accounts have the same numbers as t
 3. For each intercompany general ledger account that was not mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
 
 ## To set up default intercompany partner general ledger accounts  
-When you create an intercompany sales or purchase line to send as an outgoing transaction, you enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to. On the **Chart of Accounts** page, for accounts that you often use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account. For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts.  
+When you create an intercompany sales or purchase line to send as an outgoing transaction, you enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to. On the **Chart of Accounts** page, for accounts that you regularly use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account. For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts.  
 
 Then, when you enter a general ledger account in the **Bal. Account No.** field on an intercompany line with **Intercompany Partner** in the **Account Type** field, the **IC Partner G/L Account** field is automatically filled in.  
 

@@ -949,10 +949,12 @@
 ##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banking and Payments
 ##### [Bank Feature](LocalFunctionality/Czech/bank-feature.md)
+##### [Banking Documents Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Cash Desk Management](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Advances](LocalFunctionality/Czech/advances.md)
+##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Payables and Receivables
 ##### [Payables and Receivables](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)

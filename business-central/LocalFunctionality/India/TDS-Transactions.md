@@ -37,7 +37,7 @@ TDS can be deducted on expenses (GL Account) transactions. TDS can be deducted o
 
   1.  Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoice** or **Purchase Order**, and then choose the related link.
   2. Select **Vendor**, **Location Code** on **Purchase Order** or **Purchase Invoice** header
-  3. Select **G/L Account** on **Purchase Order** or **Purchase Invoice** line.
+  3. Select **Type** value on **Purchase Order** or **Purchase Invoice** line.
   s4. **TDS Section**, **Location Code** and **T.A.N No.** fields should not be blank.
 
 ### TDS to be calculated on vendor invoice (through general journal, purchase journal, purchase invoice or purchase order)
@@ -74,7 +74,7 @@ In the given scenario, advance payment made to vendor for INR 50,000 on which 2%
      
     |Particulars|Amount|
     |----------------------------------|---------------------------------------|  
-    |**Expense Account**|50000|
+    |**Vendor Account**|50000|
     |**TDS Payable Account**|-1000|
     |**Bank Account**|-49000|
 

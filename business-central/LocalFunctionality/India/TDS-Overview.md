@@ -84,6 +84,7 @@ Rate of TDS is defined in combination of TDS section and assessee code.
     |**Surcharge Threshold Amount**|Specifies the threshold amount applicable for surcharge.|
     |**TDS Threshold Amount**|Specifies the threshold amount applicable for TDS.|
     |**Per Contract Value**|Specifies the per contract value.|
+    |**Calc. Over & Above Threshold**|Specifies whether TDS to be calculated on amount over & above the threshold amount.|
 
 
 ## To set up tax accounting period.
@@ -192,7 +193,8 @@ Specifies the Act under which income from Non-resident Indians will be taxed eit
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|   
-    |**Code**|Enter the valid Concessional Codes applicable as per the Income Tax Act, 1961.| 
+    |**Code**|Enter the valid code for Act Applicable.| 
+    |**Description**|Enter the valid Description for mentioned Act Applicable code.|
 
 ## To set up TDS posting setup
 

@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
 
 ---
@@ -73,6 +73,11 @@ Each time you sign in during the trial period, a notification in a blue bar at t
 [!INCLUDE[prod_short](includes/prod_short.md)] online uses Microsoft 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.  
 
 You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
 ## Getting Started with Sandboxes
 

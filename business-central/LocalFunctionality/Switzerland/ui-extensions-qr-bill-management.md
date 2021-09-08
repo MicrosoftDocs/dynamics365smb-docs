@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 06/21/2021
+ms.date: 09/06/2021
 ms.author: soalex
 
 ---
@@ -38,6 +38,9 @@ When you create a QR-bill you can include billing information in the SWICO forma
 ## Understanding the Payment Reference
 Payment processes are are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles this by generating a payment reference for QR-bills that are unique for invoices issued in a specific company, which means the same payment reference cannot be issued more than one time. If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.md)], the payment reference is imported when receiving QR-bills, transferred to the Vendor Ledger Entries page, and used as a reference when creating vendor payments. For more information, see [Receiving QR-Bills](ui-extensions-qr-bill-management.md#receiving-qr-bills). The flow is similar to the previous ESR Reference functionality that the QR-bills are replacing. Eventually, payment files (pain.001) will be sent from the customer's business app to their bank with the message to transfer the amounts to the vendor's account. The bank will produce a customer statement file (camt.054) that the vendor can import to reconcile accounts. This file will include the payment reference and is imported through the Data Exchange Framework that is updated by the QR-Bill Management extension to import camt.054 files.  
 For ESR references you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.
+
+## Using multiple bank accounts as issuers of QR-Bills
+Issuers of QR-Bills can use multiple bank accounts to route payments into different bank accounts. This is tied to the Payment Method on which you can specify the **QR-Bill Bank Account No.**. When specified, the IBAN/QR-IBAN information from this bank account will be used on QR-Bills that use the given Payment Method. This way you can route incoming payments into the desired bank account. If you do not use multiple bank accounts and specify the **QR-Bill Bank Account No.** on the Payment Method card, the QR-IBAN/IBAN information from Company Information is used on QR-Bills instead. Make sure you have at least your primary bank account information set up there.
 
 ## Scanning and Importing QR-Bills
 To scan or import a QR-bill, you must use one of the following types of scanning devices:

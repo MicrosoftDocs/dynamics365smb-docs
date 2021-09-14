@@ -24,10 +24,12 @@ If you have a Windows (PC) or macOS computer, you can install a Business Central
 > [!NOTE]
 > If you're using Business Central 2021 release wave 1 or earlier, get the app from [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
 
-## Get the app
+## Get the app (Business )
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in your browser.
-2. To the right of the browser's address bar, look for as icon or button, like **App available. Install Business Central** or **Install Business Central**, choose it, then choose install.
+
+    
+1. To the right of the browser's address bar, look for as icon or button, like **App available. Install Business Central** or **Install Business Central**, choose it, then choose **Install**.
 
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.

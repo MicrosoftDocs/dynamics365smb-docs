@@ -19,7 +19,7 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 > [!TIP]
-> Do want an app on the desktop of your Windows or macOS computer? See [Get the Business Central Desktop App](install-desktop-app.md).
+> Do want an app on your Windows or macOS computer desktop? See [Get the Business Central Desktop App](install-desktop-app.md).
 
 ## Get the app on my mobile device
 

@@ -1,16 +1,15 @@
 ---
 title: Get Business Central on Your Mobile Device
 description: This topic describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
-author: edupont04
-
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
 ---
 
 # Getting Business Central on Your Mobile Device
@@ -19,11 +18,12 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Do want an app on the desktop of your Windows or macOS computer? See [Get the Business Central Desktop App](install-desktop-app.md).
+
 ## Get the app on my mobile device
 
 1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
@@ -42,7 +42,6 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
 1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (PC only)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.

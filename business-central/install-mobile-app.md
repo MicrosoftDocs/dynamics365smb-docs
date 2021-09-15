@@ -23,7 +23,7 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 
 ## Get the app on my mobile device
 
-1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
+1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Launch the app from your mobile device.
@@ -40,7 +40,7 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
 
-1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.  
+1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
 
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)

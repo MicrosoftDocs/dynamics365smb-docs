@@ -157,7 +157,7 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |**Blank**|The user cannot perform the action on the object in question.|Lowest|
 
 > [!IMPORTANT]
-> Use caution when assigning **Insert Permission** or **Modify Permission** to the **9001 User Group Member** or **9003 User Group Permission Set** table. Any users assigned to the permission set could potentially assign themselves to other user groups, which in turn may give then unintended permissions.
+> Use caution when assigning **Insert Permission** or **Modify Permission** to the **9001 User Group Member** or **9003 User Group Permission Set** table. Any users assigned to the permission set could potentially assign themselves to other user groups, which in turn, may give then unintended permissions.
 
 ### Example - Indirect Permission
 

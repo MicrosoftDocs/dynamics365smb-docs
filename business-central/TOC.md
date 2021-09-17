@@ -330,6 +330,7 @@
 ## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
+## [Using Word Templates for Bulk Communication](ui-mail-merge.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)

@@ -127,9 +127,6 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     For more information, see [Document Conversion Overview](/universal-print/portal/document-conversion).
 
-    > [!TIP]
-    > If none of your printers require PDF content rendering format, we recommend that you don't enable document conversion because it might affect the print output quality.
-
 Now, you're ready to add the printers to  [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 
 ### Add Universal Printer printers to Business Central

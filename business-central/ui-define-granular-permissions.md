@@ -156,6 +156,9 @@ In each of the five access type fields, **Read Permission**, **Insert Permission
 |**Indirect**|The user can perform the action on the object in question but only through another related object that the user has full access to. For more information about indirect permissions, see [Permissions Property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Developer and IT-Pro Help|Second highest|
 |**Blank**|The user cannot perform the action on the object in question.|Lowest|
 
+> [!IMPORTANT]
+> Use caution when assigning **Insert Permission** or **Modify Permission** to the **9001 User Group Member** or **9003 User Group Permission Set** table. Any users assigned to the permission set could potentially assign themselves to other user groups, which in turn, may give them unintended permissions.
+
 ### Example - Indirect Permission
 
 You can assign an indirect permission to use an object only through another object.

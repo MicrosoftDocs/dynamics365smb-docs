@@ -49,32 +49,6 @@ If you uninstall an extension, and you then change your mind, you can install it
 
 Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md). All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.  
 
-Microsoft provides the following extensions:  
-
-* [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Company Hub](ui-extensions-company-hub.md)  
-* [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Essential Business Insights](ui-extensions-essential-business-insights.md)
-* [Image Analyzer](ui-extensions-image-analyzer.md)
-* [Intelligent Cloud](ui-extensions-data-replication.md)
-* [Intelligent Cloud Base](ui-extensions-intelligent-cloud.md)  
-* [Late Payment Predictions](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
-* [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
-* [VAT Group](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK - C5 Data Migration](ui-extensions-c5-data-migration.md)
-* [DK - Payments and Reconciliations](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK - Tax File Formats](ui-extensions-tax-file-formats-dk.md)
-* [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > You can keep an eye out for new extensions from Microsoft and other suppliers at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 

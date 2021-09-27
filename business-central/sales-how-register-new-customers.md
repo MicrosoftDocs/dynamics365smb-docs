@@ -22,11 +22,12 @@ Before you can register new customers, you must set up various sales codes that 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## Adding new customers
+You can add new customers manually, by filling out the fields on the **Customer Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of customer profiles. Using templates saves time when adding new customers, and helps ensure that the information is correct each time. If you create templates for more than one type of customer, you can choose the template to use when you add a customer. If you create only one template it will be used for all new customers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected customers. To create a template, you fill in the information that you want to reuse on the Customer Card page, and then save it as a template. For more information, see [To save the customer card as a template](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-To register a new customer, you must fill in a customer card. You can establish templates for different customer profiles, or you can add customers without templates. You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. For more information, see [Personalize Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> If customer templates exist for different customer types, then a page appears when you create a new customer card from where you can select an appropriate template. If only one customer template exists, then new customer cards always use that template.  
+You can also create a customer from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### To create a new customer card
 

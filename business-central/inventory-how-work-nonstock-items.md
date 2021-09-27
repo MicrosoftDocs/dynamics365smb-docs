@@ -47,7 +47,7 @@ To enable conversion of a catalog item card to a normal item card, you must firs
 2. Open the card for a catalog item that you want to convert to a normal item.
 3. On the **Catalog Item Card** page, choose the **Create Item** action.
 
-A new item card prefilled with information from the catalog item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
+A new item card pre-filled with information from the catalog item and a relevant item template is created. You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 ## To sell a catalog item, and convert it to a normal item
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
@@ -62,7 +62,7 @@ A new item card prefilled with information from the catalog item and a relevant 
 You can then fill or edit fields on the new item card as necessary. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number. For more information, see [Use Item Cross References](inventory-how-use-item-cross-refs.md).
+>   An item reference is automatically item between the vendor's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
 ## See Also
 [Register New Items](inventory-how-register-new-items.md)  

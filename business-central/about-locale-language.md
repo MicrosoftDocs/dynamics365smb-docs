@@ -29,7 +29,7 @@ Changing the texts that are stored as application data is not part of the multil
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Therefore some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. For instance, your environment may support only English and Russian characters and if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Changing the region
+## Changing your region setting
 Region is different from both language and legal requirements in local markets. Region determines how your data presents itself in terms of comma separator, aligned to the left or to the right, and certain other settings. The region also determines some of the system elements in the browser, such as the action to create a new item in a list, for example.  
 
 You can change the region in the browser tab that you are using to work in [!INCLUDE[prod_short](includes/prod_short.md)]. The change applies only to you and not to the other users in your company.  The choice of region will be reset to your setting on your Microsoft 365 profile if your administrator synchronizes users from Microsoft 365 into [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -38,6 +38,11 @@ You can change the region in the browser tab that you are using to work in [!INC
 > When you change the region, you will see a long list of languages and regions. However, the language is not influenced by the choice of region.  
 
 To change the region, go to the **My Settings** page. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
+
+## Changing the Region Setting for Customers, Contacts, and Vendors
+Some businesses use an external service that validates address information in their country or region. However, when you need to update address information, the structured approach that these services use may not always be what's right for some scenarios. Business Central offers a more flexible means of entering address details.
+
+On the **General Ledger Setup** page, if you turn on the **Require Country/Region Code in Address** toggle, changes to the **Country/Region Code** field on addresses for customers, contacts, or vendors will reset the values in other address fields.
 
 ## Application Version
 

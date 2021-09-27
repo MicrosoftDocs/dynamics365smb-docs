@@ -55,7 +55,7 @@ Some extensions are provided by Microsoft, and other extensions are provided by 
 
 ## Extensions and data transfer
 
-As the following extensions are communicating with other services they may transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
+Because the following extensions communicate with other services, they might transfer data out of the geography of the [!INCLUDE[prod_short](includes/prod_short.md)] environment:
 
 * AMC Banking 365 Fundamentals Extension
 * Image Analyzer
@@ -72,6 +72,12 @@ This also applies to some functionality in the base application, such as the fol
 * OCR Service
 * Online Map
 * EU VAT Reg. No. Service
+
+## Recommended Apps
+Microsoft partners and resellers can create an extensions that they can use to compile lists of apps that they often recommend to their customers. If they do, and have deployed the extension to your tenant, the apps will be available on the **Recommended Apps** page. There you can read about each app and decide whether to install them.
+
+> [!NOTE]
+> If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## See Also
 

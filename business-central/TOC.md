@@ -264,6 +264,11 @@
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
+#### Using OneDrive for Business with Business Central
+##### [Overview](across-onedrive-overview.md)
+##### [Managing OneDrive for Business Integration](admin-onedrive-integration.md)
+##### [Opening Business Central Files in OneDrive](across-share-onedrive.md)
+##### [OneDrive FAQ](admin-onedrive-faq.md)
 #### Using Power BI with Business Central
 ##### [Introduction](admin-powerbi.md)
 ##### Administrator
@@ -332,6 +337,7 @@
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
+## [Storing and Sharing Files in OneDrive](across-share-onedrive.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
 ## [Using Word Templates for Bulk Communication](ui-mail-merge.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
@@ -657,7 +663,7 @@
 ### [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)
 ### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
 ### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
-### [Use Item Cross References](inventory-how-use-item-cross-refs.md)
+### [Use Item References](inventory-how-use-item-cross-refs.md)
 ### [Block Items](inventory-how-block-items.md)
 ### [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
@@ -1607,6 +1613,7 @@
 ### [Logging Changes](across-log-changes.md)
 ### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
+### [Archive Data](admin-archive-data.md)
 ### [Defining Data Retention Policies](admin-data-retention-policies.md)
 ### [Publishing a Web Service](across-how-publish-web-service.md)
 ### [Configuring API Templates](admin-configuring-api-template.md)
@@ -1617,7 +1624,7 @@
 ### [Viewing Table Information](admin-view-table-information.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
-### [Sandbox Environments](across-how-create-sandbox-environment.md)
+### [Sandbox Environments](admin-sandbox-environments.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

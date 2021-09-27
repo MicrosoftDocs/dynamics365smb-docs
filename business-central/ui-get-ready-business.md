@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/27/2021
 ms.author: edupont
 ---
 # Getting Ready for Doing Business
@@ -27,7 +27,7 @@ You can also find the list of assisted setup guides if you choose the ![Lightbul
 
 ## Get started
 
-Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
+Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimized for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
@@ -38,7 +38,7 @@ If an area is not covered by an assisted setup, choose the ![Sprocket icon to op
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
+When you have run an assisted setup guide, it is marked as **Completed**.  
 
 ## Teaching tips and tours
 
@@ -80,8 +80,12 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 ## See also
 
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
+[Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
+[Trials and Subscriptions](across-preview.md)  
+[Business Functionality](across-business-functionality.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

@@ -28,13 +28,14 @@ Vendor cards hold the information that is required to buy products from the vend
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## Adding new vendors
+You can add new vendors manually, by filling out the fields on the **Vendor Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of vendor profiles. Using templates saves time when adding new vendors, and helps ensure that the information is correct each time. If you create templates for more than one type of vendor, you can choose the template to use when you add a vendor. If you create only one template it will be used for all new vendors. After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, you fill in the information that you want to reuse on the Vendor Card page, and then save it as a template. For more information, see [To save the Vendor Card page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-To register a new vendor, you must fill in a vendor card. You can establish templates for different vendor profiles, or you can add vendors without templates. You can also create a vendor from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> It can be helpful to personalize the **Vendor Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalize Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> If vendor templates exist for different vendor types, then a page appears when you create a new vendor card from where you can select an appropriate template. If only one vendor template exists, then new vendor cards always use that template.  
+You can also create a vendor from a contact. For more information, see [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### To create a new vendor card
+### To create a new vendor
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. On the **Vendors** page, Choose **New**.
@@ -51,9 +52,13 @@ The vendor is now registered, and the vendor card is ready to be used on purchas
 
 If you want to use this vendor card as a template when you create new vendor cards, you can save it as a vendor template. For more information, see the [To save the vendor card as a template](#to-save-the-vendor-card-as-a-template) section.
 
-### Deleting vendor cards
+### Deleting and editing vendor information
 
-If you have posted a transaction for a vendor, you cannot delete the card because the ledger entries may be needed for auditing. To delete vendor cards with ledger entries, contact your Microsoft partner to do so through code.
+You can edit the information on vendor cards at any time. However, if you have posted a transaction for a vendor, you cannot delete the card because the ledger entries may be needed for auditing. To delete vendor cards with ledger entries, contact your Microsoft partner to do so through code.
+
+> [!TIP]
+> You can change the IBAN on a vendor bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the Recipient IBAN, Recepient Bank Account No. that were specified in the Vendor Bank Account and Recipient Name fields from the Vendor Card page when the entries were created.
+
 
 ## To save the vendor card as a template
 

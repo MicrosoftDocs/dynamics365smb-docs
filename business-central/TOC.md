@@ -251,6 +251,7 @@
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Setting Up Connections
+#### [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md)
 #### Using Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)

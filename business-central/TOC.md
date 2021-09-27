@@ -41,7 +41,10 @@
 ##### [Design Details: Item Application](design-details-item-application.md)  
 ##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Design Details: Posting Date on Adjustment Value Entry
+###### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 ##### [Design Details: Average Cost](design-details-average-cost.md)  
 ##### [Design Details: Variance](design-details-variance.md)  

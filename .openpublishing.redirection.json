@@ -701,6 +701,11 @@
             "source_path": "business-central/admin-how-to-create-custom-company-configuration-packages.md",
             "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/across-how-create-sandbox-environment.md",
+            "redirect_url": "/dynamics365/business-central/admin-sandbox-environments",
+            "redirect_document_id": false
         }
 
     ]

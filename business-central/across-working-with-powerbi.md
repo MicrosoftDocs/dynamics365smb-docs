@@ -72,7 +72,7 @@ To learn how to create reports for list pages, see [Creating Power BI Reports fo
 
 A Power BI part on a page can display any Power BI report that's available to you. To switch to view another report, choose the **Select Report** action from the drop-down command list at the top of the part.  
 
-The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from your Power BI workspace. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
+The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from any of your own workspaces or workspaces that have been shared with you in the Power BI service. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
 
 ### Get more reports
 

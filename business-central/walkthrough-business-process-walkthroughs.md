@@ -20,7 +20,7 @@ This selection of walkthroughs provides step-by-step, end-to-end business proces
  The walkthroughs are complete scenarios, and should be performed from beginning to end for the greatest benefit. Many are based on [!INCLUDE[prod_short](includes/prod_short.md)] demonstrations, and enable you to try those procedures yourself, at your own pace.  
 
 > [!NOTE]
-> Some of the walkthroughs require sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Some of the walkthroughs require sample data that is not available in the default demonstration company in [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |To|See|  
 |--------|---------|  

@@ -46,6 +46,13 @@ This topic describes how to couple one or more records in [!INCLUDE[prod_short](
 > [!Note]
 > You can synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)] automatically only when **Sync. Only Coupled Records** is disabled and the synchronization direction is set to Bidirectional or From Integration Table on the **Integration Table Mapping** page for the record. For more information, see [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
 
+## To couple multiple records using match-based coupling
+You can specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. You can refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. For more information, see [Customize the Match-Based Coupling](admin-how-to-set-up-a-dynamics-crm-connection.md). 
+
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], open the list page for the record, such as the Customers or Contacts list pages.
+2. Choose the **Match-Based Coupling** action.
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## To synchronize multiple records  
 1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the list page for the record, such as the Customers or Contacts list pages.  
 2.  Select the records that you want to synchronize, and then choose the **Synchronize Now** action.  

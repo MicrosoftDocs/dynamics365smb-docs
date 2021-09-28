@@ -11,18 +11,44 @@ ms.date: 07/09/2021
 
 # Resources for Help and Support
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to the **Help & Support** page that can help you find answers to your questions. You can also see how you can contact technical support for your [!INCLUDE[prod_short](includes/prod_short.md)].  
+In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to a help pane that can help you find answers to your questions.  
 
-This page outlines the resources available to you in the different sections of the **Help and Support** page.  
+## Search in the help pane
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+2021 release wave 2 includes a new help pane that has a search tab. Use the search field to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows 5 or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+
+> [!NOTE]
+> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the help pane only applies to content that is published to the docs.microsoft.com site.
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content that is published to other websites, such as the websites of providers of any apps that mare installed in your [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## Help & Support page
+
+From the help pane, you can access the **Help & Support** page inside [!INCLUDE [prod_short](includes/prod_short.md)] that includes helpful links. You can also see how you can contact technical support for your [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+This section outlines the resources available to you in the different sections of the **Help and Support** page as outlined in the following list:
+
+- [Find Answers](#find-answers)  
+- [Product Help](#product-help)  
+- [Community](#community)  
+- [Blog](#blog)  
+- [Capabilities Coming Soon](#capabilities-coming-soon)  
+- [Do More with Your Trial](#do-more-with-your-trial)  
+- [Give Feedback](#give-feedback)  
+- [Troubleshooting](#troubleshooting)  
+- [Report a Problem](#report-a-problem)  
+- [Support contacts](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Find Answers
+### Find Answers
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
 
-### Product Help
+#### Product Help
 
 The **Find it** section includes two links to product Help:
 
@@ -33,36 +59,36 @@ The **Find it** section includes two links to product Help:
 
   The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#use-the-docsmicrosoftcom-site-to-learn-more) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Community
+#### Community
 
 In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
 If you do not yet have a partner, the Community can also help you get unblocked if you have questions. For example, if you just signed up for a trial, the Community can be a great starting point.  
 
-### Blog
+#### Blog
 
 We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including if there are special considerations.  
 
-### Capabilities Coming Soon
+#### Capabilities Coming Soon
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in [the release plans across Dynamics 365](/dynamics365/release-plans/).  
 
 For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
 
-## Do More with Your Trial
+### Do More with Your Trial
 
 This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
 > This section is only available in trial experiences. If you already bought [!INCLUDE[prod_short](includes/prod_short.md)], the section is not longer visible.
 
-## Give Feedback
+### Give Feedback
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central's engineering backlog for investigation and prioritization.  
 
 Make sure that you search through the list of submitted suggestions. Chances are that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
 
-## Troubleshooting
+### Troubleshooting
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. This includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
@@ -75,7 +101,7 @@ As the internal administrator, you have access to the administration center wher
 - [Monitoring and analyzing telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Enable sending telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-## Report a Problem
+### Report a Problem
 
 Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they have submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
 
@@ -118,9 +144,12 @@ The table of contents includes a group of content that describes [local function
 
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you cannot find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
+> [!TIP]
+> On the docs.microsoft.com site as well as in the in-product search field and in the help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
+
 ### Finding other content
 
-If you land on an article that doesn't answer your question, you can find other content in two ways:
+If you land on an article that doesn't answer your question, you can find other content in two ways on the docs.microsoft.com site:
 
 - Use the **Filter by title** field in the table of contents on the left side of the website
 

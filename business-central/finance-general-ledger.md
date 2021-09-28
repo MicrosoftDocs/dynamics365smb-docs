@@ -67,6 +67,9 @@ For example, the default balance statement has a subcategory for *Cash* under *C
 
 The next time you generate account schedules, your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.  
 
+## Getting a Quick Overview
+The Chart of Accounts page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have a lot of accounts you might have to do a bit of scrolling to view information for different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is now the same as you’ll find on the Chart of Accounts page (there are just fewer of them), so you won’t have to reorient yourself, and you can expand or collapse the hierarchical levels to condense the view. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the Chart of Accounts page.
+
 ## Access to create and edit accounts and account categories
 
 In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except users with a TEAM MEMBER license. However, in larger organizations, access to edit the chart of accounts is limited by roles and permissions. If you are an administrator, or you have the *Business manager* or *Accountant* role, you can check the permissions for all users to make sure the right people have access to the relevant tables. For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  

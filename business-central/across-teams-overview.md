@@ -46,6 +46,14 @@ Once in the conversation, you and coworkers can view more details about the reco
 
 For more information, see [Share Records in Microsoft Teams](across-working-with-teams.md).
 
+### Share links from pages in Business Central to Teams
+
+Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link to the Business Central page.
+
+![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+
+For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## Get Started
 
 1. A [!INCLUDE [prod_short](includes/prod_short.md)] online user account is required for [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams.
@@ -57,7 +65,7 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
-4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md). 
+4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## See Also
 

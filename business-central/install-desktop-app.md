@@ -30,11 +30,12 @@ If you have a Windows (PC) or macOS computer, you can install a Business Central
 
 2. To the right of the browser's address bar, look for an icon or button, like **App available. Install Business Central** or **Install Business Central**. Choose it, then choose **Install**.
 
+  | Microsoft Edge | Google Chrome |
+  |--|--|
+  | :::image type="content" source="../media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="../media/ui-chrome-install-app-v2.png.png" alt-text="illustration of a button for installing an app in Chrome."::: |
+
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.
-
-## Work with the app
-
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

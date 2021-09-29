@@ -16,11 +16,11 @@ ms.author: a-jillk
 
 # Business Central Quick Starts
 
-These Quick Start articles help you get started as soon as possible so that you can perform the basic functions that you need in [!INCLUDE[prod_short](includes/prod_short.md)].
+These quick start articles help you get started as soon as possible so that you can perform the basic functions that you need in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-The following sections take you to guides for beginners that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. In each Quick Start, find links to more advanced content about the functionality, should you need it.
+The following sections take you to guides for beginners that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. In each quick start, find links to more advanced content about the functionality, should you need it.
 
-## Provide Basic Information About Your Company
+## Provide basic information about your company
 
 The first step is to provide the basic information about your company. This includes information such as address, bank accounts, VAT number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
 

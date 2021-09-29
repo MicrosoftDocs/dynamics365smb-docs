@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 09/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ You can sign up for a free trial [here](https://go.microsoft.com/fwlink/?linkid=
 
 Depending on your country or region, the trial includes the languages and functionality that your country or region requires. For more information, see [Changing Language and Locale](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started page with links to assisted setup guides that can help you get started. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started page with links to assisted setup guides that can help you get started. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) and the [quick starts](quick-start-business-central.md) articles.  
 
 If you encounter difficulties, the [Frequently Asked Questions](across-faq.yml) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](/dynamics365/business-central/across-faq#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
 
@@ -39,7 +39,7 @@ If 30 days are not enough for you to decide, you can extend your trial. For more
 
 ### Setting Up Your Company in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-To help you set up your company, the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
+The [quick start](quick-start-business-central.md) articles can help you take the first steps into setting up [!INCLUDE [prod_short](includes/prod_short.md)] for your organization. Inside [!INCLUDE [prod_short](includes/prod_short.md)], the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
 
 | Assisted Setup | Description |
 | -------------- | ----------- |
@@ -92,10 +92,9 @@ Right now, all customers can use a sandbox, including organizations who have sig
 
 The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and your reselling partner can create more environments in the administration center. For more information, see [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-
-
 ## See Also
 
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

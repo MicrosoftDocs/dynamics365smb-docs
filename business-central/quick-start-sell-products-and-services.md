@@ -20,7 +20,7 @@ To be able to sell products and services, you must first set up items and custom
 
 ## Set up items to sell
 
-This video shows you how to set up an item to sell in [!INCLUDE[prod_short](includes/prod_short.md)].
+This video shows how to set up an item to sell in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br>
 

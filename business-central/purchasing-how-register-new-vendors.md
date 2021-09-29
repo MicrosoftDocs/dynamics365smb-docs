@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
 
 ---
@@ -37,16 +37,10 @@ You can also create a vendor from a contact. For more information, see [To creat
 
 ### To create a new vendor
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
-2. On the **Vendors** page, Choose **New**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    If more than one vendor template exists, then a page opens from which you can select a vendor template. In that case, follow the next two steps.
-    1. On the **Select a template for a new vendor** page, choose the template that you want to use for the new vendor card.
-    2. Choose the **OK** button. A new vendor card opens with some fields filled with information from the template.
-3. Proceed to fill or change fields on the vendor card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Vendor No.** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
+> [!TIP]  
+> If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Vendor No.** field. Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.
 
 The vendor is now registered, and the vendor card is ready to be used on purchase documents.
 

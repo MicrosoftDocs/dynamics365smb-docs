@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
 
 ---
@@ -31,15 +31,7 @@ You can also create a customer from a contact. For more information, see [To cre
 
 ### To create a new customer card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
-2. On the **Customers** page, choose the **New** action.
-
-    If only one customer template exists, then a new customer card opens with some fields filled with information from the template.
-
-    If more than one customer template exists, then a page opens from which you can select a customer template. In that case, follow the next two steps.
-3. On the **Select a template for a new customer** page, choose the template that you want to use for the new customer card.
-4. Choose the **OK** button. A new customer card opens with some fields filled with information from the template.  
-5. Proceed to fill or change fields on the customer card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 The **Prices & Discounts** action provides options for managing special prices or discounts for the customer when an order meets certain criteria. For example, the criteria might be when they're purchasing a certain item, ordering a minimum quantity, or buying before a date, such as when a campaign ends. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 

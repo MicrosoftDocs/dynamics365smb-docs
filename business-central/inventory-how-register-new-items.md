@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.date: 07/29/2021
+ms.date: 09/24/2021
 ms.author: edupont
 
 ---
@@ -36,13 +36,7 @@ The following procedure explains how to create an item card from scratch. You ca
 
 ## To create a new item card
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. On the **Items** page, choose the **New** action.
-
-    If only one item template exists, then a new item card opens with some fields filled with information from the template.
-3. On the **Select a template for a new item** page, choose the template that you want to use for the new item card.
-4. Choose the **OK** button. A new item card opens with some fields filled with information from the template.
-5. Proceed to fill or change fields on the item card as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).

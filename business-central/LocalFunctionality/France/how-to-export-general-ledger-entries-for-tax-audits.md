@@ -47,9 +47,10 @@ If you do not close your fiscal year or do not run the **Close Year** action bef
 
 When you create the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
 
-The report will have the following name: <taxpayername>FEC<YYYYMMDD>  
+The report will have the following name: `<taxpayername>FEC<YYYYMMDD>`  
 
-## See Also  
+## See Also
+
  [Close Years](how-to-close-years.md)
 
 

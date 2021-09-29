@@ -97,6 +97,12 @@
 ### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
 
+## Quick Starts
+### [Business Central Quick Starts](quick-start-business-central.md)
+### [Set up Company Information](quick-start-company-information.md)
+### [Sell Products and Services](quick-start-sell-products-and-services.md)
+### [Buy Products and Services](quick-start-procurement.md)
+
 <!--setup-->
 ## Setting Up Business Central
 ### [Overview of Tasks](setup.md)

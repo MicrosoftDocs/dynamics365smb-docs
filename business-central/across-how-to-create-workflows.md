@@ -132,7 +132,7 @@ In the following example a new workflow is made to approve changes to the name o
     2. In the **On Condition** field, choose the word **Always**, and then, in the **Event Conditions** page, choose the **Add a condition for when a field value changes** link, and then select the *Name* field.  
 
       The result of this step is that the condition reads as *Name is Changed*.  
-    3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Revert the value of the <Field> field on the record and save the change* response, and then, in the **Options for the Selected Response** section, specify the *Name* field.  
+    3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Revert the value of the \<Field\> field on the record and save the change* response, and then, in the **Options for the Selected Response** section, specify the *Name* field.  
     4. Choose the **Add More Responses** link, and then add an entry for the *Create an approval request for the record using approver type <%1> and <%2>.* response.  
     5. In the **Options for the Selected Response** section for the new response, change the **Approver type** field to *Workflow User Group*, and then, in the **Workflow User Group** field, specify the relevant user group.  
 

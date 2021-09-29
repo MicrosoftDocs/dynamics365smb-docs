@@ -28,7 +28,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  You can create questionnaires for setup-type tables only. For example you can use the tool to provide information to the following pages:  
@@ -46,9 +46,9 @@ You can use a questionnaire to help you determine the scope and needs of configu
 -   Warehouse Setup  
 
 > [!NOTE]  
->  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
+>  To see a complete list of setup tables, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Setup**, and then choose the related link. To determine the scope of migration of records data, use migration functionality. For more information, see [Migrating Customer Data](admin-migrate-customer-data.md).  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and choose the related link.  
 2. Choose the **New** action.   
 3. On the **Configuration Questionnaire** page, in the **Code** field, enter... 
 <!--4. In the **Name** field, enter...
@@ -78,7 +78,7 @@ You can use a questionnaire to help you determine the scope and needs of configu
 5. In the **Table ID** field, choose the ID of the table for which you want to collect information. The **Table Name** field is automatically filled in.  
 6. Choose the **Update Questions** action. Each field in the table is added to the questionnaire with a question mark following its label.
 
-You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of <data being collected>." You can also provide guidance in the **Reference** field, including a URL to a page that provides additional information.  
+You can rephrase the label to make it clear how the question should be answered. For example, if a field is called "Name," you could edit it to state "What is the name of \<data being collected\>." You can also provide guidance in the **Reference** field, including a URL to a page that provides additional information.  
 
 You can also delete any questions that you do not want to include in the questionnaire.  
 
@@ -94,7 +94,7 @@ You use the configuration questionnaire to structure and document a detailed dis
 >  You can also create your own configuration questionnaire to meet your needs.  
 
 1. Open the company that you want to complete the questionnaire for.
-2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
+2. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link.  
 3. Select the questionnaire for the company, and then choose the **Export to Excel** action, optionally the **Export to XML** action.
 4. Have the customer complete the configuration questionnaire by entering the answers in the Excel workbook. There are worksheets for each of the question areas that have been created for the questionnaire.   
 5. Save the Excel workbook as *XML Data*. Choose the **Import from XML** action, and select the .xml file with the customer's answers.
@@ -127,15 +127,16 @@ When you have completed your validation, the data is ready to be applied to the 
 ## To apply answers from the configuration questionnaire
 After you have imported and validated information from a configuration questionnaire, you can transfer, or apply the setup data to the corresponding tables in the [!INCLUDE[prod_short](includes/prod_short.md)] database.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Questionnaire**, and then choose the related link. The **Config. Questionnaire** page opens.  
 2. Select a configuration questionnaire from the list, and then choose the **Edit List** action.  
 3. You can apply answers in one of two ways.  
 
 - To apply the whole questionnaire, choose the **Apply Answers** action.  
 - To apply answers for a specific **Question Area** only, choose the **Question Areas** action, select a **Question Area** in the list, and then choose the **Apply Answers** action.  
 
-### To verify that answers have been applied successfully  
-1. Check setup pages for the various functional areas of [!INCLUDE[prod_short](includes/prod_short.md)]. To locate the page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the setup page, and then choose the related link.  
+### To verify that answers have been applied successfully
+
+1. Check setup pages for the various functional areas of [!INCLUDE[prod_short](includes/prod_short.md)]. To locate the page, choose the ![Lightbulb that opens the Tell Me feature 5](media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of the setup page, and then choose the related link.  
 2. Verify that the fields have been populated with the correct data from the various question areas in the configuration questionnaire.  
 
 You have now configured setup with the customer’s business information and rules.

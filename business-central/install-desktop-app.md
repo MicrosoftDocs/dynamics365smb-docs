@@ -29,7 +29,9 @@ The Business Central app resembles the web client, but it provides a few benefit
 
 ## Get the app
 
-1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in your browser.
+1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in either Microsoft Edge or Google Chrome.
+
+    Safari and Firefox don't support installing the app.
 
 2. To the right of the browser's address bar, depending the your browser. select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
 

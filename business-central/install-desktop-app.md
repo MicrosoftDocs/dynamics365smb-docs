@@ -35,7 +35,7 @@ The Business Central app resembles the web client, but it provides a few benefit
 
   | Microsoft Edge | Google Chrome |
   |--|--|
-  | :::image type="content" source="media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="media/ui-chrome-install-app-v2.png.png" alt-text="illustration of a button for installing an app in Chrome."::: |
+  | :::image type="content" source="media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="media/ui-chrome-install-app-v2.png" alt-text="illustration of a button for installing an app in Chrome."::: |
 
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.

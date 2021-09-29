@@ -172,7 +172,7 @@ For each language, the table of contents is translated, but the content in the *
 
 ### Recommended content
 
-In March 2021, a new section appeared under most articles on the docs.microsoft.com site. The **Recommended content** section is automatically generated based on how each article is used with the rest of the site. The links are not static and will change over time.
+In March 2021, a new section appeared under most articles on the docs.microsoft.com site. The **Recommended content** section is automatically generated based on how each article is used with the rest of the docs.microsoft.com site. The links are not static and change over time.
 
 ### Tell us what you think
 
@@ -197,6 +197,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 ## See Also
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Business Central Quick Starts](quick-start-business-central.md)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  

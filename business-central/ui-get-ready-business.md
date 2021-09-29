@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/27/2021
+ms.date: 09/29/2021
 ms.author: edupont
 ---
 # Getting Ready for Doing Business
@@ -27,7 +27,7 @@ You can also find the list of assisted setup guides if you choose the ![Lightbul
 
 ## Get started
 
-Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimized for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
+When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimized for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
@@ -75,10 +75,11 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## Next steps
 
-Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
+Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
 
 ## See also
 
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Accessibility and Keyboard Shortcuts](ui-accessibility.md)  

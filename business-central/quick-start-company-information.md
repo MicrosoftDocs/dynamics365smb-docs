@@ -11,7 +11,6 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: a-jillk
-
 ---
 
 # Company Information Quick Start
@@ -22,7 +21,7 @@ You can enter all relevant data on the **Company Information** page when you set
 
 ## To set up company information  
 
-1. Choose the the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, and then choose the **Company Information** action.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) menu, and then choose the **Company Information** action.
 2. Enter the information into the FastTabs as described in the following table.
 
     |Field|Description|  

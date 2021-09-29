@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Calculating Work in Process for a Job | Microsoft Docs
+    title: Walkthrough - Calculating Work in Process for a Job
     description: Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
     author: SorenGP
 
@@ -48,7 +48,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 |Field|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Leave blank if the job task is a part of a group of tasks.|  
+|**\<blank\>**|Leave blank if the job task is a part of a group of tasks.|  
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
 |**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
 

@@ -65,7 +65,7 @@ By default these three fields will be populated with values taken from the vendo
 When the invoice is finished it can be posted.  
 
 ### Example  
-When creating a purchase invoice for Olek Johansson we enter **OLEK** in the **Buy-from Vendor No.** field. By default the **Currency Code**, **Transaction Mode** and **Bank Account** fields will be populated with values taken from the Olek Johansson's vendor card. Therefore, the **Currency Code**, **Transaction Mode** and **Bank Account** fields will be **<empty>**, **ABN** and **OJBA** respectively. Nevertheless, these values can be changed.  
+When creating a purchase invoice for Olek Johansson we enter **OLEK** in the **Buy-from Vendor No.** field. By default the **Currency Code**, **Transaction Mode** and **Bank Account** fields will be populated with values taken from the Olek Johansson's vendor card. Therefore, the **Currency Code**, **Transaction Mode** and **Bank Account** fields will be **\<empty\>**, **ABN** and **OJBA** respectively. Nevertheless, these values can be changed.  
 
 ## Create Proposal  
 Open the **Telebank - Bank Overview** page and browse to the bank through which we want to perform our payment. Open the **Proposal** page and generate payment proposals using the **Get Proposal Entries** batch job.  

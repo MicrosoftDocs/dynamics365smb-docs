@@ -13,16 +13,19 @@ ms.author: jswymer
 ---
 # Get Business Central Desktop App
 
-If you have a Windows (PC) or macOS computer, you can install a Business Central app on your desktop. The Business Central app resembles the web client, but it provides a few benefits like:
+If you have a Windows (PC) or macOS computer, you can install a Business Central app on your desktop. 
+> [!NOTE]
+> If you're using Business Central 2021 release wave 1 or earlier, get the app from [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+
+## Why use the app?
+
+The Business Central app resembles the web client, but it provides a few benefits like:
 
 - The app is readily available from the **Start** menu, you can easily pin it to the task bar, or have it launch by default when you start your computer.
 - The app opens in its own window, independent of any browser windows, which makes it easier to find when running a large number of apps or browser tabs.
 - In general, the app also is a faster and smoother to render on screen, with no performance differences, compared to running Business Central in the browser.
 - When working across multiple Business Central windows or multitasking, each window is displayed separately.
 - When working with several named environments, the name is added to the windows title making it easier for you to see which window is associated with an environment.
-
-> [!NOTE]
-> If you're using Business Central 2021 release wave 1 or earlier, get the app from [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
 
 ## Get the app
 

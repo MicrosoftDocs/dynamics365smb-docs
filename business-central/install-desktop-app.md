@@ -33,7 +33,12 @@ The Business Central app resembles the web client, but it provides a few benefit
 
     Safari and Firefox don't support installing the app.
 
-2. To the right of the browser's address bar, depending the your browser. select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
+2. If the page for selecting the environment appears, you can do one of two things
+
+  - Select the environment and go to the next step to install the app. In this case, the installed app will directly open the the environment you select.
+  - Don't select the environment at this time and just go to next step to install the app. In this case, the installed app will always open the environment selection page, instead of a specific enviroment. 
+
+3. To the right of the browser's address bar, depending the your browser. select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
 
   | Microsoft Edge | Google Chrome |
   |--|--|
@@ -41,6 +46,8 @@ The Business Central app resembles the web client, but it provides a few benefit
 
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.
+
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

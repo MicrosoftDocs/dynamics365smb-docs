@@ -86,6 +86,8 @@ The following topics describe the local functionality in the Indian version of [
     * [TDS Provisional Entry](TDS-Provisional-Entries.md) **Available Now**
     * [TDS Adjustment Entry](TDS-Adjustment-Entries.md) **Available Now**
     * [TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md) **Available Now**
+    * [TDS 194Q Section Overview](TDS-194Q-Section-Overview.md) **Available Now**
+    * [TDS 194Q Transactions](TDS-194Q-Transactions.md) **Available Now**
 
 * TDS for Customer
     * [TDS for Customer Overview](TDS-for-Customer-Overview.md) **Available Now**
@@ -121,11 +123,16 @@ The following topics describe the local functionality in the Indian version of [
     * [Create GST Liability](Subcontracting-Create-GST-Liability.md) **Available Now**
     * [Subcontracting Report](Subcontracting-Reports.md) **Available Now**
     
-* Stale Cheque **Comming Soon**
+    
+* Stale Cheque
+    * [Stale Cheque](Stale-Check.md) **Available Now**
 
-
-
-
+* Business Central IN Data Migration Toolkit
+    * [IN Data Migration from NAV 2016 IN to Business Central 14](India-Data-Migration-NAV-2016-to-BC14.md) **Available Now**
+    * [IN Data Migration from Business Central 14 to Business Central 19 On-Prem](India-Data-Migration-BC14-to-BC19-on-Prem.md) **Available Now**
+    * [IN Data Migration from Customized, BC 14 to BC 19 On-Prem](India-Data-Migration-Customized-BC14-to-BC19-on-Prem.md)  **Available Now**
+    * [IN Data Migration from Business Central Business Central 19 On-Prem to Cloud](India-Data-Migration-BC19-on-Prem-to-Cloud.md) **Available Now**
+    * [IN Data Migration List of Deprecated Tables](India-Data-Migration-List-of-deprecated-tables.md) **Available Now**
 
 ## See Also
 [Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

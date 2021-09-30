@@ -1190,6 +1190,8 @@
 ##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [TDS 194Q Section Overview](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q Transactions](LocalFunctionality/India/TDS-194Q-Transactions.md)
 ##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
 ##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher Interface
@@ -1207,6 +1209,7 @@
 ##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Create GST Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)

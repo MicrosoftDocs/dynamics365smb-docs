@@ -1,6 +1,6 @@
 ---
     title: Setting up Tax Deducted at Source by Customer, as per the provisions of the Income Tax Act, 1961
-    description: Specifies Basic Setups required, as per the provisions of the Income Tax Act, 1961
+    description: Describes the basic setups required according to the Income Tax Act, 1961.
 
     author: v-debapd
 

@@ -49,7 +49,14 @@ Once installed, the app appears in the **Start** menu. If you've selected a spec
 
 ### For Business Central on-premises
 
-Installing the app when you're using Business Central on-premises is basically the same as described above. The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can choose the environment, with on-premises, you switch tenants by adding `?tenant=tenant_name` to the URL in the browser address. Also, you can only install the app for one tenant. So before you install the app, make sure that you've opened the correct tenant. Once installed, the app will open the tenant directly.
+Installing the app when you're using Business Central on-premises is basically the same as described above. If you only have one tenant, just open the Business Central in your browser, then select either ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** as shown above. 
+
+The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app environment, with on-premises you can only install the app for one tenant. You switch a tenant by adding `?tenant=tenant_ID` to the URL in the browser address, where `tenant_ID` is the ID assigned to the tenant. So before you install the app when you have multiple tenants, be sure to open the correct tenant. Once installed, the app will open the tenant directly.
+
+> [!IMPORTANT]
+> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see the  otherwise, you won't see the ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
+
+
 <!--
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.

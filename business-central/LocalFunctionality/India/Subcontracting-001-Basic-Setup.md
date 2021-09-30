@@ -48,6 +48,7 @@ Following setups are required for Subcontracting:
 - [General Ledger Setup](subcontracting-001-basic-setup.md#setting-up-general-ledger-setup)
 - [Work Center](subcontracting-001-basic-setup.md#setting-up-work-center)
 - [Routing](subcontracting-001-basic-setup.md#setting-up-routing)
+- [GST liability no series setup](subcontracting-001-basic-setup.md#gst-liability-no-series-setup)
 
 
 ## Subcontracting location setup
@@ -116,8 +117,12 @@ You need to create a Routing for finished item. Routing defines the sequence of 
 3. On the  Lines tab, enter the job work charges in the **Unit Cost Per** field.
 
 
+## GST liability no series setup
 
+No. series for GST liability invoice is setup on location master. You can define location wise number series for GST liability invoices.
 
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.
+2. On the **Tax Information** FastTab, select **No. series code** in the **GST Liabilty Invoice** field.
 
 ## See Also 
 [Subcontracting Transactions](Subcontracting-Transactions.md)

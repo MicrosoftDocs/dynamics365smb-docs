@@ -1,6 +1,6 @@
 ---
     title: Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961
-    description: Specifies Basic Setups required, as per the provisions of the Income Tax Act, 1961
+    description: Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.
 
     author: v-debapd
 

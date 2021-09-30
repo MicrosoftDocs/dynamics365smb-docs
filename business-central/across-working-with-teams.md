@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: jswymer
 ---
 
-# Sharing Business Central Records and Page links in Microsoft Teams
+# Sharing Business Central Records and Page Links in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 

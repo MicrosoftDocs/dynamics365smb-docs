@@ -6,7 +6,7 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
     
 title: Frequently Asked Questions about Using Business Central
@@ -38,7 +38,7 @@ sections:
           
           From the community home page, you can also find links to our blogs where you can also find tips and tricks. For more information, see [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/business/b/financials).  
           
-          Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#hdigetsupport) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  
+          Finally, you can contact your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner. For more information, see the [How do I get technical support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) and [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) sections.  
           
       - question: |
           Why can't I find that capability in my Business Central?

@@ -56,7 +56,7 @@ As mentioned above, many fields and much of the data needed for the report does 
 
 #### To find vendor ledger entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Ledger Entries**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Ledger Entries**, and then choose the related link.  
 2. Filter the view to include entries within the reporting period.
 3. Use the **Filter Totals** and use the **Date Filter** to specify a range that exceeds the reporting period. You can use this to exclude invoices from the list that have not yet been paid, by comparing the **Original Amount** and **Remaining Amount** fields. 
 4. Filter the list to show only invoices by setting a filter on **Document Type**.

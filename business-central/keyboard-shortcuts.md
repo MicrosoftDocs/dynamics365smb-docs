@@ -20,7 +20,7 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts 
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
-> [ ![Icon for the PDF file](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
+> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
 
 ## Overview
 
@@ -50,7 +50,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
-|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
@@ -84,22 +84,22 @@ The following table describes the keyboard shortcuts that you can use on a list 
 
 Grids containing rows and columns exist on many page types in [!INCLUDE[prod_short](includes/prod_short.md)], such as list pages and **Lines** parts on documents. Moving from one cell to another across a grid is fully keyboard-enabled.
 
-|Press these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+Ctrl+Left Arrow)|Select the first row in the list; focus remains in the same column.|Move to the first tile in the first row. |
-|Ctrl+End<br />(Fn+Ctrl+Right Arrow)|Select the last row in the list; focus remains in the same column.|Move to the last tile in the last row.|
-|Home<br />(Fn+Left Arrow)|Move to the first field in the row.|Move to the first tile in the row.|
-|End<br />(Fn+right Arrow)|Move to the last field in the row.|Move to the last tile in the row.|
-|Enter|Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record.|Opens the record.<br /><br />Only relevant if a card page is associated with the record.|
-|Ctrl+Enter|Move focus to the next element outside the list.|Move focus to the next element outside the list.|
-|Page Up<br />(Fn+Up Arrow)|Scroll to display the set rows above the current rows in view. |Scrolls to display the set of tiles above the current tiles in view. |
-|Page Down<br />(Fn+Down Arrow)|Scroll to display the set rows below the current rows in view.|Scroll to display the set of tiles below the current tiles in view.|
-|Down Arrow|Move in the same column to the field in the row below. |Move in the same column to the tile in the row below. |
-|Up Arrow|Move in the same column to the field in the row above.| Move in the same column to the tile in the row above.  |
-|Right Arrow|In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field.| Move in the same row to the next tile to the right. |
-|Left Arrow|In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field.| Move in the same row to the previous tile to the left. |
-|Tab|In editable list, move in the same row to the next field to the right.|Not applicable.||
-|Shift+Tab|In editable list, move in the same row to the previous field to the left. | Not applicable. |
+| Press these keys<br />(in macOS) | To do this in a list view | To do this in a tile view |
+|--|--|--|
+| Ctrl+Home<br />(Fn+Ctrl+Left Arrow) | Select the first row in the list; focus remains in the same column. | Move to the first tile in the first row. |
+| Ctrl+End<br />(Fn+Ctrl+Right Arrow) | Select the last row in the list; focus remains in the same column. | Move to the last tile in the last row. |
+| Home<br />(Fn+Left Arrow) | Move to the first field in the row. | Move to the first tile in the row. |
+| End<br />(Fn+right Arrow) | Move to the last field in the row. | Move to the last tile in the row. |
+| Enter | Open the record that is associated with the field.<br /><br />Only relevant if a card page is associated with the record. | Opens the record.<br /><br />Only relevant if a card page is associated with the record. |
+| Ctrl+Enter | Move focus to the next element outside the list. | Move focus to the next element outside the list. |
+| Page Up<br />(Fn+Up Arrow) | Scroll to display the set rows above the current rows in view. | Scrolls to display the set of tiles above the current tiles in view. |
+| Page Down<br />(Fn+Down Arrow) | Scroll to display the set rows below the current rows in view. | Scroll to display the set of tiles below the current tiles in view. |
+| Down Arrow | Move in the same column to the field in the row below. | Move in the same column to the tile in the row below. |
+| Up Arrow | Move in the same column to the field in the row above. | Move in the same column to the tile in the row above. |
+| Right Arrow | In a view-only list, move in the same row to the next field to the right.<br /><br />In an editable list, move to the right within the current field. | Move in the same row to the next tile to the right. |
+| Left Arrow | In a view-only list, move in the same row to the previous field to the left. <br /><br />In an editable list, move to the left within the current field. | Move in the same row to the previous tile to the left. |
+| Tab | In editable list, move in the same row to the next field to the right. | Not applicable. |  |
+| Shift+Tab | In editable list, move in the same row to the previous field to the left. | Not applicable. |
 
 ### <a name="CopyRows"></a>Selecting, Copying, and Pasting
 

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
 ---
 # Getting Ready for Doing Business
@@ -18,27 +18,27 @@ Congratulations, you have just initiated your first company in [!INCLUDE[prod_sh
 
 To help you get ready for doing business, you can visit the **Assisted Setup** page where you can launch assisted setup guides, videos, or help topics for selected setup tasks. To access the page, simply choose [this link](https://businesscentral.dynamics.com/?page=1801).  
 
-Alternatively, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
+Alternatively, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Assisted Setup** action.
 
-You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
+You can also find the list of assisted setup guides if you choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ## Get started
 
-Starting with 2021 release wave 1, when you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)].  
+When you sign in for the first time or launch a new company, the **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country and any industry-specific functionality that you have added to your [!INCLUDE [prod_short](includes/prod_short.md)]. Starting with 2021 release wave 2, when you first sign in to the CRONUS demonstration company, your home page is optimized for your first experiences. If you prefer to see more links to more pages, just switch to the Business Manager role. For more information, see [Change Basic Settings](ui-change-basic-settings.md).  
 
 Once you have migrated data, such as vendors, customers, and items from your existing financial system, you are ready to begin. But depending on your needs, consider if other assisted setup guides on the list can help you.
 
-If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+If an area is not covered by an assisted setup, choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then the **Advanced Settings** action. In **Advanced Settings**, the **Manual Setup** section provides access to setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > The list of assisted setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does.
 >
 > The first time you sign in, you use the **Essential** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-When you have run an assisted setup guide, it is marked as **Completed**. <!--VERIFY-->  
+When you have run an assisted setup guide, it is marked as **Completed**.  
 
 ## Teaching tips and tours
 
@@ -75,13 +75,18 @@ When users are created in Microsoft 365, they can be imported into the **Users**
 
 ## Next steps
 
-Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration.
+Based on your migrated data, you can now proceed to create new sales or purchase documents. Use the **Actions** section of your home page to quickly create a new sales quote, sales invoice, sales order, purchase invoice, or payment registration. Check out the [quick start](quick-start-business-central.md) articles to help you take the first steps.  
 
 ## See also
 
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Change Basic Settings](ui-change-basic-settings.md)  
+[Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
+[Trials and Subscriptions](across-preview.md)  
+[Business Functionality](across-business-functionality.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

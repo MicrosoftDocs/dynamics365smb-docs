@@ -36,8 +36,9 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     - It is possible to remove applications from more than one entry at a time in the application worksheet. However, because applying entries affects the set of entries that are available for application, you cannot create an application for more than one entry at a time.
     - The application worksheet cannot make an application in the following situation: If there is not enough quantity on stock to apply, the application worksheet cannot make an application when you are trying to apply an inventory decrease entry without item tracking information to an inventory increase entry with item tracking information.
 
-## To remove an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
+## To remove an item application by using the Application Worksheet
+
+1.  Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  Enter filters on the **General** FastTab to make it easier to find the item ledger entry for which you want to change the application.  
 4.  Select the item ledger entry, and then choose the **Applied Entries** action. The **View Applied Entries – Applied Entries** page opens to show the item ledger entry or entries that are currently applied to the selected entry.  
@@ -50,10 +51,11 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
 > [!IMPORTANT]  
 >  You should not leave application entries unapplied for longer periods of time because other users cannot process the affected items until you reapply the application entries or close the **Application Worksheet** page. The following error message is displayed if you try to perform actions that involve a manually unapplied application entry:  
 >   
->  **You cannot perform this action because entries for item <item> are unapplied in the Application Worksheet by user <user>.**  
+>  **You cannot perform this action because entries for item \<item\> are unapplied in the Application Worksheet by user \<user\>.**  
 
-## To reapply an item application by using the Application Worksheet  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
+## To reapply an item application by using the Application Worksheet
+
+1.  Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Application Worksheet**, and then choose the related link.  
 2.  The **Application Worksheet** page opens displaying existing item ledger entries for all items.  
 3.  To reapply entries that were removed since the worksheet was opened, select the item ledger entry that you want to reapply, and then choose the **Reapply** action.  
 
@@ -68,7 +70,8 @@ If you cannot use a document to reapply, such as when you have to correct a fixe
     >  If you have chosen to make an application that would create an infinite loop in the cost adjustment process, then the application that you proposed is not made. This can occur when the original entries created negative stock. The application is not made. Therefore, you must select a different entry for the application.  
 6.  If the **Automatic Cost Adjustment** field in the **Inventory Setup** is set to **Always**, then the cost adjustment batch job is automatically run after you make a reapplication. Otherwise, run the **Adjust Cost - Item Entries** batch job to make sure that all costs are up to date.  
 
-## See Also  
+## See Also
+
 [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   

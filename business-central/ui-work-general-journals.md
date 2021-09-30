@@ -148,7 +148,7 @@ When you have created journal lines which you know you are likely to create agai
 >   The following procedure refers to the item journal, but the information also applies to the general journal.
 
 ### To save a standard journal
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Enter one or more journal lines.
 3. Select the journal lines that you want to reuse.
 4. Choose the **Save as Standard Journal** action.
@@ -164,7 +164,7 @@ When you have finished saving the standard item journal, the Item Journal page i
 
 ### To reuse a standard journal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Choose the **Get Standard Journals** action.
 
     The Standard Item Journals page opens showing codes and descriptions for all existing standard item journals.
@@ -201,7 +201,7 @@ Any renumbering of document numbers will respect related applications, such as a
 
 The following procedure is based on the **General Journal** page, but applies to all other journals that are based on the general journal, such as the **Payment Journal** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journals**, and then choose the related link.
 2. When you are ready to post the journal, choose the **Renumber Document Numbers** action.
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can proceed to post the journal.

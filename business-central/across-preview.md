@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ You can sign up for a free trial [here](https://go.microsoft.com/fwlink/?linkid=
 
 Depending on your country or region, the trial includes the languages and functionality that your country or region requires. For more information, see [Changing Language and Locale](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started page with links to assisted setup guides that can help you get started. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], some things will be familiar to you, and other things might be unfamiliar. When you first sign in to the demonstration company, you get access to a Get Started page with links to assisted setup guides that can help you get started. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md) and the [quick starts](quick-start-business-central.md) articles.  
 
 If you encounter difficulties, the [Frequently Asked Questions](across-faq.yml) page can help you answer some of your questions. If you are unable to sign up for the trial, the [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md) page can help. You can also contact a [partner](/dynamics365/business-central/across-faq#findpartner) and ask them to create a free trial or a different type of preview of [!INCLUDE[prod_short](includes/prod_short.md)] for you.  
 
@@ -31,15 +31,15 @@ If you decide not to use [!INCLUDE [prod_short](includes/prod_short.md)], you ca
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### Try Out Your Own Company
+### Add Your Own Data to an Empty Trial Company
 
-If you want to try out [!INCLUDE[prod_short](includes/prod_short.md)] with your own data, you can switch to a free 30 day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE[prod_short](includes/prod_short.md)] with your own data. However, we recommend that you do not use a free trial to help run your business. Contact [a reselling partner](/dynamics365/business-central/across-faq#findpartner) to learn more about how to get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
+If you want to try out [!INCLUDE[prod_short](includes/prod_short.md)] with your own data, you can switch to a free 30-day trial with an empty company. The **Set up my company** assisted setup guide can help you specify basic information about your business. Optionally, you can import data from your existing business management solution so that you can evaluate [!INCLUDE[prod_short](includes/prod_short.md)] with your own data. However, we recommend that you do not use a free trial to help run your business. Contact [a reselling partner](/dynamics365/business-central/across-faq#findpartner) to learn more about how to get started with [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 If 30 days are not enough for you to decide, you can extend your trial. For more information, see [Need More Time to Decide Whether to Subscribe?](admin-extend-trial.md).  
 
 ### Setting Up Your Company in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-To help you set up your company, the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
+The [quick start](quick-start-business-central.md) articles can help you take the first steps into setting up [!INCLUDE [prod_short](includes/prod_short.md)] for your organization. Inside [!INCLUDE [prod_short](includes/prod_short.md)], the **Assisted Setup** page lists the assisted setup guides that can help you. Depending on your role and country or region, the page shows different assistant setup guides as illustrated in the following table:
 
 | Assisted Setup | Description |
 | -------------- | ----------- |
@@ -57,7 +57,7 @@ To help you set up your company, the **Assisted Setup** page lists the assisted 
 | Set Up Reporting Data|Sets up data sets that you can use to build powerful reports using Excel or Power BI, for example. |
 | Invite External Accountant |If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. |
 
-The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up additional areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+The **Assisted Setup** page may contain other entries. When you go through a setup, the setup will be marked as **Completed**. You can set up other areas of the company by using manual setup. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ### Resetting your [!INCLUDE[prod_short](includes/prod_short.md)] trial experience
 
@@ -68,29 +68,33 @@ If you have added data to your [!INCLUDE[prod_short](includes/prod_short.md)] fr
 
 ## Getting Started with a Subscription
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [the Microsoft commercial marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online uses Microsoft 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.  
 
 You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
 
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
+
 ## Getting Started with Sandboxes
 
-Sandbox environments can be a way for you to practice with [!INCLUDE[prod_short](includes/prod_short.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[prod_short](includes/prod_short.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) so that you and your colleagues can practice there rather than in your production environment.  
+Sandbox environments can be a way for you to practice with [!INCLUDE[prod_short](includes/prod_short.md)]. Think of a sandbox as a non-production environment that you can use on top of your production instance of [!INCLUDE[prod_short](includes/prod_short.md)]. For example, if you want to take the free online training from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), your administrator can [create a sandbox environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). This way, you and your colleagues can practice in a safe place rather than in your production environment.  
 
 If you are a developer, a sandbox lets you safely build and test extensions and develop new functionality to customize the service without affecting the data and settings of your production environment.  
 
-Right now, all customers can use a sandbox, including organizations who have signed up for a trial. For more information about how to get started with a sandbox, see [Creating a Sandbox Environment](across-how-create-sandbox-environment.md).  
+Right now, all customers can use a sandbox, including organizations who have signed up for a trial. For more information about how to get started with a sandbox, see [Sandbox Environments](admin-sandbox-environments.md).  
 
 > [!NOTE]
 > Sandboxes created this way contain demonstration data for the fictitious CRONUS company. No data is copied or otherwise transferred from the production environment.   
 
-The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and your reselling partner can create additional environments in the administration center. For more information, see [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
-
-
+The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and your reselling partner can create more environments in the administration center. For more information, see [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## See Also
 
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

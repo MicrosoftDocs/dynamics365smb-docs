@@ -34,7 +34,7 @@ If you do not close your fiscal year or do not run the **Close Year** action bef
 >   
 
 ## To export general ledger entries to a text file for a tax audit  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export G/L Entries – Tax Audit**, and then choose the relevant link.  
 2.  On the **Export G/L Entries – Tax Audit** page, on the **Options** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -47,9 +47,10 @@ If you do not close your fiscal year or do not run the **Close Year** action bef
 
 When you create the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] sorts the information in the report by the **No.** and **Creation Date** fields in the general ledger register.  
 
-The report will have the following name: <taxpayername>FEC<YYYYMMDD>  
+The report will have the following name: `<taxpayername>FEC<YYYYMMDD>`  
 
-## See Also  
+## See Also
+
  [Close Years](how-to-close-years.md)
 
 

@@ -30,7 +30,7 @@ The following example shows a dimension set that has three dimension set entries
 ## Dimension Set Entries  
 Dimension sets are stored in the **Dimension Set Entry** table as dimension set entries with the same dimension set ID.  
 
-![Flow of dimension set entries](media/dimensionentrynav7.png "Flow of dimension set entries")  
+![Flow of dimension set entries.](media/dimensionentrynav7.png "Flow of dimension set entries")  
 
 When you create a new journal line, document header, or document line, you can specify a combination of dimension values. Instead of explicitly storing each dimension value in the database, a dimension set ID is assigned to the journal line, document header, or document line to specify the dimension set.  
 

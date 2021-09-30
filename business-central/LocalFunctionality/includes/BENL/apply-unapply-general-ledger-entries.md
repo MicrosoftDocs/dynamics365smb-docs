@@ -21,7 +21,7 @@ You can unapply the applied general ledger entries and then open the closed entr
 
 ## To apply general ledger entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
 2. Select a general ledger register, and then choose the **General Ledger** action.  
 3. On the **General Ledger Entries** page, choose the **Apply Entries** action.  
 
@@ -50,7 +50,7 @@ You can unapply the applied general ledger entries and then open the closed entr
 
 ## To view the applied general ledger entries  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Registers**, and then choose the related link.  
 2. Select a general ledger register, and then choose the **General Ledger** action.  
 3. Select the relevant general ledger entry, and then choose the **Applied Entries** action.  
 

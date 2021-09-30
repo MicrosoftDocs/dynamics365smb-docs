@@ -17,7 +17,7 @@ In general [!INCLUDE[prod_short](../../includes/prod_short.md)] does not allow f
 
 ## To allow posting of the same **External Document No.** across fiscal years
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchases & Payables Setup**, and then choose the related link.  
 2. In the **General** FastTab, select the **Same Ext. Doc. No. in Diff. FY** field.
 
 ## See Also

@@ -70,7 +70,7 @@ As the administrator, you can get an overview of individual changes to [!INCLUDE
 
 ## To review or delete user personalizations
 
-1. Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Personalized Pages**, and then choose the related link.
 2. This shows the list of users and their personalized pages. To clear a user's personalization, click the relevant row, or choose **Manage**, and then choose **Delete**.
 
 This deletes the personalization, and the user's experience of the relevant page returns to the default state.

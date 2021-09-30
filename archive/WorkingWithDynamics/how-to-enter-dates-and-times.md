@@ -38,7 +38,7 @@ You can enter dates and times in all the fields that are specifically assigned t
 |**Code**|**Result**|  
 |--------------|----------------|  
 |t|This is today's date (the system date for the computer).|  
-|w|This is the work date. To define the work date, On the **Application** menu ![Microsoft Dynamics NAV Application menu](../FullExperience/media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Set Work Date**. If you do not define a work date, the system date will be used as the work date.|  
+|w|This is the work date. To define the work date, On the **Application** menu ![Microsoft Dynamics NAV Application menu.](../FullExperience/media/rtc_applicationmenu.png "RTC_ApplicationMenu"), choose **Set Work Date**. If you do not define a work date, the system date will be used as the work date.|  
   
  You may want to use a work date if you have many transactions with a date other than today's date.  
   

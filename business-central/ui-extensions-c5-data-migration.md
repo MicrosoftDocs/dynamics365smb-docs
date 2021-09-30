@@ -104,7 +104,7 @@ The largest file size you can upload to [!INCLUDE[prod_short](includes/prod_shor
 There are just a few steps to export data from C5, and import it in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. In C5, use the **Export Database** feature to export the data. Then send the export folder to a compressed (zipped) folder.  
-2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
+2. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Migration**, and then choose **Data Migration**.  
 3. Complete the steps in the assisted setup guide. Make sure to choose **Import from Microsoft Dynamcis C5 2012** as the data source.  
 
 ## Viewing the Status of the Migration

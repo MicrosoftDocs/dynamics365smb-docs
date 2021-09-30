@@ -1,13 +1,13 @@
 ---
 title: Enabling Power BI Integration With Business Central
-description: Learn how to set up the connection to Power Bi so you can get insights, business intelligence, and KPIs from your Business Central data with the Business Central apps for Power BI.
+description: Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and KPIs from your Business Central data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
@@ -21,10 +21,34 @@ With [!INCLUDE[prod_short](includes/prod_short.md)], users get a free Power BI l
 
 |Power License|View reports|Create reports|Share reports|Refresh reports| [!INCLUDE[prod_short](includes/prod_short.md)] Apps|
 |-------------|--------||
-|Power BI free|![a checkmark](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
-|Power BI Pro|![yet another checkmark](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
+|Power BI free|![a checkmark.](media/check.png)|![another checkmark](media/check.png)|(limited)|(limited)||
+|Power BI Pro|![yet another checkmark.](media/check.png)|![it's a checkmark](media/check.png)|![again a checkmark](media/check.png)|(extensive)|![last checkmark](media/check.png)|
 
 For more information, see [Licensing the Power BI service for users in your organization](/power-bi/admin/service-admin-licensing-organization) or [Sign up for the Power BI service as an individual](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
+
+## <a name="exposedata"></a>Expose data through API pages or OData web services
+
+Business Central offers two ways to expose data that can be consumed by Power BI reports: API pages and Open Data Protocol (OData) web services.
+
+### API pages
+
+> **APPLIES TO:** Business Central online only 
+
+An API page is a specific page type created in AL code that provides access to database tables through a webhook-supported, OData v4-enabled, REST service. This type of page can't be displayed in the user interface, but is intended for building reliable integration services.
+
+Business Central online comes available with a set of built-in APIs, which you can use to get data for the most common business entities, like customers, items, sales orders, and more. No extra work or setup is required to use these APIs as a data source for Power BI reports. For more information about these APIs, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+Business Central online also supports custom APIs. Application developers of Business Central solutions can create their own API pages and package them into extensions. You can install the extensions on your tenant. Once installed, you can use the API pages for your Power BI reports, like you'd do with the built-in APIs (v2.0). For more information about how to create API pages, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+### OData web services
+
+You can publish Business Central application objects, like codeunits, page, and queries, as [OData web services](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). With Business Central online, there are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure the **Publish** field is selected for the web services listed above. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+
+To learn about what you can do to ensure the best performance of web services, as seen from the Business Central server (the endpoint) and from the consumer (the client), read [Writing efficient Web Services](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
+
+### Choosing whether to use API pages or OData web services
+
+Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are generally faster at loading data in Power BI reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
 
 ## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 
@@ -61,15 +85,6 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the role center. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
-
-## Publish data as web services
-
-Codeunits, pages, and queries that you want to use as the data source in Power BI reports must be published as web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Web Services** page, make sure the **Publish** field is selected for the web services listed above. This task is typically an administrative task.
-
-For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
-
-> [!TIP]
-> To learn about what you can do to ensure the best performance of web services, as seen from the Business Central server (the endpoint) and from the consumer (the client), read [Writing efficient Web Services](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
 ## See Related Training at [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

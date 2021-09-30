@@ -25,7 +25,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
 ## To set up company information  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. On the **Company Information** page, on the **Tax** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -37,7 +37,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
 ## To set up general ledger information  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, on the **Electronic Invoice** FastTab, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -53,7 +53,7 @@ Optionally, you can ask your Microsoft Certified Partner to modify the text that
 
 Finally, you must add information about your customers and vendors. The following section section describes how to specify this information to customers, but the same fields must be specified for vendors.
 
-1. Choose the ![A third lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
 2. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields as described in the following table.
 
     |Field|Description|

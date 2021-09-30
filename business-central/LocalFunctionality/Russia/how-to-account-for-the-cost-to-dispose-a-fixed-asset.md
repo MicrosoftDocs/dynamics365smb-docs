@@ -21,13 +21,13 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
 
 ## To set up a maintenance code
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Setup**, and then choose the related link.
 2. In the **Fixed Asset Setup** window, on the **General** FastTab, enter a maintenance code in the **On Disposal Maintenance Code** field.
 3. Choose the **OK** button.
 
 ## To post expenses on a fixed asset disposal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 
 2. In the **Fixed Asset G/L Journal** window, fill in the fields as described in the following table.
 
@@ -42,7 +42,7 @@ The expenses on a fixed asset disposal can be printed in the FA Write-off Act FA
 
 ## To print a report with expenses on a fixed asset disposal
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Writeoff Act**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Writeoff Act**, and then choose the related link.
 
 2. In the **FA Writeoff Act** window, enter the expenses that are posted for the fixed asset.
 

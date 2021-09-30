@@ -36,7 +36,7 @@ System does not allow posting any sales transactions for a location if it contai
 
 This setup is required to identify that this location is applicable for Input Service Distribution.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Location**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **Location**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -47,7 +47,7 @@ This setup is required to identify that this location is applicable for Input Se
 
 This setup is required to define the number series for distribution.
 
-1. Choose the ![img](image/search.jpg)icon, enter **General Ledger Setup**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **General Ledger Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -58,7 +58,7 @@ This setup is required to define the number series for distribution.
 
 This setup is required to define the source code for distribution.
 
-1. Choose the ![img](image/search.jpg)icon, enter **Source Code Setup**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **Source Code Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -69,7 +69,7 @@ This setup is required to define the source code for distribution.
 
 This setup is required to define the general ledger accounts for distribution.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Posting Setup**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **GST Posting Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description| 
@@ -81,7 +81,7 @@ This setup is required to define the general ledger accounts for distribution.
 
 This setup is required to define the GST components for distribution functionality.
 
-1. Choose the ![img](image/search.jpg)icon, enter **GST Component Dist. List**, and then choose the related link.
+1. Choose the ![img.](image/search.jpg)icon, enter **GST Component Dist. List**, and then choose the related link.
 2. Fill in the fields as described in the following table.
     
     |Field|Description|

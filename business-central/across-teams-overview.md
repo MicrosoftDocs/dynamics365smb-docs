@@ -28,11 +28,11 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
- [![Look up Business Central contacts from Teams command box](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- [![Look up Business Central contacts from Teams compose box](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Look up Business Central contacts from Teams compose box.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 
@@ -40,11 +40,19 @@ For more information, see [Searching for Contacts from Microsoft Teams](across-s
 
 Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
-[![Teams integration with Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
 For more information, see [Share Records in Microsoft Teams](across-working-with-teams.md).
+
+### Share links from pages in Business Central to Teams
+
+Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link to the Business Central page.
+
+![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+
+For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## Get Started
 
@@ -57,12 +65,13 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
-4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md). 
+4. Once the app is installed, you're ready to go. See [Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md) and [Share Records in Microsoft Teams](across-working-with-teams.md).
 
 ## See Also
 
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
+[Changing Company and Other Settings in Teams](across-teams-settings.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

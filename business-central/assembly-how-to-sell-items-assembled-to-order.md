@@ -8,8 +8,8 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/14/2021
+    ms.search.keywords: kit, kitting, substitute items
+    ms.date: 07/29/2021
     ms.author: edupont
 
 ---
@@ -25,7 +25,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 >  The following procedure does not include the standard sales order steps before the step where you enter the assemble-to-order item on a sales order line.  
 
 ## To sell an item that is assembled to order  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  In the **No.** field, enter an item that is set up to be assembled to order.  
 4.  In the **Location Code** field, define which location the item will be sold from. The assembly process will occur at that location.  
@@ -53,12 +53,15 @@ In this procedure, you process the sale of an item that will be assembled accord
 10. On the sales order, choose the **Release** action to notify the assembly department that the assembly process can start.  
 11. In the assembly department, perform the steps of assembling the items that are sold in this procedure. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
+
 ## See Also  
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Register New Items](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

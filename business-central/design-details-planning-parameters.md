@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: planning, design
-    ms.date: 06/15/2021
+    ms.date: 07/21/2021
     ms.author: edupont
 
 ---
@@ -78,25 +78,25 @@ To obtain a rational supply plan, a planner will fine-tune planning parameters t
 
 The timing of rescheduling period, dampener period, and lot accumulation period is based on a supply date. The time bucket is based on the planning start date, as shown in the following illustration.  
 
-![Time bucket elements](media/supply_planning_5_time_bucket_elements.png "Time bucket elements")  
+![Time bucket elements.](media/supply_planning_5_time_bucket_elements.png "Time bucket elements")  
 
 In the following examples, the black arrows represent existing supply (up) and demand (down). Red, green, and orange arrows are planning suggestions.  
 
 **Example 1**: The changed date is outside the rescheduling period, which causes the existing supply to be canceled. A new supply is suggested to cover the demand in the lot accumulation period.  
 
-![Rescheduling Period and Lot Accumulation Period](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Rescheduling Period and Lot Accumulation Period")  
+![Rescheduling Period and Lot Accumulation Period.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Rescheduling Period and Lot Accumulation Period")  
 
 **Example 2**: The changed date is in the rescheduling period, which causes the existing supply to be rescheduled. A new supply is suggested to cover the demand outside the lot accumulation period.  
 
-![Rescheduling Period, Lot Accumulation Period, and Reschedule](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Rescheduling Period, Lot Accumulation Period, and Reschedule")  
+![Rescheduling Period, Lot Accumulation Period, and Reschedule.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Rescheduling Period, Lot Accumulation Period, and Reschedule")  
 
 **Example 3**: There is a demand in the dampener period and the supply quantity in the lot accumulation period matches the supply quantity. The next demand is uncovered and a new supply is suggested.  
 
-![Dampener Period and Lot Accumulation Period](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dampener Period and Lot Accumulation Period")  
+![Dampener Period and Lot Accumulation Period.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dampener Period and Lot Accumulation Period")  
 
 **Example 4**: There is a demand in the dampener period and the supply remains on the same date. However, the current supply quantity is not enough to cover the demand in the lot accumulation period, so a change quantity action for the existing supply order is suggested.  
 
-![Dampener Period, Lot Accumulation Period, and Change Quantity](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dampener Period, Lot Accumulation Period, and Change Quantity")  
+![Dampener Period, Lot Accumulation Period, and Change Quantity.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dampener Period, Lot Accumulation Period, and Change Quantity")  
 
 **Default values:** The default value of the **Time Bucket** field and the three reorder period fields is blank. For all fields, except the **Dampener Period** field, this means 0D (zero days). If the **Dampener Period** field is blank, the global value in the **Default Dampener Period** field on the **Manufacturing Setup** page will be used.  
 
@@ -110,7 +110,27 @@ The **Manufacturing Policy** option defines which additional orders the MRP calc
 
 If the **Make-to-Stock** option is used, the orders concern only the item in question.  
 
-If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.  
+If the **Make-to-Order** option is used, the planning system will analyze the production BOM of the item and create additional linked order proposals for those lower-level items that are also defined as make-to-order. This continues as long as there are make-to-order items in the descending BOM structures.
+
+## Use Low-Level Codes to manage derived demand
+
+Use Low-Level Codes to make derived demand for components progress through to the lower levels of the BOM. For a more thorough explanation of this, please see [Item Priority / Low-Level Code](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+You can assign a low-level code to each part in the product structure or the indented BOM. The top final assembly level is denoted as level 0 - the end item. The higher the low-level code number, the lower the item is in the hierarchy. For example, end items have low-level code 0, and the item parts that go into the assembly of the end item have low-level codes 1, 2, 3, and so on. The result is the planning of component parts coordinated with the requirements of all higher-level part numbers. When you calculate a plan, the BOM is exploded in the planning worksheet, and the gross requirements for level 0 are passed down the planning levels as gross requirements for the next planning level.
+
+Select the **Dynamic Low-Level Code** field to specify whether to immediately assign and calculate low-level codes for each component in the product structure. If you have large amounts of data, this function can have negative effects on the program's performance, for example during automatic cost adjustment. Note that this is not a retroactive function, so it is a good idea to consider the use of this facility beforehand.
+
+As an alternative to the automatic calculation that occurs dynamically if the field is selected, you can run the **Calculate Low-Level Code** batch job from the **Manufacturing** menu by clicking **Product Design**, **Calculate Low-Level Code**.
+
+> [!IMPORTANT]
+> If you do not select the **Dynamic Low-Level Code** field, then you must run the **Calculate Low-Level Code** batch job before you calculate a supply plan (the **Calculate Plan** batch job).  
+
+> [!NOTE]
+> Even with the **Dynamic Low-Level Code** field selected, the low-level codes of component items are not changed dynamically if a parent BOM is deleted or set to non-certified. This may result in difficulty to add new items to the end of the product structure as it might exceed the maximum number of low-level codes. Therefore, for large product structures that reach the low-level code limit, it is encouraged to run the **Calculate Low Level Code** batch job frequently to maintain the structure.  
+
+### Optimize Low-Level Code Calculation
+
+Select the **Optimize Low-Level Code Calculation** field to specify that you want to use the new, faster method of low-level code calculation. Note that the new calculation is done differently, and using it might break extensions that rely on the existing method. The new calculation method will replace the current method in a future release.
 
 ## See Also  
 [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   

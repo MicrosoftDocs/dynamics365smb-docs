@@ -25,7 +25,7 @@ An environment link is a card where you specify the [!INCLUDE [prod_short](inclu
 
 The link is used when you choose the company in the company hub.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Actions for a company that is listed in the company hub.":::
 
 > [!TIP]
 > If you're working in the free trial version of [!INCLUDE [prod_short](includes/prod_short.md)], it is easy to add the companies in your tenant. You can find the environment link by copying the Azure Active Directory ID from the **Troubleshooting** section of the Help & Support page. The environment name is probably the default value, PRODUCTION. Add this information to the **Environment Link** field, such as ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, and then choose **Test the connection**. The evaluation company will be added to the list.

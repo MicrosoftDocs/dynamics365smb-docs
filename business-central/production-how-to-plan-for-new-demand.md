@@ -1,6 +1,6 @@
 ---
-    title: How to Plan Order by Order
-    description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply. 
+    title: Plan for New Demand Order by Order
+    description: This planning task can be performed on the Order Planning page, which displays all new demand along with availability information and suggestions for supply, including item substitution.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -8,8 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/22/2021
+    ms.date: 07/29/2021
     ms.author: edupont
 
 ---
@@ -20,14 +19,14 @@ You can enter the **Order Planning** page in two ways depending on your focus: F
 
 
 ## To plan for new production order demand  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. (You can perform these steps for planned, firm planned, or released production orders).
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  On the **Order Planning** page, choose the **Calculate Plan** action.  
 
 The page displays planning lines according to the view filter **Production Demand**, meaning unfulfilled component lines of all existing production orders. Demand for only the one production order is not shown because it is necessary to plan for one production order with an overview of demand for potentially earlier components lines. Planning lines for the production order in context are expanded.  
 
 ## To plan for any new demand  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Order Planning**, and then choose the related link.  
 2.  On the **Order Planning** page, choose the **Calculate Plan** action.
 3.  Choose the **Expand (+)** button in front of the date in the **Demand Date** field to see the underlying planning lines that represent demand lines with insufficient availability.  
 4.  For each expanded planning line, that is, demand line, you can see values in information fields at the bottom of the page.  
@@ -63,6 +62,9 @@ The page displays planning lines according to the view filter **Production Deman
 
     If a substitute exists for the demanded item, the **Substitute Exists** field is set to **Yes**, and you can then look up to the **Item Substitution Entries** page and select the substitute.  
 
+    > [!NOTE]  
+    > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
+
 7.  Select the **Reserve** check box if you want to make a reservation between the supply order you are creating and the demand line that it is created for. It is empty by default.  
 
     > [!NOTE]  
@@ -79,7 +81,7 @@ The page displays planning lines according to the view filter **Production Deman
 >  If you enter a date later than the demand date, you will receive a warning message.  
 
 ## To make supply orders  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planned Production Orders**, and then choose the related link. You can perform these steps for a planned, firm planned, or released production order.  
 2.  Open the production order you want to plan for, and then choose the **Planning** action.  
 3.  Place the cursor on a relevant planning line, and then choose the **Make Orders** action.  
 4.  On the **Make Supply Orders** page, on the **Order Planning** FastTab, in the **Make Orders for** field, select one of the following options.  
@@ -113,7 +115,7 @@ When you have finished your planning work on the **Order Planning** page, for ex
 [Purchasing](purchasing-manage-purchasing.md)  
 [Design Details: Supply Planning](design-details-supply-planning.md)   
 [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Register New Items](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

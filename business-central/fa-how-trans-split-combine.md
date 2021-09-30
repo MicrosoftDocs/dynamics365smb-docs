@@ -22,12 +22,12 @@ You may need to transfer a fixed asset to a different department when, for examp
 
 1. Set up a new fixed asset. Enter the new department as a dimension.  
 2. Assign a fixed asset depreciation book to the new fixed asset. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
 4. Create a journal line where the **FA No.** field contains the original fixed asset, and the **New FA No.** field contains the new fixed asset to be moved. Fill in the other fields as appropriate.  
 5. Choose the **Reclassify** action.
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.    
+6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.    
 7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 and 5.
 
 If you have posted an acquisition cost for one asset, you can use the fixed asset reclassification journal to split the acquisition cost among several assets.  
@@ -37,7 +37,7 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 
 1. Set up two new fixed assets. Enter the relevant departments as dimensions.  
 2. Assign fixed asset depreciation books to the new fixed assets. For more information, see [Acquire Fixed Assets](fa-how-acquire.md).
-3. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
 4. Create two reclassification journal lines, one for each new fixed asset.
 5. On the first line, enter the second fixed asset in the **New FA No.** field and 25 in the **Reclassify Acq. Cost %** field.
 6. On the second line, enter the third fixed asset in the **New FA No.** field and 40 in the **Reclassify Acq. Cost %** field.
@@ -45,26 +45,26 @@ You can split one fixed asset into multiple fixed assets, for example when you n
 8. Choose the **Reclassify** action.  
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **FA Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).    
-9. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
+9. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
 10. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 4 through 8.
 
 ## To combine two fixed assets into one
 
 You can combine multiple fixed assets into one fixed asset, for example when you move distributed fixed assets into one department. If you have posted acquisition costs and depreciation for the fixed asset to be moved, those values will be combined in the single fixed asset.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Reclassification Journals**, and then choose the related link.
 2. Create a reclassification journal where the **FA No.** field contains the fixed asset to be moved/combined, and the **New FA No.** field contains the fixed asset that it will be combined with.
 3. Leave the **Reclassify Acq. Cost %** field empty to move/combine the entire acquisition cost.  
 4. Select the **Reclassify Acquisition Cost** and **Reclassify Depreciation** check boxes.
 5. Choose the **Reclassify** action.
 
     Two lines are now created in the fixed asset G/L journal using the template and batch that you have specified on the **Fixed Asset Journal Setup** page for the specified depreciation book. For more information, see [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md).   
-6. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
+6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
 7. On the **Fixed Asset G/L Journal** page, choose the **Post** action to post the reclassification that you performed in steps 2 through 5.
 
 ## To view changed depreciation book values due to fixed asset reclassification
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Book Value 02**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Book Value 02**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
 

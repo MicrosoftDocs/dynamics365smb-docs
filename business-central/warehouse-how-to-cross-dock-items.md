@@ -37,14 +37,14 @@ The application does not keep separate records about items that have been cross-
 
     If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. For more information, see [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
 3.  On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
 4.  On the **Warehouse** FastTab, select the **Use Cross-Docking** check box and fill in the **Cross-Dock Due Date Calc.** field with the time to search for cross-dock opportunities.
 
     The **Use Cross-Docking** option is only available if the **Require Receive**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
 
 5.  If you are using bins, on the **Bins** FastTab, fill in the **Cross-Dock Bin Code** field with the code of the bin you would like to use as the default cross-dock bin.  
-6.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  
+6.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  
 7.  For each item or stockkeeping unit that you want to be able to cross-dock, select the item, and then choose the **Edit** action.
 8. On the **Stockkeeping Unit Card** page, select the **Use Cross-Docking** check box.  
 
@@ -52,7 +52,7 @@ The application does not keep separate records about items that have been cross-
 >  Cross-docking is only possible if your location is set up to require warehouse receive and put-away processing.  
 
 ## To cross-dock items without viewing the opportunities  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
 3.  Fill in the **Qty. to Receive** field, and then choose the **Calculate Cross-Dock** action.  
 
@@ -69,7 +69,7 @@ The application does not keep separate records about items that have been cross-
 7.  To register the cross-docked items as being put-away and available for picking, choose the **Register** action.  
 
 ## To cross-dock items after viewing the opportunities  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2.  Create a warehouse receipts for an item that has arrived and can perhaps be cross-docked. For more information, see [Receive Items](warehouse-how-receive-items.md).  
 
     You want to view the source document lines that are requesting the item before you post the receipt.  

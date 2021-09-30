@@ -105,7 +105,7 @@ Credit Adjustment Journal functionality is also available for adjusting reverse 
 
 ## GST credit adjustment entry process
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **GST Credit Adjustment**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **GST Credit Adjustment**, and then choose the related link.
 2. **GST Credit Adj. Jnl Nos.** should not be blank on **General Ledger Setup**.
 3. **GST Credit Adjustment Journal** should not be blank on **Source Type Setup**.
 4. Select relevant information for following fields in **GST Credit Adjustment Journal**

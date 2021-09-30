@@ -8,7 +8,7 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
 
 ---
@@ -16,7 +16,7 @@ ms.author: edupont
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
 
-If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). Check out the [quick start articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 
 > [!TIP]
 > Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
@@ -84,11 +84,21 @@ You can also view videos of new and commonly used capabilities in our video libr
 - [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## Get notified about changes through an RSS feed
+
+To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the content on docs.microsoft.com across the business functionality content for [!INCLUDE [prod_short](includes/prod_short.md)], use the following link:
+
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
+
+> [!NOTE]
+> The RSS feed returns a list of the 100 articles most recently updated. The list is not sorted by date.  
+
 ## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
 
 [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Started with Business Central](ui-get-ready-business.md)  
 [Visit Our Video Library](across-videos.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
@@ -105,7 +115,5 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Introducing docs.microsoft.com (original blog post)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,7 +32,7 @@ The procedure for exporting payments using the **Remittance – Export** batch j
 
 ## To export remittance payments using the Remittance - Export batch jobs  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Prepare to export the payments from the journal. For more information, see [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 3.  Choose the **Export Payments** action.  
 4.  In the report page that opens, choose the **Options** FastTab, and fill in the fields as described in the following table.  

@@ -28,7 +28,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
 ###  <a name="EditLayoutFromWindowsClient"></a> To modify a report layout from the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The **Report Layout Selection** window lists all the reports that are available in the company that is specified in the **Company** field at the top of the window.  
   
@@ -56,7 +56,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
   
 ###  <a name="EditLayoutFromWebClient"></a> To modify a report layout  
   
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
+1.  Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.  
   
      The **Report Layout Selection** window lists all the reports that are available in the company that is specified in the **Company** field at the top of the window.  
   
@@ -103,7 +103,7 @@ This topic describes how to modify a custom layout that is available for a ADD I
 ###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  
   
- ![Content control for field in Word report layout](../FullExperience/media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](../FullExperience/media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
   
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
   

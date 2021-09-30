@@ -16,13 +16,15 @@ ms.date: 04/01/2021
 
 The page inspection feature enables you to get details about a page, providing insight into the page design, the different elements that comprise the page, and the source behind the data it displays. Page inspection is especially designed for administrators, power users, support personnel, and developers. It is ideal for learning the data model behind a page and troubleshooting. For example, if you are experiencing a problem with a page, you could use page inspection to get information to pass on to your system administrator or support personnel.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
+
 ## Working with Page Inspection
 
 You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut **Ctrl+Alt+F1**.
 
 The **Page inspection** pane opens on the side. The following figure illustrates the **Page Inspection** pane on the **Sales Order** page.
 
-![Page Inspection](media/page-inspection-example.png)
+![Page Inspection.](media/page-inspection-example.png)
 
 When the **Page Inspection** pane first opens, it shows information that pertains to the main page object.
 

@@ -19,7 +19,7 @@ Before you use [!INCLUDE[prod_short](../../includes/prod_short.md)] for daily bu
 
 ## To print general ledger setup information  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **G/L Setup Information**, and then choose the related link.  
 2.  In the **Setup Information** field, select the master data area as described in the following table.  
 
     |Option|Description|  

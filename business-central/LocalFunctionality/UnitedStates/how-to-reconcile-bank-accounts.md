@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/22/2021
+    ms.date: 07/16/2021
     ms.author: bholtorf
 
 ---
@@ -21,7 +21,7 @@ Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries wi
 
 ## To reconcile bank accounts with bank statements
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.
 2. Choose the **New** action.  
 3. On the **General** FastTab, fill in the required fields as described in the following table.  
 
@@ -51,22 +51,26 @@ Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries wi
 
 You can post bank reconciliation if you have reconciled the bank accounts on the **Bank Rec. Worksheet** page. After the bank reconciliation has been posted a bank account statement is created and can be viewed on the bank account card.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.
 2. Choose the bank account reconciliation that you want to post, and then choose the **Edit** action.  
 
     > [!NOTE]  
     >  On the **General** FastTab, the value in the **Difference** field be must be zero before you can post the bank reconciliation.  
 
-When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G/L Entry** table.  
+    When the bank reconciliation is posted, all of the related files are posted to the historical **Post Bank Rec. Worksheet** table. Any adjustments are posted to the **G/L Entry** table.  
 
 3. Choose the **Post** action.  
 4. To review a preliminary draft of the bank reconciliation statement, choose the **Test Report** action. The **Bank Rec. Test Report** shows the entries that will result if you post.  
 
 ## To view the posted bank account reconciliations
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Choose the bank account that you want to view the posted reconciliations for, and then choose the **Statements** action.  
-3. Choose the **Close** button.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+2. Choose the bank account that you want to view the posted reconciliations for, and then choose the **Related** action, choose the **Bank Acc.** action, and and then choose the **Posted Reconciliations** action.  
+3. Select the relevant statement that you want to view.  
+4. In the worksheet that appears, choose the **Print** action or the **Send** action, and make the relevant selections in the report options page.  
+
+    The bank reconciliation test report that was printed before you posted the reconciliation will be printed again. This can then be used for auditing purposes.  
+5. Close the report request page.  
 
 ## To print a bank reconciliation test report
 
@@ -76,7 +80,7 @@ You can print the following bank reconciliation reports:
 
 - **Bank Account – Reconcile** - Displays the reconciliation details for each bank account. This report lists deposits, withdrawals, and adjustments for a bank account.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
 2. Choose the **Bank Rec. Test Report** action.  
 3. On the **Options** FastTab, fill in the fields as described in the following table.  
 
@@ -94,7 +98,7 @@ You can print the following bank reconciliation reports:
 
 ## To print a bank reconciliation report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link.  
 2. Choose the **Bank Account – Reconcile** action.  
 3. To print each bank account on a new page, choose the **New Page per Bank Account** check box.  
 4. On the **Bank Account** FastTab, choose the appropriate filters.  

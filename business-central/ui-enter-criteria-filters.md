@@ -19,7 +19,7 @@ There are a few things that you can do that will help you scan, find, and limit 
 For reports and XMLports, as on lists, you can set filters to delimit which data to include in the report or XMLport, but you can't sort and search.
 
 > [!TIP]
-> When viewing your data as tiles, you can search and use filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
+> When viewing your data as tiles, you can search and use filtering. To use the full set of powerful features for sorting, searching, and filtering, choose the ![Show as list.](media/ui_show_as_list_icon.png "Show as list arrow left") icon to view the records as a list.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -40,7 +40,7 @@ To sort a list, you can either:
 ## Searching
 
 <!--## Searching by using the Quick Filter -->
-At the top of each list page, there's a ![Search list](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in seeing.
+At the top of each list page, there's a ![Search list.](media/ui-search/search-list.png "Search list icon") **Search** action that provides a quick and easy way to reduce the records in a list and display only those records that contain the data that you're interested in seeing.
 
 To search, just choose the **Search** action, and then in the box, type the text that you're looking for. You can enter letters, numbers, and other symbols.
 
@@ -139,7 +139,7 @@ Both in the filter pane and on a request page, you enter your filter criteria in
 
 The type of the filter field determines which criteria you can enter. For example, filtering a field that has fixed values will only let you choose from those values. For more information about special filter symbols, see [Filter criteria](#FilterCriteria) and [Filter tokens](#FilterTokens).
 
-Columns that already have filters are indicated by the ![Filter icon](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
+Columns that already have filters are indicated by the ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
 > Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
@@ -215,6 +215,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`'man'`|Text that matches **man** exactly and is case-sensitive.|  
+|`''`|Text that is empty.|  
 
 #### (@) Case insensitive  
 

@@ -13,7 +13,7 @@ ms.author: edupont
 ---
 # Send Documents and Emails
 
-You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)]], without having to open an email app.  
+You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)], without having to open an email app.  
 
 You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -28,8 +28,8 @@ To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], sta
 
 This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. <!--update this-->
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
-2. Select the invoice, and then choose the **Print/Send** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
+2. Select the invoice, choose the **Print/Send** action, and then choose **Send**.
 3. In the **Email** field, choose **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
     
     If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens pre-filled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
@@ -47,9 +47,10 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 > If you do not want to specify email settings each time you email a document, you can select the **Yes (Use Default Settings)** option in the **Email** field on the **Send Document to** page. In that case, the **Send Email** page will not open. See Step 4. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).  
 
 ## To compose and send an email
+You can quickly compose emails for contacts, customers, vendors, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Accounts**, and then choose the related link.
-2. Choose the account to send the email from, and then choose the **Compose Email** action.
+> [!TIP]
+> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalize the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Using Word Templates for Bulk Communication](ui-mail-merge.md).  
 
 ## Documents marked as printed when they are sent
 

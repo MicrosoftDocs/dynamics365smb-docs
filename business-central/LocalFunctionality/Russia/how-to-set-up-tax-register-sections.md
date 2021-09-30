@@ -19,7 +19,7 @@ The following procedure shows how to set up tax register sections.
 
 ## To set up a tax register
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Registers**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tax Registers**, and choose the related link.
 
 2. In the **Tax Registers Sections** window, choose the **New** action.
 

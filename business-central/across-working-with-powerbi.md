@@ -21,7 +21,7 @@ Power BI reports give you insight into your [!INCLUDE[prod_short](includes/prod_
 
 [!INCLUDE [prod_short](includes/prod_short.md)] works together with the Power BI service. Reports for displaying in [!INCLUDE [prod_short](includes/prod_short.md)] are stored in a Power BI service. In [!INCLUDE [prod_short](includes/prod_short.md)], you can switch the report displayed in the Power BI part to any Power BI report available in your Power BI service. The first time you sign into [!INCLUDE [prod_short](includes/prod_short.md)], and until you connect to a Power BI service, parts will be empty, as shown here:
 
-![Power BI part in Business Central](./media/power-bi-part.png)
+![Power BI part in Business Central.](./media/power-bi-part.png)
 
 ## Get Started
 
@@ -72,7 +72,7 @@ To learn how to create reports for list pages, see [Creating Power BI Reports fo
 
 A Power BI part on a page can display any Power BI report that's available to you. To switch to view another report, choose the **Select Report** action from the drop-down command list at the top of the part.  
 
-The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from your Power BI workspace. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
+The **Power BI Reports Selection** page shows a list of all the Power BI reports that you have access to. This list is retrieved from any of your own workspaces or workspaces that have been shared with you in the Power BI service. Select the **Enable** box for each report that you want to display on the page, and then choose **OK**. You'll return to the page, and the last report you enabled will appear. Using the drop-down command list, use the **Previous** and **Next** commands to navigate between reports.  
 
 ### Get more reports
 

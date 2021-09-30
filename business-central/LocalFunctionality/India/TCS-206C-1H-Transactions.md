@@ -29,7 +29,7 @@ When calculating TCS in payment lines, TCS Base amount will be considered from '
 
 - Create General Journal, Cash Receipt Journal or Bank Receipt Journal
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
   2. Select **Document Type** as **Payment**.
   3. Select **Customer** in Account Type and select relevant customer code in Account No. field.
   4. Fill the **Amount** field with the credit amount.
@@ -63,7 +63,7 @@ For example, payment has been received from customer for INR 1,00,000 on which 0
 
 - Create General Journal, Cash Receipt Journal or Bank Receipt Journal
 
-  1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
+  1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, **Sales Journal**, **Cash Receipt Voucher** or **Bank Receipt Voucher**, and then choose the related link.
   2. Select **Document Type** as **Payment**.
   3. Select **Customer** in Account Type and select relevant customer code in Account No. field.
   4. Fill the **Amount** field with the credit amount.

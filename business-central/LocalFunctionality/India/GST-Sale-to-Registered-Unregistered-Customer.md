@@ -23,7 +23,7 @@ Process of sales to registered or unregistered customer has been explained in th
 
 ## Create a sales invoice
 
-1. Choose the ![Search for Page or Report](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](image/search_small.png "Search for Page or Report icon") icon, enter **Sales Invoice**, and then choose the related link.
 
 2. Select **Customer** on **Sales Invoice** header, GST customer type should be **Registered** or **Unregistered**.
 

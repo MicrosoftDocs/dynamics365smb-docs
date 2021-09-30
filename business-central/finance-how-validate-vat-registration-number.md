@@ -40,8 +40,6 @@ There are a couple of things to note about the VIES VAT Number Validation servic
 
 ## Validation templates
 
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
-
 You can use the VIES service to also check other company information, such as the address, as well as the VAT registration number. In the **VAT Reg. No. Validation Templates** page, create an entry for each country that you want to get further validation for, and then specify the information that you want to get validated automatically.  
 
 For example, add an entry for Spain where you want to get validation for name, street, city, and post code, and then another entry for Germany where you just want validation for post code, for example. Then, in the **EU VAT Registration No. Validation Service Setup** page, specify the default template.  

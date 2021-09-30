@@ -26,7 +26,7 @@ The picking list includes only those items with a shipping quantity greater than
 
 ## To print an inventory picking list from a sales order  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2. Select the required sales order, and then choose the **Edit** action.  
 3. Choose the **Picking List** action.  
 4. On the **Options** FastTab, in the **No. of Copies** field, enter the required number of copies.  

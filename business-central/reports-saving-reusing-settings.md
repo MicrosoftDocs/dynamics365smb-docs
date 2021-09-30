@@ -34,7 +34,7 @@ If you have the proper permissions, you can view, create, and modify the saved s
 
 ## To create and modify saved settings for all users
 You manage saved settings on the **Reports Settings** page. There are two ways to open this page:
--   Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Settings**, and then choose the related link.
+-   Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Settings**, and then choose the related link.
 -   Open a report, choose the lookup in the **Use default values from** field, and then choose the **Select from full list** action.
 
 The page displays all the existing saved settings entries for all users. If there is a user name in the **Assigned to** field, only that user can use the saved settings for the associated report. If there is a check mark in the **Share with all users** field, all users can use the saved settings for the report.

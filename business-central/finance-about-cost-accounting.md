@@ -33,7 +33,7 @@ Cost accounting has the following main components:
 
 The following diagram shows the workflow in cost accounting.  
 
-![Cost Accounting overview](media/costaccountingoverview.png "CostAccountingOverview")  
+![Cost Accounting overview.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## Cost Types, Cost Centers, and Cost Objects  
 You define cost types, cost centers, and cost objects to analyze what the costs are, where the costs come from, and who should bear the costs.  

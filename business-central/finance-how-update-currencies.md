@@ -1,12 +1,12 @@
 ---
 title: Update Currency Exchange Rates
-description: Track amounts in different currencies using currency codes, and let Business Central help you adjust exchange rates of posted entries with an external service.
+description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
 author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
 
 ---
@@ -25,6 +25,9 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 > If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 ## Currencies
+
+> [!NOTE]  
+> In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 You specify the currency codes in the **Currencies**, including extra information and settings that are necessary for each currency code.
 
@@ -169,7 +172,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 ## To set up a currency exchange rate service
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Turn on the **Enabled** toggle to enable the service.
@@ -182,7 +185,7 @@ You can use an external service to keep your currency exchange rates up to date,
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## To update currency exchange rates through a service
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.

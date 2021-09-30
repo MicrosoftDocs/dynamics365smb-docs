@@ -24,9 +24,11 @@ You can set up multiple units of measure for an item so that you can assign unit
 
 If an item is stocked in one unit of measure but produced in another, a production order is created that uses a manufacturing batch unit of measure to calculate the correct quantity of the components during the **Refresh Production Order** batch job. An example of a manufacturing batch unit of measure calculation is when a manufactured item is stocked in pieces but produced in tons. For more information, see [Work with Manufacturing Batch Units of Measure](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
 
+Another tool that makes it easier to work with multiple units of measure for items is the ability to specify a rounding precision for base units of measure. Specifying a rounding precision provides guidance on what someone should enter for a given business process, and helps reduce rounding issues. When you use alternate units of measure, the value in the **Qty. per Unit of Measure** field helps calculate the quantity in the base unit of measure, which can lead to rounding issues. For example, imagine you're receiving one box that contains six items. When the box arrives at your warehouse, you discover that one of the six items is missing. You decide not to post the receipt of one box, but instead change the quantity received to five of six pieces. That would lead to a receipt of 4.99998 pieces, rather than five. On the **Item Units of Measure** page, the **Quantity Rounding Precision** field lets you specify a value that will convert the quantity to a number that is easier to understand. Continuing with the example, we would enter **1** in the field to round up to an even five pieces.
+
 ## To set up units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
 2. Choose the **New** action. A new empty line is inserted.  
 3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. If you know that your organization will sell items with this unit of measure to customers in other countries, you can add translations.  
@@ -39,7 +41,7 @@ When you register a new item, you can choose the base unit of measure from the l
 
 ## To set up multiple item units of measure
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the card of the item for which you want to set up alternate units of measure.
 3. Choose the **Units of Measure** action. The **Item Units of Measure** page opens.
 4. If the **Base Unit of Measure** field on the item card is filled, then that unit of measure is already set up.
@@ -53,13 +55,13 @@ When you register a new item, you can choose the base unit of measure from the l
 
     In the **Base Unit of Measure** field at the bottom of the window, you can view or change the item's base unit of measure. You can also change the base unit of measure in the **Base Unit of Measure** field on the item card. In the **Item Units of Measure** page, the base unit of measure must have the value **1** in the **Qty. per Unit of Measure** field.
 
-You can now use the alternate units of measure on purchase, production, and sales documents as described in the [To enter a default unit of measure code for sales and purchasing transactions](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions) section.  
+You can now use the alternate units of measure on purchase, production, and sales documents. For more information, see [To enter a default unit of measure code for sales and purchasing transactions](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## To set up unit of measure translations
 
-When you sell items to foreign customers, you may want to specify the unit of measure in the customer's language. You can do this after you have set up the necessary unit of measure translations.
+When you sell items to foreign customers, you might want to specify the unit of measure in the customer's language. You can do that by specifying translations for units of measure.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
 2. Select the code for which you want to set up translations, and then choose the **Translations** action.
 3. In the **Language Code** field, select the drop-down arrow to see a list of available language codes. Select the language code for which you want to enter a translation, and then choose the OK button to copy the code to the field.
 4. In the **Description** field, enter the appropriate text.
@@ -69,7 +71,7 @@ When you sell items to foreign customers, you may want to specify the unit of me
 
 If you usually buy or sell in units different from the base unit of measure, you can specify separate units of measure for purchases and sales. To do this, the units of measure must be set up on the **Item Units of Measure** page.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. Open the relevant item card for which you want to specify a default sales or purchase unit of measure code.
 3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** page.
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.

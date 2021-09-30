@@ -24,7 +24,7 @@ In some countries or regions, accounting software must be certified to comply wi
 > [!NOTE]
 > Only some countries have this requirement.
 
-- France (Tax Audit Certification) [(link to certification in French)](https://certificates.infocert.org/#)<!--(https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)-->  
+- France (Tax Audit Certification) [(search by the product name at https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
 - Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  

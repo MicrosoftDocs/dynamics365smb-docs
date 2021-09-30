@@ -24,7 +24,7 @@ Use the disregard payment discount at full payment feature to accept payments wh
 
 ## To disregard a payment discount  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2.  Select the line with the payment term for which you want to activate or deactivate payment discounts.  
 3.  Select the **Disreg. Pmt. Disc. at Full Pmt** check box to initiate activation for this feature. To deactivate, clear the check box.  
 

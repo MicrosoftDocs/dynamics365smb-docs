@@ -22,16 +22,18 @@ There are two ways to open the **Settings** page: 1) from the message compose bo
 
 1. Beneath the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] app icon, then select **Settings**.
 
-    ![Settings for Business Central from command box](media/teams-settings-message-box.png)
+    ![Settings for Business Central from command box.](media/teams-settings-message-box.png)
 
 2. From the command box at the top, search for **@Business Central**, select **... (More options)**, then select **Settings**.
 
-   ![Settings for Business Central from message box](media/teams-settings-command-box.png)
+   ![Settings for Business Central from message box.](media/teams-settings-command-box.png)
 
 ## See Also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
+[Searching for Customers, Vendors, and Other Contacts from Microsoft Teams](across-search-contacts-teams.md)  
+[Share Records in Microsoft Teams](across-working-with-teams.md)  
 [Teams FAQ](teams-faq.md)  
 [Troubleshooting Teams](admin-teams-troubleshooting.md)  
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

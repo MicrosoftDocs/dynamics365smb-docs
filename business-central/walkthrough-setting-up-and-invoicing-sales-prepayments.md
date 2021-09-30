@@ -68,7 +68,7 @@ The following procedures describe how to complete Phyllis' tasks:
 
 #### To set up number series for prepayments
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales & Receivables Setup**, and then choose the related link.  
 2.  On the **Sales & Receivables Setup** page, expand the **Number Series** FastTab.  
 3.  Verify that the number series for posted prepayment invoices in the **Posted Prepmt. Inv. Nos.** field is the same as for posted sales invoices (**Posted Invoice Nos.**) and the number series for posted prepayment credit memos (**Posted Prepmt. Cr. Memo Nos.**) is the same as for posted credit memos (**Posted Credit Memo Nos.**).  
 
@@ -84,7 +84,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
 #### To assign default prepayment percentages to customers and items
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2.  Open the card for customer 20000 (Trey Research).
 3.  In the **Prepayment %** field, enter **30**.  
 4.  Select **Related** then select **Sales** then **Prepayment Percentages**
@@ -102,7 +102,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
 #### To specify an account for sales prepayments in general posting setup
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Posting Setup**, and then choose the related link.  
 2.  Select the line where the **Gen. Bus. Posting Group** field is set to **DOMESTIC**, and the **Gen. Prod. Posting Group** field is set to **RETAIL**.  
 3.  In the **Sales Prepayments Account** field, specify the relevant account. Your selection is automatically saved.  
 
@@ -116,7 +116,7 @@ Susan creates the prepayment invoice and sends it to the customer.
 
 #### To create a sales order with a prepayment
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  For the **Customer No.** field, select **20000**.  
 4.  Close the overdue balance warning that is displayed.  
@@ -180,7 +180,7 @@ The customer pays the prepayments amount and Arnie, who works in the accounts de
 
 #### To apply a payment to the prepayment invoices
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.  
 2.  Fill in a journal line with the following information.  
 
     |Field name|Enter|  
@@ -214,7 +214,7 @@ Now Arnie has been informed that the items on the order have been shipped and th
 
 Arnie can view the history to verify that the sales invoice was created as intended.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.  
 
 ## Next Steps
 

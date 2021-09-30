@@ -20,7 +20,7 @@ In the payment journal, the **Status** field on the exported lines will be set t
 
 ## To print a payment file  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the link to open the **EB Payment Journal** page.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal**, and then choose the link to open the **EB Payment Journal** page.  
 2. In the **Batch Name** field, select the required journal batch.  
 3. In the **Export Protocol** field, select the export protocol.  
 

@@ -36,6 +36,10 @@ You set up different aspects of workflow notifications in the following places:
 * Customize the email notifications
 
     If you want, you can customize the content of the email notification by modifying report 1320, Notification Email. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > If you want to use email as the notification method, you must set up email for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Set up Email](admin-how-setup-email.md).
+
 * Response options
 
     You set up specific content and rules of a workflow notification when you create the workflow in question. You do this by selecting options on the **Workflow Response Options** page for the workflow response that represents the notification. For more information, see step 9 in [Create Workflows](across-how-to-create-workflows.md).  

@@ -19,7 +19,7 @@ If you assign a bank account to the payment journal template, the bank account w
 
 ## To create a payment journal template  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal Templates**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journal Templates**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **Payment Journal Templates** page, fill in the fields.  
 

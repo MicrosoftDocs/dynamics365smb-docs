@@ -61,7 +61,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 > [!IMPORTANT]
 > Typically, you only use full synchronization when you're integrating the applications for the first time, and only one application contains data. Full synchronization can be useful in a demonstration environment because it automatically creates and couples records in each application, which makes it faster to start working with synchronized data. However, you should only run full synchronization if you want one row in [!INCLUDE[prod_short](includes/prod_short.md)] for each row in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for the table mappings. Otherwise, the result can be duplicate records.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
 2. Choose **Set up a connection to Microsoft Dataverse** to start the assisted setup guide.
 3. Fill in the fields as necessary.
 
@@ -72,7 +72,7 @@ The Dataverse Connection Setup guide can make it easier to connect the applicati
 
 The following procedure describes how to set up the connection manually on the **Dataverse Connection Setup** page. This is also the page where you manage settings for the integration.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. Enter the following information for the connection from [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Field|Description|
@@ -88,7 +88,7 @@ The following procedure describes how to set up the connection manually on the *
     <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
+    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. To test the connection settings, choose **Connection**, and then **Test Connection**.  
 
     > [!NOTE]  
@@ -103,6 +103,29 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## Upgrade Connections from Business Central Online to Use Certificate-Based Authentication
+> [!NOTE]
+> This section is relevant only for Business Central online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
+
+In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March, 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants, and will require the use of certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by ISVs, and on-premises installations, can continue to use client secret authentication to connect to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
+To avoid disrupting integrations, _you must upgrade_ the connection to use certificate-based authentication. Although the change is scheduled for March, 2022, we strongly recommend that you upgrade as soon as possible. The following steps describe how to upgrade to certificate-based authentication. 
+
+### To upgrade your Business Central online connection to use certificate-based authentication
+
+> [!NOTE]
+> Certificate-based authentication is available in Business Central 2021 release wave 1 and later. If you are using an earlier version, you must schedule an update to Business Central 2021 release wave 1 before March, 2022. For more information, see [Scheduling updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). If you experience issues, contact your partner or support.
+
+1. In the [Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verify that you are using Business Central 2021 release wave 1 or later (version 18 or later).
+2. Depending on whether you integrate with Dynamics 365 Sales, do one of the following:
+   * If you do, open the **Microsoft Dynamics 365 Connection Setup** page.
+   * If you don't, open the **Dataverse Connection Setup** page.
+3. Choose **Connection**, and then **Use Certificate Authentication** to upgrade the connection to use certificate based authentication.
+4. Sign in with administrator credentials for Dataverse. Sign in should take less than a minute.
+
+> [!NOTE]
+> You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## Connecting On-Premises Versions
 
@@ -146,7 +169,7 @@ The following steps assume that you use Azure AD to manage identities and access
 
 ### To disconnect from [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dataverse Connection Setup**, and then choose the related link.
 2. On the **Dataverse Connection Setup** page, turn off the **Enabled** toggle.  
 
 ## See Also

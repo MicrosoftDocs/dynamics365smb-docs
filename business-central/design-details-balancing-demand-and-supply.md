@@ -39,7 +39,7 @@ To understand how the planning system works, it is necessary to understand the p
 
    The objective of the planning mechanism is to counterbalance the demand and supply of an item to ensure that supply will match demand in a feasible way as defined by the planning parameters and rules.  
 
-   ![Overview of supply-demand balancing](media/nav_app_supply_planning_2_balancing.png "Overview of supply-demand balancing")
+   ![Overview of supply-demand balancing.](media/nav_app_supply_planning_2_balancing.png "Overview of supply-demand balancing")
 
 ## Dealing with Orders Before the Planning Starting Date
 To avoid that a supply plan shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:  

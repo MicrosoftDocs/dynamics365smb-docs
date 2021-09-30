@@ -24,7 +24,7 @@ Statement amounts can be applied to outstanding ledger entries by:
 
 ## To manually apply the CODA statement lines  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  For each statement line, fill in the fields as described in the following table.  
@@ -38,7 +38,7 @@ Statement amounts can be applied to outstanding ledger entries by:
 
 ## To automatically apply the CODA statement lines  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2.  Select the bank account, and then choose the **CODA Statements** action.  
 3.  Select the CODA statement, and then choose the **Edit** action.  
 4.  Choose the **Process CODA Statement Lines** action.  

@@ -32,7 +32,7 @@ The chart of cost types is similar to the chart of accounts in the general ledge
 -   Create new chart of cost types or add new cost types to existing chart of cost types. You must create each new cost type individually.  
 
 ### To transfer the general ledger chart of accounts to the chart of cost types  
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Types**, and then choose the related link.  
 2.  Choose the **Get Cost Types from Chart of Accounts** action. In the dialog box, choose the **Yes** button to confirm the transfer. The function uses the chart of accounts to create a chart of cost types.  
 
     The chart of cost types now contain all income statement accounts in the general ledger and include headings and subtotals. You can change the chart of cost types, as necessary. For example, you can delete duplicate existing cost types.  
@@ -76,8 +76,8 @@ There is an n:1 relationship between general ledger accounts and cost types. Sev
 |------------------|------------------------------------------------|-------------------------------------------|  
 |One general ledger account for each cost type|One general ledger account|One cost type|  
 |Several general ledger accounts for one cost type|General ledger account range, for example, 7110..7193 for each general ledger account|For each general ledger account in the range, there is only one cost type|  
-|Cost types without corresponding general ledger accounts|<Empty>||  
-|General ledger accounts whose entries will not be transferred||<Empty>|  
+|Cost types without corresponding general ledger accounts|\<Empty\>||  
+|General ledger accounts whose entries will not be transferred||\<Empty\>|  
 
 ### Cost Types Without a Relationship to the General Ledger  
 A cost type may not have a relationship to general ledger accounts if one of the following conditions is true:  
@@ -94,7 +94,7 @@ Cost centers are departments that are responsible for costs and income. The char
 
 ### To transfer dimension values in the general ledger to the chart of cost centers  
 1.  Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
 3.  On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
     > [!NOTE]  
@@ -127,7 +127,7 @@ Cost objects are projects, products, or services of a company. The chart of cost
 
 ### To transfer dimension values from the general ledger to the chart of cost objects  
 1.  Set a dimension to be the cost object dimension on the **Update CA Dimensions** page. Only the values from this dimension are transferred.  
-2.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
+2.  Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
 3.  Choose the **Get Cost Objects from Dimension** action to transfer dimension values to the chart of cost objects. The function transfers the dimension values that you defined in step 1.  
 
     > [!NOTE]  

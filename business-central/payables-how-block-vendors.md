@@ -26,7 +26,7 @@ The following table describes the options for blocking vendors.
 |**All**|No transactions are allowed for this vendor.|  
 
 ## To block a vendor  
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Select the vendor that you want to block.
 3. In the **Blocked** field, choose one of the options for blocking.
 

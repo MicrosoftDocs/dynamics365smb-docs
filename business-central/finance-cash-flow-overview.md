@@ -26,7 +26,7 @@ The term *cash flow* is used to designate cash receipts minus cash payments over
 
 The following illustration shows an overview of how you can work with cash flow.
 
-![Cash Flow overview](media/finance_cash_flow_overview.png "Cash Flow overview")
+![Cash Flow overview.](media/finance_cash_flow_overview.png "Cash Flow overview")
 
 - You set up a cash flow forecast.  
 

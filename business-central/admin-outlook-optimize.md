@@ -44,7 +44,7 @@ To check if you have Microsoft Edge WebView2 installed on a computer, do the fol
 
 From Start menu:
 
-1. Choose **Start** ![Windows Start](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
+1. Choose **Start** ![Windows Start.](media/windows-start-icon.png "Windows Start icon") > **Settings** ![Windows Settings](media/windows-settings-icon.png "Windows Settings icon") > **Apps & Features**.
 2. In the search box, type **WebView2**. If Microsoft Edge WebView2 is installed, you'll see an entry called **Microsoft Edge WebView2 Runtime**.
 
 From Control Panel:

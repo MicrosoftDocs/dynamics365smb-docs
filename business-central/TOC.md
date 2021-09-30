@@ -142,6 +142,7 @@
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
 #### [Set Up Salespeople](sales-how-setup-salespeople.md)
 #### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 #### [Send Documents by Email](ui-how-send-documents-email.md)

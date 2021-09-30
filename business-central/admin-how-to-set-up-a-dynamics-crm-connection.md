@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/16/2021
+    ms.date: 09/30/2021
     ms.author: bholtorf
 
 
@@ -110,7 +110,7 @@ Starting in 2021 release wave 2, you can use match-based coupling of records in 
 
 The algorithm for matching records can be started from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-* List pages that show records that are synchronized with Dataverse, such as the Customer List and Item List pages. 
+* List pages that show records that are synchronized with Dataverse, such as the Customer List and Item List pages.  
 
     Select multiple records, and then choose the **Related** action, choose **Dataverse**, choose **Coupling**, and then choose **Match-Based Coupling**.
 

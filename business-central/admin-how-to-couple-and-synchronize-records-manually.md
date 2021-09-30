@@ -1,8 +1,7 @@
 ---
-title: Coupling and Synchronizing| Microsoft Docs
+title: Coupling and Synchronizing
 description: Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 Sales table that are coupled.
-services: project-madeira
-documentationcenter: ''
+
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -11,12 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
 
 ---
 
-# Coupling and Synchronizing
+# Coupling and Synchronizing Records between Dataverse and Business Central
+
 This topic describes how to couple one or more records in [!INCLUDE[prod_short](includes/prod_short.md)] with records in Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view Dataverse information from [!INCLUDE[prod_short](includes/prod_short.md)], and vice versa. The coupling also enables you to synchronize data between the records. You can couple existing records, or create and couple new records.
 
 > [!Note]
@@ -47,7 +47,8 @@ This topic describes how to couple one or more records in [!INCLUDE[prod_short](
 > You can synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)] automatically only when **Sync. Only Coupled Records** is disabled and the synchronization direction is set to Bidirectional or From Integration Table on the **Integration Table Mapping** page for the record. For more information, see [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
 
 ## To couple multiple records using match-based coupling
-You can specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. You can refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. For more information, see [Customize the Match-Based Coupling](admin-how-to-set-up-a-dynamics-crm-connection.md). 
+
+You can specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. You can refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. For more information, see [Customize the Match-Based Coupling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], open the list page for the record, such as the Customers or Contacts list pages.
 2. Choose the **Match-Based Coupling** action.

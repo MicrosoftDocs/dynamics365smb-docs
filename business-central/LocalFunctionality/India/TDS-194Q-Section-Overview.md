@@ -1,6 +1,6 @@
 ---
     title: Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q
-    description: Specifies Basic Setups required, as per the provisions of the Income Tax Act, 1961
+    description: Specifies the setups required, as per the provisions of the Income Tax Act, 1961.
 
     author: v-debapd
 

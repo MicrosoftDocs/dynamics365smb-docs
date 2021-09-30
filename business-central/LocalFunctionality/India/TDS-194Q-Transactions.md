@@ -1,6 +1,6 @@
 ---
     title: TDS calculation and transactions as per Section 194Q
-    description: TDS calculation and transactions as per Section 194Q
+    description: TDS calculation and transactions as per Section 194Q.
 
     author: v-debapd
 

@@ -127,12 +127,9 @@ The following topics describe the local functionality in the Indian version of [
 * Stale Cheque
     * [Stale Cheque](Stale-Check.md) **Available Now**
 
-* Business Central IN Data Migration Toolkit
-    * [IN Data Migration from NAV 2016 IN to Business Central 14](India-Data-Migration-NAV-2016-to-BC14.md) **Available Now**
-    * [IN Data Migration from Business Central 14 to Business Central 19 On-Prem](India-Data-Migration-BC14-to-BC19-on-Prem.md) **Available Now**
-    * [IN Data Migration from Customized, BC 14 to BC 19 On-Prem](India-Data-Migration-Customized-BC14-to-BC19-on-Prem.md)  **Available Now**
-    * [IN Data Migration from Business Central Business Central 19 On-Prem to Cloud](India-Data-Migration-BC19-on-Prem-to-Cloud.md) **Available Now**
-    * [IN Data Migration List of Deprecated Tables](India-Data-Migration-List-of-deprecated-tables.md) **Available Now**
+* Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
+    * [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
+
 
 ## See Also
 [Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

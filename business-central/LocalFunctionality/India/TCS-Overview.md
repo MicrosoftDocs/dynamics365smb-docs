@@ -1,6 +1,6 @@
 ---
     title: Setting up Tax Collected at Source, as per the provisions of the Income Tax Act, 1961
-    description: Specifies Basic Setups required, as per the provisions of the Income Tax Act, 1961
+    description: Specifies the basic setups required, as per the provisions of the Income Tax Act, 1961.
 
     author: v-debapd
 

@@ -32,8 +32,6 @@ The Business Central app resembles the web client, but it provides a few benefit
 
 1. Open the [!INCLUDE[prod_short](includes/prod_short.md)] web client in either Microsoft Edge or Google Chrome.
 
-    Safari and Firefox don't support installing the app.
-
 2. If the page for selecting the environment appears, you can do one of two things:
 
    - Select the environment and go to the next step to install the app. In this case, the installed app will open the environment you select.

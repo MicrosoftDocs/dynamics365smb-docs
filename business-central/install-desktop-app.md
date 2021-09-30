@@ -22,10 +22,10 @@ If you have a Windows (PC) or macOS computer, you can install a Business Central
 The Business Central app resembles the web client, but it provides a few benefits like:
 
 - The app is readily available from the **Start** menu, you can easily pin it to the task bar, or have it launch by default when you start your computer.
-- The app opens in its own window, independent of any browser windows, which makes it easier to find when running a large number of apps or browser tabs.
+- The app opens in its own window, independent of any browser windows. This feature makes it easier to find when running a large number of apps or browser tabs.
 - In general, the app also is a faster and smoother to render on screen, with no performance differences, compared to running Business Central in the browser.
 - When working across multiple Business Central windows or multitasking, each window is displayed separately.
-- If you have more than one Business Central environment (or tenant for on-premises), you can install the app seprratly for each environment or tenant. The when working with several named environments, the name is added to the windows title making it easier for you to see which window is associated with an environment.
+- If you have more than one Business Central environment (or tenants for on-premises), you can install the app separately for each environment or tenant. When you've opened the app for several named environments, the name is added to the window title making it easier for you to see which window is associated with an environment.
 
 ## Install the app
 
@@ -33,17 +33,22 @@ The Business Central app resembles the web client, but it provides a few benefit
 
     Safari and Firefox don't support installing the app.
 
-2. If the page for selecting the environment appears, you can do one of two things
+2. If the page for selecting the environment appears, you can do one of two things:
 
-   - Select the environment and go to the next step to install the app. In this case, the installed app will directly open the environment you select.
-   - Don't select the environment at this time and just go to next step to install the app. In this case, the installed app will always open the environment selection page, instead of a specific enviroment. 
+   - Select the environment and go to the next step to install the app. In this case, the installed app will open the environment you select.
+   - Don't select the environment, and just go to next step to install the app. In this case, the installed app will open the environment selection page, instead of a specific environment.
 
-3. To the right of the browser's address bar, depending the your browser. select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
+3. To install the app, depending your browser, select ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central**, then **Install**.
 
    | Microsoft Edge | Google Chrome |
    |--|--|
    | :::image type="content" source="media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="media/ui-chrome-install-app-v2.png" alt-text="illustration of a button for installing an app in Chrome."::: |
 
+Once installed, the app appears in the **Start** menu. If you've selected a specific environment for the app, the environment name is added to the app name in **Start** menu.
+
+### For Business Central on-premises
+
+Installing the app when you're using Business Central on-premises is basically the same as described above. You can choose to select a certain tenant by appending “?tenant=tenantName” in the URL before installing it. Similarly to the cloud installation, launching the app later will open the selected tenant directly. However, for on-premises deployments, only one app can be installed for a given deployment
 <!--
    > [!NOTE]
    > You can only install the app on a macOS computer if your using Microsoft Edge or Google Chrome.

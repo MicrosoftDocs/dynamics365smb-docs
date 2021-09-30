@@ -41,6 +41,8 @@ The following table describes the email extensions that are available by default
 
 > [!NOTE]
 > The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
+>
+> Additionally, external users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

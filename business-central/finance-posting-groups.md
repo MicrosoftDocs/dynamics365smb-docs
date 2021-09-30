@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 ---
 # Setting Up Posting Groups
-Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
+Posting groups map entities such as customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. They save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
 
 Posting groups are covered under three umbrellas:  
 
@@ -70,6 +70,14 @@ Your setup determines when posting happens. For example, the timing is affected 
 
 ## Copying posting setup lines
 The more product and business posting groups you have, the more lines you see in the General Posting Setup page. This can mean a lot of data entry to set up the general posting setup for the company. While there may be many different combinations of business and product posting groups, different combinations may still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
+
+## Troubleshooting posting group errors
+Posting groups are one of the more advanced concepts to set up in [!INCLUDE[prod_short](includes/prod_short.md)]. If they aren't set up correctly, errors can occur when posting documents or journal lines. For example, these errors are typically caused by a mistake in how general ledger accounts are assigned, or how posting groups are combined.
+
+When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will display the **Error Messages** page. The **Error Messages** page can make it easier to identify and resolve the issue. The page offers a description of the error that points out the posting group setup that needs attention. For example, the message might read "Sales Prepayment account is missing a General Posting Setup." There's also a link to open the page that's the source of the issue, so you can quickly resolve it.  
+
+> [!NOTE]
+> The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
 ## See also
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

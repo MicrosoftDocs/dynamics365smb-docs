@@ -44,7 +44,9 @@ After you specify the strategy, on the **Coupled Data Synchronization Errors** p
 Mapping tables is only the first step. You must also map the fields on the tables. Integration field mappings link fields in [!INCLUDE[prod_short](includes/prod_short.md)] tables with corresponding columns in [!INCLUDE[prod_short](includes/cds_long_md.md)], and determine whether to synchronize data in each table. The standard table mapping that [!INCLUDE[prod_short](includes/prod_short.md)] provides includes field mappings, but you can change those if you want. For more information, see [Viewing Table Mappings](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings).
 
 > [!Note]
-> If you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)], Integration field mappings are defined in table 5336 Integration Field Mapping.
+> If you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)], integration field mappings are defined in table 5336 Integration Field Mapping.
+
+You can manually map the fields, or you can automate the process by mapping multiple fields at the same time based on criteria for matching their values. For more information, see [To couple multiple records based on field value matching](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### Handling Differences in Field Values
 Sometimes the values in the fields that you want to map are different. For example, in [!INCLUDE[crm_md](includes/crm_md.md)] the language code for the United States is "U.S.," but in [!INCLUDE[prod_short](includes/prod_short.md)] it's "US." That means you must transform the value when you synchronize data. This happens through transformation rules that you define for the fields. You define transformation rules on the **Integration Table Mappings** page by choosing **Mapping**, and then **Fields**. Predefined rules are provided, but you can also create your own. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

@@ -1,5 +1,5 @@
 ---
-title: Administrative tasks in Business Central | Microsoft Docs
+title: Administrative tasks in Business Central
 description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
 author: SorenGP
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 07/23/2021
 ms.author: edupont
 
 ---
@@ -19,17 +19,17 @@ Central administration tasks are usually performed by one role in the company. T
 
 Entering the correct setup values from the start is important to the success of any new business software. [!INCLUDE[prod_short](includes/prod_short.md)] includes a number of setup guides that help you set up core data. For more information, see [Setting Up Business Central](setup.md).
 
+> [!NOTE]
+> You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
 Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.  
 
 A super user or an administrator can set up the Data Exchange Framework to enable users to export and import data in bank and payroll files, for example for various cash management processes. For more information, see [Exchanging Data Electronically](across-data-exchange.md).
 
-> [!NOTE]
-> You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks. For more information, see [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-The following table describes a sequence of tasks, with links to the topics that describe them.  
+The following table describes a sequence of tasks, with links to the articles that describe them.  
 
 |**To**|**See**|  
-|------------|-------------|  
+|------------|-------------|
 |Define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)] by creating users on the Microsoft 365 Admin Center according to the product licenses.|[Create Users According to Licenses](ui-how-users-permissions.md)|
 |Assign permissions to users, modify permission sets, and group users for easy permission management.|[Assign Permissions to Users and Groups](ui-how-users-permissions.md)|
 |Add users, manage permissions and access to data, assign roles.|[Manage Profiles](admin-users-profiles-roles.md)|
@@ -46,8 +46,17 @@ The following table describes a sequence of tasks, with links to the topics that
 |Encrypt data on the [!INCLUDE[prod_short](includes/prod_short.md)] server by generating new or importing existing encryption keys that you enable on the server.|[Managing Data Encryption](admin-manage-data-encryption.md)|
 |Connect Dynamics 365 Sales with [!INCLUDE[prod_short](includes/prod_short.md)] to obtain seamless integration between customer relations and order processing in the lead-to-cash process.|[Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Change which fields and actions are shown in the user interface to fit your company's business processes and extend the solution with apps.|[Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
-|Monitor usage and troubleshoot sessions.|[Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Manage user sessions, including canceling a session if the user is blocked.|[Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
+
+## Administration in the admin center
+
+Internal and delegated admins have access to the [!INCLUDE [prod_short](includes/prod_short.md)] admin center where they can configure, monitor, and troubleshoot [!INCLUDE [prod_short](includes/prod_short.md)] environments. The following table describes some of the key tasks, with links to the articles that describe them.  
+
+|**To**|**See**|  
+|------------|-------------|
+|Learn about the tools that are available to you to help you troubleshoot.|[Technical Support](/dynamics365/business-central/dev-itpro/technical-support)|
+|Monitor usage and troubleshoot sessions|[Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Manage user sessions, including canceling a session if the user is blocked.|[Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Configure the tenant to send telemetry data to Azure Application Insights for better analysis and troubleshooting.|[Enable Sending Telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## See Related Training at [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

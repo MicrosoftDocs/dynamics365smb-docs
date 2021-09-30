@@ -86,6 +86,8 @@ The following topics describe the local functionality in the Indian version of [
     * [TDS Provisional Entry](TDS-Provisional-Entries.md) **Available Now**
     * [TDS Adjustment Entry](TDS-Adjustment-Entries.md) **Available Now**
     * [TDS Payment to Authority](TDS-TDS-Payment-to-Authority.md) **Available Now**
+    * [TDS 194Q Section Overview](TDS-194Q-Section-Overview.md) **Available Now**
+    * [TDS 194Q Transactions](TDS-194Q-Transactions.md) **Available Now**
 
 * TDS for Customer
     * [TDS for Customer Overview](TDS-for-Customer-Overview.md) **Available Now**
@@ -121,10 +123,12 @@ The following topics describe the local functionality in the Indian version of [
     * [Create GST Liability](Subcontracting-Create-GST-Liability.md) **Available Now**
     * [Subcontracting Report](Subcontracting-Reports.md) **Available Now**
     
-* Stale Cheque **Comming Soon**
+    
+* Stale Cheque
+    * [Stale Cheque](Stale-Check.md) **Available Now**
 
-
-
+* Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
+    * [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
 
 
 ## See Also

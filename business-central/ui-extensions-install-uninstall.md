@@ -19,7 +19,7 @@ ms.author: solsen
 You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing extensions that, for example, add functionality, changes behavior, or gives you access to new online services. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).
 
 > [!NOTE]
-> To install extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the EXTEND. MGT. - ADMIN user group or you must have the EXTEND. MGT. - ADMIN permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
+> To install or uninstall extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the EXTEND. MGT. - ADMIN user group or you must have the EXTEND. MGT. - ADMIN permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
 >
 > To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
@@ -72,9 +72,16 @@ Microsoft provides the following extensions:
 * [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
+
+## Uploading a Per-Tenant Extension (PTE)
+
+You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, this will start the process of deploying the PTE.
+
+If the PTE contains breaking schema changes, it is possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You will get a confirmation dialog to accept before proceeding. 
+
 ## Uninstalling an Extension
 
-You uninstall an extension using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled*.
+You uninstall an extension by using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled*.
 
 > [!IMPORTANT]  
 > If you enable the **Delete Extension Data** checkbox, you will get a confirmation dialog and you must choose **OK**. With the **Delete Extension Data** checkbox enabled, you can now uninstall the extension, and you will be asked to reconfirm that you want to uninstall the extension and delete the data. The action cannot be undone.

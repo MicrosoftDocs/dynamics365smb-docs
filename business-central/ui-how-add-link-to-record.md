@@ -59,7 +59,7 @@ The following procedure is based on a sales order. The steps are similar for all
 A PDF file with the current content of the sales order is added to the **Attachments** tab in the FactBox.
 
 ## To add a link from an item card
-You can add a link from a card or document to any URL or path. This is useful, for example, when you want to link an item card with the supplier's item catalog.
+You can add a link from a card or document to any URL. This is useful, for example, when you want to link an item card with the supplier's item catalog.
 
 The following procedure is based on an item card. The steps are similar for all other supported cards and documents.
 

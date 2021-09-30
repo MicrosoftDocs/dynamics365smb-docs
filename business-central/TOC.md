@@ -41,7 +41,10 @@
 ##### [Design Details: Item Application](design-details-item-application.md)  
 ##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Design Details: Posting Date on Adjustment Value Entry
+###### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 ##### [Design Details: Average Cost](design-details-average-cost.md)  
 ##### [Design Details: Variance](design-details-variance.md)  
@@ -91,7 +94,14 @@
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
+### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
 ### [Getting Ready for Doing Business](ui-get-ready-business.md)
+
+## Quick Starts
+### [Business Central Quick Starts](quick-start-business-central.md)
+### [Set up Company Information](quick-start-company-information.md)
+### [Sell Products and Services](quick-start-sell-products-and-services.md)
+### [Buy Products and Services](quick-start-procurement.md)
 
 <!--setup-->
 ## Setting Up Business Central
@@ -132,6 +142,7 @@
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
 #### [Set Up Salespeople](sales-how-setup-salespeople.md)
 #### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 #### [Send Documents by Email](ui-how-send-documents-email.md)
@@ -236,18 +247,19 @@
 #### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
 #### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrate Customer Data](admin-migrate-customer-data.md)
-#### [Create Custom Company Configuration Packages](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Setting Up Email
 #### [Set Up Email](admin-how-setup-email.md)
-#### Set Up Your Business Inbox in Microsoft Outlook 
-##### [Using Business Central as Your Business Inbox in Outlook](admin-outlook.md)
+#### Set Up Your Business Inbox in Microsoft Outlook
+##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
+##### [Using Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
-##### [Using Business Central Without Outlook](admin-no-outlook.md)
+##### [Using Business Central without Outlook](admin-no-outlook.md)
 ### Setting Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Setting Up Connections
+#### [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md)
 #### Using Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Managing Teams Integration](admin-teams-integration.md)
 ##### [Installing Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Searching for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
-##### [Sharing Records in Teams](across-working-with-teams.md)
+##### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Changing Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshooting](admin-teams-troubleshooting.md)
+#### Using OneDrive for Business with Business Central
+##### [Overview](across-onedrive-overview.md)
+##### [Managing OneDrive for Business Integration](admin-onedrive-integration.md)
+##### [Opening Business Central Files in OneDrive](across-share-onedrive.md)
+##### [OneDrive FAQ](admin-onedrive-faq.md)
 #### Using Power BI with Business Central
 ##### [Introduction](admin-powerbi.md)
 ##### Administrator
@@ -329,7 +346,9 @@
 ## [Detecting Mandatory Fields](ui-mandatory-fields.md)
 ## [Changing Language and Region](about-locale-language.md)
 ## [Viewing and Editing in Excel](across-work-with-excel.md)
+## [Storing and Sharing Files in OneDrive](across-share-onedrive.md)
 ## [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
+## [Using Word Templates for Bulk Communication](ui-mail-merge.md)
 ## [Change Basic Settings](ui-change-basic-settings.md)
 ## [Switching to Another Company or Environment](ui-organization-switch.md)
 ## [Manage Notifications](ui-smart-notifications.md)
@@ -534,7 +553,11 @@
 #### [Update Standard Costs](finance-how-to-update-standard-costs.md)
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Reporting Costs and Reconciling with the General Ledger
+##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+#### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Managing Cash Flow
 #### [Cash Flow Overview](finance-cash-flow-overview.md)
@@ -604,6 +627,7 @@
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
+### [Process Sales Return Orders](sales-how-process-sales-returns-orders.md)
 ### [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)
 ### [Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -646,9 +670,10 @@
 ### [View the Availability of Items](inventory-how-availability-overview.md)
 ### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
 ### [Reserve Items](inventory-how-to-reserve-items.md)
+### [Set Up Item Tracking with Serial, Lot, and Package Numbers](inventory-how-setup-item-tracking.md)
 ### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
-### [Use Item Cross References](inventory-how-use-item-cross-refs.md)
 ### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
+### [Use Item References](inventory-how-use-item-cross-refs.md)
 ### [Block Items](inventory-how-block-items.md)
 ### [Work with Responsibility Centers](inventory-responsibility-centers.md)
 
@@ -1166,6 +1191,8 @@
 ##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [TDS 194Q Section Overview](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q Transactions](LocalFunctionality/India/TDS-194Q-Transactions.md)
 ##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
 ##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher Interface
@@ -1183,6 +1210,7 @@
 ##### [Subcontracting Transactions](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Create GST Liability](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Subcontracting Report](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italy
 #### [Local Functionality in the Italian Version](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1598,6 +1626,7 @@
 ### [Logging Changes](across-log-changes.md)
 ### [Using Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
+### [Archive Data](admin-archive-data.md)
 ### [Defining Data Retention Policies](admin-data-retention-policies.md)
 ### [Publishing a Web Service](across-how-publish-web-service.md)
 ### [Configuring API Templates](admin-configuring-api-template.md)
@@ -1606,9 +1635,9 @@
 ### [Inspecting Pages](across-inspect-page.md)
 ### [Viewing Database Locks](admin-view-database-locks.md)
 ### [Viewing Table Information](admin-view-table-information.md)
-### [Creating a Sandbox Environment](across-how-create-sandbox-environment.md)
 ### [Enabling New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
+### [Sandbox Environments](admin-sandbox-environments.md)
 ## Customizing Business Central
 ### [Customization Overview](ui-customizing-overview.md)
 ### [Customize Pages for Profiles](ui-personalization-manage.md)

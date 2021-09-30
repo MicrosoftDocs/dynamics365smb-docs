@@ -1,6 +1,6 @@
 ---
-    title: Set Up Company Configuration | Microsoft Docs
-    description: The implementation process begins with the Business Central solution will require. You bundle all of this information into configuration packages.
+    title: Set Up Company Configuration
+    description: As a partner, get Business Central set up right for your customer with default or customer-specific configurations that you bundle into configuration packages.
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -14,9 +14,9 @@
 
 ---
 # Set Up Company Configuration
-The implementation process begins with the Microsoft partner. The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[prod_short](includes/prod_short.md)] solution will require. You bundle all of this information in configuration packages.
+The implementation process begins with the Microsoft partner. As a partner, you are responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company in [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[prod_short](includes/prod_short.md)] solution will require. You bundle all of this information in configuration packages.
 
-RapidStart Services also provides you with the tools that you will use to migrate your legacy data, such as customers and vendors.  
+RapidStart Services also provides you with the tools that you will use to migrate any legacy data, such as customers and vendors.  
 
 We recommend that you create configuration packages with most of the setup tables already filled in, so that customers only have to change a few settings after the package is applied. For example, when you create a new company, the **No. Series** and the **No. Series Line** tables are filled in with a set of number series and starting numbers. The corresponding **No. Series** fields in the setup tables are also filled in automatically. You do not have to do the work of entering number series and other basic setup data. You can also manually change all default data that is used with RapidStart Services by using the configuration worksheet.  
 
@@ -29,11 +29,14 @@ The following table describes a sequence of tasks with links to topics that desc
 |**To**|**See**|  
 |------------|-------------|  
 |Plan a company configuration by filling in the configuration worksheet.|[Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.|[Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)| 
+|Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.|[Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)|
 
-## See Also  
+You can also create configuration packages with standard configurations that you can use again and again. For more information, see [Set Up Standard Company Configuration Packages](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) in the developer and administration content.  
+
+## See Also
+
 [Setting Up a Company With RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -106,11 +106,11 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## Customize the Match-Based Coupling
 
-Starting in 2021 release wave 2, you can use match-based coupling of records in [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)], based on matching criteria defined by the administrator.  
+Starting in 2021 release wave 2, you can couple records in [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)] based on matching criteria defined by the administrator.  
 
 The algorithm for matching records can be started from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-* List pages that show records that are synchronized with Dataverse, such as the Customer List and Item List pages.  
+* List pages that show records that are synchronized with [!INCLUDE [cds_long_md](includes/cds_long_md.md)], such as the Customers and Items pages.  
 
     Select multiple records, and then choose the **Related** action, choose **Dataverse**, choose **Coupling**, and then choose **Match-Based Coupling**.
 
@@ -126,7 +126,7 @@ The algorithm for matching records can be started from the following places in [
 
     Select a mapping, choose the **Coupling** action, and then choose **Match-Based Coupling**.
 
-    When the match-based coupling process is started from an integration table mapping, a coupling job will it will run for all uncoupled records in that mapping. If it was run for a set of selected records from the list, it will run only for the selected uncoupled records.
+    When the match-based coupling process is started from an integration table mapping, a coupling job will run for all uncoupled records in that mapping. If it was run for a set of selected records from the list, it will run only for the selected uncoupled records.
 
 In all three cases, the **Select Coupling Criteria** page opens so that you can define the relevant coupling criteria. In this page, customize the coupling with the following tasks:
 
@@ -158,7 +158,7 @@ Failed coupling often happens in the following cases:
 
     In this case, repeat the coupling with some other matching fields.
 
-* Single match was found, but the matching record is already coupled to another record in [!INCLUDE [prod_short](includes/prod_short.md)]  
+* A single match was found, but the matching record is already coupled to another record in [!INCLUDE [prod_short](includes/prod_short.md)]  
 
     In this case, repeat the coupling with some other matching fields, or investigate why that [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entity is coupled to that other record in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -167,7 +167,7 @@ Failed coupling often happens in the following cases:
 
 ## Upgrade Connections from Business Central Online to Use Certificate-Based Authentication
 > [!NOTE]
-> This section is relevant only for Business Central online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
+> This section is relevant only for [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
 
 In April, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is deprecating the Office365 authentication type (username/password). For more information, see [Deprecation of Office365 authentication type](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Additionally, in March, 2022, [!INCLUDE[prod_short](includes/prod_short.md)] is deprecating the use of client secret based service-to-service authentication for online tenants, and will require the use of certificate-based service-to-service authentication for connections to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by ISVs, and on-premises installations, can continue to use client secret authentication to connect to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

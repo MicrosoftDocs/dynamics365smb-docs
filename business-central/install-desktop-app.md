@@ -24,9 +24,9 @@ The Business Central app resembles the web client, but it provides a few benefit
 - The app is readily available from the **Start** menu, you can easily pin it to the task bar, or have it launch by default when you start your computer.
 - In general, the app also is a faster and smoother to render on screen, with no performance differences, compared to running [!INCLUDE[prod_short](includes/prod_short.md)] in the browser.
 - The app opens in its own window, independent of any browser windows. This feature makes it easier to find when running a large number of apps or browser tabs.
-- If you have more than one Business Central environment (or tenants for on-premises), you can install the app separately for each environment or tenant.
+- If you have more than one Business Central environment (online only), you can install the app separately for each environment.
 
-     When you open the app for specific environment, the environment name is included in the window title. When working across multiple [!INCLUDE[prod_short](includes/prod_short.md)] environments, each window is displayed separately. The name makes it easier for you to see which window is associated with each environment.
+     When you open the app for specific environment, the environment name is included in the window title. When working across multiple [!INCLUDE[prod_short](includes/prod_short.md)] environments, each app window is displayed separately. The name makes it easier for you to see which window is associated with each environment.
 
 ## Install the app
 
@@ -51,10 +51,10 @@ Once installed, the app appears in the **Start** menu. If you've selected a spec
 
 Installing the app when you're using Business Central on-premises is basically the same as described above. If you only have one tenant, just open the Business Central in your browser, then select either ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** as shown above. 
 
-The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app separately for different environments, with on-premises you can only install the app for one tenant. You switch a tenant by adding `?tenant=tenant_ID` to the URL in the browser address, where `tenant_ID` is the ID assigned to the tenant. So before you install the app when you have multiple tenants, be sure to switch to the correct tenant. Once installed, when you open the app, it'll directly open the tenant.
+The difference is when you have multiple tenants. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, where you can install the app separately for different environments, with on-premises you can only install the app for one tenant. So before you install the app when you have multiple tenants, be sure to switch to the correct tenant. You switch a tenant by adding `?tenant=tenant_ID` to the URL in the browser address, where `tenant_ID` is the ID assigned to the tenant.  Once installed, when you open the app, it will directly open the tenant.
 
 > [!IMPORTANT]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see the  otherwise, you won't see the ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
+> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
 
 
 <!--

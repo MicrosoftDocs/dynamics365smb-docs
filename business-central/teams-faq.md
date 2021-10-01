@@ -144,7 +144,7 @@ If you want to participate in improving the app for Teams, or have an idea that 
 
 For functionality in the web client that links to Teams, see [Share to Teams](#share). 
 
-## [Searching for Contacts](#tab/contacts)
+## [Search for Contacts](#tab/contacts)
 
 ### Which tables does the app search in?
 
@@ -238,7 +238,7 @@ Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short
 
 If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
-## [Working with cards](#tab/cards)
+## [Work with cards](#tab/cards)
 
 ### Which types of links does the app support?
 
@@ -271,7 +271,7 @@ When you compose and send a message to chat that includes a card, all users will
 
 If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
-## [Working with card details](#tab/carddetails)
+## [Work with card details](#tab/carddetails)
 
 ### Where is the save button in the details window in Teams?
 
@@ -301,7 +301,7 @@ Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the deta
 
 If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app. 
 
-## [Collaborating with guests ](#tab/collaborating)
+## [Collaborate with guests](#tab/collaborating)
 
 ### Can I share cards with users outside my organization?
 

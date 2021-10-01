@@ -16,11 +16,15 @@ ms.author: edupont
 
 ---
 # Register Employees
-To use the Human Resources functionality, you must first register each employee by creating a card with all the core and related information.
+To use the Human Resources functionality, you must first add each employee by filling out the fields on the **Employee Card** page.
 
-You can modify an employee's details at any time. Keeping up-to-date records about your employees simplifies personnel tasks. For example, if an employee's address changes, you register this on the employee card.
+## Adding new customers
+You can add new employees manually, by filling out the fields on the **Employee Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of employee profiles. Using templates saves time when adding new employees, and helps ensure that the information is correct each time. If you create templates for more than one type of employee, you can choose the template to use when you add an employee. If you create only one template it will be used for all new employees. After you create a template, you can use the **Apply Template** action to apply it to one or more selected employees. To create a template, you fill in the information that you want to reuse on the Employee Card page, and then save it as a template.
 
-The following procedures describe how to create an initial employee card and how to assign two types of employee details to an employee. In addition, you can assign various other related information, such as qualifications and causes of inactivity. You assign employee information either by choosing a field or an action on the **Employee Card** page.
+> [!TIP]
+> It can be helpful to personalize the **Employee Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalize Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+You can modify an employee's details at any time. Keeping employee records up-to-date can simplify personnel-related tasks. For example, if an employee's address changes, you register this on the Employee Card page.
 
 > [!NOTE]  
 > You can reimburse employees for their expenses during business activities. For this purpose, you must fill in the fields on the **Payments** FastTab on the **Employee Card** page. For more information, see [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md).
@@ -31,7 +35,7 @@ The following procedures describe how to create an initial employee card and how
 3. On the **Employee Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To insert a picture of an employee
-If you have a picture of an employee in .bmp format, you can insert it on the employee card.
+If you have a picture of an employee, you can insert it on the employee card.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.

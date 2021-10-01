@@ -124,12 +124,6 @@ To filter larger datasets, the easiest way is to set a filter on your Power BI r
 
 There's currently no way of setting a filter for the web service data from within Business Central. If your application needs to set a filter from within Business Central, you'll have to create a custom Business Central App for this purpose.
 
-<!-- 8 and 9 -->
-
-### For embedding reports in Business Central pages, right now it's only possible to get reports from *My Workspace* in Power BI. Are there plans to make it possible to get them from custom workspaces?
-
-Yes. We have it in our plans to add support for shared workspaces, but we don't yet have a timeline to give you.  
-
 <!-- 10 -->
 ### From Power BI, besides using a query, is there another way to get data from Business Central tables that don't have an associated page? For example, like the *Item Attributes Value Mapping* table.
 

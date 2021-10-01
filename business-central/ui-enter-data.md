@@ -1,18 +1,16 @@
 ---
 title: How to Enter Data in Business Central
 description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
-author: SorenGP
-
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
-ms.date: 06/23/2021
-ms.author: edupont
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
 ---
-
 # Entering Data
 
 There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
@@ -31,7 +29,6 @@ Some editable fields provide a picker to help you specify a value.
 |Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
 |Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
 |Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
-
 
 ### Modifying a field value
 
@@ -54,7 +51,6 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
-
 
 ## Keyboard Shortcuts
 
@@ -263,9 +259,16 @@ Here are some examples.
 
  The number 5 is converted to 5 hrs, if the unit of measure is hours.  
 
-## See Also  
- [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="decimal"></a>Setting the decimal separator used by numeric keyboards
+
+When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region in Business Central on the **My Settings** page.
+
+For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+
+## See Also
+
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

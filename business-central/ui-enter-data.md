@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
+ms.search.keywords: decimal separator, data entry, focus
 ms.date: 10/01/2021
 ms.author: jswymer
 ---
@@ -259,14 +259,16 @@ Here are some examples.
 
  The number 5 is converted to 5 hrs, if the unit of measure is hours.  
 
-## Setting the decimal separator used by numeric keyboards
+## <a name="decimal"></a>Setting the decimal separator used by numeric keyboards
 
-When using the decimal separator key of numeric keyboard to enter data, the decimal separator that's entered in the field is determined by the regional setting of your Business Central. For most non-US keyboards, using the "." or "," as a thousandths or decimal separator from the keyboard's numeric keypad didn't result in the correct separator in the Business Central web client. For example, a value of 123,456 got entered as 123.456.
+When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region setting in Business Central on the **My Settings** page.
+
+For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to target language region, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
 
 ## See Also
 
- [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

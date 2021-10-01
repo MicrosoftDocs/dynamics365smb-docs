@@ -317,7 +317,6 @@ To learn about other similarities and differences between guests and team member
 
 Guests don't have access to the app marketplace to install apps themselves. However, the app can be automatically installed for them based on your organization’s policies. Another way for a guest user to install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is when they receive a chat message that includes a [!INCLUDE [prod_short.md](includes/prod_short.md)] card. In this case, the user chooses the **Details** button or the menu on the card, then installs the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for use with your organization. After installing the app, a user doesn't automatically receive any permissions to access data from your [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
 ## [Share to Teams](#tab/share)
 
 ### Does Share to Teams send a compact card? 

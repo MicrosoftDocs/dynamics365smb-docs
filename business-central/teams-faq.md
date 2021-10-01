@@ -140,6 +140,10 @@ At Microsoft, we're constantly listening to feedback from our diverse user commu
 
 If you want to participate in improving the app for Teams, or have an idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
+### Where can I find Teams integration inside the Business Central Web client? 
+
+For functionality in the web client that links to Teams, see [Share to Teams](#share). 
+
 ## [Searching for Contacts](#tab/contacts)
 
 ### Which tables does the app search in?
@@ -314,7 +318,37 @@ To learn about other similarities and differences between guests and team member
 Guests don't have access to the app marketplace to install apps themselves. However, the app can be automatically installed for them based on your organization’s policies. Another way for a guest user to install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is when they receive a chat message that includes a [!INCLUDE [prod_short.md](includes/prod_short.md)] card. In this case, the user chooses the **Details** button or the menu on the card, then installs the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for use with your organization. After installing the app, a user doesn't automatically receive any permissions to access data from your [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ---
+## [Share to Teams](#tab/share)
 
+### Does Share to Teams send a compact card? 
+
+At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, that they can activate and that takes them to Business Central in a separate browser window. 
+
+### Will recipients receive the message from me or from a Business Central service account? 
+
+When you use Share to Teams, the message is sent to a person, group or channel similar to if you had sent the message yourself from within Microsoft Teams. Recipients see the message from you on their preferred Teams client, and can react and respond as they normally would to a message from you. 
+
+### Is Share to Teams available in Business Central on premises? 
+
+No. Similar to the Business Central app for Teams, this feature is only available for the Web client in Business Central online. There are no plans to support Business Central deployment types – like on-premises, hybrid cloud, or private cloud – that Microsoft doesn’t host or manage directly. 
+
+### Does Share to Teams grant permissions to recipients? 
+
+No. When you share with a person, group or channel, permissions are unaffected. Users who already have permission to view the page and data at the end of the link will be able to do so. Users who do not have permission to view that page and data, or do not have a Business Central license, will be shown an error message. 
+ 
+### Must I have the Teams desktop app installed to use Share to Teams? 
+
+No. All you need is a valid account that has access to Microsoft Teams. 
+
+### Is Share to Teams available in all Business Central clients? 
+
+At this time, Share to Teams is available exclusively in the desktop web client, and in the details window in Teams.  
+
+### Where do I find Share to Teams in Business Central? 
+
+The **Share to Teams action** can be found in the **Share** menu on all pages, such as card and document pages, list or worksheet pages, including custom pages. The action is not available on dialog boxes or pages shown as dialog boxess, such as lookup pages or wizards.
+
+---
 ## See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  

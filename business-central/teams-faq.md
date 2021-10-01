@@ -321,7 +321,7 @@ Guests don't have access to the app marketplace to install apps themselves. Howe
 
 ### Does Share to Teams send a compact card? 
 
-At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [prod_short.md](includes/prod_short.md)] in a separate browser window. 
+At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [!INCLUDE [prod_short.md](includes/prod_short.md)] in a separate browser window. 
 
 ### Will recipients receive the message from me or from a Business Central service account? 
 
@@ -329,11 +329,11 @@ When you use Share to Teams, the message is sent to a person, group, or channel,
 
 ### Is Share to Teams available in Business Central on premises? 
 
-No. Similar to the [prod_short.md](includes/prod_short.md)] app for Teams, this feature is only available for the web client in [prod_short.md](includes/prod_short.md)] online. There are no plans to support [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn’t host or manage directly.
+No. Similar to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, this feature is only available for the web client in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn’t host or manage directly.
 
 ### Does Share to Teams grant permissions to recipients? 
 
-No. When you share with a person, group, or channel, permissions are unaffected. Users who already have permission to view the page and data targeted by the link can do so. Users who don't have permission to view that page and data, or don't have a [prod_short.md](includes/prod_short.md)] license, are shown an error message. 
+No. When you share with a person, group, or channel, permissions are unaffected. Users who already have permission to view the page and data targeted by the link can do so. Users who don't have permission to view that page and data, or don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license, are shown an error message. 
  
 ### Must I have the Teams desktop app installed to use Share to Teams? 
 

@@ -59,7 +59,7 @@ The following table describes the values of the **Status** field.
 
 ## View scheduled tasks
 
-The **Scheduled Tasks** page in [!INCLUDE [prod_short](prod_short.md)] shows which tasks are ready to run in the job queue. The page also shows information about the company that each task is set up to run in. However, only tasks that are marked as belonging to the current environment can run.  
+The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] shows which tasks are ready to run in the job queue. The page also shows information about the company that each task is set up to run in. However, only tasks that are marked as belonging to the current environment can run.  
 
 For example, if the current company is in an environment that is a copy of another environment, all scheduled tasks are automatically stopped. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
@@ -144,6 +144,13 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 > [!NOTE]
 > It will be a while before this change takes effect.
 
+## Duplicate text in the Share to Teams window
+
+When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft that will be addressed in a later update. 
+
+## Unable to sign into the Share to Teams window 
+
+This problem can be caused by a various reasons. For example, the identity you are using to sign in must have access to Microsoft Teams, such as through a Microsoft 365 subscription.
 
 ## See Also
 

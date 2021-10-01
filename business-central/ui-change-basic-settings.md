@@ -1,16 +1,15 @@
 ---
 title: Change basic settings for the current user
 description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
-author: SorenGP
-
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
 
 ---
 # Change Basic Settings
@@ -78,7 +77,7 @@ If the work date isn't set to the current day (today), then on all pages where y
 
 ## <a name="region"></a> Region
 
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted. It also determines what character is used as the decimal separator when using a numeric keyboard to enter data. For more information, see [Entering Data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a> Language
 

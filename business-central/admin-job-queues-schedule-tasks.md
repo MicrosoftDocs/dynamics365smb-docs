@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
 
 ---
@@ -56,6 +56,15 @@ The following table describes the values of the **Status** field.
 
 > [!TIP]
 > You can also view the status of job queue entries by using Application Insights in Microsoft Azure for more in-depth analysis based on telemetry. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] developer and administration content.
+
+## View scheduled tasks
+
+The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] shows which tasks are ready to run in the job queue. The page also shows information about the company that each task is set up to run in. However, only tasks that are marked as belonging to the current environment can run.  
+
+For example, if the current company is in an environment that is a copy of another environment, all scheduled tasks are automatically stopped. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
+
+> [!NOTE]
+> Internal administrators and users can schedule tasks to run. Delegated administrators cannot.
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  

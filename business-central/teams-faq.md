@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
 ---
 # Teams FAQ
@@ -140,7 +140,11 @@ At Microsoft, we're constantly listening to feedback from our diverse user commu
 
 If you want to participate in improving the app for Teams, or have an idea that would help simplify your work or collaborative experiences in Teams, add an idea or vote for existing ideas at [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## [Searching for Contacts](#tab/contacts)
+### Where can I find Teams integration inside the Business Central Web client? 
+
+For functionality in the web client that links to Teams, see the [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
+
+## [Search for Contacts](#tab/contacts)
 
 ### Which tables does the app search in?
 
@@ -234,7 +238,7 @@ Searching in other tables isn't possible at this time. The [!INCLUDE [prod_short
 
 If you'd like to see the search capabilities evolve to include other tables, we encourage our community to add an idea or vote for existing ideas at https://aka.ms/BusinessCentralIdeas.
 
-## [Working with cards](#tab/cards)
+## [Work with cards](#tab/cards)
 
 ### Which types of links does the app support?
 
@@ -267,7 +271,7 @@ When you compose and send a message to chat that includes a card, all users will
 
 If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
-## [Working with card details](#tab/carddetails)
+## [Work with card details](#tab/carddetails)
 
 ### Where is the save button in the details window in Teams?
 
@@ -297,7 +301,7 @@ Yes. Any [!INCLUDE [prod_short.md](includes/prod_short.md)] features in the deta
 
 If you’re using functionality in [!INCLUDE [prod_short.md](includes/prod_short.md)] that accesses your current location coordinates, such as with maps, you must use Teams in the browser or the Teams mobile app. Location isn't available when using the Teams desktop app. 
 
-## [Collaborating with guests ](#tab/collaborating)
+## [Collaborate with guests](#tab/collaborating)
 
 ### Can I share cards with users outside my organization?
 
@@ -313,8 +317,37 @@ To learn about other similarities and differences between guests and team member
 
 Guests don't have access to the app marketplace to install apps themselves. However, the app can be automatically installed for them based on your organization’s policies. Another way for a guest user to install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is when they receive a chat message that includes a [!INCLUDE [prod_short.md](includes/prod_short.md)] card. In this case, the user chooses the **Details** button or the menu on the card, then installs the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for use with your organization. After installing the app, a user doesn't automatically receive any permissions to access data from your [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## [Share to Teams](#tab/share)
 
+### Does Share to Teams send a compact card? 
+
+At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [!INCLUDE [prod_short.md](includes/prod_short.md)] in a separate browser window. 
+
+### Will recipients receive the message from me or from a Business Central service account? 
+
+When you use Share to Teams, the message is sent to a person, group, or channel, similar to if you had sent the message yourself from within Microsoft Teams. Recipients see the message from you on their preferred Teams client, and can react and respond as they normally would to a message from you. 
+
+### Is Share to Teams available in Business Central on premises? 
+
+No. Similar to the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams, this feature is only available for the web client in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. There are no plans to support [!INCLUDE [prod_short.md](includes/prod_short.md)] deployment types&mdash;like on-premises, hybrid cloud, or private cloud&mdash;that Microsoft doesn’t host or manage directly.
+
+### Does Share to Teams grant permissions to recipients? 
+
+No. When you share with a person, group, or channel, permissions are unaffected. Users who already have permission to view the page and data targeted by the link can do so. Users who don't have permission to view that page and data, or don't have a [!INCLUDE [prod_short.md](includes/prod_short.md)] license, are shown an error message. 
+ 
+### Must I have the Teams desktop app installed to use Share to Teams? 
+
+No. All you need is a valid account that has access to Microsoft Teams. 
+
+### Is Share to Teams available in all Business Central clients? 
+
+At this time, Share to Teams is available exclusively in the desktop web client, and in the details window in Teams.  
+
+### Where do I find Share to Teams in Business Central? 
+
+The **Share to Teams action** can be found in the **Share** menu on all pages, such as card and document pages, list or worksheet pages, including custom pages. The action isn't available on dialog boxes or pages shown as dialog boxes, such as lookup pages or wizards.
+
+---
 ## See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  

@@ -64,7 +64,7 @@ The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] 
 For example, if the current company is in an environment that is a copy of another environment, all scheduled tasks are automatically stopped. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
 
 > [!NOTE]
-> Internal administrators and users with the SUPER permission set can schedule tasks to run. Delegated administrators cannot.
+> Internal administrators and users can schedule tasks to run. Delegated administrators cannot.
 
 ## The My Job Queue Part
 The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  

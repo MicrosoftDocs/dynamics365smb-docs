@@ -142,7 +142,7 @@ If you want to participate in improving the app for Teams, or have an idea that 
 
 ### Where can I find Teams integration inside the Business Central Web client? 
 
-For functionality in the web client that links to Teams, see the [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link) **Share to Teams** tab.
+For functionality in the web client that links to Teams, see the [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## [Search for Contacts](#tab/contacts)
 

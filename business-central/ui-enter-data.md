@@ -1,18 +1,16 @@
 ---
 title: How to Enter Data in Business Central
 description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
-author: SorenGP
-
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/23/2021
-ms.author: edupont
+ms.date: 10/01/2021
+ms.author: jswymer
 ---
-
 # Entering Data
 
 There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
@@ -31,7 +29,6 @@ Some editable fields provide a picker to help you specify a value.
 |Dropdown          |Dropdowns provide a choice of fixed values or reference records from another table|
 |Switch or Checkbox|Some fields provide a simple choice of *Yes* or *No* values. The switch is used to specify this value, and is always displayed as a checkbox in lists|
 |Assist edit       |Some fields provide custom pickers that are suited to looking up and choosing the best value for that field, such as popup window|
-
 
 ### Modifying a field value
 
@@ -54,7 +51,6 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
-
 
 ## Keyboard Shortcuts
 
@@ -263,7 +259,12 @@ Here are some examples.
 
  The number 5 is converted to 5 hrs, if the unit of measure is hours.  
 
-## See Also  
+## Setting the decimal separator used by numeric keyboards
+
+When using the decimal separator key of numeric keyboard to enter data, the decimal separator that's entered in the field is determined by the regional setting of your Business Central. For most non-US keyboards, using the "." or "," as a thousandths or decimal separator from the keyboard's numeric keypad didn't result in the correct separator in the Business Central web client. For example, a value of 123,456 got entered as 123.456.
+
+## See Also
+
  [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

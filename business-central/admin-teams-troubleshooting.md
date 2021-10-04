@@ -146,7 +146,7 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 
 ## Duplicate text in the Share to Teams window
 
-When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft that will be addressed in a later update. 
+When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft and will be addressed in a later update. 
 
 ## Unable to sign into the Share to Teams window 
 

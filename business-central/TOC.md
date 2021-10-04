@@ -1109,7 +1109,7 @@
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
-#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup)
+#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)

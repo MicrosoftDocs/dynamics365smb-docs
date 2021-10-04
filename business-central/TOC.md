@@ -1109,6 +1109,7 @@
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
+#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1185,6 +1186,8 @@
 ##### [TDS Provisional Entry](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS Adjustment Entry](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS Payment to Authority](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [TDS 194Q Section Overview](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q Transactions](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS for Customer
 ##### [TDS for Customer Overview](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS Calculation for Customer](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1195,8 +1198,6 @@
 ##### [TCS Threshold](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS Adjustment Entry](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS Payment to Authority](LocalFunctionality/India/TCS-Payment-to-Authority.md)
-##### [TDS 194Q Section Overview](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
-##### [TDS 194Q Transactions](LocalFunctionality/India/TDS-194Q-Transactions.md)
 ##### [206C-1H-Overview](LocalFunctionality/India/TCS-206C-1H-Overview.md)
 ##### [206C-1H-Transaction](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher Interface

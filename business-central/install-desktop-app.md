@@ -43,6 +43,9 @@ The Business Central app resembles the web client, but it provides a few benefit
    |--|--|
    | :::image type="content" source="media/ui-edge-install-app-v2.png" alt-text="illustration of a button for installing an app in Edge."::: | :::image type="content" source="media/ui-chrome-install-app-v2.png" alt-text="illustration of a button for installing an app in Chrome."::: |
 
+  > [!TIP]
+  > With Edge, you can also install the app by going to the **Settings and more** menu in the browser, then selecting **Apps** > **Install this site as an app** > **Install**.
+
 Once installed, the app appears in the **Start** menu. If you've selected a specific environment for the app, the environment name is added to the app name in the **Start** menu.
 
 ### For Business Central on-premises

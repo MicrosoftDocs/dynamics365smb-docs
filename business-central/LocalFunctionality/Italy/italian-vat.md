@@ -1,6 +1,6 @@
 ---
     title: Italian VAT
-    description: In the Italian version VAT can be deducted if the goods or services purchased by the company are used in the production of its income.
+    description: In the Italian version, VAT can be deducted if the goods or services purchased by the company are used in the production of its income.
     author: edupont04
 
     ms.service: dynamics365-business-central
@@ -28,7 +28,7 @@ VAT is computed for transactions to comply with the rules in effect on that the 
 
 ### Dates
 
-The date of issue is the document date and the date of registration is the posting date. Reporting date filters are based on the posting dates. This is changed from the previous behavior in which reporting date filters were based on the Operation Occured Date.  
+The date of issue is the document date and the date of registration is the posting date. Reporting date filters are based on the posting dates. This is changed from the previous behavior in which reporting date filters were based on the Operation Occurred Date.  
 
 ### Non-deductible VAT
 
@@ -46,7 +46,7 @@ In Italy, the EU sales list (Intrastat) and annual listing reports are updated t
 
 ## VAT Transaction Reports
 
-You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to Italian authorities. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. Transactions with customers or vendors from countries/regions that are listed as blocked are reported through the **Blacklist Communication Report** report. [!INCLUDE[prod_short](../../includes/prod_short.md)] provides support for the following transaction types:  
+You must submit periodic reports to the tax authorities, which list transactions that include VAT with amounts over a specified threshold. The VAT transaction reports are created based on transactions with customers or vendors from a country/region that is outside the EU and is not listed as blocked according to Italian authorities. Transactions with customers or vendors from EU countries/regions are reported through **Intrastat** reports. [!INCLUDE[prod_short](../../includes/prod_short.md)] provides support for the following transaction types:  
 
 |**Transaction Type**|**Supported**|
 |--------------------|-------------|  

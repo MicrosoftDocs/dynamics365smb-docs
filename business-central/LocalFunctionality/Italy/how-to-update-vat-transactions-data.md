@@ -1,5 +1,5 @@
 ---
-title: How to Update VAT Transactions Data
+title: Update VAT Transactions Data
 description: Before you create the first VAT transaction report, you should prepare the existing data in the Italian version of Business Central.
 author: SorenGP
 
@@ -34,7 +34,6 @@ You can run the **Update VAT Transaction Data** report as a test before you chan
 
 When you run the report, [!INCLUDE[prod_short](../../includes/prod_short.md)] processes VAT entries based on the filters that you set. The following rules are also applied:  
 
-- The **Blacklisted** field for the VAT entry must be blank.  
 - The **Type** field for the VAT entry must not be **Settlement**.  
 
 ## See Also  

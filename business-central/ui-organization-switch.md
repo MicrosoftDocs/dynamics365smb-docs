@@ -6,7 +6,7 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
 
 ---
@@ -20,12 +20,17 @@ ms.author: bholtorf
 
 ## Switch to Another Environment
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Dynamics 365 Home page. You can open the page by choosing the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features") and choosing **Dynamics 365**. To go to your default company in that environment, choose the tile. There will be one tile for each type of environment. If you have more than one environment of a certain type, when you choose the tile you can choose the environment to access.
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com. 
 
+1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
+2. If you don't see an app for [!INCLUDE[prod_short](includes/prod_short.md)] in the pane that opens, then choose **Office 365**. Then, enter **Business Central** in the **Search** box or select **All Apps** > **Business Apps**.   
+3. There will be one [!INCLUDE[prod_short](includes/prod_short.md)] app listed for each type of environment, like production and sandbox. To switch to another environment, choose the [!INCLUDE[prod_short](includes/prod_short.md)] app for the type of environment it is. If there's more than one environment of a certain type, you'll then be asked to choose the environment to access.
+
+<!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
-
+-->
 ## Switch to Another Company
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can quickly switch to another company. After you make the switch, the company you choose becomes your default company and will display the next time you sign in.

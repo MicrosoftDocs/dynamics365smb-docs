@@ -58,6 +58,9 @@ Keeping sensitive data secure and private is a core concern for most businesses.
 ### Setting Up Field Monitoring
 You can use the **Monitor Field Change Setup** assisted setup guide to specify the fields that you want to monitor based on filter criteria, such as the data sensitivity classification for the fields. For more information, see [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md). The guide also lets you specify the person who will receive an email notification when a change occurs, and the email account that will send the notification email. You must specify both the user notify and the account from which to send the notification. After you finish the guide, you can manage settings for field monitoring on the **Field Monitoring Setup** page. 
 
+> [!NOTE]
+> When you specify the email account from which to send notifications, you must add either the **Microsoft 365** or **SMTP** account types. Notifications should be sent from an account that is not associated with an actual user. Therefore you cannot choose the **Current User** account type. If you do, notifications will not be sent. 
+
 Over time, the list of entries on the **Monitored Fields Log Entries** page will grow. To reduce the number of entries you can create a retention policy that will delete entries after a specified period of time. For more information, see [Define Retention Policies](admin-data-retention-policies.md).
 
 When you set up field monitoring, or change something in the setup, entries are created for your changes. You can specify whether to display entries related to the monitoring setup by showing or hiding them. 

@@ -71,7 +71,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 ## To cancel an acquisition cost posting for one fixed asset
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
 
-For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used is many critical calculations.
+For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
 
 > [!IMPORTANT]  
 >   You cannot use the **Reverse Transactions** function for fixed asset entries.
@@ -86,9 +86,12 @@ To cancel ledger entries for multiple fixed assets at a time, use the **Cancel F
 ## To post the salvage value together with the acquisition cost
 You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Journals**, and then choose the related link.
+> [!NOTE]
+> This process might require that you personalize the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Journals**, and then choose the related link.
 2. On the **Fixed Asset Journals** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (with a minus sign).
+3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (prefix the amount with a minus sign, for example, **-**100).
 4. Choose the **Post** action.
 
 > [!NOTE]

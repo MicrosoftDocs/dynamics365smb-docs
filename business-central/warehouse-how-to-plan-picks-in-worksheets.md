@@ -49,7 +49,7 @@ If the bins have been numbered in a way that mirrors the physical layout of the 
 
 Another effective sorting option is bin ranking, if the physical layout of the warehouse is more according to bin ranking than bin code.  
 
-In the pick worksheet, you can also sort by ship-to address, enabling you to assemble and ship the orders to far-away customers first.  
+In the pick worksheet, you can also sort by destination, enabling you to assemble and ship the orders per customer.  
 
 ## See Also
 

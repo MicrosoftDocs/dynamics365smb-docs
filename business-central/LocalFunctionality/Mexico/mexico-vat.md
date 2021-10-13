@@ -1,5 +1,5 @@
 ---
-title: Reporting Sales Tax in Mexico
+title: Reporting Value Added Tax (VAT) in Mexico
 description: Learn how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Mexico.
 author: edupont04
 

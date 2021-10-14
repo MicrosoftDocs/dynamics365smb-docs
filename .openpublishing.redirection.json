@@ -706,6 +706,21 @@
             "source_path": "business-central/across-how-create-sandbox-environment.md",
             "redirect_url": "/dynamics365/business-central/admin-sandbox-environments",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Mexico/mexico-sales-tax.md",
+            "redirect_url": "/dynamics365/business-central/finance-setup-vat",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md",
+            "redirect_url": "/dynamics365/business-central/localfunctionality/unitedstates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md",
+            "redirect_url": "/dynamics365/business-central/localfunctionality/unitedstates/how-to-set-up-use-tax-and-purchase-tax",
+            "redirect_document_id": false
         }
 
     ]

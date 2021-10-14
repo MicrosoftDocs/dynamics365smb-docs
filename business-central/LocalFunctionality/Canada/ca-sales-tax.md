@@ -1,8 +1,6 @@
 ---
 title: Reporting Sales Tax [CA]
 description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 06/29/2021
+ms.date: 10/12/2021
 ms.author: edupont
 
 ---
@@ -27,7 +25,7 @@ In Canada, tax amounts must be detailed in documents for each tax jurisdiction. 
 
 The **Tax Details** page shows different combinations of sales tax jurisdictions and sales tax groups to establish sales tax rates. For each tax jurisdiction, we recommend that you set up one tax group for normal sales tax, another tax group for items or services that are not taxed, and an additional tax group for every type of item or service that is handled with a different sales tax rate in that jurisdiction. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
 
-In Canada, when you sell to a customer at a location where you do not have a *situs*—or a legal location in that state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  
+<!--COMMENTING OUT DUE TO ISSUE #535: In Canada, when you sell to a customer at a location where you do not have a *situs*—or a legal location in that state—you do not collect sales tax. For locations in which you do not have a situs, ensure that both the **Tax Below Minimum** and **Tax Above Maximum** fields are 0.00.  -->
 
 ## See Also
 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
 
 ---
@@ -20,7 +20,7 @@ ms.author: jswymer
 
 ### About the add-in
 
-The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)
+The add-in is called **Microsoft Dynamics Office Add-in** and it's available for installation from on the [Office Store (AppSource)](https://appsource.microsoft.com/). With the add-in installed, the **Edit in Excel** action is available on most list and list part pages from the **Share** icon ![Share a page in another app.](media/share-icon.png). For more information about using the add-in, see [Viewing and Editing in Excel From Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > The add-in works on Windows only; not macOS.

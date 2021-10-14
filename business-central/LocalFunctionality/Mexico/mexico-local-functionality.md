@@ -6,7 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/18/2021
+ms.date: 10/14/2021
 ms.author: edupont
 
 ---
@@ -18,11 +18,6 @@ The following topics describe local functionality that is unique to the Mexican 
 
 * Tax
     * [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
-    * [Mexico Sales Tax](mexico-sales-tax.md) **Available Now**
-    * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**
-    * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**
-    * [Reporting Sales Tax in Mexico](mexico-sales-tax.md) **Available Now**
-    * [Create Deposits](how-to-create-deposits.md) **Available Now**
     * [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
     * [VAT Recalculation](vat-recalculation.md) **Available Now**
 
@@ -36,6 +31,7 @@ The following topics describe local functionality that is unique to the Mexican 
 * General
     * [Set Up PAC Web Services](how-to-set-up-pac-web-services.md) **Available Now**
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
+    * [Create Deposits](how-to-create-deposits.md) **Available Now**
 
 ## See Also
 

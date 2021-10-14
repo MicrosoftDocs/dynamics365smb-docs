@@ -1,5 +1,4 @@
 {
-    "explorer.openEditors.sortOrder": "alphabetical",
     "markdownlint.config": {
         "MD028": false,
         "MD025": {

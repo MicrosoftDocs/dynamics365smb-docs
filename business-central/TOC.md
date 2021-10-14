@@ -1258,11 +1258,7 @@
 #### [Local Functionality in the Mexican Version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Tax
 ##### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Mexico Sales Tax](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Reporting Sales Tax in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Set Up Calculations and Posting Methods for VAT](finance-setup-vat.md)  
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
@@ -1274,12 +1270,13 @@
 #### General
 ##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Print Troubleshooting Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Netherlands
 #### [Local Functionality in the Dutch Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### VAT
 ##### [Create a Audit File for the Tax Authority](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Set Up VAT Categories](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Set Up VAT Categories](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Electronic VAT and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Set Up Electronic VAT and ICP Declarations](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Submitting Electronic VAT and ICP Declarations](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1287,7 @@
 ##### [Payment Scenario 1 - Domestic Payments (LCY to LCY)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Payment Scenario 2 - Foreign Payment (FCY to FCY)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Create Proposals](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Create Proposals](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Docket Reports](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Enter and Post Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Print Test Reports for Cash and Bank or Giro Journals](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1295,7 @@
 ##### [Activate SEPA Payments](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Create and Export Payment History](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Import and Reconcile Bank Statements](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Import and Reconcile Bank Statements](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Core Finance
 ##### [Apply and Unapply General Ledger Entries](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Required Descriptions in G/L Entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 # Sorry, this content is under construction
 
-:::image type="content" border="false" source="media/empty illustration_BCdocs_x2.png" alt-text="There's nothing here right now":::
+:::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="There's nothing here right now." border="false":::
 
 The video you tried to play isn't available right now. That's probably because we're updating the content.
 

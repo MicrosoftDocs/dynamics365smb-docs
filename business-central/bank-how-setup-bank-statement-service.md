@@ -94,6 +94,11 @@ The bank feed service will be enabled when you link a bank account to its relate
 
 On the **Bank Account List** page, the **Linked** check box is selected.
 
+## To edit the credentials for an online bank account
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
+2. Choose the line for a bank account that is linked to an online bank account, and then choose the **Edit Online Bank Account Information** action.
+3. Update the credentials.
+
 ## To unlink a bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.

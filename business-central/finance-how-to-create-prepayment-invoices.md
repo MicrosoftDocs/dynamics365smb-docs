@@ -1,5 +1,5 @@
 ---
-    title: How to Create Prepayment Invoices
+    title: Create Prepayment Invoices
     description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
     author: edupont04
 
@@ -17,7 +17,7 @@
 
 If you require your customers to submit payment before you ship an order to them, you can use the prepayment functionality. The same applies if your vendor requires you to submit payment before they ship an order to you.  
 
-You can start the prepayment process when you create a sales or purchase order. If you have a default prepayment percentage for this customer or vendor, that will be included automatically in the resulting prepayment invoice. You can also specify a prepayment percentage to the entire document.
+You can start the prepayment process when you create a sales or purchase order. If you have a default prepayment percentage for a given item on the order, or for the customer or vendor, that will be included automatically in the resulting prepayment invoice. You can also specify a prepayment percentage to the entire document.
 
 After you create a sales or purchase order, you can create a prepayment invoice. You can use the default percentages for each sales or purchase line, or you can adjust the amount as necessary. For example, you can specify a total amount for the entire order.  
 

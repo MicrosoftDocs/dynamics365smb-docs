@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Work Centers and Machine Centers | Microsoft Docs
+    title: Set Up Work Centers and Machine Centers
     description: A **Work Center** card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
     author: SorenGP
 
@@ -51,12 +51,12 @@ The following primarily describes how to set up a work center. The steps to set 
 
     |Option|Description|
     |------|-----------|
-    |**Manual**|Consumption is posted manually in the output journal or production journal.|
-    |**Forward**|Consumption is calculated and posted automatically when the production order is released.|
-    |**Backward**|Consumption is calculated and posted automatically when the production order is finished.|
+    |**Manual**| Used time, output and scrap are posted manually in the output journal or production journal.|
+    |**Forward**|Output is posted automatically when the production order is released.|
+    |**Backward**|Output is posted automatically when the production order is finished.|
 
     > [!NOTE]
-    > If necessary, the flushing method selected here and on the **Item** card, can be overridden for individual operations by changing the setting on routing lines
+    > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
 
 12. In the **Unit of Measure Code** field, enter the time unit in which this work center's cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
@@ -73,7 +73,81 @@ The following primarily describes how to set up a work center. The steps to set 
 > [!NOTE]
 > Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
 
-## Example - Different Machine Centers Assigned to a Work Center
+## Considerations about capacity
+
+The capacity and efficiency that is specified for a work and machine center not only affect the available capacity. They also impact the overall production time that consists of the setup time and run time, which are both defined on the routing line.  
+
+When a specific routing line is allocated to a work or machine center, the system calculates how much capacity is needed and how long will it take to complete the operation.  
+
+### Run time
+
+To calculate the run time, the system allocates the exact time that is defined in the **Run Time** field of the routing line. Neither efficiency nor capacity impact the allocated time. For example, if the run time is defined as 2 hours, then the allocated time will be 2 hours, regardless of values in the efficiency and capacity fields in the work center.  
+
+> [!NOTE]
+> The capacity that is used in the calculations is defined as the minimal value between the capacity that is defined in the work or machine center and the concurrent capacity that is defined for the routing line. If a work center has a capacity of 100, but the concurrent capacity for the routing line is 2, then *2* will be used in the calculations.
+
+The *duration* of an operation, on the contrary, considers both efficiency and capacity. Duration is calculated as *Run Time / Efficiency / Capacity*. The following list shows a few examples of the calculation of duration for the same run time, which is defined as 2 hours for the routing line:
+
+- Efficiency 80% means you will need 2.5 hours instead of two hours  
+- Efficiency 200% means you can complete the work in one hour - you can dig the hole twice faster if you have an excavator that is twice the size of the smaller one  
+
+    You can achieve the same result if you use two smaller excavators instead of a large one – use *2* as the capacity and *100%* as the efficiency  
+
+The fractional capacity is tricky, and we will discuss it later. 
+
+### Setup time
+
+Time allocation for the setup time depends on the capacity and is calculated as *Setup Time * Capacity*. For example, if the capacity is set to *2*, your allocated setup time will be doubled, because you must set up two machines for the operation.  
+
+*Duration* of setup time depends on efficiency and is calculated as *Setup Time / Efficiency*. 
+
+- Efficiency 80% means you will need 2.5h instead of two hours to set up  
+- Efficiency 200% means you can complete setup in 1h instead of 2 hours defined in the Routing Line  
+
+The fractal capacity is not something easy to embrace, and it is used in very specific cases.
+
+### Work center processing multiple orders simultaneously
+
+Let's use a paint-spraying booth as an example. It has the same setup and run time for each processed lot. But each lot can contain multiple individual orders that are painted simultaneously.  
+
+In this case, the time and cost that is allocated to orders is managed by the setup time and the concurrent capacity. We recommend that you not use run time in the routing lines.  
+
+The allocated setup time for each individual order will be in reverse order of the number of orders (quantities) that are executed simultaneously. Here are some more examples of the calculation of setup time when that is defined as two hours for the routing line:
+
+- If there are two orders, then the concurrent capacity in the routing line should be set to 0.5.
+
+    As a result, the allocated capacity for each will be one hour, but the duration for each order will remain two hours.
+- If there are two orders with a quantity of one and four, respectively, then the concurrent capacity for the routing line of the first order is 0.2, and 0.8 for the second.  
+
+    As a result, the allocated capacity for the first order will be 24 min and for the second one 96. The duration for both orders remain two hours.  
+
+In both cases, the total allocated time for all orders is two hours.
+
+
+### Efficient resource can dedicate only part of their work date to productive work
+
+> [!NOTE]
+> This scenario is not recommended. We recommend that you use efficiency instead. 
+
+One of your work centers represents an experienced worker who works with 100% efficiency on tasks. But they can only spend 50% of their working time on tasks because the rest of the time they solve administrative tasks. While this worker is capable to complete a two hour task in exactly two hours, in average you must wait another two hours while the person is dealing with other assignments.  
+
+The allocated run time is two hours, and the duration is four hours.  
+
+Do not use setup time for such scenarios, as the system will allocate only 50% of the time. If the setup time is set to *2*, then the allocated setup time is one hour, and the duration is two hours.
+
+### Consolidated calendar
+
+When **Consolidated calendar** field is selected, then the work center has no capacity of its own. Instead, its capacity is equal to the sum of the capacities of all the machine centers that are assigned to the work center.  
+
+> [!NOTE]
+>  The efficiency of the machine center is converted to the capacity of the work center.
+
+For example, if you have two machine centers with an efficiency of 80 and 70, respectively, the consolidated calendar entry will have an efficiency of 100, a capacity of 1.5, and a total capacity as 12 hours (eoithgt hour shift * 1.5 capacity). 
+
+> [!NOTE]
+>  Use the **Consolidated Calendar** field when you structure your routings to schedule production operations at the machine center level, not the work center level. When you consolidate the calendar, the **Work Center Load** page and reports become an overview of the aggregate load in all machine centers that are assigned to the work center.
+
+### Example - Different Machine Centers Assigned to a Work Center
 
 It is important to plan which capacities are to make up the total capacity when setting up the machine centers and work centers.
 

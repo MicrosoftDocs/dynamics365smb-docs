@@ -1,5 +1,5 @@
 ---
-    title: Payment Tolerance and Payment Discount Tolerance | Microsoft Docs
+    title: Payment Tolerance and Payment Discount Tolerance
     description: You can set up payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice.
     author: SorenGP
 
@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 10/29/2021
     ms.author: edupont
 
 ---
@@ -49,7 +49,7 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 6. On the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** page.  
-9. On the **Application** FastTab, fill in the **Pmt. Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
+9. On the **Application** FastTab, fill in the **Payment Discount Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
 11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
 
@@ -69,7 +69,7 @@ The payment tolerance warning appears when you post an application that has a ba
 2. On the **General Ledger Setup** page, on the **Application** FastTab, turn on the **Payment Tolerance Warning** toggle to activate the warning. To deactivate the warning, turn off the toggle.  
 
 > [!NOTE]  
->  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Pmt. Disc. Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.
+>  The default option for the **Payment Tolerance Warning** page is **Leave the Balance as Remaining Amount**. The default option for the **Payment Discount Tolerance Warning** page the is **Do Not Accept the Late Payment Discount**.
 
 ## To block payment tolerance for customers  
 The default setting for payment tolerance is allowed. To disallow a certain customer or vendor payment tolerance you need to block tolerance on the respective customer or vendor card. The following describes how to do it for a customer. The steps are similar for a vendor.
@@ -92,23 +92,23 @@ Scenarios with alternative A or B represent the following:
 - **A** In this case, the payment discount tolerance warning has been turned off OR the user has the warning on and has selected to allow the late payment discount (Post the Balance as Payment Tolerance).  
 - **B** In this case, the user has the warning on and has selected not to allow the late payment discount (Leave the Balance as Remaining Amount).  
 
-|—|Inv.|Pmt. Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt.|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
+|—|Inv.|Payment Discount|Max Payment Tolerance|Payment Discount Date|Payment Discount Tolerance Date|Payment Date|Payment|Tolerance Type|All Entries closed|Payment Discount Tolerance GL/CL|Payment Tolerance G/L|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1,000|20|5|01/15/03|01/20/03|<=01/15/03|985|Pmt.Tol.|Yes|0|-5|  
+|1|1,000|20|5|01/15/03|01/20/03|<=01/15/03|985|PaymentTolerance|Yes|0|-5|  
 |2|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**<=01/15/03**|**980**|**None**|**Yes**|**0**|**0**|  
-|3|1,000|20|5|01/15/03|c|<=01/15/03|975|Pmt.Tol.|Yes|0|5|  
-|4A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1005|Pmt.Disc.Tol.|No, 25 on the Pmt.|20/-20|0|  
-|5A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1000|Pmt.Disc.Tol.|No, 20 on the Pmt.|20/-20|0|  
-|6A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|995|Pmt.Disc.Tol.|No, 15 on the Pmt.|20/-20|0|  
-|4B|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1005|Pmt.Tol.|Yes|0|-5|  
+|3|1,000|20|5|01/15/03|c|<=01/15/03|975|PaymentTolerance|Yes|0|5|  
+|4A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1005|PaymentDiscountTolerance|No, 25 on the Payment|20/-20|0|  
+|5A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1000|PaymentDiscountTolerance|No, 20 on the Payment|20/-20|0|  
+|6A|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|995|PaymentDiscountTolerance|No, 15 on the Payment|20/-20|0|  
+|4B|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|1005|PaymentTolerance|Yes|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**01/16/03 01/20/03**|**1000**|**None**|**Yes**|**0**|**0**|  
-|6B|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|995|Pmt.Tol.|Yes|0|5|  
-|7|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|985|Pmt.Disc.Tol. & Pmt.Tol.|Yes|20/-20|-5|  
-|8|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|980|Pmt.Disc.Tol.|Yes|20/-20|0|  
-|9|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|975|Pmt.Disc.Tol. & Pmt.Tol.|Yes|20/-20|5|  
-|10|1,000|20|5|01/15/03|01/20/03|>01/20/03|1005|Pmt.Tol.|Yes|0|-5|  
+|6B|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|995|PaymentTolerance|Yes|0|5|  
+|7|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|985|PaymentDiscountTolerance & PaymentTolerance|Yes|20/-20|-5|  
+|8|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|980|PaymentDiscountTolerance|Yes|20/-20|0|  
+|9|1,000|20|5|01/15/03|01/20/03|01/16/03 01/20/03|975|PaymentDiscountTolerance & PaymentTolerance|Yes|20/-20|5|  
+|10|1,000|20|5|01/15/03|01/20/03|>01/20/03|1005|PaymentTolerance|Yes|0|-5|  
 |**11**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**>01/20/03**|**1000**|**None**|**Yes**|**0**|**0**|  
-|12|1,000|20|5|01/15/03|01/20/03|>01/20/03|995|Pmt.Tol.|Yes|0|5|  
+|12|1,000|20|5|01/15/03|01/20/03|>01/20/03|995|PaymentTolerance|Yes|0|5|  
 |13|1,000|20|5|01/15/03|01/20/03|>01/20/03|985|None|No, 15 on the invoice|0|0|  
 |14|1,000|20|5|01/15/03|01/20/03|>01/20/03|980|None|No, 20 on the invoice|0|0|  
 |15|1,000|20|5|01/15/03|01/20/03|>01/20/03|975|None|No, 25 on the invoice|0|0|  
@@ -121,7 +121,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules 1.](media/singlePmtTolRules(Pre1503).gif "Single payment tolerance rules 1")  
+![Single payment tolerance rules 1.](media/singlePmtTolRules_Pre1503.gif "Single payment tolerance rules 1")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -132,7 +132,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules 2.](media/singlePmtTolRules(GracePeriod).gif "Single payment tolerance rules 2")  
+![Single payment tolerance rules 2.](media/singlePmtTolRules_GracePeriod.gif "Single payment tolerance rules 2")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -143,7 +143,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-![Single payment tolerance rules 3.](media/singlePmtTolRules(Post0120).gif "Single payment tolerance rules 3")  
+![Single payment tolerance rules 3.](media/singlePmtTolRules_Post0120.gif "Single payment tolerance rules 3")  
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -163,38 +163,38 @@ Scenarios with alternative A, B, C, or D represent the following:
 - **C** - In this case, the user has the warning on and has selected to allow the late payment discount on the first invoice but not the second.  
 - **D** - In this case, the user has the warning on and has selected not to allow the late payment discount on the first invoice but allowed it on the second.  
 
-|—|Inv.|Pmt Disc.|Max Pmt. Tol.|Pmt. Disc. Date|Pmt. Disc. Tol. Date|Payment Date|Pmt|Tolerance Type|All Entries closed|Pmt. Disc. Tol. GL/CL|Pmt. Tol. G/L|  
+|—|Inv.|Payment Discount|Max Payment Tolerance|Payment Discount Date|Payment Discount Tolerance Date|Payment Date|Payment|Tolerance Type|All Entries closed|Payment Discount Tolerance GL/CL|Payment Tolerance G/L|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|<=01/15/03|1920|Pmt.Tol.|Yes|0<br /><br /> 0|-5 <br />-5|  
+|1|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|<=01/15/03|1920|PaymentTolerance|Yes|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=01/15/03**|**1910**|**None**|**Yes**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|<=01/15/03|1900|Pmt.Tol.|Yes|0<br /><br /> 0|5 <br />5|  
-|4B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1980|Pmt.Tol.|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|<=01/15/03|1900|PaymentTolerance|Yes|0<br /><br /> 0|5 <br />5|  
+|4B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1980|PaymentTolerance|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/16/03 01/17/03**|**1970**|**None**|**Yes**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1960|Pmt.Tol.|Yes|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1920|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1910|Pmt.Disc.Tol.|Yes|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1900|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/60|5 <br />5|  
-|10B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|2010|Pmt.Tol.|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1960|PaymentTolerance|Yes|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1920|PaymentDiscountTolerance & PaymentTolerance|Yes|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1910|PaymentDiscountTolerance|Yes|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/16/03 01/17/03|1900|PaymentDiscountTolerance & PaymentTolerance|Yes|60/60|5 <br />5|  
+|10B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|2010|PaymentTolerance|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/18/03 01/20/03**|**2000**|**None**|**Yes**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1990|Pmt.Tol.|Yes|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1980|Pmt.Disc.Tol. & Pmt.Tol.|Yes|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1970|Pmt.Disc.Tol.|Yes|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1960|Pmt.Disc.Tol. & Pmt.Tol.|Yes|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1950|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1940|Pmt.Disc.Tol.|Yes|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1930|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1920|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1910|Pmt.Disc.Tol.|Yes|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1900|Pmt.Disc.Tol. & Pmt.Tol.|Yes|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|2010|Pmt.Tol.|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1990|PaymentTolerance|Yes|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1980|PaymentDiscountTolerance & PaymentTolerance|Yes|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1970|PaymentDiscountTolerance|Yes|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1960|PaymentDiscountTolerance & PaymentTolerance|Yes|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1950|PaymentDiscountTolerance & PaymentTolerance|Yes|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1940|PaymentDiscountTolerance|Yes|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1930|PaymentDiscountTolerance & PaymentTolerance|Yes|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1920|PaymentDiscountTolerance & PaymentTolerance|Yes|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1910|PaymentDiscountTolerance|Yes|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/18/03 01/20/03|1900|PaymentDiscountTolerance & PaymentTolerance|Yes|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|2010|PaymentTolerance|Yes|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**01/21/03 01/22/03**|**2000**|**None**|**Yes**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1990|Pmt.Tol.|Yes|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1980|Pmt.Disc.Tol. & Pmt.Tol.|Yes|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1970|Pmt.Disc.Tol.|Yes|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1960|Pmt.Disc.Tol. & Pmt.Tol.|Yes|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|2010|Pmt.Tol.|Yes|0|-5|  
+|24B|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1990|PaymentTolerance|Yes|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1980|PaymentDiscountTolerance & PaymentTolerance|Yes|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1970|PaymentDiscountTolerance|Yes|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|01/21/03 01/22/03|1960|PaymentDiscountTolerance & PaymentTolerance|Yes|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|2010|PaymentTolerance|Yes|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>01/22/03**|**2000**|**None**|**Yes**|**0**|**0**|  
-|30|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|1990|Pmt.Tol.|Yes|0|5|  
+|30|1,000 <br />1,000|60 <br />30|5 <br />5|01/15/03 <br />01/17/03|01/20/03 <br />01/22/03|>01/22/03|1990|PaymentTolerance|Yes|0|5|  
 
 ### Payment Range Diagrams  
 In relation to the scenario above, the diagrams of payment ranges are as follows:  
@@ -204,7 +204,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Multiple payment tolerance rules 1a":::
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Multiple payment tolerance rules 1a":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -215,7 +215,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Multiple payment tolerance rules 2":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Multiple payment tolerance rules 2":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -226,7 +226,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Multiple payment tolerance rules 3":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Multiple payment tolerance rules 3":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -237,7 +237,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Multiple payment tolerance rules 4":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Multiple payment tolerance rules 4":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 
@@ -248,7 +248,7 @@ Remaining Amount per
 
 Normal Application Rules  
 
-:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Multiple payment tolerance rules 5":::
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Multiple payment tolerance rules 5":::
 
 (1) If payment falls in these ranges, all application entries can be closed with or without tolerance.  
 

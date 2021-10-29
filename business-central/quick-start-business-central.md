@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: a-jillk
+ms.author: edupont
 
 ---
 
@@ -27,14 +27,14 @@ The first step is to provide the basic information about your company. This incl
 <!--
 ## Financial Basics
 
-[Financial Information](quick-start-financial-information.md)  
+Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
 <!--
 ## Basic Reports and Output Documents
 
-[Reports and Documents](quick-start-reports-and-documents.md)  
+Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
@@ -57,7 +57,7 @@ To learn how to buy products and services, see the [Quick Start for Procurement]
 <!--
 ## Understand Your Business with Business Intelligence
 
-[Business Intelligence](quick-start-business-intelligence.md)  
+Business Intelligence  
 (reports)
 -->
 

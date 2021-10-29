@@ -86,12 +86,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 ## Get notified about changes through an RSS feed
 
-To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the content on docs.microsoft.com across the business functionality content for [!INCLUDE [prod_short](includes/prod_short.md)], use the following link:
-
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> The RSS feed returns a list of the 100 articles most recently updated. The list is not sorted by date.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

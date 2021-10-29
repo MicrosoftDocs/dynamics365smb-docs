@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
     ms.date: 06/08/2021
-    ms.author: a-jillk
+    ms.author: edupont
     ms.reviewer: edupont
 ---
 

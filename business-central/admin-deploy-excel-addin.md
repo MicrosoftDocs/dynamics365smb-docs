@@ -113,7 +113,7 @@ The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)]\,
 
 ## Prepare devices and network for the Excel Add-In
 
-Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dev-itpro/administration/configuring-network-for-addins).
+Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## Troubleshooting
 

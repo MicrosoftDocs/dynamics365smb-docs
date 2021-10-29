@@ -8,7 +8,7 @@ ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: a-jillk
+ms.author: edupont
 ---
 
 # Set Up Fixed Assets with User-Defined Depreciation Methods

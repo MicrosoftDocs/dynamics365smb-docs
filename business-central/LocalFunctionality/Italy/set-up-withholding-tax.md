@@ -16,19 +16,15 @@ Companies must pay withholding tax to the government for third-party services an
 
 ## To set up withholding tax codes
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Withhold Tax**, and then choose the related link for the **Setup** area for payables.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Withholding Tax**, and then choose the link for the **Code** page.  
 
-2. Under **Lists**, choose **Code**.  
+2. In the **Code** page, to add a new withholding code, choose the **New** action, and then enter information into the relevant fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-3. To open a new withholding code, on the **Home** tab, choose **New**.  
+3. To add lines to the withholding tax code, choose the **Withhold Code Lines** action.
 
 4. Enter information into the relevant fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-5. To add lines to the withhold code, on the **Navigate** tab, choose **Withhold Code Lines**.
-
-6. Enter information into the relevant fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
-
-7. Choose the **OK** button.
+5. Repeat these steps for additional codes.  
 
 ## To set up withholding tax for vendors
 
@@ -44,7 +40,7 @@ Companies must pay withholding tax to the government for third-party services an
     * The payment information for the vendor.
     * The subcontracting information for the vendor.
     * The foreign trade information for the vendor.
-    * The free lance fee - select the relevant withholding tax code in the **Withholding Tax Code** field to include the withholding tax information.
+    * The relevant fields on the **Free Lance Fee** FastTab, such as the **Withholding Tax Code** field.
 
 ## To calculate withholding tax for purchase invoices
 
@@ -54,7 +50,7 @@ Companies must pay withholding tax to the government for third-party services an
 
 3. Choose the **Withhold Taxes-Soc. Sec.** action.
 
-4. In the **Withh. Taxes-Contribution Card** page, on the **Withhold Taxes** FastTab, in the **Withholding Tax Code** field, select the code for the withholding tax.
+4. In the **Withh. Taxes-Contribution Card** page, review the information in the various fields, and make sure that the **Withholding Tax Code** field specifies the right code for the vendor.
 
 5. To calculate the withholding tax amount before posting, choose the **Calculate** action.  
 

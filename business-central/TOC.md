@@ -1229,6 +1229,8 @@
 ##### [Prepare for VAT Transactions Reports](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Print and Reprint G/L Books and VAT Registers](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Print Intrastat Reports for Italy](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Withholding Tax
+##### [Set Up Withholding Tax in the Italian Version](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Print Withholding Reports](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banking & Payments
 ##### [Set Up Payment Terms](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)

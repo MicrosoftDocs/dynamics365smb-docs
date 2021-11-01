@@ -22,37 +22,20 @@ There are lots of moving parts involved in integrating [!INCLUDE[prod_short](inc
 
 Errors often occur either because of something that a user has done to coupled records, or something is wrong with how the integration is set up. For errors related to coupled records, users can resolve those themselves. These errors are caused by actions such as deleting data in one, but not both, business apps and then synchronizing. For more information, see [View the Status of a Synchronization](admin-how-to-view-synchronization-status.md).
 
-## Example
-This video shows an example of how to troubleshoot errors that happened while synchronizing with [!INCLUDE[prod_short](includes/cds_long_md.md)]. The process will be the same for all integrations. 
+Errors that are related to how the integration is set up typically require an administrator's attention. You can view these errors on the **Integration Synchronization Errors** page. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+The following table provides examples of typical issues:  
 
-Errors that are related to how the integration is set up typically require an administrator's attention. You can view these errors on the **Integration Synchronization Errors** page. Examples of some typical issues include:  
-  
-* The permissions and roles assigned to users are not correct.  
-* The administrator account was specified as the integration user.  
-* The integration user's password is set to require a change when the user signs in.  
-* The exchange rates for currencies are not specified in one or the other app.  
-  
-You must manually resolve the errors, but there are a few ways in which the page helps you. For example:  
+|Issue  |Resolution  |
+|---------|---------|
+|The permissions and roles assigned to the integration user are not correct. | This error comes from [!INCLUDE[prod_short](includes/cds_long_md.md)] and it often includes the following text “Principal user (Id=<user id>, type=8) is missing <privilegeName> privilege". This error happens because the integration user is missing a privilege that allows it to access an entity. Typically, this error happens if you are synchronizing custom entities, or if you have an app installed in [!INCLUDE[prod_short](includes/cds_long_md.md)] that requires permission to access other [!INCLUDE[prod_short](includes/cds_long_md.md)] entities. To resolve this error, assign the permission to the integration user in [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> You can find the integration user name on the **Dataverse Connection Setup** page. The error message will provide the name of the permission, which can help you identify the entity for which you need permission. To add the missing privilege, sign in to [!INCLUDE[prod_short](includes/cds_long_md.md)] with an administrator account and edit the security role assigned to the integration user. For more information, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role). |
+|You're coupling a record that uses another record that is not coupled. For example, a customer whose currency is not coupled or an item for which the unit of measure is not coupled. | You must first couple the dependent record, for example, a currency or unit of measure, and then retry the coupling. |
 
-* The **Source** and **Destination** fields may contain links to the row where the error was found. Click the link to investigate the error.  
+The following are some tools on the Integration Synchronization Errors page that can help you manually resolve these issues.  
+
+* The **Source** and **Destination** fields can contain links to the row where the error was found. Click the link to investigate the error.  
 * The **Delete Entries Older than 7 Days** and the **Delete All Entries** actions will clean up the list. Typically, you use these actions after you have resolved the cause of an error that affects many records. Use caution, however. These actions might delete errors that are still relevant.
-
-Sometimes the timestamps on records can cause conflicts. The "CDS Integration Record" table keeps the timestamps "Last Synch. Modified On" and "Last Synch. CDS Modified On" for the last integration done in both directions for a row. These timestamps are compared to timestamps on Business Central and Sales records. In Business Central, the timestamp is in the Integration Record table.
-
-You can filter on records that are to be synchronized by comparing row timestamps in the table "Integration Table Mapping" fields "Synch. Modified On Filter" and "Synch. Int. Tbl. Mod. On Fltr.".
-
-The conflict error message "Cannot update the Customer record because it has a later modified date than the Account record" or "Cannot update the Account record because it has a later modified date than the Customer record" can happen if a row has a timestamp that is bigger than IntegrationTableMapping."Synch. Modified On Filter" but it is not more recent than the timestamp on Sales Integration Record. It means that the source row was synchronized manually, and not by the job queue entry. 
-
-The conflict happens because the destination row was also changed  - the row timestamp is more recent than Sales Integration Record's timestamp. The destination check happens only for bidirectional tables. 
-
-These records are now moved to the "Skipped Synch. Records" page, which you open from the Microsoft Dynamics Connection Setup page in Business Central. There you can specify the changes to keep, and then synchronize the records again.
-
-## Remove Couplings Between Records
-When something goes wrong in your integration and you need to uncouple records to stop synchronizing them, you can do so for one or more records at a time. You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page. 
-
-If an entity with a unidirectional coupling is deleted in [!INCLUDE[prod_short](includes/prod_short.md)], you must manually delete the broken coupling. To do that, on the **Coupled Data Synchronization Errors** page, choose the **Find for Deleted** action, and then delete the couplings.
+* The **Show Error Call Stack** action shows information that can help identify the cause of the error. If you can't resolve the error yourself and you decide to submit a support request, include the information in the support request.
 
 ## See Also
 [Integrating with Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

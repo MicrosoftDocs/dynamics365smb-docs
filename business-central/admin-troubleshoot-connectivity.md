@@ -25,13 +25,22 @@ ROBOTS: NOINDEX
 
 ## Start the connectivity check 
 
-1. Select [this link](https://businesscentral.dynamics.com/connectivity) or open your Internet browser, and enter the following URL in the address:
+1. Open an Internet browser.
+2. In the address, enter the URL that you use to open Business Central and add `/connectivity` at the end. 
+
+    For example, if you use `https://businesscentral.dynamics.com`, then enter:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. On the **Troubleshooting Connectivity** page, choose **Start check**.
+    Or, if the URL includes the tenant ID, like `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, then you'd enter:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. On the **Troubleshooting Connectivity** page, choose **Start check**.
 
     A series of checks is run, and the result of each check is shown:
 
@@ -39,7 +48,7 @@ ROBOTS: NOINDEX
     - ![Connectivity check failed.](media/connectivity-failed.png) indicates the check failed. Review the message below the check for more details.
     - ![Connectivity check was not run.](media/connectivity-blocked.png) indicates the check wasn't run, typically because of a failure of a previous check. Review the message below the check for more details.
 
-3. To run the check again, choose **Restart check**.
+4. To run the check again, choose **Restart check**.
 
 The following sections explain the checks that are run, and provide some tips for fixing any problems.
 

@@ -1,8 +1,6 @@
 ---
-title: Troubleshooting Synchronization Errors | Microsoft Docs
+title: Troubleshooting Synchronization Errors
 description: This topic provides some guidance for identifying, troubleshooting and resolving synchronization errors.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -28,7 +26,7 @@ The following table provides examples of typical issues:
 
 |Issue  |Resolution  |
 |---------|---------|
-|The permissions and roles assigned to the integration user are not correct. | This error comes from [!INCLUDE[prod_short](includes/cds_long_md.md)] and it often includes the following text “Principal user (Id=<user id>, type=8) is missing <privilegeName> privilege". This error happens because the integration user is missing a privilege that allows it to access an entity. Typically, this error happens if you are synchronizing custom entities, or if you have an app installed in [!INCLUDE[prod_short](includes/cds_long_md.md)] that requires permission to access other [!INCLUDE[prod_short](includes/cds_long_md.md)] entities. To resolve this error, assign the permission to the integration user in [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> You can find the integration user name on the **Dataverse Connection Setup** page. The error message will provide the name of the permission, which can help you identify the entity for which you need permission. To add the missing privilege, sign in to [!INCLUDE[prod_short](includes/cds_long_md.md)] with an administrator account and edit the security role assigned to the integration user. For more information, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role). |
+|The permissions and roles assigned to the integration user are not correct. | This error comes from [!INCLUDE[prod_short](includes/cds_long_md.md)] and it often includes the following text “Principal user (Id=\<user id>, type=8) is missing \<privilegeName> privilege". This error happens because the integration user is missing a privilege that allows it to access an entity. Typically, this error happens if you are synchronizing custom entities, or if you have an app installed in [!INCLUDE[prod_short](includes/cds_long_md.md)] that requires permission to access other [!INCLUDE[prod_short](includes/cds_long_md.md)] entities. To resolve this error, assign the permission to the integration user in [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> You can find the integration user name on the **Dataverse Connection Setup** page. The error message will provide the name of the permission, which can help you identify the entity for which you need permission. To add the missing privilege, sign in to [!INCLUDE[prod_short](includes/cds_long_md.md)] with an administrator account and edit the security role assigned to the integration user. For more information, see [Create or edit a security role to manage access](/power-platform/admin/create-edit-security-role). |
 |You're coupling a record that uses another record that is not coupled. For example, a customer whose currency is not coupled or an item for which the unit of measure is not coupled. | You must first couple the dependent record, for example, a currency or unit of measure, and then retry the coupling. |
 
 The following are some tools on the Integration Synchronization Errors page that can help you manually resolve these issues.  

@@ -20,8 +20,9 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## Feature Availability
 
-* VAT
+* VAT & Withholding Tax
     * [Italian VAT](italian-vat.md)
+    * [Set Up Withholding Tax](set-up-withholding-tax.md) **Available Now**  
     * [Submit VAT Statements](how-to-submit-vat-statements.md) **Available Now**
     * [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md) **Available Now**
     * [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md) **Available Now**

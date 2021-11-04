@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.form: 42, 48, 9305
 ms.date: 09/24/2021
 ms.author: edupont
 

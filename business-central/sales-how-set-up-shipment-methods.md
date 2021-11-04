@@ -9,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: incoterms
+ms.search.form: 11, 130,
     ms.date: 04/01/2021
     ms.author: edupont
 

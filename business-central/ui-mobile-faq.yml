@@ -10,7 +10,7 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
     
 title: Mobile Apps FAQ
@@ -66,7 +66,13 @@ sections:
           Can I connect the app to our on-premises solution?
         answer: |
           Yes, you can! It's a slightly different way to signing in, that's all. For more information, see [Using Business Central on-premises?](install-mobile-app.md#using-business-central-on-premises).  
-          
+
+      - question: |
+          Can a guest user use the app to access our Business Central solution?
+        answer: |
+          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD 
+          tenant and try open the Business Central endpoint on that tenant instead of yours.  
+
 additionalContent: |
 
   ## See also

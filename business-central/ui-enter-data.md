@@ -17,7 +17,7 @@ There are many general features that help you enter data easier, faster, and mor
 
 The examples in this article use the demonstration data.
 
-## Working with editable fields
+## Work with editable fields
 Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.   
 
 Some editable fields provide a picker to help you specify a value.  
@@ -195,7 +195,7 @@ You can enter dates and times in all the fields that are assigned to dates (date
 
 ### Entering Dates
 
-You can either use the data picker to select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more information, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+You can either use the data picker to select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more information, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 For manually date entry, you can enter two, four, six, or eight digits:  
 
@@ -268,7 +268,7 @@ For example, suppose you're using a numeric keyboard that uses a point (.) as th
 ## See Also
 
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

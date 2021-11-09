@@ -200,7 +200,7 @@ Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_s
 ## See Also  
 [Relationship Management](marketing-relationship-management.md)  
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

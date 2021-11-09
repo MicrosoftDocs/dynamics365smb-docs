@@ -42,7 +42,7 @@ The camera and location capabilities are only available when accessing the Web C
 The only exception is connecting to `http://localhost`, used for development and test purposes.
 
 
-## Working with Virtualization Technologies
+## Work with Virtualization Technologies
 
 When connecting to [!INCLUDE[prod_short](includes/prod_short.md)] through Remote Desktop or another virtualization, the access to camera or location might not be available. If this is the case, use the physical system instead.
 

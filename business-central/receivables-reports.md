@@ -34,7 +34,7 @@ The following table describes some of the key reports in accounts receivable rep
 ## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

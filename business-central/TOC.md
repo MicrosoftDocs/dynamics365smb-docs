@@ -1507,7 +1507,7 @@
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Change Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
-##### [Troubleshoot](admin-teams-troubleshoot.md)
+##### [Troubleshoot Teams Integration](admin-teams-troubleshooting.md)
 #### Use OneDrive for Business with Business Central
 ##### [Overview](across-onedrive-overview.md)
 ##### [Manage OneDrive for Business Integration](admin-onedrive-integration.md)
@@ -1524,7 +1524,7 @@
 ##### Business User
 ###### [Work with Power BI Reports in Business Central](across-working-with-powerbi.md)
 ###### [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Using the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
+###### [Use the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central
 ##### [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)

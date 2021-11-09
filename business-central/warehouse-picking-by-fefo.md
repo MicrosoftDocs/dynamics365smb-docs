@@ -42,7 +42,7 @@ If the **Strict Expiration Posting** field is selected on the **Item Tracking Co
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

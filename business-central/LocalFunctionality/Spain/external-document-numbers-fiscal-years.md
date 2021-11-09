@@ -11,7 +11,7 @@
     ms.author: soalex
 
 ---
-# Using the same External Document Numbers across fiscal years
+# Use the same External Document Numbers across fiscal years
 
 In general [!INCLUDE[prod_short](../../includes/prod_short.md)] does not allow for posting documents with the same value in **External Document No.**, not even across fiscal years, due to legislation. In Spain however, this is accepted, and now [!INCLUDE[prod_short](../../includes/prod_short.md)] includes an option to allow this behavior.  
 

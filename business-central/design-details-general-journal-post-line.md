@@ -28,7 +28,7 @@ This documentation provides detailed technical insight into the concepts and pri
 
 ## See Also
 
-[Working with General Journals](ui-work-general-journals.md)
+[Work with General Journals](ui-work-general-journals.md)
 [Design Details: General Journal Post Line (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

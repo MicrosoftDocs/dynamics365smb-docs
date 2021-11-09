@@ -62,7 +62,7 @@ After you modify the layout, try to update the layout again.
 
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
- [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+ [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

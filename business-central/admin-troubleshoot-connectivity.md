@@ -105,7 +105,7 @@ Checks that the authenticated user can connect to a discovered environment, typi
 [Resources for Help and Support](product-help-and-support.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  
 [Frequently Asked Questions about Using Business Central](across-faq.yml)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [The Business Central Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

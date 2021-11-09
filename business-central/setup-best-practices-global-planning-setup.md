@@ -30,7 +30,7 @@ The **Planning** FastTab on the **Manufacturing Setup** page contains several fi
  [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
  [Design Details: Supply Planning](design-details-supply-planning.md)   
  [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

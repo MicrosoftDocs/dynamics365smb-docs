@@ -183,7 +183,7 @@ However, the user does not need to have full access to the Sales Line table to r
 
 ## Security Filters - To limit a user's access to specific records in a table
 
-For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
+For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Use Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
 
 ## To manage permissions through user groups
 

@@ -14,7 +14,7 @@ ms.author: edupont
 
 ---
 # Manage Saved Settings for Reports and Batch jobs
-When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+When running reports, users are typically presented with a page that lets them select options and set filters to change the data that is included in the generated report. This page is called the request page. A report can include one or more *saved settings* that users can apply to the report from the request page. *Saved settings* are basically predefined options and filters. Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > This topic refers mainly to "report", but similar information applies to batch jobs.
@@ -51,7 +51,7 @@ From the **Report Settings** page, you can:
 > The Saved Settings feature is available only on reports where the [SaveValues property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) of the report's request page is set to **Yes**. The **SaveValues** property is set in the development environment.  
 
 ## See Also
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

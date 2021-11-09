@@ -13,7 +13,7 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Using Dynamics 365 Sales from Business Central
+# Use Dynamics 365 Sales from Business Central
 If you use Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using [!INCLUDE[prod_short](includes/prod_short.md)] for backend activities such as processing orders, managing inventory, and doing your finances.
 
 Before you can use the integration capabilities, your system administrator must set up the connection and define users in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -134,7 +134,7 @@ To synchronize price lists, on the **Sales Price List** page, choose **Related**
 ## See Also
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationship Management](marketing-relationship-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
 [Overview of Sales and Sales Hub](/dynamics365/customer-engagement/sales-enterprise/overview)  

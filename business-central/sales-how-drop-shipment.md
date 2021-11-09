@@ -76,7 +76,7 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

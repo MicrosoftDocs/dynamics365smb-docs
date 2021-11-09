@@ -450,7 +450,7 @@ The following procedures show how to create a new job, set pricing, and then set
  [Use Resources](projects-how-use-resources.md)   
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
  [Invoice Jobs](projects-how-invoice-jobs.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

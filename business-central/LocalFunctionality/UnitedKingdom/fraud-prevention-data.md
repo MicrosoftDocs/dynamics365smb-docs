@@ -83,6 +83,6 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 [Making Tax Digital](making-tax-digital-submit-vat-return.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

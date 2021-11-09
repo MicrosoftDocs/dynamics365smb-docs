@@ -104,7 +104,7 @@ For both types of events, the events are system-defined. New events must be adde
     >  You can only change the indent of a step that does not have a subsequent step.  
 
 12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step that you have just created.  
-13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Using Workflows](across-use-workflows.md).  
+13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Use Workflows](across-use-workflows.md).  
 
 > [!NOTE]  
 > Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  
@@ -188,7 +188,7 @@ Next, you must and test the workflow by opening an existing vendor and change th
 [Delete Workflows](across-how-to-delete-workflows.md)  
 [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Setting Up Workflows](across-set-up-workflows.md)  
-[Using Workflows](across-use-workflows.md)  
+[Use Workflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 
 

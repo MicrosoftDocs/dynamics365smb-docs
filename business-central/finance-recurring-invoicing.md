@@ -30,7 +30,7 @@ With this option, you define flexible invoicing periods with [Date Formulas](ui-
 
 However, with this option, you cannot print and send invoices in the default version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-For more information, see [Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
+For more information, see [Work with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals).  
 
 ## Create multiple invoices based on a recurring job journal
 
@@ -109,7 +109,7 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 ## See also
 
 [Date Formulas](ui-enter-date-ranges.md#using-date-formulas)  
-[Working with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals)  
+[Work with Recurring Journals](ui-work-general-journals.md#working-with-recurring-journals)  
 [Create job journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  

@@ -45,7 +45,7 @@ Campaigns are conducted by salespeople, and you must create activities to repres
 [Managing Contacts](marketing-contacts.md)  
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

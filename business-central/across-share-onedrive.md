@@ -19,7 +19,7 @@
  
 :::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
 
-## Working with Different Types of Files
+## Work with Different Types of Files
 When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser. 
 
 For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it. 

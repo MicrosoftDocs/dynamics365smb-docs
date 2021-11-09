@@ -95,7 +95,7 @@ The link between the blanket sales order and the originating sales order, and an
 [Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -59,7 +59,7 @@ You can use alternate addresses to keep track of your employees’ location, for
 ## See Also
 [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)
 
 

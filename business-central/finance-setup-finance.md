@@ -18,7 +18,7 @@ Before you can begin to run your business, you must specify rules and defaults f
 
 Some finance setup can be done automatically with assisted setup guides, and some must be done manually. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
-You can use dimensions to add different types of information to every transaction. You can set up your company's basic dimensions, such as Projects and Departments. Later, you can add more dimensions when you need them, and you can set up temporary dimensions for use during a limited time period, for example, in connection with a sales campaign. For more information, see [Working with Dimensions](finance-dimensions.md).
+You can use dimensions to add different types of information to every transaction. You can set up your company's basic dimensions, such as Projects and Departments. Later, you can add more dimensions when you need them, and you can set up temporary dimensions for use during a limited time period, for example, in connection with a sales campaign. For more information, see [Work with Dimensions](finance-dimensions.md).
 
 Many of the setup tasks must be completed before you can begin recording financial transactions, but most settings can be changed at a later date. Some of the set up tasks are optional, for example, you only set up Intercompany Postings and Consolidations if you are working with multiple companies. Some setup tasks, such as specifying the period during which posting is allowed, may have to be repeated periodically.  
 
@@ -57,10 +57,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
 [Finance](finance.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

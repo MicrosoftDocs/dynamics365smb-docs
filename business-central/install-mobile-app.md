@@ -36,7 +36,7 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 > [!TIP]
 > If you want to connect the app to a sandbox environment, choose the **Advanced options** button, and then choose the **Cloud sandbox** sign-in option. Then, if you have more than one sandbox environment, choose the relevant environment.
 
-## Using Business Central on-premises?
+## Use Business Central on-premises?
 
 If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
 
@@ -60,7 +60,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

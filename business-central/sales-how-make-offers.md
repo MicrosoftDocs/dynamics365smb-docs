@@ -101,6 +101,6 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 [Setting Up Sales](sales-setup-sales.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Archive Documents](across-how-to-archive-documents.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -158,7 +158,7 @@ To set up codes for import VAT, follow these steps:
 6. In the **Purchase VAT Account** field, enter the general ledger account to use for posting import VAT. All other accounts are optional.  
 
 
-## Using Reverse Charge VAT for Trade between EU Countries or Regions
+## Use Reverse Charge VAT for Trade between EU Countries or Regions
 Some companies must use reverse charge VAT when trading with other companies. For example this rule applies to purchases from EU countries/regions and sales to EU countries/regions.  
 
 > [!NOTE]  

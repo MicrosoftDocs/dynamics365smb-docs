@@ -16,7 +16,7 @@ When a record, such as a purchase document or a customer card, needs to be appro
 
 You set up approval workflows on the **Workflow** page. You must also set up approval users, including any relevant amount limits, in the **Approval User Setup** page. For more information, see [Setting Up Workflows](across-set-up-workflows.md).  
 
-In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Using Workflows](across-use-workflows.md).
+In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Use Workflows](across-use-workflows.md).
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as guides. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
@@ -85,7 +85,7 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 [Sales](sales-manage-sales.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

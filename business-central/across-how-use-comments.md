@@ -33,7 +33,7 @@ The following describes how to add a comment to an item card. The steps are simi
 4. On the **Comment Sheet** page, enter any text, and then choose the **OK** button.
 
 ## See Also
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 

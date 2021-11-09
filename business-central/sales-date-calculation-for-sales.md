@@ -29,7 +29,7 @@ If you specify a requested delivery date on the sales order line, that date beco
 If the items are available to pick on the shipment date, then the sales process can continue. Otherwise, a stock-out warning is displayed.
 
 > [!Note]
-> If your process is based on backward calculation, for example, if you use the requested delivery date to get the planned shipment date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+> If your process is based on backward calculation, for example, if you use the requested delivery date to get the planned shipment date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## Calculating the Earliest Possible Delivery Date
 If you do not specify a requested delivery date on the sales order line, or if the requested delivery date cannot be met, then the earliest date on which that the items are available is calculated. That date is then entered in the Shipment Date field on the line, and the date on which you plan to ship the items as well as the date on which they will be delivered to the customer are calculated using the following formulas.
@@ -41,7 +41,7 @@ If you do not specify a requested delivery date on the sales order line, or if t
 ## See Also  
  [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)   
  [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Using the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
+# Use the [!INCLUDE [prod_short](includes/prod_short.md)] Apps in Power BI
 
 > **APPLIES TO:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -151,7 +151,7 @@ The Power BI app will only display data from the [!INCLUDE[prod_short](includes/
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Working with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
 [The 'new look' of the Power BI service](/power-bi/service-new-look)  
@@ -161,9 +161,9 @@ The Power BI app will only display data from the [!INCLUDE[prod_short](includes/
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

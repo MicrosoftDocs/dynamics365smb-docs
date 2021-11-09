@@ -33,7 +33,7 @@ To prevent any gaps in the cost budget entries and cost register entries, you ca
 ## See Also  
 [Accounting for Costs](finance-manage-cost-accounting.md)
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

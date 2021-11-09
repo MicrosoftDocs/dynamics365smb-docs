@@ -13,7 +13,7 @@
     ms.author: edupont
 
 ---
-# Using Workflows
+# Use Workflows
 
 A workflow is a sequence of tasks that are triggered by an action, a condition or a rule. Workflows are usually implemented to integrate business logic to an organization, such as the separation of duties, unifying processes, or to increase trust and responsibilities.  
 
@@ -69,7 +69,7 @@ You can set up and use workflows that connect business-process tasks performed b
 ## See Also  
 [Setting Up Workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

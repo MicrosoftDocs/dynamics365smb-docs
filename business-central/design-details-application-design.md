@@ -34,6 +34,6 @@ This content contains detailed technical information about complex application f
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Setting Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

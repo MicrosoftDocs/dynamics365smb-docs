@@ -56,8 +56,8 @@ The email address of the contact is now inserted on the document layout line so 
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

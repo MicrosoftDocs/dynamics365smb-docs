@@ -13,7 +13,7 @@ ms.date: 06/21/2021
 ms.author: jswymer
 
 ---
-# Working with Reports, Batch Jobs, and XMLports
+# Work with Reports, Batch Jobs, and XMLports
 
 A report gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 
@@ -59,7 +59,7 @@ To preview a report, choose the **Preview** or **Preview & Close** button on the
 > [!NOTE]
 > If you're using Business Central 2020 release wave 1 or earlier, there's only a **Preview** button, which closes the request page on preview, like described for **Preview & Close**.
 
-### Working with the Preview
+### Work with the Preview
 
 In the preview, use the menu bar on the report preview to:
 
@@ -140,7 +140,7 @@ For more information about report design, see [Report Overview](/dynamics365/bus
 
 You can schedule or batch job a report to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** button, and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
-When you schedule a report to run, you can specify that it must run every Thursday by setting the **Next Run Date Formula** field to *D4*, for example. For more information, see [Using Date Formulas](ui-enter-date-ranges.md#using-date-formulas).  
+When you schedule a report to run, you can specify that it must run every Thursday by setting the **Next Run Date Formula** field to *D4*, for example. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#using-date-formulas).  
 
 You can choose to save the report to a file (like Excel, Word, or PDF), print it, or only generate the report. If you choose to save the report to a file, then the processed report is sent to the **Report Inbox** area on your Role Center, where you can view it.  
 
@@ -184,9 +184,9 @@ The fields under **Advanced** set limitations on the generated report to control
 ## See Also
 
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
-[Working with Calendar Dates and Times](ui-enter-date-ranges.md)  
+[Work with Calendar Dates and Times](ui-enter-date-ranges.md)  
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

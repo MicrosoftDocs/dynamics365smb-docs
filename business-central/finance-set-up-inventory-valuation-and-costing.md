@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 [Design Details: Inventory Costing](design-details-inventory-costing.md)  
 [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)  
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Finance](finance.md)  
 
 

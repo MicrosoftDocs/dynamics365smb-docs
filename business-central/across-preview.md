@@ -97,7 +97,7 @@ The administrator of your [!INCLUDE[prod_short](includes/prod_short.md)] and you
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Extending Your Trial Version](admin-extend-trial.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.yml)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
 [Choosing Your Dynamics 365 Business Central Development Sandbox Environment](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  

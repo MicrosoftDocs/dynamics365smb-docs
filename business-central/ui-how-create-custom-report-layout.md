@@ -50,7 +50,7 @@ When custom report layouts are defined, you can select them from customer and ve
 The custom layout has been created. You can now modify the custom layout as needed.
 
 > [!TIP]
-> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Working with Reports - Send to Excel](ui-work-report.md#send-to-excel).
+> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Work with Reports - Send to Excel](ui-work-report.md#send-to-excel).
 
 ## <a name="ModifyCustomLayout"></a>Modifying a custom layout
 
@@ -116,10 +116,10 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

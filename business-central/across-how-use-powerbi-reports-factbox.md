@@ -27,7 +27,7 @@ ms.author: jswymer
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## Create a report for a list page
 
@@ -88,7 +88,7 @@ You can change the width and height of the report by choosing **Custom** in the 
 If you want the background of the report to blend with the background color of the Power BI FactBox control, set report background color to *#FFFFFF* (white). 
 
 > [!TIP]
-> Use the [!INCLUDE [prod_short](includes/prod_short.md)] theme file to build reports with the same color styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps. For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](across-how-use-financials-data-source-powerbi.md#theme).
+> Use the [!INCLUDE [prod_short](includes/prod_short.md)] theme file to build reports with the same color styling as the [!INCLUDE [prod_short](includes/prod_short.md)] apps. For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## Reports with multiple pages
 
@@ -123,7 +123,7 @@ Verify that the report size is set to 325 pixels x 310 pixels. Save the report, 
 ## See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  

@@ -31,7 +31,7 @@ You can schedule when a batch job runs. For more information, see [Use Job Queue
 ## See Also
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

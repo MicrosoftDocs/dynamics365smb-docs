@@ -1,0 +1,32 @@
+---
+    title: How to Set Up CFDI Information [MX]
+    description: Before you can send electronic documents, you must set up Business Central to ensure that the required catalogues from the Mexican Tax Authority (SAT) are in place.
+
+    author: DanielMagMat
+
+    ms.service: dynamics365-business-central
+    ms.topic: conceptual
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 12/11/2021
+    ms.author: DanielMagMat
+
+---
+# Set Up CFDI Information
+
+Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the right tax catalogues are in the right place. This content is required by the PAC and the Mexico tax authority (SAT).
+
+> [!IMPORTANT]  
+> The right catalogues should be set up in order for the PAC to stamp you without errors. For more information, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
+
+
+## See Also
+
+[Electronic Invoicing](electronic-invoicing.md)  
+[Generate Electronic Invoices](how-to-generate-electronic-invoices.md)  
+[Mexico Local Functionality](mexico-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

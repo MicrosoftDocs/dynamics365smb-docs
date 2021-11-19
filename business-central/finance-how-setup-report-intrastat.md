@@ -30,6 +30,9 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 * **Country of origin**: Use the two-letter ISO Alpha Codes for the country where the good was obtained or produced. If the good was produced in more than one country, the country of origin is the last country where it was significantly processed. 
 * **VAT identification number of the partner operator in the Member State of import**: This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among Member States, and allows Member States to allocate the received data to the importing company in their own country. Reporting units must report the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. 
 
+> [!NOTE]
+> The business partner VAT-ID to use can differ, depending on the business circumstance. For example, the ID to use differs for scenarios such as chain sales, where a supplier sells a product to another country, and then that company resells the item to another business in the same country, triangular trade, and so on. If you are unsure about the correct VAT-ID to use, we recommend that you ask an expert in your country or region. 
+
 Optionally, you can also set up:
 
 * **Areas**: Use these to supplement information about countries and regions.  

@@ -26,10 +26,12 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You specify these codes on items.
 * **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on sales and purchase documents, and when you process returns.  
 * **Transport methods**: There are seven, one-digit codes for Intrastat transport methods. **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for post, **7** for fixed installations, and **9** for own propulsion (for eample, transporting a car by driving it). [!INCLUDE[prod_short](includes/prod_short.md)] does not require these codes, however, we recommend that the descriptions provide a similar meaning.  
+* **Transaction specifications**: Use these to supplement the descriptions from the transaction types.  
+* **Country of origin**: Use the two-letter ISO Alpha Codes for the country where the good was obtained or produced. If the good was produced in more than one country, the country of origin is the last country where it was significantly processed. 
+* **VAT identification number of the partner operator in the Member State of import**: This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among Member States, and allows Member States to allocate the received data to the importing company in their own country. Reporting units must report the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. 
 
 Optionally, you can also set up:
 
-* **Transaction specifications**: Use these to supplement the descriptions from the transaction types.  
 * **Areas**: Use these to supplement information about countries and regions.  
 * **Entry/exit points**: Use these to specify the locations where you ship or receive items to or from other countries. Heathrow Airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
 

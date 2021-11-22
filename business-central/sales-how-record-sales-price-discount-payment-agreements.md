@@ -216,10 +216,12 @@ These steps differ, depending on whether your administrator has turned on the **
 5. In the **Defines** field, choose either **Price & Discount**, or just **Discount**. 
 6. In the **Line Discount %** field, specify the discount percentage.
 
-    > [!TIP]
-    > You can filter the lines by choosing the appropriate option in the **View Columns for** field.
-    > [!NOTE]  
-    > Invoice discount codes are represented by existing customer cards. Using customer names as codes enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms. To set up customer-specific invoice discount terms, set the **Invoice Disc. Code** field to the customer's customer code, and then proceed to the next step.
+> [!TIP]
+> You can filter the lines by choosing the appropriate option in the **View Columns for** field.
+
+> [!NOTE]  
+> Invoice discount codes are represented by existing customer cards. Using customer names as codes enables you to quickly assign invoice discount terms to customers by picking the name of another customer who will have the same terms. To set up customer-specific invoice discount terms, set the **Invoice Disc. Code** field to the customer's customer code, and then proceed to the next step.
+
 ---
 
 ## To set up an invoice discount for a customer

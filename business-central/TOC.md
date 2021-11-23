@@ -703,6 +703,7 @@
 ### [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ### [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
+### [Troubleshooting FA Ledger Entries](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relationship Management
 ### [Relationship Management Overview](marketing-relationship-management.md)

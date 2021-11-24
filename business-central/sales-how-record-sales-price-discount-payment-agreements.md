@@ -172,6 +172,8 @@ To update prices for multiple items, you must create a new price list, and then 
 > [!NOTE]
 > You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
 
+---
+
 ## Sales Invoice Discounts and Service Charges
 When you use invoice discounts, the total amount on the invoice determines the size of the discount that is granted. On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
@@ -184,8 +186,6 @@ You link discount percentages to specific invoice amounts in the **Cust. Invoice
 In addition to, or instead of, a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 For training in discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
-
----
 
 ### Calculating Invoice Discounts on Sales
 
@@ -239,8 +239,6 @@ Now set up the sales invoice discount terms.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
-
----
 
 ## Best Price Calculation
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents and on job and item journal lines.

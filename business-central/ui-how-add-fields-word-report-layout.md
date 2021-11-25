@@ -2,14 +2,13 @@
     title: How to Add Fields to a Word Report Layout
     description: This topic describes how to add fields of a report dataset to an existing Word report layout for a report.
     author: jswymer
-
     ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/24/2021
+    ms.date: 11/25/2021
     ms.author: jswymer
 
 ---
@@ -31,7 +30,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 3.  On the **Developer** tab, choose **XML Mapping Pane**.  
   
-4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> report, which is typically last in the list. The name of the custom XML part has the following format:  
+4.  In the **XML Mapping** pane, in the **Custom XML Part** dropdown list, choose the custom XML part for [!INCLUDE[prod_short](includes/prod_short.md)] report, which is typically last in the list. The name of the custom XML part has the following format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -74,7 +73,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
  Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
   
 > [!IMPORTANT]  
->  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> client.  
+>  You can only add images that have a format that is supported by Word, such as .bmp, .jpeg, and .png file types. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the [!INCLUDE[prod_short](includes/prod_short.md)] client.  
   
 #### To add an image  
   
@@ -103,7 +102,7 @@ The following table provides a simplified overview of the XML of a custom XML pa
 ### Custom XML Part in Word  
  In Word, you open the custom XML part in the **XML Mapping** pane, and then use the pane to map elements to content controls in the Word document. The **XML Mapping** pane is accessible from the **Developer** tab (for more information, see [Show the Developer Tab on the Ribbon](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their name as defined by the Name property in Report Dataset Designer in ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ The elements in the **XML Mapping** pane appear in a structure that is similar to the XML source. Label fields are grouped under a common **Labels** element and data item and columns are arranged in a hierarchal structure that corresponds to the XML source, with columns listed in alphabetical order. Elements are identified by their column name as defined in the report's dataset in AL code. For more information, see [Defining a Report Dataset](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  The following figure illustrates the simple custom XML part from the previous section in the **XML Mapping** pane of a Word document.  
   

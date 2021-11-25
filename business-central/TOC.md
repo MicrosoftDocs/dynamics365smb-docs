@@ -1265,13 +1265,14 @@
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
-##### [Electronic Invoicing](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Set Up Electronic Invoicing](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generate Electronic Invoices](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Electronic Invoicing (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Set Up Electronic Invoicing (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generate Electronic Invoices (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte Packing Slips and Transfer Orders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### General
 ##### [Electronic Accounting Regulations in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### General
-##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Print Troubleshooting Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

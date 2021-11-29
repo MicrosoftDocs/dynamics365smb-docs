@@ -22,7 +22,6 @@
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Make Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-
 ## Try
 ### [Trials and Subscriptions](across-preview.md)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -438,6 +437,7 @@
 ### [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ### [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
+### [Troubleshooting FA Ledger Entries](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relationship Management
 ### [Relationship Management Overview](marketing-relationship-management.md)
@@ -999,14 +999,15 @@
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
-##### [Electronic Invoicing](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Set Up Electronic Invoicing](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generate Electronic Invoices](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Electronic Invoicing (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Set Up Electronic Invoicing (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generate Electronic Invoices (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte Packing Slips and Transfer Orders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### General
 ##### [Electronic Accounting Regulations in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### General
-##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
-##### [Print Troubleshoot Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Print Troubleshooting Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Netherlands

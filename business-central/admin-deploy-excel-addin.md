@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Get the Business Central Add-in for Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users can make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]\
+[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users can make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Overview
 
@@ -33,9 +33,9 @@ For the end-user, the installation experience is different for the two deploymen
 
 - With individual acquisition, the first time users choose the **Edit in Excel** action, the **New Office Add-in** pane opens in Excel. To install the add-in, the user chooses **Trust this add-in**, which in turn installs the add-in directly from the Office Store. Users then sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using their user name and password.
 
-- With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]\
+- With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]\.A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]\
+With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
 
@@ -58,13 +58,13 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 - If you're transitioning from individual acquisition, see [Switching from individual acquisition to Centralized Deployment](#switch)
 
 > [!NOTE]
-> Enabling Centralized Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features and or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)]\
+> Enabling Centralized Deployment affects features that use the Excel add-in, such as the **Edit in Excel** action. It has no effect on other Excel-related features and or permissions assigned to users in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### Set up Centralized Deployment of the add-in
 
 You'll work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Microsoft 365 admin center.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)]\, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Excel Add-in Centralized Deployment**, then choose the related link.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Excel Add-in Centralized Deployment**, then choose the related link.
 2. Read the information on the **Business Central Excel add-in setup** page and choose **Next**.
 3. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2163967) and go to **Integrated Apps**<!--**Add-ins**-->.
 
@@ -76,7 +76,7 @@ You'll work in both [!INCLUDE[prod_short](includes/prod_short.md)] and the Micro
     5. Wait for the green check mark next to **Deployed** appears for the add-in, then choose **Done**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        The add-in appears on the **Add-ins** page. For more information about deploying add-ins in the Microsoft 365 admin center, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)]\, and choose **Next**.
+4. Go back to **Excel Add-in Centralized Deployment** assisted setup in [!INCLUDE[prod_short](includes/prod_short.md)], and choose **Next**.
 5. Turn on **Use Centralized Deployment**, and choose **Finish**.
 
     If you don't turn on this switch, [!INCLUDE[prod_short](includes/prod_short.md)] will get the add-in directly from the Office Store.
@@ -109,7 +109,7 @@ If a user can't connect automatically, you can unblock them by asking them to fo
 4. When prompted, sign in with your Business Central user name and password.
 5. Optionally, choose the environment and company that you want to connect to.
 
-The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)]\, and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)]\. 
+The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], and you can edit data and publish the changes to [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## Prepare devices and network for the Excel Add-In
 
@@ -122,9 +122,9 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 |Issue  |Solution or workaround  |Comments  |
 |---------|---------|---------|
 |The add-in doesn't start|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Data doesn't load into Excel|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]\. Or, open the workbook in Excel in a browser.|If the user has specified a company name that contains special characters, the add-in can't connect. |
-|Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)]\.|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
-|The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]\. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)]\ won't get messed up.|         |
+|Data doesn't load into Excel|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user has specified a company name that contains special characters, the add-in can't connect. |
+|Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
+|The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] won't get messed up.|         |
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** check boxes for the published page. Selecting these check boxes excludes non-editable FlowFields and field from the eTag calculation. |These check boxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -157,7 +157,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->

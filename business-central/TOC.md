@@ -1458,7 +1458,7 @@
 #### [Set Up Statuses for Service Orders and Repairs](service-order-repair-status.md)
 #### [Set Up a Loaner Program](service-how-setup-loaner-program.md)
 #### [Set Up Service Contracts](service-how-setup-service-contracts.md)
-### Set Up Complex Application Areas Use Best Practices
+### Set Up Complex Application Areas Using Best Practices
 #### [Setup Best Practices](set-up-complex-application-areas-using-best-practices.md)
 #### Setup Best Practices: Supply Planning
 ##### [Set Up Supply Planning](setup-best-practices-supply-planning.md)
@@ -1466,23 +1466,6 @@
 ##### [Setup Best Practices: Global Planning Setup](setup-best-practices-global-planning-setup.md)
 ##### [Setup Best Practices: Reordering Policies](setup-best-practices-reordering-policies.md)
 #### [Setup Best Practices: Costing Methods](setup-best-practices-costing-method.md)
-### Set Up a Company With RapidStart Services
-#### [RapidStart Overview](admin-set-up-a-company-with-rapidstart.md)
-#### Set Up Company Configuration
-##### [Company Configuration Overview](admin-set-up-company-configuration.md)
-##### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)
-#### Apply Configurations to New Companies
-##### [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)
-##### [Create a New Company](admin-how-to-create-a-new-company.md)
-##### [Configure New Companies](admin-how-to-configure-new-companies.md)
-##### [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
-##### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
-#### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-#### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Migrate Customer Data](admin-migrate-customer-data.md)
-#### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Set Up Email
 #### [Set Up Email](admin-how-setup-email.md)
 #### Set Up Your Business Inbox in Microsoft Outlook
@@ -1563,6 +1546,23 @@
 ### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
 ### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ### [Create New Companies](about-new-company.md)
+### Set Up a Company With RapidStart Services
+#### [RapidStart Overview](admin-set-up-a-company-with-rapidstart.md)
+#### Set Up Company Configuration
+##### [Company Configuration Overview](admin-set-up-company-configuration.md)
+##### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
+##### [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)
+#### Apply Configurations to New Companies
+##### [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)
+##### [Create a New Company](admin-how-to-create-a-new-company.md)
+##### [Configure New Companies](admin-how-to-configure-new-companies.md)
+##### [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
+##### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
+##### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
+#### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
+#### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
+#### [Migrate Customer Data](admin-migrate-customer-data.md)
+#### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Log Changes](across-log-changes.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)

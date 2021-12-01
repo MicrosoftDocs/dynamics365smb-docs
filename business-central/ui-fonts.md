@@ -1,6 +1,6 @@
 ---
 title: Available Fonts
-description: The online version of Business Central contains pre-installed fonts on the servers that can be used when generating reports.
+description: Learn about the pre-installed fonts that you can use for your externally-facing reports.
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
 
 ---
@@ -44,15 +44,22 @@ In addition to MICR fonts, special security fonts are available to generate text
 For more information, see [Select a Check Layout](finance-how-define-check-layouts.md).  
 
 ## Fonts for Barcodes
-Fonts to generate one-dimensional barcodes are installed and available to use in both Word and RDLC report layouts.
+Fonts to generate barcodes are installed and available to use in both Word and RDLC report layouts.
 
-The following barcode symbologies are supported:
+The following one-dimensional barcode symbologies are supported:
 * Code 3 of 9 (Code 39)
 * Code 128
 * Code 93
 * Codabar
 * MSI
 * Interleaved 2 of 5
+
+The following two-dimensional barcode symbologies are supported:
+* Aztec
+* Data Matrix
+* Maxicode
+* PDF417
+* QR
 
 For more information, see [Barcode Fonts with Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

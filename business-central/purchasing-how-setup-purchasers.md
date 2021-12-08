@@ -1,5 +1,5 @@
 ---
-title: Set Up Purchasers and Assign Purchasers to Vendors | Microsoft Docs
+title: Set Up Purchasers and Assign Purchasers to Vendors (Video) | Microsoft Docs
 description: If several purchasers, or purchasing agents, work at your company, you can organize them for statistical analysis.
 services: project-madeira
 documentationcenter: ''

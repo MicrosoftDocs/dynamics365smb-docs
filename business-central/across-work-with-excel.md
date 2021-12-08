@@ -1,5 +1,5 @@
 ---
-title: Viewing and Editing in Excel From Business Central
+title: Viewing and Editing in Excel From Business Central (Video)
 description: Learn about how you can open the pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
 ms.service: dynamics365-business-central

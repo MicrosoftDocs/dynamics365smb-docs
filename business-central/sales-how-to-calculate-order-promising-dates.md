@@ -102,7 +102,7 @@ If you want to include warehouse handling time in the order promising calculatio
 3.  On the **Warehouse** FastTab, in the **Inbound Whse. Handling Time** field, enter the number of days that you want to be included in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Inbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  page.
+>  If you leave the **Location** field blank, then the calculation uses the value in the **Inventory Setup**  page.
 
 ### To enter outbound warehouse handling time in the inventory setup page  
 If you want to set up an outbound warehouse handling time to be included in the order promising calculation on the sales line, you can set this up as a default for the inventory.
@@ -119,7 +119,7 @@ If you want to set up an outbound warehouse handling time to be included in the 
 3.  On the **Warehouse** FastTab, in the **Outbound Whse. Handling Time** field, enter the number of days that you want to include in the order promising calculation.  
 
 > [!NOTE]  
->  If you leave the **Outbound Whse. Handling Time** field blank, then the calculation uses the value in the **Inventory Setup**  page.
+>  If you leave the **Location** field blank, then the calculation uses the value in the **Inventory Setup**  page.
 
 ## To make an item critical  
 Before an item can be included in the order promising calculation, it must be marked as critical. This setup ensures that non-critical items do not cause irrelevant order promising calculations.   

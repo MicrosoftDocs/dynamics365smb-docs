@@ -170,7 +170,10 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## To set up a currency exchange rate service
-You can use an external service to keep your currency exchange rates up to date, such as FloatRates.
+You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
+
+> [!NOTE]
+> Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you will need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You'll probably need some help from a developer to do that. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then choose the related link.
 2. Choose the **New** action.

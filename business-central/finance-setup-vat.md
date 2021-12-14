@@ -27,7 +27,10 @@ You can set up VAT calculations manually, but that can be tricky and time consum
 > [!NOTE]  
 > You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
 
-If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.
+If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] is available in countries that do not use VAT. For information about how to set up and report tax in your particular country, see the articles in the [Local functionality in Business Central](about-localization.md) section.  
 
 ## To use the VAT Setup assisted setup guide to set up VAT (recommended)
 

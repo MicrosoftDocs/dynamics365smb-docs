@@ -1,5 +1,5 @@
 ---
-title: Link a Sales Order to a Purchase Order for Direct Shipment | Microsoft Docs
+title: Link a Sales Order to a Purchase Order for Direct Shipment (Video) | Microsoft Docs
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: SorenGP
 

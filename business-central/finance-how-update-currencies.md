@@ -1,5 +1,5 @@
 ---
-title: Update Currency Exchange Rates
+title: Update Currency Exchange Rates (Video)
 description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
 author: SorenGP
 

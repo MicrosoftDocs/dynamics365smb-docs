@@ -1,5 +1,5 @@
 ---
-title: Create Item Cards for Goods or Services
+title: Create Item Cards for Goods or Services (Video)
 description: You create item cards for services that you sell as hours and for physical products, such as assembly items, finished goods, that you sell from your inventory.
 author: SorenGP
 

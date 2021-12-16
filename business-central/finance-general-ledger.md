@@ -41,7 +41,7 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the G/L account card to add or change settings.  
+* Open the general ledger (G/L) account card to add or change settings.  
 * See a list of posting groups that post to that account.
 * View separate debit and credit balances for a single account  
 
@@ -51,7 +51,7 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 
 You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the general ledger accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
 You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 

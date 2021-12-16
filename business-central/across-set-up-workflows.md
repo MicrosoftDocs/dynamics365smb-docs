@@ -1,5 +1,5 @@
 ---
-    title: Set Up Workflows
+    title: Set Up Workflows (Video)
     description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
     author: SorenGP
 

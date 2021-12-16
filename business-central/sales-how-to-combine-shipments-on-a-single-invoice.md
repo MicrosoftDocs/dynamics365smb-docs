@@ -31,6 +31,9 @@ Before you can create a combined shipment, more than one sales shipment for the 
     If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
 7. To post the invoice, choose the **Post** action.  
 
+> [!TIP]  
+> If you have shipped orders where **Sell-to Customer No.** is different from **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines**. Use personalization to add **Sell-to Customer** field to the window and remove filter. Now you can add shipment lines to invoice regardless of value in the **Sell-to Customer No.** field, as long as **Bill-to Customer No.** in shipment lines matches value in the sales invoice header.  
+
 ## To automatically combine shipments on a single invoice  
 [!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 
 

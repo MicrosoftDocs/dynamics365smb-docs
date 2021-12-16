@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 12/16/2021
     ms.author: edupont
 
 ---
@@ -32,7 +32,7 @@ Before you can create a combined shipment, more than one sales shipment for the 
 7. To post the invoice, choose the **Post** action.  
 
 > [!TIP]  
-> If you have shipped orders where **Sell-to Customer No.** is different from **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines**. Use personalization to add **Sell-to Customer** field to the window and remove filter. Now you can add shipment lines to invoice regardless of value in the **Sell-to Customer No.** field, as long as **Bill-to Customer No.** in shipment lines matches value in the sales invoice header.  
+> If you have shipped orders where the **Sell-to Customer No.** is different from the **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines** report. Use personalization to add the **Sell-to Customer** field to the page and remove the filter. Now you can add shipment lines to the invoice regardless of the value in the **Sell-to Customer No.** field, as long as the **Bill-to Customer No.** field on the shipment lines matches the value on the sales invoice.  
 
 ## To automatically combine shipments on a single invoice  
 [!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 

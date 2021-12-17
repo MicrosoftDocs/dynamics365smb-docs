@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/25/2021
+ms.date: 12/17/2021
 ms.author: edupont
 
 ---
@@ -19,6 +19,8 @@ Mexican companies must be able to print and send Carta de Porte-compliant packin
 
 > [!IMPORTANT]
 > The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
+>
+> Also, as of January 2022, you must update the Carta de Porte catalogs that define the various codes. Microsoft provides a downloadable package at [this location)(https://microsoft.com) that you can import using RapidStart Services. For more information, see [Importing Business Data from Other Finance Systems](../../across-import-data-configuration-packages.md). Alternatively, if you only use very few codes, you can update the current catalogs manually.
 
 ## Get started
 

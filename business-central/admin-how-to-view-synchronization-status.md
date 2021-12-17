@@ -1,5 +1,5 @@
 ---
-    title: View the Status of Synchronization Jobs (Video)
+    title: View the Status of Synchronization Jobs (contains video)
     description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
     author: bholtorf
 

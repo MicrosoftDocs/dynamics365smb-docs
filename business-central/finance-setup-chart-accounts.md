@@ -1,5 +1,5 @@
 ---
-title: Set Up the Chart of Accounts (Video)
+title: Set Up the Chart of Accounts (contains video)
 description: The chart of accounts shows the ledger accounts that store your financial data. You can change the default accounts in the COA, and you can add new accounts.
 author: edupont04
 

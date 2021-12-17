@@ -1,5 +1,5 @@
 ---
-title: Set Up Bank Accounts (Video)
+title: Set Up Bank Accounts (contains video)
 description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: bholtorf
 

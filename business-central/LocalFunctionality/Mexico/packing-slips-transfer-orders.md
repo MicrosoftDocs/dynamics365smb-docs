@@ -20,7 +20,7 @@ Mexican companies must be able to print and send Carta de Porte-compliant packin
 > [!IMPORTANT]
 > The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
 >
-> Also, as of January 2022, you must update the Carta de Porte catalogs that define the various codes. Microsoft provides a downloadable package at [this location)(https://microsoft.com) that you can import using RapidStart Services. For more information, see [Importing Business Data from Other Finance Systems](../../across-import-data-configuration-packages.md). Alternatively, if you only use very few codes, you can update the current catalogs manually.
+> Also, as of January 2022, you must update the Carta de Porte catalogs that define the various codes. Microsoft provides a downloadable package at [this location](https://microsoft.com) that you can import using RapidStart Services. For more information, see [Importing Business Data from Other Finance Systems](../../across-import-data-configuration-packages.md). Alternatively, if you only use very few codes, you can update the current catalogs manually.
 
 ## Get started
 
@@ -38,6 +38,14 @@ You must add information about STC permissions to your company information. You 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. On the **Company Information** page, on the **Shipping** FastTab, in the **SCT Permission Type** field, choose the relevant type of motor transport used for the transfer of goods or merchandise by your company. The types are defined by the Secretaria de Comunicaciones y Transportes.  
 3. In the **SCT Permission No.** field, specify the relevant permission number that is issued by the Secretaria de Comunicaciones y Transportes.  
+
+### To set up locations for Carta de Porte
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
+2. On the **Locations** page, choose the location that you want to update, and then, on the **Location Card** page, fill in the fields on the **Electronic Document** FastTab. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+
+    For example, the **ID Ubicacion** field specifies a six-digit code that is unique for this particular location. Then, when you post a shipment that includes this location, that code is prefixed with *OR* if the location is the starting point for the transport. If the location is the destination point, the code is automatically prefixed with *DE*.
+3. Repeat step 2 for any other locations that you want to configure for Carta de Porte.
 
 ### To set up vehicles for transportation
 
@@ -58,7 +66,7 @@ You must add information about STC permissions to your company information. You 
 
 ## Generate packing slips and transfer orders with Carta de Porte
 
-When you create a document such as a sales order, you must fill in the fields on the **Electronic Document** FastTab. For each line on the document, you must also specify the **Custom Transit Number** field. This field specifies the number of the petition that protects the importation of the goods in the following format:  
+When you create a document such as a sales order, you must fill in the fields on the **Electronic Document** FastTab, including information about your insurance company. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] For each line on the document, you must also specify the **Custom Transit Number** field. This field specifies the number of the petition that protects the importation of the goods in the following format:  
 
 - The last two digits of the validation year followed by two spaces  
 - Two digits of the customs office followed by two spaces  

@@ -71,6 +71,12 @@ Your setup determines when posting happens. For example, the timing is affected 
 ## Copying posting setup lines
 The more product and business posting groups you have, the more lines you see in the General Posting Setup page. This can mean a lot of data entry to set up the general posting setup for the company. While there may be many different combinations of business and product posting groups, different combinations may still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
 
+## Set up posting groups on the go
+To get users started faster, [!INCLUDE[prod_short](includes/prod_short.md)] offers assistance through notifications of missing G/L accounts in various posting group setups in documents. To use these notifications enable **G/L Account is missing in posting group or setup** notifications through **Change when I receive notifications** in **My settings** page. With this notification enabled, you will get a notification while working on the document if any of required G/L accounts are missing in posting groups or setups used by current document. Clicking a link in notification will then take you to respective posting group or setup record where you can set missing G/L account. 
+
+> [!NOTE]
+> In order to take you directly to posting group or setup that is missing G/L Account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup, so it can take you directly to record where you can set missing G/L Accounts. Posting groups and setups are a way for accountant to control how entries are posted to General Ledger, so such just in time creation of posting groups and setups may not be. To avoid this, disable **G/L Account is missing in posting group or setup** notification and work with your accountant to identify existing posting groups or setup to be used for document you are working on. Once documents are posted with posting groups or setup that are automatically created, such posting groups or setups cannot be deleted as there are G/L Entries created for them. 
+
 ## Troubleshooting posting group errors
 Posting groups are one of the more advanced concepts to set up in [!INCLUDE[prod_short](includes/prod_short.md)]. If they aren't set up correctly, errors can occur when posting documents or journal lines. For example, these errors are typically caused by a mistake in how general ledger accounts are assigned, or how posting groups are combined.
 

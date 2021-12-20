@@ -33,7 +33,7 @@ The CFDI file is an XML file that contains:
 - Digital stamp of an authorized service provider, PAC, that you choose.  
 
 > [!IMPORTANT]  
-> You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
+> You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice. By default, [!INCLUDE [prod_short](../../includes/prod_short.md)] supports integration with [Interfactura](https://interfactura.com/), but you can use another PAC of your choice.  
 
 ## Getting Started
 

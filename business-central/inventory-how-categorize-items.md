@@ -1,5 +1,5 @@
 ---
-title: Organize Items in Categories(Video) | Microsoft Docs
+title: Organize Items in Categories(contains video) | Microsoft Docs
 description: To help you search for and find items, you can assign item attributes and organize items in categories.
 author: SorenGP
 

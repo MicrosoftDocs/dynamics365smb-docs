@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 12/17/2021
+ms.date: 12/20/2021
 ms.author: edupont
 
 ---
@@ -64,9 +64,11 @@ You must add information about STC permissions to your company information. You 
     - **SAT Hazardous Material**  
     - **SAT Packaging Type**  
 
-## Generate packing slips and transfer orders with Carta de Porte
+## Create sales documents and generate packing slips and transfer orders with Carta de Porte
 
-When you create a document such as a sales order, you must fill in the fields on the **Electronic Document** FastTab, including information about your insurance company. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] For each line on the document, you must also specify the **Custom Transit Number** field. This field specifies the number of the petition that protects the importation of the goods in the following format:  
+When you create a document such as a sales order, you must fill in the fields on the **Electronic Document** FastTab, including information about your insurance company. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
+
+For each line on the document, you must also specify the **Custom Transit Number** field. This field specifies the number of the petition that protects the importation of the goods in the following format:  
 
 - The last two digits of the validation year followed by two spaces  
 - Two digits of the customs office followed by two spaces  

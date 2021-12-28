@@ -1,9 +1,6 @@
 ---
-    title: How to Create Financial Journals [BE]
+    title: Create Financial Journals [BE]
     description: This topic tells you how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 11300
     ms.date: 06/25/2021
     ms.author: edupont
 

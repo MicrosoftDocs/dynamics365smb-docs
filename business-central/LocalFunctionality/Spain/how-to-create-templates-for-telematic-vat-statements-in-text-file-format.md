@@ -9,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 10704, 10705
     ms.date: 04/01/2021
     ms.author: edupont
 

@@ -1,10 +1,7 @@
 ---
-    title: How to Set Up PAC Web Services
+    title: Set Up PAC Web Services
     description: Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.
-
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
+    author: edupont04
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
@@ -12,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 10455, 10456
     ms.date: 04/01/2021
     ms.author: edupont
 

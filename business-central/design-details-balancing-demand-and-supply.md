@@ -42,7 +42,7 @@ To understand how the planning system works, it is necessary to understand the p
    ![Overview of supply-demand balancing.](media/nav_app_supply_planning_2_balancing.png "Overview of supply-demand balancing")
 
 ## Dealing with Orders Before the Planning Starting Date
-To avoid that a supply plan shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:  
+To avoid a supply plan that shows impossible and therefore useless suggestions, the planning system regards the period up until the planning starting date a frozen zone where nothing is planned for. The following rule applies to the frozen zone:  
 
 All supply and demand before the starting date of the planning period will be considered a part of inventory or shipped.  
 

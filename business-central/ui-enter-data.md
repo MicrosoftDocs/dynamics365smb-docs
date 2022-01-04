@@ -206,7 +206,7 @@ For manually date entry, you can enter two, four, six, or eight digits:
 - If the date you want is in the range 01/01/1950 through 12/31/2049, enter the year with two digits. Otherwise, enter the year with four digits.
 
   > [!TIP]
-  > With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, administrators can change this range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General). 
+  > With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, administrators can change the two-digits-date range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General). 
 
 You can also enter a date as a weekday followed by a week number. Or, you can enter a year. For example, Mon25 or mon25 means Monday in week 25.  
 

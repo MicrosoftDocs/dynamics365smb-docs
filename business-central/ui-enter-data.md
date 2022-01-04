@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.date: 10/01/2021
+ms.date: 01/05/2022
 ms.author: jswymer
 ---
 # Entering Data
@@ -199,11 +199,11 @@ You can either use the data picker to select a date from a calendar, or you can 
 
 For manually date entry, you can enter two, four, six, or eight digits:  
 
--   Two digits are interpreted as the day. It will add the month and the year of the work date.  
+- Two digits are interpreted as the day. It will add the month and the year of the work date.  
 
--   Four digits are interpreted as the day and the month. It will add the year of the work date.  
+- Four digits are interpreted as the day and the month. It will add the year of the work date.  
 
--   If the date you want is in the range 01/01/1930 through 12/31/2029, enter the year with two digits. Otherwise, enter the year with four digits.  
+- If the date you want is in the range 01/01/1950 through 12/31/2049, enter the year with two digits. Otherwise, enter the year with four digits.  
 
 You can also enter a date as a weekday followed by a week number. Or, you can enter a year. For example, Mon25 or mon25 means Monday in week 25.  
 

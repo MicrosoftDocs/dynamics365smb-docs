@@ -1,16 +1,17 @@
 ---
-    title: How to Combine Receipts | Microsoft Docs
-    description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
-    author: SorenGP
+title: Combine Receipts on a Single Invoice
+description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 136, 145, 146
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Combine Receipts on a Single Invoice
@@ -31,7 +32,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
 
-    If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.  
+If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.  
 5. To post the invoice, choose the **Post** action.  
 
 ## To remove open purchase orders after combined receipt posting

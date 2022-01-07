@@ -1,19 +1,21 @@
 ---
-    title: Receive and Convert Electronic Documents
-    description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
-    author: SorenGP
+title: Receive and Convert Electronic Documents
+description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 189, 190, 191 
+ms.date: 06/23/2021
+ms.author: edupont
 
 ---
 # Receive and Convert Electronic Documents
+
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
  In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.  
@@ -41,7 +43,7 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 
 2.  Select the line for the incoming document record that represents a new incoming electronic invoice, and then choose the **Edit** action.  
 
-     On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
+ On the **Incoming Document Card** page, the related XML file is attached, and most of the fields are prefilled with information from the electronic invoice. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).  
 
 3.  In the **Data Exchange Type** field, choose **PEPPOL - Invoice** or **OCR – Invoice** depending on the source of the electronic document.  
 
@@ -49,9 +51,9 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports r
 
 5.  Choose the **Create Document** action.  
 
-     A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
+ A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
 
-     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
+ Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
 ## See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

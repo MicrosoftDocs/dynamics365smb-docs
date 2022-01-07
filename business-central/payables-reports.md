@@ -6,6 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: 347
 ms.date: 07/13/2021
 ms.author: edupont
 

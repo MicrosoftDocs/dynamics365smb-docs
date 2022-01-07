@@ -1,16 +1,17 @@
 ---
-    title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
-    description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
-    author: bholtorf
+title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
+description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+author: bholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/06/2021
-    ms.author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
+ms.date: 07/06/2021
+ms.author: bholtorf
 
 ---
 # Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
@@ -53,8 +54,8 @@ Before you can process payment electronically by exporting payment files in the 
 4. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.  
 5. Make sure the **IBAN** field is filled.  
 
-    > [!NOTE]  
-    > The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
+> [!NOTE]  
+> The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
 
 ### To set up a vendor card for SEPA Credit Transfer
 
@@ -63,7 +64,7 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     If you have not yet set up a bank for this vendor, you can do so now. For more information, see [To set up vendor bank accounts for export of bank files](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
+ If you have not yet set up a bank for this vendor, you can do so now. For more information, see [To set up vendor bank accounts for export of bank files](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files
 
@@ -100,26 +101,26 @@ The following describes how to pay a vendor by check. The steps are similar to r
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
 2. Fill in the payment journal lines. For more information, see [Record Payments and Refunds](payables-how-post-payments-refunds.md).
 
-    > [!NOTE]
-    > If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values on the **Bank Account Card** and **Vendor Bank Account Card** pages. You will be informed about wrong or missing setup values as you try to export the file.
-    >
-    > The EFT feature can only be used for bank accounts in the local currency. It cannot be used with a foreign currency, indicated by a value in the **Currency Code** field. (Blank field value means local currency.)
+> [!NOTE]
+> If you are using EFT, you must select either **Electronic Payment** or **Electronic Payment–IAT** in the **Bank Payment Type** field. Different file export services and their formats require different setup values on the **Bank Account Card** and **Vendor Bank Account Card** pages. You will be informed about wrong or missing setup values as you try to export the file.
+>
+> The EFT feature can only be used for bank accounts in the local currency. It cannot be used with a foreign currency, indicated by a value in the **Currency Code** field. (Blank field value means local currency.)
 
 3. When you have completed all payment journal lines, choose the **Export** action.
 4. On the **Export Electronic Payments** page, fill in the fields as necessary.
 
-    Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
+Any error messages will be shown in the **Payment File Errors** FactBox where you can also choose an error message to see detailed information. You must resolve all errors before the payment file can be exported.
 
-    > [!TIP]  
-    > When you use the AMC Banking 365 Fundamentals extension, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
+> [!TIP]  
+> When you use the AMC Banking 365 Fundamentals extension, a common error message states that the bank account number does not have the length that your bank requires. To avoid or resolve the error, you must remove the value in the **IBAN** field on the **Bank Account Card** page and then, in the **Bank Account No.** field, enter a bank account number in the format that your bank requires.
 
 5. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 
-    > [!NOTE]  
-    > If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** page from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
+> [!NOTE]  
+> If you are using EFT, save the resulting vendor remittance form as a Word document or select to have it emailed directly to the vendor. The payments are now added to the **Generate EFT File** page from where you can generate multiple payment orders together to save transmission cost. For more information, see the following steps.
 6. On the **Payment Journal** page, choose the **Generate EFT File** action.
 
-    On the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
+On the **Generate EFT File** page, all payments set up for EFT that you have exported from the payment journal for a specified bank account but not yet generated are listed on the **Lines** FastTab.
 7. Choose the **Generate EFT File** action to export one file for all the EFT payments.
 8. On the **Save As** page, specify the location that the file is exported to, and then choose **Save**.
 

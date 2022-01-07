@@ -1,9 +1,6 @@
 ---
     title: Calculating Due Dates [ES]
     description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 7000048
     ms.date: 06/21/2021
     ms.author: edupont
 

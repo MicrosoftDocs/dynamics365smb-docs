@@ -1,5 +1,5 @@
 ---
-title: Assign a Priority Level to a Vendor | Microsoft Docs
+title: Assign a Priority Level to a Vendor (contains video) | Microsoft Docs
 description: You can assign numbers to your vendors or suppliers to prioritize them and facilitate payment suggestions in Business Central.
 services: project-madeira
 documentationcenter: ''

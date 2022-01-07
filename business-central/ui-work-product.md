@@ -1,5 +1,5 @@
 ---
-title: Working with the General Functionality in Business Central  | Microsoft Docs
+title: Working with the General Functionality in Business Central  (contains video) | Microsoft Docs
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 author: SorenGP
 

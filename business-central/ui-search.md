@@ -1,5 +1,5 @@
 ---
-title: Finding Features and Information | Microsoft Docs
+title: Finding Features and Information (contains video) | Microsoft Docs
 description: This topic describes how to use search to find actions, pages, reports, documentation, and data, as well as other apps and consulting services.
 author: bholtorf
 

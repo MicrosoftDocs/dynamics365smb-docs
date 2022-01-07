@@ -1,9 +1,6 @@
 ---
-    title: How to Create Report 349 [ES]
+    title: Create Report 349 [ES]
     description: Read about how to use the Spanish version of Business Central to electronically submit the Report 349 declaration to the tax authorities.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central
@@ -12,6 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 10736
     ms.date: 06/21/2021
     ms.author: edupont
 

@@ -17,7 +17,7 @@ ms.author: edupont
 A common challenge in many business management applications is avoiding unwanted changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. This topic describes the capabilities for finding out what changed, who changed it, and when the change was made.
 
 ## About the Change Log 
-The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log.  
+The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log. The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify. 
 
 Tracking changes can impact performance, which can cost you time, and increase the size of your database, which might cost you money. To reduce those costs, keep the following in mind:
 
@@ -25,7 +25,7 @@ Tracking changes can impact performance, which can cost you time, and increase t
 - Do not add ledger entries and posted documents. Instead, prioritize system fields such as Created By and Created Date.
 - Do not use the All Fields tracking type. Instead, choose Some Fields and track only the most important fields.
 
-The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify.
+Also for performance reasons, the change log is turned off during the process of upgrading [!INCLUDE [prod_short](includes/prod_short.md)] to the next version. In addition to speeding up the upgrade process, this also helps reduce clutter in the chance log. As soon as the upgrade is complete, the log starts tracking changes again.
 
 > [!Important]
 > Changes display in the **Change Log Entries** only after the user's session is restarted, which happens as follows:

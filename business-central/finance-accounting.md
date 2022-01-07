@@ -1,5 +1,5 @@
 ---
-title: Accountant experiences in Business Central
+title: Accountant experiences in Business Central (contains video)
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
 author: edupont04
 

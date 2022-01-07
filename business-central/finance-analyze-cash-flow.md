@@ -1,8 +1,6 @@
 ---
-title: Analyzing Cash Flows| Microsoft Docs
+title: Analyzing Cash Flows
 description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 
 ms.service: dynamics365-business-central
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
 
 ---
@@ -41,6 +39,7 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 * Skips duplicate sales orders and purchase orders.  
 
 ## To view a cash flow worksheet
+
 1. Search for **Cash Flow Forecasts**, and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
@@ -48,9 +47,11 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 ## See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## See Also
+
 [Setting Up Finance](finance-setup-finance.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
-
+[Forecast your cash flow in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Set up cash flow forecasts using Azure AI in Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

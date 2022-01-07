@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2021
+ms.date: 12/03/2021
 ms.author: edupont
 
 ---
-# Understanding the General Ledger and the COA
+# Understanding the General Ledger and the Chart of Accounts
 
 The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
@@ -27,10 +27,13 @@ On the **General Ledger Setup** page, you specify how to handle certain accounti
 * Address formats  
 * Financial reporting  
 
-Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. For more information, see [Posting Group Setups](finance-posting-groups.md).  
-
 > [!TIP]
 > The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organization.  
+
+Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+
+> [!TIP]
+> If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
 
 ## The Chart of Accounts
 
@@ -38,7 +41,7 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the G/L account card to add or change settings.  
+* Open the general ledger (G/L) account card to add or change settings.  
 * See a list of posting groups that post to that account.
 * View separate debit and credit balances for a single account  
 
@@ -48,7 +51,7 @@ You can add, change, or delete general ledger accounts. However, to prevent disc
 
 You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.  
 
-The **G/L Account Categories** page shows your categories and subcategories, and the G/L accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
+The **G/L Account Categories** page shows your categories and subcategories, and the general ledger accounts that are assigned to them. You can create new subcategories and assign those categories to existing accounts.  
 
 You create a category group by indenting other subcategories under a line on the **G/L Account Categories** page. This makes it easy for you to get an overview, because each grouping shows a total balance. For example, you can create subcategories for different types of assets, and then create category groups for fixed assets versus current assets.  
 

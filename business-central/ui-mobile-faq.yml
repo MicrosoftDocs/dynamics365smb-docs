@@ -58,7 +58,7 @@ sections:
           | Automatic input focus on first editable field of a page | Not available. | Not available. | `Customer Card` page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the `Name` field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
           
       - question: |
-          Is it the same experience on tables and phones?
+          Is it the same experience on tablets and phones?
         answer: |
           Almost, but not quite. See the list in the [Is it the same experience in the apps as in the browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) section.  
           

@@ -24,27 +24,13 @@
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)
-#### Design Details: Supply Planning
-##### [Supply Planning Overview](design-details-supply-planning.md)
-##### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-##### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
-##### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
-##### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-##### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
-##### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
 #### Design Details: Inventory Costing
-##### [Costing Overview](design-details-inventory-costing.md)
+##### [Inventory Costing Design Details](design-details-inventory-costing.md)
 ##### [Design Details: Costing Methods](design-details-costing-methods.md)  
 ##### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
 ##### [Design Details: Item Application](design-details-item-application.md)  
 ##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### Design Details: Posting Date on Adjustment Value Entry
-###### [Design Details: Posting Date on Adjustment Value Entry](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
 ##### [Design Details: Average Cost](design-details-average-cost.md)  
 ##### [Design Details: Variance](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 ##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 ##### [Design Details: Revaluation](design-details-revaluation.md)
+#### Design Details: Posting Date on Adjustment Value Entry
+##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Design Details: Dimension Set Entries
+##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
+##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)
+##### [Design Details: Table Structure](design-details-table-structure.md)
+#### Design Details: Supply Planning
+##### [Supply Planning Design Details](design-details-supply-planning.md)
+##### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
+##### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
+##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
+##### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
+##### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
+##### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
+##### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
 #### Design Details: Warehouse Management
-##### [Warehouse Management Overview](design-details-warehouse-management.md)
+##### [Warehouse Management Design Details](design-details-warehouse-management.md)
 ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
 ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
 ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
 ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
 #### Design Details: Item Tracking
-##### [Item Tracking Overview](design-details-item-tracking.md)
+##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 ##### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  
 ##### [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Design Details: Item Tracking and Reservations](design-details-item-tracking-and-reservations.md)  
 ##### [Design Details: Item Tracking in the Warehouse](design-details-item-tracking-in-the-warehouse.md)
 #### Design Details: General Journal Post Line
-##### [General Journal Post Line](design-details-general-journal-post-line.md)
+##### [General Journal Post Line Design Details](design-details-general-journal-post-line.md)
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-#### Design Details: Dimension Set Entries
-##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)  
-##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)  
-##### [Design Details: Table Structure](design-details-table-structure.md)  
 
 ## Try
 ### [Trials and Subscriptions](across-preview.md)
@@ -683,8 +683,8 @@
 ### [Project Management Overview](projects-manage-projects.md)
 ### [Project Reports](project-reports.md)
 ### [Create Jobs](projects-how-create-jobs.md)
-### [Use Resources for Jobs](projects-how-use-resources.md)
-### [Use Time Sheets for Jobs](projects-how-use-time-sheets.md)
+### [Use Resources for Projects](projects-how-use-resources.md)
+### [Use Time Sheets](projects-how-use-time-sheets.md)
 ### [Manage Job Budgets](projects-how-manage-budgets.md)
 ### [Record Usage for Jobs](projects-how-record-job-usage.md)
 ### [Manage Job Supplies](projects-how-manage-project-supplies.md)
@@ -703,6 +703,7 @@
 ### [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md)
 ### [Manage Budgets for Fixed Assets](fa-how-manage-budgets.md)
+### [Troubleshooting FA Ledger Entries](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relationship Management
 ### [Relationship Management Overview](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
-##### [Electronic Invoicing](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Set Up Electronic Invoicing](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generate Electronic Invoices](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Electronic Invoicing (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Set Up Electronic Invoicing (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generate Electronic Invoices (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte Packing Slips and Transfer Orders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### General
 ##### [Electronic Accounting Regulations in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Make Electronic Payments](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### General
-##### [Set Up PAC Web Services](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Print Troubleshooting Reports](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Create Deposits](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

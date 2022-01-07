@@ -32,7 +32,7 @@ When purchase receipts are combined on an invoice and posted, then a posted purc
 3. On the **Lines** FastTab, choose the **Get Receipt Lines** action.  
 4. Select multiple receipt lines that you want to include in the invoice.  
 
-If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.  
+    If an incorrect receipt line was selected or you want to start over, you can just delete the lines on the purchase invoice and then use the **Get Receipt Lines** function again.  
 5. To post the invoice, choose the **Post** action.  
 
 ## To remove open purchase orders after combined receipt posting

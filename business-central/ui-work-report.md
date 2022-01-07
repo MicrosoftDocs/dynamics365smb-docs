@@ -52,7 +52,7 @@ Use the fields under **Options** and **Filters** to change limit the information
 
 ## Previewing a Report
 
-Previewing a report lets you see what the report will look like before you print it. The preview isn't based on printer selected **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as needed.
+Previewing a report lets you see what the report will look like before you print it. The preview isn't based on the printer selected in the **Printer** field on the request page. It's controlled by the browser. After previewing, you can then go back to the request page and make changes to options and filters as needed.
 
 To preview a report, choose the **Preview** or **Preview & Close** button on the report request page. The button that displays depends on the report, so some reports have **Preview** button, while others have a **Preview & Close** button. Both buttons will open a preview of the report. The difference is that **Preview** keeps the request page open, so you can go back to it, make changes, preview again, or print. With **Preview & Close**, the request page closes, so you'll have to open the report again to make changes or print.
 

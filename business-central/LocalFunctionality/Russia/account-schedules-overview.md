@@ -4,7 +4,7 @@ description: Russian enhancements include account schedules overview.
 author: DianaMalina
 
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: edupont

@@ -4,7 +4,7 @@ description: This topic outlines the optional processes and activities for closi
 author: jswymer
 
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

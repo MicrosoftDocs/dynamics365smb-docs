@@ -9,11 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
 
 ---
 # Setting Up Project Management
+
 Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs.
 
 Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets. For more information, see [Managing Projects](projects-manage-projects.md).  

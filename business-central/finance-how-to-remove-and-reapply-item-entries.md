@@ -1,5 +1,5 @@
 ---
-    title: How to Remove and Reapply Item Entries | Microsoft Docs
+    title: Remove and Reapply Item Entries
     description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
     author: SorenGP
 
@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 506, 521, 9125
     ms.date: 04/01/2021
     ms.author: edupont
 

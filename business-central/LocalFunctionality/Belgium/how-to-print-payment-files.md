@@ -5,7 +5,7 @@
 
     ms.service: dynamics365-business-central
     ms.topic: conceptual
-    ms.search.keywords:
+    ms.search.form: 2000001
     ms.date: 01/10/2022
     ms.author: edupont
 

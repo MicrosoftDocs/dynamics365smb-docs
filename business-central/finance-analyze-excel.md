@@ -6,6 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 9027
 ms.date: 04/01/2021
 ms.author: edupont
 

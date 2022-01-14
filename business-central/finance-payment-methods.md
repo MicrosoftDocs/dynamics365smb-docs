@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
 

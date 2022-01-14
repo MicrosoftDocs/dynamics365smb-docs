@@ -1,16 +1,17 @@
 ---
-    title: How to work With VAT on Sales and Purchases
-    description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
-    author: bholtorf
+title: How to work With VAT on Sales and Purchases
+description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
+author: bholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: VAT, sales, purchases,
-    ms.date: 06/16/2021
-    ms.author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
+ms.date: 06/16/2021
+ms.author: bholtorf
 
 ---
 # Work with VAT on Sales and Purchases
@@ -83,8 +84,8 @@ You must perform the following steps before you manually enter VAT in a sales or
 2. Repeat step 1 for the **Sales & Receivables Setup** page.
 3. After you complete the setup described above, you can adjust the **VAT Amount** field on the general journal line, or the **Bal. VAT Amount** field on the sales or purchase journal line. [!INCLUDE[prod_short](includes/prod_short.md)] will check that the difference is not greater than the specified maximum.  
 
-    > [!NOTE]  
-    > If the difference is greater, a warning will be displayed stating the maximum allowed difference. To continue, you must adjust the amount. Choose **OK** and then enter an amount that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, [!INCLUDE[prod_short](includes/prod_short.md)] will show the difference in the **VAT Difference** field.  
+> [!NOTE]  
+> If the difference is greater, a warning will be displayed stating the maximum allowed difference. To continue, you must adjust the amount. Choose **OK** and then enter an amount that is within the allowed range. If the VAT difference is equal to or lower than the maximum allowed, [!INCLUDE[prod_short](includes/prod_short.md)] will show the difference in the **VAT Difference** field.  
 
 ## Posting Import VAT with Purchase Invoices
 Instead of using journals to post an import VAT invoice, you can use a purchase invoice.  
@@ -116,34 +117,34 @@ When you sell goods to a customer in another EU country/region, you must send th
 3. Choose **Certificate of Supply Details**.  
 4. By default, if the **Certificate of Supply Required** check box is selected for VAT Posting Group setup for the customer, the **Status** field is set to **Required**. You can update the field to indicate whether the customer has returned the certificate.  
 
-    > [!Note]  
-    >  If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the **Status** field is set to **Not Applicable**. You can update the field to reflect the correct status information. You can manually change the status from **Not Applicable** to **Required**, and from **Required** to **Not Applicable** as needed.  
+> [!Note]  
+>  If the VAT Posting Group setup does not have the **Certificate of Supply Required** check box selected, then a record is created and the **Status** field is set to **Not Applicable**. You can update the field to reflect the correct status information. You can manually change the status from **Not Applicable** to **Required**, and from **Required** to **Not Applicable** as needed.  
 
    When you update the **Status** field to **Required**, **Received**, or **Not Received**, a certificate is created.  
 
-    > [!TIP]  
-    >  You can use the **Certificates of Supply** page to get a view of the status of all posted shipments for which a certificate of supply has been created.  
+> [!TIP]  
+>  You can use the **Certificates of Supply** page to get a view of the status of all posted shipments for which a certificate of supply has been created.  
 
 5. Choose **Print Certificate of Supply**.  
 
-    > [!Note]  
-    >  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
+> [!Note]  
+>  You can preview or print the document. When you choose **Print Certificate of Supply** and print the document, the **Printed** check box is automatically selected. In addition, if not already specified, the status of the certificate is updated to **Required**. If needed, you include the printed certificate with the shipment.  
 
 ### To print a certificate of supply  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Shipments**, and then choose the related link.  
 2. Choose the relevant sales shipment to a customer in another EU country/region.  
 3. Choose the **Print Certificate of Supply** action.  
 
-    > [!NOTE]  
-    >  Alternatively, you can print a certificate from the **Certificate of Supply** page.  
+> [!NOTE]  
+>  Alternatively, you can print a certificate from the **Certificate of Supply** page.  
 
 4. To include information from the lines on the shipment document in the certificate, select the **Print Line Details** check box.  
 5. Choose the **Create Certificates of Supply if Not Already Created** check box to have [!INCLUDE[prod_short](includes/prod_short.md)] create certificates for posted shipments that do not have one at the moment of execution. When you choose the check box, new certificates will be created for all posted shipments that do not have certificates within the selected range.  
 6. By default, the filter settings are for the shipment document that you have selected. Fill in the filter information to select a specific certificate of supply that you want to print.  
 7. On the **Certificate of Supply** page, choose the **Print** action to print the report, or choose the **Preview** action to view it on the screen.  
 
-    > [!Note]  
-    > The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
+> [!Note]  
+> The **Certificate of Supply Status** field and the **Printed** field are updated for the shipment on the **Certificates of Supply** page.  
 
 8. Send the printed certificate of supply to the customer for signature.  
 
@@ -170,11 +171,11 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 
    You can modify the date to reflect the date that you received the signed the certificate of supply. You can also add a link to the signed certificate using standard [!INCLUDE[prod_short](includes/prod_short.md)] document linking.  
 
-    > [!NOTE]  
-    >  You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
-    >
-    > * To manually create a certificate of supply certificate  
-    > * To print a certificate of supply.
+> [!NOTE]
+> You cannot create a new certificate of supply on the **Certificate of Supply** page when you navigate to it using this procedure. To create a certificate for a shipment that was not set up to require one, open the posted sales shipment, and use either of two procedures described above:  
+>
+> * To manually create a certificate of supply certificate  
+> * To print a certificate of supply.
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

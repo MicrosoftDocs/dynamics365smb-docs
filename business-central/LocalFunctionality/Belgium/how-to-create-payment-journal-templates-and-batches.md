@@ -5,7 +5,7 @@ author: SorenGP
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords:
+ms.search.form: 256
 ms.date: 06/25/2021
 ms.author: edupont
 

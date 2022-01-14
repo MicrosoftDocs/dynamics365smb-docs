@@ -136,6 +136,12 @@ For more information about report design, see [Report Overview](/dynamics365/bus
 > [!NOTE]
 > Some reports export numbers as text, which prevents you from doing calculations or using Power Pivot on the cells in the Excel worksheet. After exporting, it's a good idea to verify the numbers in the worksheet. If you want to do analysis and charting on the numbers, change the format of the relevant cells from **Text** to **Number**. For more information about formatting numbers in cells, see this video [Formatting Numbers in Cells in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
 
+### Microsoft Word Document
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
+
+> [!NOTE]
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
+
 ## <a name="ScheduleReport"></a> Scheduling a Report to Run
 
 You can schedule or batch job a report to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** button, and then you enter information such as printer, and time and date. The report is then added to the job queue and will be run at the specified time. When the report is processed, the item will be removed from the job queue. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  

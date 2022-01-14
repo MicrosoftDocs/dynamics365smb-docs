@@ -1,8 +1,6 @@
 ---
-title: How to Update Standard Costs | Microsoft Docs
+title: Update Standard Costs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -10,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
+ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -20,11 +18,13 @@ You must periodically update the standard costs of components and roll the new c
 
 1.  Update costs at the component and capacity levels. For more information, see the **Suggest Item Standard Cost** batch job.  
 2.  Consolidate and roll up the component and capacity costs to calculate the total manufacturing or assembly cost of the items.  
-3.  Implement the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. For more information, see Implement Standard Cost Changes.  
+3.  Implement the standard costs that are entered when you run the previous batch jobs. The standard costs do not take effect until they are implemented. Use the **Implement Standard Cost Changes** batch job, which updates the changes in the standard cost on items with the ones in the Standard Cost Worksheet table.  
 4.  Implement the changes to update the **Unit Cost** field on the item card and perform inventory revaluation. For more information, see [Revalue Inventory](inventory-how-revalue-inventory.md).  
 
-For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).  
-## To update standard costs  
+For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
+  
+## To update standard costs
+
 1.  Run the **Adjust Cost-Item Entries** batch job.  
 2.  Run the **Post Inventory Cost to G/L** batch job.  
 3.  Open the **Standard Cost Worksheet** and use one or more of the following functions:  
@@ -38,7 +38,8 @@ For more information, see [About Calculating Standard Cost](finance-about-calcul
     7.  Run the **Implement Standard Cost Changes** batch job.  
 4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
 
-## See Also  
+## See Also
+
  [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)   
  [Managing Inventory Costs](finance-manage-inventory-costs.md)   
  [Design Details: Costing Methods](design-details-costing-methods.md)

@@ -1,5 +1,5 @@
 ---
-title: Overview of the Tasks for Closing the Books | Microsoft Docs
+title: Overview of the Tasks for Closing the Books
 description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
 author: jswymer
 
@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
 

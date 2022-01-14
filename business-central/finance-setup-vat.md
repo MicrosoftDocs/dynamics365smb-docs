@@ -8,6 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.form: 10, 1877, 470, 471, 472
 ms.date: 12/28/2021
 ms.author: bholtorf
 

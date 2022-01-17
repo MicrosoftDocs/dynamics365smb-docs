@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
 
@@ -38,6 +39,8 @@ Starting in 2021 release wave 2, you can use an assisted setup guide to help you
 >
 > The same feature also makes it easy to manage time sheets on a mobile device.
 
+Open the **Set Up Time Sheets** assisted setup guide from the [Assisted Setup](https://businesscentral.dynamics.com/?page=1801) page.
+
 The assisted setup guide takes you through the following steps:
 
 1. Set up the participants in the time sheet processes
@@ -55,7 +58,7 @@ At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](incl
 
 ## Set up time sheets manually
 
-The following sections describe how to set up time sheets if you do not use the **Set up time sheets** assisted setup guide.  
+The following sections describe how to set up time sheets if you do not use the **Set Up Time Sheets** assisted setup guide.  
 
 ### To set up general information for time sheets manually
 

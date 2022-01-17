@@ -6,6 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
+ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
 

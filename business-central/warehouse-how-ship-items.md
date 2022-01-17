@@ -1,5 +1,5 @@
 ---
-    title: How to Ship Items
+    title: Ship Items
     description: This topic describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
     author: SorenGP
 
@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
     ms.date: 06/24/2021
     ms.author: edupont
 

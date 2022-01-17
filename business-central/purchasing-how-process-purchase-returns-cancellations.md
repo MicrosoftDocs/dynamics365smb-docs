@@ -1,5 +1,5 @@
 ---
-title: Process Returns or Cancellations | Microsoft Docs
+title: Process Returns or Cancellations
 description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
 author: SorenGP
 
@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
+ms.search.form: 6640, 6643 
 ms.date: 04/01/2021
 ms.author: edupont
 

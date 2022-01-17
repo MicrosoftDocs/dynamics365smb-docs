@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
+ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
 

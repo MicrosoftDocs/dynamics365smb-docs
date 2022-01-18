@@ -5,6 +5,7 @@ author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.search.form: 107, 9040
 ms.date: 06/14/2021
 ms.author: edupont
 

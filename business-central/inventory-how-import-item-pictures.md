@@ -15,7 +15,7 @@ ms.author: edupont
 
 ---
 # Import Multiple Item Pictures
- You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
+You can import multiple item pictures in one go. Simply name your picture files with names corresponding to your item numbers, compress them to a zip file, and then use the Import Item Pictures page to manage which item pictures to import.
 
 All common file formats are supported.
 

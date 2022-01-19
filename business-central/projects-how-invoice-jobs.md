@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
+ms.search.form: 1002, 1007, 
 ms.date: 06/22/2021
 ms.author: edupont
 

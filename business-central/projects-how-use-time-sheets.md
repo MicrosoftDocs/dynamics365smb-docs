@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
 
@@ -32,7 +32,7 @@ Before you can use time sheets, you must set up general information and specify 
 You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.  
 
 > [!IMPORTANT]
-> You must have permissions to be able to create time sheets.
+> You must have permissions to be able to create time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
 2. On the **Time Sheets** page, choose the **Create Time Sheets** action.

@@ -5,6 +5,7 @@ author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
 ---

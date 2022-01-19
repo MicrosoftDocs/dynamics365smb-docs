@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
+ms.search.form: 39, 251
 ms.date: 06/16/2021
 ms.author: edupont
 

@@ -1,5 +1,5 @@
 ---
-    title: How to Subcontract Manufacturing
+    title: Subcontract Manufacturing
     description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work center fields and routing.
     author: SorenGP
 
@@ -8,12 +8,13 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.keywords: 99000886
     ms.date: 06/22/2021
     ms.author: edupont
 
 ---
 # Subcontract Manufacturing
+
 Subcontracting selected operations to vendor is common in many manufacturing companies. Subcontracting can be a rare occurrence or can be an integral part of all production processes.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides several tools for managing subcontract work:  

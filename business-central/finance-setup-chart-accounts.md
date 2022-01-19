@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
+ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 06/22/2021
 ms.author: edupont
 

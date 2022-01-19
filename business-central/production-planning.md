@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
     ms.date: 04/01/2021
     ms.author: edupont
 

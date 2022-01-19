@@ -1,5 +1,5 @@
 ---
-title: Create new companies using an assisted setup guide | Microsoft Docs
+title: Create new companies using an assisted setup guide
 description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 
@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
+ms.search.form: 1803
 ms.date: 04/01/2021
 ms.author: edupont
 

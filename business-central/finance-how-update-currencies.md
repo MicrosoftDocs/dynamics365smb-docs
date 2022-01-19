@@ -6,6 +6,7 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.search.form: 5, 118
 ms.date: 07/23/2021
 ms.author: edupont
 

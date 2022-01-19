@@ -4,7 +4,7 @@ description: Read an overview of the tasks to set up, initialize, and configure 
 author: edupont04
 
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

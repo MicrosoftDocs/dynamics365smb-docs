@@ -1,5 +1,5 @@
 ---
-    title: How to Post Capacities
+    title: Post Capacities
     description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page. 
     author: SorenGP
 
@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 5832, 99000802, 99000820
     ms.date: 06/22/2021
     ms.author: edupont
 

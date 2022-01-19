@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 99000883, 99000884
     ms.date: 06/22/2021
     ms.author: edupont
 

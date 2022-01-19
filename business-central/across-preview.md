@@ -7,6 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
 

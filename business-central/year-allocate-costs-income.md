@@ -4,7 +4,7 @@ description: Outlines the tasks to allocate an entry in a general journal to sev
 author: SorenGP
 
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -42,6 +42,9 @@ For ESR references you could configure information, for example, so that they co
 ## Using multiple bank accounts as issuers of QR-Bills
 Issuers of QR-Bills can use multiple bank accounts to route payments into different bank accounts. This is tied to the Payment Method on which you can specify the **QR-Bill Bank Account No.**. When specified, the IBAN/QR-IBAN information from this bank account will be used on QR-Bills that use the given Payment Method. This way you can route incoming payments into the desired bank account. If you do not use multiple bank accounts and specify the **QR-Bill Bank Account No.** on the Payment Method card, the QR-IBAN/IBAN information from Company Information is used on QR-Bills instead. Make sure you have at least your primary bank account information set up there.
 
+> [!Note]
+> If you are an issuer of QR-bills, make sure that you set up your bank accounts so that you identify with the right accounts towards your customers, depending on if you use QR-IBANs or regular IBANs. If you are a receiver and payer of QR-bills, we recommend that you set up vendor bank accounts correctly for payment and transfer to accounts with either regular IBANs or QR-IBANs.
+
 ## Scanning and Importing QR-Bills
 To scan or import a QR-bill, you must use one of the following types of scanning devices:
 
@@ -82,9 +85,6 @@ You can scan or import QR-bills directly into a **Purchase Journal**. This is us
 
 ## Reconciliation
 When importing bank transactions (camt) on the Payment Reconciliation Journal page, the file is assumed to include the payment reference, which will automatically find the corresponding **Customer Ledger Entries** to settle.    
-
-## Upcoming Capabilities for QR-Bills
-We are planning to add capabilities to the QR-Bill Management extension in the coming updates to 2020 release wave 1. For example, you will be able to receive QR-bills through purchase documents and purchase journals. This will provide additional validations and allow you to automate and streamline receipt processes. For information about when that will happen, keep an eye on our [Release Plan](/dynamics365-release-plan/2020wave1/dynamics365-business-central/qr-bill-management-switzerland).
 
 ## See Also
 [Switzerland Local Functionality](switzerland-local-functionality.md)  

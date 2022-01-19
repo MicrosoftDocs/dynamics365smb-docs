@@ -43,7 +43,7 @@ For ESR references you could configure information, for example, so that they co
 Issuers of QR-Bills can use multiple bank accounts to route payments into different bank accounts. This is tied to the Payment Method on which you can specify the **QR-Bill Bank Account No.**. When specified, the IBAN/QR-IBAN information from this bank account will be used on QR-Bills that use the given Payment Method. This way you can route incoming payments into the desired bank account. If you do not use multiple bank accounts and specify the **QR-Bill Bank Account No.** on the Payment Method card, the QR-IBAN/IBAN information from Company Information is used on QR-Bills instead. Make sure you have at least your primary bank account information set up there.
 
 > [!Note]
-> If you are an issuer of QR-Bills, be mindful of setting up your bank accounts so you identify with the right accounts towards your customers, depending on if you use QR-IBANs or regular IBANs. If you are a receiver and payer of QR-Bills you should equally be mindful of setting up vendor bank accounts correctly for payment and transfer to accounts with either regular IBANs or QR-IBANs.
+> If you are an issuer of QR-bills, make sure that you set up your bank accounts so that you identify with the right accounts towards your customers, depending on if you use QR-IBANs or regular IBANs. If you are a receiver and payer of QR-bills, we recommend that you set up vendor bank accounts correctly for payment and transfer to accounts with either regular IBANs or QR-IBANs.
 
 ## Scanning and Importing QR-Bills
 To scan or import a QR-bill, you must use one of the following types of scanning devices:

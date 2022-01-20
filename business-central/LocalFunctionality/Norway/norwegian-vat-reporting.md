@@ -1,19 +1,20 @@
 ---
-    title: Norwegian VAT Reporting [NO]
-    description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
-    author: SorenGP
+title: Norwegian VAT Reporting [NO]
+description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
+author: edupont04
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 737, 738, 10601, 10604
+ms.date: 01/20/2022
+ms.author: edupont
 
 ---
 # Norwegian VAT Reporting in the Norwegian Version
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
 This topic shows the typical steps that you should follow when reporting Norwegian VAT.  
@@ -33,7 +34,7 @@ If the information in the trade settlement is correct, the final step is to post
 
 When using this report, you can decide not to post if you want to check the results before you actually post VAT.  
 
-When posting VAT, the corresponding VAT period is created and marked as closed in the **Settled VAT Period** table. If you specify a period that does not correspond to one of the typical six Norwegian VAT periods, all periods that are affected by the specified date interval are closed.  
+When posting VAT, the corresponding VAT period is created and marked as closed in the **Settled VAT Period** table. If you specify a period that does not correspond to one of the typical six Norwegian VAT periods, all periods that are affected by the specified date interval are closed. For more information, see the [Close VAT Periods](#vat-periods).  
 
 ## Set Up Business Central to Generate and Submit Electronic VAT Returns
 To submit VAT returns to Norwegian tax authorities, an administrator must create a connection to ID-Porten at Digitaliseringsdirektoratet. 
@@ -57,7 +58,7 @@ After you register your company in ID-Porten, the next step is to create an inte
 1. Sign in to [Skatteetaten](https://skatteetaten.github.io/mva-meldingen/english/idportenauthentication/).
 2. On the navigation pane, choose **Integrasjoner**, and under **Produksjon**, choose **Ver 2**.
 3. Choose **New Integration** to add a new integration point.
-4. Fill in the fields as descibed in the following table.
+4. Fill in the fields as described in the following table.
 
 | Parameter name (Norwegian) |  Parameter description | Parameter value |
 |---|---|---|---|
@@ -126,10 +127,24 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 ## Troubleshoot Your Connection to ID-Porten
 If you do not receive a response after you submit your return, for example, within 24 hours, you can contact ID-Porten and ask them to verify that they received your return. To help them identify your return, you can send the value from the Message ID field. By default, the field is hidden, but you can use page inspection to get the value. For more information, see [Inspecting Pages in Business Central](../../across-inspect-page.md). 
 
-You can also send a copy of the XML files for your submission and the response you received. To get the files, on the **VAT Return** page, choose the **Download Submission Message** and **Download Response Message** actions. 
+You can also send a copy of the XML files for your submission and the response you received. To get the files, on the **VAT Return** page, choose the **Download Submission Message** and **Download Response Message** actions.  
 
-## See Also  
-[Norway Local Functionality](norway-local-functionality.md)
+## <a name="vat-periods"></a>Close VAT Periods
 
+To align with legal requirements, VAT periods are to be closed after settling. Normally, a fiscal year consist of six VAT periods, numbered 1 to 6. When the VAT is settled, the period is closed for further posting.  
+
+> [!TIP]
+> Not all organizations use the standard six VAT periods. Which periods the current organization uses is defined in the **VAT Period** page.
+
+You can view information about settled periods in the **Settled VAT Period** page. The closed periods are created by the report **Calc. and Post VAT Settlement** when you post VAT. If you want to post in the closed VAT period, you can open the period again by clearing the **Closed** field.  
+
+## See Also
+
+[Norwegian VAT Codes](norwegian-vat-codes.md)  
+[Proportional VAT](proportional-vat.md)  
+[Norway Local Functionality](norway-local-functionality.md)  
+[Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
+[Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
+[The VAT Group Management Extension](../../ui-extensions-vat-group.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

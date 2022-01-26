@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 119, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
 

@@ -73,7 +73,7 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 
 8. Choose **Upload custom apps**.
 9. On the **Upload Apps to deploy** page, choose **Upload manifest file (.xml) from device** > **Choose file**.
-10. Select one of the add-files you extracted earlier, for example, **Content Insights.xml**.
+10. Select one of the add-files you extracted earlier, for example, **Contact Insights.xml**.
 11. Follow the instructions to assign users and deploy the add-in.
 12. Repeat step 9 through 11 for the other add-in file if you want.
 

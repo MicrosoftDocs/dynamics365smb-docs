@@ -6,6 +6,7 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
 ---

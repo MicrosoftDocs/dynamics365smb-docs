@@ -1,8 +1,7 @@
 ---
-title: 'Create Number Series | Microsoft Docs'
-description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central .
-documentationcenter: ''
-author: SorenGP
+title: Create Number Series
+description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central.
+author: edupont04
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,19 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Create Number Series
+
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyze, and can reduce the number of errors that occur in data entry.
 
 > [!Important]
 > By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers.<br /><br />
-If you want to allow gaps in certain number series, then first consult with your auditor or accounting manager to ensure that you adhere to the legal requirements in your country/region. For more information, see [Gaps in Number Series](ui-create-number-series.md#gaps-in-number-series).
+> If you want to allow gaps in certain number series, then first consult with your auditor or accounting manager to ensure that you adhere to the legal requirements in your country/region. For more information, see the [Gaps in Number Series](#gaps-in-number-series) section.
 
 > [!NOTE]  
->   We recommend that you use the same number series codes as you see listed on the **No. Series List** page in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but [!INCLUDE[prod_short](includes/prod_short.md)] has a number of default settings that depend on these number series codes.
+> We recommend that you use the same number series codes as you see listed on the **No. Series List** page in the CRONUS demonstration company. Codes such as *P-INV+* might not make immediate sense to you, but [!INCLUDE[prod_short](includes/prod_short.md)] has a number of default settings that depend on these number series codes.
 
 You create a numbering system by setting up one or more codes for each type of master data or document. For example, you can set up one code for numbering customers, another code for numbering sales invoices, and another code for numbering documents in general journals. After you have set up a code, you must set up at least one number series line. The number series line contains information such as the first and last number in the series and the starting date. You can set up more than one number series line per number series code, with a different starting date for each line. The series will be used consecutively, starting each series on the respective starting date.
 

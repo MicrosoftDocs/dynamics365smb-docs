@@ -11,7 +11,7 @@ ms.date: 01/28/2022
 
 # Resources for Help and Support
 
-Tips and guidance for how to use [!INCLUDE [prod_short](includes/prod_short.md)], how to get unblocked, where to learn more, and how to find technical information is all available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. This article describes how to find what.  
+Tips and guidance for how to use [!INCLUDE[prod_long](includes/prod_long.md)], how to get unblocked, where to learn more, and how to find technical information is all available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. This article describes how to find what.  
 
 ## In-product tips
 
@@ -21,7 +21,7 @@ Tips and guidance for how to use [!INCLUDE [prod_short](includes/prod_short.md)]
 
 <!--add include for 2022rw1-->
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it. The following list describes the cards that are always, or nearly always, present:  
+In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it. The following list describes the cards that are always, or nearly always, present:  
 
 [!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
 

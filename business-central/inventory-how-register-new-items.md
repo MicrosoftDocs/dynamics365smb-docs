@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30
+ms.search.form: 30, 31
 ms.date: 09/24/2021
 ms.author: edupont
 

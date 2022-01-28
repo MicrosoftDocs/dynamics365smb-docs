@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 # Troubleshooting Synchronization Errors
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 

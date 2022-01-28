@@ -4,12 +4,16 @@ description: Find product Help, guidance, troubleshooting tips, and assistance, 
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
-ms.service: "dynamics365-business-central"
+ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 01/28/2022
 ---
 
 # Resources for Help and Support
+
+Tips and guidance for how to use [!INCLUDE [prod_short](includes/prod_short.md)], how to get unblocked, where to learn more, and how to find technical information is all available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. This article describes how to find what.  
+
+## In-product tips
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content that is published to other websites, such as the websites of providers of any apps that are installed in your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -17,29 +21,20 @@ ms.date: 01/28/2022
 
 <!--add include for 2022rw1-->
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it as described in the following list:
+In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it. The following list describes the cards that are always, or nearly always, present:  
 
-- Choose the Help menu item (the question mark in the top-right corner)
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
 
-  The Help pane shows the following cards:
+The following list describes how you can access the Help pane and whether cards are added to it:
 
-  [!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
-- Choose the *Learn more* link on a tooltip on a field
+- Choose the *Learn more* link on a tooltip for a field
 
-  The Help pane shows the following cards:
+  The following card is added to the Help pane:
 
   - The field's tooltip
-  [!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
-- Choose the *Learn more* link on a tooltip on an action
-
-  The Help pane shows the following cards:
-
-  [!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+- Choose the *Learn more* link on a tooltip for an action
+- Choose the Help menu item (the question mark in the top-right corner)
 - Use the Ctrl+F1 keyboard shortcut from anywhere
-
-  The Help pane shows the following cards:
-
-  [!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
 
 > [!TIP]
 > When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
@@ -51,7 +46,7 @@ In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the questio
 Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 > [!NOTE]
-> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the docs.microsoft.com site.
+> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Docs.microsoft.com](/dynamics365/business-central) site.
 
 ## Help & Support page
 

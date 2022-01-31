@@ -1,5 +1,5 @@
 ---
-title: Reclassify Fixed Assets| Microsoft Docs
+title: Reclassify Fixed Assets
 description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
 author: edupont04
 
@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
 

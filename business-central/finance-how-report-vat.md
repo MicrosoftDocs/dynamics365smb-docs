@@ -69,13 +69,25 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
+### To set up VAT return periods
+
+Optionally, if your business is not located in the UK, use the **VAT Returns Periods** page to set up scheduled VAT returns. if your business is located in the UK, see [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
+2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+3. Repeat step 2 for any additional periods that you want to add.  
+
+Now, when the time has come to submit a VAT report for a VAT return period, choose the period in  the **VAT Return Periods** page, and then choose the **Create VAR Return** action. Then, in the **VAT Return** card, choose the **Suggest Lines** action as described in step 3 in the following procedure.  
+
 ## To prepare and submit a VAT report
+
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Return**, and then choose the related link.  
 2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
     > [!NOTE]  
-    >   For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
+    >  For the EC Sales List report, you can review the transactions included in the report lines before you submit the report. To do that, choose the line, and then choose the **Show VAT Entries** action.  
+
 4. To validate and prepare the report for submission, choose the **Release** action.  
 
     > [!NOTE]  

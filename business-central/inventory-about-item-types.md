@@ -1,7 +1,6 @@
 ---
 title: Understanding Item Types
 description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods when item costs change for reasons other than transactions.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
@@ -11,8 +10,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 9297, 5845, 30, 
 ms.date: 06/16/2021
 ms.author: edupont
+
 
 ---
 # About Item Types

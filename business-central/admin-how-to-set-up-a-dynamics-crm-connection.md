@@ -5,14 +5,11 @@ author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
- ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-
 
 ---
 # Connect to Microsoft Dataverse

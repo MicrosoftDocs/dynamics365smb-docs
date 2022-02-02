@@ -11,6 +11,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201 
 ms.date: 06/16/2021
 ms.author: edupont
 

@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
+ms.search.form: 39, 251, 256, 1290, 
 ms.date: 04/01/2021
 ms.author: edupont
 

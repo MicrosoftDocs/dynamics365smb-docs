@@ -1,8 +1,6 @@
 ---
-title: Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
+title: Custom and Built-In Layouts for Reports and Documents
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 ms.service: dynamics365-business-central
@@ -11,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
 

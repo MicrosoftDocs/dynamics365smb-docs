@@ -18,7 +18,7 @@ ms.author: edupont
 # Create Reports with XBRL
 
 > [!NOTE]
-> We're in the process of removing the features for XBRL reporting from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Changes in 2022 release wave 1](/business-central/dev-itpro/upgrade/deprecated-features-w1).
+> We're in the process of removing the features for XBRL reporting from [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Changes in 2022 release wave 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
 XBRL, which stands for eXtensible Business Reporting Language, is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data. The XBRL initiative enables global financial reporting by numerous ERP software companies and international accounting organizations. The goal of the initiative is to provide a standard for the uniform reporting of financial information for banks, investors, and government authorities. Such business reporting can include:  
 

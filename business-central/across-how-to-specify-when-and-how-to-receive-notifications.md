@@ -37,7 +37,7 @@ Many approval workflow steps are about notifying users that an event has occurre
 3.  On the **Notification Setup** page, fill the fields as described in the following table.  
 
     > [!NOTE]
-    > It's important that you open the **Notification Setup** page from the **Approval User Setup** page. That ensures that the notification setup is linked to the approval user. If you use Tell Me to open the **Notification Setup** page, the notification setup will apply to all users.  
+    > If you open the **Notification Setup** page from the **Approval User Setup** page the notification setup is linked to the approval user. The approval user will always receive workflow notifications according to that notification setup. If you use Tell Me to open the **Notification Setup** page, the notification setup will apply to all users.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  

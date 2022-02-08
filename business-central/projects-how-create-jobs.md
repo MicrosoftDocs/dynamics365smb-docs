@@ -7,7 +7,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
-ms.search.form: 88, 1001, 1002, 1003, 1004, 1005, 1006, 1007
+ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
 

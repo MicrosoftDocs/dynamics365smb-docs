@@ -1,5 +1,5 @@
 ---
-title: Setting Up Suggested Field Values | Microsoft Docs
+title: Let Business Central suggest values
 description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Business Central fills in selected fields.
 author: SorenGP
 
@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
 

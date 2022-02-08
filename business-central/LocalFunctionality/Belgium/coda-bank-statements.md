@@ -46,7 +46,7 @@ When you have applied all statement lines to a general ledger account or to a ma
 
 ## Extending the CODA integration
 
-The current support for CODA bank statements can be used in [!INCLUDE [prod_short](../../includes/prod_short.md)] online and on-premises. However, partners cannot extend the capabilities in an app for [!INCLUDE [prod_short](../../includes/prod_short.md)] online. the code is not deprecated but can only be extended or customized for on-premises deployments.  
+The current support for CODA bank statements can be used in [!INCLUDE [prod_short](../../includes/prod_short.md)] online and on-premises. However, partners cannot extend the capabilities in an app for [!INCLUDE [prod_short](../../includes/prod_short.md)] online. The code is not deprecated but can only be extended or customized for on-premises deployments.  
 
 ## See Also
 

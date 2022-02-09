@@ -1706,10 +1706,9 @@
 ## Developing reports
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
-#### [Layout types (Word, Excel, and RDLC)](ui-manage-report-layouts.md)
+#### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
 #### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)
-#### [Work with Excel Layouts (TODO: 2022w1)](ui-how-add-fields-word-report-layout.md)
+#### [Using fonts in Layouts](ui-fonts.md)  
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 #### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)

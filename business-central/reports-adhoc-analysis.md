@@ -15,9 +15,9 @@ ms.author: edupont
 ---
 # Ad-hoc Data Analysis
 
-Sometime you need to analyze data in [!INCLUDE[prod_short](includes/prod_short.md)] in a way that is not available in a standard report.  
+Sometime you need to analyze data in [!INCLUDE[prod_short](includes/prod_short.md)] in a way that is not available in a standard report.
 
-This task is sometimes calleed ad-hoc analysis.  
+This task is sometimes called ad-hoc analysis. 
 
 | To | See |
 | --- | --- |

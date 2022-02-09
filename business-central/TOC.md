@@ -1605,6 +1605,121 @@
 ##### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence and reporting 
+
+## [Overview](reports-bi-reporting.md)
+
+## Use Reports in Daily Work
+### [Overview](reports-use-reports.md)
+### [Running Reports](ui-work-report.md)
+### [Bookmarking a Report](ui-bookmarks.md)
+### [Analyzing Report Data with Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Printing Reports](ui-specify-printer-selection-reports.md#default)
+### [Scheduling Reports](ui-work-report.md#ScheduleReport)
+### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
+### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+
+## Built-in Reports
+### [Report Overview](reports-available-reports.md)
+### Finance
+#### [Financial analytics](bi.md)
+#### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
+#### [Key Financial Reports](finance-reports.md)
+#### [Accounts Receivable Reports](receivables-reports.md)
+#### [Accounts Payable Reports](payables-reports.md)
+#### [Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
+#### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+
+### Sales
+#### [Sales Reports](sales-reports.md)
+#### [Blanket Sales Order Status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Package Tracking](sales-how-track-packages.md)
+#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Purchasing
+#### [Purchasing Reports](purchase-reports.md)
+#### [View Purchasing Ledger Entries](ui-post-purchases.md#viewing-ledger-entries)
+
+### Inventory and Warehouse
+#### [Inventory and Warehouse Reports](inventory-wms-reports.md)
+#### [Item Availability](inventory-how-availability-overview.md)
+#### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
+#### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
+#### [Audit the Reconciliation between the Inventory Ledger and the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Project
+#### [Project Reports](project-reports.md)
+#### [View job usage estimates](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+
+### Fixed Assets
+#### [Fixed Assets Reports](fa-reports.md)
+#### [Monitoring maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Monitoring insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Assembly Management
+#### [Assembly Management Reports](assembly-reports.md)
+#### [View the Bill Of Material (BOM) structure](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Manufacturing
+#### [Production Reports](production-reports.md)
+#### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
+#### [Viewing work center ledger entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Service Management
+#### [Viewing Service Statistics](service-service-statistics.md)
+#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc Data Analysis
+### [Overview](reports-adhoc-analysis.md)
+### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
+### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
+### [Analyzing page data in Excel](across-work-with-excel.md)
+### [Analyzing report data with Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Financial analytics](bi.md)
+
+## Built-in Analytics 
+### [Overview](reports-built-in-analytics.md)
+### [Intelligent Insights](about-intelligent-cloud.md)
+### [Work with Power BI Reports](across-working-with-powerbi.md)
+### [Financial analytics](bi.md)
+### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
+### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analyze Data in Business Intelligence Tools
+### [Overview](reports-external-analysis.md)
+### [Using Power BI with Business Central](admin-powerbi.md)
+### [Analyze Financial Statements with Excel](finance-analyze-excel.md)
+### [Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Reading data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Developing reports
+### [Overview](reports-develop-reports.md)
+### Developing report layouts
+#### [Layout types (Word, Excel, and RDLC)](ui-manage-report-layouts.md)
+#### [Create a new Layout](ui-how-create-custom-report-layout.md)
+#### [Using fonts in Layouts](ui-fonts.md)
+#### [Work with Excel Layouts (TODO: 2022w1)](ui-how-add-fields-word-report-layout.md)
+#### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)
+#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+### Developing report datasets
+#### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Security, Privacy, Compliance
 ## Security and Protection
 ### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

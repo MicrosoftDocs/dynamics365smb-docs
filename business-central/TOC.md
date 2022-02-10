@@ -483,6 +483,7 @@
 #### [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Send Reminders of Outstanding Balances](receivables-send-reminders.md)
 #### [Block Customers](receivables-how-block-customers.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
@@ -1706,10 +1707,9 @@
 ## Developing reports
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
-#### [Layout types (Word, Excel, and RDLC)](ui-manage-report-layouts.md)
+#### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
 #### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)
-#### [Work with Excel Layouts (TODO: 2022w1)](ui-how-add-fields-word-report-layout.md)
+#### [Using fonts in Layouts](ui-fonts.md)  
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 #### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)

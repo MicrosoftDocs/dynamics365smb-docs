@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
 

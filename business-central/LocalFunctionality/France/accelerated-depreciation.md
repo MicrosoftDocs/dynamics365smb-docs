@@ -1,8 +1,6 @@
 ---
     title: Accelerated Depreciation [FR]
     description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria.
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
     ms.service: dynamics365-business-central

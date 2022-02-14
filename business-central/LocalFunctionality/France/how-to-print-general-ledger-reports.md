@@ -1,5 +1,5 @@
 ---
-    title: How to Print General Ledger Reports
+    title: Print General Ledger Reports [FR]
     description: General ledger reports meet financial accounting standards, and they contain information about ledger entries, customer entries, vendor entries, and bank entries.
 
     author: SorenGP

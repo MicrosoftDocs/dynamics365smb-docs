@@ -3,7 +3,7 @@ title: Manage Human Resources
 description: You can register new personnel, edit information about existing staff, and record and analyze absence.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

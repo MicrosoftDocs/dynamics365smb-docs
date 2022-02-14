@@ -3,7 +3,7 @@
     description: Set up your warehouse so that receipt lines are available to you in the put-away worksheet when you want to plan put-away instructions for receipts.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

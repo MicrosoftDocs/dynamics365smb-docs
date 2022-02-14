@@ -3,7 +3,7 @@
     description: You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

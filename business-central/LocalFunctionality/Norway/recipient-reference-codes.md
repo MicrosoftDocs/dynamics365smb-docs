@@ -3,7 +3,7 @@ title: Recipient Reference Codes [NO]
 description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

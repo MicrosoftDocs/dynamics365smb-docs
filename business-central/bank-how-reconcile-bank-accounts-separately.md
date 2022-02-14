@@ -3,7 +3,7 @@ title: Reconcile Bank Accounts
 description: This topic describes how to reconcile the transactions in your internal bank accounts with the transactions in statements from your bank.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: OneDrive for Business FAQ
 description: Get answers for some typical questions about working with OneDrive for Business and Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

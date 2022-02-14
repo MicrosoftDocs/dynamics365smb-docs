@@ -3,7 +3,7 @@
     description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

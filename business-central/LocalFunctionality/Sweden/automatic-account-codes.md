@@ -3,7 +3,7 @@ title: Automatic Account Codes in the Swedish version
 description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

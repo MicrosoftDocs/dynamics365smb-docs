@@ -3,7 +3,7 @@
     description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

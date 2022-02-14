@@ -4,7 +4,7 @@ description: You can engage with other businesses to form a VAT group, and act a
 author: bholtorf
 manager: annbe
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

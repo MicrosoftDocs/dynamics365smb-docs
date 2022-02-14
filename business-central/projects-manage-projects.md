@@ -3,7 +3,7 @@ title: Project Management
 description: This topic outlines how to use resources, time sheets, and jobs to manage projects and their budgets.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects

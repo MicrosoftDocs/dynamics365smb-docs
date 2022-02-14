@@ -3,7 +3,7 @@
     description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

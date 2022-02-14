@@ -3,7 +3,7 @@
     description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

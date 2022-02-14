@@ -3,7 +3,7 @@
     description: This article gives an overview of tasks involved in handling reordering policies and defining the reorder policy in supply planning.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

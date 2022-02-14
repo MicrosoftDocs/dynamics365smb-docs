@@ -3,7 +3,7 @@ title: Link a Sales Order to a Purchase Order for Direct Shipment (contains vide
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

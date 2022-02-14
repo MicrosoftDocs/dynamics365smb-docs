@@ -3,7 +3,7 @@
     description: You can import a file that specifies post codes for marketing and relationship management activities. The data will be saved in the Post Code Range table.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

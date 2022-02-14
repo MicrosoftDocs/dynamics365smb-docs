@@ -3,7 +3,7 @@ title: View Posted Tax Credit Memos [AU]
 description: You use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/25/2021

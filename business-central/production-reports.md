@@ -3,7 +3,7 @@ title: Production Reports and Analytics
 description: See which production reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: AndreiPanko
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021

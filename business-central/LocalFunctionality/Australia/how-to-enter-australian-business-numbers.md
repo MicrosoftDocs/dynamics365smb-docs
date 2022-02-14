@@ -3,7 +3,7 @@
     description: You can enter an Australian Business Number (ABN) in both the Company Information and the Vendor Card pages.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

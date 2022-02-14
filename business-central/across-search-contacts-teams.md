@@ -2,7 +2,7 @@
 title: Searching for Contacts from Microsoft Teams 
 description: Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

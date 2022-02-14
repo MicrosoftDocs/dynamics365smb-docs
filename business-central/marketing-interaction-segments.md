@@ -3,7 +3,7 @@ title: Keep Track of Segments and Related Interactions
 description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

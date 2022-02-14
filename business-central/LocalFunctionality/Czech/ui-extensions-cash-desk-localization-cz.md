@@ -3,7 +3,7 @@ title: Cash Desk Localization for Czech
 description: The application covers the requirements of Czech legislation and best practices for Microsoft Dynamics 365 Business Central in the field of cash registers.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 04/01/2021

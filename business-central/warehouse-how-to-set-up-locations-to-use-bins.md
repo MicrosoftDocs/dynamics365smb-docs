@@ -3,7 +3,7 @@
     description: Bins represent the basic warehouse structure and are used to make suggestions about the placement and location of items. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

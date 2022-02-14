@@ -3,7 +3,7 @@
     description: When you set up users in approval workflows you can specify how and when each approval user receives notifications.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Set Up Accelerated Depreciation
 description: To use the accelerated depreciation calculation, you must set up depreciation books for fixed assets.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: How to create the VAT-VIES declaration report to submit information about sales transactions with other European Union (EU) countries/regions.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

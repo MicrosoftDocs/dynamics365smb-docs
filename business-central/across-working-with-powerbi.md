@@ -2,7 +2,7 @@
 title: Working with Power BI Reports in Business Central| Microsoft Docs
 description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

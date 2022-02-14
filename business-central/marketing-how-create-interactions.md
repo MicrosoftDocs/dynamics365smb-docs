@@ -3,7 +3,7 @@ title: Create Interactions on Contacts and Segments
 description: Describes how to create interactions for communication that you have with your contacts and segments in Business Central, for example, direct mail.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

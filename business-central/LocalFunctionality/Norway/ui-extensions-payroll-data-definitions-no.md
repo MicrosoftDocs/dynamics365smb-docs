@@ -4,7 +4,7 @@ description: The payroll data definitions extension makes it easy to exchange da
 author: edupont04
 manager: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

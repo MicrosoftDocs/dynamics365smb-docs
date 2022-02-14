@@ -2,7 +2,7 @@
 title: Track Items with Serial, Lot, and Package Numbers
 description: You can add serial numbers, lot numbers, and package numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

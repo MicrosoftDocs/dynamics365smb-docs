@@ -3,7 +3,7 @@ title: Setting up responsible employees and advance statements in Russia
 description: Russian enhancements include defining users as responsible employees and advance statements that show payments and other documents by employee.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

@@ -3,7 +3,7 @@ title: Installing Extensions to Customize Business Central
 description: Learn all about adding functionality and customizing Business Central by installing extensions here.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021

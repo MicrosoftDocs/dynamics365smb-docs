@@ -3,7 +3,7 @@ title: Create Production BOMs
 description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021

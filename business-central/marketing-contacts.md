@@ -2,7 +2,7 @@
 title: Create and Manage Company Contacts
 description: You set up all external entities that you have a business relationship with (such as prospects, customers, vendors, and consultants) as contacts.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Upload books of purchases and sales in Russia
 description: Russian enhancements include books of purchases and sales VAT in XML format.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

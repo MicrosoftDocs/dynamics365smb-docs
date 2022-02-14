@@ -3,7 +3,7 @@ title: Overview of the Tasks for Closing the Books
 description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

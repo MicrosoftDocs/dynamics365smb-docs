@@ -3,7 +3,7 @@ title: Depreciate or Amortize FA
 description: You must define how you will write-down, depreciate, or amortize each of your fixed assets, such as machinery and equipment, over their depreciable life.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

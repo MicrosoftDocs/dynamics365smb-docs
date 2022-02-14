@@ -3,7 +3,7 @@
     description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

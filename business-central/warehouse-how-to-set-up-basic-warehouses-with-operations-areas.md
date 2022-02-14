@@ -3,7 +3,7 @@ title: Set Up Basic Warehouses with Operations Areas
 description: Set up warehouse operations areas and use inventory movements, picks and put-aways to move goods between them.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

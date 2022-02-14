@@ -3,7 +3,7 @@
     description: This topic explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

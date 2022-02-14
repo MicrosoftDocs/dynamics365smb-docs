@@ -3,7 +3,7 @@
     description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

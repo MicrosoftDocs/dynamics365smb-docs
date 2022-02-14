@@ -8,6 +8,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 15000100, 255
 ms.date: 04/01/2021
 ms.author: edupont
 

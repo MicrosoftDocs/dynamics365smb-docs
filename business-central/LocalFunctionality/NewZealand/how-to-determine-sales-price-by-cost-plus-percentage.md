@@ -2,7 +2,7 @@
     title: Determine Sales Price by Cost Plus Percentage (NZ)
     description: Describes how to use the cost plus percentage function to set a sales price based on the cost of an item.
     author: bholtorf
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

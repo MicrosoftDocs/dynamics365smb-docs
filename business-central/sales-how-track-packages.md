@@ -3,7 +3,7 @@ title: How to Track Packages
 description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: 103, 142, 800, 806

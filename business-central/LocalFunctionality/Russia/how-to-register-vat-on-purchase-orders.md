@@ -3,7 +3,7 @@ title: Registering VAT on purchase orders in Russia
 description: Russian enhancements include VAT on purchase orders.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

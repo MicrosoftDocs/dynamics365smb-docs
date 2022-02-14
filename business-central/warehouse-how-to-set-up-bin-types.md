@@ -3,7 +3,7 @@
     description: Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

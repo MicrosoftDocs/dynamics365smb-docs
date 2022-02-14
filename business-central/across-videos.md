@@ -3,7 +3,7 @@ title: Visit our video library
 description: Visit our video library for assistance from getting-started videos that illustrate common "how to" tasks to subject matter product videos. 
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Design Details - Average Cost
 description: The average cost of an item is calculated with a periodic weighted average, based on the average cost period that is set up in Business Central.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

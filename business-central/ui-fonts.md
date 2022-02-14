@@ -3,7 +3,7 @@ title: Available Fonts
 description: Learn about the pre-installed fonts that you can use for your externally-facing reports.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

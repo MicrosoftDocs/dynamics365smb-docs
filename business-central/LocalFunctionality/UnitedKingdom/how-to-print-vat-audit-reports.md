@@ -3,7 +3,7 @@
     description: Learn how Business Central supports the British requirements for VAT audits.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

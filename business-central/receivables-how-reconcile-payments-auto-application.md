@@ -3,7 +3,7 @@ title: Reconcile Payments Using Automatic Application
 description: Describes how to use the automatic application function to apply payments or cash receipts to their related open entries, and reconcile payments.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

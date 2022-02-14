@@ -3,7 +3,7 @@ title: Creating future expense journals in Russia
 description: Russian enhancements include future expenses.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

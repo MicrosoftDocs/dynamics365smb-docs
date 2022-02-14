@@ -3,7 +3,7 @@ title: Manage Segments and Select Contacts
 description: This topic outlines how to create a segment by selecting a group of contacts according to specific criteria to later target that segment with a campaign.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

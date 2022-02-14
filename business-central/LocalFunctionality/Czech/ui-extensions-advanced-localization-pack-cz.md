@@ -3,7 +3,7 @@ title: Advanced Localization Pack for Czech (Extension) [CZ]
 description: This section describes Advanced Localization Application Pack for Czech extension functionality.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
 ms.date: 06/17/2021

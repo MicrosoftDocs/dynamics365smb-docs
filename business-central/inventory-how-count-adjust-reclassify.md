@@ -3,7 +3,7 @@ title: Count, Adjust, and Reclassify Inventory
 description: Perform physical counting, make negative or positive adjustments, and change information, such as location or lot number, on item ledger or warehouse entries.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

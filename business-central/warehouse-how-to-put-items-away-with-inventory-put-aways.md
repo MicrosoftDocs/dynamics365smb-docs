@@ -3,7 +3,7 @@
     description: Read about how to use the Inventory Put-away document to record and post put-away and receipt information for your source documents. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

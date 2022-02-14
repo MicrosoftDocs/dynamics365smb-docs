@@ -3,7 +3,7 @@ title: Czech Local Functionality - Intrastat
 description: This section describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables and additional features.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
 ms.date: 06/17/2021

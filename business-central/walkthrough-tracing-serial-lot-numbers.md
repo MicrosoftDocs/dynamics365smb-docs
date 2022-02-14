@@ -3,7 +3,7 @@
     description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

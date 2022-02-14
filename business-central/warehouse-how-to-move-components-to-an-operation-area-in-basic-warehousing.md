@@ -3,7 +3,7 @@
     description: If item processing operations occur at your warehouse location, then you may have to move items between internal bins to respond to internal source documents.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

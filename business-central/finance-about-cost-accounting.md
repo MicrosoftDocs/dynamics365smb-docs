@@ -3,7 +3,7 @@
     description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze various issues.  
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

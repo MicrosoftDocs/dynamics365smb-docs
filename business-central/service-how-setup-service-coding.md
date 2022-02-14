@@ -3,7 +3,7 @@
     description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: Trace Item-Tracked Items
 description: You can see where an item-tracked item was used, including how and when it was received, produced or returned with Item Tracing and Find Entries features.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

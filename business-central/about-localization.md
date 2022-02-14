@@ -3,7 +3,7 @@ title: Local functionality and localization strategy
 description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

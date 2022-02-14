@@ -3,7 +3,7 @@ title: Organize Items in Categories(contains video) | Microsoft Docs
 description: To help you search for and find items, you can assign item attributes and organize items in categories.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: You can print remittance advice before posting a payment journal and after posting a payment.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

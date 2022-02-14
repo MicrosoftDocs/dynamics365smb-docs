@@ -3,7 +3,7 @@
     description: When entering general journal lines on a form, the system fills in automatically the description field.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

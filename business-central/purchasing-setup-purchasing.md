@@ -3,7 +3,7 @@ title: Overview of Tasks to Set Up Purchasing
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

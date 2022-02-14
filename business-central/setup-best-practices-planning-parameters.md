@@ -3,7 +3,7 @@
     description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

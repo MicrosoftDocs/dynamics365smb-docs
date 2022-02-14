@@ -3,7 +3,7 @@
     description: The following topics describe the local functionality unique to the Canadian version of Business Central.
     author: sorenfriisalexandersen
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

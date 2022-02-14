@@ -3,7 +3,7 @@ title: Working with the General Functionality in Business Central  (contains vid
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Read about how to use the Spanish version of Business Central to electronically submit the Report 349 declaration to the tax authorities.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

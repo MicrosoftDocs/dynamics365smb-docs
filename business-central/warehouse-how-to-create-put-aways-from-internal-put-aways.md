@@ -3,7 +3,7 @@
     description: This topic covers how to pick and put away without a source document, both how to create an internal pick, and how to create an internal put-away. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

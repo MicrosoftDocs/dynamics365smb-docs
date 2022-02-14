@@ -3,7 +3,7 @@ title: Czech Local Functionality - Bank feature
 description: This feature provides improved efficiency and prevents users from making mistakes when entering the customer and vendor bank account data.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 06/17/2021

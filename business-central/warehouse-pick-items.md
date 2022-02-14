@@ -3,7 +3,7 @@ title: Pick Items
 description: The activity of picking items before they are shipped or consumed is performed in different ways, depending on how warehouse management features are configured.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

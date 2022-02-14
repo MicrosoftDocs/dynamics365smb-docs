@@ -3,7 +3,7 @@ title: Printing the cash order journal CO-3 report in Russia
 description: Russian enhancements include support for the cash order journal CO-3 report.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

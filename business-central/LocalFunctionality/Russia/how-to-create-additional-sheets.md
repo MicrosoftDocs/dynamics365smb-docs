@@ -3,7 +3,7 @@ title: Creating additional sheets in Russia
 description: Russian enhancements include additional sheets for VAT purchase ledgers and sales ledgers.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

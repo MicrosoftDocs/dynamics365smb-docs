@@ -3,7 +3,7 @@
     description: In the Australian version, Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

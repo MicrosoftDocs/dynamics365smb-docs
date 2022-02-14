@@ -3,7 +3,7 @@
     description: The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

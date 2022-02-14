@@ -3,7 +3,7 @@
     description: This topic explains the different reports that you can use to report VAT information and how to print each one.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

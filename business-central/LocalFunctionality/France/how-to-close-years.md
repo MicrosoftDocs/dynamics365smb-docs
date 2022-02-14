@@ -3,7 +3,7 @@
     description: When a fiscal year is over, close the periods that it comprises using the Accounting Periods feature.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Set Up Vendors for Remittance [NO]
 description: Norwegian enhancements include automatically making payments to vendors to reduce errors that occur from manual data entry.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

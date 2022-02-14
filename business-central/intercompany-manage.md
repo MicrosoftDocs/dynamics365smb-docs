@@ -3,7 +3,7 @@ title: Managing intercompany transactions
 description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.  
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

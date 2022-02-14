@@ -2,7 +2,7 @@
 title: Power BI Integration Component and Architecture Overview for Business Central| Microsoft Docs
 description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -51,7 +51,7 @@ When custom report layouts are defined, you can select them from customer and ve
 The custom layout has been created. You can now modify the custom layout as needed.
 
 > [!TIP]
-> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Working with Reports - Send to Excel](ui-work-report.md#send-to-excel).
+> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Analyzing Report Data with Excel](report-analyze-excel.md).
 
 ## <a name="ModifyCustomLayout"></a>Modifying a custom layout
 

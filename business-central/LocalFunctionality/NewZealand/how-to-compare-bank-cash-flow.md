@@ -3,7 +3,7 @@
     description: Describes how compare the flow of cash in a particular bank for a specified period in the New Zealand version.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

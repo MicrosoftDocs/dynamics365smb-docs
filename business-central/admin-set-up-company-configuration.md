@@ -3,7 +3,7 @@
     description: As a partner, get Business Central set up right for your customer with default or customer-specific configurations that you bundle into configuration packages.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

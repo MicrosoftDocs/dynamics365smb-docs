@@ -3,7 +3,7 @@
     description: This topic explains how sales tax includes taxes that companies pay for using items in the US version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

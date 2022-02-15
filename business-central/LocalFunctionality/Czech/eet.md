@@ -3,7 +3,7 @@
     description: Registration of sales (EET) is registration of sales coming from business activities and paid in cash.
     author: v-pejano
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.search.keywords: CZ, Czech, local, VAT, Control Report
     ms.date: 06/17/2021

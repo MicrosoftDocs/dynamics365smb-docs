@@ -3,7 +3,7 @@ title: GetAddress.io UK Postcodes Extension [GB]
 description: Retrieve addresses for entities like customers, vendors, employees, and banks in the United Kingdom from the GetAddress.io service.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

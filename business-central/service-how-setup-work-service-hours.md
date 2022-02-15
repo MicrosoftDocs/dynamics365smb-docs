@@ -3,7 +3,7 @@
     description: Learn how to set up the work and service hours used to calculate the response date and time for service orders and quotes.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

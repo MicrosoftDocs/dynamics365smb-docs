@@ -3,7 +3,7 @@ title: Business Central Quick Starts
 description: Get up and running with Business Central with tips from the Quick Starts articles that help you fill in the first critical fields.
 author: jill-kotel-andersson
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

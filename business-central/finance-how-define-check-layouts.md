@@ -3,7 +3,7 @@ title: Specify the Layout of a Check
 description: You can design and print your checks in different formats to conform with standards set by your local authorities.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

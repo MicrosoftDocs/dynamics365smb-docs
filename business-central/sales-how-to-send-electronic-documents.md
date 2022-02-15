@@ -3,7 +3,7 @@
     description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

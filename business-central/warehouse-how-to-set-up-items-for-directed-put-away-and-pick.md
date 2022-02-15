@@ -3,7 +3,7 @@
     description: Set up warehouse locations for directed put-away and pick, which gives you new functionality to ensure you run the warehouse in the most efficient way possible.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

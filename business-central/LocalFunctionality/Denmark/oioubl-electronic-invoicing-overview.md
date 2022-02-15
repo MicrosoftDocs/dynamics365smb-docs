@@ -3,7 +3,7 @@
     description: Learn about how Business Central support you in the requirement for sending sales documents to the Danish public sector electronically in the OIOUBL format.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na

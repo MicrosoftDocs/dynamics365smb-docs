@@ -3,7 +3,7 @@ title: Set Up Payment Addresses [FR]
 description: To use payment management, you must set up payment addresses that will be used for vendors and customers at the time of settlement.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Accounting for personal income tax payments in Russia
 description: Russian enhancements include accounting for personal income tax payments.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

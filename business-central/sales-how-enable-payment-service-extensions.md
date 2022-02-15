@@ -3,7 +3,7 @@ title: Enable Customer Payments with Payment Services
 description: Make it easier for customers to pay their invoices by enabling customer payments through payment services.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

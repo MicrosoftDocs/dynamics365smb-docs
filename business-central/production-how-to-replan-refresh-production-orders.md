@@ -3,7 +3,7 @@ title: Replan or Refresh Production Orders Directly
 description: This topic outlines the procedures for how to replan production orders and refresh production orders directly.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

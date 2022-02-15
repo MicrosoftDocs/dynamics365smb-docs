@@ -3,7 +3,7 @@ title: Inventory act of receivables and payables INV-17 in Russia
 description: Russian enhancements include support for the INV-17 report and INV-17 supplement report.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

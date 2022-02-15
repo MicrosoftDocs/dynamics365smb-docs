@@ -3,7 +3,7 @@ title: Advance Payments Localization for Czech (Extension)
 description: This section describes Advance Payments Localization for Czech extension functionality.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
 ms.date: 09/01/2021

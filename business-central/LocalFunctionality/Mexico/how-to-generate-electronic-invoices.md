@@ -3,7 +3,7 @@ title: Generate Electronic Invoices [MX]
 description: After you post a sales invoice in the Mexican version, you must generate an electronic invoice that will be sent to the customer.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

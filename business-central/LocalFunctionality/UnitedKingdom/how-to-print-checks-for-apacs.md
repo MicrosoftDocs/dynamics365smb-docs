@@ -3,7 +3,7 @@
     description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks. The Check report uses this specification.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

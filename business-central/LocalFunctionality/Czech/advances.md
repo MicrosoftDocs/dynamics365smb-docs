@@ -3,7 +3,7 @@ title: Advance Payments and Invoices [CZ]
 description: This section describes Czech local functionality and document types in the Advance payments and invoices feature.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
 ms.date: 06/24/2021

@@ -3,7 +3,7 @@
     description: If a location set up requires pick processing but not shipment, use inventory pick documents to record and post picking and shipping info for source documents.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

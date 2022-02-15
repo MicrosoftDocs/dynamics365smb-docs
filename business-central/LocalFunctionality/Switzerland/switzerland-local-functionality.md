@@ -3,7 +3,7 @@
     description: The following topics describe all of the local functionality that is unique to the Swiss version of Business Central.
     author: sorenfriisalexandersen
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

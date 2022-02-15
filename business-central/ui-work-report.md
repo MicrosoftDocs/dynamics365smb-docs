@@ -3,7 +3,7 @@ title: Working with Reports, Batch Jobs, and XMLports
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

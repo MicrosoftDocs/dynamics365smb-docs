@@ -3,7 +3,7 @@
     description: If you are certain that a workflow is no longer being used, you can delete it. All workflow step instances defined in the workflow must be status **Completed**.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

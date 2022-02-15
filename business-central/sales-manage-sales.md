@@ -3,7 +3,7 @@ title: Overview of Tasks to Manage Sales
 description: Read all about how to use Business Central's services for managing sales activities with your customers with sales invoices, orders, quotes and more.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

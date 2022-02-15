@@ -3,7 +3,7 @@ title: Archive Payment Slips [FR]
 description: When a payment slip has been processed, you can separate it from the active payment slips by archiving it in the French version of Business Central.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

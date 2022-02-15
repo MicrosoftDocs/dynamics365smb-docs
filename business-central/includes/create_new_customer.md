@@ -1,7 +1,7 @@
 ---
 author: jill-kotel-andersson
 
-ms.service: dynamics365-business-central
+
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont

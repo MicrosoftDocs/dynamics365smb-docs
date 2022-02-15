@@ -3,7 +3,7 @@ title: Set Up Incoming Documents| Microsoft Docs
 description: Use the Incoming Documents feature to create electronic documents, manage OCR tasks, import invoices, and convert image files.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

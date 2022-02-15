@@ -3,7 +3,7 @@ title: Schedule Jobs for Adjusting & Reconciling Inventory Cost
 description: Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background. For example, if your company runs many tasks or processes many transactions.
 author: AndreiPanko
 
-ms.service: dynamics365-business-central
+
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

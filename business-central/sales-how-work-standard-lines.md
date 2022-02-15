@@ -3,7 +3,7 @@ title: Standard Recurring Sales and Purchase Lines
 description: Set up frequently used sales lines and purchase lines to insert them on sales and purchase documents and quickly fill the lines with standard information.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

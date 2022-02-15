@@ -3,7 +3,7 @@ title: Inventory documents in Russia
 description: Russian enhancements for inventory documents.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 6774, 6775, 6776

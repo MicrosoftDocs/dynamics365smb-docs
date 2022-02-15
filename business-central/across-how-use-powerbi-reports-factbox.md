@@ -3,7 +3,7 @@ title: Display Custom Power BI Reports
 description: You can use Power BI FactBox to display Power BI reports and gain extra insight into records data in key lists.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

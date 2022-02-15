@@ -3,7 +3,7 @@ title: Edit Posted Sales and Purchase Documents
 description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed. 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

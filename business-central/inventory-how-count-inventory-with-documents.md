@@ -3,7 +3,7 @@ title: Count and Adjust Inventory
 description: Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

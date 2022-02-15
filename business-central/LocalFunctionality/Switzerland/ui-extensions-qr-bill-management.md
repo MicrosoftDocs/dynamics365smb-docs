@@ -2,7 +2,7 @@
 title: QR-Bill Management [CH]
 description: This article describes the enhancements for QR-Bill Management extension and how you can use Business Central to easily generate, send, and import your QR-bills.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

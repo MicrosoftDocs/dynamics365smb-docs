@@ -3,7 +3,7 @@ title: Defining account schedule extensions in Russia
 description: Russian enhancements include extending account schedule lines.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

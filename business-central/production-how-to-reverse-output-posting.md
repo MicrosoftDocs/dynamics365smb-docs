@@ -3,7 +3,7 @@ title: Reverse Output Posting
 description: There are times when output posting must be reversed. This topic outlines the procedure for reversing output posting.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

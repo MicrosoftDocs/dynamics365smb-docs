@@ -3,7 +3,7 @@ title: Working with Accounting Periods and Fiscal Years
 description: Learn how to work with accounting periods to define when your company reports financial performance.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

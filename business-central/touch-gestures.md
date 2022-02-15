@@ -2,7 +2,7 @@
 title: "Touch and pen gestures"
 description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Fixed assets in Russia
 description: Russian enhancements include fixed assets.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.search.keywords:
 ms.date: 04/01/2021

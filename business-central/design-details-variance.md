@@ -3,7 +3,7 @@
     description: Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

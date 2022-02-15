@@ -3,7 +3,7 @@
     description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work center fields and routing.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

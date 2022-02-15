@@ -2,7 +2,7 @@
 title: How to Set Up Stockkeeping Units
 description: You can use stockkeeping units to record information about your items for a specific location or a specific variant code.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

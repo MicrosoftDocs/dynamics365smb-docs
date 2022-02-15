@@ -3,7 +3,7 @@ title: Chart of accounts in Russia
 description: Russian enhancements include the chart of accounts.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

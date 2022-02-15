@@ -3,7 +3,7 @@ title: Set Up Remittance Agreements [NO]
 description: You must sign an agreement of remittance with the bank when you set up electronic payments in the Norwegian version of Business Central. 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

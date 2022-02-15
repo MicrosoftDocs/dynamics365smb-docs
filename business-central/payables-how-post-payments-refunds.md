@@ -3,7 +3,7 @@ title: Record Payments and Refunds in Payment Journal
 description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.  
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

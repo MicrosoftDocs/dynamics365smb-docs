@@ -3,7 +3,7 @@ title: Using the Sales and Inventory Forecast Extension to Manage Inventory | Mi
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

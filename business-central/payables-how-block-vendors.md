@@ -4,7 +4,7 @@ description: Read about how to block vendors from being included in any transact
 
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

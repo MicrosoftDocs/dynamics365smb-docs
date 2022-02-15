@@ -3,7 +3,7 @@
     description: This topic describes how to flush components according to operation output as well as other flushing methods involved.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

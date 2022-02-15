@@ -3,7 +3,7 @@
     description: Learn how to use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

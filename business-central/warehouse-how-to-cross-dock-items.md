@@ -3,7 +3,7 @@
     description: Cross-docking functionality is available to you if you have set up your location to require warehouse receive and put-away processing.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

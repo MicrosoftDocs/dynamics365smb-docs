@@ -3,7 +3,7 @@ title: Trials and Subscriptions
 description: Learn about how to get a trial version of Business Central, how to work with sandbox environments, and how to sign up for a subscription.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription

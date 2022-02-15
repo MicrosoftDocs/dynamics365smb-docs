@@ -3,7 +3,7 @@ title: Process Sales Returns or Cancellations
 description: Describes how to create a sales credit memo to process a return, cancellation, or reimbursement for items or services you have received payment for.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

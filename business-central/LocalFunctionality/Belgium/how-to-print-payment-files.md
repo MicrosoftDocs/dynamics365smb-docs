@@ -3,7 +3,7 @@
     description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file in the Belgian Version of Business Central.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.search.form: 2000001
     ms.date: 01/10/2022

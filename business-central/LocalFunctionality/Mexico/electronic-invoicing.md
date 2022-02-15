@@ -3,7 +3,7 @@ title: Electronic Invoicing [MX]
 description: Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

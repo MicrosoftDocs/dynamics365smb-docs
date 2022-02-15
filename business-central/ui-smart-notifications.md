@@ -3,7 +3,7 @@ title: Work With Smart Notifications and Specify When You See Them | Microsoft D
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,22 +1,21 @@
 ---
-    title: How to Create Remittance Suggestions
-    description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
+title: Create Remittance Suggestions [NO]
+description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Create Remittance Suggestions
+# Create Remittance Suggestions in the Norwegian Version
+
 You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments. One payment transaction per posting date for each vendor is transferred to the bank.  
 
 > [!NOTE]  

@@ -3,7 +3,7 @@ title: Finland Local Functionality
 description: The following topics describe the various local functionality in the Finnish version of Business Central.
 author: sorenfriisalexandersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

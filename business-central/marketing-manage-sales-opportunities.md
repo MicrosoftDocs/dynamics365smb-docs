@@ -3,7 +3,7 @@ title: Manage Sales Opportunities and Leads
 description: Describes managing any incoming lead or sales opportunity in Business Central,  and associating the opportunity with a salesperson to keep track of potential sales.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Vacation planning in Russia
 description: Russian enhancements include managing vacation time.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

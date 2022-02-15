@@ -3,7 +3,7 @@ title: Run Batch Jobs and XMLports
 description: You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Describes how print the company's annual income statement in a report in the New Zealand version.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

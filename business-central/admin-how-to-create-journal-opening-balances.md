@@ -3,7 +3,7 @@ title: Create Journal Opening Balances
 description: Batch jobs are provided to help transfer legacy account balances to a newly configured company. You can easily transfer this data with journals postings.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

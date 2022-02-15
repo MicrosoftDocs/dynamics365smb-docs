@@ -3,7 +3,7 @@
     description: Use RapidStart Services tables and pages to create a new company for which you want to perform a customer implementation.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

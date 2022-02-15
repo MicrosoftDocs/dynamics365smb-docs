@@ -3,7 +3,7 @@
     description: Purchase Return to Registered Vendor
     author: v-debapd
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

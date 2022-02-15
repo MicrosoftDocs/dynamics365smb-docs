@@ -3,7 +3,7 @@
     description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

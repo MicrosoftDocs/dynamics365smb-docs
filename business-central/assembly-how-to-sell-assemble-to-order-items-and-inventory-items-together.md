@@ -3,7 +3,7 @@
     description: If a part of an assembly item set up for assemble-to-stock is not available, you have the flexibility to create an assembly order for the remaining quantity.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

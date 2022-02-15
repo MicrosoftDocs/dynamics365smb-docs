@@ -3,7 +3,7 @@
     description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

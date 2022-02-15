@@ -3,7 +3,7 @@
     description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

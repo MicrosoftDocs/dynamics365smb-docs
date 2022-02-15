@@ -3,7 +3,7 @@ title: Financial Reports and Analytics
 description: See which financial reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021

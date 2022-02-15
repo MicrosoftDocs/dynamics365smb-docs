@@ -3,7 +3,7 @@
     description: Flow between bins centers on picking components and putting away end items for assembly or production orders and ad-hoc movements, without source documents.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: This topic covers how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

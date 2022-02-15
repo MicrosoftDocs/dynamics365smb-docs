@@ -3,7 +3,7 @@ title: Relationship Management
 description: The relationship management features support your sales efforts and let you access information about contacts and prospects to serve customers efficiently.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

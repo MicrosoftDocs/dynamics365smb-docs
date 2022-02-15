@@ -3,7 +3,7 @@ title: Build financial reports using account schedules
 description: Describes how to use account schedules to create various views and report for analyzing financial performance data.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

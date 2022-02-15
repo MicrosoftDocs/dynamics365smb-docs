@@ -3,7 +3,7 @@ title: Set Up Payment Methods (contains video)
 description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how sales and purchase invoices will be paid.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

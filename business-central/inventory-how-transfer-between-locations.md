@@ -2,7 +2,7 @@
 title: Transfer Items Between Warehouse Locations
 description: Describes how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

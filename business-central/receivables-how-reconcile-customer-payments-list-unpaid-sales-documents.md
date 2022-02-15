@@ -3,7 +3,7 @@ title: Apply Payments to Unpaid Sales Documents | Microsoft Docs
 description: You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

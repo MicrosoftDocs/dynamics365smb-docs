@@ -3,7 +3,7 @@
     description: You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

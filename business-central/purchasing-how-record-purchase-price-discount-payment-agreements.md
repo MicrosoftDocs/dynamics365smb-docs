@@ -3,7 +3,7 @@ title: Record Special Purchase Prices and Discounts
 description: You can define different or alternate prices and discount agreements and apply them to purchase documents for vendors.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

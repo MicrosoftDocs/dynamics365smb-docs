@@ -3,7 +3,7 @@
     description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

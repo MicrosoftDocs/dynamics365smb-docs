@@ -3,7 +3,7 @@ title: Upgrading an Integration with Dynamics 365 Sales
 description: This topic tells you how to move your Dynamics 365 Business Central integration with Dynamics 365 Sales to the latest version.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

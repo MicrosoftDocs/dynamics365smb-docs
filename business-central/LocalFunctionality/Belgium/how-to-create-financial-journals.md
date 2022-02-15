@@ -3,7 +3,7 @@
     description: This topic tells you how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

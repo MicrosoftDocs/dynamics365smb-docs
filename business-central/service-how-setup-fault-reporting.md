@@ -3,7 +3,7 @@
     description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

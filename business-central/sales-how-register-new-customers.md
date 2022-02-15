@@ -3,7 +3,7 @@ title: Register New Customers by Creating a Customer Card (contains video)
 description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

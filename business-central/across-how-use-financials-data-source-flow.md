@@ -1,7 +1,7 @@
 ---
 title: Connect Your Data with Power Automate| Microsoft Docs
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

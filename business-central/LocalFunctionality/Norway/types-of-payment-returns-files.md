@@ -3,7 +3,7 @@ title: Types of Payment Returns Files [NO]
 description: Norwegian enhancements include two types of payment return files that can be imported into Business Central.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

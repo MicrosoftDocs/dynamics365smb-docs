@@ -3,7 +3,7 @@ title: Delete Remittance Payment Orders [NO]
 description: Orders can be deleted if they are managed in full and are in a closed financial year. 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

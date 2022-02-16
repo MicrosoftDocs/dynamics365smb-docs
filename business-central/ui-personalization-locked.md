@@ -3,7 +3,7 @@ title: Why Can't I Personalize a Page
 description: Explains why you cannot personalize a page and what you can do to unlock it so you can personalize it.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

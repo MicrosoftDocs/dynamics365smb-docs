@@ -3,7 +3,7 @@ title: Create Payment Slips [FR]
 description: You can create payments slips to manage vendor and customer payments in the French version of Business Central. Before you create payment slips, you must set up payment classes.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

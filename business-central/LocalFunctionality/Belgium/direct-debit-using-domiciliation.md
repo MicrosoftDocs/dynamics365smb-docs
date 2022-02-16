@@ -3,7 +3,7 @@
     description: A domiciliation is a financial agreement between you and your customers, allowing you to automatically collect the payments for customer's invoices.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

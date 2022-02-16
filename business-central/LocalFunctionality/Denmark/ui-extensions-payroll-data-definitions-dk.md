@@ -3,7 +3,7 @@
     description: This topic explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: Managing Inventory
 description: This topic describes how to manage the physical products that you trade in by creating an Inventory item card.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: Minimum requirements in using Business Central
 description: Learn about the minimum system and version requirements for using Business Central online outlined below.
 author: edupont04
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

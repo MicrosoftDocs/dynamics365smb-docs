@@ -3,7 +3,7 @@ title: About Calculating Standard Cost
 description: A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

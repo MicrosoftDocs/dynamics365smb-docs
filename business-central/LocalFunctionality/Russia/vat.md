@@ -3,7 +3,7 @@ title: VAT in Russia
 description: Russian enhancements include support for VAT.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.search.keywords:
 ms.date: 04/01/2021

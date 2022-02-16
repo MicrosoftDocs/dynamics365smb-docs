@@ -3,7 +3,7 @@
     description: Read how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

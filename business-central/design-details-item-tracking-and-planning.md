@@ -3,7 +3,7 @@
     description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

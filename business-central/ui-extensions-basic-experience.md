@@ -3,7 +3,7 @@
     description: This extension is a modernized alternative to Microsoft Dynamics C5.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

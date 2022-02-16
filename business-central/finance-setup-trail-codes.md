@@ -3,7 +3,7 @@ title: Set Up Codes for Audit Trails
 description: Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

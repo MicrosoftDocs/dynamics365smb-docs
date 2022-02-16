@@ -3,7 +3,7 @@ title: Set Up Payment Classes [FR]
 description: To use payment management in the French version, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

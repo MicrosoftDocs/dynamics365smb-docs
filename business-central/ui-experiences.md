@@ -3,7 +3,7 @@ title: Change which features are displayed
 description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

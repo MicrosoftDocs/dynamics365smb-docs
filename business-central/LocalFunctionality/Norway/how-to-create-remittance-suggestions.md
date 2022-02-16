@@ -3,7 +3,7 @@ title: Create Remittance Suggestions [NO]
 description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

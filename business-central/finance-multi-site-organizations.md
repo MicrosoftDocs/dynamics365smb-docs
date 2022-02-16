@@ -3,7 +3,7 @@
     description: Business Central provides capabilities that support a hub-and-spoke business model.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

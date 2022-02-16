@@ -2,7 +2,7 @@
 title: Setting Up Printers
 description: Learn about setting up printers that you can use for reports and documents and the different print feature available to you in Business Central. 
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

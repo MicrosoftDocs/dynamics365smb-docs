@@ -4,7 +4,7 @@ description: A General Interbank Recurring Order (giro) is a payment system that
 
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:

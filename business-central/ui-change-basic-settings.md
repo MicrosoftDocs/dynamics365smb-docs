@@ -2,7 +2,7 @@
 title: Change basic settings for the current user
 description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

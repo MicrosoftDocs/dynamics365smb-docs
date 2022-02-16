@@ -3,7 +3,7 @@
     description: Describes how to print a report that displays cash and check details in a format required by the bank in the New Zealand version.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

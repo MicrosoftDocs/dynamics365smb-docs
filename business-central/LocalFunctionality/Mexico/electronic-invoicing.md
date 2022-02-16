@@ -3,7 +3,7 @@ title: Electronic Invoicing [MX]
 description: Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -34,7 +34,7 @@ The CFDI file is an XML file that contains:
 - Digital stamp of an authorized service provider, PAC, that you choose.  
 
 > [!IMPORTANT]  
-> You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT).  
+> You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice. By default, [!INCLUDE [prod_short](../../includes/prod_short.md)] supports integration with [Interfactura](https://interfactura.com/), but you can use another PAC of your choice.  
 
 ## Getting Started
 

@@ -2,7 +2,7 @@
 title: Optimizing Outlook for Your Business Inbox
 description: Learn about things you can do to improve experience with the Business Inbox in Microsoft Outlook.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

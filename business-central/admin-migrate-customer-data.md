@@ -3,7 +3,7 @@
     description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

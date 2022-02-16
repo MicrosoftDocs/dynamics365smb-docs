@@ -3,7 +3,7 @@ title: Finding Features and Information (contains video) | Microsoft Docs
 description: This topic describes how to use search to find actions, pages, reports, documentation, and data, as well as other apps and consulting services.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

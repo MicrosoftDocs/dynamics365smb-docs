@@ -3,7 +3,7 @@ title: Use Time Sheets
 description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

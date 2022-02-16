@@ -3,7 +3,7 @@
     description: This topic introduces changes to Codeunit 12, Gen. Jnl.-Post Line, and is the only place to insert general ledger, VAT, and customer and vendor ledger entries.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na

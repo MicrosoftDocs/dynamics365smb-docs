@@ -3,7 +3,7 @@
     description: Similar to assembly order posting, the consumed components and the used machine time are converted and output as the produced item when the production order is finished.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Business Intelligence and Reporting Overview
 description: Provides an overview of all the Business Intelligence and Reporting features that are supported in the Business Central product.
 author: KennieNP
 
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

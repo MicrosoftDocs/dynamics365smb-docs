@@ -3,7 +3,7 @@ title: Use Reports in Daily Work
 description: Provides a overview of all the Business Intelligence and Reporting features that are supported in the Business Central product.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

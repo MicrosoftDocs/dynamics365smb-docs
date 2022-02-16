@@ -3,7 +3,7 @@ title: Manage Employee Absence
 description: Describes how to record employees' absence and analyze absence statistics using the Absence Registration and Employee Absences pages.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

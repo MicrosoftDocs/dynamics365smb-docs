@@ -3,7 +3,7 @@
     description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

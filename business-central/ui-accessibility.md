@@ -2,7 +2,7 @@
 title: Assistive features
 description: This article provides information about keyboard shortcuts and other assistive features in Business Central for people with disabilities.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

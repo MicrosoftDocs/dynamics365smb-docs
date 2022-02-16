@@ -3,7 +3,7 @@ title: Post Intercompany Documents and Journals
 description: This topic explains how you use intercompany documents or journals to post transactions with your intercompany partners.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

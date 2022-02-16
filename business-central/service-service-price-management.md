@@ -3,7 +3,7 @@
     description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

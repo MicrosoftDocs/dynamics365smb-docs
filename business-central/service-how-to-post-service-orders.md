@@ -3,7 +3,7 @@
     description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

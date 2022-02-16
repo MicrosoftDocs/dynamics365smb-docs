@@ -3,7 +3,7 @@ title: Proportional VAT
 description: Norwegian enhancements allow you to calculate VAT when there is both deductible and non-deductible VAT.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

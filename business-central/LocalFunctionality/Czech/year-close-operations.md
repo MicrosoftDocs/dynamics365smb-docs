@@ -3,7 +3,7 @@ title: Year Closing Operations [CZ]
 description: This section describes local functionality for handling the year closing operations in the Czech version.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, closing operations
 ms.date: 06/25/2021

@@ -3,7 +3,7 @@
     description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

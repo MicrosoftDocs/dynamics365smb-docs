@@ -3,7 +3,7 @@
     description: Describes how to view details of sales tax credit memos and purchase tax credit memos that have been posted in the New Zealand version.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

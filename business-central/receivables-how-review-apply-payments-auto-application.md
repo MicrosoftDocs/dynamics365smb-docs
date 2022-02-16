@@ -4,7 +4,7 @@ description: After payments are applied automatically, you can review all the en
 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: To use the electronic VAT declaration, you must set up a VAT category code for all XML elements in the electronic VAT declaration.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

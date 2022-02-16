@@ -3,7 +3,7 @@ title: About Production Orders
 description: Learn about production orders, and how they are used to manage the conversion of purchased materials into manufactured items. 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

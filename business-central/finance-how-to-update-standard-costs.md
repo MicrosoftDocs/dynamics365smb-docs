@@ -3,7 +3,7 @@ title: Update Standard Costs
 description: You must periodically update the standard costs of components and roll the new costs up to the parent item.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

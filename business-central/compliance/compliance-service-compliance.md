@@ -3,7 +3,7 @@
     description: From a service perspective Business Central lives up to the strict requirements and SLA compliance in several ISO and industry specific certifications.
     author: sorenfriisalexandersen
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

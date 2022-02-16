@@ -3,7 +3,7 @@ title: Developing Report Layouts and Datasets
 description: Provides a overview of Business Central data.
 author: kennieNP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

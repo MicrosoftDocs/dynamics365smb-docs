@@ -3,7 +3,7 @@
     description: This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na

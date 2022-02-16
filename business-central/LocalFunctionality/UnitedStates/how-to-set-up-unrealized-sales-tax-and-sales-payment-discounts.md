@@ -3,7 +3,7 @@
     description: You can use the General Ledger Setup page to set up unrealized sales tax in the US version. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

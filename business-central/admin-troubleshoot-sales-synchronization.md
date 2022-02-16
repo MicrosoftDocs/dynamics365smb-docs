@@ -3,7 +3,7 @@ title: Troubleshooting Synchronization Errors
 description: This topic provides some guidance for identifying, troubleshooting and resolving synchronization errors.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

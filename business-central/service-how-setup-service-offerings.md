@@ -3,7 +3,7 @@
     description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: This topic describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -2,7 +2,7 @@
 title: Create and Manage Catalog Items
 description: Describes how to trade in items that are in your vendors list of items but not in your own list of items.
 author: SorenGP
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

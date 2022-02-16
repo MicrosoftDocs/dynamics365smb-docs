@@ -3,7 +3,7 @@ title: Reclassify Fixed Assets
 description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

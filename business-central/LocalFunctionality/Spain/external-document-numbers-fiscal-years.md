@@ -3,7 +3,7 @@
     description: Setup option to decide if it should be possible to reuse External Document Numbers across fiscal years in the Spanish version of Business Central.
     author: sorenfriisalexandersen
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.reviewer: edupont
     ms.search.keywords:

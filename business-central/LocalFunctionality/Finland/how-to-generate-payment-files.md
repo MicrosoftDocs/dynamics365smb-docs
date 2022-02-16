@@ -3,7 +3,7 @@ title: Generate Payment Files (FI)
 description: To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

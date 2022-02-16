@@ -2,7 +2,7 @@
 title: Analyzing Report Data with Excel
 description: Learn how to use Excel to analyze a report dataset. 
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

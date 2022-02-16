@@ -3,7 +3,7 @@
     description: You can use assembly management to customize an assembly item to a customer’s request during the sales process.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

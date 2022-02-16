@@ -3,7 +3,7 @@ title: Business Central Extensions by Other Providers
 description: This topic lists the apps and extensions to customize Business Central provided by other companies.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

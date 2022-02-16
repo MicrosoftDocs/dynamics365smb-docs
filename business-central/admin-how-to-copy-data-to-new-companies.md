@@ -3,7 +3,7 @@
     description: You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

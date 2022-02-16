@@ -4,7 +4,7 @@ description: Read about the different ways of customizing Business Central to im
 documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

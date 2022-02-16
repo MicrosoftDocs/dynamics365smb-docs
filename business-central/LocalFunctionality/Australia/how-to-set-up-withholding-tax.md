@@ -3,7 +3,7 @@
  description: This topic explains how a company sets up withholding tax (WHT) when it makes a payment to a vendor using the General Ledger Setup page.
  author: edupont04
 
- ms.service: dynamics365-business-central
+ 
  ms.topic: conceptual
  ms.devlang: na
  ms.tgt_pltfrm: na

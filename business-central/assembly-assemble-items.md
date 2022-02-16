@@ -3,7 +3,7 @@
     description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Printing the cash report CO-4 report in Russia
 description: Russian enhancements include support for teh cash report CO-4 report.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

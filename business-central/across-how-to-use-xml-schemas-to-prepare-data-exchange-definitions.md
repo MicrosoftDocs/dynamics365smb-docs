@@ -3,7 +3,7 @@
     description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

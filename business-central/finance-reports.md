@@ -1,6 +1,6 @@
 ---
 title: Financial Reports and Analytics
-description: See which financial reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+description: See which financial reports and analytics are available in the standard version of Business Central so that you can keep track of your business. Use report 38 for profit/loss (P&L) reporting.
 author: edupont04
 
 

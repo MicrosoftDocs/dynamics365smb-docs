@@ -2,7 +2,7 @@
     title: Print Inventory Picking List from Sales Order
     description: You can print an inventory picking list directly from a sales order, sales, invoice, and other outbound sales documents.
     author: SorenGP
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

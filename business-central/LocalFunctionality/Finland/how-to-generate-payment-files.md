@@ -1,22 +1,21 @@
 ---
-    title: How to Generate Payment Files
-    description: To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.
+title: Generate Payment Files (FI)
+description: To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Generate Payment Files
+# Generate Payment Files in the Finnish Version
+
 To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.  
 
 ## To generate a payment file  
@@ -27,7 +26,8 @@ To send electronic payments to vendors, you must first generate a payment file f
 4.  Choose the **Domestic payments** or **Foreign payments** action.  
 5.  Choose the **Yes** button to create a payment file.  
 
-## See Also  
+## See Also
+
  [Electronic Banking in Finland](electronic-banking-in-finland.md)   
  [Set Up Bank Reference Files](how-to-set-up-bank-reference-files.md)   
  [Disregard Payment Discounts](how-to-disregard-payment-discounts.md) 

@@ -3,7 +3,7 @@
     description: The planning functions suggest possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -83,7 +83,7 @@ For more information, see [Order Tracking Links during Planning](design-details-
 
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritization of requirements and resources play an important role in obtaining the best results.  
 
-The planning system in [!INCLUDE[prod_short](includes/prod_short.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order is can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
+The planning system in [!INCLUDE[prod_short](includes/prod_short.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
 
 ### Item Priority / Low-Level Code
 
@@ -118,7 +118,7 @@ For more information, see [Design Details: Transfers in Planning](design-details
 
 ### Order Priority
 
-Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this some kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
+Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
 
 For more information, see [Prioritizing Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

@@ -3,7 +3,7 @@ title: Cash Desk Management [CZ]
 description: The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 06/25/2021

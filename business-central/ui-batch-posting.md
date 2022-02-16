@@ -3,7 +3,7 @@ title: Post Multiple Documents at the Same Time
 description: Learn how to select multiple non-posted documents in a list for immediate or scheduled batch posting in Business Central.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

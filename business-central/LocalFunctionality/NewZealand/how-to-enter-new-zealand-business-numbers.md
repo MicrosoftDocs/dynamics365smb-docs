@@ -3,7 +3,7 @@
     description: You can enter an Inland Revenue Department Number (IRD) in certain pages in the New Zealand version of Business Central.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

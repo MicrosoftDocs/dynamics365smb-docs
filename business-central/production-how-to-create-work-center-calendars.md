@@ -1,19 +1,20 @@
 ---
-    title: How to Set Up Shop Calendars
+    title: Set Up Shop Calendars
     description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
     ms.date: 06/22/2021
     ms.author: edupont
 
 ---
 # Set Up Shop Calendars
+
 A work center or machine calendar specifies the working days and hours, shifts, holidays, and absences that determine the center’s gross available capacity, measured in time, according to its defined efficiency and capacity values.
 
 As a foundation for calculating a specific work or machine center calendar, you must first set up one or more general shop calendars. A shop calendar defines a standard work week according to start and end times of each working day and the work shift relation. In addition, the shop calendar defines the fixed holidays during a year.  

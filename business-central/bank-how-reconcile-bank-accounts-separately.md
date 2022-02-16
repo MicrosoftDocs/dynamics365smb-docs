@@ -3,12 +3,13 @@ title: Reconcile Bank Accounts
 description: This topic describes how to reconcile the transactions in your internal bank accounts with the transactions in statements from your bank.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
+ms.search.form: 379, 388, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
 
@@ -32,7 +33,7 @@ Reconciling bank transactions with internal bank entries is referred to as *matc
 > [!NOTE]  
 > If bank statement lines relate to check ledger entries, you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant check ledger entry to match the bank statement line with.
 
-When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the value in the **Balance To Reconcile** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Any non-matched bank account ledger entries will remain on the page, indicating some discrepancy that you should resolve to reconcile the bank account.
+When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
 
 Any lines that cannot be matched, indicated by a value in the **Difference** field, will remain on the **Bank Acc. Reconciliation** page after posting. They represent some kind of discrepancy that you must resolve before you can complete the bank account reconciliation. Typical business situations that may cause differences:
 

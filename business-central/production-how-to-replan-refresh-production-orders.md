@@ -1,19 +1,20 @@
 ---
-    title: Replan or Refresh Production Orders Directly
-    description: This topic outlines the procedures for how to replan production orders and refresh production orders directly.
-    author: SorenGP
+title: Replan or Refresh Production Orders Directly
+description: This topic outlines the procedures for how to replan production orders and refresh production orders directly.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.date: 06/25/2021
+ms.author: edupont
 
 ---
 # Replan or Refresh Production Orders Directly
+
 The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders. The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.  
 
 Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.  

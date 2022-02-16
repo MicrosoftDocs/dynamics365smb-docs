@@ -1,40 +1,44 @@
 ---
-    title: How to Set Up and Export Sales VAT Advance Notifications
-    description: In Business Central, to create valid sales VAT advance notifications, you must perform certain setup.
+title: Set Up and Export Sales VAT Advance Notifications
+description: In Business Central, to create valid sales VAT advance notifications, you must set up the declaration and other setup pages.
+author: sorenfriisalexandersen
 
-    author: sorenfriisalexandersen
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: soalex
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 01/21/2022
+ms.author: soalex
 
 ---
 
-# Sales VAT Advance Notifications  
-A Sales VAT Advance Notification in [!INCLUDE[prod_short](../../includes/prod_short.md)] is an XML file that you can use to report VAT to the German tax authorities on the Elektronische Steuererklärungen (ELSTER) online portal. The XML file includes tax and base amounts, and information about your company, and is created in the format and layout that German tax authorities require.    
+# Set Up and Export Sales VAT Advance Notifications
+
+A sales VAT advance notification is an XML file that you can use to report VAT to the German tax authorities on the Elektronische Steuererklärungen (ELSTER) online portal. [!INCLUDE [prod_short](../../includes/prod_short.md)] generates an XML file with tax and base amounts, and information about your company in the format and layout that German tax authorities require.
 
 > [!NOTE]
- >  Most of the functionality is included in the **ELSTER VAT Localization for Germany** Extension. Make sure that this is installed in your [!INCLUDE[prod_short](../../includes/prod_short.md)].
- 
- 
-## Set Up and Export Sales VAT Advance Notifications
-To create valid sales VAT advance notifications, you must set up the following:  
+> Most of the functionality is included in the **ELSTER VAT Localization for Germany** extension. Make sure that this is installed in your [!INCLUDE[prod_short](../../includes/prod_short.md)]. For more information, see [Customizing Business Central Online Using Extensions](../../ui-extensions.md).
+
+## Set up and export sales VAT advance notifications
+
+To create valid sales VAT advance notification, you must set up the following information:  
 
 - The company registration information and tax office information.  
 - Basic sales VAT advance notification on the **Electronic VAT Decl. Setup** page.
 - The VAT statement.  
 
-### To set up company information  
+### To set up company information
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
-2. On the **Company Information** page, in the **VAT Representative** field, enter the contact person for VAT related information.  
+2. On the **Company Information** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+
+    Specifically for sales VAT advance notifications, in the **VAT Representative** field, enter the contact person for VAT-related information.  
 3. Choose the **OK** button.  
 
-### To set up the Electronic VAT Decl. Setup
+### To set up the electronic VAT declaration
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Decl. Setup**, and then choose the related link.
 2. Fill in the fields as described in the following table.
 
@@ -44,25 +48,41 @@ To create valid sales VAT advance notifications, you must set up the following:
 |**Sales VAT Adv. Notif. Path**|Enter the path and name of the folder where you want to store the XML files.|
 |**XML File Default Name**|Enter the name of the file.|
 
-### To set up a VAT statement for sales VAT advance notifications  
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
-2.  On the **VAT Statement** page, in the **Name** field, choose the drop-down arrow.  
-3.  On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** check box.
+### To set up a VAT statement for sales VAT advance notifications
 
-> [!NOTE]  
- >  The VAT statement must have a VAT statement line for each key figure required by the tax authority, where the **Row No.** field contains the key figure and the **Amount Type** field specifies whether this is a base amount or a tax amount. Ask your tax office if you have questions concerning the key figures and their definition.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then choose the related link.  
+2. On the **VAT Statement** page, in the **Name** field, choose the drop-down arrow.  
+3. On the **VAT Statement Names** page, in the line for the appropriate VAT statement name, select the **Sales VAT Adv. Notification** field.
+
+    > [!NOTE]
+    > The VAT statement must have a VAT statement line for each key figure required by the tax authority, where the **Row No.** field contains the key figure and the **Amount Type** field specifies whether this is a base amount or a tax amount. Ask your tax office if you have questions concerning the key figures and their definition.
 
 4. Choose the **OK** button.  
 
-## To create an XML document for Sales VAT advance notification  
+## To create an XML document for Sales VAT advance notification
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Vat Advanced Notification List**, and then choose the related link.  
 2. On the **Sales Vat Advanced Notification List** page, choose the **New** action.  
-3. On the **Sales VAT Adv. Notif. Card** page, fill in the fields.
-4. Choose **Process**, and then choose the **Create XML-File** action.  
+3. On the **Sales VAT Adv. Notif. Card** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+
+    > [!CAUTION]
+    > If you have submitted a sales VAT advance notification as a test notification by selecting the **Testversion** field, you cannot change it into a real notification later. The tax authority will not accept the same XML file if it is submitted with the **Testversion** field cleared.
+
+    Optionally, choose the **Preview statement** action to see a VAT statement that shows the data that will be in the XML that you will submit to the ELSTER portal. This view shows an amount for each element in the XML file in a human-readable format.  
+
+    > [!NOTE]
+    > In versions older than version 19.3 and other updates that are made available in January and February 2022), the **Sales VAT Adv. Notif. Card** page shows fields and actions based on deprecated functionality in both the ELSTER portal and [!INCLUDE [prod_short](../../includes/prod_short.md)]. Specifically fields that are tied to stylesheets are no longer in use, because the ELSTER portal no longer provides such stylesheets.
+4. Choose the **Create XML-File** action.
+
 5. On the **Create XML - VAT Adv. Notif.** page, in the **XML-File** field, choose either the **Create** or the **Create and Export** option.  
+
+    If you choose the **Create and Export** option, the XML file is generated and saved to your device. If you choose the **Create** option, data is generated in [!INCLUDE [prod_short](../../includes/prod_short.md)] that will be generated as an XML file when you choose the **Export** action on the **Sales VAT Adv. Notif. Card** page.  
 6. Choose the **OK** button.  
 
+After the sales VAT advance notification document is created, all fields in the **Sales VAT Adv. Notif. Card** page can no longer by modified, except the **Description** field, because they define the content of the XML document. If you have created an XML document and want to create a new XML document for the same period without transmitting the existing document to the tax authority, you must delete the existing XML file and then create the new document.
+
 ## See Also
+
 [VAT Reporting](vat-reporting.md)  
 [Germany Local Functionality](germany-local-functionality.md)  
 [Customizing Business Central Using Extensions](../../ui-extensions.md)  

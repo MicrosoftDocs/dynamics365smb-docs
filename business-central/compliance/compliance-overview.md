@@ -4,8 +4,8 @@
     author: sorenfriisalexandersen
     documentationcenter: ''
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
+    
+    ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

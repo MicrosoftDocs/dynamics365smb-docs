@@ -48,27 +48,27 @@
         {
             "source_path": "business-central/across-how-to-connect-powerbi-dynamics-365-content-packs-help.md",
             "redirect_url": "/dynamics365/business-central/admin-powerbi",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "business-central/across-troubleshooting-how-use-financials-data-source-flow.md",
             "redirect_url": "/dynamics365/business-central/across-how-use-financials-data-source-flow",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "business-central/upload-data.md",
             "redirect_url": "/dynamics365/business-central/across-import-data-configuration-packages",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "business-central/LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md",
             "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "business-central/LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md",
             "redirect_url": "/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files",
-            "redirect_document_id": true
+            "redirect_document_id": false
         },
         {
             "source_path": "business-central/LocalFunctionality/Belgium/isabel-6.md",

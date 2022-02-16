@@ -1,73 +1,57 @@
 ---
-    title: How to Set Up Accelerated Depreciation
-    description: To use the accelerated depreciation calculation, you must set up depreciation books for fixed assets.
+title: Set Up Accelerated Depreciation
+description: To use the accelerated depreciation calculation, you must set up depreciation books for fixed assets.
+author: edupont04
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 5610, 5611
+ms.date: 02/14/2022
+ms.author: edupont
 
 ---
 # Set Up Accelerated Depreciation
+
 To use the accelerated depreciation calculation, you must set up the following depreciation books for fixed assets:  
 
 - The accounting depreciation book (integrated with the general ledger).  
 - The tax depreciation book (not integrated with the general ledger).  
 
 > [!NOTE]  
->  When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.  
+> When you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is duplicated and posted in the tax depreciation book when the fixed asset journal is posted.  
 
-## To set up the accounting depreciation book  
+The difference between the accounting depreciation book and the tax depreciation book is managed through the settings on the **Integration** FastTab on the deprecation book card as indicated in the following table.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
-2.  On the **Depreciation Book List** page, choose ¨the **New** action.  
-3.  On the **General** FastTab, fill in the required fields as described in the following table.  
+|Depreciation book purpose  |Value of the Derogatory field  |
+|---------|---------|
+|Accounting depreciation  | Switched on       |
+|Tax depreciation     | Switched off |
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|The unique identification code for the accounting depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
-    |**Description**|The depreciation book description.|  
+The **Derogatory** field specifies if you want derogatory entries that are posted to this depreciation book to be posted both to the general ledger and the FA ledger. If you have placed a check mark in the field, you must use the FA G/L journal to post derogatory entries.
 
-    > [!IMPORTANT]  
-    >  Leave the **Derogatory Calculation** field blank.  
+You specify the G/L accounts that must be used in the **FA Posting Group** page. In the **Depreciation Book** page, you specify the posting group that must be used.
 
-4.  On the **Integration** FastTab, select the **Derogatory** check box to integrate accelerated depreciation with the general ledger.  
+If you do not place a check mark in the field, you must use the FA journal to post derogatory entries, which will be posted only to the FA Ledger Entry table.
 
-    For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
+For the tax depreciation book, on the **General** FastTab, you then specify the relevant accounting depreciation book in the **Derogatory Calculation** that will calculate derogatory depreciation. The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.  
 
-5.  Choose the **OK** button.  
+## Derogatory calculation
 
-## To set up the tax depreciation book  
+The **Derogatory Calculation** field on a depreciation book specifies if this book is used as tax depreciation book to calculate derogatory depreciation. The specified code for the accounting depreciation book establishes a derogatory setup.
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the relevant link.  
-2.  On the **Depreciation Book List** page, choose the **New** action.  
-3.  On the **General** FastTab, fill in the required fields as described in the following table.  
+As for the tax book, only FA entries will be posted, the check boxes on the **Integration** tab cannot be checked.
 
-    |Field|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Code**|The unique identification code for the tax depreciation book. You can enter a maximum of 10 alphanumeric characters.|  
-    |**Description**|The tax depreciation book description.|  
+When the field is blank, [!INCLUDE[prod_short](../../includes/prod_short.md)] will use the depreciation book in a standard way. If it is not blank, the system will calculate derogatory depreciation.
 
-4.  In the **Derogatory Calculation** field, select the accounting depreciation book code to indicate that this is a tax depreciation book to calculate derogatory depreciation.  
+## See Also
 
-    For more information, see [Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md).  
-
-5.  Choose the **OK** button.  
-
-The **Used with Derogatory Book** field in the accounting depreciation book is updated with the tax depreciation book code.  
-
-## See Also  
- [Accelerated Depreciation](accelerated-depreciation.md)   
- [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)   
-[Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)
+[Accelerated Depreciation](accelerated-depreciation.md)  
+[Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md)  
+[Set Up Fixed Asset Depreciation](../../fa-how-setup-depreciation.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

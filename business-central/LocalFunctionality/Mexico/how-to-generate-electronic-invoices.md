@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 12/20/2021
+    ms.date: 02/16/2022
     ms.author: edupont
 
 ---
@@ -32,7 +32,7 @@ The following procedure describes how to generate electronic invoices for sales 
     You can view of the status of the electronic invoice on the **Shipping & Billing** FastTab.
 4. Optionally, choose the **Export E-Document as XML** action. Select the location where you want to save the electronic invoice as an XML file.  
 
-    To verify the electronic invoice activity, on the **Posted Sales Invoice** page, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E-Document Submissions** fields will be updated.  
+To verify the electronic invoice activity, on the **Posted Sales Invoice** page, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E-Document Submissions** fields will be updated.  
 
 > [!NOTE]  
 > [!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation.md)]  

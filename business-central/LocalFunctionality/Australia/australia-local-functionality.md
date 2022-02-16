@@ -2,7 +2,7 @@
 title: Australia Local Functionality
 description: The following topics describe the local functionality in the Australian version of Business Central.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

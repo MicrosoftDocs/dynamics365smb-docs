@@ -3,12 +3,12 @@
     description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
     ms.date: 04/01/2021
     ms.author: edupont
 

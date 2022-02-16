@@ -1,16 +1,16 @@
 ---
-    title: Create Prepayment Invoices
-    description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
-    author: edupont04
+title: Create Prepayment Invoices
+description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
+author: edupont04
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 12/02/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 42, 50, 9305, 9307
+ms.date: 12/02/2021
+ms.author: edupont
 
 ---
 # Create Prepayment Invoices

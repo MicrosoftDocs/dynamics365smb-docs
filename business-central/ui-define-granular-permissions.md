@@ -3,12 +3,13 @@ title: Define Granular Permissions
 description: This topic describes how to define granular permissions by giving certain users access to objects and assigning permission sets to them.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
 

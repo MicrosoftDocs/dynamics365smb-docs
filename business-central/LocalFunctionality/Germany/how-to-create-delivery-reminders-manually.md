@@ -3,7 +3,7 @@
     description: The following topic provides examples of how to create delivery reminders manually in the German version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

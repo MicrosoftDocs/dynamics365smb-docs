@@ -3,7 +3,7 @@
     description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

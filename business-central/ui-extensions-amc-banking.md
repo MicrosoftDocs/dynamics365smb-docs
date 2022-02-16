@@ -3,7 +3,7 @@ title: Using the AMC Banking 365 Fundamentals Extension
 description: Learn how to easily exchange data with your banks by transforming data into the format that they require.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

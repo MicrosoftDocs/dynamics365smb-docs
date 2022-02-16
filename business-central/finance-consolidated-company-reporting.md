@@ -3,12 +3,13 @@ title: Consolidate Data from Multiple Companies
 description: This topic explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
+ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
 

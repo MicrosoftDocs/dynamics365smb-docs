@@ -3,7 +3,7 @@ title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

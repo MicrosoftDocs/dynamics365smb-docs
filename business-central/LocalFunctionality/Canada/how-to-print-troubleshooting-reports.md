@@ -3,7 +3,7 @@
     description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Canadian version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

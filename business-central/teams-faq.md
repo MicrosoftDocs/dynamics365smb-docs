@@ -2,7 +2,7 @@
 title: Teams FAQ
 description: Get answers for some typical questions about working with Teams and Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

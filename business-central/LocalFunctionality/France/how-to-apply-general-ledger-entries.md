@@ -1,17 +1,18 @@
 ---
-    title: How to Apply General Ledger Entries [FR]
-    description: You apply general ledger entries to justify ledger balances on asset and liability accounts.
+title: Apply General Ledger Entries [FR]
+description: You apply general ledger entries to justify ledger balances on asset and liability accounts.
 
-    author: SorenGP
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 16, 10842
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
 # Apply General Ledger Entries in the French Version

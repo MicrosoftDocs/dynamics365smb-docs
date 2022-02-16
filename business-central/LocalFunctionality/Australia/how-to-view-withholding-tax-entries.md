@@ -3,7 +3,7 @@
     description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the Australian version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,22 +1,20 @@
 ---
-    title: Recipient Reference Codes [NO]
-    description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
+title: Recipient Reference Codes [NO]
+description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: edupont
 
 ---
 # Recipient Reference Codes in the Norwegian Version
+
 The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
 
 The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  

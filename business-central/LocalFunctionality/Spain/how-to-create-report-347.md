@@ -3,7 +3,7 @@ title: How to Create Report 347 [ES]
 description: Read about how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/21/2021

@@ -3,7 +3,7 @@ title: Setting up customer and vendor agreements in Russia
 description: Russian enhancements include agreements with customers and vendors.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

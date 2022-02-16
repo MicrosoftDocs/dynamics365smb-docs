@@ -3,9 +3,10 @@ title: Update Currency Exchange Rates (contains video)
 description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.search.form: 5, 118
 ms.date: 07/23/2021
 ms.author: edupont
 

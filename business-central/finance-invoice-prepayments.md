@@ -3,12 +3,12 @@
     description: Learn how to use prepayments to invoice and collect deposits from customers and remit deposits to vendors in Business Central. 
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
     ms.date: 12/03/2021
     ms.author: edupont
 

@@ -1,16 +1,16 @@
 ---
-    title: Design Details - Costing Methods
-    description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
-    author: bholtorf
+title: Design Details - Costing Methods
+description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
+author: bholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/14/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 30, 31, 8645
+ms.date: 06/14/2021
+ms.author: bholtorf
 
 ---
 # Design Details: Costing Methods
@@ -30,11 +30,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 | Specific | An item's unit cost is the exact cost at which the particular unit was received. | In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers. |
 | Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards. |
 
- The following image shows how costs flow through the inventory for each costing method.  
+The following image shows how costs flow through the inventory for each costing method.  
 
  ![Costing methods.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods")  
 
- Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
+Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
 
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
@@ -43,10 +43,11 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 |Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
 |Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
 
-## Example  
- This section gives examples of how different costing methods affect inventory value.  
+## Example
 
- The following table shows the inventory increases and decreases that the examples are based on.  
+This section gives examples of how different costing methods affect inventory value.  
+
+The following table shows the inventory increases and decreases that the examples are based on.  
 
 |Posting Date|Quantity|Entry No.|  
 |------------------|--------------|---------------|  
@@ -58,108 +59,111 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  The resulting quantity in inventory is zero. Consequently, the inventory value must also be zero, regardless of the costing method.  
+> The resulting quantity in inventory is zero. Consequently, the inventory value must also be zero, regardless of the costing method.  
 
-### Effect of Costing Methods on Valuing Inventory Increases  
- **FIFO**/**LIFO**/**Average**/**Specific**  
+### Effect of Costing Methods on Valuing Inventory Increases
 
- For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
+- **FIFO**/**LIFO**/**Average**/**Specific**  
 
- The following table shows how inventory increases are valued for all costing methods except **Standard**.  
+    For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10.00|1|  
-|01-01-20|1|20.00|2|  
-|01-01-20|1|30.00|3|  
+    The following table shows how inventory increases are valued for all costing methods except **Standard**.  
 
- **Standard**  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10.00|1|  
+    |01-01-20|1|20.00|2|  
+    |01-01-20|1|30.00|3|  
 
- For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
+- **Standard**  
 
- The following table shows how inventory increases are valued for the **Standard** costing method.  
+    For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15.00|1|  
-|01-01-20|1|15.00|2|  
-|01-01-20|1|15.00|3|  
+    The following table shows how inventory increases are valued for the **Standard** costing method.  
 
-### Effect of Costing Methods on Valuing Inventory Decreases  
- **FIFO**  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15.00|1|  
+    |01-01-20|1|15.00|2|  
+    |01-01-20|1|15.00|3|  
 
- For items using the **FIFO** costing method, items that were purchased first are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the first inventory increase.  
+### Effect of Costing Methods on Valuing Inventory Decreases
 
- COGS is calculated using the value of the first inventory acquisitions.  
+- **FIFO**  
 
- The following table shows how inventory decreases are valued for the **FIFO** costing method.  
+    For items using the **FIFO** costing method, items that were purchased first are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the first inventory increase.  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-10.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-30.00|6|  
+    COGS is calculated using the value of the first inventory acquisitions.  
 
- **LIFO**  
+    The following table shows how inventory decreases are valued for the **FIFO** costing method.  
 
- For items using the **LIFO** costing method, items that were purchased most recently are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the last inventory increase.  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-10.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-30.00|6|  
 
- COGS is calculated using the value of the most recent inventory acquisitions.  
+- **LIFO**  
 
- The following table shows how inventory decreases are valued for the **LIFO** costing method.  
+    For items using the **LIFO** costing method, items that were purchased most recently are always sold first (entry numbers 3, 2, and 1 in this example). Accordingly, inventory decreases are valued by taking the value of the last inventory increase.  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-30.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-10.00|6|  
+    COGS is calculated using the value of the most recent inventory acquisitions.  
 
- **Average**  
+    The following table shows how inventory decreases are valued for the **LIFO** costing method.  
 
- For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-30.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-10.00|6|  
 
- The following table shows how inventory decreases are valued for the **Average** costing method.  
+- **Average**  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-20.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-20.00|6|  
+    For items using the **Average** costing method, inventory decreases are valued by calculating a weighted average of the remaining inventory on the last day of the average cost period in which the inventory decrease was posted. For more information, see [Design Details: Average Cost](design-details-average-cost.md).  
 
- **Standard**  
+    The following table shows how inventory decreases are valued for the **Average** costing method.  
 
- For items using the **Standard** costing method, inventory decreases are valued similar to the **FIFO** costing method, except valuation is based on a standard cost, not on the actual cost.  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-20.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-20.00|6|  
 
- The following table shows how inventory decreases are valued for the **Standard** costing method.  
+- **Standard**  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-15.00|4|  
-|03-01-20|-1|-15.00|5|  
-|04-01-20|-1|-15.00|6|  
+    For items using the **Standard** costing method, inventory decreases are valued similar to the **FIFO** costing method, except valuation is based on a standard cost, not on the actual cost.  
 
- **Specific**  
+    The following table shows how inventory decreases are valued for the **Standard** costing method.  
 
- Costing methods make an assumption about how cost flows from an inventory increase to an inventory decrease. However, if more accurate information about the cost flow exists, then you can override this assumption by creating a fixed application between entries. A fixed application creates a link between an inventory decrease and a specific inventory increase and directs the cost flow accordingly.  
+    |Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-15.00|4|  
+    |03-01-20|-1|-15.00|5|  
+    |04-01-20|-1|-15.00|6|  
 
- For items using the **Specific** costing method, inventory decreases are valued according to the inventory increase that it is linked to by the fixed application.  
+- **Specific**  
 
- The following table shows how inventory decreases are valued for the **Specific** costing method.  
+    Costing methods make an assumption about how cost flows from an inventory increase to an inventory decrease. However, if more accurate information about the cost flow exists, then you can override this assumption by creating a fixed application between entries. A fixed application creates a link between an inventory decrease and a specific inventory increase and directs the cost flow accordingly.  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Applies-to Entry|Entry No.|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|02-01-20|-1|-20.00|**2**|4|  
-|03-01-20|-1|-10.00|**1**|5|  
-|04-01-20|-1|-30.00|**3**|6|  
+    For items using the **Specific** costing method, inventory decreases are valued according to the inventory increase that it is linked to by the fixed application.  
 
-## See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Variance](design-details-variance.md)   
- [Design Details: Average Cost](design-details-average-cost.md)   
- [Design Details: Item Application](design-details-item-application.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
- [Finance](finance.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    The following table shows how inventory decreases are valued for the **Specific** costing method.  
+
+    |Posting Date|Quantity|Cost Amount (Actual)|Applies-to Entry|Entry No.|
+    |------------|--------|--------------------|----------------|---------|  
+    |02-01-20|-1|-20.00|**2**|4|  
+    |03-01-20|-1|-10.00|**1**|5|  
+    |04-01-20|-1|-30.00|**3**|6|  
+
+## See Also
+
+[Design Details: Inventory Costing](design-details-inventory-costing.md)   
+[Design Details: Variance](design-details-variance.md)   
+[Design Details: Average Cost](design-details-average-cost.md)   
+[Design Details: Item Application](design-details-item-application.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

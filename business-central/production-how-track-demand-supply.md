@@ -3,17 +3,18 @@
     description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 5830, 9101, 99000822, 99000855
     ms.date: 06/25/2021
     ms.author: edupont
 
 ---
 # Track Relations Between Demand and Supply
+
 From any supply or demand document in the so-called order network, you can track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.
 
 The planning worksheets also offers supporting planning information about non-order entities to help the planner obtain an optimal supply plan. For more information, see [Untracked Planning Elements](production-how-track-demand-supply.md#untracked-planning-elements).

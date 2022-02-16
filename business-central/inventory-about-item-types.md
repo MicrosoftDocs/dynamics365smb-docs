@@ -1,34 +1,34 @@
 ---
 title: Understanding Item Types
 description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods when item costs change for reasons other than transactions.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 9297, 5845, 30, 
 ms.date: 06/16/2021
 ms.author: edupont
 
+
 ---
 # About Item Types
-In the **Type** field on the **Item Card** page, you can select what the item is used for in your business and therefore how it is managed in the system. Three options exist:
+In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory. The following table lists and describes the three types of items that are available.
 
 |Option|Typical Purpose|
 |------|-----------|
-|Inventory|A physical unit, such as a bicycle, for full business support.|
-|Non-Inventory|A physical unit, such as a bolt, for limited business support, for example, because the item is only used internally and has a low cost.|
+|Inventory|Physical things, such as bicycles, telephones, and desks, for which you want to be able to use all inventory processes. This can also include non-physical items, such as software licenses and subscriptions, if the items have identification numbers, such as serial numbers. You can fully track item values and availability in inventory.|
+|Non-Inventory|Typically, non-inventory items are physical things, such as bolts or pens, that a business consumes but does not want to fully track in inventory. For example, because they're low-cost items and are only used internally.|
 |Service|A labor time unit, such as a consultancy hour, for limited business support.|
 
-The **Inventory** type involves full tracking of inventory quantity and value. Therefore, all item transaction types are supported, and items of type Inventory can be used with all item-handling features.
+> [!NOTE]
+> The **Service** and **Non-Inventory** types do not support tracking of inventory quantities and values. Only selected item transaction types and features are supported.
 
-The **Service** and **Non-Inventory** types do not involve tracking of inventory quantity and value. Therefore, only selected item transaction types and features are supported.
-
-The three item types support the following features respectively.
+The following table lists the features that the three item types support.
 
 |Item Type|Sales|Purchasing|Job Consumption|Service Consumption|Assembly Consumption|Production Consumption|Assembly Output|Production Output|Location Transfer|Physical Counting|Inventory Revaluation|Inventory Costing|Item Tracking|Reservation|Warehousing|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

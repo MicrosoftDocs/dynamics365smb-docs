@@ -3,12 +3,13 @@
     description: To submit VAT statements electronically in XML format in the Spanish version of Business Central, create templates to manage the formats.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 10710
     ms.date: 04/01/2021
     ms.author: edupont
 

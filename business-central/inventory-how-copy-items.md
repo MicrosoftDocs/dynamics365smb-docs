@@ -1,16 +1,16 @@
 ---
-    title: How to Copy Existing Items to New Items
-    description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
-    author: SorenGP
+title: How to Copy Existing Items to New Items
+description: When you add a new item, to save time, you can use the Copy Item function to copy an existing item to use as a template for a new item.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.forms: 729
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Copy Existing Items to Create New Items

@@ -3,7 +3,7 @@
     description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

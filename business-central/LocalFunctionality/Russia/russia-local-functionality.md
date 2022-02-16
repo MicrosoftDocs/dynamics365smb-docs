@@ -3,7 +3,7 @@ title: Russia Local Functionality
 description: The following topics describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 author: AliiaSalikhova
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:

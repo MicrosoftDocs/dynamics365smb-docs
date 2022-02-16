@@ -3,12 +3,12 @@
     description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes with approval User Setup.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 663
     ms.date: 06/11/2021
     ms.author: edupont
 

@@ -6,13 +6,13 @@ author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.date: 06/14/2021
 ---
 
 # Handling Missing Option Values
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 This topic is intended for a technical audience. The processes it describes require the help of a developer.
 

@@ -3,7 +3,7 @@
     description: You can quickly configure a new company that you have created by using the RapidStart Services configuration wizard.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: You can create the required VAT declarations for trade of goods or services file by using the VAT- VIES Declaration Disk batch job.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

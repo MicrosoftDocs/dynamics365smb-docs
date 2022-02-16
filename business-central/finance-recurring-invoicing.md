@@ -1,14 +1,15 @@
 ---
-title: Work with recurring revenue| Microsoft Docs
+title: Work with recurring revenue
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 author: AndreiPanko
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283 
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa

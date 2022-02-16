@@ -3,7 +3,7 @@
     description: In the Dutch version of Business Central, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

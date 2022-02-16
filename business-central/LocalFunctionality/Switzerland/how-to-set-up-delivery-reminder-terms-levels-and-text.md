@@ -3,12 +3,13 @@
     description: To create delivery reminders in the Swiss version of Business Central, you must set up delivery reminder terms, levels, and text messages.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 5005270, 5005272
     ms.date: 06/25/2021
     ms.author: edupont
 

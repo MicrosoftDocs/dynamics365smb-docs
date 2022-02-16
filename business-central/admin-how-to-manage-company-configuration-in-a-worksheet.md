@@ -3,7 +3,7 @@
     description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

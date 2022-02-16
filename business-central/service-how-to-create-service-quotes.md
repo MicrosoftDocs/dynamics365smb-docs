@@ -3,7 +3,7 @@
     description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

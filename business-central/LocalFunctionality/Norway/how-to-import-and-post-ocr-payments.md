@@ -1,16 +1,17 @@
 ---
-    title: How to Import and Post OCR Payments
-    description: Before you can receive optical character recognition (OCR) payments, you must make certain preparations.
-    author: SorenGP
+title: Import and Post OCR Payments [NO]
+description: Before you can receive optical character recognition (OCR) payments, you must make certain preparations in the Norwegian version of Business Central.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000100, 255
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Import and Post OCR Payments

@@ -3,7 +3,7 @@ title: Company Information Quick Start
 description: Learn how to fill in the first critical fields about your company in Business Central by reading this Quick Start article.
 author: jill-kotel-andersson
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

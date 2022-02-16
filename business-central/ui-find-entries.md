@@ -1,13 +1,14 @@
 ---
-title: Finding entries | Microsoft Docs
+title: Finding entries
 description: This article describes how to documents and entries that are related
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 344
 ms.date: 04/01/2021
 ms.author: jswymer
 ---

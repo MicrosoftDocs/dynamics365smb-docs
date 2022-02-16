@@ -3,7 +3,7 @@
     description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices in the New Zealand version.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

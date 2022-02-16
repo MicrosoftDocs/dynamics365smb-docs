@@ -1,14 +1,14 @@
 ---
     title: Set Up Work Centers and Machine Centers
-    description: A **Work Center** card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
+    description: A Work Center card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
     ms.date: 04/01/2021
     ms.author: edupont
 

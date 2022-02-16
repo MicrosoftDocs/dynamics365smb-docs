@@ -3,9 +3,9 @@ title: Set Up Payment Terms
 description: In the base version of Business Central, use payment terms to manage due dates and payment discounts. 
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
-ms.search.keywords:
+ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
 ---

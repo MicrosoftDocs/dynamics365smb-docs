@@ -3,12 +3,13 @@ title: Manage Job Supplies
 description: Describes the different ways to to manage the supply and purchase of material and services for jobs.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
+ms.search.form: 98, 1020 
 ms.date: 06/22/2021
 ms.author: edupont
 

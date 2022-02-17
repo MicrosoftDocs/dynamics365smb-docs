@@ -1,11 +1,12 @@
 ---
-title: Switching to Another Company or Environment | Microsoft Docs
+title: Switching to Another Company or Environment
 description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
 author: bholtorf
 
 
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
+ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 10/04/2021
 ms.author: bholtorf
 

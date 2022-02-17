@@ -3,14 +3,15 @@ title: Create new companies using an assisted setup guide
 description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803
-ms.date: 04/01/2021
+ms.search.form: 1803, 9192, 357, 9020, 9022, 9027, 9018
+9018 
+
+ms.date: 02/17/2022
 ms.author: edupont
 
 ---
@@ -28,8 +29,6 @@ The setup wizard offers three templates and a blank option:
     This creates a company that is similar to the demonstration company with sample data and setup data.  
 - **Production - Setup Data Only**  
     This creates a company that is similar to **My Company** with setup data but without sample data.
-- **Advanced Evaluation - Complete Sample Data**
-    This creates a company with setup data and complete sample data for all features, including Manufacturing and Service Management.
 - **Create New - No Data**  
     This creates a blank company without setup data.  
 
@@ -67,6 +66,10 @@ Once a company has been created, you can't change it's name. But you can change 
 
 > [!TIP]
 > You can rename a company if you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
+
+## Add Contoso Coffee
+
+The Contoso Coffee app provides demonstration data that can help you explore the capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment.  
 
 ## See Also
 

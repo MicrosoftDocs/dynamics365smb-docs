@@ -1,16 +1,14 @@
 ---
-title: Using General Functionality Across Business Areas | Microsoft Docs
-description: Learn about the functionality and features that are used across business areas in Business Central .
-services: project-madeira
-documentationcenter: ''
+title: Using General Functionality Across Business Areas
+description: Learn about the functionality and features that are used across business areas in Business Central.
 author: SorenGP
-
 
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
+ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
 

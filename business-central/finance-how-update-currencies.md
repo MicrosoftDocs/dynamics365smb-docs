@@ -25,6 +25,10 @@ Your general ledger is set up to use your local currency (LCY), but you can set 
 > [!IMPORTANT]
 > If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
+> [!NOTE]  
+> When you post to G/L using a currency code, for example to post an expense in a general journal using a currency code, the transaction is converted to LCY using the currency exchange rate for the posting date. The G/L entry will not contain information of which currency was used, only it's value in LCY.
+If you want to keep track of original currency, for example for invoices you need to use the sales and purchase documents as well as bank accounts that do store currency code information for the entries.
+
 ## Currencies
 
 > [!NOTE]  

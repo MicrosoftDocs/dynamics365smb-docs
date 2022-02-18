@@ -14,7 +14,7 @@
 
 ---
 # Set Up Bin Types
-You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way the way a bin is used, by assigning it a bin type.  
+You can direct the flow of items through bins that you have defined for particular warehouse activities. You give each bin its basic flow activities, and thereby define the way a bin is used, by assigning it a bin type.  
 
 There are six types. You can operate your warehouse with all of the six possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.  
 

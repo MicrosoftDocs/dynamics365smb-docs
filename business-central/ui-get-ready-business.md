@@ -89,6 +89,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

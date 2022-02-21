@@ -3,7 +3,7 @@
     description: You can set up a new company in Business Central with RapidStart services  to enhance productivity by automating and simplifying recurring tasks.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

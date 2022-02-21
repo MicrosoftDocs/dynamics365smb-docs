@@ -3,7 +3,7 @@ title: Set Up Prepayments
 description: Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
@@ -20,10 +20,12 @@ Before you can post prepayment invoices, you have to set up the posting accounts
 You can define the percentage of the line amount that will be invoiced for prepayment, for a customer or vendor, for all items or selected items. After you complete the setup, you can generate prepayment invoices from sales and purchase orders. You can use the default percentages for each sales or purchase line, or you can change the amounts on the invoice as needed. For example, you can specify a total amount for the entire order.  
 
 > [!NOTE]
-> We recommend that you do not use a prepayment percentage of 100% in the following cases:
+> We recommend that you do not use a prepayment percentage of 100 in the following cases:
 >
-> * If you are located in North America. Due to how taxes are calculated, a prepayment percentage of 100% can lead to issues with prepayment invoices.
-> * In all regions, if you manually deduct a payment discount from the invoice. A prepayment percentage of 100% will not automatically leave an amount from which to deduct the discount. 
+> * If you are located in North America. Due to how taxes are calculated, a prepayment percentage of 100 can lead to issues with prepayment invoices.
+> * In all regions, if you manually deduct a payment discount from the invoice. A prepayment percentage of 100 will not automatically leave an amount from which to deduct the discount.
+>
+> Also, when you're using prepayment percentage of 100, [!INCLUDE[prod_short](includes/prod_short.md)] might need to create off-setting rounding entries. When that happens, you will need to choose a G/L account in the **Invoice Rounding Account** field on the **Customer Posting Groups** page. This is true even if you have not turned on the **Invoice Rounding** toggle on the **Sales & Receivables Setup** page. If you do not specify an account you you will not be able to post prepayment invoices. 
 
 Because the prepaid amount belongs to the buyer until they have received the goods or services, you need to set up general ledger accounts to hold the prepayment amounts until the final invoice is posted. Sales prepayments must be recorded in a liabilities account until the items are shipped. Purchase prepayments must be recorded in an assets account until the items are received. In addition, you must set up a separate general ledger account for each VAT identifier.  
 

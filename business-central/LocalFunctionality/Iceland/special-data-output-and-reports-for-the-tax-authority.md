@@ -3,7 +3,7 @@
     description: In Iceland, it is a legal requirement to send a data file in a specific format to the tax authorities.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

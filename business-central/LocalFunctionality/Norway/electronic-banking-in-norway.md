@@ -1,19 +1,16 @@
 ---
-    title: Electronic Banking in Norway
-    description: This topic explains the Business Central Norwegian enhancements for handling electronic banking with a number of operations.
+title: Electronic Banking in Norway
+description: This topic explains the Business Central Norwegian enhancements for handling electronic banking with a number of operations in the Norwegian version of Business Central.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
 # Electronic Banking in Norway

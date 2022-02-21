@@ -3,7 +3,7 @@ title: Creating fixed asset charges in Russia
 description: Russian enhancements include fixed asset charges.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

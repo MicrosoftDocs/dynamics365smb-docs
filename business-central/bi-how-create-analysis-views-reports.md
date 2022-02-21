@@ -3,7 +3,7 @@ title: Create Analysis Reports| Microsoft Docs
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

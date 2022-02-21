@@ -3,7 +3,7 @@
     description: If your locations use picking as well as shipping, pick components for production and assembly activities in the Warehouse Pick page.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

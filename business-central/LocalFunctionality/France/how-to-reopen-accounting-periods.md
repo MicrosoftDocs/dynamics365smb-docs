@@ -1,19 +1,16 @@
 ---
-    title: How to Reopen Accounting Periods
-    description: When a single fiscal period has been fiscally closed it might be necessary to reopen it to post general ledger entries.
+title: Reopen Accounting Periods [FR]
+description: When a single fiscal period has been fiscally closed, it might be necessary to reopen it to post general ledger entries in the french version of Business Central.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Reopen Accounting Periods

@@ -3,7 +3,7 @@ title: Set Up Email Logging| Microsoft Docs
 description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
 author: bholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

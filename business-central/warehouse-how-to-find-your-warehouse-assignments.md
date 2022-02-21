@@ -3,7 +3,7 @@
     description: This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

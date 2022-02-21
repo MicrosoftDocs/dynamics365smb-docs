@@ -1,12 +1,9 @@
 ---
-    title: How to Open a New Fiscal Year
+    title: Open a New Fiscal Year [FR]
     description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -16,7 +13,8 @@
     ms.author: edupont
 
 ---
-# Open a New Fiscal Year
+# Open a New Fiscal Year in the French Version
+
 Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.  
 
 ## To open a new fiscal year  
@@ -32,7 +30,7 @@ The accounting periods are created, and the result is shown. The **Starting Date
 After the last period in the fiscal year, an accounting period is inserted with the **New Fiscal Year** field selected.  
 
 > [!IMPORTANT]  
->  In concordance with French law no more than two open fiscal years are allowed.  
+> In concordance with French law no more than two open fiscal years are allowed.  
 
 ## See Also  
  [Specify Posting Periods](how-to-specify-posting-periods.md)   

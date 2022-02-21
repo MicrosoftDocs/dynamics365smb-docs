@@ -3,7 +3,7 @@
     description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

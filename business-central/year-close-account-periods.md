@@ -3,7 +3,7 @@ title: Close Accounting Periods for a Fiscal Year
 description: This article describes how to close the accounting periods that make up the fiscal year for year end closing.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,16 +1,15 @@
 ---
 title: Relationship Management
 description: The relationship management features support your sales efforts and let you access information about contacts and prospects to serve customers efficiently.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
+ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
 

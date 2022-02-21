@@ -2,13 +2,13 @@
 title: 'Making Tax Digital - Submitting VAT Returns'
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 04/01/2021
+ms.date: 01/31/2022
 ms.author: soalex
 
 ---
@@ -88,7 +88,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 ### To retrieve the VAT return periods from HMRC
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
+2. On the **VAT Return Periods** page, choose the **Get VAT Return Periods** action.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
 
 The VAT obligations are now retrieved from HMRC and you can view them on the **VAT Return Periods** page. A confirmation page shows how many obligations were retrieved.
@@ -103,12 +103,12 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 ### To create and submit a VAT return
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Create VAT Return**.
+2. On the **VAT Return Periods** page, choose the relvant period, and then choose the **Create VAT Return** action.
 3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose the **Suggest Lines** action.  
 5. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-  VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
+    VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
 6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return, you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
 7. To submit the VAT return to HMRC, choose **Process**, and then choose the **Submit** action.  
 

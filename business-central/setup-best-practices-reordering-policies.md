@@ -3,7 +3,7 @@
     description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

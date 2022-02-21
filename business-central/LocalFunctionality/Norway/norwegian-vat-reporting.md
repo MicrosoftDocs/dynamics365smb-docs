@@ -3,13 +3,13 @@ title: Norwegian VAT Reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 737, 738, 10601, 10604
-ms.date: 01/25/2022
+ms.date: 01/31/2022
 ms.author: edupont
 
 ---
@@ -18,6 +18,9 @@ ms.author: edupont
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
 This topic shows the typical steps that you should follow when reporting Norwegian VAT.  
+
+> [!IMPORTANT]
+> This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
 ## Set Up Business Central to Generate and Submit Electronic VAT Returns
 
@@ -124,7 +127,7 @@ You can view information about settled periods in the **Settled VAT Period** pag
 
 ## Tradesettlement report
 
-Before January 2022, you used the **Tradesettlement** report to report VAT. This report is no longer described in this article, but you can read about it in the [Dynamics NAV 2018 documentation](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
+Before January 2022, you used the **Tradesettlement** report to report VAT. This report is no longer described in this article, but you can read about it in the [Dynamics NAV 2016 documentation archive](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
 ## See Also
 

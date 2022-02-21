@@ -2,7 +2,7 @@
 title: Manage Fixed Assets (contains video)
 description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
 author: edupont04
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

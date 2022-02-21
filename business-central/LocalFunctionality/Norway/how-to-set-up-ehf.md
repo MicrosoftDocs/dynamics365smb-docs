@@ -3,12 +3,13 @@ title: Set Up EHF [NO]
 description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 459, 5919
 ms.date: 06/21/2021
 ms.author: edupont
 

@@ -3,7 +3,7 @@
     description: Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

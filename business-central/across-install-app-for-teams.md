@@ -2,7 +2,7 @@
 title: Install the Business Central app in Microsoft Teams
 description: How to install the Business Central app for Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

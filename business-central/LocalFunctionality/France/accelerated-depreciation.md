@@ -1,21 +1,21 @@
 ---
-    title: Accelerated Depreciation [FR]
-    description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria.
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
+title: Accelerated Depreciation [FR]
+description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria in the French version.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 5610, 5611, 5612
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
-# Accelerated Depreciation in the Finnish Version
+# Accelerated Depreciation in the French Version
+
 Accelerated depreciation is calculated based on the differences between the accounting depreciation book and the tax depreciation book fixed asset, during the life of the fixed asset.  
 
 Fixed assets that have higher tax depreciation and lower accounting depreciation are depreciated using the accelerated depreciation method, as allowed by the tax authorities.  
@@ -44,11 +44,11 @@ There are two accounts to set up for derogatory amounts:
 
 - Positive accelerated depreciation amounts (increase of accelerated depreciation):  
 
-    - Derogatory account  
-    - Derogatory expense account  
-    - Negative accelerated depreciation amounts (decrease of accelerated depreciation):  
-    - Derogatory Acc. on Disposal  
-    - Derog. Bal. Acc. on Disposal  
+  - Derogatory account  
+  - Derogatory expense account  
+  - Negative accelerated depreciation amounts (decrease of accelerated depreciation):  
+  - Derogatory Acc. on Disposal  
+  - Derog. Bal. Acc. on Disposal  
 
 If you post an acquisition, depreciation, or disposal for the accounting depreciation book, the transaction is automatically duplicated and posted in the tax depreciation book when the journal is posted.  
 

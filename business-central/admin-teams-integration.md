@@ -2,7 +2,7 @@
 title: Managing Microsoft Teams Integration with Business Central| Microsoft Docs
 description: Manage Business Central integration with Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

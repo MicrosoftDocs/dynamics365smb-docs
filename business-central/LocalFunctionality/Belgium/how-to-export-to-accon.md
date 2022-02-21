@@ -3,7 +3,7 @@
     description: The Link to Accon report lets you create a file that can be imported into ACCON Plus to generate an annual income statement.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

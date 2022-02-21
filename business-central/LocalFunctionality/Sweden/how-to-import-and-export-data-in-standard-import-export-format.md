@@ -1,17 +1,17 @@
 ---
-    title: How to Import and Export Data in SIEE [SE]
-    description: You can import and export general ledger data according to the standard import export (SIE) format explained in this topic.
+title: Import and Export Data in SIEE [SE]
+description: You can import and export general ledger data according to the standard import export (SIE) format explained in this topic.
+author: SorenGP
 
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 11212
+ms.date: 06/24/2021
+ms.author: edupont
 
 ---
 # Import and Export Data in Standard Import Export Format in the Swedish Version

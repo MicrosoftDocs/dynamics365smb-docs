@@ -3,7 +3,7 @@
     description: The Vendor Payments List report provides a list of payments for each vendor in the German version. The report can sort payments chronologically or grouped by vendor.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

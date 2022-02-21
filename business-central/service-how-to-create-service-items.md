@@ -3,7 +3,7 @@
     description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

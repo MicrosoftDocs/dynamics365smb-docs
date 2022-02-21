@@ -2,7 +2,7 @@
 title: Setting Up Printers
 description: Learn about setting up printers that you can use for reports and documents and the different print feature available to you in Business Central. 
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -261,6 +261,9 @@ You or the administrator can also use the **Printer Selections** page to define 
 
 > [!NOTE]
 > More specific printer selections take precedence over a more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+
+### Choosing the printer when running a report
+Instead of using the default printer when running a report, you can override this setting from the request page. Simply choose the wich printer you want to use for this invocation of the report in the **Printer** dropdown menu.
 
 ### Sizing Print Jobs
 

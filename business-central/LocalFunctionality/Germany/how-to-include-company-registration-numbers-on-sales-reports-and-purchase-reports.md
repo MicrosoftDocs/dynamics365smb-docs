@@ -3,7 +3,7 @@
     description: When generating certain sales reports and purchase reports, you can print registration numbers on the reports.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

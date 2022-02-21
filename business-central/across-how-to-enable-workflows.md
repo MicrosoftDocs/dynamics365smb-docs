@@ -3,7 +3,7 @@
     description: When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

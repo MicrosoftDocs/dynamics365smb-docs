@@ -3,11 +3,11 @@ title: Work with Bills of Material to Manage Components
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 author: SorenGP
 
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -67,7 +67,7 @@ From the **Assembly BOM** page, you can open a separate page that shows the comp
 ## To replace the assembly item with its components on document lines
 From any sales and purchase document that contains an assembly item, you can use a special function to replace the line for the assembly item with new lines for its components. This function is useful, for example, if you want to sell the components as a kit that represents the assembly item.
 
-The Explode BOM function is also available on the **Assembly BOM** page as a method to view child items on any subassemblies on an assembly BOM.
+The **Explode BOM** action is also available on the **Assembly BOM** page as a way to view sub-assembly items on an assembly BOM.
 
 > [!CAUTION]  
 >  When you have used the **Explode BOM** function, you cannot easily undo it. You must delete the sales order lines representing the components and then reenter a sales order line for the assembly item.

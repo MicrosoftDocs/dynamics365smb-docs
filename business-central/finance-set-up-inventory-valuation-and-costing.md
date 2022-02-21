@@ -3,7 +3,7 @@
     description: To make sure that inventory costs are recorded correctly, you must set up various fields and pages before you begin to make item transactions.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.search.keywords:
     ms.date: 06/16/2021

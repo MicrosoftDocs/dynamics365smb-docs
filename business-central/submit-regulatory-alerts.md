@@ -17,7 +17,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 
 ## To submit a regulatory alert in LCS
 
-1. Go to https://lcs.dynamics.com and log in  
+1. Go to [https://lcs.dynamics.com](https://lcs.dynamics.com) and sign in  
 
     You will be presented with the projects you have access to
 

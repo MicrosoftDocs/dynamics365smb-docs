@@ -10,6 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
+ms.search.form: 9018, 9020, 9022, 9027
 ms.date: 04/12/2021
 ms.author: edupont
 

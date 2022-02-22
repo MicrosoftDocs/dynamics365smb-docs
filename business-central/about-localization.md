@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
+ms.search.form: 9018, 9020, 9022, 9027
 ms.date: 06/11/2021
 ms.author: edupont
 

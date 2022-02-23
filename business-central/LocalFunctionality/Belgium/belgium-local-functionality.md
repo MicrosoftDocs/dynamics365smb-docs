@@ -45,14 +45,14 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
     * [Print Payment Files](how-to-print-payment-files.md) **Available Now**
-    * [Activate SEPA Payments](how-to-activate-sepa-payments.md) **Available Now**
-    * [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) **Available Now**
+    * [Activate SEPA Payments](/d365businesscentral/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
+    * [File Non-Euro SEPA Payments](/d365businesscentral/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
-    * [Set Up Domiciliations](how-to-set-up-domiciliations.md) **Available Now**
-    * [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) **Available Now**
-    * [Test Domiciliations](how-to-test-domiciliations.md) **Available Now**
-    * [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md) **Available Now**
-    * [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) **Available Now**
+    * [Set Up Domiciliations](/d365businesscentral/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Edit and Delete Domiciliation Lines](/d365businesscentral/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Test Domiciliations](/d365businesscentral/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Export and Post Domiciliations](/d365businesscentral/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Generate Domiciliation Suggestions](/d365businesscentral/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
     
 * Core Finance

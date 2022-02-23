@@ -35,6 +35,6 @@ Business Central built-in charts display useful information about business data 
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
-[Getting Started](product-get-started.md)  
+[Getting Started](/d365businesscentral/ui-get-ready-business)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

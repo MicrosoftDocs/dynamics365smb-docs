@@ -181,7 +181,7 @@ additionalContent: |
   [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
   [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-  [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
-
+  [FAQ About Developer and Admin Experiences](/dynamics365/business-central/dev-itpro/faq)
+  [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)
   ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
   [!INCLUDE[footer-include](includes/footer-banner.md)]

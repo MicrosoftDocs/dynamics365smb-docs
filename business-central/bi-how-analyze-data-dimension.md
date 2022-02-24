@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371 
+ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
 

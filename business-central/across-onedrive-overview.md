@@ -21,16 +21,15 @@ We've created the connection between [!INCLUDE[prod_short](includes/prod_short.m
 
 On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** and **Share** actions.
 
-:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive action":::
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports":::
 
- 
-:::image type="content" source=":::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive action":::
-" alt-text="Share file attachments in OneDrive":::
 
-|Select...|To...|
-|---------|-----|
-|Open in OneDrive|Copy the file to a Business Central folder in your OneDrive and open the file.|
-|Share|Copy the file to your OneDrive and share it with other people. |
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
+
+|Select...|To...|See more info...|
+|---------|-----|----------------|
+|Open in OneDrive|Copy the file to a Business Central folder in your OneDrive and open the file.|[Opening Business Central Files in OneDrive](across-share-onedrive.md) |
+|Share|Copy the file to your OneDrive and share it with other people. |[Opening Business Central Files in OneDrive](across-share-onedrive.md) |
 
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:

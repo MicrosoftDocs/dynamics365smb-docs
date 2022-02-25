@@ -15,10 +15,18 @@ ms.author: bholtorf
 
 [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** and **Share** action.
 
+
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports":::
+
+
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
+
+<!--
 :::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
 
  
 :::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
+-->
 
 ## Open in OneDrive
 

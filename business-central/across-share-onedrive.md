@@ -22,7 +22,7 @@ ms.author: bholtorf
 
 ## Open in OneDrive
 
-The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online.
+The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online. 
 
 <!--## Working with Different Types of Files-->
 
@@ -32,17 +32,17 @@ For other popular file types, such as PDFs, text files, and images, OneDrive pro
 
 ## Share
 
-The **Share** action copies the file to your OneDrive and let's you share the file with other people. It also let's you see who you've already shared the file with. 
+The **Share** action copies the file to your OneDrive and let's you share the file with other people and see who you've already shared the file with. When you select the **Share** action, the following page opens.
 
 :::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Share file in OneDrive":::
 
-If you're familiar with OneDrive, you may recognize the page that opens when you select the **Share** action. You have two options for sharing the file: **Send link** and **Copy link**.
+If you're familiar with OneDrive, you may recognize the page. You have two options for sharing the file: **Send link** and **Copy link**.
 
 - **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**.
 
 - **Copy link** copies a link to the file on your OneDrive so you can use the link in other places like like Facebook, Twitter, or emails. 
 
-Before you send or copy the link, make sure to set the permissions to the file that you want people to have. You can see the current setting just under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link to open **Link Settings**.
+Before you send or copy the link, make sure to set the permissions to the file that you want people to have. You can see the current setting under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link and make changes on the **Link Settings** page.
 
 For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
@@ -67,7 +67,6 @@ If you choose to replace the file, the new file is added to the version history 
 
 The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. 
 You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
-
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::
 

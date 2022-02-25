@@ -28,8 +28,8 @@ On most pages where files are available, such as the Report Inbox or files that 
 
 |Select...|To...|See more info...|
 |---------|-----|----------------|
-|Open in OneDrive|Copy the file to a Business Central folder in your OneDrive and open the file.|[Opening Business Central Files in OneDrive](across-share-onedrive.md) |
-|Share|Copy the file to your OneDrive and share it with other people. |[Sharing Business Central Files in OneDrive](across-share-onedrive.md) |
+|Open in OneDrive|Copy the file to a Business Central folder in your OneDrive and open the file.|[Opening Business Central Files in OneDrive](across-share-onedrive.md#open-in-onedrive) |
+|Share|Copy the file to your OneDrive and share it with other people. |[Sharing Business Central Files in OneDrive](across-share-onedrive.md#share) |
 
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:

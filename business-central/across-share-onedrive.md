@@ -24,6 +24,14 @@ ms.author: bholtorf
 
 The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online.
 
+### Managing Multiple Copies of a File
+
+When you choose **Open in OneDrive** or **Share** , the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
+
+Additionally, when you use the Open in OneDrive action and a file with that name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and its file name is given a suffix, such as “Items (2).xlsx,” and the original file is not changed. 
+
+If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
+
 ## Share
 
 The **Share** action copies the file to your OneDrive and let's you share the file with other people. It also let's you see who you've already shared the file with. 
@@ -36,9 +44,11 @@ If you're familiar with OneDrive, you may recognize the page that opens when you
 
 - **Copy link** copies a link to the file on your OneDrive so you can use the link in other places like like Facebook, Twitter, or emails. 
 
-Before you send or copy the link, make sure to set the permissions to the file that you want people to have. You can see the current setting just under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link to open **Link Settings**. 
+Before you send or copy the link, make sure to set the permissions to the file that you want people to have. You can see the current setting just under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link to open **Link Settings**.
 
-## First-time you use Open in OneDrive
+For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+
+## What happens the first time 
 
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
@@ -53,19 +63,11 @@ When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.
 
 For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it. 
 
-## Managing Multiple Copies of a File
-
-When you choose **Open in OneDrive** or **Share** , the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
-
-Additionally, when you use the Open in OneDrive action and a file with that name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and its file name is given a suffix, such as “Items (2).xlsx,” and the original file is not changed. 
-
-If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
-
 ## About your Business Central folder on OneDrive
 
-The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. 
+You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
-You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field.
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::
 

@@ -1,8 +1,6 @@
 ---
 title: Set Up Employees and Modify Information
 description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 
@@ -11,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201 
+ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
 

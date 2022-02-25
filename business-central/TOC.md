@@ -557,7 +557,7 @@
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](/d365businesscentral/finance-how-to-post-inventory-costs-to-the-general-ledger)
+##### [Reporting Costs](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 #### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)

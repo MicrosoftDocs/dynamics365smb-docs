@@ -120,8 +120,8 @@ After you create a payment slip, you can generate payment files and send them to
 ## See Also  
  [Payment Management](payment-management.md)   
  [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [Set Up Payment Statuses](/d365businesscentral/LocalFunctionality/France/how-to-set-up-payment-classes)   
- [Set Up Payment Steps](/d365businesscentral/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)   

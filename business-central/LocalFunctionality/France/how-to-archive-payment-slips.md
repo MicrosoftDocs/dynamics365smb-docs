@@ -42,13 +42,13 @@ You can archive the payment slip by using the following methods:
 The payment slips are archived.  
 
 > [!NOTE]  
->  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page. For more information, see [Set Up Payment Statuses](/d365businesscentral/LocalFunctionality/France/how-to-set-up-payment-classes).  
+>  This batch job will only archive payment slips that have the **Archiving Authorized** check box selected on the **Payment Status** page. For more information, see [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes).  
 
 ## See Also  
  [Payment Management](payment-management.md)   
  [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [Set Up Payment Statuses](/d365businesscentral/LocalFunctionality/France/how-to-set-up-payment-classes)   
- [Set Up Payment Steps](/d365businesscentral/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Create Payment Slips](how-to-create-payment-slips.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)

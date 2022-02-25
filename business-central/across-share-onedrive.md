@@ -11,27 +11,60 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 
 ---
-# Opening Business Central Files in OneDrive
-[!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** action.
+# Opening and Sharing Business Central Files in OneDrive
+
+[!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** and **Share** action.
 
 :::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
 
  
 :::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
 
+## Open in OneDrive
+
+The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online.
+
+## Share
+
+The **Share** action copies the file to your OneDrive and let's you share the file with other people. It also let's you see who you've already shared the file with. 
+
+:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Share file in OneDrive":::
+
+If you're familiar with OneDrive, you may recognize the page that opens when you select the **Share** action. You have two options for sharing the file: **Send link** and **Copy link**.
+
+- **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**.
+
+- **Copy link** copies a link to the file on your OneDrive so you can use the link in other places like like Facebook, Twitter, or emails. 
+
+Before you send or copy the link, make sure to set the permissions to the file that you want people to have. You can see the current setting just under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link to open **Link Settings**. 
+
+## First-time you use Open in OneDrive
+
+When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
+
+1. Opens the **Please review terms and conditions** page. Please read the page. If you agree with the terms and conditions, select **Agree** to continue.
+2. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
+3. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
+4. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+
 ## Working with Different Types of Files
+
 When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser. 
 
 For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it. 
 
 ## Managing Multiple Copies of a File
-When you choose **Open in OneDrive**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
+
+When you choose **Open in OneDrive** or **Share** , the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
 
 Additionally, when you use the Open in OneDrive action and a file with that name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and its file name is given a suffix, such as “Items (2).xlsx,” and the original file is not changed. 
 
 If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
 
-## Accessing Your OneDrive
+## About your Business Central folder on OneDrive
+
+The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+
 You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field.
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::

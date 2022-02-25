@@ -11,7 +11,8 @@ ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
 ---
-# Managing OneDrive Integration with Business Central 
+# Managing OneDrive Integration with Business Central
+
 This article provides an overview of what an administrator can do to control OneDrive for Business integration with [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online customers benefit from automatic integration, with no additional setup required to use these features. 
 
 ## Minimum Requirements
@@ -34,9 +35,11 @@ The SharePoint admin center provides extensive control over policies that govern
 > Some features may be available only for specific plans.
 
 ## Managing Privacy
+
 Administrators and end users control the content stored in OneDrive, and this data is owned solely by your organization. For more information, see [How SharePoint and OneDrive safeguard your data in the cloud](/sharepoint/safeguarding-your-data). You can also visit our [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement), which explains the data that Microsoft processes, how Microsoft processes it, and for what purposes.
 
 ## Restoring OneDrive and [!INCLUDE[prod_short](includes/prod_short.md)]
+
 As part of a disaster recovery exercise, administrators might need to restore a [!INCLUDE[prod_short](includes/prod_short.md)] environment to a backup from a time in the past, and synchronize OneDrive storage to that same point in time. OneDrive provides various tools for this, such as restoring a user’s OneDrive to a previous time, restore a previous version of an individual file, or restore deleted files. For more information, see the following articles:
 
 * For [!INCLUDE[prod_short](includes/prod_short.md)], see [Restoring an Environment in the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).

@@ -24,11 +24,11 @@ ms.author: bholtorf
 
 The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online.
 
-## Working with Different Types of Files
+<!--## Working with Different Types of Files-->
 
-When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser. 
+When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser.
 
-For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it. 
+For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it.
 
 ## Share
 
@@ -46,7 +46,7 @@ Before you send or copy the link, make sure to set the permissions to the file t
 
 For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
-## What happens the first time 
+## First-time sign in from Business Central
 
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
@@ -55,8 +55,7 @@ When you use the **Open in OneDrive** or **Share** action for the first time, [!
 3. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
 4. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
 
-
-### Managing Multiple Copies of a File
+## Managing multiple copies of a file
 
 When you choose **Open in OneDrive** or **Share** , the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
 

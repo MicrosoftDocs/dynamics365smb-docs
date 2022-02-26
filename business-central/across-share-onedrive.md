@@ -59,9 +59,10 @@ The sharing feature in Business Central is based on OneDrive. So to learn more a
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
 1. Opens the **Please review terms and conditions** page. Read the page, and if you agree with the terms and conditions, select **Agree** to continue.
-2. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
-3. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
-4. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+2. The **Pick an account** appears. Select your account or **use another account** if you don't see, then enter the user name and password when prompted.
+1. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
+1. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
+1. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
 
 ## Managing multiple copies of a file
 

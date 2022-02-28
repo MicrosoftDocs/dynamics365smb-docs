@@ -45,7 +45,7 @@ By storing dimension sets once in the database, database space is preserved and 
 ## See Also
 [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)   
 [Design Details: Table Structure](design-details-table-structure.md)   
-[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
+[Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

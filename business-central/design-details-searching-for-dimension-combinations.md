@@ -70,7 +70,7 @@ EXIT(DimSet.ID);
 
 ## See Also
     
- [Design Details: Dimension Set Entries](design-details-dimension-set-entries.md)   
+ [Design Details: Dimension Set Entries](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)   
  [Design Details: Table Structure](design-details-table-structure.md)   
  

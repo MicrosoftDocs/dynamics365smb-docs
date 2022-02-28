@@ -1,15 +1,14 @@
 ---
 title: Managing OneDrive Integration with Business Central
 description: Learn about things you can do to manage an integration between Business Central and OneDrive for Business.
-author: bholtorf
-
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
+ms.date: 02/28/2022
+ms.author: jswymer
 ---
 # Managing OneDrive Integration with Business Central
 
@@ -21,6 +20,7 @@ This article provides an overview of what an administrator can do to control One
 * OneDrive must be set up for each user.
 
 ## Governance
+
 The SharePoint admin center provides extensive control over policies that govern the use of OneDrive throughout the organization. Global Admins, or users who have the SharePoint Admin role, can set up policies that determine who can access OneDrive, where data resides, the content lifecycle, and much more. The following links provide information about often-used features and settings that may enhance your integration with [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off)
@@ -68,6 +68,11 @@ An administrator must set up the connection between [!INCLUDE[prod_short](includ
 Add a registered application for Business Central in your Azure AD tenant of your Microsoft 365 plan. Like other Azure services that work with Business Central, OneDrive requires an app registration in Azure Active Directory (Azure AD). The app registration provides authentication and authorization services between Business Central and SharePoint, which is used by OneDrive.
 
 Configure the registered application with the following delegated permissions to the SharePoint API:
+
+- AllSites.FullControl
+- User.ReadWrite.All 
+
+For Business Central 2021 release wave 2 (version 19), set these permissions instead:
 
 - AllSites.Write
 - MyFiles.Write

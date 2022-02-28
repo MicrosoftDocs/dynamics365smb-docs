@@ -1,18 +1,16 @@
 ---
 title: Business Central and OneDrive for Business Integration
 description: You can use OneDrive for Business to store, manage, and share files, such as reports or file attachments. 
-author: bholtorf
-
-
+author: jswymer
 ms.topic: overview
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/11/2021
-ms.author: bholtorf
-
+ms.date: 02/28/2022
+ms.author: jswymer
 ---
 
 # Business Central and OneDrive for Business Integration
+
 OneDrive for Business is a cloud storage service that is included in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive. When a file is in your OneDrive you can enjoy the rich collaborative experiences from the online versions of Microsoft products, such as Word, Excel, and PowerPoint. For example, you can share a Word document, and then you and your colleagues can edit it together in real-time. OneDrive also lets you open other types of files, such as PDFs. 
 
 ## Getting Started
@@ -29,7 +27,7 @@ On most pages where files are available, such as the Report Inbox or files that 
 |Select...|To...|See more info...|
 |---------|-----|----------------|
 |Open in OneDrive|Copy the file to a Business Central folder in your OneDrive and open the file.|[Open in OneDrive](across-share-onedrive.md#open-in-onedrive) |
-|Share|Copy the file to your OneDrive and share it with other people. |[Share in OneDrive](across-share-onedrive.md#share) |
+|Share|Copy the file to your OneDrive and share it with other people.|[Share in OneDrive](across-share-onedrive.md#share) |
 
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
@@ -40,6 +38,7 @@ When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_
 
 The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 -->
+
 > [!NOTE]
 > You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration.md#configuring-business-central-on-premises).
 

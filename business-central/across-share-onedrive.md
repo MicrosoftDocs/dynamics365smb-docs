@@ -1,14 +1,12 @@
 ---
 title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
-author: bholtorf
-
-
+author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/11/2021
-ms.author: bholtorf
+ms.date: 02/28/2022
+ms.author: jswymer
 
 ---
 # Opening and Sharing Business Central Files in OneDrive
@@ -53,6 +51,9 @@ If you're familiar with OneDrive, you may recognize the page. You have two optio
 Before you send or copy the link, set the permission to the file that you want people to have. You can see the current setting under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link and make changes on the **Link Settings** page.
 
 The sharing feature in Business Central is based on OneDrive. So to learn more about sharing and permissions, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+
+> [!NOTE]
+> The **Share** action isn't available in the Business Central app for mobile devices.
 
 ## First-time sign in from Business Central
 

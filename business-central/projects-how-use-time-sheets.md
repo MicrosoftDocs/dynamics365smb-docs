@@ -41,7 +41,7 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
     > [!NOTE]  
     > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
 
-    Optionally, choose the **Schedule** action to specify how often you want the task to run automatically. For example, to configure the task to run weekly for four weeks, in the **Schedule a Report - Create Time Sheets** page, set the **Next Run Date Formula** field to *4W*. For more information, see [Scheduling a Report to Run](ui-work-report#ScheduleReport).  
+    Optionally, choose the **Schedule** action to specify how often you want the task to run automatically. For example, to configure the task to run weekly for four weeks, in the **Schedule a Report - Create Time Sheets** page, set the **Next Run Date Formula** field to *4W*. For more information, see [Scheduling a Report to Run](ui-work-report.md#ScheduleReport).  
 4. Choose the **OK** button.  
 
 You can view the time sheets that you have created on the **Time Sheets** page. Each time sheet consists of one or more lines that define the time that you want to submit for approval. The following table describes the types of lines that you can add to the time sheet.

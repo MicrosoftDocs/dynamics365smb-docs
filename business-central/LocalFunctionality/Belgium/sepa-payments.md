@@ -21,8 +21,8 @@ The Single Euro Payments Area (SEPA) unifies payment methods in participating Eu
 
 [Febelfin website](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [ISO 20022 website](https://go.microsoft.com/fwlink/?LinkId=275120)   
-[Activate SEPA Payments](how-to-activate-sepa-payments.md)   
-[File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md)
+[Activate SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
+[File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)
 [Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

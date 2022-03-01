@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
+ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
 

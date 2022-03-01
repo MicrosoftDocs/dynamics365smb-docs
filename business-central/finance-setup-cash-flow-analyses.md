@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 855, 862, 869, 1818
+ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
 

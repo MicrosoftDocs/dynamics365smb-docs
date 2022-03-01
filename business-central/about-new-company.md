@@ -9,9 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9192, 357, 9020, 9022, 9027, 9018
-9018 
-
-ms.date: 02/17/2022
+ms.date: 03/01/2022
 ms.author: edupont
 
 ---
@@ -23,14 +21,14 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business da
 
 If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
-The setup wizard offers three templates and a blank option:
+The setup wizard offers two templates and a blank option:
 
 - **Evaluation - Sample Data**  
-    This creates a company that is similar to the demonstration company with sample data and setup data.  
+    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company), which the other types do.  
 - **Production - Setup Data Only**  
-    This creates a company that is similar to **My Company** with setup data but without sample data.
+    This creates a company that is similar to **My Company** with setup data but without sample data. You will be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Create New - No Data**  
-    This creates a blank company without setup data.  
+    This creates a blank company without setup data. You will be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
 If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set everything up from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 

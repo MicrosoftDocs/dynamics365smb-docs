@@ -1711,6 +1711,7 @@
 #### [Create a new Layout](ui-how-create-custom-report-layout.md)
 #### [Using fonts in Layouts](ui-fonts.md)  
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Work with Excel Layouts](ui-excel-report-layouts.md)
 #### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)
 #### [Change the default Layout](ui-how-change-layout-currently-used-report.md)

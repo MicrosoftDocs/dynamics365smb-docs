@@ -13,7 +13,9 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Create and Modify Custom Report Layouts
+# Working with Excel Layouts
+
+Excel layouts 
 
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 
@@ -105,6 +107,16 @@ To ensure that reports always display and print with the intended fonts, whereve
 ### Adding data fields
 
 Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+
+### Learn about the elements of an Excel layout
+
+- **Data** sheet
+  - An Excel layout must contain a sheet named **Data**.
+  - The Data sheet can only include one table.
+- **Data** table
+  - The **Data** sheet must include a table that has the name **Data**.
+  - The table must have at least one column and can only include columns that are also in report dataset.
+  - The table must start in the first cell A! of the **Data** sheet.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

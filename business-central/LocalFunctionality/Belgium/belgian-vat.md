@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 11300, 11301,11303,11306,11307,11308
-    ms.date: 06/17/2021
+    ms.date: 03/02/2022
     ms.author: edupont
 
 ---
@@ -24,9 +24,9 @@
 
     This report is used to annually report all amounts invoiced for both goods and services to all Belgian companies with a registered VAT number.  
 
-- VAT-VIES listing (on paper/disk)
+- EC sales list
 
-    This report is used to report the sales of goods to other countries.  
+    This report is used to report the sales of goods to other countries in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
 
 You are also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities. For more information, see VAT Statement.  
 

@@ -15,7 +15,76 @@ ms.author: edupont
 ---
 # Working with Excel Layouts
 
-Excel layouts 
+Excel report layouts are based on Microsoft Excel workbooks (.xlxs files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
+
+
+## Benefits of Excel Layouts
+
+Here are some more benefits of using Excel layouts:
+
+- Create interactive reports using visualizations like slicers
+- View raw data from the report dataset, which can help you better understand how the report works and where the data on visuals comes from
+- 
+
+- With Excel reports, we break away from a year long tradition that dictates that reports must be designed for print-to-paper. We lost some of this interactivity when we removed the Windows Client, where the RDLC report viewer had built-in filtering and drilldown. Excel layouts gives this back and then a lot more. One report can now serve multiple purposes and using visuals such as slicers, they can be interactive.
+ 
+2.	A report with an Excel layout also contain the raw data and it is possible for a user to understand how the report works.
+a.	The first is sometimes also called data lineage (what data lies below this report)
+b.	The second is sometimes also called process lineage (which steps were taken to transform the raw data to the results in the report)
+ 
+3.	Users can use built-in Office features to do post-processing on rendered reports. No cost for us to build this into BC (or we can think of the use of Excel as a prototyping tool). Here are some examples:
+ 
+Protect the document before sending it out:
+Who can open it
+ 
+and who can edit it
+ 
+ 
+ 
+Trigger a flow from the report
+ 
+ 
+ 
+ 
+              Use built-in data analysis tools such as 
+ 
+or
+ 
+ 
+ 
+Users can also add comments and notes to the report
+ 
+ 
+ 
+ 
+ 
+Report development consists of two parts: developing the report dataset (the report object) and developing the layout (Word/RDLC/Excel)
+4.	The report layout experience is now in the hand of normal users (for reports that do not need to be printed). Given that the dataset has the data needed in the correct format, end users now have total freedom to change the look and feel of the report, add additional views on the data, filter and sort as they need, etc. If one of these modifications make sense to save, they can just import it as a new layout. No partner is needed.
+ 
+A quick survey shows that the time spent developing a report with a RDLC layout is distributed like this:
+ 
+ 
+This indicates that 
+5.	Compared to reports with RDLC layouts, the cost for customers for reports development (where only an Excel layout is needed) is dramatically reduced
+a.	For a new report, up to 80% reduction in partner time
+b.	To add a field to an existing report, time spent by partner is likely reduced by at least 80%
+Time == money. 
+ 
+We still want to make an in-client report dataset designer (for simple report datasets) to cut even more cost, but we did not get budget for this in 2022w2 (not something we will share externally).
+ 
+ 
+Finally, 
+6.	With Excel layouts, we break the ice for Excel fans to learn Power BI. 
+This is because hardcore classic Excel users that start making Excel layouts might learn new tricks such as PowerQuery (in Excel) when they want to add data from other data sources. When they have learned PowerQuery, the step to the PowerBI designer is going to be small (PowerQuery UI and concepts are the same in Power BI)
+ 
+The other part that will bridge the gap to PowerBI is Excel PowerPivot:
+ 
+ 
+If our BC Excel power users start learning about PowerQuery and PowerPivot in Excel because of Excel layouts, then they are already on path to the dark side (Power BI)… 😊
+ 
+ 
+ 
+
 
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 

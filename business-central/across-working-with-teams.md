@@ -62,7 +62,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 
    There are two ways to copy the link. The easiest and preferred way is to select  **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to, copy the entire URL from the browser's address bar.
 
-   ![Copy Business Central URL from browser.](media/teams-copy-link.png)
+   [![Copy Business Central URL from browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 

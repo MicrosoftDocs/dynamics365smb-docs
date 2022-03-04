@@ -1,16 +1,17 @@
 ---
-    title: Understanding Assemble to Order and Assemble to Stock
-    description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
-    author: brentholtorf
+title: Understanding Assemble to Order and Assemble to Stock
+description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
+author: brentholtorf
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.date: 06/15/2021
+ms.author: bholtorf
 
 ---
 # Understanding Assemble to Order and Assemble to Stock

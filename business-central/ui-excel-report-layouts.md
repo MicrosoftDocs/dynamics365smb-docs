@@ -24,39 +24,14 @@ Here are some more benefits of using Excel layouts:
 
 - Create interactive reports using visualizations like slicers
 - View raw data from the report dataset, which can help you better understand how the report works and where the data on visuals comes from
-- 
+- Use built-in Office features to do post-processing on rendered reports, like:
+     - [protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+     - [applying sensitity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+     - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
+     - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
+- Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
+ 
 
-- With Excel reports, we break away from a year long tradition that dictates that reports must be designed for print-to-paper. We lost some of this interactivity when we removed the Windows Client, where the RDLC report viewer had built-in filtering and drilldown. Excel layouts gives this back and then a lot more. One report can now serve multiple purposes and using visuals such as slicers, they can be interactive.
- 
-2.	A report with an Excel layout also contain the raw data and it is possible for a user to understand how the report works.
-a.	The first is sometimes also called data lineage (what data lies below this report)
-b.	The second is sometimes also called process lineage (which steps were taken to transform the raw data to the results in the report)
- 
-3.	Users can use built-in Office features to do post-processing on rendered reports. No cost for us to build this into BC (or we can think of the use of Excel as a prototyping tool). Here are some examples:
- 
-Protect the document before sending it out:
-Who can open it
- 
-and who can edit it
- 
- 
- 
-Trigger a flow from the report
- 
- 
- 
- 
-              Use built-in data analysis tools such as 
- 
-or
- 
- 
- 
-Users can also add comments and notes to the report
- 
- 
- 
- 
  
 Report development consists of two parts: developing the report dataset (the report object) and developing the layout (Word/RDLC/Excel)
 4.	The report layout experience is now in the hand of normal users (for reports that do not need to be printed). Given that the dataset has the data needed in the correct format, end users now have total freedom to change the look and feel of the report, add additional views on the data, filter and sort as they need, etc. If one of these modifications make sense to save, they can just import it as a new layout. No partner is needed.

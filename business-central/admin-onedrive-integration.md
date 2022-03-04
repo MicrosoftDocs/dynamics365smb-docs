@@ -1,7 +1,7 @@
 ---
 title: Managing OneDrive Integration with Business Central
 description: Learn about things you can do to manage an integration between Business Central and OneDrive for Business.
-author: bholtorf
+author: brentholtorf
 
 ms.topic: conceptual
 ms.devlang: na

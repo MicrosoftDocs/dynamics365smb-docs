@@ -1,7 +1,7 @@
 ---
 title: The VAT Group Management Extension
 description: You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.
-author: bholtorf
+author: brentholtorf
 manager: annbe
 
 

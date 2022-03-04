@@ -1,7 +1,7 @@
 ---
 title: Manual Synchronization of Table Mappings | Microsoft Docs
 description: The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Company and Business Unit Mapping | Microsoft Docs
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

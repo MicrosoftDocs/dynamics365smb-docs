@@ -1,7 +1,7 @@
 ---
 title: Record Special Purchase Prices and Discounts
 description: You can define different or alternate prices and discount agreements and apply them to purchase documents for vendors.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

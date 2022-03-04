@@ -1,7 +1,7 @@
 ---
 title: Submit VAT Reports to Tax Authorities
 description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

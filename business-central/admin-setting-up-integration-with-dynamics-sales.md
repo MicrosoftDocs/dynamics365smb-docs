@@ -1,7 +1,7 @@
 ---
     title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
     description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

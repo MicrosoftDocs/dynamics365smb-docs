@@ -1,7 +1,7 @@
 ---
 title: Analyzing Cash Flows
 description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

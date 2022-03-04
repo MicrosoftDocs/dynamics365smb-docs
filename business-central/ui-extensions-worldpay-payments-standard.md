@@ -3,7 +3,7 @@ title: WorldPay Payments Standard
 description: The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

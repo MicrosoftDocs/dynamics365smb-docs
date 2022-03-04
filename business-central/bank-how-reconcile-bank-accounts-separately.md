@@ -1,7 +1,7 @@
 ---
 title: Reconcile Bank Accounts
 description: This topic describes how to reconcile the transactions in your internal bank accounts with the transactions in statements from your bank.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

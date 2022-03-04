@@ -1,7 +1,7 @@
 ---
 title: Set Up General Inventory Information
 description: Describes how to define the general inventory setup so that you can manage your warehouse and stock.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

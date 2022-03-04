@@ -1,7 +1,7 @@
 ---
 title: Visit our video library
 description: Visit our video library for assistance from getting-started videos that illustrate common "how to" tasks to subject matter product videos. 
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

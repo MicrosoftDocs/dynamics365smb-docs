@@ -1,7 +1,7 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: bholtorf
+author: brentholtorf
 
 ms.topic: conceptual
 ms.devlang: na

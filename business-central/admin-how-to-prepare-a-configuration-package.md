@@ -1,7 +1,7 @@
 ---
     title: Prepare a Configuration Package
     description: Learn now to prepare a RapidStart configuration package that can help you set up new companies based on existing data.
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

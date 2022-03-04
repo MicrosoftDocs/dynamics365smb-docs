@@ -1,7 +1,7 @@
 ---
     title: Set Up Goods and Service Tax Posting [NZ]
     description: This article describes how to set up posting for goods and services tax (GST) in the New Zealand version.
-    author: bholtorf
+    author: brentholtorf
     
     ms.topic: conceptual
     ms.devlang: na

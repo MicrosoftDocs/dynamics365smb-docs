@@ -1,7 +1,7 @@
 ---
 title: PC Keyboard Shortcuts Quick Reference
 description: "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users."
-author: bholtorf
+author: brentholtorf
 
 ms.topic: conceptual
 ms.devlang: na

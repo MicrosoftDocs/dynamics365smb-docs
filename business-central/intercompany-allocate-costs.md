@@ -3,7 +3,7 @@ title: Allocate Costs to Intercompany Partners| Microsoft Docs
 description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

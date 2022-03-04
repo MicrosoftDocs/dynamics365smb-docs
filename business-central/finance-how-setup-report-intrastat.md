@@ -1,7 +1,7 @@
 ---
 title: Set Up and Report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

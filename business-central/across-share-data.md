@@ -15,10 +15,14 @@ Collaboration among people inside and outside an organization is integral part o
 
 Users often need to share or store links to business data as part of organizing their work, sharing with others, or initiating collaborative tasks. With the introduction of this feature, users benefit from quicker access to page links, similar to how this is done in Office applications. Users can now copy page links from the installable app or when Business Central is embedded in other apps, such as in Microsoft Teams.
 
-## Copy and send a link to page
+## Copy link
 
-From a any page, you can copy the page's URL and then paste into The easiest way to copy a page is the Copy as like emails, 
+From a any page, you can copy the page's URL, then paste and send it to others, for example, in emails, Teams chats, or text messages. The easiest way to copy a link if by selecting Share > Copy Link from the top the page. Another way is to copy the URL directly from the browser address box.
+
 ## Share to Teams
+
+
+## Share to OneDrive
 
 "Copy link" action vs copying browser Url
 Share to Teams

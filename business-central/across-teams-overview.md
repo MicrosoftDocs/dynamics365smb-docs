@@ -40,7 +40,7 @@ For more information, see [Searching for Contacts from Microsoft Teams](across-s
 
 Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
-[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 

@@ -41,7 +41,7 @@ The following sections describe the different ways in detail.
 
 With the Business Central app for Teams, you can copy a link from any Business Central record, like a customer or sales order, and paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]\. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
-[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### Prerequisites
 
@@ -58,15 +58,22 @@ With the Business Central app for Teams, you can copy a link from any Business C
 
     The app is designed to display card type pages from [!INCLUDE [prod_short](includes/prod_short.md)]\. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
 
-3. Copy the entire URL from the browser's address bar.
+3. Copy the link to the page.
 
-   ![Copy Business Central URL from browser.](media/teams-url-v2.png)
+   There are two ways to copy the link. The easiest and preferred way is to select  **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to, copy the entire URL from the browser's address bar.
+
+   ![Copy Business Central URL from browser.](media/teams-copy-link.png)
+
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Paste the URL in the message box where you compose a message.
+5. Paste the link (URL) in the message box where you compose a message.
 
    ![Paste Business Central URL in Teams.](media/teams-paste-url-v2.png)
+
+    > [!TIP]
+    > If you get a message like: **Business Central wants to show a preview of this link.**, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
+
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
@@ -85,7 +92,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 
 ### View card details
 
-Once a card's been sent to a conversation, all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record, as opposed to having to scan the full record.
+Once a card's been sent to a conversation, you and all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record, as opposed to having to scan the full record.
 
 The details window is similar to what you'd see in [!INCLUDE [prod_short](includes/prod_short.md)] the record. But it's slightly trimmed for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
 

@@ -11,20 +11,32 @@ ms.author: jswymer
 ---
 # Sharing Data with Business Central
 
-Collaboration among people inside and outside an organization is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data with others&mdash;inside and outside your organization, with or without a Business Central license. Data can be in the form of a link or a file. The  a file a report,  both inside and out side your organization, with or without a Business Central license. 
+Collaboration among people inside and outside an organization is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data with others&mdash;inside and outside your organization, with or without a Business Central license. Data can be in the form of a link or a file.
 
-Users often need to share or store links to business data as part of organizing their work, sharing with others, or initiating collaborative tasks. With the introduction of this feature, users benefit from quicker access to page links, similar to how this is done in Office applications. Users can now copy page links from the installable app or when Business Central is embedded in other apps, such as in Microsoft Teams.
+With all these features, access to data is protected by the license and permissions system of Business Central. 
 
 ## Copy link
 
-From a any page, you can copy the page's URL, then paste and send it to others, for example, in emails, Teams chats, or text messages. The easiest way to copy a link if by selecting Share > Copy Link from the top the page. Another way is to copy the URL directly from the browser address box.
+> Applies to: Online, On-premises
+
+From any page, you can copy the page's URL, then paste and send it to others in media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser address box.
+
+> [!TIP]
+> After you copy a link, before you send it, you can modify the URL to manipulate what is displayed when the page is opened. For more information, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
 ## Share to Teams
 
+> Applies to: Online
 
-## Share to OneDrive
+Directly from most collection pages, like the Items page, and details pages, like the Items card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in Business Central
 
-"Copy link" action vs copying browser Url
+## Open and Share in OneDrive
+
+> Applies to: Online, On-premises
+
+Business Central makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find the **Open in OneDrive** and **Share** actions. Both actions save a copy of a file to OneDrive. Once in OneDrive, you can use its sharing and contribution features on the file. The difference in the actions is that **Open in OneDrive** opens the file in OneDrive. **Sharesaves a copy of a file to a Business Central folder in your OneDrive and opens the file. Copy the file to your OneDrive and share it with other people.
+
+
 Share to Teams
 Tips about sharing views, filters, current record, what cannot be shared
 Share as a table (Copy+Paste, or via Excel) -> Link to article (could no go below it in TOC)
@@ -32,25 +44,6 @@ Sharing files (via OneDrive) -> Link to article (could now go below it in TOC)
 Hint that you can construct your own Url - link to technical article on that
 Could start with a table that compares the above options with on prem vs SaaS
 NOTE: This could serve as a good place to talk about how data can be shared with non-BC users aka "Project Satya" (note: own release train)
-## Working with Different Types of Files
-When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser. 
-
-For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file cannot be viewed in OneDrive, you might be prompted to download it. 
-
-## Managing Multiple Copies of a File
-When you choose **Open in OneDrive**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
-
-Additionally, when you use the Open in OneDrive action and a file with that name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and its file name is given a suffix, such as “Items (2).xlsx,” and the original file is not changed. 
-
-If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
-
-## Accessing Your OneDrive
-You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field.
-
-:::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::
-
-<!--## Extending the Connection to OneDrive
-You can create an extension and connect it to... For more information, see...-->
 
 ## See Also
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  

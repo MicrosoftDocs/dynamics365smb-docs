@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
 
 ---
@@ -28,7 +28,7 @@ You can set up VAT calculations manually, but that can be tricky and time consum
 > [!NOTE]  
 > You can use the guide only if you have created a My Company, and have not posted transactions that include VAT. Otherwise, it would be very easy to use different VAT rates by mistake, and make VAT-related reports inaccurate.  
 
-If you want to set up VAT calculations yourself, or just want to learn about each step, this topic contains descriptions of each step.  
+If you want to set up VAT calculations yourself, or just want to learn about each step, this article contains descriptions of each step.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -41,6 +41,14 @@ To start the assisted setup guide, follow these steps:
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**.  
 2. Choose **Set up VAT** and complete the steps.
 3. When you have completed the assisted setup, visit the **VAT Posting Setup** page and check if you have to fill in more fields according to the local requirements in your version of [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Local functionality in Business Central](about-localization.md)  
+
+### Check the VAT posting setup
+
+To support you in getting started fast, [!INCLUDE [prod_short](includes/prod_short.md)] will show you notifications if you are missing general ledger (G/L) accounts in posting groups or posting setups, such as the **VAT Posting Setup** page. You can turn this on or off using the *G/L accounts missing in posting group or setup* notification in the **My Notifications** page, which is part of the **My settings** page. 
+
+To take you directly to the relevant posting group or setup that is missing a G/L account, [!INCLUDE [prod_short](includes/prod_short.md)] will automatically create those posting setups, using the posting groups in the document or journal you're currently working on.  
+
+At this point, you might just fill in the missing G/L accounts. Then, later, when you further refine the setup, you might realize this setup was wrong. [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of VAT posting setup and general posting setup when there are entries created based on such configurations. Starting in 2022 release wave 1, you can use the **Blocked** field in the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 
 ## Set up VAT registration numbers for your country or region
 
@@ -91,7 +99,7 @@ Set up as many combinations as you need. If you want to group VAT posting setup 
 To combine VAT posting setups, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 5.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.
-2. Fill in the fields as necessary.
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## Assign VAT posting groups by default to multiple entities
 

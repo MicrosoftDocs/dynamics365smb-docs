@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 01/24/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
 
 ---
@@ -20,9 +20,15 @@ Posting groups map entities such as customers, vendors, items, resources, and sa
 
 Posting groups are covered under three umbrellas:  
 
-* General - Define who you sell to and buy from, and what you sell and what you buy. You can also combine groups to specify things like the income statement accounts to post to, or use groups to filter reports.  
-* Specific - Use sales documents, for example, instead of posting directly to the general ledger. When you create entries in the customer ledger, corresponding entries are made in the general ledger.  
-* Tax - Define the tax percentages and calculation types that apply to who you sell to and buy from, and what you sell and what you buy.
+* General
+
+  Define who you sell to and buy from, and what you sell and what you buy. You can also combine groups to specify things like the income statement accounts to post to, or use groups to filter reports.  
+* Specific
+
+  Use sales documents, for example, instead of posting directly to the general ledger. When you create entries in the customer ledger, corresponding entries are made in the general ledger.  
+* Tax
+
+  Define the tax percentages and calculation types that apply to who you sell to and buy from, and what you sell and what you buy.
 
 The following sections describe the posting groups under each umbrella.  
 
@@ -58,6 +64,8 @@ The following table describes the tax-related posting groups.
 | Tax Product Posting Groups |Indicate the tax calculations needed for the types of items or resources you buy or sell. |
 | Tax Posting Setup |Combine tax business posting groups and tax product posting groups. When you fill in a general journal line, purchase line, or sales line, we'll look at the combination to identify the accounts to use. |
 
+If your country uses value-added tax (VAT), see [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).  
+
 ## Example of linking posting groups
 
 Here's a scenario.  
@@ -89,12 +97,14 @@ The more product and business posting groups you have, the more lines you see in
 
 To get users started faster, [!INCLUDE[prod_short](includes/prod_short.md)] offers assistance through notifications of missing G/L accounts in various posting group setups in documents. To get these notifications, make sure that the **G/L Account is missing in posting group or setup** notification is selected in the **My Notifications** page, which you can access from the **Change when I receive notifications** field in the **My Settings** page.  
 
-This way, when you work on a document that uses a posting group or a setup that is missing a required general ledger account, you'll get a notification. Choose the link in the notificationto open a page where you can make the relevant changes, provided you have permission to do so.  
+This way, when you work on a document that uses a posting group or a setup that is missing a required general ledger account, you'll get a notification. Choose the link in the notification to open a page where you can make the relevant changes, provided you have permission to do so.  
 
 > [!NOTE]
 > In order to take you directly to the posting group or setup that is missing a general ledger account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup. Posting groups and setups are a way for the accountant to control how entries are posted to the general ledger, so such the just-in-time creation of posting groups and setups might not be allowed in your organization.  
-> 
-> In that case, disable the **G/L Account is missing in posting group or setup** notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because once documents are posted, any incorrectly used posting groups or setups cannot be deleted because there are general ledger entries created for them. 
+>
+> In that case, disable the *G/L Account is missing in posting group or setup* notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because once documents are posted, any incorrectly used posting groups or setups cannot be deleted because there are general ledger entries created for them.
+
+Starting in 2022 release wave 1, you can use the **Blocked** field in the **General Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.  
 
 ## Troubleshooting posting group errors
 

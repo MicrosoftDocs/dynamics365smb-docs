@@ -1,7 +1,7 @@
 ---
 title: Synchronization and Data Integration | Microsoft Docs
 description: The synchronization copies data between Microsoft Dataverse tables and Business Central records, and keeps the data in both systems up-to-date.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

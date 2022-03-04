@@ -1,7 +1,7 @@
 ---
 title: Set up company consolidation
 description: Learn how you can configure how data from different companies in Business Central is reported into a consolidation company.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

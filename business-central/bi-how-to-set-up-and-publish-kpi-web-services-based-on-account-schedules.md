@@ -1,7 +1,7 @@
 ---
 title: Set Up and Publish KPI Web Services for Account Schedules
 description: This topic describes how to show the account-schedule KPI data based on specific account schedules.
-author: bholtorf
+author: brentholtorf
     
 ms.topic: conceptual
 ms.devlang: na

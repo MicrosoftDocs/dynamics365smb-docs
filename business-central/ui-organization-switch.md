@@ -1,7 +1,7 @@
 ---
 title: Switching to Another Company or Environment
 description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

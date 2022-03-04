@@ -1,7 +1,7 @@
 ---
     title: Service Statistics
     description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

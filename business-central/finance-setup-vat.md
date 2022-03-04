@@ -44,9 +44,9 @@ To start the assisted setup guide, follow these steps:
 
 ### Check the VAT posting setup
 
-To support you in getting started fast, [!INCLUDE [prod_short](includes/prod_short.md)] will show you notifications if you are missing general ledger (G/L) accounts in posting groups or posting setups, such as the **VAT Posting Setup** page. You can turn this on or off using the *G/L accounts missing in posting group or setup* notification in the **My Notifications** page, which is part of the **My settings** page. 
+To support you in getting started fast, [!INCLUDE [prod_short](includes/prod_short.md)] will show you notifications if you are missing general ledger (G/L) accounts in posting groups or posting setups, such as the **VAT Posting Setup** page. You can switch this type of notification on or off using the *G/L accounts missing in posting group or setup* notification in the **My Notifications** page. Just go to the **My settings** page, and then choose the *Change when I receive notifications.* link.  
 
-To take you directly to the relevant posting group or setup that is missing a G/L account, [!INCLUDE [prod_short](includes/prod_short.md)] will automatically create those posting setups, using the posting groups in the document or journal you're currently working on.  
+If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
 At this point, you might just fill in the missing G/L accounts. Then, later, when you further refine the setup, you might realize this setup was wrong. [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of VAT posting setup and general posting setup when there are entries created based on such configurations. Starting in 2022 release wave 1, you can use the **Blocked** field in the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 

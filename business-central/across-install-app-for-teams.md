@@ -56,7 +56,7 @@ This option is the quickest way to install the app.
 5. Choose **Add**.
 
 > [!TIP]
-> If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you'll get a message like: **Business Central wants to show a preview of this link.**. To install the app, select **Show Preview** and follow the instructions.
+> If you paste a link to a Business Central page into a Team conversation, and you don't have the app installed, you'll get a message like: **Business Central wants to show a preview of this link.** To install the app, select **Show Preview** and follow the instructions.
 
 **Option 3: From Business Central**
 

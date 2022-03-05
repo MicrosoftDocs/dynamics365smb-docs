@@ -380,6 +380,11 @@
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
+## Sharing Business Data
+### [Overview](across-share-data-md)
+### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
+### [Sharing Files in OneDrive](across-share-onedrive.md)
+### [Viewing and Editing in Excel](across-work-with-excel.md)
 ## Accessibility, Keyboard Shortcuts, and Touch Gestures
 ### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)

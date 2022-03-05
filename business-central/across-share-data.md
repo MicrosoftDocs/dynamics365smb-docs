@@ -15,28 +15,38 @@ Collaboration among people inside and outside an organization is integral part o
 
 With all these features, access to data is protected by the license and permissions system of Business Central. 
 
-## Copy link
+## Copying a page link
 
-> Applies to: Online, On-premises
+![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
 
-From any page, you can copy the page's URL, then paste and send it to others in media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser address box.
+From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser address box.
 
-> [!TIP]
-> After you copy a link, before you send it, you can modify the URL to manipulate what is displayed when the page is opened. For more information, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
+### Modify the page link
+
+After you copy a link, before you send it, you can modify the URL to manipulate what is displayed when the page is opened. For example, you can add filters or specify the company. For more information, see [Web Client URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
+
+### About filter lists
+
+Using the filter pane on collection pages, you can apply filters narrow the records shown in the list. If you use the **Copy Link** action or copy the URL from the browser, the page link won't respect the filters. Users that opne the link will see the full collection. The way to keep the filteting on a collection page link is to save the filtered page as a view first. Then, open the view and copy the link from there. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
+<!-- DOESNT WORK ny sorting or filtering you've done on lists will also be kept in the link, so those who open the page will see the same data as you. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md). 
+
+https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&node=0000232e-8905-0000-0c5a-c400836bd2d2&page=22&filter=Customer.Name%20IS%20%27Somadis%27 seems to be node because this works: https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&page=22&filter=Customer.Name%20IS%20%27Somadis%27-->
 
 ## Share to Teams
 
-> Applies to: Online
+![Supported](media/check.png) Online, ![Not Supported](media/x-icon.png) On-premises
 
 Directly from most collection pages, like the Items page, and details pages, like the Items card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in Business Central
 
 ## Open and Share in OneDrive
 
-> Applies to: Online, On-premises
+![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
 
 Business Central makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find the **Open in OneDrive** and **Share** actions. Both actions save a copy of a file to OneDrive. Once in OneDrive, you can use its sharing and contribution features on the file. The difference in the actions is that **Open in OneDrive** opens the file in OneDrive. **Sharesaves a copy of a file to a Business Central folder in your OneDrive and opens the file. Copy the file to your OneDrive and share it with other people.
 
-
+## Open in Excel
+![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
+For collection pages or line item lists, you have the **Open in Excel** action. This action opens the list of records in an Excel workbook (.xlsx file) which you send to others. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
 Share to Teams
 Tips about sharing views, filters, current record, what cannot be shared
 Share as a table (Copy+Paste, or via Excel) -> Link to article (could no go below it in TOC)

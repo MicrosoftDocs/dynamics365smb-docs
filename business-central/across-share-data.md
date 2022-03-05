@@ -11,9 +11,9 @@ ms.author: jswymer
 ---
 # Sharing Data with Business Central
 
-Collaboration among people inside and outside an organization is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records or a specific record, with others&mdash;even those who don't have a Business Central license in some cases.
+Collaboration among people inside and outside an organization is integral part of most businesses. As outlined in this article, [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records or specific records. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.--
 
-With all these features, access to data is protected by the license and permissions system of Business Central. 
+With all these features, access to data is protected by the license and permissions of Business Central.
 
 ## Copying a link
 
@@ -61,6 +61,7 @@ For collection pages or line item lists, you have the **Open in Excel** action. 
 For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
 
 ## See Also
+
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [OneDrive FAQ](admin-onedrive-faq.md)

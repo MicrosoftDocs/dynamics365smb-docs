@@ -15,7 +15,7 @@ Collaboration among people inside and outside an organization is integral part o
 
 With all these features, access to data is protected by the license and permissions system of Business Central. 
 
-## Copying a page link
+## Copying a link
 
 ![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
 
@@ -32,28 +32,22 @@ Using the filter pane on collection pages, you can apply filters narrow the reco
 
 https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&node=0000232e-8905-0000-0c5a-c400836bd2d2&page=22&filter=Customer.Name%20IS%20%27Somadis%27 seems to be node because this works: https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&page=22&filter=Customer.Name%20IS%20%27Somadis%27-->
 
-## Share to Teams
+## Sharing to Teams
 
 ![Supported](media/check.png) Online, ![Not Supported](media/x-icon.png) On-premises
 
 Directly from most collection pages, like the Items page, and details pages, like the Items card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in Business Central
 
-## Open and Share in OneDrive
+## Sharing to OneDrive
 
 ![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
 
 Business Central makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find the **Open in OneDrive** and **Share** actions. Both actions save a copy of a file to OneDrive. Once in OneDrive, you can use its sharing and contribution features on the file. The difference in the actions is that **Open in OneDrive** opens the file in OneDrive. **Sharesaves a copy of a file to a Business Central folder in your OneDrive and opens the file. Copy the file to your OneDrive and share it with other people.
 
-## Open in Excel
+## Opening in Excel
 ![Supported](media/check.png) Online, ![Supported](media/check.png) On-premises
-For collection pages or line item lists, you have the **Open in Excel** action. This action opens the list of records in an Excel workbook (.xlsx file) which you send to others. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
-Share to Teams
-Tips about sharing views, filters, current record, what cannot be shared
-Share as a table (Copy+Paste, or via Excel) -> Link to article (could no go below it in TOC)
-Sharing files (via OneDrive) -> Link to article (could now go below it in TOC)
-Hint that you can construct your own Url - link to technical article on that
-Could start with a table that compares the above options with on prem vs SaaS
-NOTE: This could serve as a good place to talk about how data can be shared with non-BC users aka "Project Satya" (note: own release train)
+
+For collection pages or line item lists, you have the **Open in Excel** action. This action opens the list of records in an Excel workbook (.xlsx file), which you send to others. In the workbook, you can also use share feature that's part of Excel. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
 
 ## See Also
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  

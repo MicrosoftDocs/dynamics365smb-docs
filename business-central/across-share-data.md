@@ -11,7 +11,7 @@ ms.author: jswymer
 ---
 # Sharing Data from Business Central
 
-Collaboration among people inside and outside an organization is integral part of most businesses. As outlined in this article, [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records or specific records. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.--
+Collaboration among people inside and outside an organization is integral part of most businesses. As outlined in this article, [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 With all these features, access to data is protected by the license and permissions of Business Central.
 
@@ -19,7 +19,7 @@ With all these features, access to data is protected by the license and permissi
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
-From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser address box.
+From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser's address box.
 
 ### Modify the page link
 
@@ -29,9 +29,9 @@ For more information, see [Web Client URL](/dynamics365/business-central/dev-itp
 
 ### About filter lists
 
-Using the filter pane on collection pages, you can apply filters narrow the records shown in the list. If you use the **Copy Link** action or copy the URL from the browser, the page link won't respect the filters. Users that open the link will see the full collection. The way to keep the filtering on a collection page link is to save the filtered page as a view first. Then, open the view and copy the link from there.
+Using the filter pane on collection pages, you can apply filters to narrow-down the records shown in the list. If you use the **Copy Link** action or copy the URL from the browser, the page link won't respect the filters. Users that open the link will see the full collection. The way to keep the filtering on a collection page link is to save the filtered page as a **View** first. Then, open the view and copy the link from there.
 
-For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
+For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md).
 <!-- DOESNT WORK ny sorting or filtering you've done on lists will also be kept in the link, so those who open the page will see the same data as you. For more information, see [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md). 
 
 https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&node=0000232e-8905-0000-0c5a-c400836bd2d2&page=22&filter=Customer.Name%20IS%20%27Somadis%27 seems to be node because this works: https://navdevvm-0604/BC200/?company=CRONUS%20International%20Ltd.&bookmark=27%3bEgAAAAJ7CDIAMQAyADMAMwA1ADcAMg%3d%3d&page=22&filter=Customer.Name%20IS%20%27Somadis%27-->

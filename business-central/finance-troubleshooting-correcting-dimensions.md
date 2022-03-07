@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting and Correcting Dimensions
 description: Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they are used on posted transactions.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

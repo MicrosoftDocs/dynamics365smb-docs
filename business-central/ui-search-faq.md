@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

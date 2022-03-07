@@ -1,7 +1,7 @@
 ---
 title: Responding to Requests About Personal Data
 description: This topic tells you how to respond to requests about personal data. This is known as a data subject request.
-author: bholtorf
+author: brentholtorf
 
 
 ms.author: bholtorf

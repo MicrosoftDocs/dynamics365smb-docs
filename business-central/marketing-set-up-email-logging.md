@@ -1,7 +1,7 @@
 ---
 title: Set Up Email Logging| Microsoft Docs
 description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

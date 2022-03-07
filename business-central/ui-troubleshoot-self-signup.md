@@ -40,6 +40,8 @@ For an overview of currently supported markets across Dynamics 365, see the [Int
 
 ## See Also
 
+[Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
+[Dynamics 365 Business Central trial FAQ](trial-faq.md)  
 [Welcome to [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Local Functionality](about-localization.md)  

@@ -1,6 +1,6 @@
 ---
 title: Sharing Data
-description: Learn how you can share Business Central data through OneDrive for Business. 
+description: Learn about the different ways to share business data from  Business Central. 
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
@@ -9,9 +9,9 @@ ms.date: 06/11/2021
 ms.author: jswymer
 
 ---
-# Sharing Data from Business Central
+# Sharing Business Data from Business Central
 
-Collaboration among people inside and outside an organization is integral part of most businesses. As outlined in this article, [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
+Collaboration among people inside and outside an organization is integral part of most businesses. [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records, specific records, or documents. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 With all these features, access to data is protected by the license and permissions of Business Central.
 
@@ -48,7 +48,7 @@ For more information, see [Sharing Records and Page Links in Teams](across-worki
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
-Business Central makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find the **Open in OneDrive** and **Share** actions. Both actions save a copy of a file to OneDrive. Once in OneDrive, you can use its sharing and contribution features on the file. The difference in the actions is that **Open in OneDrive** opens the file in OneDrive. **Share** saves a copy of a file to a Business Central folder in your OneDrive and opens the file. Copy the file to your OneDrive and share it with other people.
+Business Central makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find the **Open in OneDrive** and **Share** actions. Both actions save a copy of a file to OneDrive. Once in OneDrive, you can use its sharing and contribution features on the file. The difference in the actions is that **Open in OneDrive** opens the file in OneDrive. **Share** opens a page the let's you select who you want to share the file with. Recipients will get a notification email and the file appears in the shared folder in their OneDrive.
 
 For more information, see [Sharing Files in OneDrive](across-share-onedrive.md).
 

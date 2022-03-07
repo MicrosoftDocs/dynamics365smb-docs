@@ -381,7 +381,7 @@
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
 ## Sharing Business Data
-### [Overview](across-share-data-md)
+### [Overview](across-share-data.md)
 ### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
 ### [Sharing Files in OneDrive](across-share-onedrive.md)
 ### [Viewing and Editing in Excel](across-work-with-excel.md)

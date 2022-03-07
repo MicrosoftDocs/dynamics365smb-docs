@@ -9,7 +9,7 @@ ms.date: 06/11/2021
 ms.author: jswymer
 
 ---
-# Sharing Data with Business Central
+# Sharing Data from Business Central
 
 Collaboration among people inside and outside an organization is integral part of most businesses. As outlined in this article, [!INCLUDE[prod_short](includes/prod_short.md)] offers several features for sharing business data, like a list of records or specific records. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.--
 

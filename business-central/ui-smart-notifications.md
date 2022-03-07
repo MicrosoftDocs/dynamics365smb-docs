@@ -1,7 +1,7 @@
 ---
 title: Work With Smart Notifications and Specify When You See Them
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

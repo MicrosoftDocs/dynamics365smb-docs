@@ -95,7 +95,7 @@ You must submit a VAT transactions report electronically to the tax authorities.
 ## See Also
 
 [Set Up VAT](../../finance-setup-vat.md)  
-[Record VAT](../../finance-how-report-vat.md)  
+[Report VAT](../../finance-how-report-vat.md)  
  [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)  
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)  
  [Submit VAT Statements](how-to-submit-vat-statements.md)  

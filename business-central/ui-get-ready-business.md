@@ -1,5 +1,5 @@
 ---
-title: Getting Ready for Doing Business
+title: Get Ready for Doing Business
 description: Outlines the assisted setup guides, videos, help topics, and pages and pages to use to get ready for doing business in Business Central.
 author: edupont04
 
@@ -12,7 +12,7 @@ ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
 ---
-# Getting Ready for Doing Business
+# Get Ready for Doing Business
 
 Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 

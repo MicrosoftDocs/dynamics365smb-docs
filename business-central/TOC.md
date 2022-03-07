@@ -88,14 +88,16 @@
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 
 ## Try
+### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
+### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
 ### [Trials and Subscriptions](across-preview.md)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts
 ### [Business Central Quick Starts](quick-start-business-central.md)

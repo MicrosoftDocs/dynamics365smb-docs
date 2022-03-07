@@ -1,7 +1,7 @@
 ---
 title: "Classifying Data Sensitivity"
 description: You must specify which type of data you store about people so that you can respond to data subject requests.
-author: bholtorf
+author: brentholtorf
 
 ms.author: bholtorf
 ms.custom: na

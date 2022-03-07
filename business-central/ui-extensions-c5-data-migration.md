@@ -1,7 +1,7 @@
 ---
 title: Using the C5 Data Migration Extension | Microsoft Docs
 description: Use this extension to migrate customers, vendors, items, and general ledger accounts from Microsoft Dynamics C5 2012 to Business Central.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

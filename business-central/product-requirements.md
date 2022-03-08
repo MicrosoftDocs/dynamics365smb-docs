@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 02/21/2022
+ms.date: 03/08/2022
 ms.author: edupont
 
 ---
@@ -25,8 +25,6 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 
 ## Mobile devices
-
-**Windows:** Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).
 
 **Android (tablet and phone):** One of the latest three major versions and their updates.
 
@@ -46,8 +44,8 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 > [!IMPORTANT]
 > Starting with Business Central 2021 release wave 2, you will no longer be able to sign in to the Business Central add-in from Outlook versions earlier than 2012.
   
-**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article. 
- 
+**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.
+
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Teams

@@ -373,7 +373,8 @@
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing the Look of Externally-Facing Documents
 ### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Set the Report Layout](ui-set-report-layout.md)
+### [Change the Current Report Layout (legacy)](ui-how-change-layout-currently-used-report.md)
 ### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 ### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
 ### [Update Custom Report Layouts](ui-update-report-layouts.md)
@@ -1622,7 +1623,8 @@
 ### [Printing Reports](ui-specify-printer-selection-reports.md#default)
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
-### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Set the Report Layout](ui-set-report-layout.md)
+### [Changing the default Report Layout (legacy)](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
@@ -1710,13 +1712,14 @@
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
 #### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
-#### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)  
+#### [Create a New Layout](ui-how-create-custom-report-layout.md)
+#### [Using Fonts in Layouts](ui-fonts.md)  
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel Layouts](ui-excel-report-layouts.md)
 #### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)
-#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+#### [Set the Report Layout](ui-set-report-layout.md)
+#### [Change the default Layout (legacy)](ui-how-change-layout-currently-used-report.md)
 ### Developing report datasets
 #### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)

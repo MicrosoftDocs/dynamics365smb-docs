@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Setting the Report Layout
 
-A report layout determines the look of a report. It controls which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. A report can be set up with more than one report layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report n one company can have a different layout in another company. 
+A report layout determines the look of a report. It controls which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. A report can have more than one layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
 
 There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantages over the other: 
 

@@ -1,6 +1,6 @@
 ---
-title: Change the Way a Report Looks by Selecting a Different Layout
-description: You can use different layouts for a report, and switch between layouts to change how a report looks.
+title: Setting the Report Layout
+description: Learn how to set the layout that's used on a report when previewing and printing.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -13,13 +13,22 @@ ms.author: jswymer
 ---
 # Setting the Report Layout
 
-A report layout determines the look of a report. It controls which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. A report can have more than one layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
+> **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 (V20.0) and later. If you're using an earlier version, see []()
 
-There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantages over the other: 
+A report layout determines the look of a report. It controls which data fields of a report dataset appear, how they're arranged, styled, and more. A report may have more than one layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
 
-- The **Report Layout Selection** page displays a lists of all reports. The advantage of this page is it indicates what current layout is. It also let's you set layouts used for different companies, without having to switch the company you're working with.
+There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantage, for instance: 
 
-- The **Report Layouts** page displays all available layouts for each report in the current company. By listing all layouts, it's easy to find a specific layout by sorting or filtering the list. Once you find the layout you want, you can set it for a report with a single click. 
+- The **Report Layout Selection** page displays a list of all reports.
+
+  The advantage of this page is that it indicates what current layout is. It also lets you set layouts for reports in different companies, without having to switch the company you're working with.
+
+- The **Report Layouts** page displays all available layouts for each report in the current company.
+
+  By listing all layouts, it's easy to find a specific layout by sorting or filtering the list. Once you find the layout you want, you can set it for a report with a single selection.
+
+  > [!NOTE]
+  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you want even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
 
 ## Set the layout from Report Layout Selection page
 
@@ -29,18 +38,22 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 2. Set the **Company** field at the top to the company that includes the report.
 3. Find and select the report in the list, then do one of the following steps:
 
-    - If the layout you want to switch to is a different type than the current layout, select the **Layout Type** field, then choose the type of the layout you want to set on the report. 
-    - If the layout you want to switch to is the same layout type as the current layout, choose the **Select Layout** action at the top.
+    - If the layout you want to switch to has a different type than the current layout, select the **Layout Type** field, then choose the type of the layout you want to set on the report. 
+    - If the layout you want to switch to has the same layout type as the current layout, choose the **Select Layout** action at the top.
 
 4. In the **Report Layouts** page, select the layout, then select **OK**.
 
-### Set the layout from the Report Layouts page
+## Set the layout from the Report Layouts page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
   
    The **Report Layouts** page lists all the report layouts for each report.
 2. Find the layout in the list, select it, the choose **Set Default** action at the top of the page.
 
+## Revert to the default layout
+
+Reports are designed to use a layout by default. You can switch back to the default layout from **Report Layout Selection** page by selecting the report, and then selecting the **Restore Default Selection** action at the top of the page.
+  
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also

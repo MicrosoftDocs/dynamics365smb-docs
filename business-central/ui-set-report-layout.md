@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Setting the Report Layout
 
-> **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 (V20.0) and later. If you're using an earlier version, see []()
+> **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 (V20.0) and later. If you're using an earlier version, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
 
 A report layout determines the look of a report. It controls which data fields of a report dataset appear, how they're arranged, styled, and more. A report may have more than one layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
 

@@ -17,6 +17,8 @@ ms.author: jswymer
 
 A report layout determines the look of a report. It controls which data fields of a report dataset appear, how they're arranged, styled, and more. A report may have more than one layout, which you can then switch among as needed. When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
 
+## Get started
+
 There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantage, for instance: 
 
 - The **Report Layout Selection** page displays a list of all reports.
@@ -43,6 +45,10 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 
 4. In the **Report Layouts** page, select the layout, then select **OK**.
 
+### Revert to the default layout
+
+Reports are designed to use a layout by default. You can switch back to the default layout from **Report Layout Selection** page by selecting the report, and then selecting the **Restore Default Selection** action at the top of the page.
+
 ## Set the layout from the Report Layouts page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
@@ -50,9 +56,6 @@ There are two ways to set which layout a report uses. One way is from the **Repo
    The **Report Layouts** page lists all the report layouts for each report.
 2. Find the layout in the list, select it, the choose **Set Default** action at the top of the page.
 
-## Revert to the default layout
-
-Reports are designed to use a layout by default. You can switch back to the default layout from **Report Layout Selection** page by selecting the report, and then selecting the **Restore Default Selection** action at the top of the page.
   
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

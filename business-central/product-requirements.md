@@ -20,7 +20,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of the new Microsoft Edge.
   
-**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers. 
+**Chrome for Windows and Firefox for Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of these desktop browsers. The Business Central desktop app doesn't work with Firefox.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 

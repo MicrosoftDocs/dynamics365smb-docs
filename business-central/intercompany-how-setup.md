@@ -26,13 +26,13 @@ If you will make intercompany sales transactions that include resources, you mus
 
 ## To set up a company for intercompany transactions
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
-2. On the **Company Information** page, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**, and **Intercompany Inbox Details** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
-4. On the **Intercompany Setup** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
+2. On the **Intercompany Setup** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
   > [!NOTE]
   > 2022 release wave 1 introduces a new **Intercompany Setup** page so that you can also specify if this company must automatically create journal lines based on an intercompany partner's posts from the **IC General Journal** page. If your organization has used [!INCLUDE [prod_short](includes/prod_short.md)] before this release wave, you must switch on the new experience in the **Feature Management** page. For more information, see [Auto-accept transactions for intercompany journals](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+In versions older than 2022 release wave 1, you must fill in three intercompany-related fields in the **Company Information** page instead.  
 
 ## To set up intercompany partners
 

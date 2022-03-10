@@ -15,20 +15,19 @@ ms.author: edupont
 ---
 # Working with Excel Layouts
 
-Excel report layouts are based on Microsoft Excel workbooks (.xlxs files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
+Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
-
-## Benefits of Excel Layouts
+## Why use Excel layouts?
 
 Here are some more benefits of using Excel layouts:
 
 - Create interactive reports using visualizations like slicers
 - View raw data from the report dataset, which can help you better understand how the report works and where the data on visuals comes from
 - Use built-in Office features to do post-processing on rendered reports, like:
-     - [protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
-     - [applying sensitity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-     - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
-     - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
+  - [protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+  - [applying sensitity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+  - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
+  - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
 
 ## Add a new layout from a file
@@ -67,19 +66,32 @@ The easiest and quickest way to create an Excel layout is from an existing repor
 9. Select **OK**.
 10. Find and select the Excel workbook, then select **Open**.
 
-
 ## Learn about the elements of an Excel layout
 
-An Excel layout must include these elements:
+There are two elements every Excel layout must include: **Data** sheet and **Data** table. In short, these elements comprise the dataset of the report that you use in calculations and visualizations that you want to present on other sheets. There are specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout.
 
-- **Data** sheet
+![Shows the different elements of an Excel layout.](media/excel-layout-callouts.png)
+
+|No.|Element|Description|Mandatory|
+|---|-------|----|---|
+|1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table named **Data**</li></ul>|yes| 
+|2 and 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell A1 of the **Data** sheet</li></ul>|
+|3|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|no
+|4|Additinal data sheets|Used to presents.|no|
+
+<!--
+
+**Data** sheet
   - An Excel layout must contain a sheet named **Data**.
-  - The Data sheet can only include one table.
-- **Data** table
+  - The **Data** sheet can only include one table named **Data**.
+
+**Data** table
   - The **Data** sheet must include a table that has the name **Data**.
   - The table must have at least one column and can only include columns that are also in report dataset.
   - The table must start in the first cell A1 of the **Data** sheet.
 
+3. Report Metadata 
+-->
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also

@@ -40,11 +40,10 @@ RDLC layouts are based on client report definition layouts (.rdlc or .rdl file t
 
 ## Excel report layout overview
 
-An Excel Word report layout is a based on an Excel worksheet (.xlsx file type). Excel report layouts enable you to design report layouts by using Microsoft Excel.
 
+Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
- ![Example of a word report layout document for NAV.](media/Enav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
-
+![Shows the an example of an Excel layout.](media/excel-layout.png)
 
 ## Built-in and custom report layouts
 [!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports will have a built-in layout as either an RDLC report layout, Word report layout, or in some cases both. You cannot modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you use them as a starting point for building your own custom report layouts.

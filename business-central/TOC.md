@@ -380,6 +380,7 @@
 ### [Update Custom Report Layouts](ui-update-report-layouts.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
+### [Work with Excel Layouts](ui-excel-report-layouts.md)
 ### [Available Fonts](ui-fonts.md)
 ## Accessibility, Keyboard Shortcuts, and Touch Gestures
 ### [Accessibility](ui-accessibility.md)

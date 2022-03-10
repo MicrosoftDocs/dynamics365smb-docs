@@ -46,7 +46,6 @@ Here are some more benefits of using Excel layouts:
   > If you select an existing layout for the report from the **Report Layouts** page, the **Report ID** field will be filled in for you.
 
 4. In the **Layout Name** field, type a name for the layout. This name is used to identify the report layout, so make sure it is descriptive enough.
-
 5. Set the **Format Options** field to the layout type.
 6. On the **Choose layout file** page, select **Choose**.
 7. Find the layout file, select it, then choose **Open**.
@@ -57,7 +56,7 @@ The layout has been added. To try it out, select You can now modify the custom l
 
 The easiest and quickest way to create an Excel layout is from an existing report.
 
-1. Run the report.
+1. Run the report .
 2. On the report request page, select **Send to** > **Microsoft Excel Document (data only)** > **OK**.
 
    This step downloads an Excel workbook that contains the report dataset.
@@ -80,7 +79,7 @@ There are also specific requirements on the  **Data** sheet and **Data** table. 
 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
-|1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table named **Data**</li></ul>|![Is mandatory](media/check.png) | 
+|1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table, and the table must be named **Data**</li></ul>|![Is mandatory](media/check.png) | 
 |2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that in report dataset You can delete and hide columns</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
 |5|Additional data sheets|Used to present data.||

@@ -70,7 +70,7 @@ The easiest and quickest way to create an Excel layout is from an existing repor
 9. Select **OK**.
 10. Find and select the Excel workbook, then select **Open**.
 
-## Learn about the elements of an Excel layout
+## Understanding Excel layouts
 
 You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: **Data** sheet and **Data** table. In short, these elements comprise the dataset of the report that you use in calculations and visualizations that you want to present on other sheets. There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layouts and some of the requirements.
 
@@ -96,6 +96,9 @@ You have a lot of flexibility when designing Excel layouts But there are couple 
 
 3. Report Metadata 
 -->
+
+
+
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also

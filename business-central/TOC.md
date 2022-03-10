@@ -24,8 +24,8 @@
 <!-- Contoso-->
 ### Contoso Coffee Demo Data for Manufacturing
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-#### [Create a New Production BOM and BOM Version](contoso-coffee/create-a-new-production-bom-and-bom-version.md)
-#### [Create a New Routing](contoso-coffee/create-a-new-routing.md)
+#### [Create a New Production BOM and BOM Version](contoso-coffee/create-new-production-bom-version.md)
+#### [Create a New Routing](contoso-coffee/create-new-routing.md)
 #### [Create a Firm Planned Production Order and Change It](contoso-coffee/create-firm-planned-production-order-change.md)
 #### [Combine Automatic and Manual Flushing](contoso-coffee/combine-automatic-manual-flushing.md)
 #### [Use Order Planning to Create and Reserve Supply](contoso-coffee/order-planning-create-reserve-supply.md)

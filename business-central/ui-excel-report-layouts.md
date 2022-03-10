@@ -30,56 +30,12 @@ Here are some more benefits of using Excel layouts:
      - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
      - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
- 
 
- 
-Report development consists of two parts: developing the report dataset (the report object) and developing the layout (Word/RDLC/Excel)
-
-
-4.	The report layout experience is now in the hand of normal users (for reports that do not need to be printed). Given that the dataset has the data needed in the correct format, end users now have total freedom to change the look and feel of the report, add additional views on the data, filter and sort as they need, etc. If one of these modifications make sense to save, they can just import it as a new layout. No partner is needed.
- 
-A quick survey shows that the time spent developing a report with a RDLC layout is distributed like this:
- 
- 
-This indicates that 
-5.	Compared to reports with RDLC layouts, the cost for customers for reports development (where only an Excel layout is needed) is dramatically reduced
-a.	For a new report, up to 80% reduction in partner time
-b.	To add a field to an existing report, time spent by partner is likely reduced by at least 80%
-Time == money. 
- 
-We still want to make an in-client report dataset designer (for simple report datasets) to cut even more cost, but we did not get budget for this in 2022w2 (not something we will share externally).
- 
- 
-Finally, 
-6.	With Excel layouts, we break the ice for Excel fans to learn Power BI. 
-This is because hardcore classic Excel users that start making Excel layouts might learn new tricks such as PowerQuery (in Excel) when they want to add data from other data sources. When they have learned PowerQuery, the step to the PowerBI designer is going to be small (PowerQuery UI and concepts are the same in Power BI)
- 
-The other part that will bridge the gap to PowerBI is Excel PowerPivot:
- 
- 
-If our BC Excel power users start learning about PowerQuery and PowerPivot in Excel because of Excel layouts, then they are already on path to the dark side (Power BI)… 😊
- 
- 
- 
-
-
-By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
-
-> [!NOTE]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
-
-To create a custom layout, you either make a copy of an existing custom layout or add a new custom layout, which is commonly based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there's no built-in layout for the type, a new blank layout is a created. You'll have to modify and design this blank layout from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
-
-> [!TIP]
-> Use account schedules to get insight into the financial data stored in your chart of accounts. For more information, see [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md).
-
-When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you create for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
-
-## To add layout
+## Add a new layout from a file
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
-    The **Report Layouts** page lists all the reports layouts that are available. 
+    The **Report Layouts** page lists all the reports layouts that are available.
 2. Choose **New Layout**.
 3. Set the **Report ID** field to the ID of the report you want to create the layout for. 
 
@@ -90,12 +46,27 @@ When custom report layouts are defined, you can select them from customer and ve
 
 5. Set the **Format Options** field to the layout type.
 6. On the **Choose layout file** page, select **Choose**.
-7. Find the layout file, select it, then choose **Open**
+7. Find the layout file, select it, then choose **Open**.
 
-The layout has been addedTo try it out, select You can now modify the custom layout as needed.
+The layout has been added. To try it out, select You can now modify the custom layout as needed.
 
-> [!TIP]
-> You can export the report results to an Excel file for viewing the full dataset, including all columns, but without the layout. The Excel file can help you validate that the report returns the expected data or diagnose problems. For more information, see [Analyzing Report Data with Excel](report-analyze-excel.md).
+## Create an Excel Layout from a Report
+
+The easiest and quickest way to create an Excel layout is from an existing report.
+
+1. Run the report.
+2. On the report request page, select **Send to** > **Microsoft Excel Document (data only)** > **OK**.
+
+   This step downloads an Excel workbook that contains the report dataset.
+3. Open the downloaded Excel workbook, and make changes.
+4. Go to the Report Layouts page.
+5. Select **New Layout**.
+6. Set the **Report ID** to report.
+7. Enter a name in  **Layout Name**.
+8. Set **Format Options** to **Excel**.
+9. Select **OK**.
+10. Find and select the Excel workbook, then select **Open**.
+
 
 ## Learn about the elements of an Excel layout
 
@@ -120,6 +91,7 @@ An Excel layout must include these elements:
 [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Analyzing Report Data with Excel](report-analyze-excel.md).
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

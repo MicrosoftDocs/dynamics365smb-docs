@@ -42,8 +42,8 @@ Here are some more benefits of using Excel layouts:
 2. Choose **New Layout**.
 3. Set the **Report ID** field to the ID of the report you want to create the layout for. 
 
-   > [!TIP]
-   > If you select an existing layout for the report from the **Report Layouts** page, the **Report ID** field will be filled in for you.
+  > [!TIP]
+  > If you select an existing layout for the report from the **Report Layouts** page, the **Report ID** field will be filled in for you.
 
 4. In the **Layout Name** field, type a name for the layout. This name is used to identify the report layout, so make sure it is descriptive enough.
 
@@ -72,16 +72,23 @@ The easiest and quickest way to create an Excel layout is from an existing repor
 
 ## Understanding Excel layouts
 
-You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: **Data** sheet and **Data** table. In short, these elements comprise the dataset of the report that you use in calculations and visualizations that you want to present on other sheets. There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layouts and some of the requirements.
+You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: a **Data** sheet and a **Data** table. In short, these elements comprise all or portion of a report's dataset. In essence they define a kind of contact between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
+
+There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layouts and some of the requirements.
 
 ![Shows the different elements of an Excel layout.](media/excel-layout-callouts.png)
 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table named **Data**</li></ul>|![Is mandatory](media/check.png) | 
-|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
+|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that in report dataset You can delete and hide columns</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
 |5|Additional data sheets|Used to present data.||
+
+To summarize what you can and canøt do on the **Data** sheet:
+
+- Don't change the name of **Data** sheet, **Data** table, or columns.
+- You can delete or hide columns, but you don't add any columns that aren't in the report dataset.
 
 <!--
 

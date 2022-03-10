@@ -75,9 +75,9 @@ There are two elements every Excel layout must include: **Data** sheet and **Dat
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table named **Data**</li></ul>|![Is mandatory](media/check.png) | 
-|2 and 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell A1 of the **Data** sheet</li></ul>|![Is mandatory](media/check.png) 
+|2 and 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell A1 of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
 |3|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
-|4|Additinal data sheets|Used to presents.||
+|4|Additional data sheets|Used to present data.||
 
 <!--
 

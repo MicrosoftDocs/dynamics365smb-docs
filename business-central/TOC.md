@@ -88,14 +88,16 @@
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 
 ## Try
+### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
+### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
 ### [Trials and Subscriptions](across-preview.md)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts
 ### [Business Central Quick Starts](quick-start-business-central.md)
@@ -557,7 +559,7 @@
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Reporting Costs](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 #### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)

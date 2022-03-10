@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
-ms.search.form: 256, 251, 233, 624, 1228
+ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
 

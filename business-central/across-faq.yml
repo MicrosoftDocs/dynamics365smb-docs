@@ -175,13 +175,13 @@ additionalContent: |
   [Using [!INCLUDE[prod_short](includes/prod_short.md)] without Outlook](admin-no-outlook.md)  
   [Change Basic Settings](ui-change-basic-settings.md)  
   [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-  [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
+  [Getting answers to questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
   [Resources for Help and Support](product-help-and-support.md)  
   [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
   [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
   [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-  [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
-
+  [FAQ About Developer and Admin Experiences](/dynamics365/business-central/dev-itpro/faq)
+  [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)
   ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
   [!INCLUDE[footer-include](includes/footer-banner.md)]

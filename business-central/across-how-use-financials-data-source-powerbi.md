@@ -36,7 +36,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
   - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC160/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
     To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.

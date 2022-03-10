@@ -1,7 +1,7 @@
 ---
     title: Enter Inland Revenue Department Numbers
     description: You can enter an Inland Revenue Department Number (IRD) in certain pages in the New Zealand version of Business Central.
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.search.form: 255
+ms.search.form: 25, 255
 ms.date: 04/01/2021
 ms.author: edupont
 

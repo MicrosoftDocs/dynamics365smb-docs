@@ -21,6 +21,17 @@
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+<!-- Contoso-->
+### Contoso Coffee Demo Data for Manufacturing
+#### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
+#### [Create a New Production BOM and BOM Version](contoso-coffee/create-a-new-production-bom-and-bom-version.md)
+#### [Create a New Routing](contoso-coffee/create-a-new-routing.md)
+#### [Create a Firm Planned Production Order and Change It](contoso-coffee/create-firm-planned-production-order-change.md)
+#### [Combine Automatic and Manual Flushing](contoso-coffee/combine-automatic-manual-flushing.md)
+#### [Use Order Planning to Create and Reserve Supply](contoso-coffee/order-planning-create-reserve-supply.md)
+#### [Set up and Process a Subcontracting Operation](contoso-coffee/set-up-process-subcontracting-operation.md)
+#### [Set Up New Capacity](contoso-coffee/set-up-new-capacity.md)
+#### [Variants](contoso-coffee/variants.md)
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)

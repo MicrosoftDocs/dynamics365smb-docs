@@ -17,6 +17,10 @@ ms.author: edupont
 
 Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
+![Shows the an example of an Excel layout.](media/excel-layout.png)
+
+This article explains some of the most important things you need to know to get started with Excel layouts.
+
 ## Why use Excel layouts?
 
 Here are some more benefits of using Excel layouts:
@@ -68,16 +72,16 @@ The easiest and quickest way to create an Excel layout is from an existing repor
 
 ## Learn about the elements of an Excel layout
 
-There are two elements every Excel layout must include: **Data** sheet and **Data** table. In short, these elements comprise the dataset of the report that you use in calculations and visualizations that you want to present on other sheets. There are specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout.
+You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: **Data** sheet and **Data** table. In short, these elements comprise the dataset of the report that you use in calculations and visualizations that you want to present on other sheets. There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layouts and some of the requirements.
 
 ![Shows the different elements of an Excel layout.](media/excel-layout-callouts.png)
 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table named **Data**</li></ul>|![Is mandatory](media/check.png) | 
-|2 and 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell A1 of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
-|3|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
-|4|Additional data sheets|Used to present data.||
+|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column and can only include columns that are also in report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
+|4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
+|5|Additional data sheets|Used to present data.||
 
 <!--
 

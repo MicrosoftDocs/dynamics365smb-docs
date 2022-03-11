@@ -34,51 +34,6 @@ Here are some more benefits of using Excel layouts:
   - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
 
-## Create an Excel layout
-
-There are three ways to create an Excel layout for a report
-
-- From a report that already has an Excel layout
-- From a r
-
-Add a new layout from a file
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-
-    The **Report Layouts** page lists all the reports layouts that are available.
-2. Choose **New Layout**.
-3. Set the **Report ID** field to the ID of the report you want to create the layout for. 
-
-  > [!TIP]
-  > If you select an existing layout for the report from the **Report Layouts** page, the **Report ID** field will be filled in for you.
-
-4. In the **Layout Name** field, type a name for the layout. This name is used to identify the report layout, so make sure it is descriptive enough.
-5. Set the **Format Options** field to the layout type.
-6. On the **Choose layout file** page, select **Choose**.
-7. Find the layout file, select it, then choose **Open**.
-
-The layout has been added. To try it out, select You can now modify the custom layout as needed.
-
-## Create an Excel Layout from a Report
-
-The easiest and quickest way to create an Excel layout is from an existing report.
-
-1. Run the report .
-2. On the report request page, select **Send to** > **Microsoft Excel Document (data only)** > **OK**.
-
-   This step downloads an Excel workbook that contains the report dataset.
-3. Open the downloaded Excel workbook, and make changes.
-4. Go to the Report Layouts page.
-5. Select **New Layout**.
-6. Set the **Report ID** to report.
-7. Enter a name in  **Layout Name**.
-8. Set **Format Options** to **Excel**.
-9. Select **OK**.
-10. Find and select the Excel workbook, then select **Open**.
-
-## Add the Excel Layout to the 
-
-
 ## Understanding Excel layouts
 
 You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: a **Data** sheet and its  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
@@ -98,6 +53,61 @@ To summarize what you can and can't do on the **Data** sheet:
 
 - Don't change the name of **Data** sheet, **Data** table, or columns.
 - You can delete or hide columns, but you don't add any columns that aren't in the report dataset.
+
+## Get Started
+
+There are basically two tasks involved in setting up an Excel layout on a report:
+
+1. Create the new Excel layout file.
+2. Add the new layout to the report.
+
+## Create the Excel layout
+
+There are three ways to create an Excel layout file for a report.
+
+
+- From any report 
+- From an existing Excel layout
+- From AL code
+
+### Create an Excel layout from any report
+
+Use the following steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the data. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
+3. On the report request page, select **Send to** > **Microsoft Excel Document (data only)** > **OK**.
+
+   This step downloads an Excel workbook that contains the report dataset.
+4. Open the downloaded file in Excel, make changes, then save the file.
+
+### Create an Excel Layout from another Excel layout
+
+If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways result in an Excel layout file. The difference is that from request page, the layout will include data. The data isn't required but it helps when designing the layout.
+
+- Export the layout from the **Report Layouts** page
+  1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+  2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
+  3. Open the file in Excel, make the changes, then save the file.
+
+- Download the layout from the report's request page
+  1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+  2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
+  3. On the report request page, select **Download**.
+  4. Open the file in Excel, make the changes, then save the file.
+
+Both these tasks will download an Excel workbook.
+
+## Add the Excel Layout to the report
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+2. Select **New Layout**.
+3. Set the **Report ID** to report.
+4. Enter a name in  **Layout Name**.
+5. Set **Format Options** to **Excel**.
+6. Select **OK**.
+7. Find and select the Excel workbook, then select **Open**.
+
 
 <!--
 

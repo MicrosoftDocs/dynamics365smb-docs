@@ -17,6 +17,8 @@ ms.author: jswymer
 
 A report layout determines the look of a report. It controls which data fields of a report dataset appear, how they're arranged, styled, and more. A report may have more than one layout, which you can then switch among as needed.
 
+When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
+
 ## Get started
 
 There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantages, for example: 
@@ -31,10 +33,6 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 
   > [!NOTE]
   > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you want even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
-
-### When there's multiple companies
-
-When there are multiple companies in the application, the layouts are set on a per-company basis. So the same report in one company can have a different layout in another company.
 
 ## Set the layout from the Report Layouts page
 

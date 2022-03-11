@@ -11,7 +11,7 @@ ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# Setting the Report Layout
+# Setting the Layout Used by a Report
 
 > **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 and later. For earlier versions, go [here](ui-how-change-layout-currently-used-report.md).
 
@@ -32,7 +32,14 @@ There are two ways to set which layout a report uses. One way is from the **Repo
   > [!NOTE]
   > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you want even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
 
-## Set the layout from Report Layout Selection page
+## Set the layout from the Report Layouts page
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+  
+   The **Report Layouts** page lists all the report layouts for each report.
+2. Find the layout in the list, select it, the choose **Set Default** action at the top of the page.
+
+## Set the default layout from Report Layout Selection page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
   
@@ -45,18 +52,10 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 
 4. In the **Report Layouts** page, select the layout, then select **OK**.
 
-### Revert to the default layout
+## Revert to the original default layout
 
-Reports are designed to use a layout by default. You can switch back to the default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
+Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
 
-## Set the layout from the Report Layouts page
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-  
-   The **Report Layouts** page lists all the report layouts for each report.
-2. Find the layout in the list, select it, the choose **Set Default** action at the top of the page.
-
-  
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also

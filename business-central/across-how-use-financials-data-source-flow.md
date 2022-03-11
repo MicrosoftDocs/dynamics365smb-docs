@@ -1,5 +1,5 @@
 ---
-title: Connect Your Data with Power Automate| Microsoft Docs
+title: Connect Your Data with Power Automate
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
 
 ms.topic: conceptual
@@ -7,20 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions
-ms.date: 07/27/2021
+ms.date: 03/11/2022
 ms.author: edupont
 author: jswymer
 ---
 
 # Using [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow
 
-You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate.
+You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate.  
+
+For [!INCLUDE [prod_short](includes/prod_short.md)] online, starting in April 2022, an admin can [switch on a feature](admin-feature-management.md) to make it possible to run a Power Automate flow from most pages. To connect to Power Automate, you must authorize Azure Active Directory services to access your [!INCLUDE [prod_short](includes/prod_short.md)]. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, users will see any flows that your organization has added when they choose the **Automate** action in the relevant pages. They can run the flows without leaving [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> In addition to Power Automate, you can use the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any workflow template that you create with Power Automate is added to the list of workflows  within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflow](across-workflow.md).  
+> In addition to Power Automate, you can use the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any workflow template that you create with Power Automate is added to the list of workflows within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 > You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Automate.  
+
+The following section describes how to create a flow in Power Automate. But if your admin has switched on the capability for running Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)], you can also start the process of building a flow from the **Automate** action on the relevant pages. In that case, the connection is already set up for you.  
 
 ## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Automate
 

@@ -84,22 +84,22 @@ You can use the following steps to create an Excel layout from any report, regar
 
 If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download pretty much the same Excel layout file, which includes all sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
 
-#### Export the layout from the **Report Layouts** page
+- Export the layout from the **Report Layouts** page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
-3. Open the file in Excel, make the changes, then save the file.
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+    2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
+    3. Open the file in Excel, make the changes, then save the file.
+
+- Download the layout from the report's request page
+
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+    2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
+    3. On the report request page, select **Download**.
+    4. Open the file in Excel, make the changes, then save the file.
 
 ### Create an Excel layout from AL code
 
 This way is the most advanced. It requires knowledge of AL code, so it target programmers. In this case, the Excel layouts are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
-
-#### Download the layout from the report's request page
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
-3. On the report request page, select **Download**.
-4. Open the file in Excel, make the changes, then save the file.
 
 ## Add the Excel Layout to the report
 

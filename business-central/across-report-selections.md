@@ -7,7 +7,7 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
 
 ---
@@ -40,6 +40,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 * **Report Selection - Warehouse**  
 * **Report Selection - Bank Account**  
 * **Report Selections Reminder/Finance Charge**  
+* **Report Selection - Job**  
 
 ## Example: Report selection for sales documents
 
@@ -65,6 +66,15 @@ For example, in the **Report Selection - Sales** and **Report Selection - Purcha
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)  
 [Set Up Printers](ui-specify-printer-selection-reports.md)  
-
+[Financial Reports and Analytics in Business Central](finance-reports.md)  
+[Accounts Receivable Reports and Analytics in Business Central](receivables-reports.md) 
+[Accounts Payable Reports and Analytics in Business Central](payables-reports.md)  
+[Fixed Assets Reports and Analytics in Business Central](fa-reports.md)  
+[Project Reports and Analytics in Business Central](project-reports.md)  
+[Sales Reports and Analytics in Business Central](sales-reports.md)  
+[Purchase Reports and Analytics in Business Central](purchase-reports.md)  
+[Inventory and Warehouse Reports and Analytics in Business Central](inventory-WMS-reports.md)  
+[Assembly Reports and Analytics in Business Central](assembly-reports.md)  
+[Production Reports and Analytics in Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

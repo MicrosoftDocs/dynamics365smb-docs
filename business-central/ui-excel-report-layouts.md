@@ -90,7 +90,7 @@ If there's already an Excel layout for a report, you use the existing layout as 
 2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
 3. Open the file in Excel, make the changes, then save the file.
 
-### Create an Excel layout from AL ode
+### Create an Excel layout from AL code
 
 This way is the most advanced. It requires knowledge of AL code, so it target programmers. In this case, the Excel layouts are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 

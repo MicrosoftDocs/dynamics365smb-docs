@@ -45,7 +45,7 @@ There are also specific requirements on the  **Data** sheet and **Data** table. 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table, and the table must be named **Data**</li></ul>|![Is mandatory](media/check.png) | 
-|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that in report dataset You can delete and hide columns</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)| 
+|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that are in the report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)|
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
 |5|Additional data sheets|Used to present data.||
 
@@ -69,7 +69,7 @@ There are three ways to create an Excel layout file for a report.
 - From an existing Excel layout
 - From AL code
 
-### Create an Excel layout from any report
+### Option 1: Create an Excel layout from any report
 
 You can use the following steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
 
@@ -80,28 +80,28 @@ You can use the following steps to create an Excel layout from any report, regar
    This step downloads an Excel workbook that contains the report dataset.
 4. Open the downloaded file in Excel, make changes, then save the file.
 
-### Create an Excel layout from another Excel layout
+### Option 2: Create an Excel layout from another Excel layout
 
 If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download pretty much the same Excel layout file, which includes all sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
 
-#### Option 1: Export the layout from the **Report Layouts** page
+#### Export the layout from the **Report Layouts** page
 
   1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
   2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
   3. Open the file in Excel, make the changes, then save the file.
 
-#### Option 2: Download the layout from the report's request page
+#### Download the layout from the report's request page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
 3. On the report request page, select **Download**.
 4. Open the file in Excel, make the changes, then save the file.
 
-### Create an Excel layout from AL code
+### Option 3: Create an Excel layout from AL code
 
 This way is the most advanced. It requires knowledge of AL code, so it target programmers. In this case, the Excel layouts are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 
-## Task 2:Add the Excel layout to the report
+## Task 2: Add the Excel layout to the report
 
 Once you have the Excel layout file, the next task is to add it as a layout for the report.
 

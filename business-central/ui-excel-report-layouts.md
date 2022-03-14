@@ -63,13 +63,13 @@ There are basically two tasks involved in setting up an Excel layout on a report
 
 ## Task 1: Create the Excel layout
 
-There are three ways to create an Excel layout file for a report.
+There are three ways to create an Excel layout file for a report as explained in thi section.
 
 - From any report
 - From an existing Excel layout
 - From AL code
 
-### Option 1: Create an Excel layout from any report
+### [From any report](#tab/any-report) 
 
 You can use the following steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
 
@@ -80,26 +80,28 @@ You can use the following steps to create an Excel layout from any report, regar
    This step downloads an Excel workbook that contains the report dataset.
 4. Open the downloaded file in Excel, make changes, then save the file.
 
-### Option 2: Create an Excel layout from another Excel layout
+### [From another Excel layout on a report](#tab/other-layout)
 
-If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download pretty much the same Excel layout file, which includes all sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
+If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download pretty much the same Excel layout file, which includes all the sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
 
-#### Export the layout from the **Report Layouts** page
+#### Option 1: Export the layout from the **Report Layouts** page
 
-  1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-  2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
-  3. Open the file in Excel, make the changes, then save the file.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
+3. Open the file in Excel, make the changes, then save the file.
 
-#### Download the layout from the report's request page
+#### Option 2: Download the layout from the report's request page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
 3. On the report request page, select **Download**.
 4. Open the file in Excel, make the changes, then save the file.
 
-### Option 3: Create an Excel layout from AL code
+### [From AL code](#tab/from-code)
 
 This way is the most advanced. It requires knowledge of AL code, so it target programmers. In this case, the Excel layouts are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
+
+---
 
 ## Task 2: Add the Excel layout to the report
 

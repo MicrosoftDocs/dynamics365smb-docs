@@ -26,19 +26,19 @@ This article explains some of the most important things you need to know to get 
 Here are some more benefits of using Excel layouts:
 
 - Create interactive reports using visualizations like slicers
-- View raw data from the report dataset, which can help you better understand how the report works and where the data on visuals comes from
+- View raw data from the report dataset to help understand how the report works and where the data on visuals comes from
 - Use built-in Office features to do post-processing on rendered reports, like:
   - [protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
-  - [applying sensitity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+  - [applying sensitivity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
   - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
-  - [forcasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
+  - [forecasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
 
 ## Understanding Excel layouts
 
-You have a lot of flexibility when designing Excel layouts But there are couple elements every Excel layout must include: a **Data** sheet and its  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
+You have much flexibility when designing Excel layouts But there are couple elements every Excel layout must include: a **Data** sheet and its  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
 
-There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layouts and some of the requirements.
+There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and some of the requirements.
 
 ![Shows the different elements of an Excel layout.](media/excel-layout-callouts.png)
 
@@ -47,12 +47,13 @@ There are also specific requirements on the  **Data** sheet and **Data** table. 
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table, and the table must be named **Data**</li></ul>|![Is mandatory](media/check.png) | 
 |2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that are in the report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)|
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
-|5|Additional data sheets|Used to present data.||
+|5|More data sheets|Used to present data.||
 
 To summarize what you can and can't do on the **Data** sheet:
 
 - Don't change the name of **Data** sheet, **Data** table, or columns.
-- You can delete or hide columns, but you don't add any columns that aren't in the report dataset.
+- You can delete or hide columns
+- Don't add any columns unless they're included in the report dataset.
 
 ## Get Started
 
@@ -63,13 +64,9 @@ There are basically two tasks involved in setting up an Excel layout on a report
 
 ## Task 1: Create the Excel layout
 
-There are three ways to create an Excel layout file for a report as explained in thi section.
+There are three ways to create an Excel layout file for a report as explained in this section
 
-- From any report
-- From an existing Excel layout
-- From AL code
-
-### [From any report](#tab/any-report) 
+### [From any report](#tab/any-report)
 
 You can use the following steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
 
@@ -82,7 +79,7 @@ You can use the following steps to create an Excel layout from any report, regar
 
 ### [From another Excel layout on a report](#tab/other-layout)
 
-If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download pretty much the same Excel layout file, which includes all the sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
+If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
 
 #### Option 1: Export the layout from the **Report Layouts** page
 
@@ -99,7 +96,7 @@ If there's already an Excel layout for a report, you use the existing layout as 
 
 ### [From AL code](#tab/from-code)
 
-This way is the most advanced. It requires knowledge of AL code, so it target programmers. In this case, the Excel layouts are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
+This way is the most advanced. It requires knowledge of AL code, so it target programmers. The Excel layouts, in this case, are part of an extension package that you install. For more information, see [Creating an Excel Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) in the Developer and IT Pro help.
 
 ---
 
@@ -113,7 +110,7 @@ Once you have the Excel layout file, the next task is to add it as a layout for 
 4. Enter a name in  **Layout Name**.
 5. Set **Format Options** to **Excel**.
 6. Select **OK**.
-7. Find and select the Excel workbook, then select **Open**.
+7. Find and select the Excel file, then select **Open**.
 
 
 <!--

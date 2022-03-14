@@ -11,7 +11,6 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-
 ---
 # Working with Excel Layouts
 

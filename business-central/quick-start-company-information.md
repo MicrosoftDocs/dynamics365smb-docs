@@ -31,6 +31,6 @@ Once you have completed filling in the information, you can close the page.
 
 ## See Also  
 
-[Business Central Quick Starts](quick-start-business-central.md)  
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Business Central Quick Starts](quick-start-business-central.md)  

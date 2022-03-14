@@ -23,7 +23,8 @@ The **Company Information** page contains different fields and FastTabs, dependi
 
 Once you have completed filling in the information, you can close the page.  
 
-## See Also  
+## See Also
 
-[Business Central Quick Starts](quick-start-business-central.md)  
-[Set Up Company Information](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Company Information Quick Start](quick-start-company-information.md)  
+[Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

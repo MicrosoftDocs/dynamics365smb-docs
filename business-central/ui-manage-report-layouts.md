@@ -28,9 +28,10 @@ In particular, a report layout sets up the following:
 
 A report can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
 
-There are three types of report layouts that you can use on reports; Word, RDLC, and Excel.
+There are three types of report layouts that you can use on reports: Word, RDLC, and Excel.
 
-## Word report layout overview
+## Word layout overview
+
 A Word report layout is a based on a Word document (.docx file type). Word report layouts enable you to design report layouts by using Microsoft Word. A Word report layout determines the report's content - controlling how that content elements are arranged and how they look. A Word report layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
@@ -39,7 +40,7 @@ A Word report layout is a based on a Word document (.docx file type). Word repor
 
 RDLC layouts are based on client report definition layouts (.rdlc or .rdl file types). These layouts are created and modified by using SQL Server Report Builder. The design concept for RDLC layouts is similar to Word layouts, where the layout defines the general format of the report and determines the fields from the dataset to include. Designing RDLC layouts is more advanced than Word layouts. For more information, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-## Excel report layout overview
+## Excel layout overview
 
 Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 

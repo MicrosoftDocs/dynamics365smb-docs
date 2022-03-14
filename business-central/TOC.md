@@ -1463,6 +1463,7 @@
 ##### [Inventory Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 ##### [Item General Ledger Turnover](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Create the TORG-29 Goods Report](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+##### [Bill of Lading](LocalFunctionality/Russia/bill-of-lading.md)
 #### Human Resources
 ##### [HR in the Russian Version](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Payroll](LocalFunctionality/Russia/Payroll.md)

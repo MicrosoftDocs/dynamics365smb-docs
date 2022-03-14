@@ -44,7 +44,7 @@ Word layouts are based on Word documents (.docx file type). Word layouts enable 
 
 Excel layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
-![Shows the an example of an Excel layout.](media/excel-layout.png)
+![Shows the an example of an Excel layout.](media/excel-layout-2.png)
 
 ### RDLC type
 

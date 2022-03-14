@@ -17,7 +17,7 @@ ms.author: jswymer
 
 Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
-![Shows the an example of an Excel layout.](media/excel-layout.png)
+![Shows the an example of an Excel layout.](media/excel-layout-2.png)
 
 This article explains some of the most important things you need to know to get started with Excel layouts.
 
@@ -40,7 +40,7 @@ You have much flexibility when designing Excel layouts But there are couple elem
 
 There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and some of the requirements.
 
-![Shows the different elements of an Excel layout.](media/excel-layout-callouts.png)
+![Shows the different elements of an Excel layout.](media/excel-layout-callouts-2.png)
 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|

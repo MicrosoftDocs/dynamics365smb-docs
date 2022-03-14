@@ -1,7 +1,7 @@
 ---
-title: Create and Modify Custom Layouts for Reports and Documents
-description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
-author: SorenGP
+title: Working with Excel Layouts
+description: Learn how to create and modify report layouts that are built using Excel.
+author: jswymer
 
 ms.topic: conceptual
 ms.devlang: na
@@ -9,8 +9,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 03/14/2022
+ms.author: jswymer
 
 ---
 # Working with Excel Layouts

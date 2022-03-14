@@ -54,13 +54,19 @@ RDLC layouts are based on client report definition layouts (.rdlc or .rdl file t
 
 An external layout type is custom layout type.
 
-## Layout source: extension or user-defined
+## Layout sources
 
-Layouts can originate from two sources. They can be part of an extension that's been installed on the environment. These layouts are typically standard layouts provided by Microsoft as part of the base application. Or, they could be layouts that are included in extensions from other software providers. You can recognize these extension-based layouts on the **Report Layouts** because the extension name and publisher is listed in the **Extension** column.
+Layouts can originate from two sources: extensions and users.
 
-The other source of layouts are users themselves. From inside Business Central, users can add new layouts in various ways, like downloading an existing layout, making modifications, then uploading it as a new layout. You On the **Report Layouts**,  user-defined layout will have an empty **Extension** column.
+* Extension-based layouts
 
-The important thing to remember is that you can't modify an extension-based layout from inside Business Central. In other words, you aren't allowed to change its name or type, or upload and replace it with another version. If you try, you'll get an error message.  
+   Layouts can be part of an extension that's been installed on the environment. These layouts are typically standard layouts provided by Microsoft as part of the base application. Or, they could be layouts that are included in extensions from other software providers. You can recognize these extension-based layouts on the **Report Layouts** because the extension name and publisher is listed in the **Extension** column.
+
+* User-defined layout
+
+   The other source of layouts is the end-user. From inside Business Central, users can add new layouts in various ways, like downloading an existing layout, making modifications, then uploading it as a new layout. You On the **Report Layouts**,  user-defined layout will have an empty **Extension** column.
+
+The important thing to remember is that you can't modify extension-based layouts from inside Business Central. In other words, you aren't allowed to change its name or type, or upload and replace it with another version. If you try, you'll get an error message.  
 
 ### Built-in and custom report layouts
 

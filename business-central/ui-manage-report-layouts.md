@@ -28,25 +28,37 @@ In particular, a report layout sets up the following:
 
 A report can be set up with multiple report layouts, which you can switch among as required. You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).
 
-There are three types of report layouts that you can use on reports: Word, RDLC, and Excel.
+There are two important aspects of report layouts: the layout type and the layout source. The layout type indicates the file type and software program that the the layout is based on. The layout source indicates whether the layout the original of the layout. 
 
-## Word layout overview
+## Layout types
 
-A Word report layout is a based on a Word document (.docx file type). Word report layouts enable you to design report layouts by using Microsoft Word. A Word report layout determines the report's content - controlling how that content elements are arranged and how they look. A Word report layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
+There are four types of layouts that you can use on reports: Word, RDLC, Excel, and external.
+
+### Word type
+
+Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
-## RDLC layout overview
+### Excel type
 
-RDLC layouts are based on client report definition layouts (.rdlc or .rdl file types). These layouts are created and modified by using SQL Server Report Builder. The design concept for RDLC layouts is similar to Word layouts, where the layout defines the general format of the report and determines the fields from the dataset to include. Designing RDLC layouts is more advanced than Word layouts. For more information, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
-
-## Excel layout overview
-
-Excel report layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
+Excel layouts are based on Microsoft Excel workbooks (.xlsx files). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data, like formulas, PivotTables and PivotCharts.
 
 ![Shows the an example of an Excel layout.](media/excel-layout.png)
 
-## Built-in and custom report layouts
+### RDLC type
+
+RDLC layouts are based on client report definition layouts (.rdlc or .rdl file types). These layouts are created and modified by using SQL Server Report Builder. The design concept for RDLC layouts is similar to Word layouts, where the layout defines the general format of the report and determines the fields from the dataset to include. Designing RDLC layouts is more advanced than Word layouts. For more information, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
+
+### External type
+
+An external layout type is custom layout type.
+
+## Layout source
+
+Layouts can come from two sources. They can be part of an extension that's been installed on the environment. Or they can be added by individual users:
+
+### Built-in and custom report layouts
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports will have a built-in layout as either an RDLC report layout, Word report layout, or in some cases both. You cannot modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you use them as a starting point for building your own custom report layouts.
 
@@ -67,6 +79,7 @@ For information on how to change which layout to use, see [Change the Current Re
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
+
 [Update Custom Report Layouts](ui-update-report-layouts.md)  
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  

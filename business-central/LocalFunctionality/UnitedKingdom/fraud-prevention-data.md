@@ -5,7 +5,8 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
-ms.date: 06/30/2021
+ms.search.form: 10539, 743
+ms.date: 02/16/2022
 ms.author: edupont
 
 ---
@@ -77,6 +78,20 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 |Gov-Client-Screens|Information about the originating device's screen. These fields should be submitted as a list of key-value data structures, and you can see a description of the keys in the table in the [Headers](#headers) section. |`Gov-Client-Screens: width=1920&height=1080&sca1ing-factor=1.25&colour-depth=16`|Find the details about your monitor in the display settings. Combine the values using the format.|
 |Gov-Vendor-Public-IP|The public IP address of the servers the originating device sent their requests to.|`Gov -Vendor-Public-IP: 203.0.113.6`|Search for *what is my public ip address?*.|
 |Gov-Vendor-Forwarded|A list that details bops over the internet between services that terminate Transport Layer Security (TLS).|`Gov-vendor-Forwarded:by=203.0.113.6&for=198.51.100.0`|`by` = public ID. `for` = local IP.|
+
+## IP addresses
+
+Starting in March 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+
+Your company can sign up for any of the following endpoints:
+
+* [https://api.db-ip.com/v2/free/self](https://api.db-ip.com/v2/free/self)  
+* [https://www.cloudflare.com/cdn-cgi/trace](https://www.cloudflare.com/cdn-cgi/trace)  
+* [https://api.ipify.org](https://api.ipify.org)  
+* [https://jsonip.com](https://jsonip.com)  
+
+> [!IMPORTANT]
+> The **User IP Address Service** field is available in version 19.5 and later.
 
 ## See Also
 

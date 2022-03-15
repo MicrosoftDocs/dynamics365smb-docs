@@ -15,7 +15,7 @@ ms.author: edupont
 
 Use an external service to get the latest currency exchange rates into the **Currencies** list. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).  
 
-[!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy.md)]
+[!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
 ## <a name="curr"></a>Currencies
 
@@ -67,6 +67,10 @@ The following table outlines key actions on the **Currencies** page.
 |**Exchange Rate Service**|**Exchange Rate Services**|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the **Update Exchange Rates** action.|
 ||**Update Exchange Rates**|Get the latest currency exchange rates from a service provider.|
 |**Reports**|**Foreign Currency Balance**|View the balances for all customers and vendors in both foreign currencies and in local currency (LCY). The report displays two LCY balances. One is the foreign currency balance converted to LCY by using the exchange rate at the time of the transaction. The other is the foreign currency balance converted to LCY by using the exchange rate of the work date.|
+
+## LCY and other currencies
+
+[!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
 ## Rounding currencies
 

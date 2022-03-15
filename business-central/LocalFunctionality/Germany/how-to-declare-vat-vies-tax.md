@@ -1,20 +1,21 @@
 ---
-    title: How to Declare VAT-VIES Tax [DE]
-    description: How to create the VAT-VIES declaration report to submit information about sales transactions with other European Union (EU) countries/regions.
-    author: SorenGP
+title: How to Declare VAT-VIES Tax [DE]
+description: How to create the VAT-VIES declaration report to submit information about sales transactions with other European Union (EU) countries/regions.
+author: SorenGP
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
 # Declare VAT-VIES Tax in the German Version
-[!INCLUDE[prod_short](../../includes/prod_short.md)] includes the VAT-VIES declaration report, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
+
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes the **EC Sales List** report and t, which you can use to submit information about sales transactions with other European Union (EU) countries/regions to the customs and tax authorities' list system. The report displays information in the same format that is used in the customs and tax authorities' declaration list.  
 
 Depending on the volume of sales of goods or services to other EU countries/regions, you must submit monthly, bi-monthly, or quarterly declarations. If your company has sales of more than 100,000 euros per quarter, you must submit a monthly declaration. If your company has sales of less than 100,000 euros per quarter, you must submit a quarterly declaration. For more information, see the [BZSt website](https://go.microsoft.com/fwlink/?LinkId=204368).  
 
@@ -40,7 +41,9 @@ The report is based on the VAT Entry table.
     >  In order to run this report, you must select the **Posting Date** as a filter, and enter the posting date value.  
 
 ## See Also  
-[VAT Reporting](vat-reporting.md)
+
+[VAT Reporting](vat-reporting.md)  
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -24,7 +24,7 @@ Before you can start using electronic banking for domiciliations, you must enter
 
 - Domiciliation number - This is a unique code obtained from the bank which identifies the domiciliation agreement between you, your customer, and the bank. The contract contains details regarding payment frequency, bank account numbers, and amounts. When you send your payments to the bank, the bank will use the domiciliation number to identify all parties involved.  
 
-- Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md).  
+- Preferred bank account - The preferred bank account will be suggested as a default bank account on all domiciliation suggestions for that customer. If necessary, you can change the bank account before posting the domiciliation suggestions. For more information, see [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation).  
 
 ## Set Up Domiciliations
 

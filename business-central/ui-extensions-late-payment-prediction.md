@@ -1,7 +1,7 @@
 ---
 title: Predict Late Payments for Sales Documents
 description: This topic explains how to use our predictive model to predict whether an invoice will be paid on time.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

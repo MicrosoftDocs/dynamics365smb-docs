@@ -58,6 +58,10 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
   For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
+* Custom
+
+  In pages related to report layouts, **Custom** refers to user-defined Word and RDLC layouts that are created from the legacy **Custom Report Layouts** page.
+
 ## Layout sources
 
 Layouts can originate from two sources: extensions and users.

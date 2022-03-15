@@ -48,11 +48,15 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
 * RDLC
 
-  RDLC layouts are based on client report definition layouts (.rdlc or .rdl file types). These layouts are created and modified by using SQL Server Report Builder. The design concept for RDLC layouts is similar to Word layouts, where the layout defines the general format of the report and determines the fields from the dataset to include. Designing RDLC layouts is more advanced than Word layouts. For more information, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
+  RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). These layouts are created and modified by using SQL Server Report Builder or Microsoft RDLC Report Designer. The design concept for RDLC layouts is similar to Word layouts, where the layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word layouts.
+
+  For more information, see [Create RDL Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout).
 
 * External
 
-  An external layout type is custom layout type.
+  An external layout type refers to an advanced type that's specially designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout will vary depending the provider.
+
+  For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
 ## Layout sources
 
@@ -64,9 +68,9 @@ Layouts can originate from two sources: extensions and users.
 
 * User-defined layout
 
-   The other source of layouts is the end-user. From inside Business Central, users can add new layouts in various ways, like downloading an existing layout, making modifications, then uploading it as a new layout. You On the **Report Layouts**,  user-defined layout will have an empty **Extension** column.
+   The other source of layouts is the user. From inside Business Central, users can add new layouts in various ways, like downloading an existing layout, making modifications, then uploading it as a new layout. You On the **Report Layouts**,  user-defined layout will have an empty **Extension** column.
 
-The important thing to remember is that you can't modify extension-based layouts from inside Business Central. In other words, you aren't allowed to change its name or type, or upload and replace it with another version. If you try, you'll get an error message.  
+The important thing to remember is that you can't modify extension-based layouts from Business Central. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message.  
 
 ### Built-in and custom report layouts
 

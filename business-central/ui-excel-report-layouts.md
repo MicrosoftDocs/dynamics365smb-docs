@@ -102,7 +102,7 @@ This way is the most advanced. It requires knowledge of AL code, so it target pr
 
 ## Task 2: Add the Excel layout to the report
 
-Once you have the Excel layout file, the next task is to add it as a layout for the report.
+Once you have the Excel layout file, the next task is to add it as a new layout for the report.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select **New Layout**.

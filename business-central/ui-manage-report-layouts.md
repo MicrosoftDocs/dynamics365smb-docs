@@ -84,11 +84,11 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 
 The general design concepts for Word and RDLC layouts are very similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
 
-The process for setting up Word report layouts and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word report layouts are typically easier to create and modify than RDLC report layouts because you can use Word. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
+The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
 
-Not all reports and document have a dataset that is optimized to to use an Excel layout. For example, aggregations and complex calculations work best for RDLC or Word layout. The same is for documents.
+Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
 
-For information on how to change which layout to use, see [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md).
+For information on how to switch the layout, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

@@ -78,15 +78,15 @@ You can use the following steps to create an Excel layout from any report, regar
 
 ### [From another Excel layout on a report](#tab/other-layout)
 
-If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two ways to get a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
+If there's already an Excel layout for a report, you use the existing layout as a starting point. There are two approaches to getting a copy of the layout. You can export the existing layout from the **Report Layouts** page or download the layout from the report's request page. Both ways download an Excel layout file that includes all the sheets of the existing file. The difference is that from request page, the layout will include actual data. The data isn't required but it helps when designing the layout.
 
-#### Option 1: Export the layout from the **Report Layouts** page
+#### Approach 1: Export the layout from the **Report Layouts** page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
 3. Open the file in Excel, make the changes, then save the file.
 
-#### Option 2: Download the layout from the report's request page
+#### Approach 2: Download the layout from the report's request page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.

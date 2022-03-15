@@ -587,6 +587,7 @@
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
+### [Currencies in Business Central](finance-currencies.md)
 ### [Working with Dimensions](finance-dimensions.md)
 ### [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)

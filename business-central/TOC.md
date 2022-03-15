@@ -118,7 +118,6 @@
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
@@ -300,6 +299,7 @@
 #### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 #### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
+### [Company Information Overview](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
@@ -1266,7 +1266,6 @@
 #### [Local Functionality in the Mexican Version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Tax
 ##### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Set Up Calculations and Posting Methods for VAT](finance-setup-vat.md)  
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
@@ -1466,6 +1465,7 @@
 ##### [Inventory Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 ##### [Item General Ledger Turnover](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Create the TORG-29 Goods Report](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+##### [Bill of Lading](LocalFunctionality/Russia/bill-of-lading.md)
 #### Human Resources
 ##### [HR in the Russian Version](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Payroll](LocalFunctionality/Russia/Payroll.md)

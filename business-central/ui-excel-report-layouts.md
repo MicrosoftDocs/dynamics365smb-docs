@@ -51,8 +51,9 @@ There are also specific requirements on the  **Data** sheet and **Data** table. 
 To summarize what you can and can't do on the **Data** sheet:
 
 - Don't change the name of **Data** sheet, **Data** table, or columns.
-- You can delete or hide columns
+- You can delete or hide columns.
 - Don't add any columns unless they're included in the report dataset.
+- You can place the sheets in any order.
 
 ## Get Started
 

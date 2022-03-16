@@ -1,5 +1,5 @@
 ---
-title: Custom and Built-In Layouts for Reports and Documents
+title: Managing Report and Document Layouts
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 author: jswymer
 ms.topic: conceptual

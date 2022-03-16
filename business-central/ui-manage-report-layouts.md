@@ -80,7 +80,7 @@ In addition to the type, layouts are further divided into three categories, base
 
   Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type.
 
-The important thing to remember is that you can't modify extension layouts from in Business Central. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or layout instead.
+The important thing to remember is that you can't modify extension layouts from the Business Central client. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or layout instead.
 
 
 <!--

@@ -12,7 +12,38 @@
     ms.author: jswymer
 
 ---
-# Add Fields to a Word Report Layout
+
+## Work with Word Layouts
+
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
+
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
+
+> [!TIP]  
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
+
+## Embedding Fonts in Word Layouts for Consistency
+
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+
+##  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
+
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
+
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
+
+### To remove a label or data field  
+
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
+
+     The content control is removed, but the field name remains as text.  
+
+2. Delete the remaining text as needed.  
+
+### Adding data fields
+
 A report dataset can consist of fields that display labels, data, and images. This topic describes the procedure for adding fields of a report dataset to an existing Word report layout for a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. Adding fields requires that you have some knowledge of the report's dataset so that you can identify the fields that you want to add to the layout.  
   
 > [!NOTE]  

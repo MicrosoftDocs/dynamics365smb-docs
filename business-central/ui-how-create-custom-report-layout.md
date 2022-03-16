@@ -77,6 +77,7 @@ To modify a report layout, you must first export the report layout as a file to 
 > [!IMPORTANT]
 > Remember to import the report layout document that you modified. Otherwise, the new report layout will not be available.
 
+<!--
 ##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
@@ -108,7 +109,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### Adding data fields
 
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

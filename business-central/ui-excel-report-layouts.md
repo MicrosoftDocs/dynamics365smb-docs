@@ -27,10 +27,10 @@ Here are some more benefits of using Excel layouts:
 - Create interactive reports using visualizations like slicers
 - View raw data from the report dataset to help understand how the report works and where the data on visuals comes from
 - Use built-in Office features to do post-processing on rendered reports, like:
-  - [protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
-  - [applying sensitivity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-  - [Add comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
-  - [forecasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
+  - [Protecting the worksheets](https://support.microsoft.com/en-us/office/protect-a-worksheet-3179efdb-1285-4d49-a9c3-f4ca36276de6)
+  - [Applying sensitivity labels](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+  - [Adding comments and notes](https://support.microsoft.com/en-us/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
+  - [Forecasting and analysis](https://support.microsoft.com/en-us/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4) 
 - Use installed add-ins and app integrations, like Power Automate flows or OneDrive.
 
 ## Get started
@@ -112,25 +112,23 @@ Once you have the Excel layout file, the next task is to add it as a new layout 
 
 There are few things you should know or consider when you start creating or making changes to Excel layouts. Every Excel layout must include a couple: a **Data** sheet and its  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
 
-There are also specific requirements on the  **Data** sheet and **Data** table. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and some of the requirements.
+There are some specific requirements to the structure of the Excel workbook. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and the requirements.
 
-![Shows the different elements of an Excel layout.](media/excel-layout-callouts-2.png)
+[![Shows the different elements of an Excel layout.](media/excel-layout-callouts-2.png)](media/excel-layout-callouts-2.png#lightbox)
 
 |No.|Element|Description|Mandatory|
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table, and the table must be named **Data**</li></ul>|![Is mandatory](media/check.png) | 
-|2, 3|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that are in the report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)|
+|2|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that are in the report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)|
+|3|More data sheets|Used to present data.||
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li></ul>|
-|5|More data sheets|Used to present data.||
 
 To summarize what you can and can't do on the **Data** sheet:
 
 - Don't change the name of **Data** sheet, **Data** table, or columns.
 - You can delete or hide columns.
 - Don't add any columns unless they're included in the report dataset.
-- You can place the sheets in any order.
-
-
+- You can place the sheets in any order. For example, the **Data** sheet can be first or last.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

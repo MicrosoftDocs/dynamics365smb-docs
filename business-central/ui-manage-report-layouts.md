@@ -50,7 +50,7 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
   ![Shows the an example of an Excel layout.](media/excel-layout-2.png)
 
-  For more information, see [Work with Excel Layouts](ui-excel-layouts.md).
+  For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).
 
 * RDLC
 

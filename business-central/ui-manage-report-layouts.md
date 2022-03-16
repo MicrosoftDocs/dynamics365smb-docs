@@ -40,7 +40,9 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
   Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
-  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example") 
+  ![Example of a word report layout document for Business Central.](media/word-layout-overview.png) 
+
+  <!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
   For more information, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 

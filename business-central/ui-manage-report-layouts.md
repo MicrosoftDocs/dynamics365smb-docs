@@ -19,6 +19,8 @@ A report layout controls content and format of the report, including which data 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
+## Introduction
+
 In particular, a report layout sets up the following things:
 
 * The label and data fields to include from the dataset of the [!INCLUDE[prod_short](includes/prod_short.md)] report.
@@ -38,13 +40,17 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
   Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
-  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example") 
+
+  For more information, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 
 * Excel
 
   Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data. Use tools like formulas, PivotTables, PivotCharts, and more.
 
   ![Shows the an example of an Excel layout.](media/excel-layout-2.png)
+
+  For more information, see [Work with Excel Layouts](ui-excel-layouts.md).
 
 * RDLC
 
@@ -58,7 +64,7 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
   For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## Extension, user-defined, and custom layouts
+## Layout sources
 
 In addition to the type, layouts are further divided into three categories, based on their source or origin.
 
@@ -90,13 +96,13 @@ Custom layouts are report layouts that you design to change the appearance of a 
 
 Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
-The general design concepts for Word and RDLC layouts are very similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
+* The general design concepts for Word and RDLC layouts are very similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
 
-The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
+* The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder which targets more advanced users.
 
-Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
+* Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
 
-For information on how to switch the layout, see [Set the Layout Used by a Report](ui-set-report-layout.md).
+For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

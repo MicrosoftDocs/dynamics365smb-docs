@@ -30,7 +30,7 @@ In particular, a report layout sets up the following things:
 
 A report can be set up with multiple report layouts, which you can switch among as required. <!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
-There are two important aspects of report layouts that will influence how you work with layout: the *layout type* and the *layout source*. The layout type indicates the kind of file that the layout is based on. The layout source indicates the original of the layout.
+There are two important aspects of report layouts that will influence how you work with them: the *layout type* and the *layout source*. The layout type indicates the kind of file that the layout is based on. The layout source indicates the original of the layout.
 
 ## Layout types
 

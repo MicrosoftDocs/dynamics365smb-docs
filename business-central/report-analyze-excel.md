@@ -1,6 +1,6 @@
 ---
-title: Analyzing Report Data with Excel
-description: Learn how to use Excel to analyze a report dataset. 
+title: Analyzing Report Data with Excel and XML
+description: Learn how to use Excel and XML to analyze a report dataset. 
 author: jswymer
 
 ms.topic: conceptual
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
 
 ---
-# Analyzing Report Data with Excel
+# Analyzing Report Data with Excel and XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-As a developer or advanced user, it helps to inspect the data that is generated for a given report dataset while you create new reports or modify existing ones. To support this capability, you can export a report dataset as raw data to an Excel worksheet&mdash;directly from report request page in the client. In Excel, you can then do ad-hoc analysis of the data and diagnose issues.
+As a developer or advanced user, it helps to inspect the data that is generated for a given report dataset while you create new reports or modify existing ones. To support this capability, you can export a report dataset as raw data to an Excel worksheet or XML filet&mdash;directly. In Excel, for example, you can then do ad-hoc analysis of the data and diagnose issues.
 
 ## Get started
 
-To export a report dataset to Excel, open the report in the client, then in the request page, select **Send to** > **Microsoft Excel Document (data only)**. 
+To export a report dataset to Excel, open the report in the client, then in the request page, select **Send to** > **Microsoft Excel Document (data only)** or **XML Document**.  
 
 **Microsoft Excel Document (data only)** option exports the report results and the criteria that was used to generate them&mdash;but it doesn't include the report layout. The Excel file will include the full dataset, as raw data, arranged in rows and columns. All data columns of the report's dataset are included, regardless of whether they're used in the report layout.
 

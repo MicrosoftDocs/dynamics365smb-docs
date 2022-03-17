@@ -49,7 +49,7 @@ For more information, see [Using add-ins in Outlook on the web](https://support.
 
 ## Work with contacts and documents using the Contact Insights add-in
 
-Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you can open the [!INCLUDE[prod_short](includes/prod_short.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you see overview information for the customer, and can drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[prod_short](includes/prod_short.md)] without leaving Outlook.  
+Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you open the [!INCLUDE[prod_short](includes/prod_short.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you see overview information for the customer, and drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[prod_short](includes/prod_short.md)] without leaving Outlook.  
 
 In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook. Once you have the data entered, you post the quote and send it by email. [!INCLUDE[prod_short](includes/prod_short.md)] generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
@@ -93,11 +93,11 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 
 ### Attach files to records
 
-Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoices for payments, photos of goods, requirements in Word documents, or specifications in an Excel workbook. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
+Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoice payments, photos of goods, or requirements in a Word document. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
 
-There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files attached from a contact. The add-in will automatically display the contact record that matches the current email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you have identified the order that the email relates to, you quickly upload the files from the email to that order.
+There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files attached from a contact. The add-in will automatically display the contact record that matches the current email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
 
-![Business Central add-in action bar in Outlook.](media/outlook-attach-file.png)
+![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-file.png)
 
 After attaching a file, coworkers can instantly download and view the file from the **Attachments** FactBox in any of their Business Central clients. Or, they can open the file in OneDrive to share and collaborate with their department.
 
@@ -113,7 +113,7 @@ After attaching a file, coworkers can instantly download and view the file from 
    - Choose **Upload from file** to upload one or files from your device.
 
 > [!NOTE]
-> You can attach files to all records. This feature is available for records that use the **Attachments** FactBox, such as a vendor, customer, purchase invoice, or sales order.
+> You can't attach files to all records. This feature is available for records that use the **Attachments** FactBox, such as a vendor, customer, purchase invoice, or sales order.
 
 ## View a document from an email using the Document View add-in
 

@@ -1,16 +1,17 @@
 ---
-    title: Set Up a Company With RapidStart Services
-    description: You can set up a new company in Business Central with RapidStart services  to enhance productivity by automating and simplifying recurring tasks.
-    author: SorenGP
+title: Set Up a Company With RapidStart Services
+description: You can set up a new company in Business Central with RapidStart services  to enhance productivity by automating and simplifying recurring tasks.
+author: SorenGP
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/14/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 8610, 8614, 8615, 8620, 8632
+ms.date: 06/14/2021
+ms.author: edupont
 
 ---
 # Setting Up a Company With RapidStart Services

@@ -56,7 +56,7 @@ For more information, see [Sharing Files in OneDrive](across-share-onedrive.md).
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
-For collection pages or line item lists, you have the **Open in Excel** action. This action opens the list of records in an Excel workbook (.xlsx file), which you send to others. In the workbook, you can also use share feature that's part of Excel.
+For collection pages or line item lists, you have the **Open in Excel** action. This action opens the list of records in an Excel workbook (.xlsx file), which you send to others. In the workbook, you can also use the share feature that's part of Excel.
 
 For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
 

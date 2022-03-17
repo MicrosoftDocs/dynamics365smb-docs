@@ -13,18 +13,18 @@ ms.author: edupont
 ---
 # Create Users According to Licenses
 
-This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], and which permissions are given to different user types according to the licenses.
+This article describes how administrators add users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], and which permissions are given to different user types according to the licenses.  
 
-When you create users in [!INCLUDE[prod_short](includes/prod_short.md)] you can assign specific permissions to them through permission sets and organize users in user groups. User groups make it easier to manage permissions for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you can assign specific permissions to them through permission sets and user groups. User groups make it easier to manage permissions for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 For more information about the different types of licenses and how licensing works in [!INCLUDE[prod_short](includes/prod_short.md)], [download the Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
 > The process of managing users and licenses varies depending on whether [!INCLUDE[prod_short](includes/prod_short.md)] is deployed online or on-premises. For [!INCLUDE [prod_short](includes/prod_short.md)] online, you must add users from Microsoft 365. In on-premises deployments, you can create, edit, and delete users directly.  
 
-## Managing Users and Licenses in Online Deployments
+## Manage users and licenses in online tenants
 
-In the online version of [!INCLUDE[prod_short](includes/prod_short.md)], the number of users is defined by the subscription and added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Add a new customer](/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](/partner-center/create-a-new-subscription) in the Microsoft Partner Center help.
+In [!INCLUDE[prod_short](includes/prod_short.md)] online, the number of users is defined by the subscription and added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Add a new customer](/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](/partner-center/create-a-new-subscription) in the Microsoft Partner Center help.
 
 To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you must assign product licenses to users according to the roles that they will perform in [!INCLUDE[prod_short](includes/prod_short.md)]. This can be done in the following ways:
 
@@ -35,7 +35,7 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 ### <a name="licensespermissions"></a>Configure permissions based on licenses
 
-Starting in 2022 release wave 1, admins can configure permissions sets and user groups based on the different license types.  
+Starting in 2022 release wave 1, admins can configure permissions sets and user groups based on the different license types.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
 For example, the most commonly used license, *Dynamics 365 Business Central Team Member*, is set up by default to have the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets:
 
@@ -50,11 +50,11 @@ If this is not the right setup for a particular tenant, the admin can change tha
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.  
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **License Configuration**, and then choose the related link.  
 
-  Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the *Configure permissions per license* link.  
+    Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.  
 3. In the **License Configuration** page, choose the license that you want to customize, and then choose the **Configure** action.  
 4. Choose the **Customize permissions** field to switch on customization, and then make the relevant changes.  
 
-  In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member license. Going forward, new users that are assigned the Team Member license will not get the option to export data to Excel. If the organization changes their minds about this, they can just go back to the **License Configuration** page and switch off the customization for that license type.  
+    In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member license. Going forward, new users that are assigned the Team Member license will not get the option to export data to Excel. If the organization changes their minds about this, they can just go back to the **License Configuration** page and switch off the customization for that license type.  
 
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
 
@@ -111,7 +111,7 @@ If you change user information in Microsoft 365 you can update [!INCLUDE[prod_sh
 This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 -->
 
-## Managing Users and Licenses in On-premises Deployments
+## Manage users and licenses in on-premises deployments
 
 For on-premises deployments, the number of user licenses is specified in the license file (.flf). When an administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
 

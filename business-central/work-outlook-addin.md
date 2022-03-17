@@ -91,9 +91,22 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 2. Make changes to the document in the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in pane.
 3. When the document is ready to send to the contact, in the action bar, choose **Show more actions**, then choose the **Send by Email** action.
 
-## Attaching files 
+### Attach files to records
 
-Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoices for payment, photos of damaged goods, customer requirements in Word documents, or part specifications listed in an Excel workbook. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach files to the records.  from the add-in, Th the option to copy email attachments to the record displayed in the add-in. For example, the add-in will automatically display the contact record that matches the current email sender, from which you can navigate to that customer's latest sales order. Once you have identified the order that the email relates to, the attachments feature can be used to copy files from the current email to that order.
+Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoices for payments, photos of goods, requirements in Word documents, or specifications in an Excel workbook. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
+
+There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get a a contact. The add-in will automatically display the contact record that matches the current email sender. From there, you can navigate to a a document for the contact, like the latest sales order. Once you have identified the order that the email relates to, the attachments feature can be used to copy files from the current email to that order.
+
+1. Open the email, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.
+2. In the action bar of the add-in, choose **Show more actions** > **Attachments**.
+
+    The **Attached Documents** page opens to list any documents that are already attached to the record.
+3. Choose **Attached File(s)...**, then choose one of the following options:
+
+   * Choose **Attach from email** to upload all or selected files that are attached to the email.
+   * Choose **Upload from file** to upload one or files from your device.
+
+
 
 ![<!--alt text start -->A screen shippet showing an email in Outlook alongside the add-in copying files.<!--alt text end -->](media/outlook-attach-files-small.png "A screen shippet showing an email in Outlook alongside the add-in copying files.")
 
@@ -103,6 +116,8 @@ Your email inbox often serves as a source of incoming files that initiate or unb
 - Alternatively, purchase invoices can be sent to the incoming documents feature for processing.
 - 
 - 
+
+
 
 ## View a document from an email using the Document View add-in
 

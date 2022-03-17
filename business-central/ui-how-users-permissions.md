@@ -3,14 +3,11 @@ title: Create Users According to Licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: edupont04
 
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
-ms.date: 04/01/2021
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.date: 03/17/2022
 ms.author: edupont
 
 ---
@@ -36,8 +33,32 @@ To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you
 
 For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 
+### <a name="licensespermissions"></a>Configure permissions based on licenses
+
+Starting in 2022 release wave 1, admins can configure permissions sets and user groups based on the different license types.  
+
+For example, the most commonly used license, *Dynamics 365 Business Central Team Member*, is set up by default to have the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets:
+
+- D365 READ
+- D365 TEAM MEMBER
+- EDIT IN EXCEL - VIEW
+- EXPORT REPORT EXCEL
+- LOCAL
+
+If this is not the right setup for a particular tenant, the admin can change that configuration. However, customized permissions will affect only new users who are assigned that license. Permissions for existing users who are assigned the license will not be affected.  
+
+1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **License Configuration**, and then choose the related link.  
+
+  Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the *Configure permissions per license* link.  
+3. In the **License Configuration** page, choose the license that you want to customize, and then choose the **Configure** action.  
+4. Choose the **Customize permissions** field to switch on customization, and then make the relevant changes.  
+
+  In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member license. Going forward, new users that are assigned the Team Member license will not get the option to export data to Excel. If the organization changes their minds about this, they can just go back to the **License Configuration** page and switch off the customization for that license type.  
+
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
-After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes license assignments. 
+
+After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes license assignments.  
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  

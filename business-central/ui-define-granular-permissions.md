@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 06/23/2021
+ms.date: 03/17/2022
 ms.author: edupont
 
 ---
@@ -23,14 +23,69 @@ Before you assign permissions to users and user groups, you must define who can 
 In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permissions to database objects:
 
 - Overall permissions according to the license, also referred to as the entitlement.
-- More detailed permissions as assigned from within [!INCLUDE[prod_short](includes/prod_short.md)].
 
-To make it easier to manage permissions for multiple users, you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+  The licenses include default permission sets. Starting in 2022 release wave 1, admins can customize these default permissions for the relevant license types. For more information, see [Configure permissions based on licenses](ui-how-users-permissions.md#licensespermissions).  
+- More detailed permissions that are assigned from within [!INCLUDE[prod_short](includes/prod_short.md)].
+
+  This article describes how you can define, use, and apply permissions inside [!INCLUDE [prod_short](includes/prod_short.md)].  
+To make it easier to manage permissions for multiple users, you can organize them in user groups and thereby assign or change one permission set for many users in one action. For more information, see the [To manage permissions through user groups](#to-manage-permissions-through-user-groups) section. Alternatively, see the the  [To assign permission sets to users](#to-assign-permission-sets-to-users) section. To learn how to define permission sets, see the [To create or modify a permission set](#to-create-or-modify-a-permission-set) section.  
 
 > [!NOTE]
 > An additional method of defining which features a user has access to is by setting the **Experience** field on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 >
 > You can also define what users see in the user interface and how they interact with their permitted functionality through pages. You do this through profiles that you assign to different types of users according to their job role or department. For more information, see [Manage Profiles](admin-users-profiles-roles.md) and [Customizing [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
+
+## To manage permissions through user groups
+
+You can set up user groups to help you manage permission sets for groups of users in your company.
+
+You start by creating a user group. Then you assign permission sets to the group to define which object users of the group can access. When you add user to the group, the permission sets defined for the group will apply to the user.
+
+Permission sets assigned to a user through a user group stay synchronized so that a change to the user group permissions are automatically propagated to the user. If you remove a user from a user group, the involved permissions are automatically revoked.
+
+### To group users in user groups
+
+The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+2. Alternatively, on the **Users** page, choose the **User Groups** action.
+3. On the **User Group** page, choose the **User Group Members** action.
+4. On the **User Group Members** page, choose the **Add Users** action.
+
+### To copy a user group and all its permission sets
+
+To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
+
+> [!NOTE]
+> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
+3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
+
+The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
+
+### To assign permission sets to user groups
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
+2. Select the user group that you want to assign permission to.
+Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
+3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
+4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
+
+### To assign a permission set on the **Permission Set by User Group** page
+
+The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
+2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
+3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
+4. Select the **All User Groups** check box to assign the permission set to all user groups.
+
+You
+
+
+
 
 ## To assign permission sets to users
 
@@ -182,56 +237,9 @@ However, the user does not need to have full access to the Sales Line table to r
 9. Choose the **Yes** button to add the recorded permissions to the new permission set.
 10. For each object in the recorded list, specify if users are able to insert, modify, or delete records in the recorded tables.
 
-## Security Filters - To limit a user's access to specific records in a table
+## Security filters limit a user's access to specific records in a table
 
-For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in Developer and IT-Pro help.
-
-## To manage permissions through user groups
-
-You can set up user groups to help you manage permission sets for groups of users in your company.
-
-You start by creating a user group. Then you assign permission sets to the group to define which object users of the group can access. When you add user to the group, the permission sets defined for the group will apply to the user.
-
-Permission sets assigned to a user through a user group stay synchronized so that a change to the user group permissions are automatically propagated to the user. If you remove a user from a user group, the involved permissions are automatically revoked.
-
-### To group users in user groups
-
-The following procedure explains how to create user groups manually. To create user groups automatically, see [To copy a user group and all its permission sets](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Alternatively, on the **Users** page, choose the **User Groups** action.
-3. On the **User Group** page, choose the **User Group Members** action.
-4. On the **User Group Members** page, choose the **Add Users** action.
-
-### To copy a user group and all its permission sets
-
-To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
-
-> [!NOTE]
-> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
-3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
-
-The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
-
-### To assign permission sets to user groups
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
-2. Select the user group that you want to assign permission to.
-Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
-3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
-4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
-
-### To assign a permission set on the **Permission Set by User Group** page
-
-The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-2. On the **Users** page, select the relevant user, and then choose the **Permission Set by User Group** action.
-3. On the **Permission Set by User Group** page, select the **[user group name]** check box on a line for the relevant permission set to assign the set to the user group.
-4. Select the **All User Groups** check box to assign the permission set to all user groups.
+For record-level security in [!INCLUDE[prod_short](includes/prod_short.md)], you use security filters to limit a user's access to data in a table. You create security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters) in the administration content.
 
 ## To remove obsolete permissions from all permission sets
 

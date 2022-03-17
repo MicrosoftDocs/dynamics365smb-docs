@@ -110,7 +110,7 @@ Once you have the Excel layout file, the next task is to add it as a new layout 
 
 ## Understanding Excel layouts
 
-There are few things you should know or consider when you start creating or making changes to Excel layouts. Every Excel layout must include a couple: a **Data** sheet and its  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
+There are few things you should know or consider when you start creating or making changes to Excel layouts. Every Excel layout must include a two elements: a **Data** sheet and a  **Data** table. These elements form the basis of the layout by defining the business data from Business Central that you can work with. You can think of the **Data** sheet as a kind contract between the layout in the business data. You'll use this data as the source of calculations and visualizations that you want to present on other sheets.
 
 There are some specific requirements to the structure of the Excel workbook. If the requirements aren't met, you'll have problems using the layout. The following diagram and table outline the elements of an Excel layout and the requirements.
 

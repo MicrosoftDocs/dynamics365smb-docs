@@ -6,6 +6,7 @@ author: AndreiPanko
 
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_5871, Report_5872, Report_99000753, Report_99000756, Report_99000757, Report_99000758, Report_99000791, Report_99000780, Report_99000783, Report_99000784, Report_99000788, Report_99000767
 ms.date: 06/01/2021
 ms.author: andreipa
 

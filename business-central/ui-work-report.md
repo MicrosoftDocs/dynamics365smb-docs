@@ -106,7 +106,7 @@ You can choose to save the report to a file (like Excel, Word, or PDF), print it
 
 To print a report, choose the **Print** button on the request page or on the menu bar of the **Preview** page.
 
-When a report is using an Excel layout, you won't see a **Print** or **Preview** button. Instead, there's a **Download** button. To print, select **Download**, then open the downloaded file in Excel and print from there.
+When a report is using an Excel layout, you won't see **Printer** field, **Print** button or **Preview** button. Instead, there's a **Download** button. To print, select **Download**, then open the downloaded file in Excel and print from there.
 
 ### <a name="Printer"></a>Printer
 

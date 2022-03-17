@@ -1,11 +1,12 @@
 ---
-title: Installing Extensions to Customize Business Central
+title: Customizing Business Central Online Using Extensions
 description: Learn all about adding functionality and customizing Business Central by installing extensions here.
 author: edupont04
 
 
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
+ms.search.form: 2500, 2502
 ms.date: 08/25/2021
 ms.author: edupont
 

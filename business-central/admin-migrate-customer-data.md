@@ -1,16 +1,16 @@
 ---
-    title: Migrate Customer Data
-    description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
-    author: SorenGP
+title: Migrate Customer Data
+description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
+author: SorenGP
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 1799, 1807, 8632, 1800, 1340
-    ms.date: 02/18/2022
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
+ms.date: 02/18/2022
+ms.author: edupont
 
 ---
 # Migrate Customer Data

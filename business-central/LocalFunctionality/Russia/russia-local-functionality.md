@@ -91,6 +91,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
     * [Inventory Act of Receivables And Payables INV-17](Inventory-Act-of-Receivables-And-Payables-INV-17.md) **Available Now**
     * [Item General Ledger Turnover](Item-General-Ledger-Turnover.md) **Available Now**
     * [Create the TORG-29 Goods Report](How-to-Create-the-TORG-29-Goods-Report.md) **Available Now**
+    * [Bill of Lading](bill-of-lading.md) **2022 release wave 1**
 
 * Human Resources
     * [Human Resources](Human-Resources.md) **Available Now**

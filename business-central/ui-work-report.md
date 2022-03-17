@@ -79,12 +79,11 @@ In the preview, use the menu bar on the report preview to:
 
 ## Saving a Report to a File
 
-You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel worksheet by choosing the **Send to** button, and then making your selection.
+You can save a report to a PDF document, Microsoft Word document, Microsoft Excel worksheet, or XML document by choosing the **Send to** button, and then making your selection.
 
 > [!TIP]
 > The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options for doing detailed data analysis. For more information, see [Analyzing Report Data with Excel and XML](report-analyze-excel.md). You could also use the **Microsoft Excel Document (data only)** to create new excel layouts for a given report. For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).  
-
-You can work with [!INCLUDE [prod_short](includes/prod_short.md)] data in Excel for further analysis. For more information, see [Analyzing Report Data with Excel and XML](report-analyze-excel.md).  
+  
 <!--
 ### About sending to Word
 

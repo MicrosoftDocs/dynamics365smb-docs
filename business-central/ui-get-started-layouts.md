@@ -16,9 +16,17 @@ ms.author: jswymer
 
 Business Central comes with many built-in layouts that you can use on your reports. And other layouts may have been added as part of other extensions. It possible to create your own reports.
 
+## Decide what type of layout you want
 
-## Decide what ype of layout you want
+Deciding on whether to use a Word, Excel, or RDLC [layout type]()  will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
+* The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
+
+* The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.
+
+* Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
+
+For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 ## Create a new layout
 

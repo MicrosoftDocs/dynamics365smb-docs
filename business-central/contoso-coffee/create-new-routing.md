@@ -1,7 +1,7 @@
 ﻿---
 title: Create a New Routing
 description: Walkthrough to learn how to enter all of the information for a new routing manually in Business Central.
-ms.date: 03/10/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -10,48 +10,51 @@ ms.author: andreipa
 
 # Walkthrough: Create a New Routing
 
-Intro
+In this article, we take you through the steps to use the Contoso Coffee demo data to manually set up a new production routing in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
 ## Scenario
 
-Oscar, the process engineer, at CONTOSO, decides to create a new routing named New Path. Because this routing is unlike any other routing at CONTOSO, he must manually enter all of the information for the routing.
+Oscar, the process engineer, at Contoso Coffee, decides to create a new routing with the name *New Path*. Because this routing is unlike any other routing at Contoso Coffee, he must manually enter all of the information for the routing.  
 
 ## Steps
 
-1. Create the routing header.
+1. Create the routing header.  
 
-    1. In the **Tell Me** window, type "routings", and then select the related link.
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **routings**, and then choose the related link.  
 
-    2. Create a new Routings.
+    2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
-    3. In the **No.** field, type "1099" or let system assign number automatically.
-
-    4. In the **Description** field, type "New Path".
-
+        |Field  |Value  |
+        |---------|---------|
+        |**No.** |1099|
+        |**Description** |New Path|
 2. Create the routing lines.
 
-    1. On the **Lines** FastTab, in the **Operation No.** field, type "10".
+    1. On the **Lines** FastTab, add a new line, and then fill in the fields as described in the following table.  
 
-    2. In the **Type** field, select Work Center.
+        |Field  |Value  |
+        |---------|---------|
+        |**Operation No.** |10|
+        |**Type** |Work Center|
+        |**No.** |100|
+        |**Setup Time** |20|
+        |**Run Time** |15|
 
-    3. In the **No.** field, type "100".
+    2. Add a new line, and then fill in the fields as described in the following table.  
 
-    4. In the **Setup** **Time** field, type "20".
+        |Field  |Value  |
+        |---------|---------|
+        |**Operation No.** |20|
+        |**Type** |Work Center|
+        |**No.** |200|
+        |**Setup Time** |30|
+        |**Run Time** |5|
+3. Certify the routing.
 
-    5. In the **Run** **Time** field type "15".
+    1.In the **Status** field, choose *Certified*.  
 
-3. Move to the next row and type "20" in the **Operation No.** field.
+The new routing is now set up.  
 
-    1. In the **Type** field, select Work Center.
+## See also
 
-    2. In the **No**. field, type "200".
-
-    3. In the **Setup** **Time** field, type "30".
-
-    4. In the **Run Time** field, type "5".
-
-4. Certify the routing.
-
-    1. In the **Status** field, select Certified.
-
-
+[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

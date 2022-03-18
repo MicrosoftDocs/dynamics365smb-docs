@@ -1,7 +1,7 @@
 ﻿---
 title: Use Order Planning to Create and Reserve Supply
 description: Walkthrough to learn how to use order planning to create the required production order for the supply in Business Central.
-ms.date: 03/10/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -10,50 +10,56 @@ ms.author: andreipa
 
 # Walkthrough: Use Order Planning to Create and Reserve Supply
 
-Intro
+In this article, we take you through the steps to use the Contoso Coffee demo data in order planning.
 
 ## Scenario
 
-You are the production planner at CONTOSO. Unknown to you, Susan, the order processor at CONTOSO, has just entered a sales order for 100 units of item 1001, Touring Bicycle, due on February 05, 2014. The order is from customer 10000, The Canon Group PLC. You become aware of this demand when you run your weekly **Calculate Plan** function in order planning. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfill the requirements of a specific sales order, you decide to reserve the output of the production order on behalf of the sales order.
+You are the production planner at Contoso Coffee. Unknown to you, the order processor at Contoso Coffee, Susan, has just entered a sales order for 100 units of item **1001, Touring Bicycle**, due on February 05. The order is from customer 10000, The Canon Group PLC. You become aware of this demand when you run your weekly **Calculate Plan** function in the order planning area in [!INCLUDE [prod_short](../includes/prod_short.md)]. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfill the requirements of a specific sales order, you decide to reserve the output of the production order on behalf of the sales order.  
 
 ## Steps
 
-1. Create the new released production order for 100 units of item SP-SCM1009, Airpot.
+1. Create the new released production order for 100 units of item **SP-SCM1009, Airpot**.
 
-    1. In the **Tell Me** window, type "released prod. order", and then select the related link.
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
-    2. Create a new Released Prod. Order.
+    2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
-    3. In the Source No. field, type "SP-SCM1009" to select the Airpot.
+        |Field  |Value  |
+        |---------|---------|
+        |**Source Type** |Item|
+        |**Source No.** |SP-SCM1009|
+        |**Quantity** |100|
+    3. Choose the **Refresh Production Order** action.  
 
-    4. In **Quantity** field, type "100".
-
-    5. Choose **Refresh Production Order** action.
-
-    6. Note the **No.** of the released production order.
+    Note the number of the released production order.
 
 2. Open the **Order Planning** page and calculate a new plan.
 
-    1. Choose **Planning** action.
+    1. Choose the **Planning** action.  
 
-    2. On the **Order Planning** page choose **Calculate Plan** action.
+    2. On the **Order Planning** page, choose the **Calculate Plan** action.  
 
-    3. Scroll down to the demand line representing released production order created earlier.
+    3. Scroll down to the demand line that represents the released production order that you created earlier.  
 
-    4. Expand lines to view the details for the demand line. Confirm that it is a suggestion for a production order of 100 units of item 1001.
+    4. Expand the lines to view the details for the demand line. Confirm that it is a suggestion for a production order of 100 units of item 1001.  
 
-3. Create the new production order for 100 units of item SP-BOM2000, Reservoir Assy., and reserve the output of this production order on behalf of the related parent order.
+3. Create a new production order for 100 units of item **SP-BOM2000, Reservoir Assy.**, and reserve the output of this production order on behalf of the related parent order.  
 
     1. Select the check box in the **Reserve** field on the demand line for the 100 units of item SP-BOM2000.
 
-    2. Choose **Make Orders** action.
+    2. Choose the **Make Orders** action.  
 
-    3. In the **Make Orders for** field select The Active Line.
+    3. Set the **Make Orders for** field to *The Active Line*.  
 
-    4. In the **Create Production Order** field, select Firm Planned.
+    4. Set the **Create Production Order** field to *Firm Planned*.
 
-    5. Click **OK** to create the production order.
+    5. Choose the **OK** button to create the production order.
 
     6. On the **Order Planning** page, confirm that the demand line for the 100 units of item 1001 is removed.
 
+That's it for order planning in [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
+## See also
+
+[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[About Production Orders](../production-about-production-orders.md)  

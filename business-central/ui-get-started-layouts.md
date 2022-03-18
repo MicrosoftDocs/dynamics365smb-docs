@@ -1,8 +1,7 @@
 ---
-title: Create and Modify Custom Layouts for Reports and Documents
-description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
-author: SorenGP
-
+title: Get Started Creating Layouts
+description: Learn how to create layouts to personalize the appearance of a report when viewed, printed, or saved.
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,20 +9,22 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: jswymer
 
 ---
-# Create and Modify Custom Report Layouts (legacy)
+# Get Started Creating Layouts
 
-By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
+Business Central comes with many built-in layouts that you can use on your reports. And other layouts may have been added as part of other extensions. It possible to create your own reports.
 
-> [!NOTE]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)], the term "report" also covers externally-facing documents, such as sales invoices and order confirmations that you send to customers as PDF files.
 
-To create a custom layout, you either make a copy of an existing custom layout or add a new custom layout, which is commonly based on a built-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built-in layout for the report if one is available. If there's no built-in layout for the type, a new blank layout is a created. You'll have to modify and design this blank layout from scratch. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).  
+## Decide what ype of layout you want
 
-> [!TIP]
-> Use account schedules to get insight into the financial data stored in your chart of accounts. For more information, see [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md).
+
+## Create the layout
+
+For the most, no matter what type of layout you're creating, you'll start from the Report Layout oage, 
+
+ing e financial data stored in your chart of accounts. For more information, see [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md).
 
 When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you create for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 

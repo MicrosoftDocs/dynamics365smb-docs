@@ -381,10 +381,10 @@
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Available Fonts](ui-fonts.md)
 ### Using Legacy Features
-#### [Set the Layout Used by a Report (legacy)](ui-how-change-layout-currently-used-report.md)
-#### [Create and Modify Custom Report Layouts (legacy)](ui-how-create-custom-report-layout.md)
-#### [Import and Export Custom Report Layouts (legacy)](ui-how-import-and-export-report-layout.md)
-#### [Update Custom Report Layouts (legacy)](ui-update-report-layouts.md)
+#### [Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
+#### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+#### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
+#### [Update Custom Report Layouts](ui-update-report-layouts.md)
 ## Accessibility, Keyboard Shortcuts, and Touch Gestures
 ### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)

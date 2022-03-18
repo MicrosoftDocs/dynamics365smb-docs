@@ -13,6 +13,8 @@ ms.author: jswymer
 ---
 # Change the Current Report Layout
 
+> This feature described in this article is a legacy feature that will be phased out in a coming release
+
 A report can be set up with more than one report layout, which you can then switch among as needed.
 
 Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Manage Report Layouts](ui-manage-report-layouts.md).

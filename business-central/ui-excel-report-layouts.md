@@ -40,7 +40,7 @@ There are basically two tasks involved in setting up an Excel layout on a report
 1. Create the new Excel layout file.
 2. Add the new layout to the report.
 
-## Task 1: Create the Excel layout
+## Task 1: Create the Excel layout file
 
 There are three ways to create an Excel layout file for a report as explained in this section
 

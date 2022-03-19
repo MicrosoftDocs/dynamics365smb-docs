@@ -12,13 +12,34 @@ ms.date: 04/01/2021
 ms.author: jswymer
 
 ---
-# Get Started Creating Layouts
+# Get Started Creating Report Layouts
 
-Business Central comes with many built-in layouts that you can use on your reports. And other layouts may have been added as part of other extensions. It possible to create your own reports.
+Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based an existing layout.
 
-## Decide what type of layout you want
+## Get Started
 
-Deciding on whether to use a Word, Excel, or RDLC [layout type]()  will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
+When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application it's built on, like Word, Excel, or SQL Server Report Builder.
+
+With this concept in mind. there are basically three or fours tasks involved in setting up a layout on a report:
+
+1. Decide on the layout type.
+2. Export a copy of an existing layout of the same type to uses as a starting point.
+3. Make changes to the layout file in the appropriate application.
+4. Add the new layout file to the report.
+
+However, depending on what your situations is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
+
+|What do you want to do?|See...|
+|-----------------------|------|
+|Figure out what's the best layout type to use for my situation|[Decide what type of layout you want](#decide)|
+|Create a new layout for a report based on an existing layout, and keep the existing layout as it is.|[Create a new layout](#create)|
+|Make changes to an existing layout used on a report|[Modify a layout](#modify)|
+|I have an new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#modify)|
+|Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
+
+## <a name="decide"></a>Decide what type of layout you want
+
+The first thing to do is to decide which [layout type]() you want, like, Word, Excel, or RDLC [layout type](). The layout typ  will depend on how you want the generated report to look and your knowledge of application for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
 * The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
 
@@ -28,27 +49,80 @@ Deciding on whether to use a Word, Excel, or RDLC [layout type]()  will depend o
 
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
-## Create a new layout
-
-For the most, no matter what type of layout you're creating, you'll start from the Report Layout oage, 
+## <a name="create"></a>Create a new layout from an existing layout
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
-    The **Report Layouts** page lists all the layouts currently available for reports.
-3. Select the row for the report that you want to create the layout for, and then choose the **New Layout** action.  
+   The **Report Layouts** page appears and lists all the layouts currently available for all reports.
+2. Select the layout that you want a copy of for your new layout, then choose the **Export Layout** action.
 
+   The layout file is downloaded to your device. 
 
-## <a name="ModifyCustomLayout"></a>Modify a layout
+    > [!TIP]
+    > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 
-To modify a report layout, you must first export the report layout as a file to a location on your computer or network. Then, open the exported document and make the changes. When you're finished making the changes, you import the report layout.
+3. Open the layout file in the appropriate application, like Word for a .docx file, Excel for a .xlsx file, or SQL Report Builder for an .rdl file.
+
+   Make changes to the file and save it.
+
+4. Back on the **Report Layouts**, select the **New Layout** action.
+5. Fill in the following fields:
+
+   |Field|Description|Mandatory|
+   |-----|-----------|---------|
+   |Report ID|Set to the ID assigned to the report|yes|
+   |Layout Name| Type a brief description name for the layout to help you easily identify it.|yes|
+   |Description| Type more details information the layout. |no|
+   |Format Options|Set this to match the type of the layout, like Word, Excel, or RDLC.|yes|
+
+6. Select **OK** > **Choose** to open file explorer on your device.
+7. Find and select the Excel file, then select **Open**.
+
+   The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
+
+If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
+
+## <a name="modify"></a>Modify an existing layout
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+
+   The **Report Layouts** page appears and lists all the layouts currently available for all reports.
+2. Select the layout that you want to modify, then choose the **Export Layout** action.
+
+   The layout file is downloaded to your device. 
+
+   > [!TIP]
+   > To help you find the layout, use the **Search** box, **Filter** apne, and columns sorting.
+
+3. Open the layout file in the appropriate application, like Word for a .docx file, Excel for a .xlsx file, or SQL Report Builder for an .rdl file.
+
+   Make changes to the file and save it.
+
+4. Back on the **Report Layouts**, select the existing layout, then select the **Replace Layout** action.
+5. Select **OK** > **Choose** to open file explorer on your device.
+6. Find and select the Excel file, then select **Open**.
+
+   The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
+
+## <a name="replace"></a>Replace an existing layout with a new one
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+
+   The **Report Layouts** page appears and lists all the layouts currently available for all reports.
+2. Select the existing layout, then select the **Replace Layout** action.
+5. Select **OK** > **Choose** to open file explorer on your device.
+6. Find and select the Excel file, then select **Open**.
+
+   The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 
-[Managing Report Layouts](ui-manage-report-layouts.md)  
-[Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
-[Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
+[Managing Report Layouts](ui-manage-report-layouts.md)
+[Working with Word Layouts](ui-how-add-fields-word-report-layout.md) 
+[Working with Excel Layouts](ui-excel-report-layouts.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  

@@ -18,12 +18,12 @@ Business Central comes with many built-in layouts that you can use on your repor
 
 ## Get Started
 
-When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application it's built on, like Word, Excel, or SQL Server Report Builder.
+When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
 
 With this concept in mind. there are basically three or fours tasks involved in setting up a layout on a report:
 
 1. Decide on the layout type.
-2. Export a copy of an existing layout of the same type to uses as a starting point.
+2. Export a copy of an existing layout of the same type to use as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 

@@ -16,7 +16,7 @@ ms.author: jswymer
 
 Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based an existing layout.
 
-## Get Started
+## Overview
 
 When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
 
@@ -26,6 +26,8 @@ With this concept in mind. there are basically three or fours tasks involved in 
 2. Export a copy of an existing layout of the same type to use as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
+
+## Get Started
 
 However, depending on what your situations is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
 
@@ -50,6 +52,25 @@ The first thing to do is to decide which [layout type]() you want, like, Word, E
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 ## <a name="create"></a>Create a new layout from an existing layout
+
+There are two ways to create a new layout from an existing. The easiest way is by saving the existing layout to a copy. The other way is to export the existing layout.
+
+> [!NOTE]
+> You can't copy a layout that comes from an extension. You can only copy user-defined extensions. To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
+
+## [Copying](#tab/copy)
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+
+   The **Report Layouts** page appears and lists all the layouts currently available for all reports.
+2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
+3. Change the **Layout Name**.
+4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
+
+   The new layout shoes in the **Report Layouts** page.
+5. If you want to make changes to the new layout, see [Exporting](#exporting).
+
+### [Exporting](#tab/export)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
@@ -81,6 +102,8 @@ For information about how to switch the layout currently used on a report, see [
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
 If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
+
+---
 
 ## <a name="modify"></a>Modify an existing layout
 

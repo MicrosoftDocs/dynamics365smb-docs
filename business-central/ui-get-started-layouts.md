@@ -27,7 +27,7 @@ With this concept in mind. there are basically three or fours tasks involved in 
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 
-## Get Started
+## Get started
 
 However, depending on what your situations is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
 

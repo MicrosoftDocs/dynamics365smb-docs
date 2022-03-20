@@ -14,7 +14,7 @@ ms.date: 02/09/2022
 ms.author: jswymer
 
 ---
-# Working with Reports, Batch Jobs, and XMLports
+# Running and Printing Reports
 
 A report gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format that you can print or save as a file. There are many reports that you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.
 

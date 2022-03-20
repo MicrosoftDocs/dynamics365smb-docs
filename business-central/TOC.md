@@ -366,7 +366,7 @@
 ### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
-### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
+### [Run and Print Reports](ui-work-report.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)

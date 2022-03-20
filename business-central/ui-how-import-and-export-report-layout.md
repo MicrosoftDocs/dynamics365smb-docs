@@ -13,9 +13,9 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Import and Export Custom Report Layouts
+# (Legacy) Import and Export Custom Report Layouts
 
-> This feature described in this article is a legacy feature that will be phased out in a coming release
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 You can import and export an existing custom report layout as a file to and from a location on your computer and network. For example, you can export a report layout, and then send the file to another person to modify. That person can then make the modifications to layout and return the file to you so that you can import it back.  
 

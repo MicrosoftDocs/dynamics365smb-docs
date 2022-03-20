@@ -13,9 +13,9 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Create and Modify Custom Report Layouts
+# (Legacy) Create and Modify Custom Report Layouts
 
-> This feature described in this article is a legacy feature that will be phased out in a coming release
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 

@@ -48,7 +48,7 @@ There are four types of layouts that you can use on reports: Word, RDLC, Excel, 
 
 * Excel
 
-  Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data. Use tools like formulas, PivotTables, PivotCharts, and more.
+  Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data with tools like formulas, PivotTables, PivotCharts, and more.
 
   ![Shows the an example of an Excel layout.](media/excel-layout-2.png)
 
@@ -78,12 +78,16 @@ In addition to the type, layouts are further divided into three categories, base
 
    The other source of layouts is the end-user. From inside Business Central, a user with proper permissions can add new layouts in various ways. For example, you could start from an existing extension layout or another user-defined layout. On the **Report Layouts**, user-defined layout will have an empty **Extension** column.
 
+   For more information, see [Get Started Creating Report Layouts](ui-get-started-layouts.md).
+
 * Custom layouts
 
-  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type.
+  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts.
 
-The important thing to remember is that you can't modify extension layouts from the Business Central client. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or layout instead.
+  For more information, see [Create and Modify Custom Report Layouts (legacy)](ui-how-create-custom-report-layout.md).
 
+> [!IMPORTANT]
+> The important thing to remember is that you can't modify extension layouts from the Business Central client. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or custom layout based on the extension layout instead.
 
 <!--
 ### Built-in and custom report layouts

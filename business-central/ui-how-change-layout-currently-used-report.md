@@ -11,9 +11,9 @@ ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# Change the Current Report Layout
+# (Legacy) Change the Current Report Layout
 
-> This feature described in this article is a legacy feature that will be phased out in a coming release
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 A report can be set up with more than one report layout, which you can then switch among as needed.
 

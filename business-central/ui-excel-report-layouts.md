@@ -120,7 +120,7 @@ There are some specific requirements to the structure of the Excel workbook. If 
 |---|-------|----|---|
 |1|**Data** sheet|<ul><li>Must have the name **Data**</li><li>Can only include one table, and the table must be named **Data**</li></ul>|![Is mandatory](media/check.png) | 
 |2|**Data** table|<ul><li>Must have the name **Data**</li><li>Must have at least one column.</li><li>Can only include columns that are in the report dataset.</li><li>Must start in the first cell **A1** of the **Data** sheet</li></ul>|![Is mandatory](media/check.png)|
-|3|More sheets|Used to present data.||
+|3|Presentation sheets|<ul><li>Used to present data.</li><li>Data comes from the **Data** sheet. </li></ul>||
 |4|**Report Metadata** sheet|<ul><li>Automatically included if the layout was created by exporting another report as Excel</li><li>Contains general information about the report</li><li>Can be deleted</li></ul>|
 
 To summarize what you can and can't do on the **Data** sheet:

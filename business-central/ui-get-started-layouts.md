@@ -56,7 +56,7 @@ The first thing to do is to decide which [layout type](ui-manage-report-layouts.
 
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
-## <a name="create"></a>Create a new layout from an existing layout
+## <a name="create"></a>Create a new layout
 
 There are two ways to create a new layout from an existing. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
 
@@ -68,6 +68,9 @@ Copying a layout is a quick and easy way to create a new layout based aon an exi
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
 
     If you selected an extension layout, you're prompted whether you want to edit a copy. To continue, select **Yes**.
+
+    > [!TIP]
+    > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**.
 4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
 
@@ -95,7 +98,7 @@ Copying a layout is a quick and easy way to create a new layout based aon an exi
    |-----|-----------|---------|
    |Report ID|Set to the ID assigned to the report|yes|
    |Layout Name| Type a brief description name for the layout to help you easily identify it.|yes|
-   |Description| Type more details information the layout. |no|
+   |Description| Type more detailed information the layout. |no|
    |Format Options|Set this to match the type of the layout, like Word, Excel, or RDLC.|yes|
 
 6. Select **OK** > **Choose** to open file explorer on your device.
@@ -107,7 +110,7 @@ If you want to see how the report looks with the new layout, select the layout i
 
 ---
 
-## <a name="modify"></a>Modify an existing layout
+## <a name="modify"></a>Modify a layout
 
 Follow these steps to modify an existing user-defined layout.
 
@@ -132,13 +135,7 @@ Follow these steps to modify an existing user-defined layout.
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
-## <a name="replace"></a>Replace an existing layout with a new version
-
-<!--
-> [!NOTE]
-> You can't edit or replace a layout that comes from an extension. You can only replace user-defined layouts An extension layout will include information about the source extension in the **Extension** column.
->
-> To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).-->
+## <a name="replace"></a>Replace a layout
 
 Follow these steps to replace the existing user-defined layout file with a new file.
 
@@ -155,6 +152,9 @@ Follow these steps if yoy want to change the name and description of a user-defi
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want to rename, then choose the **Edit Info** action.
+
+    > [!TIP]
+    > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**, then select **OK**.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)

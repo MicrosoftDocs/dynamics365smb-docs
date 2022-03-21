@@ -28,7 +28,9 @@ In particular, a report layout sets up the following things:
 * The company logo and its position.
 * General page settings, such as margins and background images.
 
-A report can be set up with multiple report layouts, which you can switch among as required. <!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
+A report can be set up with multiple report layouts, which you can switch among as required. 
+
+<!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
 There are two important aspects of report layouts that will influence how you work with them: the *layout type* and the *layout source*. The layout type indicates the kind of file that the layout is based on. The layout source indicates the original of the layout.
 
@@ -36,35 +38,37 @@ There are two important aspects of report layouts that will influence how you wo
 
 There are four types of layouts that you can use on reports: Word, RDLC, Excel, and external.
 
-* Word
+### Word
 
-  Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
+Word layouts are based on Word documents (.docx file type). Word layouts enable you to design report layouts by using Microsoft Word. A Word layout determines the report's content - controlling how that content elements are arranged and how they look. A Word layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
-  ![Example of a word report layout document for Business Central.](media/word-layout-overview.png) 
+[![Example of a word report layout document for Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox) 
 
-  <!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
+<!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-  For more information, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
+For more information, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md).
 
-* Excel
+### Excel
 
-  Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data with tools like formulas, PivotTables, PivotCharts, and more.
+Excel layouts are based on Microsoft Excel workbooks (.xlsx file type). They let you create reports by using familiar Excel features for summarizing, analyzing, and presenting data with tools like formulas, PivotTables, PivotCharts, and more.
 
-  ![Shows the an example of an Excel layout.](media/excel-layout-2.png)
+[![Shows the an example of an Excel layout.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
 
-  For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).
+For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).
 
-* RDLC
+### RDLC
 
-  RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). These layouts are created and modified by using SQL Server Report Builder or Microsoft RDLC Report Designer. The design concept for RDLC layouts is similar to Word layouts, where the layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word layouts.
+RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). These layouts are created and modified by using SQL Server Report Builder or Microsoft RDLC Report Designer. The design concept for RDLC layouts is similar to Word layouts, where the layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word layouts.
 
-  For more information, see [Create RDL Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout).
+[![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)]((media/rdlc-layout-overview.png#lightbox)
 
-* External
+For more information, see [Create RDL Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout).
 
-  An external layout type refers to an advanced type that's specially designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout will vary depending on the provider.
+### External
 
-  For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
+An external layout type refers to an advanced type that's specially designed for specific reports. The reports and the layouts themselves are typically provided by partners, not Microsoft. The actual file type of the layout will vary depending on the provider.
+
+For more information, see [Developing a Custom Report Render](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
 ## Layout sources
 

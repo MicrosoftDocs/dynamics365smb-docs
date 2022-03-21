@@ -41,7 +41,7 @@ Depending on what your situation is, the actual tasks will vary. Use the followi
 |Figure out what's the best layout type to use for my situation|[Decide what type of layout you want](#decide)|
 |Create a new layout for a report that's based on an existing layout, keeping the existing layout as it is.|[Create a new layout](#create)|
 |Make changes to an existing layout that's used on a report|[Modify a layout](#modify)|
-|I have a new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#modify)|
+|I have a new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#replace)|
 |Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
 |Change the name and description of a layout|[Rename a layout](#rename-layout)|
 

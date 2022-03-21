@@ -1629,8 +1629,8 @@
 ### [Printing Reports](ui-specify-printer-selection-reports.md#default)
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
-### [Set the Layout](ui-set-report-layout.md)
-### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
+### [(Legacy) Set the Layout)](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)

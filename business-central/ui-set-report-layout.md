@@ -21,25 +21,23 @@ When there are multiple companies in the application, the layouts are set on a p
 
 ## Get started
 
-There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page, the other way is from the **Report Layouts** page. Each page has advantages, for example: 
+There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page. The other way is from the **Report Layouts** page. Each page has advantages, for example: 
 
 - The **Report Layout Selection** page displays a list of all reports.
 
-  The advantage of this page is that it indicates what current layout is. It also lets you set layouts for reports in different companies, without having to switch the company you're working with.
+  This page indicates what the current layout for a report is. Plus, you can set layouts in different companies, without having to switch the company you're working with.
 
 - The **Report Layouts** page displays all available layouts for each report in the current company.
 
-  By listing all layouts, it's easy to find a specific layout by sorting or filtering the list. Once you find the layout you want, you can set it for a report with a single selection.
+  It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
 
   > [!NOTE]
-  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you want even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
+  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you won't even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
 
 ## Set the layout from the Report Layouts page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
-  
-   The **Report Layouts** page lists all the report layouts for each report.
-2. Find the layout in the list, select it, the choose **Set Default** action at the top of the page.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
+2. Find the layout in the list, select it, then select the **Set Default** action at the top of the page.
 
 ## Set the layout from Report Layout Selection page
 
@@ -49,8 +47,8 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 2. Set the **Company** field at the top to the company that includes the report.
 3. Find and select the report in the list, then do one of the following steps:
 
-   - If the layout you want to switch to has a different type than the current layout, select the **Layout Type** field, then choose the type of the layout you want to set on the report. 
-   - If the layout you want to switch to has the same layout type as the current layout, choose the **Select Layout** action at the top.
+   - If the layout that you want to switch to is a different type than the current layout, select the **Layout Type** field, then choose the type of the layout you want to set on the report. 
+   - If the layout that you want to switch to the same type as the current layout, select the **Select Layout** action at the top.
 
 4. In the **Report Layouts** page, select the layout, then select **OK**.
 

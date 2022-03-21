@@ -16,7 +16,7 @@ ms.author: jswymer
 
 RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). The design concepts for RDLC layouts are similar to other layout types. The layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word and Excel layouts.
 
-[![Shows the different elements of an RDLC layout.](media/rdlc-layout.png)](media/rdlc-layout#lightbox)
+[![Shows the different elements of an RDLC layout.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
 ## Required tools
 

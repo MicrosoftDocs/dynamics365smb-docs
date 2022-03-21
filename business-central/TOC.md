@@ -1630,7 +1630,7 @@
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
 ### [Set the Layout Used by a Report](ui-set-report-layout.md)
-### [(Legacy) Set the Layout)](ui-how-change-layout-currently-used-report.md)
+### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)

@@ -3,7 +3,7 @@ title: Optional Activities for Closing Periods
 description: This topic outlines the optional processes and activities for closing accounting periods in Business Central.  
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

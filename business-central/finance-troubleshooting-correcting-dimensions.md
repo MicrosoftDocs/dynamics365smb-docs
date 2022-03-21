@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting and Correcting Dimensions
 description: Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they are used on posted transactions.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

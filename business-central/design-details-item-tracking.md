@@ -3,7 +3,7 @@
     description: The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

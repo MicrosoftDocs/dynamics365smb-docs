@@ -3,7 +3,7 @@ title: Czech Local Functionality - Inventory
 description: This section describes all of the features created to enhance the benefits of local functionality for Inventory in the Czech version.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
 ms.date: 06/17/2021

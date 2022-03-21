@@ -3,12 +3,13 @@ title: Create Users According to Licenses
 description: Describes how to add users to Business Central online or on-premises based on licenses.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
 

@@ -1,16 +1,14 @@
 ---
-title: Keep Track of Segments and Related Interactions| Microsoft Docs
+title: Keep Track of Segments and Related Interactions
 description: Learn about creating segments to define groups of contacts and specifying interactions for segments.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
 

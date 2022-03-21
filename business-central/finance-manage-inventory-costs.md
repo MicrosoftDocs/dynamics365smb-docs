@@ -3,7 +3,7 @@
     description: Cost management is concerned with recording and reporting business operating costs and includes the reporting of manufacturing costs and inventory costs.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[Update Standard Costs](finance-how-to-update-standard-costs.md)|
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
-|Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
 
 ## See Also  

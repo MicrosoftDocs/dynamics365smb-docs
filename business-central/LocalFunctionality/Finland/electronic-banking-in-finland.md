@@ -1,15 +1,16 @@
 ---
-    title: Electronic Banking in Finland
-    description: The Business Central electronic banking feature allows you to process electronic customer and vendor payments.
-    author: edupont04
+title: Electronic Banking in Finland
+description: The Business Central electronic banking feature allows you to process electronic customer and vendor payments.
+author: edupont04
 
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
 # Electronic Banking in Finland

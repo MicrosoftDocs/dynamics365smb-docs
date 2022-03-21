@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting Synchronization Errors
 description: This topic provides some guidance for identifying, troubleshooting and resolving synchronization errors.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -14,7 +14,7 @@ ms.author: bholtorf
 
 ---
 # Troubleshooting Synchronization Errors
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 There are lots of moving parts involved in integrating [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], and sometimes things go wrong. This topic points out some of the typical errors that occur and gives some pointers for how to fix them.
 

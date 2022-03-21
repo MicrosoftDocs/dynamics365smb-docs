@@ -3,7 +3,7 @@
     description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

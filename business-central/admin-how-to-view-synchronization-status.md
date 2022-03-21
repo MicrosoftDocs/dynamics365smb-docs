@@ -1,21 +1,22 @@
 ---
-    title: View the Status of Synchronization Jobs (contains video)
-    description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
-    author: bholtorf
+title: View the Status of Synchronization Jobs (contains video)
+description: Use the Coupled Data Synchronization Errors page to view the status of synchronization jobs that have been run for coupled records in integrations.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: sales, crm, integration, sync, synchronize
-    ms.date: 06/14/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.form: 6250
+ms.date: 06/14/2021
+ms.author: bholtorf
 
 ---
 
 # View the Status of Synchronization Jobs
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Use the **Coupled Data Synchronization Errors** page to view the status of synchronization jobs that have been run for coupled records in a Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)] integrations. This includes jobs that were run from the job queue and manual synchronization jobs that ran on records from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, viewing their status is helpful when troubleshooting because it gives you access to details about errors related to coupled records. Typically, these types of errors are caused by user actions, for example, when:  
 

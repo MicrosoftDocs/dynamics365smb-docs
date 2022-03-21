@@ -3,7 +3,7 @@
     description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

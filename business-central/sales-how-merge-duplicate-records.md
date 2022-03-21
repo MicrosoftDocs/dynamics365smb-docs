@@ -3,7 +3,7 @@ title: Merge Duplicate Customer or Vendor Records
 description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -63,6 +63,9 @@
 	  "inventory**.md": ["dynamics365-bc-app","Dynamics365","inventory","stock", "warehouse","BusinessCentral"], 
 	  "across-how-to-**workflow**.md": ["dynamics365-bc-app","Dynamics365","workflow","approval","BusinessCentral"], 
 	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"], 
+      },
+      "ms.service":{
+        "**.*": "dynamics365-business-central"
       }
     },
     "template": [],

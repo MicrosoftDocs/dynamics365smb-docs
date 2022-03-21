@@ -1,9 +1,9 @@
 ---
 title: The Data Archive Extension
 description: Archiving data creates a low-cost backup of your records.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

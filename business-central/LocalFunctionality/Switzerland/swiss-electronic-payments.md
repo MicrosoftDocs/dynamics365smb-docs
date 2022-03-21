@@ -3,7 +3,7 @@
     description: Swiss enhancements allow you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

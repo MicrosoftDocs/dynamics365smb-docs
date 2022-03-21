@@ -1,16 +1,15 @@
 ---
-title: Custom and Built-In Layouts for Reports and Documents | Microsoft Docs
+title: Custom and Built-In Layouts for Reports and Documents
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -33,7 +32,7 @@ A report can be set up with multiple report layouts, which you can switch among 
 There are two types of report layouts that you can use on reports; Word and RDLC.
 
 ## Word report layout overview
-A Word report layout is a based on Word document (.docx file type). Word report layouts enable you to design report layouts by using Microsoft Word 2013 or later. A Word report layout determines the report's content - controlling how that content elements are arranged and how they look. A Word report layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
+A Word report layout is a based on Word document (.docx file type). Word report layouts enable you to design report layouts by using Microsoft Word. A Word report layout determines the report's content - controlling how that content elements are arranged and how they look. A Word report layout document will typically use tables to arrange content, where the cells can contain data fields, text, or pictures.
 
  ![Example of a word report layout document for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 

@@ -1,20 +1,21 @@
 ---
-    title: How to Set Up Vendors for Remittance [NO]
-    description: Norwegian enhancements include automatically making payments to vendors to reduce errors that occur from manual data entry.
+title: Set Up Vendors for Remittance [NO]
+description: Norwegian enhancements include automatically making payments to vendors to reduce errors that occur from manual data entry.
+author: SorenGP
 
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
+ms.author: edupont
 
 ---
 # Set Up Vendors for Remittance in the Norwegian Version
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. To pay vendors using the remittance system, you must set up vendor information.  
 
 ## To set up a vendor for remittance  

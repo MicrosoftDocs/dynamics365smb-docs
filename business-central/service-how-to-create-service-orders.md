@@ -3,7 +3,7 @@
     description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

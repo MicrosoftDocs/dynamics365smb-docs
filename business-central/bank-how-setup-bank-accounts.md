@@ -1,16 +1,16 @@
 ---
 title: Set Up Bank Accounts (contains video)
 description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
-ms.date: 06/22/2021
+ms.date: 01/24/2022
 ms.author: edupont
 
 ---
@@ -87,6 +87,8 @@ The better mapping information that you do in the payment reconciliation journal
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    For example, the **Bank Acc. Posting Group** field connects the bank account to the underlying G/L account in the balance sheet. For more information, see [Set Up Posting Groups](finance-posting-groups.md).
+
 > [!TIP]
 > Some fields are hidden until you choose the **Show more** action, typically because they are used rarely. Others must be added through personalization. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
@@ -149,7 +151,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md). To learn about how to create opening balances in [!INCLUDE[prod_short](includes/prod_short.md)], see [How to Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md).
+> To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> It is important that you do not post the opening balance directly to the general ledger. Having entries in the G/L account that are posted directly to the G/L account will typically result in you not be able to to reconcile the bank account, or, in case of foreign currency bank accounts, result in differences accumulating as you post more bank reconciliations. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it out later against a designated G/L account that you've used to balance out the opening general ledger balance. In both cases, you must balance out any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.  
 
 ## To set up your bank account for import or export of bank files
 

@@ -3,7 +3,7 @@
     description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the Swiss version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

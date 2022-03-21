@@ -3,7 +3,7 @@
     description: You can create workflows that connect business-process tasks performed by different users, and include System tasks, like automatic posting, as workflow steps.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

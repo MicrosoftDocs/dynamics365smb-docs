@@ -3,7 +3,7 @@ title: Establishment of charges and deductions in Russia
 description: Russian enhancements include charges and deductions.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

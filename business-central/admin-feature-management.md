@@ -2,7 +2,7 @@
 title: Enabling upcoming features ahead of time
 description: Learn how to enable select, optional features before they become mandatory.
 author: mikebcMSFT
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
 ms.search.form: 2610

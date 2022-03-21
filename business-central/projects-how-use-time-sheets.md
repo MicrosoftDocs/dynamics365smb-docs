@@ -3,14 +3,14 @@ title: Use Time Sheets
 description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
 
 ---
@@ -29,7 +29,7 @@ Before you can use time sheets, you must set up general information and specify 
 
 ## To create time sheets
 
-You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.  
+You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task. You can also [schedule the batch job to run automatically](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > You must have permissions to be able to create time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
@@ -40,6 +40,8 @@ You can use the **Create Time Sheets** batch job to set up time sheets for a spe
 
     > [!NOTE]  
     > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+
+    Optionally, choose the **Schedule** action to specify how often you want the task to run automatically. For example, to configure the task to run weekly for four weeks, in the **Schedule a Report - Create Time Sheets** page, set the **Next Run Date Formula** field to *4W*. For more information, see [Scheduling a Report to Run](ui-work-report.md#ScheduleReport).  
 4. Choose the **OK** button.  
 
 You can view the time sheets that you have created on the **Time Sheets** page. Each time sheet consists of one or more lines that define the time that you want to submit for approval. The following table describes the types of lines that you can add to the time sheet.

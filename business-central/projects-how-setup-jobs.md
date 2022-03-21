@@ -3,7 +3,7 @@ title: Set Up Jobs, Prices, and Job Posting Groups
 description: Describes how to set up general jobs information, and set up prices for job items, resources, and G/L accounts and jobs posting groups.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
@@ -64,7 +64,6 @@ The following table shows how the information in the optional fields will be use
 |**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. Note that this price will always override the regular customer price (the "best price" mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.|
 |**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.|
 
----
 #### [New Experience](#tab/new-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
 2. Select the relevant job, and then choose the **Sales Price Lists** action.

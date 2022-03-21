@@ -2,7 +2,7 @@
 title: View Table Information
 description: Learn how you can view information about the database tables directly from the client interface in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

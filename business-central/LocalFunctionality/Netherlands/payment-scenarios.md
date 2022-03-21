@@ -3,7 +3,7 @@
     description: Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order to be processed by our bank.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

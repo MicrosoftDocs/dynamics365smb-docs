@@ -3,7 +3,7 @@ title: Calculate and Post Withholding Tax Settlements (AU)
 description: Learn how to calculate and post the withholding tax (WHT) in the Australian version of Business Central.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

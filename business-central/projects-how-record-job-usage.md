@@ -3,7 +3,7 @@ title: Record Consumption or Usage of Job Resources and Items
 description: Describes how to record the consumption or usage of items or resources on jobs to facilitate project management.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

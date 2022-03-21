@@ -3,7 +3,7 @@ title: Fixed Asset Localization for Czech (Extension)
 description: Fixed Asset features for your Business Central in the Czech Republic. 
 author: v-pejano
 
-ms.service: dynamics365-business-central
+
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 04/01/2021

@@ -2,7 +2,7 @@
     title: Set Up Delivery Reminders [DE]
     description: In the German version of Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
     author: SorenGP
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

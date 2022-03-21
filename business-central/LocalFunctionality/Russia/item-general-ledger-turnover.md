@@ -3,7 +3,7 @@ title: Item general ledger turnover in Russia
 description: Russian enhancements include creating turnover sheets for goods and materials.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

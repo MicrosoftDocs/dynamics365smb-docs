@@ -4,7 +4,7 @@ description: In Business Central, there are two types of declaration in the Belg
 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

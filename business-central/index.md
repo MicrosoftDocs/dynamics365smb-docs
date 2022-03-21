@@ -3,7 +3,7 @@ title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,6 +15,8 @@ ms.author: edupont
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
+
+[Learn how to get a free trial here](trial-signup.md).  
 
 If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). Check out the [quick start articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md).  
 

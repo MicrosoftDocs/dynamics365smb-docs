@@ -3,7 +3,7 @@
     description: After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

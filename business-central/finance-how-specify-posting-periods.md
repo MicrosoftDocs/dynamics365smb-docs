@@ -4,7 +4,7 @@ description: You specify posting periods (posting start and end dates) to set up
 author: SorenGP
 editor: ''
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

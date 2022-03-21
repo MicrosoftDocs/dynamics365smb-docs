@@ -1,15 +1,15 @@
 ---
-title: Set Up Fixed Assets| Microsoft Docs
+title: Set Up Fixed Assets
 description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
+ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 

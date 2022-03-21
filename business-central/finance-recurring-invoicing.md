@@ -3,7 +3,7 @@ title: Work with recurring revenue
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
 author: AndreiPanko
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

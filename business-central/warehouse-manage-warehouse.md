@@ -3,7 +3,7 @@ title: Manage Warehouse Activities
 description: After goods are received and before goods are shipped, a series of internal warehouse activities take place to ensure an effective flow through the warehouse.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

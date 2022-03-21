@@ -2,7 +2,7 @@
 title: Introduction to Business Central and Power BI
 description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

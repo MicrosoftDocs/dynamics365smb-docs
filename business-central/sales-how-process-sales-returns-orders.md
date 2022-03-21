@@ -3,13 +3,13 @@ title: Process Sales Return Orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 9302
+ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/08/2021
 ms.author: edupont
 

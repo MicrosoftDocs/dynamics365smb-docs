@@ -3,7 +3,7 @@
     description: Learn about how to use the warehouse pick documents to create and process pick information prior to posting the warehouse shipment.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

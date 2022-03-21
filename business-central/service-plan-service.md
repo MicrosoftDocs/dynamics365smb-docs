@@ -3,9 +3,9 @@ title: Planning Service Processes
 description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

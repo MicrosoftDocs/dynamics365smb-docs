@@ -1,9 +1,9 @@
 ---
     title: Service Statistics
     description: Get a quick overview of the contents and statistics of service documents such as orders, quotes, invoices, credit memos, service lines, and more.
-    author: bholtorf
+    author: brentholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

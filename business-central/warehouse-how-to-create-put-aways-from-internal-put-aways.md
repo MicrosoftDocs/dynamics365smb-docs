@@ -1,16 +1,17 @@
 ---
-    title: Create Put-aways from Internal Put-aways
-    description: This topic covers how to pick and put away without a source document, both how to create an internal pick, and how to create an internal put-away. 
-    author: SorenGP
+title: Create Put-aways from Internal Put-aways
+description: This topic covers how to pick and put away without a source document, both how to create an internal pick, and how to create an internal put-away. 
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
+ms.date: 06/24/2021
+ms.author: edupont
 
 ---
 # Pick and Put Away Without a Source Document
@@ -50,8 +51,8 @@ The **Internal Put-aways** enables you to perform put-aways without having to re
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

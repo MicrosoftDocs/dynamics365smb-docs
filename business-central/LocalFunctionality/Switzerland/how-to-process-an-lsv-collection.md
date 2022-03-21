@@ -3,7 +3,7 @@
     description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

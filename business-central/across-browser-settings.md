@@ -2,7 +2,7 @@
 title: Setting Up Your Browser
 description: Describes how to set up browsers to work with Business Central and products that integrate with it.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

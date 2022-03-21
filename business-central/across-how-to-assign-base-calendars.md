@@ -3,7 +3,7 @@
     description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

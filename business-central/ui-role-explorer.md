@@ -2,15 +2,17 @@
 title: Exploring and Navigating Pages per Role
 description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
 ms.date: 08/01/2021
 ms.author: jswymer
 ---
+
 # Finding Pages with the Role Explorer
 
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.

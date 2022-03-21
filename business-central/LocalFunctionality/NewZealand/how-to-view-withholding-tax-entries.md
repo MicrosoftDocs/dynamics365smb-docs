@@ -1,9 +1,9 @@
 ---
     title: View Withholding Tax Entries [NZ]
     description: Describes how to view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the New Zealand version.
-    author: bholtorf
+    author: brentholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

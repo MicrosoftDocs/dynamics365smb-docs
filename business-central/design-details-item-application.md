@@ -3,7 +3,7 @@ title: Design Details - Item Application | Microsoft Docs
 description: This topic describes where inventory quantity and value are recorded when you post an inventory transaction.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

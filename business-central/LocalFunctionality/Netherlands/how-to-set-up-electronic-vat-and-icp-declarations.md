@@ -3,7 +3,7 @@
     description: The following topic describes how to Set Up Electronic VAT and ICP Declarations in the Dutch Version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

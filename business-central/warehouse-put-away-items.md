@@ -3,7 +3,7 @@ title: Put Items Away
 description: Putting items away after they are received or output is performed in different ways depending on how warehouse management features are configured.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -4,7 +4,7 @@
 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -32,7 +32,7 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Telebanking](telebanking.md) **Available Now**
     * [Payment Scenarios](payment-scenarios.md) **Available Now**
     * [Payment Scenario 1 - Domestic Payments (LCY to LCY)](payment-scenario-1-domestic-payments-lcy-to-lcy-.md) **Available Now**  
-    * [Payment Scenario 2 - Foreign Payment (FCY to FCY)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md **Available Now**  
+    * [Payment Scenario 2 - Foreign Payment (FCY to FCY)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md) **Available Now**  
     * [Payment Scenario 3 - Foreign Payment (LCY  to FCY)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md) **Available Now**
     * [Create Proposals](how-to-create-proposals.md) **Available Now**
     * [Docket Reports](docket-reports.md) **Available Now**
@@ -62,6 +62,7 @@ The following topics describe local functionality that is unique to the Dutch ve
 ## See Also
 
 [Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

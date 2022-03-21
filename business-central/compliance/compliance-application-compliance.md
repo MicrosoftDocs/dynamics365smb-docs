@@ -4,7 +4,7 @@
     author: sorenfriisalexandersen
     documentationcenter: ''
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -73,7 +73,6 @@ Deliver integrated information, aligned processes, and easy-to-use tools to help
 - Save time    when you create    standard reports that use common business parameters and criteria to satisfy typical reporting needs, ranging from order summaries to aging accounts receivable.
 - Perform complex reviews with basic or    advanced business analytics functionality.
 - Create custom reports and display in product and by utilizing integration to Microsoft PowerBI.
-- Speed    transmission of    financial information to customers, shareholders, regulatory agencies, and the public with XML-based XBRL documents that support the exchange of financial information across different software and technologies, including the Internet.
 
 ### Help ensure clear audit trails
 

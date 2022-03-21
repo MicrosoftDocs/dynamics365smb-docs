@@ -3,7 +3,7 @@
     description: This topic describes several alternative methods that you can use to convert service contracts that include VAT amounts.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

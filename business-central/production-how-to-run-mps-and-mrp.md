@@ -3,7 +3,7 @@
     description: The planning system can calculate either Master Planning Schedule (MPS) or Material Requirements Planning (MRP) on request, or both at the same time.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

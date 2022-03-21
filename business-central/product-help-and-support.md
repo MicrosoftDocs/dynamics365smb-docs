@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 01/28/2022
+ms.date: 03/21/2022
 ---
 
 # Resources for Help and Support
@@ -19,7 +19,7 @@ Tips and guidance for how to use [!INCLUDE[prod_long](includes/prod_long.md)], h
 
 ## Help pane
 
-<!--add include for 2022rw1-->
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
 In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it. The following list describes the cards that are always, or nearly always, present:  
 
